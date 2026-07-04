@@ -1,0 +1,89 @@
+# Step 06 - Worker Implementations (Stage 0 and Stage 1)
+
+## Goal
+
+Implement worker loops for both pipeline stages with queue chaining and lock usage.
+
+## Prerequisites
+
+- Steps 01ù03 accepted (config, paths, queue, locks).
+- Step 04 accepted (main enqueues jobs; API integration for E2E optional but recommended).
+
+## Definitions
+
+| Stage | Input | Output | Queue |
+|-------|-------|--------|-------|
+| 0 `raw2docling_raw` | `{SHARED}/{resolved_path}` raw file | `{SHARED}/00_docling_raw/{resolved_path}.md` | consume `raw2docling_raw`, produce stage1 job |
+| 1 `docling_raw2docling_clean00` | stage0 OKF at above path | `{SHARED}/01_docling_clean00/{resolved_path}.md` | consume `docling_raw2docling_clean00` |
+
+| Rule | Detail |
+|------|--------|
+| **Worker lock** | Create `{SHARED}/{resolved_path}.worker.lock` before work; remove on completion (success or best-effort skip). |
+| **Atomic write** | Write temp file in target dir + `rename` on NFS (see `docs/LAYER_SERVICES.md`). |
+| **Missing input** | If raw/OKF absent at consume time: log, remove lock, continue (no crash). |
+| **Duplicate jobs** | Last-writer-wins on same output path. |
+| **`enforce=true`** | Overwrite existing stage output. |
+| **Stage1 frontmatter** | Update `stage.id=docling_clean00`, `processed_at`; preserve `raw` block. |
+| **Docling** | Required real conversion via `app/workers/docling.py`; OCR default `en` + `ru`; see [DOCLING.md](../DOCLING.md). |
+| **Archives** | Zip and other archive extensions are not Docling input; excluded from reindex and rejected on upload. |
+| **Failure markers** | On conversion/cleanup error write `SHARED/.pipeline_errors/<stage>/`; status API reports `failed`. |
+| **Timeout** | Jobs abort after `runtime.process_timeout_seconds`. |
+
+## Tasks
+
+1. Stage 0 worker (`service/raw2docling_raw/worker.py`):
+   - `BLPOP` stage0 queue,
+   - worker lock on `resolved_path`,
+   - run Docling conversion (OCR when configured),
+   - build `ParserOkfFrontmatter` per `docs/LAYER_DATA.md`,
+   - atomic write stage0 OKF,
+   - enqueue stage1 `QueueJob` with same `requested_path` / `resolved_path`,
+   - remove lock; on failure record error marker.
+2. Stage 1 worker (`service/docling_raw2docling_clean00/worker.py`):
+   - `BLPOP` stage1 queue,
+   - parse OKF, fast cleanup on body (`app/workers/cleanup.py`),
+   - atomic write stage1 OKF,
+   - remove lock; on failure record error marker.
+3. Preserve last-writer-wins for duplicate in-flight jobs.
+4. Add worker unit tests; Docling integration tests use real PDFs from `SHARED/RAW_DATA` (see `tests/workers/test_docling_integration.py`).
+
+## Non-goals
+
+- Automatic stale-lock recovery during normal runtime (use `clean_lock.sh` on full restart).
+
+## Acceptance Criteria
+
+- Stage chaining works end-to-end with real Docling on supported inputs.
+- Output paths follow `__vNN.<ext>.md` naming.
+- Integration test `test_stage0_to_stage1_queue_chain` passes here.
+
+## Required Tests (must be implemented and pass)
+
+1. `tests/workers/test_stage0.py::test_stage0_consumes_from_stage0_queue_only`
+2. `tests/workers/test_stage0.py::test_stage0_creates_worker_lock_and_cleans_on_success`
+3. `tests/workers/test_stage0.py::test_stage0_writes_stage0_okf_path_with_versioned_name`
+4. `tests/workers/test_stage0.py::test_stage0_enqueues_stage1_job`
+5. `tests/workers/test_stage0.py::test_stage0_atomic_write_uses_temp_then_rename`
+6. `tests/workers/test_stage1.py::test_stage1_consumes_from_stage1_queue_only`
+7. `tests/workers/test_stage1.py::test_stage1_reads_stage0_okf_and_writes_stage1_okf`
+8. `tests/workers/test_stage1.py::test_stage1_updates_frontmatter_stage_fields`
+9. `tests/workers/test_common.py::test_missing_input_is_best_effort_no_crash`
+10. `tests/workers/test_common.py::test_duplicate_jobs_last_writer_wins`
+11. `tests/workers/test_common.py::test_enforce_true_overwrites_existing_output`
+
+## Verification Command
+
+- `pytest tests/workers -q`
+
+## Integration Tests (must be implemented and pass)
+
+1. `tests/integration/test_workers_pipeline.py::test_stage0_to_stage1_queue_chain`
+2. `tests/integration/test_workers_pipeline.py::test_stage0_and_stage1_end_to_end`
+3. `tests/integration/test_workers_pipeline.py::test_duplicate_inflight_jobs_last_writer_wins`
+4. `tests/integration/test_workers_pipeline.py::test_missing_input_best_effort_no_crash`
+5. `tests/integration/test_workers_pipeline.py::test_enforce_rewrite_path`
+6. `tests/integration/test_workers_pipeline.py::test_worker_lock_lifecycle`
+
+## Integration Verification Command
+
+- `pytest tests/integration/test_workers_pipeline.py -q`

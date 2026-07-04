@@ -1,0 +1,71 @@
+# Step 09 - Infrastructure Baseline (Docker/Compose/Observability)
+
+## Goal
+
+Provide runnable local/server baseline with observability hooks.
+
+## Prerequisites
+
+- Steps 01–08 functionally complete (services, workers, panel exist to containerize).
+
+## Definitions
+
+| Component | Requirement |
+|-----------|-------------|
+| **Core compose services** | `main`, `raw2docling_raw` (scalable), `docling_raw2docling_clean00` (scalable), `redis`, shared volume mount |
+| **Profiles** | `observability`: prometheus, optional grafana, otel-collector |
+| **Metrics** | `/metrics` on main (Prometheus format) |
+| **Logging** | Loguru JSON in container mode |
+| **OTEL** | Non-blocking export if collector unavailable |
+| **Langfuse** | Config placeholders; disabled by default |
+
+Worker replica count in compose must reflect `config.yaml` `workers.*` values (env or deploy override).
+
+## Tasks
+
+1. Dockerfiles: `service/main`, both workers, optional `admin_panel`.
+2. `docker-compose.yml` with core stack + observability profile.
+3. Shared Loguru setup (structured JSON, common context: service name, stage).
+4. Prometheus `/metrics` wiring on main.
+5. OpenTelemetry bootstrap (non-blocking).
+6. Langfuse placeholders disabled by default.
+
+## Non-goals
+
+- Kubernetes manifests.
+- Production HA Redis/NFS setup.
+
+## Acceptance Criteria
+
+- `docker compose up` starts core stack.
+- Metrics endpoint scrapeable; traces export does not block startup.
+- `SHARED` volume shared across main and workers.
+
+## Required Tests (must be implemented and pass)
+
+1. `tests/infra/test_dockerfiles.py::test_all_required_service_dockerfiles_exist`
+2. `tests/infra/test_compose.py::test_compose_has_required_core_services`
+3. `tests/infra/test_compose.py::test_compose_profiles_defined`
+4. `tests/infra/test_compose.py::test_worker_scaling_env_or_config_wired`
+5. `tests/infra/test_compose.py::test_shared_volume_mounted_for_parser_services`
+6. `tests/infra/test_observability.py::test_metrics_endpoint_exposed`
+7. `tests/infra/test_observability.py::test_loguru_json_logging_enabled_in_container_mode`
+8. `tests/infra/test_observability.py::test_otel_non_blocking_when_backend_unavailable`
+9. `tests/infra/test_observability.py::test_langfuse_disabled_by_default`
+
+## Verification Command
+
+- `pytest tests/infra -q`
+
+## Integration Tests (must be implemented and pass)
+
+1. `tests/integration/test_compose_stack.py::test_compose_up_core_stack`
+2. `tests/integration/test_compose_stack.py::test_api_and_workers_reach_shared_storage`
+3. `tests/integration/test_compose_stack.py::test_redis_queue_connectivity_in_compose`
+4. `tests/integration/test_compose_observability.py::test_prometheus_scrapes_parser_metrics`
+5. `tests/integration/test_compose_observability.py::test_otel_export_pipeline_non_blocking`
+6. `tests/integration/test_compose_observability.py::test_langfuse_disabled_by_default_in_runtime`
+
+## Integration Verification Command
+
+- `pytest tests/integration/test_compose_stack.py tests/integration/test_compose_observability.py -q`

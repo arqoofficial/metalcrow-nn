@@ -1,0 +1,44 @@
+[project]
+name = "article-fetcher"
+version = "0.1.0"
+description = "Async sci-hub article fetcher microservice"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "fastapi[standard]>=0.114.2,<1.0.0",
+    "uvicorn[standard]>=0.30.0,<1.0.0",
+    "redis>=5.0.0,<6.0.0",
+    "scidownl>=1.0.2",
+    "boto3>=1.28.0",
+    "pydantic-settings>=2.2.0,<3.0.0",
+    "curl_cffi>=0.7",
+    # Stealth headless-browser fetch tier (OPTIONAL at runtime, flag-gated by
+    # HEADLESS_FETCH_ENABLED). Patched Firefox solver for Akamai/Cloudflare JS
+    # interstitials that curl_cffi cannot pass. Git dependency — the patched
+    # Firefox binary itself is downloaded at image-build time via
+    # `python -m invisible_playwright fetch` (see Dockerfile).
+    "invisible_playwright @ git+https://github.com/feder-cr/invisible_playwright.git",
+    # Virtual X display (Xvfb wrapper) for the headless tier. The fetcher runs as
+    # a long-lived uvicorn service (NOT under xvfb-run), so it must start its own
+    # X server around each stealth-Firefox launch. Needs the `Xvfb` binary present
+    # (installed via apt in the Dockerfile). Lazy-imported inside the fetch
+    # function, so it is dead weight only when HEADLESS_FETCH_ENABLED=false.
+    "pyvirtualdisplay>=3.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]

@@ -1,0 +1,80 @@
+# Public deployment (immers.cloud VM) — STANDALONE compose (no shared cosmetic-agent network).
+# LiteLLM sits behind Caddy, which terminates TLS (auto Let's Encrypt) for the subdomain.
+#
+# Run from services/llm-gateway/ :
+#   GATEWAY_DOMAIN=gw.autumn-lab.uk docker compose -f deploy/docker-compose.public.yml up -d
+#
+# NOTE: the same .env is reused, but on the public VM LANGFUSE_HOST must point at a reachable
+# Langfuse (own instance, or the shared one exposed) — decision pending, see spec §9. If Langfuse
+# is unreachable, drop the langfuse callbacks in config or point LANGFUSE_HOST at a valid target.
+
+services:
+  litellm:
+    image: ghcr.io/berriai/litellm:main-stable
+    container_name: metalcrow-litellm-gw
+    restart: unless-stopped
+    env_file:
+      - ../.env
+    volumes:
+      # Full rendered config — keeps success_callback/failure_callback: ["langfuse"].
+      # Tracing goes to the co-located Langfuse (services/langfuse) via LANGFUSE_HOST in .env
+      # (http://langfuse-server:3000, reachable over the shared `langfuse` network).
+      - ../config.rendered.yaml:/app/config.yaml:ro
+      - /etc/gai.conf:/etc/gai.conf:ro          # prefer IPv4 (dead AAAA otherwise hangs httpx)
+    command: ["--config", "/app/config.yaml", "--port", "4000", "--num_workers", "1"]
+    expose:
+      - "4000"                 # internal only; Caddy is the public front door
+    networks: [default, langfuse]   # default = internet egress; langfuse = reach langfuse-server:3000
+    depends_on:
+      litellm-db:
+        condition: service_healthy
+    environment:
+      # DB enables the admin UI + virtual keys + request logs (without it the UI errors
+      # "not connected to a database"). LiteLLM auto-runs its Prisma migrations on boot.
+      DATABASE_URL: postgresql://litellm:${LITELLM_DB_PASSWORD:?set LITELLM_DB_PASSWORD in .env}@litellm-db:5432/litellm
+      STORE_MODEL_IN_DB: "true"
+      UI_USERNAME: ${LITELLM_UI_USERNAME:-admin}
+      UI_PASSWORD: ${LITELLM_UI_PASSWORD:?set LITELLM_UI_PASSWORD in .env}
+
+  litellm-db:
+    image: postgres:16
+    container_name: metalcrow-litellm-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: litellm
+      POSTGRES_PASSWORD: ${LITELLM_DB_PASSWORD:?set LITELLM_DB_PASSWORD in .env}
+      POSTGRES_DB: litellm
+    volumes:
+      - litellm_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U litellm"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  caddy:
+    image: caddy:2
+    container_name: metalcrow-gw-caddy
+    restart: unless-stopped
+    depends_on: [litellm]
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      GATEWAY_DOMAIN: ${GATEWAY_DOMAIN:?set GATEWAY_DOMAIN to the autumn-lab.uk subdomain}
+      LANGFUSE_DOMAIN: ${LANGFUSE_DOMAIN:-langfuse.autumn-lab.uk}   # co-located Langfuse UI host
+    networks: [default, langfuse]   # langfuse = reach langfuse-server:3000 for the UI proxy
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+networks:
+  langfuse:
+    name: langfuse_default        # the services/langfuse compose's default network (external)
+    external: true
+
+volumes:
+  caddy_data:
+  caddy_config:
+  litellm_db_data:

@@ -1,0 +1,45 @@
+# Local dev: run panel/reindex scripts on the host while API/workers run in Docker.
+# panel.sh uses this when ./config.yaml is absent (override with CONFIG_PATH=...).
+shared_root: ./SHARED
+
+queues:
+  raw2docling_raw: parser:jobs:raw2docling_raw
+  docling_raw2docling_clean00: parser:jobs:docling_raw2docling_clean00
+
+api:
+  host: 0.0.0.0
+  port: 8114
+
+workers:
+  raw2docling_raw: 2
+  docling_raw2docling_clean00: 4
+
+locks:
+  upload_suffix: .upload.lock
+  worker_suffix: .worker.lock
+
+pipeline:
+  stages:
+    - docling_raw
+    - docling_clean00
+  docling:
+    ocr_enabled: true
+    ocr_languages:
+      - en
+      - ru
+
+runtime:
+  process_timeout_seconds: 600
+
+admin_panel:
+  api_base_url: http://127.0.0.1:8114
+  actions:
+    allow_reindex: true
+    allow_restart_hooks: false
+    restart_hooks_script: rerun.sh
+    confirm_destructive_actions: true
+
+observability:
+  metrics_enabled: false
+  otel_enabled: false
+  langfuse_enabled: false

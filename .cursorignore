@@ -1,0 +1,61 @@
+.local_files/
+
+# Secrets and local config
+# .env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.toml
+
+# Local / personal files
+local_files/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+.pixi/
+
+# Build, cache, artifacts
+dist/
+build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+coverage/
+htmlcov/
+*.egg-info/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.rdb
+
+# Large binaries and archives
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.7z
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
+
+# Git internals (not useful for AI context)
+.git/

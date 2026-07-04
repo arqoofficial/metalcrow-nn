@@ -1,0 +1,30 @@
+{
+  "n_terms": 33828,
+  "n_typed": 33025,
+  "n_nuextract_terms": 32206,
+  "n_entity_patterns": 28176,
+  "n_concepts": 18409,
+  "n_abbreviations": 8264,
+  "encoder": "intfloat/multilingual-e5-large",
+  "params": {
+    "MIN_MENTIONS": 3,
+    "MIN_DOCS": 2,
+    "AGREE": 0.6
+  },
+  "v31_cleanup": {
+    "dropped_author_initials": 411,
+    "relabelled_to_FACILITY": 233
+  },
+  "patterns_by_label": {
+    "PROCESS": 4245,
+    "PROPERTY": 5439,
+    "MATERIAL": 14148,
+    "EQUIPMENT": 4111,
+    "FACILITY": 233
+  },
+  "abbr_breakdown": {
+    "nuextract_SHvalid": 3571,
+    "from_v2_union": 4693,
+    "total": 8264
+  }
+}

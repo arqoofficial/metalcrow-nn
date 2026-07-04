@@ -1,0 +1,65 @@
+# syntax=docker/dockerfile:1
+#
+# Lightweight image for the parser API service (`main`) ONLY.
+#
+# `main` just serves files out of SHARED/ (upload / status / tree / markdown /
+# raw) — it never runs Docling/OCR. Those live exclusively in the stage0/stage1
+# workers (app/workers/docling.py), so this image deliberately skips the heavy
+# torch + docling + easyocr stack (~2.5 GB, ~10 min build) and installs only the
+# API's own runtime deps. Result: ~150 MB, ~1 min build.
+#
+# The Docling workers still use the full ./Dockerfile image; they are gated
+# behind the `parsing` compose profile (see services/nornickel-parser.override.yml)
+# and only built/run when that profile is explicitly enabled.
+FROM python:3.12-slim
+
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
+
+WORKDIR /app
+
+ENV UV_COMPILE_BYTECODE=0 \
+    UV_LINK_MODE=copy \
+    UV_PYTHON_DOWNLOADS=never \
+    UV_CACHE_DIR=/home/parser/.cache/uv
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends gosu \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd --create-home --uid 1000 parser \
+    && chown parser:parser /app
+
+USER parser
+
+# Only the API's runtime deps — NOT the project itself (no torch/docling/easyocr).
+# Kept in sync with the non-heavy entries of pyproject.toml [project.dependencies].
+RUN --mount=type=cache,target=/home/parser/.cache/uv,uid=1000,gid=1000 \
+    uv venv /app/.venv \
+    && uv pip install --python /app/.venv/bin/python \
+        "pydantic>=2.0,<3" \
+        "PyYAML>=6.0,<7" \
+        "redis>=5.0,<6" \
+        "fastapi>=0.110,<1" \
+        "python-multipart>=0.0.9,<1" \
+        "uvicorn>=0.27,<1" \
+        "python-dotenv>=1.0,<2" \
+        "httpx>=0.27,<1" \
+        "typer>=0.12,<1" \
+        "rich>=13.0,<14" \
+        "loguru>=0.7,<1" \
+        "prometheus-client>=0.20,<1" \
+        "opentelemetry-api>=1.27,<2" \
+        "opentelemetry-sdk>=1.27,<2"
+
+COPY --chown=parser:parser . .
+COPY --chown=parser:parser config/docker.yaml /app/config.yaml
+
+USER root
+COPY docker/entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
+
+ENV CONTAINER_MODE=1 \
+    PYTHONPATH=/app \
+    PATH="/app/.venv/bin:${PATH}"
+
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+CMD ["uvicorn", "service.main.main:app", "--host", "0.0.0.0", "--port", "8114"]

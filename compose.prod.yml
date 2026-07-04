@@ -1,0 +1,14 @@
+# Оверлей для запуска на сервере (хакатон-деплой): наружу торчит только
+# фронтенд, без Traefik и без указания порта в адресе (80 — порт по
+# умолчанию для HTTP, поэтому в браузере достаточно http://<ip-сервера>).
+#
+# db, adminer, backend доступны только внутри docker-сети — фронтенд (nginx)
+# проксирует запросы /api на backend внутри сети.
+#
+# Запуск:
+#   docker compose -f compose.yml -f compose.prod.yml up -d --build
+
+services:
+  frontend:
+    ports:
+      - "${FRONTEND_PORT:-80}:80"

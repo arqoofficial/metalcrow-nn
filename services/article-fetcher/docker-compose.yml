@@ -1,0 +1,37 @@
+services:
+  redis:
+    image: redis:7
+    networks:
+      - fetcher-net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  fetcher:
+    build:
+      context: ../..
+      dockerfile: services/article-fetcher/Dockerfile
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - fetcher-net
+    env_file: .env
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      MINIO_ENDPOINT: https://s3.msk.immers.cloud
+      MINIO_PUBLIC_ENDPOINT: https://s3.msk.immers.cloud
+      MINIO_BUCKET: metalcrow-articles
+      MINIO_REGION: ru-msk
+      HEADLESS_FETCH_ENABLED: "false"
+      ARTICLE_PROCESSOR_WEBHOOK_URL: ""
+    expose:
+      - "8200"
+    ports:
+      - "127.0.0.1:8200:8200"
+
+networks:
+  fetcher-net:
+    driver: bridge

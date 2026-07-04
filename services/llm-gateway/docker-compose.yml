@@ -1,0 +1,32 @@
+# LiteLLM gateway — self-contained stack.
+# Reaches the SHARED Langfuse (owned by the cosmetic-agent stack) by attaching that
+# stack's docker network as external and calling it by internal service name.
+#
+# Bring up:  ./render-config.sh && docker compose up -d
+# (render-config.sh writes config.rendered.yaml from config.template.yaml + .env)
+
+services:
+  litellm:
+    image: ghcr.io/berriai/litellm:main-stable
+    container_name: metalcrow-litellm-gw
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./config.rendered.yaml:/app/config.yaml:ro
+    command: ["--config", "/app/config.yaml", "--port", "4000", "--num_workers", "1"]
+    ports:
+      - "127.0.0.1:4100:4000"      # host 4100 (4000 is the existing Langfuse server)
+    networks:
+      default: {}                  # project network → internet egress (Yandex/OpenRouter)
+      cosmetic-agent_default: {}    # shared Langfuse reachable as http://langfuse-server:3000
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; urllib.request.urlopen('http://localhost:4000/health/liveliness'); "]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+networks:
+  cosmetic-agent_default:
+    external: true

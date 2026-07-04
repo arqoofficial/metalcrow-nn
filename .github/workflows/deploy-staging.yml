@@ -1,0 +1,40 @@
+name: Deploy to Staging
+
+# Deployment disabled until infrastructure is ready.
+# Re-enable by restoring the push trigger below.
+on:
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - master
+
+permissions: {}
+
+jobs:
+  deploy:
+    if: false # deployment not needed yet
+    environment: staging
+    runs-on:
+      - self-hosted
+      - staging
+    env:
+      ENVIRONMENT: staging
+      STACK_NAME: ${{ secrets.STACK_NAME_STAGING }}
+      VITE_API_URL: ${{ secrets.VITE_API_URL_STAGING }}
+      FRONTEND_HOST: ${{ secrets.FRONTEND_HOST_STAGING }}
+      SECRET_KEY: ${{ secrets.SECRET_KEY }}
+      FIRST_SUPERUSER: ${{ secrets.FIRST_SUPERUSER }}
+      FIRST_SUPERUSER_PASSWORD: ${{ secrets.FIRST_SUPERUSER_PASSWORD }}
+      SMTP_HOST: ${{ secrets.SMTP_HOST }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      EMAILS_FROM_EMAIL: ${{ secrets.EMAILS_FROM_EMAIL }}
+      POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+      SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+      - run: docker compose -f compose.yml --project-name ${{ secrets.STACK_NAME_STAGING }} build
+      - run: docker compose -f compose.yml --project-name ${{ secrets.STACK_NAME_STAGING }} up -d

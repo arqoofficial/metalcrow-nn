@@ -1,0 +1,88 @@
+name: Test Backend
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+permissions: {}
+
+jobs:
+  test-backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+      - name: Prepare environment
+        run: cp .env.example .env
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version-file: .python-version
+      - name: Install uv
+        uses: astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39 # v8.2.0
+        with:
+          # Before upgrading uv version, make sure astral-sh/setup-uv knows its checksum.
+          # See: https://github.com/astral-sh/setup-uv/issues/851#issuecomment-4282017837
+          version: "0.11.18"
+      - name: Install backend dependencies
+        run: uv sync
+        working-directory: backend
+      - run: docker compose down -v --remove-orphans
+      # pgvector/pgvector:pg18 — иначе не встанет CREATE EXTENSION vector (SPEC_V3 §4).
+      # Redis/MinIO не нужны: ingest/sources тесты патчатся через fake_storage/fake_redis
+      # (backend/tests/conftest.py).
+      - run: docker compose up -d db --wait
+      - name: Migrate DB
+        run: uv run bash scripts/prestart.sh
+        working-directory: backend
+      - name: Run tests
+        run: uv run bash scripts/tests-start.sh "Coverage for ${{ github.sha }}"
+        working-directory: backend
+      - run: docker compose down -v --remove-orphans
+      - name: Store coverage files
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: coverage-html
+          path: backend/htmlcov
+          include-hidden-files: true
+      - name: Coverage report
+        run: uv run coverage report --fail-under=90
+        working-directory: backend
+
+  test-ontology:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version-file: .python-version
+      - name: Start Postgres for ontology tests
+        run: |
+          docker run -d --name onto_pg_ci -p 56543:5432 \
+            -e POSTGRES_PASSWORD=onto -e POSTGRES_DB=onto \
+            pgvector/pgvector:pg18
+          for i in $(seq 1 30); do
+            docker exec onto_pg_ci pg_isready -U postgres && break
+            sleep 2
+          done
+          docker exec onto_pg_ci psql -U postgres -c 'CREATE DATABASE onto_test;'
+      - name: Install ontology dependencies
+        run: |
+          cd services/ontology-knowledge-graph
+          uv sync --frozen --no-dev
+      - name: Run ontology tests
+        working-directory: services/ontology-knowledge-graph
+        run: uv run pytest ontology/tests -q
+      - name: Stop Postgres
+        if: always()
+        run: docker rm -f onto_pg_ci
