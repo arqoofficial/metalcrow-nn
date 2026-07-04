@@ -1,1 +1,1 @@
-# metalcrow-nornickel-2026
+# metalcrow-nn
