@@ -1,0 +1,6 @@
+# Runtime deps for the chat benchmark. All are already present in the repo venv
+# (backend uses httpx + pydantic; pyyaml ships transitively), so on the dev/prod
+# stack you can run it with the repo's .venv without installing anything.
+httpx>=0.27
+pydantic>=2.7
+pyyaml>=6.0

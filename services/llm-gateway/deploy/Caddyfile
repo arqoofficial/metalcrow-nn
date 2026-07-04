@@ -1,0 +1,12 @@
+# Caddy auto-provisions a Let's Encrypt cert for $GATEWAY_DOMAIN and reverse-proxies to LiteLLM.
+# The proxy itself is still protected by LITELLM_MASTER_KEY (bearer). TLS + key = public-safe.
+{$GATEWAY_DOMAIN} {
+	reverse_proxy litellm:4000
+}
+
+# Co-located self-hosted Langfuse UI/API (services/langfuse stack). Same Caddy, same box,
+# auto-TLS. Caddy reaches it by container name over the shared external `langfuse_default`
+# network (see docker-compose.public.yml networks). langfuse-server listens on :3000.
+{$LANGFUSE_DOMAIN} {
+	reverse_proxy langfuse-server:3000
+}

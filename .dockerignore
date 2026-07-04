@@ -1,0 +1,46 @@
+# Repo-root build context (backend, frontend, parse-docling, article-fetcher).
+# Docker only reads .dockerignore from the context root, not subdirs.
+
+# Python
+**/__pycache__
+**/*.pyc
+**/.mypy_cache
+**/.pytest_cache
+**/.ruff_cache
+**/.venv
+**/.coverage
+**/htmlcov
+**/*.egg-info
+
+# Node / frontend
+**/node_modules
+frontend/dist
+
+# Git / IDE
+.git
+**/.git
+**/.cursor
+**/.vscode
+**/.idea
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Heavy or unrelated service trees (each has its own build context)
+services/nornickel-2026-parser
+services/science-knowledge-graph
+services/ontology-knowledge-graph
+services/llm-gateway
+services/langfuse
+benchmark
+term_dictionary
+
+# Docs / misc
+**/*.md
+!README.md
+**/.agents
+**/.claude
+coverage
+htmlcov

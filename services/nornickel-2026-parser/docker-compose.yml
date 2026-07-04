@@ -1,0 +1,100 @@
+services:
+  redis:
+    image: redis:7-alpine
+    networks: [parser-net]
+
+  main:
+    image: nornickel-2026-parser:local
+    build:
+      context: .
+      args:
+        TORCH_VARIANT: cpu
+    command: uvicorn service.main.main:app --host 0.0.0.0 --port 8114
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      CONFIG_PATH: /app/config.yaml
+      ENV_PATH: /app/.env
+      CONTAINER_MODE: "1"
+      WORKERS_RAW2DOCLING_RAW: ${WORKERS_RAW2DOCLING_RAW:-1}
+      WORKERS_DOCLING_RAW2DOCLING_CLEAN00: ${WORKERS_DOCLING_RAW2DOCLING_CLEAN00:-4}
+    volumes:
+      - ./SHARED:/mnt/nfs/SHARED
+    ports:
+      - "8114:8114"
+    depends_on: [redis]
+    networks: [parser-net]
+
+  raw2docling_raw:
+    image: nornickel-2026-parser:local
+    command: python service/raw2docling_raw/worker.py
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      CONFIG_PATH: /app/config.yaml
+      ENV_PATH: /app/.env
+      CONTAINER_MODE: "1"
+      MODEL_CACHE_ROOT: /models
+      EASYOCR_MODULE_PATH: /models/easyocr
+      HF_HOME: /models/huggingface
+      TRANSFORMERS_CACHE: /models/huggingface/transformers
+      TORCH_HOME: /models/torch
+      XDG_CACHE_HOME: /models/xdg
+      REQUIRE_PRELOADED_MODELS: ${REQUIRE_PRELOADED_MODELS:-true}
+      DOC_OCR_USE_GPU: ${DOC_OCR_USE_GPU:-auto}
+    volumes:
+      - ./SHARED:/mnt/nfs/SHARED
+      - ./SHARED/MODELS:/models
+    depends_on: [redis, main]
+    networks: [parser-net]
+    deploy:
+      replicas: ${WORKERS_RAW2DOCLING_RAW:-1}
+
+  docling_raw2docling_clean00:
+    image: nornickel-2026-parser:local
+    command: python service/docling_raw2docling_clean00/worker.py
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      CONFIG_PATH: /app/config.yaml
+      ENV_PATH: /app/.env
+      CONTAINER_MODE: "1"
+      MODEL_CACHE_ROOT: /models
+      EASYOCR_MODULE_PATH: /models/easyocr
+      HF_HOME: /models/huggingface
+      TRANSFORMERS_CACHE: /models/huggingface/transformers
+      TORCH_HOME: /models/torch
+      XDG_CACHE_HOME: /models/xdg
+      REQUIRE_PRELOADED_MODELS: ${REQUIRE_PRELOADED_MODELS:-true}
+      DOC_OCR_USE_GPU: ${DOC_OCR_USE_GPU:-auto}
+    volumes:
+      - ./SHARED:/mnt/nfs/SHARED
+      - ./SHARED/MODELS:/models
+    depends_on: [redis, main]
+    networks: [parser-net]
+    deploy:
+      replicas: ${WORKERS_DOCLING_RAW2DOCLING_CLEAN00:-4}
+
+  prometheus:
+    profiles: [observability]
+    image: prom/prometheus:v2.55.0
+    volumes:
+      - ./infra/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    ports:
+      - "9090:9090"
+    networks: [parser-net]
+
+  grafana:
+    profiles: [observability]
+    image: grafana/grafana:11.2.0
+    ports:
+      - "3000:3000"
+    networks: [parser-net]
+
+  otel-collector:
+    profiles: [observability]
+    image: otel/opentelemetry-collector:0.111.0
+    command: ["--config=/etc/otel-collector.yaml"]
+    volumes:
+      - ./infra/otel/otel-collector.yaml:/etc/otel-collector.yaml:ro
+    networks: [parser-net]
+
+networks:
+  parser-net:

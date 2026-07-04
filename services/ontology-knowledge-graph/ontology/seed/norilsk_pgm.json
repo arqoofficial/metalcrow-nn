@@ -1,0 +1,102 @@
+{
+  "_comment": "Нормализованный выход экстрактора для трёх документов корпуса (аффинаж/гидрометаллургия ДМ + пирометаллургия меди). Каждый snippet — дословная цитата из документа (провенанс проходит контракт). Числа заведены из текста; требуют доменной валидации.",
+
+  "documents": [
+    {"doc_id": "doc:chlorination-pgm", "title": "Перспективная технология хлорирования, позволяющая повысить показатели производства концентратов ДМ", "doc_type": "internal_report", "country": "RU", "lang": "ru", "source_path": "Источники информации/Статьи/19 Статья по хлорированию - ГОТОВО.docx"},
+    {"doc_id": "doc:au-precip-sulfite", "title": "Применение сульфита натрия для осаждения золота из платино-палладиевых растворов сложного состава", "doc_type": "internal_report", "country": "RU", "lang": "ru", "source_path": "Источники информации/Статьи/39 Статья_Применение сульфита натрия для осаждения Au из Pt-Pd растворов сложного состава.docx"},
+    {"doc_id": "doc:copper-anodes", "title": "Исследование перспективных составов для отливки медных анодов", "doc_type": "internal_report", "country": "RU", "lang": "ru", "source_path": "Источники информации/Статьи/39 ИССЛЕДОВАНИЕ ПЕРСПЕКТИВНЫХ СОСТАВОВ ДЛЯ ОТЛИВКИ МЕДНЫХ АНОДОВ.docx"}
+  ],
+
+  "labs": [
+    {"id": "lab:gipronikel-hydro", "name": "Лаборатория гидрометаллургии, ООО «Институт Гипроникель»", "kind": "lab", "country": "RU", "city": "Санкт-Петербург", "expertise": ["аффинаж драгоценных металлов", "хлорирование", "платиновые металлы"]},
+    {"id": "lab:gipronikel-pyro", "name": "Лаборатория пирометаллургии, ООО «Институт Гипроникель»", "kind": "lab", "country": "RU", "city": "Санкт-Петербург", "expertise": ["огневое рафинирование меди", "литьё анодов"]},
+    {"id": "lab:kola-gmk", "name": "АО «Кольская ГМК», отдел аффинажа ДМ НТЦ", "kind": "lab", "country": "RU", "city": "Мончегорск", "expertise": ["аффинаж", "укрупнённые испытания"]},
+    {"id": "org:copper-plant", "name": "Медный завод, ПАО «ГМК «Норильский Никель»", "kind": "team", "country": "RU", "city": "Норильск", "expertise": ["электролиз меди", "розлив анодов"]}
+  ],
+
+  "materials": [
+    {"id": "mat:pgm-concentrate", "label": "Концентрат платиновых металлов (углеродсодержащий)", "family": "concentrate", "phase": "solid"},
+    {"id": "mat:ptpd-concentrate", "label": "Платино-палладиевый концентрат", "family": "concentrate", "phase": "solid"},
+    {"id": "mat:gold-concentrate", "label": "Золотой концентрат", "family": "concentrate", "phase": "solid"},
+    {"id": "mat:ptpd-solution", "label": "Платино-палладиевый солянокислый раствор", "family": "solution", "phase": "aqueous"},
+    {"id": "mat:sodium-sulfite", "label": "Сульфит натрия", "family": "reagent", "grade": "Na2SO3"},
+    {"id": "mat:copper-anode", "label": "Медный анод", "family": "metal", "grade": "Cu (аноды МЗ)"},
+    {"id": "mat:coating-pva-graphite", "label": "Противопригарная обмазка: поливиниловый спирт + графит", "family": "reagent"},
+    {"id": "mat:coating-lignosulfonate", "label": "Противопригарная обмазка: лигносульфонат + графит", "family": "reagent"},
+    {"id": "mat:coating-sio2", "label": "Противопригарная обмазка на основе SiO2 (действующая)", "family": "reagent"}
+  ],
+
+  "experiments": [
+    {
+      "id": "exp:chlorination-2stage",
+      "document_id": "doc:chlorination-pgm",
+      "lab_id": "lab:gipronikel-hydro",
+      "site": "Норильский промышленный район",
+      "regime": {"steps": [{"process_type": "chlorination", "extra": {"stages": 2, "medium": "солянокислая среда", "note": "варьируются T, Ж:Т, кислотность"}}]},
+      "materials": [
+        {"material_id": "mat:pgm-concentrate", "role": "input"},
+        {"material_id": "mat:ptpd-concentrate", "role": "output"},
+        {"material_id": "mat:gold-concentrate", "role": "output"}
+      ],
+      "snippet": "Режимы проведения основных технологических операций отработаны в лабораторных условиях в ООО «Институт Гипроникель» и верифицированы на укрупнённых установках отдела аффинажа драгоценных металлов НТЦ АО КГМК",
+      "measurements": [
+        {"quantity_kind": "recovery_degree", "scope": "material", "material_id": "mat:pgm-concentrate", "value": {"min": 95, "max": 97}, "unit": "%", "snippet": "остаточное содержание платины и палладия находится на уровне 0,1-0,2 %, что соответствует извлечению более 95-97 %"},
+        {"quantity_kind": "element_content", "scope": "material", "material_id": "mat:pgm-concentrate", "value": {"min": 15, "max": 30}, "unit": "%", "basis": "wt%", "snippet": "При исходном содержании суммы ПМ 15-30 %"},
+        {"quantity_kind": "element_content", "scope": "material", "material_id": "mat:ptpd-concentrate", "value": {"min": 0.1, "max": 0.2}, "unit": "%", "basis": "wt%", "snippet": "остаточное содержание платины и палладия находится на уровне 0,1-0,2 %"},
+        {"quantity_kind": "element_content", "scope": "material", "material_id": "mat:ptpd-concentrate", "value": {"min": 90}, "unit": "%", "basis": "wt%", "snippet": "осаждение платино-палладиевого концентрата (более 90 % Pt+Pd) из очищенного раствора"},
+        {"quantity_kind": "element_content", "scope": "material", "material_id": "mat:gold-concentrate", "value": {"min": 40}, "unit": "%", "basis": "wt%", "snippet": "плавку нерастворимых остатков с получением золотого концентрата, содержащего более 40 % Pt+Pd+Au"}
+      ],
+      "conclusions": [
+        {"kind": "finding", "text": "Двухстадийное хлорирование снижает остаточное содержание Pt и Pd до 0,1-0,2 %, обеспечивая извлечение ПМ более 95-97 %.", "effect": {"quantity_kind": "recovery_degree", "direction": "increases", "factor": "число стадий хлорирования (две)"}, "snippet": "проведении хлорирования в две стадии остаточное содержание платины и палладия находится на уровне 0,1-0,2 %, что соответствует извлечению более 95-97 %"}
+      ]
+    },
+    {
+      "id": "exp:au-precip-sulfite",
+      "document_id": "doc:au-precip-sulfite",
+      "lab_id": "lab:gipronikel-hydro",
+      "regime": {"steps": [{"process_type": "precipitation", "extra": {"reductant": "сульфит натрия", "medium": "солянокислый раствор"}}]},
+      "materials": [
+        {"material_id": "mat:ptpd-solution", "role": "input"},
+        {"material_id": "mat:sodium-sulfite", "role": "flux"},
+        {"material_id": "mat:gold-concentrate", "role": "output"}
+      ],
+      "snippet": "Применение сульфита натрия на этапе получения чернового золота позволяет перевести практически количественно золото в золотой концентрат при минимальном соосаждении палладия, селена, платины",
+      "measurements": [
+        {"quantity_kind": "electrode_potential", "scope": "material", "material_id": "mat:ptpd-solution", "value": {"nominal": 1.0}, "unit": "V", "conditions": {"medium": "система AuCl4-/Au, НВЭ"}, "snippet": "система AuCl4–/Au, стандартный электродный потенциал которой равен 1 В (НВЭ)"},
+        {"quantity_kind": "electrode_potential", "scope": "material", "material_id": "mat:ptpd-solution", "value": {"nominal": 0.62}, "unit": "V", "conditions": {"medium": "система PdCl42-/Pd, НВЭ"}, "snippet": "PdCl42–/Pd ... равны 0,62"},
+        {"quantity_kind": "electrode_potential", "scope": "material", "material_id": "mat:ptpd-solution", "value": {"nominal": 0.73}, "unit": "V", "conditions": {"medium": "система PtCl42-/Pt, НВЭ"}, "snippet": "PtCl42–/Pt ... равны ... 0,73В"}
+      ],
+      "conclusions": [
+        {"kind": "finding", "text": "Разница окислительно-восстановительных потенциалов AuCl4-/Au (1 В) и систем Pd/Pt (0,62-0,73 В) позволяет селективно осаждать золото сульфитом натрия при минимальном соосаждении Pd, Se, Pt.", "effect": {"quantity_kind": "recovery_degree", "direction": "increases", "factor": "восстановитель — сульфит натрия"}, "snippet": "Такая разница в значениях окислительно-восстановительного потенциала позволяет достаточно просто извлекать золото методом химического восстановления на фоне примесей"}
+      ]
+    },
+    {
+      "id": "exp:copper-anode-casting",
+      "document_id": "doc:copper-anodes",
+      "lab_id": "lab:gipronikel-pyro",
+      "site": "Медный завод, Норильск",
+      "regime": {"steps": [{"process_type": "fire_refining"}, {"process_type": "casting", "extra": {"note": "розлив в изложницы, противопригарная обмазка"}}]},
+      "materials": [
+        {"material_id": "mat:copper-anode", "role": "output"},
+        {"material_id": "mat:coating-pva-graphite", "role": "flux"},
+        {"material_id": "mat:coating-lignosulfonate", "role": "flux"},
+        {"material_id": "mat:coating-sio2", "role": "flux"}
+      ],
+      "snippet": "установлено, что оптимальными свойствами для использования в качестве огнеупорной краски обладает комбинация поливиниловый спирт-графит",
+      "measurements": [],
+      "conclusions": [
+        {"kind": "recommendation", "text": "Для розлива медных анодов рекомендуется противопригарная обмазка «поливиниловый спирт + графит»: не содержит шлакообразующих (SiO2), устойчивая суспензия, лучшая кроющая способность.", "effect": {"quantity_kind": "phase_fraction", "direction": "no_change", "factor": "связующее ПВС+графит (без SiO2)"}, "snippet": "оптимальными свойствами для использования в качестве огнеупорной краски обладает комбинация поливиниловый спирт-графит"},
+        {"kind": "finding", "text": "Обмазки на лигносульфонате и мездровом клее дают газовую пористость и неровности анодов.", "effect": {"quantity_kind": "phase_fraction", "direction": "increases", "factor": "связующее лигносульфонат / мездровый клей"}, "snippet": "образование газовой пористости и неровностей получаемых анодов при использовании в роли связующего водного раствора лигносульфоната и мездрового клея"}
+      ]
+    }
+  ],
+
+  "lineage": [
+    {"src": "mat:ptpd-concentrate", "dst": "mat:pgm-concentrate", "process": "chlorination", "snippet": "осаждение платино-палладиевого концентрата (более 90 % Pt+Pd) из очищенного раствора"},
+    {"src": "mat:gold-concentrate", "dst": "mat:ptpd-concentrate", "process": "precipitation", "snippet": "плавку нерастворимых остатков с получением золотого концентрата, содержащего более 40 % Pt+Pd+Au"}
+  ],
+
+  "validated_by": [
+    {"src": "exp:chlorination-2stage", "dst": "lab:kola-gmk", "snippet": "верифицированы на укрупнённых установках отдела аффинажа драгоценных металлов НТЦ АО КГМК"}
+  ]
+}

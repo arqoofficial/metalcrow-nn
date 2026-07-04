@@ -1,0 +1,41 @@
+name: Test Docker Compose
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+permissions: {}
+
+jobs:
+
+  test-docker-compose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+      - name: Prepare environment
+        run: cp .env.example .env
+      - run: ./scripts/dev-up.sh --no-parser --skip-models
+      - name: Test backend is up
+        run: curl -f http://localhost:8000/api/v1/utils/health-check/
+      - name: Test frontend is up
+        run: curl -f http://localhost:5173
+      - name: Test OpenAPI contract paths
+        run: |
+          curl -fsS http://localhost:8000/api/v1/openapi.json | python3 -c "
+          import json, sys
+          paths = set(json.load(sys.stdin)['paths'])
+          required = {
+              '/api/v1/search', '/api/v1/chat/sessions', '/api/v1/ingest/upload',
+              '/api/v1/wiki/search', '/api/v1/analytics/gaps', '/api/v1/metrics',
+              '/api/v1/graph/query', '/api/v1/sources/{doc_id}/content',
+          }
+          missing = required - paths
+          assert not missing, f'Missing paths: {missing}'
+          "
+      - run: ./scripts/dev-down.sh --no-parser -v

@@ -1,0 +1,45 @@
+# Overlay for the standalone nornickel-2026-parser compose stack.
+#
+# 1. Attaches the parser API service (`main`) to the shared external
+#    `metalcrow-net` under the DNS alias `parser-main`, so metalcrow
+#    (backend, science-knowledge-graph) can reach it at http://parser-main:8114
+#    while the parser keeps its own internal `parser-net`.
+#
+# 2. Gates the Docling/OCR workers behind a `parsing` compose profile so they
+#    do NOT start by default. metalcrow only reads already-parsed documents
+#    out of SHARED/ (main's /files/raw + /markdown) — it never converts
+#    raw→markdown here — so the workers, and the multi-GB EasyOCR/HuggingFace
+#    model weights they download into SHARED/MODELS, are unnecessary. Default
+#    `up` brings up only `main` (+ `redis`), no model download.
+#    To actually run the parsing pipeline, opt in explicitly:
+#      docker compose ... --profile parsing up -d
+#
+# Create the network once:  docker network create metalcrow-net
+#
+# Usage (file-serving only, no models):
+#   docker compose \
+#     -f services/nornickel-2026-parser/docker-compose.yml \
+#     -f services/nornickel-parser.override.yml up -d --build
+services:
+  main:
+    # Build the lightweight API image (no torch/docling/easyocr) — main only
+    # serves files, so it doesn't need the heavy parsing stack. See Dockerfile.api.
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    image: nornickel-2026-parser:api
+    networks:
+      parser-net: {}
+      metalcrow-net:
+        aliases:
+          - parser-main
+
+  raw2docling_raw:
+    profiles: ["parsing"]
+
+  docling_raw2docling_clean00:
+    profiles: ["parsing"]
+
+networks:
+  metalcrow-net:
+    external: true

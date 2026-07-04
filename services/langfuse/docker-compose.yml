@@ -1,0 +1,188 @@
+# Self-hosted Langfuse v3 — the gateway's own tracing backend.
+# Co-located on the gateway VM alongside LiteLLM (spec §9). Based on the proven Cosmetica
+# deploy (chemcrow-deploy's fixes folded in: minio/minio, wget+$(hostname) healthcheck,
+# clickhouse macros/zookeeper XMLs). REQUIRES ~8 GB RAM (ClickHouse alone wants ~2 GB).
+#
+# Bring up:  cp .env.example .env && ./gen-secrets.sh && docker compose up -d
+# The gateway's Caddy fronts langfuse-server at https://langfuse.autumn-lab.uk
+# (Caddy proxies to host.docker.internal:3000 — this stack publishes it on 127.0.0.1:3000).
+
+services:
+  langfuse-db:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${LANGFUSE_DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${LANGFUSE_DB_PASSWORD:?set in .env}
+      POSTGRES_DB: ${LANGFUSE_DB_NAME:-postgres}
+    volumes:
+      - langfuse-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${LANGFUSE_DB_USER:-postgres}"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  langfuse-zookeeper:
+    image: zookeeper:3.9
+    restart: unless-stopped
+    environment:
+      ZOO_TICK_TIME: 2000
+    volumes:
+      - langfuse-zookeeper-data:/data
+      - langfuse-zookeeper-datalog:/datalog
+    healthcheck:
+      test: ["CMD-SHELL", "zkServer.sh status || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  langfuse-clickhouse:
+    image: clickhouse/clickhouse-server:25.8
+    restart: unless-stopped
+    user: "101:101"
+    depends_on:
+      langfuse-zookeeper:
+        condition: service_healthy
+    environment:
+      CLICKHOUSE_DB: default
+      CLICKHOUSE_USER: ${LANGFUSE_CLICKHOUSE_USER:-clickhouse}
+      CLICKHOUSE_PASSWORD: ${LANGFUSE_CLICKHOUSE_PASSWORD:?set in .env}
+    volumes:
+      - langfuse-clickhouse-data:/var/lib/clickhouse
+      - langfuse-clickhouse-logs:/var/log/clickhouse-server
+      - ./clickhouse/macros.xml:/etc/clickhouse-server/config.d/langfuse-macros.xml:ro
+      - ./clickhouse/zookeeper.xml:/etc/clickhouse-server/config.d/langfuse-zookeeper.xml:ro
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8123/ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 1s
+
+  langfuse-minio:
+    # cgr.dev/chainguard/minio is auth-gated (403 on pull); minio/minio is the drop-in.
+    image: minio/minio
+    restart: unless-stopped
+    entrypoint: sh
+    command: -c 'mkdir -p /data/langfuse && minio server --address ":9000" --console-address ":9001" /data'
+    environment:
+      MINIO_ROOT_USER: ${LANGFUSE_MINIO_USER:-minio}
+      MINIO_ROOT_PASSWORD: ${LANGFUSE_MINIO_PASSWORD:?set in .env}
+    volumes:
+      - langfuse-minio-data:/data
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 1s
+
+  langfuse-cache:
+    image: redis:7
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  langfuse-server:
+    image: langfuse/langfuse:3
+    container_name: langfuse-server
+    restart: unless-stopped
+    depends_on:
+      langfuse-db: { condition: service_healthy }
+      langfuse-clickhouse: { condition: service_healthy }
+      langfuse-minio: { condition: service_healthy }
+      langfuse-cache: { condition: service_healthy }
+    ports:
+      - "127.0.0.1:3000:3000"          # gateway Caddy proxies here via host.docker.internal
+    environment:
+      DATABASE_URL: postgresql://${LANGFUSE_DB_USER:-postgres}:${LANGFUSE_DB_PASSWORD}@langfuse-db:5432/${LANGFUSE_DB_NAME:-postgres}
+      NEXTAUTH_URL: https://${LANGFUSE_DOMAIN:?set in .env}
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET:?run gen-secrets.sh}
+      SALT: ${SALT:?run gen-secrets.sh}
+      ENCRYPTION_KEY: ${ENCRYPTION_KEY:?run gen-secrets.sh}
+      CLICKHOUSE_URL: http://langfuse-clickhouse:8123
+      CLICKHOUSE_MIGRATION_URL: clickhouse://langfuse-clickhouse:9000
+      CLICKHOUSE_USER: ${LANGFUSE_CLICKHOUSE_USER:-clickhouse}
+      CLICKHOUSE_PASSWORD: ${LANGFUSE_CLICKHOUSE_PASSWORD}
+      CLICKHOUSE_CLUSTER_ENABLED: "false"
+      REDIS_CONNECTION_STRING: redis://langfuse-cache:6379/0
+      LANGFUSE_S3_EVENT_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_EVENT_UPLOAD_REGION: auto
+      LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID: ${LANGFUSE_MINIO_USER:-minio}
+      LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY: ${LANGFUSE_MINIO_PASSWORD}
+      LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_EVENT_UPLOAD_PREFIX: "events/"
+      LANGFUSE_S3_MEDIA_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_MEDIA_UPLOAD_REGION: auto
+      LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID: ${LANGFUSE_MINIO_USER:-minio}
+      LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY: ${LANGFUSE_MINIO_PASSWORD}
+      LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_MEDIA_UPLOAD_PREFIX: "media/"
+      TELEMETRY_ENABLED: "false"
+      # Seed org+project + the pk-lf-/sk-lf- keys on a FRESH db so the gateway authenticates
+      # on first boot. INIT_* vars are ignored once the db has data (safe to leave).
+      LANGFUSE_INIT_USER_EMAIL: ${LANGFUSE_INIT_USER_EMAIL:-admin@metalcrow.local}
+      LANGFUSE_INIT_USER_NAME: ${LANGFUSE_INIT_USER_NAME:-Admin}
+      LANGFUSE_INIT_USER_PASSWORD: ${LANGFUSE_INIT_USER_PASSWORD:?set in .env}
+      LANGFUSE_INIT_ORG_ID: metalcrow
+      LANGFUSE_INIT_ORG_NAME: Metalcrow
+      LANGFUSE_INIT_PROJECT_ID: metalcrow-gateway
+      LANGFUSE_INIT_PROJECT_NAME: LLM Gateway
+      LANGFUSE_INIT_PROJECT_PUBLIC_KEY: ${LANGFUSE_PUBLIC_KEY:?run gen-secrets.sh}
+      LANGFUSE_INIT_PROJECT_SECRET_KEY: ${LANGFUSE_SECRET_KEY:?run gen-secrets.sh}
+    healthcheck:
+      # langfuse/langfuse:3 has no curl + binds the container hostname (not localhost).
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://$$(hostname):3000/api/public/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 90s
+
+  langfuse-worker:
+    image: langfuse/langfuse-worker:3
+    restart: unless-stopped
+    depends_on:
+      langfuse-db: { condition: service_healthy }
+      langfuse-clickhouse: { condition: service_healthy }
+      langfuse-minio: { condition: service_healthy }
+      langfuse-cache: { condition: service_healthy }
+    environment:
+      DATABASE_URL: postgresql://${LANGFUSE_DB_USER:-postgres}:${LANGFUSE_DB_PASSWORD}@langfuse-db:5432/${LANGFUSE_DB_NAME:-postgres}
+      SALT: ${SALT}
+      ENCRYPTION_KEY: ${ENCRYPTION_KEY}
+      CLICKHOUSE_URL: http://langfuse-clickhouse:8123
+      CLICKHOUSE_MIGRATION_URL: clickhouse://langfuse-clickhouse:9000
+      CLICKHOUSE_USER: ${LANGFUSE_CLICKHOUSE_USER:-clickhouse}
+      CLICKHOUSE_PASSWORD: ${LANGFUSE_CLICKHOUSE_PASSWORD}
+      CLICKHOUSE_CLUSTER_ENABLED: "false"
+      REDIS_CONNECTION_STRING: redis://langfuse-cache:6379/0
+      LANGFUSE_S3_EVENT_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_EVENT_UPLOAD_REGION: auto
+      LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID: ${LANGFUSE_MINIO_USER:-minio}
+      LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY: ${LANGFUSE_MINIO_PASSWORD}
+      LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_EVENT_UPLOAD_PREFIX: "events/"
+      LANGFUSE_S3_MEDIA_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_MEDIA_UPLOAD_REGION: auto
+      LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID: ${LANGFUSE_MINIO_USER:-minio}
+      LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY: ${LANGFUSE_MINIO_PASSWORD}
+      LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_MEDIA_UPLOAD_PREFIX: "media/"
+      TELEMETRY_ENABLED: "false"
+
+volumes:
+  langfuse-db-data:
+  langfuse-zookeeper-data:
+  langfuse-zookeeper-datalog:
+  langfuse-clickhouse-data:
+  langfuse-clickhouse-logs:
+  langfuse-minio-data:

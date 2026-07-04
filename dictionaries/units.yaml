@@ -1,0 +1,22 @@
+# Canonical units for experiments.constraints (SPEC_V5 §6)
+
+units:
+  mg_l:
+    symbol: "мг/л"
+    si: "mg/L"
+  mg_dm3:
+    symbol: "мг/дм³"
+    si: "mg/L"
+  t_per_day:
+    symbol: "т/сут"
+    si: "t/d"
+  m3_h:
+    symbol: "м³/ч"
+    si: "m3/h"
+  percent:
+    symbol: "%"
+    si: "1"
+
+conversions:
+  mg_dm3_to_mg_l: 1.0
+  g_l_to_mg_l: 1000.0

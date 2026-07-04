@@ -1,0 +1,72 @@
+# Автоматически подхватывается `docker compose` вместе с compose.yml для
+# локальной разработки (docker compose умеет мёржить несколько файлов).
+#
+# На сервере запускайте БЕЗ этого файла, явно указав нужные:
+#   docker compose -f compose.yml -f compose.prod.yml up -d --build
+
+services:
+
+  db:
+    restart: "no"
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+
+  adminer:
+    restart: "no"
+    ports:
+      - "${ADMINER_PORT:-8080}:8080"
+
+  redis:
+    restart: "no"
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+
+  neo4j:
+    restart: "no"
+    ports:
+      - "${NEO4J_HTTP_PORT:-7474}:7474"
+      - "${NEO4J_BOLT_PORT:-7687}:7687"
+
+  prestart:
+    restart: "no"
+
+  backend:
+    restart: "no"
+    # Живая перезагрузка кода бэкенда без пересборки образа
+    volumes:
+      - ./backend/app:/app/backend/app
+    command:
+      - fastapi
+      - run
+      - --reload
+      - app/main.py
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+
+  frontend:
+    restart: "no"
+    ports:
+      - "${FRONTEND_PORT:-5173}:80"
+
+  playwright:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile.playwright
+      args:
+        - VITE_API_URL=http://backend:8000
+        - NODE_ENV=production
+    ipc: host
+    depends_on:
+      backend:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - VITE_API_URL=http://backend:8000
+      - PLAYWRIGHT_HTML_HOST=0.0.0.0
+      - CI=${CI:-true}
+    volumes:
+      - ./frontend/blob-report:/app/frontend/blob-report
+      - ./frontend/test-results:/app/frontend/test-results
+    ports:
+      - "9323:9323"

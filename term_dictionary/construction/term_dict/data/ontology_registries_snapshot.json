@@ -1,0 +1,336 @@
+{
+  "_source": "arqoofficial/metalcrow @ onthology (ontology/contracts.py)",
+  "_note": "Registry snapshot for term_dict.ontology_export dedup + ProcessType/quantity resolution.",
+  "process_types": {
+    "desalination": {
+      "enum": "DESALINATION",
+      "aliases": [
+        "обессоливание",
+        "опреснение",
+        "desalination",
+        "деминерализация"
+      ],
+      "description": ""
+    },
+    "water_treatment": {
+      "enum": "WATER_TREATMENT",
+      "aliases": [
+        "водоподготовка",
+        "очистка воды",
+        "water treatment"
+      ],
+      "description": ""
+    },
+    "electroextraction": {
+      "enum": "ELECTROEXTRACTION",
+      "aliases": [
+        "электроэкстракция",
+        "электролиз",
+        "electrowinning",
+        "циркуляция католита"
+      ],
+      "description": ""
+    },
+    "injection": {
+      "enum": "INJECTION",
+      "aliases": [
+        "закачка",
+        "закачка шахтных вод",
+        "обратная закачка",
+        "injection"
+      ],
+      "description": ""
+    },
+    "smelting": {
+      "enum": "SMELTING",
+      "aliases": [
+        "плавка",
+        "smelting"
+      ],
+      "description": ""
+    },
+    "converting": {
+      "enum": "CONVERTING",
+      "aliases": [
+        "конвертирование",
+        "converting"
+      ],
+      "description": ""
+    },
+    "flotation": {
+      "enum": "FLOTATION",
+      "aliases": [
+        "флотация",
+        "flotation"
+      ],
+      "description": ""
+    },
+    "leaching": {
+      "enum": "LEACHING",
+      "aliases": [
+        "выщелачивание",
+        "leaching"
+      ],
+      "description": ""
+    },
+    "chlorination": {
+      "enum": "CHLORINATION",
+      "aliases": [
+        "хлорирование",
+        "гидрохлорирование",
+        "chlorination"
+      ],
+      "description": ""
+    },
+    "precipitation": {
+      "enum": "PRECIPITATION",
+      "aliases": [
+        "осаждение",
+        "соосаждение",
+        "precipitation"
+      ],
+      "description": ""
+    },
+    "fire_refining": {
+      "enum": "FIRE_REFINING",
+      "aliases": [
+        "огневое рафинирование",
+        "fire refining"
+      ],
+      "description": ""
+    },
+    "casting": {
+      "enum": "CASTING",
+      "aliases": [
+        "литьё",
+        "литье",
+        "розлив",
+        "casting"
+      ],
+      "description": ""
+    },
+    "annealing": {
+      "enum": "ANNEALING",
+      "aliases": [
+        "отжиг",
+        "annealing"
+      ],
+      "description": ""
+    },
+    "extrusion": {
+      "enum": "EXTRUSION",
+      "aliases": [
+        "экструзия",
+        "extrusion"
+      ],
+      "description": ""
+    },
+    "roasting": {
+      "enum": "ROASTING",
+      "aliases": [],
+      "description": ""
+    },
+    "heat_treatment": {
+      "enum": "HEAT_TREATMENT",
+      "aliases": [],
+      "description": ""
+    },
+    "quenching": {
+      "enum": "QUENCHING",
+      "aliases": [],
+      "description": ""
+    },
+    "aging": {
+      "enum": "AGING",
+      "aliases": [],
+      "description": ""
+    },
+    "rolling": {
+      "enum": "ROLLING",
+      "aliases": [],
+      "description": ""
+    },
+    "welding": {
+      "enum": "WELDING",
+      "aliases": [],
+      "description": ""
+    },
+    "surface_treatment": {
+      "enum": "SURFACE_TREATMENT",
+      "aliases": [],
+      "description": ""
+    },
+    "electrochemical": {
+      "enum": "ELECTROCHEMICAL",
+      "aliases": [],
+      "description": ""
+    },
+    "other": {
+      "enum": "OTHER",
+      "aliases": [],
+      "description": ""
+    }
+  },
+  "quantity_kinds": {
+    "hardness": {
+      "unit_dim": "hardness_scale",
+      "aliases": [
+        "твёрдость",
+        "твердость",
+        "hardness"
+      ]
+    },
+    "yield_strength": {
+      "unit_dim": "pressure",
+      "aliases": [
+        "0.2 % proof stress",
+        "предел текучести",
+        "σ0.2",
+        "YS"
+      ]
+    },
+    "tensile_strength": {
+      "unit_dim": "pressure",
+      "aliases": [
+        "ultimate tensile strength",
+        "предел прочности",
+        "UTS",
+        "σв"
+      ]
+    },
+    "elongation": {
+      "unit_dim": "ratio",
+      "aliases": [
+        "total elongation to failure",
+        "относительное удлинение",
+        "At"
+      ]
+    },
+    "grain_size": {
+      "unit_dim": "length",
+      "aliases": [
+        "average grain diameter",
+        "размер зерна"
+      ]
+    },
+    "creep_rate": {
+      "unit_dim": "strain_rate",
+      "aliases": [
+        "скорость ползучести"
+      ]
+    },
+    "electrode_potential": {
+      "unit_dim": "voltage",
+      "aliases": [
+        "потенциал"
+      ]
+    },
+    "current_density": {
+      "unit_dim": "current_density",
+      "aliases": [
+        "плотность тока"
+      ]
+    },
+    "recovery_degree": {
+      "unit_dim": "ratio",
+      "aliases": [
+        "степень извлечения",
+        "извлечение"
+      ]
+    },
+    "phase_fraction": {
+      "unit_dim": "ratio",
+      "aliases": [
+        "доля фазы"
+      ]
+    },
+    "element_content": {
+      "unit_dim": "ratio",
+      "aliases": [
+        "содержание элемента",
+        "содержание"
+      ]
+    },
+    "melting_point": {
+      "unit_dim": "temperature",
+      "aliases": [
+        "температура плавления"
+      ]
+    },
+    "viscosity": {
+      "unit_dim": "viscosity",
+      "aliases": [
+        "вязкость"
+      ]
+    },
+    "dry_residue": {
+      "unit_dim": "mass_concentration",
+      "aliases": [
+        "сухой остаток",
+        "TDS",
+        "total dissolved solids"
+      ]
+    },
+    "salinity": {
+      "unit_dim": "mass_concentration",
+      "aliases": [
+        "минерализация",
+        "общая минерализация",
+        "солесодержание"
+      ]
+    },
+    "flow_rate": {
+      "unit_dim": "volumetric_flow",
+      "aliases": [
+        "скорость потока",
+        "расход",
+        "flow rate",
+        "циркуляция"
+      ]
+    },
+    "ph": {
+      "unit_dim": "dimensionless",
+      "aliases": [
+        "pH",
+        "рН",
+        "кислотность"
+      ]
+    },
+    "energy_consumption": {
+      "unit_dim": "specific_energy",
+      "aliases": [
+        "удельный расход энергии",
+        "энергоёмкость",
+        "kWh/t"
+      ]
+    },
+    "specific_cost": {
+      "unit_dim": "specific_cost",
+      "aliases": [
+        "себестоимость",
+        "удельные затраты"
+      ]
+    },
+    "capex": {
+      "unit_dim": "currency",
+      "aliases": [
+        "капитальные затраты",
+        "CAPEX"
+      ]
+    },
+    "opex": {
+      "unit_dim": "currency",
+      "aliases": [
+        "операционные затраты",
+        "OPEX"
+      ]
+    },
+    "current_efficiency": {
+      "unit_dim": "ratio",
+      "aliases": [
+        "выход по току",
+        "current efficiency"
+      ]
+    }
+  }
+}

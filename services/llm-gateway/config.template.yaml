@@ -1,0 +1,124 @@
+# LiteLLM gateway config — TEMPLATE. Rendered to config.rendered.yaml by render-config.sh
+# (envsubst on ${...} only). Secrets are injected at runtime via os.environ/ (env_file .env);
+# the only ${...} placeholder is the Yandex folder id.
+#
+# NAMING: caller-facing model names are the OpenRouter ids. Each model is served Yandex-PRIMARY
+# (cheap RU-direct) with automatic fallback to OpenRouter (same model on the other provider).
+# The `<or-id>__or` groups are internal fallback targets — callers use the plain OR id.
+#
+# Only models that exist on BOTH Yandex AI Studio and OpenRouter are exposed here
+# (verified via Yandex /v1/models + OpenRouter /api/v1/models):
+#   OpenRouter id                  Yandex name (gpt://<folder>/<name>/latest)   match
+#   openai/gpt-oss-120b            gpt-oss-120b                                 exact weights
+#   openai/gpt-oss-20b             gpt-oss-20b                                  exact weights
+#   deepseek/deepseek-v4-flash     deepseek-v4-flash                           same model
+#   deepseek/deepseek-v3.2         deepseek-v32                                same model
+#   qwen/qwen3-235b-a22b           qwen3-235b-a22b-fp8                          same model (Yandex = fp8 quant)
+# (Yandex-only — no OR name, not exposed: yandexgpt*, aliceai*. Yandex qwen3.6-35b-a3b excluded:
+#  OR only has qwen3.5-35b-a3b, a different version.)
+
+model_list:
+  # ============ openai/gpt-oss-120b ============
+  - model_name: openai/gpt-oss-120b
+    litellm_params:
+      model: openai/gpt://${YANDEX_FOLDER_ID}/gpt-oss-120b/latest
+      api_base: https://llm.api.cloud.yandex.net/v1
+      api_key: os.environ/YANDEX_API_KEY_1
+      extra_headers:
+        x-folder-id: "${YANDEX_FOLDER_ID}"
+        x-data-logging-enabled: "false"
+    model_info: { provider: yandex }
+  - model_name: openai/gpt-oss-120b__or
+    litellm_params: { model: openrouter/openai/gpt-oss-120b, api_key: os.environ/OPENROUTER_API_KEY_1 }
+    model_info: { provider: openrouter }
+  - model_name: openai/gpt-oss-120b__or
+    litellm_params: { model: openrouter/openai/gpt-oss-120b, api_key: os.environ/OPENROUTER_API_KEY_2 }
+    model_info: { provider: openrouter }
+
+  # ============ openai/gpt-oss-20b ============
+  - model_name: openai/gpt-oss-20b
+    litellm_params:
+      model: openai/gpt://${YANDEX_FOLDER_ID}/gpt-oss-20b/latest
+      api_base: https://llm.api.cloud.yandex.net/v1
+      api_key: os.environ/YANDEX_API_KEY_1
+      extra_headers:
+        x-folder-id: "${YANDEX_FOLDER_ID}"
+        x-data-logging-enabled: "false"
+    model_info: { provider: yandex }
+  - model_name: openai/gpt-oss-20b__or
+    litellm_params: { model: openrouter/openai/gpt-oss-20b, api_key: os.environ/OPENROUTER_API_KEY_1 }
+    model_info: { provider: openrouter }
+  - model_name: openai/gpt-oss-20b__or
+    litellm_params: { model: openrouter/openai/gpt-oss-20b, api_key: os.environ/OPENROUTER_API_KEY_2 }
+    model_info: { provider: openrouter }
+
+  # ============ deepseek/deepseek-v4-flash ============
+  - model_name: deepseek/deepseek-v4-flash
+    litellm_params:
+      model: openai/gpt://${YANDEX_FOLDER_ID}/deepseek-v4-flash/latest
+      api_base: https://llm.api.cloud.yandex.net/v1
+      api_key: os.environ/YANDEX_API_KEY_1
+      extra_headers:
+        x-folder-id: "${YANDEX_FOLDER_ID}"
+        x-data-logging-enabled: "false"
+    model_info: { provider: yandex }
+  - model_name: deepseek/deepseek-v4-flash__or
+    litellm_params: { model: openrouter/deepseek/deepseek-v4-flash, api_key: os.environ/OPENROUTER_API_KEY_1 }
+    model_info: { provider: openrouter }
+  - model_name: deepseek/deepseek-v4-flash__or
+    litellm_params: { model: openrouter/deepseek/deepseek-v4-flash, api_key: os.environ/OPENROUTER_API_KEY_2 }
+    model_info: { provider: openrouter }
+
+  # ============ deepseek/deepseek-v3.2 ============
+  - model_name: deepseek/deepseek-v3.2
+    litellm_params:
+      model: openai/gpt://${YANDEX_FOLDER_ID}/deepseek-v32/latest
+      api_base: https://llm.api.cloud.yandex.net/v1
+      api_key: os.environ/YANDEX_API_KEY_1
+      extra_headers:
+        x-folder-id: "${YANDEX_FOLDER_ID}"
+        x-data-logging-enabled: "false"
+    model_info: { provider: yandex }
+  - model_name: deepseek/deepseek-v3.2__or
+    litellm_params: { model: openrouter/deepseek/deepseek-v3.2, api_key: os.environ/OPENROUTER_API_KEY_1 }
+    model_info: { provider: openrouter }
+  - model_name: deepseek/deepseek-v3.2__or
+    litellm_params: { model: openrouter/deepseek/deepseek-v3.2, api_key: os.environ/OPENROUTER_API_KEY_2 }
+    model_info: { provider: openrouter }
+
+  # ============ qwen/qwen3-235b-a22b ============
+  - model_name: qwen/qwen3-235b-a22b
+    litellm_params:
+      model: openai/gpt://${YANDEX_FOLDER_ID}/qwen3-235b-a22b-fp8/latest
+      api_base: https://llm.api.cloud.yandex.net/v1
+      api_key: os.environ/YANDEX_API_KEY_1
+      extra_headers:
+        x-folder-id: "${YANDEX_FOLDER_ID}"
+        x-data-logging-enabled: "false"
+    model_info: { provider: yandex }
+  - model_name: qwen/qwen3-235b-a22b__or
+    litellm_params: { model: openrouter/qwen/qwen3-235b-a22b, api_key: os.environ/OPENROUTER_API_KEY_1 }
+    model_info: { provider: openrouter }
+  - model_name: qwen/qwen3-235b-a22b__or
+    litellm_params: { model: openrouter/qwen/qwen3-235b-a22b, api_key: os.environ/OPENROUTER_API_KEY_2 }
+    model_info: { provider: openrouter }
+
+router_settings:
+  routing_strategy: simple-shuffle
+  num_retries: 2
+  cooldown_time: 30
+  allowed_fails: 2
+  fallbacks:
+    - { "openai/gpt-oss-120b": ["openai/gpt-oss-120b__or"] }
+    - { "openai/gpt-oss-20b": ["openai/gpt-oss-20b__or"] }
+    - { "deepseek/deepseek-v4-flash": ["deepseek/deepseek-v4-flash__or"] }
+    - { "deepseek/deepseek-v3.2": ["deepseek/deepseek-v3.2__or"] }
+    - { "qwen/qwen3-235b-a22b": ["qwen/qwen3-235b-a22b__or"] }
+
+litellm_settings:
+  success_callback: ["langfuse"]
+  failure_callback: ["langfuse"]
+  drop_params: true
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY

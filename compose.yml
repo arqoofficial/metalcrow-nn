@@ -1,0 +1,289 @@
+services:
+
+  db:
+    # pgvector/pgvector:pg18, NOT vanilla postgres:18 — иначе не встанет
+    # `CREATE EXTENSION vector` (SPEC_V3 §3 п.12, §4).
+    image: pgvector/pgvector:pg18
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 10s
+    volumes:
+      - app-db-data:/var/lib/postgresql/data/pgdata
+    env_file:
+      - .env
+    environment:
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
+      - POSTGRES_USER=${POSTGRES_USER?Variable not set}
+      - POSTGRES_DB=${POSTGRES_DB?Variable not set}
+
+  redis:
+    image: redis:7-alpine
+    restart: always
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+      timeout: 5s
+    volumes:
+      - redis-data:/data
+
+  # Neo4j — опциональный компонент (SPEC_V3 §3 п.8, P1), первый кандидат на
+  # отрез при нехватке времени. Graph API деградирует до 503/SQL fallback,
+  # если контейнер недоступен (см. app/services/graph.py, Фаза 4).
+  neo4j:
+    image: neo4j:5-community
+    restart: always
+    # NB: не подключаем env_file: .env — образ neo4j трактует ЛЮБУЮ переменную
+    # NEO4J_* как настройку конфига (напр. NEO4J_URI -> "dbms.uri"), а наши
+    # NEO4J_URI/NEO4J_USER/NEO4J_PASSWORD — это клиентские переменные для
+    # backend, а не для самого сервера.
+    environment:
+      - NEO4J_AUTH=${NEO4J_USER:-neo4j}/${NEO4J_PASSWORD?Variable not set}
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7474 || exit 1"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 10s
+    volumes:
+      # Bind mount (not a named volume) — a real, visible folder in the repo
+      # (gitignored), so the GraphRAG data isn't hidden inside Docker's own
+      # storage and survives `docker compose down -v` unconditionally (bind
+      # mounts are never touched by `-v`, unlike named volumes).
+      - ./neo4j-data:/data
+
+  # science-knowledge-graph — standalone spaCy/scispaCy NER + Neo4j GraphRAG
+  # sidecar. Internal-only (no published port), called by backend as a tool
+  # over HTTP (SCIENCE_KG_URL below) — see
+  # services/science-knowledge-graph/README.md. Shares the `neo4j` service
+  # above with its own graph, unrelated to the SQL/pgvector schema.
+  science-knowledge-graph:
+    build:
+      context: services/science-knowledge-graph
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=${NEO4J_USER:-neo4j}
+      - NEO4J_PASSWORD=${NEO4J_PASSWORD?Variable not set}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL:-https://api.proxyapi.ru/openai/v1}
+      - OPENAI_MODEL=${OPENAI_MODEL:-gpt-4o-mini}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - default
+      # nornickel-2026-parser reached over the shared external metalcrow-net —
+      # scripts/ingest_shared_corpus.py (run via `docker compose exec`) talks
+      # to it at http://parser-main:8114, same alias svc-parse-docling uses.
+      - metalcrow-net
+
+  # ontology-knowledge-graph — типизированная онтология (Postgres) sidecar:
+  # закрытый словарь предикатов, провенанс-цитаты, Comparability Gate,
+  # evidence/gaps/contradictions/experts. Internal-only (без публичного порта),
+  # вызывается backend'ом по HTTP (ONTOLOGY_KG_URL) — та же схема интеграции,
+  # что science-knowledge-graph. Живёт в СОБСТВЕННОЙ базе `ontology` того же
+  # инстанса db (схему создаёт сам при старте) — не пересекается с alembic-
+  # миграциями backend'а. См. ontology/README.md.
+  ontology-knowledge-graph:
+    build:
+      context: services/ontology-knowledge-graph
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - ONTOLOGY_DB_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/ontology
+      - LLM_BASE_URL=${LLM_BASE_URL:-}
+      - LLM_API_KEY=${LLM_API_KEY:-}
+      - LLM_INTENT_MODEL=${LLM_INTENT_MODEL:-Openai/Gpt-oss-120b}
+      - ONTOLOGY_LLM_INTENT=${ONTOLOGY_LLM_INTENT:-1}
+      - ONTOLOGY_LLM_SYNTH=${ONTOLOGY_LLM_SYNTH:-1}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  # SPEC_V5 §4: L1 orchestrator — enqueue parser pipeline on SHARED raw files.
+  svc-parse-docling:
+    build:
+      context: .
+      dockerfile: services/parse-docling/Dockerfile
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - POSTGRES_SERVER=db
+      - POSTGRES_PORT=${POSTGRES_PORT:-5432}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER?Variable not set}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
+      - PARSER_URL=${PARSER_URL:-http://parser-main:8114}
+    networks:
+      - default
+      - metalcrow-net
+
+  svc-parse-docling-api:
+    build:
+      context: .
+      dockerfile: services/parse-docling/Dockerfile
+    restart: always
+    depends_on:
+      redis:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    command: ["uvicorn", "parse_docling.main:app", "--host", "0.0.0.0", "--port", "8101"]
+    profiles:
+      - tools
+
+  adminer:
+    image: adminer
+    restart: always
+    depends_on:
+      - db
+    environment:
+      - ADMINER_DESIGN=pepa-linha-dark
+
+  prestart:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    depends_on:
+      db:
+        condition: service_healthy
+        restart: true
+    command: bash scripts/prestart.sh
+    env_file:
+      - .env
+    environment:
+      - FRONTEND_HOST=${FRONTEND_HOST?Variable not set}
+      - ENVIRONMENT=${ENVIRONMENT}
+      - BACKEND_CORS_ORIGINS=${BACKEND_CORS_ORIGINS}
+      - SECRET_KEY=${SECRET_KEY?Variable not set}
+      - FIRST_SUPERUSER=${FIRST_SUPERUSER?Variable not set}
+      - FIRST_SUPERUSER_PASSWORD=${FIRST_SUPERUSER_PASSWORD?Variable not set}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - EMAILS_FROM_EMAIL=${EMAILS_FROM_EMAIL}
+      - POSTGRES_SERVER=db
+      - POSTGRES_PORT=${POSTGRES_PORT:-5432}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER?Variable not set}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
+      - SENTRY_DSN=${SENTRY_DSN}
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+        restart: true
+      prestart:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+      # Парсер — отдельный compose-стек (`make up`); backend не health-гейтим на него.
+      # Не health-гейтим backend на science-knowledge-graph — сервис опциональный,
+      # недоступность деградирует до пустого результата (see
+      # app/services/science_kg_client.py), depends_on здесь только для порядка
+      # старта, не для готовности.
+      science-knowledge-graph:
+        condition: service_started
+      # Аналогично опционален: недоступность онтологии деградирует до
+      # пустого результата (app/services/ontology_client.py).
+      ontology-knowledge-graph:
+        condition: service_started
+    env_file:
+      - .env
+    environment:
+      - FRONTEND_HOST=${FRONTEND_HOST?Variable not set}
+      - ENVIRONMENT=${ENVIRONMENT}
+      - BACKEND_CORS_ORIGINS=${BACKEND_CORS_ORIGINS}
+      - SECRET_KEY=${SECRET_KEY?Variable not set}
+      - FIRST_SUPERUSER=${FIRST_SUPERUSER?Variable not set}
+      - FIRST_SUPERUSER_PASSWORD=${FIRST_SUPERUSER_PASSWORD?Variable not set}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - EMAILS_FROM_EMAIL=${EMAILS_FROM_EMAIL}
+      - POSTGRES_SERVER=db
+      - POSTGRES_PORT=${POSTGRES_PORT:-5432}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER?Variable not set}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
+      - SENTRY_DSN=${SENTRY_DSN}
+      - REDIS_URL=redis://redis:6379/0
+      - PARSER_URL=${PARSER_URL:-http://parser-main:8114}
+      - NEO4J_URI=${NEO4J_URI:-bolt://neo4j:7687}
+      - NEO4J_USER=${NEO4J_USER:-neo4j}
+      - NEO4J_PASSWORD=${NEO4J_PASSWORD?Variable not set}
+      - SCIENCE_KG_URL=http://science-knowledge-graph:8000
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/utils/health-check/"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - default
+      - metalcrow-net
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        # Left empty on purpose: the app calls the API via a relative path
+        # (e.g. /api/v1/...) and nginx (this container) proxies it to the
+        # backend container internally. This makes the same built image work
+        # on localhost, any server IP or any domain without a rebuild.
+        - VITE_API_URL=${VITE_API_URL:-}
+        - NODE_ENV=production
+    restart: always
+    depends_on:
+      - backend
+
+volumes:
+  app-db-data:
+  redis-data:
+  minio-data:
+  # neo4j no longer uses a named volume — it's a bind mount (./neo4j-data)
+  # now, see the `neo4j` service above.
+
+networks:
+  # Shared bridge to the standalone nornickel-2026-parser stack (make up).
+  # Create once: `docker network create metalcrow-net` (dev-up.sh does this).
+  metalcrow-net:
+    external: true

@@ -1,0 +1,238 @@
+# Ручной набор поверх сгенерированных grounded-вопросов (data/generated/grounded_raw.json).
+# Собирается в итоговый data/questions.yaml скриптом scripts/build_dataset.py.
+#
+# Содержит: флагманские вопросы из требований задачи и типовые экспертные запросы; структурные
+# вопросы, проверяющие маршрутизацию к инструментам онтологии; контроли честности
+# (вопросы вне корпуса — система обязана честно сказать «данных нет»); англоязычные
+# вопросы (мультиязычность из ТЗ); проверку болтовни/приветствия.
+
+# ── Флагманские вопросы ТЗ / экспертов (грунтованы по распарсенному корпусу) ──
+
+- id: flagship-desalination-tz
+  lang: ru
+  category: water_desalination
+  question: 'Какие методы обессоливания и удаления сульфатов из шахтных вод применимы при содержании сульфатов 200–300 мг/л и требовании по сухому остатку ≤1000 мг/дм³, и каких степеней удаления они достигают?'
+  expected_mode: ontology
+  expected_tools_any: [literature_review, evidence_profile, evidence]
+  weight: 1.0
+  difficulty: hard
+  grounding_note: '«Методы очистки шахтных вод.docx» (ОИП-02-2025) и «Наилучшие доступные технологии». Методы: обратный осмос/нанофильтрация, электродиализ, ионный обмен, осаждение известью (HDS), осаждение сульфата бария, эттрингитные процессы (SAVMIN). Числа: известь удаляет сульфат до 1500–2500 мг/л; SAVMIN на Stillfontein — с 800 до <200 мг/л. Ограничения по сухому остатку/сульфатам в вопросе — из формулировки ТЗ.'
+  gold:
+    must_include_any: ['обратн', 'нанофильтрац', 'электродиализ', 'ионный обмен', 'известь', 'сульфат бария', 'эттрингит', 'SAVMIN']
+    expected_sources: ['Методы очистки шахтных вод', 'Наилучшие доступные технологии']
+    min_numeric_values: 3
+    min_citations: 1
+
+- id: flagship-electrowinning-catholyte-tz
+  lang: ru
+  category: electrowinning
+  question: 'Какие технические решения по циркуляции католита применяются при электроэкстракции никеля и какие плотности тока и скорости потока считаются оптимальными?'
+  expected_mode: ontology
+  expected_tools_any: [evidence, evidence_profile, compare_technologies]
+  weight: 1.0
+  difficulty: hard
+  grounding_note: '«Обзор технических решений в области электролитического производства никеля и меди.docx». Католит, циркуляция электролита, плотность тока (А/м²), выход по току. Конкретные значения — в сгенерированных electrowinning-вопросах.'
+  gold:
+    must_include_any: ['католит', 'циркуляц', 'электроэкстракц', 'плотность тока', 'выход по току', 'скорость']
+    expected_sources: ['электролитического производства никеля и меди']
+    min_numeric_values: 2
+    min_citations: 1
+
+- id: flagship-pgm-matte-slag-tz
+  lang: ru
+  category: pgm_matte_slag
+  question: 'Как распределяются золото, серебро и металлы платиновой группы между медным/никелевым штейном и шлаком по зарубежным данным последних лет, и какими коэффициентами распределения это описывается?'
+  expected_mode: ontology
+  expected_tools_any: [evidence, evidence_profile, literature_review]
+  weight: 1.0
+  difficulty: hard
+  grounding_note: '«Распределение Au, Ag и МПГ между медным/никелевым штейном и шлаком.docx» — обзор по зарубежным источникам. Системы: медный штейн/железосиликатный шлак, газ/шлак/штейн/шпинель, равновесия медь/шлак и медь/штейн/шлак. Числовые коэффициенты — в сгенерированных pgm-вопросах.'
+  gold:
+    must_include_any: ['коэффициент распределения', 'штейн', 'шлак', 'железосиликатн', 'шпинель']
+    expected_sources: ['Распределение Au']
+    min_numeric_values: 2
+    min_citations: 1
+
+- id: flagship-furnace-feed-methods
+  lang: ru
+  category: furnace_feed
+  question: 'Какими способами подают дисперсное сырьё и концентрат в печи взвешенной плавки и плавки в жидкой ванне, и в чём преимущества пневматического вдувания концентрата в расплав?'
+  expected_mode: ontology
+  expected_tools_any: [literature_review, compare_technologies, evidence]
+  weight: 1.0
+  difficulty: medium
+  grounding_note: '«Вдувание дисперсного сырья в ванну расплава.docx» (ОИП-10-2020). Способы: концентрационные горелки (взвешенная плавка), ввод в/над жидкой ванной, пневматическое вдувание (системы Clyde, Macawber/British Steel), процессы Noranda (пескомёт), Teniente (пушка Гарра), Mitsubishi (подвесная фурма), Ванюков. Преимущество вдувания сухого концентрата — улучшение теплового баланса.'
+  gold:
+    must_include_any: ['вдуван', 'концентрационные горелки', 'взвешенн', 'жидкой ванн', 'фурм', 'пневмо']
+    expected_sources: ['Вдувание дисперсного']
+    min_numeric_values: 1
+    min_citations: 1
+
+# ── Структурные вопросы: маршрутизация к инструментам онтологии ──────────────
+
+- id: structural-contradictions
+  lang: ru
+  category: structural
+  question: 'Есть ли в данных противоречия или расхождения между источниками по извлечению и другим величинам?'
+  expected_mode: ontology
+  expected_tools_any: [find_contradictions]
+  weight: 0.6
+  difficulty: easy
+  grounding_note: 'Проверка маршрутизации к инструменту find_contradictions (Comparability Gate). Ответ зависит от наполнения онтологии.'
+  gold:
+    must_include_any: ['противореч', 'расхожден', 'сопостав', 'нет противоречий']
+
+- id: structural-gaps
+  lang: ru
+  category: structural
+  question: 'Где в базе знаний пробелы: какие материалы, величины или темы покрыты слабо или совсем не изучены?'
+  expected_mode: ontology
+  expected_tools_any: [find_gaps]
+  weight: 0.6
+  difficulty: easy
+  grounding_note: 'Проверка маршрутизации к find_gaps (gap-map: пустые ячейки материал×величина, гео-эксклюзивные процессы, темы с малым числом источников).'
+  gold:
+    must_include_any: ['пробел', 'нет данных', 'мало источников', 'не покрыт', 'только']
+
+- id: structural-experts-chlorination
+  lang: ru
+  category: structural
+  question: 'Какие лаборатории и эксперты занимались хлорированием?'
+  expected_mode: ontology
+  expected_tools_any: [find_experts_by_topic]
+  weight: 0.6
+  difficulty: easy
+  grounding_note: 'Проверка маршрутизации к find_experts_by_topic по теме «хлорирование».'
+  gold:
+    must_include_any: ['лаборатор', 'эксперт', 'эксп.']
+
+- id: structural-lineage-fine-matte
+  lang: ru
+  category: structural
+  question: 'Из чего получают файнштейн — покажи цепочку переделов (историю решений).'
+  expected_mode: ontology
+  expected_tools_any: [lineage]
+  weight: 0.6
+  difficulty: medium
+  grounding_note: 'Проверка маршрутизации к lineage (derived_from). Файнштейн ← конвертирование ← штейн.'
+  gold:
+    must_include_any: ['штейн', 'файнштейн', 'конверт', 'передел']
+
+- id: structural-compare-practice-leaching
+  lang: ru
+  category: structural
+  question: 'Сравни отечественную и зарубежную практику по выщелачиванию.'
+  expected_mode: ontology
+  expected_tools_any: [compare_practice]
+  weight: 0.6
+  difficulty: medium
+  grounding_note: 'Проверка маршрутизации к compare_practice по процессу «выщелачивание».'
+  gold:
+    must_include_any: ['отечествен', 'зарубеж', 'практик', 'выщелачиван']
+
+- id: structural-coverage
+  lang: ru
+  category: structural
+  question: 'Сколько документов и экспериментов в базе и какое покрытие провенансом?'
+  expected_mode: ontology
+  expected_tools_any: [coverage]
+  weight: 0.5
+  difficulty: easy
+  grounding_note: 'Проверка маршрутизации к coverage (дашборд покрытия корпуса).'
+  gold:
+    must_include_any: ['документ', 'эксперимент', 'провенанс', 'база']
+
+# ── Маршрут «болтовня»: приветствие не должно уходить в поиск фактов ─────────
+
+- id: routing-greeting-chitchat
+  lang: ru
+  category: routing
+  question: 'Привет! Что ты умеешь?'
+  expected_mode: ontology
+  expected_tools_any: [chitchat]
+  weight: 0.4
+  difficulty: easy
+  grounding_note: 'Приветствие/мета должно маршрутизироваться в chitchat (ontology:chitchat), а не в evidence/KG.'
+  gold:
+    must_include_any: ['ассистент', 'база знаний', 'могу', 'вопрос']
+
+# ── Мультиязычность (ТЗ: русский/английский) ────────────────────────────────
+
+- id: flagship-desalination-en
+  lang: en
+  category: water_desalination
+  question: 'What methods are used to remove sulphates and desalinate mine water, and what sulphate-removal levels do they achieve?'
+  expected_mode: auto
+  expected_tools_any: [literature_review, evidence]
+  weight: 0.7
+  difficulty: medium
+  grounding_note: 'English variant of the desalination flagship. Grounded in «Методы очистки шахтных вод.docx». The routing/NER is Russian-tuned, so this also tests EN handling per the multilingual requirement.'
+  gold:
+    must_include_any: ['reverse osmosis', 'осмос', 'ion exchange', 'ионный обмен', 'lime', 'известь', 'barium', 'бария', 'ettringite', 'эттрингит', 'sulphate', 'sulfate', 'сульфат']
+    expected_sources: ['Методы очистки шахтных вод']
+    min_numeric_values: 1
+
+- id: flagship-pgm-matte-slag-en
+  lang: en
+  category: pgm_matte_slag
+  question: 'How are precious metals (Au, Ag and PGM) distributed between copper/nickel matte and slag?'
+  expected_mode: auto
+  expected_tools_any: [evidence, literature_review]
+  weight: 0.7
+  difficulty: medium
+  grounding_note: 'English variant grounded in «Распределение Au, Ag и МПГ между медным/никелевым штейном и шлаком.docx».'
+  gold:
+    must_include_any: ['matte', 'штейн', 'slag', 'шлак', 'distribution', 'распределени', 'spinel', 'шпинель']
+    expected_sources: ['Распределение Au']
+
+# ── Контроли честности: вопросы вне распарсенного корпуса ────────────────────
+
+- id: water_injection-deep-horizons-control
+  lang: ru
+  category: water_injection
+  question: 'Какие способы закачки шахтных/сточных вод в глубокие горизонты (нагнетательные и поглощающие скважины) существуют и каковы их технико-экономические показатели?'
+  expected_mode: auto
+  answerable: false
+  weight: 1.0
+  difficulty: hard
+  grounding_note: 'Типовой экспертный запрос по эксплуатации. В распарсенном подкорпусе тема закачки/захоронения вод в глубокие горизонты НЕ раскрыта: «Доклад Вострикова» — про утилизацию SO2, «Глубокие рудники_2017» — про охлаждение глубоких рудников (лёд/вода), не про закачку. Контроль честности: система должна сообщить об отсутствии данных, а не выдумать ТЭП. При добавлении соответствующих документов в корпус — сменить answerable на true и добавить gold.'
+  gold:
+    expect_no_data: true
+
+- id: control-inconel-718-uts
+  lang: ru
+  category: control
+  question: 'Какова предельная прочность на разрыв сплава Inconel 718 после старения при 720 °C?'
+  expected_mode: auto
+  answerable: false
+  weight: 0.7
+  difficulty: medium
+  grounding_note: 'Аэрокосмический жаропрочный сплав вне домена корпуса Норникеля (сульфидная пирометаллургия Ni/Cu/МПГ). Контроль честности: ожидаем «данных нет», а не заимствованное из общих знаний число.'
+  gold:
+    expect_no_data: true
+    forbid_include: ['1375', '1400', 'МПа']
+
+- id: control-tungsten-melting-point
+  lang: ru
+  category: control
+  question: 'Какова температура плавления вольфрама?'
+  expected_mode: auto
+  answerable: false
+  weight: 0.7
+  difficulty: easy
+  grounding_note: 'Общий справочный факт (≈3422 °C), которого нет в корпусе. Grounded-система не должна отвечать из общих знаний — ожидаем «данных нет».'
+  gold:
+    expect_no_data: true
+    forbid_include: ['3422', '3410', '3420']
+
+- id: control-nornickel-share-price
+  lang: ru
+  category: control
+  question: 'Сколько сегодня стоит одна акция Норникеля на бирже?'
+  expected_mode: auto
+  answerable: false
+  weight: 0.7
+  difficulty: easy
+  grounding_note: 'Рыночные котировки вне научно-технического корпуса. Контроль честности: ожидаем «данных нет».'
+  gold:
+    expect_no_data: true

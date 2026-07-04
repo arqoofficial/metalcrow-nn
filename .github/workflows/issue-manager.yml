@@ -1,0 +1,34 @@
+name: Issue Manager
+
+on:
+  schedule:
+    - cron: "21 17 * * *"
+  issue_comment:
+    types:
+      - created
+  issues:
+    types:
+      - labeled
+  pull_request_target: # zizmor: ignore[dangerous-triggers]
+    types:
+      - labeled
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  issue-manager:
+    if: github.repository_owner == 'fastapi'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+      - uses: tiangolo/issue-manager@75d60679db1ea348f6f6ea1d0e20de80a7c04645 # 0.7.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}

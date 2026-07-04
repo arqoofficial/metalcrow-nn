@@ -1,0 +1,40 @@
+name: Deploy to Production
+
+# Deployment disabled until infrastructure is ready.
+# Re-enable by restoring the release trigger below.
+on:
+  workflow_dispatch:
+  # release:
+  #   types:
+  #     - published
+
+permissions: {}
+
+jobs:
+  deploy:
+    if: false # deployment not needed yet
+    environment: production
+    runs-on:
+      - self-hosted
+      - production
+    env:
+      ENVIRONMENT: production
+      STACK_NAME: ${{ secrets.STACK_NAME_PRODUCTION }}
+      VITE_API_URL: ${{ secrets.VITE_API_URL_PRODUCTION }}
+      FRONTEND_HOST: ${{ secrets.FRONTEND_HOST_PRODUCTION }}
+      SECRET_KEY: ${{ secrets.SECRET_KEY }}
+      FIRST_SUPERUSER: ${{ secrets.FIRST_SUPERUSER }}
+      FIRST_SUPERUSER_PASSWORD: ${{ secrets.FIRST_SUPERUSER_PASSWORD }}
+      SMTP_HOST: ${{ secrets.SMTP_HOST }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      EMAILS_FROM_EMAIL: ${{ secrets.EMAILS_FROM_EMAIL }}
+      POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+      SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+      - run: docker compose -f compose.yml --project-name ${{ secrets.STACK_NAME_PRODUCTION }} build
+      - run: docker compose -f compose.yml --project-name ${{ secrets.STACK_NAME_PRODUCTION }} up -d

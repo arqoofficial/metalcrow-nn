@@ -1,0 +1,28 @@
+[project]
+name = "nornickel-term-dict"
+version = "0.1.0"
+description = "RU/EN domain term dictionary + cross-lingual synonym map for the Nornickel KG spaCy pipeline"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.4.2",
+    "numpy>=2.4.4",
+    "python-levenshtein>=0.27.3",
+    "scikit-learn>=1.9.0",
+    "sentence-transformers>=5.6.0",
+    "torch>=2.12.1",
+    "unidecode>=1.4.0",
+    "yake>=0.7.3",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cpu"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

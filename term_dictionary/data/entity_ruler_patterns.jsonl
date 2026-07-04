@@ -1,0 +1,924 @@
+{"label": "PROCESS", "pattern": "desalination"}
+{"label": "PROCESS", "pattern": [{"LOWER": "water"}, {"LOWER": "treatment"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "очистка"}, {"LOWER": "воды"}]}
+{"label": "PROCESS", "pattern": "electroextraction"}
+{"label": "PROCESS", "pattern": "electrowinning"}
+{"label": "PROCESS", "pattern": [{"LOWER": "циркуляция"}, {"LOWER": "католита"}]}
+{"label": "PROCESS", "pattern": "injection"}
+{"label": "PROCESS", "pattern": [{"LOWER": "закачка"}, {"LOWER": "шахтных"}, {"LOWER": "вод"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "обратная"}, {"LOWER": "закачка"}]}
+{"label": "PROCESS", "pattern": "smelting"}
+{"label": "PROCESS", "pattern": "converting"}
+{"label": "PROCESS", "pattern": "flotation"}
+{"label": "PROCESS", "pattern": "chlorination"}
+{"label": "PROCESS", "pattern": "precipitation"}
+{"label": "PROCESS", "pattern": [{"LOWER": "fire"}, {"LOWER": "refining"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "огневое"}, {"LOWER": "рафинирование"}]}
+{"label": "PROCESS", "pattern": "casting"}
+{"label": "PROCESS", "pattern": "литьё"}
+{"label": "PROCESS", "pattern": "литье"}
+{"label": "PROCESS", "pattern": "annealing"}
+{"label": "PROCESS", "pattern": "отжиг"}
+{"label": "PROCESS", "pattern": "extrusion"}
+{"label": "PROCESS", "pattern": "roasting"}
+{"label": "PROCESS", "pattern": [{"LOWER": "heat"}, {"LOWER": "treatment"}]}
+{"label": "PROCESS", "pattern": "quenching"}
+{"label": "PROCESS", "pattern": "aging"}
+{"label": "PROCESS", "pattern": "rolling"}
+{"label": "PROCESS", "pattern": "welding"}
+{"label": "PROCESS", "pattern": [{"LOWER": "surface"}, {"LOWER": "treatment"}]}
+{"label": "PROCESS", "pattern": "electrochemical"}
+{"label": "PROCESS", "pattern": "other"}
+{"label": "PROPERTY", "pattern": "hardness"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "yield"}, {"LOWER": "strength"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "0.2"}, {"LOWER": "%"}, {"LOWER": "proof"}, {"LOWER": "stress"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "предел"}, {"LOWER": "текучести"}]}
+{"label": "PROPERTY", "pattern": "σ0.2"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "tensile"}, {"LOWER": "strength"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "ultimate"}, {"LOWER": "tensile"}, {"LOWER": "strength"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "предел"}, {"LOWER": "прочности"}]}
+{"label": "PROPERTY", "pattern": "UTS"}
+{"label": "PROPERTY", "pattern": "σв"}
+{"label": "PROPERTY", "pattern": "elongation"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "total"}, {"LOWER": "elongation"}, {"LOWER": "to"}, {"LOWER": "failure"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "относительное"}, {"LOWER": "удлинение"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "grain"}, {"LOWER": "size"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "average"}, {"LOWER": "grain"}, {"LOWER": "diameter"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "размер"}, {"LOWER": "зерна"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "creep"}, {"LOWER": "rate"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "скорость"}, {"LOWER": "ползучести"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "electrode"}, {"LOWER": "potential"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "current"}, {"LOWER": "density"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "плотность"}, {"LOWER": "тока"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "recovery"}, {"LOWER": "degree"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "степень"}, {"LOWER": "извлечения"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "phase"}, {"LOWER": "fraction"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "доля"}, {"LOWER": "фазы"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "element"}, {"LOWER": "content"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "melting"}, {"LOWER": "point"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "температура"}, {"LOWER": "плавления"}]}
+{"label": "PROPERTY", "pattern": "viscosity"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "dry"}, {"LOWER": "residue"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "сухой"}, {"LOWER": "остаток"}]}
+{"label": "PROPERTY", "pattern": "TDS"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "total"}, {"LOWER": "dissolved"}, {"LOWER": "solids"}]}
+{"label": "PROPERTY", "pattern": "salinity"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "общая"}, {"LOWER": "минерализация"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "flow"}, {"LOWER": "rate"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "скорость"}, {"LOWER": "потока"}]}
+{"label": "PROPERTY", "pattern": "ph"}
+{"label": "PROPERTY", "pattern": "рН"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "energy"}, {"LOWER": "consumption"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "удельный"}, {"LOWER": "расход"}, {"LOWER": "энергии"}]}
+{"label": "PROPERTY", "pattern": "kWh/t"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "specific"}, {"LOWER": "cost"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "удельные"}, {"LOWER": "затраты"}]}
+{"label": "PROPERTY", "pattern": "capex"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "капитальные"}, {"LOWER": "затраты"}]}
+{"label": "PROPERTY", "pattern": "opex"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "операционные"}, {"LOWER": "затраты"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "current"}, {"LOWER": "efficiency"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "выход"}, {"LOWER": "по"}, {"LOWER": "току"}]}
+{"label": "MATERIAL", "pattern": "catholyte"}
+{"label": "MATERIAL", "pattern": "anolyte"}
+{"label": "MATERIAL", "pattern": "electrolyte"}
+{"label": "EQUIPMENT", "pattern": "катод"}
+{"label": "EQUIPMENT", "pattern": "cathode"}
+{"label": "EQUIPMENT", "pattern": "анод"}
+{"label": "EQUIPMENT", "pattern": "anode"}
+{"label": "MATERIAL", "pattern": "МПГ"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "металлы"}, {"LOWER": "платиновой"}, {"LOWER": "группы"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "платиновые"}, {"LOWER": "металлы"}]}
+{"label": "MATERIAL", "pattern": "PGM"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "platinum"}, {"LOWER": "group"}, {"LOWER": "metals"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "шахтные"}, {"LOWER": "воды"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "рудничные"}, {"LOWER": "воды"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "mine"}, {"LOWER": "water"}]}
+{"label": "MATERIAL", "pattern": "штейн"}
+{"label": "MATERIAL", "pattern": "matte"}
+{"label": "MATERIAL", "pattern": "шлак"}
+{"label": "MATERIAL", "pattern": "slag"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "sulfate"}, {"LOWER": "content"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "chloride"}, {"LOWER": "content"}]}
+{"label": "MATERIAL", "pattern": "nickel"}
+{"label": "MATERIAL", "pattern": "медь"}
+{"label": "MATERIAL", "pattern": "copper"}
+{"label": "MATERIAL", "pattern": "cobalt"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "сульфат"}, {"LOWER": "никеля"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "nickel"}, {"LOWER": "sulfate"}]}
+{"label": "MATERIAL", "pattern": "concentrate"}
+{"label": "PROCESS", "pattern": [{"LOWER": "хлоридное"}, {"LOWER": "выщелачивание"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "chloride"}, {"LOWER": "leaching"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "автоклавное"}, {"LOWER": "окисление"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "pressure"}, {"LOWER": "oxidation"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "solvent"}, {"LOWER": "extraction"}]}
+{"label": "EQUIPMENT", "pattern": "autoclave"}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "печь"}, {"LOWER": "взвешенной"}, {"LOWER": "плавки"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "flash"}, {"LOWER": "smelting"}, {"LOWER": "furnace"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "flotation"}, {"LOWER": "cell"}]}
+{"label": "EQUIPMENT", "pattern": "electrolyzer"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "удельный"}, {"LOWER": "расход"}, {"LOWER": "электроэнергии"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "specific"}, {"LOWER": "energy"}, {"LOWER": "consumption"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "температура"}, {"LOWER": "электролита"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "electrolyte"}, {"LOWER": "temperature"}]}
+{"label": "MATERIAL", "pattern": "Ni"}
+{"label": "MATERIAL", "pattern": "Cu"}
+{"label": "MATERIAL", "pattern": "Co"}
+{"label": "MATERIAL", "pattern": "platinum"}
+{"label": "MATERIAL", "pattern": "Pt"}
+{"label": "MATERIAL", "pattern": "palladium"}
+{"label": "MATERIAL", "pattern": "Pd"}
+{"label": "MATERIAL", "pattern": "Шлаки"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "ore"}, {"LOWER": "concentrate"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "dressed"}, {"LOWER": "ore"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "металлургический"}, {"LOWER": "концентрат"}]}
+{"label": "MATERIAL", "pattern": "tailings"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "mine"}, {"LOWER": "tails"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "mine"}, {"LOWER": "tailings"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "mining"}, {"LOWER": "waste"}]}
+{"label": "MATERIAL", "pattern": "tails"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "хвост"}, {"LOWER": "(горное"}, {"LOWER": "дело)"}]}
+{"label": "MATERIAL", "pattern": "ore"}
+{"label": "MATERIAL", "pattern": "руда"}
+{"label": "MATERIAL", "pattern": "руды"}
+{"label": "MATERIAL", "pattern": "pyrrhotite"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "магнитный"}, {"LOWER": "колчедан"}]}
+{"label": "MATERIAL", "pattern": "pentlandite"}
+{"label": "MATERIAL", "pattern": "chalcopyrite"}
+{"label": "MATERIAL", "pattern": "Kupferkies"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "золотая"}, {"LOWER": "обманка"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "медный"}, {"LOWER": "колчедан"}]}
+{"label": "MATERIAL", "pattern": "ferronickel"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "sulfuric"}, {"LOWER": "acid"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "vitriolic"}, {"LOWER": "acid"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "oil"}, {"LOWER": "of"}, {"LOWER": "vitriol"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "hydrogen"}, {"LOWER": "sulfate"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "battery"}, {"LOWER": "acid"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "sulphuric"}, {"LOWER": "acid"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "серная"}, {"LOWER": "кислота"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "sulfur"}, {"LOWER": "dioxide"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "sulphur"}, {"LOWER": "dioxide"}, {"LOWER": ","}, {"LOWER": "sulfur"}, {"LOWER": "dioxide"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "sulphur"}, {"LOWER": "dioxide"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "sulfurous"}, {"LOWER": "oxide"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "sulfurous"}, {"LOWER": "anhydride"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "sulfurous"}, {"LOWER": "acid"}, {"LOWER": "anhydride"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "sulfur"}, {"LOWER": "oxide"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "оксид"}, {"LOWER": "серы"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "двуокись"}, {"LOWER": "серы"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "диоксид"}, {"LOWER": "серы"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "сернистый"}, {"LOWER": "ангидрид"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "сернистый"}, {"LOWER": "газ"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "electrolyte"}, {"LOWER": "solution"}]}
+{"label": "MATERIAL", "pattern": "electrolytes"}
+{"label": "PROCESS", "pattern": [{"LOWER": "флотационное"}, {"LOWER": "обогащение"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "автоклавное"}, {"LOWER": "выщелачивание"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "metal"}, {"LOWER": "smelting"}]}
+{"label": "PROCESS", "pattern": "обжиг"}
+{"label": "PROCESS", "pattern": "hydrometallurgy"}
+{"label": "PROCESS", "pattern": "pyrometallurgy"}
+{"label": "PROCESS", "pattern": "comminution"}
+{"label": "PROCESS", "pattern": "crushing"}
+{"label": "PROCESS", "pattern": "filtration"}
+{"label": "PROCESS", "pattern": "calcination"}
+{"label": "PROCESS", "pattern": "calcined"}
+{"label": "PROCESS", "pattern": "sintering"}
+{"label": "PROCESS", "pattern": "fritting"}
+{"label": "PROCESS", "pattern": "frittage"}
+{"label": "PROCESS", "pattern": "electrolysis"}
+{"label": "PROCESS", "pattern": [{"LOWER": "chemical"}, {"LOWER": "refining"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "chemical"}, {"LOWER": "refinement"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "chemical"}, {"LOWER": "purification"}]}
+{"label": "PROCESS", "pattern": "Raffination"}
+{"label": "PROCESS", "pattern": "beneficiation"}
+{"label": "PROCESS", "pattern": [{"LOWER": "magnetic"}, {"LOWER": "separation"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "магнитная"}, {"LOWER": "сепарация"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "магнитный"}, {"LOWER": "сепаратор"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "ball"}, {"LOWER": "mill"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "барабанно-шаровая"}, {"LOWER": "мельница"}]}
+{"label": "EQUIPMENT", "pattern": "autoclaves"}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "steam"}, {"LOWER": "sterilizer"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "lab"}, {"LOWER": "sterilizer"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "autoclave"}, {"LOWER": "sterilizer"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "metallurgical"}, {"LOWER": "converter"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "electric"}, {"LOWER": "arc"}, {"LOWER": "furnace"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "arc"}, {"LOWER": "furnace"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "electric"}, {"LOWER": "arc"}, {"LOWER": "heater"}]}
+{"label": "EQUIPMENT", "pattern": "EAF"}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "дуговая"}, {"LOWER": "сталеплавильная"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "электродуговой"}, {"LOWER": "нагреватель"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "дуговая"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "blast"}, {"LOWER": "furnace"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "доменная"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": "домна"}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "ватержакетная"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": "hydrocyclone"}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "filter"}, {"LOWER": "press"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "rotary"}, {"LOWER": "kiln"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "барабанная"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "барабанная"}, {"LOWER": "вращающаяся"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "вращающаяся"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "револьверная"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "трубчатая"}, {"LOWER": "вращающаяся"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "трубчатая"}, {"LOWER": "печь"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "electric"}, {"LOWER": "current"}, {"LOWER": "density"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "electrical"}, {"LOWER": "current"}, {"LOWER": "density"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "areic"}, {"LOWER": "electric"}, {"LOWER": "current"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "объёмная"}, {"LOWER": "плотность"}, {"LOWER": "тока"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "плотность"}, {"LOWER": "электрического"}, {"LOWER": "тока"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "particle"}, {"LOWER": "size"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "granule"}, {"LOWER": "size"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "размер"}, {"LOWER": "зёрен"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "внутреннее"}, {"LOWER": "трение"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "вязкое"}, {"LOWER": "трение"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "кинематический"}, {"LOWER": "коэффициент"}, {"LOWER": "вязкости"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "коэффициент"}, {"LOWER": "вязкости"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "коэффициент"}, {"LOWER": "кинематической"}, {"LOWER": "вязкости"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "сила"}, {"LOWER": "вязкого"}, {"LOWER": "трения"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "силы"}, {"LOWER": "вязкого"}, {"LOWER": "трения"}]}
+{"label": "PROPERTY", "pattern": "porosity"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "void"}, {"LOWER": "ratio"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "void"}, {"LOWER": "fraction"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "tensile"}, {"LOWER": "force"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "ultimate"}, {"LOWER": "strength"}]}
+{"label": "PROPERTY", "pattern": "TS"}
+{"label": "PROPERTY", "pattern": [{"LOWER": "прочности"}, {"LOWER": "предел"}]}
+{"label": "PROPERTY", "pattern": [{"LOWER": "прочность"}, {"LOWER": "на"}, {"LOWER": "разрыв"}]}
+{"label": "PROPERTY", "pattern": "hard"}
+{"label": "MATERIAL", "pattern": "hydrogen"}
+{"label": "MATERIAL", "pattern": "unbiunium"}
+{"label": "MATERIAL", "pattern": "eka-actinium"}
+{"label": "MATERIAL", "pattern": "Ubu"}
+{"label": "MATERIAL", "pattern": "lanthanum"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "metallic"}, {"LOWER": "lanthanum"}]}
+{"label": "MATERIAL", "pattern": "La"}
+{"label": "MATERIAL", "pattern": "promethium"}
+{"label": "MATERIAL", "pattern": "Pm"}
+{"label": "MATERIAL", "pattern": "helium"}
+{"label": "MATERIAL", "pattern": "гелий"}
+{"label": "MATERIAL", "pattern": "terbium"}
+{"label": "MATERIAL", "pattern": "Tb"}
+{"label": "MATERIAL", "pattern": "lithium"}
+{"label": "MATERIAL", "pattern": "литий"}
+{"label": "MATERIAL", "pattern": "beryllium"}
+{"label": "MATERIAL", "pattern": "glucineum"}
+{"label": "MATERIAL", "pattern": "Be"}
+{"label": "MATERIAL", "pattern": "dysprosium"}
+{"label": "MATERIAL", "pattern": "Dy"}
+{"label": "MATERIAL", "pattern": "gadolinium"}
+{"label": "MATERIAL", "pattern": "Gd"}
+{"label": "MATERIAL", "pattern": "gadolinum"}
+{"label": "MATERIAL", "pattern": "gadolininum"}
+{"label": "MATERIAL", "pattern": "Gad"}
+{"label": "MATERIAL", "pattern": "erbium"}
+{"label": "MATERIAL", "pattern": "Er"}
+{"label": "MATERIAL", "pattern": "эрбий"}
+{"label": "MATERIAL", "pattern": "samarium"}
+{"label": "MATERIAL", "pattern": "Sm"}
+{"label": "MATERIAL", "pattern": "holmium"}
+{"label": "MATERIAL", "pattern": "Ho"}
+{"label": "MATERIAL", "pattern": "boron"}
+{"label": "MATERIAL", "pattern": "boracium"}
+{"label": "MATERIAL", "pattern": "бор"}
+{"label": "MATERIAL", "pattern": "oxygen"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "oxygen"}, {"LOWER": "atom"}]}
+{"label": "MATERIAL", "pattern": "carbon"}
+{"label": "MATERIAL", "pattern": "lutetium"}
+{"label": "MATERIAL", "pattern": "lutecium"}
+{"label": "MATERIAL", "pattern": "cassiopium"}
+{"label": "MATERIAL", "pattern": "cassiopeium"}
+{"label": "MATERIAL", "pattern": "Lu"}
+{"label": "MATERIAL", "pattern": "americium"}
+{"label": "MATERIAL", "pattern": "Am"}
+{"label": "MATERIAL", "pattern": "sodium"}
+{"label": "MATERIAL", "pattern": "fluorine"}
+{"label": "MATERIAL", "pattern": "фтор"}
+{"label": "MATERIAL", "pattern": "флюор"}
+{"label": "MATERIAL", "pattern": "thulium"}
+{"label": "MATERIAL", "pattern": "Tm"}
+{"label": "MATERIAL", "pattern": "тулий"}
+{"label": "MATERIAL", "pattern": "mendelevium"}
+{"label": "MATERIAL", "pattern": "unnilunium"}
+{"label": "MATERIAL", "pattern": "Mv"}
+{"label": "MATERIAL", "pattern": "nitrogen"}
+{"label": "MATERIAL", "pattern": "азот"}
+{"label": "MATERIAL", "pattern": "einsteinium"}
+{"label": "MATERIAL", "pattern": "Es"}
+{"label": "MATERIAL", "pattern": "unbibium"}
+{"label": "MATERIAL", "pattern": "eka-thorium"}
+{"label": "MATERIAL", "pattern": "Ubb"}
+{"label": "MATERIAL", "pattern": "ytterbium"}
+{"label": "MATERIAL", "pattern": "Yb"}
+{"label": "MATERIAL", "pattern": "curium"}
+{"label": "MATERIAL", "pattern": "Cm"}
+{"label": "MATERIAL", "pattern": "кюрий"}
+{"label": "MATERIAL", "pattern": "unquadbium"}
+{"label": "MATERIAL", "pattern": "Uqb"}
+{"label": "MATERIAL", "pattern": "nobelium"}
+{"label": "MATERIAL", "pattern": "unnilbium"}
+{"label": "MATERIAL", "pattern": "Unb"}
+{"label": "MATERIAL", "pattern": "No"}
+{"label": "MATERIAL", "pattern": "unpentbium"}
+{"label": "MATERIAL", "pattern": "Upb"}
+{"label": "MATERIAL", "pattern": "unpentnilium"}
+{"label": "MATERIAL", "pattern": "Upn"}
+{"label": "MATERIAL", "pattern": "unpentunium"}
+{"label": "MATERIAL", "pattern": "Upu"}
+{"label": "MATERIAL", "pattern": "unquadhexium"}
+{"label": "MATERIAL", "pattern": "Uqh"}
+{"label": "MATERIAL", "pattern": "unpenttrium"}
+{"label": "MATERIAL", "pattern": "Upt"}
+{"label": "MATERIAL", "pattern": "berkelium"}
+{"label": "MATERIAL", "pattern": "Bk"}
+{"label": "MATERIAL", "pattern": "lawrencium"}
+{"label": "MATERIAL", "pattern": "Lr"}
+{"label": "MATERIAL", "pattern": "iron"}
+{"label": "MATERIAL", "pattern": "aluminium"}
+{"label": "MATERIAL", "pattern": "aluminum"}
+{"label": "MATERIAL", "pattern": "magnesium"}
+{"label": "MATERIAL", "pattern": "fermium"}
+{"label": "MATERIAL", "pattern": "Fm"}
+{"label": "MATERIAL", "pattern": "neon"}
+{"label": "MATERIAL", "pattern": "Ne"}
+{"label": "MATERIAL", "pattern": "неон"}
+{"label": "MATERIAL", "pattern": "silicon"}
+{"label": "MATERIAL", "pattern": "untrioctium"}
+{"label": "MATERIAL", "pattern": "Uto"}
+{"label": "MATERIAL", "pattern": "untriseptium"}
+{"label": "MATERIAL", "pattern": "unquadennium"}
+{"label": "MATERIAL", "pattern": "Uqe"}
+{"label": "MATERIAL", "pattern": "unquadnilium"}
+{"label": "MATERIAL", "pattern": "Uqn"}
+{"label": "MATERIAL", "pattern": "francium"}
+{"label": "MATERIAL", "pattern": "eka-cesium"}
+{"label": "MATERIAL", "pattern": "eka-caesium"}
+{"label": "MATERIAL", "pattern": "catium"}
+{"label": "MATERIAL", "pattern": "Fr"}
+{"label": "MATERIAL", "pattern": "unquadpentium"}
+{"label": "MATERIAL", "pattern": "Uqp"}
+{"label": "MATERIAL", "pattern": "unquadquadium"}
+{"label": "MATERIAL", "pattern": "Uqq"}
+{"label": "MATERIAL", "pattern": "unquadoctium"}
+{"label": "MATERIAL", "pattern": "Uqo"}
+{"label": "MATERIAL", "pattern": "unquadseptium"}
+{"label": "MATERIAL", "pattern": "Uqs"}
+{"label": "MATERIAL", "pattern": "unquadtrium"}
+{"label": "MATERIAL", "pattern": "Uqt"}
+{"label": "MATERIAL", "pattern": "californium"}
+{"label": "MATERIAL", "pattern": "Cf"}
+{"label": "MATERIAL", "pattern": "unquadunium"}
+{"label": "MATERIAL", "pattern": "Uqu"}
+{"label": "MATERIAL", "pattern": "untripentium"}
+{"label": "MATERIAL", "pattern": "Utp"}
+{"label": "MATERIAL", "pattern": "untriquadium"}
+{"label": "MATERIAL", "pattern": "Utq"}
+{"label": "MATERIAL", "pattern": "untritrium"}
+{"label": "MATERIAL", "pattern": "Utt"}
+{"label": "MATERIAL", "pattern": "sulfur"}
+{"label": "MATERIAL", "pattern": "brimstone"}
+{"label": "MATERIAL", "pattern": "sulphur"}
+{"label": "MATERIAL", "pattern": "сера"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "distributed"}, {"LOWER": "feedback"}, {"LOWER": "laser"}]}
+{"label": "MATERIAL", "pattern": "DFB"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "лазер"}, {"LOWER": "с"}, {"LOWER": "распределённой"}, {"LOWER": "обратной"}, {"LOWER": "связью"}]}
+{"label": "MATERIAL", "pattern": "untriunium"}
+{"label": "MATERIAL", "pattern": "Utu"}
+{"label": "MATERIAL", "pattern": "untribium"}
+{"label": "MATERIAL", "pattern": "Utb"}
+{"label": "MATERIAL", "pattern": "unbihexium"}
+{"label": "MATERIAL", "pattern": "Ubh"}
+{"label": "MATERIAL", "pattern": "unbiennium"}
+{"label": "MATERIAL", "pattern": "untrinilium"}
+{"label": "MATERIAL", "pattern": "Utn"}
+{"label": "MATERIAL", "pattern": "unbipentium"}
+{"label": "MATERIAL", "pattern": "Ubp"}
+{"label": "MATERIAL", "pattern": "chlorine"}
+{"label": "MATERIAL", "pattern": "Cl"}
+{"label": "MATERIAL", "pattern": "bertholite"}
+{"label": "MATERIAL", "pattern": "хлор"}
+{"label": "MATERIAL", "pattern": "unbiseptium"}
+{"label": "MATERIAL", "pattern": "Ubs"}
+{"label": "MATERIAL", "pattern": "unbioctium"}
+{"label": "MATERIAL", "pattern": "Ubo"}
+{"label": "MATERIAL", "pattern": "unbiquadium"}
+{"label": "MATERIAL", "pattern": "Ubq"}
+{"label": "MATERIAL", "pattern": "scandium"}
+{"label": "MATERIAL", "pattern": "Sc"}
+{"label": "MATERIAL", "pattern": "titanium"}
+{"label": "MATERIAL", "pattern": "титан"}
+{"label": "MATERIAL", "pattern": "vanadium"}
+{"label": "MATERIAL", "pattern": "phosphorus"}
+{"label": "MATERIAL", "pattern": "chromium"}
+{"label": "MATERIAL", "pattern": "Cr"}
+{"label": "MATERIAL", "pattern": "хром"}
+{"label": "MATERIAL", "pattern": "calcium"}
+{"label": "MATERIAL", "pattern": "Ca"}
+{"label": "MATERIAL", "pattern": "unsepttrium"}
+{"label": "MATERIAL", "pattern": "Ust"}
+{"label": "MATERIAL", "pattern": "unseptbium"}
+{"label": "MATERIAL", "pattern": "Usb"}
+{"label": "MATERIAL", "pattern": "unhexoctium"}
+{"label": "MATERIAL", "pattern": "Uho"}
+{"label": "MATERIAL", "pattern": "unhexseptium"}
+{"label": "MATERIAL", "pattern": "Uhs"}
+{"label": "MATERIAL", "pattern": "unhexpentium"}
+{"label": "MATERIAL", "pattern": "Uhp"}
+{"label": "MATERIAL", "pattern": "unhexennium"}
+{"label": "MATERIAL", "pattern": "Uhe"}
+{"label": "MATERIAL", "pattern": "unpentquadium"}
+{"label": "MATERIAL", "pattern": "Upq"}
+{"label": "MATERIAL", "pattern": "unbitrium"}
+{"label": "MATERIAL", "pattern": "Ubt"}
+{"label": "MATERIAL", "pattern": "untriennium"}
+{"label": "MATERIAL", "pattern": "Ute"}
+{"label": "MATERIAL", "pattern": "untrihexium"}
+{"label": "MATERIAL", "pattern": "Uth"}
+{"label": "MATERIAL", "pattern": "argon"}
+{"label": "MATERIAL", "pattern": "Ar"}
+{"label": "MATERIAL", "pattern": "аргон"}
+{"label": "MATERIAL", "pattern": "manganese"}
+{"label": "MATERIAL", "pattern": "Mn"}
+{"label": "MATERIAL", "pattern": "rhenium"}
+{"label": "MATERIAL", "pattern": "nipponium"}
+{"label": "MATERIAL", "pattern": "Re"}
+{"label": "MATERIAL", "pattern": "рений"}
+{"label": "MATERIAL", "pattern": "lead"}
+{"label": "MATERIAL", "pattern": "Pb"}
+{"label": "MATERIAL", "pattern": "potassium"}
+{"label": "MATERIAL", "pattern": "калий"}
+{"label": "MATERIAL", "pattern": "bromine"}
+{"label": "MATERIAL", "pattern": "Br"}
+{"label": "MATERIAL", "pattern": "бром"}
+{"label": "MATERIAL", "pattern": "unpentpentium"}
+{"label": "MATERIAL", "pattern": "Vanthoffium"}
+{"label": "MATERIAL", "pattern": "Upp"}
+{"label": "MATERIAL", "pattern": "unhexquadium"}
+{"label": "MATERIAL", "pattern": "Uhq"}
+{"label": "MATERIAL", "pattern": "unpenthexium"}
+{"label": "MATERIAL", "pattern": "Uph"}
+{"label": "MATERIAL", "pattern": "unpentseptium"}
+{"label": "MATERIAL", "pattern": "Ups"}
+{"label": "MATERIAL", "pattern": "unpentoctium"}
+{"label": "MATERIAL", "pattern": "Upo"}
+{"label": "MATERIAL", "pattern": "unhexnilium"}
+{"label": "MATERIAL", "pattern": "Uhn"}
+{"label": "MATERIAL", "pattern": "unpentennium"}
+{"label": "MATERIAL", "pattern": "Upe"}
+{"label": "MATERIAL", "pattern": "zinc"}
+{"label": "MATERIAL", "pattern": "Zn(ii)"}
+{"label": "MATERIAL", "pattern": "Zn"}
+{"label": "MATERIAL", "pattern": "цинк"}
+{"label": "MATERIAL", "pattern": "krypton"}
+{"label": "MATERIAL", "pattern": "Kr"}
+{"label": "MATERIAL", "pattern": "thallium"}
+{"label": "MATERIAL", "pattern": "gallium"}
+{"label": "MATERIAL", "pattern": "Ga"}
+{"label": "MATERIAL", "pattern": "tungsten"}
+{"label": "MATERIAL", "pattern": "wolfram"}
+{"label": "MATERIAL", "pattern": "germanium"}
+{"label": "MATERIAL", "pattern": "Ge"}
+{"label": "MATERIAL", "pattern": "arsenic"}
+{"label": "MATERIAL", "pattern": "As"}
+{"label": "MATERIAL", "pattern": "rubidium"}
+{"label": "MATERIAL", "pattern": "Rb"}
+{"label": "MATERIAL", "pattern": "strontium"}
+{"label": "MATERIAL", "pattern": "Sr"}
+{"label": "MATERIAL", "pattern": "yttrium"}
+{"label": "MATERIAL", "pattern": "osmium"}
+{"label": "MATERIAL", "pattern": "Os"}
+{"label": "MATERIAL", "pattern": "осмий"}
+{"label": "MATERIAL", "pattern": "polonium"}
+{"label": "MATERIAL", "pattern": "Po"}
+{"label": "MATERIAL", "pattern": "gold"}
+{"label": "MATERIAL", "pattern": "злато"}
+{"label": "MATERIAL", "pattern": "аурум"}
+{"label": "MATERIAL", "pattern": "astatine"}
+{"label": "MATERIAL", "pattern": "At"}
+{"label": "MATERIAL", "pattern": "астат"}
+{"label": "MATERIAL", "pattern": "bismuth"}
+{"label": "MATERIAL", "pattern": "Bi"}
+{"label": "MATERIAL", "pattern": "Bismuthum"}
+{"label": "MATERIAL", "pattern": "mercury"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "mercury"}, {"LOWER": "(element)"}]}
+{"label": "MATERIAL", "pattern": "hydrargyrum"}
+{"label": "MATERIAL", "pattern": "Hg"}
+{"label": "MATERIAL", "pattern": "quicksilver"}
+{"label": "MATERIAL", "pattern": "ртуть"}
+{"label": "MATERIAL", "pattern": "selenium"}
+{"label": "MATERIAL", "pattern": "Se"}
+{"label": "MATERIAL", "pattern": "селен"}
+{"label": "MATERIAL", "pattern": "iridium"}
+{"label": "MATERIAL", "pattern": "Ir"}
+{"label": "MATERIAL", "pattern": "zirconium"}
+{"label": "MATERIAL", "pattern": "Zr"}
+{"label": "MATERIAL", "pattern": "rhodium"}
+{"label": "MATERIAL", "pattern": "Rh"}
+{"label": "MATERIAL", "pattern": "родий"}
+{"label": "MATERIAL", "pattern": "niobium"}
+{"label": "MATERIAL", "pattern": "Nb"}
+{"label": "MATERIAL", "pattern": "columbium"}
+{"label": "MATERIAL", "pattern": "Columbite"}
+{"label": "MATERIAL", "pattern": "Cb"}
+{"label": "MATERIAL", "pattern": "silver"}
+{"label": "MATERIAL", "pattern": "indium"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "indium"}, {"LOWER": "metal"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "indium"}, {"LOWER": "element"}]}
+{"label": "MATERIAL", "pattern": "In"}
+{"label": "MATERIAL", "pattern": "индий"}
+{"label": "MATERIAL", "pattern": "molybdenum"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "metallic"}, {"LOWER": "molybdenum"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "elemental"}, {"LOWER": "molybdenum"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "molybdenum"}, {"LOWER": "atom"}]}
+{"label": "MATERIAL", "pattern": "cadmium"}
+{"label": "MATERIAL", "pattern": "Cd"}
+{"label": "MATERIAL", "pattern": "tin"}
+{"label": "MATERIAL", "pattern": "олово"}
+{"label": "MATERIAL", "pattern": "uranium"}
+{"label": "MATERIAL", "pattern": "уран"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "уран"}, {"LOWER": "(элемент)"}]}
+{"label": "MATERIAL", "pattern": "tellurium"}
+{"label": "MATERIAL", "pattern": "Te"}
+{"label": "MATERIAL", "pattern": "technetium"}
+{"label": "MATERIAL", "pattern": "Tc"}
+{"label": "MATERIAL", "pattern": "panormium"}
+{"label": "MATERIAL", "pattern": "masurium"}
+{"label": "MATERIAL", "pattern": "eka-manganese"}
+{"label": "MATERIAL", "pattern": "plutonium"}
+{"label": "MATERIAL", "pattern": "iodine"}
+{"label": "MATERIAL", "pattern": "иод"}
+{"label": "MATERIAL", "pattern": "xenon"}
+{"label": "MATERIAL", "pattern": "Xe"}
+{"label": "MATERIAL", "pattern": "ruthenium"}
+{"label": "MATERIAL", "pattern": "vestium"}
+{"label": "MATERIAL", "pattern": "Ru"}
+{"label": "MATERIAL", "pattern": "barium"}
+{"label": "MATERIAL", "pattern": "Ba"}
+{"label": "MATERIAL", "pattern": "барий"}
+{"label": "MATERIAL", "pattern": "caesium"}
+{"label": "MATERIAL", "pattern": "cæsium"}
+{"label": "MATERIAL", "pattern": "Cs"}
+{"label": "MATERIAL", "pattern": "cesium"}
+{"label": "MATERIAL", "pattern": "цезий"}
+{"label": "MATERIAL", "pattern": "neptunium"}
+{"label": "MATERIAL", "pattern": "Np"}
+{"label": "MATERIAL", "pattern": "antimony"}
+{"label": "MATERIAL", "pattern": "Sb"}
+{"label": "MATERIAL", "pattern": "thorium"}
+{"label": "MATERIAL", "pattern": "Th"}
+{"label": "MATERIAL", "pattern": "торий"}
+{"label": "MATERIAL", "pattern": "ununennium"}
+{"label": "MATERIAL", "pattern": "Uue"}
+{"label": "MATERIAL", "pattern": "eka-francium"}
+{"label": "MATERIAL", "pattern": "unbinilium"}
+{"label": "MATERIAL", "pattern": "Ubn"}
+{"label": "MATERIAL", "pattern": "eka-radium"}
+{"label": "MATERIAL", "pattern": "actinium"}
+{"label": "MATERIAL", "pattern": "emanium"}
+{"label": "MATERIAL", "pattern": "hafnium"}
+{"label": "MATERIAL", "pattern": "Hf"}
+{"label": "MATERIAL", "pattern": "rutherfordium"}
+{"label": "MATERIAL", "pattern": "Unq"}
+{"label": "MATERIAL", "pattern": "unnilquadium"}
+{"label": "MATERIAL", "pattern": "Rf"}
+{"label": "MATERIAL", "pattern": "Ku"}
+{"label": "MATERIAL", "pattern": "kurchatovium"}
+{"label": "MATERIAL", "pattern": "protactinium"}
+{"label": "MATERIAL", "pattern": "Pa"}
+{"label": "MATERIAL", "pattern": "protoactinium"}
+{"label": "MATERIAL", "pattern": "brevium"}
+{"label": "MATERIAL", "pattern": "dubnium"}
+{"label": "MATERIAL", "pattern": "unnilpentium"}
+{"label": "MATERIAL", "pattern": "hahnium"}
+{"label": "MATERIAL", "pattern": "Ns"}
+{"label": "MATERIAL", "pattern": "tantalum"}
+{"label": "MATERIAL", "pattern": "Ta"}
+{"label": "MATERIAL", "pattern": "hassium"}
+{"label": "MATERIAL", "pattern": "unniloctium"}
+{"label": "MATERIAL", "pattern": "Hs"}
+{"label": "MATERIAL", "pattern": "Uno"}
+{"label": "MATERIAL", "pattern": "bohrium"}
+{"label": "MATERIAL", "pattern": "борий"}
+{"label": "MATERIAL", "pattern": "seaborgium"}
+{"label": "MATERIAL", "pattern": "unnilhexium"}
+{"label": "MATERIAL", "pattern": "Unh"}
+{"label": "MATERIAL", "pattern": "radium"}
+{"label": "MATERIAL", "pattern": "Ra"}
+{"label": "MATERIAL", "pattern": "радий"}
+{"label": "MATERIAL", "pattern": "meitnerium"}
+{"label": "MATERIAL", "pattern": "unnilennium"}
+{"label": "MATERIAL", "pattern": "Une"}
+{"label": "MATERIAL", "pattern": "roentgenium"}
+{"label": "MATERIAL", "pattern": "Uuu"}
+{"label": "MATERIAL", "pattern": "unununium"}
+{"label": "MATERIAL", "pattern": "ununnilium"}
+{"label": "MATERIAL", "pattern": "Rg"}
+{"label": "MATERIAL", "pattern": "copernicium"}
+{"label": "MATERIAL", "pattern": "Uub"}
+{"label": "MATERIAL", "pattern": "ununnunium"}
+{"label": "MATERIAL", "pattern": "ununbium"}
+{"label": "MATERIAL", "pattern": "Cn"}
+{"label": "MATERIAL", "pattern": "nihonium"}
+{"label": "MATERIAL", "pattern": "Nh"}
+{"label": "MATERIAL", "pattern": "ununtrium"}
+{"label": "MATERIAL", "pattern": "ununnubium"}
+{"label": "MATERIAL", "pattern": "eka-thallium"}
+{"label": "MATERIAL", "pattern": "dvi-indium"}
+{"label": "MATERIAL", "pattern": "radon"}
+{"label": "MATERIAL", "pattern": "радон"}
+{"label": "MATERIAL", "pattern": "darmstadtium"}
+{"label": "MATERIAL", "pattern": "livermorium"}
+{"label": "MATERIAL", "pattern": "Uuh"}
+{"label": "MATERIAL", "pattern": "ununhexium"}
+{"label": "MATERIAL", "pattern": "eka-polonium"}
+{"label": "MATERIAL", "pattern": "Lv"}
+{"label": "MATERIAL", "pattern": "tennessine"}
+{"label": "MATERIAL", "pattern": "ununseptium"}
+{"label": "MATERIAL", "pattern": "eka-astatine"}
+{"label": "MATERIAL", "pattern": "Uus"}
+{"label": "MATERIAL", "pattern": "oganesson"}
+{"label": "MATERIAL", "pattern": "Uuo"}
+{"label": "MATERIAL", "pattern": "ununoctium"}
+{"label": "MATERIAL", "pattern": "eka-radon"}
+{"label": "MATERIAL", "pattern": "Og"}
+{"label": "MATERIAL", "pattern": "flerovium"}
+{"label": "MATERIAL", "pattern": "Uuq"}
+{"label": "MATERIAL", "pattern": "ununquadium"}
+{"label": "MATERIAL", "pattern": "Fl"}
+{"label": "MATERIAL", "pattern": "cerium"}
+{"label": "MATERIAL", "pattern": "Ce"}
+{"label": "MATERIAL", "pattern": "церий"}
+{"label": "MATERIAL", "pattern": "praseodymium"}
+{"label": "MATERIAL", "pattern": "Pr"}
+{"label": "MATERIAL", "pattern": "neodymium"}
+{"label": "MATERIAL", "pattern": "Nd"}
+{"label": "MATERIAL", "pattern": "moscovium"}
+{"label": "MATERIAL", "pattern": "ununpentium"}
+{"label": "MATERIAL", "pattern": "eka-bismuth"}
+{"label": "MATERIAL", "pattern": "Mc"}
+{"label": "MATERIAL", "pattern": "Uup"}
+{"label": "MATERIAL", "pattern": "europium"}
+{"label": "MATERIAL", "pattern": "Eu"}
+{"label": "PROCESS", "pattern": [{"LOWER": "froth"}, {"LOWER": "flotation"}]}
+{"label": "PROCESS", "pattern": "Pelletizing"}
+{"label": "PROCESS", "pattern": "Electrometallurgy"}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "jaw"}, {"LOWER": "crusher"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "cone"}, {"LOWER": "crusher"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "rod"}, {"LOWER": "mill"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "reverberatory"}, {"LOWER": "furnace"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "отражательная"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "induction"}, {"LOWER": "furnace"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "индукционная"}, {"LOWER": "тигельная"}, {"LOWER": "печь"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "converter"}, {"LOWER": "(metallurgy)"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "electrolytic"}, {"LOWER": "cell"}]}
+{"label": "EQUIPMENT", "pattern": [{"LOWER": "электролитическая"}, {"LOWER": "ячейка"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "matte"}, {"LOWER": "(metallurgy)"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "штейн"}, {"LOWER": "(металлургия)"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "хвосты"}, {"LOWER": "(горное"}, {"LOWER": "дело)"}]}
+{"label": "MATERIAL", "pattern": "Ferroalloy"}
+{"label": "MATERIAL", "pattern": "Slurry"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "пульпа"}, {"LOWER": "(смесь)"}]}
+{"label": "MATERIAL", "pattern": "PGMs"}
+{"label": "MATERIAL", "pattern": [{"LOWER": "сульфата"}, {"LOWER": "никеля"}]}
+{"label": "PROCESS", "pattern": [{"LOWER": "хлорного"}, {"LOWER": "выщелачивания"}]}
+{"label": "MATERIAL", "pattern": [{"LOWER": "никеля"}, {"LOWER": "сульфат"}, {"LOWER": "никеля"}]}
+{"label": "PROCESS", "pattern": "обессоливание"}
+{"label": "PROCESS", "pattern": "опреснение"}
+{"label": "PROCESS", "pattern": "деминерализация"}
+{"label": "PROCESS", "pattern": "водоподготовка"}
+{"label": "PROCESS", "pattern": "электроэкстракция"}
+{"label": "PROCESS", "pattern": "электролиз"}
+{"label": "PROCESS", "pattern": "закачка"}
+{"label": "PROCESS", "pattern": "плавка"}
+{"label": "PROCESS", "pattern": "конвертирование"}
+{"label": "PROCESS", "pattern": "флотация"}
+{"label": "PROCESS", "pattern": "выщелачивание"}
+{"label": "PROCESS", "pattern": "хлорирование"}
+{"label": "PROCESS", "pattern": "гидрохлорирование"}
+{"label": "PROCESS", "pattern": "осаждение"}
+{"label": "PROCESS", "pattern": "соосаждение"}
+{"label": "PROCESS", "pattern": "розлив"}
+{"label": "PROCESS", "pattern": "экструзия"}
+{"label": "PROPERTY", "pattern": "твёрдость"}
+{"label": "PROPERTY", "pattern": "твердость"}
+{"label": "PROPERTY", "pattern": "потенциал"}
+{"label": "PROPERTY", "pattern": "извлечение"}
+{"label": "PROPERTY", "pattern": "содержание"}
+{"label": "PROPERTY", "pattern": "вязкость"}
+{"label": "PROPERTY", "pattern": "минерализация"}
+{"label": "PROPERTY", "pattern": "солесодержание"}
+{"label": "PROPERTY", "pattern": "расход"}
+{"label": "PROPERTY", "pattern": "циркуляция"}
+{"label": "PROPERTY", "pattern": "кислотность"}
+{"label": "PROPERTY", "pattern": "энергоёмкость"}
+{"label": "PROPERTY", "pattern": "себестоимость"}
+{"label": "MATERIAL", "pattern": "католит"}
+{"label": "MATERIAL", "pattern": "анолит"}
+{"label": "MATERIAL", "pattern": "электролит"}
+{"label": "MATERIAL", "pattern": "никель"}
+{"label": "MATERIAL", "pattern": "кобальт"}
+{"label": "MATERIAL", "pattern": "концентрат"}
+{"label": "PROCESS", "pattern": "экстракция"}
+{"label": "EQUIPMENT", "pattern": "автоклав"}
+{"label": "EQUIPMENT", "pattern": "флотомашина"}
+{"label": "EQUIPMENT", "pattern": "электролизёр"}
+{"label": "MATERIAL", "pattern": "платина"}
+{"label": "MATERIAL", "pattern": "серебро"}
+{"label": "MATERIAL", "pattern": "палладий"}
+{"label": "MATERIAL", "pattern": "хвосты"}
+{"label": "MATERIAL", "pattern": "Пирротин"}
+{"label": "MATERIAL", "pattern": "Магнитопирит"}
+{"label": "MATERIAL", "pattern": "Пиротит"}
+{"label": "MATERIAL", "pattern": "Троилит"}
+{"label": "MATERIAL", "pattern": "Пентландит"}
+{"label": "MATERIAL", "pattern": "халькопирит"}
+{"label": "MATERIAL", "pattern": "Ферроникель"}
+{"label": "MATERIAL", "pattern": "Электролиты"}
+{"label": "PROCESS", "pattern": "выплавка"}
+{"label": "PROCESS", "pattern": "плавление"}
+{"label": "PROCESS", "pattern": "гидрометаллургия"}
+{"label": "PROCESS", "pattern": "пирометаллургия"}
+{"label": "PROCESS", "pattern": "измельчение"}
+{"label": "PROCESS", "pattern": "дробление"}
+{"label": "PROCESS", "pattern": "фильтрование"}
+{"label": "PROCESS", "pattern": "фильтрация"}
+{"label": "PROCESS", "pattern": "кальцинация"}
+{"label": "PROCESS", "pattern": "прокаливание"}
+{"label": "PROCESS", "pattern": "Спекание"}
+{"label": "PROCESS", "pattern": "рафинирование"}
+{"label": "PROCESS", "pattern": "Рафинация"}
+{"label": "PROCESS", "pattern": "обогащение"}
+{"label": "EQUIPMENT", "pattern": "конвертер"}
+{"label": "EQUIPMENT", "pattern": "электроплавка"}
+{"label": "EQUIPMENT", "pattern": "гидроциклон"}
+{"label": "EQUIPMENT", "pattern": "Фильтр-пресс"}
+{"label": "PROPERTY", "pattern": "пористость"}
+{"label": "PROPERTY", "pattern": "скважность"}
+{"label": "MATERIAL", "pattern": "водород"}
+{"label": "MATERIAL", "pattern": "унбиуний"}
+{"label": "MATERIAL", "pattern": "эка-актиний"}
+{"label": "MATERIAL", "pattern": "лантан"}
+{"label": "MATERIAL", "pattern": "прометий"}
+{"label": "MATERIAL", "pattern": "тербий"}
+{"label": "MATERIAL", "pattern": "бериллий"}
+{"label": "MATERIAL", "pattern": "глиций"}
+{"label": "MATERIAL", "pattern": "глюциний"}
+{"label": "MATERIAL", "pattern": "диспрозий"}
+{"label": "MATERIAL", "pattern": "гадолиний"}
+{"label": "MATERIAL", "pattern": "самарий"}
+{"label": "MATERIAL", "pattern": "гольмий"}
+{"label": "MATERIAL", "pattern": "кислород"}
+{"label": "MATERIAL", "pattern": "углерод"}
+{"label": "MATERIAL", "pattern": "лютеций"}
+{"label": "MATERIAL", "pattern": "америций"}
+{"label": "MATERIAL", "pattern": "натрий"}
+{"label": "MATERIAL", "pattern": "менделевий"}
+{"label": "MATERIAL", "pattern": "эйнштейний"}
+{"label": "MATERIAL", "pattern": "унбибий"}
+{"label": "MATERIAL", "pattern": "эка-торий"}
+{"label": "MATERIAL", "pattern": "иттербий"}
+{"label": "MATERIAL", "pattern": "унквадбий"}
+{"label": "MATERIAL", "pattern": "нобелий"}
+{"label": "MATERIAL", "pattern": "унпентбий"}
+{"label": "MATERIAL", "pattern": "унпентнилий"}
+{"label": "MATERIAL", "pattern": "унпентуний"}
+{"label": "MATERIAL", "pattern": "унквадгексий"}
+{"label": "MATERIAL", "pattern": "унпенттрий"}
+{"label": "MATERIAL", "pattern": "берклий"}
+{"label": "MATERIAL", "pattern": "лоуренсий"}
+{"label": "MATERIAL", "pattern": "железо"}
+{"label": "MATERIAL", "pattern": "феррум"}
+{"label": "MATERIAL", "pattern": "алюминий"}
+{"label": "MATERIAL", "pattern": "глиний"}
+{"label": "MATERIAL", "pattern": "магний"}
+{"label": "MATERIAL", "pattern": "фермий"}
+{"label": "MATERIAL", "pattern": "кремний"}
+{"label": "MATERIAL", "pattern": "силиций"}
+{"label": "MATERIAL", "pattern": "унтриоктий"}
+{"label": "MATERIAL", "pattern": "унтрисептий"}
+{"label": "MATERIAL", "pattern": "фейнманиум"}
+{"label": "MATERIAL", "pattern": "унквадэнний"}
+{"label": "MATERIAL", "pattern": "ункваднилий"}
+{"label": "MATERIAL", "pattern": "франций"}
+{"label": "MATERIAL", "pattern": "унквадпентий"}
+{"label": "MATERIAL", "pattern": "унквадквадий"}
+{"label": "MATERIAL", "pattern": "унквадоктий"}
+{"label": "MATERIAL", "pattern": "унквадсептий"}
+{"label": "MATERIAL", "pattern": "унквадтрий"}
+{"label": "MATERIAL", "pattern": "калифорний"}
+{"label": "MATERIAL", "pattern": "унквадуний"}
+{"label": "MATERIAL", "pattern": "унтрипентий"}
+{"label": "MATERIAL", "pattern": "унтриквадий"}
+{"label": "MATERIAL", "pattern": "унтритрий"}
+{"label": "MATERIAL", "pattern": "унтриуний"}
+{"label": "MATERIAL", "pattern": "унтрибий"}
+{"label": "MATERIAL", "pattern": "унбигексий"}
+{"label": "MATERIAL", "pattern": "унбиенний"}
+{"label": "MATERIAL", "pattern": "унтринилий"}
+{"label": "MATERIAL", "pattern": "унбипентий"}
+{"label": "MATERIAL", "pattern": "унбисептий"}
+{"label": "MATERIAL", "pattern": "унбиоктий"}
+{"label": "MATERIAL", "pattern": "унбиквадий"}
+{"label": "MATERIAL", "pattern": "скандий"}
+{"label": "MATERIAL", "pattern": "экабор"}
+{"label": "MATERIAL", "pattern": "ванадий"}
+{"label": "MATERIAL", "pattern": "фосфор"}
+{"label": "MATERIAL", "pattern": "кальций"}
+{"label": "MATERIAL", "pattern": "унсепттрий"}
+{"label": "MATERIAL", "pattern": "унсептбий"}
+{"label": "MATERIAL", "pattern": "унгексоктий"}
+{"label": "MATERIAL", "pattern": "унгекссептий"}
+{"label": "MATERIAL", "pattern": "унгекспентий"}
+{"label": "MATERIAL", "pattern": "унгексенний"}
+{"label": "MATERIAL", "pattern": "унпентквадий"}
+{"label": "MATERIAL", "pattern": "унбитрий"}
+{"label": "MATERIAL", "pattern": "унтриэнний"}
+{"label": "MATERIAL", "pattern": "унтригексий"}
+{"label": "MATERIAL", "pattern": "марганец"}
+{"label": "MATERIAL", "pattern": "свинец"}
+{"label": "MATERIAL", "pattern": "унпентпентий"}
+{"label": "MATERIAL", "pattern": "унгексквадий"}
+{"label": "MATERIAL", "pattern": "унпентгексий"}
+{"label": "MATERIAL", "pattern": "унпентсептий"}
+{"label": "MATERIAL", "pattern": "унпентоктий"}
+{"label": "MATERIAL", "pattern": "унгекснилий"}
+{"label": "MATERIAL", "pattern": "унпентенний"}
+{"label": "MATERIAL", "pattern": "криптон"}
+{"label": "MATERIAL", "pattern": "таллий"}
+{"label": "MATERIAL", "pattern": "галлий"}
+{"label": "MATERIAL", "pattern": "экаалюминий"}
+{"label": "MATERIAL", "pattern": "вольфрам"}
+{"label": "MATERIAL", "pattern": "тунгстен"}
+{"label": "MATERIAL", "pattern": "германий"}
+{"label": "MATERIAL", "pattern": "экасилиций"}
+{"label": "MATERIAL", "pattern": "мышьяк"}
+{"label": "MATERIAL", "pattern": "рубидий"}
+{"label": "MATERIAL", "pattern": "стронций"}
+{"label": "MATERIAL", "pattern": "иттрий"}
+{"label": "MATERIAL", "pattern": "полоний"}
+{"label": "MATERIAL", "pattern": "золото"}
+{"label": "MATERIAL", "pattern": "висмут"}
+{"label": "MATERIAL", "pattern": "Бисмут"}
+{"label": "MATERIAL", "pattern": "меркурий"}
+{"label": "MATERIAL", "pattern": "гидраргирум"}
+{"label": "MATERIAL", "pattern": "иридий"}
+{"label": "MATERIAL", "pattern": "цирконий"}
+{"label": "MATERIAL", "pattern": "ниобий"}
+{"label": "MATERIAL", "pattern": "колумбий"}
+{"label": "MATERIAL", "pattern": "аргентум"}
+{"label": "MATERIAL", "pattern": "молибден"}
+{"label": "MATERIAL", "pattern": "кадмий"}
+{"label": "MATERIAL", "pattern": "теллур"}
+{"label": "MATERIAL", "pattern": "технеций"}
+{"label": "MATERIAL", "pattern": "мазурий"}
+{"label": "MATERIAL", "pattern": "экамарганец"}
+{"label": "MATERIAL", "pattern": "плутоний"}
+{"label": "MATERIAL", "pattern": "ксенон"}
+{"label": "MATERIAL", "pattern": "рутений"}
+{"label": "MATERIAL", "pattern": "нептуний"}
+{"label": "MATERIAL", "pattern": "сурьма"}
+{"label": "MATERIAL", "pattern": "унуненний"}
+{"label": "MATERIAL", "pattern": "эка-франций"}
+{"label": "MATERIAL", "pattern": "унбинилий"}
+{"label": "MATERIAL", "pattern": "эка-радий"}
+{"label": "MATERIAL", "pattern": "актиний"}
+{"label": "MATERIAL", "pattern": "гафний"}
+{"label": "MATERIAL", "pattern": "резерфордий"}
+{"label": "MATERIAL", "pattern": "курчатовий"}
+{"label": "MATERIAL", "pattern": "протактиний"}
+{"label": "MATERIAL", "pattern": "дубний"}
+{"label": "MATERIAL", "pattern": "нильсборий"}
+{"label": "MATERIAL", "pattern": "тантал"}
+{"label": "MATERIAL", "pattern": "хассий"}
+{"label": "MATERIAL", "pattern": "сиборгий"}
+{"label": "MATERIAL", "pattern": "мейтнерий"}
+{"label": "MATERIAL", "pattern": "рентгений"}
+{"label": "MATERIAL", "pattern": "унунуний"}
+{"label": "MATERIAL", "pattern": "коперниций"}
+{"label": "MATERIAL", "pattern": "унунбий"}
+{"label": "MATERIAL", "pattern": "экартуть"}
+{"label": "MATERIAL", "pattern": "нихоний"}
+{"label": "MATERIAL", "pattern": "унунтрий"}
+{"label": "MATERIAL", "pattern": "эка-таллий"}
+{"label": "MATERIAL", "pattern": "дармштадтий"}
+{"label": "MATERIAL", "pattern": "унуннилий"}
+{"label": "MATERIAL", "pattern": "ливерморий"}
+{"label": "MATERIAL", "pattern": "унунгексий"}
+{"label": "MATERIAL", "pattern": "эка-полоний"}
+{"label": "MATERIAL", "pattern": "теннессин"}
+{"label": "MATERIAL", "pattern": "унунсептий"}
+{"label": "MATERIAL", "pattern": "эка-астат"}
+{"label": "MATERIAL", "pattern": "оганесон"}
+{"label": "MATERIAL", "pattern": "унуноктий"}
+{"label": "MATERIAL", "pattern": "флеровий"}
+{"label": "MATERIAL", "pattern": "унунквадий"}
+{"label": "MATERIAL", "pattern": "празеодим"}
+{"label": "MATERIAL", "pattern": "неодим"}
+{"label": "MATERIAL", "pattern": "московий"}
+{"label": "MATERIAL", "pattern": "унунпентий"}
+{"label": "MATERIAL", "pattern": "ланжевений"}
+{"label": "MATERIAL", "pattern": "эка-висмут"}
+{"label": "MATERIAL", "pattern": "европий"}
+{"label": "PROCESS", "pattern": "Окомкование"}
+{"label": "PROCESS", "pattern": "Электрометаллургия"}
+{"label": "EQUIPMENT", "pattern": "Дробилка"}
+{"label": "EQUIPMENT", "pattern": "Мельница"}
+{"label": "MATERIAL", "pattern": "Ферросплавы"}

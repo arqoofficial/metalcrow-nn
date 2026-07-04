@@ -1,3 +1,16 @@
+.DS_Store
+local_files/
+okf/
+
+# fastapi-template
+.vscode/*
+!.vscode/extensions.json
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -14,8 +27,9 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+# Из-за этого ругаеца фронт
+# lib/
+# lib64/
 parts/
 sdist/
 var/
@@ -216,3 +230,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+services/ontology-knowledge-graph/ontology/batches/
+
+# Neo4j GraphRAG data (bind mount, see compose.yml `neo4j` service)
+/neo4j-data/

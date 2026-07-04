@@ -1,0 +1,31 @@
+# GPU override: build CUDA torch image and pass NVIDIA devices to OCR workers.
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.gpu.yml build
+#   docker compose -f docker-compose.yml -f docker-compose.gpu.yml up -d
+services:
+  main:
+    image: nornickel-2026-parser:local-gpu
+    build:
+      context: .
+      args:
+        TORCH_VARIANT: gpu
+
+  raw2docling_raw:
+    image: nornickel-2026-parser:local-gpu
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: ${DOCKER_GPU_COUNT:-1}
+              capabilities: [gpu]
+
+  docling_raw2docling_clean00:
+    image: nornickel-2026-parser:local-gpu
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: ${DOCKER_GPU_COUNT:-1}
+              capabilities: [gpu]

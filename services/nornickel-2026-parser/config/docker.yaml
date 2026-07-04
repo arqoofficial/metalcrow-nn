@@ -1,0 +1,39 @@
+# Docker Compose runtime config (mounted as /app/config.yaml in containers).
+shared_root: /mnt/nfs/SHARED
+
+queues:
+  raw2docling_raw: parser:jobs:raw2docling_raw
+  docling_raw2docling_clean00: parser:jobs:docling_raw2docling_clean00
+
+api:
+  host: 0.0.0.0
+  port: 8114
+
+workers:
+  raw2docling_raw: 2
+  docling_raw2docling_clean00: 4
+
+locks:
+  upload_suffix: .upload.lock
+  worker_suffix: .worker.lock
+
+pipeline:
+  stages:
+    - docling_raw
+    - docling_clean00
+  docling:
+    ocr_enabled: true
+    ocr_languages:
+      - en
+      - ru
+
+runtime:
+  process_timeout_seconds: 600
+
+admin_panel:
+  api_base_url: http://main:8114
+
+observability:
+  metrics_enabled: true
+  otel_enabled: false
+  langfuse_enabled: false

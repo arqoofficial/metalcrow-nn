@@ -1,0 +1,64 @@
+# Wikidata anchor concepts — human-verified QIDs for the interwiki harvest.
+# Columns:  qid <TAB> en <TAB> ru <TAB> label <TAB> # note
+# Only qid + label are consumed by load_anchor_file(); en/ru are documentation
+# (the live labels+aliases are fetched fresh from Wikidata at harvest time).
+#
+# Provenance: auto-resolved by term_dict.wikidata.resolve_concepts (exact EN
+# label/alias match, ranked domain-description first then sitelinks), then this
+# file was hand-verified — homonyms corrected to the domain sense, oil/police/
+# video-game/picture-framing senses dropped, and terms Wikidata lacks a RU
+# concept for removed (those will come from the parsed corpus). ~118 chemical
+# elements are added automatically via the P31 element sweep (not listed here).
+#
+# --- MATERIAL ---
+Q744	nickel	никель	MATERIAL	# element Ni
+Q753	copper	медь	MATERIAL	# element Cu (fixed: was native-copper mineral)
+Q740	cobalt	кобальт	MATERIAL	# element Co
+Q880	platinum	платина	MATERIAL	# element Pt
+Q1089	palladium	палладий	MATERIAL	# element Pd
+Q1885921	matte	штейн	MATERIAL	# smelting matte (fixed: was passepartout)
+Q271768	slag	шлак	MATERIAL	# metallurgical by-product
+Q864446	concentrate	металлургический концентрат	MATERIAL	# ore concentrate
+Q1784525	tailings	хвосты	MATERIAL	# processing residue
+Q102798	ore	руда	MATERIAL	# ore rock
+Q421944	pyrrhotite	пирротин	MATERIAL	# iron sulfide mineral
+Q410101	pentlandite	пентландит	MATERIAL	# Ni-Fe sulfide mineral
+Q111044	chalcopyrite	халькопирит	MATERIAL	# Cu-Fe sulfide mineral
+Q4483138	ferronickel	ферроникель	MATERIAL	# Ni-Fe alloy
+Q4118	sulfuric acid	серная кислота	MATERIAL	# H2SO4
+Q5282	sulfur dioxide	оксид серы	MATERIAL	# SO2
+Q162908	electrolyte	электролит	MATERIAL	# ionic conductor
+Q175233	cathode	катод	MATERIAL	# electrode
+Q181232	anode	анод	MATERIAL	# electrode
+# --- PROCESS ---
+Q898459	flotation	флотация	PROCESS	# froth flotation (fixed: was IPO)
+Q1483184	leaching	выщелачивание	PROCESS	# solid to solution extraction
+Q2748405	smelting	выплавка	PROCESS	# heat+reductant metal recovery
+Q1228460	roasting	обжиг	PROCESS	# ore roasting (fixed: was cooking)
+Q1640302	hydrometallurgy	гидрометаллургия	PROCESS	# aqueous extraction
+Q2372081	pyrometallurgy	пирометаллургия	PROCESS	# thermal extraction
+Q191671	comminution	измельчение	PROCESS	# size reduction
+Q2991605	crushing	дробление	PROCESS	# coarse size reduction (fixed: was crush injury)
+Q244772	filtration	фильтрование	PROCESS	# solid/liquid separation
+Q849523	calcination	кальцинация	PROCESS	# thermal decomposition
+Q844613	sintering	спекание	PROCESS	# particle consolidation
+Q64403	electrolysis	электролиз	PROCESS	# electrochemical decomposition
+Q682483	refining	рафинирование	PROCESS	# purification (fixed: was oil refining)
+Q2782134	beneficiation	обогащение руды	PROCESS	# ore concentration
+Q2663154	magnetic separation	магнитная сепарация	PROCESS	# magnetic sorting
+# --- EQUIPMENT ---
+Q781139	ball mill	барабанно-шаровая мельница	EQUIPMENT	# grinding mill
+Q188223	autoclave	автоклав	EQUIPMENT	# pressure vessel
+Q2415537	converter	конвертер	EQUIPMENT	# metallurgical converter vessel
+Q650993	electric arc furnace	дуговая сталеплавильная печь	EQUIPMENT	# EAF
+Q181485	blast furnace	доменная печь	EQUIPMENT	# smelting furnace
+Q1415361	hydrocyclone	гидроциклон	EQUIPMENT	# classifier
+Q647023	filter press	фильтр-пресс	EQUIPMENT	# filtration press
+Q1256630	rotary kiln	барабанная печь	EQUIPMENT	# rotary furnace
+# --- PROPERTY ---
+Q234072	current density	плотность тока	PROPERTY	# A per area
+Q466491	particle size	размер зёрен	PROPERTY	# grain diameter
+Q128709	viscosity	вязкость	PROPERTY	# flow resistance
+Q622669	porosity	пористость	PROPERTY	# void fraction
+Q76005	tensile strength	предел прочности	PROPERTY	# max tensile stress
+Q3236003	hardness	твёрдость	PROPERTY	# resistance to deformation

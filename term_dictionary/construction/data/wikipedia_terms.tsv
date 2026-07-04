@@ -1,0 +1,53 @@
+# Wikipedia interwiki (langlinks) harvest — the specialized long tail Wikidata
+# lacks a RU label for. Each row names an EXACT English Wikipedia article title;
+# the harvester pulls that article's Russian interlanguage link (ground-truth
+# EN↔RU pair). A row whose article has no RU langlink is auto-skipped (logged),
+# so this list can be generous — the API does the filtering.
+#
+# en_wikipedia_title <TAB> label <TAB> # note
+#
+# --- unit operations / processes (Wikidata sparse here) ---
+Electrowinning	PROCESS	# → Электроэкстракция; no RU-labelled Wikidata item
+Electrorefining	PROCESS	# electrolytic refining
+Flash smelting	PROCESS	# → Взвешенная плавка
+Froth flotation	PROCESS	# the precise EN article for flotation
+Comminution	PROCESS	# size reduction / измельчение
+Calcination	PROCESS	# прокаливание
+Sintering	PROCESS	# спекание
+Pelletizing	PROCESS	# окомкование
+Leaching (metallurgy)	PROCESS	# выщелачивание
+Liquid–liquid extraction	PROCESS	# solvent extraction / жидкостная экстракция
+Smelting	PROCESS	# выплавка
+Refining	PROCESS	# рафинирование
+Electrolysis	PROCESS	# электролиз
+Hydrometallurgy	PROCESS	# гидрометаллургия
+Pyrometallurgy	PROCESS	# пирометаллургия
+Electrometallurgy	PROCESS	# электрометаллургия
+Beneficiation	PROCESS	# обогащение (полезных ископаемых)
+Amalgamation (chemistry)	PROCESS	# амальгамация
+Cementation (metallurgy)	PROCESS	# цементация
+# --- equipment (Wikidata very sparse here) ---
+Jaw crusher	EQUIPMENT	# щёковая дробилка
+Cone crusher	EQUIPMENT	# конусная дробилка
+Ball mill	EQUIPMENT	# шаровая мельница
+Rod mill	EQUIPMENT	# стержневая мельница
+Hydrocyclone	EQUIPMENT	# гидроциклон
+Rotary kiln	EQUIPMENT	# вращающаяся печь
+Blast furnace	EQUIPMENT	# доменная печь
+Electric arc furnace	EQUIPMENT	# дуговая сталеплавильная печь
+Reverberatory furnace	EQUIPMENT	# отражательная печь
+Induction furnace	EQUIPMENT	# индукционная печь
+Filter press	EQUIPMENT	# фильтр-пресс
+Thickener	EQUIPMENT	# сгуститель (dewatering)
+Autoclave	EQUIPMENT	# автоклав
+Converter (metallurgy)	EQUIPMENT	# конвертер
+Electrolytic cell	EQUIPMENT	# электролизёр / электролитическая ячейка
+# --- materials / intermediates ---
+Slag	MATERIAL	# шлак
+Matte (metallurgy)	MATERIAL	# штейн
+Concentrate	MATERIAL	# концентрат
+Tailings	MATERIAL	# хвосты (обогащения)
+Anode	MATERIAL	# анод
+Cathode	MATERIAL	# катод
+Ferroalloy	MATERIAL	# ферросплав
+Slurry	MATERIAL	# пульпа / суспензия
