@@ -1,0 +1,1323 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:свинецовыи-концентрат-docx",
+   "title": "Свинецовый концентрат.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Свинецовый концентрат.docx.md",
+   "artifact_sha256": "6fd6ec244e7d94483c3dc086105f6619cc8f5fbc0725e5ef5e9a6e9289039d2c",
+   "okf_raw_path": "Обзоры/Свинецовый концентрат.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:ore-feed",
+   "label": "ore feed",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:galena-concentrate-from-primary-flotation",
+   "label": "galena concentrate from primary flotation",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:graphite",
+   "label": "graphite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore-sample",
+   "label": "ore sample",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:zinc-sulfate-sodium-cyanide",
+   "label": "zinc sulfate + sodium cyanide",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:potassium-xanthate",
+   "label": "potassium xanthate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mibc",
+   "label": "MIBC",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nigrosin",
+   "label": "nigrosin",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:commercial-starch",
+   "label": "commercial starch",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sugar-cane-bagasse-powder-or-calcined",
+   "label": "sugar‑cane bagasse (powder or calcined)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:свинецовыи-концентрат-docx:0",
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "title": "Installation of a Jameson flotation machine in the pre‑flotation circuit",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "pre‑flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-feed",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "organic carbon removal",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В целом достигнуто удаление органического углерода на 70%.",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The Jameson machine reduced metal losses in the pre‑flotation circuit.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "yield_fraction",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В 2007 г. в цепочке предварительной флотации была установлена дополнительно флотомашина Джеймсона, что позволило снизить потери цинка и свинца.",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2007 г. в цепочке предварительной флотации была установлена дополнительно флотомашина Джеймсона, что позволило снизить потери цинка и свинца.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:свинецовыи-концентрат-docx:1",
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "title": "Use of a multi‑gravity separator (Mozley) to remove graphite from galena concentrate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "gravity separation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:galena-concentrate-from-primary-flotation",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "graphite removal",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 94.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "мультигравитационным сепаратором (Мозли), позволившего удалить около 94% графита из галенитового концентрата основной флотации",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The Mozley separator can remove about 94 % of graphite from the galena concentrate.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "graphite removal",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "мультигравитационным сепаратором (Мозли), позволившего удалить около 94% графита из галенитового концентрата основной флотации",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "мультигравитационным сепаратором (Мозли), позволившего удалить около 94% графита из галенитового концентрата основной флотации",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:свинецовыи-концентрат-docx:2",
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "title": "Pre‑flotation and reverse‑flotation of graphite (laboratory)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "pre‑flotation removes hydrophobic graphite; reverse‑flotation first suppresses galena with two‑room‑acid potassium, then floats graphite"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:graphite",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Alternative is graphite suppression during grinding and conditioning using depressants.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Альтернатива – подавление графита по ходу измельчения и предварительной подготовки (кондиционирования) руды, предшествующих флотации, с использованием депрессоров.",
+     "locator_kind": "md_para",
+     "locator": "para:143",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Альтернатива – подавление графита по ходу измельчения и предварительной подготовки (кондиционирования) руды, предшествующих флотации, с использованием депрессоров.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:свинецовыи-концентрат-docx:3",
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "title": "Pilot‑scale flotation circuit study (reference 9)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "lead flotation chain with pre‑conditioning, depressants, collector and frother"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-sample",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:zinc-sulfate-sodium-cyanide",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:potassium-xanthate",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:mibc",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:nigrosin",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:commercial-starch",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:sugar-cane-bagasse-powder-or-calcined",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ore composition (wt. %)",
+     "scope": "material",
+     "material_id": "mat:ore-feed",
+     "value": {
+      "min": null,
+      "nominal": 1.32,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В работе [9] в пилотном масштабе изучено поведение образцов руды состава, %вес.: Pb – 1,32; Zn – 12,94; Fe – 12, 51; Gr-C – 4,63; Ag – 29 г/т; размер частиц d 80 82,6 мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:144",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Pb‑concentrate composition without depressants",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 11.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Без депрессоров графита получался свинцовый концентрат неприемлемого состава по содержанию Gr-C, %: Pb - 11,8%; Zn – 6,50; Fe – 13,20; Gr-C – 31,30%; Ag – 152 г/т.",
+     "locator_kind": "md_para",
+     "locator": "para:144",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Pb‑concentrate Cr‑C content with nigrosin",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 7.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Лучший результат получен с нигрозином: в Pb- концентрате содержание Cr-C cнизилось до 7,3%, а сортность повысилась до 37,1% Pb.",
+     "locator_kind": "md_para",
+     "locator": "para:144",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Pb‑concentrate Pb grade with commercial starch (250 g/t)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 41.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Крахмал коммерческого сорта в дозировке 250 г/т практически аналогичен по эффективности подавления графита нигрозину, а содержание свинца в концентрате выше – 41,3% при относительно небольшом снижении извлечения.",
+     "locator_kind": "md_para",
+     "locator": "para:144",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 525.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ag"
+     },
+     "method": null,
+     "snippet": "С нигрозином ... содержание серебра в свинцовом концентрате максимальное: 525 ... г/т",
+     "locator_kind": "md_para",
+     "locator": "para:143",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 571.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ag"
+     },
+     "method": null,
+     "snippet": "С ... коммерческим крахмалом содержание серебра в свинцовом концентрате максимальное: ... 571 г/т, соответственно.",
+     "locator_kind": "md_para",
+     "locator": "para:144",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Nigrosin gives the best graphite suppression and highest Pb grade; commercial starch at 250 g/t is almost as effective.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Лучший результат получен с нигрозином... Крахмал коммерческого сорта в дозировке 250 г/т практически аналогичен по эффективности подавления графита нигрозину...",
+     "locator_kind": "md_para",
+     "locator": "para:143",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "В работе [9] в пилотном масштабе изучено поведение образцов руды состава, %вес.: Pb – 1,32; Zn – 12,94; Fe – 12, 51; Gr-C – 4,63; Ag – 29 г/т; размер частиц d 80 82,6 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "≈80% свинца используется в свинцово-кислотных батареях",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "usage share",
+    "direction": "increases",
+    "factor": "80%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "≈80% свинца используется в свинцово-кислотных батареях",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Около 95% аккумуляторов перерабатываются для вторичного использования, в США этот процент выше – 99%",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recycling rate",
+    "direction": "increases",
+    "factor": "≈95% (99% in USA)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Около 95% аккумуляторов перерабатываются для вторичного использования, в США этот процент выше – 99%.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "На вторичный свинец пришлось 57,8% мирового выпуска рафинированного свинца в 2015 г. и 58,1% в 2016 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share of secondary lead",
+    "direction": "increases",
+    "factor": "57,8% (2015), 58,1% (2016)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На вторичный свинец пришлось 57,8% мирового выпуска рафинированного свинца в 2015 г. и 58,1% в 2016 г.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Мировые запасы свинца оцениваются в 88 млн т, причем на Австралию приходится 40% запасов, 19,3% - на Китай, а доля России составляет 7,3%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "global reserves",
+    "direction": "nonmonotonic",
+    "factor": "88 млн т (40% Australia, 19,3% China, 7,3% Russia)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мировые запасы свинца оцениваются в 88 млн т, причем на Австралию приходится 40% запасов, 19,3% - на Китай, а доля России составляет 7,3%.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Объём добычи свинца составляет порядка 5 млн т/г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual production",
+    "direction": "nonmonotonic",
+    "factor": "≈5 млн т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объём добычи свинца составляет порядка 5 млн т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.81,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "В 2016 г. добыча снизилась на 2,6% до 4,82 млн т по сравнению с 2015 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual production change",
+    "direction": "decreases",
+    "factor": "2,6% to 4,82 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2016 г. добыча снизилась на 2,6% до 4,82 млн т по сравнению с 2015 г.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Батареи AGM безопасны (образующиеся при зарядке газы практически не выделяются в атмосферу, т.к. задерживаются в порах матов‑сепараторов и постепенно возвращаются обратно в жидкий электролит), имеют низкий саморазряд (15‑20% за год простоя), полную эксплуатационную необслуживаемость и долгий (4‑5 лет) срок службы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "AGM battery characteristics",
+    "direction": "nonmonotonic",
+    "factor": "low self‑discharge 15‑20% per year, service life 4‑5 years",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Батареи AGM безопасны (образующиеся при зарядке газы практически не выделяются в атмосферу, т.к. задерживаются в порах матов‑сепараторов и постепенно возвращаются обратно в жидкий электролит), имеют низкий саморазряд (15‑20% за год простоя), полную эксплуатационную необслуживаемость и долгий (4‑5 лет) срок службы.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.81,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Система старт‑стоп позволяет сэкономить 3‑5% топлива, но в крупных городах, возможно, и до 10%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fuel consumption reduction",
+    "direction": "decreases",
+    "factor": "3‑5% (up to 10% in large cities)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Система старт‑стоп позволяет сэкономить 3‑5% топлива, но в крупных городах, возможно, и до 10%.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Импорт свинцовых концентратов Китаем в 2016 г. сократился на 26,3% по сравнению с 2015 г. и составил 758 тыс. т, в т.ч.: 144 тыс. т – из США, 123 тыс. т – из России и 77 тыс. т из Перу.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "import volume change",
+    "direction": "decreases",
+    "factor": "26,3% reduction to 758 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Импорт свинцовых концентратов Китаем в 2016 г. сократился на 26,3% по сравнению с 2015 г. и составил 758 тыс. т, в т.ч.: 144 тыс. т – из США, 123 тыс. т – из России и 77 тыс. т из Перу.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Имеющиеся 11 рафинировочных заводов по выпуску вторичного свинца имеют мощность не менее 30000 т/г, в 2016 г. они произвели более 95% всего вторичного свинца в США (1070 тыс т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "не менее 30000 т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Имеющиеся 11 рафинировочных заводов по выпуску вторичного свинца имеют мощность не менее 30000 т/г, в 2016 г. они произвели более 95% всего вторичного свинца в США (1070 тыс т).",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "В 2012-2013 гг. рыночное предложение цинковых концентратов было избыточным и, как следствие, началось сокращение добычи, что, в свою очередь, явилось причиной сокращения выпуска и свинцовых концентратов: с 5,24 млн т в 2013 г. до 4,7-4,8 млн т в 2016 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "decreases",
+    "factor": "с 5,24 млн т в 2013 г. до 4,7-4,8 млн т в 2016 г.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2012-2013 гг. рыночное предложение цинковых концентратов было избыточным и, как следствие, началось сокращение добычи, что, в свою очередь, явилось причиной сокращения выпуска и свинцовых концентратов: с 5,24 млн т в 2013 г. до 4,7-4,8 млн т в 2016 г.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "В 2017 г. ILZSG прогнозирует небольшой рост добычи свинца в концентрате до 4,9 млн т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecasted production",
+    "direction": "increases",
+    "factor": "до 4,9 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2017 г. ILZSG прогнозирует небольшой рост добычи свинца в концентрате до 4,9 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "По оценкам ILZSG крупнейшим потребителем рафинированного свинца является Китай – 4,6-4,7 млн т/г или почти 43% мирового потребления.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "4,6-4,7 млн т/г или почти 43%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам ILZSG крупнейшим потребителем рафинированного свинца является Китай – 4,6-4,7 млн т/г или почти 43% мирового потребления.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Мировое производство рафинированного свинца в 2016 г. достигло 11 млн т (+2,4% к уровню 2015 г.), но в Китае, напротив, снизилось на 0,7% до 4,67 млн т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "global production",
+    "direction": "increases",
+    "factor": "11 млн т (+2,4%)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мировое производство рафинированного свинца в 2016 г. достигло 11 млн т (+2,4% к уровню 2015 г.), но в Китае, напротив, снизилось на 0,7% до 4,67 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "В 2016 г. из 11 млн т рафинированного свинца 6,45 млн т – это вторичный свинец.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "secondary share",
+    "direction": "increases",
+    "factor": "6,45 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2016 г. из 11 млн т рафинированного свинца 6,45 млн т – это вторичный свинец.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Резкий рост выпуска рафинированного свинца в Республике Корея связан с вводом в строй в конце 2015 г. нового завода по выпуску первичного свинца компанией Korea Zinc.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "increase due to new plant",
+    "direction": "increases",
+    "factor": "вводом в строй в конце 2015 г.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Резкий рост выпуска рафинированного свинца в Республике Корея связан с вводом в строй в конце 2015 г. нового завода по выпуску первичного свинца компанией Korea Zinc.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Пороговые значения зависят от конкретных условий на конкретном заводе.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "threshold dependence",
+    "direction": "nonmonotonic",
+    "factor": "plant-specific conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пороговые значения зависят от конкретных условий на конкретном заводе.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Обычно штрафуется As+Sb >1,20% в размере 1,00 USD/сух.т за каждые 0,1% превышения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "penalty rate",
+    "direction": "increases",
+    "factor": "excess As+Sb",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обычно штрафуется As+Sb >1,20% в размере 1,00 USD/сух.т за каждые 0,1% превышения.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.81,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Висмут штрафуется в размере 1,00 USD/сух.т за каждые 0,1% превышения уровня 0,30% и т.д.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "penalty rate",
+    "direction": "increases",
+    "factor": "excess Bi",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Висмут штрафуется в размере 1,00 USD/сух.т за каждые 0,1% превышения уровня 0,30% и т.д.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание ртути должно быть ниже 0,05%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maximum Hg content",
+    "direction": "decreases",
+    "factor": "regulatory limit",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание ртути должно быть ниже 0,05%.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Doe Run производит богатые по свинцу, сравнительно чистые концентраты (только мышьяк – на грани штрафа).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "company practice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Doe Run – один из ведущих поставщиков свинцовых концентратов производит богатые по свинцу, сравнительно чистые концентраты (только мышьяк – на грани штрафа).",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Типичный интервал содержания Pb в концентрате Doe Run 72-78%, типичное значение 77,5%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "company data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Pb 72-78% 77,5%.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.45,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "TC для свинца в проекте Taylor составляет 190 USD/сух.т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "TC (lead)",
+    "direction": "increases",
+    "factor": "market estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "TC для свинца 190 USD/сух.т.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "RC для серебра в проекте Taylor составляет 1,25 USD/тр.унцию оплачиваемого серебра.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "RC (silver)",
+    "direction": "increases",
+    "factor": "market estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "RC для серебра 1,25 USD/тр.унцию оплачиваемого серебра.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Долгосрочные цены на металлы: Zn – 1,10 USD/фунт, Pb – 1,00 USD/фунт, Ag – 20,00 USD/тр.унц.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "long‑term metal prices",
+    "direction": "increases",
+    "factor": "market forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "долгосрочные цены на металлы: Zn – 1,10 USD/фунт, Pb – 1,00 USD/фунт, Ag – 20,00 USD/тр.унц.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "В проекте Prairie Creek планируется производство 60 тыс т/г цинкового концентрата с 59,2% Zn и 136 г/т Ag плюс 55 тыс т свинцового концентрата с 65% Pb, 7,4% Zn и 824 г/т Ag.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "increases",
+    "factor": "project design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проектный объем производства: 60 тыс т/г цинкового концентрата с 59,2% Zn и 136 г/т Ag плюс 55 тыс т свинцового концентрата с 65% Pb, 7,4% Zn и 824г/т Ag.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Меморандумы о намерениях подписаны с Korea Zinc и Boliden на поставку десятков тысяч тонн концентратов в течение 5 лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "off‑take agreements",
+    "direction": "increases",
+    "factor": "signed MoUs",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "меморандумы о намерениях подписаны с компаниями Korea Zinc (Южная Корея) и Boliden (Швеция): ... с Kores на поставку 20-30 тыс т (влажн)/год цинковых концентратов и 15-20 тыс т (влажн)/год свинцовых сульфидных концентратов плюс 5 тыс т/г свинцовых окисленных концентратов в течение 5-ти лет ... с Boliden – на поставку минимум 20 тыс т (сух) в год и до 40 тыс т (сух) в год цинковых концентратов с течение 5-ти лет.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.81,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Подписание протоколов с двумя ведущими свинцово‑цинковыми компаниями мира свидетельствует о «реализуемости» на рынке концентратов Prairie Creek.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "project realizability",
+    "direction": "increases",
+    "factor": "partner commitments",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как заявляет Canadian Zinc Corp, подписание этих протоколов с двумя ведущими свинцово-цинковыми компаниями мира свидетельствует о «реализуемости» на рынке концентратов Prairie Creek.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "для последующего плавок свинца на заводе индийской компании Hindustan Zinc содержание графита не должно превышать ~2,5%, т.к. в противном случае существенно снижается прочность агломерата",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maximum graphite content",
+    "direction": "no_change",
+    "factor": "graphite content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "для последующего плавок свинца на заводе индийской компании Hindustan Zinc содержание графита не должно превышать ~2,5%, т.к. в противном случае существенно снижается прочность агломерата",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Наличие графита в свинцовом концентрате приводит не только к снижению прочности агломерата, но и к снижению выхода металлургического передела, сложностям с контролем температуры при обжиге и проблемам с удалением серы",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "graphite presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наличие графита в свинцовом концентрате приводит не только к снижению прочности агломерата, но и к снижению выхода металлургического передела, сложностям с контролем температуры при обжиге и проблемами с удалением серы",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "предварительная флотация является эффективным методом удаления органического углерода",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "effectiveness",
+    "direction": "increases",
+    "factor": "pre‑flotation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Известно, что предварительная флотация является эффективным методом удаления органического углерода",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "успех предварительной флотации зависит от распределения углерода в руде и его поверхностной химии",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "dependence",
+    "direction": "no_change",
+    "factor": "carbon distribution and surface chemistry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "«успех» предварительной флотации зависит от распределения углерода в руде и его поверхностной химии",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "для графитистого углерода эффективен нафталинсульфонат с декстрином",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effectiveness",
+    "direction": "increases",
+    "factor": "naphthalenesulfonate with dextrin",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "для графитистого углерода эффективен нафталинсульфонат с декстрином",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "для более похожего на углеводород углерода эффективен ГЭЦ",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effectiveness",
+    "direction": "increases",
+    "factor": "GEC",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "для более похожего на углеводород углерода – ГЭЦ",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "в 2016 г. на руднике произведено 567 тыс т Zn в концентрате и 122,3 тыс т Pb в концентрате",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "no_change",
+    "factor": "Red Dog mine 2016",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2016 г. на руднике произведено 567 тыс т Zn в концентрате и 122,3 тыс т Pb в концентрате",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "около 30% цинковых концентратов и часть свинцовых концентратов было переработано на собственном заводе компании Trail (Канада)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of concentrate processed on‑site",
+    "direction": "increases",
+    "factor": "Trail plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Около 30% цинковых концентратов и часть свинцовых концентратов было переработано на собственном заводе компании Trail (Канада)",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "выпуск продукции завода Trail, осуществляющего плавку свинца по технологии Kivcet, в 2016 г. составил 99,2 тыс т Pb, выпуск цинка на Trail - 300-310 тыс т /год Zn (плюс In, Ge и др)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual lead and zinc production",
+    "direction": "no_change",
+    "factor": "Trail plant 2016",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выпуск продукции завода Trail, осуществляющего плавку свинца по технологии Kivcet, в 2016 г. составил 99,2 тыс т Pb, выпуск цинка на Trail - 300-310 тыс т /год Zn (плюс In, Ge и др)",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "In 2016 the mine produced 567 000 t of Zn concentrate and 122.3 000 t of Pb concentrate.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2016 г. на руднике произведено 567 тыс т Zn в концентрате и 122,3 тыс т Pb в концентрате.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "About 30 % of the zinc concentrates and part of the lead concentrates were processed at the company’s own Trail plant in Canada.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Около 30% цинковых концентратов и часть свинцовых концентратов было переработано на собственном заводе компании Trail (Канада)",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "The Trail plant’s 2016 lead production was 99.2 000 t Pb, and its zinc production was 300‑310 000 t Zn per year (plus In, Ge, etc.).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Выпуск продукции завода Trail, осуществляющего плавку свинца по технологии Kivcet, в 2016 г. составил 99,2 тыс т Pb, выпуск цинка на Trail - 300-310 тыс т /год Zn (плюс In, Ge и др).",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "The allowable limit for total organic carbon (TOC) in the mixed ore stockpiles is ≤0.50 %.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "TOC | ≤0,50%",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "The required Zn : Fe ratio in the mixed ore stockpiles is ≥2.1 : 1.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Zn : Fe | ≥ 2,1 :1",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "The required Zn : Pb ratio in the mixed ore stockpiles is ≥3.0 : 1.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Zn :Pb | ≥ 3,0 :1",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "The required sPb : Pb ratio in the mixed ore stockpiles is <0.25 : 1.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "sPb : Pb | ˂ 0,25 : 1",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "In 2006 the ore fed to the plant had an average composition of Pb 6.1 %, Zn 20.6 %, Fe 8.0 %, C 0.67 % (organic carbon).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2006 г. на обогащение поступало сырье следующего среднего состава, %: Pb – 6,1; Zn – 20,6; Fe – 8,0; C – 0,67 (такое содержание органического углерода сочтено «очень высоким»).",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Pre‑flotation was applied at other lead‑zinc and copper mines such as Century and Mt Isa.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Предварительная флотация применяется/применялась и на других свинцово-цинковых и медных рудниках (Century, Mt Isa и др.).",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "For Hindustan Zinc the acceptable copper percentage in the concentrate is <3 %.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Приемлемый уровень %С в концентрате (˂3% для Hindustan Zinc) достижим с применением предварительной флотации графита",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание свинца (43 %) в концентрате Павловского месторождения не слишком высокое по меркам свинцовых концентратов.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "содержание свинца (43%) в концентрате Павловского месторождения не слишком высокое по меркам свинцовых концентратов.",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Концентрат Павловского месторождения содержит около 600 г/т серебра, что делает его весьма привлекательным сырьем.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Концентрат Павловского месторождения содержит около 600 г/т серебра, что делает его весьма привлекательным сырьем",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "В России при объёме добычи свинца в концентрате 225 тыс т в год (2015‑2016 гг.) нет соответствующих мощностей по их переработке.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в России при объеме добычи свинца в концентрате в 225 тыс т в год в 2015-2016 гг. нет соответствующих мощностей по их переработке.",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Только ОАО Электроцинк (УГМК) принимает в переработку некоторое количество сульфидных рудных концентратов.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в настоящее время только ОАО Электроцинк (входит в группу УГМК) наряду с аккумуляторным ломом и черновым свинцом берет в переработку какое-то количество сульфидных рудных концентратов.",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Влияние графита в концентрате на дальнейшую металлургическую переработку остаётся открытым вопросом.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "вопрос о влиянии графита в концентрате на его дальнейшую металлургическую переработку остается открытым.",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  },
+  {
+   "text": "Синтетические красители являются эффективными депрессорами графита, но их высокая стоимость требует поиска более дешевых вариантов.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для подавления графита хороши синтетические красители, но они дорого стоят, и задача состояла в поиске более дешевых вариантов.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:свинецовыи-концентрат-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

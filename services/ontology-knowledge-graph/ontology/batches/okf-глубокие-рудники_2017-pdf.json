@@ -1,0 +1,1930 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Глубокие рудники_2017.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Глубокие рудники_2017.pdf.md",
+   "artifact_sha256": "68be210b1a5f5ccb64527d33bffed779c87daee41d1bfa9c09cb3dffc16a0e09",
+   "okf_raw_path": "Обзоры/Глубокие рудники_2017.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:аммиак",
+   "label": "аммиак",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:аммиак-вода-или-соль-libr-вода",
+   "label": "аммиак/вода или соль (LiBr)/вода",
+   "family": "solution",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:blasted-rock",
+   "label": "blasted rock",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:technical-water",
+   "label": "technical water",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:air",
+   "label": "air",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:magnetic-material",
+   "label": "magnetic material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:compressed-air",
+   "label": "compressed air",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ice-stopes",
+   "label": "Ice stopes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:MTTU",
+   "label": "MTTU",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ice-cave",
+   "label": "Ice cave",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cold-stope",
+   "label": "Cold stope",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:solid-ice-cooling-system",
+   "label": "Solid ice cooling system",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ammonia",
+   "label": "ammonia",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:water",
+   "label": "water",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:0",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Industrial installation of an ammonia compression chiller",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Компрессионная установка на аммиаке"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:аммиак",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "мощность",
+     "scope": "material",
+     "material_id": "mat:аммиак",
+     "value": {
+      "min": null,
+      "nominal": 7.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Компрессионная установка на аммиаке на 7,5 МВт была установлена, например, на руднике Kidd.",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Установка успешно эксплуатируется на руднике Kidd.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Компрессионная установка на аммиаке на 7,5 МВт была установлена, например, на руднике Kidd.",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Компрессионная установка на аммиаке на 7,5 МВт была установлена, например, на руднике Kidd.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:1",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Industrial use of absorption chillers in coal mines",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "абсорбционные чиллеры"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:аммиак-вода-или-соль-libr-вода",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "мощность охлаждения",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "абсорбционные чиллеры популярны в угольной отрасли (на 20 MWR* на угольной шахте Dingji (Китай), на 6,4 MWR на шахте Pniowek, Польша).",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "мощность охлаждения",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "абсорбционные чиллеры популярны в угольной отрасли (на 20 MWR* на угольной шахте Dingji (Китай), на 6,4 MWR на шахте Pniowek, Польша).",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Абсорбционные чиллеры применяются в угольных шахтах с мощностью от нескольких мегаватт до десятков мегаватт.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "абсорбционные чиллеры популярны в угольной отрасли (на 20 MWR* на угольной шахте Dingji (Китай), на 6,4 MWR на шахте Pniowek, Польша).",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "абсорбционные чиллеры популярны в угольной отрасли (на 20 MWR* на угольной шахте Dingji (Китай), на 6,4 MWR на шахте Pniowek, Польша).",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:2",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Industrial application of natural underground heat exchange at Creighton mine (Vale)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Use of blasted rock mass as a thermal storage zone"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:blasted-rock",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "volume of rock zone",
+     "scope": "material",
+     "material_id": "mat:blasted-rock",
+     "value": {
+      "min": null,
+      "nominal": 21.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Зона включает 21,2 млн м³ отбитой породы.",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "maximum cooling capacity (summer)",
+     "scope": "material",
+     "material_id": "mat:blasted-rock",
+     "value": {
+      "min": null,
+      "nominal": 17.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Максимальная мощность охлаждения (охлаждающая способность) отбитой породы эквивалентна 17,5 МВт летом",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The rock zone can store heat in the portion directly contacting the gas flow.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "тепло хранит только та часть отбитой породы, которая непосредственно контактирует с потоком газа.",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Данная технология применяется на руднике Creighton компании Vale .",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:3",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Industrial ice stopes for air cooling at Frood/Stobie (Vale) and Kidd (Glencore)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Spraying warm technical water into cold air streams in underground stopes to form ice and cool air"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:technical-water",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:air",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "volume of ice stope",
+     "scope": "material",
+     "material_id": "mat:blasted-rock",
+     "value": {
+      "min": null,
+      "nominal": 120.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ледяной забой в 120тыс м³",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "cooling capacity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 40000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "может обеспечить охлаждающую способность в 40000 ГигаДжоулей",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "cooling capacity (MWR)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "или 6MWR",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Ice stopes can provide significant cooling for underground ventilation.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Ледяные выработки первоначально предназначались для нагрева воздуха зимой... Перепроектирование... позволяет также и охлаждать воздух.",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Ледяные забои существуют на рудниках Frood/Stobie (Vale) и Kidd (Glencore).",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:4",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Laboratory demonstration of magnetic demagnetization cooling",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Cyclic magnetization/demagnetization of dipolar molecules passing through a magnetic field"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:magnetic-material",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The method has only been demonstrated at laboratory scale.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Данный способ продемонстрирован только в лабораторном масштабе.",
+     "locator_kind": "md_para",
+     "locator": "para:104",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Охлаждение методом размагничивания - новая технология...",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:5",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Laboratory/early-stage study of hydraulic air compressor concept (Charles Tailor)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Closed-loop system with hydro‑electric power generated by a pump to compress air"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:compressed-air",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.68,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "cooling"
+     },
+     "method": null,
+     "snippet": "КПД охлаждения может достигать 0,68.",
+     "locator_kind": "md_para",
+     "locator": "para:91",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The concept can produce compressed air with minimal operating costs.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Charles Tailor разработал доступный гидравлический воздушный компрессор, создающий сжатый воздух с минимальными операционными затратами.",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В последующих исследованиях эта идея была преобразована - в замкнутую систему с гидроэлектроэнергией, вырабатываемой насосом.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:6",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Ice stopes at Frood/Stobie and Kidd mines",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of large ice-filled stopes for mine ventilation cooling",
+       "temperature_text": "N/A",
+       "duration_text": "N/A"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ice-stopes",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "cooling capacity",
+     "scope": "material",
+     "material_id": "mat:ice-stopes",
+     "value": {
+      "min": null,
+      "nominal": 40000.0,
+      "max": null
+     },
+     "unit": "ГигаДжоулей",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ледяной забой в 120тыс м 3 может обеспечить охлаждающую способность в 40000 ГигаДжоулей или 6MWR.",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "cooling capacity (MWR)",
+     "scope": "material",
+     "material_id": "mat:ice-stopes",
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "MWR",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ледяной забой в 120тыс м 3 может обеспечить охлаждающую способность в 40000 ГигаДжоулей или 6MWR.",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Ice stopes provide a viable cooling method for deep mines.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "cooling capacity",
+      "direction": "increases",
+      "factor": "ice volume",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Ледяной забой в 120тыс м 3 может обеспечить охлаждающую способность в 40000 ГигаДжоулей или 6MWR.",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Ледяной забой в 120тыс м 3 может обеспечить охлаждающую способность в 40000 ГигаДжоулей или 6MWR.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:7",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Prototype modular heat‑transfer unit (MTTU) at Frood/Stobie",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Deployment of a modular heat‑transfer block composed of stacked sea containers",
+       "temperature_text": "N/A",
+       "duration_text": "N/A"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:MTTU",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The MTTU concept stores heat in surface blocks while providing similar cooling capacity to ice stopes.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concept similarity",
+      "direction": "increases",
+      "factor": "modular design",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Модульный теплопередающий блок (MTTU) имеет аналогичную концепцию, но хранит тепло в блоках на поверхности.",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Модульный теплопередающий блок (MTTU) имеет аналогичную концепцию, но хранит тепло в блоках на поверхности.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:8",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Ice‑cave ventilation at Creighton mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Drawing fresh surface air through old stopes that form an “ice cave” acting as a heat exchanger",
+       "temperature_text": "average sub‑surface air 3 °C",
+       "duration_text": "winter formation"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 276.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ice-cave",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:air",
+     "value": {
+      "min": null,
+      "nominal": 276.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "sub-surface air"
+     },
+     "method": null,
+     "snippet": "Подповерхностная температура воздуха в среднем составляет 3 ̊С с малыми сезонными отклонениями.",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The ice cave functions as a heat exchanger for mine ventilation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "heat‑exchange function",
+      "direction": "increases",
+      "factor": "presence of ice cave",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Эта пещера выступает в роли теплообменника.",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На руднике Creighton cвежий воздух затягивается с поверхности и проходит сквозь отбитую породу, расположенную в старых забоях в окрестностях шахты No3. Образуется «ледяная пещера» из-за холода зимой и влажности воздуха. Эта пещера выступает в роли теплообменника.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:9",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Cold stopes at Kidd Creek for air cooling",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Use of a “cold stope” where winter ice forms to cool ventilation air supplied to depths of 1500 m",
+       "temperature_text": "N/A",
+       "duration_text": "winter ice formation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cold-stope",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Cold stopes provide seasonal cooling of ventilation air in deep mines.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "ventilation cooling",
+      "direction": "increases",
+      "factor": "winter ice",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "«Холодный забой» - это то место, где зимой образуется лед как на открытом карьере, так и на вентиляционных выработках, соединенных с рудником и служит для охлаждения воздуха летом.",
+     "locator_kind": "md_para",
+     "locator": "para:138",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "«Холодный забой» - это то место, где зимой образуется лед как на открытом карьере, так и на вентиляционных выработках, соединенных с рудником и служит для охлаждения воздуха летом.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:10",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Ice‑based cooling system at Mponeng mine (South Africa)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of a cooling system that uses solid ice for mine ventilation",
+       "temperature_text": "N/A",
+       "duration_text": "N/A"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:solid-ice-cooling-system",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Solid ice can be employed as a cooling medium in the world’s deepest mine.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "cooling method",
+      "direction": "increases",
+      "factor": "use of solid ice",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Рудник Mponeng (ЮАР) - самый глубокий в мире, система охлаждения - с использованием твердого льда.",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Рудник Mponeng (ЮАР) - самый глубокий в мире, система охлаждения - с использованием твердого льда.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:глубокие-рудники_2017-pdf:11",
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "title": "Installation of solid‑ice production plant at Mponeng mine (depth >3.8 km)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Supply, installation and commissioning of a solid‑ice plant (30 kg/s ice, 12.5 MWR capacity) including plate‑type ice generators and an ammonia refrigeration loop with a screw compressor",
+       "temperature_text": "ambient wet‑bulb temperature (Twb) to be reduced to about 28 °C for safe miner work",
+       "duration_text": "operational after commissioning in 2009 (project Phase I)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 301.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ammonia",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:water",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "cold production capacity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На руднике Mponeng установленная холодопроизводительность превышала 100 MWR.",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "ice production rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Завод на 30 кг/сек твердого льда включает льдогенераторы плитного типа и группу аммиачных холодильных агрегатов с винтовым компрессором.",
+     "locator_kind": "md_para",
+     "locator": "para:168",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "pump energy savings",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "объёмов её значительно меньше и, следовательно, значительно меньше затраты на перекачку, составляющие менее 1⁄4 затрат в варианте с охлажденной водой.",
+     "locator_kind": "md_para",
+     "locator": "para:169",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Using solid ice reduces water‑pumping costs by roughly 75‑80 % compared with chilled‑water cooling.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "pump‑energy reduction",
+      "direction": "decreases",
+      "factor": "75‑80 %",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "каждый 1 кг/сек льда обеспечивает такое же охлаждение, как и 5 л/сек охлажденной воды, сберегая примерно 75-80% затрат на подачу воды насосами.",
+     "locator_kind": "md_para",
+     "locator": "para:165",
+     "confidence": 0.9
+    },
+    {
+     "text": "The mass fraction of ice in the solid‑ice plant is 93‑98 %.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "ice mass fraction",
+      "direction": "increases",
+      "factor": "93‑98 %",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "для твердого льда эта доля в районе 93-98% в зависимости от качества воды.",
+     "locator_kind": "md_para",
+     "locator": "para:170",
+     "confidence": 0.9
+    },
+    {
+     "text": "Overall operational costs of the solid‑ice plant are lower than those of traditional water‑cooled installations.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operational cost",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Капитальные затраты для установок, производящих лед, немного выше, чем для традиционных холодильных установок, но зато операционные затраты ниже, в частности, за счет снижения затрат на перекачку насосами меньших объемов воды.",
+     "locator_kind": "md_para",
+     "locator": "para:171",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Этап I проекта углубления до 3,8 км был начат в 2009 г. В рамках Этапа I компания Howden получила заказ на поставку установки для производства льда на 12,5 MWR.",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Под «глубокой» добычей обычно (условно) понимают добычу на глубинах более 2 км.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "deep mining depth threshold",
+    "direction": "increases",
+    "factor": "depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Под «глубокой» добычей обычно (условно) понимают добычу на глубинах более 2 км.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Если добычу ведут на глубинах более 2,5 км - она считается «сверхглубокой».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ultra‑deep mining depth threshold",
+    "direction": "increases",
+    "factor": "depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если добычу ведут на глубинах более 2,5 км - она считается «сверхглубокой».",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Температура поступающей в шахту струи воздуха повышается из‑за «самосжатия» по мере движения вниз по шахте со скоростью примерно в 10 °C/км.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура поступающей в шахту струи воздуха повышается из‑за «самосжатия» по мере движения вниз по шахте со скоростью примерно в 10 °C/км.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "На глубине в 3 км от СУМ прирост температуры из‑за сжимаемости воздуха будет порядка 30 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Так что на глубине в 3 км от СУМ прирост температуры из‑за сжимаемости воздуха будет порядка 30 °C.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "В ЮАР и провинции Онтарио (Канада), к счастью для горняков, сравнительно низкий коэффициент (среднее значение 2,5‑3 °C/100м).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gradient",
+    "direction": "decreases",
+    "factor": "region",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В ЮАР и провинции Онтарио (Канада), к счастью для горняков, сравнительно низкий коэффициент (среднее значение 2,5‑3 °C/100м).",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Если бы градиент для золотого рудника TauTona (ЮАР) глубиной 3,9 км был в районе среднего значения, то температура подошвы выработки приближалась бы к точке кипения воды, а она, на самом деле, составляет «всего» ≈60 °C и в большей степени «поддается управлению».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если бы градиент для золотого рудника TauTona (ЮАР) глубиной 3,9 км был в районе среднего значения, то температура подошвы выработки приближалась бы к точке кипения воды, а она, на самом деле, составляет «всего» ≈60 °C и в большей степени «поддается управлению».",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "В Creighton температура на плоскости забоя 48 °C при глубине 2,4 км, а в Kidd - примерно на 15 °C ниже, хотя глубина рудник 3 км.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате, в Creighton температура на плоскости забоя 48 °C при глубине 2,4 км, а в Kidd - примерно на 15 °C ниже, хотя глубина рудник 3 км.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "В соответствии с рекомендациями Ассоциации государственных промышленных гигиенистов США (American Conference of governmental and Industrial Hygienists) по индексу WBGT для рабочих горизонтов и порядка работы, при рабочих температурах выше 26,7 °C и среднем рабочем горизонте необходим порядок работы с чередованием работы и отдыха каждый час.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "work schedule",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В соответствии с рекомендациями Ассоциации государственных промышленных гигиенистов США (American Conference of governmental and Industrial Hygienists) по индексу WBGT для рабочих горизонтов и порядка работы, при рабочих температурах выше 26,7 °C и среднем рабочем горизонте необходим порядок работы с чередованием работы и отдыха каждый час.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Продолжительность периодов работы/отдыха определяется тем, насколько температура превышает 26,7 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rest interval",
+    "direction": "increases",
+    "factor": "temperature excess",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Продолжительность периодов работы/отдыха определяется тем, насколько температура превышает 26,7 °C.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "В Канаде рудник Kidd Creek компании Glencore имеет глубину ≈3 км, а рудник Creighton компании Vale - около 2,4‑2,5 км.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "depth",
+    "direction": "increases",
+    "factor": "mine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Канаде рудник Kidd Creek компании Glencore имеет глубину ≈3 км, а рудник Creighton компании Vale - около 2,4‑2,5 км.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1860‑е годы впервые искусственное охлаждение подземного рудника было применено, когда под землю спускали блоки льда.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cooling technique",
+    "direction": "decreases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Впервые искусственное охлаждение подземного рудника было применено в 1860‑е годы, когда под землю спускали блоки льда.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Первая компрессорная холодильная установка была установлена в 1921 г. на подземном руднике глубиной 2400 м в Бразилии.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "installation year",
+    "direction": "increases",
+    "factor": "technology adoption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Первая компрессорная холодильная установка была установлена в 1921 г. на подземном руднике глубиной 2400 м в Бразилии.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "на глубине 3км воздух, охлажденный на поверхности до 3 °C (не ниже, во избежание обледенения системы подъема) не способен обеспечить какое-либо охлаждение, а, скорее, является источником тепла в подземной выработке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "air cooling effectiveness",
+    "direction": "no_change",
+    "factor": "depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на глубине 3км воздух, охлажденный на поверхности до 3 °C (не ниже, во избежание обледенения системы подъема) не способен обеспечить какое-либо охлаждение, а, скорее, является источником тепла в подземной выработке.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Эти машины генерируют значительное количество тепла - в виде комбинации латентного (скрытого) за счет добавок воды к воздуху и физического (контактного) тепла.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heat output",
+    "direction": "increases",
+    "factor": "diesel equipment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти машины генерируют значительное количество тепла - в виде комбинации латентного (скрытого) за счет добавок воды к воздуху и физического (контактного) тепла.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "КПД у электромашин выше, а, следовательно, генерируется меньше тепла.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heat generation",
+    "direction": "decreases",
+    "factor": "electric drive",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "КПД у электромашин выше, а, следовательно, генерируется меньше тепла.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Тепловой КПД дизельного LHD составляет 37 %, а электромашины – 95 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "electric LHD",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тепловой КПД,% | 37 | 95",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "На руднике Enterprise (Австралия) вклад вспомогательного электрического оборудования в общую тепловую нагрузку составляет 7 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heat load share",
+    "direction": "increases",
+    "factor": "auxiliary equipment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на руднике Enterprise (Австралия) их вклад в общую тепловую нагрузку 7%.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Теплоприток зависит не только от геотермической ступени, но также и от возраста шахты, её размеров и содержания влаги.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heat influx",
+    "direction": "increases",
+    "factor": "mine age, size, moisture",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Теплоприток зависит не только от ступени, но также и от возраста шахты, её размеров и содержания влаги.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "При использовании в качестве хладагента воздуха, воды или льда изменение температуры равно соответственно 9,76 °C/км, 2,34 °C/км и 4,65 °C/км.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "coolant type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Изменение температуры при использовании в качестве хладагента воздуха, воды или льда ... равняется 9,76 °C/км, 2,34 °C/км и 4,65 °C/км, соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.45,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Энергия, хранимая в среде для тех же условий, составляет -4 kJ/kg, -75 kJ/kg и -420 kJ/kg соответственно для воздуха, воды или льда.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stored energy",
+    "direction": "decreases",
+    "factor": "medium type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "энергия, хранимая в среде для тех же условий, составляет 4, -75 и -420 кДж/кг, соответственно, воздуха, воды или льда.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Техническая вода имеет скорость потока ≈20-30 кг/сек.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "техническая вода, имеющая скорость потока ≈20-30 кг/сек.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Теплота гидратации цемента ≈250 кДж/кг.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "теплоту гидратации цемента (≈250 кДж/кг).",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "При производительности 3500 т/сут получаем порядка 860 кВт тепловой нагрузки.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В рассматриваемом примере при производительности 3500 т/сут получим порядка 860 кВт.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Теплота гидратации закладки (10 % цемента) при 3500 т/сут оценивается в 1013 кВт.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в данном примере (3500 т/сут и 10% цемента в закладке) теплота гидратации закладки оценена в 1013 кВт.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Окисление сульфидной руды выделяет суммарно 1597 кВт экзотермического тепла.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в сумме 1597 кВт.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "На глубинах >2500 м теплоприток от самосжатия и геотермального градиента повышает рабочую температуру выше безопасного уровня для непрерывного режима.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На глубинах >2500 м теплоприток от самосжатия и геотермального градиента приводит к повышению рабочей температуры до значений, превышающих безопасный уровень для непрерывного рабочего режима.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Для типичного рудника в Онтарио базовое подповерхностное охлаждение оценивается в 20 МВт.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "базовое подповерхностное охлаждение оценивается в 20 МВт.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Использование аммиака предпочтительно, так как его влияние на окружающую среду минимально, но есть риски для здоровья и безопасности работников из‑за токсичности.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Использование аммиака предпочтительно, т.к. его влияние на окружающую среду минимально, но, с другой стороны, есть риски, связанные со здоровьем и безопасностью работников из-за его токсичности.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "R134a является хорошей альтернативой, так как он хороший хладагент и неогнеопасен.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "R134a -хорошая альтернатива, учитывая то, что он хороший хладагент и неогнеопасен.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Двухкорпусные (двустадийные) абсорберы имеют КПД 1,2, а одностадийные — около 0,7.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Двухкорпусные (двустадийные) абсорберы в типичном случае имеют КПД 1,2, а одностадийные работают при более низком давлении и температуре и их КПД порядка 0,7.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Эжекторный охлаждающий цикл достигает КПД 0,38 при работе со средой при 90 °C, температурой на выходе из конденсатора 25 °C и на входе в испаритель 5 °C.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "КПД достигает 0,38 при работе со средой, имеющей умеренно высокую энтальпию при 90 ̊С, температуру на выходе из конденсатора 25 ̊ С и на входе в испаритель 5 ̊С.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "At a depth of 3000 m the enthalpy increase of water is approximately 30 kJ/kg.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "enthalpy increase",
+    "direction": "increases",
+    "factor": "30 kJ/kg",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тогда на глубине 3000 м прирост энтальпии воды, в соответствии с уравнением энергии стационарного потока, можно выразить так: Δh = -g∙Δz ≈ 10×3000 = 30 кДж/кг",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "A technical water flow of 30 kg/s requires 0.9 MW to operate an ejector system that yields about 0.4 MWR.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "power requirement",
+    "direction": "increases",
+    "factor": "0.9 MW",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При потоке технической воды в 30 кг/сек потребуется 0,9 МВт для управления эжекторной системой, которая даст ≈0,4 MWR.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Isentropic expansion of compressed air from 10 bar to atmospheric pressure at room temperature cools the surrounding air to –121 °C and provides roughly 150 kWR per 1 kg/s of compressed air.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "–121 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Изоэнтропически (при постоянной энтропии) расширяющийся сжатый воздух при комнатной температуре и давлении от 10 бар до атмосферного давления приведет к температуре окружающего воздуха -121 ̊С (≈150 kWR на 1 кг/сек сжатого воздуха).",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "In ideal conditions, liquefying 1 kg/s of air requires 738,9 kW of mechanical energy and yields a cooling capacity of 430 MWR, giving an ideal Linde‑Hampson cycle efficiency of 0.58.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "0.58",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В идеальных условиях для сжижения 1 кг/сек воздуха нужно 738,9 кВт механической энергии. Полученная охлаждающая способность в среду «выгрузки» с 20 ̊С равна 430 MWR. Тогда идеальный КПД цикла Линде-Хэмпсона составит 0,58.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "In practice, liquefying 1 kg/s of air needs 5627 kW and the Linde‑Hampson cycle efficiency drops to 0.08, making operating costs too high for megawatt‑scale cooling.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "0.08",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако на практике потребуется 5627 кВт для сжижения 1 кг/сек воздуха, а КПД 0,08. Операционные затраты слишком высоки для такого КПД, чтобы конкурировать с имеющимися на рынке технологиями охлаждения в крупных масштабах.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "DEVAP air‑conditioning technology requires large silicate bunkers (~50100 m long) suitable for air flow rates of about 10 kg/s, which is 1–2 orders of magnitude lower than typical mine ventilation flows.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Бункеры для сиккатива - большие (~50100 м длиной), пригодны для скоростей потока воздуха порядка 10 кг/сек, а скорости вентиляционного воздушного потока в рудниках - на 1-2 порядка выше.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Thermoacoustic cooling for large thermal loads would require a very large resonant tube and is not yet proven.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Для больших тепловых нагрузок труба должна быть очень большая. Технология не опробована.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Natural cooling systems are at the forefront of cooling technologies because much of the required infrastructure already exists and does not require capital investment.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "decreases",
+    "factor": "existing infrastructure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как и ожидалось, в авангарде технологий охлаждения -системы естественного охлаждения, поскольку значительная часть необходимой инфраструктуры для осуществления охлаждения обычно уже имеется и не требует капитальных затрат.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Compression refrigeration units are the most popular mechanical cooling technology.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "popularity",
+    "direction": "increases",
+    "factor": "compression refrigeration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Что касается машинного охлаждения, то наиболее популярными, как и следовало ожидать, оказались компрессионные холодильные установки.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "The presence of waste heat enables the use of absorption chillers and ejectors.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "feasibility",
+    "direction": "increases",
+    "factor": "waste heat availability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "например, при наличии сбросного тепла проявляется потенциал абсорбционных чиллеров и эжекторов.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "At full load, specially built ice stopes are cheaper than mechanical cooling (compressors), not counting the additional benefit of winter air heating.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "full load operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако при полной нагрузке использование специально построенных «ледяных забоев» стоит дешевле, чем машинное охлаждение (компрессоры), не считая дополнительной выгоды от возможности нагрева воздуха зимой.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Future systems should be redesigned to provide both heating and cooling.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "functionality",
+    "direction": "increases",
+    "factor": "system redesign",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Будущее - за перепроектированием таких систем, чтобы они включали как нагрев, так и охлаждение.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "At a depth of approximately 3 km in Kidd, rock temperature is about 15 °C colder than in other regions of Sudbury.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Следует подчеркнуть, что в Kidd на глубине ≈3 км температура породы примерно на 15 ̊С холоднее, чем в других регионах Садбери (см.выше).",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Self‑compression of air raises temperature by roughly 6 °C (dry bulb) and 4 °C (wet bulb) for each 1000 m of depth.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Kidd самосжатие ответственно за повышение температуры примерно на 6 ̊С (температура сухого термометра Tdb) на каждые 1000 м глубины и примерно на 4 ̊С (температура мокрого термометра Twb) на каждые 1000 м глубины.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Surface air temperature strongly influences the temperature of ventilation air delivered underground.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "surface air temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате, большое значение имеет температура воздуха на поверхности, при которой он поступает под землю.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "The plant cannot operate when outdoor air temperature is below freezing because water may freeze; operation is prohibited when wet‑bulb temperature is below 5 °C for more than 4 hours.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "minimum Twb",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Завод не может работать при отрицательных температурах наружного воздуха (с 1 ноября по 31 марта) из‑за угрозы замерзания воды - при Twb менее 5 °C более 4‑х часов подряд.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Start‑up after winter is performed when wet‑bulb temperature exceeds 7.5 °C for at least 4 hours.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "minimum Twb for start‑up",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Запуск завода после зимы осуществляют при Twb выше 7,5 °C на протяжении 4‑х часов (оценка Howes) - обычно в середине мая.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Each 1 kg/s of solid ice provides the same cooling effect as 5 l/s of chilled water.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cooling equivalence",
+    "direction": "increases",
+    "factor": "1 kg/s ice = 5 l/s water",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "каждый 1 кг/сек льда обеспечивает такое же охлаждение, как и 5 л/сек охлажденной воды",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "The mass‑flow ratio of solid ice to water for equivalent cooling is 1:5.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mass flow ratio",
+    "direction": "increases",
+    "factor": "1:5",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В общем случае, соотношение массовых расходов (массовой скорости потока) для твердого льда и воды составляет 1:5.",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Vacuum ice generators achieve an ice mass fraction of 60‑70 %, whereas solid‑ice generators reach 93‑98 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ice mass fraction",
+    "direction": "increases",
+    "factor": "solid‑ice 93‑98 % > vacuum 60‑70 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вакуумные льдогенераторные установки дают массовую долю льда до 60-70%, а для твердого льда эта доля в районе 93-98% в зависимости от качества воды.",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "The overall efficiency of the solid‑ice plant (including auxiliary equipment) is higher than that of a vacuum ice generator plant.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если учесть потребление мощности всем вспомогательным оборудованием, то КПД установки твердого льда выше.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.81,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  },
+  {
+   "text": "The Joule‑Thomson effect adds 9.79 kJ/kg of heat per 1000 m of depth for the melt‑water flow.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heat addition",
+    "direction": "increases",
+    "factor": "9.79 kJ/kg per 1000 m",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "приток тепла в 9,79 кДж/кг на каждые 1000 м.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:глубокие-рудники_2017-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

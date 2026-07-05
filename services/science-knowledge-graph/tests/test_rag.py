@@ -87,6 +87,10 @@ def _make_client(nodes=None, edges=None):
     # retrieve() also awaits get_document_texts() to pull raw chunk prose for
     # hybrid graph+text RAG — likewise an AsyncMock.
     client.get_document_texts = AsyncMock(return_value={})
+    # retrieve() awaits find_documents_by_title() for the title-match source
+    # channel — must be an AsyncMock so the union ranking has something to
+    # iterate (empty list = channel contributes nothing, other channels stand).
+    client.find_documents_by_title = AsyncMock(return_value=[])
     return client
 
 

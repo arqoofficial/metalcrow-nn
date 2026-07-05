@@ -1,0 +1,1474 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "title": "46 Статья. Магнитная сепарация. Часть 2.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\46 Статья. Магнитная сепарация. Часть 2.docx.md",
+   "artifact_sha256": "2e218e604e260c9891a74c7f23693f8796200e22389044d695225889516a2f1b",
+   "okf_raw_path": "Статьи/46 Статья. Магнитная сепарация. Часть 2.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:recovered-nickel-oxide-взн-product",
+   "label": "recovered nickel oxide (ВЗН) product",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:non-magnetic-fraction-of-взн",
+   "label": "non‑magnetic fraction of ВЗН",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:feed-material",
+   "label": "feed material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:magnetic-product-of-main-separation",
+   "label": "magnetic product of main separation",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:magnetic-product-of-control-separation",
+   "label": "magnetic product of control separation",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:non-magnetic-fraction-of-control-separation",
+   "label": "non‑magnetic fraction of control separation",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:crushed-product-2-5-mm",
+   "label": "crushed product <2,5 mm",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:46-статья-магнитная-сепарация-часть-2-docx:0",
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "title": "Laboratory simulation of current processing scheme with control separation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "magnetic separation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:recovered-nickel-oxide-взн-product",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "magnetic induction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.24,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "магнитная индукция - 0.24 Тл",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "drum rotation speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 88.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "скорость вращения барабана 88,5 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "material feed rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 25.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "расход 25 т/ч для промышленных условий",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Основная и контрольная сепарации продукты собирались в отдельные контейнеры и взвешивались, после чего анализировались методами аналитической химии и РЭМ-РСМА.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Полученные в ходе основной и контрольной сепарации продукты собирались в отдельные контейнеры и взвешивались, после чего анализировались методами аналитической химии и РЭМ-РСМА.",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Испытания проводились в три этапа, на первом этапе в лабораторных условиях имитировали работу текущей схемы переработки при условии реализации контрольной сепарации.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:46-статья-магнитная-сепарация-часть-2-docx:1",
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "title": "Two‑stage processing test with 1 mm feed size",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "magnetic separation (primary and control)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:recovered-nickel-oxide-взн-product",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "feed size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "крупностью -1 мм",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "magnetic induction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.12,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "магнитная индукция на поверхности барабана сепаратора 0,12 Тл",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "drum rotation speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "скорость вращения барабана 90 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "C"
+     },
+     "method": null,
+     "snippet": "эффективность по углероду, извлекаемому в немагнитный продукт составляет 90%",
+     "locator_kind": "md_para",
+     "locator": "para:14",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "silicon dioxide extraction"
+     },
+     "method": null,
+     "snippet": "по диоксиду кремния – 70%",
+     "locator_kind": "md_para",
+     "locator": "para:14",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "nickel recovery",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 87.0,
+      "nominal": null,
+      "max": 88.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "извлечение Ni на уровне 87-88% отн.",
+     "locator_kind": "md_para",
+     "locator": "para:14",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Подтверждены ранее полученные показатели качества магнитного продукта.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "подтверждались ранее полученные показатели качества магнитного продукта",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На втором этапе исследования проба массой 500 кг в полном объеме дробилась до крупности менее 1 мм ... Сформированная 400 кг проба крупностью -1 мм подвергались основной магнитной сепарации в следующем режиме: магнитная индукция на поверхности барабана сепаратора 0,12 Тл, скорость вращения барабана 90 об/мин.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:46-статья-магнитная-сепарация-часть-2-docx:2",
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "title": "Series of experiments with varying magnetic field and drum speed",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "magnetic separation (control)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:non-magnetic-fraction-of-взн",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "magnetic induction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.12,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в поле с индукцией 0,12 Тл",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "magnetic induction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.18,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в поле с индукцией 0,18 Тл",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "drum rotation speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при скорости вращения барабана сепаратора 55, 65 и 75 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "drum rotation speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 65.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при скорости вращения барабана сепаратора 55, 65 и 75 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "drum rotation speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 75.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при скорости вращения барабана сепаратора 55, 65 и 75 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "было реализовано две серии экспериментов по три опыта в каждой серии: в поле с индукцией 0,12 Тл и 0,18 Тл при скорости вращения барабана сепаратора 55, 65 и 75 об/мин.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:46-статья-магнитная-сепарация-часть-2-docx:3",
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "title": "Two‑stage magnetic separation – main and control stages (laboratory scale)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "magnetic separation of nickel‑based powder from tube‑furnace feed"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:feed-material",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:magnetic-product-of-main-separation",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:magnetic-product-of-control-separation",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:non-magnetic-fraction-of-control-separation",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "magnetic induction of main separation",
+     "scope": "material",
+     "material_id": "mat:magnetic-product-of-main-separation",
+     "value": {
+      "min": null,
+      "nominal": 0.12,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "поле магнитной индукции основной сепарации 0,12 Тл при частоте вращения барабана 90 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "drum speed of main separation",
+     "scope": "material",
+     "material_id": "mat:magnetic-product-of-main-separation",
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "поле магнитной индукции основной сепарации 0,12 Тл при частоте вращения барабана 90 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "magnetic induction of control separation",
+     "scope": "material",
+     "material_id": "mat:magnetic-product-of-control-separation",
+     "value": {
+      "min": null,
+      "nominal": 0.18,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "поле магнитной индукции контрольной сепарации 0,18 Тл при частоте вращения барабана в пределах 55-75 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "drum speed of control separation",
+     "scope": "material",
+     "material_id": "mat:magnetic-product-of-control-separation",
+     "value": {
+      "min": 55.0,
+      "nominal": null,
+      "max": 75.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "поле магнитной индукции контрольной сепарации 0,18 Тл при частоте вращения барабана в пределах 55-75 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "feed size class",
+     "scope": "material",
+     "material_id": "mat:feed-material",
+     "value": {
+      "min": null,
+      "nominal": -2.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "крупность питания -2,5 мм",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "product yield (mass %)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 94.44,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "МФ (основная сепарация) | 94,44",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Ni total mass fraction in main separation product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 85.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "МФ (основная сепарация) | 85,8",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "C mass fraction in main separation product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.001,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "МФ (основная сепарация) | 0,001",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "SiO2 mass fraction in main separation product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.38,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "МФ (основная сепарация) | 0,38",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Ni total mass fraction in control magnetic product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 64.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "МФ (контрольная сепарация) | 64,4",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "C mass fraction in control magnetic product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 16.7,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "МФ (контрольная сепарация) | 16,7",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "SiO2 mass fraction in control magnetic product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.97,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "МФ (контрольная сепарация) | 1,97",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Ni total mass fraction in non‑magnetic fraction of control separ",
+     "scope": "material",
+     "material_id": "mat:non-magnetic-fraction-of-взн",
+     "value": {
+      "min": null,
+      "nominal": 1.56,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "НМФ (контрольная сепарация) | 1,56",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "C mass fraction in non‑magnetic fraction of control separation",
+     "scope": "material",
+     "material_id": "mat:non-magnetic-fraction-of-взн",
+     "value": {
+      "min": null,
+      "nominal": 86.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "НМФ (контрольная сепарация) | 86,0",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "при работе основной сепарации на 0,12 Тл показатели разделения несколько выше, чем при использовании более сильного магнитного поля 0,18 Тл, т.е. эффективность удаления углерода и диоксида кремния выше при сохранении показателей разделения никеля",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "higher removal of C and SiO2 at 0,12 T",
+      "direction": "increases",
+      "factor": "magnetic field strength",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при работе основной сепарации на 0,12 Тл показатели разделения несколько выше, чем при использовании более сильного магнитного поля 0,18 Тл, т.е. эффективность удаления углерода и диоксида кремния выше при сохранении показателей разделения никеля",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    },
+    {
+     "text": "Изменение скорости вращения барабана контрольной сепарации влияет некоторым образом на концентрацию никеля в немагнитной фракции, при этом не оказывая значительного влияния на показатели извлечения никеля в магнитный продукт",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "increases",
+      "factor": "drum speed of control separation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Изменение скорости вращения барабана контрольной сепарации влияет некоторым образом на концентрацию никеля в немагнитной фракции, при этом не оказывая значительного влияния на показатели извлечения никеля в магнитный продукт",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Таким образом, оптимальными показателями работы двухстадийной магнитной сепарации разделения ниекелевого порошка трубчатых печей является: - крупность питания -2,5 мм; - поле магнитной индукции основной сепарации 0,12 Тл при частоте вращения барабана 90 об/мин; - поле магнитной индукции контрольной сепарации 0,18 Тл при частоте вращения барабана в пределах 55-75 об/мин.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:46-статья-магнитная-сепарация-часть-2-docx:4",
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "title": "Two‑stage enrichment of non‑magnetic fraction (NPTP) for size classes –10 mm, –2.5 mm and –1.0 mm",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "magnetic separation (primary and control drums) with varying drum rotation speeds and magnetic inductions"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:non-magnetic-fraction-of-control-separation",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "magnetic induction of primary drum",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.12,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Индукция поля на барабане основной сепарации 0,12 Тл",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "magnetic induction of control drum",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.12,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "на контрольном барабане - 0,12 Тл",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "drum rotation speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рекомендуемая частота вращения 55 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "magnetic induction tested",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.12,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при магнитной индукции 0,12 Тл, 0,18 Тл и 0,24 Тл",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Извлечение Ni в магнитную фракцию при рекомендуемых параметрах составляет 99,9 % отн.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "99,9 % отн.",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Извлечение Ni в магнитную фракцию при рекомендуемых параметрах составляет 99,9 % отн.",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.9
+    },
+    {
+     "text": "Показатели эффективности удаления углерода в немагнитную фракцию 95,3% отн.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "carbon removal",
+      "direction": "increases",
+      "factor": "95,3 % отн.",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "показатели эффективности удаления углерода ... в немагнитную фракцию 95,3% отн.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.45
+    },
+    {
+     "text": "Показатели эффективности удаления диоксида кремния в немагнитную фракцию 32,2 % отн.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "SiO₂ removal",
+      "direction": "increases",
+      "factor": "32,2 % отн.",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "и 32,2 % отн., соответственно.",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В работе представлены исследования обогащения НПТП по двухстадиальной схеме для классов крупности -10 мм, -2,5 мм и -1,0 мм при различной частоте вращения барабанов основной и контрольной магнитной сепарации при магнитной индукции 0,12 Тл, 0,18 Тл и 0,24 Тл.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:46-статья-магнитная-сепарация-часть-2-docx:5",
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "title": "Industrial‑scale magnetic separation circuit design",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "implementation of a two‑node circuit (crushing‑classification + two‑drum magnetic separator) with a sub‑2,5 mm product fed by a vibrating feeder"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:crushed-product-2-5-mm",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "magnetic induction of both drums",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.12,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Индукция поля на барабане основной сепарации 0,12 Тл, на контрольном барабане - 0,12 Тл",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "drum rotation speed (adjustable)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рекомендуемая частота вращения 55 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "По предложенной схеме реализуется двухстадийная схема дробления до класса -2,5 мм. Подрешетный продукт грохочения крупность менее 2,5 мм вибропитателем подается в магнитный двухбарабанный сепаратор.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "пирометаллургическая технология переработки никелевого концентрата ... включает в себя сгущение и фильтрацию никелевого концентрата до остаточной влажности 6-9 % масс",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "остаточная влажность 6-9 % масс",
+    "direction": "increases",
+    "factor": "влажность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время пирометаллургическая технология переработки никелевого концентрата от разделения медно-никелевого файнштейна на АО «Кольская горно-металлургическая компания» включает в себя сгущение и фильтрацию никелевого концентрата до остаточной влажности 6-9 % масс",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "обжиг в печах КС с получением никелевого огарка",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "получение никелевого огарка",
+    "direction": "increases",
+    "factor": "окарка",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обжиг в печах КС с получением никелевого огарка",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "разделение полученного металлического порошка на магнитную и немагнитную фракцию",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "получение магнитной и немагнитной фракции",
+    "direction": "increases",
+    "factor": "разделение",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "разделение полученного металлического порошка на магнитную и немагнитную фракцию",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Полученная магнитная фракция отправляется на гидрометаллургическую переработку, конечным продуктом которой являются никелевые катоды марок Н-1у и Н-1.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "получение никелевых катодов марок Н-1у и Н-1",
+    "direction": "increases",
+    "factor": "качество продукта",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полученная магнитная фракция отправляется на гидрометаллургическую переработку, конечным продуктом которой являются никелевые катоды марок Н-1у и Н-1.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "качество магнитной фракции не удовлетворяет требованием технологии по содержанию углерода, шлакообразующим примесям (SiO2, Al2O3 и проч.)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "качество магнитной фракции",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "качество магнитной фракции не удовлетворяет требованием технологии по содержанию углерода, шлакообразующим примесям (SiO 2 , Al 2 O 3 и проч.)",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Количество никеля в немагнитной фракции также превышает регламентные показатели",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "превышение регламентных показателей",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Количество никеля в немагнитной фракции также превышает регламентные показатели",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "необходимости модернизации участка",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "улучшение технологии магнитной сепарации",
+    "direction": "increases",
+    "factor": "эффективность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "привели к необходимости модернизации участка",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "рассмотрена эффективность применения контрольной магнитной сепарации при различной частоте вращения барабана и напряженности магнитного поля",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "параметры сепарации",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящей работе рассмотрена эффективность применения контрольной магнитной сепарации при различной частоте вращения барабана и напряженности магнитного поля на основной и контрольной сепарации",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "использование сухой магнитной сепарации ... для доводки материала до необходимых требований по содержанию примесей, значение которых в исходном веществе не превышает 2-4 % масс.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "примеси",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "применяемая сухая магнитная сепарация используется для доводки материала до необходимых требований по содержанию примесей, значение которых в исходном веществе не превышает 2-4 % масс",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Использование методов разделения материалов между собой на основе различия их магнитных свойств получило широкое применения в различных отраслях, таких как горно-обогатительные предприятия, предприятиях химических производств, стекольной и керамической промышленности, мусороперерабатывающих предприятиях и при переработке вторичного сырья.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Стоит отметить, что использование методов разделения материалов между собой на основе различия их магнитных свойств получило широкое применения в различных отраслях, таких как горно-обогатительные предприятия, предприятиях химических производств, стекольной и керамической промышленности, мусороперерабатывающих предприятиях и при переработке вторичного сырья [8-14].",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание примесей в исходном веществе не превышает 2-4 % масс.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "значение которых в исходном веществе не превышает 2-4 % масс.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Доля никеля в немагнитной фракции по результатам опробования достигает 15-19% масс. при регламентных показателях не более 8% масс.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Доля никеля в немагнитной фракции по результатам опробования достигает 15-19% масс. при регламентных показателях не более 8% масс.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Наиболее оптимальный режим получен при крупности исходного питания -1 мм и индукции магнитного поля 0,12 Тл.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Наиболее оптимальный режим получен при крупности исходного питания -1 мм и индукции магнитного поля 0,12 Тл.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Эффективность по углероду, извлекаемому в немагнитный продукт составляет 90%, по диоксиду кремния – 70%, извлечение Ni на уровне 87-88% отн.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Эффективность по углероду, извлекаемому в немагнитный продукт составляет 90%, по диоксиду кремния – 70%, извлечение Ni на уровне 87-88% отн.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.81,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Применение пневмоклассификации показывает низкую эффективность по углероду и диоксиду кремния.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "применение пневмоклассификации показывает низкую эффективность по углероду и диоксиду кремния.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Продукты сепарации помимо аналитических методов исследовались и локальными методами (РЭМ-РСМА)",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Продукты сепарации помимо аналитических методов исследовались и локальными методами (РЭМ-РСМА)",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "В объеме металлической массы также присутствуют микронные и субмикронные включения остаточных оксидов на основе системы Ni-Fe-O, доля которых не превышает 1 % об.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "residual oxide inclusions",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В объеме металлической массы также присутствуют микронные и субмикронные включения остаточных оксидов на основе системы Ni-Fe-O, доля которых не превышает 1 % об.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Сумма примесных компонентов (плавленая силикатная масса, зольные компоненты угля и остаточных оксидов) в продуктах основной магнитной сепарации не превышает 2 % об.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сумма которых не превышает 2% об.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание металлической массы в магнитном продукте контрольной сепарации снижается до 60-65 % об.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metal mass fraction in control magnetic product",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в котором содержание металлической массы снижается до 60-65 % об.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание частиц восстановителя в магнитном продукте контрольной сепарации возросло до 20% об.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reducer particle content in control magnetic product",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание частиц восстановителя возросло до 20%об.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Пористые частицы магнетита крупностью до 1 мм составляют до 5 % об в магнитном продукте контрольной сепарации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "porous magnetite particles",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пористые частицы магнетита крупностью до 1мм (до 5 % об), который соответствует по морфологии компонентам золы угля.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.81,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Контрольная магнитная сепарация доизвлекает из немагнитной фракции основной магнитной сперации запутавшиеся металлические частицы никелевого порошка при сохранении требований по содержанию углерода и шлакообразующих компонентов (оксидов металлов и полуметаллов) в конечном продукте.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metallic particle recovery",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проведенные исследования методами РЭМ-РСМА подтвердили ранее полученные выводы об эффективности применения контрольной магнитной сепарации, которая доизвлекает из немагнитной фракции основной магнитной сперации запутавшиеся металлические частицы никелевого порошка при сохранении требований по содержанию углерода и шлакообразующих компонентов (оксидов металлов и полуметаллов) в конечном продукте.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Рекомендуемыми параметрами питания, основной и контрольной магнитной сепарации являются указанные в выводах.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "По результатам исследований определены рекомендуемые параметры питания, основной и контрольной магнитной сепарации.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  },
+  {
+   "text": "Приводы сепараторов должны обеспечивать переменную (регулируемую) скорость вращения барабанов для регулирования качества получаемых продуктов.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Приводы сепараторов должны обеспечивать переменную (регулируемую) скорость вращения барабанов для регулирования качества получаемых продуктов",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:46-статья-магнитная-сепарация-часть-2-docx",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:magnetic-product-of-main-separation",
+   "dst": "mat:feed-material",
+   "process": "other",
+   "kind": null,
+   "snippet": "Таким образом, оптимальными показателями работы двухстадийной магнитной сепарации разделения ниекелевого порошка трубчатых печей является: - крупность питания -2,5 мм; - поле магнитной индукции основной сепарации 0,12 Тл при частоте вращения барабана 90 об/мин; - поле магнитной индукции контрольной сепарации 0,18 Тл при частоте вращения барабана в пределах 55-75 об/мин.",
+   "doc_id": "doc:46-статья-магнитная-сепарация-часть-2-docx"
+  },
+  {
+   "src": "mat:magnetic-product-of-control-separation",
+   "dst": "mat:feed-material",
+   "process": "other",
+   "kind": null,
+   "snippet": "Таким образом, оптимальными показателями работы двухстадийной магнитной сепарации разделения ниекелевого порошка трубчатых печей является: - крупность питания -2,5 мм; - поле магнитной индукции основной сепарации 0,12 Тл при частоте вращения барабана 90 об/мин; - поле магнитной индукции контрольной сепарации 0,18 Тл при частоте вращения барабана в пределах 55-75 об/мин.",
+   "doc_id": "doc:46-статья-магнитная-сепарация-часть-2-docx"
+  },
+  {
+   "src": "mat:non-magnetic-fraction-of-control-separation",
+   "dst": "mat:feed-material",
+   "process": "other",
+   "kind": null,
+   "snippet": "Таким образом, оптимальными показателями работы двухстадийной магнитной сепарации разделения ниекелевого порошка трубчатых печей является: - крупность питания -2,5 мм; - поле магнитной индукции основной сепарации 0,12 Тл при частоте вращения барабана 90 об/мин; - поле магнитной индукции контрольной сепарации 0,18 Тл при частоте вращения барабана в пределах 55-75 об/мин.",
+   "doc_id": "doc:46-статья-магнитная-сепарация-часть-2-docx"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,943 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_05_kazahmys-пв-pdf",
+   "title": "CM_05_kazahmys-пв.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2005\\CM_05_kazahmys-пв.pdf.md",
+   "artifact_sha256": "142dbcea238cdeb2b9bafd48b50ada56fd1259227b31541df75cdb539cd8b12f",
+   "okf_raw_path": "Журналы/Цветные металлы/2005/CM_05_kazahmys-пв.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:медь",
+   "label": "медь",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:уголь",
+   "label": "уголь",
+   "family": "reagent",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:руда",
+   "label": "руда",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:backfill",
+   "label": "backfill material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:conveyor-belts",
+   "label": "conveyor belts",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coal",
+   "label": "coal",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rotary-excavators",
+   "label": "rotary excavators",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:conveyors",
+   "label": "conveyors",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_05_kazahmys-пв-pdf:0",
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "title": "Внедрение новой системы добычи в подземных рудниках Жезказганского месторождения",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "внедрение новой системы добычи"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:медь",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "дополнительный объём получаемой меди",
+     "scope": "material",
+     "material_id": "mat:медь",
+     "value": {
+      "min": 1.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "только на Жезказганском месторождении будет дополнительно получено более 1 млн т меди",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Эти миллиарды списаны, да и сейчас так делают, во всем мире.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Эти миллиарды списаны, да и сейчас так делают, во всем мире.",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Если у кого‑то возникнет вопрос, что останется потомкам, то это будут не горы отвалов, а такие предприятия, где самые совершенные технологии позволят рентабельно получать широкий набор различных металлов из самого бедного сырья и даже из ныне накопленных отходов производства.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_05_kazahmys-пв-pdf:1",
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "title": "Внедрение цикличной потоковой транспортной системы в угольном разрезе «Молодежный»",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "цикличная потоковая транспортная система для производства вскрышных работ и выдачи угля из карьера"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:уголь",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "сокращение затрат на добычу угля",
+     "scope": "material",
+     "material_id": "mat:уголь",
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Внедрение этой системы транспортировки позволит в 10 раз снизить затраты на добычу угля.",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Сокращение затрат в 10 раз",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "затраты",
+      "direction": "decreases",
+      "factor": "10",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Внедрение этой системы транспортировки позволит в 10 раз снизить затраты на добычу угля.",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Заключен контракт с фирмой «Тиссен Крупп» на проработку вариантов применения цикличной потоковой транспортной системы для производства вскрышных работ и выдачи угля из карьера.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_05_kazahmys-пв-pdf:2",
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "title": "Реконструкция обогатительной фабрики Жезказгана с использованием дровобильно‑размольного оборудования и флота машин нового поколения",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "модернизация обогатительной фабрики"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:руда",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "объём переработки руды",
+     "scope": "material",
+     "material_id": "mat:руда",
+     "value": {
+      "min": null,
+      "nominal": 22.0,
+      "max": null
+     },
+     "unit": "млн т/год",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Это позволит на существующих производственных площадях увеличить объем переработки руды с 22 до 34 млн т/год.",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Увеличение объёма переработки руды",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "объём переработки",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это позволит на существующих производственных площадях увеличить объем переработки руды с 22 до 34 млн т/год.",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Реализуется проект реконструкции обогатительной фабрики Жезказгана с использованием дровобильно‑размольного оборудования и флотомашин нового поколения.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_05_kazahmys-пв-pdf:3",
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "title": "Construction and operation of the anchoring complex at the Annenskaya‑1 mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "design and build of a backfill (закладочный) complex for underground mining",
+       "duration_text": "2002‑2003"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:backfill",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "volume of backfill placed",
+     "scope": "material",
+     "material_id": "mat:backfill",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "m³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "За 2003 г . заложено более 1 млн м 3 закладки на подземных рудниках Жезказгана.",
+     "locator_kind": "md_para",
+     "locator": "para:184",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The technology is unique and has no world analogues.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "novelty",
+      "direction": "no_change",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Технология обладает ноу‑хау и мировых аналогов не имеет.",
+     "locator_kind": "md_para",
+     "locator": "para:169",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "В 2002‑2003 гг . запроектирован и построен закладочный комплекс шахты Анненская 1.",
+   "locator_kind": "md_para",
+   "locator": "para:183",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_05_kazahmys-пв-pdf:4",
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "title": "Construction and installation of conveyor belts at shaft 67",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "construction and mounting of conveyor belts"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:conveyor-belts",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "В настоящее время закончены строительство и монтаж конвейеров общей протяженностью более 4 км на шахте 67 и ведется опытно‑промышленная эксплуатация.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "status",
+      "direction": "increases",
+      "factor": "operational readiness",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В настоящее время закончены строи‑тельство и монтаж конвейеров общей протяженностью более 4 км на шахте 67 и ведется опытно‑промышленная эксплуатация.",
+     "locator_kind": "md_para",
+     "locator": "para:184",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "В настоящее время закончены строи‑тельство и монтаж конвейеров общей протяженностью более 4 км на шахте 67 и ведется опытно‑промышленная эксплуатация.",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_05_kazahmys-пв-pdf:5",
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "title": "Application of cyclic‑flow technology at the Молодежный coal seam",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "transport of coal using cyclic‑flow technology"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:coal",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:rotary-excavators",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:conveyors",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Использование цикличнопоточной технологии предусмотрено на угольном разрезе Молодежный.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "technology use",
+      "direction": "increases",
+      "factor": "application scope",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Использование цикличнопоточной технологии предусмотрено на угольном разрезе Молодежный.",
+     "locator_kind": "md_para",
+     "locator": "para:199",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Использование цикличнопоточной технологии предусмотрено на угольном разрезе Молодежный.",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Объём добычи руды вырос с 23 до 42 млн т за последние 10 лет.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "объём добычи руды",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В итоге за последние 10 лет объём добычи руды вырос с 23 до 42 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Активы корпорации увеличились в 4 раза и превысили 1 млрд долл. США.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "активы корпорации",
+    "direction": "increases",
+    "factor": "4",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Активы корпорации за этот период в сопоставимых ценах увеличились в 4 раза и превысили 1 млрд долл. США.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Корпорация инвестировала в производство и социальную сферу 128 млн долл. в 2003 г. и ~185 млн долл. в 2004 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2003 г. корпорация инвестировала в производство и социальную сферу 128, в 2004 г. ~185 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Планируется ежегодная сумма инвестиций до 300 млн долл.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "через несколько лет будет вполне реальной ежегодная сумма инвестиций до 300 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "За прошедшие 10 лет в производство и социальную сферу было инвестировано порядка 1 млрд долл. США.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "За прошедшие 10 лет деятельности корпорации «Казахмыс» в производство и социальную сферу было инвестировано порядка 1 млрд долл. США.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Введён цинковый завод мощностью 100 тыс. т/год.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Введены в строй цинковый завод мощностью 100 тыс. т/год",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Аффинажный завод выпускает золото в слитках до 10 т/год и серебро в гранулах 600 т/год.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "аффинажный завод по выпуску золота в слитках до 10 т/год, серебра в гранулах 600 т/год",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Корпорация «Казахмыс» является крупнейшим в Казахстане и одним из крупнейших в мире производителем меди, золота, серебра, цинка.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Сегодня корпорация «Казахмыс» - крупнейший в Казахстане и один из крупнейших в мире производитель меди, золота, серебра, цинка.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Это позволит на существующих производственных площадях увеличить объем переработки руды с 22 до 34 млн т/год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "22 to 34 млн т/год",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это позволит на существующих производственных площадях увеличить объем переработки руды с 22 до 34 млн т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2004 г. корпорация «Казахмыс» приобрела современный завод в Германии, обеспечивающий выпуск до 400 тыс. т/год медной продукции.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "до 400 тыс. т/год",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2004 г. корпорация «Казахмыс» приобрела современный завод в Германии, обеспечивающий выпуск до 400 тыс. т/год медной продукции.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Стоимость проекта более 60 млн долл. США.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project cost",
+    "direction": "increases",
+    "factor": "более 60 млн долл. США",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стоимость проекта более 60 млн долл. США.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Корпорация с 1996 г. не повышает тарифы на тепло и электроэнергию, что является одним из направлений социальной защиты населения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "tariff change",
+    "direction": "no_change",
+    "factor": "не повышает с 1996 г.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Корпорация с 1996 г. не повышает тарифы на тепло и электроэнергию, что является одним из направлений социальной защиты населения.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "У нас на балансе порядка 100 объектов социальной сферы, на содержание которой ежегодно тратится более 20 млн долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual expenditure",
+    "direction": "increases",
+    "factor": "более 20 млн долл.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "У нас на балансе порядка 100 объектов социальной сферы, на содержание которой ежегодно тратится более 20 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Создаётся детский оздоровительный лагерь «Лучезарный» в Крыму, куда будет вложено 9 млн долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "9 млн долл.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Создаётся детский оздоровительный лагерь «Лучезарный» в Крыму, куда будет вложено 9 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "В г. Сатпаеве сооружается спортивный комплекс олимпийского типа: крытое футбольное поле, ледовый дворец, плавательный бассейн и гостиницы для спортсменов. Общая стоимость комплекса 15 млн долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project cost",
+    "direction": "increases",
+    "factor": "15 млн долл.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В г. Сатпаеве сооружается спортивный комплекс олимпийского типа: крытое футбольное поле, ледовый дворец, плавательный бассейн и гостиницы для спортсменов. Общая стоимость комплекса 15 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Potential for cathode copper production exceeds 250 000 t/yr.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production potential",
+    "direction": "increases",
+    "factor": "250 000 t/yr",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "потенциал которых по производству катодной меди превышает 250 тыс. т/год",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "The corporation has high production and scientific‑technical potential, necessary energy and fuel resources, own transport, modern communication networks and qualified staff, i.e. everything needed for further development and increase of production volumes.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "overall capability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Корпорация имеет высокий производственный и научно‑технический потенциал, необходимые энергетические и топливные ресурсы, собственный автомобильный, железнодорожный и воздушный транспорт, современные технологические теле‑коммуникационные сети, квалифицированные кадры, т. е. все необходимое для дальнейшего развития и наращивания объемов производства.",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "From 1995 to present, the corporation obtained 40 pre‑emptive patents, 13 patents of the Republic of Kazakhstan and 6 patents of the Russian Federation for inventions.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "patent portfolio",
+    "direction": "increases",
+    "factor": "40 pre‑emptive, 13 Kazakh, 6 Russian patents",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За период с 1995 г. получено 40 предв. патентных, 13 патентов Республики Казахстан, 6 патентов Российской Федерации на изобретения.",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "The corporation is equipped with modern computer hardware and software for mining, construction, environmental, metallurgical and technological design, as well as surveying and cost estimation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technical equipment",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Корпорация оснащена современной компьютерной техникой, программными комплексами для проектирования: горного – «DATA‑MINE», строительного – «Лира 8.0», экологического – «ЭКО», «ВЕН», металлургического и технологического «Компас‑График», генплана и изысканий – GeoniCS и CREDO, электронный тахеометр Trimble 3303, конструкторского – «Auto Cad» и сметно‑экономического АВС‑4 и «Эксперт‑7» и решения других задач.",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Вся технология приготовления и транспортировки закладки управляется одним человеком при помощи системы автоматизированного управления и контроля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "control method",
+    "direction": "increases",
+    "factor": "automation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вся технология приготовления и транспортировки закладки управляется одним человеком при помощи системы автоматизированного управления и контроля.",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология обладает ноу‑хау и мировых аналогов не имеет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "novelty",
+    "direction": "increases",
+    "factor": "uniqueness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология обладает ноу‑хау и мировых аналогов не имеет.",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Экономическая эффективность полной реализации ноу‑хау на подземных рудниках Норильска составляет 25 млн долл./год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "annual profit",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Экономическая эффективность полной реализации ноу‑хау на подземных рудниках Норильска составляет 25 млн долл./год.",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Эффективным способом хозяйствования является разделение бюджета компании на две части: оперативный и стратегический бюджеты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "budget structure",
+    "direction": "increases",
+    "factor": "management efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эффективным способом хозяйствования является разделение бюджета компании на две части: оперативный и стратегический бюджеты.",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Использование современного менеджмента и экономических методов хозяйствования позволило корпорации значительно снизить эксплуатационные издержки на производство катодной меди и стать лидером издержек по СНГ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating costs",
+    "direction": "decreases",
+    "factor": "cost reduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использование современного менеджмента и экономических методов хозяйствования позволило корпорации значительно снизить эксплуатационные издержки на производство катодной меди и стать лидером издержек по СНГ.",
+   "locator_kind": "md_para",
+   "locator": "para:215",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "В целом по Жезказганскому региону за период 2005-2025 гг . наблюдается возрастание объема производства катодной меди с 229 до 297,7 тыс. т в 2008 г ., а за тем постепенное снижение до 172,5 тыс. т (табл. 2).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "катодная медь",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В целом по Жезказганскому региону за период 2005-2025 гг . наблюдается возрастание объема производства катодной меди с 229 до 297,7 тыс. т в 2008 г ., а за тем постепенное снижение до 172,5 тыс. т (табл. 2).",
+   "locator_kind": "md_para",
+   "locator": "para:246",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "В целом по ПО «Балхашцветмет» среднегодовое производство катодной меди с учетом Восточного региона с 2005 по 2025 г. будет возрасти с 229 до 329,7 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "катодная медь",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В целом по ПО «Балхашцветмет» среднегодовое производство катодной меди с учетом Восточного региона с 2005 по 2025 г. будет возрасти с 229 до 329,7 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:251",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "С вводом цинкового завода (с 2004 г.) будет добываться цинковый концентрат с предприятий Восточного региона с получением чистого цинка до 100 тыс. т/год.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "чистый цинк",
+    "direction": "increases",
+    "factor": "new plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С вводом цинкового завода (с 2004 г.) будет добываться цинковый концентрат с предприятий Восточного региона с получением чистого цинка до 100 тыс. т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:237",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  },
+  {
+   "text": "Перерабатывающие мощности будут обеспечивать до 2025 г .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "мощности",
+    "direction": "increases",
+    "factor": "time horizon",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Перерабатывающие мощности будут обеспечивать до 2025 г .",
+   "locator_kind": "md_para",
+   "locator": "para:240",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_kazahmys-пв-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:coal",
+   "dst": "mat:rotary-excavators",
+   "process": "other",
+   "kind": null,
+   "snippet": "Использование цикличнопоточной технологии предусмотрено на угольном разрезе Молодежный.",
+   "doc_id": "doc:cm_05_kazahmys-пв-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

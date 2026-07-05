@@ -509,6 +509,29 @@ export const GraphEdgeSchema = {
     title: 'GraphEdge'
 } as const;
 
+export const GraphGapSchema = {
+    properties: {
+        material: {
+            type: 'string',
+            title: 'Material'
+        },
+        property: {
+            type: 'string',
+            title: 'Property'
+        },
+        regime_bucket: {
+            '$ref': '#/components/schemas/RegimeBucket'
+        },
+        reason: {
+            type: 'string',
+            title: 'Reason'
+        }
+    },
+    type: 'object',
+    required: ['material', 'property', 'regime_bucket', 'reason'],
+    title: 'GraphGap'
+} as const;
+
 export const GraphNodeSchema = {
     properties: {
         id: {
@@ -532,6 +555,34 @@ export const GraphNodeSchema = {
     type: 'object',
     required: ['id', 'label', 'type'],
     title: 'GraphNode'
+} as const;
+
+export const GraphOverviewResponseSchema = {
+    properties: {
+        nodes: {
+            items: {
+                '$ref': '#/components/schemas/GraphNode'
+            },
+            type: 'array',
+            title: 'Nodes'
+        },
+        edges: {
+            items: {
+                '$ref': '#/components/schemas/GraphEdge'
+            },
+            type: 'array',
+            title: 'Edges'
+        },
+        gaps: {
+            items: {
+                '$ref': '#/components/schemas/GraphGap'
+            },
+            type: 'array',
+            title: 'Gaps'
+        }
+    },
+    type: 'object',
+    title: 'GraphOverviewResponse'
 } as const;
 
 export const GraphQueryRequestSchema = {
@@ -869,6 +920,25 @@ export const NewPasswordSchema = {
     title: 'NewPassword'
 } as const;
 
+export const ParseRawDataFileRequestSchema = {
+    properties: {
+        path: {
+            type: 'string',
+            title: 'Path',
+            description: 'Concrete parser path under RAW_DATA/, e.g. RAW_DATA/Доклады/report.pdf'
+        },
+        enforce: {
+            type: 'boolean',
+            title: 'Enforce',
+            description: 'Re-enqueue L1 parsing even when the document already reached L1.',
+            default: false
+        }
+    },
+    type: 'object',
+    required: ['path'],
+    title: 'ParseRawDataFileRequest'
+} as const;
+
 export const PathResponseSchema = {
     properties: {
         nodes: {
@@ -943,6 +1013,89 @@ export const ProcessingLevelCoverageSchema = {
     type: 'object',
     required: ['level', 'count', 'percent'],
     title: 'ProcessingLevelCoverage'
+} as const;
+
+export const RawDataFileSummarySchema = {
+    properties: {
+        path: {
+            type: 'string',
+            title: 'Path'
+        },
+        filename: {
+            type: 'string',
+            title: 'Filename'
+        },
+        stage0_done: {
+            type: 'boolean',
+            title: 'Stage0 Done'
+        },
+        stage1_done: {
+            type: 'boolean',
+            title: 'Stage1 Done'
+        },
+        document_id: {
+            anyOf: [
+                {
+                    type: 'string',
+                    format: 'uuid'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Document Id'
+        },
+        processing_level: {
+            anyOf: [
+                {
+                    '$ref': '#/components/schemas/ProcessingLevel'
+                },
+                {
+                    type: 'null'
+                }
+            ]
+        },
+        latest_task_status: {
+            anyOf: [
+                {
+                    '$ref': '#/components/schemas/IngestStatus'
+                },
+                {
+                    type: 'null'
+                }
+            ]
+        }
+    },
+    type: 'object',
+    required: ['path', 'filename', 'stage0_done', 'stage1_done'],
+    title: 'RawDataFileSummary'
+} as const;
+
+export const RawDataFilesResponseSchema = {
+    properties: {
+        data: {
+            items: {
+                '$ref': '#/components/schemas/RawDataFileSummary'
+            },
+            type: 'array',
+            title: 'Data'
+        },
+        count: {
+            type: 'integer',
+            title: 'Count'
+        },
+        offset: {
+            type: 'integer',
+            title: 'Offset'
+        },
+        limit: {
+            type: 'integer',
+            title: 'Limit'
+        }
+    },
+    type: 'object',
+    required: ['data', 'count', 'offset', 'limit'],
+    title: 'RawDataFilesResponse'
 } as const;
 
 export const RegimeBucketSchema = {

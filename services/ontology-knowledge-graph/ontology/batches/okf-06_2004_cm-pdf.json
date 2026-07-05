@@ -1,0 +1,224 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:06_2004_cm-pdf",
+   "title": "06_2004_cm.pdf",
+   "doc_type": "article",
+   "year": 2004,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2004\\06_2004_cm.pdf.md",
+   "artifact_sha256": "1c05fce9c458202068d39a4e49fc833b3bd15d6c6b53d5b1d855d6d1f7f3830b",
+   "okf_raw_path": "Журналы/Цветные металлы/2004/06_2004_cm.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Переход на логистические подходы к управлению в американских фирмах (компаниях и т. п.) позволил снизить долю запасов в валовом внутреннем продукте США с 29 %, которая была в США в 1959 г., до 18 % в 1994 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "inventory share reduction",
+    "direction": "decreases",
+    "factor": "29 % to 18 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Переход на логистические подходы к управлению в американских фирмах (компаниях и т. п.) позволил снизить долю запасов в валовом внутреннем продукте США с 29 %, которая была в США в 1959 г., до 18 % в 1994 г.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "По экспертным оценкам, применение методов логистики позволяет снизить уровень запасов на 30-50 % и сократить время движения продукции на 25-45 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "inventory level and production lead time",
+    "direction": "decreases",
+    "factor": "30-50 % inventory, 25-45 % lead time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По экспертным оценкам, применение методов логистики позволяет снизить уровень запасов на 30-50 % и сократить время движения продукции на 25-45 %",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "93 % от всего временного цикла материальных ресурсов (МР) находятся в запасах, заделах незавершенного производства, т. е. основной доле времени материальные потоки представляют собой запасы предприятия.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of time in inventory",
+    "direction": "increases",
+    "factor": "93 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, 93 % от всего временного цикла материальных ресурсов (МР) находятся в запасах, заделах незавершенного производства, т. е. основной доле времени материальные потоки представляют собой запасы предприятия.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.45,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Во всех сферах деятельности, но особенно в производственной логистике, важнейшее значение имеет система норм и нормативов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "importance of norms",
+    "direction": "increases",
+    "factor": "важнейшее значение",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Во всех сферах деятельности, но особенно в производственной логистике, важнейшее значение имеет система норм и нормативов.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.81,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "В «Методические рекомендации...» включающие пять типовых методик (для сырья и материалов, комплектующих изделий и покупных полуфабрикатов, запчастей, моторных топлив, готовой продукции (ГП)).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "number_of_typical_methods",
+    "direction": "increases",
+    "factor": "methodological_coverage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В «Методические рекомендации...» включающие пять типовых методик (для сырья и материалов, комплектующих изделий и покупных полуфабрикатов, запчастей, моторных топлив, готовой продукции (ГП)).",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.81,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "В «Методические рекомендации...» была заложена унифицированная методология, которая позволяет нормировать запасы разных категорий (производственные, сбытовые, товарные) и различных марок МР и ГП, а также ОбС на единой методологической основе.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability_scope",
+    "direction": "increases",
+    "factor": "unified_methodology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В «Методические рекомендации...» была заложена унифицированная методология, которая позволяет нормировать запасы разных категорий (производственные, сбытовые, товарные) и различных марок МР и ГП, а также ОбС на единой методологической основе.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.45,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Методика нормирования, приведённые в «Методических рекомендациях...», хотя были разработаны более 12 лет назад, пригодны и сегодня для определения норм ОбС и ПЗ на предприятиях в условиях рыночной экономики.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temporal_relevance",
+    "direction": "increases",
+    "factor": "method_age",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Методика нормирования, приведённые в «Методических рекомендациях...», хотя были разработаны более 12 лет назад, пригодны и сегодня для определения норм ОбС и ПЗ на предприятиях в условиях рыночной экономики.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Специфицированные нормы ПЗ рассчитывают на основе учета нормообразующих факторов (НФ), характеризующих условия формирования запасов, например учета необходимого времени на разгрузку поступившей марки МР, сушку пиломатериалов и т.п.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "basis_of_norms",
+    "direction": "increases",
+    "factor": "norm_forming_factors",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Специфицированные нормы ПЗ рассчитывают на основе учета нормообразующих факторов (НФ), характеризующих условия формирования запасов, например учета необходимого времени на разгрузку поступившей марки МР, сушку пиломатериалов и т.п.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.45,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "При использовании более производительной техники потребуется уже меньше времени на выполнение подготовительных операций (например, на разгрузку, сушку и т.д.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "preparatory_time",
+    "direction": "decreases",
+    "factor": "technology_productivity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При использовании более производительной техники потребуется уже меньше времени на выполнение подготовительных операций (например, на разгрузку, сушку и т.д.).",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.45,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Улучшение логистической цепочки (поменяли поставщиков – уменьшились интервалы поставок, неравномерность поставок по объемам и интервалам) приводит к снижению рассчитываемых норм ПЗ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stock_norms",
+    "direction": "decreases",
+    "factor": "supply_interval_and_variability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Улучшение логистической цепочки (поменяли поставщиков – уменьшились интервалы поставок, неравномерность поставок по объемам и интервалам) приводит к снижению рассчитываемых норм ПЗ.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.45,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Нормы ОбС исчисляют в стоимостном выражении (в тыс. руб.), а нормы ОбС (специфицированные, видовые, поэлементные, по балансовым статьям, ОбС-всего) и их составляющие – в относительных величинах: в «днях» среднесуточного расхода в стоимостном выражении и т.д.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "units_of_expression",
+    "direction": "increases",
+    "factor": "norm_type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Нормы ОбС исчисляют в стоимостном выражении (в тыс. руб.), а нормы ОбС (специфицированные, видовые, поэлементные, по балансовым статьям, ОбС-всего) и их составляющие – в относительных величинах: в «днях» среднесуточного расхода в стоимостном выражении и т.д.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:06_2004_cm-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

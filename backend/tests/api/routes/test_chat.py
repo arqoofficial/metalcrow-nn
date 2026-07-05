@@ -2,6 +2,7 @@ import json
 import uuid
 from typing import Any
 
+import pytest
 from fastapi.testclient import TestClient
 from sqlmodel import Session
 
@@ -9,6 +10,15 @@ from app.core.config import settings
 from app.schemas.chat import ChatMessageResponse
 from tests.utils.user import authentication_token_from_email
 from tests.utils.utils import random_email
+
+
+@pytest.fixture(autouse=True)
+def _no_litsearch_in_auto(monkeypatch: pytest.MonkeyPatch) -> None:
+    """AUTO now offers `literature_search_en` first (spec §2.5); with a reachable
+    gateway the model would non-deterministically grab it and pre-empt the
+    ontology/KG waterfall these route tests assert. Empty `LITSEARCH_BASE_URL` forces
+    the Phase-A loop into the degraded path -> AUTO falls through deterministically."""
+    monkeypatch.setattr(settings, "LITSEARCH_BASE_URL", "")
 
 
 def _create_session(

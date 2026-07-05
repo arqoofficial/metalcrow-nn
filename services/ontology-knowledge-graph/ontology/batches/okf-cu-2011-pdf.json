@@ -1,0 +1,746 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cu-2011-pdf",
+   "title": "Cu 2011.pdf",
+   "doc_type": "article",
+   "year": 2025,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Cu 2011.pdf.md",
+   "artifact_sha256": "0a8065791d977cb6c7755dee234a4482403462d07488d883535f6003afbab02f",
+   "okf_raw_path": "Обзоры/Cu 2011.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Крупнейшей областью потребления меди остается строительный сектор (рис. 7), несмотря на экономический кризис, который привел к существенному снижению объёма строительства новых зданий.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sector",
+    "direction": "increases",
+    "factor": "construction sector",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Крупнейшей областью потребления меди остается строительный сектор (рис . 7), несмотря на экономический кризис , который привел к существенному снижению объема строительства новых зданий .",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В строительном секторе медь, в основном, потребляется в виде электропроводов и коммуникационных кабелей, также какое‑то количество используется в виде медных водопроводных труб и фурнитуры зданий.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "form",
+    "direction": "increases",
+    "factor": "building sector",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В строитель -ном секторе медь , в основном , потребляется в виде электропроводов и коммуникационных кабелей , также какое -то количество используется в виде медных водопроводных труб и фурнитуры зданий : водосточные тру -бы и сливы , покрытия крыш и т . д .",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Второй по величине сектор потребления меди — электроника / электротехника, в этом секторе медь также, в основном, потребляется в виде проводов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sector rank",
+    "direction": "increases",
+    "factor": "electronics/electrical engineering",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Второй по величине сектор потребления меди -электрони -ка / электротехника , в этом секторе медь также , в основном , потребляется в виде проводов .",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 90‑х годах прошлого века самое крупное снижение потребления меди за счёт замещения произошло в секторе электроники / электротехники, где медные кабели для передачи информации были заменены на оптоволокно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption trend",
+    "direction": "decreases",
+    "factor": "1990s",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 90х годах прошлого века самое крупное снижение потребления меди за счет замещения произошло в секторе электроники / электротехники , где медные кабели для передачи информации были заменены на оптово -локно .",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В текущем десятилетии потребление меди в секторе передачи информации снова начало расти, в основном за счёт увеличения популярности кабелей с повышенной помехозащищённостью и большей пропускной способностью.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "trend",
+    "direction": "increases",
+    "factor": "2010s",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако в текущем десятилетии потребление меди в секторе переда -чи информации снова начало расти , в основном , за счет увеличения попу -лярности кабелей с повышенной помехозащищенностью и большей пропу -скной способностью , в которых потребляется больше меди , чем в стан -дартных .",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "16 % мирового потребления меди приходится на различные отрасли промышленности, где медь применяется как в виде проволоки, так и в виде разнообразных изделий из меди и медных сплавов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "global industry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "16% мирового потребления меди приходится на различные отрасли промышленности , где медь применяется как в виде проволоки , так и в виде разнообразных изделий из меди и медных сплавов : различные фитинги , клапаны , вентили , теплообменники и т . д .",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В транспортном секторе медь используется в тормозных колодках (медно‑никелевых сплав с 90 % меди / 10 % никеля) и медно‑латунных радиаторах.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "components",
+    "direction": "increases",
+    "factor": "automotive",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В транспортном секторе , помимо проводов , а электроники и прово -дов в автомобиле с каждым годом становится все больше , не говоря уже об электромобилях и гибридных авто , медь используется в тормозных колод -ках ( медно -никелевых сплав с 90% меди /10% никеля ) и медно -латунных радиаторах .",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Высокие цены на медь последних лет привели к некоторому уменьшению роста спроса за счёт замещения красного металла другими материалами, преимущественно алюминием.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "demand trend",
+    "direction": "decreases",
+    "factor": "high copper price",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Высокие цены на медь последних лет привели к некоторому умень -шению роста спроса за счет замещения красного металла другими мате -риалами , преимущественно алюминием (рис . 8).",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам International Copper Association порядка половины замещённого спроса на медь приходится на алюминий.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "percentage",
+    "direction": "increases",
+    "factor": "ICA estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам International Copper Association порядка половины замещенного спроса на медь приходится на алюминий (рис . 9),",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "CCA‑обмеднённый алюминиевый кабель с алюминиевым сердечником и медным покрытием имеет плотность 3,631 г/см³, что примерно на 40 % меньше плотности меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "density",
+    "direction": "decreases",
+    "factor": "CCA cable",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плот -ность 15% ССА - 3,631 г / см 3 или приблизительно на 40% меньше плотности меди .",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Проводимость кабеля ССА для переменного тока с частотой свыше 5 МГц ничем не уступает меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "conductivity",
+    "direction": "no_change",
+    "factor": "CCA cable",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проводимость кабеля ССА для переменного тока с частотой свыше 5 МГц ничем не уступает меди .",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2009 году крупнейшим сектором, в котором происходило замещение меди, был телекоммуникационный, где медные кабели заменялись либо на алюминиевые, либо обмеднённые алюминиевые кабели.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sector rank",
+    "direction": "increases",
+    "factor": "2009",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Крупнейшим сектором , в котором происходило замещение меди в 2009 годы был телекоммуникационный (рис . 10), где медные кабели заме -нялись либо на алюминиевые , либо обмедненные алюминиевые кабели .",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Более половины всего замещения меди приходится на Северную Америку и Китай, а в Западной Европе замещение также значительно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "global 2009",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отметим , что более половины всего замещения меди приходится на Северную Америку и Китай (рис . 11), достаточно велико замещение меди и в Западной Европе .",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Антибактериальные покрытия -покрытия из меди и медных спла -вов замедляют темпы роста бактерий и микробов на этих поверхностях.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "growth rate reduction",
+    "direction": "decreases",
+    "factor": "copper and copper alloys",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Антибактериальные покрытия -покрытия из меди и медных спла -вов замедляют темпы роста бактерий и микробов на этих поверхностях.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Бессвинцовая эко -латунь -сплав меди и цинка с пониженным со -держанием свинца для водопроводной отрасли.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "lead",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Бессвинцовая эко -латунь -сплав меди и цинка с пониженным со -держанием свинца для водопроводной отрасли.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Все провода и кабели, в основном, будут изготавливаться из меди и медных сплавов для снижения потерь электроэнергии.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy loss",
+    "direction": "decreases",
+    "factor": "copper and copper alloys",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все провода и кабели , в ос -новном , будут изготавливаться из меди и медных сплавов для снижения потерь элетроэнергии .",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Сетки из медных сплавов не ржавеют, в отличие от стальных, на них намного медленнее растут водоросли и прочие водные организмы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "corrosion and biofouling",
+    "direction": "decreases",
+    "factor": "copper alloys",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сетки из медных сплавов не ржавеют , в отличие от стальных , на них намного медленнее на -растают водоросли и прочие водные организмы",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В самом ближайшем будущем эта область будет потреблять свыше 130 тыс т меди ежегодно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual consumption",
+    "direction": "increases",
+    "factor": "aquaculture copper alloy nets",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В самом ближайшем будущем эта область будет потреблять свыше 130 тыс т меди ежегодно .",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам Bloomsbury Mineral Economics при среднегодовых ценах на медь в 7500 USD/т среднегодовые темпы роста потребления меди составят 0,5%, тогда к 2025 году мировое потребление меди вырастит до 20,5 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "growth rate",
+    "direction": "increases",
+    "factor": "price 7500 USD/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пессимистичный -по оценкам Bloomsbury Mineral Economics при среднегодовых ценах на медь в 7500 USD/ т ( в текущих долларах США ) среднегодовые темпы роста потребления меди составят 0,5%, тогда к 2025 году мировое потребление меди вырастет до 20,5 млн т по сравнению с 19 млн т в 2010 году .",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "При сохранении таких же темпов роста удельной интенсивности использования меди на душу населения мировое потребление меди к 2025 году может возрасти до 28,4 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption level",
+    "direction": "increases",
+    "factor": "population growth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При сохранении таких же , как и в последние 15 лет темпов роста удельной интенсивности использования меди на душу насе -ления мировое потребление меди к 2025 году может возрасти до 28,4 млн т .",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам аналитиков Brook Hunt потребление меди будет расти в среднем на 3,3% в год и к 2025 году составит около 30 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual growth rate",
+    "direction": "increases",
+    "factor": "Brook Hunt estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Возможный -по оценкам аналитиков Brook Hunt потребление меди будет расти в среднем на 3,3% в год и к 2025 году составит около 30 млн т .",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "За последние 100 лет среднегодовые темпы роста потребления меди составляли около 4% в год, при сохранении таких же темпов роста, мировое потребление меди к 2025 году может возрасти до 34,2 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "growth rate",
+    "direction": "increases",
+    "factor": "historical trend",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оптимистичный -за последние 100 лет среднегодовые темпы рос -та потребления меди составляли около 4% в год , при сохранении таких же темпов роста , мировое потребление меди к 2025 году может возрасти до 34,2 млн т .",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Мировые запасы меди оцениваются Геологической службой США (USGS) в 600 млн т на 2010 год.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reserve size",
+    "direction": "increases",
+    "factor": "USGS estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На 2010 год мировые запасы меди оцениваются Геологической служ -бой США (USGS) в 600 млн т ( рис . 12) по сравнению с 360 млн т 20 лет назад ( рис 13)",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Текущий объём запасов меди хватит на 36 лет при сохранении текущих объёмов добычи.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "years of supply",
+    "direction": "decreases",
+    "factor": "current production rate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отметим , что текущего объема запасов меди хватит на 36 лет при сохранении теку -щих объемов добычи .",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В период с 1900 по 2010 гг горная добыча меди росла примерно на 4% в год - с менее чем 500 тыс т до 16,3 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual growth rate",
+    "direction": "increases",
+    "factor": "historical data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В период с 1900 по 2010 гг горная добыча меди росла примерно на 4% в год -с менее чем 500 тыс т до 16,3 млн т ( рис 16).",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "На Чили приходится более 1/3 мировой горной добычи меди, а вместе Чили, Китай, США и Перу обеспечивают более половины мировой горной добычи меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of global production",
+    "direction": "increases",
+    "factor": "country contributions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На Чили при -ходится более 1/3 мировой горной добычи , а вместе Чили , Китай , США и Перу обеспечивают более половины мировой горной добычи меди .",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Около 80% рафинированной меди в Китае производится из привозного сырья.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "imported raw material share",
+    "direction": "increases",
+    "factor": "China production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Крупнейшим производителем рафинированной меди является Китай , причем около 80% производится из привозного сы -рья .",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В Японии доля привозного сырья в рафинированной меди превышает 90%, остальное – местный скрап.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "imported raw material share",
+    "direction": "increases",
+    "factor": "Japan production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Аналогичная ситуация и в Японии , только там доля привозного сырья превышает 90%, остальное -местный скрап .",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "100% рафинированной меди в Чили производится из местного сырья.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "domestic raw material share",
+    "direction": "increases",
+    "factor": "Chile production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наоборот , 100% рафиниро -ванной меди в Чили производится из местного сырья .",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам Rio Tinto, в 2000 году только 2% горной добычи меди приходилось на страны с высокими рисками, в 2010 году их доля составила 5%, а к 2020 году может составить 9%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of high‑risk country production",
+    "direction": "increases",
+    "factor": "Rio Tinto estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам Rio Tinto, в 2000 году только 2% горной добычи меди приходилось на страны с высокими рисками , в 2010 году их доля состави -ла 5%, а к 2020 году их доля может составить уже 9%.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Увеличение доли стран с высокими и средними рисками в горной добыче меди сделает рынок более неопределенным и непредсказуемы , т . к . различные форс -мажоры могут привести к остановке поставок меди и де -фициту на рынке , и , соответственно , росту цен .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "market volatility",
+    "direction": "increases",
+    "factor": "high‑ and medium‑risk mining countries",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Увеличение доли стран с высокими и средними рисками в горной добыче меди сделает рынок более неопределенным и непредсказуемы , т . к . различные форс -мажоры могут привести к остановке поставок меди и де -фициту на рынке , и , соответственно , росту цен .",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "рост капзатрат по новым проектам ( таблица 1).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost per tonne of copper",
+    "direction": "increases",
+    "factor": "new projects",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "рост капзатрат по новым проектам ( таблица 1).",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Несмотря на существенный рост капзатрат , крупнейшие производи -тели меди исходя из текущих цен на медь и позитивных прогнозов плани -руют в ближайшие 10-15 лет ввести несколько крупных рудников сово -купной мощностью свыше 2,5 млн т меди в год ( таблица 2).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "future mine capacity",
+    "direction": "increases",
+    "factor": "positive price outlook",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Несмотря на существенный рост капзатрат , крупнейшие производи -тели меди исходя из текущих цен на медь и позитивных прогнозов плани -руют в ближайшие 10-15 лет ввести несколько крупных рудников сово -купной мощностью свыше 2,5 млн т меди в год ( таблица 2).",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам аналитиков Brook Hunt производство рафинированной меди к 2025 возрастет до 31 млн т по сравнению с 19,5 млн т в 2010 году .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "refined copper production",
+    "direction": "increases",
+    "factor": "forecast to 2025",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам аналитиков Brook Hunt производство рафинированной меди к 2025 возрастет до 31 млн т по сравнению с 19,5 млн т в 2010 году .",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Средняя цена за последние 25 лет в номинальных долларах США составила 3100 USD/ т , в долларах 2010 года - 3970 USD/ т , что на 28% выше номинальной .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average copper price (25‑year nominal)",
+    "direction": "increases",
+    "factor": "historical period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средняя цена за последние 25 лет в номинальных долларах США составила 3100 USD/ т , в долларах 2010 года - 3970 USD/ т , что на 28% выше номинальной .",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "За последние 10 лет номинальная цена за 1 т меди составляла 4500 USD/ т , что на 45% выше средней цены за 25 лет .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nominal copper price (last 10 years)",
+    "direction": "increases",
+    "factor": "recent decade",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За последние 10 лет номинальная цена за 1 т меди составляла 4500 USD/ т , что на 45% выше средней цены за 25 лет .",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "долгосрочный избыток предложения должен привести к постепенному снижению цен на медь с текущего уровня 9-10 тыс USD/ т до 4-5 USD/ т ( в долларах 2010 года .)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper price",
+    "direction": "decreases",
+    "factor": "long‑term oversupply",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "долгосрочный избыток предложения должен привести к постепенному снижению цен на медь с текущего уровня 9-10 тыс USD/ т до 4-5 USD/ т ( в долларах 2010 года .)",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В районе 2020 года снова возможен всплеск цен на медь до 10+ тыс USD/ т .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper price",
+    "direction": "increases",
+    "factor": "around 2020",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В районе 2020 года снова возможен всплеск цен на медь до 10+ тыс USD/ т .",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "После 2022 года цены снова должны стабилизироваться на уровне около 5 тыс USD/ т ( в долларах 2010 года ).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper price",
+    "direction": "decreases",
+    "factor": "post‑2022 period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После 2022 года цены снова должны стабилизироваться на уровне около 5 тыс USD/ т ( в долларах 2010 года ).",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "по нашей оценке , долгосрочная прогнозная цена меди ( в долларах 2010 года ) будет составлять порядка 5000 USD/ т .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "long‑term copper price",
+    "direction": "increases",
+    "factor": "author's estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по нашей оценке , долгосрочная прогнозная цена меди ( в долларах 2010 года ) будет составлять порядка 5000 USD/ т .",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.81,
+   "document_id": "doc:cu-2011-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

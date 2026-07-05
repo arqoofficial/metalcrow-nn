@@ -1,0 +1,2212 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "Современные способы переработки свинцово-цинкового сырья.pdf",
+   "doc_type": "article",
+   "year": 2017,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Современные способы переработки свинцово-цинкового сырья.pdf.md",
+   "artifact_sha256": "a1bf1b7ed8aeb0f59a3540e3726152a8a5fab64bf1532e5b8658c23c4946dbe0",
+   "okf_raw_path": "Обзоры/Современные способы переработки свинцово-цинкового сырья.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:primary-concentrate",
+   "label": "primary concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:secondary-raw-material-battery-scrap-lead-glass",
+   "label": "secondary raw material (battery scrap, lead glass, etc.)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:concentrate",
+   "label": "concentrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:battery-scrap",
+   "label": "battery scrap",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rich-pb-slag",
+   "label": "rich Pb slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pb-tails-leach-residues",
+   "label": "Pb tails, leach residues",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lead-concentrates",
+   "label": "lead concentrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:tin-concentrates-and-re-circulates",
+   "label": "tin concentrates and re‑circulates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag-from-lead-smelting",
+   "label": "slag from lead smelting",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pbs-concentrate-and-or-coke",
+   "label": "PbS‑concentrate and/or coke",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag-after-first-reduction",
+   "label": "slag after first reduction",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coke-kuskovoy-ugol",
+   "label": "coke (kuskovoy ugol)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coal",
+   "label": "coal",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:liquid-lead-rich-slag",
+   "label": "liquid lead‑rich slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfide-concentrates",
+   "label": "sulfide concentrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:0",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "Brunswick plant processing of primary and secondary raw material",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "oxidative roasting/agglomeration – shaft furnace followed by smelting",
+       "temperature_text": "1240 °C",
+       "duration_text": "2015‑2016"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1513.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:primary-concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:secondary-raw-material-battery-scrap-lead-glass",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "primary/secondary raw material ratio",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "соотношение первичного и вторичного сырья равнялось 50:50",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:primary-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 45.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "содержание свинца в концентрате составляло 45% (2%Zn, 28%S)",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:secondary-raw-material-battery-scrap-lead-glass",
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "в аккумуляторной массе - 70%Pb (3%S)",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "oxygen enrichment in blast furnace",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 27.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "обогащением дутья кислородом до 27,5%",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "annual lead production",
+     "scope": "material",
+     "material_id": "mat:secondary-raw-material-battery-scrap-lead-glass",
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2015-2016 гг. производилось около 70 тыс т/год свинца.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Plant operated continuously processing both primary and secondary feedstocks.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Завод работает по классической схеме: обжиг/агломерация - плавка в шахтной печи с добавками кокса, обогащением дутья кислородом до 27,5% и температуре 1240 °C.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Завод Brunswick (Канада) компании Glencore, работающий по традиционной технологии «окислительный обжиг/агломерация - шахтная печь», перерабатывал концентраты с Pb‑Zn рудника Brunswick и вторичное сырье.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:1",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "Weser Metall GmbH Ausmelt operation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "Ausmelt smelting of concentrates and battery scrap"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:battery-scrap",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Continuous operation producing black lead and rich slag.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Черн.Pb, богатый шлак",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Weser Metall GmbH | Конц‑ты, аккум.лом | Ausmelt | - | - | Черн.Pb, богатый шлак | Непрерыв",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:2",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "Korea Zinc 2017 dual‑furnace continuous operation (QSL + Ausmelt)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Combined QSL and Ausmelt furnaces processing rich Pb slag and Pb/Zn residues",
+       "duration_text": "2017"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rich-pb-slag",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:pb-tails-leach-residues",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Continuous production of black lead, Pb/Zn off‑gases and waste slag.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Черн.Pb, Pb/Zn возгон, отвал.шлак",
+     "locator_kind": "md_para",
+     "locator": "para:72",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Korea Zinc | Печь QSL Ausmelt | Печь QSL Ausmelt | Ausmelt | Черн.Pb, Pb/Zn возгон, отвал.шлак | Непрерывн (2 печи)",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:3",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "Industrial application of Ausmelt at Yunnan Tin Corporation (YTCL) plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Ausmelt three‑stage (melting / slag reduction / fuming) in a single furnace",
+       "temperature_text": "1150 °C",
+       "duration_text": "periodic operation since 2010"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1423.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-concentrates",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:tin-concentrates-and-re-circulates",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "lead production",
+     "scope": "material",
+     "material_id": "mat:secondary-raw-material-battery-scrap-lead-glass",
+     "value": {
+      "min": null,
+      "nominal": 190.0,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Завод перерабатывает ≈190 тыс т/г свинцовых концентратов с получением чернового свинца в слитках, богатой цинковой пыли и отвального шлака.",
+     "locator_kind": "md_para",
+     "locator": "para:91",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "zinc oxide fume production",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 17.0,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "~17 тыс т/г возгонов/пыли оксида цинка",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "slag production",
+     "scope": "material",
+     "material_id": "mat:rich-pb-slag",
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "50 тыс т/г отвального шлака",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "slag lead content",
+     "scope": "material",
+     "material_id": "mat:rich-pb-slag",
+     "value": {
+      "min": null,
+      "nominal": 35.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "жидкого шлака, содержащего ~35% свинца в виде PbO",
+     "locator_kind": "md_para",
+     "locator": "para:97",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The process produces significant vapors of Pb, Zn, As, Sb that are collected and recycled to increase lead recovery.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "vapor generation and recovery",
+      "direction": "increases",
+      "factor": "lead recovery",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "По ходу плавки образуется значительное количество возгонов из-за испарительного переноса Pb, Zn, As, Sb. Возгоны собирают и перерабатывают с целью повышения извлечения свинца.",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На свинцовом плавильном заводе Yunnan Tin Corporation (YTCL) в Китае с 2010 г. применяется технология плавки Ausmelt в трехстадийном варианте: плавка/восстановлением шлака/фьюминг, осуществляемом в периодическом режиме в одной и той же печи Ausmelt.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:4",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "2002 modernization of Yunnan Tin tin‑smelting plant to Ausmelt",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of a single Ausmelt furnace replacing seven reverberatory furnaces",
+       "temperature_text": "not specified",
+       "duration_text": "project completed in 2002"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:tin-concentrates-and-re-circulates",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "design capacity for lead",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Проектный объем производства: 100 тыс т/г чернового свинца",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The Ausmelt furnace successfully replaced seven older furnaces, enabling later modernization of lead production.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "technology replacement",
+      "direction": "increases",
+      "factor": "modernization capability",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В 2002г. был успешно реализован проект модернизации оловянного плавильного завода компании Yunnan Tin: установлена одна печь Ausmelt для переработки оловянных концентратов и оборотов, заменившая 7 отражательных печей.",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2002г. был успешно реализован проект модернизации оловянного плавильного завода компании Yunnan Tin: установлена одна печь Ausmelt для переработки оловянных концентратов и оборотов, заменившая 7 отражательных печей.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:5",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "Industrial slag reduction – first stage",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduction of lead‑rich slag",
+       "temperature_text": "1150 °C (maintained) and fuel addition to raise to 1200 °C",
+       "duration_text": "30 minutes"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1423.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-from-lead-smelting",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:pbs-concentrate-and-or-coke",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:rich-pb-slag",
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "На практике оказалось, что шлак от плавки (~35% Pb) можно восстановить до 10-15% Pb за 30 минут",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Lead‑rich slag can be significantly de‑lead in a short time when temperature and oxygen enrichment are controlled.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "temperature and oxygen‑enriched blast",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На практике оказалось, что шлак от плавки (~35% Pb) можно восстановить до 10-15% Pb за 30 минут",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На практике оказалось, что шлак от плавки (~35% Pb) можно восстановить до 10-15% Pb за 30 минут",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:6",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "Industrial slag reduction – second stage",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "further de‑lead of slag to 5 % Pb",
+       "temperature_text": "up to 1250 °C",
+       "duration_text": "additional 30 minutes"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1523.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-after-first-reduction",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:coke-kuskovoy-ugol",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:rich-pb-slag",
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "использованием PbS-концентрата, а затем до 5% Pb за дополнительные 30 минут с использованием кускового угля",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Complete de‑leading to 5 % Pb is achievable with coke addition at higher temperature.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Pb reduction level",
+      "direction": "increases",
+      "factor": "coke addition, temperature 1250 °C",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "использованием PbS-концентрата, а затем до 5% Pb за дополнительные 30 минут с использованием кускового угля",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "использованием PbS-концентрата, а затем до 5% Pb за дополнительные 30 минут с использованием кускового угля",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:7",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "Industrial start‑up of Ausmelt TSL furnace (hot start)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "three‑stage smelting in a single Ausmelt TSL furnace",
+       "temperature_text": "not specified (three stages at different conditions)",
+       "duration_text": "concentrate melting started 25.07.2010; design capacity 40 t/h reached after 4 days; reduction stage added 31.07.2010; slag‑leaning stage added 12 August; use of concentrate as reducer started 16 August"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:coal",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "design capacity of concentrate feed",
+     "scope": "material",
+     "material_id": "mat:concentrate",
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "t/час",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "проектная мощность по сырью - 40 т/час концентрата была достигну та через 4 дня.",
+     "locator_kind": "md_para",
+     "locator": "para:132",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:rich-pb-slag",
+     "value": {
+      "min": null,
+      "nominal": 35.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "при плавке концентрата цель - получить шлак с ~35% Pb.",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 40.0,
+      "nominal": null,
+      "max": 50.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "была подтверждена возможность достижения содержания цинка в возгоне 40-50%; соответствующие концентрации свинца - 2030%.",
+     "locator_kind": "md_para",
+     "locator": "para:140",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Increasing lead in slag reduces lead yield in reduction and raises load on the reduction stage.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "increases",
+      "factor": "lead in slag",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Увеличение содержания свинца в шлаке ведет к снижению выпуска свинца при восстановлении и увеличению нагрузки на стадию восстановления",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    },
+    {
+     "text": "Lead content in slag below 28 % can cause a stannic layer that is hard to detect and leads to downstream refining problems.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "decreases",
+      "factor": "lead in slag",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "снижение содержания свинца в шлаке до уровня менее 28% может привести к образованию слоя штейна между расплавом свинца и шлака",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Разогрев печи начался 17 июля 2010 г.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:8",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "Industrial operation of two‑furnace Ausmelt scheme (planned modernization)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "two‑furnace Ausmelt configuration for processing 125 000 t/yr of lead concentrates, battery scrap, slags/residues",
+       "temperature_text": "not specified",
+       "duration_text": "planned, not executed; project stopped in 2012"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-concentrates",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:battery-scrap",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The two‑furnace scheme was intended to separate melting and reduction/fusing into different furnaces.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "process layout",
+      "direction": "nonmonotonic",
+      "factor": "furnace allocation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Плавку и восстановление/фьюминг предполагалось вести в двух разных печах Ausmelt.",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "При модернизации свинцового завода компании Intertrust Holding (Болгария) планировалось заменить схему «обжиг/агломерация - восстановление в шахтной печи» на две печи Ausmelt.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:9",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "Industrial use of periodic two‑stage Ausmelt process (historical)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "periodic two‑stage smelting for lead production",
+       "temperature_text": "not specified",
+       "duration_text": "used up to 2008 by several companies (Hindustan Zinc Ltd, Votorantim Metais, HCHM, KCM SA, Namibia Custom Smelters)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-concentrates",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Двустадийную плавку в периодическом режиме применяют для выплавки свинца компании Hindustan Zinc Ltd (Индия), Votorantim Metais (Бразилия), HCHM (Китай), KCM SA (Болгария), Namibia Custom Smelters (Намибия) (до 2008 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:10",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "SKS pilot/industrial plant (Henan province)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "SKS (Sulfide‑Kinetic‑Smelting) lead‑smelting",
+       "temperature_text": "1200°C (oxygen injection zone)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1473.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "feed composition",
+     "scope": "material",
+     "material_id": "mat:concentrate",
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На заводе планировалось перерабатывать концентраты следующего примерного состава, %: Pb - 55, Zn - 5, Cu - 1, Fe - 8, As - 0,30, Sb - 0,25.",
+     "locator_kind": "md_para",
+     "locator": "para:188",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant was designed for 80 000 t/yr electrolytic lead production.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "design capacity",
+      "direction": "increases",
+      "factor": "80 000 t/yr",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "по проекту строительства рудника, концентраты с которого предполагалось перерабатывать на строящемся свинцовом заводе на 80 тыс т/г электролитного свинца в провинции Хэнань",
+     "locator_kind": "md_para",
+     "locator": "para:189",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Рисунок 4.1 - Типичная схема процесса SKS (до 2008 г.)",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:11",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "SKS‑YGL direct reduction upgrade (Henan plant)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "SKS‑YGL two‑stage (oxidation in SKS furnace + direct reduction in YGL furnace)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:liquid-lead-rich-slag",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "technology change year",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2008.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "С 2008 г. шахтная печь на заводе SKS компании YGL была заменена на прямое восстановление расплавленного богатого свинцового шлака в печи YGL.",
+     "locator_kind": "md_para",
+     "locator": "para:202",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The two‑stage process was named SKS‑YGL.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Данный двухстадийный процесс «окисление в печи SKS - прямое восстановление» был назван SKS-YGL.",
+     "locator_kind": "md_para",
+     "locator": "para:202",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Ист: Berzellius",
+   "locator_kind": "md_para",
+   "locator": "para:203",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:современные-способы-переработки-свинцово-цинково:12",
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "title": "QSL industrial plant (Stolberg, Germany)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "QSL continuous sulfide‑concentrate smelting in a sealed horizontal furnace",
+       "temperature_text": "1150‑1250°C (reduction zone)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1423.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfide-concentrates",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual production",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 155.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Завод Stolberg (Германия) компании Berzellius входит в десятку крупнейших производителей свинца, ежегодный выпуск - около 155 тыс т/г Pb, 350 т/г Ag и 130 тыс т/г H2SO4.",
+     "locator_kind": "md_para",
+     "locator": "para:210",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "furnace dimensions",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 33.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Общая длина печи на заводе Stolberg - 33 м, диаметр зоны окисления - 3,5 м, диаметр зоны восстановления - 3 м.",
+     "locator_kind": "md_para",
+     "locator": "para:211",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1423.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reduction"
+     },
+     "method": null,
+     "snippet": "Реакция восстановления эндотермическая, проходит при температуре 1150-1250°С.",
+     "locator_kind": "md_para",
+     "locator": "para:214",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The QSL process operates continuously in a single sealed horizontal furnace with a slight tilt (0.5%).",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Весь процесс протекает в единственной герметичной горизонтальной, с небольшим наклоном (0,5%) печи.",
+     "locator_kind": "md_para",
+     "locator": "para:211",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Ист: Berzellius",
+   "locator_kind": "md_para",
+   "locator": "para:203",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "В 2016 г. 58% рафинированного свинца было получено из вторичного сырья и лишь 42% - из рудных концентратов;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share of refined lead from secondary raw material",
+    "direction": "increases",
+    "factor": "58%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2016 г. 58% рафинированного свинца было получено из вторичного сырья и лишь 42% - из рудных концентратов;",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "лидером по добыче свинца и производству рафинированного металла является Китай, на долю которого в 2016 г. пришлось ~50% мировой добычи (2,4 млн т из 4,8 млн т) и 42% мирового выпуска рафинированного свинца (4,7 млн т из 11,1 млн т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share of world lead mining and refined lead production",
+    "direction": "increases",
+    "factor": "~50% of mining, 42% of refined production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "лидером по добыче свинца и производству рафинированного металла является Китай, на долю которого в 2016 г. пришлось ~50% мировой добычи (2,4 млн т из 4,8 млн т) и 42% мирового выпуска рафинированного свинца (4,7 млн т из 11,1 млн т).",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Самым распространенным способом получения свинца в Китае является разработанная китайскими специалистами технология плавки в жидкой ванне c нижней продувкой SKS в сочетании с восстановлением в шахтной печи.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "most common technology",
+    "direction": "increases",
+    "factor": "SKS with bottom blowing and shaft furnace reduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Самым распространенным способом получения свинца в Китае является разработанная китайскими специалистами технология плавки в жидкой ванне c нижней продувкой SKS в сочетании с восстановлением в шахтной печи.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": "smelting"
+  },
+  {
+   "text": "В 2010 г. выпуска свинца в Китае по технологии SKS составил более 1,74 млн т, а в 2011 г. -уже 2,51 млн т при том, что суммарный объем производства рафинированного металла (первичного и вторичного) в Китае составлял 4,16 млн т и 4,6 млн т, соответственно",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual production volume",
+    "direction": "increases",
+    "factor": "1,74 млн т (2010), 2,51 млн т (2011)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2010 г. выпуска свинца в Китае по технологии SKS составил более 1,74 млн т, а в 2011 г. -уже 2,51 млн т при том, что суммарный объем производства рафинированного металла (первичного и вторичного) в Китае составлял 4,16 млн т и 4,6 млн т, соответственно",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "цинковые концентраты, по-прежнему, перерабатываются преимущественно по технологии «обжиг - выщелачивание - электролиз».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dominant technology",
+    "direction": "increases",
+    "factor": "roasting‑leaching‑electrolysis",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "цинковые концентраты, по-прежнему, перерабатываются преимущественно по технологии «обжиг - выщелачивание - электролиз».",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Pb 35-90",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "35-90",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Pb 35-90",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Zn 0-15",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "0-15",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Zn 0-15",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "S 0-35",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "0-35",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "S 0-35",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "SiO 2 0-10",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "0-10",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "SiO 2 0-10",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "CaO 0-20",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "calcium oxide content interval",
+    "direction": "increases",
+    "factor": "0-20",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "CaO 0-20",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "FeO 0-30",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "iron oxide content interval",
+    "direction": "increases",
+    "factor": "0-30",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "FeO 0-30",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Cu 0-5",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "0-5",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cu 0-5",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Ni 0-1",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "0-1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ni 0-1",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Cd 0-0,2",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "0-0,2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cd 0-0,2",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Cr 0-10",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "0-10",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cr 0-10",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "As 0-5",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "0-5",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "As 0-5",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Hg 0-0,01",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "0-0,01",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Hg 0-0,01",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Direct lead smelting can be performed in an autogenous mode, but when secondary raw material is added some additional heat is usually required.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "При определенных условиях прямая плавка свинца может проходить в автогенном режиме, но с учетом добавок вторичного сырья обычно требуется какое‑то количество дополнительного тепла.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.81,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": "smelting"
+  },
+  {
+   "text": "Modern direct‑smelting processes are classified into liquid‑bath (Ausmelt/Isasmelt, SKS, QSL) and suspension‑type (Kivcet, LOFS, Kaldo) categories.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Эти современные процессы принято классифицировать следующим образом: - плавка в жидкой ванне: Ausmelt/Isasmelt (с верхней продувкой), процесс SKS (с донной продувкой), QSL; - плавка во взвешенном состоянии: КИВЦЭТ, … LOFS …; - печь Kaldo, сочетающая взвешенную плавку и плавку в ванне.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.81,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Typical oxygen enrichment for Ausmelt/Isasmelt is 27‑30 % O₂ in the blast air.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Воздух (27‑30% O₂ )",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "In the QSL process slag/lead temperature range is 1100‑1200 °C and the slag contains 25‑40 % Pb.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "QSL | Шлак/свинец | 1100‑1200 | %Pb (шлак) | 25‑40",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.45,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "In 1990, 12 % of world zinc production was based on the ISF technology.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 1990г. 12% мирового выпуска цинка производилось по технологии ISF.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "In 1990, 12 % of the world’s zinc production was based on the ISF technology.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global production share",
+    "direction": "increases",
+    "factor": "zinc output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1990г. 12% мирового выпуска цинка производилось по технологии ISF.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": "smelting"
+  },
+  {
+   "text": "China’s share of “modern” lead‑smelting technologies grew from 15 % to 65 % between 2006 and 2012.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technology share",
+    "direction": "increases",
+    "factor": "modern technology adoption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в производстве первичного свинца доля «современных» технологий увеличилась с 15% до 65%.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.81,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": "smelting"
+  },
+  {
+   "text": "New or modernised lead plants in China must have a capacity of at least 50 000 t/yr.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "minimum capacity",
+    "direction": "increases",
+    "factor": "regulatory requirement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощность новых или модернизированных «старых» заводов - не менее 50 тыс т/г",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "New Chinese lead plants must be located more than 1 km from residential areas.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "distance",
+    "direction": "increases",
+    "factor": "environmental protection",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "новые заводы должны располагаться на расстоянии более 1 км от жилой зоны",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Projects that include agglomeration machines and shaft furnaces will not be approved in China.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technology eligibility",
+    "direction": "decreases",
+    "factor": "approval likelihood",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проекты, включающие агломерационные машины и шахтные печи, не будут утверждаться.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "The Ausmelt/Isasmelt process achieves good environmental performance by operating a fully sealed furnace under negative pressure and sealing all openings.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "environmental performance",
+    "direction": "increases",
+    "factor": "emission control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Хорошие экологические показатели в процессе Ausmelt достигаются за счет полного укрытия печи, работающей под отрицательным давлением, и герметизации всех отверстий.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "In the Ausmelt process, dust and gas emissions are minimal, but SO₂ concentration in exhaust gases is high.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "emission characteristics",
+    "direction": "decreases",
+    "factor": "dust and gas emissions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс идет в герметизированной печи под отрицательным давлением выбросы пыли и газа минимальны; концентрация SO2 в отходящих газах высокая.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Both Isasmelt and Ausmelt are based on the same top‑submerged lance (TSL) technology developed by CSIRO in the 1970s.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technological origin",
+    "direction": "no_change",
+    "factor": "technology basis",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На самом деле оба способа плавки Isasmelt и Ausmelt основаны на одной и той же технологии плавки с погружной сверху фурмой, разработанной CSIRO (Научно-промышленная исследовательская организация Содружества наций) в 1970‑е гг.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.81,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Licenses for the TSL technology are held by Glencore (Isasmelt) and Outotec (Ausmelt).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "license holder",
+    "direction": "no_change",
+    "factor": "ownership",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Лицензии на эту технологию, под общим названием TSL, в последствии получили две разные организации и владеют ими под двумя разными названиями: ныне это компании Glencore (технология Isasmelt) и Outotec (технология Ausmelt).",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "The addition of silica and limestone is required to keep the slag liquid during later stages when PbO is reduced.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "slag fluidity",
+    "direction": "increases",
+    "factor": "process stability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добавки кремнезема и известняка необходимы для обеспечения того, что шлак останется жидким в ходе последующих стадий процесса, когда PbO восстанавливается.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Fuel is injected through an Ausmelt furnace to keep the bath temperature at 1150 °C during melting.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "fuel injection via Ausmelt furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С помощью фурмы Ausmelt впрыскивается топливо с целью поддержания температуры ванны 1150 ̊С на протяжении плавки.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.81,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": "smelting"
+  },
+  {
+   "text": "Enriching the furnace blast with oxygen to about 35 % aims to reduce gas volume and minimise fuel consumption.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "gas volume",
+    "direction": "decreases",
+    "factor": "oxygen enrichment ~35 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обогащение дутья кислородом до ~35% имеет целью сокращение объема отходящих газов и минимизацию потребности в топливе.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "A high oxygen potential is maintained to minimise the presence of lead sulfide, whose vapor pressure is much higher than that of metallic lead or its oxide.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "decreases",
+    "factor": "high oxygen potential",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "-поддерживается высокое значение кислородного потенциала для минимизации присутствия сульфида свинца, давление паров которого значительно выше, чем у металлического свинца или оксида",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Working temperature is minimised to lower the vapor pressure of lead compounds.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "decreases",
+    "factor": "lower working temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "- минимизация рабочей температуры, т.к. тогда и давление паров соединений свинца ниже",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "The slag reduction process starts when the slag bath depth reaches 1.6 m.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "slag depth",
+    "direction": "increases",
+    "factor": "depth 1.6 m",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Восстановление шлака начинается после достижения необходимого уровня шлака - когда глубина ванны шлака достигает 1,6 м.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Fuel addition must raise the temperature to 1200 °C to keep the slag fluid during PbO reduction.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "fuel addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "добавки топлива должны обеспечивать повышение температуры до 1200 ̊С",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "During the third stage, the blast is only minimally enriched with oxygen to allow maximal lead and zinc volatilisation while keeping the oxygen potential very low.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "oxygen potential",
+    "direction": "decreases",
+    "factor": "minimal oxygen enrichment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на этой стадии температуру повышают до 1250 ̊С и дутье минимально обогащают кислородом для того, чтобы максимально прошла возгонка свинца и цинка",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.81,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Zinc vapour produced in the furnace is re‑oxidised by additional air blown over the bath and collected as ZnO in the dust‑collection system.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "zinc capture",
+    "direction": "increases",
+    "factor": "air curtain over bath",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пары металлического цинка повторно окисляются дополнительным воздухом, вдуваемым над ванной (своеобразная химическая завеса) и их собирают в виде ZnO в системе сбора пыли отходящих газов.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "The furnace TSL has a diameter of 5.0 m and a height of 11.8 m, rated at 50 t/h.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "size and capacity",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Печь Ausmelt TSL | Печь | 1 | Диаметр 5,0м×11,8м; 50 т/час",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "The furnace fume (TSL) operates with 35 % O₂ using coal fines as fuel.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxygen level and fuel",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Фурма (копье) TSL | 4 | 35% O2, на топливе в виде угольной мелочи",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "The boiler‑utilizer processes 50 000 nm³/h at 1500 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Котел - утилизатор | 1 | 50000 нм 3 /час, 1500 ̊С",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Electric filters handle 50 000 nm³/h at 350 °C and 23 500 nm³/h at 160 kPa.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эл.фильтр | 2 | 50000 нм 3 /час, 350 ̊С, 23500 нм 3 /час, 160 кПа",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Air blowers deliver 20 500 nm³/h at 80 kPa and 7 500 nm³/h at 100 kPa.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Воздуходувки | 2 | 20500 нм 3 /час, 80 кПа 7500 нм 3 /час, 100 кПа",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "The gas cleaning system Cansolv processes 50 000 nm³/h with SO₂ content 0.2 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Система очистки газов Cansolv | 1 | 50000 нм 3 /час, 12- 0,2% SO2",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "During hot start, the raw lead product contained 98.7 % Pb, 0.0004 % Zn, 496 ppm S, 2576 ppm Cu, 697 ppm As, 6563 ppm Sb, 660 ppm Bi, 2430 ppm Ag.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "elemental composition",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Черн.свинец | 98,7 | 0,0004 | 496 | 2576 | 697 | 6563 | 660 | 2430",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "The slag from hot start contained 2.0 % Pb and 3.6 % Zn.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Pb and Zn content",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отв.шлак | 2,0 | 3,6",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "High zinc content in fume returned to the TSL furnace during concentrate melting raises zinc in slag, increasing slag viscosity and extending fusing time.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effect of zinc‑rich fume on slag",
+    "direction": "increases",
+    "factor": "zinc in fume",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Загрязнение возгона также вызывало проблемы в случае, если возгон с высоким содержанием цинка возвращали в печь TSL на стадию плавки концентрата. Это приводило к росту содержания цинка в шлаке, что, в свою очередь, вело к увеличению вязкости шлака в конце стадии восстановления",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Slags with very high zinc content are difficult to process; significantly more time is required for fusing.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "zinc content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Шлаки с очень высоким содержанием цинка трудно перерабатывать, на фьюминг требуется значительно больше времени.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "The SKS technology description in open publications is extremely scarce.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "documentation availability",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология SKS для плавки свинцового сырья чрезвычайно скупо описана в открытых публикациях.",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Capital costs for the described project (including smelting, sulfuric acid and refining plants) were estimated at 319.5 million yuan plus 138 million yuan working capital.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Капитальные затраты по описываемому проекту (включая плавильный, сернокислотный и рафинировочный заводы) были оценены в 319,5 млн юаней плюс оборотный капитал 138 млн юаней.",
+   "locator_kind": "md_para",
+   "locator": "para:198",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Operating costs are 40‑70 % of those of comparable Western technologies.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operating cost",
+    "direction": "decreases",
+    "factor": "40‑70 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в проанализированном SRK ТЭО 2007 года [13] приведена информация о том, что затраты составляют 40-70% от затрат по аналогичным «Западным технологиям».",
+   "locator_kind": "md_para",
+   "locator": "para:198",
+   "confidence": 0.81,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Traditional slag reduction in a shaft furnace has high energy consumption, low heat regeneration, and produces brittle slag ingots that break during handling.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в шахтной печи высокое потребление энергии, требующее много дорогостоящего металлургического кокса; степень регенерации тепла низкая",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "Direct reduction of liquid lead‑rich slag in a horizontal furnace (YGL) is more energy‑efficient because it does not require slag cooling.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эта разработка YGL - более энергоэффективна, т.к не требует охлаждения шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.9,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  },
+  {
+   "text": "The QSL process uses a slight furnace tilt of 0.5 % to allow crude lead to flow toward the front edge of the oxidation zone at temperatures >1000 °C.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Благодаря слегка наклонной конструкции, черновой свинец при температуре >1000°С течет к переднему краю окислительной зоны.",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.81,
+   "document_id": "doc:современные-способы-переработки-свинцово-цинково",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

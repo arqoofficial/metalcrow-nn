@@ -1,0 +1,116 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_11_14-pdf",
+   "title": "CM_11_14.pdf",
+   "doc_type": "article",
+   "year": 2014,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2014\\CM_11_14.pdf.md",
+   "artifact_sha256": "72d7b27dc598953f101b342b1604e7ee2a6ce129c0874bff30e684f96c199e9f",
+   "okf_raw_path": "Журналы/Цветные металлы/2014/CM_11_14.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Государственный Эрмитаж обладает коллекцией, насчитывающей около трех миллионов произведений искусства и памятников мировой культуры, среди которых живопись, графика, скульптура и предметы прикладного искусства, археологические находки и нумизматический материал.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "collection size",
+    "direction": "increases",
+    "factor": "museum holdings",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Государственный Эрмитаж обладает коллекцией, насчитывающей около трех миллионов произведений искусства и памятников мировой культуры, среди которых живопись, графика, скульптура и предметы прикладного искусства, археологические находки и нумизматический материал.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.81,
+   "document_id": "doc:cm_11_14-pdf",
+   "process": null
+  },
+  {
+   "text": "За последние 10 лет вышли 3 выпуска в этой серии журнальных публикаций: «Эрмитаж - Петербург», «Эрмитаж - Урал», «Эрмитаж - Китай».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "number of issues",
+    "direction": "increases",
+    "factor": "time (10 years)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За последние 10 лет вышли 3 выпуска в этой серии журнальных публикаций: «Эрмитаж - Петербург», «Эрмитаж - Урал», «Эрмитаж - Китай».",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:cm_11_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Сейчас готовится к выходу четвертый - «Эрмитаж - Кавказ».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "upcoming issue",
+    "direction": "increases",
+    "factor": "future planning",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сейчас готовится к выходу четвертый - «Эрмитаж - Кавказ».",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:cm_11_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Эрмитаж всегда был и остается одним из наиболее значимых собраний памятников технического наследия, связанных с металлургией и горным делом.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "significance of technical heritage collection",
+    "direction": "increases",
+    "factor": "historical relevance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эрмитаж всегда был и остается одним из наиболее значимых собраний памятников технического наследия, связанных с металлургией и горным делом.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:cm_11_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Можно привести пример уникальной коллекции металлургических изделий, а также приборов и инструментов, сделанных руками самого Петра I.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "existence of unique metallurgical collection",
+    "direction": "increases",
+    "factor": "historical artifacts",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Можно привести пример уникальной коллекции металлургических изделий, а также приборов и инструментов, сделанных руками самого Петра I.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:cm_11_14-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

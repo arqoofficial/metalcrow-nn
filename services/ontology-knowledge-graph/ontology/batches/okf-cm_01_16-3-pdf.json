@@ -1,0 +1,746 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_01_16-3-pdf",
+   "title": "CM_01_16 (3).pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2016\\CM_01_16 (3).pdf.md",
+   "artifact_sha256": "128049cad21d47f6946401dcdd11b26d3cd79ab7ff70f9020c0fe9858c819214",
+   "okf_raw_path": "Журналы/Цветные металлы/2016/CM_01_16 (3).pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:waste-waters-of-balkash-copper-smelting-plant",
+   "label": "waste waters of Balkash copper smelting plant",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-bearing-materials",
+   "label": "copper‑bearing materials",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-zinc-ores",
+   "label": "copper‑zinc ores",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nikel",
+   "label": "nickel",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_01_16-3-pdf:0",
+   "document_id": "doc:cm_01_16-3-pdf",
+   "title": "Semi‑industrial testings of sorption technology of rhenium extraction from the waste waters of Balkash copper smelting plant metallurgical gas scrubbing",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "sorption technology of rhenium extraction"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:waste-waters-of-balkash-copper-smelting-plant",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Semi-industrial testings of sorption technology of rhenium extraction from the waste waters of Balkash copper smelting plant metallurgical gasscrubbing",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_01_16-3-pdf:1",
+   "document_id": "doc:cm_01_16-3-pdf",
+   "title": "Autoclave processing of copper‑bearing materials",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "autoclave processing"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-bearing-materials",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Autoclave processing of copper-bearing materials.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_01_16-3-pdf:2",
+   "document_id": "doc:cm_01_16-3-pdf",
+   "title": "Prospects of application of water preparation of electrochemical technology in copper‑zinc ores flotation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "electrochemical water preparation for flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-zinc-ores",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Prospects of application of water preparation of electrochemical technology in copper-zinc ores flotation.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_01_16-3-pdf:3",
+   "document_id": "doc:cm_01_16-3-pdf",
+   "title": "Pilot production of ferro‑nickel",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Rotary‑Kiln‑Electric‑Furnace",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nikel",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:nikel",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "В октябре 2015 г. Horizonte Minerals (Бразилия) приступила к пилотному выпуску ферроникеля (никель 20,0 %) по технологии Rotary‑Kiln‑Electric‑Furnace на заводе Araguaia (Бразилия).",
+     "locator_kind": "md_para",
+     "locator": "para:130",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Инвестиции в проект мощностью 15,0 тыс. т никеля в ферроникеле составляют 582,0 млн долл.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "investment",
+      "direction": "increases",
+      "factor": "582,0 млн долл.",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Инвестиции в проект мощностью 15,0 тыс. т никеля в ферроникеле составляют 582,0 млн долл.",
+     "locator_kind": "md_para",
+     "locator": "para:130",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В октябре 2015 г. Horizonte Minerals (Бразилия) приступила к пилотному выпуску ферроникеля (никель 20,0 %) по технологии Rotary‑Kiln‑Electric‑Furnace на заводе Araguaia (Бразилия).",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The journal has been published since 1926",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "The journal has been published since 1926",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Journal \"Tsvetnye Metally\" is included in the list of leading peer‑reviewed scientific journals and publications in which the main scientific results of dissertations for the degree of doctor and candidate of sciences must be published",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Журнал по решению ВАК Минобразования РФ включен в «Перечень ведущих рецензируемых научных журналов и изданий, в которых должны быть опубликованы основные научные результаты диссертаций на соискание ученой степени доктора и кандидата наук»",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Founders of the journal include Ore and Metals Publishing House, Norilsk Nickel Mining and Metallurgical Company, and National University of Science and Technology MISIS",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "FOUNDERS OF 'TSVETNYE METALLY' JOURNAL: 'Ore and Metals' Pubishing House, 'Norilsk Nickel' Mining and Metallurgical Company, National University of Science and Technology 'MISIS'.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "The journal is printed in 'Tiso Print' publishing house",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Printed in 'Tiso Print' publishing house",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Contact phone/fax for the journal is +7-495-955-01-75",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "+7-495-955-01-75",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "The journal’s internet address is www.rudmet.com",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "www.rudmet.com",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Министерства экономического развития РФ, производство никеля в стране в 2015 г. сократится на 1,3 %, в 2016 г . увеличится на 3,0 %, в 2017 и 2018 гг. будет возрастать на 0,1 % каждый год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual change",
+    "direction": "decreases",
+    "factor": "government forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Министерства экономического развития РФ, производство никеля в стране в 2015 г. сократится на 1,3 %, в 2016 г . увеличится на 3,0 %, в 2017 и 2018 гг. будет возрастать на 0,1 % каждый год.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Производство меди до 2018 г. сохранится на текущем уровне; алюминия - сократится на 2,0 % в 2015 г ., увеличится на 2,0 % в 2017 г . и на 1,4 % в 2018 г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual change",
+    "direction": "no_change",
+    "factor": "government forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производство меди до 2018 г. сохранится на текущем уровне; алюминия - сократится на 2,0 % в 2015 г ., увеличится на 2,0 % в 2017 г . и на 1,4 % в 2018 г .",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно прогнозу Moody's (США) (октябрь 2015 г .), из-за замедления экономического роста в Китае и Бразилии, вялой деловой активности в Европе и США мировые цены на цветные металлы будут находиться на низких уровнях, что, в свою очередь, вынуждает производителей сокращать инвестиции в геологоразведочные работы и капитальные расходы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price level",
+    "direction": "decreases",
+    "factor": "Moody's forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно прогнозу Moody's (США) (октябрь 2015 г .), из-за замедления экономического роста в Китае и Бразилии, вялой деловой активности в Европе и США мировые цены на цветные металлы будут находиться на низких уровнях, что, в свою очередь, вынуждает производителей сокращать инвестиции в геологоразведочные работы и капитальные расходы.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе - августе 2015 г ., по данным World Bureau of Metal Statistics (Великобритания), мировое потребление никеля составило 1,28 млн т, производство 1,262 млн т, дефицит рынка - 0,018 млн т (профицит 0,2418 млн т в 2014 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption, production, deficit",
+    "direction": "nonmonotonic",
+    "factor": "World Bureau of Metal Statistics data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - августе 2015 г ., по данным World Bureau of Metal Statistics (Великобритания), мировое потребление никеля составило 1,28 млн т, производство 1,262 млн т, дефицит рынка - 0,018 млн т (профицит 0,2418 млн т в 2014 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Национального бюро статистики КНР , в 2016 г . производство первичного никеля по сравнению с предшествующим годом снизится на 13,0 % до 602,0 тыс. т, в 2017 г . - на 10,0 % до 542,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual change",
+    "direction": "decreases",
+    "factor": "National Bureau of Statistics of China forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Национального бюро статистики КНР , в 2016 г . производство первичного никеля по сравнению с предшествующим годом снизится на 13,0 % до 602,0 тыс. т, в 2017 г . - на 10,0 % до 542,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Импорт никельсодержащих руд и концентратов сократился на 28,12 % до 27,491 млн т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "decreases",
+    "factor": "28,12 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно данным Главного управления таможен Китая, в январе - сентябре 2015 г . импорт никельсодержащих руд и концентратов по сравнению с аналогичным периодом прошлого года сократился на 28,12 % до 27,491 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Shanghai Futures Exchange расширила мощности биржевых складов для хранения никеля в полноразмерных катодах с 40,0 до 70,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "40,0 до 70,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В октябре 2015 г. Shanghai Futures Exchange (Китай) расширила мощности биржевых складов для хранения никеля в полноразмерных катодах с 40,0 до 70,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Macquarie, профицит мирового рынка никеля в 2015 г. составит 37,0 тыс. т, в 2016 г. дефицит увеличится до 49,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "balance",
+    "direction": "increases",
+    "factor": "37,0 тыс. т (2015), 49,0 тыс. т (2016)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Macquarie (Австралия), профицит мирового рынка никеля в 2015 г. составит 37,0 тыс. т, в 2016 г. дефицит увеличится до 49,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Суммарные мировые запасы никеля (850,0 тыс. т) будут оказывать депрессивное воздействие на биржевые котировки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "decreases",
+    "factor": "850,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При этом суммарные мировые запасы никеля (850,0 тыс. т) будут оказывать депрессивное воздействие на биржевые котировки.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Мировое производство никеля в 2015 г. сократится на 2,7 % до 1,95 млн т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "decreases",
+    "factor": "2,7 % to 1,95 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мировое производство никеля в 2015 г. по сравнению с предшествующим годом сократится на 2,7 % до 1,95 млн т",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Себестоимость никеля, выпущенного Sherritt International в Канаде, составила 8972,8 долл./т; на Мадагаскаре – 9347,6 долл./т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "unit cost",
+    "direction": "increases",
+    "factor": "8972,8 долл./т (Канада), 9347,6 долл./т (Мадагаскар)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 3-м квартале текущего года себестоимость никеля, выпущенного Sherritt International (Канада) в Канаде, составила 8972,8 долл./т, произведенного на Мадагаскаре - 9347,6 долл./т (табл. 2).",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Anglo‑American произвела в Бразилии 6,8 тыс. т никеля в 3‑м квартале 2015 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "6,8 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 3-м квартале 2015 г. Anglo-American (Великобритания) произвела в Бразилии 6,8 тыс. т никеля (продажи 6,4 тыс. т; 6,3 тыс. т в 1-м квартале 2014 г ., продажи - 8,6 тыс. т)",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Мировая цена на медь к концу 2016 г. снизится до 4500,0 долл./т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "decreases",
+    "factor": "4500,0 долл./т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мировая цена на медь к концу 2016 г ., согласно прогнозу Goldman Sachs (США), снизится до 4500,0 долл./т, в частности из-за сокращения спроса в КНР .",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Kazakhmys добыла 21,0 млн т руды (+6,0 % к январю‑сентябрю 2014 г.) и произвела 181,5 тыс. т меди в концентрате (+6,0 % к январю‑сентябрю 2014 г.) в январе‑сентябре 2015 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "21,0 млн т руда, 181,5 тыс. т меди",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - сентябре 2015 г . Kazakhmys (Казахстан) добыла 21,0 млн т руды (+6,0 % к январю - сентябрю 2014 г.), произвела 181,5 тыс. т меди в концентрате (+6,0 % к январю - сентябрю 2014 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "BHP Billiton произвела 377,0 тыс. т меди в 3‑м квартале 2015 г., что на 3,0 % меньше, чем в аналогичном периоде прошлого года.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "decreases",
+    "factor": "3,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 3-м квартале 2015 г. BHP Billiton (Австралия Великобритания) произвела 377,0 тыс. т меди (-3,0 % по сравнению с аналогичным периодом прошлого года)",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "Валовая выручка Southern Copper сократилась на 23,1 % и составила 1,13 млрд долл. в 3‑м квартале 2015 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "revenue",
+    "direction": "decreases",
+    "factor": "23,1 % to 1,13 млрд долл.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 3-м квартале 2015 г. валовая выручка Southern Copper (США) по сравнению с аналогичным периодом прошлого года сократилась на 23,1 % и составила 1,13 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "производительность нового агрегата увеличена на 50-80 % и превысит 4,0 т/сут, существенно повышена экологическая эффективность.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "productivity increase",
+    "direction": "increases",
+    "factor": "new RA-550 model",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по сравнению с предыдущими моделями электролизеров (РА-300, РА-400) производительность нового агрегата увеличена на 50-80 % и превысит 4,0 т/сут, существенно повышена экологическая эффективность.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "при текущих мировых ценах на алюминий с учетом премии ~53,0 % (14 млн т) производства вне Китая являются нерентабельными",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "profitability",
+    "direction": "decreases",
+    "factor": "world market price with premium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при текущих мировых ценах на алюминий с учетом премии ~53,0 % (14 млн т) производства вне Китая являются нерентабельными",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "профицит мирового рынка в 2015 г . по оценкам составляет 0,373 млн т (ранее 0,277 млн т)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "surplus",
+    "direction": "increases",
+    "factor": "2025 forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по прогнозу компании, профицит мирового рынка в 2015 г . по оценкам составляет 0,373 млн т (ранее 0,277 млн т).",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое потребление алюминия в январе‑августе 2015 г. составило 37,28 млн т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption volume",
+    "direction": "increases",
+    "factor": "2015 period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое потребление алюминия составило 37,28 млн т (34,985 млн т в январе‑августе 2014 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое производство алюминия в январе‑октябре 2015 г. увеличилось на 10,0 % до 48,217 млн т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "2015 period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое производство алюминия по сравнению с аналогичным периодом прошлого года, увеличилось на 10,0 % до 48,217 млн т",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое потребление цинка в январе‑августе 2015 г. составило 9,153 млн т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption volume",
+    "direction": "increases",
+    "factor": "2015 period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое потребление цинка составило 9,153 млн т (9,059 млн т за аналогичный период 2014 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "импорт цинка в Китай в январе‑сентябре 2015 г. сократился на 39,64 % до 306,98 тыс. т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "import amount",
+    "direction": "decreases",
+    "factor": "2015 period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "импорт цинка в страну по сравнению с аналогичным периодом прошлого года сократился на 39,64 % до 306,98 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое потребление свинца в январе‑сентябре 2015 г. составило 7,377 млн т (-8,8 % к аналогичному периоду 2014 г.)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption volume",
+    "direction": "decreases",
+    "factor": "2015 period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое потребление свинца составило 7,377 млн т (-8,8 % к аналогичному периоду 2014 г.)",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое потребление олова в январе‑августе 2015 г. составило 241,0 тыс. т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption volume",
+    "direction": "increases",
+    "factor": "2015 period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое потребление олова составило 241,0 тыс. т",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.45,
+   "document_id": "doc:cm_01_16-3-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

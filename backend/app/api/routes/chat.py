@@ -96,7 +96,9 @@ def post_message(
     с полным JSON-ответом (`ChatMessageResponse`) после синхронной обработки.
     """
     _get_owned_session(session, current_user, session_id)
-    response = chat_service.answer_message(session, session_id, body)
+    response = chat_service.answer_message(
+        session, session_id, body, user_id=current_user.id
+    )
 
     def event_stream() -> Generator[str, None, None]:
         yield f"data: {response.model_dump_json()}\n\n"

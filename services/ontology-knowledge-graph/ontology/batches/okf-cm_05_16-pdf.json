@@ -1,0 +1,757 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_05_16-pdf",
+   "title": "CM_05_16.pdf",
+   "doc_type": "article",
+   "year": 2016,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2016\\CM_05_16.pdf.md",
+   "artifact_sha256": "99ffe6f506ad0a968f17b2355d4adeebcffd515e5102529c47c6eb600ce28e3b",
+   "okf_raw_path": "Журналы/Цветные металлы/2016/CM_05_16.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:1-фенил-2-3-диметил-4-диметиламинопиразолон-5-ам",
+   "label": "1‑фенил‑2,3‑диметил‑4‑диметиламинопиразолон‑5 (АМД)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:пергидро-1-3-5-дитиазин5-ил-метан-мтх",
+   "label": "пергидро‑1,3,5‑дитиазин5‑ил‑метан (МТХ)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:роданид-аммония-nh4cns",
+   "label": "роданид аммония (NH4CNS)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:complex-forming-reagents-unspecified",
+   "label": "complex‑forming reagents (unspecified)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:zns-sphalerite-powder",
+   "label": "ZnS (sphalerite) powder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fes2-pyrite-powder",
+   "label": "FeS2 (pyrite) powder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:amд-reagent",
+   "label": "AMД reagent",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sperrylite-ptas2-slice",
+   "label": "Sperrylite (PtAs2) slice",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:amд-solution-0-1",
+   "label": "AMД solution (0.1 %)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_05_16-pdf:0",
+   "document_id": "doc:cm_05_16-pdf",
+   "title": "Laboratory adsorption and microscopy study on mineral slices",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Adsorption of flotation reagents from aqueous solutions onto polished sections of chalcopyrite, pyrite and sperrylite, followed by water washing, drying and microscopic examination",
+       "temperature_text": "room temperature (implicit, not stated)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:1-фенил-2-3-диметил-4-диметиламинопиразолон-5-ам",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:пергидро-1-3-5-дитиазин5-ил-метан-мтх",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:роданид-аммония-nh4cns",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "color of surface complexes",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Получены: продукт окисления АМД катионами трехвалентного железа синего цвета, комплексы АМД с платиной ржаво‑красного, с медью -голубого цвета. В присутствии роданида аммония получено соединение АМД с медью синего цвета. Синтезирован комплекс МТХ с ионами золота коричнево‑красного цвета.",
+     "locator_kind": "md_para",
+     "locator": "para:155",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "morphology and elemental composition",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1420.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Морфологию и элементный состав поверхности минералов и новообразований на них изучали на аналитическом растровом электронном микроскопе (РЭМ) LEO 1420VP с рентгеновским энергодисперсионным микроанализатором INCA 350.",
+     "locator_kind": "md_para",
+     "locator": "para:156",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "color assessment",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 51.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Для оценки цвета новообразований использовали оптический микроскоп Olympus Bx51 и лазерный сканирующий конфокальный микроскоп ЛСКМ KEYNCE VK-9700, сочетающий удобства цифрового оптического микроскопа, высокую точность, характерную для электронного микроскопа, и позволяющий получить изображение с реалистичной цветопередачей.",
+     "locator_kind": "md_para",
+     "locator": "para:156",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Цветовая идентификация флотационных реагентов, адсорбированных на минеральной поверхности в виде окрашенных комплексных соединений, может служить дополнением к традиционным прямым и косвенным методам изучения механизма селективной адсорбции реагентов и способствовать правильному выбору условий для их эффективного применения.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "method usefulness",
+      "direction": "increases",
+      "factor": "selection of operating conditions",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Цветовая идентификация флотационных реагентов, адсорбированных на минеральной поверхности в виде окрашенных комплексных соединений, может служить дополнением к традиционным прямым и косвенным методам изучения механизма селективной адсорбции реагентов и способствовать правильному выбору условий для их эффективного применения.",
+     "locator_kind": "md_para",
+     "locator": "para:156",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В ходе исследований адсорбции некоторых комплексообразующих реагентов на КЛСМ KEYNCE VK-9700, сочетающем удобства цифрового оптического и электронного микроскопов, неоднократно замечали совпадение цвета реагента, закрепившегося на поверхности исследуемого минерала, с цветом полученного в растворе комплексного соединения реагента [5, 6].",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_05_16-pdf:1",
+   "document_id": "doc:cm_05_16-pdf",
+   "title": "Pilot observation of color matching in confocal microscopy",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Observation of surface‑bound reagent color versus solution‑phase complex color using KEYENCE VK‑9700 confocal microscope",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:complex-forming-reagents-unspecified",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Авторам показалось интересным использовать сочетание РЭМ‑исследований с цветовой идентификацией поверхностных образований на оптическом микроскопе для доказательства селективной адсорбции реагента.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "method combination",
+      "direction": "increases",
+      "factor": "evidence of selective adsorption",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Авторам показалось интересным использовать сочетание РЭМ‑исследований с цветовой идентификацией поверхностных образований на оптическом микроскопе для доказательства селективной адсорбции реагента.",
+     "locator_kind": "md_para",
+     "locator": "para:164",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В предыдущих работах [5, 6] для подтверждения образования комплексных соединений с Au, Pt, Fe, Cu и Zn на минералах авторы использовали сочетание РЭМ и ИК‑спектроскопии поверхности минералов с УФ‑фотометрией либо с методом тонкослойной хроматографии (ТСХ) для десорбированных с поверхности частиц соединений.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_05_16-pdf:2",
+   "document_id": "doc:cm_05_16-pdf",
+   "title": "Conditioning of mineral powders with AMD reagent",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Mineral powders (ZnS, FeS2) were mixed with a solution of the AMD reagent and agitated for the time required for adsorption.",
+       "temperature_text": "room temperature (implied)",
+       "duration_text": "time required for adsorption (unspecified)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:zns-sphalerite-powder",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:fes2-pyrite-powder",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:amд-reagent",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "presence of surface complexes"
+     },
+     "method": null,
+     "snippet": "На поверхности ZnS ... было обнаружено и идентифицировано комплексное гидрофобное соединение АМД с цинком Zn[С13Н17ОН3]2(L)2. На поверхности же пирита не было обнаружено соединения АМД с металлом.",
+     "locator_kind": "md_para",
+     "locator": "para:174",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "AMД adsorbs on ZnS forming a hydrophobic Zn‑complex, while on FeS2 it does not form a metal‑complex but can be oxidized.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "adsorption selectivity",
+      "direction": "increases",
+      "factor": "mineral type",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Таким образом, удалось выяснить особенности адсорбции АМД на ZnS и на FeS2, что позволяет объяснить селективность действия этого реагента при флотации.",
+     "locator_kind": "md_para",
+     "locator": "para:175",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "После кондиционирования минеральных порошков с раствором реагента на поверхности указанных минералов была зафиксирована адсорбция АМД [6].",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_05_16-pdf:3",
+   "document_id": "doc:cm_05_16-pdf",
+   "title": "Color identification of AMD adsorption on natural sperrylite (PtAs2)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "A slice of sperrylite was immersed in a 0.1 % AMD solution for 20 min, then rinsed with water and dried.",
+       "temperature_text": "room temperature (implied)",
+       "duration_text": "20 min"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sperrylite-ptas2-slice",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:amд-solution-0-1",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "surface coloration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Примерно на 40 % поверхности шлифа были обнаружены потеки красно‑ржавого цвета... на включениях халькопирита ... появились мелкие голубые и бирюзовые участки. Вкрапления галенита остались светлыми, без признаков сорбции реагента.",
+     "locator_kind": "md_para",
+     "locator": "para:166",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The colors of the stained areas correspond to the colors of solutions obtained from AMD interaction with Pt and Cu ions.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "color correlation",
+      "direction": "increases",
+      "factor": "metal ion type",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Цвет окрашенных участков поверхности аншлифа совпадает с цветами растворов, которые получаются при взаимодействии реагента АМД с ионами платины и меди.",
+     "locator_kind": "md_para",
+     "locator": "para:178",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "На рис. 2 представлены микрофотографии участка шлифа до и после выдержки в течение 20 мин в растворе 0,1 % АМД, ополаскивания образца водой и подсушивания.",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Журнал включен в Международные базы данных Scopus, Chemical Abstracts Service",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Журнал включен в Международные базы данных Scopus, Chemical Abstracts Service",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "The journal has been published since 1926",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "The journal has been published since 1926",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "им был разработан процесс обезвисмучивания свинца в промышленном масштабе",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "industrial scale lead de‑zincification",
+    "direction": "decreases",
+    "factor": "lead",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "им был разработан процесс обезвисмучивания свинца в промышленном масштабе.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2015 г. экспорт никеля составил 226,4 тыс. т (-4,82 % к 2014 г.) стоимостью 2,579 млрд долл. (-33,6 % к 2014 г.)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel export volume and value",
+    "direction": "decreases",
+    "factor": "year 2015 vs 2014",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2015 г. экспорт никеля составил 226,4 тыс. т (-4,82 % к 2014 г.) стоимостью 2,579 млрд долл. (-33,6 % к 2014 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Для повышения биржевых котировок с текущих уровней необходимо существенное сокращение биржевых запасов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stock reduction",
+    "direction": "decreases",
+    "factor": "exchange quotations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для повышения биржевых котировок с текущих уровней необходимо существенное сокращение биржевых запасов.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "При текущих мировых ценах примерно 5,0 млн т мощностей (без КНР) остаются убыточными.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "profitability",
+    "direction": "nonmonotonic",
+    "factor": "world market prices",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При текущих мировых ценах примерно 5,0 млн т мощностей (без КНР) остаются убыточными.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В марте 2016 г. правительство Индии увеличило ввозную пошлину на алюминий на 7,5 % для стимулирования национального производства, пошлина на глинозем (5,0 %) осталась неизменной.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "import duty",
+    "direction": "increases",
+    "factor": "stimulate domestic production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В марте 2016 г. правительство Индии увеличило ввозную пошлину на алюминий на 7,5 % для стимулирования национального производства, пошлина на глинозем (5,0 %) осталась неизменной.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В марте 2016 г. MMG (Австралия) отправила первую партию медного концентрата (11,33 тыс. т), содержащего 48,5 % меди, 293,0 г/т серебра, с рудника Las Bambas (Перу) в адрес Jiangxi Copper (Китай).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentrate composition",
+    "direction": "nonmonotonic",
+    "factor": "first shipment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В марте 2016 г. MMG (Австралия) отправила первую партию медного концентрата (11,33 тыс. т), содержащего 48,5 % меди, 293,0 г/т серебра, с рудника Las Bambas (Перу) в адрес Jiangxi Copper (Китай).",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В рамках программы поддержания сбалансированности рынка меди, принятой девятью компаниями КНР в конце прошлого года - суммарное сокращение выпуска на 0,35 млн т в 2016 г., Jiangxi Copper (Китай) снизит производство металла на 0,08 млн т до 1,175 млн т, Tongling Nonferrous Metals Group (Китай) на 0,11 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "decreases",
+    "factor": "market balance program",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В рамках программы поддержания сбалансированности рынка меди, принятой девятью компаниями КНР в конце прошлого года - суммарное сокращение выпуска на 0,35 млн т в 2016 г., Jiangxi Copper (Китай) снизит производство металла на 0,08 млн т до 1,175 млн т, Tongling Nonferrous Metals Group (Китай) на 0,11 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Оптическая микроскопия и её разновидность лазерная сканирующая конфокальная микроскопия (КЛСМ) более информативны с точки зрения получения изображений и характеристик различных тонкопленочных объектов и капель на поверхности массивных подложек.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "informativeness",
+    "direction": "increases",
+    "factor": "image and characteristic acquisition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оптическая микроскопия и её разновидность лазерная сканирующая конфокальная микроскопия (КЛСМ) более информативны с точки зрения получения изображений и характеристик различных тонкопленочных объектов и капель на поверхности массивных подложек.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Методические ограничения метода при разделении сигналов, поступающих от тонких поверхностных образований, и объёма минеральной подложки не позволяют с уверенностью его использовать при работе с большинством органических O-, S-, N‑содержащих реагентов с низкими средними атомными номерами.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "decreases",
+    "factor": "organic low‑Z reagents",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Методические ограничения метода при разделении сигналов, поступающих от тонких поверхностных образований, и объёма минеральной подложки не позволяют с уверенностью его использовать при работе с большинством органических O-, S-, N‑содержащих реагентов с низкими средними атомными номерами.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В ряде случаев подобные исследования с успехом проводят с использованием аналитической растровой электронной микроскопии (РЭМ).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "success rate",
+    "direction": "increases",
+    "factor": "certain cases",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В ряде случаев подобные исследования с успехом проводят с использованием аналитической растровой электронной микроскопии (РЭМ).",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Такие исследования трудоемки, поскольку, помимо синтеза веществ‑свидетелей, они требуют подготовки больших минеральных навесок.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "effort",
+    "direction": "increases",
+    "factor": "need for witness compounds and large mineral mounts",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такие исследования трудоемки, поскольку, помимо синтеза веществ‑свидетелей, они требуют подготовки больших минеральных навесок.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Цветовая идентификация флотационных реагентов, адсорбированных на минеральной поверхности в виде окрашенных комплексных соединений, может служить дополнением к традиционным прямым и косвенным методам изучения механизма селективной адсорбции реагентов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "utility",
+    "direction": "increases",
+    "factor": "complement to traditional methods",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цветовая идентификация флотационных реагентов, адсорбированных на минеральной поверхности в виде окрашенных комплексных соединений, может служить дополнением к традиционным прямым и косвенным методам изучения механизма селективной адсорбции реагентов",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "The AMD flotation reagent can hydrophobize the surface of sphalerite while simultaneously increasing the hydrophilicity of pyrite.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "surface wettability",
+    "direction": "increases",
+    "factor": "mineral type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "помогла ответить на вопрос, почему один и тот же флотационный реагент АМД способен гидрофобизировать поверхность сфалерита, одновременно усиливая гидрофилизацию поверхности пирита.",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "AMД can be oxidized by Fe³⁺ ions, producing a blue intermediate oxidation product that later converts to a hydrophilic dioxamidopyridine.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "color of oxidation product",
+    "direction": "increases",
+    "factor": "presence of Fe³⁺",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно литературным данным этот реагент способен окисляться под действием некоторых ионовокислителей, в частности ионами Fe³+.",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Blue-colored new formations on pyrite particles indicate the intermediate oxidation product of AMD.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "color of surface formations",
+    "direction": "increases",
+    "factor": "oxidation state",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Подтверждением того, что на участках пирита АМД может сорбироваться в виде продукта окисления, являются синие новообразования, зафиксированные на частицах пирита с помощью РЭМ и КЛСМ.",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "New AMD reagent forms complexes with Zn and Cu and poorly soluble compounds with Cd, Au, Co, Pd, Pt and other impurity elements during flotation of sphalerite and chalcopyrite.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "complexation with metals",
+    "direction": "increases",
+    "factor": "presence of impurity metals",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Новый реагент‑собиратель АМД при флотации сфалерита и халькопирита одновременно образует комплексы с Zn и Cu, а также труднорастворимые с Cd, Au, Co, Pd, Pt и другими элементами, присутствующими в виде примесей.",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  },
+  {
+   "text": "The color of the stained areas on sperrylite matches the colors of solutions obtained from AMD interaction with platinum and copper ions.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "color correspondence",
+    "direction": "increases",
+    "factor": "metal ion type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цвет окрашенных участков поверхности аншлифа совпадает с цветами растворов, которые получаются при взаимодействии реагента АМД с ионами платины и меди.",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_16-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

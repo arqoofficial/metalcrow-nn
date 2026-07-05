@@ -1,0 +1,509 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:05_2004_cm-pdf",
+   "title": "05_2004_cm.pdf",
+   "doc_type": "article",
+   "year": 2004,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2004\\05_2004_cm.pdf.md",
+   "artifact_sha256": "7730529fc34b4437758c035c96742a0ffdb8c785650ec8ac2857bc48218dcb58",
+   "okf_raw_path": "Журналы/Цветные металлы/2004/05_2004_cm.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:low-grade-sulfide-copper-ore",
+   "label": "low‑grade sulfide copper ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:tailings-of-copper-cobalt-ore",
+   "label": "tailings of copper‑cobalt ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:05_2004_cm-pdf:0",
+   "document_id": "doc:05_2004_cm-pdf",
+   "title": "Bio‑leaching of low‑grade sulfide copper ore at Escondida",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "bio‑leaching"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:low-grade-sulfide-copper-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The bio‑leaching process makes processing of low‑grade ore economically feasible.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "economic viability",
+      "direction": "increases",
+      "factor": "process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В проекте будет использоваться процесс био‑выщелачивания для переработки низкосортной суль‑фидной руды...",
+     "locator_kind": "md_para",
+     "locator": "para:126",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В проекте будет использоваться процесс био‑выщелачивания для переработки низкосортной суль‑фидной руды с карьера Escondida и Escondida Norte, которую раньше считали отвалом.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:05_2004_cm-pdf:1",
+   "document_id": "doc:05_2004_cm-pdf",
+   "title": "Sulphuric‑acid leaching (SX‑EW) of tailings at Kolwezi",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "SX‑EW (sulphuric‑acid leaching)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:tailings-of-copper-cobalt-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual production capacity (copper)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 42.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Завод рассчитан на производство 42 тыс. т/год меди и 7 тыс. т/год кобальта.",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "annual production capacity (cobalt)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 7.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Завод рассчитан на производство 42 тыс. т/год меди и 7 тыс. т/год кобальта.",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "raw material reserve life",
+     "scope": "material",
+     "material_id": "mat:tailings-of-copper-cobalt-ore",
+     "value": {
+      "min": null,
+      "nominal": 38.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Запасов сырья хватит приблизительно на 38 лет.",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant will produce 42 kt of copper and 7 kt of cobalt per year using SX‑EW leaching.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "production capacity",
+      "direction": "increases",
+      "factor": "plant",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Завод рассчитан на производство 42 тыс. т/год меди и 7 тыс. т/год кобальта.",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Переработку хвостов будут проводить сернокис‑лотным выщелачиванием - SX‑EW.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "BHP Billiton's share in the Escondida mine is 57.5 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ownership share",
+    "direction": "increases",
+    "factor": "BHP Billiton",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доля BHP Billiton в руднике Escondida составля­ет 57,5 %.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "The project cost for BHP Billiton is USD 870 million, of which BHP Billiton’s portion is USD 500 million.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project cost",
+    "direction": "increases",
+    "factor": "BHP Billiton",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Реализация проекта обой­дется компании в 870 млн долл. (доля BHP Billiton - 500 млн долл.).",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Planned annual copper cathode production is 180 kt, with BHP Billiton’s share 103.5 kt, over more than 25 years.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual production",
+    "direction": "increases",
+    "factor": "copper cathodes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По проекту планируется про­изводить 180 тыс. т/год медных катодов (103,5 тыс. т/год - доля BHP Billiton) в течение более чем 25 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "The new SX plant will have a capacity of 330 kt per year to serve both a new 180 kt electrolytic plant and an existing 150 kt plant.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "SX plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кроме того, пред­усматривается строительство нового завода SX на 330 тыс. т/год в расчете на обслуживание как нового цеха электролиза на 180 тыс. т/год, так и действующего цеха на 150 тыс. т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Copper price in Q2 2004 is forecast to be USD 2950 per tonne.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper price",
+    "direction": "increases",
+    "factor": "market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Во II кв. 2004 г., как в среднем прогнозируют аналитики, цена меди составит 2950 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Water for the mine will be supplied at 500 L/s via a 170 km pipeline to a mine at 3000 m elevation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "water supply rate",
+    "direction": "increases",
+    "factor": "mine operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вода (500 л/с) будет подаваться на рудник (высота 3000 м над уров­нем моря) по трубопроводу длиной 170 км.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Total low‑grade sulfide copper ore reserves are 1.134 billion tonnes with an average copper grade of 0.52 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "resource amount",
+    "direction": "increases",
+    "factor": "low‑grade ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Совокупные запасы низкосортной сульфидной медной руды оцениваются в 1,134 млрд т со средним содержанием меди в руде 0,52 %.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "AMF will receive 15 million USD from Gecamines, 5 million USD upon transfer of rights and 10 million USD after final FEED completion.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "payment schedule",
+    "direction": "increases",
+    "factor": "contract",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно контракту AMF выплатит Gecamines 15 млн долл., из которых 5 млн долл. будут выплачены сразу по завершении передачи прав на разработку, а оставшиеся 10 млн долл. после выполнения окончательного ТЭО.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Estimated capital cost for the AMF tailings project is approximately USD 300 million.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "increases",
+    "factor": "project",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Капзатраты на проект по предвари­тельным оценкам составят примерно 300 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.45,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Umicore’s technology can replace roughly half of the platinum in diesel‑engine exhaust catalysts with palladium.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "platinum substitution",
+    "direction": "decreases",
+    "factor": "platinum usage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Новая технология производства катализаторов для автомобилей с дизельным двигателем позволит заменить примерно четверть платины в катализаторе на палладий.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.45,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "по сообщению компании новая технология производства катализаторов для автомобилей с дизельным двигателем позволит заменить примерно четверть платины в катализаторе на палладий.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "material substitution",
+    "direction": "increases",
+    "factor": "platinum replacement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по сообщению компании новая технология производства катализаторов для автомобилей с дизельным двигателем позволит заменить примерно четверть платины в катализаторе на палладий.",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.45,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "по мнению Майка Бедфорда (Mike Bedford), директора по производству в компании Johnson Matthey (JM), новая технология потенциально может увеличить спрос на палладий на 7,8 т/год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "palladium demand increase",
+    "direction": "increases",
+    "factor": "7,8 т/год",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по мнению Майка Бедфорда (Mike Bedford), директора по производству в компании Johnson Matthey (JM), новая технология потенциально может увеличить спрос на палладий на 7,8 т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "по мнению аналитика Джона Рида из UBS (Лондон), внедрение новой технологии может привести к увеличению потребления палладия на 15,5 т/год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "palladium consumption increase",
+    "direction": "increases",
+    "factor": "15,5 т/год",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по мнению аналитика Джона Рида из UBS (Лондон), внедрение новой технологии может привести к увеличению потребления палладия на 15,5 т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2003 г. дефицит платины на рынке составил примерно 15 т, а излишек палладия - порядка 21 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "platinum deficit",
+    "direction": "decreases",
+    "factor": "примерно 15 т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2003 г. дефицит платины на рынке составил примерно 15 т, а излишек палладия - порядка 21 т.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "цены на палладий в конце марта были примерно 9,3 долл./г, что на 50 % больше, чем в конце 2003 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "palladium price increase",
+    "direction": "increases",
+    "factor": "примерно 9,3 долл./г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в конце марта цена палладия была примерно 9,3 долл./г, что на 50 % больше, чем в конце 2003 г.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "цены на палладий по наличным сделкам в Лондоне 14 апреля составили 10,4 долл./г, в то время как в Токио фьючерсы на палладий достигли 18‑месячного максимума.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "palladium price level",
+    "direction": "increases",
+    "factor": "10,4 долл./г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цены на палладий по наличным сделкам в Лондоне 14 апреля составили 10,4 долл./г, в то время как в Токио фьючерсы на палладий достигли 18‑месячного максимума.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Стефан Чиисам (Stephan Cheetham), аналитик автомобильной промышленности в Sanford C Bernstein сообщил Reuters, что цены на палладий, возможно, вырастут из‑за увеличения спроса на данный металл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "palladium price increase",
+    "direction": "increases",
+    "factor": "возможный рост",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стефан Чиисам (Stephan Cheetham), аналитик автомобильной промышленности в Sanford C Bernstein сообщил Reuters, что цены на палладий, возможно, вырастут из‑за увеличения спроса на данный металл.",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.81,
+   "document_id": "doc:05_2004_cm-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

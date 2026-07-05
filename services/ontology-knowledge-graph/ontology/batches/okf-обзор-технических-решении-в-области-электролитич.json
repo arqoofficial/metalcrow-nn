@@ -1,0 +1,1402 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "title": "Обзор технических решений в области электролитического производства никеля и меди.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Обзор технических решений в области электролитического производства никеля и меди.docx.md",
+   "artifact_sha256": "4eea4880f873caf7eae0050910cdaba180f87f3ca7f8322b845c83dd519f7837",
+   "okf_raw_path": "Обзоры/Обзор технических решений в области электролитического производства никеля и меди.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:anodes",
+   "label": "Anodes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cathode",
+   "label": "Cathodes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:electrolyte",
+   "label": "Electrolyte",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:diaphragm",
+   "label": "Diaphragm",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:обзор-технических-решении-в-области-электролитич:0",
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "title": "Industrial application at Niihama nickel refinery (2007)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrolytic production of nickel from chloride electrolyte",
+       "temperature_text": "60°C",
+       "duration_text": "7 days"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:anodes",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:cathode",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Voltage in electrolyzer",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Напряжение в электролизере, в 3",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Current in electrolyzer",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 23000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ток в электролизере, А 23000",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "current_density",
+     "scope": "material",
+     "material_id": "mat:cathode",
+     "value": {
+      "min": 233.0,
+      "nominal": null,
+      "max": 279.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "cathode"
+     },
+     "method": null,
+     "snippet": "Катодная плотность тока, А/м 2 233-279",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "current_efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Выход по току, % 99,5",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Nickel purity in cathode deposit",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.99,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ni 99,99",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Суммарное напряжение электролизера ~3,0 В.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "total electrolyzer voltage",
+      "direction": "increases",
+      "factor": "overpotential and resistances",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В итоге получает суммарное напряжение электролизера ~3,0 В.",
+     "locator_kind": "md_para",
+     "locator": "para:37",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Таблица 1.1 – Условия электролиза никеля из хлоридного электролита* [1]",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-технических-решении-в-области-электролитич:1",
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "title": "Industrial application at Nikkelverk (1980‑е гг)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrolytic production of nickel from chloride electrolyte",
+       "temperature_text": "60°C",
+       "duration_text": "7 days"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:anodes",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:cathode",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Voltage in electrolyzer",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Напряжение в электролизере, в 3",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Current in electrolyzer",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 24000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ток в электролизере, А 24000",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "current_density",
+     "scope": "material",
+     "material_id": "mat:cathode",
+     "value": {
+      "min": null,
+      "nominal": 260.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "cathode"
+     },
+     "method": null,
+     "snippet": "Катодная плотность тока, А/м 2 260",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "current_efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 98.0,
+      "nominal": null,
+      "max": 99.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Выход по току, % 98-99",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Nickel purity in cathode deposit",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 99.98,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ni >99,98; 99,99",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Суммарное напряжение электролизера ~3,0 В.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "total electrolyzer voltage",
+      "direction": "increases",
+      "factor": "overpotential and resistances",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В итоге получает суммарное напряжение электролизера ~3,0 В.",
+     "locator_kind": "md_para",
+     "locator": "para:37",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Таблица 1.1 – Условия электролиза никеля из хлоридного электролита* [1]",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-технических-решении-в-области-электролитич:2",
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "title": "Effect of diaphragms on nickel electrolysis in a laboratory cell (simulation)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Nickel electrolysis in a cell with cathode and anode placed in 0.5 mm diaphragmatic bags; electrolyte composition Na₂SO₄ 150 g/L, H₃BO₃ 10 g/L, Ni²⁺ 65 g/L, pH 3.5; inlet liquid velocity 1.93×10⁻⁴ m/s; current density 240 A/m²; temperature 60 °C; diaphragm porosity 0.5, permeability 5×10⁻⁹ m²; diaphragm thickness 0.5 mm; distance cathode‑anode 2.54 cm; results recorded after 120 s.",
+       "temperature_text": "60 °C",
+       "duration_text": "120 s"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:electrolyte",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:diaphragm",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "current_density",
+     "scope": "material",
+     "material_id": "mat:diaphragm",
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "output"
+     },
+     "method": null,
+     "snippet": "Очевидно, выход по току почти на 40% выше с диафрагмами на большей части зон катода, особенно в верхней части катода, где существует завихрение – здесь без диафрагм выход потоку на ~45% ниже.",
+     "locator_kind": "md_para",
+     "locator": "para:191",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "Electrolyte voltage drop",
+     "scope": "material",
+     "material_id": "mat:diaphragm",
+     "value": {
+      "min": null,
+      "nominal": 0.23,
+      "max": null
+     },
+     "unit": "V",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Падение напряжения электролита (120 сек, С ni 65 г/л, Т 60°С) увеличивается с 0,23 до 0,25 В после добавления диафрагм, т.е. они увеличивают сопротивление электролита.",
+     "locator_kind": "md_para",
+     "locator": "para:192",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Diaphragms suppress vigorous gas‑bubble induced mixing, lower H⁺ transport near the cathode, and increase nickel concentration near the cathode, thereby raising current output.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Имитация с диафрагмой показала, что интенсивное взбалтывание, вызванное газовыми пузырям, существенно сокращено. Вблизи катода скорость электролита очень низкая, что эффективно снижает транспортировку Н⁺. C другой стороны, свежий электролит поступает сверху в катодное отделение, тем самым увеличивая концентрацию никеля вблизи катода, что благоприятствует осаждению на катоде. В итоге, выход по току увеличивается.",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "По прошествии 30 сек поток достигает практически стабильного состояния, поэтому далее результаты приведены для 120 сек.",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-технических-решении-в-области-электролитич:3",
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "title": "Industrial implementation at Brixlegg plant (1988)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "electrorefining (ЭР) with ISA cathodes"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "productivity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 1988 г на заводе Brixlegg впервые в Европе (и No3 в мире) было внедрено электрорафинирование (ЭР) с катодами ISA, производительность повысилась до 55 тыс т/г, плотность тока – до 340 А/м 2 .",
+     "locator_kind": "md_para",
+     "locator": "para:250",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "current_density",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 340.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 1988 г на заводе Brixlegg впервые в Европе (и No3 в мире) было внедрено электрорафинирование (ЭР) с катодами ISA, производительность повысилась до 55 тыс т/г, плотность тока – до 340 А/м 2 .",
+     "locator_kind": "md_para",
+     "locator": "para:250",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "productivity increased to 55 000 t/yr",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "productivity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "производительность повысилась до 55 тыс т/г",
+     "locator_kind": "md_para",
+     "locator": "para:250",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 1988 г на заводе Brixlegg впервые в Европе (и No3 в мире) было внедрено электрорафинирование (ЭР) с катодами ISA, производительность повысилась до 55 тыс т/г, плотность тока – до 340 А/м 2 .",
+   "locator_kind": "md_para",
+   "locator": "para:250",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-технических-решении-в-области-электролитич:4",
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "title": "Industrial scale-up at Brixlegg plant (1996)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "electrorefining (ЭР) with ISA cathodes"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "productivity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 96.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 1996 г производительность была расширена до 96 тыс т/г.",
+     "locator_kind": "md_para",
+     "locator": "para:250",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "productivity further increased to 96 000 t/yr",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "productivity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В 1996 г производительность была расширена до 96 тыс т/г.",
+     "locator_kind": "md_para",
+     "locator": "para:250",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 1996 г производительность была расширена до 96 тыс т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:250",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-технических-решении-в-области-электролитич:5",
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "title": "Industrial rollout of METTOP‑BRX (PFT) technology – first 50 % of baths (2011)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "METTOP‑BRX (parallel‑flow) electrorefining"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "current_density",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 400.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2011 г внедрена технология METTOP-BRX (или ‘PFT’ -технология «с параллельными потоками») на 50% ванн и плотность тока превысила 400 А/м 2 .",
+     "locator_kind": "md_para",
+     "locator": "para:251",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "current density exceeded 400 A/m² after conversion of half the baths",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "current_density",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "плотность тока превысила 400 А/м 2",
+     "locator_kind": "md_para",
+     "locator": "para:251",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в 2011 г внедрена технология METTOP-BRX (или ‘PFT’ -технология «с параллельными потоками») на 50% ванн и плотность тока превысила 400 А/м 2 .",
+   "locator_kind": "md_para",
+   "locator": "para:251",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-технических-решении-в-области-электролитич:6",
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "title": "Full‑plant conversion to METTOP‑BRX (PFT) (by 2019)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "METTOP‑BRX (parallel‑flow) electrorefining"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "productivity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 148.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "к 2019 г производительность расширена до 148 тыс т/г.",
+     "locator_kind": "md_para",
+     "locator": "para:251",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "productivity reached 148 000 t/yr after full conversion",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "productivity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "производительность расширена до 148 тыс т/г",
+     "locator_kind": "md_para",
+     "locator": "para:251",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "к 2019 г производительность расширена до 148 тыс т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:251",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-технических-решении-в-области-электролитич:7",
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "title": "Industrial benchmark plant Xiangguang (2023)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "METTOP‑BRX (PFT) electrorefining"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Xiangguang plant presented as a benchmark refinery using PFT technology",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "представительница METTOP GmbH представила ЭР-завод Xiangguang как «эталонный» (бенчмарк) рафинировочный завод, использующий технологию PFT.",
+     "locator_kind": "md_para",
+     "locator": "para:288",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "представительница METTOP GmbH представила ЭР-завод Xiangguang как «эталонный» (бенчмарк) рафинировочный завод, использующий технологию PFT.",
+   "locator_kind": "md_para",
+   "locator": "para:288",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "В хлоридном электролите выход по току выше, а катодная и анодная поляризация – ниже и, следовательно, удельный расход электроэнергии на 1 т никеля значительно ниже.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "increases",
+    "factor": "chloride electrolyte",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в хлоридном электролите выход по току выше, а катодная и анодная поляризация – ниже и, следовательно, удельный расход электроэнергии на 1 т никеля значительно ниже.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Аноды из титановой сетки, покрытой оксидом рутения, являются, по существу, не изнашиваемыми анодами или анодами DSA, будучи химически инертными.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "anode wear",
+    "direction": "decreases",
+    "factor": "titanium mesh with ruthenium oxide coating",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Аноды из титановой сетки, покрытой оксидом рутения, являются, по существу, не изнашиваемыми анодами или анодами DSA, будучи химически инертными.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "В хлоридном электролите суммарное напряжение электролизера составляет ~3,0 В, включая ~0,6 В дополнительного напряжения, 0,6 В сопротивления электролита, 0,2 В сопротивления анодного чехла/диафрагмы и 0,1 В сопротивления контактов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "total cell voltage",
+    "direction": "increases",
+    "factor": "overpotential and resistances",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В итоге получает суммарное напряжение электролизера ~3,0 В.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Электроэкстракция никеля из сульфатного раствора относится к «зрелой технологии», однако исследования влияния параметров процесса на качество катодного никеля продолжаются.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technology maturity",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электроэкстракция никеля из сульфатного раствора тоже может быть отнесена к достаточно «зрелым» технологиям",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Главными параметрами электролиза являются состав электролита, температура, pH и плотность тока.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "key parameters",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Следует подчеркнуть, что главными параметрами электролиза являются: состав электролита, температура, рН и плотность тока.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "В электролизер подают постоянный ток.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_type",
+    "direction": "increases",
+    "factor": "direct current",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В электролизер подают постоянный ток.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Уровень жидкости в анодном отделении – самый низкий в электролизере.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "liquid_level",
+    "direction": "decreases",
+    "factor": "anode compartment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Уровень жидкости в анодном отделении – самый низкий в электролизере.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Катоды обычно представляют собой «пусковые» листы никеля толщиной ∼1 мм, нанесенного на титановую заготовку.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "thickness",
+    "direction": "increases",
+    "factor": "nickel sheet",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катоды обычно представляют собой «пусковые» листы никеля толщиной ∼1 мм, нанесенного на титановую заготовку.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "По ходу электролиза толщина катода увеличивается с ∼1 мм до ∼10 мм.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cathode_thickness",
+    "direction": "increases",
+    "factor": "electrolysis_time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По ходу электролиза толщина катода увеличивается с ∼1 мм до ∼10 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "В типичном случае электролиз из сульфатного электролита ведут при рН 2-4.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pH_range",
+    "direction": "increases",
+    "factor": "sulfate_electrolyte",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В типичном случае электролиз из сульфатного электролита ведут при рН 2-4",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Плотность тока 200-240 А/м 2 представляет компромисс между скоростью осаждения и качеством осадка.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "deposition_rate_and_quality",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность тока 200-240 А/м 2 представляет компромисс между скоростью осаждения и качеством осадка.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Электролиз из сульфатного электролита обычно ведут при температурах 60-65°С.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "sulfate_electrolyte",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электролиз из сульфатного электролита обычно ведут при температурах 60-65°С.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "При более высокой плотности тока возможно образование дендритных или порошкообразных осадков.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "deposit_morphology",
+    "direction": "decreases",
+    "factor": "high_current_density",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При более высокой плотности тока возможно образование дендритных или порошкообразных осадков.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "На практике перенапряжение составляет ∼4,0 В с учетом сопротивления электролита, катодного ящика и контактов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "overpotential",
+    "direction": "increases",
+    "factor": "cell_resistance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На практике перенапряжение составляет ∼4,0 В с учетом сопротивления электролита, катодного ящика и контактов.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Перенапряжение в сульфатном электролите значительно выше, чем в хлоридном.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "overpotential",
+    "direction": "increases",
+    "factor": "sulfate_vs_chloride",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Перенапряжение в сульфатном электролите значительно выше, чем в хлоридном",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Для сульфатного электролита требуется поддержание рН 3-3,5, чтобы эффективно осаждать никель на катоде.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pH_range",
+    "direction": "increases",
+    "factor": "sulfate_electrolyte",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для сульфатного электролита требуется поддержание рН 3-3,5, чтобы эффективно осаждать никель на катоде",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Питающий электролит с рН ∼3,5 поступает в катодное пространство со скоростью, обеспечивающей достаточную концентрацию никеля, а, с другой стороны, поддерживающей гидростатический напор ∼2 см.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "hydrostatic_head",
+    "direction": "increases",
+    "factor": "feed_rate_and_pH",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Питающий электролит с рН ∼3,5 поступает в катодное пространство со скоростью, обеспечивающей достаточную концентрацию никеля, а, с другой стороны, поддерживающей гидростатический напор ∼2 см",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Скорость циркуляции обычно составляет 20–30 л/ч.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "operating_conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Скорость циркуляции обычно составляет 20–30 л/ч",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Главными преимуществами сульфатного электролита над хлоридным являются: меньшая степень коррозии, возможность использования более дешевых анодов из свинца или сплавов свинца, значительно более простое оборудование.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "advantages",
+    "direction": "increases",
+    "factor": "sulfate_vs_chloride",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Главными преимуществами сульфатного электролита над хлоридным являются: меньшая степень коррозии, возможность использования более дешевых анодов из свинца или сплавов свинца, значительно более простое оборудование",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Оптимальная для промышленных условий плотность тока существенно ниже, чем в хлоридной системе.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "decreases",
+    "factor": "sulfate_vs_chloride",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оптимальная для промышленных условий плотность тока существенно ниже, чем в хлоридной системе.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Zongliang Zhang и др. представили «всеобъемлющую» модель для электролиза Cu, Zn и, позднее, Ni (из сульфатного раствора).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "model_scope",
+    "direction": "increases",
+    "factor": "research",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Zongliang Zhang и др. представили «всеобъемлющую» модель для электролиза Cu, Zn и, позднее, Ni (из сульфатного раствора).",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "The Darcy law was applied to describe the influence of a porous medium on liquid flow.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Закон Дарси был применен для описания влияния пористой среды на течение жидкости:",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "A volume‑force method was developed to model the diaphragm instead of treating it as a full three‑phase porous medium.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Вместо добавления в модель диафрагмы как пористой среды, что сделало бы её сложной трехфазной моделью, авторы разработали для моделирования метод объемной силы (volume force).",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "The electrolyte density is calculated by ρ = 1,0507 + 0,14c_Ni +0,0439 c_Na +0,0328c_H3BO3 – 0,000528T.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "ρ = 1,0507 + 0,14c Ni +0,0439 c Na +0,0328c H3BO3 – 0,000528T, где ρ – плотность электролита, г/см³",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "The electrolyte viscosity is calculated by ν = -3,739 + exp(0,237c_Ni + 0,04443c_Na + 0,0093c_H3BO3 + 431/(T+273)).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "ν = - 3,739 +exp(0,237c Ni + 0,04443c Na +0,0093c H3BO3 + 431/(T+273), где ν – вязкость, сПз.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Ion diffusion coefficients are defined by the Stokes‑Einstein equation D_i = kT/(4πμr_i).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Коэффициенты диффузии основных ионов также существенно влияют на процесс массопереноса. Они определены уравнением Стокса‑Эйнштейна D i = kT/4πμr i , где D i – коэффициент диффузии частицы ‘i’",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "No‑slip boundary condition is used for solid walls of the liquid phase.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "*В гидродинамике условие отсутствия скольжения – это граничное условие, которое гарантирует, что на твёрдой границе вязкая жидкость достигает нулевой объёмной скорости.*",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "The model varied nickel concentration (50, 65, 80 g/L), temperature (40, 60, 80 °C), and current density (120, 240, 360 A/m²).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "При расчетах по модели варьировали следующие параметры: - концентрацию никеля, г/л: 50,65,80 - температуру: 40,60,80 - плотность тока, А/м² : 120, 240, 360.",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "In industrial conditions, higher liquid flow speeds will amplify the detrimental effect of high‑speed zones on current efficiency.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Учитывая, что в промышленных условиях скорость потока значительно выше, чем в экспериментальной ячейке, этот эффект проявится ещё сильнее.",
+   "locator_kind": "md_para",
+   "locator": "para:191",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "The limiting stage in electro‑deposition is diffusion.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Во многих областях применения лимитирующей стадией при электроосаждении является диффузия.",
+   "locator_kind": "md_para",
+   "locator": "para:253",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "The only way to increase current density while keeping a pure deposit is to minimise the diffusion boundary layer and/or influence electrocrystallisation by optimised inhibitor distribution.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Единственным способом увеличить плотность тока так, чтобы при этом по-прежнему получать чистый электроосажденный осадок, заключается в минимизации диффузионного пограничного слоя и/или оказании влияния на электрокристаллизацию путем оптимизированного распределения ингибиторов.",
+   "locator_kind": "md_para",
+   "locator": "para:253",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "METTOP‑BRX minimises the diffusion boundary layer by accelerating electrolyte movement in front of the cathode with a special inlet that injects fresh electrolyte directly before the cathode.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "diffusion layer",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Минимизация диффузионного пограничного слоя в технологии METTOP-BRX осуществляется путем усиления относительного движения электролита перед поверхностью катода с помощью специального впускного отверстия для электролита, вводящего свежий электролит точно там, где он нужен, т.е. непосредственно перед катодом.",
+   "locator_kind": "md_para",
+   "locator": "para:253",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "The parallel‑flow concept can be realised with a Parallel‑Flow Device (PFD) or a Parallel‑Flow Plate (PFP) integrated into a polymer‑concrete cell.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "«Параллельный поток» может быть реализован либо с применением УПП – «устройства параллельного потока» (PFD) для ввода свежего электролита между каждой парой электродов, либо с помощью «пластины параллельного потока» ППП (PFP) – системы, интегрированной в полимербетонную ванну.",
+   "locator_kind": "md_para",
+   "locator": "para:261",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "In the METTOP‑BRX variant electrolyte circulation is 90‑100 l/min per electrolyser, versus 25‑45 l/min in traditional or ISA technology.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "electrolyte circulation",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Циркуляция электролита (л/мин/на один электролизер) в варианте METTOP-BRX составляет 90-100, в традиционном варианте или с технологией Isa 25-45.",
+   "locator_kind": "md_para",
+   "locator": "para:271",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Adding 50‑100 g/t Cu binder and thiourea, and 30‑70 mg/l HCl directly before the cathode enables smooth copper cathodes even at 450 A/m².",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Кроме того, добавление по 50-100 г/т Cu костного клея и тиомочевины, 30-70 мг/л Hcl непосредственно перед катодом способствует получению гладких медных катодов даже при плотности тока в 450 А/м 2 .",
+   "locator_kind": "md_para",
+   "locator": "para:272",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "The METTOP‑BRX technology can be applied both to upgrade existing cells and to build new cells.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Технология METTOP-BRX может быть применена как при модернизации/увеличении производительности действующего цеха, так и при строительстве нового цеха.",
+   "locator_kind": "md_para",
+   "locator": "para:277",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "Advantages of PFT technology include higher current density and productivity, better cathode quality, faster anode heating, ability to use lower‑quality anodes, fewer short‑circuits, reduced footprint, and lower capital and operating costs.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "- повышение плотности тока и увеличение производительности; - корректировка добавок для повышения выхода по току; - улучшение качества катодов, благодаря более равномерному распределению добавок (добавляемых непрерывно); - скорость потока выше и аноды нагреваются быстрее; - возможность использования анодов более низкого качества; - меньше случаев коротких замыканий благодаря точному позиционированию катодов/системе направления; - уменьшение занятой площади; - снижение капитальных и операционных затрат.",
+   "locator_kind": "md_para",
+   "locator": "para:279",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  },
+  {
+   "text": "For a 500 000 t/yr electrolytic plant, PFT technology yields significant capital and operating cost savings.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для электролизного цеха на 500 тыс т/г использование технологии PFT дает существенную экономию капитальных и операционных затрат.",
+   "locator_kind": "md_para",
+   "locator": "para:287",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-технических-решении-в-области-электролитич",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:cathode",
+   "dst": "mat:anodes",
+   "process": "other",
+   "kind": null,
+   "snippet": "Таблица 1.1 – Условия электролиза никеля из хлоридного электролита* [1]",
+   "doc_id": "doc:обзор-технических-решении-в-области-электролитич"
+  },
+  {
+   "src": "mat:cathode",
+   "dst": "mat:anodes",
+   "process": "other",
+   "kind": null,
+   "snippet": "Таблица 1.1 – Условия электролиза никеля из хлоридного электролита* [1]",
+   "doc_id": "doc:обзор-технических-решении-в-области-электролитич"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

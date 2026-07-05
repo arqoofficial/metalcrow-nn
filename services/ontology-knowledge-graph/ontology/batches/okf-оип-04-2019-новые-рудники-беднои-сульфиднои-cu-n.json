@@ -1,0 +1,1587 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "title": "ОИП-04-2019 Новые рудники бедной сульфидной Cu-Ni руды.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ОИП-04-2019 Новые рудники бедной сульфидной Cu-Ni руды.docx.md",
+   "artifact_sha256": "769d7e0909a3699c4629d538229c3c5529d24267dcc090e2385914eba5c01289",
+   "okf_raw_path": "Обзоры/ОИП-04-2019 Новые рудники бедной сульфидной Cu-Ni руды.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:collective-concentrate",
+   "label": "collective concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore",
+   "label": "Ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-concentrate",
+   "label": "Nickel concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-concentrate",
+   "label": "Copper concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-ore",
+   "label": "copper ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-ore",
+   "label": "nickel ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:collective-concentrate-from-averaged-ore-sample",
+   "label": "collective concentrate from averaged ore sample",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n:0",
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "title": "Laboratory flotation test (GTK 2005)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation of Cu‑Ni from collective concentrate in laboratory scale"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:collective-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 0.8
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Содержание никеля в медных концентратах в большинстве опытов менее 0,8%.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Ni в Ni‑концентрате = **10,0** %",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 45.9,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Cu в Cu‑концентрате = **26,4** %; **Изв.%** = **45,9**",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 65.1,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Ni в Ni‑концентрате = **10,0** %; **Изв.%** = **65,1**",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.41
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Самое высокое содержание никеля в концентрате было 20,4%, но извлечение при этом составляло всего 38,5%.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "increases",
+      "factor": "20,4%",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Самое высокое содержание никеля в концентрате было 20,4%, но извлечение при этом составляло всего 38,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    },
+    {
+     "text": "Содержание никеля в концентрате колебалось в пределах 8‑12% при извлечении порядка 60%.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "increases",
+      "factor": "8‑12%",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Вообще говоря, содержание никеля в концентрате колебалось в пределах 8-12% при извлечении порядка 60%.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    },
+    {
+     "text": "Самое высокое достигнутое содержание меди в концентрате равнялось 26,4%, но извлечение было низкое.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "increases",
+      "factor": "26,4%",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Самое высокое достигнутое содержание меди в концентрате равнялось 26,4%, но извлечение было низкое.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2005 г. исследования, выполненные GTK (Геологическая служба Финляндии) в лабораторном масштабе на пробе весом 150 кг, показали, что можно получать раздельные концентраты (медный и никелевый) приемлемого качества для плавки с разумным уровнем извлечения.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n:1",
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "title": "Mini‑pilot flotation test (GTK 2005)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "sequential flotation in mini‑pilot plant"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:collective-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "feed mass",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 980.0,
+      "max": null
+     },
+     "unit": "kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Вес пробы – 980 кг, скорость подачи – 20 кг/час.",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "feed rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "kg/час",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Вес пробы – 980 кг, скорость подачи – 20 кг/час.",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Опуская прочие подробности, приводим пример результатов успешного опыта в мини‑пилотном масштабе, которые были положены в основу проектирования схемы О/Ф.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n:2",
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "title": "Industrial production at Kevitsa mine (2012‑2018)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Ore processing and metal recovery at the Kevitsa nickel‑copper mine in Finland",
+       "temperature_text": "cold climate (Finland north)",
+       "duration_text": "full calendar years 2012‑2018 (commercial production started August 2012)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:nickel-concentrate",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Ore processed",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 3138.0,
+      "max": null
+     },
+     "unit": "thousand t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Переработано руды тыс т | 3138 | 6314 | 6711 | 6665 | 7392 | 7911 | 7582",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Nickel in concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3874.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ni, т в Ni-конц.-те | 3874 | 8963 | 9433 | 8805 | 11100 | 13777 | 13948",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Copper in concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 8093.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Cu, т в конц-тах | 8093 | 14775 | 17535 | 17204 | 20571 | 29957 | 27498",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Cobalt in nickel concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 167.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Со, т в Ni-конц-те | 167 | 401 | 422 | 369 | 501 | 587 | 591",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Platinum in concentrates",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 15097.0,
+      "max": null
+     },
+     "unit": "oz",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Pt, унц в конц-тах | 15097 | 33369 | 37390 | 35133 | 41553 | 50019 | 55592",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Объёмы переработки руды на Kevitsa были выше проектного, начиная с первого полного года эксплуатации (добыча руды началась в середине 2012 г., коммерческое производство 5 млн т/г – с августа 2012 г.).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Processing capacity",
+      "direction": "increases",
+      "factor": "above project design",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Объёмы переработки руды на Kevitsa были выше проектного, начиная с первого полного года эксплуатации (добыча руды началась в середине 2012 г., коммерческое производство 5 млн т/г – с августа 2012 г.).",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Переработано руды тыс т | 3138 | 6314 | 6711 | 6665 | 7392 | 7911 | 7582",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n:3",
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "title": "Installation of TCe500 flotation machine and secondary grinding mill (copper circuit) – 2015",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "copper flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "извлечение меди в медный концентрат повысилось на 5 %",
+     "locator_kind": "md_para",
+     "locator": "para:113",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "overall copper recovery",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 1.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "сквозное извлечение меди – на 1,5 % при том, что сортность концентрата была немного выше",
+     "locator_kind": "md_para",
+     "locator": "para:113",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "TCe500 and the column flotation machine increased flotation capacity, supporting expansion plans.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Флотомашина TCe500 и флотационная колонная машина повысили флотационную мощность, что служит поддержкой планам расширения.",
+     "locator_kind": "md_para",
+     "locator": "para:113",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2015 г. введена в строй флотомашина TCe500 (в качестве первой в цепи основной флотации меди) и мельница доизмельчения меди, что обеспечило улучшение высвобождения и селективности меди против никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n:4",
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "title": "Nickel flotation circuit re‑configuration and depressor dosing expansion – 2014",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "nickel flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "nickel recovery",
+     "scope": "material",
+     "material_id": "mat:nickel-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "извлечение никеля повысилось на 4 %",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Higher concentrate grade and lower feed grade sensitivity were achieved.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "сортность концентрата выше, чувствительность к сортности сырья ниже",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В цепочке флотации никеля в 2014 г. проведена реконфигурация и расширение системы дозирования депрессора, что привело к увеличению вывода «несульфидной» пустой породы, способствуя селективности извлечения никеля в цепочке перечистки.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n:5",
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "title": "Installation of additional crushing and grinding capacity – 2014‑2015",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "primary crushing and grinding"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "overall grinding productivity",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "общая производительность измельчения увеличилась на 15 % при контролируемой крупности помола для флотации",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Primary AG mill efficiency increased.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В итоге эффективность первичных AG мельниц возросла",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2014 г. были установлены дополнительные дробильные и измельчающие мощности: вторая конусная дробилка MP800 и второй мотор мощностью 7МВт на мельнице вторичного помола (галечной), дополненные в 2015 г. модификацией первичного грохота (увеличением ширины отверстия верхнего яруса) и увеличением энергии взрыва.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n:6",
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "title": "Overall plant performance reported in 2016 Technical Report",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "full‑scale production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-ore",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:copper-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "nickel concentrate production",
+     "scope": "material",
+     "material_id": "mat:nickel-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 130.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "объём производства составлял ≈130 тыс т/г никелевого концентрата с ≈11 % Ni",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "copper concentrate production",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 115.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "≈115 тыс т/г медного концентрата с 25 % Cu",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "nickel sulfide recovery in ore",
+     "scope": "material",
+     "material_id": "mat:nickel-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 66.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Извлечение составляло 66 % сульфидного никеля в сырье",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "copper sulfide recovery in ore",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "90 % сульфидной меди в сырье (78 % - в медный концентрат и 12 % в никелевый концентрат)",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "На 2016 г., когда First Quantum опубликовала последний Технический отчет, объём производства составлял ≈130 тыс т/г никелевого концентрата с ≈11 % Ni и ≈115 тыс т/г медного концентрата с 25 % Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n:7",
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "title": "Pilot test of collective concentrate for Northmet project",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "high‑temperature leaching of flotation concentrate (Platsol technology)",
+       "temperature_text": "high‑temperature (exact value not given)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:collective-concentrate-from-averaged-ore-sample",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:collective-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 93.7,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Извлеч,% 93,7",
+     "locator_kind": "md_para",
+     "locator": "para:193",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:collective-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 77.1,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Извлеч,% 77,1",
+     "locator_kind": "md_para",
+     "locator": "para:193",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:collective-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 46.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Co"
+     },
+     "method": null,
+     "snippet": "Извлеч,% 46,4",
+     "locator_kind": "md_para",
+     "locator": "para:193",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:collective-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 76.6,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "Извлеч,% 76,6",
+     "locator_kind": "md_para",
+     "locator": "para:193",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:collective-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 76.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "S"
+     },
+     "method": null,
+     "snippet": "Извлеч,% 76,4",
+     "locator_kind": "md_para",
+     "locator": "para:193",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:collective-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 75.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Извлеч,% 75,8",
+     "locator_kind": "md_para",
+     "locator": "para:193",
+     "confidence": 0.41
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Platsol process allowed production of LBM cathode copper, nickel‑cobalt mixed hydroxide, and a PG‑containing residue with >10 % PG that can be sold.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "product quality",
+      "direction": "increases",
+      "factor": "use of Platsol high‑temperature leaching",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "По технологии Platsol можно было получать: катодную медь качества ЛБМ, никель и кобальт – в смешанном гидроксиде, МПГ‑содержащий остаток с >10% МПГ, который можно было продавать.",
+     "locator_kind": "md_para",
+     "locator": "para:207",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Таблица 2.2 – Коллективный концентрат из усредненной пробы руды для пилотных испытаний (ТЭО 2006г.)",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Новые сульфидные медно‑никелевые рудники, на базе которых построены новые обогатительные мощности, – большая редкость.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Примеры новых сульфидных медно-никелевых рудников, на базе которых построены новые обогатительные мощности - большая редкость.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.81,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Если ограничить поиск бедной вкрапленной рудой (Ni≤0,5%), то перечень сведется к трем позициям.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "≤0,5%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "если ещё ограничить поиск бедной вкрапленной рудой (Ni≤0,5%), то перечень сведется к трем позициям",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "В начале работ по проекту выяснилось, что «успешно» получить флотацией можно только коллективный концентрат.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Поскольку в начале работ по проекту выяснилось, что «успешно» получить флотацией можно только коллективный концентрат.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": "flotation"
+  },
+  {
+   "text": "Получить коллективный медно‑никелевый концентрат, приемлемого качества для плавки на мощностях третьих сторон, всё-таки не удавалось.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Однако получить коллективный медно-никелевый концентрат, приемлемого качества для плавки на мощностях третьих сторон, всё-таки не удавалось",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": "flotation"
+  },
+  {
+   "text": "Для получения раздельных концентратов требовалось извлечение 70% в концентрат при минимальном содержании Ni 8% и Ni в Cu‑концентрате менее 0,8% (желательно <0,5‑0,6%).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "<0,8% (желательно <0,5‑0,6%)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "извлечение 70% в концентрат мин. 8% Ni; Ni в Cu-концентрате должно быть менее 0,8%, а желательно – менее 0,5-0,6%.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.81,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Последний метод (флотация меди, а затем никеля) дал результаты лучше.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Последний метод (флотация меди, а затем никеля) дал результаты лучше.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": "flotation"
+  },
+  {
+   "text": "Для флотации использовались коллекторы амиловый ксантогенат калия или изобутиловый дитиофосфинат натрия, депрессоры CMC, декстрин, TETA, модификатор метабисульфит натрия, вспенивающий агент MIBC и активатор сульфат меди.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Использовали следующие реагенты: - коллектор: амиловый ксантогенат калия или изобутиловый дитиофосфинат натрия - депрессор: карбоксиметилцеллюлоза (CMC) - депрессор/диспергатор: декстрин - депрессор для пирротина: триэтилентетрамин (TETA) - модификатор: метабисульфит натрия - вспенивающий агент: метилизобутилкарбинол (MIBC) - активатор: сульфат меди",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": "flotation"
+  },
+  {
+   "text": "Содержание никеля в медных концентратах в большинстве опытов было менее 0,8%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "<0,8%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание никеля в медных концентратах в большинстве опытов менее 0,8%.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Содержание никеля в концентрате колебалось в пределах 8‑12% при извлечении порядка 60%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "8‑12%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вообще говоря, содержание никеля в концентрате колебалось в пределах 8-12% при извлечении порядка 60%.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Самое высокое содержание никеля в концентрате было 20,4%, но извлечение при этом составляло всего 38,5%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "20,4%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Самое высокое содержание никеля в концентрате было 20,4%, но извлечение при этом составляло всего 38,5%.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Самое высокое достигнутое содержание меди в концентрате равнялось 26,4%, но извлечение было низкое.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "26,4%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Самое высокое достигнутое содержание меди в концентрате равнялось 26,4%, но извлечение было низкое.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Цепочка рудоподготовки исходно проектировалась на ≈5,5 млн т/г, но, как сразу заявила канадская компания First Quantum, в неё была заложена возможность расширения до 9 млн т/г (и потенциально – даже до 11 млн т/г).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "design capacity",
+    "direction": "increases",
+    "factor": "up to 9 million t/yr (potentially 11 million t/yr)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цепочка рудоподготовки исходно проектировалась на ≈5,5 млн т/г, но, как сразу заявила канадская компания First Quantum, в неё была заложена возможность расширения до 9 млн т/г (и потенциально – даже до 11 млн т/г).",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Принципиальное разрешение от экологических властей Финляндии на расширение добычи и переработки руды до 10 млн т/г было получено в июле 2014 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "maximum permitted throughput",
+    "direction": "increases",
+    "factor": "10 million t/yr",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Принципиальное разрешение от экологических властей Финляндии на расширение добычи и переработки руды до 10 млн т/г было получено в июле 2014 г.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Проект О/Ф и основные принципы эксплуатации – «типичны для предприятий в холодном климате и, в частности, для севера Финляндии».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "nonmonotonic",
+    "factor": "cold‑climate suitability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проект О/Ф и основные принципы эксплуатации – «типичны для предприятий в холодном климате и, в частности, для севера Финляндии».",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Исходно цепочка рудоподготовки была рассчитана на 5,5 млн т/г (687,5 т/час при загруженности 91,3%, т.е. 8000 часов в год).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "design throughput",
+    "direction": "increases",
+    "factor": "5.5 million t/yr (687.5 t/h at 91.3 % utilisation, 8000 h/yr)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Исходно цепочка рудоподготовки была рассчитана на 5,5 млн т/г (687,5 т/час при загруженности 91,3%, т.е. 8000 часов в год).",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "В первые годы эксплуатации поступала руда со средним содержанием «сульфидного никеля» 0,272% и 0,418% Cu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "0.272 % Ni (sulfide) and 0.418 % Cu",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В первые годы эксплуатации поступала руда со средним содержанием «сульфидного никеля» 0,272% и 0,418% Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.81,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "В 2015‑2016 гг. содержание Ni и Cu в сырье было уже заметно ниже: 0,20‑0,22% и 0,29‑0,31%, соответственно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "0.20‑0.22 % Ni and 0.29‑0.31 % Cu",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2015‑2016гг. содержание Ni и Cu в сырье было уже заметно ниже: 0,20-0,22% и 0,29-0,31%, соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.81,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Удельная плотность руды 3,15 т/м³ (Таблица 1.9).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "bulk density",
+    "direction": "nonmonotonic",
+    "factor": "3.15 t/m³",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Удельная плотность руды | т/м 3 | 3,15",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Рабочий индекс дробления 22,6 кВт·ч/т (Таблица 1.9).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "specific grinding energy",
+    "direction": "nonmonotonic",
+    "factor": "22.6 kW·h/t",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рабочий индекс дробления | кВт·час/т | 22,6",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Флотация меди – время пребывания: Основная 30 мин, Перечистная (4 стадии) 70 мин (Таблица 1.9).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "residence time",
+    "direction": "nonmonotonic",
+    "factor": "30 min (primary), 70 min (polishing)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Флотация меди – время пребывания: | Основная | Мин | 30 | | Перечистная (4 стадии) | Мин | 70",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.81,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": "flotation"
+  },
+  {
+   "text": "Флотация никеля – время пребывания: Основная 90 мин, Перечистная (4 стадии) 130 мин (Таблица 1.9).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "residence time",
+    "direction": "nonmonotonic",
+    "factor": "90 min (primary), 130 min (polishing)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Флотация никеля: | Основная | Мин | 90 | | Перечистная (4 стадии) | Мин | 130",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.81,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": "flotation"
+  },
+  {
+   "text": "The plant can theoretically process 9 million tonnes per year of ore.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "позволяющих, среди прочего, «теоретически» перерабатывать 9 млн т/г руды",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.81,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Conversion of the secondary grinding mill from a pebble‑ball to a ball‑mill mode supports increasing throughput by fully using installed grinding power.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Установленная (и подтверждённая на практике) возможность конвертировать мельницу доизмельчения с галечного режима на режим шарового помола послужила поддержкой идее о дополнительном увеличении пропускной способности за счёт полного использования установленной мощности доизмельчения.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.81,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Achieving the 9 million t/yr target requires the use of steel balls to maximise power consumption.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "достижение уровня 9 млн т/г требует использования стальных шаров с целью максимизации потребляемой мощности",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Head‑end operations (primary crushing, screening, stockpiling and conveyor transport) are designed for 10 million t/yr with a view to future expansion.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Головные операции схемы (первичное дробление, грохочение, складирование и транспортировка по конвейеру) по проекту рассчитаны на 10 млн т/г с прицелом на дополнительное будущее расширение.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "The plant’s nominal grinding/processing rate at 9 million t/yr is 1 125 t/h (based on 8 000 h/yr).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "При пропускной способности в 9 млн т/г по руде за 8000 час/г получаем номинальную производительность измельчения/переработки в 1125 т/час",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Separate copper and nickel concentrates were chosen because a combined concentrate did not meet downstream processing requirements.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Решение о производстве двух раздельных концентратов было принято в связи с тем, что коллективный концентрат не отвечал требованиям по дальнейшей переработке.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Установка TCe500 и колонны привела к эффективному увеличению производительности флотации меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "productivity",
+    "direction": "increases",
+    "factor": "installation of TCe500 and column",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установка TCe500 и колонны привела к эффективному увеличению производительности флотации меди.",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": "flotation"
+  },
+  {
+   "text": "Извлечение никеля увеличилось на 4 п.п. для концентрата более высокой сортности на фоне снижения чувствительности к сортности сырья.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery",
+    "direction": "increases",
+    "factor": "reconfiguration of nickel flotation chain and new reagent set",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В целом, извлечение никеля увеличилось на 4 п.п. для концентрата более высокой сортности на фоне снижения чувствительности к сортности сырья.",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Сокращение циркулирующей нагрузки как не‑сульфидной, так и сульфидной пустой породы привело к высвобождению мощностей перечистки – в будущем можно повышать производительность.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "available capacity",
+    "direction": "increases",
+    "factor": "reduction of circulating load of both non‑sulfidic and sulfidic waste rock",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сокращение циркулирующей нагрузки как не‑сульфидной, так и сульфидной пустой породы привело к высвобождению мощностей перечистки – в будущем можно повышать производительность.",
+   "locator_kind": "md_para",
+   "locator": "para:195",
+   "confidence": 0.81,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Boliden объявила о планах расширения Kevitsa с 7,5 млн т/г до 9,5 млн т/г с 2021 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "planned investment of 80 million € for a new autogenous grinding mill and auxiliary equipment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В феврале 2018 г. Boliden объявила о планах расширения Kevitsa с 7,5 млн т/г до 9,5 млн т/г с 2021 г.",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Boliden подчеркивает, что мощности по измельчению в настоящее время ограничивают объем производства.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "decreases",
+    "factor": "current grinding capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Boliden подчеркивает, что мощности по измельчению в настоящее время ограничивают объем производства.",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "В 2018 г. на медь в концентрате пришлось 57 % дохода, на никель – 43 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of revenue",
+    "direction": "increases",
+    "factor": "copper and nickel content in concentrate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Действительно, в 2018 г. на медь в концентрате пришлось 57% дохода, на никель – 43%.",
+   "locator_kind": "md_para",
+   "locator": "para:197",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "PolyMet Mining гордится тем, что её проект первым в Миннесоте получил все разрешения – крупные горные проекты в США, получившие разрешения за последние 20 лет, можно «по пальцам перечесть».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "permits obtained",
+    "direction": "increases",
+    "factor": "project Northmet",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "PolyMet Mining гордится тем, что её проект первым в Миннесоте получил все разрешения - крупные горные проекты в США, получившие разрешения за последние 20 лет, можно «по пальцам перечесть».",
+   "locator_kind": "md_para",
+   "locator": "para:200",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Содержание сульфидов в руде Northmet колеблется от следов до ≈5 %, но редко превышает 3 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "natural variation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание сульфидов колеблется от следов до ≈5%, но редко превышает 3%.",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  },
+  {
+   "text": "Суммарные (доказанные+вероятные) запасы на январь 2018 г. составляют 254,7 млн т с Cu 0,294 %; Ni 0,084 %; Pt 80 ppb; Pd 268 ppb; Au 39 ppb; Co 74,4 ppm; Ag 1,06 ppm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "resource size and grade",
+    "direction": "increases",
+    "factor": "latest assessment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "254,7 млн т с Cu 0,294%; Ni 0,084%; Pt 80 ppb; Pd 268 ppb; Au 39 ppb; Co 74,4 ppm; Ag 1,06 ppm",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:nickel-concentrate",
+   "dst": "mat:ore",
+   "process": "other",
+   "kind": null,
+   "snippet": "Переработано руды тыс т | 3138 | 6314 | 6711 | 6665 | 7392 | 7911 | 7582",
+   "doc_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n"
+  },
+  {
+   "src": "mat:copper-concentrate",
+   "dst": "mat:ore",
+   "process": "other",
+   "kind": null,
+   "snippet": "Переработано руды тыс т | 3138 | 6314 | 6711 | 6665 | 7392 | 7911 | 7582",
+   "doc_id": "doc:оип-04-2019-новые-рудники-беднои-сульфиднои-cu-n"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

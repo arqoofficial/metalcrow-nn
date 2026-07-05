@@ -1,0 +1,1368 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:куба_железо_2012-pdf",
+   "title": "Куба_железо_2012.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Куба_железо_2012.pdf.md",
+   "artifact_sha256": "01062e368d097135f8e0c57bb9ea8f7da60bcb0db3ae97936430a6e6165944cf",
+   "okf_raw_path": "Обзоры/Куба_железо_2012.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:wood-charcoal",
+   "label": "Wood charcoal",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coke",
+   "label": "Coke",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:low-grade-iron-ore-hematite-magnetite-quartz",
+   "label": "low‑grade iron ore (hematite, magnetite, quartz)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:low-grade-iron-ore",
+   "label": "low‑grade iron ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:куба_железо_2012-pdf:0",
+   "document_id": "doc:куба_железо_2012-pdf",
+   "title": "Industrial application of charcoal as renewable reductant in Brazilian blast furnaces",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Use of wood charcoal in blast furnaces for pig iron production",
+       "temperature_text": "lower than with coke (implied by text)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:wood-charcoal",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Pig iron Fe content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 94.0,
+      "nominal": null,
+      "max": 95.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Полученный на севере Бразилии высококачественный чугун содержит 94-95% Fe",
+     "locator_kind": "md_para",
+     "locator": "para:80",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.5,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Si"
+     },
+     "method": null,
+     "snippet": "Si - 0,50",
+     "locator_kind": "md_para",
+     "locator": "para:80",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.07,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "phosphorus"
+     },
+     "method": null,
+     "snippet": "P - 0,07",
+     "locator_kind": "md_para",
+     "locator": "para:80",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "manganese"
+     },
+     "method": null,
+     "snippet": "Mn - 1,00",
+     "locator_kind": "md_para",
+     "locator": "para:80",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.15,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "C"
+     },
+     "method": null,
+     "snippet": "C - 4,15",
+     "locator_kind": "md_para",
+     "locator": "para:80",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The pig iron is a good feedstock for electric furnaces and sells at a premium to DRI/GBJ and scrap prices.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "marketability",
+      "direction": "increases",
+      "factor": "quality",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "По своим физическим и химиче-ским характеристикам он является хорошим сырьем для электропечей и продается с премией как к цене DRI/ГБЖ, так и скрапа.",
+     "locator_kind": "md_para",
+     "locator": "para:80",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "в Бразилии из более чем 170 печей по вы -плавке чугуна (действующих и бездействующих) примерно в 160 печах (объёмом 50-250 куб . м) в качестве «возобновляемого био‑восстановителя» используется древесный уголь",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_железо_2012-pdf:1",
+   "document_id": "doc:куба_железо_2012-pdf",
+   "title": "Industrial application of coke in large Brazilian blast furnaces",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Use of coke in blast furnaces >550 m³"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:coke",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "в 15-16 печах (>550 куб . м) используется кокс",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_железо_2012-pdf:2",
+   "document_id": "doc:куба_железо_2012-pdf",
+   "title": "Qi Dashan pilot test of SLon vs WHIMS‑2000",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "SLon magnetic separator compared with WHIMS‑2000 (horizontal ring) on raw ore 75 µm",
+       "duration_text": "3 months"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:low-grade-iron-ore-hematite-magnetite-quartz",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Добавление этапа обратной флотации позволило дополнительно улучшить качество концентрата и исключить обжиг.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Добавление этапа обратной флотации позволило дополнительно улучшить качество концентрата и исключить обжиг.",
+     "locator_kind": "md_para",
+     "locator": "para:125",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Опробование проводили в течение 3х месяцев.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_железо_2012-pdf:3",
+   "document_id": "doc:куба_железо_2012-pdf",
+   "title": "Industrial implementation of SLon scheme (2002)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "gravity separation → SLon → reverse flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:low-grade-iron-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentrate grade",
+     "scope": "material",
+     "material_id": "mat:low-grade-iron-ore-hematite-magnetite-quartz",
+     "value": {
+      "min": null,
+      "nominal": 67.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "извлечение в 67%ный концентрат составляет 78%",
+     "locator_kind": "md_para",
+     "locator": "para:125",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery",
+     "scope": "material",
+     "material_id": "mat:low-grade-iron-ore-hematite-magnetite-quartz",
+     "value": {
+      "min": null,
+      "nominal": 78.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "извлечение в 67%ный концентрат составляет 78%",
+     "locator_kind": "md_para",
+     "locator": "para:125",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Технологическая схема (гравитационная сепарация, SLon, обратная флотация) была внедрена; извлечение в 67%ный концентрат составляет 78%.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В 2002 г . технологическая схема ( гравитационная сепара -ция , SLon, обратная флотация ) была внедрена ; извлечение в 67%ный кон -центрат составляет 78%.",
+     "locator_kind": "md_para",
+     "locator": "para:125",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2002 г . технологическая схема ( гравитационная сепара -ция , SLon, обратная флотация ) была внедрена ; извлечение в 67%ный кон -центрат составляет 78%.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Конечным продуктом переработки железосодержащего сырья является сталь",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product",
+    "direction": "increases",
+    "factor": "iron-containing raw material processing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конечным продуктом переработки железосодержащего сырья явля -ется сталь",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "более 95% железной руды потребляется в производстве стали",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption share",
+    "direction": "increases",
+    "factor": "iron ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "более 95% железной руды потребляется в производстве стали",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2010 г. на долю доменных печей (BF) пришлось 69,8% мирового выпуска стали в слитках",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "BF",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по -прежнему , всё -таки является BOF, на долю которого в 2010 г . пришлось 69,8% мирового выпуска стали в слитках",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2010 г. доля стали, выплавленной в электропечах, достигла 29% от мирового выпуска",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "electric furnaces",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доля стали , выплавленной в электропечах , в 2010 г . достигла 29% от мирового выпуска",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2001–2010 гг. мировой выпуск чугуна увеличился с 586,9 млн т до 1025,8 млн т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "global",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировой выпуск чугуна ( включая литейный ) увеличился с 586,9 млн т до 1025,8 млн т",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В Китае производство чугуна выросло с 155,5 млн т до 590,2 млн т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "China",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в Китае -со 155,5 млн т до 590,2 млн т",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "90,2% стали в Китае выплавляется в кислородных конвертерах",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "method share",
+    "direction": "increases",
+    "factor": "BOF in China",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "где 90,2% стали выплав -ляется в кислородных конвертерах",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2001 г. мировое производство DRI составило 37,8 млн т, а в 2010 г. — 70 млн т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "global",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое производство железа прямого восстановления (DRI): 37,8 млн т в 2001 г . и 70 млн т в 2010 г .",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Электроплавка распространена там, где имеется возможность обеспечения скрапом и/или металлизированными продуктами, а также дешевой электроэнергией (природным газом)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability condition",
+    "direction": "increases",
+    "factor": "availability of scrap, metallized products, cheap electricity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электроплавка распространена там , где имеется возможность обеспечения скрапом и / либо металлизированными продуктами , а также дешевой элек -троэнергией ( природным газом )",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "По соображениям экологической безопасности и снижения издержек способ EAF предпочтительнее",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "preference",
+    "direction": "increases",
+    "factor": "environmental safety and cost reduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По соображениям экологической безопасности и снижения издер -жек способ EAF предпочтительнее",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Ограниченность предложения черного лома стимулирует интерес к проектам производства металлизированных продуктов на основе железа",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "interest driver",
+    "direction": "increases",
+    "factor": "limited scrap supply",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ограниченность предложения черного лома стимулирует интерес к проектам производства металлизированных продуктов на основе железа",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Все перечисленные выше продукты являются товарными",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "market status",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все перечисленные выше продукты являются товарными",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Выбор продукта определяется как «техническими» возможностями его производства, так и рыночными соображениями",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "decision factors",
+    "direction": "increases",
+    "factor": "technical and market considerations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выбор того или иного продукта определяется как « техническими » возможностям -ми его производства ( приемлемое по качеству сырье , наличие соответст -вующих технологий ), так и рыночными соображениями",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Продажный чугун -это чугун , отлитый в слитки , который отправ -ляется на продажу третьим сторонам .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product type",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Продажный чугун -это чугун , отлитый в слитки , который отправ -ляется на продажу третьим сторонам .",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "передельный ( или « базовый ») чугун , потребляемый преимущест -венно в процессе выплавки стали в электропечах ; содержит в среднем 3,54,5% C, <1,5% Si, 0,5-1,0% Mn, <0,05% S, <0,15% P;",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "chemical composition",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "передельный ( или « базовый ») чугун , потребляемый преимущест -венно в процессе выплавки стали в электропечах ; содержит в среднем 3,54,5% C, <1,5% Si, 0,5-1,0% Mn, <0,05% S, <0,15% P;",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "литейный чугун , являющийся основным компонентом шихты чу -гунолитейного производства ; содержит в среднем 3,5-4,5% C, 1,5-3,5% Si, 0,5-1,0% Mn, <0,05% S, <0,12% P;",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "chemical composition",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "литейный чугун , являющийся основным компонентом шихты чу -гунолитейного производства ; содержит в среднем 3,5-4,5% C, 1,5-3,5% Si, 0,5-1,0% Mn, <0,05% S, <0,12% P;",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "чугун с шаровидным графитом для изготовления пластичных от -ливок ; содержит в среднем 3,5-4,5% C, <0,05% Mn, <0,05% S, <0,05% P.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "chemical composition",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "чугун с шаровидным графитом для изготовления пластичных от -ливок ; содержит в среднем 3,5-4,5% C, <0,05% Mn, <0,05% S, <0,05% P.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Железо прямого восстановления (DRI) получают твердофазным восстановлением оксидов железа при температурах 800-1050 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Железо прямого восстановления (DRI) получают твердофазным восстановлением оксидов железа при температурах 800-1050 ̊ С .",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "DRI подвержено повторному окислению при контакте с влажной кислородсодержащей атмосферой, что может даже привести к самовоспламенению.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxidation susceptibility",
+    "direction": "increases",
+    "factor": "moisture",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Железо прямого восстановления (DRI) подвержено повторному окислению при контакте с влажной кислородсодержащей атмосферой , что может даже привести к самовоспламенению .",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Для предотвращения самовоспламенения DRI пассивируют, например, подвергнув его воздействию воздуха (или инертного газа с небольшим содержанием кислорода) на протяжении некоторого времени с целью образования на поверхности тонкого защитного слоя магнетита («естественная пассивация»).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "safety measure",
+    "direction": "increases",
+    "factor": "air exposure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чтобы этого избежать при перевозке , DRI пассивируют . Пассивацию можно осуществить , например , подвергнув его воздействию воздуха ( или инертного газа с небольшим со -держанием кислорода ) на протяжении некоторого времени с целью обра -зования на поверхности тонкого защитного слоя магнетита (« естественная пассивация »).",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Горячебрикетированное железо (ГБЖ) получают горячим брикети‑рованием DRI, непрерывно выгружаемого из реактора при температуре >700 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ГБЖ получают горячим брикети -рованием DRI, непрерывно выгружаемого из реактора при температуре >700 ̊ С",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Преимуществом ГБЖ является низкая химическая активность при взаимодействии с водой, т. е. низкая способность к повторному окислению, а также устойчивость к разрушению при манипулировании и из‑за атмосферного старения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "chemical activity",
+    "direction": "decreases",
+    "factor": "water contact",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Преимуществом ГБЖ , яв -ляющимся , по существу , компактной формой DRI, является низкая хими -ческая активность при взаимодействии с водой , т . е . низкая способность к повторному окислению , а также устойчивость к разрушению при манипу -лировании и из -за атмосферного старения",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "ГБЖ совместим со всем транспортно‑загрузочным оборудованием, безопасность хранения при разных погодных условиях.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "equipment compatibility",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "совместимость со всем транс -портно -загрузочным оборудованием , безопасность хранения при разных погодных условиях",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "ГБЖ пригодно для перевозок на большие расстояния.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "transport suitability",
+    "direction": "increases",
+    "factor": "distance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ГБЖ пригодно для перевозок на большие расстояния .",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "ГБЖ используется вместе со скрапом при выплавке стали в электро‑печах, а также может быть загружено в кислородный конвертер BOF.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "use case",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ГБЖ используется вместе со скрапом при выплавке стали в электро -печах , а также может быть загружено в кислородный конвертер BOF.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "К основным преимуществам использования ГБЖ для выплавки стали относятся известный и постоянный химически состав с минимальным содержанием нежелательных примесей, высокая тепло‑ и электропроводность, совместимость с распространенным оборудованием для погрузки‑разгрузки, снижение выбросов CO2 при плавке стали.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "steelmaking advantages",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К основным преимуществам использования ГБЖ для выплавки стали относятся : - -известный и постоянный химически состав с минимальным содер -жанием нежелательных примесей ( что позволяет нивелировать возможные колебания в составе скрапа и « разбавить » возможные содержащиеся в нем вредные примеси ); - -высокая тепло -и электропроводность ; - -совместимость с распространенным оборудование для погрузки -разгрузки , в т . ч . системами загрузки в печь лома ; - -снижение выбросов CO2 при плавке стали .",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология «Самородки» ITMk3 позволяет получать металлизированное сырье из низкокачественной руды без применения дорогого кокса в качестве восстановителя.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "raw material production",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "« Самородки » ITMk3. Данная технология позволяет получать ме -таллизированное сырье из низкокачественной руды без применения доро -гого кокса в качестве восстановителя .",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В качестве восстановителя в технологии ITMk3 можно использовать и низкокачественный, и бурый уголь, а для отопления печи – газ или мазут.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reducing agents",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве восстановителя можно использовать и низкокачественный , и бурый уголь , а для отопления печи -газ или мазут .",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Полученный продукт – компактный, удобен в хранении и транспортировке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "handling",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полученный продукт -компактный , удобен в хранении и транспортировке .",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Основные преимущества его использования при выплавке стали аналогичны ГБЖ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "steelmaking advantage",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основные преимущества его использования при выплав -ке стали -аналогичны ГБЖ .",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "World direct‑reduced iron (DRI) production reached 70 million tonnes in 2010.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "global output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое производство железа прямого восстановления в 2010 г достигло 70 млн т",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "In Venezuela, DRI/GBJ production was 8.9 million tonnes in 2005 (15.6 % of world output).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "national output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в Венесуэле в 2005 г. выпуск DRI/ГБЖ достигал 8,9 млн т (15,6% мирового выпуска)",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Venezuelan DRI/GBJ production declined to 3.8 million tonnes in 2010 due to nationalisation, electricity supply problems and shortage of required fluxes.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "decreases",
+    "factor": "political and supply issues",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Затем объемы производства неуклонно снижались -до 3,8 млн т в 2010 г. по разным причинам: национализация предприятий, проблемы со снабжением электроэнергией и, что важно подчеркнуть, не‑хватка необходимых для выпуска этих металлизированных продуктов ока‑тышей",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Midrex Technologies forecasts average steel production growth of 3‑4 % per year up to 2020.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "growth rate",
+    "direction": "increases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Midrex Technologies средние темпы роста производства стали до 2020 г. составят 3-4% в год",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Approximately two‑thirds of global iron‑ore raw material (JRS) extraction is from fine ore.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of fine ore",
+    "direction": "increases",
+    "factor": "global statistics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время примерно 2/3 мировой добычи ЖРС приходится на рудную мелочь",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "In the early 1980s about 25 % of world JRS production came from lump ore, falling to less than 8 % by 1999.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lump ore share",
+    "direction": "decreases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В начале 80х гг. примерно 1⁄4 мирового выпуска ЖРС приходилась на кусковую руду, а в 1999 г. — менее 8%",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Direct‑reduced iron (DRI) accounted for 14.4 % of electric‑arc furnace feedstock in 2012.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "2012 data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доля DRI/ГБЖ в сырье электроплавки 14,4% (2012 г.)",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "при плавке в домне крупность кусков 5-10 мм ( магнетит ), 5-80 мм ( гема -тит ), 5-100 мм ( бурожелезняковые руды ); во всех видах -минимальное со -держание фракции -5 мм",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "piece size",
+    "direction": "increases",
+    "factor": "blast furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при плавке в домне крупность кусков 5-10 мм ( магнетит ), 5-80 мм ( гема -тит ), 5-100 мм ( бурожелезняковые руды ); во всех видах -минимальное со -держание фракции -5 мм",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "концентрат для производства окатышей должен содержать 86-95% фрак -ции -50 мкм",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fine fraction content",
+    "direction": "increases",
+    "factor": "okatysh production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "концентрат для производства окатышей должен содержать 86-95% фрак -ции -50 мкм",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "концентрат для производства агломерата крупнее , крупность аглоруды ('fines' рудная мелочь ) 0-10 мм",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "agglomerate ore size",
+    "direction": "increases",
+    "factor": "agglomerate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "концентрат для производства агломерата крупнее , крупность аглоруды ('fines' рудная мелочь ) 0-10 мм",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Рекомендованные уровни содержания фосфора ( в руде , агломерате , окатышах ) <0,07-0,15%, содержание серы <0,15% в руде , до 0,6% в руде и концентрате для пр -ва окатышей",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "phosphorus and sulfur content",
+    "direction": "decreases",
+    "factor": "raw material",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рекомендованные уровни содержания фосфора ( в руде , агломерате , окатышах ) <0,07-0,15%, , содержание серы <0,15% в руде , до 0,6% в руде и концентрате для пр -ва окатышей",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "в шихте при выплавке обычных пере -дельных чугунов допускается : содержание меди 0,2%, цинка 0,1-0,2%, мышьяка 0,05-0,1%",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper, zinc, arsenic content",
+    "direction": "decreases",
+    "factor": "pig iron melt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в шихте при выплавке обычных пере -дельных чугунов допускается : содержание меди 0,2%, цинка 0,1-0,2%, мышьяка 0,05-0,1%",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология WHIMS хорошо известна , однако обычно малоэффективна при переработке тонких материалов (<10 мкм )",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "effectiveness",
+    "direction": "decreases",
+    "factor": "fine material (<10 µm)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология WHIMS хорошо известна , однако обычно малоэффективна при переработке тонких материалов (<10 мкм )",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "High Gradient Magnetic Separation (HGMS) сепарация в высокоградиентном магнитном поле для тонких парамагнитных частиц . К сожалению , эта технология зачастую оказывалась слишком дорогой для сепарации сравнительно дешевого сырья - такого как , например , железная руда .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "increases",
+    "factor": "application to cheap ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "High Gradient Magnetic Separation (HGMS) сепарация в высокоградиентном магнитном поле для тонких парамагнитных частиц . К сожалению , эта технология зачастую оказывалась слишком дорогой для сепарации сравнительно дешевого сырья - такого как , например , железная руда .",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "по мере увеличе -ния производительности оборудования возникали технические проблемы и проблемы с обслуживанием , связанные , главным образом , со склонностью с засорению ( забиванию )",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "maintenance issues",
+    "direction": "increases",
+    "factor": "equipment productivity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по мере увеличе -ния производительности оборудования возникали технические проблемы и проблемы с обслуживанием , связанные , главным образом , со склонностью с засорению ( забиванию )",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Эти проблемы были преодолены в разработан -ном китайским институтом Ganzhou Nonferrous Metallurgy Research Institute в 1988 г . магнитном сепараторе в высокоградиентном пульсирующем магнитном поле с вертикальным кольцом SLon.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "problem mitigation",
+    "direction": "decreases",
+    "factor": "previous separator issues",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти проблемы были преодолены в разработан -ном китайским институтом Ganzhou Nonferrous Metallurgy Research Institute в 1988 г . магнитном сепараторе в высокоградиентном пульсирующем магнитном поле с вертикальным кольцом SLon.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Этот способ дает возможность получить более чистые концентраты из сырья крупностью менее 100 мкм (<1,3 мм до ~10 мкм ) и показал свою экономическую жизнеспособ -ность при высокой производительности .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentrate purity and economic viability",
+    "direction": "increases",
+    "factor": "feed size <100 µm",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Этот способ дает возможность получить более чистые концентраты из сырья крупностью менее 100 мкм (<1,3 мм до ~10 мкм ) и показал свою экономическую жизнеспособ -ность при высокой производительности .",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В Китае имеются большие ресурсы низкосортной железной руды с содержанием порядка 30%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ore grade",
+    "direction": "decreases",
+    "factor": "iron content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Китае имеются большие ресурсы низкосортной железной руды с содержанием порядка 30%",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология High Gradient Magnetic Separation (HGMS) зачастую оказывалась слишком дорогой для сепарации сравнительно дешевого сырья — такого как, например, железная руда.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К сожалению , эта технология зачастую оказывалась слишком дорогой для сепарации сравнительно дешевого сырья -такого как , например , железная руда .",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.81,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "При увеличении производительности оборудования возникали технические проблемы и проблемы с обслуживанием, связанные со склонностью к засорению (забиванию).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operational issues",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по мере увеличе -ния производительности оборудования возникали технические проблемы и проблемы с обслуживанием , связанные , главным образом , со склонностью с засорению ( забиванию ).",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Разработанный китайским институтом Ganzhou Nonferrous Metallurgy Research Institute в 1988 г. магнитный сепаратор в высокоградиентном пульсирующем магнитном поле с вертикальным кольцом SLon преодолел указанные проблемы.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Эти проблемы были преодолены в разработан -ном китайским институтом Ganzhou Nonferrous Metallurgy Research Institute в 1988 г . магнитном сепараторе в высокоградиентном пульсирующем магнитном поле с вертикальным кольцом SLon.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "SLon дает возможность получить более чистые концентраты из сырья крупностью менее 100 мкм (<1,3 мм до ~10 мкм) и показал свою экономическую жизнеспособность при высокой производительности.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product purity / economics",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Этот способ дает возмож -ность получить более чистые концентраты из сырья крупностью менее 100 мкм (&lt;1,3 мм до ~10 мкм ) и показал свою экономическую жизнеспособ -ность при высокой производительности .",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В Китае имеются большие ресурсы низкосортной железной руды с содержанием порядка 30 %.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Развитие этого направления именно в Китае объясняется тем , что в Китае имеются большие ресурсы низкосортной железной руды с содержанием порядка 30%.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Установлено более 500 сепараторов типа SLon.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В настоящее время установлено более 500 таких сепараторов .",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Окатыши обладают унифицированными размерами, обычно в узком интервале 9‑16 мм, содержанием железа 63‑68 % и пористостью 25‑30 %, что обеспечивает быструю восстановимость и высокую степень металлизации.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "- -имеют унифицированные размеры , обычно заключенные в узком интер -вале 9-16 мм ; - -являются достаточно чистым сырьем -содержание железа 63-68%; - -переработка их экономически эффективна , т . к . фактически нет потерь при прокаливании , а высокая и равномерная пористость (25-30%) обеспе -чивает быстрое восстановление и достижение высокой степени металлиза -ции ;",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Производство DRI всё больше базируется на окатышах.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "feedstock",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "растущее производство DRI всё больше базируется на окатышах .",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Смесь тонкоизмельчённой железной руды с водой до влажности ≈9 % и небольшим количеством связующих (≈0,5 %) и флюсов (1‑5 %) производится в барабанных смесителях мощностью до 1200 т/ч.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "- -к тонкоизмельченной железной руде добавляют воду с тем , чтобы влаж -ность равнялась примерно 9% - -руду смешивают с небольшим количеством связующих , например , бен -тонитом ( примерно 0,5%) и флюсами , такими как : известняк , оливин , до -ломит (1-5%). Смешение осуществляется в непрерывно функционирую -щем барабане или смесителях барабанного типа производительностью до 1200 т / час .",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:куба_железо_2012-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

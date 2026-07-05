@@ -1,0 +1,710 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "title": "ИС-3-2017. Никелевая продукция.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ИС-3-2017. Никелевая продукция.docx.md",
+   "artifact_sha256": "5331475ed53dfd1f3e1fe4013e085acfc5b93d97f16f124f6971f4cd2f7b8e47",
+   "okf_raw_path": "Обзоры/ИС-3-2017. Никелевая продукция.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Подавляющая часть получаемого никеля используется при производстве легированных сталей и сплавов, которые отличаются жаропрочностью, высокими механическими, антикоррозионными, магнитными, электрическими и термоэлектрическими свойствами.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application",
+    "direction": "increases",
+    "factor": "nickel",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Подавляющая часть получаемого никеля используется при производстве легированных сталей и сплавов, которые отличаются жаропрочностью, высокими механическими, антикоррозионными, магнитными, электрическими и термоэлектрическими свойствами.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Применяется для нанесения антикоррозионных покрытий (никелирования) различных металлов и сплавов; для производства щелочных аккумуляторов, специальной химической аппаратуры, в аэрокосмической промышленности и пр.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "usage",
+    "direction": "increases",
+    "factor": "nickel",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применяется для нанесения антикоррозионных покрытий (никелирования) различных металлов и сплавов; для производства щелочных аккумуляторов, специальной химической аппаратуры, в аэрокосмической промышленности и пр.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Выбор того или иного вида никелевой продукции зависит от требований покупателя, способа дальнейшего применения и т.д.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dependency",
+    "direction": "nonmonotonic",
+    "factor": "customer requirements",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выбор того или иного вида никелевой продукции зависит от требований покупателя, способа дальнейшего применения и т.д.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "На Лондонской Бирже металлов зарегистрированы марки никеля, выпускаемые в виде брикетов, дроби, полноразмерных и резанных катодов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product forms",
+    "direction": "nonmonotonic",
+    "factor": "LME",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На Лондонской Бирже металлов зарегистрированы марки никеля, выпускаемые в виде брикетов, дроби, полноразмерных и резанных катодов.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Полноразмерные катоды выпускаются в виде листов размером 72 см x 103 см и толщиной около 15 мм.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "dimensions",
+    "direction": "nonmonotonic",
+    "factor": "full-size cathodes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полноразмерные катоды выпускаются в виде листов размером 72 см x 103 см и толщиной около 15 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "На рынок выпускается в связках массой 1800 кг.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "batch mass",
+    "direction": "nonmonotonic",
+    "factor": "full-size cathodes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На рынок выпускается в связках массой 1800 кг.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Резанные катоды ... имеют толщину около 15 мм.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "thickness",
+    "direction": "nonmonotonic",
+    "factor": "cut cathodes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это никель высокой частоты, с гладкой поверхностью, имеющий толщину около 15 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Потребителю отпускается в пакетах по 10 кг, упакованных в коробки (5 пакетов в коробке, 20 коробок на поддоне) или в стальных бочках по 250 кг (4 бочки на поддоне).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "package size",
+    "direction": "nonmonotonic",
+    "factor": "cut cathodes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Потребителю отпускается в пакетах по 10 кг, упакованных в коробки (5 пакетов в коробке, 20 коробок на поддоне) или в стальных бочках по 250 кг (4 бочки на поддоне).",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Никелевая дробь ... представляют собой высокочистый никель, широко используемый при производстве сплавов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purity",
+    "direction": "increases",
+    "factor": "nickel powder",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Никелевая дробь марки VALE NICKEL PELLETS ... представляют собой высокочистый никель, широко используемый при производстве сплавов.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Выпускаемый продукт на Copper Cliff имеет сферическую форму (дробь) диаметром менее 20 мм.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "nonmonotonic",
+    "factor": "nickel pellets",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выпускаемый продукт на Copper Cliff имеет сферическую форму (дробь) диаметром менее 20 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "На рынок отправляется в бочках по 250 кг (4 бочки на поддон), или в мешках по 2 тонны.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "container mass",
+    "direction": "nonmonotonic",
+    "factor": "nickel pellets",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На рынок отправляется в бочках по 250 кг (4 бочки на поддон), или в мешках по 2 тонны.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "На британском заводе к бочкам и мешкам добавляются крупные бочки по 1000 кг.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "container mass",
+    "direction": "increases",
+    "factor": "nickel pellets",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на британском заводе к бочкам и мешкам добавляются крупные бочки по 1000 кг.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Никель марки NICKEL HP ... электролитный никель высокой частоты, что способствует его применимости при производстве суперсплавов, специальных сталей для аэрокосмической, авиационной и энергетической промышленности.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "NICKEL HP",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Никель марки NICKEL HP (сост. в табл. 1.2) – электролитный никель высокой частоты, что способствует его применимости при производстве суперсплавов, специальных сталей для аэрокосмической, авиационной и энергетической промышленности.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.81,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "На рынок выпускается в виде полноразмерных и резанных катодов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product types",
+    "direction": "nonmonotonic",
+    "factor": "NICKEL HP",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На рынок выпускается в виде полноразмерных и резанных катодов.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Никель марки NIKKELVERK NICKEL (состав указан в таб. 1.2) предназначен для использования в гальванике, производстве сплавов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "intended use",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Никель марки NIKKELVERK NICKEL (состав указан в таб. 1.2) предназначен для использования в гальванике, производстве сплавов.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.81,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Nickel P-Pellets производятся с помощью уникального карбонильного процесса.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Nickel P-Pellets производятся с помощью уникального карбонильного процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.81,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Высокая частота и удобная форма выпуска определяют применимость этого вида никелевой продукции в гальванике.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability for galvanics",
+    "direction": "increases",
+    "factor": "high frequency and convenient form",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Высокая частота и удобная форма выпуска определяют применимость этого вида никелевой продукции в гальванике.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Точный контроль количества серы в никеле осуществляется для максимального повышения его электрохимической активности.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "electrochemical activity",
+    "direction": "increases",
+    "factor": "precise sulfur control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Точный контроль количества серы в никеле осуществляется для максимального повышения его электрохимической активности.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Сера находящаяся в продукте не попадает в раствор.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сера находящаяся в продукте не попадает в раствор.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Этот никель привлекателен для широкого спектра областей применения от гальваники и электроники, до машиностроения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "range of applications",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Этот никель привлекателен для широкого спектра областей применения от гальваники и электроники, до машиностроения.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Nickel S-Rounds получают электролитически на канадском заводе Thompson.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Nickel S-Rounds получают электролитически на канадском заводе Thompson.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Плавное равномерное растворение, 100% выход по току, низкие потенциалы растворения при высоких плотностях тока, пониженное энергопотребление по сравнению с никелем свободным от серы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плавное равномерное растворение, 100% выход по току, низкие потенциалы растворения при высоких плотностях тока, пониженное энергопотребление по сравнению с никелем свободным от серы.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Эти и другие характеристики определяют применимость никеля S-Rounds в гальванике и многих других сферах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability for galvanics and other fields",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти и другие характеристики определяют применимость никеля S-Rounds в гальванике и многих других сферах.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Этот электролитный никель получают путем электрорафинирования на канадских заводах Thompson и Long Harbour.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "source",
+    "direction": "increases",
+    "factor": "purity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Этот электролитный никель получают путем электрорафинирования на канадских заводах Thompson и Long Harbour.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Чистота продукта (высокое содержание Ni, низкое содержание примесей) и его форма делают его идеально применимым при производстве сплавов, в ковшевой металлургии и пр. областях.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "increases",
+    "factor": "purity and shape",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чистота продукта (высокое содержание Ni, низкое содержание примесей) и его форма делают его идеально применимым при производстве сплавов, в ковшевой металлургии и пр. областях.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "По химическому составу лучше, чем ASTM B39",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "chemical composition",
+    "direction": "increases",
+    "factor": "comparison to ASTM B39",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По химическому составу лучше, чем ASTM B39",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Чистота этого продукта подходит для производства никельсодержащих сплавов, включая низколегированные стали и чугуны, жаропрочные сплавы, сплавы на основе меди и нержавеющую сталь.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purity suitability",
+    "direction": "increases",
+    "factor": "product purity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чистота этого продукта подходит для производства никельсодержащих сплавов, включая низколегированные стали и чугуны, жаропрочные сплавы, сплавы на основе меди и нержавеющую сталь.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Благодаря своей форме и улучшенным характеристикам, эти диски нашли применение в ковшевой металлургии и пр. областях.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "shape and improved characteristics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Благодаря своей форме и улучшенным характеристикам, эти диски нашли применение в ковшевой металлургии и пр. областях.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Nickel Plating Chips представляет собой высокочистый никель, получаемый по карбонильной технологии на заводах Copper Cliff (Канада) и Clydach (Великобритания).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purity",
+    "direction": "increases",
+    "factor": "production method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Nickel Plating Chips представляет собой высокочистый никель, получаемый по карбонильной технологии на заводах Copper Cliff (Канада) и Clydach (Великобритания).",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Этот никель нашел основное применение в гальванике благодаря своим химическим (состав) и физическим (форма) характеристикам.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "chemical and physical characteristics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Этот никель нашел основное применение в гальванике благодаря своим химическим (состав) и физическим (форма) характеристикам.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "При растворении оставляет небольшое количество осадка, который может содержаться в анодных сумках (корзинах).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "residue generation",
+    "direction": "decreases",
+    "factor": "amount of precipitate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При растворении оставляет небольшое количество осадка, который может содержаться в анодных сумках (корзинах).",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Tonimet обеспечивает высокое содержание никеля, низкое содержание остаточных примесей, высокую пропускную способность, низкие производственные затраты и пр. характеристики, требующиеся производителям стали и сплавов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "high Ni content, low residual impurities, high throughput, low p",
+    "direction": "increases",
+    "factor": "material quality",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Tonimet обеспечивает высокое содержание никеля, низкое содержание остаточных примесей, высокую пропускную способность, низкие производственные затраты и пр. характеристики, требующиеся производителям стали и сплавов.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Utility Nickel, связанные с его формой и размером (удобная транспортировка, отсутствие пыли при использовании, высокое содержание Ni, низкое содержание примесей и пр.) делают его идеально подходящим для производства высококачественных нержавеющих и легированных сталей по минимальной цене.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability for high‑quality stainless and alloy steel productio",
+    "direction": "increases",
+    "factor": "product form and size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Utility Nickel, связанные с его формой и размером (удобная транспортировка, отсутствие пыли при использовании, высокое содержание Ni, низкое содержание примесей и пр.) делают его идеально подходящим для производства высококачественных нержавеющих и легированных сталей по минимальной цене.",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Utility Nickel выпускается в виде дроби неправильной формы размерами 3-80 мм (>96%).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "nonmonotonic",
+    "factor": "size range",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Utility Nickel ... выпускается в виде дроби неправильной формы размерами 3-80 мм (>96%).",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Utility Rounds ... идеальной добавкой при производстве нержавеющей стали.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effectiveness as additive",
+    "direction": "increases",
+    "factor": "product shape",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отличительная форма этого никелевого продукта делает его идеальной добавкой при производстве нержавеющей стали.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Handy Nickel ... содержит чрезвычайно низкое количество примесей и обеспечивает высококачественное покрытие.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impurity level and coating quality",
+    "direction": "decreases",
+    "factor": "impurities",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Handy Nickel ... содержит чрезвычайно низкое количество примесей и обеспечивает высококачественное покрытие.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.81,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Широкий спектр областей применения никеля, предполагает развитие и внедрение различных форм выпуска никелевой продукции.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application scope",
+    "direction": "increases",
+    "factor": "variety of product forms",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Широкий спектр областей применения никеля, предполагает развитие и внедрение различных форм выпуска никелевой продукции.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  },
+  {
+   "text": "Стоимость такой продукции (как правило, целевого использования) выше, чем стоимость марок никеля, зарегистрированных на ЛБМ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "targeted product forms",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стоимость такой продукции (как правило, целевого использования) выше, чем стоимость марок никеля, зарегистрированных на ЛБМ.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:ис-3-2017-никелевая-продукция-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

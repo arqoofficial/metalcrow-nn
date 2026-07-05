@@ -1,0 +1,839 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_09_16-pdf",
+   "title": "CM_09_16.pdf",
+   "doc_type": "article",
+   "year": 2016,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2016\\CM_09_16.pdf.md",
+   "artifact_sha256": "cbbc2c6bf12d27218cb574d25df41d84b313e925530ebaf63fffb4273a4e6477",
+   "okf_raw_path": "Журналы/Цветные металлы/2016/CM_09_16.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:безоболочковые-твэлы",
+   "label": "безоболочковые твэлы",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:одноэлементные-электрогенерирующие-каналы-эгк",
+   "label": "одноэлементные электрогенерирующие каналы (ЭГК)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:зеркала-из-бериллия-и-карбида-кремния",
+   "label": "зеркала из бериллия и карбида кремния",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:плотное-топливо",
+   "label": "плотное топливо",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_09_16-pdf:0",
+   "document_id": "doc:cm_09_16-pdf",
+   "title": "Энергетический пуск реактора ЯРД‑ИВГ‑1 и последующие натурные испытания",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Первый энергетический пуск реактора ЯРД‑ИВГ‑1, затем 15 натурных испытаний",
+       "temperature_text": "3100 К",
+       "duration_text": "не указано"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 3373.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:безоболочковые-твэлы",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "удельное тепловыделение",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "МВт/л",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "с максимальной температурой по водороду 3100 К и удельным тепловыделением до 10 МВт/л",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "проведено 15 натурных испытаний",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "кол-во испытаний",
+      "direction": "increases",
+      "factor": "15",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в последующие годы проведено 15 натурных испытаний",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 1975 г . был осуществлен первый энергетический пуск реактора ЯРД - ИВГ-1 и в последующие годы проведено 15 натурных испытаний с максимальной температурой по водороду 3100 К и удельным тепловыделением до 10 МВт/л",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_09_16-pdf:1",
+   "document_id": "doc:cm_09_16-pdf",
+   "title": "Термоэмиссионная ЯЭУ «Топаз‑2» – испытания в наземных условиях",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Создание и испытание термоэмиссионной ядерной энергетической установки с выходной электрической мощностью 6 кВт",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:одноэлементные-электрогенерирующие-каналы-эгк",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "выходная электрическая мощность",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "кВт",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "термоэмиссионная ЯЭУ с выходной электрической мощностью 6 кВт",
+     "locator_kind": "md_para",
+     "locator": "para:132",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "кол‑во изготовленных каналов",
+     "scope": "material",
+     "material_id": "mat:одноэлементные-электрогенерирующие-каналы-эгк",
+     "value": {
+      "min": 1000.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в ходе отработки было изготовлено и испытано более 1000 одноэлементных электрогенерирующих каналов (ЭГК)",
+     "locator_kind": "md_para",
+     "locator": "para:132",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "разработана предпосылка для ЯЭУ мощностью 10‑50 кВт и ресурсом работы до 10 лет",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "мощность и ресурс",
+      "direction": "increases",
+      "factor": "10‑50 кВт, 10 лет",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "созданы предпосылки для разработки ЯЭУ большей мощности (до 10-50 кВт) и ресурсом работы до 10 лет",
+     "locator_kind": "md_para",
+     "locator": "para:132",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Впервые в мире была создана и успешно прошла весь цикл наземных испытаний термоэмиссионная ЯЭУ с выходной электрической мощностью 6 кВт (фото 4). В ходе отработки было изготовлено и испытано более 1000 одноэлементных электрогенерирующих каналов (ЭГК) и созданы предпосылки для разработки ЯЭУ большей мощности (до 10-50 кВт) и ресурсом работы до 10 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_09_16-pdf:2",
+   "document_id": "doc:cm_09_16-pdf",
+   "title": "Лазерные металлооптические системы – испытания зеркал",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Создание зеркал для мощных лазерных установок, испытание их интенсивности излучения",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:зеркала-из-бериллия-и-карбида-кремния",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "интенсивность излучения",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "кВт/см2",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "интенсивность излучения составляла до 50 кВт/см 2",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "размер зеркала",
+     "scope": "material",
+     "material_id": "mat:зеркала-из-бериллия-и-карбида-кремния",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "м",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "создание зеркал размером до 1 м на основе бериллия и карбида кремния",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В результате были созданы опытные образцы дачи лазерного излучения на большие расстояния. различнх типов металлооптики ... интенсивность излучения составляла до 50 кВт/см 2 . Для зеркал различного назначения был использован широкий спектр материалов: медь, бериллий, молибден, вольфрам, карбид кремния, кремний. Качественно новым этапом в разработке конструкций было создание зеркал размером до 1 м на основе бериллия и карбида кремния (фото 5) [3].",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_09_16-pdf:3",
+   "document_id": "doc:cm_09_16-pdf",
+   "title": "отработка технологии плотного топлива",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "замена высокообогащенного топлива на низкообогащенное в исследовательских установках и реакторах"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:плотное-топливо",
+     "role": "atmosphere"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "отработка технологии плотного топлива с выпуском опытных партий, работы по замене высокообогащенного топлива на низкообогащенное в исследовательских установках и реакторах, в том числе на критстенде «Гиацинт» в Белоруссии, в реакторах ИГР и ИВГ-1 в Казахстане",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The journal has been published since 1926",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "start year",
+    "direction": "increases",
+    "factor": "1926",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The journal has been published since 1926",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Publisher: 'Ore and Metals' publishing house, Moscow",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "publisher",
+    "direction": "increases",
+    "factor": "'Ore and Metals' publishing house, Moscow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Publisher: 'Ore and Metals' publishing house, Moscow",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Chief Editor: Alexander Putilov",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "chief editor",
+    "direction": "increases",
+    "factor": "Alexander Putilov",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Chief Editor: Alexander Putilov",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Internet: www.rudmet.com; e-mail: tsvetmet@rudmet.com",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "website",
+    "direction": "increases",
+    "factor": "www.rudmet.com",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Internet: www.rudmet.com; e-mail: tsvetmet@rudmet.com",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Сегодня это предприятие - флагман отечественного циркониевого производства.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "status",
+    "direction": "increases",
+    "factor": "circulating metal production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сегодня это предприятие - флагман отечественного циркониевого производства.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Все эти примеры свидетельствуют о неразрывной связи цветных металлов и мирного использования атомной энергии, которое сегодня является одним из приоритетных направлений инновационного развития.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "relationship",
+    "direction": "increases",
+    "factor": "color metals and peaceful nuclear energy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все эти примеры свидетельствуют о неразрывной связи цветных металлов и мирного использования атомной энергии, которое сегодня является одним из приоритетных направлений инновационного развития.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1962 г . институт возглавил М. В. Якутович.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "leadership",
+    "direction": "increases",
+    "factor": "M. V. Yakutovich",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1962 г . институт возглавил М. В. Якутович.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.81,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология изготовления бездефектных блоков сложной конфигурации из гидрида циркония и его сплавов применима для замедлителей реакторов ЯРД и блоков биозащиты из гидрида титана для транспортных ядерных энергетических установок.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "применимость",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "технология изготовления бездефектных блоков сложной конфигурации из гидрида циркония и его сплавов для замедлителей реакторов ЯРД и блоков биозащиты из гидрида титана для транспортных ядерно-энергетических установок (ЯЭУ) и др.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.81,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Ресурс работы термоэмиссионных ядерных энергетических установок может достигать 10 лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ресурс работы",
+    "direction": "increases",
+    "factor": "10 лет",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "и ресурсом работы до 10 лет",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Интенсивность излучения лазерных зеркал может достигать до 50 кВт/см2.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "интенсивность излучения",
+    "direction": "increases",
+    "factor": "до 50 кВт/см2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "интенсивность излучения составляла до 50 кВт/см 2",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Зеркала размером до 1 м могут быть изготовлены из бериллия и карбида кремния.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "размер зеркала",
+    "direction": "increases",
+    "factor": "до 1 м",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "создание зеркал размером до 1 м на основе бериллия и карбида кремния",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1989‑1990 гг. проведена замена газоохлаждаемых тепловыделяющих сборок (ТВС) на водоохлаждаемые в реакторе ИВГ‑1 для создания реакторного комплекса, позволяющего проводить испытания в петлевом канале ТВС реакторов различного типа и обеспечивать экологическую безопасность испытаний.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "цель реконструкции",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цель реконструкции - создание реакторного комплекса для испытаний в петлевом канале ТВС реакторов различного типа и обеспечение экологической безопасности испытаний.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "создание термоэмиссионной ЯЭУ повышенной мощности",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "создание термоэмиссионной ЯЭУ повышенной мощности",
+   "locator_kind": "md_para",
+   "locator": "para:183",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "пользуемых ядерных материалов, в том числе зарубежных, с возвращением в ядерный топливный цикл свыше 20 т урана c обогащением 19,75 % по ура ну-235",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "пользуемых ядерных материалов, в том числе зарубежных, с возвращением в ядерный топливный цикл свыше 20 т урана c обогащением 19,75 % по ура ну-235",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "наращивание выпуска датчиков температуры и технологических параметров для быстрых реакторов",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "наращивание выпуска датчиков температуры и технологических параметров для быстрых реакторов",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "сплав опыта ветеранов и энергии молодых коллег позволит достойно развивать традиционные направления работ института и находить новые решения для задач, стоящих перед отраслью и отечеством",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Сотрудники предприятия уверены, что «сплав» опыта ветеранов и энергии молодых коллег позволит достойно развивать традиционные направления работ института и находить новые решения для задач, стоящих перед отраслью и отечеством",
+   "locator_kind": "md_para",
+   "locator": "para:186",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "развитие адаптивных оптических систем, других оптических элементов и диэлектрических оптических покрытий для мощных импульсных и непрерывных лазеров, переход к мелкосерийному производству",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "дальнейшее развитие адаптивных оптических систем, других оптических элементов и диэлектрических оптических покрытий для мощных импульсных и непрерывных лазеров, переход к мелкосерийному производству",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "разработка и изготовление зеркал для международного проекта ИТЭР (International Thermonuclear Experimental Reactor), включая зеркала из карбида кремния",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "разработка и изготовление зеркал для международного проекта ИТЭР (International Thermonuclear Experimental Reactor), включая зеркала из карбида кремния",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "инвестиции в сектор сократятся на 4,0 % в ближайшие 12 лет",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "инвестиции",
+    "direction": "decreases",
+    "factor": "4,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в ближайшие 12 лет инвестиции в сектор сократятся на 4,0 % (ранее на 7,0 %)",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое производство никеля в 2016 г. составит 1,913 млн т",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "мировое производство никеля в 2016 г . составит 1,913 млн т (1,983 млн т в 2015 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.81,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "дефицит мирового рынка никеля в январе‑апреле текущего года составил 0,0071 млн т",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в январе - апреле текущего года дефицит мирового рынка никеля составил 0,0071 млн т (профицит 0,0199 млн т в 2015 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое потребление никеля в январе‑мае 2016 г. составило 770,6 тыс. т",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в январе - мае 2016 г ., по данным World Bureau of Metal Statistics (Великобритания), мировое потребление никеля составило 770,6 тыс. т",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.81,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на никель в 2016 г. составит 9269,0 долл./т",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "по прогнозу Bank of America Merrill Lynch (США), мировая цена на никель в 2016 г . составит 9269,0 долл./т",
+   "locator_kind": "md_para",
+   "locator": "para:207",
+   "confidence": 0.81,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на никель в 2017 г. составит 10 500,0 долл./т",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в 2017 г . - 10 500,0 долл./т",
+   "locator_kind": "md_para",
+   "locator": "para:207",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Vale (Бразилия) выпустила 78,6 тыс. т никеля во II кв. 2016 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Во II кв. 2016 г . Vale (Бразилия) выпустила 78,6 тыс. т никеля (67,1 тыс. т во II кв. 2015 г ., 73,5 тыс. т в I кв. 2016 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "BHP Billiton (Австралия Великобритания) произвела 17,39 тыс. т никеля в апреле‑июне 2016 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В апреле - июне 2016 г. BHP Billiton (Австралия Великобритания) произвела 17,39 тыс. т никеля",
+   "locator_kind": "md_para",
+   "locator": "para:209",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В рамках программы технического перевооружения в 2016-2017 гг. ЗАО «Русская медная компания» (РМК) (Россия) планирует инвестировать в модернизацию и расширение ЗАО «Карабашмедь» (Россия) 3,5 млрд руб.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "3,5 млрд руб.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В рамках программы технического перевооружения в 2016-2017 гг. ЗАО «Русская медная компания» (РМК) (Россия) планирует инвестировать в модернизацию и расширение ЗАО «Карабашмедь» (Россия) 3,5 млрд руб.",
+   "locator_kind": "md_para",
+   "locator": "para:215",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Мощность предприятия увеличится с 80,0 до 120,0 тыс. т черновой меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "с 80,0 до 120,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность предприятия увеличится с 80,0 до 120,0 тыс. т черновой меди.",
+   "locator_kind": "md_para",
+   "locator": "para:215",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Cohilco (Чили), мировая цена на медь в 2016 г. составит 4740,0 долл./т, в 2017 г. 4850,0 долл./т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "world copper price",
+    "direction": "increases",
+    "factor": "4740,0 долл./т в 2016 г.; 4850,0 долл./т в 2017 г.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Cohilco (Чили), мировая цена на медь в 2016 г. составит 4740,0 долл./т, в 2017 г. 4850,0 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:221",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Morgan Stanley (США) понизил прогноз мировой цены на медь в 2016 г. на 9,0 % до 4616,0 долл./т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "world copper price",
+    "direction": "decreases",
+    "factor": "на 9,0 % до 4616,0 долл./т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Morgan Stanley (США) понизил прогноз мировой цены на медь в 2016 г. на 9,0 % до 4616,0 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:222",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Во II кв. 2016 г . Anglo-American (Великобритания) по сравнению с аналогичным периодом прошлого года сократила выпуск меди на 8,0 % до 144,2 тыс. т вследствие сильных снегопадов, затруднивших работу рудника Los Bronces (Чили).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper output",
+    "direction": "decreases",
+    "factor": "на 8,0 % до 144,2 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Во II кв. 2016 г . Anglo-American (Великобритания) по сравнению с аналогичным периодом прошлого года сократила выпуск меди на 8,0 % до 144,2 тыс. т вследствие сильных снегопадов, затруднивших работу рудника Los Bronces (Чили).",
+   "locator_kind": "md_para",
+   "locator": "para:225",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В июле 2016 г. ОК «Русал» (Россия) и Hebei Joy Sense Cable (Китай) подписали соглашение о создании СП (50 %/50 %) Rusal-Hebei Joy Sense Cable Special Aluminum Products (Китай) для производства и продажи современной кабельной продукции, в том числе высокотемпературных кабелей для воздушных линий из алюминиево-циркониевого сплава по патенту ОК «Русал» , кабельно-проводниковой продукции для солнечной и ветровой энергетики. Мощность предприятия - 72,0 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "72,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В июле 2016 г. ОК «Русал» (Россия) и Hebei Joy Sense Cable (Китай) подписали соглашение о создании СП (50 %/50 %) Rusal-Hebei Joy Sense Cable Special Aluminum Products (Китай) для производства и продажи современной кабельной продукции, в том числе высокотемпературных кабелей для воздушных линий из алюминиево-циркониевого сплава по патенту ОК «Русал» , кабельно-проводниковой продукции для солнечной и ветровой энергетики. Мощность предприятия - 72,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:229",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  },
+  {
+   "text": "По сведениям Главного управления таможен Китая, в 1-м полугодии 2016 г. экспорт алюминия по сравнению с аналогичным периодом прошлого года сократился на 9,0 % до 2,28 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "aluminum export volume",
+    "direction": "decreases",
+    "factor": "на 9,0 % до 2,28 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По сведениям Главного управления таможен Китая, в 1-м полугодии 2016 г. экспорт алюминия по сравнению с аналогичным периодом прошлого года сократился на 9,0 % до 2,28 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:234",
+   "confidence": 0.9,
+   "document_id": "doc:cm_09_16-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

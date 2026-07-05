@@ -1,0 +1,345 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-01-22-pdf",
+   "title": "ЦМ 01-22.pdf",
+   "doc_type": "article",
+   "year": 2022,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2022\\ЦМ 01-22.pdf.md",
+   "artifact_sha256": "58adda4f3589262e4cca577ecb906fa863a430aaa26f707682f06a39f8bc1bcd",
+   "okf_raw_path": "Журналы/Цветные металлы/2022/ЦМ 01-22.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:geothermal-brine",
+   "label": "geothermal brine",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lithium-compounds",
+   "label": "lithium compounds",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-01-22-pdf:0",
+   "document_id": "doc:цм-01-22-pdf",
+   "title": "Eramet three‑year research on lithium carbonate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "production of carbon‑free lithium carbonate of battery quality from geothermal brine under pressure at high temperature",
+       "temperature_text": "high temperature",
+       "duration_text": "three years"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:geothermal-brine",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "It is possible to obtain carbon‑free lithium carbonate of battery quality from geothermal brine under pressure at high temperature.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "feasibility",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На основании результатов трехлетних исследований Eramet (Франция) доказана возможность получения безуглеродного карбоната лития аккумуляторного качества из геотермальной рапы под давлением при высоких температурах.",
+     "locator_kind": "md_para",
+     "locator": "para:139",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На основании результатов трехлетних исследований Eramet (Франция) доказана возможность получения безуглеродного карбоната лития аккумуляторного качества из геотермальной рапы под давлением при высоких температурах.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-01-22-pdf:1",
+   "document_id": "doc:цм-01-22-pdf",
+   "title": "Rio Tinto pilot‑scale lithium plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "pilot installation for lithium compounds production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lithium-compounds",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pilot plant capacity",
+     "scope": "material",
+     "material_id": "mat:lithium-compounds",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Мощность пилотной установки согласно проекту 2,0 тыс. т/год соединений лития.",
+     "locator_kind": "md_para",
+     "locator": "para:140",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The pilot plant will produce 2,0 kt per year of lithium compounds.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "capacity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Мощность пилотной установки согласно проекту 2,0 тыс. т/год соединений лития.",
+     "locator_kind": "md_para",
+     "locator": "para:140",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Мощность пилотной установки согласно проекту 2,0 тыс. т/год соединений лития.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Технологический цикл изготовления каждого изделия, от создания модели до конечной отливки, составляет от 60 до 90 суток.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технологический цикл изготовления каждого изделия, от создания модели до конечной отливки, составляет от 60 до 90 суток.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:цм-01-22-pdf",
+   "process": "casting"
+  },
+  {
+   "text": "Бронзовое литье и сегодня не утратило первенства как направление изобразительного искусства, поскольку его отличает уникальная точность передачи авторского замысла, особенностей русской культуры и ее истории.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "artistic relevance",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Бронзовое литье и сегодня не утратило первенства как направление изобразительного искусства, поскольку его отличает уникальная точность передачи авторского замысла, особенностей русской культуры и ее истории.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.81,
+   "document_id": "doc:цм-01-22-pdf",
+   "process": "casting"
+  },
+  {
+   "text": "Glencore will cut zinc output to 0,915 млн т in 2024 because of depletion of deposits in Bolivia and Australia.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "decreases",
+    "factor": "depletion of deposits",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К 2024 г. Glencore (Швейцария) сократит выпуск цинка до 0,915 млн т (1,17 млн т в 2021 г .) в связи с истощением месторождений в Боливии и Австралии.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9,
+   "document_id": "doc:цм-01-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Indonesia plans to ban bauxite exports starting in 2023.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "export availability",
+    "direction": "decreases",
+    "factor": "government policy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С 2023 г . Индонезия планирует запретить экспорт бокситов.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:цм-01-22-pdf",
+   "process": null
+  },
+  {
+   "text": "World zinc price in 2022 is expected to be 3500,0 долл/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2022 г. мировая цена на цинк, по оценке Commo dity Research Unit (Великобритания), составит 3500,0 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:цм-01-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Lithium market will experience a deficit from 2023 onward.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "balance",
+    "direction": "decreases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С 2023 г. на рынке лития прогнозируется дефицит.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:цм-01-22-pdf",
+   "process": null
+  },
+  {
+   "text": "И. Н. Плак син - автор порядка 800 книг , статей и изобретений, которые широко цитирует научная общественность в России и за рубежом, и они остаются весьма актуальными для развития науки и технологии.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "relevance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "И. Н. Плак син - автор порядка 800 книг , статей и изобретений, которые широко цитирует научная общественность в России и за рубежом, и они остаются весьма актуальными для развития науки и технологии.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:цм-01-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Северо-Кавказский горно-металлургический институт (государственный технологический университет) в 2021 г . отметил свое 90-летие.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "age",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Северо-Кавказский горно-металлургический институт (государственный технологический университет) в 2021 г . отметил свое 90-летие.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:цм-01-22-pdf",
+   "process": null
+  },
+  {
+   "text": "В регионе успешно осуществляли добычу и переработку сырья с получением свинца, цинка, серебра, вольфрама, молибдена, кадмия, индия и т. д., что обеспечивало в прошлом потребности отечественной промышленности.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "resource availability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В регионе успешно осуществляли добычу и переработку сырья с получением свинца, цинка, серебра, вольфрама, молибдена, кадмия, индия и т. д., что обеспечивало в прошлом потребности отечественной промышленности.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.81,
+   "document_id": "doc:цм-01-22-pdf",
+   "process": null
+  },
+  {
+   "text": "В процессе деятельности горнопромышленного комплекса Республики при получении цветных металлов и их соединений образовались сотни миллионов тонн разных отходов, которые в настоящее время необходимо утилизировать, чтобы обеспечить экологически безопасное состояние окружающей среды в регионе.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "increases",
+    "factor": "metal production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В процессе деятельности горнопромышленного комплекса Республики при получении цветных металлов и их соединений образовались сотни миллионов тонн разных отходов, которые в настоящее время необходимо утилизировать, чтобы обеспечить экологически безопасное состояние окружающей среды в регионе.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.81,
+   "document_id": "doc:цм-01-22-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

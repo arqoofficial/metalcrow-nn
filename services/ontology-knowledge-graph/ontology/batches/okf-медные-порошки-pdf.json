@@ -1,0 +1,965 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:медные-порошки-pdf",
+   "title": "Медные порошки.pdf",
+   "doc_type": "article",
+   "year": 2017,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Медные порошки.pdf.md",
+   "artifact_sha256": "58df1e4d21f385685ebee3a41aabb94bb38e52c10df80487c6a7a7408d0a91d6",
+   "okf_raw_path": "Обзоры/Медные порошки.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:copper-leachate",
+   "label": "copper leachate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:медные-порошки-pdf:0",
+   "document_id": "doc:медные-порошки-pdf",
+   "title": "Hydrogen reduction in autoclave",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Восстановление водородом",
+       "temperature_text": "107-138 ̊C",
+       "duration_text": "одного часа"
+      },
+      "temperature": {
+       "min": 380.15,
+       "nominal": null,
+       "max": 411.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-leachate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pressure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 400.0,
+      "max": null
+     },
+     "unit": "psi",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "partial"
+     },
+     "method": null,
+     "snippet": "при парциальном давлении водорода 400 фунтов на квадратный дюйм",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "pressure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 425.0,
+      "max": null
+     },
+     "unit": "psi",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "total"
+     },
+     "method": null,
+     "snippet": "при суммарном давлении в 425 фунтов на квадратный дюйм",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Полученный порошок обычно пористый и характеризуется высокой кажущейся плотностью и высокой прочностью всырую.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "powder morphology",
+      "direction": "increases",
+      "factor": "hydrogen reduction under described conditions",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Полученные этим методом порошки обычно пористые и характеризуются высокой кажущейся плотностью и высокой прочностью всырую.",
+     "locator_kind": "md_para",
+     "locator": "para:78",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "восстановление водородом осуществляется в автоклаве при 107-138 ̊C в течение одного часа при парциальном давлении водорода 400 фунтов на квадратный дюйм, манометрических (избыточное давление) при суммарном давлении в 425 фунтов на квадратный дюйм, манометрических и добавках сгущающего агента.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "ПМ-сектор ежегодно выпускает продукции на основе меди более 60 тыс. т [1].",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "increases",
+    "factor": "copper‑based powder metallurgy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПМ-сектор ежегодно выпускает продукции на основе меди более 60 тыс. т [1].",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Объём производства «всяких» металлических порошков компанией Hoeganaes (вторая в мире компания по объёму выпуска порошков) в 2015 г. составил 285 тыс. т и «это соответствует ~25% мирового выпуска» [2].",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "company output",
+    "direction": "increases",
+    "factor": "Hoeganaes 2015",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объём производства «всяких» металлических порошков компанией Hoeganaes (вторая в мире компания по объёму выпуска порошков) в 2015 г. составил 285 тыс. т и «это соответствует ~25% мирового выпуска» [2]",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "мировой выпуск порошков в 2015 г. может составлять порядка 1,14 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global output",
+    "direction": "increases",
+    "factor": "2015 estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировой выпуск порошков в 2015 г. может составлять порядка 1,14 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2012 г., по сообщениям Powder Metallurgy [3], Китай произвел ≈45 тыс. т порошков меди и сплавов на основе меди, что составляло ≈40% мирового рынка.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "country output share",
+    "direction": "increases",
+    "factor": "China 2012",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2012 г., по сообщениям Powder Metallurgy [3], Китай произвел ≈45 тыс. т порошков меди и сплавов на основе меди, что составляло ≈40% мирового рынка.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2012 г. мировой рынок таких порошков ≈113 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global market",
+    "direction": "increases",
+    "factor": "2012 estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Получается, что в 2012 г. мировой рынок таких порошков ≈113 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "в настоящее время рынок порошков меди (и её сплавов) составляет порядка, скажем, 120-130 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global market",
+    "direction": "increases",
+    "factor": "current estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это незначительная часть менее 1% рынка рафинированной меди.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Доля железных порошков в 2014 г. составляла, по некоторым оценкам, ≈74%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "iron powder share",
+    "direction": "decreases",
+    "factor": "2014",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доля железных порошков в 2014 г. составляла, по некоторым оценкам, ≈74%.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "мировой рынок порошков цветных металлов составляет порядка 300 тыс. т, железных - около 840 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "color metal powders",
+    "direction": "increases",
+    "factor": "estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тогда, в первом приближении мировой рынок порошков цветных металлов составляет порядка 300 тыс. т, железных - около 840 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Преимущество меди заключается в том, что она плавится при более низкой температуре, чем температура спекания для железа (1120 °C) и, таким образом, легирование проходит быстро.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "melting_point",
+    "direction": "decreases",
+    "factor": "copper vs iron",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Преимущество меди заключается в том, что она плавится при более низкой температуре, чем температура спекания для железа (1120 °C) и, таким образом, легирование проходит быстро.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Ежегодные поставки порошков на основе меди для мировой ПМ-отрасли составляют, как упоминалось выше, 60+ тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual global copper‑based powder supply",
+    "direction": "increases",
+    "factor": "global PM industry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ежегодные поставки порошков на основе меди для мировой ПМ-отрасли составляют, как упоминалось выше, 60+ тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В США в 2015 г. отгрузка железных порошков для порошковой металлургии превысила 385 тыс. т, алюминиевых - 36 тыс. т, а медных - 16 тыс. т [4].",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual US powder shipments 2015",
+    "direction": "increases",
+    "factor": "US market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В США в 2015 г. отгрузка железных порошков для порошковой металлургии превысила 385 тыс. т, алюминиевых - 36 тыс. т, а медных - 16 тыс. т [4].",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В Европе производство изделий ПМ в 2015 г. увеличилось на 3% - до 235 тыс. т, в т.ч. 87% по весу - детали ПМ из железных и цветных порошков.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "European PM product output 2015",
+    "direction": "increases",
+    "factor": "Europe",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Европе производство изделий ПМ в 2015 г. увеличилось на 3% - до 235 тыс. т, в т.ч. 87% по весу - детали ПМ из железных и цветных порошков.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В денежном выражении на них пришлось только 27% из 10,4 млрд € (31% - детали из твердых материалов (режущий инструмент и изнашивающиеся/сменные детали; 16% - алмазный инструмент; 12% - спеченные магниты; 8% - полуфабрикаты ПМ; 3% - MIM).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "value share of PM products in Europe 2015",
+    "direction": "decreases",
+    "factor": "Europe",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В денежном выражении на них пришлось только 27% из 10,4 млрд € (31% - детали из твердых материалов (режущий инструмент и изнашивающиеся/сменные детали; 16% - алмазный инструмент; 12% - спеченные магниты; 8% - полуфабрикаты ПМ; 3% - MIM).",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Объём производства твёрдых материалов в Европе в 2013-2015 гг. практически не менялся и составлял ~14 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "hard material production Europe 2013‑2015",
+    "direction": "no_change",
+    "factor": "Europe",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объём производства твёрдых материалов в Европе в 2013-2015 гг. практически не менялся и составлял ~14 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Основным сектором потребления порошковых материалов в виде спечённых деталей является автомобилестроение со средней долей по миру в ~80%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "primary consumer sector for sintered PM parts",
+    "direction": "increases",
+    "factor": "global automotive",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как известно, основным сектором потребления порошковых материалов в виде спечённых деталей является автомобилестроение со средней долей по миру в ~80%.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В США в 2014 г. в одном автомобиле в среднем было 20,3 кг спечённых деталей, в Европе - 9,5 кг, в Японии - 8,9 кг, а в Индии - 5-6 кг.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average sintered part mass per vehicle 2014",
+    "direction": "increases",
+    "factor": "region",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Так, в США в 2014 г. в одном автомобиле в среднем было 20,3 кг спечённых деталей, в Европе - 9,5 кг, в Японии - 8,9 кг, а в Индии - 5-6 кг.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2015 г. было произведено ПМ‑деталей (на основе железных и медных порошков) 92,6 тыс. т [5].",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Japan PM part production 2015",
+    "direction": "increases",
+    "factor": "Japan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2015 г. было произведено ПМ‑деталей (на основе железных и медных порошков) 92,6 тыс. т [5].",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Поставки медных порошков японским изготовителям ПМ‑деталей и прочих изделий составляют около 6 тыс. т/год, колеблются по годам, тенденция к росту отсутствует (см.рис.1.5)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Japanese copper‑powder supply to PM makers",
+    "direction": "no_change",
+    "factor": "Japan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поставки медных порошков японским изготовителям ПМ‑деталей и прочих изделий составляют около 6 тыс. т/год, колеблются по годам, тенденция к росту отсутствует (см.рис.1.5)",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В Китае выпуск ПМ‑деталей с использованием медных порошков растет из года в год и в 2015 г. достигло 12,5 тыс. т или 14,6 тыс. т, если добавить выпуск Тайваня.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "China copper‑based PM part output 2015",
+    "direction": "increases",
+    "factor": "China",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Китае выпуск ПМ‑деталей с использованием медных порошков растет из года в год и в 2015 г. достигло 12,5 тыс. т или 14,6 тыс. т, если добавить выпуск Тайваня.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2005 г. объём производства ПМ‑деталей в Индии составлял: 8 тыс. т (Fe) и 2 тыс. т (Cu); в 2012 г. производство расширилось уже до 30 тыс. т и 13,8 тыс. т, соответственно [6].",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "India PM part production 2005‑2012",
+    "direction": "increases",
+    "factor": "India",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2005 г. объём производства ПМ‑деталей в Индии составлял: 8 тыс. т (Fe) и 2 тыс. т (Cu); в 2012 г. производство расширилось уже до 30 тыс. т и 13,8 тыс. т, соответственно [6].",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2013‑2014 гг. в Индии использование медных порошков в ПМ‑отрасли постепенно снижалось: до 12 тыс. т/год в 2013‑2014 гг. и далее до 10 тыс. т в 2015 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "India copper‑powder usage in PM 2013‑2015",
+    "direction": "decreases",
+    "factor": "India",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в то время как использование медных порошков в ПМотрасли постепенно снижалось: до 12 тыс. т/год в 2013-2014 гг. и далее до 10 тыс. т в 2015 г.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Другой крупной областью потребления медных порошков, особенно развитой в Китае, является изготовление алмазного инструмента -расходного инструмента, используемого для обработки (резания, сверления, шлифования, полировки) бетона, камня и других неметаллических материалов, где рабочими элементами являются алмазные зёрна, закреплённые на корпусе инструмента с помощью связующего состава (металлического, пластикового или др.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper‑powder use in diamond tool manufacturing",
+    "direction": "increases",
+    "factor": "China",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Другой крупной областью потребления медных порошков, особенно развитой в Китае, является изготовление алмазного инструмента -расходного инструмента, используемого для обработки (резания, сверления, шлифования, полировки) бетона, камня и других неметаллических материалов, где рабочими элементами являются алмазные зёрна, закреплённые на корпусе инструмента с помощью связующего состава (металлического, пластикового или др.).",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Медь и её сплавы (латуни, бронзы, мельхиор) легко обрабатывать, они имеют очень хорошую теплопроводность и электропроводность, хорошую коррозионную устойчивость и устойчивость к химическим воздействиям и, наконец, медные порошки в виде связки обладают хорошей удерживающей способность.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "machinability, thermal and electrical conductivity, corrosion re",
+    "direction": "increases",
+    "factor": "copper and its alloys",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медь и её сплавы (латуни, бронзы, мельхиор) легко обрабатывать, они имеют очень хорошую теплопроводность и электропроводность, хорошую коррозионную устойчивость и устойчивость к химическим воздействиям и, наконец, медные порошки в виде связки обладают хорошей удерживающей способность.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В Китае в 2012 г. потребление порошков на основе меди для изготовления алмазного инструмента составляло порядка 9 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual consumption",
+    "direction": "nonmonotonic",
+    "factor": "copper‑based powders for diamond tools",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Китае в 2012 г. потребление порошков на основе меди для изготовления алмазного инструмента составляло порядка 9 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Электролитные медные порошки - очень чистые и особенно хорошо годятся для изготовления ПМ-деталей для электроники/электротехники, где нужна высокая электро- и теплопроводность.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purity and suitability",
+    "direction": "increases",
+    "factor": "electrolytic copper powders",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электролитные медные порошки - очень чистые и особенно хорошо годятся для изготовления ПМ-деталей для электроники/электротехники, где нужна высокая электро- и теплопроводность.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Распыленные медные порошки могут быть использованы в электронике/электротехнике, где требуется хорошая проводимость.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "electrical conductivity suitability",
+    "direction": "increases",
+    "factor": "atomized copper powders",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Распыленные медные порошки могут быть использованы в электронике/электротехнике, где требуется хорошая проводимость.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В гидрометаллургическом процессе обычно получаются тонкие порошки с низким насыпным весом и высокой прочностью - эти свойства делают их особенно хорошо пригодными для изготовления фрикционных материалов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle thickness, bulk density, strength",
+    "direction": "increases",
+    "factor": "hydrometallurgical copper powders",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В гидрометаллургическом процессе обычно получаются тонкие порошки с низким насыпным весом и высокой прочностью - эти свойства делают их особенно хорошо пригодными для изготовления фрикционных материалов.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Порошки, полученные восстановлением в твердом состоянии, имеют характеристики, аналогичные распыленным порошкам.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "properties comparable to atomized powders",
+    "direction": "nonmonotonic",
+    "factor": "solid‑state reduced copper powders",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Порошки, полученные восстановлением в твердом состоянии, имеют характеристики, аналогичные распыленным порошкам.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Распыленные порошки имеют текучесть 20‑35 сек/50г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "flowability",
+    "direction": "increases",
+    "factor": "atomized copper powders",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Текучесть, сек/50г 20-35",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Электролитные порошки имеют текучесть 30‑40 сек/50г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "flowability",
+    "direction": "increases",
+    "factor": "electrolytic copper powders",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Текучесть, сек/50г 30-40",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Гидрометаллургический процесс может быть применен для получения медного порошка из цементной меди, концентрата или медного скрапа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "raw material type (cement copper, concentrate, copper scrap)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Гидрометаллургический процесс может быть применен для получения медного порошка из цементной меди, концентрата или медного скрапа.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Медь из перечисленных видов сырья можно выщелочить серной кислотой или аммиачным раствором; насыщенный раствор отделяют от остатка выщелачивания фильтрованием.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method",
+    "direction": "increases",
+    "factor": "acid type (sulfuric acid, ammonium solution)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медь из перечисленных видов сырья можно выщелочить серной кислотой или аммиачным раствором; насыщенный раствор отделяют от остатка выщелачивания фильтрованием.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Из раствора осаждают медь восстановлением водородом под давлением, диоксидом серы, цементацией или электролизом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method",
+    "direction": "increases",
+    "factor": "reduction agent (hydrogen, sulfur dioxide, cementation, electrolysis)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из раствора осаждают медь восстановлением водородом под давлением, диоксидом серы, цементацией или электролизом.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": "precipitation"
+  },
+  {
+   "text": "Способ твердофазного восстановления включает: измельчение оксидов ... и восстановление какимлибо газом (обычно СО, H2 или крекинг-газом) при температурах, ниже температуры плавления меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "process temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "восстановление какимлибо газом (обычно СО, H2 или крекинг-газом) при температурах, ниже температуры плавления меди.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Размер и форму частиц можно контролировать в довольно широких пределах путем варьирования размеров и формы частиц окислов, температуры восстановления, давления и расхода газа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "increases",
+    "factor": "oxide particle size, reduction temperature, pressure, gas flow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Размер и форму частиц можно контролировать в довольно широких пределах путем варьирования размеров и формы частиц окислов, температуры восстановления, давления и расхода газа.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Чистота продукта зависит от чистоты оксида.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purity",
+    "direction": "increases",
+    "factor": "oxide purity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чистота продукта зависит от чистоты оксида.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Электролитические порошки изготавливаются из меди высокой чистоты (>99,9%) и, соответственно, получаются очень чистые порошки, имеющие высокую электро- и теплопроводность.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purity and conductivity",
+    "direction": "increases",
+    "factor": "copper purity (>99,9%)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электролитические порошки изготавливаются из меди высокой чистоты (>99,9%) и, соответственно, получаются очень чистые порошки, имеющие высокую электро- и теплопроводность.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Гарантированное содержание свинца менее 20 ppm.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "process control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "особая гордость компании - гарантированное содержание свинца менее 20 ppm.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2011 г. была реконструирована технологическая линия по выпуску «легких» порошков, благодаря чему её производительность возросла до 170-200 т в месяц.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "reconstruction of line",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2011 г. была реконструирована технологическая линия по выпуску «легких» порошков, благодаря чему её производительность возросла до 170-200 т в месяц.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "GRIPM имеет самые большие в Китае мощности по производству электролитических порошков ... в 18000 т/г (No1 в мире).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual capacity",
+    "direction": "increases",
+    "factor": "facility size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "GRIPM имеет самые большие в Китае мощности по производству электролитических порошков ... в 18000 т/г (No1 в мире).",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.45,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "разработала процесс получения сверхтонкого высокочистого (99,95%) медного порошка с максимумом в 2 мкм",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "чистота",
+    "direction": "increases",
+    "factor": "99,95%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "разработала процесс получения сверхтонкого высокочистого (99,95%) медного порошка с максимумом в 2 мкм",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "разработала процесс синтеза медных порошков (от 2 до -0,7 мкм) ... особо чистых порошков (99,9999%)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "чистота",
+    "direction": "increases",
+    "factor": "99,9999%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "разработала процесс синтеза медных порошков (от 2 до -0,7 мкм) для изготовления проводящих чернил, пигментов и т.д, а также для получения особо чистых порошков (99,9999%).",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Сферические порошки получают плавкой с добавками небольших количеств фосфора (макс.0,4%)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "добавка фосфора",
+    "direction": "increases",
+    "factor": "макс.0,4%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сферические порошки получают плавкой с добавками небольших количеств фосфора (макс.0,4%)",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "мировой рынок медных порошков весьма мал по размеру - порядка 100-130 тыс. т/год",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "объём",
+    "direction": "increases",
+    "factor": "100-130 тыс. т/год",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировой рынок медных порошков весьма мал по размеру - порядка 100-130 тыс. т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Cu, не менее 99,5",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "чистота меди",
+    "direction": "increases",
+    "factor": "99,5",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cu, не менее 99,5",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  },
+  {
+   "text": "Насыпн. плотность г/см 3 1,25-2,0",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "насыпная плотность",
+    "direction": "increases",
+    "factor": "1,25-2,0",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Насыпн. плотность г/см 3 1,25-2,0",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:медные-порошки-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,722 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_11_2006-обеднение-pdf",
+   "title": "CM_11_2006-обеднение.pdf",
+   "doc_type": "article",
+   "year": 2006,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2006\\CM_11_2006-обеднение.pdf.md",
+   "artifact_sha256": "289f16a1f802cf01565347d19fcbb39fdda6c2388f99a044b3087a46cf23aa74",
+   "okf_raw_path": "Журналы/Цветные металлы/2006/CM_11_2006-обеднение.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:rich-matte",
+   "label": "rich matte",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:converter-matte",
+   "label": "converter matte",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:n2-flash-smelting-furnace",
+   "label": "N2‑flash smelting furnace",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:effluent-gases-of-vanyukov-furnace",
+   "label": "effluent gases of Vanyukov furnace",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-hydrosulphite-bisulphite",
+   "label": "sodium hydrosulphite (bisulphite)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cathode-shell",
+   "label": "cathode shell",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coal-foam",
+   "label": "coal foam",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:electrolyzer-with-top-current-supply",
+   "label": "electrolyzer with top current supply",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:self-roasting-anodes",
+   "label": "self‑roasting anodes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_11_2006-обеднение-pdf:0",
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "title": "Experience of production of rich matte and converter matte in the flash smelting furnace at Nadezhdinsky metallurgical works",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "flash smelting furnace operation",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rich-matte",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:converter-matte",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The flash smelting furnace was successfully used for production of rich matte and converter matte.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process feasibility",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Experience of production of rich matte and converter matte in the flash smelting furnace at Nadezhdinsky metallurgical works",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Experience of production of rich matte and converter matte in the flash smelting furnace at Nadezhdinsky metallurgical works",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_11_2006-обеднение-pdf:1",
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "title": "Putting into operation the N2‑flash smelting furnace at Nadezhdinsky metallurgical works after reconstruction",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "operation of N2‑flash smelting furnace",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:n2-flash-smelting-furnace",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The reconstructed furnace was successfully commissioned.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "commissioning success",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Putting into operation the N2flash smelting furnace at Nadezhdinsky metallurgical works after reconstruction",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Putting into operation the N2flash smelting furnace at Nadezhdinsky metallurgical works after reconstruction",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_11_2006-обеднение-pdf:2",
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "title": "Production of sodium hydrosulphite (bisulphite) from effluent gases of Vanyukov furnace rich in sulphur dioxide",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "chemical conversion of SO₂‑rich furnace gases to sodium hydrosulphite",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:effluent-gases-of-vanyukov-furnace",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:sodium-hydrosulphite-bisulphite",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Sodium hydrosulphite can be obtained from the SO₂‑rich gases of the Vanyukov furnace.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "product feasibility",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Production of sodium hydrosulphite (bisulphite) from effluent gases of Vanyukov furnace rich by sulphur dioxide",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Production of sodium hydrosulphite (bisulphite) from effluent gases of Vanyukov furnace rich by sulphur dioxide",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_11_2006-обеднение-pdf:3",
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "title": "Study of mechanical properties of cathode shell for powerful aluminium electrolyzers",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "mechanical testing of cathode shells",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cathode-shell",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Mechanical properties of the cathode shell were characterized for use in powerful aluminium electrolyzers.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "mechanical suitability",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Study of mechanical properties of cathode shell for powerful aluminium electrolyzers",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Study of mechanical properties of cathode shell for powerful aluminium electrolyzers",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_11_2006-обеднение-pdf:4",
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "title": "Ways of minimization of coal foam in electrolyzers with top current supply and self‑roasting anodes",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "foam reduction in aluminium electrolyzers",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:coal-foam",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:electrolyzer-with-top-current-supply",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:self-roasting-anodes",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Specific operational measures can reduce coal foam in such electrolyzers.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "foam level",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Ways of minimization of coal foam in electrolyzers with top current supply and self‑roasting anodes",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Ways of minimization of coal foam in electrolyzers with top current supply and self‑roasting anodes",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Atomic‑emission spectroscopy has prospects for use in the aluminium industry.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Prospects of using atomic‑emission spectroscopy in the aluminium industry.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.45,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "Hard anodizing can be applied at common temperatures.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "New developments and widening of application of hard anodizing at common temperatures.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "Plasma‑electrolytic technologies are applicable for processing aluminium and its alloy components.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Plasma‑electrolytical technologies of processing the components made of aluminium and its alloys.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.81,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "The institute has contributed significantly to the creation and development of the non‑ferrous metals processing industry.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "impact",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Input of the institute in creation and development of the industry for processing non‑ferrous metals.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.81,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "The national market of finishing treatment of extrusions shows a developing trend.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "market trend",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "State of national market of finishing treatment of extrusions and tendencies of its development.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "Суммарные потери производства первичного никеля в 1‑м полугодии 2006 г. названных выше компаний относительно заявленных планов составили 23,3 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "loss amount",
+    "direction": "decreases",
+    "factor": "operational issues",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарные потери производства первичного никеля в 1‑м полугодии 2006 г. названных выше компаний относительно заявленных планов со‑ставили 23,3 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.81,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "INCO отмeчает, что в ближайшее время забастовка не окажет влияния на выпуск металла, так как у компании имеются достаточные запасы концентрата.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metal output",
+    "direction": "no_change",
+    "factor": "sufficient concentrate inventory",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "INCO отме­чает, что в ближайшее время забастовка не окажет влияния на выпуск металла, так как у компании имеются достаточные запасы концентрата.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.45,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "Xstrata планировала приобрести 5 % акций, к началу августа она купила 4,93 % акций Falconbridge, заплатив в среднем 55,4 долл./акция.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "acquired share percentage",
+    "direction": "increases",
+    "factor": "market purchase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания плани­ровала приобрести 5 % акций, к началу августа она купила 4,93 % акций Falconbridge, заплатив в сред­нем 55,4 долл./акция.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "Xstrata получила заем в 5,1 млрд. долл. для оплаты своих обязательств наличными.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "loan amount",
+    "direction": "increases",
+    "factor": "bank consortium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Xstrata от консорциума банков получила заем в 5,1 млрд. долл. для оплаты своих обязательств наличными.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "BHP Billiton в 2005/06 финансовом году произвела 1,268 млн т рафинированной меди, по сравнению с 1,034 млн т в 2004/05 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "growth at Escondida, Antamina, Olympic Dam",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "BHP Billiton (Австралия) в 2005/06 финансовом году, закончившемся 30 июня 2006 г., произвела 1,268 млн т рафинированной меди по сравнению с 1,034 млн т в 2004/05 г.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "World Bureau of Metal Statistic (WBMS) (Великобритания) отмечает профицит мирового рынка меди за первые семь месяцев 2006 г. в 65 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global copper market surplus",
+    "direction": "increases",
+    "factor": "first seven months of 2006",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "World Bureau of Metal Statistic (WBMS) (Велико/­британия) отмечает профицит мирового рынка меди за первые семь месяцев 2006 г. в 65 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.81,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "WBMS оценивает рост спроса на медь на 2,8 % до 9,98 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper demand growth",
+    "direction": "increases",
+    "factor": "2,8 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "WBMS оце/­нняет рост спроса на медь на 2,8 % до 9,98 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.45,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "Шахтная добыча составила 8,57 млн т, что на 86 тыс. т больше, чем за первые семь месяцев 2005 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mine copper output",
+    "direction": "increases",
+    "factor": "86 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Шахт/­ная добыча составила 8,57 млн т, что на 86 тыс. т боль/­ше, чем за первые семь месяцев 2005 г.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.81,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "Производство рафинированной меди составило 10,045 млн т, что на 6 % превышает показатель прошлого года.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "refined copper production",
+    "direction": "increases",
+    "factor": "6 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производство рафинированной меди составило 10,045 млн т, что на 6 % превышает показатель прошлого года.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "По данным National Bureau of Statistics, производство рафинированной меди в Китае в январе-августе 2006 г. увеличилось на 22,9 % по сравнению с прошлым годом и составило 1,913 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "refined copper production in China",
+    "direction": "increases",
+    "factor": "22,9 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным National Bureau of Statistics , производ/­ство рафинированной меди в Китае в январе-авгу/­сте 2006 г. увеличилось на 22,9 % по сравнению с про/­шлым годом и составило 1,913 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.45,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "Шахтная добыча за указанный период выросла на 7,4 % и составила 0,454 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mine copper output in China",
+    "direction": "increases",
+    "factor": "7,4 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Шахтная добыча за указанный период выросла на 7,4 % и составила 0,454 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "Забастовка, продлившаяся весь август 2006 г. на медном руднике Эскондида (Чили), прекращена.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "strike status",
+    "direction": "decreases",
+    "factor": "ended",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Забастовка, продлившаяся весь август 2006 г. на медном руднике Эскондида (Чили), прекращена.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "Профсоюз достиг соглашения с администрацией о повышении заработной платы на 5 % и выплате разового персонального бонуса в 17 тыс. долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "wage increase",
+    "direction": "increases",
+    "factor": "5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Профсоюз достиг соглашения с администрацией о повышении заработной платы на 5 % и выплате разо/­вого персонального бонуса в 17 тыс. долл.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  },
+  {
+   "text": "В настоящее время рудник обеспечивает примерно 8 % мирового рынка меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global copper market share",
+    "direction": "increases",
+    "factor": "8 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время рудник обеспечивает примерно 8 % мирового рынка меди.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:cm_11_2006-обеднение-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:sodium-hydrosulphite-bisulphite",
+   "dst": "mat:effluent-gases-of-vanyukov-furnace",
+   "process": "other",
+   "kind": null,
+   "snippet": "Production of sodium hydrosulphite (bisulphite) from effluent gases of Vanyukov furnace rich by sulphur dioxide",
+   "doc_id": "doc:cm_11_2006-обеднение-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

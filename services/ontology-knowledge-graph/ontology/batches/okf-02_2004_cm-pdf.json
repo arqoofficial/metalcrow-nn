@@ -1,0 +1,591 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:02_2004_cm-pdf",
+   "title": "02_2004_cm.pdf",
+   "doc_type": "article",
+   "year": 2004,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2004\\02_2004_cm.pdf.md",
+   "artifact_sha256": "3859d7fd406bb07fdd59dfa0114179cba5be87822d1fd11b8d7bc8d202d8107c",
+   "okf_raw_path": "Журналы/Цветные металлы/2004/02_2004_cm.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:сульфатные-цинковые-растворы",
+   "label": "сульфатные цинковые растворы",
+   "family": "solution",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:электроцементационная-очистка",
+   "label": "Электроцементационная очистка",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:пиритные-огарки",
+   "label": "пиритные огарки",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:золотые-концентраты",
+   "label": "золотые концентраты",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:алюминиевыи-сплав-7075",
+   "label": "алюминиевый сплав 7075",
+   "family": "alloy",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:polymetallic-flotation-concentrates",
+   "label": "polymetallic flotation concentrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:zinc-nickel-cobalt",
+   "label": "zinc, nickel, cobalt",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper",
+   "label": "copper",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfuric-solutions",
+   "label": "sulfuric solutions",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sludges-from-galvanic-waste-neutralization",
+   "label": "sludges from galvanic waste neutralization",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nikel",
+   "label": "nickel",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:02_2004_cm-pdf:0",
+   "document_id": "doc:02_2004_cm-pdf",
+   "title": "Опытно‑промышленные испытания технологии электроцементационной очистки сульфатных цинковых растворов",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "технология электроцементационной очистки сульфатных цинковых растворов"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:сульфатные-цинковые-растворы",
+     "role": "atmosphere"
+    },
+    {
+     "material_id": "mat:электроцементационная-очистка",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Опытно‑промышленные испытания технологии электроцементационной очистки сульфатных цинковых растворов",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:02_2004_cm-pdf:1",
+   "document_id": "doc:02_2004_cm-pdf",
+   "title": "Полупромышленные испытания хлоридовозгонки пиритных огарков и золотых концентратов",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "хлоридовозгонка пиритных огарков и золотых концентратов"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:пиритные-огарки",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:золотые-концентраты",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Полупромышленные испытания хлоридовозгонки пиритных огарков и золотых концентратов",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:02_2004_cm-pdf:2",
+   "document_id": "doc:02_2004_cm-pdf",
+   "title": "Влияние конструкции кристаллизатора и параметров непрерывного литья на структуру и механические свойства изделий из алюминиевого сплава 7075",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "casting",
+      "extra": {
+       "raw_process": "непрерывное литье алюминиевого сплава 7075"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:алюминиевыи-сплав-7075",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Влияние конструкции кристаллизатора и параметров непрерывного литья на структуру и механические свойства изделий из алюминиевого сплава 7075",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:02_2004_cm-pdf:3",
+   "document_id": "doc:02_2004_cm-pdf",
+   "title": "autoclave conditioning of polymetallic flotation concentrates",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "autoclave conditioning of polymetallic flotation concentrates, steins, with selective leaching of zinc, nickel, cobalt and obtaining enriched metal‑containing residues"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:polymetallic-flotation-concentrates",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:zinc-nickel-cobalt",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "autoclave conditioning was successfully applied in industry",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "часть из которых реализована в промышленности",
+     "locator_kind": "md_para",
+     "locator": "para:127",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "автоклавное кондиционирование полиметаллических флотационных концентратов, штейнов, предполагающее селективное выщелачивание цинка, никеля, кобальта и получение обогащенных медесодержащих остатков",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:02_2004_cm-pdf:4",
+   "document_id": "doc:02_2004_cm-pdf",
+   "title": "hydrogen deposition of copper from sulfuric solutions",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "hydrogen deposition of copper and copper(I) salts from sulfuric solutions with production of powders having specified properties using appropriate surfactants"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:sulfuric-solutions",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "hydrogen deposition of copper was implemented in industry",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "часть из которых реализована в промышленности",
+     "locator_kind": "md_para",
+     "locator": "para:127",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "водородное осаждение меди, солей меди (I) из сернокислых растворов с получением порошков с заданными свойствами и использованием соответствующих поверхностно-активных веществ (ПАВ)",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:02_2004_cm-pdf:5",
+   "document_id": "doc:02_2004_cm-pdf",
+   "title": "scheme for utilization of sludges from galvanic waste neutralization",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "sulfuric leaching, electro‑plating of copper on a bulk cathode, precipitation of a hydrated nickel‑containing cake (3 % Ni) from the spent electrolyte"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sludges-from-galvanic-waste-neutralization",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:copper",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:nikel",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "copper recovery",
+     "scope": "material",
+     "material_id": "mat:copper",
+     "value": {
+      "min": null,
+      "nominal": 98.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Извлекали до 98 % Cu в медный слиток",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel recovery",
+     "scope": "material",
+     "material_id": "mat:nikel",
+     "value": {
+      "min": null,
+      "nominal": 98.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "до 98 % Ni в гидратный кек",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "high recovery of copper and nickel was achieved",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Извлекали до 98 % Cu в медный слиток и до 98 % Ni в гидратный кек",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для утилизации шламов, образующихся при нейтрализации стоков гальванических участков, предложена схема, включающая сернокислотное выщелачивание, электроосаждение меди на объемном катоде, осаждение гидратного никельсодержащего кека (3 % Ni) из отработанного электролита",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Тираж 900 экз.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "print run",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тираж 900 экз.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1913 г. в России выплавляли всего 20 тыс. т меди, ведущее место занимал Урал, где работали 7 небольших медеплавильных заводов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper production",
+    "direction": "increases",
+    "factor": "year 1913",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1913 г. в России выплавляли всего 20 тыс. т меди, ведущее место занимал Урал, где работали 7 небольших медеплавильных заводов.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.45,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Обучаются 34 тыс. студентов и работают примерно 6 тыс. человек.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "student and staff numbers",
+    "direction": "increases",
+    "factor": "current",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обучаются 34 тыс. студентов и работают примерно 6 тыс. человек.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "На 120 кафедрах ведется обучение по 62 специальностям усилиями 2200 педагогов и научных работников.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "number of departments, specialties, staff",
+    "direction": "increases",
+    "factor": "current",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На 120 кафедрах ведется обучение по 62 специальностям усилиями 2200 педагогов и научных работников.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Среди них 230 докторов и 1300 кандидатов наук.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "doctoral and candidate degrees",
+    "direction": "increases",
+    "factor": "current",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Среди них 230 докторов и 1300 кандидатов наук.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Подготовлено порядка 170 тыс. инженеров.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "engineers trained",
+    "direction": "increases",
+    "factor": "historical total",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Подготовлено порядка 170 тыс. инженеров.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "УПИ готовит кадры (металлурги, механики, химики) для предприятий и организаций цветной металлургии Китая, Кореи, Болгарии, Венгрии, Монголии, Польши, Румынии, Словацкой Республики уже почти 45 лет",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Почти 45 лет УПИ готовит кадры (металлурги, механики, химики) для предприятий и организаций цветной металлургии Китая, Кореи, Болгарии, Венгрии, Монголии, Польши, Румынии, Словацкой Республики.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.81,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "В середине 1970‑х годов более 400 выпускников разных факультетов были распределены на Норильский горно‑металлургический комбинат",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В середине 1970‑х годов представительная группа выпускников (более 400 человек) разных факультетов была распределена на Норильский горно‑металлургический комбинат.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.45,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Профессора института осуществляют консультации и экспертизу новых решений по заявкам предприятий",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Профессора института осуществляют консультации, экспертизу новых решений по заявкам предприятий в связи со значительным ослаблением организующей роли отраслевых институтов и координации работы заводов.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.45,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология и оборудование для поверхностного упрощения отливок из сплавов на основе меди, алюминия, титана реализуются за счет легирования, термической и термомеханической обработки, нанесения износостойких материалов",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "технология и оборудование для поверхностного упрощения отливок из сплавов на основе меди, алюминия, титана за счет легирования, термической и термомеханической обработки, нанесения износостойких материалов",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.45,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "УПИ постоянно совершенствует учебный процесс, модернизирует систему подготовки специалистов с упором на компьютерную грамотность, изучение иностранных языков, методологию изучения рынка и самостоятельное выполнение лабораторных работ",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "УПИ непрерывно совершенствует учебный процесс, модернизирует систему подготовки специалистов с учетом требований рыночной экономики: больше внимания уделяется компьютерной грамотности, изучению иностранных языков, методологии изучения рынка, самостоятельному и творческому выполнению лабораторных работ, курсовых и дипломных проектов, в том числе и по заявкам предприятий.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:02_2004_cm-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:copper",
+   "dst": "mat:sulfuric-solutions",
+   "process": "other",
+   "kind": null,
+   "snippet": "водородное осаждение меди, солей меди (I) из сернокислых растворов с получением порошков с заданными свойствами и использованием соответствующих поверхностно-активных веществ (ПАВ)",
+   "doc_id": "doc:02_2004_cm-pdf"
+  },
+  {
+   "src": "mat:copper",
+   "dst": "mat:sludges-from-galvanic-waste-neutralization",
+   "process": "leaching",
+   "kind": null,
+   "snippet": "Для утилизации шламов, образующихся при нейтрализации стоков гальванических участков, предложена схема, включающая сернокислотное выщелачивание, электроосаждение меди на объемном катоде, осаждение гидратного никельсодержащего кека (3 % Ni) из отработанного электролита",
+   "doc_id": "doc:02_2004_cm-pdf"
+  },
+  {
+   "src": "mat:nikel",
+   "dst": "mat:sludges-from-galvanic-waste-neutralization",
+   "process": "leaching",
+   "kind": null,
+   "snippet": "Для утилизации шламов, образующихся при нейтрализации стоков гальванических участков, предложена схема, включающая сернокислотное выщелачивание, электроосаждение меди на объемном катоде, осаждение гидратного никельсодержащего кека (3 % Ni) из отработанного электролита",
+   "doc_id": "doc:02_2004_cm-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

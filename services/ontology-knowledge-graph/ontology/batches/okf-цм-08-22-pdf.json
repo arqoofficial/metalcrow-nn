@@ -1,0 +1,722 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-08-22-pdf",
+   "title": "ЦМ 08-22.pdf",
+   "doc_type": "article",
+   "year": 2022,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2022\\ЦМ 08-22.pdf.md",
+   "artifact_sha256": "4a190d86e55037818c26b3400b136f1f15850e3b84fae516b8e8cd7da2e3c6c2",
+   "okf_raw_path": "Журналы/Цветные металлы/2022/ЦМ 08-22.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:tailings-of-flotation-enrichment-of-apatite-neph",
+   "label": "tailings of flotation enrichment of apatite‑nepheline ores",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nepheline",
+   "label": "nepheline concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-08-22-pdf:0",
+   "document_id": "doc:цм-08-22-pdf",
+   "title": "Laboratory study of flotation of stored apatite‑nepheline tailings",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation (reverse flotation) of tailings from two AО “Apatit” tail‑storage facilities"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:tailings-of-flotation-enrichment-of-apatite-neph",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:nepheline",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "mineral composition of the tailings",
+     "scope": "material",
+     "material_id": "mat:tailings-of-flotation-enrichment-of-apatite-neph",
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Показано, что основными полезными минералами в этом сырье являются нефелин (более 50 %), пироксены (5-7 %) и титанит (около 4 %).",
+     "locator_kind": "md_para",
+     "locator": "para:156",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "It is feasible to use the technogenic waste of apatite‑nepheline ore enrichment for producing a nepheline concentrate that can replace imported bauxite for the aluminium industry.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Показана целесообразность использования техногенных отходов обогащения апатит-нефелиновых руд Хибинских месторождений для получения нефелинового концентрата, который является импортозамещающим небокситовым сырьем для алюминиевой промышленности.",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Представлены результаты укрупненных лабораторных исследований на обогатимость лежалых отходов флотационного обогащения апатит-нефелиновых руд, отобранных с двух хвостохранилищ АО «Апатит», характеризующихся разным сроком хранения.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Организация производит более 50 видов специализированной продукции, из которых 80 % защищены патентами и являются инновационными, а порядка 30 % поставляется за рубеж (Китай, Монголия, Македония, ФРГ, Казахстан и республики СНГ и др).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product variety and export share",
+    "direction": "increases",
+    "factor": "patent protection and innovation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Организация производит более 50 видов специализированной продукции, из которых 80 % защищены патентами и являются инновационными, а порядка 30 % поставляется за рубеж (Китай, Монголия, Македония, ФРГ, Казахстан и республики СНГ и др).",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Более 1500 таких устройств надежно работают на различных предприятиях и в организациях отрасли.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "device reliability and deployment count",
+    "direction": "increases",
+    "factor": "field deployment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более 1500 таких устройств надежно работают на различных предприятиях и в организациях отрасли.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Уже более 1000 таких устройств поставлены предприятиям отрасли, и благодаря их высокой надежности спрос на них возрастает.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "demand growth",
+    "direction": "increases",
+    "factor": "high reliability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Уже более 1000 таких устройств поставлены предприятиям отрасли, и благодаря их высокой надежности спрос на них возрастает.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Более сотни изделий предназначены для работы в особо тяжелых условиях эксплуатации: высокие концентрации кислот и щелочей, температуры контролируемых сред, абразивные пульпы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "environmental robustness",
+    "direction": "increases",
+    "factor": "heavy‑duty conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более сотни изделий предназначены для работы в особо тяжелых условиях эксплуатации: высокие концентрации кислот и щелочей, температуры контролируемых сред, абразивные пульпы.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "На 3‑й странице обложки журнала представлен прибор третьего поколения атомноабсорбционных спектрометров «Спектр‑5‑4».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "generation level",
+    "direction": "increases",
+    "factor": "new model",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На 3‑й странице обложки журнала представлен прибор третьего поколения атомноабсорбционных спектрометров «Спектр‑5‑4».",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "На стр. 26 представлен новый универсальный прибор РП‑24, заменивший собой целую серию радиоизотопного оборудования (плотномеры, гамма‑реле, уровнемеры и индикаторы загрузки шаровых мельниц).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment consolidation",
+    "direction": "increases",
+    "factor": "new universal device",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На стр. 26 представлен новый универсальный прибор РП‑24, заменивший собой целую серию радиоизотопного оборудования (плотномеры, гамма‑реле, уровнемеры и индикаторы загрузки шаровых мельниц).",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Начато строительство нового производственного комплекса, оснащенного современным оборудованием, который позволит поставлять предприятиям отрасли приборы и средства автоматизации высокого качества.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "new complex",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Начато строительство нового производственного комплекса, оснащенного современным оборудованием, который позволит поставлять предприятиям отрасли приборы и средства автоматизации высокого качества.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Bank of America (США), в 2022-2023 гг . мировые цены составят, долл/т: на никель - 24 439,0 (ранее 34 097,0) и 187 500,0 (ранее 37 500,0), медь 8751,0 (ранее 9999,0) и 7250,0 (ранее 9500,0), алюминий - 2721,0 (ранее 3315,0) и 3563,0 (ранее 4125,0), цинк - 3348,0 (ранее 3997,0) и 2625,0 (ранее 3250,0), свинец - 2029,0 (ранее 2231,0) и 1887,0 (ранее 2297,0) соответственно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "world price per ton",
+    "direction": "decreases",
+    "factor": "Bank of America forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Bank of America (США), в 2022-2023 гг . мировые цены составят, долл/т: на никель - 24 439,0 (ранее 34 097,0) и 187 500,0 (ранее 37 500,0), медь 8751,0 (ранее 9999,0) и 7250,0 (ранее 9500,0), алюминий - 2721,0 (ранее 3315,0) и 3563,0 (ранее 4125,0), цинк - 3348,0 (ранее 3997,0) и 2625,0 (ранее 3250,0), свинец - 2029,0 (ранее 2231,0) и 1887,0 (ранее 2297,0) соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке Commerzbank (ФРГ), в 20222023 гг. мировые цены составят, долл/т: на никель 24 400,0 и 24 000,0, медь - 8950,0 и 9000,0, алюминий - 2700,0 и 2700,0, цинк - 3475,0 и 3650,0, свинец - 2100,0 и 1950,0 соответственно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "world price per ton",
+    "direction": "decreases",
+    "factor": "Commerzbank assessment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно оценке Commerzbank (ФРГ), в 20222023 гг. мировые цены составят, долл/т: на никель 24 400,0 и 24 000,0, медь - 8950,0 и 9000,0, алюминий - 2700,0 и 2700,0, цинк - 3475,0 и 3650,0, свинец - 2100,0 и 1950,0 соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Во II полугодии 2022 г . и I полугодии 2023 г ., по прогнозу UBS (Швейцария), мировая цена составит, долл/т: на никель - 22 000,0 и 22 000,0, медь - 9500,0 (ранее 1200,0) и 10 000,0, алюминий - 3000,0 и 3100,0, цинк - 3500,0 (ранее 4600,0) и 3600,0, свинец - 2100,0 и 2100,0 соответственно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "world price per ton",
+    "direction": "decreases",
+    "factor": "UBS forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Во II полугодии 2022 г . и I полугодии 2023 г ., по прогнозу UBS (Швейцария), мировая цена составит, долл/т: на никель - 22 000,0 и 22 000,0, медь - 9500,0 (ранее 1200,0) и 10 000,0, алюминий - 3000,0 и 3100,0, цинк - 3500,0 (ранее 4600,0) и 3600,0, свинец - 2100,0 и 2100,0 соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "В июне 2022 г. Правительство Филиппин объявило, что с 2023 г . начнет выставлять на продажу горнодобывающие предприятия, в частности, никелевые, медные рудники, конфискованные у частных компаний за нелегальную добычу.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sale of mining enterprises",
+    "direction": "increases",
+    "factor": "Philippine government decision",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В июне 2022 г. Правительство Филиппин объявило, что с 2023 г . начнет выставлять на продажу горнодобывающие предприятия, в частности, никелевые, медные рудники, конфискованные у частных компаний за нелегальную добычу.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Managem (Марокко) подписала контракт с Renault Group (Франция) на поставку с 2025 г . 5,0 тыс. т сульфата кобальта.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "supply quantity",
+    "direction": "increases",
+    "factor": "contract",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Managem (Марокко) подписала контракт с Renault Group (Франция) на поставку с 2025 г . 5,0 тыс. т сульфата кобальта.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Jervois Global (Австралия) планирует ввести в эксплуатацию рудник Idaho Cobalt (США) с выходом на проектную мощность (1,915 тыс. т кобальта, 2,9 тыс. т меди, 6,7 тыс. тр. унц. 1 золота в концентрате) в феврале 2023 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "projected capacity",
+    "direction": "increases",
+    "factor": "new mine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Jervois Global (Австралия) планирует ввести в эксплуатацию рудник Idaho Cobalt (США) с выходом на проектную мощность (1,915 тыс. т кобальта, 2,9 тыс. т меди, 6,7 тыс. тр. унц. 1 золота в концентрате) в феврале 2023 г.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в проект 107,0 млн долл., срок эксплуатации - 7 лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "project financing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инвестиции в проект 107,0 млн долл., срок эксплуатации - 7 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Импорт сподуменового концентрата составил 963,868 тыс. т (120,5 тыс. т в пересчете на литий) в январе - мае 2022 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "import volume",
+    "direction": "increases",
+    "factor": "customs data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "импорт сподуменового концентрата составил 963,868 тыс. т (120,5 тыс. т в пересчете на литий) в январе - мае 2022 г.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Главная администрация таможен Аргентины установила референтную базовую цену на экспортируемый карбонат лития - 53 000,0 долл/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reference price",
+    "direction": "increases",
+    "factor": "regulation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Главная администрация таможен Аргентины установила референтную базовую цену на экспортируемый карбонат лития - 53 000,0 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Мировые цены на литий в 2022 г . опустятся ниже 54 000,0 долл/т, в 2023 г . - составят 16 000,0 долл/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price level",
+    "direction": "decreases",
+    "factor": "Goldman Sachs forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировые цены на литий в 2022 г . опустятся ниже 54 000,0 долл/т, в 2023 г . - составят 16 000,0 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Ganfeng Lithium ( GL ) приступила к строительству рудника на месторождении лития Goulamina (Мали), запасы которого составляют 108,5 млн т, содержание основного элемента - 1,45 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource reserve",
+    "direction": "increases",
+    "factor": "new mine development",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ganfeng Lithium ( GL ) приступила к строительству рудника на месторождении лития Goulamina (Мали), запасы которого составляют 108,5 млн т, содержание основного элемента - 1,45 %.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Планируемый выпуск 0,726-0,880 млн т/год сподуменового концентрата.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "increases",
+    "factor": "project schedule",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "планируемый выпуск 0,726-0,880 млн т/год сподуменового концентрата.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в проект 600,0 млн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "project financing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инвестиции в проект 600,0 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Все оборудование, в том числе для солнечной электростанции мощностью 120,0 МВт и накопителя электроэнергии на 288,0 МВт, будет поставлено из КНР.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment origin",
+    "direction": "increases",
+    "factor": "supplier location",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все оборудование, в том числе для солнечной электростанции мощностью 120,0 МВт и накопителя электроэнергии на 288,0 МВт, будет поставлено из КНР.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Pilbara Minerals объявила о расширении производственных мощностей комбината Pilgangoora до 680,0 тыс. т сподуменового концентрата.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "plant upgrade",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Pilbara Minerals (Австралия) объявила о расширении производственных мощностей комбината Pilgangoora (Австралия) до 680,0 тыс. т сподуменового концентрата",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в проект - 205,1 млн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "project financing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инвестиции в проект - 205,1 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Zhejiang Huayou инвестирует 300,0 млн долл. в освоение литиевого месторождения Arcadia.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "project financing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Zhejiang Huayou (КНР) инвестирует 300,0 млн долл. в освоение литиевого месторождения Arcadia",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Ввод в эксплуатацию обогатительной фабрики мощностью 400,0 тыс. т сподуменового концентрата (6,0 % лития) намечен на конец 2023 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "project schedule",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ввод в эксплуатацию обогатительной фабрики мощностью 400,0 тыс. т сподуменового концентрата (6,0 % лития) намечен на конец 2023 г.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Stellantis подписала контракт с Controlled Thermal Resources на поставку 25,0 тыс. т гидроксида лития в течение 10 лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "supply quantity",
+    "direction": "increases",
+    "factor": "contract",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Stellantis (Нидерланды) подписала контракт с Controlled Thermal Resources ( CTR ) (США) на поставку 25,0 тыс. т гидроксида лития в течение 10 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Производственные мощности CTR составляют 300,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "company data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производственные мощности CTR составляют 300,0 тыс. т",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Stellantis планирует увеличить мощности по выпуску аккумуляторов с 260,0 до 400,0 ГВт/ч.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "battery production capacity",
+    "direction": "increases",
+    "factor": "strategic plan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Stellantis за счет строительства заводов в Европе и Северной Америке планирует увеличить мощности по выпуску аккумуляторов с 260,0 до 400,0 ГВт/ч.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Albemarie анонсировала план увеличения выпуска литиевой продукции со 100,0 тыс. т в настоящее время до 500,0 тыс. т к 2030 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "increases",
+    "factor": "company announcement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Albemarie (США) анонсировала план увеличения выпуска литиевой продукции со 100,0 тыс. т в настоящее время до 500,0 тыс. т к 2030 г.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Processing technogenic raw material that does not require the most energy‑intensive grinding processes has a significantly lower cost than processing natural raw material.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Себестоимость переработки техногенного сырья, не требующего затрат на наиболее энергоемкие процессы его измельчения, значительно ниже по сравнению с природным.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The involvement of stored enrichment waste of apatite‑nepheline ores is an actual task and meets the goal of ensuring environmental safety in the Russian Arctic zone by reducing accumulated ecological damage.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "environmental safety",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вовлечение в переработку складированных отходов обогащения апатит-нефелиновых руд является актуальной задачей и отвечает цели обеспечения экологической безопасности в Арктической зоне России путем снижения накопленного экологического ущерба.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "During the 90‑year period of development and operation of the Hibiny deposits, about 1 billion t of flotation tailings accumulated in the tail‑storage facilities of JSC “Apatit”.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "За 90‑летний период освоения и эксплуатации Хибинских месторождений в хвостохранилищах обогатительных фабрик АО «Апатит» накопилось порядка 1 млрд т хвостов флотационного обогащения.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The Hibiny alkaline massif is the world’s largest deposit of apatite‑nepheline syenites.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Хибинский щелочной массив, расположенный в центральной части Кольского полуострова, является самым крупным в мире массивом апатитовых нефелиновых сиенитов.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Apatite in the deposits is represented by fluorapatite and contains a high strontium content (up to 4.5 % SrO) and rare‑earth elements.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Апатит в месторождениях представлен фторапатитом и содержит высокую концентрацию стронция (до 4,5 % SrO) и редкоземельных элементов.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The content of nepheline in the ore can reach up to 50 %.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Нефелин является вторым по промышленной значимости минералом, входящим в состав апатит‑нефелиновых руд Хибинского массива, содержание которого в руде может доходить до 50 %.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.81,
+   "document_id": "doc:цм-08-22-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:nepheline",
+   "dst": "mat:tailings-of-flotation-enrichment-of-apatite-neph",
+   "process": "flotation",
+   "kind": null,
+   "snippet": "Представлены результаты укрупненных лабораторных исследований на обогатимость лежалых отходов флотационного обогащения апатит-нефелиновых руд, отобранных с двух хвостохранилищ АО «Апатит», характеризующихся разным сроком хранения.",
+   "doc_id": "doc:цм-08-22-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

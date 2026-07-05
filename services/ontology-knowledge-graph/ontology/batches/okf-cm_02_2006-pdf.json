@@ -1,0 +1,836 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_02_2006-pdf",
+   "title": "CM_02_2006.pdf",
+   "doc_type": "article",
+   "year": 2006,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2006\\CM_02_2006.pdf.md",
+   "artifact_sha256": "afef29cfb2fb3d6de6cc1c154ced69d9b26bdf4b0465f05c0d4ef3e09bff2d8e",
+   "okf_raw_path": "Журналы/Цветные металлы/2006/CM_02_2006.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Ожидается, что в 2005 г. спрос на платину увели‑чится на 2 % и достигнет новой рекордной отметки в 208,7 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "demand increase",
+    "direction": "increases",
+    "factor": "2 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ожидается, что в 2005 г. спрос на платину увели‑чится на 2 % и достигнет новой рекордной отметки в 208,7 т.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Закупки платины для использования в автокатализаторах значительно вырастут шестой год подряд.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purchases for auto‑catalysts",
+    "direction": "increases",
+    "factor": "significant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Закупки платины для использования в автокатализаторах значительно вырастут шестой год подряд.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Третий год подряд будет наблюдаться сокращение закупок в ювелирном секторе.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "jewelry sector purchases",
+    "direction": "decreases",
+    "factor": "third year in a row",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Третий год подряд будет наблюдаться сокращение закупок в ювелирном секторе.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.45,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Ожидается, что предложение платины составит 205 т, что также на 2 % выше уровня предыдущего года.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "platinum supply",
+    "direction": "increases",
+    "factor": "2 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ожидается, что предложение платины составит 205 т, что также на 2 % выше уровня предыдущего года.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Прогнозируется, что спрос на платину для автокатализаторов увеличится в 2005 г. на 9,3 т и составит 120,1 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "auto‑catalyst demand",
+    "direction": "increases",
+    "factor": "9,3 т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Прогнозируется, что спрос на платину для автокатализаторов увеличится в 2005 г. на 9,3 т и составит 120,1 т.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Спрос в Китае снизится третий год подряд, также ожидается падение спроса в Японии и Северной Америке.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "demand in China, Japan, North America",
+    "direction": "decreases",
+    "factor": "third year in a row",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Спрос в Китае снизится третий год подряд, также ожидается падение спроса в Японии и Северной Америке.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Продажи физического металла для инвестиционных целей останутся на низком уровне - всего 0,47 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment metal sales",
+    "direction": "decreases",
+    "factor": "0,47 т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Продажи физического металла для инвестиционных целей останутся на низком уровне - всего 0,47 т.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2005 г. на рынке платины будет наблюдаться определенный дефицит предложения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "market supply",
+    "direction": "decreases",
+    "factor": "deficit",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2005 г. на рынке платины будет наблюдаться определенный дефицит предложения.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.45,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Цена выросла и дос‑тигла 941 долл. на лондонских фиксингах в начале октября, что является самым высоким показателем с марта 1980 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "941 долл.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цена выросла и дос‑тигла 941 долл. на лондонских фиксингах в начале октября, что является самым высоким показателем с марта 1980 г.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Ожидается, что в 2005 г. предложение платины из Южной Африки увеличится на 4,7 т, до 159,3 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "South Africa supply",
+    "direction": "increases",
+    "factor": "4,7 т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ожидается, что в 2005 г. предложение платины из Южной Африки увеличится на 4,7 т, до 159,3 т.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В результате производственного плана по аффинированной платине был недовыполнен на 4,7 т по сравнению с запланированным показателем - 80,9 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "shortfall",
+    "direction": "decreases",
+    "factor": "4,7 t",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате производственного плана по аффинированной платине был недовыполнен на 4,7 т по сравнению с запланированным показателем - 80,9 т.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1‑м полугодии 2005 г. производство платины на шахте «Импала Платинум» на западной оконечности Бушвельдского комплекса увеличилось на 4 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "increase",
+    "direction": "increases",
+    "factor": "4 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1‑м полугодии 2005 г. производство платины на шахте «Импала Платинум» на западной оконечности Бушвельдского комплекса увеличилось на 4 %.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Ожидается, что уровень производства превысит 34,2 т платины второй год подряд.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "increases",
+    "factor": "34,2 t",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ожидается, что уровень производства превысит 34,2 т платины второй год подряд.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.45,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Производство платины на фирме «Лонмин» в первом полугодии сократилось на 11 % (до 14,2 т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "decrease",
+    "direction": "decreases",
+    "factor": "11 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производство платины на фирме «Лонмин» в первом полугодии сократилось на 11 % (до 14,2 т).",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1‑м полугодии производство платины на фирме «Нортхэм» достигло 3,4 т, т. е. увеличилось на 12 % по сравнению с предыдущим годом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "increase",
+    "direction": "increases",
+    "factor": "12 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1‑м полугодии производство платины на фирме «Нортхэм» достигло 3,4 т, т. е. увеличилось на 12 % по сравнению с предыдущим годом.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Прогнозируется, что отгрузки платины из России составят 26,7 т, что несколько выше, чем в 2004 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "increases",
+    "factor": "26,7 t",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Прогнозируется, что отгрузки платины из России составят 26,7 т, что несколько выше, чем в 2004 г.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "«Норильский никель» впервые опубликовал данные о своем производстве платины и палладия в сентябре, сообщив о выпуске 11 т за первые шесть месяцев 2005 г. и ожидаемом объеме производства за год в объеме 21,8 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "report",
+    "direction": "increases",
+    "factor": "11 t (first half), 21,8 t (annual forecast)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "«Норильский никель» впервые опубликовал данные о своем производстве платины и палладия в сентябре, сообщив о выпуске 11 т за первые шесть месяцев 2005 г. и ожидаемом объеме производства за год в объеме 21,8 т.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Ожидается снижение поставок платины из Северной Америки в 2005 г. до 10,6 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "decreases",
+    "factor": "10,6 t",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ожидается снижение поставок платины из Северной Америки в 2005 г. до 10,6 т.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Отгрузки платины из Зимбабве, как ожидается, увеличатся на 5 %, до 4,8 т, в результате увеличения производства на шахтах Нгези и Мимоза.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "increases",
+    "factor": "5 % (to 4,8 t)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отгрузки платины из Зимбабве, как ожидается, увеличатся на 5 %, до 4,8 т, в результате увеличения производства на шахтах Нгези и Мимоза.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.45,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Прогнозируется увеличение спроса на платину для автокатализаторов в 2005 г. на 8 %, или 9,3 т, до рекордного уровня в 120,1 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "increases",
+    "factor": "8 % (9,3 t) to 120,1 t",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Прогнозируется увеличение спроса на платину для автокатализаторов в 2005 г. на 8 %, или 9,3 т, до рекордного уровня в 120,1 т.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В Европе автопроизводители, как ожидается, закупят 60,4 т платины (на 15 % больше по сравнению с 2004 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "increases",
+    "factor": "60,4 t (15 % increase)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Европе автопроизводители, как ожидается, закупят 60,4 т платины (на 15 % больше по сравнению с 2004 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.45,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2005 г. закупки платины японской автомобильной промышленностью, как прогнозируется, сократятся на 0,8 т, до 18,1 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "decreases",
+    "factor": "0,8 t (to 18,1 t)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2005 г. закупки платины японской автомобильной промышленностью, как прогнозируется, сократятся на 0,8 т, до 18,1 т.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.45,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Ожидается, что в 2005 г. спрос на платину со стороны автомобильной промышленности Северной Америки увеличится на 0,6 т, до 25,5 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "increases",
+    "factor": "0,6 t (to 25,5 t)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ожидается, что в 2005 г. спрос на платину со стороны автомобильной промышленности Северной Америки увеличится на 0,6 т, до 25,5 т.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Закупки платины автопроизводителями в Китае, как ожидается, увеличатся на 0,9 т, до 3,4 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "increases",
+    "factor": "0,9 t (to 3,4 t)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Закупки платины автопроизводителями в Китае, как ожидается, увеличатся на 0,9 т, до 3,4 т.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Закупки платины для ювелирного производства, как прогнозируется, сократятся в 2005 г. на 6 %, до 62,8 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "decreases",
+    "factor": "6 % (to 62,8 t)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Закупки платины для ювелирного производства, как прогнозируется, сократятся в 2005 г. на 6 %, до 62,8 т.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Закупки платины в Китае для производства ювелирных изделий, как ожидается, упадут на 3,1 т, до 28,3 т, что на 15,5 т ниже пикового уровня спроса в 2002 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "decreases",
+    "factor": "3,1 t (to 28,3 t)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Закупки платины в Китае для производства ювелирных изделий, как ожидается, упадут на 3,1 т, до 28,3 т, что на 15,5 т ниже пикового уровня спроса в 2002 г.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В Северной Америке рост цен на платину также привел к сокращению складских запасов во всей торговой цепи.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effect",
+    "direction": "decreases",
+    "factor": "unspecified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Северной Америке рост цен на платину также привел к сокращению складских запасов во всей торговой цепи.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В условиях конкуренции со стороны белого золота закупки платины розницей снизятся на 10 %, до 8,1 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "decreases",
+    "factor": "10 % (to 8,1 t)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В условиях конкуренции со стороны белого золота закупки платины розницей снизятся на 10 %, до 8,1 т.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Закупки платины для ювелирного производства Японии, как ожидается, снизятся в 2005 г. на 0,3 т, до 17,1 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "forecast",
+    "direction": "decreases",
+    "factor": "0,3 t (to 17,1 t)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Закупки платины для ювелирного производства Японии, как ожидается, снизятся в 2005 г. на 0,3 т, до 17,1 т.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "За первые 9 месяцев 2005 г. предложение платины выросло, однако не соответствовало высоким темпам роста спроса.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "supply growth vs demand growth",
+    "direction": "increases",
+    "factor": "supply",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За первые 9 месяцев 2005 г. предложение платины выросло, однако не соответствовало высоким темпам роста спроса.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Кратко/срочные арендные ставки колебались в пределах 3-6 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lease rates",
+    "direction": "increases",
+    "factor": "rate range",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кратко/срочные арендные ставки колебались в пределах 3-6 %.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Цена на платину выросла с 843 долл. в начале янв. до 883 долл. в середине марта, затем колебалась в пределах 860-880 долл. до середины июня и кратко/временно вышла за эти пределы во второй половине июня, достигнув 900 долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "market activity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цена на платину выросла с 843 долл. в начале янв. до 883 долл. в середине марта, затем колебалась в пределах 860-880 долл. до середины июня и кратко/временно вышла за эти пределы во второй половине июня, достигнув 900 долл.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В начале августа цены выросли до 924 долл. и в сентябре до 930 долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "market demand",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В начале августа цены выросли до 924 долл. и в сентябре до 930 долл.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Цена на платину в долларах выросла на 9 % за первые 9 месяцев 2005 г., однако в евро и йенах она увеличилась более чем на 20 % в связи со сравнительно сильными позициями американской валюты.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price change",
+    "direction": "increases",
+    "factor": "currency effects",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цена на платину в долларах выросла на 9 % за первые 9 месяцев 2005 г., однако в евро и йенах она увеличилась более чем на 20 % в связи со сравнительно сильными позициями американской валюты.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Объем нетто-некоммерческих позиций по платине на бирже НАЙМЕКС увеличился приблизительно с 4,6 т в январе до более 15,5 т к концу сентября.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "net non‑commercial positions",
+    "direction": "increases",
+    "factor": "market participation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объем нетто-некоммерческих позиций по платине на бирже НАЙМЕКС увеличился приблизительно с 4,6 т в январе до более 15,5 т к концу сентября.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Прогнозируется, что в 2005 г. спрос на палладий увеличится на 12,7 т, до 214,3 т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "demand",
+    "direction": "increases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Прогнозируется, что в 2005 г. спрос на палладий увеличится на 12,7 т, до 214,3 т.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.45,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Предложение палладия, по нашим оценкам, сократится на 11,5 т, до 234,5 т, в связи со снижением объемов российского металла, поступающего на рынок из запасов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "supply",
+    "direction": "decreases",
+    "factor": "reduced Russian output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Предложение палладия, по нашим оценкам, сократится на 11,5 т, до 234,5 т, в связи со снижением объемов российского металла, поступающего на рынок из запасов.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.45,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2005 г. прогнозируется резкое снижение закупок палладия для производства автокатализаторов до 114,8 т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "autocatalyst purchases",
+    "direction": "decreases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2005 г. прогнозируется резкое снижение закупок палладия для производства автокатализаторов до 114,8 т.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Прогнозируется, что закупки палладия для ювелирного производства увеличатся до 44,5 т, прирост по сравнению с 2004 г. составит 15,6 т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "jewelry sector purchases",
+    "direction": "increases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Прогнозируется, что закупки палладия для ювелирного производства увеличатся до 44,5 т, прирост по сравнению с 2004 г. составит 15,6 т.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Спрос на палладий для электронной промышленности, как ожидается, достигнет 30,2 т в связи с ростом использования металла для покрытий.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "electronics demand",
+    "direction": "increases",
+    "factor": "metal coating usage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Спрос на палладий для электронной промышленности, как ожидается, достигнет 30,2 т в связи с ростом использования металла для покрытий.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Ожидается, что в 2005 г. на рынок поступит меньше палладия из российских запасов, в то же время прогнозируется, что сокращение добычи в Северной Америке перевесит рост производства в Южной Африке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "overall supply",
+    "direction": "decreases",
+    "factor": "regional production changes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ожидается, что в 2005 г. на рынок поступит меньше палладия из российских запасов, в то же время прогнозируется, что сокращение добычи в Северной Америке перевесит рост производства в Южной Африке.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "На протяжении 9 месяцев 2005 г. цена на палладий колебалась в пределах 180-200 долл., значительные объемы закупок инвестиционными фондами не смогли поднять цену выше отметки 200 долл. на более или менее продолжительное время.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price range",
+    "direction": "no_change",
+    "factor": "fund purchases insufficient",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На протяжении 9 месяцев 2005 г. цена на палладий колебалась в пределах 180-200 долл., значительные объемы закупок инвестиционными фондами не смогли поднять цену выше отметки 200 долл. на более или менее продолжительное время.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Устойчивый спрос на физический металл обеспечивал поддержание цены не менее нижнего предела, однако арендные ставки по рядка 1 % свидетельствовали о доступности металла на рынке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price floor",
+    "direction": "increases",
+    "factor": "steady physical demand",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Устойчивый спрос на физический металл обеспечивал поддержание цены не менее нижнего предела, однако арендные ставки по рядка 1 % свидетельствовали о доступности металла на рынке.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно прогнозам объем продаж российского палладия за 2005 г. в целом составит 116 т, снизившись по сравнению с показателем предыдущего года - 127,5 т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Russian palladium sales",
+    "direction": "decreases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно прогнозам объем продаж российского палладия за 2005 г. в целом составит 116 т, снизившись по сравнению с показателем предыдущего года - 127,5 т.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Поставки палладия из Южной Африки в текущем году, как ожидается, увеличатся почти на 4 %, до 80,9 т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "South African supply",
+    "direction": "increases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поставки палладия из Южной Африки в текущем году, как ожидается, увеличатся почти на 4 %, до 80,9 т.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_2006-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

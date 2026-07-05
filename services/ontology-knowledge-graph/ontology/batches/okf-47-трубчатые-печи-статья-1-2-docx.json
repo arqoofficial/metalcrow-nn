@@ -1,0 +1,1451 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "title": "47 Трубчатые печи статья 1.2.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\47 Трубчатые печи статья 1.2.docx.md",
+   "artifact_sha256": "4c7f3d06eb73e564d5103d1119664bb1cac8dc900b165830f473a81d9049ac21",
+   "okf_raw_path": "Статьи/47 Трубчатые печи статья 1.2.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:coal-fines",
+   "label": "coal fines",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-slag-огарок",
+   "label": "nickel slag (огарок)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-slag",
+   "label": "nickel slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:argon",
+   "label": "argon",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:reductant-carbon-based",
+   "label": "reductant (carbon‑based)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:reductant",
+   "label": "reductant",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:reduction-agent",
+   "label": "reduction agent",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-powder",
+   "label": "nickel powder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:restored-furnace-hearth-samples-slag-metal-congl",
+   "label": "Restored furnace hearth samples (slag‑metal conglomerates)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-liquidus-1300-c",
+   "label": "Alloy (liquidus 1300 °C)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:carbon-1-addition",
+   "label": "Carbon (1 % addition)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:47-трубчатые-печи-статья-1-2-docx:0",
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "title": "Laboratory experiment on nickel slag reduction in vertical tube electric furnace",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduction of nickel slag (огарок) with coal fines in a vertical tube electric furnace (ЭТПМ 0,8/1600 ВП)",
+       "temperature_text": "1100°С, 1150°С и 1200°С",
+       "duration_text": "30, 60, 90, 120 мин"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1373.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:coal-fines",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:nickel-slag-огарок",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "mass",
+     "scope": "material",
+     "material_id": "mat:nickel-slag-огарок",
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "гр",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "S"
+     },
+     "method": null,
+     "snippet": "Масса навески огарка – 30 гр",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "по окончании температурной выдержки шихта подвергалась быстрому охлаждению до температуры 100°С, а для предотвращения вторичного окисления восстановленного огарка в период охлаждения подача аргона не прекращалась.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "cooling procedure",
+      "direction": "increases",
+      "factor": "prevents secondary oxidation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "по окончании температурной выдержки шихта подвергалась быстрому охлаждению до температуры 100°С, а для предотвращения вторичного окисления восстановленного огарка в период охлаждения подача аргона не прекращалась.",
+     "locator_kind": "md_para",
+     "locator": "para:15",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "На первом этапе исследований проведены лабораторные опыты в фильтрующем слое в вертикальной трубчатой электропечи ЭТПМ 0,8/1600 ВП.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:47-трубчатые-печи-статья-1-2-docx:1",
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "title": "Laboratory study of Ni metallisation versus particle size, carbon share and temperature",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduction of nickel slag in a laboratory furnace",
+       "temperature_text": "1100°C",
+       "duration_text": "60 minutes"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1373.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-slag",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:argon",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Ni metallisation",
+     "scope": "material",
+     "material_id": "mat:nickel-slag",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На рисунках 1-4 показаны зависимости показателей металлизации Ni от класса крупности огарка, количество подаваемого восстановителя в пересчете на углерод и температуры.",
+     "locator_kind": "md_para",
+     "locator": "para:23",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The most rational recovery parameters are a process temperature of at least 1000‑1050°C, a holding time of at least 60 min, a carbon share of at least 12 % relative to the slag mass, and a particle size fraction smaller than 0.8 mm.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "По представленным данным наиболее рациональными показателями восстановления, обеспечивающие наиболее полное протекание процесса при минимизации энергоресурсов, является температура процесса не менее 1000-1050°С, время выдержки не менее 60 минут, доля углерода от массы огарка не менее 12% отн., крупностью фракции менее 0,8 мм",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На рисунках 1-4 показаны зависимости показателей металлизации Ni от класса крупности огарка, количество подаваемого восстановителя в пересчете на углерод и температуры.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:47-трубчатые-печи-статья-1-2-docx:2",
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "title": "Industrial trial of tubular furnace (ТВП) for nickel powder production",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "continuous reduction of nickel slag in a tubular furnace",
+       "temperature_text": "800‑850°C (tail of furnace)",
+       "duration_text": "one furnace rotation 90 sec; material residence 68‑70 min"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1073.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-slag",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:reductant-carbon-based",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "throughput of nickel powder",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 11.5,
+      "max": null
+     },
+     "unit": "t/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Производительность ТВП по восстановленному никелевому порошку – 11,5-13,5 т/ч",
+     "locator_kind": "md_para",
+     "locator": "para:31",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "reductant consumption",
+     "scope": "material",
+     "material_id": "mat:reductant-carbon-based",
+     "value": {
+      "min": null,
+      "nominal": 1.6,
+      "max": null
+     },
+     "unit": "t/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расход восстановителя – 1,6-2,5 т/ч",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.1,
+      "max": null
+     },
+     "unit": "% vol.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Co"
+     },
+     "method": null,
+     "snippet": "Содержание СО в отходящих газах – 0,1-3,5% об.",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Ni powder metallisation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 92.0,
+      "max": null
+     },
+     "unit": "% rel.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Металлизация порошка – 92-99 % отн.",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "non‑magnetic fraction in product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "% rel.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Доля немагнитной фракции в продукте ТВР – 2,0-14,5% отн.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "A material residence time of 68‑70 min is sufficient for deep reduction and yields a powder with high metallisation, matching laboratory results where a sufficient roasting time is not more than 60 min.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "residence time",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Промышленные данные качества получаемого порошка, о которых речь пойдет ниже, показывают, что время пребывания материала в печи в течение 68-70 минут достаточно для глубокого протекания восстановительных процессов и получения порошка, характеризующегося высокой степенью металлизации, что соответствует и проведенным лабораторным экспериментам, при которых достаточное время обжига составляет не более 60 минут.",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    },
+    {
+     "text": "Reducing the furnace rotation period from 90 s to 75‑80 s is expected not to lower metallisation while increasing production capacity.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "rotation period",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "можно предположить, что некоторое увеличение производительности трубчатых печей, сокращение время вращения одного оборота до 75-80 сек, не приведет к снижению показателей металлизации, но увеличит производительность производства.",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В период опытно-промышленных испытаний в ТВП создавались следующие условия работы:",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:47-трубчатые-печи-статья-1-2-docx:3",
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "title": "Industrial observation of reductant consumption versus powder metallisation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "continuous operation of the tubular furnace"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:reductant",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "reductant share",
+     "scope": "material",
+     "material_id": "mat:reductant",
+     "value": {
+      "min": null,
+      "nominal": 1.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "доля восстановительного агента варьируется в диапазоне 1,6-2,5 т/ч или 15-25% отн. от массы получаемого металлического порошка",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "A decrease in reductant consumption does not correlate with a decrease in powder metallisation; other factors such as furnace temperature, CO content in exhaust gases, and high temperature of discharged powder can influence metallisation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reductant consumption",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Стоит отметить, что снижение восстановительного агента не коррелирует со снижением металлизации продукта трубчатой печи, а на данный процесс могут влиять иные факторы, такие как снижение температуры в печи, снижение доли СО в отходящих газах (подача воздуха, подсосы), высокая температура выгружаемого металлического порошка, которая приводила к процессам вторичного окисления.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Как видно из рисунка 6 доля восстановительного агента варьируется в диапазоне 1,6-2,5 т/ч или 15-25% отн. от массы получаемого металлического порошка.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:47-трубчатые-печи-статья-1-2-docx:4",
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "title": "Industrial trial of tube furnace operation (July 19‑21, 2022)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "tube furnace (трубчатая печь) operation",
+       "temperature_text": "810‑840°C (tail zone) and 1110‑1140°C (hot zone)",
+       "duration_text": "19‑21 July 2022"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1083.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:reduction-agent",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:nickel-powder",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.1,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "co  in exhaust gases"
+     },
+     "method": null,
+     "snippet": "в период дневных смен 19-21 июля 2022 года в печи поддерживались низкие концентрации СО в отходящих газах в диапазоне 0,1-1 % об.",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "non‑magnetic fraction in product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "снижение доли немагнитной фракции до 2-4 % отн. при сохранении показателей металлизации на уровне 98% отн.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "metallization level",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 98.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "сохранением показателей металлизации на уровне 98% отн.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 8.1,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "co  effect on non-magnetic fraction"
+     },
+     "method": null,
+     "snippet": "поддержание в отходящих газов доли СО на уровне 0,2-0,5% об. приводит к снижению выхода немагнитной фракции с 8,1 % отн. (среднее значение за период 15-18.07.22) до 3,6 % отн. (среднее значение за период 19-21.07.22), т.е. в 2.25 раза.",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "spoke (conglomerate) formation rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 1.0
+     },
+     "unit": "t/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в диапазоне с 19.07.22 16:00 по 21.07.22 12:00, где образование спёков не превышало 1 т/ч при производительности агрегата 11,5-13,5 т/ч по металлическому никелевому порошку.",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "spoke formation (overall)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 2.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "t/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в рассматриваемый период промышленных испытаний значительное (более 2т/ч) образование металлизированных конгломератов (спёков) отмечено на рисунке 11.",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Low CO levels (0.2‑0.5 % об.) reduce the non‑magnetic fraction from 8.1 % to 3.6 % (≈2.25×).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "non‑magnetic fraction reduction",
+      "direction": "decreases",
+      "factor": "2.25",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "поддержание в отходящих газов доли СО на уровне 0,2-0,5% об. приводит к снижению выхода немагнитной фракции с 8,1 % отн. ... до 3,6 % отн., т.е. в 2.25 раза.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.45
+    },
+    {
+     "text": "Higher CO periods correspond to increased output of metallized conglomerates.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "spoke formation",
+      "direction": "increases",
+      "factor": "not quantified",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "на ранее рассмотренном рисунке 9 показано, что периоды повышенного содержания СО в отходящих газах, характеризуются и увеличением выхода конгломератов металлизированной фракции.",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Как видно из рисунка 9, температурные режимы работы в рассматриваемый период поддерживались в достаточно узком диапазоне работы 810-840°С.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:47-трубчатые-печи-статья-1-2-docx:5",
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "title": "Microscopic analysis of three slag‑furnace charge samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Preparation of three visually distinct charge samples (restored furnace hearths) for microscopic examination; measurement of structural component size distribution"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:restored-furnace-hearth-samples-slag-metal-congl",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Size of structural components",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Крупность структурных составляющих образцов подготовленных к исследованию на микроскопе варьируется в диапазоне от 30 мкм до 2мм, средний размер составляет порядка 300 мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Overall sample size (conglomerate grain size)",
+     "scope": "material",
+     "material_id": "mat:restored-furnace-hearth-samples-slag-metal-congl",
+     "value": {
+      "min": null,
+      "nominal": 250.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "крупность которых может достигать 250-350 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Three different binding mechanisms between metallic particles were identified in the slag‑metal conglomerates.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Анализ микроструктуры трех образцов спёков показал несколько механизмов сцепления или связывания металлических частиц в конгломераты.",
+     "locator_kind": "md_para",
+     "locator": "para:78",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На анализ поступили три визуально отличающихся друг от друга образца в виде восстановленных огарков трубчатой печи, а точнее спёков выгружаемых из ТВП, т.е. металлизированные конгломераты, крупность которых может достигать 250-350 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:47-трубчатые-печи-статья-1-2-docx:6",
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "title": "Thermal experiment on carbon addition to the alloy",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Addition of 1 % carbon to the alloy and measurement of liquidus temperature",
+       "temperature_text": "1300 °C (initial liquidus), reduced by ~20 °C after carbon addition"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1573.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:alloy-liquidus-1300-c",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:carbon-1-addition",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:alloy-liquidus-1300-c",
+     "value": {
+      "min": null,
+      "nominal": 1573.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "liquidus  of the alloy"
+     },
+     "method": null,
+     "snippet": "Температура ликвидус сплава, представленного в таблице 2 составляет 1300°С",
+     "locator_kind": "md_para",
+     "locator": "para:81",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:alloy-liquidus-1300-c",
+     "value": {
+      "min": null,
+      "nominal": 293.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "liquidus  reduction after 1 % carbon addition"
+     },
+     "method": null,
+     "snippet": "добавление 1% углерода в среднем снижает ликвидус сплава на 20 °С",
+     "locator_kind": "md_para",
+     "locator": "para:81",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Carbon addition lowers the alloy liquidus, which can promote carburization and possible coarsening of the slag fraction during high‑temperature reduction.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В условиях избытка восстановителя при повышенной температуре, возможно науглероживание металлического сплава, что приводит к снижению температуры плавления, а, следовательно, и к возможному укрупнению фракции и образованию спёков.",
+     "locator_kind": "md_para",
+     "locator": "para:81",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Так температура ликвидус сплава, представленного в таблице 2 составляет 1300°С, а добавление 1% углерода в среднем снижает ликвидус сплава на 20 °С.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:47-трубчатые-печи-статья-1-2-docx:7",
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "title": "Laboratory determination of optimal roasting parameters for nickel slag",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "roasting of nickel slag in laboratory conditions",
+       "temperature_text": "не менее 1000-1050°С",
+       "duration_text": "не менее 60 минут"
+      },
+      "temperature": {
+       "min": 1273.15,
+       "nominal": null,
+       "max": 1323.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-slag",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "phase_fraction",
+     "scope": "material",
+     "material_id": "mat:nickel-slag",
+     "value": {
+      "min": 12.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "C"
+     },
+     "method": null,
+     "snippet": "доля углерода от массы огарка не менее 12% отн.",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "particle_size",
+     "scope": "material",
+     "material_id": "mat:nickel-slag",
+     "value": {
+      "min": null,
+      "nominal": 0.85,
+      "max": null
+     },
+     "unit": "мм",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "огарка"
+     },
+     "method": null,
+     "snippet": "крупности огарка менее 0,85 мм",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "рекомендованной температурой обжига, является температура процесса не менее 1000-1050°С, время выдержки не менее 60 минут, доля углерода от массы огарка не менее 12% отн. и крупности огарка менее 0,85 мм.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "optimal roasting parameters",
+      "direction": "increases",
+      "factor": "process efficiency",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "По полученным данным рекомендованной температурой обжига, является температура процесса не менее 1000-1050°С, время выдержки не менее 60 минут, доля углерода от массы огарка не менее 12% отн. и крупности огарка менее 0,85 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В настоящей работе в лабораторных условиях были определены наиболее рациональные показатели обжига никелевого огарка.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "В настоящее время металлизация порошка составляет 90-96% отн., что было достигнуто в результате усовершенствований процесса.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metallization degree",
+    "direction": "increases",
+    "factor": "process improvements",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время металлизация порошка составляет 90-96% отн., что было достигнуто в результате усовершенствований процесса",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание углерода в магнитной фракции участка магнитной сепарации является одним из ключевых параметров качества получаемого продукта, отправляемого на хлорное растворение.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "quality parameter",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание углерода в магнитной фракции участка магнитной сепарации является одним из ключевых параметров качества получаемого продукта, отправляемого на хлорное растворение.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Процессы твердофазного восстановления оксидов металлов до металлического состояния твердыми восстановителями в отличие от газообразных агентов, приводят к образованию углеродсодержащего остатка и золы угля.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "residual carbon and ash",
+    "direction": "increases",
+    "factor": "use of solid reductants",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процессы твердофазного восстановления оксидов металлов до металлического состояния твердыми восстановителями в отличие от газообразных агентов, приводят к образованию углеродсодержащего остатка и золы угля.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Для создания восстановительной (инертной) атмосферы использовалась подача инертного газа (аргона) через корундовую трубку над шихтой.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "atmosphere",
+    "direction": "increases",
+    "factor": "argon flow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Создание восстановительной (инертной) атмосферы обеспечивалось подачей инертного газа (аргона) через корундовую трубку над шихтой.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "The reductant is fed to the tubular furnace through a separate bunker and its flow is regulated by a tray feeder that enters the furnace via a dedicated pipe.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Восстановитель в трубчатую печь подается через отдельный бункер, регулировка расхода восстановительного агента производится при помощи тарельчатого питателя, который поступает через отдельный патрубок в печь.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Residual CO content measured at the furnace exit and the amount of unreacted carbon in the product can be used to determine excess or deficiency of the reductant.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Избыток или дефицит восстановительного агента может быть определен при помощи остаточного содержания СО, датчик которого расположен в конце трубчатой печи, а также по количеству непрореагировавшего углерода в продукте трубчатой печи.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "The optimal carbon share in the slag for effective reduction is not less than 12 % relative to the slag mass.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "carbon share",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доля углерода от массы огарка не менее 12% отн.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "A process temperature below 1000 °C is considered insufficient for complete reduction.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "температура процесса не менее 1000-1050°С",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Particle size fractions larger than 0.8 mm are less favorable for nickel slag reduction.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "крупностью фракции менее 0,8 мм",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Temperature in the tail zone of the furnace is on average 300 °C lower than the temperature in the hot zone.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "300 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стоит отметить, что температура в хвосте печи в среднем на 300°С ниже температуры в горячей зоне трубчатой печи, таким образом термопара, расположенная в зоне разгрузки, является косвенным показателем работы агрегата.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Real temperature in the hot zone of the tube furnace was 1110‑1140 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "not quantified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Реальная температура в горячей зоне ТВП составляла 1110-1140°С.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "To minimize spoke formation, the share of fine class (-0.2 mm) in the product of the KС furnace must not exceed 4‑5 % relative.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fine class fraction",
+    "direction": "decreases",
+    "factor": "4‑5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "необходимо на предшествующем переделе – обжига концентрата в печах кипящего слоя контролировать подачу пыли и никелевого концентрата, таким образом, чтобы доля мелких классов (-0,2 мм) в продукте печей КС не превышала 4-5 % отн.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "The amount of reduction agent fed to the tube furnace should be dosed so that CO in exhaust gases does not exceed 1 % by volume.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "1 % об.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "необходимо дозировать и количество восстановителя, подаваемого в трубчатую печь, таким образом, чтобы доля СО в отходящих газах не превышала 1% об.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Metallization of the spines (conglomerates) is high, exceeding 93‑95 % relative for nickel, cobalt and iron.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metallization level",
+    "direction": "increases",
+    "factor": "93‑95 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в представленных результатах степень металлизация спёков находится на достаточно высоком уровне и превышает 93-95% отн. для никеля, кобальта и железа.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Spoke sizes can reach 300‑500 mm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "spoke size",
+    "direction": "increases",
+    "factor": "300‑500 mm",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "размеры которых могут достигать 300-500 мм",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Spoke sizes observed in the study reached 250‑350 mm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "spoke size",
+    "direction": "increases",
+    "factor": "250‑350 mm",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "крупность которых может достигать 250-350 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "In an oxidative atmosphere, carburized alloy loses carbon during further residence in the furnace.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "carbon removal",
+    "direction": "decreases",
+    "factor": "oxidative atmosphere",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Дальнейшее пребывание науглероженного сплава в печи в условиях окислительной атмосферы( реагирование углерода с атмосферой и огарком) приводит к удалению углерода из полученного металла.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "The composition of the metallic phase in the joints of merged particles does not show significant variation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metallic phase composition",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Анализ «стыков» в областях объединения отдельных частиц в морфологически единую структуру не показал значительных колебаний состава металлической фазы.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Rational parameters for roasting nickel hearth material in stationary conditions were determined, including reducer consumption, degree of metalization, and slag/carbon contamination.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Таким образом, в настоящей работе были определены рациональные параметры обжига никелевого огарка в стационарных условиях, проведен анализ работы и времени пребывания материала в промышленном агрегате.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Для минимизации спёкообразования и постоянства фракционного состава никелевого огарка, а также повышения эффективности работы всей технологической линии, необходимо осуществлять равномерную подачу пыли в сгуститель.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "spoke formation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для минимизации спёкообразования и постоянства фракционного состава никелевого огарка, а также повышения эффективности работы всей технологической линии, необходимо осуществлять равномерную подачу пыли в сгуститель.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Данные мероприятия могут быть реализованы путем установки весоизмерительного оборудования, которое позволило бы осуществлять равномерную подачу пыли, а, следовательно, стабилизировать гранулометрический состав печей КС.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dust feed uniformity, granulation composition",
+    "direction": "increases",
+    "factor": "process stability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данные мероприятия могут быть реализованы путем установки весоизмерительного оборудования, которое позволило бы осуществлять равномерную подачу пыли, а, следовательно, стабилизировать гранулометрический состав печей КС.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Теоретические расчеты показали, что избыток восстановителя составляет 20-35 % отн. от вводимого в работу угля.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "excess reducer",
+    "direction": "increases",
+    "factor": "reducer usage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Теоретические расчеты показали, что избыток восстановителя составляет 20-35 % отн. от вводимого в работу угля.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Снижение данного показателя до 10-15 % отн. с одной стороны не приведет к снижению металлизации, а с другой позволит снизить расход восстановительного агента и выход немагнитной фракции.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "metallization, reducer consumption, non‑magnetic fraction output",
+    "direction": "no_change",
+    "factor": "metallization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снижение данного показателя до 10-15 % отн. с одной стороны не приведет к снижению металлизации, а с другой позволит снизить расход восстановительного агента и выход немагнитной фракции",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "К первому типу и второму типу относится механизм, где связующим компонентом выступает силикатная масса по составу, совпадающая с плавлеными силикатными составляющими.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "binding component",
+    "direction": "increases",
+    "factor": "silicate mass presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К первому типу и второму типу относится механизм, где связующим компонентом выступает силикатная масса по составу, совпадающая с плавлеными силикатными составляющими",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "К третьему механизму относится «прямое» сплавление металлических частиц, которое возможно в условиях избытка восстановителя при повышенных температурах, что приводит к науглероживанию металлического сплава, снижению температуры плавления и к конгломератообразованию.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "melting_point",
+    "direction": "increases",
+    "factor": "excess reducer and high temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К третьему механизму относится «прямое» сплавление металлических частиц, которое возможно в условиях избытка восстановителя при повышенных температурах, что приводит к науглероживанию металлического сплава, снижению температуры плавления и к конгломератообразованию",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  },
+  {
+   "text": "Окислительный потенциал атмосферы трубчатой печи по мере прохождения конгломерата обезуглероживает ранее полученный продукт.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "decarbonization of product",
+    "direction": "increases",
+    "factor": "oxidative potential",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Окислительный потенциал атмосферы трубчатой печи по мере прохождения конгломерата обезуглероживает ранее полученный продукт.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:47-трубчатые-печи-статья-1-2-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -508,6 +508,43 @@ class Neo4jClient:
             records = await result.data()
         return {r["doc_id"]: r["text"] for r in records if r["text"]}
 
+    async def find_documents_by_title(
+        self, terms: list[str], limit: int = 3
+    ) -> list[str]:
+        """Return doc_ids whose *filename/title* matches ≥2 distinct query terms.
+
+        The corpus doc_ids are descriptive source paths
+        ("RAW_DATA/Обзоры/…Извлечение благородных металлов из шламов…pdf::chunk0"),
+        so a document whose title matches the question is almost always
+        on-topic — even when its extracted entities are too generic to rank
+        (terms like "благородные металлы" or "шлам" appear in hundreds of
+        documents and carry no specificity signal).
+
+        A ≥2-term threshold is essential: these titles lead the source-text
+        budget, so a single incidental word match would hijack the top slot —
+        e.g. a Ni-current-density question must NOT pull "…селена и теллура при
+        электроэкстракции меди" just because both mention «электроэкстракции».
+        With only one meaningful query term the threshold relaxes to 1 (nothing
+        to disambiguate on). Ranked by terms matched, then shortest text (prefer
+        the focused chunk over a giant merged file)."""
+        min_match = 2 if len(terms) >= 2 else 1
+        if not terms:
+            return []
+        cypher = """
+        MATCH (d:Document)
+        WITH d, [t IN $terms WHERE toLower(d.doc_id) CONTAINS toLower(t)] AS hits
+        WHERE size(hits) >= $min_match
+        RETURN d.doc_id AS doc_id, size(hits) AS matched, size(d.text) AS tlen
+        ORDER BY matched DESC, tlen ASC
+        LIMIT $limit
+        """
+        async with self._driver.session(database=self._database) as session:
+            result = await session.run(
+                cypher, terms=terms, min_match=min_match, limit=limit
+            )
+            records = await result.data()
+        return [r["doc_id"] for r in records]
+
 
 def _detect_gaps(
     nodes: list[GraphNode],

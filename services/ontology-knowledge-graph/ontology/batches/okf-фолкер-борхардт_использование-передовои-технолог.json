@@ -1,0 +1,260 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "title": "Фолкер Борхардт_ИСПОЛЬЗОВАНИЕ ПЕРЕДОВОЙ ТЕХНОЛОГИИ ДЛЯ СУШКИ (рус).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Материалы конференций\\Фолкер Борхардт_ИСПОЛЬЗОВАНИЕ ПЕРЕДОВОЙ ТЕХНОЛОГИИ ДЛЯ СУШКИ (рус).docx.md",
+   "artifact_sha256": "86ce7d1b01bf188c9d0526a5642f1f45a9519b2873f080ea83ece93fa4f92e2b",
+   "okf_raw_path": "Материалы конференций/Фолкер Борхардт_ИСПОЛЬЗОВАНИЕ ПЕРЕДОВОЙ ТЕХНОЛОГИИ ДЛЯ СУШКИ (рус).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Уровень шума очень низкий – около 65 дБА и не зависит от скорости движения полос.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "noise level",
+    "direction": "nonmonotonic",
+    "factor": "speed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Уровень шума очень низкий – около 65 дБА и не зависит от скорости движения полос.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Максимальная скорость движения полосы – до 1585 м/мин.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "maximum speed",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Максимальная скорость движения полосы – до 1585 м/мин.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Максимальная температура поверхности не должна превышать 120 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Максимальная температура поверхности не должна превышать 120 °C.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Система VacuRoll проста в обслуживании и решает множество экологических проблем.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maintenance and environmental impact",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Система VacuRoll проста в обслуживании и решает множество экологических проблем.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.81,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Вакуум обеспечивается жидкостным кольцевым насосом. Размер насоса выбирается в соответствии с потребностями всей системы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "vacuum generation",
+    "direction": "nonmonotonic",
+    "factor": "pump size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вакуум обеспечивается жидкостным кольцевым насосом. Размер насоса выбирается в соответствии с потребностями всей системы.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Необходимая площадь – минимальна. Приблизительно 350 мм в направлении прокатки и по 73 мм с каждой стороны на максимальную ширину полосы поперек направления прокатки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "footprint",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Необходимая площадь – минимальна. Приблизительно 350 мм в направлении прокатки и по 73 мм с каждой стороны на максимальную ширину полосы поперек направления прокатки.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Стандартное время работы VacuRoll при «нормальном загрязнении» - приблизительно от 8 рабочих часов до нескольких дней.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "continuous operation time",
+    "direction": "nonmonotonic",
+    "factor": "contamination level",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стандартное время работы VacuRoll при «нормальном загрязнении» - приблизительно от 8 рабочих часов до нескольких дней.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Продолжительность обратной промывки варьируется от 1 до 3 минут.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Продолжительность обратной промывки варьируется от 1 до 3 минут.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "VacuRoll отличается низким энергопотреблением по сравнению с любым оборудованием для продувки воздухом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "any air‑blowing equipment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "VacuRoll отличается низким энергопотреблением по сравнению с любым оборудованием для продувки воздухом.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Система может использоваться для высокоскоростной работы и отличается превосходной эффективностью сушки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "high‑speed operation, drying efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Система может использоваться для высокоскоростной работы и отличается превосходной эффективностью сушки.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Проблем с шумом и туманом отсутствуют, поэтому система безопасна для оператора.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operator safety",
+    "direction": "increases",
+    "factor": "absence of noise and fog",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проблем с шумом и туманом отсутствуют, поэтому система безопасна для оператора.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Сокращаются затраты по уходу за рабочим местом (скользкие поверхности, загрязнители).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maintenance cost",
+    "direction": "decreases",
+    "factor": "slippery surfaces, contaminants",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сокращаются затраты по уходу за рабочим местом (скользкие поверхности, загрязнители).",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  },
+  {
+   "text": "Механическую обработку следует производить не более 4-5 раз.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maximum repetitions",
+    "direction": "decreases",
+    "factor": "4-5 times",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Механическую обработку следует производить не более 4-5 раз.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:фолкер-борхардт_использование-передовои-технолог",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

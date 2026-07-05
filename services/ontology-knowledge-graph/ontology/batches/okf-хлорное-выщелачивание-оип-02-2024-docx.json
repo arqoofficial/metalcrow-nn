@@ -1,0 +1,1226 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "title": "Хлорное выщелачивание ОИП 02-2024.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Хлорное выщелачивание ОИП 02-2024.docx.md",
+   "artifact_sha256": "c84626cc89cb6919b35a64ba15e3eaf8bcf0c07a31b5a5720e593998790d6cc8",
+   "okf_raw_path": "Обзоры/Хлорное выщелачивание ОИП 02-2024.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:secondary-raw-material",
+   "label": "secondary raw material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fine-ore-mix-of-canadian-and-botswana-fines",
+   "label": "fine‑ore (mix of Canadian and Botswana fines)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mixed-ni-co-sulfides",
+   "label": "mixed Ni/Co sulfides",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fine-stone-concentrate",
+   "label": "fine‑stone concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mixed-sulfides",
+   "label": "mixed sulfides",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mixed-feed-fine-stone-nickel-containing-sludge-o",
+   "label": "mixed feed (fine‑stone, nickel‑containing sludge, other residues)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:хлорное-выщелачивание-оип-02-2024-docx:0",
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "title": "Industrial processing of secondary raw material at INO (Saddle) plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chlorine leaching of fine‑ore (CLP) as part of nickel refining"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:secondary-raw-material",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "amount of secondary raw material processed",
+     "scope": "material",
+     "material_id": "mat:secondary-raw-material",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2020 г, например, было переработано 20 тыс т вторичного сырья",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel recovered",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и получено 4,6 тыс т Ni",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "cobalt recovered",
+     "scope": "material",
+     "material_id": "mat:secondary-raw-material",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и 2 тыс т Co",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Industrial application of chlorine leaching at the INO plant can process large volumes of secondary material and recover significant quantities of nickel and cobalt.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В 2020 г, например, было переработано 20 тыс т вторичного сырья и получено 4,6 тыс т Ni и 2 тыс т Co.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На протяжении более тридцати лет хлорное выщелачивание файнштейна применяется на трех рафинировочных никелевых заводах: Nikkelverk (Норвегия), Niihama (Япония) и Sandouville (Франция).",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:хлорное-выщелачивание-оип-02-2024-docx:1",
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "title": "Pilot test of CLP process at Nikkelverk",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chloride leaching of fine‑ore (CLP)",
+       "temperature_text": "~150 °C (autoclave stage)",
+       "duration_text": "continuous leaching (atmospheric then autoclave)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 423.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-ore-mix-of-canadian-and-botswana-fines",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 230.0,
+      "max": null
+     },
+     "unit": "g/л",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "nickel  in atmospheric leach solution"
+     },
+     "method": null,
+     "snippet": "Раствор атмосферного выщелачивания содержит ~230 г/л никеля и 50 г/л меди.",
+     "locator_kind": "md_para",
+     "locator": "para:105",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "g/л",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "copper  in atmospheric leach solution"
+     },
+     "method": null,
+     "snippet": "Раствор атмосферного выщелачивания содержит ~230 г/л никеля и 50 г/л меди.",
+     "locator_kind": "md_para",
+     "locator": "para:105",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 230.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "nickel  in autoclave leach solution"
+     },
+     "method": null,
+     "snippet": "Раствор из автоклава содержит 230 г/л никеля и 7 г/л меди.",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 7.0,
+      "max": null
+     },
+     "unit": "g/л",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "copper  in autoclave leach solution"
+     },
+     "method": null,
+     "snippet": "Раствор из автоклава содержит 230 г/л никеля и 7 г/л меди.",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "overall leaching degree of ore",
+     "scope": "material",
+     "material_id": "mat:fine-ore-mix-of-canadian-and-botswana-fines",
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При выщелачивании (атмосферном и автоклавном) выщелачивается ~90% штейна.",
+     "locator_kind": "md_para",
+     "locator": "para:113",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Copper is largely removed during the autoclave stage, dropping from ~50 g/л to ~7 g/л, indicating effective copper‑nickel separation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "copper removal",
+      "direction": "decreases",
+      "factor": "autoclave metathesis at ~150 °C",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Снижение содержания меди с ~50 до 7 г/л указывает на то, что приведенная выше реакция существенно влияет на сепарацию меди от никеля.",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Данный процесс на заводе Nikkelverk не пошел далее пилотного масштаба и вскоре был разработан новый процесс – процесс хлорного выщелачивания файнштейна CLP.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:хлорное-выщелачивание-оип-02-2024-docx:2",
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "title": "Industrial production of mixed sulfide (SS) at Niihama refinery",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chlorine leaching of mixed Ni/Co sulfides",
+       "temperature_text": "high temperatures (unspecified)",
+       "duration_text": "continuous operation (industrial scale)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mixed-ni-co-sulfides",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:fine-stone-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual nickel production",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 65.98,
+      "max": null
+     },
+     "unit": "тыс т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2015 г было произведено рекордное количество никеля - 65,98 тыс т Ni",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "annual nickel production (recent years)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 56.0,
+      "max": null
+     },
+     "unit": "тыс т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в последние три года выпуск не превышал 56-59 тыс т/г",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "low reactivity of mixed sulfides required development of a new leaching technology",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reactivity",
+      "direction": "decreases",
+      "factor": "mixed sulfides",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "главной проблемой стала низкая реакционная способность СС; извлечение никеля снижалось с увеличением доли СС в сырье, что потребовало разработки «новой технологии выщелачивания»",
+     "locator_kind": "md_para",
+     "locator": "para:164",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Смешанные Ni/Co сульфиды (СС) начали поступать на завод Niihama c 2005 г.",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:хлорное-выщелачивание-оип-02-2024-docx:3",
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "title": "Industrial production of nickel sulfate at Harima plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "oxidative leaching of mixed sulfides followed by liquid‑liquid extraction",
+       "temperature_text": "high temperatures (unspecified)",
+       "duration_text": "continuous operation (industrial scale)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mixed-sulfides",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual nickel sulfate production",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "тыс т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Выпуск сульфата никеля на Harima – около 50 тыс т/г.",
+     "locator_kind": "md_para",
+     "locator": "para:184",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "nickel sulfate of battery grade is produced from mixed sulfides",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "product grade",
+      "direction": "increases",
+      "factor": "mixed sulfides",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Сульфат никеля получают из смешанных сульфидов.",
+     "locator_kind": "md_para",
+     "locator": "para:171",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Другой завод компании Harimа (бывший Pb‑Zn завод) был перестроен под выпуск сульфата никеля батарейного сорта и оксида скандия.",
+   "locator_kind": "md_para",
+   "locator": "para:171",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:хлорное-выщелачивание-оип-02-2024-docx:4",
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "title": "Industrial production of nickel sulfate at Niihama plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "oxidative leaching of mixed feed (fine‑stone + nickel‑containing sludge) followed by liquid‑liquid extraction",
+       "temperature_text": "high temperatures (unspecified)",
+       "duration_text": "continuous operation (industrial scale)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mixed-feed-fine-stone-nickel-containing-sludge-o",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual nickel sulfate production (Niihama+Harima)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 78.1,
+      "max": null
+     },
+     "unit": "тыс т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "NiSO4 (Niihama+Harima), тыс т | 78,1 | 76,9 | 76,9",
+     "locator_kind": "md_para",
+     "locator": "para:181",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "process at Niihama uses mixed raw material (fine‑stone and residues)",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "raw material composition",
+      "direction": "increases",
+      "factor": "mixed feed",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На заводе Niihama сульфат никеля получают аналогичным образом, но сырьем служит смешанное сырье: файнштейн, а также никельсодержащий осадок от очистки раствора после жидкостной экстракции и прочие остатки.",
+     "locator_kind": "md_para",
+     "locator": "para:176",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Смешанные Ni/Co сульфиды (СС) начали поступать на завод Niihama c 2005 г.",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Хлорное выщелачивание файнштейна применяется на трех рафинировочных никелевых заводах.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "На протяжении более тридцати лет хлорное выщелачивание файнштейна применяется на трех рафинировочных никелевых заводах: Nikkelverk (Норвегия), Niihama (Япония) и Sandouville (Франция).",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Печи КС предназначались для удаления ~70% серы из концентрата, что соответствует ~90% окислению FeS до магнетита.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Печи КС предназначались для удаления ~70% серы из концентрата, что соответствует ~90% окислению FeS до магнетита.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Плавильный завод Садбери является лидером по переработке (разряженных и подготовленных) Li‑ионных батарей в Северной Америке.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Плавильный завод Садбери является лидером по переработке (разряженных и подготовленных) Li-ионных батарей в Северной Америке.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Компания инвестировала 30 млн долларов во вращающуюся печь для сжигания отходов‑кальцинатор в 2007 году.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2007 г. компания инвестировала 30 млн долларов во вращающуюся печь для сжигания отходов - кальцинатор",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "The chloride leaching process (CLP) is more energy‑efficient and has a more favorable material balance than the MLP process.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "process choice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс хлорного выщелачивания файнштейна оказался более экономичным по энергии и с более благоприятным материальным балансом, чем процесс MLP.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Chlorine gas acts as the oxidant in a copper‑catalyzed oxidative chloride leaching.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxidant",
+    "direction": "increases",
+    "factor": "Cl₂ consumption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В процессе CLP применяется катализированное медью окислительное хлорное выщелачивание, в ходе которого Cl₂ потребляется как окислитель.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.81,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "The leaching reaction is highly exothermic, raising the solution temperature close to boiling and favoring leaching kinetics.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "exothermic reaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это экзотермический процесс, повышающий температуру раствора почти до кипения, что благоприятствует кинетике выщелачивания.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "The chloride leach solution, rich in Ni, Co, some Fe and H₂S, is first oxidized with air to convert H₂S to elemental sulfur and oxidize all iron to Fe(III).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "H₂S conversion",
+    "direction": "increases",
+    "factor": "air oxidation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Хлоридный раствор выщелачивания, содержащий преимущественно никель и кобальт плюс небольшое количество железа и H₂S, очищают: сначала окислением воздухом, превращающим H₂S в элементарную серу и окисляющим всё железо до Fe(III)...",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.81,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Fe(III) is removed from the leach solution by liquid‑liquid extraction with tri‑butyl phosphate (TBP).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "TBP extraction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "...а затем – жидкостной экстракцией с трибутилфосфатом (TBP) для удаления Fe(III).",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.81,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Cobalt is extracted from the leach solution as a chloro‑metalate anion by liquid‑liquid extraction with tri‑octylamine (TOA).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "TOA extraction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кобальт из раствора выщелачивания удаляют в виде аниона хлорметалата путем жидкостной экстракции с триоктиламином (TOA tri-n-octylamine три-н-октиламин).",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "NiCl₂ crystals are precipitated from the leach solution by introducing gaseous HCl, which efficiently leaches nickel.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "NiCl₂ precipitation",
+    "direction": "increases",
+    "factor": "gaseous HCl addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кристаллы NiCl₂ осаждают из раствора выщелачивания путем ввода газообразного HCl, эффективно высаливающего никель.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.81,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "NiO obtained from pyro‑hydrolysis of NiCl₂ crystals is reduced with hydrogen to produce metallic nickel.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "NiO reduction",
+    "direction": "increases",
+    "factor": "hydrogen reduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При пирогидролизе кристаллов NiCl₂ повторно генерируется HCl и получается оксид NiO, который затем восстанавливают водородом с получением металла.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.81,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Медный электролит содержит 60-70 г/л меди, 0,5 г/л железа, 100 г/л серной кислоты, 70 мг/л хлор-иона.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "electrolyte formulation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медный электролит содержит 60-70 г/л меди, 0,5 г/л железа, 100 г/л серной кислоты, 70 мг/л хлор-иона.",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Циркуляция на ванне 1 м³/час, температура 60°С, плотность тока 220 А/м², напряжение 2,4В, выход по току 90%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "increases",
+    "factor": "operating parameters",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Циркуляция на ванне 1 м³/час, температура 60°С, плотность тока 220 А/м², напряжение 2,4В, выход по току 90%.",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.81,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Ток на ванну 9000 А.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current",
+    "direction": "increases",
+    "factor": "equipment sizing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ток на ванну 9000 А.",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Срок наращивания катодов 7 дней, основа 1 день, в работе 400 ванн.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "growth time",
+    "direction": "increases",
+    "factor": "process schedule",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Срок наращивания катодов 7 дней, основа 1 день, в работе 400 ванн.",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "В настоящее время ведутся опытные разработки по переводу медного производства на наращивание на матрицах из нержавеющей стали без изоляции нижней кромки матрицы и использования титановых нерастворимых анодов из-за проблем со свинцом в медном производстве.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "matrix material",
+    "direction": "increases",
+    "factor": "technology development",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время ведутся опытные разработки по переводу медного производства на наращивание на матрицах из нержавеющей стали без изоляции нижней кромки матрицы и использования титановых нерастворимых анодов из-за проблем со свинцом в медном производстве.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Планируемый срок запуска нового цеха – 2023 год, но информации о запуске нового цеха на март 2024 года у нас нет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "start date",
+    "direction": "increases",
+    "factor": "project schedule",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Планируемый срок запуска нового цеха – 2023 год, но информации о запуске нового цеха на март 2024 года у нас нет.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Остаток от выщелачивания огарка содержит 55% Ni, 18% Cu и, по существу, все драгоценные металлы (МПГ).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "feed composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Остаток от выщелачивания огарка содержит 55% Ni, 18% Cu и, по существу, все драгоценные металлы (МПГ).",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "На заводе Nikkelverk имеется 5 резервуаров для атмосферного выщелачивания при ~110°С и 2 автоклава при ~150°С, установленных последовательно.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment count",
+    "direction": "increases",
+    "factor": "plant design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На заводе Nikkelverk имеется 5 резервуаров для атмосферного выщелачивания при ~110°С и 2 автоклава при ~150°С, установленных последовательно.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Выщелачивается ~500 т штейна в сутки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "plant capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выщелачивается ~500 т штейна в сутки.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Степень выщелачивания никеля ~98%, а с учетом никеля, извлеченного из медной цепочки, достигает 99% (аналогично Niihama).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery rate",
+    "direction": "increases",
+    "factor": "process efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Степень выщелачивания никеля ~98%, а с учетом никеля, извлеченного из медной цепочки, достигает 99% (аналогично Niihama).",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Производительность завода «Glencore Nikkelverk AS» по основной продукции составляет: никель - 92000 т, медь - 39000 т, кобальт - 4700 т, серная кислота - 115000 т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual production",
+    "direction": "increases",
+    "factor": "plant performance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производительность завода «Glencore Nikkelverk AS» по основной продукции составляет: никель - 92000 т, медь - 39000 т, кобальт - 4700 т, серная кислота - 115000 т.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.81,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Файнштейн производят из окисленной никелевой руды путем разбрызгивания расплавленной серы в печи кальцинирования руды, последующей плавки сульфидированного огарка в электропечи на штейн и конвертирования штейна с получением файнштейна примерного состава, вес%: Ni 78; Co 1; Fe 1; Cu 0,1; S 20.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "composition",
+    "direction": "increases",
+    "factor": "process route",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Файнштейн производят из окисленной никелевой руды путем разбрызгивания расплавленной серы в печи кальцинирования руды, последующей плавки сульфидированного огарка в электропечи на штейн и конвертирования штейна с получением файнштейна примерного состава, вес%: Ni 78; Co 1; Fe 1; Cu 0,1; S 20.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Выпуск никеля в файнштейне в последние годы составлял, тыс т: 2021 – 65,4; 2022 – 63,9; 2023 – 64,1.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual production",
+    "direction": "increases",
+    "factor": "market data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выпуск никеля в файнштейне в последние годы составлял, тыс т: 2021 – 65,4; 2022 – 63,9; 2023 – 64,1.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Sumitomo забирала «свою» долю в 20%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "contractual arrangement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Sumitomo забирала «свою» долю в 20%.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "В 2020 г после сокращения долей Vale и Sumitomo в PT Vale Indonesia в пользу индонезийских инвесторов (по требованию правительства Индонезии) доля Sumitomo снизилась до ~15%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "decreases",
+    "factor": "ownership changes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2020 г после сокращения долей Vale и Sumitomo в PT Vale Indonesia в пользу индонезийских инвесторов (по требованию правительства Индонезии) доля Sumitomo снизилась до ~15%.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.81,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Смешанные сульфиды (СС 55-60% Ni+Co) производят из бедной латеритовой руды по технологии автоклавного кислотного выщелачивания на двух заводах компании Sumitomo на Филиппинах: Coral Bay (на 25 тыс т/г СС) и Tanganito (на 32 тыс т/г СС).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "plant design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Смешанные сульфиды (СС 55-60% Ni+Co) производят из бедной латеритовой руды по технологии автоклавного кислотного выщелачивания на двух заводах компании Sumitomo на Филиппинах: Coral Bay (на 25 тыс т/г СС) и Tanganito (на 32 тыс т/г СС).",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Объёмы выпуска СС в последние годы снижаются: в Coral Bay из-за падения сортности руды до ~18 тыс т/г Ni в СС, а на заводе Tanganito после падения до 25-26 тыс т/г в 2021-2022 фин. г объем восстановился до 29 тыс т в 2022 фин. г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "decreases",
+    "factor": "ore grade",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объёмы выпуска СС в последние годы снижаются: в Coral Bay из-за падения сортности руды до ~18 тыс т/г Ni в СС, а на заводе Tanganito после падения до 25-26 тыс т/г в 2021-2022 фин. г объем восстановился до 29 тыс т в 2022 фин. г.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.81,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Mixed sulfides differ from fine‑stone in chemical and mineralogical composition",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "composition",
+    "direction": "decreases",
+    "factor": "mixed sulfides vs fine‑stone",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Смешанные сульфиды отличаются от файнштейна по химическому и минералогическому составу.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Approximate composition of mixed sulfides (mass %): NiS 81.6; Ni3S4 7.3; CoS 7.8; FeS 1.3",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Ориентировочный состав СС, мол. %: NiS – 81,6; Ni 3 S 4 – 7,3; CoS – 7,8; FeS – 1,3.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Sumitomo chose mixed Ni/Co sulfides as a product because they are easier to separate from impurities such as Mg and Mn than mixed hydroxides",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "separability",
+    "direction": "increases",
+    "factor": "mixed Ni/Co sulfides",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Sumitomo выбрала смешанные Ni/Co сульфиды, мотивируя свой выбор тем, что их легче отделить от примесей (таких как Mg и Mn) по сравнению со смешанными гидроксидами.",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Planned construction of a third Philippine plant by 2022 to produce 40 000 t/yr Ni in mixed sulfides using Coral Bay and Taganito technology",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "new plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В планах компании до 2022 г значилось строительство третьего завода на Филиппинах по аналогичной Coral Bay и Tanganito технологии на 40 тыс т/г Ni в СС.",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Sumitomo ceased participation in the Pomalaa project in 2022 due to disagreements with partner PT Vale Indonesia",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project status",
+    "direction": "decreases",
+    "factor": "participation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2022 г решила прекратить участие в проекте в связи с «разногласиями с партнером – PT Vale Indonesia».",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Since 2013 Sumitomo’s Battery Materials Division has been supplied with nickel sulfate solution and cobalt chloride solution",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "supply chain",
+    "direction": "increases",
+    "factor": "battery materials division",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "У компании Sumitomo есть собственное Отделение материалов для батарей, куда поставляют раствор сульфата никеля и раствор хлорида кобальта (с 2013 г).",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Long‑term goal of Sumitomo is 150 000 t/yr nickel in all forms",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production target",
+    "direction": "increases",
+    "factor": "total nickel output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Долгосрочная цель Sumitomo – 150 тыс т/г никеля во всех видах.",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Since 1992 Sumitomo has used an adapted Cu(II)/Cl2 leaching process for fine‑stone with low copper content",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "C 1992 г Sumitomo применяла процесс адаптированного Cu(II)/Cl 2 выщелачивания для переработки файнштейнов с низким содержанием меди.",
+   "locator_kind": "md_para",
+   "locator": "para:195",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  },
+  {
+   "text": "In the adapted process some copper remains in the productive leach solution and is later removed by electrowinning",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper removal",
+    "direction": "increases",
+    "factor": "electrowinning",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "у Sumitomo некоторое количество меди остается в продуктивном растворе выщелачивания. Медь селективно удаляется и извлекается путем электролиза с получением порошка.",
+   "locator_kind": "md_para",
+   "locator": "para:195",
+   "confidence": 0.9,
+   "document_id": "doc:хлорное-выщелачивание-оип-02-2024-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

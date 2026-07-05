@@ -1,0 +1,625 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-04-23-pdf",
+   "title": "ЦМ № 04-23.pdf",
+   "doc_type": "article",
+   "year": 2023,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2023\\ЦМ № 04-23.pdf.md",
+   "artifact_sha256": "af061759d8c7403a363bc35e26bb0cafaeeb824654f4f71b8a1183d4b73bc0dc",
+   "okf_raw_path": "Журналы/Цветные металлы/2023/ЦМ № 04-23.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:sap-audit-management",
+   "label": "SAP Audit Management",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:беспроводная-широкополосная-связь",
+   "label": "беспроводная широкополосная связь",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:автономная-система-управления-параметрами-на-осн",
+   "label": "автономная система управления параметрами на основе BigData",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:динамическии-цифровои-двои-ник-процесса-виртуаль",
+   "label": "динамический цифровой двойник процесса (виртуальный электролизер)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No-04-23-pdf:0",
+   "document_id": "doc:цм-No-04-23-pdf",
+   "title": "SAP Audit Management implementation at Norilsk Nickel",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Внедрение информационной системы SAP Audit Management в главном офисе и последующее применение в семи подразделениях внутреннего контроля и аудита"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sap-audit-management",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Внедрение завершено и система используется в нескольких подразделениях",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "deployment status",
+      "direction": "increases",
+      "factor": "coverage",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "завершило внедрение информационной системы SAP Audit Management ... после чего приступило к применению этой системы в семи подразделениях",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "ПАО «ГМК «Норильский никель», завершило внедрение информационной системы SAP Audit Management в главном офисе, после чего приступило к применению этой системы в семи подразделениях внутреннего контроля и аудита компаний Норникеля",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-04-23-pdf:1",
+   "document_id": "doc:цм-No-04-23-pdf",
+   "title": "Wireless broadband infrastructure for remote control at Polymetal",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Создание инфраструктуры беспроводной широкополосной связи на месторождениях Олимпиадинское и Наталкинское для передачи данных и дистанционного управления оборудованием"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:беспроводная-широкополосная-связь",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Инфраструктура позволяет расширить дистанционное управление добывающим оборудованием",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "remote operation",
+      "direction": "increases",
+      "factor": "control scope",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Расширяется дистанционное управление работой добывающего оборудования",
+     "locator_kind": "md_para",
+     "locator": "para:99",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В рамках процесса внедрения цифровых технологий металлургическая компания ПАО «Полюс» ... создает инфраструктуру беспроводной широкополосной связи, что позволяет обеспечить надежную передачу данных ... Оператор диспетчерской может руководить самоуправляемыми транспортными средствами и оборудованием",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-04-23-pdf:2",
+   "document_id": "doc:цм-No-04-23-pdf",
+   "title": "RUSAL automated management tools trial",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "electroextraction",
+      "extra": {
+       "raw_process": "Испытания и внедрение автономной системы управления параметрами на основе BigData и динамического цифрового двойника процесса (виртуального электролизера)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:автономная-система-управления-параметрами-на-осн",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:динамическии-цифровои-двои-ник-процесса-виртуаль",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Технологии успешно внедрены в рамках цифровой трансформации",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "implementation status",
+      "direction": "increases",
+      "factor": "automation level",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "провела испытания и внедрила ... инструменты автоматизированного управления технологией",
+     "locator_kind": "md_para",
+     "locator": "para:100",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Компания «РУСАЛ» ... провела испытания и внедрила следующие инструменты автоматизированного управления технологией: автономная система управления параметрами на основе BigData, динамический цифровой двойник процесса (виртуальный электролизер)",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Системы видеоконференц-связи позволяют существенно снизить затраты на проведение совещаний, связанные с командированием сотрудников.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost reduction",
+    "direction": "decreases",
+    "factor": "travel expenses",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти системы позволяют существенно снизить затраты на проведение совещаний, связанные с командированием сотрудников.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Все существующие системы видеоконференц-связи не учитывают особенности корпоративной сетевой инфраструктуры.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "network awareness",
+    "direction": "decreases",
+    "factor": "compatibility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако все существующие системы не учитывают особенности корпоративной сетевой инфраструктуры.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Клиент‑серверная архитектура коммуникаций по корпоративным IP‑сетям показывает меньшую эффективность по сравнению с одноранговыми коммуникациями.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "client‑server vs p2p",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "типичная клиент-серверная архитектура коммуникаций по корпоративным IP-сетям показывает меньшую эффективность по сравнению с одноранговыми коммуникациями",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "P2P‑архитектура позволяет учитывать структуру корпоративной сети предприятия, разгрузить каналы связи и снизить вычислительные затраты на уровне хостов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource usage",
+    "direction": "decreases",
+    "factor": "computational load",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "архитектура p2p , что позволяет учитывать структуру корпоративной сети предприятия, ... разгрузить внешний и внутренние каналы связи и снизить вычислительные затраты на уровне хостов.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Пандемия Covid‑19 привела к существенному расширению использования информационных систем, в том числе видеоконференций, в металлургических предприятиях.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "frequency",
+    "direction": "increases",
+    "factor": "pandemic impact",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "пандемия обусловила необходимость значительных изменений ... выразившихся в существенном расширении использования информационных систем. Например, если ранее к системам видео-конференц-связи обращались изредка ... то теперь предприятия вынуждены были их использовать постоянно",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Высокие материальные затраты и традиция очных совещаний были основной причиной, почему многие металлургические компании до 2020 г. не внедряли видеоконференц‑связь.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "adoption barrier",
+    "direction": "increases",
+    "factor": "cost and tradition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основная причина - высокие материальные затраты и устойчивая традиция проводить совещания в очном формате.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Внедрение цифровой компании «Полюс Диджитал» в 2022 г. направлено на разработку и адаптацию IT‑решений от мобильных приложений до информационных систем для управленческих решений.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "solution scope",
+    "direction": "increases",
+    "factor": "digital capabilities",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2022 г. была создана цифровая компания «Полюс Диджитал», основной деятельностью которой является разработка, внедрение и адаптация цифровых ИT-решений - от мобильных приложений для производственных задач до информационных систем, помогающих принимать управленческие решения.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Все системы видео-конференц-связи построены по одному принципу, являются универсальными и не учитывают особенности корпоративной сетевой среды.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "universality and lack of adaptation to corporate network specifi",
+    "direction": "nonmonotonic",
+    "factor": "design principle",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все системы видео-конференц-связи построены по одному принципу, являются универсальными и не учитывают особенности корпоративной сетевой среды.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Надежность системы связи VoIP зависит от многих факторов и должна обеспечивать индивидуальную связь между участниками.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "dependence on multiple factors",
+    "direction": "nonmonotonic",
+    "factor": "various influencing factors",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Надежность системы связи VoIP зависит от многих факторов и должна обеспечивать индивидуальную связь между участниками.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Надежный сквозной алгоритм шифрования, кроссплатформенность (включая мобильные платформы), контроль обработки данных каждым узлом системы, простота применения для пользователей и системных администраторов, надежные протоколы передачи данных, адаптированные к сетям с нестабильным качеством связи — это аспекты обеспечения безопасной и надежной связи между абонентами.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "security and reliability aspects",
+    "direction": "nonmonotonic",
+    "factor": "algorithm, platform support, data control, usability, protocol robustness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Можно перечислить несколько аспектов обеспечения безопасной и надежной связи между абонентами:\n- надежный сквозной алгоритм шифрования [25, 26]; - кроссплатформенность (включая мобильные платформы); - контроль обработки данных каждым узлом системы, участвующим в VoIP-трафике; - простота применения для пользователей и системных администраторов [27]; - надежные протоколы передачи данных, адаптированные к сетям с нестабильным качеством связи [28, 29].",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Пакеты VoIP часто передают по сетям общего назначения, таким как магистрали провайдеров, беспроводные локальные сети, сети LTE операторов мобильной связи.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "common transmission media",
+    "direction": "nonmonotonic",
+    "factor": "network type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пакеты VoIP часто передают по сетям общего назначения, таким как магистрали провайдеров, беспроводные локальные сети, сети LTE операторов мобильной связи.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Пакеты данных в таких сетях могут быть перехвачены на любом промежуточном узле локальной и глобальной сети, что обуславливает необходимость использования шифрования для обеспечения требований конфиденциальности сеансов связи.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "interception risk",
+    "direction": "nonmonotonic",
+    "factor": "network exposure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пакеты данных в таких сетях могут быть перехвачены на любом промежуточном узле локальной и глобальной сети, что обуславливает необходимость использования шифрования для обеспечения требований конфиденциальности сеансов связи.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Инфраструктура Ethernet подвержена атакам, направленным на отказ в обслуживании промежуточного сетевого или абонентского оборудования.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "susceptibility to DoS attacks",
+    "direction": "nonmonotonic",
+    "factor": "Ethernet infrastructure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кроме того, инфраструктура Ethernet (семейство проводных компьютерных сетевых технологий) подвержена атакам, направленным на отказ в обслуживании промежуточного сетевого или абонентского оборудования.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Для обеспечения минимальной задержки при передаче потоковой аудио- и видеоинформации необходимо учитывать влияние шифрования трафика, длины маршрута, нестабильности соединения и загруженности линий передачи данных.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "delay factors",
+    "direction": "nonmonotonic",
+    "factor": "encryption, route length, connection stability, line load",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Задержку между приемом и доставкой пакетов вызывают шифрование трафика, длина маршрута между терминалами, нестабильность соединения и загруженность линий передачи данных.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Типичной проблемой в условиях джиттера является изменение качества воспроизводимого аудио- и/или видеопотока из‑за изменения времени доставки пакета.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "jitter effect",
+    "direction": "nonmonotonic",
+    "factor": "packet delivery time variation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В последних двух случаях типичной проблемой становится джиттер (от англ. jitter - дрожание) - изменение качества воспроизводимого на устройстве получателя аудио- и/или видеопотока из-за изменения времени доставки пакета.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Для работы в условиях джиттера на уровне стека протоколов VoIP можно изменять маршрут доставки пакетов или ограничивать размер передаваемых данных с предсказуемым ухудшением качества связи.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mitigation strategies",
+    "direction": "nonmonotonic",
+    "factor": "routing change, data size limitation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для работы в условиях джиттера на уровне стека (комбинации) протоколов VoIP можно изменять маршрут доставки пакетов или ограничивать размер передаваемых данных с предсказуемым ухудшением качества связи.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Минимальное условие того, чтобы такой подход был выгодным, - длина окна более чем в 2 раза превышает среднюю задержку дейтаграммы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "minimum condition for benefit",
+    "direction": "increases",
+    "factor": "window length",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Минимальное условие того, чтобы такой подход был выгодным, - длина окна более чем в 2 раза превышает среднюю задержку дейтаграммы.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "UDP указывает только исходные и конечные порты и данные для проверки целостности дейтаграммы, поэтому не гарантирует получения дейтаграмм или их серии в нужном порядке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "guarantee of delivery",
+    "direction": "no_change",
+    "factor": "protocol design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "UDP указывает только исходные и конечные порты и данные для проверки целостности дейтаграммы, поэтому не гарантирует получения дейтаграмм или их серии в нужном порядке.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Благодаря простоте дейтаграммы UDP она подходит в качестве идеального строительного блока для поддержки аудио- и видеопотоков без накладных расходов на транспортном уровне.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "increases",
+    "factor": "UDP simplicity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Благодаря простоте дейтаграммы UDP она подходит в качестве идеального строительного блока для поддержки аудио- и видеопотоков без накладных расходов на транспортном уровне.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Основным триггером для запроса отсутствующих дейтаграмм является получение дейтаграмм в неправильном порядке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "trigger condition",
+    "direction": "no_change",
+    "factor": "out‑of‑order reception",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основным триггером для запроса отсутствующих дейтаграмм является получение дейтаграмм в неправильном порядке.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В зависимости от фиксированного размера полезной нагрузки дейтаграммы и размера окна счетчик циклической последовательности может быть уменьшен до 1 для 2 байтов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "minimum value",
+    "direction": "decreases",
+    "factor": "payload and window size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В зависимости от фиксированного размера полезной нагрузки дейтаграммы и размера окна счетчик циклической последовательности может быть уменьшен до 1 для 2 байтов.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Окно вносит постоянную задержку в связь VoIP, и его размер должен быть минимизирован в зависимости от распределения задержки дейтаграмм.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "window size",
+    "direction": "decreases",
+    "factor": "datagram delay distribution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Окно вносит постоянную задержку в связь VoIP , и его размер должен быть минимизирован в зависимости от распределения задержки дейтаграмм.",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Если какие-то аудиофрагменты отсутствуют, они опускаются при восстановлении сигнала, однако в зависимости от соотношения между размером окна и средней задержкой дейтаграммы можно запросить отсутствующие дейтаграммы у их отправителя.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "missing fragment handling",
+    "direction": "no_change",
+    "factor": "window size vs average delay",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как правило, если какие-то аудиофрагменты отсутствуют, они опускаются при восстановлении сигнала, однако в зависимости от соотношения между размером окна и средней задержкой дейтаграммы можно запросить отсутствующие дейтаграммы у их отправителя.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-04-23-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

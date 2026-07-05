@@ -1,0 +1,1073 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "title": "17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "XX",
+   "lang": "en",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx.md",
+   "artifact_sha256": "558c4d08b1bfda03ad6f06378a619eb80d39f9636fbf9b2e1bb28af891c71d0a",
+   "okf_raw_path": "Статьи/17 ИССЛЕДОВАНИЕ ВЛИЯНИЯ ТЕМПЕРАТУРНОГО РЕЖИМА ПРОЦЕССА ОБЕДНЕНИЯ ШЛАКА НА КОАЛЕСЦЕНЦИЮ ЧАСТИЦ МЕТАЛЛИЧЕСКОЙ ФАЗЫ.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:iron-silicate-melt",
+   "label": "iron silicate melt",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-oxide",
+   "label": "copper oxide",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-oxide",
+   "label": "nickel oxide",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Cu2O-Fe",
+   "label": "Cu2O+Fe",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag",
+   "label": "slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-oxides",
+   "label": "copper oxides",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:metallic-alloy",
+   "label": "metallic alloy",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:17-исследование-влияния-температурного-режима-пр:0",
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "title": "Reduction melting in bubbling conditions of an iron‑silicate melt with dissolved copper and nickel oxides at various temperatures",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduction melting in bubbling conditions of an iron silicate melt, with copper and nickel oxides dissolved in it",
+       "temperature_text": "various temperatures",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:iron-silicate-melt",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:copper-oxide",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:nickel-oxide",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "A tendency of increasing the size of the metal suspension in the melt volume with increasing process temperature has been revealed.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "increases",
+      "factor": "process temperature",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "The tendency of increasing the size of the metal suspension in the melt volume with increasing process temperature has been revealed.",
+     "locator_kind": "md_para",
+     "locator": "para:8",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "The research methodology consisted in conducting reduction melting in bubbling conditions of an iron silicate melt, with copper and nickel oxides dissolved in it, at various temperatures.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:17-исследование-влияния-температурного-режима-пр:1",
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "title": "Effect of temperature on alloy yield",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "smelting of Cu‑Ni‑Fe oxides",
+       "temperature_text": "1450 °C and 1500 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1723.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:Cu2O-Fe",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The shortfall is due to the presence of a metallic suspension in the slag that is not accounted for in the thermodynamic model.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "cause of yield deviation",
+      "direction": "increases",
+      "factor": "metallic suspension",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Причина чего, очевидно, кроется в наличии металлической взвеси в объеме шлака, которая не учитывается при термодинамическом моделировании.",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Однако, из представленной на рисунке 5 информации следует, что при температурном режиме ведения процесса ниже температуры ликвидус сплава, формирование донной фазы не наблюдается.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:17-исследование-влияния-температурного-режима-пр:2",
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "title": "Microstructural analysis of quenched slag samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "quenching of slag followed by REM‑RSMA analysis",
+       "temperature_text": "1300 °C, 1350 °C, 1400 °C, 1450 °C, 1500 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1573.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -20.0,
+      "max": null
+     },
+     "unit": "µm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "size distribution of metallic phase"
+     },
+     "method": null,
+     "snippet": "обнаруженная в объеме расплава металлическая взвесь была поделена на 5 размеров, мкм: -20, -50+20, -80+50, -150+80, +150.",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.63
+    },
+    {
+     "quantity_kind": "fraction of large inclusions (>50 µm)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 150.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "с увеличением температуры процесса имеет место увеличение доли фракции крупных корольков металлической фазы, представленной размером свыше 50 мкм. Кроме того, металлическая фаза, крупность которой свыше 150 мкм диагностируется только при температуре 1500 о С.",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "absence of fine metallic suspension (<20 µm)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1450.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при температуре процесса 1450 и 1500 о С механической взвеси в объеме расплава размером менее 20 мкм не диагностируется.",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Equivalent radius of metallic particles grows exponentially from 8.92 µm at 1300 °C to 45.88 µm at 1500 °C, indicating effective coalescence in the liquid metal state.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "equivalent radius",
+      "direction": "increases",
+      "factor": "temperature",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Данный факт численно выражается в росте эквивалентного радиуса корольков металлической фазы с 8,92 мкм при температуре ведения процесса 1300 о С до 45,88 мкм при 1500 о С и свидетельствует об эффективном процессе коалесценции частиц металлической взвеси в условиях, обеспечивающих нахождение металла в жидком состоянии.",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Сводный анализ размеров всех включений металлической фазы в объеме шлака показал, что с увеличением температуры процесса наблюдается экспоненциальный рост эквивалентного размера частиц металлических корольков, что отражено на рисунке 8.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:17-исследование-влияния-температурного-режима-пр:3",
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "title": "Laboratory reduction experiment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Produbka monooksidom ugleroda (CO) of iron‑silicate melt containing dissolved copper and nickel oxides",
+       "temperature_text": "selected to keep the metallic phase both in solid and liquid state",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:iron-silicate-melt",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:copper-oxides",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:nickel-oxide",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The state (solid/liquid) of the forming metallic alloy determines the magnitude of metal‑to‑slag mechanical losses.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "metal‑to‑slag loss",
+      "direction": "increases",
+      "factor": "solid alloy",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Показано, что, если образующийся металлический сплав находится в шлаковом расплаве в твердом состоянии, процесс характеризуется высоким уровнем потерь металлов со шлаками, коалесценция металлических частиц не происходит, вследствие чего донная фаза не формируется.",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Методика проведения экспериментов заключалась в продувке монооксидом углерода железосиликатного расплава с растворенными в нем оксидами меди и никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:17-исследование-влияния-температурного-режима-пр:4",
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "title": "Viscosity calculation experiment (FactSage)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Calculation of slag viscosity using FactSage Viscosity module and Stokes’ law for particle settling speed",
+       "temperature_text": "1300–1500 °C (values from Table 5)",
+       "duration_text": "not applicable (computational)"
+      },
+      "temperature": {
+       "min": 1573.15,
+       "nominal": null,
+       "max": 1773.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:metallic-alloy",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "viscosity",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 3.3,
+      "max": null
+     },
+     "unit": "Pa·s",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "slag"
+     },
+     "method": null,
+     "snippet": "Вязкость шлака, П",
+     "locator_kind": "md_para",
+     "locator": "para:82",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "viscosity",
+     "scope": "material",
+     "material_id": "mat:metallic-alloy",
+     "value": {
+      "min": 0.69,
+      "nominal": null,
+      "max": 0.87
+     },
+     "unit": "Pa·s·10⁻³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "alloy dynamic"
+     },
+     "method": null,
+     "snippet": "Вязкость сплава, П∙10⁻³",
+     "locator_kind": "md_para",
+     "locator": "para:82",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "High correlation between calculated settling speeds and the temperature‑dependent equivalent particle size previously shown.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "increases",
+      "factor": "temperature",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В целом, можно отметить высокую степень корреляции данных, представленных на рисунке 9, с характером изменения эквивалентного размера металлической фазы с увеличением температуры ведения процесса",
+     "locator_kind": "md_para",
+     "locator": "para:83",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Полученные значения легли в основу графика зависимости скорости осаждения корольков металлической фазы от температурного режима плавки.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Recommendations are given on the optimal temperature parameters for conducting restorative pyrometallurgical processes.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "process efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Based on the conducted research, recommendations are given on the optimal temperature parameters for conducting restorative pyrometallurgical processes.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "The technologies include melting in a two‑zone Vanyukov furnace, as well as a complex of continuous conversion of copper matte.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "In particular, these technologies include melting in a two‑zone Vanyukov furnace, as well as a complex of continuous conversion of copper matte.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "These technologies involve depletion under reducing conditions, which results in the production of a metal alloy as a bottom product.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "These technologies involve depletion under reducing conditions, which results in the production of a metal alloy as a bottom product.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "An urgent task is to determine the optimal temperature conditions for conducting reduction smelting of slags, ensuring minimal losses of metals with dump slags.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "In addition, an urgent task is to determine the optimal temperature conditions for conducting reduction smelting of slags, ensuring minimal losses of metals with dump slags.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": "smelting"
+  },
+  {
+   "text": "На сегодняшний день процесс обеднения шлаков окислительной плавки медно-никелевого концентрата на Надеждинском металлургической заводе ЗФ ПАО «ГМК «Норильский Никель» осуществляется в электропечах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technology used",
+    "direction": "increases",
+    "factor": "electrical furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На сегодняшний день процесс обеднения шлаков окислительной плавки медно-никелевого концентрата на Надеждинском металлургической заводе ЗФ ПАО «ГМК «Норильский Никель» осуществляется в электропечах",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Данная технология характеризуется периодическим режимом работы, низкой удельной производительностью и значительными затратами электроэнергии.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating mode, specific productivity, electricity consumption",
+    "direction": "decreases",
+    "factor": "periodic regime",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данная технология характеризуется периодическим режимом работы, низкой удельной производительностью и значительными затратами электроэнергии.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Из практики работы данных печей известно о возможности расслаивания донной фазы на штейновую (сульфидную) и металлизированную фазы при высоком расходе восстановителя.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "formation of sulfide and metallized phases",
+    "direction": "increases",
+    "factor": "high reducer consumption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из практики работы данных печей известно о возможности расслаивания донной фазы на штейновую (сульфидную) и металлизированную фазы при высоком расходе восстановителя.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Металлизированная фаза формирует подовую настыль, которая снижает полезный объем печного агрегата.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "useful furnace volume",
+    "direction": "decreases",
+    "factor": "formation of under‑bottom crust",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Металлизированная фаза формирует подовую настыль, которая снижает полезный объем печного агрегата.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Технология переработки сульфидного медно-никелевого сырья в двухзонной печи Ванюкова состоит из окислительной зоны, восстановительной зоны, а также совмещенного сифона, предназначенного для выпуска как штейна, так и шлака.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment layout",
+    "direction": "increases",
+    "factor": "two‑zone Vanukhov furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология переработки сульфидного медно-никелевого сырья в двухзонной печи Ванюкова состоит из окислительной зоны, восстановительной зоны, а также совмещенного сифона, предназначенного для выпуска как штейна, так и шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "При этом процесс обеднения шлака окислительной зоны ведут в условиях подачи газовой смеси, образующейся в результате сжигания природного газа в условиях дефицита кислорода, а также твердого восстановителя – угля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating conditions",
+    "direction": "increases",
+    "factor": "gas mixture from natural gas combustion with oxygen deficiency and solid reducer (coal)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При этом процесс обеднения шлака окислительной зоны ведут в условиях подачи газовой смеси, образующейся в результате сжигания природного газа в условиях дефицита кислорода, а также твердого восстановителя – угля.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "В данных условиях проведения процесса образуется металлический сплав.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "reducing conditions in the furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В данных условиях проведения процесса образуется металлический сплав.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Механические потери металлов играют превалирующую роль в общем балансе потерь со шлаками как цветных (за исключением Co), так и благородных металлов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mechanical metal losses",
+    "direction": "increases",
+    "factor": "overall slag loss balance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Механические потери металлов играют превалирующую роль в общем балансе потерь со шлаками как цветных (за исключением Co), так и благородных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Механические потери имеют место при неполном разделении фаз и возникают вследствие запутывания в шлаке мельчайших капель штейна или металла.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mechanical losses",
+    "direction": "increases",
+    "factor": "incomplete phase separation and entrapment of fine droplets",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Механические потери имеют место при неполном разделении фаз и возникают вследствие запутывания в шлаке мельчайших капель штейна или металла.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Переработка сырья в электропечах влечет за собой повышенные механические потери как цветных, так и благородных металлов, поскольку при данной операции отсутствуют условия для образования крупнодисперсных капель штейновой фазы в шлаковом расплаве.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mechanical metal losses",
+    "direction": "increases",
+    "factor": "lack of conditions for large sulfide droplets",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Переработка сырья в электропечах влечет за собой повышенные механические потери как цветных, так и благородных металлов, поскольку при данной операции отсутствуют условия для образования крупнодисперсных капель штейновой фазы в шлаковом расплаве.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Альтернативой электропечной технологии обеднения может являться использование в качестве агрегата для обеднения шлака окислительной плавки медно-никелевого концентрата печи Ванюкова, работающей в восстановительном режиме.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technology choice",
+    "direction": "increases",
+    "factor": "Vanukhov furnace in reducing mode",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Альтернативой электропечной технологии обеднения может являться использование в качестве агрегата для обеднения шлака окислительной плавки медно-никелевого концентрата печи Ванюкова, работающей в восстановительном режиме.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Данная печь характеризуется высокой интенсивностью протекания процессов, следствием чего являются малые габариты по сравнению с электропечами, что, в свою очередь, определяет снижение капитальных затрат при реализации данной технологии.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment size and capital cost",
+    "direction": "decreases",
+    "factor": "high process intensity of the Vanukhov furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данная печь характеризуется высокой интенсивностью протекания процессов, следствием чего являются малые габариты по сравнению с электропечами, что, в свою очередь, определяет снижение капитальных затрат при реализации данной технологии.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Кремнийсодержащие флюсы позволяют, с одной стороны, связать образующийся при окислении концентрата оксид железа, с другой стороны, поддерживать температуру шлака на уровне 1250-1300 °С, что на 100-150 °С выше температуры плавления штейна.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "silica‑based fluxes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кремнийсодержащие флюсы позволяют, с одной стороны, связать образующийся при окислении концентрата оксид железа, с другой стороны, поддерживать температуру шлака на уровне 1250-1300 °С, что на 100-150 °С выше температуры плавления штейна.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Соотношение Cu/Ni в исходном шлаке оказывает влияние на температуру плавления получаемого сплава, которая увеличивается по мере снижения данного соотношения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "decreasing Cu/Ni ratio",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Соотношение Cu/Ni в исходном шлаке оказывает влияние на температуру плавления получаемого сплава, которая увеличивается по мере снижения данного соотношения.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "В работе [12] соотношение Cu/Ni в шлаке, подвергаемом обеднению, составляет ⁓ 1.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Cu/Ni ratio",
+    "direction": "increases",
+    "factor": "specific feedstock",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В работе [12] соотношение Cu/Ni в шлаке, подвергаемом обеднению, составляет ⁓ 1.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Получаемый сплав будет характеризоваться значительным содержанием Fe (на уровне 25-30% масс.), что, согласно трехфазовой диаграмме Cu-Ni-Fe, также будет влиять на температуру плавления получаемого сплава в сторону ее увеличения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "Fe content 25-30% mass",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Получаемый сплав будет характеризоваться значительным содержанием Fe (на уровне 25-30% масс.), что, согласно трехфазовой диаграмме Cu-Ni-Fe, также будет влиять на температуру плавления получаемого сплава в сторону ее увеличения.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Исследования проводились в высокотемпературной установке типа Таммана.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment type",
+    "direction": "increases",
+    "factor": "use of Tammann furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Исследования проводились в высокотемпературной установке типа Таммана.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Since the amount of gas was the same in all experiments, the reduction potential of the systems can be considered equal.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reduction potential",
+    "direction": "no_change",
+    "factor": "constant gas amount",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поскольку в рассматриваемой серии экспериментов количество газа во всех экспериментах было одинаковым, можно утверждать, что восстановительный потенциал систем во всех случаях был равным",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "The small decrease in alloy yield with increasing temperature is explained by the shift of the reduction equilibrium toward oxide formation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "alloy yield",
+    "direction": "decreases",
+    "factor": "temperature increase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "небольшое снижение выхода сплава с увеличением температуры, наблюдаемое при рассмотрении результатов термодинамического моделирования, объясняется смещением равновесия реакции восстановления в сторону образования оксидов металлов с повышением температуры.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Below the liquidus temperature of the alloy, no bottom (donny) phase forms.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "formation of bottom phase",
+    "direction": "no_change",
+    "factor": "temperature < liquidus",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при температурном режиме ведения процесса ниже температуры ликвидус сплава, формирование донной фазы не наблюдается",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": "smelting"
+  },
+  {
+   "text": "The deposition velocity of metallic droplets in slag melt is described by a Stokes‑type equation with Adamson and Rybcynski corrections.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "deposition velocity",
+    "direction": "nonmonotonic",
+    "factor": "fluid properties and droplet radius",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно литературным данным [20-21] скорость осаждения металлической фазы в шлаковом расплаве описывается при помощи формулы Стокса с поправками Адамара и Рыбчинского и выражается в виде следующей формулы",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Viscosity is a property of the liquid phase that resists particle movement.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "viscosity",
+    "direction": "increases",
+    "factor": "internal friction between adjacent slag layers",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вязкость представляет собой свойство жидкой фазы оказывать сопротивление перемещению ее частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Slag viscosity is caused by internal friction between neighboring layers of slag melt and depends on the adhesion force between slag molecules.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "viscosity",
+    "direction": "increases",
+    "factor": "internal friction and molecular adhesion",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В свою очередь, вязкость шлаков обуславливается внутренним трением между соседними слоями шлакового расплава и зависит от силы сцепления между молекулами шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Dynamic viscosity of the alloy was estimated from kinetic viscosity data of Mn‑19 (mélange) reported in literature.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "viscosity",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На основании сведений, приведенных в работе [22], рассчитан показатель динамической вязкости сплава, получаемого при различных температурах в данной работе.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "The sulfide additive (sulphidizer) intensifies coalescence of mechanical sulfide suspensions in the slag, increasing the number of sulfide centers and collisions, leading to larger sulfide particles under intensive stirring in a Vanyukov furnace.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "coalescence",
+    "direction": "increases",
+    "factor": "sulfide additive",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добавка сульфидизатора интенсифицирует процессы коалесценции механической взвеси сульфидов в исходном шлаке, поскольку в системе шлак‑штейн увеличивается количество сульфидных центров, что способствует росту числа соударений, и, как следствие, укрупнений, сульфидных частиц в условиях интенсивного перемешивания расплава, которым характеризуется печь Ванюкова.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "When using a sulfide additive (ruđ), the liquidus temperature of the bottom phase does not exceed 1200 °C in practice at the Nadezhdinsky metallurgical plant.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "sulfide additive",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно данным практики [1] работы обеднительных электропечей на Надеждинском металлургическом заводе, температура плавления донной фазы при использовании сульфидизатора (руды) не превышает 1200 о С.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "The previously published study [16] recommends a reduction temperature of about 1250 °C for a Cu‑rich alloy (up to 70 % Cu by mass) resulting from slag with Cu/Ni ≈ 3.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "high Cu content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данный сплав обладает относительно низкой температурой плавления – ориентировочно 1250 о С, что является следствием высокого содержания Cu (до 70% масс.).",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "In oxidative copper‑nickel concentrate slag, Cu/Ni < 1 and the concentration of these base metals does not exceed 1 % by mass.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Cu/Ni ratio",
+    "direction": "decreases",
+    "factor": "oxidative melting",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Шлаки окислительной плавки сульфидного медно-никелевого концентрата отличаются соотношением Cu/Ni < 1. Кроме того, концентрации данных цветных металлов в шлаке не превышают 1% масс.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.81,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Reducing oxides in slag melt requires a more reducing atmosphere as oxide concentration (activity) decreases.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "required atmosphere",
+    "direction": "increases",
+    "factor": "lower oxide activity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "известно [19], что при восстановлении оксидов из шлакового расплава по мере уменьшения их концентрации (активности) требуется более восстановительная атмосфера",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  },
+  {
+   "text": "Increasing iron content in the bottom phase raises the liquidus temperature of the bottom phase.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "iron content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "металлическое железо, температура плавления которого составляет 1538 о С, несомненно, повлечет рост температуры ликвидус донной фазы.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:17-исследование-влияния-температурного-режима-пр",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

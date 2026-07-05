@@ -1,0 +1,673 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_10_16-pdf",
+   "title": "CM_10_16.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2016\\CM_10_16.pdf.md",
+   "artifact_sha256": "3b523cf70efb237242bb4659c39207e70d232fad0d1d26fbed151ebd3199f673",
+   "okf_raw_path": "Журналы/Цветные металлы/2016/CM_10_16.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:незаложенныи-нефелиновыи-концентрат",
+   "label": "незаложенный нефелиновый концентрат",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:отвержденные-формы-акфк",
+   "label": "отвержденные формы АКФК",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сульфат-алюминия",
+   "label": "сульфат алюминия",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:алюмокалиевые-натриевые-квасцы",
+   "label": "алюмокалиевые/натриевые квасцы",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:akfk-solution",
+   "label": "AKFK solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_10_16-pdf:0",
+   "document_id": "doc:cm_10_16-pdf",
+   "title": "Получение образцов отвержденных коагулянтов",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Методами распылительной сушки и химической дегидратации получены образцы отвержденных коагулянтов (АКФК тв и АКФК дег соответственно)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:незаложенныи-нефелиновыи-концентрат",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "состав активных компонентов",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Основными активными компонентами АКФК тв являются смесь алюмокалиевых и алюмонатриевых квасцов (~10 % по Al 2 O 3 ), а в случае АКФК дег -квасцов и сульфата алюминия (~16 % по Al 2 O 3 ).",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Отвержденные формы реагента обладают повышенной эффективностью по сравнению с сульфатом алюминия и алюмокалиевыми/натриевыми квасцами.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Пробная коагуляционная очистка поверхностного стока р. Яуза и промышленного стока машиностроительного предприятия доказали повышенную эффективность отвержденных форм реагента относительно сульфата алюминия и алюмокалиевых/натриевых квасцов по показателям мутности и цветности, соединениям железа и нефтепродуктам.",
+     "locator_kind": "md_para",
+     "locator": "para:148",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Методами распылительной сушки и химической дегидратации получены образцы отвержденных коагулянтов (АКФК тв и АКФК дег соответственно), определен их элементный, количественный и фазовый состав.",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_10_16-pdf:1",
+   "document_id": "doc:cm_10_16-pdf",
+   "title": "Пробная коагуляционная очистка стоков",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Пробная коагуляционная очистка поверхностного стока реки Яуза и промышленного стока машиностроительного предприятия"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:отвержденные-формы-акфк",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:сульфат-алюминия",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:алюмокалиевые-натриевые-квасцы",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Отвержденные формы реагента более эффективны, чем традиционные реагенты, в очистке стоков.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Пробная коагуляционная очистка ... доказали повышенную эффективность отвержденных форм реагента относительно сульфата алюминия и алюмокалиевых/натриевых квасцов ...",
+     "locator_kind": "md_para",
+     "locator": "para:127",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Пробная коагуляционная очистка поверхностного стока р. Яуза и промышленного стока машиностроительного предприятия доказали повышенную эффективность отвержденных форм реагента относительно сульфата алюминия и алюмокалиевых/натриевых квасцов по показателям мутности и цветности, соединениям железа и нефтепродуктам.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_10_16-pdf:2",
+   "document_id": "doc:cm_10_16-pdf",
+   "title": "Laboratory spray‑drying experiment (Mini Spray Dryer B‑290)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "spray drying of AKFK solution",
+       "temperature_text": "170 о С"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 443.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:akfk-solution",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 24.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "air"
+     },
+     "method": null,
+     "snippet": "расход сушильного агента (воздух) 24 м 3 /ч, температура сушки 170 о С, скорость подачи раствора 0,15 г/с",
+     "locator_kind": "md_para",
+     "locator": "para:161",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "feed rate",
+     "scope": "material",
+     "material_id": "mat:akfk-solution",
+     "value": {
+      "min": null,
+      "nominal": 0.15,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "расход сушильного агента (воздух) 24 м 3 /ч, температура сушки 170 о С, скорость подачи раствора 0,15 г/с",
+     "locator_kind": "md_para",
+     "locator": "para:161",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "active Al2O3 content in solid product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Общее содержание активных форм алюминия составило ~10 % по Al 2 O 3",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "composition of solid product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Алюмокалиевыеквасцы K‑Al(SO 4 ) . n H 2 O 22 ; Алюмонатриевыеквасцы Na‑Al(SO 4 ) . n H 2 O 66 ; Коллоидный кремнезем SiO 2 12",
+     "locator_kind": "md_para",
+     "locator": "para:165",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "zeta potential of SiO2",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -2.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Диоксид кремния в составе АКФК тв имеет слабый отрицательный дзета‑потенциал (порядка -2,5 мВ)",
+     "locator_kind": "md_para",
+     "locator": "para:163",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "specific surface area of SiO2",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 76.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "а также достаточно развитую поверхность (76 м 2 /г)",
+     "locator_kind": "md_para",
+     "locator": "para:163",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Оптимальные условия сушки позволяют максимально увеличить выход товарного продукта и минимизировать энергозатраты.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "оптимальные условия сушки, позволяющие максимально увеличить выход товарного продукта и минимизировать энергозатраты",
+     "locator_kind": "md_para",
+     "locator": "para:161",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В лабораториях ... был проведен полный факторный эксперимент с получением образцов отвержденного АКФК (АКФК тв ).",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_10_16-pdf:3",
+   "document_id": "doc:cm_10_16-pdf",
+   "title": "Chemical dehydration (non‑spray‑drying) trial",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "chemical dehydration of AKFK solution to solid AKFK"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:akfk-solution",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Помимо распылительной сушки была изучена возможность получения отвержденного АКФК методом химической дегидратации.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Помимо распылительной сушки была изучена возможность получения отвержденного АКФК методом химической дегидратации.",
+     "locator_kind": "md_para",
+     "locator": "para:164",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Помимо распылительной сушки была изучена возможность получения отвержденного АКФК методом химической дегидратации.",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Проект рентабелен при мировой цене не ниже 10,5 тыс. долл./т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "economic viability",
+    "direction": "increases",
+    "factor": "world price",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проект рентабелен при мировой цене не ниже 10,5 тыс. долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Мощность предприятия - 2,0 тыс. т никеля в ферроникеле.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "plant design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность предприятия - 2,0 тыс. т никеля в ферроникеле.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Sumitomo Metal Mining (Япония), дефицит мирового рынка никеля в текущем году составит 0,047 млн т (ранее 0,08 млн т): потребление увеличится на 1,1 % до 1,914 млн т, производство сократится на 5,4 % до 1,867 млн т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "deficit, consumption, production",
+    "direction": "decreases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Sumitomo Metal Mining (Япония), дефицит мирового рынка никеля в текущем году составит 0,047 млн т (ранее 0,08 млн т): потребление увеличится на 1,1 % до 1,914 млн т, производство сократится на 5,4 % до 1,867 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Во 2-м квартале текущего года Eramet (Франция) выпустила 25,737 тыс. т никеля, продажи составили 26,463 тыс. т (27,09 и 26,34 тыс. т в 1-м полугодии 2015 г . соответственно).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output and sales",
+    "direction": "increases",
+    "factor": "company performance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Во 2-м квартале текущего года Eramet (Франция) выпустила 25,737 тыс. т никеля, продажи составили 26,463 тыс. т (27,09 и 26,34 тыс. т в 1-м полугодии 2015 г . соответственно).",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Во 2-м квартале 2016 г. Vale (Бразилия) выпустила 1,312 тыс. т кобальта.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Во 2-м квартале 2016 г . Vale (Бразилия) выпустила 1,312 тыс. т кобальта (1,4 тыс. т в 1-м квартале 2016 г ., 1,122 тыс. т во 2-м квартале 2015 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Sherritt International (Канада) во 2-м квартале 2016 г. произвела в Канаде 954,0 т кобальта, на Мадагаскаре - 675,0 т; продажи составили 946,0 и 907,5 т соответственно, средняя цена продаж - 29 476,0 и 29 674,0 долл./т.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Sherritt International (Канада) во 2-м квартале 2016 г. произвела в Канаде 954,0 т кобальта, на Мадагаскаре - 675,0 т; продажи составили 946,0 и 907,5 т соответственно, средняя цена продаж - 29 476,0 и 29 674,0 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Скорректированный план производства кобальта на текущий год – 2,9‑3,3 тыс. т.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Скорректированный план производства кобальта на текущий год - 2,9-3,3 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1‑м полугодии 2015 г. Glencore/Xstrata (Швейцария) выпустила 3,3 тыс. т кобальта, в том числе Nikkelverk (Норвегия) – 1,8 тыс. т, Murrin Murrin (Австралия) – 1,5 тыс. т.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 1-м полугодии 2015 г . Glencore/Xstrata (Швейцария) выпустила 3,3 тыс. т кобальта, в том числе Nikkelverk (Норвегия) - 1,8 тыс. т (1,5 тыс. т в 1-м полугодии 2015 г .), Murrin Murrin (Австралия) - 1,5 тыс. т (1,6 тыс. т в 1-м полугодии 2015 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасы нефелиновых хвостов, размещенных на постоянное хранение в хвостохранилищах Кольского полуострова, исчисляются сотнями миллионов тонн.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Запасы нефелиновых хвостов, размещенных на постоянное хранение в хвостохранилищах Кольского полуострова, исчисляются сотнями миллионов тонн.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "На сегодня запасы нефелиновых хвостов, размещенных в хвостохранилищах на Кольском полуострове, составляют более 550 млн т.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "На сегодня запасы нефелиновых хвостов, размещенных в хвостохранилищах на Кольском полуострове, составляют более 550 млн т [2].",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Третье направление – получение растворов коагулянта с содержанием активных форм алюминия ~25 г/л по Al2O3, а также дополнительным флокулирующим агентом – активной кремниевой кислотой в количестве до 20 г/л по Si.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Третье направление - получение растворов коагулянта с содержанием активных форм алюминия ~25 г/л по Al 2 O 3 , а также дополнительным флокулирующим агентом - активной кремниевой кислотой в количестве до 20 г/л по Si.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология получения АКФК ж из нефелинового концентрата приводит к высокому содержанию остаточной серной кислоты в растворах (pH раствора <1).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pH",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "это и высокое содержание остаточной серной кислоты в растворах АКФК ж (рН раствора <1)",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Низкое pH часто требует корректировать pH очищаемого стока после внесения реагента.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pH",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обуславливающее необходимость в ряде случаев корректировать рН очищаемого стока после внесения реагента",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Растворы АКФК ж медленно гелеют при хранении из‑за поликонденсации активной кремниевой кислоты, что приводит к потере флокулирующих свойств.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gelation speed",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "медленное гелирование раствора при хранении в результате поликонденсации активной кремниевой кислоты с потерей флокулирующих свойств реагента",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Разбавление растворов АКФК ж в 3‑5 раз существенно снижает скорость гелирования, но значительно увеличивает объём реагента и расходы на транспортировку.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gelation speed",
+    "direction": "decreases",
+    "factor": "dilution 3‑5×",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разбавление растворов АКФК ж в 3-5 раз существенно снижает скорость гелирования, однако значительно увеличивает объем реагента и расходы на его транспортировку",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Коагуляция является одним из основополагающих процессов водоочистки и водоподготовки.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "коагуляция является одним из основополагающих процессов водоочистки и водоподготовки",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Получение различных форм алюмокремниевых коагулянтов из отходов считается перспективным направлением исследований.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "получение различных форм алюмокремниевых коагулянтов ... из отходов является перспективным направлением исследований",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Коллоидный кремнезем в составе АКФК тв может выступать в роли «замутнителя» (зародышеобразователя) и дополнительно сорбировать отдельные загрязняющие вещества.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "кремнезем в процессе водоочистки может выступать в роли «замутнителя» (зародышеобразователя), наряду с этим возможна дополнительная сорбция отдельных загрязняющих веществ на его поверхности",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.81,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Сульфат алюминия кристаллизуется в виде 18‑водного кристаллогидрата, поглощая воду из раствора.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "сульфат алюминия кристаллизуется в виде 18-водного кристаллогидрата по реакции: При этом вода, необходимая для образования кристаллогидрата, будет поглощена из раствора",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.81,
+   "document_id": "doc:cm_10_16-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

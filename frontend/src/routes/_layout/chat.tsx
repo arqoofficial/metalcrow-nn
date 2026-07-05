@@ -4,6 +4,8 @@ import { ArrowUp, Download, Maximize2, Plus, Share2 } from "lucide-react"
 import { Fragment, useEffect, useMemo, useRef, useState } from "react"
 
 import { type ChatMode, ChatService } from "@/client"
+import { LiteraturePanel } from "@/components/Chat/LiteraturePanel"
+import { MarkdownContent } from "@/components/Common/MarkdownContent"
 import { PageHeader } from "@/components/Common/PageHeader"
 import { StubMark } from "@/components/Common/StubMark"
 import { Badge } from "@/components/ui/badge"
@@ -16,6 +18,7 @@ import {
   type ChatSource,
   postChatMessage,
 } from "@/lib/postChatMessage"
+import { getSearch } from "@/lib/litsearch"
 import { cn, countRu } from "@/lib/utils"
 
 // ── режимы композера ──────────────────────────────────────────────────────
@@ -35,12 +38,18 @@ const modeOptions: { value: ChatMode; label: string; hint: string }[] = [
     label: "Граф знаний",
     hint: "GraphRAG по графу знаний + поиск по экспериментам",
   },
+  {
+    value: "literature",
+    label: "Литература",
+    hint: "Поиск статей в открытых источниках: сначала ответ по аннотациям, затем — по полным текстам",
+  },
 ]
 
 const modeUsedLabel: Record<ChatModeUsed, string> = {
   ontology: "Онтология",
   knowledge_graph: "Граф знаний",
   hypothesis: "Гипотеза (gap-анализ)",
+  literature: "Литература",
 }
 
 const modeUsedVariant: Record<
@@ -50,6 +59,12 @@ const modeUsedVariant: Record<
   ontology: "neutral",
   knowledge_graph: "confidenceHigh",
   hypothesis: "external",
+  literature: "neutral",
+}
+
+const litsearchKindLabel: Record<string, string> = {
+  abstracts: "Ответ по аннотациям",
+  fulltext: "Ответ по полным текстам",
 }
 
 const confidenceMeta: Record<
@@ -74,13 +89,16 @@ const confidenceMeta: Record<
 }
 
 const suggestionChips = [
-  "Какие методы обессоливания воды подходят для обогатительной фабрики, если исходная вода содержит сульфаты, хлориды, Ca, Mg, Na по 200–300 мг/л, а требуемый сухой остаток — ≤1000 мг/дм³?",
-  "Какие технические решения организации циркуляции католита при электроэкстракции никеля описаны в мировой практике, и какая скорость потока считается оптимальной?",
-  "Покажите все эксперименты и публикации по распределению Au, Ag и МПГ между медным/никелевым штейном и шлаком за последние 5 лет.",
-  "Какие способы закачки шахтных вод в глубокие горизонты применялись в России и за рубежом, и каковы их технико-экономические показатели?",
+  "Какая плотность тока оптимальна при электроэкстракции Ni?",
   "Сравни отечественную и мировую практику по схемам подачи католита",
+  "Как распределяются Au, Ag и МПГ между штейном и шлаком?",
   "Куда уходит серебро при конвертировании штейна?",
   "Из чего получают файнштейн — покажи цепочку переделов",
+  "Какими способами подают концентрат в печи взвешенной плавки?",
+  "Что ещё не изучено по флотации пентландита?",
+  "Какие методы обессоливания шахтных вод применимы при 200–300 мг/л сульфатов?",
+  "Сравни отечественную и зарубежную практику по выщелачиванию",
+  "Какие комбинации режимов ещё не изучены?",
   "Где пробелы в базе: что покрыто слабо?",
   "Есть ли противоречия между источниками?",
   "Какие лаборатории занимались хлорированием?",
@@ -436,12 +454,17 @@ function ReportCard({
 function AssistantPlainCard({
   content,
   mode,
+  litsearchKind,
   time,
 }: {
   content: string
   mode?: string
+  litsearchKind?: string
   time: string | null
 }) {
+  const litsearchKindText = litsearchKind
+    ? litsearchKindLabel[litsearchKind]
+    : undefined
   return (
     <div className="w-full max-w-[840px] flex-none overflow-hidden rounded-[14px] border bg-card">
       <div className="flex flex-wrap items-center gap-2.5 border-b px-5 py-3">
@@ -450,25 +473,94 @@ function AssistantPlainCard({
         ) : (
           <Badge variant="neutral">Ответ</Badge>
         )}
+        {litsearchKindText && (
+          <Badge variant="outline" className="text-[11px]">
+            {litsearchKindText}
+          </Badge>
+        )}
         {time && (
           <span className="ml-auto text-[11.5px] text-muted-foreground">
             {time}
           </span>
         )}
       </div>
-      <p className="px-5 py-4 text-sm leading-relaxed whitespace-pre-wrap text-foreground">
-        {content}
-      </p>
+      <div className="px-5 py-4">
+        {litsearchKind || mode === "literature" ? (
+          <MarkdownContent content={content} />
+        ) : (
+          <p className="text-sm leading-relaxed whitespace-pre-wrap text-foreground">
+            {content}
+          </p>
+        )}
+      </div>
     </div>
   )
 }
 
-function ThinkingIndicator() {
+// Стадии «мышления» по режиму. Бэкенд отдаёт ответ одним событием (без
+// стриминга шагов), поэтому прогресс сменяется по таймеру и отражает реальные
+// этапы пайплайна: разбор вопроса → ретрив → отбор доказательств → синтез.
+const thinkingStages: Record<ChatMode, string[]> = {
+  ontology: [
+    "Разбираю вопрос, определяю интент…",
+    "Ищу пассажи в онтологии: плотный + лексический поиск…",
+    "Отбираю доказательства и дословные цитаты источников…",
+    "Синтезирую ответ и оцениваю достоверность…",
+  ],
+  knowledge_graph: [
+    "Разбираю вопрос…",
+    "Обхожу граф знаний: сущности → связи…",
+    "Достаю релевантные эксперименты (hybrid search)…",
+    "Синтезирую ответ по графовому контексту…",
+  ],
+  auto: [
+    "Разбираю вопрос, определяю интент…",
+    "Ищу в онтологии: плотный + лексический поиск…",
+    "Отбираю доказательства с цитатами; при пустом — граф знаний…",
+    "Синтезирую структурированный ответ…",
+  ],
+  literature: [
+    "Формулирую поисковые запросы…",
+    "Ищу статьи в OpenAlex и Cyberleninka…",
+    "Синтезирую ответ по аннотациям…",
+    "Загружаю полные тексты для подробного ответа…",
+  ],
+}
+
+function ThinkingIndicator({ mode }: { mode: ChatMode }) {
+  const stages = thinkingStages[mode] ?? thinkingStages.auto
+  const [stage, setStage] = useState(0)
+  const [elapsed, setElapsed] = useState(0)
+
+  useEffect(() => {
+    setStage(0)
+    setElapsed(0)
+    const started = Date.now()
+    const timer = setInterval(() => {
+      const secs = Math.floor((Date.now() - started) / 1000)
+      setElapsed(secs)
+      // ~2.4 с на стадию, на последней задерживаемся до прихода ответа
+      setStage(Math.min(stages.length - 1, Math.floor(secs / 2.4)))
+    }, 300)
+    return () => clearInterval(timer)
+  }, [stages.length])
+
   return (
-    <div className="flex w-full max-w-[840px] flex-none items-center gap-2.5 px-1 py-1">
-      <span className="mc-pulse size-2 rounded-full bg-primary" />
-      <span className="text-[12.5px] text-muted-foreground">
-        Агент обходит граф знаний… сущности → связи → источники
+    <div className="flex w-full max-w-[840px] flex-none items-center gap-2.5 px-1 py-1.5">
+      <span className="flex shrink-0 items-center gap-1">
+        {[0, 150, 300].map((delay) => (
+          <span
+            key={delay}
+            className="mc-pulse size-1.5 rounded-full bg-primary"
+            style={{ animationDelay: `${delay}ms` }}
+          />
+        ))}
+      </span>
+      <span className="text-[12.5px] text-muted-foreground transition-opacity">
+        {stages[stage]}
+      </span>
+      <span className="ml-auto shrink-0 text-[11px] tabular-nums text-muted-foreground/60">
+        {elapsed}s
       </span>
     </div>
   )
@@ -486,10 +578,8 @@ function ChatPage() {
   const [pendingQuestion, setPendingQuestion] = useState<string | null>(null)
   const [pendingSentAt, setPendingSentAt] = useState<string | null>(null)
   const [newTitle, setNewTitle] = useState("")
-  // длина истории на момент отправки — чтобы структурированный ответ показывать
-  // только после того, как рефетч истории подхватил новый ход (иначе ответ на
-  // мгновение привязался бы к предыдущей реплике).
   const [baseHistoryLen, setBaseHistoryLen] = useState(0)
+  const [activeSearchId, setActiveSearchId] = useState<string | null>(null)
   const scrollRef = useRef<HTMLDivElement>(null)
 
   const { data: sessions } = useQuery({
@@ -504,6 +594,51 @@ function ChatPage() {
     enabled: !!selectedSessionId,
   })
 
+  const latestHistorySearchId = useMemo(() => {
+    if (!history) return null
+    for (let index = history.length - 1; index >= 0; index -= 1) {
+      const metadata = history[index].message_metadata as
+        | Record<string, unknown>
+        | null
+        | undefined
+      const searchId = metadata?.search_id
+      if (typeof searchId === "string") {
+        return searchId
+      }
+    }
+    return null
+  }, [history])
+
+  const effectiveSearchId = activeSearchId ?? latestHistorySearchId
+
+  const { data: literatureSearch } = useQuery({
+    queryKey: ["litsearch", effectiveSearchId],
+    queryFn: () => getSearch(effectiveSearchId as string),
+    enabled: !!effectiveSearchId,
+    refetchInterval: (query) => {
+      const stage = query.state.data?.stage
+      return stage === "done" || stage === "failed" ? false : 2000
+    },
+  })
+
+  const previousAnswerCountRef = useRef(0)
+
+  useEffect(() => {
+    const answerCount = literatureSearch?.answers.length ?? 0
+    if (answerCount > previousAnswerCountRef.current) {
+      queryClient.invalidateQueries({
+        queryKey: ["chat-history", selectedSessionId],
+      })
+    }
+    previousAnswerCountRef.current = answerCount
+  }, [literatureSearch?.answers.length, queryClient, selectedSessionId])
+
+  useEffect(() => {
+    if (literatureSearch?.followup_search_id) {
+      setActiveSearchId(literatureSearch.followup_search_id)
+    }
+  }, [literatureSearch?.followup_search_id])
+
   const createSession = useMutation({
     mutationFn: (title?: string) =>
       ChatService.createSession({
@@ -511,6 +646,7 @@ function ChatPage() {
       }),
     onSuccess: (created) => {
       setNewTitle("")
+      setActiveSearchId(null)
       queryClient.invalidateQueries({ queryKey: ["chat-sessions"] })
       navigate({ to: "/chat", search: { session: created.id } })
     },
@@ -525,13 +661,21 @@ function ChatPage() {
       setMessageContent("")
       setBaseHistoryLen(history?.length ?? 0)
     },
-    onSuccess: () => {
-      queryClient.invalidateQueries({
-        queryKey: ["chat-history", selectedSessionId],
-      })
-      queryClient.invalidateQueries({ queryKey: ["chat-sessions"] })
+    onSuccess: async (response) => {
+      if (response.literature?.search_id) {
+        setActiveSearchId(response.literature.search_id)
+      }
+      try {
+        await queryClient.invalidateQueries({
+          queryKey: ["chat-history", selectedSessionId],
+        })
+      } finally {
+        queryClient.invalidateQueries({ queryKey: ["chat-sessions"] })
+        setPendingQuestion(null)
+        setPendingSentAt(null)
+      }
     },
-    onSettled: () => {
+    onError: () => {
       setPendingQuestion(null)
       setPendingSentAt(null)
     },
@@ -543,6 +687,7 @@ function ChatPage() {
     setPendingQuestion(null)
     setPendingSentAt(null)
     setBaseHistoryLen(0)
+    setActiveSearchId(null)
     setMessageContent(search.draft ?? "")
   }, [selectedSessionId, search.draft])
 
@@ -658,11 +803,16 @@ function ChatPage() {
         }
       />
 
-      {/* лента сообщений */}
       <div
-        ref={scrollRef}
-        className="flex min-h-0 flex-1 flex-col items-center gap-5 overflow-y-auto bg-muted/20 px-4 py-6"
+        className={cn(
+          "grid min-h-0 flex-1",
+          effectiveSearchId && "lg:grid-cols-[minmax(0,1fr)_360px]",
+        )}
       >
+        <div
+          ref={scrollRef}
+          className="flex min-h-0 flex-col items-center gap-5 overflow-y-auto bg-muted/20 px-4 py-6"
+        >
         {isEmpty && !pendingQuestion && (
           <div className="flex w-full max-w-[840px] flex-none flex-col items-center gap-1 pt-6 text-center text-muted-foreground">
             <p className="text-sm">
@@ -720,18 +870,19 @@ function ChatPage() {
               key={message.id ?? index}
               content={message.content}
               mode={metadata?.mode_used as string | undefined}
+              litsearchKind={metadata?.litsearch_kind as string | undefined}
               time={time}
             />
           )
         })}
 
-        {pendingQuestion && (
+        {pendingQuestion && (history?.length ?? 0) <= baseHistoryLen && (
           <Fragment>
             <QuestionBubble
               text={pendingQuestion}
               time={formatMessageSentAt(pendingSentAt)}
             />
-            <ThinkingIndicator />
+            <ThinkingIndicator mode={mode} />
           </Fragment>
         )}
 
@@ -747,6 +898,13 @@ function ChatPage() {
                 {chip}
               </button>
             ))}
+          </div>
+        )}
+        </div>
+
+        {effectiveSearchId && (
+          <div className="hidden min-h-0 overflow-y-auto border-l bg-card lg:block">
+            <LiteraturePanel searchId={effectiveSearchId} />
           </div>
         )}
       </div>

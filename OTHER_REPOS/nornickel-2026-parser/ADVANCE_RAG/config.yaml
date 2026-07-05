@@ -1,0 +1,39 @@
+api:
+  version: v1
+  host: "0.0.0.0"
+  port: 8115
+
+shared:
+  root: "../SHARED"
+
+query:
+  default_type: dense
+  default_limit: 10
+  default_source_subfolder: "01_docling_clean00"
+  allowed_source_subfolders:
+    - "00_docling_raw"
+    - "01_docling_clean00"
+  preprocessing:
+    lemmatization: true
+    stemming: true
+    languages:
+      - en
+      - ru
+
+chroma:
+  mode: cpu_local
+  persist_directory: "./data/chroma"
+  collection_name: advance_rag
+
+queue:
+  backend: memory
+  poll_interval_sec: 1
+
+observability:
+  metrics_enabled: true
+  tracing_enabled: true
+  log_json: true
+
+mcp:
+  host: "0.0.0.0"
+  port: 8120

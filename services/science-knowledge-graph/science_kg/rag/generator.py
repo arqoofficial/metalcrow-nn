@@ -59,7 +59,31 @@ def _serialize_context(context: RetrievalContext) -> str:
     return "\n".join(lines)
 
 
-async def generate_answer(question: str, context: RetrievalContext) -> str:
+def _trace_kwargs(langfuse_headers: dict[str, str] | None) -> dict:
+    """Turn forwarded `langfuse_*` headers into openai `create()` kwargs the
+    LiteLLM gateway understands: send them as request headers AND mirror
+    user/session into `metadata` (extra_body) so attribution lands regardless of
+    the gateway's LiteLLM version. See
+    docs.litellm.ai/docs/observability/langfuse_integration."""
+    if not langfuse_headers:
+        return {}
+    kwargs: dict = {"extra_headers": dict(langfuse_headers)}
+    metadata: dict[str, str] = {}
+    if "langfuse_trace_user_id" in langfuse_headers:
+        metadata["trace_user_id"] = langfuse_headers["langfuse_trace_user_id"]
+    if "langfuse_session_id" in langfuse_headers:
+        metadata["session_id"] = langfuse_headers["langfuse_session_id"]
+    if metadata:
+        kwargs["extra_body"] = {"metadata": metadata}
+    return kwargs
+
+
+async def generate_answer(
+    question: str,
+    context: RetrievalContext,
+    *,
+    langfuse_headers: dict[str, str] | None = None,
+) -> str:
     """Always calls the LLM — even with empty context — so it can tell casual
     messages ("hi") apart from real domain questions with no graph data (rule 1
     vs rule 2 in `_SYSTEM`) instead of a hardcoded non-answer for every empty
@@ -91,6 +115,7 @@ async def generate_answer(question: str, context: RetrievalContext) -> str:
                 },
             ],
             max_tokens=1024,
+            **_trace_kwargs(langfuse_headers),
         )
     except openai.APIError as exc:
         logger.warning("RAG LLM call failed: %s", exc)

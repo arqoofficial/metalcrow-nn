@@ -1,0 +1,673 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "title": "10 Статья по ХВ МФ-2025-14.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\10 Статья по ХВ МФ-2025-14.docx.md",
+   "artifact_sha256": "251666273189ddd780d85d5d4583fb9cc43f477437502d6b4af07368ab1f320c",
+   "okf_raw_path": "Статьи/10 Статья по ХВ МФ-2025-14.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:magnetic-fraction-samples",
+   "label": "magnetic fraction samples",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:magnetic-fraction-from-fine-stone",
+   "label": "magnetic fraction from fine‑stone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:matte-мф",
+   "label": "Matte (МФ)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-nickel-chloride-solution",
+   "label": "Copper‑nickel chloride solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:chlorine-generated-in-a-laboratory-electrolyzer",
+   "label": "Chlorine generated in a laboratory electrolyzer",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:magnetic-fraction-of-fine-stone",
+   "label": "magnetic fraction of fine‑stone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:10-статья-по-хв-мф-2025-14-docx:0",
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "title": "Laboratory study of chlorination parameters on magnetic fraction",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chlorine leaching of magnetic fraction (MF) with varied redox potential, leaching duration and chloride ion concentration",
+       "temperature_text": "not specified",
+       "duration_text": "varied (duration of process)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:magnetic-fraction-samples",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "S"
+     },
+     "method": null,
+     "snippet": "Составы МФ с различным содержанием серы (от 3,4 до 13,5%), выделенные из файнштейна, для исследования процесса хлорного растворения, представлены в таблице 1.",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "precious metal content in MF",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.14,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Содержание драгоценных металлов в МФ достигает 0,14-0,35%.",
+     "locator_kind": "md_para",
+     "locator": "para:24",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Основной переход ДМ в раствор происходит при растворении металлической фазы материала.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "dissolution mechanism",
+      "direction": "increases",
+      "factor": "metallic phase dissolution",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Установлено, что основной переход ДМ в раствор происходит при растворении металлической фазы материала.",
+     "locator_kind": "md_para",
+     "locator": "para:9",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В ходе исследований, при варьировании параметров процесса хлорного растворения магнитной фракции – окислительно-восстановительного потенциала, длительности процесса и концентрации хлорид-иона, определено влияние содержания серы в МФ на извлечение в раствор металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:10-статья-по-хв-мф-2025-14-docx:1",
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "title": "Previous laboratory trials on chlorination of magnetic fraction",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chlorine leaching of MF on laboratory scale",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:magnetic-fraction-from-fine-stone",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Показали возможность переработки магнитной фракции файнштейна на базе хлорного растворения с глубоким извлечением цветных металлов в раствор и получением концентрирующего драгоценные металлы остатка, пригодного для последующей переработки.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process feasibility",
+      "direction": "increases",
+      "factor": "chlorination",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Ранее проведенные лабораторные испытания [4] показали возможность переработки магнитной фракции файнштейна на базе хлорного растворения с глубоким извлечением цветных металлов в раствор и получением концентрирующего драгоценные металлы остатка, пригодного для последующей переработки.",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Ранее проведенные лабораторные испытания [4] показали возможность переработки магнитной фракции файнштейна на базе хлорного растворения с глубоким извлечением цветных металлов в раствор и получением концентрирующего драгоценные металлы остатка, пригодного для последующей переработки.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:10-статья-по-хв-мф-2025-14-docx:2",
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "title": "Laboratory chlorination dissolution of matte (МФ)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Chlorine dissolution of matte in a 1 L flask with a copper‑nickel chloride solution",
+       "temperature_text": "100 °C",
+       "duration_text": "until the required pulp oxidation‑reduction potential (OVP) was reached; after loading 100 g of matte per 1 L of solution the pulp was held for a set time with periodic short chlorine pulses"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 373.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:matte-мф",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:copper-nickel-chloride-solution",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:chlorine-generated-in-a-laboratory-electrolyzer",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "oxidation‑reduction potential (OVP)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 380.0,
+      "max": null
+     },
+     "unit": "mV",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "на первой стадии ... поддерживали 380‑400 мВ (относительно хлорсеребряного электрода сравнения); на второй стадии – 430‑450 мВ",
+     "locator_kind": "md_para",
+     "locator": "para:37",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 125.0,
+      "max": null
+     },
+     "unit": "g/dm³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "initial chloride ion"
+     },
+     "method": null,
+     "snippet": "Варьировали его содержание в стартовом растворе (Cl‑исх) от 125 до 250 г/дм³",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "matte feed rate",
+     "scope": "material",
+     "material_id": "mat:matte-мф",
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "g",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "МФ подавали при перемешивании порциями по 10‑15 g",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "overall matte loading",
+     "scope": "material",
+     "material_id": "mat:matte-мф",
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "по завершении загрузки МФ (100 g на 1 L раствора)",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The OVP values were selected based on previous studies to first dissolve metallic components (380‑400 mV) and then to promote elemental sulfur release (430‑450 mV).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process control",
+      "direction": "increases",
+      "factor": "OVP",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "на первой стадии ... поддерживали 380‑400 мВ ... на второй стадии – 430‑450 мВ, на которой при взаимодействии с сульфидными составляющими МФ происходит выделение серы элементной.",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Процесс хлорного растворения МФ исследовали в серии лабораторных экспериментов аналогично методике работы [3].",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:10-статья-по-хв-мф-2025-14-docx:3",
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "title": "Laboratory study of chlorination of magnetic fraction",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chlorine leaching of magnetic fraction of fine‑stone with variable sulfur content"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:magnetic-fraction-of-fine-stone",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Повышенное извлечение Pt, Pd, Ir и Au наблюдается в классы крупности более 45 мкм; Rh и Ru заметно обогащены классы более 71 мкм совместно с металлизированными фазами Ni и Co.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Повышенное извлечение Pt, Pd, Ir и Au наблюдается в классы крупности более 45 мкм; Rh и Ru заметно обогащены классы более 71 мкм совместно с металлизированными фазами Ni и Co.",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проведенные лабораторные исследования показали возможность переработки магнитной фракции файнштейна с вариантными содержаниями серы методом хлорного растворения с глубоким извлечением цветных металлов в раствор и получением концентрирующего драгоценные металлы остатка, пригодного для последующей переработки.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Технологические схемы рафинирования в хлоридных средах эффективны при условии высокого общего извлечения, как в основном переделе (растворение – очистка раствора – электроосаждение), так и при переработке остатка хлорного растворения, концентрирующего ДМ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "high overall extraction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технологические схемы рафинирования в хлоридных средах эффективны при условии высокого общего извлечения, как в основном переделе (растворение – очистка раствора – электроосаждение), так и при переработке остатка хлорного растворения, концентрирующего ДМ.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "Преимуществом варианта по сравнению с действующим производством является концентрирование драгоценных металлов (ДМ) в небольшом объеме материала с исключением потерь металлов спутников платины (МСП) и серебра с пылями на пирометаллургических переделах и сокращением незавершенного производства.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "advantage",
+    "direction": "increases",
+    "factor": "concentration of DMs",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Преимуществом варианта по сравнению с действующим производством является концентрирование драгоценных металлов (ДМ) в небольшом объеме материала с исключением потерь металлов спутников платины (МСП) и серебра с пылями на пирометаллургических переделах и сокращением незавершенного производства.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.81,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "Выход магнитной фракции определяется количеством металлического сплава в файнштейне, степенью раскрытия сростков сплава и сульфидных фаз при измельчении файнштейнов, а также условиями магнитной сепарации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "yield_fraction",
+    "direction": "increases",
+    "factor": "metallic alloy content, grain opening, sulfide phases, magnetic separation conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выход магнитной фракции определяется количеством металлического сплава в файнштейне, степенью раскрытия сростков сплава и сульфидных фаз при измельчении файнштейнов, а также условиями магнитной сепарации.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.81,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "Показатели получения и последующей переработки МФ определяются компромиссом между задачами максимального извлечения ДМ при минимизации объема и связанных с ними затрат по измельчению файнштейна и выделению МФ, а также затрат на последующее растворение и удаление серы из остатка растворения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "performance trade‑off",
+    "direction": "decreases",
+    "factor": "costs of grinding, MF extraction, leaching and sulfur removal",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Показатели получения и последующей переработки МФ определяются компромиссом между задачами максимального извлечения ДМ при минимизации объема и связанных с ними затрат по измельчению файнштейна и выделению МФ, а также затрат на последующее растворение и удаление серы из остатка растворения.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.81,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "In low‑sulfur samples (3.4‑9.2 % S) the dominant quantitative phase is a metallic nickel‑based solid solution (Ni,Fe) with variable Fe content, accompanied by hessite (Ni₃S₂) and variable amounts of spinel phases (Fe₃O₄ magnetite or MgFe₂O₄).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dominant phase",
+    "direction": "increases",
+    "factor": "low sulfur content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В пробах с низким содержанием серы (3,4‑9,2 %) ведущей в количественном отношении составляющей является металлическая фаза, представляющая собой твёрдый раствор на основе никеля: (Ni,Fe) ... присутствует хизлевудит (Ni₃S₂) и вариантные количества шпинельной фазы (Fe₃O₄ магнетита или MgFe₂O₄).",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "With sulfur content greater than 5 % the samples also contain pentlandite ((Fe,Ni)₉S₈) and digenite (Cu₉S₅).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "additional phases",
+    "direction": "increases",
+    "factor": "S > 5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С увеличением содержания серы в МФ (>5 %) в пробах диагностируются ... пентландит (Fe,Ni)₉S₈ и дигенит Cu₉S₅.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.45,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "In samples with 12.6‑13.5 % S the phase composition is approximately: metallic phase 48‑50 %, nickel sulfide phase (hessite and nickel/iron monosulfides) 30‑31 %, copper sulfide phase (chalcocite‑bornite) 10‑11 %, magnetite ~8‑9 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "phase percentages",
+    "direction": "increases",
+    "factor": "S = 12.6‑13.5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В пробах с содержанием серы 12,6‑13,5 %, основные фазы, слагающие пробу, - металлическая фаза (48‑50 %), никелевая сульфидная фаза ... (30‑31 %), медная сульфидная фаза ... (10‑11 %), магнетит (~8‑9 %).",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.45,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "In fractions larger than 45 µm the metallic phase occurs as free monophase grains or as rich intergrowths with sulfides; in finer fractions the metallic phase mainly forms intergrowths with sulfides.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "metallic phase morphology",
+    "direction": "decreases",
+    "factor": "grain size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В фракциях крупнее 45 мкм металлическая фаза присутствует в виде свободных монофазных зерен или богатых сростков с сульфидами. В более тонких фракциях металлическая фаза образует в основном сростки с сульфидами.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.81,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "Copper sulfide phases form microscopic lattice‑like structures containing submicron metallic copper precipitates.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper sulfide texture",
+    "direction": "increases",
+    "factor": "none (descriptive)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сульфидные фазы меди образуют между собой микроскопические решетчатые структуры, в которых присутствуют субмикронные выделения металлической меди.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.81,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "Magnetite containing cobalt and nickel impurities is a product of fayalite oxidation, usually during crystallization, and occurs in variable amounts.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "magnetite impurity source",
+    "direction": "increases",
+    "factor": "fayalite oxidation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Магнетит, содержащий примеси кобальта и никеля, является продуктом окисления файнштейна, как правило, в период кристаллизации и в пробах наблюдается его вариантные количества.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "High extraction of Rh and Ru (67‑77 %) and of Ni, Co, Pd, Pt, Ir (>60 %) is obtained in the +100 µm size class for samples with 3.4‑12.6 % S.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "large particle size (+100 µm)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "высокое извлечение в класс крупности +100 мкм: Rh и Ru -67‑77 %; >60 % Ni, Co, Pd, Pt, Ir (таблица 2).",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.81,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "For a sample with 13.5 % S, high platinum‑group metal extraction (90.1‑94.7 %) is already observed in the +30 µm size class.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "fine particle size (+30 µm) at high S",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В пробе с содержанием серы 13,5 % ... высокое извлечение платиновых металлов наблюдается уже в классах крупности +30 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.45,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "Copper and silver extraction ranges from 49‑64 % (Cu, Ag) in the +100 µm class to 20‑44 % in the –45 µm class for low‑sulfur samples.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Cu, Ag extraction",
+    "direction": "decreases",
+    "factor": "decreasing particle size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cu, Ag от 49 до 64 % (в +100 мкм) от 20 до 44 % (в –45 мкм).",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.45,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "Iron extraction is 71.4‑75 % in the +100 µm class and 40‑50 % in the –45 µm class for low‑sulfur samples.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "decreases",
+    "factor": "particle size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Fe, S 71,4‑75 (в +100 мкм) Fe от 40 до 50 (в –45 мкм).",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.45,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  },
+  {
+   "text": "Возможность оптимизации процесса выделения МФ из файнштейна с оптимальным содержанием серы, измельчение материала до нужной крупности и степени извлечения ДМ, а также параметров проведения процесса хлорного растворения, позволяет переработать богатый по ДМ продукт по короткой технологической цепочке, исключая потери ДМ на пирометаллургических переделах.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Возможность оптимизации процесса выделения МФ из файнштейна с оптимальным содержанием серы, измельчение материала до нужной крупности и степени извлечения ДМ, а также параметров проведения процесса хлорного растворения, позволяет переработать богатый по ДМ продукт по короткой технологической цепочке, исключая потери ДМ на пирометаллургических переделах.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

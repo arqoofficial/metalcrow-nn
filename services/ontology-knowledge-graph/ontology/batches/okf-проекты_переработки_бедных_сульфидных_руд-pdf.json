@@ -1,0 +1,1424 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "title": "Проекты_переработки_бедных_сульфидных_руд.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Проекты_переработки_бедных_сульфидных_руд.pdf.md",
+   "artifact_sha256": "fe6a0b0a796464963c8b6bf4a5a7b16cafe52561b1f238eb8ce0b732a02afc66",
+   "okf_raw_path": "Обзоры/Проекты_переработки_бедных_сульфидных_руд.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:cliff-zone-ore",
+   "label": "Cliff Zone ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:chrysotile-fibers-in-serpentine",
+   "label": "chrysotile fibers in serpentine",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dumont-ore-composite",
+   "label": "Dumont ore composite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dumont-ore",
+   "label": "Dumont ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rough-magnetic-concentrate",
+   "label": "rough magnetic concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore",
+   "label": "ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:проекты_переработки_бедных_сульфидных_руд-pdf:0",
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "title": "Flotation tests of Cliff Zone ore (periodic mode)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cliff-zone-ore",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.23,
+      "max": null
+     },
+     "unit": "wt%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "V25 0,23",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "Pt in feed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.049,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V25 0,049",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Pd in feed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.06,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V25 0,060",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 16.1,
+      "max": null
+     },
+     "unit": "wt%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "V25 16,1",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "Pt in concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.1,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V25 4,1",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Pd in concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.4,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V25 5,4",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Ni recovery",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 57.2,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V25 57,2",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Pt recovery",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 61.3,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V25 61,3",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Pd recovery",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 66.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V25 66,0",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.35,
+      "max": null
+     },
+     "unit": "wt%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "V83 0,35",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "Pt in feed (sample V83)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.281,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V83 0,281",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Pd in feed (sample V83)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.332,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V83 0,332",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 19.8,
+      "max": null
+     },
+     "unit": "wt%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "V83 19,8",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "Pt in concentrate (sample V83)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.1,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V83 20,1",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Pd in concentrate (sample V83)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 22.4,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V83 22,4",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Ni recovery (sample V83)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 45.1,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V83 45,1",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Pt recovery (sample V83)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 57.5,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V83 57,5",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Pd recovery (sample V83)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 54.2,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "V83 54,2",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "В апреле 2011 г . компания сообщила о результатах опытов по флота -ции руды с участка Cliff Zone.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "experiment reported",
+      "direction": "increases",
+      "factor": "none",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В апреле 2011 г . компания сообщила о результатах опытов по флота -ции руды с участка Cliff Zone",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Таблица 5. Результаты опытов по флотации руды Cliff Zone в перио -дическом режиме .",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проекты_переработки_бедных_сульфидных_руд-pdf:1",
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "title": "CTCTMP fiber release test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "dry grinding to 840 µm"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chrysotile-fibers-in-serpentine",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "chrysotile recovery at 10 % product output",
+     "scope": "material",
+     "material_id": "mat:chrysotile-fibers-in-serpentine",
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В опытах при выходе в 10% выводилось 80% хризотила при потерях никеля 7,0-8,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel loss at 10 % product output",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 7.0,
+      "nominal": null,
+      "max": 8.5
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В опытах при выходе в 10% выводилось 80% хризотила при потерях никеля 7,0-8,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Для того , чтобы процесс дефибрирования шел эффективно , влажность материала должна быть менее 1%.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "material moisture",
+      "direction": "no_change",
+      "factor": "<1 %",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Для того , чтобы процесс дефибрирования шел эффективно , влажность материала должна быть менее 1%.",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Выполненные CTMP опыты показали , что волокна хризотила почти полностью высвобождаются из зернистого серпентина при измельчении до 840 микрон .",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проекты_переработки_бедных_сульфидных_руд-pdf:2",
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "title": "Multi‑stage grinding and desliming test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "several‑stage grinding with hydrocyclones and low‑intensity magnetic separation (LIMS)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dumont-ore-composite",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "P80 after primary grinding",
+     "scope": "material",
+     "material_id": "mat:cliff-zone-ore",
+     "value": {
+      "min": null,
+      "nominal": 150.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На исход -ной стадии измельчения достигнуто P80 150 микрон до исходной дешла -мации .",
+     "locator_kind": "md_para",
+     "locator": "para:104",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "brucite (bryzite) removal per desliming stage",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "выход брусита 5% на каждой из двух стадий дешламации",
+     "locator_kind": "md_para",
+     "locator": "para:106",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel loss per desliming stage",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "а сопутствующие потери никеля на каждой стадии -5%.",
+     "locator_kind": "md_para",
+     "locator": "para:106",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Этот уровень удаления брусита позволяет получить пульпу с достаточно низкой для флотации вязкостью.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "brucite removal",
+      "direction": "increases",
+      "factor": "low viscosity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Этот уровень удаления брусита позволяет получить пульпу с доста -точно низкой для флотации вязкостью .",
+     "locator_kind": "md_para",
+     "locator": "para:106",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На исход -ной стадии измельчения достигнуто P80 150 микрон до исходной дешла -мации .",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проекты_переработки_бедных_сульфидных_руд-pdf:3",
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "title": "One‑stage grinding test (TER 2010)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "single‑stage grinding"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dumont-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "В опытах показано , что можно достичь удовлетворительного извлечения в магнитный концентрат с одностадийным измельчением .",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проекты_переработки_бедных_сульфидных_руд-pdf:4",
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "title": "Flotation cleaning test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "two‑stage flotation (first suppress metal phase, then recover ferro‑nickel concentrate)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rough-magnetic-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "nickel loss during cleaning",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "потери при очистке - 5%",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "grade of clean ferro‑nickel concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 25.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "сортность чистого ферроникелевого концентрата - 25% Ni.",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "На базе ограниченного числа опытов получены следующие ре -зультаты : потери при очистке - 5%, сортность чистого ферроникелевого концентрата - 25% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проекты_переработки_бедных_сульфидных_руд-pdf:5",
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "title": "Mini‑pilot plant operation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "mini‑pilot plant of 20‑50 kg/h processing ore"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 65.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "В ТЭР 2010 г . среднее за весь период эксплуатации извлечение никеля принято равным 65,5%: 9,9% в магнитный продукт и 55,4% во флотационный концентрат .",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "average nickel extraction of 65,5% was achieved",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В ТЭР 2010 г . среднее за весь период эксплуатации извлечение никеля принято равным 65,5%: 9,9% в магнитный продукт и 55,4% во флотационный концентрат .",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В июле 2010 г . был введен в строй минипилотный завод на 20-50 кг / час , с августа 2010 г . начались испытания .",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Мировые запасы никеля в окисленной руде больше , чем в сульфид -ной - 61% против 39%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global nickel ore reserves",
+    "direction": "increases",
+    "factor": "oxide vs sulfide",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мировые запасы никеля в окисленной руде больше , чем в сульфид -ной - 61% против 39%.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "К 2025 г . отношение выпуска никеля из ла -теритовой руды к выпуску никеля из сульфидной руды составит примерно 2:1.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel production ratio",
+    "direction": "increases",
+    "factor": "laterite vs sulfide",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К 2025 г . отношение выпуска никеля из ла -теритовой руды к выпуску никеля из сульфидной руды составит примерно 2:1.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Технико -экономические расчеты по базовому сценарию показали , что капитальные затраты по проекту составят около 1380 млн CDN$, IRR ( внутренняя норма доходности ) - 12,2%, NPV ( при ставке дисконта 10%) 187 млн CDN$, срок окупаемости - 6,4 года при следующих ценах на металлы : Ni - 7,50 USD/ фунт (16556 USD/ т ), Cu - 1,40 USD/ фунт (3090 USD/ т ), Co - 11 USD/ фунт (24,3 USD/ кг ).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost, IRR, NPV, payback period",
+    "direction": "nonmonotonic",
+    "factor": "metal price assumptions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технико -экономические расчеты по базовому сценарию показали , что капитальные затраты по проекту составят около 1380 млн CDN$, IRR ( внутренняя норма доходности ) - 12,2%, NPV ( при ставке дисконта 10%) 187 млн CDN$, срок окупаемости - 6,4 года при следующих ценах на металлы : Ni - 7,50 USD/ фунт (16556 USD/ т ), Cu - 1,40 USD/ фунт (3090 USD/ т ), Co - 11 USD/ фунт (24,3 USD/ кг ).",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.81,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "При снижении закладываемой в расчеты цены никеля до 6,75 USD/ фунт (14900 USD/ т ), Co -до 9,90 USD/ фунт (21,9 USD/ кг ), Cu до 1,26 USD/ фунт (2781 USD/ т ), IRR составляла всего лишь 5%, а NPV (10%) являлась вообще отрицательной величиной.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "IRR, NPV",
+    "direction": "decreases",
+    "factor": "lower metal prices",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Заметим , что при снижении закладываемой в расчеты цены никеля до 6,75 USD/ фунт (14900 USD/ т ), Co -до 9,90 USD/ фунт (21,9 USD/ кг ), Cu до 1,26 USD/ фунт (2781 USD/ т ), IRR составляла всего лишь 5%, а NPV (10%) являлась вообще отрицательной величиной .",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.81,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "В течение 2008 г . компании удалось существенно ( на 45%) увеличить оценку ресурсов по проекту в результате обширной программы изысканий , срок эксплуатации рудника оценен в 20+ лет .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "resource size",
+    "direction": "increases",
+    "factor": "exploration program",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В течение 2008 г . компании удалось существенно ( на 45%) увеличить оценку ресурсов по проекта в результате обширной программы изысканий , срок эксплуатации рудника оценен в 20+ лет .",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.81,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Объём производства никеля и кобальта в промпродукте - 20,4 тыс т / г , и 1,3 тыс т / г , соответственно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product output",
+    "direction": "nonmonotonic",
+    "factor": "hydrometallurgical scheme",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объём производства никеля и кобальта в промпродукте - 20,4 тыс т / г , и 1,3 тыс т / г , соответственно .",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Спрос на кон -центраты , по оценкам аналитиков Brook Hunt, будет расти из года в год .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "demand",
+    "direction": "increases",
+    "factor": "annual",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Спрос на кон -центраты , по оценкам аналитиков Brook Hunt, будет расти из года в год .",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Исключение из структуры капитальных затрат по про -екту позиции « рафинировочный завод » ( около 800 млн US$), сопутствую -щее снижение расходов на инфраструктуру и т . д ., приведет к пересмотру в сторону снижения суммарных капзатрат по проекту по сравнению с оцен -кой , представленной в ТЭР 2010 г .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "total capital cost",
+    "direction": "decreases",
+    "factor": "removal of refinery plant (~800 млн US$)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Исключение из структуры капитальных затрат по про -екту позиции « рафинировочный завод » ( около 800 млн US$), сопутствую -щее снижение расходов на инфраструктуру и т . д ., приведет к пересмотру в сторону снижения суммарных капзатрат по проекту",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.81,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Электроэнергия дешевая - 0,05 CD$/ кВт × час .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "electricity price",
+    "direction": "decreases",
+    "factor": "0,05 CD$/ кВт·ч",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электроэнергия дешевая - 0,05 CD$/ кВт × час .",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.81,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Проектом предусматривается открытая разработка бедного сульфид -ного никелевого месторождения (0,27% Ni) и производство очень богатого никелевого флотационного концентрата (35%Ni) на продажу и ферронике -левого концентрата (25% Ni) тоже на продажу .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "target concentrate grades",
+    "direction": "increases",
+    "factor": "35% Ni for nickel concentrate, 25% Ni for ferro‑nickel concentrate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "производство очень богатого никелевого флотационного концентрата (35%Ni) ... ферронике -левого концентрата (25% Ni)",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.81,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам Hard Creek Nickel капитальные затраты по проекту снизятся при -мерно до 1,5 млрд US$ .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "total capital cost",
+    "direction": "decreases",
+    "factor": "down to 1,5 млрд US$",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам Hard Creek Nickel капитальные затраты по проекту снизятся при -мерно до 1,5 млрд US$",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Важное значение для проекта имеют и планы правительства Канады по строительству линии электропередач .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "transmission line construction",
+    "direction": "increases",
+    "factor": "government plans",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Важное значение для проекта имеют и планы правительства Канады по строительству линии электропередач",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "В июле 2009 г . китайская компания Ningbo Sunhu Chem.Products Co. выразила намерение приобрести обыкновенные акции Royal Nickel.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share acquisition intent",
+    "direction": "increases",
+    "factor": "intention expressed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В июле 2009 г . китайская компания Ningbo Sunhu Chem.Products Co. выразила намерение приобрести обыкновенные акции Royal Nickel",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Sunhu лишь частично реализовала опционы и на конец 2010 г . являлась владельцем примерно 2,8% акций Royal Nickel.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ownership percentage",
+    "direction": "increases",
+    "factor": "2,8%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Sunhu лишь частично реализовала опционы и на конец 2010 г . являлась владельцем примерно 2,8% акций Royal Nickel",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Разработанная компанией схема позволяет перерабатывать сульфидную, « металлическую » и смешанную руду.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ore type applicability",
+    "direction": "increases",
+    "factor": "sulfide, metallic and mixed ores",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработанная компанией схема позволяет перерабатывать сульфид -ную , « металлическую » и смешанную руду .",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Базируясь на « хризотиловых схемах », был выбран максимальный размер продукта для 80% материала (Р80) 0,84 мм.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "P80 size",
+    "direction": "increases",
+    "factor": "0,84 mm",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Базируясь на « хризотиловых схемах », был выбран максимальный размер продукта для 80% материала ( Р 80) 0,84 мм .",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Черновой магнитный концентрат содержал примерно 1-3% Ni и 4560% Fe.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "1-3 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Черновой магнитный концентрат содержал примерно 1-3% Ni и 4560% Fe.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Поскольку и пентландит , и хизлевудит -слабо магнитны , черно -вой концентрат включал значительное количество никеля в сульфидных минералах.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel distribution",
+    "direction": "increases",
+    "factor": "significant amount in sulfide minerals",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поскольку и пентландит , и хизлевудит -слабо магнитны , черно -вой концентрат включал значительное количество никеля в сульфидных минералах .",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Влажность материала должна быть менее 1% для эффективного процесса дефибрирования.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "material moisture",
+    "direction": "no_change",
+    "factor": "<1 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для того , чтобы процесс дефибрирования шел эффективно , влажность материала должна быть менее 1%.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "The base plant design processes 80 000 t/d of ore with an average nickel content of 0,27%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ore throughput",
+    "direction": "increases",
+    "factor": "80 000 t/d",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "фабрика будет перерабатывать 80 тыс т / сут руды со средним содержанием никеля 0,27%.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "If electricity supply is increased, the plant can process 100 000 t/d of ore.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ore throughput",
+    "direction": "increases",
+    "factor": "100 000 t/d",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При увеличении поставок электроэнергии возможно перерабатывать 100 тыс т / сут руды .",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Moisture content of the ore fed to the VSI crusher must not exceed 2 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "≤2 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сушка руды , гарантирующая , что содержание влаги в поступающем в VSI сырье не превышает 2%",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "The nickel sulfide concentrate is expected to contain on average 35 % Ni, 1 % Co, 7‑10 % MgO and 2,5 g/t of Pt, Pd, Au.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "35 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ожидается , что никелевый сульфидный концентрат будет содер -жать в среднем 35% Ni, 1% Co, 2,5 г / т Σ Pt, Pd, Au и 7-10% MgO.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "In the first 20 years, when low‑grade ore is stockpiled, the sulfide concentrate grade may reach 40 % Ni; later, with poorer ore, it will drop to 20‑25 % Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "20‑25 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в первые 20 лет , когда низкосортная руда будет складироваться для дальнейшей пе -реработки , сортность сульфидного концентрата в отдельные периоды бу -дет достигать 40%, но когда на переработку поступит бедная складирован -ная руда сортность снизится до 20-25% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "The sulfide concentrate will contain approximately 65‑75 % by mass of nickel‑bearing minerals (mainly pentlandite, heazlewoodite and a little avaruite).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel‑bearing mineral content",
+    "direction": "increases",
+    "factor": "65‑75 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сульфидный концентрат будет содержать при -мерно 65-75% по массе никельсодержащих минералов ( преимущественно пентландита , хизлевудита и немного аваруита ).",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Serpentine in the concentrate contains 30‑40 % MgO, leading to an expected overall MgO content of 7‑10 % in the sulfide concentrate.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "7‑10 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Серпентин со -держит переменные количества магния -от 30% до 40% MgO. В результа -те , ожидаемое содержание MgO в сульфидном концентрате 7-10%.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "The ferronickel concentrate will contain on average 25 % Ni together with some Co, Cr and Cu.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "25 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ферроникелевый концентрат будет содержать в среднем 25% Ni плюс некоторое количество Co, Cr и Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Capital expenditures for the base case (80 000 t/d) are estimated at 2 304 million US$ (±40 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capex",
+    "direction": "increases",
+    "factor": "2 304 million US$",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "2023 | 2304",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "Capital expenditures for the expanded case (100 000 t/d) are estimated at 2 304 million US$ (±40 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capex",
+    "direction": "increases",
+    "factor": "2 304 million US$",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "2023 | 2304",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "The project capital cost estimate includes a ±40 % accuracy range.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "accuracy",
+    "direction": "increases",
+    "factor": "±40 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Капитальные затраты по проекту с точностью +/- 40% оценены в ТЭР в долларах января 2010 г .",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  },
+  {
+   "text": "No sales contracts for either concentrate were in place at the time of the 2010 TЭР, so commercial terms were assumed.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Договоров на продажу обоих концентратов на момент выпуска ТЭР заключено не было , так что при оценках использовали « предполагаемые коммерческие условия ».",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:проекты_переработки_бедных_сульфидных_руд-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

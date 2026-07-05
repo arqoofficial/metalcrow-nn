@@ -9,7 +9,7 @@ import requests
 from fastapi import BackgroundTasks, FastAPI, HTTPException
 from pydantic import BaseModel
 
-from app import openalex
+from app import cyberleninka, openalex
 from app.config import settings
 from app.europepmc import europepmc_pdf_url_for_doi
 from app.fetcher import FetchError, fetch_article
@@ -53,6 +53,7 @@ class JobResponse(BaseModel):
     status: str
     url: Optional[str] = None
     error: Optional[str] = None
+    object_key: Optional[str] = None
 
 
 @app.on_event("startup")
@@ -104,6 +105,7 @@ def get_job(job_id: str):
         status=job["status"],
         url=url,
         error=job.get("error"),
+        object_key=job.get("object_key"),
     )
 
 
@@ -131,7 +133,12 @@ def post_fetch_sync(req: FetchRequest):
 def resolve(title: str):
     """Resolve a paper title to its DOI via OpenAlex. Returns {"doi", "title", "year"} of
     the top hit, or 404 if there is no result / the top hit has no DOI."""
-    results = openalex.search(title, max_results=1)
+    results = openalex.search(
+        title,
+        max_results=1,
+        api_keys=settings.openalex_api_keys,
+        mailto=settings.openalex_mailto or None,
+    )
     if not results or not results[0].get("doi"):
         raise HTTPException(status_code=404, detail=f"No DOI found for title: {title!r}")
     top = results[0]
@@ -141,7 +148,27 @@ def resolve(title: str):
 @app.get("/search")
 def search(query: str, max_results: int = 5):
     """OpenAlex keyword search. Returns {"results": [...normalized paper dicts...]}."""
-    return {"results": openalex.search(query, max_results)}
+    return {
+        "results": openalex.search(
+            query,
+            max_results,
+            api_keys=settings.openalex_api_keys,
+            mailto=settings.openalex_mailto or None,
+        )
+    }
+
+
+@app.get("/search_ru")
+def search_ru(query: str, max_results: int = 5):
+    """Cyberleninka RU-language keyword search. Returns {"results": [...normalized paper dicts...]}."""
+    return {
+        "results": cyberleninka.search(
+            query,
+            max_results,
+            proxy_url=settings.cyberleninka_proxy_url or None,
+            with_fulltext=True,
+        )
+    }
 
 
 def _update_job(job_id: str, **kwargs) -> None:

@@ -1,0 +1,984 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:презентация-для-научного-совета-pptx",
+   "title": "Презентация для  научного совета.pptx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Доклады\\Презентация для  научного совета.pptx.md",
+   "artifact_sha256": "2cf3592108b8895d697782c89129949e03c893b45b56c3bee42e2a0e741f596a",
+   "okf_raw_path": "Доклады/Презентация для  научного совета.pptx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:rich-ores-талнахскии-рудныи-узел",
+   "label": "rich ores (Талнахский рудный узел)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:low-sulphidic-bushveld-ores",
+   "label": "low‑sulphidic Bushveld ores",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:tailings-отвальные-хвосты-тоф-2пк",
+   "label": "tailings (отвальные хвосты ТОФ‑2ПК)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:презентация-для-научного-совета-pptx:0",
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "title": "Selective flotation of rich ores at Talnakh enrichment plant (TOF‑2PK)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Selective flotation with separation of copper and nickel concentrates and removal of pyrrhotite"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rich-ores-талнахскии-рудныи-узел",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.9,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Медный концентрат 6,9",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 83.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Медный концентрат 83,5",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 15.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "Медный концентрат 15,2",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 11.9,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pd"
+     },
+     "method": null,
+     "snippet": "Медный концентрат 11,9",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 73.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Никелевый концентрат НПК 73,0",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 9.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Никелевый концентрат НПК 9,6",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 63.9,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "Никелевый концентрат НПК 63,9",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 71.1,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pd"
+     },
+     "method": null,
+     "snippet": "Никелевый концентрат НПК 71,1",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Selective flotation yields copper and nickel concentrates with significant Pt and Pd contents.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Медный концентрат 15,2 … 11,9; Никелевый концентрат НПК 63,9 … 71,1",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Селективная флотация с выделением медных и никелевых концентратов, отделением пирротина - флотация - Талнахская обогатительная фабрика (ТОФ-2ПК, богатые руды)",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:презентация-для-научного-совета-pptx:1",
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "title": "Collective flotation of low‑sulphidic Bushveld ores (Rif Merenskogo, UG‑2)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Collective flotation to obtain Cu‑Ni‑PGM concentrate"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:low-sulphidic-bushveld-ores",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 71.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Коллективный концентрат 71,4",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 88.9,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Коллективный концентрат 88,9",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 71.1,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "Коллективный концентрат 71,1",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 79.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pd"
+     },
+     "method": null,
+     "snippet": "Коллективный концентрат 79,8",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Collective flotation of low‑sulphidic ores produces a concentrate with high Pt and Pd grades.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Коллективный концентрат 71,1 … 79,8",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Коллективная флотация с получением концентрата Cu‑Ni‑МПГ - Флотация – Риф Меренского, UG‑2",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:презентация-для-научного-совета-pptx:2",
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "title": "Processing of rich ores at Talnakh enrichment plant – tailings composition",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Analysis of tailings from TOF‑2PK"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:tailings-отвальные-хвосты-тоф-2пк",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "share of sperrylite in tailings",
+     "scope": "material",
+     "material_id": "mat:tailings-отвальные-хвосты-тоф-2пк",
+     "value": {
+      "min": null,
+      "nominal": 22.3,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Сперрилит 22,3",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "grain_size",
+     "scope": "material",
+     "material_id": "mat:tailings-отвальные-хвосты-тоф-2пк",
+     "value": {
+      "min": null,
+      "nominal": 27.5,
+      "max": null
+     },
+     "unit": "um",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "of sperrylite in tailings"
+     },
+     "method": null,
+     "snippet": "Сперрилит 27,5",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "share of atokite in tailings",
+     "scope": "material",
+     "material_id": "mat:tailings-отвальные-хвосты-тоф-2пк",
+     "value": {
+      "min": null,
+      "nominal": 12.2,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Атокит 12,2",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "grain_size",
+     "scope": "material",
+     "material_id": "mat:tailings-отвальные-хвосты-тоф-2пк",
+     "value": {
+      "min": null,
+      "nominal": 19.3,
+      "max": null
+     },
+     "unit": "um",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "of atokite in tailings"
+     },
+     "method": null,
+     "snippet": "Атокит 19,3",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Significant fractions of PGM minerals remain in the tailings, especially sperrylite (22,3 % share, 27,5 µm grain size).",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Сперрилит 22,3 … 27,5",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Отвальные хвосты ТОФ‑2ПК … Сперрилит 22,3 … 27,5",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Optimization of feed size for collective flotation is needed to maximize exposure of PGM particles.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "оптимизация крупности питания коллективной флотации для максимального раскрытия частиц МПГ",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": "flotation"
+  },
+  {
+   "text": "Selective collectors for sulfide flotation should be searched for.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "поиск селективных собирателей сульфидной флотации",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": "flotation"
+  },
+  {
+   "text": "Optimization of the flotation front across operations can improve recovery.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "оптимизация фронта флотации по операциям",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": "flotation"
+  },
+  {
+   "text": "Consideration of secondary grinding of process products may be beneficial.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "рассмотрение вариантов доизмельчения промпродуктов по схеме",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Application of magnetic separation for low‑grade products is a possible option.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "рассмотрение возможности применения магнитной сепарации бедных продуктов",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Correlation coefficients between Ni, Cu, Pt and Pd extraction differ depending on ore type.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в зависимости от типа и состава руды … кор‑реляционные зависимости между извлечением цветных металлов и МПГ различны",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "For Ni–Cu–Pt–Pd system the reported correlation coefficients are: Ni‑Cu 0,4/0,1; Ni‑Pt 0,7/‑0,18; Cu‑Pt 0,6/‑0,07; Ni‑Pd 0,8/‑0,15; Cu‑Pd 0,6/‑0,01; Pt‑Pd 0,9/0,85.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Ni 1 … Cu 0,4/0,1 … Pt 0,7/-0,18 … Pd 0,8/-0,15 …",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Штейновая плавка – определяет извлечение ЦМ и ДМ из руды/концентрата:",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Штейновая плавка – определяет извлечение ЦМ и ДМ из руды/концентрата:",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": "smelting"
+  },
+  {
+   "text": "Выбор шлаковой системы определяется аппаратурным оформлением и масштабом процесса, составом сырья, доступностью энергоресурсов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "определяется",
+    "direction": "increases",
+    "factor": "аппаратурным оформлением, масштабом процесса, составом сырья, доступностью энергоресурсов",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выбор шлаковой системы определяется аппаратурным оформлением и масштабом процесса, составом сырья, доступностью энергоресурсов.",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Моделирование пирометаллургических процессов, позволяющее повысить эффективность действующих и вновь создаваемых производств, ограничивается знаниями о свойствах шлаков в зависимости от температуры процесса - плотности, вязкости, энтальпии и ?????.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "знания о свойствах шлаков в зависимости от температуры процесса - плотности, вязкости, энтальпии",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Моделирование пирометаллургических процессов, позволяющее повысить эффективность действующих и вновь создаваемых производств, ограничивается знаниями о свойствах шлаков в зависимости от температуры процесса - плотности, вязкости, энтальпии и ?????.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Потери ДМ преимущественно механические",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "механические",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Потери ДМ преимущественно механические",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Рост вязкости",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "рост",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рост вязкости",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Рост потерь",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "рост",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рост потерь",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Переокисление шлака",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "переокисление",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Переокисление шлака",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Рост температуры",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "рост",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рост температуры",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Снижение вязкости",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "снижение",
+    "direction": "decreases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снижение вязкости",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Рост испарения летучих (Os, Ru)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "рост",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рост испарения летучих (Os, Ru)",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Бедный шлак – практически чистое силикатное стекло",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "состав",
+    "direction": "increases",
+    "factor": "практически чистое силикатное стекло",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Бедный шлак – практически чистое силикатное стекло",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Вязкий шлак – много мелких включений, плохо коалесцируют",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "много мелких включений, плохо коалесцируют",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вязкий шлак – много мелких включений, плохо коалесцируют",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Крупные частицы сплава хорошо отделяются и оседают",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "отделение и оседание",
+    "direction": "increases",
+    "factor": "хорошо",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Крупные частицы сплава хорошо отделяются и оседают",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "На сегодняшний день накоплен значительный объем теоретической и прикладной информации о поведении металлов платиновой группы при переработке рудного сырья",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "knowledge base",
+    "direction": "increases",
+    "factor": "theoretical and applied information",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На сегодняшний день накоплен значительный объем теоретической и прикладной информации о поведении металлов платиновой группы при переработке рудного сырья",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "показано, что наиболее полное извлечение МПГ в товарную продукцию обеспечивается при использовании в качестве головной технологической операции штейновой плавки и последующим конвертированием штейна",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "completeness",
+    "direction": "increases",
+    "factor": "штейновой плавки и последующее конвертирование штейна",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "показано, что наиболее полное извлечение МПГ в товарную продукцию обеспечивается при использовании в качестве головной технологической операции штейновой плавки и последующим конвертированием штейна",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "промышленное применение гидрометаллургических процессов для переработки рудного платиносодержащего сырья ограничено, однако имеет потенциал за счет разработки новых технологических процессов",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current application",
+    "direction": "decreases",
+    "factor": "limited use",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "промышленное применение гидрометаллургических процессов для переработки рудного платиносодержащего сырья ограничено, однако имеет потенциал за счет разработки новых технологических процессов",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "схемы переработки медно-никелевых файнштейнов с получением товарной продукции цветных и драгоценных металлов разнообразны и основаны на применении процессов обогащения, пиро- и гидрометаллургии",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "variety",
+    "direction": "increases",
+    "factor": "use of enrichment, pyrometallurgical and hydrometallurgical processes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "схемы переработки медно-никелевых файнштейнов с получением товарной продукции цветных и драгоценных металлов разнообразны и основаны на применении процессов обогащения, пиро- и гидрометаллургии",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "здесь наиболее актуальной является проблема минимизации потерь драгоценных металлов с растворами выщелачивания",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "losses",
+    "direction": "decreases",
+    "factor": "need to minimize",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "здесь наиболее актуальной является проблема минимизации потерь драгоценных металлов с растворами выщелачивания",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": "leaching"
+  },
+  {
+   "text": "развитие и внедрение схема подготовки промпродуктов медно-никелевого производства к аффинажу ограничивается высокой экономической эффективностью действующих производств за счет высокой стоимости товарной продукции, низких потерь и небольших объемов производства",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "adoption limitation",
+    "direction": "decreases",
+    "factor": "high economic efficiency, high product value, low losses, small volumes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "развитие и внедрение схема подготовки промпродуктов медно-никелевого производства к аффинажу ограничивается высокой экономической эффективностью действующих производств за счет высокой стоимости товарной продукции, низких потерь и небольших объемов производства",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Повышению эффективности действующих и вновь создаваемых производств способствует разработка и подбор новых высокоэффективных реагентов для флотации рудного сырья, способов извлечения микроколичеств платиновых металлов из растворов производства цветных металлов, изучение процессов сорбции платиновых металлов твердыми компонентами пульп, соосаждения в процессах гидролиза, расширение возможностей термодинамического моделирования пирометаллургических процессов платиносодержащего сырья и многое другое",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "development of new reagents, extraction methods, sorption studies, co‑precipitation, thermodynamic modeling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышению эффективности действующих и вновь создаваемых производств способствует разработка и подбор новых высокоэффективных реагентов для флотации рудного сырья, способов извлечения микроколичеств платиновых металлов из растворов производства цветных металлов, изучение процессов сорбции платиновых металлов твердыми компонентами пульп, соосаждения в процессах гидролиза, расширение возможностей термодинамического моделирования пирометаллургических процессов платиносодержащего сырья и многое другое",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  },
+  {
+   "text": "Все это немыслимо без глубоких исследований свойств соединений платиновых металлов, их поведения в сложных многокомпонентных технологических системах",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "necessity",
+    "direction": "increases",
+    "factor": "deep studies of platinum‑group compound properties and behavior",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все это немыслимо без глубоких исследований свойств соединений платиновых металлов, их поведения в сложных многокомпонентных технологических системах",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-для-научного-совета-pptx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

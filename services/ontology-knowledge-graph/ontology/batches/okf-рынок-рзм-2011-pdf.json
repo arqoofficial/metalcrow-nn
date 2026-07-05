@@ -1,0 +1,854 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:рынок-рзм-2011-pdf",
+   "title": "Рынок РЗМ 2011.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Рынок РЗМ 2011.pdf.md",
+   "artifact_sha256": "940bb4ed49e121484cfafdbf385d48985cab84a20d0b1feed37f2cf22b848ed9",
+   "okf_raw_path": "Обзоры/Рынок РЗМ 2011.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "РЗЭ, используемые для приготовления люминофоров, должны иметь чистоту 99,999%, т. е. быть значительно более чистыми, чем в большинстве других областей потребления.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purity",
+    "direction": "increases",
+    "factor": "99,999%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "РЗЭ , используемые для приготовления люминофоров , должны иметь чистоту 99,999%, т . е . быть значительно более чис -тыми , чем в большинстве других областей потребления .",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.81,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Наличие примесей — несколько частей на миллион может привести к искажению цвета.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "several parts per million",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наличие примесей -несколько частей на миллион может привести к искажению цвета .",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Для того, чтобы достигнуть указанной чистоты материала, в технологической цепочке необходимы многочисленные дополнительные разделительные стадии, что приводит к существенному удорожанию РЗО.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "increases",
+    "factor": "significant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для того , чтобы достигнуть указанной чистоты материала , в технологической цепочке необходимы многочисленные дополнительные разделительные стадии , что приводит к существенному удорожанию РЗО .",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В настоящее время 80% всех люминофоров для осветительных систем потребляет Китай.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption share",
+    "direction": "increases",
+    "factor": "80%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время 80% всех люминофоров для осветительных сис -тем потребляет Китай , который затем экспортирует значительную часть произведенных в стране компонентов осветительных систем .",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Компактные люминесцентные лампы (CFL) изготавливаются почти эксклюзивно в Китае.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "manufacturing",
+    "direction": "increases",
+    "factor": "almost exclusive",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компактные люминесцентные лампы (CFL) изготавливаются почти эксклюзивно в Ки -тае .",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Продольные лампы (LFL) до сих пор собирают, в первую очередь, на заводах в Северной Америке и Европе.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "manufacturing",
+    "direction": "increases",
+    "factor": "primarily",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Продольные лампы (LFL) до сих пор собирают , в первую очередь , на заводах в Северной Америке и Европе ( где рынки сбыта ближе ).",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "41% всех потребляемых РЗО приходится на оксид неодима.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "41%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "41% всех потребляемых РЗО приходится на оксид неодима",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "16% на оксид лантана.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "16%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "16% на оксид лантана",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "15% на оксид церия.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "15%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "15% на оксид церия",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "14% на оксид празеодима.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "14%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "14% на оксид празеодима",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "10% на оксид иттрия.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "10%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "10% на оксид иттрия",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "2,5% на оксид диспрозия.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "2,5%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "2,5% на оксид диспрозия",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам IMCOA, мировой спрос на РЗО в магнитах к 2014 г. достигнет 40 тыс т/г без учета ветротурбин.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global demand",
+    "direction": "increases",
+    "factor": "40 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам IMCOA, мировой спрос на РЗО в магнитах к 2014 г . дос -тигнет 40 тыс т / г без учета ветротурбин",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Сектор ветротурбин может добавить к спросу ещё около 9 тыс т/г РЗО, в т. ч. 1350 т/г только в США.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "additional demand",
+    "direction": "increases",
+    "factor": "около 9 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "а сектор ветротурбин может доба -вить к спросу ещё около 9 тыс т / г РЗО , в т . ч . 1350 т / г -только в США .",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В моторе для электромобиля может быть порядка 1-3 кг РЗЭ, а в генераторе для ветротурбины — несколько сотен кг, а по другим оценкам — даже до 2 т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "RZЭ mass",
+    "direction": "increases",
+    "factor": "1-3 кг (motor), several hundred kg (generator), up to 2 т (other estimates)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В моторе для электромо -биля может быть порядка 1-3 кг РЗЭ , а в генераторе для ветротурбины -несколько сотен кг , а по другим оценкам -даже до 2 т [5].",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Электромобиль или гибридный автомобиль может содержать 9-11 кг РЗЭ, а обычный стандартный автомобиль — около 4,5 кг.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "RZЭ mass per vehicle",
+    "direction": "increases",
+    "factor": "9-11 кг (EV/hybrid), 4,5 кг (standard)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электромобиль или гибридный автомобиль может содержать 9-11 кг РЗЭ , а обычный стандартный автомобиль -около 4,5 кг .",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В Toyota Prius используется в батареях и прочих компонентах 12-20 кг РЗЭ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "RZЭ mass in Prius",
+    "direction": "increases",
+    "factor": "12-20 кг",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "например , в Toyota Prius используется в батареях и прочих компонентах 12-20 кг РЗЭ .",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.81,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозам IMCOA спрос на РЗО в секторе перезаряжаемых NiMH батарей для автомобилей в среднесрочной перспективе будет расти на 15-20%, но после 2015 г., в предположении замены их на литиевые, спрос будет снижаться.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "NiMH battery RZО demand",
+    "direction": "increases",
+    "factor": "15-20% growth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозам IMCOA спрос на РЗО в секторе перезаряжаемых NiMH батарей для автомобилей в среднесрочной перспективе будет расти на 15-20%, но после 2015 г ., в предположении за -мены их на литиевые , спрос будет снижаться .",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "RЗЭ используются в различных типах топливных элементов; заменителя РЗЭ в топливных элементах на твердых оксидах нет.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "fuel cell usage",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "RЗЭ используются в различных типах топливных элементов . В част -ности , заменителя RЗЭ в топливных элементах на твердых оксидах нет .",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.81,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Для потребления РЗЭ в высокотехнологичных областях характерна высокая специфичность, заменители либо неизвестны, либо ухудшают качество изделий.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "substitutes",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Следует подчеркнуть , что для потребления РЗЭ в высокотехноло -гичных областях характерна высокая специфичность , заменители либо не -известны , либо ухудшают качество изделий .",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "К 2015 г. предложение европия существенно возрастет за счет ввода в строй проекта Mt Weld (Австралия).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "supply increase",
+    "direction": "increases",
+    "factor": "Mt Weld project",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К 2015 г . предложение европия существенно возрастет за счет ввода в строй проекта Mt Weld ( Австралия ).",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2020‑2025 г. спрос на европий в люминофорах может заметно снизиться за счет вытеснения люминесцентных ламп светодиодами.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "demand change",
+    "direction": "decreases",
+    "factor": "LED displacement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2020-2025 г . спрос на европий в люминофорах может заметно снизиться за счет вытеснения люминесцентных ламп светодиодами , но",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Спрос на тербий в среднесрочной перспективе может превысить предложение.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "demand vs supply",
+    "direction": "decreases",
+    "factor": "medium‑term outlook",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Спрос на тербий в среднесрочной перспективе может превысить предложение .",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Возобновление эксплуатации Mountain Pass (США) и ввод в строй проекта Mt Weld (Австралия) не приведут к заметному увеличению предложения тербия.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "supply impact",
+    "direction": "no_change",
+    "factor": "Mt Pass and Mt Weld projects",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Возобновление эксплуатации Mountain Pass ( США ) и ввод в строй проекта Mt Weld ( Австралия ) не приведут к заметному увеличению предложения тербия .",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Рост предложения может обеспечить проект Nechalacho (Канада).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "supply increase",
+    "direction": "increases",
+    "factor": "Nechalacho project",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рост предложения может обеспечить проект Nechalacho ( Канада ).",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "На рынке иттриа прогнозируется дефицит — как в краткосрочной, так и среднесрочной перспективе.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "market condition",
+    "direction": "decreases",
+    "factor": "short‑ and medium‑term",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На рынке иттрия прогнозируется дефицит -как в краткосрочной , так и среднесрочной перспективе .",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2010 г. мировой спрос превысил предложение.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "demand vs supply",
+    "direction": "decreases",
+    "factor": "2010",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2010 г . мировой спрос превысил предло -жение .",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "К 2015 г. ожидается рост производства примерно на 10% этого недостаточно для удовлетворения спроса.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production growth",
+    "direction": "increases",
+    "factor": "≈10 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К 2015 г . ожидается рост производства примерно на 10% этого недостаточно для удовлетворения спроса .",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Если начнет расти рыночная доля высокотемпературных сверхпроводников, которые обычно содержат иттрий, темпы роста спроса возрастут.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "demand growth",
+    "direction": "increases",
+    "factor": "high‑temperature superconductor share",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако , если начнет расти рыночная доля высокотемпературных сверхпроводников , которые обычно содержат иттрий , темпы роста спроса возрастут .",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "До 1984 г. доминирующим поставщиком РЗЭ на мировом рынке были США (рудник Mountain Pass), но примерно с середины 90‑х гг. ведущим производителем стал Китай.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "market leadership",
+    "direction": "decreases",
+    "factor": "time period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Напомним , что до 1984 г . доминирующим поставщиком РЗЭ на ми -ровой рынок были США ( рудник Mountain Pass), но примерно с середины 90х гг . ведущим производителем стал Китай .",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В настоящее время насчитывается более двух сотен проектов в разной степени проработки — от ранней стадии геологоразведки до конкретных планов реализации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project count",
+    "direction": "increases",
+    "factor": "current",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в настоящее время на -считывается более двух сотен проектов в разной степени проработки -от ранней стадии геологоразведки до конкретных планов реализации .",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По мнению экспертов отрасли, подавляющая часть этих проектов, во всяком случае, в обозримом будущем введена в строй не будет, а ближайшие 5 лет в строй войдут максимум 5‑7 проектов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project implementation",
+    "direction": "decreases",
+    "factor": "next 5 years",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако , по мнению экспертов отрасли , подавляющая часть этих проектов , во вся -ком случае , в обозримом будущем введена в строй не будет , а ближайшие 5 лет в строй войдут , максимум , 5-7 проектов .",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Прогноз развития ситуации с приростом производства РЗЭ по новым проектам до 2015 г. был сделан Департаментом энергетики США.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production increase",
+    "direction": "increases",
+    "factor": "new projects to 2015",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Прогноз развития ситуации с приростом производства РЗЭ по но -вым проектам до 2015 г . был сделан Департаментом энергетики США [1].",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Китай примет все меры, чтобы навести порядок в отрасли и уже в ближайшие годы ограничит объем производства примерно на уровне 100 тыс т/г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production limit",
+    "direction": "decreases",
+    "factor": "policy action",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полагаем , что Китай примет все меры , чтобы навести порядок в отрасли и уже в ближайшие го -ды ограничит объем производства примерно на уровне 100 тыс т / г .",
+   "locator_kind": "md_para",
+   "locator": "para:183",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам US Geological Survey мировые запасы редкоземельных элементов, в пересчете на оксиды, составляют порядка 99 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global reserves",
+    "direction": "increases",
+    "factor": "USGS assessment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам US Geological Survey мировые запасы редкоземельных элементов , в пересчете на оксиды , составляют порядка 99 млн т .",
+   "locator_kind": "md_para",
+   "locator": "para:186",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасы РЗЭ в Китае за 11‑ую пятилетку снизились на 37%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reserve change",
+    "direction": "decreases",
+    "factor": "11‑th five‑year plan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако запасы РЗЭ в Китае за 11ую пятилетку снизились на 37%.",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Китай является ведущим производителем, потребителем и экспортером РЗЭ и продуктов, их содержащих.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "market role",
+    "direction": "increases",
+    "factor": "current",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Китай является ведущим производителем , потребителем и экспор -тером РЗЭ и продуктов , их содержащих .",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2007 г . Министерство торговли Китая объявило большинство РЗЭ и продуктов на их основе стратегическими продуктами",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "strategic designation",
+    "direction": "decreases",
+    "factor": "government decree",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2007 г . Министерство торговли Китая объявило большинство РЗЭ и продуктов на их основе стратегическими продуктами",
+   "locator_kind": "md_para",
+   "locator": "para:203",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Государственный совет ввел ограничения для зарубежных инвестиций в РЗ -отрасль",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment restriction",
+    "direction": "decreases",
+    "factor": "government decree",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Государственный совет ввел ограничения для зарубежных инвестиций в РЗ -отрасль",
+   "locator_kind": "md_para",
+   "locator": "para:203",
+   "confidence": 0.81,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2010 г . Китай произвел 118,9 тыс т РЗ -продуктов -это официаль -ная статистика , не учитывающая , естественно , контрабандные объемы",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "official statistics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2010 г . Китай произвел 118,9 тыс т РЗ -продуктов -это официаль -ная статистика , не учитывающая , естественно , контрабандные объемы",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Крупнейшим производителем РЗЭ c объемом производства около 55 тыс т / г РЗО является государственная компания Baotou Steel Rare Earth Group Hi-Tech",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "company data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Крупнейшим производителем РЗЭ c объемом производства около 55 тыс т / г РЗО является государственная компания Baotou Steel Rare Earth Group Hi-Tech",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В перспективе переход на добычу более богатой железной руды будет сопровождаться снижением содержания в ней примесей и РЗЭ",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impurity level",
+    "direction": "decreases",
+    "factor": "ore quality change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В перспективе переход на добычу более богатой железной руды будет сопровождаться снижением содержания в ней примесей и РЗЭ",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспортные квоты на РЗЭ были введены Китаем в 1999 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "export quota",
+    "direction": "increases",
+    "factor": "government action",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Экспортные квоты на РЗЭ были введены Китаем в 1999 г.",
+   "locator_kind": "md_para",
+   "locator": "para:218",
+   "confidence": 0.81,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2010 г . Китай сократил экспортные квоты на 37% до 30,26 тыс т , что привело к резкому росту цен на экспортные лицензии -с « обычных » 2 US$/ кг до 50 US$/ кг в конце 2010 г .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "export quota reduction",
+    "direction": "decreases",
+    "factor": "quota cut",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2010 г . Китай сократил экспортные квоты на 37% до 30,26 тыс т , что привело к резкому росту цен на экспортные лицензии -с « обычных » 2 US$/ кг до 50 US$/ кг в конце 2010 г .",
+   "locator_kind": "md_para",
+   "locator": "para:227",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспортная квота на I п / г 2011 г . составила 14446 т .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "export quota amount",
+    "direction": "increases",
+    "factor": "government allocation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Экспортная квота на I п / г 2011 г . составила 14446 т .",
+   "locator_kind": "md_para",
+   "locator": "para:232",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В июле 2011 г . были обнародованы экспортные квоты на II п / г 2011 г . -в размере 15738 т , т . е . за весь 2011 г . получится 30184 т ( для китайских и зарубежных компа -ний ), что немногим менее суммарной экспортной квоты на 2010 г . - 30259 т .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "export quota amount",
+    "direction": "increases",
+    "factor": "government allocation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В июле 2011 г . были обнародованы экспортные квоты на II п / г 2011 г . -в размере 15738 т , т . е . за весь 2011 г . получится 30184 т ( для китайских и зарубежных компа -ний ), что немногим менее суммарной экспортной квоты на 2010 г . - 30259 т .",
+   "locator_kind": "md_para",
+   "locator": "para:232",
+   "confidence": 0.9,
+   "document_id": "doc:рынок-рзм-2011-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

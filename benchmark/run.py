@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 from . import evaluators as ev
@@ -129,23 +130,43 @@ def run(
 
     multi = len(cfg.modes) > 1
     results: list[QuestionResult] = []
+
+    def _progress(mode: str, i: int, r: QuestionResult, q: CompetenceQuestion) -> None:
+        if quiet:
+            return
+        status = f"{r.score:.2f}" if r.ok else "ERR"
+        print(
+            f"  [{mode}] {i:>3}/{len(questions)}  {status}  "
+            f"{r.latency_s:>5.1f}c  {r.mode_used or '—':<16} {q.id}"
+            + ("" if r.ok else f"  ({r.error})")
+        )
+
     try:
         for mode in cfg.modes:
-            client.new_session(title=f"benchmark:{mode}")
-            for i, q in enumerate(questions, 1):
-                send = _send_mode(q, mode, cfg)
-                turn = client.ask(q.question, mode=send)
+            # Свежая сессия на каждый вопрос (ask_fresh) — без загрязнения историей
+            # между вопросами и потокобезопасно для параллельного прогона.
+            def _run_one(
+                iq: tuple[int, CompetenceQuestion], _mode: str = mode
+            ) -> tuple[int, CompetenceQuestion, QuestionResult]:
+                i, q = iq
+                send = _send_mode(q, _mode, cfg)
+                turn = client.ask_fresh(q.question, mode=send)
                 r = evaluate_one(q, turn, send, cfg, cfg.judge)
                 if multi:
-                    r.id = f"{q.id}@{mode}"
-                results.append(r)
-                if not quiet:
-                    status = f"{r.score:.2f}" if turn.ok else "ERR"
-                    print(
-                        f"  [{mode}] {i:>3}/{len(questions)}  {status}  "
-                        f"{r.latency_s:>5.1f}c  {r.mode_used or '—':<16} {q.id}"
-                        + ("" if turn.ok else f"  ({r.error})")
-                    )
+                    r.id = f"{q.id}@{_mode}"
+                return i, q, r
+
+            indexed = list(enumerate(questions, 1))
+            if cfg.concurrency > 1:
+                with ThreadPoolExecutor(max_workers=cfg.concurrency) as ex:
+                    for i, q, r in ex.map(_run_one, indexed):
+                        results.append(r)
+                        _progress(mode, i, r, q)
+            else:
+                for iq in indexed:
+                    i, q, r = _run_one(iq)
+                    results.append(r)
+                    _progress(mode, i, r, q)
     finally:
         client.close()
 
@@ -217,6 +238,12 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--timeout", type=float, default=120.0)
     p.add_argument("--no-reuse-session", action="store_true")
     p.add_argument(
+        "--concurrency",
+        type=int,
+        default=1,
+        help="параллельных вопросов (каждый в своей сессии); gpt-oss тянет много",
+    )
+    p.add_argument(
         "--ontology-url", help="прямая проба ontology-kg health (если проброшен)"
     )
     p.add_argument(
@@ -249,6 +276,7 @@ def main(argv: list[str] | None = None) -> int:
         fail_under=args.fail_under,
         timeout_s=args.timeout,
         reuse_session=not args.no_reuse_session,
+        concurrency=args.concurrency,
         ontology_url=args.ontology_url,
         science_url=args.science_url,
         judge=args.judge,

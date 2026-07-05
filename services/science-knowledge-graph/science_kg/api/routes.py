@@ -34,6 +34,17 @@ def _graph(request: Request):
     return request.app.state.graph
 
 
+def _langfuse_headers(request: Request) -> dict[str, str]:
+    """Forward any `langfuse_*` header the caller (backend) set — LiteLLM at the
+    gateway strips the prefix and maps these onto the trace (user id / session
+    id). See docs.litellm.ai/docs/observability/langfuse_integration."""
+    return {
+        k: v
+        for k, v in request.headers.items()
+        if k.lower().startswith("langfuse_")
+    }
+
+
 def _run_nlp_on_text(text: str, doc_id: str) -> ExtractionResult:
     """CPU-bound: detect language, load model, process. Runs in thread pool."""
     nlp = get_nlp_for_text(text)
@@ -251,7 +262,9 @@ async def rag_query(request: Request, body: RAGQuery):
         max_nodes=body.max_nodes,
     )
     context = await retriever.retrieve(body.question)
-    answer = await generate_answer(body.question, context)
+    answer = await generate_answer(
+        body.question, context, langfuse_headers=_langfuse_headers(request)
+    )
 
     return RAGResponse(
         answer=answer,

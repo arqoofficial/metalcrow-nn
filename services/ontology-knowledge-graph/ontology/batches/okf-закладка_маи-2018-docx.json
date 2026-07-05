@@ -1,0 +1,666 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:закладка_маи-2018-docx",
+   "title": "Закладка_май2018.docx",
+   "doc_type": "article",
+   "year": 1980,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Закладка_май2018.docx.md",
+   "artifact_sha256": "b4788624be3c2739b6cfe9a6aae35c5bea2c3069c6842c4535bd6c507a981616",
+   "okf_raw_path": "Обзоры/Закладка_май2018.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:kidd-creek-rockfill",
+   "label": "Kidd Creek rockfill",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:paste-fill",
+   "label": "paste fill",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:waste-rock",
+   "label": "waste rock",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:crushed-stone",
+   "label": "crushed stone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:binder",
+   "label": "binder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:calcium-chloride",
+   "label": "calcium chloride",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cemented-backfill",
+   "label": "cemented backfill",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:закладка_маи-2018-docx:0",
+   "document_id": "doc:закладка_маи-2018-docx",
+   "title": "Large‑scale UCS strength tests of cemented rockfill (in‑situ conditions)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Large scale unconfined compressive strength (UCS) tests on cemented rockfill samples prepared with the listed recipes"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:kidd-creek-rockfill",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "compressive_strength",
+     "scope": "material",
+     "material_id": "mat:kidd-creek-rockfill",
+     "value": {
+      "min": null,
+      "nominal": 880.0,
+      "max": null
+     },
+     "unit": "psi",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Kidd Creek | 6,0 | 67/33 | 5,00 | 880",
+     "locator_kind": "md_para",
+     "locator": "para:11",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The paste‑filled rockfill at Kidd Creek achieved a compressive strength of 880 psi in the large‑scale UCS test.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "compressive_strength",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Kidd Creek | 6,0 | 67/33 | 5,00 | 880",
+     "locator_kind": "md_para",
+     "locator": "para:11",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "I.Vennes. Determination of Cemented Rockfill Strength with Large Scale UCS Tests under In-Situ Conditions. McGill University, Montreal, Canada, July 2014",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладка_маи-2018-docx:1",
+   "document_id": "doc:закладка_маи-2018-docx",
+   "title": "Industrial application of paste fill at Kidd Creek mine (Canada)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Replacement of cemented empty‑rock fill with paste fill in underground stopes"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:paste-fill",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "depth reached",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2000.0,
+      "max": null
+     },
+     "unit": "m",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Рудник Kidd Creek достиг глубины ≈2000 м",
+     "locator_kind": "md_para",
+     "locator": "para:2",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "planned depth",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3100.0,
+      "max": null
+     },
+     "unit": "m",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "шахта Mine D планируется до глубины 3100 м",
+     "locator_kind": "md_para",
+     "locator": "para:2",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "cost share",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "затраты на закладку могут достигать, по некоторым оценкам, 30% суммарных затрат на добычу",
+     "locator_kind": "md_para",
+     "locator": "para:5",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Paste fill provides a shorter cycle time than empty‑rock or hydraulic fill, allowing rapid stopes back‑filling without waiting for drainage or hardening.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "cycle time",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "У пастовой закладки длительность цикла короче, чем у закладки пустой породой или гидравлической закладки, забои могут быть быстро заполнены и не нужно ждать, пока пройдет дренирование и закладка затвердеет",
+     "locator_kind": "md_para",
+     "locator": "para:3",
+     "confidence": 0.9
+    },
+    {
+     "text": "Paste fill meets the required strength criteria for deep stopes.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "strength",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "пастовая закладка отвечает требованиям по прочности",
+     "locator_kind": "md_para",
+     "locator": "para:4",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "С 2004 г., когда началось углубление рудника, закладу пустой породой постепенно свернули и заменили пастовой закладкой . Рудник Kidd Creek достиг глубины ≈2000 м, а шахта Mine D планируется до глубины 3100 м.",
+   "locator_kind": "md_para",
+   "locator": "para:2",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладка_маи-2018-docx:2",
+   "document_id": "doc:закладка_маи-2018-docx",
+   "title": "Kidd Creek mine cemented backfill trial",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Used waste rock from open pit mining as backfill material, crushed and sieved into coarse (15 cm‑1 cm) and fine (<1 cm) fractions mixed 3:1; added 2 % calcium chloride to the binder to prevent freezing of the binder in winter",
+       "temperature_text": "winter conditions (freezing)",
+       "duration_text": "increased curing time observed before additive"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:waste-rock",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:crushed-stone",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:binder",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:calcium-chloride",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Adding 2 % calcium chloride reduced the curing time increase caused by freezing.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "curing time",
+      "direction": "decreases",
+      "factor": "2 % calcium chloride",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Противодействие этому – в добавке 2% хлорида кальция к связующему.",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На руднике Kidd Creek сначала в качестве закладочного материала использовали пустую породу от открытой добычи... Противодействие этому – в добавке 2% хлорида кальция к связующему.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладка_маи-2018-docx:3",
+   "document_id": "doc:закладка_маи-2018-docx",
+   "title": "Birchtree (Vale) 2016 production record",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Underground mining with sublevel stoping and delayed cemented backfill"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cemented-backfill",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ore mined",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 503.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2016 г. на руднике добыто 503 тыс т руды с 1,36%Ni.",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel grade",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.36,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2016 г. на руднике добыто 503 тыс т руды с 1,36%Ni.",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The mine produced 503 000 t of ore with an average nickel grade of 1.36 % in 2016.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В 2016 г. на руднике добыто 503 тыс т руды с 1,36%Ni.",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2016 г. на руднике добыто 503 тыс т руды с 1,36%Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладка_маи-2018-docx:4",
+   "document_id": "doc:закладка_маи-2018-docx",
+   "title": "Meikle (Barrick Gold) 2001‑2007 operation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Open‑pit mining with delayed backfill and satellite stoping; production rate reported",
+       "duration_text": "2001‑2007"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cemented-backfill",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "production rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2800.0,
+      "max": null
+     },
+     "unit": "t/сут",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Производительность 2800 т/сут.",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The mine achieved a production rate of 2800 t per day during the reported period.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Производительность 2800 т/сут.",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Метод-выемка с открытым забоем с «отсроченной» закладкой и выемка с закладкой месторождений – спутников Производительность 2800 т/сут.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Empty‑rock backfill has been used for more than 80 years.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Закладка пустой породой применяется уже более 80 лет",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.9,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Cemented rockfill has been used since the 1960s, and paste fill has been increasingly used since the 1980s.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "закладка породой с цементированием выработанного пространства («цементированная закладка») – с 1960‑х годов, а с 1980‑х годов всё шире применяется пастовая закладка",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.81,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Kidd Creek is the second largest consumer of cemented rockfill after Mt Isa in Australia.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Рудник Kidd Creek - второй крупнейший потребитель цементированной закладки (после Mt Isa в Австралии)",
+   "locator_kind": "md_para",
+   "locator": "para:2",
+   "confidence": 0.9,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "The empty rock from open‑pit mining is crushed to a composition of 75 % coarse rock and 25 % finer material, with the finest fraction removed.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Пустую породу от открытой добычи измельчали до содержания 75% щебня (каменной мелочи) и 25% более тонкой мелочи, а самую мелкую фракцию удаляли",
+   "locator_kind": "md_para",
+   "locator": "para:2",
+   "confidence": 0.9,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "The mining method at Kidd Creek is sub‑level stoping with long‑hole drilling.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Метод добычи – подэтажная выемка с отбойкой глубокими скважинами",
+   "locator_kind": "md_para",
+   "locator": "para:2",
+   "confidence": 0.9,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "As depth increases, rock stresses rise and rapid void filling becomes critical for successful mining development.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "по мере углубления растут напряжения в породе и быстрое заполнение пустот является критическим условием успешного развития добычи",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Paste fill can be more cost‑effective than empty‑rock fill at great depths.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "затраты на закладку пустой породы на таких глубинах оказались выше, чем для пастовой закладки",
+   "locator_kind": "md_para",
+   "locator": "para:5",
+   "confidence": 0.9,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Backfill is widely used on Canadian mines that employ sub‑level stoping or other similar methods.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Закладка широко распространена на канадских рудниках, где добывают металлы, как методом подэтажной выемки, так и методом разработки с закладкой",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Method of development – sublevel stoping with delayed cemented backfill.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Метод разработки – подэтажная выемка с «отсроченной» закладкой цементированной породой.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.81,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "At the Mt Isa copper mines (Australia) development was performed by sublevel caving with cemented slag, rock and hydraulic backfill (as of 1973).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "на медных рудниках комплекса Mt Isa (Австралия) по состоянию дел на 1973 г.(!) вели разработку методом подэтажного обрушения с закладкой цементированным шлаком, породой и гидрозакладку",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Cayeli (Turkey) Cu‑Zn mine uses three types of backfill: cemented rock, non‑cemented waste rock, and cemented paste.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Используют 3 типа закладки: цементированную породную, нецементированную отвалом и цементированную пастовую",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Polaris (Canada) Pb‑Zn mine used a backfill mix of 50:50 quarry stone waste and waste rock, plus 5 % Portland cement and 2.5 % calcium chloride.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "использовали в качестве закладки смесь 50:50 карьерной каменной мелочи и пустой породы (плюс 5% порланд-цемента и 2,5% хлорида кальция)",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Namew Lake (Manitoba, Canada) Cu‑Ni sulfide mine employed rock backfill before closure in the 1990s.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "на Cu‑Ni сульфидном руднике Namew Lake (Манитоба, Канада) использовали породную закладу",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.81,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Deep Post and Carlin East (Newmont, Nevada, USA) are gold mines (Au).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Deep Post/ Newmont ... Невада, США ... Au",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.81,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Bullfrog (Bullfrog Gold, Nevada, USA) contains Au and Ag; Barrick ceased mining in the late 1990s but performed a 2000 backfill with waste rock to prevent lake formation.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Bullfrog/ Bullfrog Gold ... Au, Ag ... в 2000 г. закладку пустой породой.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.45,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Turuoise Ridge (Barrick, Nevada, USA) announced plans in 2018 to construct a third shaft.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2018 г. объявлено и планах строительства 3‑й шахты",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.81,
+   "document_id": "doc:закладка_маи-2018-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -41,7 +41,7 @@ export type ChatMessageRequest = {
     metadata?: (ChatMessageMetadata | null);
 };
 
-export type ChatMode = 'auto' | 'ontology' | 'knowledge_graph';
+export type ChatMode = 'auto' | 'ontology' | 'knowledge_graph' | 'literature';
 
 export type ChatRole = 'user' | 'assistant';
 
@@ -105,6 +105,13 @@ export type GraphEdge = {
     };
 };
 
+export type GraphGap = {
+    material: string;
+    property: string;
+    regime_bucket: RegimeBucket;
+    reason: string;
+};
+
 export type GraphNode = {
     id: string;
     label: string;
@@ -112,6 +119,13 @@ export type GraphNode = {
     properties?: {
         [key: string]: unknown;
     };
+};
+
+export type GraphOverviewResponse = {
+    nodes?: Array<GraphNode>;
+    edges?: Array<GraphEdge>;
+    gaps?: Array<GraphGap>;
+    notes?: Array<string>;
 };
 
 export type GraphQueryRequest = {
@@ -189,6 +203,17 @@ export type NewPassword = {
     new_password: string;
 };
 
+export type ParseRawDataFileRequest = {
+    /**
+     * Concrete parser path under RAW_DATA/, e.g. RAW_DATA/Доклады/report.pdf
+     */
+    path: string;
+    /**
+     * Re-enqueue L1 parsing even when the document already reached L1.
+     */
+    enforce?: boolean;
+};
+
 export type PathResponse = {
     nodes?: Array<GraphNode>;
     edges?: Array<GraphEdge>;
@@ -208,6 +233,23 @@ export type ProcessingLevelCoverage = {
     level: ProcessingLevel;
     count: number;
     percent: number;
+};
+
+export type RawDataFilesResponse = {
+    data: Array<RawDataFileSummary>;
+    count: number;
+    offset: number;
+    limit: number;
+};
+
+export type RawDataFileSummary = {
+    path: string;
+    filename: string;
+    stage0_done: boolean;
+    stage1_done: boolean;
+    document_id?: (string | null);
+    processing_level?: (ProcessingLevel | null);
+    latest_task_status?: (IngestStatus | null);
 };
 
 export type RegimeBucket = 'low' | 'medium' | 'high';
@@ -327,6 +369,20 @@ export type WikiTreeResponse = {
 
 export type AdminAdminCoverageResponse = (AdminCoverageResponse);
 
+export type AdminListRawFilesData = {
+    limit?: number;
+    offset?: number;
+    search?: string;
+};
+
+export type AdminListRawFilesResponse = (RawDataFilesResponse);
+
+export type AdminParseRawFileData = {
+    requestBody: ParseRawDataFileRequest;
+};
+
+export type AdminParseRawFileResponse = (IngestUploadResponse);
+
 export type AnalyticsCoverageResponse = (CoverageResponse);
 
 export type AnalyticsMetricsResponse = (MetricsResponse);
@@ -363,6 +419,23 @@ export type GraphQueryData = {
 };
 
 export type GraphQueryResponse = (SubgraphResponse);
+
+export type GraphOverviewData = {
+    limit?: number;
+    material?: (string | null);
+    property?: (string | null);
+    regime?: (RegimeBucket | null);
+};
+
+export type GraphOverviewResponse2 = (GraphOverviewResponse);
+
+export type GraphKgData = {
+    depth?: number;
+    limit?: number;
+    q?: (string | null);
+};
+
+export type GraphKgResponse2 = (GraphOverviewResponse);
 
 export type GraphSubgraphData = {
     depth?: number;

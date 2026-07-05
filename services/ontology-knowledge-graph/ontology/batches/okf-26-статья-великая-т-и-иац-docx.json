@@ -1,0 +1,1034 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:26-статья-великая-т-и-иац-docx",
+   "title": "26 Статья - Великая Т.И. (ИАЦ).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\26 Статья - Великая Т.И. (ИАЦ).docx.md",
+   "artifact_sha256": "739cb7b3f3f0edc77889b18c2b1b6e6e08af8ca0df49c3ab2e7ffcc2136f815b",
+   "okf_raw_path": "Статьи/26 Статья - Великая Т.И. (ИАЦ).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:fine-stone-samples",
+   "label": "Fine‑stone samples",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:scandium-solution",
+   "label": "Scandium solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:icap-6000-atomic-emission-spectrometer-thermo-fi",
+   "label": "iCAP 6000 atomic emission spectrometer (Thermo Fisher Scientific)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:standard-solutions-s1-lower-and-s2-upper",
+   "label": "Standard solutions S1 (lower) and S2 (upper)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:samples-prepared-with-nitric-hydrochloric-and-hy",
+   "label": "Samples prepared with nitric, hydrochloric and hydrofluoric acids",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:internal-standard-scandium-line-at-361-384-nm",
+   "label": "Internal standard – scandium line at 361.384 nm",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:potassium-bisulfate-khso4",
+   "label": "Potassium bisulfate (KHSO₄)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lower-standard-s1",
+   "label": "Lower standard (S1)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:upper-standard-s2",
+   "label": "Upper standard (S2)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:certified-copper-fine-stone",
+   "label": "Certified copper fine‑stone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:certified-nickel-fine-stone",
+   "label": "Certified nickel fine‑stone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-nickel-fine-stone",
+   "label": "copper‑nickel fine‑stone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:separation-products-of-fine-stone",
+   "label": "separation products of fine‑stone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:26-статья-великая-т-и-иац-docx:0",
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "title": "Comparison of limited‑standard method with gravimetric method",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Determination of copper and nickel in fine‑stone and its separation products using atomic emission spectrometry with inductively coupled plasma (iCAP 6000) and the limited‑standard approach, with scandium internal standard introduced as a weight aliquot; measurements performed in radial mode using iTEVA Precision software.",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-stone-samples",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:scandium-solution",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Cu and Ni content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Способ ограничивающих стандартов с использованием метода атомно-эмиссионной спектрометрии, при определении меди и никеля в файнштейне и продуктах его разделения обеспечивает метрологические характеристики сопоставимые с метрологическими характеристиками электрогравиметрического метода анализа в диапазоне содержаний от 20 до 80%.",
+     "locator_kind": "md_para",
+     "locator": "para:3",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The limited‑standard method provides more reproducible and more accurate results than the usual results obtained with conventional ICP‑AES.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "accuracy/reproducibility",
+      "direction": "increases",
+      "factor": "not quantified",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "более воспроизводимые и более точные результаты по сравнению с результатами, которые обычно получаются методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой.",
+     "locator_kind": "md_para",
+     "locator": "para:3",
+     "confidence": 0.9
+    },
+    {
+     "text": "The method eliminates drift of spectrometer intensities and calibration errors.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "instrumental drift / calibration error",
+      "direction": "decreases",
+      "factor": "eliminated",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Способ позволяет исключить любой дрейф интенсивностей спектрометра во время измерений, а также исключение погрешностей калибровки.",
+     "locator_kind": "md_para",
+     "locator": "para:3",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Разработана методика определения меди и никеля методом атомно-эмиссионной спектрометрии с использованием способа ограничивающих стандартов.",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:26-статья-великая-т-и-иац-docx:1",
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "title": "Laboratory experiment with iCAP 6000 spectrometer",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Atomic emission spectrometry using the iTEVA Precision software and limiting‑standard method",
+       "temperature_text": "95 °C (HotBox‑300 digestion)",
+       "duration_text": "20 min digestion of sample aliquot, followed by additional acid treatments"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 368.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:icap-6000-atomic-emission-spectrometer-thermo-fi",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:standard-solutions-s1-lower-and-s2-upper",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:samples-prepared-with-nitric-hydrochloric-and-hy",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:internal-standard-scandium-line-at-361-384-nm",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Number of parallel measurements",
+     "scope": "material",
+     "material_id": "mat:icap-6000-atomic-emission-spectrometer-thermo-fi",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Число параллельных измерений 2",
+     "locator_kind": "md_para",
+     "locator": "para:23",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Wash time before analysis",
+     "scope": "material",
+     "material_id": "mat:icap-6000-atomic-emission-spectrometer-thermo-fi",
+     "value": {
+      "min": null,
+      "nominal": 25.0,
+      "max": null
+     },
+     "unit": "s",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Время промывки до анализа, с 25",
+     "locator_kind": "md_para",
+     "locator": "para:24",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:icap-6000-atomic-emission-spectrometer-thermo-fi",
+     "value": {
+      "min": null,
+      "nominal": 0.55,
+      "max": null
+     },
+     "unit": "l/min",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "nebulizer gas"
+     },
+     "method": null,
+     "snippet": "Распылительный поток, л/мин 0,55",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:icap-6000-atomic-emission-spectrometer-thermo-fi",
+     "value": {
+      "min": null,
+      "nominal": 0.5,
+      "max": null
+     },
+     "unit": "l/min",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "auxiliary gas"
+     },
+     "method": null,
+     "snippet": "Вспомогательный поток газа, л/мин 0,50",
+     "locator_kind": "md_para",
+     "locator": "para:29",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:icap-6000-atomic-emission-spectrometer-thermo-fi",
+     "value": {
+      "min": null,
+      "nominal": 12.0,
+      "max": null
+     },
+     "unit": "l/min",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "cooling gas"
+     },
+     "method": null,
+     "snippet": "Охлаждающий поток газа, л/мин 12",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Plasma power",
+     "scope": "material",
+     "material_id": "mat:icap-6000-atomic-emission-spectrometer-thermo-fi",
+     "value": {
+      "min": null,
+      "nominal": 1150.0,
+      "max": null
+     },
+     "unit": "W",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Мощность, подводимая к плазме, Вт 1150",
+     "locator_kind": "md_para",
+     "locator": "para:31",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Peristaltic pump speed",
+     "scope": "material",
+     "material_id": "mat:icap-6000-atomic-emission-spectrometer-thermo-fi",
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "min⁻¹",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Скорость вращения перистальтического насоса, мин -1 60",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В работе использовался атомно-эмиссионный спектрометр iCAP 6000 фирмы Thermo Fisher Scientific. Измерения проводились в радиальном режиме.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:26-статья-великая-т-и-иац-docx:2",
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "title": "Preparation of weight aliquot of scandium for samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Dry 200 cm³ volumetric flasks are weighed, zeroed, then 4,0 cm³ of scandium solution (100 mg/dm³) is added, weighed and the mass recorded."
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:scandium-solution",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The internal scandium solution concentration in the sample flasks becomes 2,0 mg/dm³.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Полученная концентрация внутреннего раствора скандия в колбах с пробами составляет 2,0 мг/дм³.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Для введения весовой аликвоты скандия в пробы, сухие мерные колбы на 200 см³ взвешивают на весах. После обнуления весов, в колбы вводят аликвоту раствора скандия объёмом, 4,0 см³, концентрацией 100 мг/дм³, взвешивают, записывают весовую массу аликвоты скандия.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:26-статья-великая-т-и-иац-docx:3",
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "title": "Ashing and fusion of filter residues",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Filters with residue are washed twice with water, placed in a platinum cup, burned and oxidized at 850 °C for 20 min, then 3,0 g of potassium bisulfate (KHSO₄) is added and fused at 850 °C for 30 s.",
+       "temperature_text": "850 °C",
+       "duration_text": "20 min (ashing) + 30 s (fusion)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1123.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:potassium-bisulfate-khso4",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The fused cup is cooled and leached with hot water, then 5 cm³ of hydrochloric acid is added and boiled until the melt dissolves.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Чашку достают из муфельной печи, охлаждают, к озолённому остатку добавляют 3,0 г бисульфата калия (KHSO₄) и сплавляют при температуре 850 °C 30 секунд. Чашку с плавнем охлаждают и затем выщелачивают в стакан, в котором проводилось разложение пробы, горячей водой. Добавляют 5 см³ соляной кислоты, кипятят под стеклом до растворения плава.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Фильтр сжигают и озоляют в платиновой чашке при температуре 850 °C в течении 20 минут.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:26-статья-великая-т-и-иац-docx:4",
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "title": "Measurement sequence on iCAP 6000",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Using iTEVA (method creation) and iTEVA Precision (sequence creation), the lower standard (S1) is measured, then the sample, then the upper standard (S2). The software automatically calculates component contents."
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lower-standard-s1",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:upper-standard-s2",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:fine-stone-samples",
+     "value": {
+      "min": null,
+      "nominal": 58.65,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Среднее содержание меди в данной пробе, в расчёте на проценты, составляет 58,65 %.",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Порядок измерений проводили следующим образом. При запуске последовательности сначала измеряется нижний стандарт, затем проба, следующий верхний стандарт.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:26-статья-великая-т-и-иац-docx:5",
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "title": "Accuracy verification with certified reference materials",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Certified copper and nickel fine‑stone reference materials were prepared as a third standard (mid‑range concentration) and measured together with the lower and upper standards; the same procedure was applied to control samples."
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:certified-copper-fine-stone",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:certified-nickel-fine-stone",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 58.59,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "58,59",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 66.67,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "66,67",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Правильность определения меди и никеля была подтверждена анализом стандартных образцов файнштейна, а также никелевого и медного файнштейна в форме концентратов.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:26-статья-великая-т-и-иац-docx:6",
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "title": "Development and testing of dissolution and measurement scheme for copper‑nickel fine‑stone samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "application of the limiting‑standard method to determine Cu and Ni contents in fine‑stone and its separation products"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-nickel-fine-stone",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:separation-products-of-fine-stone",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "analysis time",
+     "scope": "material",
+     "material_id": "mat:copper-nickel-fine-stone",
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Разработанная схема растворения и измерений проб, приводит к сокращению времени анализа в 5 раз по сравнению с длительным электрогравиметрическим анализом",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "high accuracy comparable to certified gravimetric method",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "accuracy",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "принцип измерения содержаний меди и никеля способом ограничивающих стандартов ... обеспечивает высокую точность определения меди и никеля, сопоставимую с аттестованной электрогравиметрической методикой измерений",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Разработана методика определения меди и никеля методом ограничивающих стандартов, которая применима для анализа компонентов в диапозоне от 20 до 80%.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The limited‑standard approach can be applied to copper‑nickel fine‑stone and its separation products with Cu or Ni mass fractions from 20 % to 80 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability range",
+    "direction": "increases",
+    "factor": "20‑80 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Диапазон массовых долей как меди, так и никеля, файнштейне и продуктах его разделения варьируется от 20 до 80 процентов.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "The gravimetric method is considered the only method that can provide maximum accuracy for Cu and Ni determination in the 20 %–80 % range.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "accuracy",
+    "direction": "increases",
+    "factor": "maximum",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Считается, что только метод электрогравиметрии может обеспечить максимальную точность определения меди и никеля в диапазоне содержаний от 20 до 80 процентов.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "The iTEVA Precision software implements the limited‑standard principle and has been proven over many decades to be highly effective.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effectiveness",
+    "direction": "increases",
+    "factor": "high",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На протяжении многих десятилетий большинство математических и статистических принципов такого способа доказали свою высокую эффективность.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "iTEVA Precision provides more reproducible and more accurate results than typical ICP‑AES results.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reproducibility/accuracy",
+    "direction": "increases",
+    "factor": "more",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Программное обеспечение iTEVA Precision обеспечивает более воспроизводимые и более точные результаты по сравнению с результатами, которые обычно получаются методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "The method uses scandium as an internal standard introduced directly as a weight aliquot into the samples.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "internal standard usage",
+    "direction": "increases",
+    "factor": "scandium added as weight aliquot",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве внутреннего стандарта использовали раствор скандия, который непосредственно вводили в качестве весовой аликвоты в пробы.",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "Программное обеспечение iTEVA Precision обеспечивает более воспроизводимые и более точные результаты по сравнению с результатами, которые обычно получаются методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "result reproducibility and accuracy",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Программное обеспечение iTEVA Precision обеспечивает более воспроизводимые и более точные результаты по сравнению с результатами, которые обычно получаются методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "Для обеспечения максимальной точности и учёта матричного эффекта необходимо использовать внутренний стандарт.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "accuracy with matrix effects",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для обеспечения максимальной точности и учёта матричного эффекта необходимо использовать внутренний стандарт.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "Рекомендуется готовить все пробы и стандарты весовым способом: отбирать аликвотные части, доводить объём по весу, используя весы с погрешностью не более 0,001 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "preparation precision",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Желательно иметь весы с погрешностью не более 0,001 г.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "Стандарты обычно находятся в пределах +20 % от ожидаемых содержаний элементов в пробах; при использовании стандартов в пределах +5 % может потребоваться предварительный анализ проб.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обычно стандарты находятся в пределах +20% от ожидаемых содержаний элементов в пробах. Можно использовать стандарты в пределах +5%, однако в этом случае может понадобиться предварительный анализ проб, чтобы определить примерные содержания элементов.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание меди и никеля в стандартных растворах (нижнего S1 и верхнего S2) находятся в пределах ±5 % относительно ожидаемых содержаний компонентов в пробах.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержания меди и никеля в стандартных растворах (нижнего S1 и верхнего S2) находятся в пределах ± 5 % относительно ожидаемых содержаний компонентов в пробах.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "The method allows determination of copper and nickel mass fractions in the range from 20 % to 80 % using limiting standards in copper‑nickel fine‑stone and its separation products.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Мы реализовали методику измерения содержаний меди и никеля в диапазоне от 20 до 80 процентов способом ограничивающих стандартов в медно-никелевом файнштейне и продуктах его разделения.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "For nickel, the proposed method achieves an accuracy of ±0.3 % in the 20–50 % range and ±0.5 % in the 50–80 % range.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Никель | От 20,00 до 50,00 включ. | 0,2 | 0,3 |  | Никель | Св.50,00 – 80,00 | 0,4 | 0,5",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "For copper, the proposed method achieves an accuracy of ±0.3 % in the 20–50 % range and ±0.3 % in the 50–80 % range.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Медь | От 20,00 до 50,00 включ. | 0,3 | 0,3 |  | Медь | Св.50,00 – 80,00 | 0,4 | 0,3",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "The internal scandium solution concentration after preparation is 2,0 mg/dm³.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Полученная концентрация внутреннего раствора скандия в колбах с пробами составляет 2,0 мг/дм³.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.81,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "The iCAP 6000 instrument uses two software packages: iTEVA for method creation and iTEVA Precision for measurement sequence creation.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для проведения измерений на приборе iCAP 6000 фирмы Thermo Fisher Scientific используются две аналитические программы. Основная программа iTEVA для создания метода, iTEVA Precision для создания последовательности проведения измерений.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "Average copper content measured in the example sample was 58,65 %.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Среднее содержание меди в данной пробе, в расчёте на проценты, составляет 58,65 %.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "The limiting‑standard method is applicable for analysis of components in the range from 20 % to 80 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability range",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработана методика определения меди и никеля методом ограничивающих стандартов, которая применима для анализа компонентов в диапозоне от 20 до 80%.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "Metrological characteristics of the new method are not worse than those of the existing gravimetric method.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metrological characteristics",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Метрологические характеристики данной методики не хуже, чем у существующей электрогравиметрической методики анализа.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  },
+  {
+   "text": "A static material set is being collected for metrological certification of the method.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "status",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Идет процесс набора статического материала для метрологической аттестации методики.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:26-статья-великая-т-и-иац-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

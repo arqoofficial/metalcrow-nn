@@ -1,0 +1,98 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_03_2006-pdf",
+   "title": "CM_03_2006.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2006\\CM_03_2006.pdf.md",
+   "artifact_sha256": "20614083cb7b1e51b14ece9537cc7ffdc3549657443256ae225eeb3ae91c2b61",
+   "okf_raw_path": "Журналы/Цветные металлы/2006/CM_03_2006.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Группа «Мечел» за три квартала 2005 г. сократила на 10 % производство чугуна и на 3 % - стали, а объемы производства сортового и листового проката снижены соответственно на 7 и 21 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reduction percentages",
+    "direction": "decreases",
+    "factor": "2005 Q1‑Q3",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Группа «Мечел» за три квартала 2005 г. со/hyphenminus кратила на 10 % производство чугуна и на 3 % - ста/hyphenminus ли, а объемы производства сортового и листового проката снижены соответственно на 7 и 21 %.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:cm_03_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Металлургическое производство Группы «Мечел» во II кв. 2005 г. допустило убыток в 14 млн долл., в частности из‑за того, что цена на арматуру с 415 долл./т в начале года снизилась до 330 долл./т к середине года.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "loss amount",
+    "direction": "increases",
+    "factor": "price drop of rebar",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "металлургическое производство Группы «Ме/hyphenminus чел» во II кв. 2005 г. допустило убыток в 14 млн долл., в частности из/hyphenminusза того, что цена на арматуру с 415 долл./т в начале года снизилась до 330 долл./т к середине года.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:cm_03_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Объём производства готовой стали в 2005 г. не вырос по сравнению с 2004 г. и в ОАО «Северсталь».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production change",
+    "direction": "no_change",
+    "factor": "year 2005 vs 2004",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объём производства готовой стали в 2005 г. не вырос по сравнению с 2004 г. и в ОАО «Се/hyphenminus версталь».",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:cm_03_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "В компании «ЕвразХолдинг» по итогам первого полугодия доля экспорта в выручке составила лишь 43 %, а операционная рентабельность снизилась с 31 до 20,7 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "export share and operating profitability",
+    "direction": "decreases",
+    "factor": "first half of 2005",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В компании «ЕвразХолдинг» по итогам первого полугодия доля экспорта в выручке состави/hyphenminus ла лишь 43 %, а операционная рентабельность сни/hyphenminus жена с 31 до 20,7 %.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:cm_03_2006-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

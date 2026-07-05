@@ -1,0 +1,476 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:05-06_2005_cm-pdf",
+   "title": "05-06_2005_cm.pdf",
+   "doc_type": "article",
+   "year": 2005,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2005\\05-06_2005_cm.pdf.md",
+   "artifact_sha256": "398716df8aa78a62aa6717ff72b3b3b7591734dc21b428938c605ecdff8f85db",
+   "okf_raw_path": "Журналы/Цветные металлы/2005/05-06_2005_cm.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Угловский известковый комбинат имеет производственные мощности 320 тыс. т/год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "increases",
+    "factor": "capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "320 тыс. т/год",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Состав исходного сырья: CaCO₃ 88,7‑99,3 %, Fe₂O₃ 0,03‑1,14 %, MgCO₃ 0,3‑1,7 %, P₂O₅ 0,002‑0,009 %, Al₂O₃ 0,05‑1,6 %, SO₃ 0,01‑0,05 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "chemical composition",
+    "direction": "increases",
+    "factor": "purity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "CaCO 3 . . . . . . . . . .88,7-99,3 | Fe 2 O 3 . . . . . . . . . . . .0,03-1,14 | MgCO 3 . . . . . . . . . . . .0,3-1,7 | P 2 O 5 . . . . . . . . . . .0,002-0,009 | Al 2 O 3 . . . . . . . . . . . . .0,05-1,6 | SO 3 . . . . . . . . . . . . .0,01-0,05",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Известь выпускается в виде комковой, молотой, металлургической и гидратной.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "types of lime",
+    "direction": "increases",
+    "factor": "variety",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "известь комо/hyphenminus вая, молотая, металлургическая, гидратная",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Продукция используется в производстве силикатного кирпича, сухих строительных смесей, ячеистого бетона, стекольной и лакокрасочной продукции, минеральных удобрений, химических продуктов, очистке кислых стоков, производстве чугуна и стали.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "usage sectors",
+    "direction": "increases",
+    "factor": "market breadth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Область применения : производство силикатного кирпича, сухих строитель/hyphenminus ных смесей, ячеистого бетона, производство стекольной и лакокрасочной продукции, минеральных удобрений, химических продуктов, очистка кислых стоков, производство чугуна и стали.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Комбинат осуществляет поставки своей продукции железнодорожным и автомобильным транспортом через четыре региональных представительства в Твери, Москве, Калининграде и Санкт‑Петербурге.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "distribution network",
+    "direction": "increases",
+    "factor": "coverage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "четыре регио/hyphenminus нальных представительства в городах Твери, Москве, Калининграде, Санкт/hyphenminusПетербурге",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Комбинат имеет собственную сбытовую сеть во многих регионах страны.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "network extent",
+    "direction": "increases",
+    "factor": "reach",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Комбинат имеет собственную сбытовую сеть во многих регионах страны",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "для титанового проката характерна стабильность, ежегодно экспортируется 9-13 тыс. т продукции",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stability",
+    "direction": "increases",
+    "factor": "titanium rolling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "для титанового проката характерна стабильность, ежегодно экспортируется 9-13 тыс. т продукции",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.45,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "доля экспорта в производстве титанового проката в России сейчас находится на уровне свыше 90 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "titanium rolling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доля экспорта в производстве титанового проката в России сейчас находится на уровне свыше 90 %",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "доля России на мировом рынке титановой губки составляет ~30 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "titanium sponge",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на мировом рынке титановой губки доля России, по нашим оценкам, составляет ~30 %",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "поставки кобальта на экспорт (составляющие в последнее годы 5-8 тыс. т) практически равны его производству",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "balance",
+    "direction": "increases",
+    "factor": "cobalt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "поставки кобальта на экспорт (составляющие в последнее годы 5-8 тыс. т) практически равны его производству",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "доля России в мировом производстве кобальта не превышает 10 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "decreases",
+    "factor": "cobalt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для России в мировом производстве кобальта не превышает 10 %",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.45,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспортные поставки магния в 1994-2003 гг. находились в пределах 32-39 тыс. т (за исключением 1996 г.)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "increases",
+    "factor": "magnesium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Экспортные поставки этого металла в течение 1994-2003 гг. характеризовались стабильностью и находились в пределах 32-39 тыс. т (за исключением 1996 г.)",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.45,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "доля России на мировом рынке магния не превышает 10 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "decreases",
+    "factor": "magnesium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доля нашей страны в настоящее время не превышает 10 % мирового рынка",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспортные поставки цинка в 1996-2002 гг. находились на уровне 113-121 тыс. т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "increases",
+    "factor": "zinc",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объемы экспортных поставок этого металла в течение 1996-2002 гг. отличились высокой степенью стабильности, находясь на уровне 113-121 тыс. т",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.45,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспорт цинка в 2003 г. упал до 85 тыс. т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "decreases",
+    "factor": "zinc",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Достаточно резкое снижение экспорта в 2003 г. (до 85 тыс. т)",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспортные поставки цинка составляют ~35 % от объема его производства",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "zinc",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по нашим оценкам, экспортные поставки цинка составляют ~35 % от объема его производства",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.81,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "доля России на мировом рынке цинка крайне незначительна (~3 %)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "decreases",
+    "factor": "zinc",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На мировом рынке цинка роль России крайне незначительна (~3 %)",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспорт олова в 1994-1997 гг. находился на уровне 8-9 тыс. т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "increases",
+    "factor": "tin",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Экспорт олова в 1994-1997 гг. находился на высоком уровне (8-9 тыс. т)",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.81,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспорт олова в последующие годы упал до 1-2 тыс. т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "decreases",
+    "factor": "tin",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "впоследствии произошло снижение поставок до 1-2 тыс. т",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "доля экспорта олова в настоящее время не превышает 25 % от объема производства",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "decreases",
+    "factor": "tin",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по нашим оценкам, доля экспорта олова в настоящее время не превышает 25 % от объема производства",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.81,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "доля России на мировом рынке олова не превышает 2 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "decreases",
+    "factor": "tin",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доля России на мировом рынке олова - крайне незначительна, она не превышает 2 %",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.81,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспорт свинца из России находится на уровне 4-6 тыс. т, при этом импорт не менее 40 тыс. т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "increases",
+    "factor": "lead",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Экспорт из России этого металла находится на низком уровне (4-6 тыс. т), при этом характерным является высокий объем импорта (не менее 40 тыс. т)",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.81,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Поставки электролитического хрома и изделий из него в 2003 г. составили ~30 млн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "value",
+    "direction": "increases",
+    "factor": "chromium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2003 г. составили ~30 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Среднегодовые цены на экспортируемые из России никель и медь в последние годы отстаивают мировые цены в целом на 5-10 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "gap",
+    "direction": "decreases",
+    "factor": "nickel and copper",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "среднегодовые цены на экспортируемые из России никель и медь в последние годы близки к экспортным, отставая от них в целом на 5-10 %",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.81,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Для алюминия характерно все большее расхождение мировых и экспортных цен в сторону снижения последних",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "gap",
+    "direction": "decreases",
+    "factor": "aluminum",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "для этого металла характерно все большее расхождение мировых и экспортных цен в сторону снижения последних",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.9,
+   "document_id": "doc:05-06_2005_cm-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,2033 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:сушка_2020_оконч-docx",
+   "title": "СУШКА_2020_оконч.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\СУШКА_2020_оконч.docx.md",
+   "artifact_sha256": "7763db3c74b0a02a254bf2ca7909f494efb0d33d3c46095a68225d6959e70be6",
+   "okf_raw_path": "Обзоры/СУШКА_2020_оконч.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:sludge",
+   "label": "sludge",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:client-material",
+   "label": "client material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:anode-sludge",
+   "label": "anode sludge",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sapropel-natural-moisture",
+   "label": "Sapropel natural moisture",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sapropel-organic-waste",
+   "label": "sapropel (organic waste)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:сушка_2020_оконч-docx:0",
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "title": "Finnish cellulose producer sludge dewatering",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "geotube dewatering"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sludge",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "area of sludge pond",
+     "scope": "material",
+     "material_id": "mat:sludge",
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Крупный производитель целлюлозы в Финляндии применил данный способ обезвоживания c целью ликвидации старого шламоотстойника площадью 40 тыс м 2 .",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "fraction of sludge transferred to geotubes",
+     "scope": "material",
+     "material_id": "mat:sludge",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2005 г. примерно 2/3 шлама было драгировано в геотубы и оставлено с целью уплотнения и обезвоживания.",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "completion date of complex pulp processing",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2006.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Переработка сложной пульпы была успешно завершена летом 2006 г.",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The geotube dewatering method achieved very high removal of organics and heavy metals from the water exiting the geotubes.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "organic compounds and heavy metals reduction",
+      "direction": "increases",
+      "factor": "extremely high",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Мониторинг вытекающей из геотуб воды показал, что снижение содержания органических соединений и тяжелых металлов чрезвычайно высокое.",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Крупный производитель целлюлозы в Финляндии применил данный способ обезвоживания c целью ликвидации старого шламоотстойника площадью 40 тыс м 2 .",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сушка_2020_оконч-docx:1",
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "title": "Laboratory Geotube Dewatering Test (GDT)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "lab‑scale geotube dewatering test"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:client-material",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The GDT provides an answer on the suitability of a client’s material for dewatering by this technology and indicates how the technology will work at industrial scale.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В компании разработан простой тест в лабораторном масштабе (GDT – geotube dewatering test), дающий ответ на вопрос о пригодности материала клиента к обезвоживанию по данной технологии и являющийся инидикатором того, как эта технология будет работать в промышленном масштабе.",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В компании разработан простой тест в лабораторном масштабе (GDT – geotube dewatering test), дающий ответ на вопрос о пригодности материала клиента к обезвоживанию по данной технологии и являющийся инидикатором того, как эта технология будет работать в промышленном масштабе.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сушка_2020_оконч-docx:2",
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "title": "Shandong Tianli Energy experimental base activities",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "laboratory, pilot and up‑scaled tests of drying equipment"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The company has an experimental base for conducting trials at laboratory, pilot and up‑scaled scales, which forms the basis for selecting suitable equipment.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Отметим, что компания имеет экспериментальную базу для проведения опытов в лабораторном, пилотном и укрупненном масштабе. Это основа для выбора подходящего оборудования.",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Отметим, что компания имеет экспериментальную базу для проведения опытов в лабораторном, пилотном и укрупненном масштабе. Это основа для выбора подходящего оборудования.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сушка_2020_оконч-docx:3",
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "title": "Jinlong Copper Co. installation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "drying of anode sludge"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:anode-sludge",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "production rate",
+     "scope": "material",
+     "material_id": "mat:anode-sludge",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "компания Jinlong Copper Co., Ltd. - март 2009 г., производительность – 2 т/час",
+     "locator_kind": "md_para",
+     "locator": "para:125",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "successful installation of a blade dryer for anode sludge drying",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Примеры успешной установки гребковых сушилок двумя китайскими медными компаниями для сушки анодного шлама:\n- компания Jinlong Copper Co., Ltd. - март 2009 г., производительность – 2 т/час",
+     "locator_kind": "md_para",
+     "locator": "para:124",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "компания Jinlong Copper Co., Ltd. - март 2009 г., производительность – 2 т/час",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сушка_2020_оконч-docx:4",
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "title": "Xiangguang Copper Co. installation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "drying of anode sludge"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:anode-sludge",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "production rate",
+     "scope": "material",
+     "material_id": "mat:anode-sludge",
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "компания Xiangguang Copper Co., Ltd. - декабрь 2012 г., 3 т/час",
+     "locator_kind": "md_para",
+     "locator": "para:126",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "successful installation of a blade dryer for anode sludge drying",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "компания Xiangguang Copper Co., Ltd. - декабрь 2012 г., 3 т/час",
+     "locator_kind": "md_para",
+     "locator": "para:126",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "компания Xiangguang Copper Co., Ltd. - декабрь 2012 г., 3 т/час",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сушка_2020_оконч-docx:5",
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "title": "Industrial application of inclined settlers for sapropel dehydration",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Inclined sedimentation tanks (inclined settlers) used for dewatering sapropel and lake bottom sediments",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sapropel-natural-moisture",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "initial moisture content",
+     "scope": "material",
+     "material_id": "mat:sapropel-natural-moisture",
+     "value": {
+      "min": 89.0,
+      "nominal": null,
+      "max": 97.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Сапропель естественной влажности (W=89-97%) течёт по грунтопроводу в отстойник",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "moisture after inclined settler",
+     "scope": "material",
+     "material_id": "mat:sapropel-natural-moisture",
+     "value": {
+      "min": 55.0,
+      "nominal": null,
+      "max": 75.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "влажностью до 55-75% с последующей грануляцией и сушкой получаемого сырья",
+     "locator_kind": "md_para",
+     "locator": "para:154",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The inclined settler is used in industrial scale since October 2007",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "scale",
+      "direction": "increases",
+      "factor": "industrial",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Центр по сапропелю с октября 2007 использует наклонные отстойники для обезвоживания сапропеля и озерных донных илов в промышленных масштабах.",
+     "locator_kind": "md_para",
+     "locator": "para:153",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Центр по сапропелю с октября 2007 использует наклонные отстойники для обезвоживания сапропеля и озерных донных илов в промышленных масштабах.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сушка_2020_оконч-docx:6",
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "title": "Industrial performance of the combined two‑stage dryer (СВТМ)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Two‑stage drying of high‑moisture sapropel and other organic materials",
+       "temperature_text": "material outlet 70‑90 °C, heat‑carrier outlet 120‑170 °C",
+       "duration_text": "continuous operation (steady‑state drying speed)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 343.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sapropel-organic-waste",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "initial moisture of raw material",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "начальная влажность исходного сырья 50-85 %",
+     "locator_kind": "md_para",
+     "locator": "para:252",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "final product moisture",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 8.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "влажность готового продукта 8-30 %",
+     "locator_kind": "md_para",
+     "locator": "para:253",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "raw material throughput",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2500.0,
+      "max": null
+     },
+     "unit": "kg/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "производительность по сырью (влажность 70-75%) до 2500 кг/ч",
+     "locator_kind": "md_para",
+     "locator": "para:254",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "dry product throughput",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 750.0,
+      "max": null
+     },
+     "unit": "kg/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "производительность по готовому продукту (влажность 10-30%) 750 кг/ч",
+     "locator_kind": "md_para",
+     "locator": "para:255",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "specific heat consumption per evaporated water",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3600.0,
+      "max": null
+     },
+     "unit": "kJ/kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "удельный расход по испаренной влаге - тепла 3600-4500 кДж/кг",
+     "locator_kind": "md_para",
+     "locator": "para:256",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "specific electricity consumption",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.07,
+      "max": null
+     },
+     "unit": "kWh/kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "электроэнергии 0,07-0,08 кВт·ч/кг",
+     "locator_kind": "md_para",
+     "locator": "para:256",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "specific moisture removal rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 150.0,
+      "max": null
+     },
+     "unit": "kg/(h·m³)",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "удельный влагосъем 150-240 кг/(ч м 3 )",
+     "locator_kind": "md_para",
+     "locator": "para:257",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Разделение процесса сушки на две стадии при обеспечении оптимизации содержания тепла, паров воды и низкого содержания кислорода (до 3%) в теплоносителе, а также оригинальная конструкция первой ступни ... обеспечивает удаление влаги без возгонки летучих соединений и без термического окисления составляющих сырья.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "drying quality",
+      "direction": "no_change",
+      "factor": "low oxygen (≤3 %) and two‑stage design",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Разделение процесса сушки на две стадии при обеспечении оптимизации содержания тепла, паров воды и низкого содержания кислорода (до 3%) в теплоносителе, а также оригинальная конструкция первой ступни (падающе-пересыпающийся поток материала при конвективно-кондуктивном теплообмене) обеспечивает удаление влаги без возгонки летучих соединений и без термического окисления составляющих сырья.",
+     "locator_kind": "md_para",
+     "locator": "para:248",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Технические характеристики:\n- начальная влажность исходного сырья 50-85 %\n- влажность готового продукта 8-30 %\n- производительность по сырью (влажность 70-75%) до 2500 кг/ч\n- производительность по готовому продукту (влажность 10-30%) 750 кг/ч\n- удельный расход по испаренной влаге - тепла 3600-4500 кДж/кг, электроэнергии 0,07-0,08 кВт·ч/кг\n-удельный влагосъем 150-240 кг/(ч м 3 )\n-температура на выходе сушилки, oС: материала – 70-90, теплоносителя – 120-170\n-габаритные размеры 3х9х6,5 м",
+   "locator_kind": "md_para",
+   "locator": "para:251",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Конвективные сушилки имеют простую конструкцию, сушильный агент доступен, имеются широкие возможности регулирования процесса.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "design simplicity and controllability",
+    "direction": "increases",
+    "factor": "process control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конвективные сушилки имеют простую конструкцию, сушильный агент доступен, имеются широкие возможности регулирования процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Кондуктивная сушка имеет значительная интенсивность, обусловленная высоким коэффициентом теплопередачи (в десятки раз большим, чем при конвективной сушке) между горячей поверхностью и материалом, благодаря чему он быстро обезвоживается.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "intensity",
+    "direction": "increases",
+    "factor": "heat transfer coefficient",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кондуктивная сушка имеет значительная интенсивность, обусловленная высоким коэффициентом теплопередачи (в десятки раз большим, чем при конвективной сушке) между горячей поверхностью и материалом, благодаря чему он быстро обезвоживается.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Трубчатый пресс может работать при высоком фильтрующем давлении – до 100 бар (10 МПа).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "increases",
+    "factor": "design capability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Трубчатый пресс – это напорный фильтр мембранного типа. Пресс имеет цилиндрический корпус и может работать при высоком фильтрующем давлении – до 100 бар (10 МПа).",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "По мере уменьшения размеров частиц повышается сложность удаления воды – гравитационное обезвоживание безрезультатно и надо прикладывать дополнительные виды воздействия, например, давление.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "difficulty of water removal",
+    "direction": "increases",
+    "factor": "particle size reduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как отмечает Metso, по мере уменьшения размеров частиц повышается сложность удаления воды – гравитационное обезвоживание безрезультатно и надо прикладывать дополнительные виды воздействия, например, давление.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Сушка – наиболее дорогостоящий процесс обезвоживания (по сравнению, например, с прессованием или центрифугированием) в связи с затратами энергии на изменение фазового состояния влаги.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "increases",
+    "factor": "energy consumption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сушка – наиболее дорогостоящий процесс обезвоживания (по сравнению, например, с прессованием или центрифугированием) в связи с затратами энергии на изменение фазового состояния влаги.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Условия транспортировки кека критичны, например, для закладочного материала",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "условия транспортировки кека критичны, например, для закладочного материала",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Фильтрат – ценный продукт",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "фильтрат – ценный продукт",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Расходы на транспортировку значительны",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "расходы на транспортировку значительны",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Кек предполагается складировать",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "кек предполагается складировать",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Трубчатый пресс дает самый сухой кек из всех возможных вариантов фильтрации",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "влажность кека",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Трубчатый пресс дает самый сухой кек из всех возможных вариантов фильтрации",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Такую сушку Metso считает “альтернативой термической сушке”",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Трубчатый пресс дает самый сухой кек из всех возможных вариантов фильтрации. Такую сушку Metso считает “альтернативой термической сушке”.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Объём кека уменьшается максимально, а фильтрат получается чрезвычайно чистым",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "объём кека, чистота фильтрата",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объём кека уменьшается максимально, а фильтрат получается чрезвычайно чистым.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "В отличие от прессов, работающих при более низких давлениях и выдающих кек обычно в виде пластичного или пастообразного материала – зачастую с влажной поверхностью, с трубчатым фильтром Metso получают сухой материал с сухой поверхностью, что значительно облегчает дальнейшее манипулирование",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "состояние кека",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В отличие от прессов, работающих при более низких давлениях и выдающих кек обычно в виде пластичного или пастообразного материала – зачастую с влажной поверхностью, с трубчатым фильтром Metso получают сухой материал с сухой поверхностью, что значительно облегчает дальнейшее манипулирование.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Трубчатый фильтр существенно превосходит как вакуумные, так и рамные фильтр‑прессы по выработке “сухого твердого на единицу площади фильтрования”",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "выработка сухого твердого",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по имеющимся данным по выработке (в терминах полученного “сухого твердого на единицу площади фильтрования”) трубчатый фильтр существенно превосходит как вакуумные, так и рамные фильтр‑прессы.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Концентрация твердых частиц в фильтрате – почти нулевая, так что фильтрат можно без дополнительных операций размещать или непосредственно повторно использовать",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Концентрация твердых частиц в фильтрате – почти нулевая, так что фильтрат можно без дополнительных операций размещать или непосредственно повторно использовать.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Диаметр кожуха пресса 500 мм, номинальная длина 1500 мм и 3000 мм, максимальное давление 100 бар",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Диаметр кожуха – 500 мм. Номинальная длина – 1500 мм и 3000 мм. Максимальное давление 100 бар.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Трубчатый пресс 500‑серии имеет модели с площадью фильтрования 1,75 м² (длина 1500 мм) и 3,47 м² (длина 3000 мм)",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Площадь фильтрования, м 2 | 1,75 | 3,47",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Geotube Dewatering удерживает более 99 % твёрдых частиц внутри контейнера",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "удержание твёрдых частиц",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более 99% твердых частиц задерживаются внутри контейнера",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Объём осадка в Geotube уменьшается до 90 %",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "объём осадка",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "его объем уменьшается – уменьшение до 90%.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Технология Geotube Dewatering считается самой гибкой и легко приспосабливаемой из доступных способов обезвоживания",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В настоящее время данная технология является самой гибкой и легко приспосабливаемой из числа доступных способов обезвоживания.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Geotube Dewatering может быть мобильной – с транспортировкой контейнеров",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "может быть “мобильной” - с транспортировкой контейнеров.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Обезвоживание в геотубах стоит дешевле прочих способов",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Обезвоживание в геотубах – стоит дешевле прочих способов.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Cylindrical rotating dispersive dryer can dry high‑moisture materials of about 85% moisture down to roughly 10% moisture.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "drying capability",
+    "direction": "decreases",
+    "factor": "from ~85% to ~10%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как следует из описания, цилиндрическая вращающаяся сушилка с рассеянием позволяет сушить материалы с высокой влажностью – порядка 85%. При этом фильтрационный кек, паста или суспензия/шлам превращаются в тонкие частицы влажностью порядка 10%.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "The dryer’s built‑in dispersive device runs along the axis of the cylinder, increasing the contact surface between material and high‑temperature gas and improving drying efficiency while breaking up agglomerates.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Под действием диспергирующего механизма материал равномерно рассеивается. Поверхность контакта материала и высокотемпературного газа увеличивается и эффективность сушки повышается, при этом ещё и разрушаются агломераты.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Dryers of this type have high productivity, large flexibility and continuous operation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "productivity/flexibility",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сушилки данного типа имеют высокую производительность, характеризуются большой гибкостью и непрерывностью процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "The spray dryer is especially suitable for drying heat‑sensitive materials because heat‑ and mass‑transfer processes in the tower occur rapidly.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Поскольку процессы тепло- и массообмена в башне проходят быстро, эта сушилка особенно пригодна для сушки “чувствительных к теплу” материалов.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "The spray nozzle has a simple design, is easy to use and repair, and can be replaced on‑line to maintain continuous operation.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Сопло имеет простую конструкцию, его легко использовать и ремонтировать. Распылительный пистолет можно заменять “on-line”, т.е. сохраняя непрерывность работы системы.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Typical evaporation capacity of the cylindrical rotating dryer models ranges from 360 to 6000 kg H₂O per hour depending on model size.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Произв-ть по испарению, кг H 2 O/час | 360~1600 | 450~2000 | 600~2600 | 800~3000 | 1000~3400 | 1600~4000 | 1800~4600 | 1800~5000 | 2000~5400 | 2200~6000",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.45,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "All listed dryer models accept input material with initial moisture up to 80% and deliver final moisture of 13% or less.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Исходная влажность, % | ≤80 | Конечная влажность, % | ≤13",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.45,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "The specific energy consumption (coal per kg of water evaporated) is 0.2 kg coal per kg H₂O for all models.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Уголь, кг/кг H 2 O | 0,2",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "данная сушилка – идеальный вариант для сушки “не клейких и маловязких жидких материалов”.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "данная сушилка – идеальный вариант для сушки “не клейких и маловязких жидких материалов”.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Устройство существенно улучшает эффективность теплообмена за счет локального перемешивания и склонности лопаток к самоочищению.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "local mixing and self‑cleaning blades",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такое устройство существенно улучшает эффективность теплообмена за счет локального перемешивания и склонности лопаток к самоочищению.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Сушилка годится для сушки/охлаждения различных видов паст, порошков, гранул и др.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Сушилка годится для сушки/охлаждения различных видов паст, порошков, гранул и др.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "К преимуществам сушилки относят, в первую очередь, высокую эффективность теплопередачи и самоочищаемость поверхности теплопередачи.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "self‑cleaning surface",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К преимуществам сушилки относят, в первую очередь, высокую эффективность теплопередачи и самоочищаемость поверхности теплопередачи.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Установка компактна, проста в управлении и ремонте.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "installation",
+    "direction": "decreases",
+    "factor": "compactness, ease of operation and maintenance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установка компактна, проста в управлении и ремонте.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Эта сушилка может быть применена для сушки (охлаждения) илов/илистых материалов с высокой вязкостью, как, например, анодный шлам, илы городских сточных вод, бумажной отрасли и пр., паст, а также для сушки руд, гипса, угля, порошка молибдена и других металлических порошков, диатомита, каолина.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Эта сушилка может быть применена для сушки (охлаждения) илов/илистых материалов с высокой вязкостью, как, например, анодный шлам, илы городских сточных вод, бумажной отрасли и пр., паст, а также для сушки руд, гипса, угля, порошка молибдена и других металлических порошков, диатомита, каолина.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Центробежная труба-сушилка пригодна для сушки фильтрационных кеков, паст и илистых материалов.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Она пригодна для сушки фильтрационных кеков, паст и илистых материалов.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "If a cheap instantaneous method for sapropel dewatering is found, the industry will get a \"second breath\".",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "industry outlook",
+    "direction": "increases",
+    "factor": "second breath",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производственники знают – если найти способ дешевого мгновенного обезвоживания сапропеля, то отрасль получит \"второе дыхание\".",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "The inclined settler has a high efficiency, is stable and easy to maintain.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment performance",
+    "direction": "increases",
+    "factor": "high efficiency, stability, ease of maintenance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наклонный отстойник (отстойный сепаратор) располагает высоким коэффициентом полезного действия, он стабилен и прост в обслуживании.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "The dewatering process uses ecologically harmless coagulants for the lake.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "environmental impact",
+    "direction": "decreases",
+    "factor": "harmful substances",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс использует безвредные для экологии озера коагулянты.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "The drying technology (SVTM) is a development of MVTU named after Bauman.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technology origin",
+    "direction": "nonmonotonic",
+    "factor": "SVTM developed by MVTU im. Bauman",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология сушки СВТМ – разработка МВТУ им Баумана.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Наклонный отстойник занимает на 85-90% меньше площади по сравнению с другими отстойниками.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "area reduction",
+    "direction": "decreases",
+    "factor": "85-90%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "занимает на 85-90% меньше площади по сравнению с другими отстойниками",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Наклонный отстойник имеет низкие затраты на строительство и монтаж.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "construction and installation cost",
+    "direction": "decreases",
+    "factor": "низкие",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "низкие затраты на строительство и монтаж",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Наклонный отстойник имеет незначительные эксплуатационные затраты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operational cost",
+    "direction": "decreases",
+    "factor": "незначительные",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "незначительные эксплуатационные затраты",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Наклонный отстойник имеет незначительные энергозатраты на дозирующее устройство и насос для шлама.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "незначительные",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "незначительные энергозатраты на дозирующее устройство и насос для шлама",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Наклонные отстойники могут изготавливаться из чёрной стали, стали со специальными покрытиями или из нержавеющей стали.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "construction material",
+    "direction": "increases",
+    "factor": "вариативность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наклонные отстойники могут изготавливаться из чёрной стали в соответствии с назначением из стали со специальными покрытиями или из нержавеющей стали",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Пластины в наклонных отстойниках могут быть изготовлены из полипропилена или нержавеющей стали.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "plate material",
+    "direction": "increases",
+    "factor": "вариативность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пластины изготовляются из полипропилена или нержавеющей стали",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Габариты установок могут быть приспособлены к имеющейся производственной площади.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "size adaptability",
+    "direction": "increases",
+    "factor": "возможность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Габариты установок могут быть приспособлены к имеющейся производственной площади",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Типовая технология и типовой проект предприятия с данным видом оборудования поставляются на CD диске стоимостью 1000 руб. + пересылка.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "1000 руб.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Типовая технология и типовой проект предприятия с данным видом оборудования и Спецификация оборудования поставляется на CD диске стоимостью 1000 руб. + пересылка",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание сухого вещества при обработке в рамном прессе в среднем выше, чем в ленточном прессе.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dry solid content",
+    "direction": "increases",
+    "factor": "в среднем выше",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание сухого вещества при обработке в рамном прессе в среднем выше, чем в ленточном прессе",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Центрифуга имеет постоянную подачу и достигает высокого содержания сухого вещества в кеке.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dry solid content",
+    "direction": "increases",
+    "factor": "высокого",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Центрифуга имеет постоянную подачу и достигает высокого содержания сухого вещества в кеке",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Гравитационная зона длиной 2900 мм является предварительной зоной обезвоживания “сфокулированного осадка”.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "gravity zone length",
+    "direction": "increases",
+    "factor": "2900 мм",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Гравитационная зона длиной 2900 мм является предварительной зоной обезвоживания “сфокулированного осадка”",
+   "locator_kind": "md_para",
+   "locator": "para:189",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Расстояние между направляющими – 200мм, что способствует свободному дренированию воды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "spacing between guides",
+    "direction": "increases",
+    "factor": "200мм",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Расстояние между направляющими – 200мм, что способствует свободному дренированию воды",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Самый крупный вал диаметром 600 мм выполнен из НЖ и перфорирован отверстиями для лучшего отвода фильтрата.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "diameter",
+    "direction": "increases",
+    "factor": "600 мм",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Самый крупный вал диаметром 600 мм выполнен из НЖ и перфорирован отверстиями для лучшего отвода фильтрата",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Ленточный фильтр-пресс серии ПЛ с дополнительным оборудованием составляют комплекс для механического обезвоживания осадков сточных вод, “не уступающий по качеству лучшим мировым образцам”.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "quality",
+    "direction": "increases",
+    "factor": "не уступающий по качеству лучшим мировым образцам",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "не уступающий по качеству лучшим мировым образцам",
+   "locator_kind": "md_para",
+   "locator": "para:197",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Модель ПЛ-12 имеет ширину ленты 1200 мм, производительность по влажному веществу до 15 м³/ч и по сухому веществу до 600 кг/ч.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "до 15 м³/ч, до 600 кг/ч",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПЛ-12 | 1200 | До 15 | До 600",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Модель ПЛ-16 имеет ширину ленты 1600 мм, производительность по влажному веществу до 20 м³/ч и по сухому веществу до 800 кг/ч.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "до 20 м³/ч, до 800 кг/ч",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПЛ-16 | 1600 | До 20 | До 800",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Модель ПЛ-20 имеет ширину ленты 2000 мм, производительность по влажному веществу до 35 м³/ч и по сухому веществу до 1000 кг/ч.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "до 35 м³/ч, до 1000 кг/ч",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПЛ-20 | 2000 | До 35 | До 1000",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Модель ПЛ-25 имеет ширину ленты 2500 мм, производительность по влажному веществу до 45 м³/ч и по сухому веществу до 1250 кг/ч.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "до 45 м³/ч, до 1250 кг/ч",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПЛ-25 | 2500 | До 45 | До 1250",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Модель ПЛ-6 имеет ширину ленты 600 мм, производительность по влажному веществу до 8 м³/ч и по сухому веществу до 300 кг/ч.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "до 8 м³/ч, до 300 кг/ч",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПЛ-6 | 600 | До 8 | До 300",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Модель ПЛ-8 имеет ширину ленты 800 мм, производительность по влажному веществу до 10 м³/ч и по сухому веществу до 400 кг/ч.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "до 10 м³/ч, до 400 кг/ч",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПЛ-8 | 800 | До 10 | До 400",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Технология и оборудование “Вестфалия” применяется для обезвоживания осадков сточных вод, озерных илов и сапропеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "use",
+    "direction": "increases",
+    "factor": "obesvozhivanie",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология и оборудование “Вестфалия” применяется для обезвоживания осадков сточных вод, озерных илов и сапропеля.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Эффективность технологии подтверждают 3000+ работающих установок, в т.ч. и в России - на водоканалах в ряде российских городов, включая Санкт-Петербург, а также на Новосибирском заводе химконцентратов, на свиноводческом комплексе в Омске и др.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "number_of_installations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эффективность технологии подтверждают 3000+ работающих установок, в т.ч. и в России - на водоканалах в ряде российских городов, включая Санкт-Петербург, а также на Новосибирском заводе химконцентратов, на свиноводческом комплексе в Омске и др.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Декантер предназначен для обезвоживания и сгущения муниципальных и промышленных стоков.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purpose",
+    "direction": "increases",
+    "factor": "obesvozhivanie_i_sgushchenie",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Декантер предназначен для обезвоживания и сгущения муниципальных и промышленных стоков.",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Все части, соприкасающиеся с осадком, сделаны из легированной стали CrNiMo;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "material",
+    "direction": "increases",
+    "factor": "corrosion_resistance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все части, соприкасающиеся с осадком, сделаны из легированной стали CrNiMo;",
+   "locator_kind": "md_para",
+   "locator": "para:207",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Конструкция барабана - “глубокий пруд”, т.е. соотношение диаметра выгрузки твердой фазы к внутреннему диаметру барабана Dfa/Dtr = 0,47;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "geometry",
+    "direction": "increases",
+    "factor": "Dfa/Dtr",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конструкция барабана - “глубокий пруд”, т.е. соотношение диаметра выгрузки твердой фазы к внутреннему диаметру барабана Dfa/Dtr = 0,47;",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Минимальное удельное энергопотребление;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "energy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Минимальное удельное энергопотребление;",
+   "locator_kind": "md_para",
+   "locator": "para:209",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Максимальный g-фактор для максимального обезвоживания;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "g_factor",
+    "direction": "increases",
+    "factor": "obesvozhivanie",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Максимальный g-фактор для максимального обезвоживания;",
+   "locator_kind": "md_para",
+   "locator": "para:210",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Шнек может вращаться даже при неподвижном барабане;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "screw_rotation",
+    "direction": "increases",
+    "factor": "flexibility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Шнек может вращаться даже при неподвижном барабане;",
+   "locator_kind": "md_para",
+   "locator": "para:211",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Специальная конструкция распределителя для минимального флокулянта и минимального износа;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "distributor",
+    "direction": "decreases",
+    "factor": "flocculant_usage_and_wear",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Специальная конструкция распределителя для минимального флокулянта и минимального износа;",
+   "locator_kind": "md_para",
+   "locator": "para:212",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Автоматический контроль дифференциальной скорости посредством частотного управления электродвигателя;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "speed_control",
+    "direction": "increases",
+    "factor": "precision",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Автоматический контроль дифференциальной скорости посредством частотного управления электродвигателя;",
+   "locator_kind": "md_para",
+   "locator": "para:214",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Минимально занимаемое пространство;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "footprint",
+    "direction": "decreases",
+    "factor": "space",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Минимально занимаемое пространство;",
+   "locator_kind": "md_para",
+   "locator": "para:216",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Редуктор ГЕФ Вестфалия summationdrive с “умной” кинематикой для высоких моментов и дифференциальных скоростей;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reducer",
+    "direction": "increases",
+    "factor": "torque_and_speed_variability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Редуктор ГЕФ Вестфалия summationdrive с “умной” кинематикой для высоких моментов и дифференциальных скоростей;",
+   "locator_kind": "md_para",
+   "locator": "para:218",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Высокочувствительный контроль крутящего момента при любых изменениях входного продукта.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "torque_control",
+    "direction": "increases",
+    "factor": "sensitivity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Высокочувствительный контроль крутящего момента при любых изменениях входного продукта.",
+   "locator_kind": "md_para",
+   "locator": "para:220",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Технология сушки, использующая в качестве теплового аппарата комбинированный сушильный агрегат СВТМ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technology",
+    "direction": "increases",
+    "factor": "applicability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология сушки, использующая в качестве теплового аппарата комбинированный сушильный агрегат СВТМ.",
+   "locator_kind": "md_para",
+   "locator": "para:229",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Оптимизация процессов сушки и увеличение влагосъема в агрегате до 200 кг/час.м 3 (в барабанной сушилке этот показатель не превышает 30 кг/час.м3)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "moisture_removal_capacity",
+    "direction": "increases",
+    "factor": "capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оптимизация процессов сушки и увеличение влагосъема в агрегате до 200 кг/час.м 3 (в барабанной сушилке этот показатель не превышает 30 кг/час.м3)",
+   "locator_kind": "md_para",
+   "locator": "para:231",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Рециркуляция до 70% отходящих газов обеспечивает оптимизацию процессов сушки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recirculation_rate",
+    "direction": "increases",
+    "factor": "process_optimization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рециркуляция до 70% отходящих газов обеспечивает оптимизацию процессов сушки.",
+   "locator_kind": "md_para",
+   "locator": "para:231",
+   "confidence": 0.81,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Низкое содержание свободного кислорода в теплоносителе за счет разбавления теплоносителя рециркулятом с высоким содержанием паров воды обеспечивает защиту материала от термического окисления.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "material_protection",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Низкое содержание свободного кислорода в теплоносителе за счет разбавления теплоносителя рециркулятом с высоким содержанием паров воды обеспечивает защиту материала от термического окисления.",
+   "locator_kind": "md_para",
+   "locator": "para:232",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Барабаны вращаются с расчетной скоростью в противоположных направлениях и при вращении самоочищаются.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "drum self‑cleaning",
+    "direction": "increases",
+    "factor": "counter‑rotating drums at design speed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Барабаны вращаются с расчетной скоростью в противоположных направлениях и при вращении самоочищаются.",
+   "locator_kind": "md_para",
+   "locator": "para:232",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Процесс сушки в первой ступени происходит во взвешенно‑пересыпающемся слое при попадании материала с одного барабана на другой, что особенно важно при сушке мажущихся материалов с высокими адгезионными свойствами.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "drying of sticky high‑adhesion materials",
+    "direction": "increases",
+    "factor": "weight‑falling‑re‑flowing material layer",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс сушки в первой ступени (в период постоянной скорости сушки) происходит во взвешенно - пересыпающемся слое при попадании материала с одного барабана на другой. Данное свойство особенно важно при сушке мажущихся материалов с высокими адгезионными свойствами.",
+   "locator_kind": "md_para",
+   "locator": "para:232",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Трубчатый пресс Metso в автоматическом режиме проводит обезвоживание различных пульп, при этом образуется прозрачный фильтрат и сухой твердый кек.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product quality",
+    "direction": "increases",
+    "factor": "automatic tubular press operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Трубчатый пресс Metso в автоматическом режиме проводит обезвоживание различных пульп, при этом образуется прозрачный фильтрат и сухой твердый кек.",
+   "locator_kind": "md_para",
+   "locator": "para:264",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Технология обезвоживания в геотубах Geotube® Dewatering применяется для обезвоживания в самых разных областях, в т.ч. при экологической реабилитации рек/заливов/портов и доков от накопившихся за многие годы загрязненных отложений.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "Geotube® Dewatering technology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Самой гибкой и легко приспосабливаемой из числа доступных способов обезвоживания является технология обезвоживания в геотубах Geotube® Dewatering, применяемая для обезвоживания в самых разных областях, в т.ч. при экологической реабилитации рек/заливов/портов и доков от накопившихся за многие годы загрязненных отложений.",
+   "locator_kind": "md_para",
+   "locator": "para:266",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  },
+  {
+   "text": "Сушилки, разработанные китайской компанией Shandong Tianli Energy Co, способны сушить высоковлажные (45‑85 %) тонкие материалы в одну стадию до кека влажностью менее ~13 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "final cake moisture",
+    "direction": "decreases",
+    "factor": "Shandong Tianli Energy Co dryer design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "разработанные китайской компанией Shandong Tianli Energy Co специально для сушки высоковлажных (45-85%) тонких материалов с получением кека влажностью менее ~13% в одну стадию.",
+   "locator_kind": "md_para",
+   "locator": "para:267",
+   "confidence": 0.9,
+   "document_id": "doc:сушка_2020_оконч-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

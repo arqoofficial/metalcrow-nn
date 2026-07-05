@@ -1,0 +1,152 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_07_14-pdf",
+   "title": "CM_07_14.pdf",
+   "doc_type": "article",
+   "year": 2014,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2014\\CM_07_14.pdf.md",
+   "artifact_sha256": "676ad0c8cdb47c337bd028d2e0528fba1e3b9caee961ed2b13a87bbd431983e8",
+   "okf_raw_path": "Журналы/Цветные металлы/2014/CM_07_14.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Введение в эксплуатацию двух комплексов увеличит производительность фабрики с 7,5 до 10,0 млн т/год медно-никелевой руды, при этом основной объем богатых и медистых руд будут перерабатывать на ТОФ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "производительность",
+    "direction": "increases",
+    "factor": "10,0 млн т/год",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Введение в эксплуатацию двух комплексов увеличит производительность фабрики с 7,5 до 10,0 млн т/год медно-никелевой руды, при этом основной объем богатых и медистых руд будут перерабатывать на ТОФ.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно расчетам, извлечение никеля в концентрат >73,0 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "коэффициент извлечения",
+    "direction": "increases",
+    "factor": ">73,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно расчетам, извлечение никеля в концентрат >73,0 %.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.81,
+   "document_id": "doc:cm_07_14-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Согласно прогнозу Commerzbank (ФРГ), мировая цена на никель в текущем году составит 17 400,0 долл./т (+13,0 % к предыдущему прогнозу), в 2015 г. 19 300,0 долл./т (+27,0 % к преды дущему прогнозу).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "цена",
+    "direction": "increases",
+    "factor": "17 400,0 долл./т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно прогнозу Commerzbank (ФРГ), мировая цена на никель в текущем году составит 17 400,0 долл./т (+13,0 % к предыдущему прогнозу), в 2015 г. 19 300,0 долл./т (+27,0 % к преды дущему прогнозу).",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Bank of America Merrill Lynch (BAML) (США), существенно увеличится мировая цена на никель в связи с запретом экспорта латеритной руды из Индонезии, долл./т: 17 746,0 в 2014 г. (+10,3 % к предыдущему прогнозу); 23 836,0 в 2015 г . (+33,6 % к предыдущему прогнозу), 23 147,0 в 2016 г. (+28,6 % к предыдущему прогнозу).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "цена",
+    "direction": "increases",
+    "factor": "23 836,0 долл./т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Bank of America Merrill Lynch (BAML) (США), существенно увеличится мировая цена на никель в связи с запретом экспорта латеритной руды из Индонезии, долл./т: 17 746,0 в 2014 г. (+10,3 % к предыдущему прогнозу); 23 836,0 в 2015 г . (+33,6 % к предыдущему прогнозу), 23 147,0 в 2016 г. (+28,6 % к предыдущему прогнозу).",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке BAML , Индонезия обеспечивала 2/3 поставок никелевого сырья в Китай для производства никельсодержащего чугуна, что составляло 25,0 % мирового предложения никеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "phase_fraction",
+    "direction": "increases",
+    "factor": "2/3",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно оценке BAML , Индонезия обеспечивала 2/3 поставок никелевого сырья в Китай для производства никельсодержащего чугуна, что составляло 25,0 % мирового предложения никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По данным World Bureau of Metal Statistics (Великобритания), профицит мирового рынка никеля в январе - феврале текущего года сократился до 25,0 тыс. т (114,0 тыс. т в 2013 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "профицит",
+    "direction": "decreases",
+    "factor": "25,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным World Bureau of Metal Statistics (Великобритания), профицит мирового рынка никеля в январе - феврале текущего года сократился до 25,0 тыс. т (114,0 тыс. т в 2013 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Импорт первичного никеля за указанный период снизился на 21,3 % до 38,143 тыс. т, в том числе в марте - на 11,7 % до 12,053 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "объём импорта",
+    "direction": "decreases",
+    "factor": "38,143 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Импорт первичного никеля за указанный период снизился на 21,3 % до 38,143 тыс. т, в том числе в марте - на 11,7 % до 12,053 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_14-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

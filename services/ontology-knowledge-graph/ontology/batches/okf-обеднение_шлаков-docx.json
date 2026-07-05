@@ -1,0 +1,559 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:обеднение_шлаков-docx",
+   "title": "Обеднение_шлаков.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Обеднение_шлаков.docx.md",
+   "artifact_sha256": "64858f5c244130277edd47ca621775a46e8a1f49378306a1592d87e705b22e9c",
+   "okf_raw_path": "Обзоры/Обеднение_шлаков.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:converter-slag",
+   "label": "converter slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mixer-furnace-slag",
+   "label": "mixer‑furnace slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:smelting-slag",
+   "label": "smelting slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:teniente-converter-slag",
+   "label": "Teniente converter slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:обеднение_шлаков-docx:0",
+   "document_id": "doc:обеднение_шлаков-docx",
+   "title": "Mt Isa copper plant slag flotation campaigns",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "periodic campaigns on copper ore‑flotation (О/Ф) using one grinding line and main flotation circuit",
+       "temperature_text": "1970‑1980 гг. campaigns during ore shortage; 1990‑гг. grinding chain replaced by SAG/semiself‑grinding/ball mill",
+       "duration_text": "campaigns (periodic, not continuous)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 2243.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:converter-slag",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:mixer-furnace-slag",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Industrial application of slag flotation at Mt Isa with upgraded grinding and flotation equipment.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "type",
+      "direction": "increases",
+      "factor": "equipment",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это позволило существенно повысить сортность продукта и извлечение меди.",
+     "locator_kind": "md_para",
+     "locator": "para:31",
+     "confidence": 0.9
+    },
+    {
+     "text": "Industrial application of slag flotation at Mt Isa with upgraded grinding and flotation equipment.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "type",
+      "direction": "increases",
+      "factor": "equipment",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это позволило существенно повысить сортность продукта и извлечение меди.",
+     "locator_kind": "md_para",
+     "locator": "para:31",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Это позволило существенно повысить сортность продукта и извлечение меди.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обеднение_шлаков-docx:1",
+   "document_id": "doc:обеднение_шлаков-docx",
+   "title": "Teniente slag furnace (El Teniente, Caletones plant, Chile)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "horizontal cylindrical slag furnace with 4 units",
+       "duration_text": "residence time 2 h"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:smelting-slag",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 85.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Извлечение Cu, % 85%",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "slag copper content in product",
+     "scope": "material",
+     "material_id": "mat:converter-slag",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Шлак, % Cu 1",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentrate (steinn) copper content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 72.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Штейн, % Cu 72",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Industrial slag furnace achieves high copper grade in steinn but lower overall extraction compared with flotation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "grade",
+      "direction": "increases",
+      "factor": "furnace",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Во «флотационном» варианте в лучшем (из четырех заводов) случае получим концентрат с 42% Cu, а при обеднении в печи Teniente – штейн с 72% Cu, но с более низким извлечением",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Во «флотационном» варианте в лучшем (из четырех заводов) случае получим концентрат с 42% Cu, а при обеднении в печи Teniente – штейн с 72% Cu, но с более низким извлечением",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обеднение_шлаков-docx:2",
+   "document_id": "doc:обеднение_шлаков-docx",
+   "title": "Industrial application of slag flotation at Potrerillos smelter (Codelco)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Replacement of slag de‑enrichment in electric furnaces with froth flotation of converter Teniente slag"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:teniente-converter-slag",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:converter-slag",
+     "value": {
+      "min": 8.0,
+      "nominal": null,
+      "max": 10.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "содержащих 8-10% Cu",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 38.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Получится медный концентрат с 38% Cu",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "отвал с 0,4% Cu",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Slag processing capacity",
+     "scope": "material",
+     "material_id": "mat:converter-slag",
+     "value": {
+      "min": null,
+      "nominal": 1530.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Производительность линии 1530 т/сут шлака",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Copper recovery increase",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 95.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "извлечение меди на плавильном заводе увеличится с 95,5% до 97,4%",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Contract value",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "стоимость контракта 10 млн €",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The flotation line will be supplied by Outotec, including two mills (SAG and ball), flotation cells and a press‑filter, plus spare parts and installation.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Технологию предоставит Outotec, стоимость контракта 10 млн €. Outotec также поставит оборудование (собственной разработки) – 2 мельницы (SAG и шаровую), флотоячейки и пресс-фильтр, запчасти, а также обеспечит его установку и пуск.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На заводе Potrerillos компании Codelco в 2011 г. было решено заменить заменить обеднение в электропечах на флотацию шлаков от конвертера Teniente, содержащих 8-10% Cu. Получится медный концентрат с 38% Cu и отвал с 0,4% Cu. Производительность линии 1530 т/сут шлака. Технологию предоставит Outotec, стоимость контракта 10 млн €. Outotec также поставит оборудование (собственной разработки) – 2 мельницы (SAG и шаровую), флотоячейки и пресс-фильтр, запчасти, а также обеспечит его установку и пуск. За счет реализации этого проекта извлечение меди на плавильном заводе увеличится с 95,5% до 97,4%.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Flotation of slags has become less significant recently because copper content in slag has decreased due to smelting process optimisation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "significance",
+    "direction": "decreases",
+    "factor": "copper content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "флотация шлаков «стала менее значительным (способом) в последнее время, потому что содержание меди в шлаке снизилось в результате оптимизации процессов плавки»",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:обеднение_шлаков-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "The decline in popularity of slag flotation is caused by (1) production of richer concentrates where copper is mainly dissolved and not captured by flotation, and (2) increasing loadings on beneficiation plants reducing slag processing capacity.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "popularity",
+    "direction": "decreases",
+    "factor": "process changes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "1 – тенденция производства более богатых штейнов (более высокая доля меди в них присутствует скорее в виде растворенной, а не «захваченной» меди – эта медь не извлекается флотацией, нужна печь-отстойник); 2 – на обогатительных фабриках возрастает загрузка и уменьшается возможность перерабатывать шлаки.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:обеднение_шлаков-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "A benefit of slag de‑metallisation in electric furnaces is the ability to process various recirculates, residues and the like.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flexibility",
+    "direction": "increases",
+    "factor": "furnace capability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Преимуществом обеднения шлаков в электропечах является также то, что в них можно перерабатывать всякие обороты, остатки и пр.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:обеднение_шлаков-docx",
+   "process": null
+  },
+  {
+   "text": "Flotation is a comparatively simple and cheap method.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "complexity",
+    "direction": "decreases",
+    "factor": "method nature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Флотация - это сравнительно простой и дешевый способ.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:обеднение_шлаков-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "Outokumpu describes the slag de‑metallisation electric furnace as a well‑known method of valuable metal extraction that is not obsolete because it is continuously developing.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "obsolescence",
+    "direction": "decreases",
+    "factor": "continuous development",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Outokumpu описывает обеднительную электропечь как «хорошо известный способ извлечения ценных металлов из шлака, это, однако, не означает, что это метод устарел», т.к. он непрерывно развивается.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:обеднение_шлаков-docx",
+   "process": null
+  },
+  {
+   "text": "In Chile, rising energy costs and environmental problems related to emissions and processing of complex slags (e.g., high As, Sb) prompt a re‑evaluation of all processing options.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "increases",
+    "factor": "energy costs, emissions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в Чили, растущие энергозатраты и экологические проблемы, связанные с выбросами в атмосферу и с переработкой комплексных шлаков (с высоким содержанием, например, As, Sb) заставляют ещё раз пересмотреть все возможности.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:обеднение_шлаков-docx",
+   "process": null
+  },
+  {
+   "text": "Rising energy costs and environmental problems associated with atmospheric emissions and processing of complex slags (with high contents such as As, Sb) force a re‑examination of all options in Chile.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Во всяком случае в Чили, растущие энергозатраты и экологические проблемы, связанные с выбросами в атмосферу и с переработкой комплексных шлаков (с высоким содержанием, например, As, Sb) заставляют ещё раз пересмотреть все возможности.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.81,
+   "document_id": "doc:обеднение_шлаков-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "Outotec will supply the flotation technology, including two mills (SAG and ball), flotation cells and a press‑filter, plus spare parts and will also handle installation and commissioning.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Технологию предоставит Outotec, стоимость контракта 10 млн €. Outotec также поставит оборудование (собственной разработки) – 2 мельницы (SAG и шаровую), флотоячейки и пресс-фильтр, запчасти, а также обеспечит его установку и пуск.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:обеднение_шлаков-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "No cost information is available for a slag de‑enrichment plant.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Отметим, что информации о стоимости завода по обеднению шлаков в нашем распоряжении нет.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:обеднение_шлаков-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

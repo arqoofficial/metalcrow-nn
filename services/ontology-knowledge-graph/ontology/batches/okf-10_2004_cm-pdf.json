@@ -1,0 +1,373 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:10_2004_cm-pdf",
+   "title": "10_2004_cm.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2004\\10_2004_cm.pdf.md",
+   "artifact_sha256": "2b0e44febd2bd3106281d0d5754ac88ccb4366c0a7072e27c3838518b1b6143c",
+   "okf_raw_path": "Журналы/Цветные металлы/2004/10_2004_cm.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:new-low-cobalt-battery-material",
+   "label": "new low‑cobalt battery material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:10_2004_cm-pdf:0",
+   "document_id": "doc:10_2004_cm-pdf",
+   "title": "Industrial production of low‑cobalt lithium‑ion battery material",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Manufacture of a new lithium‑ion battery material consisting of nickel, cobalt and manganese"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:new-low-cobalt-battery-material",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "cobalt consumption per battery",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "потребление кобальта на одну батарею снижается приблизительно в 3 раза, что приводит к снижению стоимости батареи",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Начало промышленного производства нового материала начнется во второй половине 2004 г. на фабрике компании, расположенной в Южной Корее. На полную мощность фабрика выйдет в 2005 г.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Начало промышленного производства нового материала начнется во второй половине 2004 г. на фабрике компании, расположенной в Южной Корее. На полную мощность фабрика выйдет в 2005 г.",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Начало промышленного производства нового материала начнется во второй половине 2004 г. на фабрике компании, расположенной в Южной Корее. На полную мощность фабрика выйдет в 2005 г.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Наличная цена никеля на Лондонской бирже ме‑таллов (ЛБМ) в августе колебалась от минимума 12 850 долл./т (на 28 августа) до максимума 14 290 долл. (20 августа)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price range",
+    "direction": "increases",
+    "factor": "date",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наличная цена никеля на Лондонской бирже ме‑таллов (ЛБМ) в августе колебалась от минимума 12 850 долл./т (на 28 августа) до максимума 14 290 долл. (20 августа)",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Средняя цена за август составила 13 686 долл./т по сравнению с 15 036 долл./т в июле этого года",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average price",
+    "direction": "decreases",
+    "factor": "month",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средняя цена за август составила 13 686 долл./т по сравнению с 15 036 долл./т в июле этого года",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "На первой неделе августа фонды ликвидировали длинные позиции, что привело к снижению цен на никель и росту запасов на ЛБМ",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price and stock movement",
+    "direction": "decreases",
+    "factor": "funds liquidating long positions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На первой неделе августа фонды ликвидировали длинные позиции, что привело к снижению цен на никель и росту запасов на ЛБМ",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Неделя активных закупок никеля вызвала рост цен и значительное снижение запасов (почти на 2 тыс. т)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price and stock movement",
+    "direction": "increases",
+    "factor": "active purchases",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Неделя активных закупок никеля вызвала рост цен и значительное снижение запасов (почти на 2 тыс. т)",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.45,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "После этого запасы снова стали увеличиваться, причем синхронно с ценами на никель",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stock level",
+    "direction": "increases",
+    "factor": "price correlation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После этого запасы снова стали увеличиваться, причем синхронно с ценами на никель",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "С 20 августа после достижения своего максимума за август этого года цены на никель снова пошли вниз на фоне несущественного роста запасов",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price movement",
+    "direction": "decreases",
+    "factor": "post‑peak period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С 20 августа после достижения своего максимума за август этого года цены на никель снова пошли вниз на фоне несущественного роста запасов",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Причины снижения цен на никель в конце августа – информация о возросшей добыче никеля и усиление доллара США по отношению к евро",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price drivers",
+    "direction": "decreases",
+    "factor": "increased production and USD strength",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Причины снижения цен на никель в конце августа – информация о возросшей добыче никеля и усиление доллара США по отношению к евро",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "На конец августа наличная цена никеля на ЛБМ составила 12 950 долл./т по сравнению с 14 100 долл./т в начале августа",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price level",
+    "direction": "decreases",
+    "factor": "time (end vs. start of August)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На конец августа наличная цена никеля на ЛБМ составила 12 950 долл./т по сравнению с 14 100 долл./т в начале августа",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.45,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасы выросли до 11,5 тыс. т по сравнению с 10 тыс. т в начале месяца",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stock level",
+    "direction": "increases",
+    "factor": "time (end vs. start of month)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Запасы выросли до 11,5 тыс. т по сравнению с 10 тыс. т в начале месяца",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.45,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Снижение цен на кобальт, которое началось еще в январе 2004 г., существенно замедлилось.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cobalt price trend",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снижение цен на кобальт, которое началось еще в январе 2004 г., существенно замедлилось.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "за август цена кобальта 99,8 % снизилась всего на 0,5 долл./кг (с 53,5 до 53 долл./кг)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price change",
+    "direction": "decreases",
+    "factor": "0,5 долл./кг",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "за август цена кобальта 99,8 % снизилась всего на 0,5 долл./кг (с 53,5 до 53 долл./кг)",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "кобальта 99,3 % на 0,3 долл./кг (с 51,4 до 51,1 долл./кг) по сравнению с 2,8 долл./кг и 1,6 долл./кг соответственно месяцем ранее",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price change",
+    "direction": "decreases",
+    "factor": "0,3 долл./кг",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "кобальта 99,3 % на 0,3 долл./кг (с 51,4 до 51,1 долл./кг) по сравнению с 2,8 долл./кг и 1,6 долл./кг соответственно месяцем ранее",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "кобальтовые мощности ... могут быть увеличен при наличии дополнительного сырья.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "кобальтовые мощности за‑проектированы с большим избытком и выпуск кобальта может быть увеличен при наличии дополнительного сырья.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.45,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Umicore разработала новый материал для литий‑ионных перезаряжаемых батарей.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Umicore разработала новый материал для литий‑ионных перезаряжаемых батарей.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.45,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Новый материал состоит из никеля, кобальта и марганца.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "новый материал состоит из никеля, кобальта и марганца.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.45,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Новый состав не приводит к ухудшению свойств литий‑ионных перезаряжаемых батарей.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "battery performance",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отметим, что новый состав не приводит к ухудшению свойств литий‑ионных перезаряжаемых батарей",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.45,
+   "document_id": "doc:10_2004_cm-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

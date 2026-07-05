@@ -1,0 +1,492 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "title": "Термообогащение сульфидных Ni-содержащих материалов.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Термообогащение сульфидных Ni-содержащих материалов.docx.md",
+   "artifact_sha256": "edb1799f17f1c021a148fc485f86436388e2b378545d5dc76e5188724b47f41a",
+   "okf_raw_path": "Обзоры/Термообогащение сульфидных Ni-содержащих материалов.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:fe-ni-s-alloy",
+   "label": "Fe‑Ni‑S alloy",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ro-tail-dry",
+   "label": "Ro‑tail (dry)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:magnetite-powder",
+   "label": "Magnetite powder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:oil-coke-powder-38-μm-fraction",
+   "label": "Oil coke powder (‑38 µm fraction)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fe-n-s-system-representative-ro-tail-composition",
+   "label": "Fe‑N‑S system (representative Ro‑tail composition)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:термообогащение-сульфидных-ni-содержащих-материа:0",
+   "document_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "title": "Solubility measurements by Ma",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Measurement of Ni solubility in FeS and S solubility in α and Υ phases in Fe‑Ni‑S system",
+       "temperature_text": "various (not numerically specified)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe-ni-s-alloy",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "solubility",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.11,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": {
+      "sd": 0.02
+     },
+     "conditions": {
+      "subject": "s  in α and υ phases"
+     },
+     "method": null,
+     "snippet": "Растворимость S в обеих фазах - α и Υ была ниже 0,11±0,02 %",
+     "locator_kind": "md_para",
+     "locator": "para:188",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Low temperatures presumably favor nickel extraction from the sulfide phase into the Fe‑Ni alloy.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "lower temperature",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "т.е. предположительно сравнительно низкие температуры повышают извлечение никеля из сульфидной фазы в Fe‑Ni‑сплав",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Установлено, что при заданном исходном составе Fe‑Ni‑S растворимость Ni в FeS снижается с повышением температуры, т.е. предположительно сравнительно низкие температуры повышают извлечение никеля из сульфидной фазы в Fe‑Ni‑сплав.",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:термообогащение-сульфидных-ni-содержащих-материа:1",
+   "document_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "title": "Thermogravimetric (TG‑DTA) experiments by Yu et al.",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Partial oxidation of Ro‑tail material in air, followed by hydrogen reduction; also addition of iron via magnetite and carbonaceous reducer",
+       "temperature_text": "413‑474 K (first mass loss), 474‑739 K (mass gain)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 686.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ro-tail-dry",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:magnetite-powder",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:oil-coke-powder-38-μm-fraction",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Onset of partial oxidation",
+     "scope": "material",
+     "material_id": "mat:ro-tail-dry",
+     "value": {
+      "min": null,
+      "nominal": 413.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Первое тепловое явление имело место при температурах 413-474 К с небольшой убылью массы и выделения SO₂",
+     "locator_kind": "md_para",
+     "locator": "para:223",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Phase transformation of Fe oxides",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 474.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В интервале 474-739 К ε‑Fe₂O₃ трансформировалась в более привычную форму α‑Fe₂O₃",
+     "locator_kind": "md_para",
+     "locator": "para:223",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Mass gain due to oxidation reaction",
+     "scope": "material",
+     "material_id": "mat:ro-tail-dry",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "имел место постепенный набор массы, что, вероятно, связано с реакцией: 2Fe₁‑xS + (0,75‑1,5x)O₂ = (0,5‑x)α‑Fe₂O₃ + FeS₂",
+     "locator_kind": "md_para",
+     "locator": "para:184",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Partial oxidation in air introduces iron oxides that must be reduced with hydrogen.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Окисление неизбежно приводит к введению кислорода в систему в виде оксидов железа – их надо восстановить, для чего используется водород",
+     "locator_kind": "md_para",
+     "locator": "para:214",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Ро‑хвосты предварительно сушили при 378 К 2 часа.",
+   "locator_kind": "md_para",
+   "locator": "para:222",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:термообогащение-сульфидных-ni-содержащих-материа:2",
+   "document_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "title": "FactSage thermodynamic calculations (treated as pilot‑scale assessment)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Evaluation of S/Fe+Ni molar ratio and temperature on phase formation and Ni extraction in Fe‑N‑S system",
+       "temperature_text": "923 K, 1073 K, 1173 K, >1173 K",
+       "duration_text": "equilibrium calculation (steady state)"
+      },
+      "temperature": {
+       "min": 1446.15,
+       "nominal": null,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe-n-s-system-representative-ro-tail-composition",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 62.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "при снижении S/Me с 0,92 до 0,76 извлечение Ni может быть повышено с 62% до 86%",
+     "locator_kind": "md_para",
+     "locator": "para:207",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.5,
+      "max": null
+     },
+     "unit": "% mass",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "ni  in υ-phase"
+     },
+     "method": null,
+     "snippet": "концентрация Ni в Υ‑фазе снизится с 10,5 % до 4,8 %масс",
+     "locator_kind": "md_para",
+     "locator": "para:207",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "effect of  on ni extraction"
+     },
+     "method": null,
+     "snippet": "с увеличением температуры с 923 К до 1073 К имеет место изоморфное превращение ... при этом извлечение Ni увеличивается примерно на 10 %.",
+     "locator_kind": "md_para",
+     "locator": "para:184",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Optimal temperature for Ni extraction into alloy is 1073‑1173 K.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "increases",
+      "factor": "Ni extraction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "оптимальная температура для извлечения Ni в сплав должна быть в интервале 1073-1173 К",
+     "locator_kind": "md_para",
+     "locator": "para:212",
+     "confidence": 0.9
+    },
+    {
+     "text": "A trade‑off exists: higher S deficiency raises overall Ni extraction but lowers Ni grade in the alloy.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "S deficiency",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "извлечение никеля в Υ‑фазу может быть увеличено с ростом дефицита серы, но, с другой стороны, это приведет к снижению концентрации Ni в Υ‑фазе",
+     "locator_kind": "md_para",
+     "locator": "para:207",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Видно, что извлечение никеля в Υ‑фазу может быть увеличено с ростом дефицита серы, но, с другой стороны, это приведет к снижению концентрации Ni в Υ‑фазе.",
+   "locator_kind": "md_para",
+   "locator": "para:207",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Thermo‑enrichment of pyrite tailings works by increasing the Fe/S ratio to approach stoichiometric FeS, thereby converting Ni‑bearing Ro into a FeNi‑alloy plus sulfide phase.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Fe/S ratio",
+    "direction": "increases",
+    "factor": "nickel recovery",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это достигается путем добавления железа и/или удаления серы из решетки Ро, превращая таким образом никельсодержащий Ро в смесь FeNi‑сплава и сульфидной фазы.",
+   "locator_kind": "md_para",
+   "locator": "para:200",
+   "confidence": 0.81,
+   "document_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "process": null
+  },
+  {
+   "text": "The main function of thermo‑enrichment is to raise the Fe/S ratio so that the system approaches stoichiometric FeS.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Fe/S ratio",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отсюда следует, что главная функция термообогащения заключается в увеличении отношения Fe/S в системе, чтобы приблизиться к стехиометрическому FeS.",
+   "locator_kind": "md_para",
+   "locator": "para:200",
+   "confidence": 0.9,
+   "document_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "process": null
+  },
+  {
+   "text": "Formation of the Υ‑alloy phase depends on sulfur deficiency expressed as the molar S‑to‑metal (Fe+Ni) ratio.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Из диаграммы при 1173К следует, что образование Υ‑фазы сплава зависит от дефицита серы, выраженному как молярное отношение серы к металлу (Fe+Ni).",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.81,
+   "document_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "process": null
+  },
+  {
+   "text": "Two practical approaches to increase the Fe/S ratio in Ro tailings are (1) partial oxidation in air followed by hydrogen reduction, and (2) addition of iron by mixing Ro with magnetite and a carbonaceous reducer.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "были выбраны два экспериментальных подхода к увеличению молярного отношения Fe/S в Ро‑хвостах: 1 - удаление серы путем частичного окисления Ро воздухом... 2 - добавление железа путем смешивания Ро с магнетитом и углеродсодержащим восстановителем.",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.45,
+   "document_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "process": null
+  },
+  {
+   "text": "Typical dry Ro‑tail composition (mass %): Fe 62.86, S 35.66, Ni 0.85, Cu 0.16, Mg 0.15, Al 0.03, Co 0.01.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Fe 62,86 | S 35,66 | Ni 0,85 | Cu 0,16 | Mg 0,15 | Al 0,03 | Co 0,01",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.45,
+   "document_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "process": null
+  },
+  {
+   "text": "Magnetite powder used in the experiments had 90 % of particles smaller than 5.3 µm.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Магнетит – тонкий порошок, 90 % менее 5,3 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:222",
+   "confidence": 0.9,
+   "document_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "process": null
+  },
+  {
+   "text": "Oil coke powder (85.1 % mass carbon) was milled and the –38 µm fraction was used for experiments.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Порошок нефтяного кокса со связанным углеродом 85,1 %масс измельчали в шаровой мельнице и для опытов брали фракцию -38 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:222",
+   "confidence": 0.9,
+   "document_id": "doc:термообогащение-сульфидных-ni-содержащих-материа",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

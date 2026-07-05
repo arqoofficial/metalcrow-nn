@@ -1,0 +1,412 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_02_16-pdf",
+   "title": "CM_02_16.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2016\\CM_02_16.pdf.md",
+   "artifact_sha256": "da71808f08d7260959186a3fb87e24246ec6c6cf7d6f12aafd2c7d6ce71cc093",
+   "okf_raw_path": "Журналы/Цветные металлы/2016/CM_02_16.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:flotation-concentrate",
+   "label": "flotation concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:bio-oxidation-product-with-low-arsenic-content",
+   "label": "bio‑oxidation product with low arsenic content",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_02_16-pdf:0",
+   "document_id": "doc:cm_02_16-pdf",
+   "title": "Biooxidation of flotation concentrate at Navoi Mining and Metallurgical Combine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "biooxidation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:flotation-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "significant part of arsenic dissolves and then becomes insoluble solid",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "arsenic behavior",
+      "direction": "increases",
+      "factor": "biooxidation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На начальном этапе окисление флотоконцентрата осуществляют по схеме биоокисления, при котором значительная часть мышьяка растворяется и затем переходит в нерастворимое твердое состояние.",
+     "locator_kind": "md_para",
+     "locator": "para:175",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На начальном этапе окисление флотоконцентрата осуществляют по схеме биоокисления, при котором значительная часть мышьяка растворяется и затем переходит в нерастворимое твердое состояние.",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_02_16-pdf:1",
+   "document_id": "doc:cm_02_16-pdf",
+   "title": "Oxidative roasting of low‑arsenic bio‑oxidation product at Navoi Mining and Metallurgical Combine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidative roasting"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:bio-oxidation-product-with-low-arsenic-content",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "gold bound to carbonaceous matter is liberated and remaining sulfide sulfur is oxidized",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "gold liberation",
+      "direction": "increases",
+      "factor": "oxidative roasting",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Далее продукт биоокисления с низким содержанием мышьяка подвергают окислительному обжигу, при котором вскрывается золото, связанное с углеродистым веществом, окисляется оставшаяся сульфидная сера.",
+     "locator_kind": "md_para",
+     "locator": "para:175",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Далее продукт биоокисления с низким содержанием мышьяка подвергают окислительному обжигу, при котором вскрывается золото, связанное с углеродистым веществом, окисляется оставшаяся сульфидная сера.",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Экспорт никеля в январе - сентябре 2015 г. сократился по сравнению с аналогичным периодом 2014 г. на 13,7 % до 155,25 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reduction",
+    "direction": "decreases",
+    "factor": "13,7 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Экспорт никеля в январе - сентябре 2015 г. сократился по сравнению с аналогичным периодом 2014 г . на 13,7 % до 155,25 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.81,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Поставки в дальнее зарубежье составили 155,05 тыс. т, в страны СНГ - 0,2 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "increases",
+    "factor": "155,05 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поставки в дальнее зарубежье составили 155,05 тыс. т, в страны СНГ - 0,2 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2015 г. профицит мирового рынка никеля составит 70,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "surplus",
+    "direction": "increases",
+    "factor": "70,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2015 г . профицит мирового рынка никеля составит 70,0 тыс. т",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2016 г. на рынке сформируется дефицит 26,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "deficit",
+    "direction": "increases",
+    "factor": "26,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2016 и 2017 гг. на рынке сформируется дефицит 26,0 тыс. и 59,0 тыс. т соответственно",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2017 г. на рынке сформируется дефицит 59,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "deficit",
+    "direction": "increases",
+    "factor": "59,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2016 и 2017 гг. на рынке сформируется дефицит 26,0 тыс. и 59,0 тыс. т соответственно",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Мировая цена в 2016 г. составит 12 814,0 долл./т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "12 814,0 долл./т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировая цена в 2016 и 2017 гг . составит 12 814,0 и 16 535,0 долл./т соответственно",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Мировая цена в 2017 г. составит 16 535,0 долл./т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "16 535,0 долл./т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировая цена в 2016 и 2017 гг . составит 12 814,0 и 16 535,0 долл./т соответственно",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе - ноябре 2015 г. производство алюминия в Бразилии ... сократилось на 20,5 % до 708,5 тыс. т (962,2 тыс. т в 2014 г .).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "decreases",
+    "factor": "time period 2015 vs 2014",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - ноябре 2015 г. производство алюминия в Бразилии по сравнению с аналогичным периодом 2014 г. сократилось на 20,5 % до 708,5 тыс. т (962,2 тыс. т в 2014 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "по прогнозу BMI Research ... доля Китая в мировом производстве алюминия к 2019 г. вырастет до 58,3 % по сравнению с 55,4 % в 2014 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "China's share",
+    "direction": "increases",
+    "factor": "forecast to 2019",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу BMI Research (Великобритания), доля Китая в мировом производстве алюминия к 2019 г. вырастет до 58,3 % по сравнению с 55,4 % в 2014 г.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе - октябре 2015 г., ... мировое потребление цинка составило 11,465 млн т (+1,1 % к январю - марту 2014 г .), производство 11,678 млн т (+5,2 % к январю - марту 2014 г .), профицит рынка - 0,213 млн т (дефицит 0,242 млн т в 2014 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption, production, market balance",
+    "direction": "increases",
+    "factor": "2015 vs early 2014",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - октябре 2015 г., по информации International Lead and Zinc Study Group (Португалия), мировое потребление цинка составило 11,465 млн т (+1,1 % к январю - марту 2014 г .), производство 11,678 млн т (+5,2 % к январю - марту 2014 г .), профицит рынка - 0,213 млн т (дефицит 0,242 млн т в 2014 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В декабре 2015 г. Nystar (Швейцария) объявила о приостановке работы комбината Middle Tennessee Mines (США) и завода Clarksville (США). Иници атива, направленная на сбалансированность рынка, сократит предложение на 50,0 тыс. т цинка в концентрате и 9,0 тыс. т металлического цинка соответственно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "off‑take reduction",
+    "direction": "decreases",
+    "factor": "plant shutdown",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В декабре 2015 г. Nystar (Швейцария) объявила о приостановке работы комбината Middle Tennessee Mines (США) и завода Clarksville (США). Иници атива, направленная на сбалансированность рынка, сократит предложение на 50,0 тыс. т цинка в концентрате и 9,0 тыс. т металлического цинка соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке International Tin Research Institute (Великобритания), дефицит мирового рынка олова в 2015 г . составит 6,0 тыс. т, в 2016 г . - 10,0 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "deficit",
+    "direction": "increases",
+    "factor": "year 2016 vs 2015",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно оценке International Tin Research Institute (Великобритания), дефицит мирового рынка олова в 2015 г . составит 6,0 тыс. т, в 2016 г . - 10,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе - ноябре 2015 г., согласно данным Таможенной службы Индонезии, экспорт олова по сравнению с аналогичным периодом 2014 г. снизился на 1,9 % до 64,349 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "export volume",
+    "direction": "decreases",
+    "factor": "2015 vs 2014",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - ноябре 2015 г., согласно данным Таможенной службы Индонезии, экспорт олова по сравнению с аналогичным периодом 2014 г. снизился на 1,9 % до 64,349 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В декабре 2015 г . ПАО «ГМК «Норильский никель» (Россия) ввело в эксплуатацию цех производства электролитического кобальта на ОАО «Кольская ГМК» (Россия).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "new plant commissioning",
+    "direction": "increases",
+    "factor": "facility start‑up",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В декабре 2015 г . ПАО «ГМК «Норильский никель» (Россия) ввело в эксплуатацию цех производства электролитического кобальта на ОАО «Кольская ГМК» (Россия).",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Проведенные научно-исследовательские работы дают основание считать, что при помощи обжига можно существенно увеличить извлечение золота из биокека.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "oxidative roasting",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проведенные научно-исследовательские работы дают основание считать, что при помощи обжига можно существенно увеличить извлечение золота из биокека.",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.9,
+   "document_id": "doc:cm_02_16-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

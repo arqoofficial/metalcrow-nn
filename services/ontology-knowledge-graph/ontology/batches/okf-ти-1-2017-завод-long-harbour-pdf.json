@@ -1,0 +1,600 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "title": "ТИ-1-2017. Завод Long Harbour.pdf",
+   "doc_type": "article",
+   "year": 2017,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ТИ-1-2017. Завод Long Harbour.pdf.md",
+   "artifact_sha256": "18c9447a617957b6415a75eb6f556e0ffd5dc305ad69e427eb9c4d31c0872d48",
+   "okf_raw_path": "Обзоры/ТИ-1-2017. Завод Long Harbour.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:fine-stone-from-sorowako-indonesia",
+   "label": "fine‑stone from Sorowako (Indonesia)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:concentrate-from-voisey-s-bay",
+   "label": "concentrate from Voisey's Bay",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-concentrates",
+   "label": "nickel concentrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:ти-1-2017-завод-long-harbour-pdf:0",
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "title": "Technology pilot at Long Harbour plant (2014‑2015)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "hydrometallurgical processing of nickel concentrates"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-stone-from-sorowako-indonesia",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:concentrate-from-voisey-s-bay",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "в 2014-2015 гг. продолжалась отработка технологии с использованием в качестве сырья файнштейна с индонезийского завода Sorowako (≈78% Ni, 1% Co, 0,15% Cu, 1% Fe, 20% S) или смеси файнштейна с концентратом Voisey's Bay.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-1-2017-завод-long-harbour-pdf:1",
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "title": "Start of concentrate processing at Long Harbour (2016)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "hydrometallurgical processing of nickel concentrates"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-concentrates",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Переход на переработку концентратов на Long Harbour произошел в 2016 г., но объемы переработки пока ещё далеки от проектной мощности.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "мощность ~66 тыс т/г рафинир.Ni плюс оксид никеля - сырье для рафин.завода Clydach (и предприятий компании в Азии).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "мощность ~66 тыс т/г рафинир.Ni плюс оксид никеля - сырье для рафин.завода Clydach (и предприятий компании в Азии).",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "мощность ~50 тыс т/г рафин.Ni",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "мощность ~50 тыс т/г рафин.Ni",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "«Побочный» медный концентрат - на продажу.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "«Побочный» медный концентрат - на продажу.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Завод - на стадии выхода на проектную мощность.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Завод - на стадии выхода на проектную мощность.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2017 г. запланирован переход на плавку в одной печи ВП.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2017 г. запланирован переход на плавку в одной печи ВП.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Планируется закрыть металлург.комплекс в 2018 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Планируется закрыть металлург.комплекс в 2018 г.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания подчеркивала, что новый завод имеет «нулевые выбросы SO2».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "SO2 emissions",
+    "direction": "no_change",
+    "factor": "environmental impact",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания подчеркивала, что новый завод имеет «нулевые выбросы SO2».",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Новый завод будет производить на полной мощности 50 тыс. т/г Ni, 3,27 тыс. т/г Cu и 2,46 тыс. т/г Co - все в виде чистых катодов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual production",
+    "direction": "increases",
+    "factor": "output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Новый завод будет производить на полной мощности 50 тыс. т/г Ni, 3,27 тыс. т/г Cu и 2,46 тыс. т/г Co - все в виде чистых катодов.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Раствор (рафинат), не содержащий кобальт, направляют на электроэкстракцию никеля в электролизере с диафрагмой, где примерно половина никеля, содержавшегося в исходном растворе, извлекается с получением катодного никеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel recovery",
+    "direction": "increases",
+    "factor": "recovery rate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Раствор (рафинат), не содержащий кобальт, направляют на электроэкстракцию никеля в электролизере с диафрагмой, где примерно половина никеля, содержавшегося в исходном растворе, извлекается с получением катодного никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.81,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Твердая фаза, полученная при предварительном выщелачивании, затем выщелачивается далее - в автоклаве при повышенной температуре и парциальном давлении кислорода и в присутствии никелевого анолита, полученного рециркуляцией от операции электролиза никеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating conditions",
+    "direction": "no_change",
+    "factor": "temperature and oxygen partial pressure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Твердая фаза , полученная при предварительном выщелачивании, затем выщелачивается далее - в автоклаве при повышенной температуре и парциальном давлении кислорода и в присутствии никелевого анолита, полученного рециркуляцией от операции электролиза никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Сточный раствор из пруда-осветлителя (эффлюент) смешивают с другими жидкими стоками и дополнительно нейтрализуют известняком и известью с получением раствора, удовлетворяющего требованиям к сбросу стоков, установленным в документе Newfoundland and Labrador Environmental Control Water and Sewage Regulations, 2003 и разделом 36(3) Федерального закона о рыболовстве Fisheries Act.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "regulatory compliance",
+    "direction": "no_change",
+    "factor": "water quality standards",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сточный раствор из пруда-осветлителя (эффлюент) смешивают с другими жидкими стоками и дополнительно нейтрализуют известняком и известью с получением раствора, удовлетворяющего требованиям к сбросу стоков, установленным в документе Newfoundland and Labrador Environmental Control Water and Sewage Regulations, 2003 и разделом 36(3) Федерального закона о рыболовстве Fisheries Act.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "FRP (fiber reinforced plastic -фиброармированный пластик «ФАП») обеспечивающий равную (или даже бóльшую) продолжительность службы по сравнению с альтернативными материалами - коррозионноустойчивыми сплавами при значительно меньших затратах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "durability and cost",
+    "direction": "increases",
+    "factor": "FRP vs corrosion‑resistant alloys",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "FRP ... обеспечивающий равную (или даже бóльшую) продолжительность службы по сравнению с альтернативными материалами - коррозионноустойчивыми сплавами при значительно меньших затратах.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Выбор ФАП в значительной мере связан и с возможностью изготавливать ФАП-оборудование «на месте» (даже если строящийся завод расположен в труднодоступном месте).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "on‑site manufacturability",
+    "direction": "increases",
+    "factor": "FRP equipment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выбор ФАП в значительной мере связан и с возможностью изготавливать ФАП-оборудование «на месте» (даже если строящийся завод расположен в труднодоступном месте).",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.81,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Электролитный никель, выпускаемый в Long Harbour, превосходит распространенный в мировой никелевой отрасли стандарт ASTM B39-79.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purity/standard compliance",
+    "direction": "increases",
+    "factor": "Long Harbour electrolyte nickel",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отмечается, что по качеству выпускаемый в Long Harbour электролитный никель превосходит распространенный в мировой никелевой отрасли стандарт ASTM B39-79.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Nickel (мин.99,8%) 'Nickel Melt Rounds' выпускают в виде, так называемых, «пуговиц»: диаметром ≈25-29мм, толщиной ≈5-6мм, весом 26-32г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dimensions and weight",
+    "direction": "increases",
+    "factor": "Nickel Melt Rounds",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Никель (мин.99,8%) 'Nickel Melt Rounds' выпускают в виде, так называемых, «пуговиц»: диаметром ≈25-29мм, толщиной ≈5-6мм, весом 26-32г.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Nickel 'Utility® rounds' содержит, вес. %: Ni~97; Co~2,4; Fe~0,015; Cu~0,090; C~0,005; S~0,0005; Si~0,001; P~0,0001.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "chemical composition",
+    "direction": "increases",
+    "factor": "Utility® rounds",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Никель 'Utility® rounds' содержит, вес. %: Ni~97; Co~2,4; Fe~0,015; Cu~0,090; C~0,005; S~0,0005; Si~0,001; P~0,0001.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2017 г. завершается создание схемы завода - вводятся в строй цепочки электролиза кобальта и меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "completion of plant scheme and start-up of cobalt and copper ele",
+    "direction": "increases",
+    "factor": "year 2017",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2017 г. завершается создание схемы завода - вводятся в строй цепочки электролиза кобальта и меди.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Объем производства никеля компания планирует увеличить вдвое - до 31 тыс. т, а в 2019 г. выйти на проектную мощность - 50 тыс. т/г Ni.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel production volume",
+    "direction": "increases",
+    "factor": "target 31 тыс. т and 50 тыс. т/г Ni by 2019",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объем производства никеля компания планирует увеличить вдвое - до 31 тыс. т, а в 2019 г. выйти на проектную мощность - 50 тыс. т/г Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "За последние пять лет Vale ввела в строй три новых крупных металлургических завода: Goro (VNC) - 2010г., Onca Puma - 2011 г., Long Harbour 2014г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "number of new large metallurgical plants",
+    "direction": "increases",
+    "factor": "three plants commissioned between 2010 and 2014",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За последние пять лет Vale ввела в строй три новых крупных металлургических завода: Goro (VNC) - 2010г., Onca Puma - 2011 г., Long Harbour 2014г.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Новый гидрометаллургический завод Long Harbour позволяет выводить из эксплуатации более старые мощности и снизить потребность в капитале на поддержание производства, а также выполнить требования экологического законодательства Канады.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ability to retire older capacity, reduce capital needs, meet env",
+    "direction": "increases",
+    "factor": "new Long Harbour plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Новый гидрометаллургический завод Long Harbour позволяет выводить из эксплуатации более старые мощности и снизить потребность в капитале на поддержание производства, а также выполнить требования экологического законодательства Канады.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Наращивание выпуска с нового завода Long Harbour и оптимизация конфигурации схемы движения материалов (сырья) на «старых» канадских предприятиях позволят компании в среднесрочной перспективе, с учетом двух других новых заводов Goro и Onca Puma, поддерживать объем производства никеля на уровне около 300-310 тыс т/год.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel production level",
+    "direction": "increases",
+    "factor": "combined output of Long Harbour, Goro, Onca Puma",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наращивание выпуска с нового завода Long Harbour и оптимизация конфигурации схемы движения материалов (сырья) на «старых» канадских предприятиях позволят компании в среднесрочной перспективе, с учетом двух других новых заводов Goro и Onca Puma, поддерживать объем производства никеля на уровне около 300-310 тыс т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Новый завод Long Harbour, помимо переработки никелевых концентратов с месторождения Voisey's Bay, будет перерабатывать и какую-то часть концентратов с рудников провинции Манитоба (после закрытия плавильно-рафинировочного комплекса Томпсон).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "source of nickel concentrates",
+    "direction": "increases",
+    "factor": "addition of Manitoba mine concentrates",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Новый завод Long Harbour, помимо переработки никелевых концентратов с месторождения Voisey's Bay, будет перерабатывать и какую-то часть концентратов с рудников провинции Манитоба (после закрытия плавильно-рафинировочного комплекса Томпсон).",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "Способ позволяет повысить извлечение металлов, уменьшить время и число технологических стадий.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metal recovery, processing time, number of stages",
+    "direction": "increases",
+    "factor": "described extraction method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Способ позволяет повысить извлечение металлов, уменьшить время и число технологических стадий.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": null
+  },
+  {
+   "text": "концентрация хлорида в сырьевом растворе окислительного выщелачивания под давлением составляет приблизительно от 2 до 40 г/л.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "2 to 40 g/l",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "концентрация хлорида в сырьевом растворе окислительного выщелачивания под давлением составляет приблизительно от 2 до 40 г/л.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "сульфидный флотационный концентрат измельчается до значения d80 от 10 до 30 мкм.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "decreases",
+    "factor": "10 to 30 µm",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сульфидный флотационный концентрат измельчается до значения d80 от 10 до 30 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "заданная концентрация ионов хлорида в сырьевой суспензии для выщелачивания под давлением составляет приблизительно от 5 до 10 г/л.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "5 to 10 g/l",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "заданная концентрация ионов хлорида в сырьевой суспензии для выщелачивания под давлением составляет приблизительно от 5 до 10 г/л.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "осуществляют рециркуляцию по меньшей мере части серной кислоты, образовавшейся на стадии выделения никеля путем электролиза, на стадию кислотного выщелачивания при атмосферном давлении.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sulfuric acid recycle",
+    "direction": "increases",
+    "factor": "at least part of the acid",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "осуществляют рециркуляцию по меньшей мере части серной кислоты, образовавшейся на стадии выделения никеля путем электролиза, на стадию кислотного выщелачивания при атмосферном давлении.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "осуществляют рециркуляцию по меньшей мере части хлора и кислорода, образовавшихся на стадии выделения никеля путем электролиза, на стадию кислотного выщелачивания при атмосферном давлении.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "chlorine and oxygen recycle",
+    "direction": "increases",
+    "factor": "at least part of the gases",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "осуществляют рециркуляцию по меньшей мере части хлора и кислорода, образовавшихся на стадии выделения никеля путем электролиза, на стадию кислотного выщелачивания при атмосферном давлении.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "тонко измельчают указанный сульфидный флотационный концентрат до заданного размера частиц, прежде чем ввести его в указанное кислотно-хлорное выщелачивание при атмосферном давлении.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "decreases",
+    "factor": "fine grinding to a specified size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "тонко измельчают указанный сульфидный флотационный концентрат до заданного размера частиц, прежде чем ввести его в указанное кислотно-хлорное выщелачивание при атмосферном давлении.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:ти-1-2017-завод-long-harbour-pdf",
+   "process": "leaching"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

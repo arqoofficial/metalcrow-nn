@@ -1,0 +1,747 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:соли-железа-pdf",
+   "title": "Соли железа.pdf",
+   "doc_type": "article",
+   "year": 2018,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Соли железа.pdf.md",
+   "artifact_sha256": "c9eb180102bb7a0e4c548ad9ccd0d8e749cd513a2e4130fa9631a1ecfe1963af",
+   "okf_raw_path": "Обзоры/Соли железа.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:fecl3-solution",
+   "label": "FeCl3 solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:iron-bromide-solution",
+   "label": "iron‑bromide solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:соли-железа-pdf:0",
+   "document_id": "doc:соли-железа-pdf",
+   "title": "Industrial application at Krasnoperekopsk plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "FeCl3 is obtained as a by‑product in the production of bromine, during the cleaning of a bromine‑air mixture from chlorine impurity with an iron‑bromide solution.",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fecl3-solution",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:iron-bromide-solution",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "FeCl3 is produced as a side product at the Krasnoperekopsk plant.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "industrial production",
+      "direction": "increases",
+      "factor": "not applicable",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Хлорное железо на Красноперекопском заводе получают в качестве побочного продукта в производстве брома - в процессе очистки бромо-воздушной смеси от примеси хлора раствором бромида железа.",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Хлорное железо на Красноперекопском заводе получают в качестве побочного продукта в производстве брома - в процессе очистки бромо-воздушной смеси от примеси хлора раствором бромида железа.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Если концентрация свободной соляной кислоты менее 1%, то отработанный раствор сразу хлорируют.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "<1%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если концентрация свободной соляной кислоты менее 1%, то отработанный раствор сразу хлорируют.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Раствор FeCl3 приготавливают растворением железной руды (гематитовой с Fe>70%) в соляной кислоте (HCl >33%).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "исходные материалы",
+    "direction": "increases",
+    "factor": "Fe>70% и HCl >33%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Раствор FeCl3 приготавливают растворением железной руды (гематитовой с Fe>70%) в соляной кислоте (HCl >33%).",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Реакция проходит при температуре 80-120°С и атмосферном давлении; продолжительность - 1-2 часа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "increases",
+    "factor": "80-120°С, атмосферное давление, 1-2 часа",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Реакция проходит при температуре 80-120°С и атмосферном давлении; продолжительность - 1-2 часа.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "В США, например, более 80% хлорного железа потребляется в обработке городских сточных вод, подготовке питьевой воды и обработке промышленных стоков.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "phase_fraction",
+    "direction": "increases",
+    "factor": "более 80%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В США, например, более 80% хлорного железа потребляется в обработке городских сточных вод, подготовке питьевой воды и обработке промышленных стоков.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "В мировом масштабе на подготовку питьевой воды и обработку стоков/промышленных вод в сочетании с подготовкой морской воды к опреснению потребляется 79-84% суммарного потребления хлорного железа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "phase_fraction",
+    "direction": "increases",
+    "factor": "79-84%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В мировом масштабе на подготовку питьевой воды и обработку стоков/промышленных вод в сочетании с подготовкой морской воды к опреснению потребляется 79-84% суммарного потребления хлорного железа.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Вторым крупным сектором потребления хлорного железа является изготовление печатных плат, на которые уходит ежегодно 8-12% всего хлорного железа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "phase_fraction",
+    "direction": "increases",
+    "factor": "8-12%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вторым крупным сектором потребления хлорного железа является изготовление печатных плат, на которые уходит ежегодно 8-12% всего хлорного железа.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Преимуществом хлорного железа является его склонность к быстрому гидролизу в воде с образованием хлопьев гидроксида, что делает его идеальным коагулянтом и осадителем примесей при очистке воды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "быстрый гидролиз",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Преимуществом хлорного железа является его склонность к быстрому гидролизу в воде с образованием хлопьев гидроксида, что делает его идеальным коагулянтом и осадителем примесей при очистке воды.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "FeCl3 в наиболее распространенной товарной форме - в виде 40%-ного раствора стоит порядка 300 - 400 USD/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "цена",
+    "direction": "increases",
+    "factor": "300 - 400 USD/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "FeCl3 в наиболее распространенной товарной форме - в виде 40%-ного раствора стоит порядка 300 - 400 USD/т.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Более 80% всего хлорного железа продается по заявкам муниципалитетов: 53% идет в очистку бытовых сточных вод, 37% - на подготовку питьевой воды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "phase_fraction",
+    "direction": "increases",
+    "factor": "53% и 37%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более 80% всего хлорного железа продается по заявкам муниципалитетов: 53% идет в очистку бытовых сточных вод, 37% - на подготовку питьевой воды.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "В США, по оценкам IHS, ожидаемые темпы роста потребления хлорного железа в 2016-2021 гг. составляют 1,3% в год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "темпы роста",
+    "direction": "increases",
+    "factor": "1,3% в год",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В США, по оценкам IHS, ожидаемые темпы роста потребления хлорного железа в 2016-2021 гг. составляют 1,3% в год.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "In Western Europe, ferric chloride is mainly used as a coagulant for wastewater treatment and drinking‑water preparation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application sector",
+    "direction": "increases",
+    "factor": "not applicable",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Западной Европе хлорное железо используется, в основном, в качестве коагулянта при обработке стоков и подготовке питьевой воды, а также в перечисленных выше прочих областях, в том числе в качестве прекурсора при изготовлении препаратов против анемии.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "All EU countries have already achieved compliance with EU water quality standards for both drinking and industrial use.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "status",
+    "direction": "increases",
+    "factor": "not applicable",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Во всех странах ЕС уже обеспечено выполнение нормативов ЕС по воде - как питьевой, так и для промышленного использования.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Demand growth for ferric chloride in China was about 2.9 % per year up to 2021, higher than the world average of about 1 % per year.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual growth rate",
+    "direction": "increases",
+    "factor": "2.9 % per year (China), 1 % per year (world)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Темпы роста спроса на хлорное железо в Китае до 2021 г. заметно выше среднемировых и оцениваются в 2,9% в год, по миру в целом - около 1% в год.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "In the United States, the NSF/ANSI 60 standard applies to chemicals used for drinking‑water treatment.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "not applicable",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Северной Америке для производства и продажи химикатов для обработки воды требуется соответствие стандарту NSF/ANSI 60 «Химикаты для обработки питьевой воды»",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "The Pencco FeCl3 solution (10‑14 % Fe³⁺) meets the NSF/ANSI 60 standard for drinking water and exceeds all AWWA quality requirements.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "standard compliance",
+    "direction": "increases",
+    "factor": "not applicable",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Продукт удовлетворяет требованиям стандарта NSF/ANSI 60 для питьевой воды, а также удовлетворяет или превосходит требования к качеству всех стандартов AWWA.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "The HZ3R company produces FeCl₃ solutions with concentrations from 30 % to 45 % and a density of about 1.3 g/cm³.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "30‑45 % FeCl₃, density ≈1.3 g/cm³",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания производит как растворы FeCl3 (30-45%), так и безводный хлорид. Выпускаются растворы с концентрациями FeCl3 мин.30%, 31%, 32%, 33% ... и т.д. Это темно-коричневая жидкость плотностью 1,3.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Russian ferric chloride solutions are produced according to technical specifications such as TU 2152‑081‑5685680708, with a typical pH of about 1 and a brown‑red colour.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "pH ≈1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Раствор хлорного железа представляет собой жидкость буро‑коричневого цвета, с pH ≈1.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.45,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания Kemcore (Гонконг) - крупный и, по её собственным словам, надёжный поставщик разнообразных качественных химикатов по конкурентным ценам.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reliability",
+    "direction": "nonmonotonic",
+    "factor": "company statement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания Kemcore (Гонконг) - крупный и, по её собственным словам, надёжный поставщик разнообразных качественных химикатов по конкурентным ценам.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания поставляет материалы измельчающей среды, флотационные реагенты, химикаты для обработки воды и др. и обслуживает более 30 горных предприятий и правительств в сорока странах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "coverage",
+    "direction": "nonmonotonic",
+    "factor": "customer base",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания поставляет материалы измельчающей среды, флотационные реагенты, химикаты для обработки воды и др. и обслуживает более 30 горных предприятий и правительств в сорока странах.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Kemira - No2 в мире по коагулянтам и No5 по флокулянтам для водоочистки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ranking",
+    "direction": "nonmonotonic",
+    "factor": "global market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Kemira - No2 в мире по коагулянтам и No5 по флокулянтам для водоочистки.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Kemira No1 по коагулянтам и No3 по флокулянтам в нефтяной и горной добыче.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ranking",
+    "direction": "nonmonotonic",
+    "factor": "industry segment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Kemira No1 по коагулянтам и No3 по флокулянтам.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "PIX-111 является эффективным первичным коагулянтом для использования при производстве питьевой воды, очищении канализационных и сточных вод, обработке активного ила.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effectiveness",
+    "direction": "nonmonotonic",
+    "factor": "product performance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "PIX-111, являющийся эффективным первичным коагулянтом для использования при производстве питьевой воды, очищении канализационных и сточных вод, обработке активного ила.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Техническое хлорное железо стоит несколько дороже.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "technical grade",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Техническое хлорное железо стоит несколько дороже.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Эффективность коагуляции выше, время очистки стоков сокращается, расход хим. продукции уменьшается - до 30 г на 1 м³ жидкости в зависимости от уровня загрязнения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "technical ferric chloride",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Но эффективность коагуляции выше, время очистки стоков сокращается, расход хим.продукции уменьшается - до 30 г на 1 м 3 жидкости в зависимости от уровня загрязнения.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Удаляется более 90% всех нерастворимых примесей и до 1/4 растворимых.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "technical ferric chloride",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Удаляется более 90% всех нерастворимых примесей и до1/4 растворимых.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Вода, обработанная смешанным коагулянтом, как правило, не дает отложений даже при низких температурах, т.к. формирование и седиментация хлопьев заканчивается в основном, до фильтров.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "precipitate formation",
+    "direction": "decreases",
+    "factor": "mixed coagulant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вода, обработанная смешанным коагулянтом, как правило, не дает отложений даже при низких температурах, т.к. формирование и седиментация хлопьев заканчивается в основном, до фильтров.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Хлопья осаждаются равномерно, степень осветления воды выше, а расход реагентов ниже.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "floc settlement uniformity, water clarity, reagent consumption",
+    "direction": "increases",
+    "factor": "mixed coagulant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Хлопья осаждаются равномерно, степень осветления воды выше, а расход реагентов ниже.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Составные части смешанного коагулянта можно вводить как раздельно, так и предварительно смешав растворы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dosing method",
+    "direction": "no_change",
+    "factor": "mixed coagulant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Составные части смешанного коагулянта можно вводить как раздельно, так и предварительно смешав растворы.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "По сообщениям отечественных источников, алюможелезные коагулянты приготавливают из растворов сульфата алюминия и хлорного железа в пропорции 1:1 (по массе).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "component ratio",
+    "direction": "no_change",
+    "factor": "mass ratio 1:1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По сообщениям отечественных источников, алюможелезные коагулянты приготавливают из растворов сульфата алюминия и хлорного железа в пропорции 1:1 (по массе).",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Максимальное соотношение FeCl3 к Al2(SO4)3 при применении смешанного коагулянта по массе равно 2:1.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "FeCl3 to Al2(SO4)3 mass ratio",
+    "direction": "no_change",
+    "factor": "maximum ratio 2:1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Максимальное соотношение FeCl3 к Al2(SO4)3 при применении смешанного коагулянта по массе равно 2:1.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Нерастворимых в воде веществ, % не более 2,0.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "no_change",
+    "factor": "≤2,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Нерастворимых в воде веществ,% не более 2,0",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Алюминий в пересчете на оксид, % не менее 12,0.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "aluminum oxide content",
+    "direction": "no_change",
+    "factor": "≥12,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Алюминий в пересчете на оксид,% не менее 12,0",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Соединения железа в пересчете на оксид железа (III), % не менее 2,5.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "iron oxide content",
+    "direction": "no_change",
+    "factor": "≥2,5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Соединения железа в пересчете на оксид железа (III),% не менее 2,5",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Мольное отношение железа к алюминию 0,13-0,15.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "molar Fe/Al ratio",
+    "direction": "no_change",
+    "factor": "0,13‑0,15",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мольное отношение железа к алюминию 0,13-0,15",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "pH раствора с масс.долей основного вещества 0,5% в пересчете на сумму окислов алюминия и железа 2,5±0,3.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pH",
+    "direction": "no_change",
+    "factor": "2,5±0,3",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "pH раствора с масс.долей основного вещества 0,5% в пересчете на сумму окислов алюминия и железа 2,5±0,3",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  },
+  {
+   "text": "Масс.доля мышьяка в пересчете на оксид мышьяка (III), % не более 0,003.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "no_change",
+    "factor": "≤0,003 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Масс.доля мышьяка в пересчете на оксид мышьяка (III),% не более 0,003",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:соли-железа-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,578 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_12_16-pdf",
+   "title": "CM_12_16.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2016\\CM_12_16.pdf.md",
+   "artifact_sha256": "ef3adbb6aeb2dfd25c624ca8b168f9e8fc80b7a62ba4aeb94776992db614c36b",
+   "okf_raw_path": "Журналы/Цветные металлы/2016/CM_12_16.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:carbonate-silicate-ore",
+   "label": "Carbonate‑silicate ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:thermally-treated-ore",
+   "label": "Thermally treated ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_12_16-pdf:0",
+   "document_id": "doc:cm_12_16-pdf",
+   "title": "Laboratory heating and flotation experiment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Material heated to 1250 °C, melted, cooled, ground and enriched using a Knelson centrifugal concentrator; gold droplets floated by CO₂ bubbles formed from carbonate decomposition.",
+       "temperature_text": "1250 о С",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1523.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:carbonate-silicate-ore",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "µm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "gold  after heating"
+     },
+     "method": null,
+     "snippet": "Таким образом, золото в процессе нагрева и расплавления рудной массы переходит в свободное состояние, а размеры его частиц увеличиваются до 100 мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:163",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 13.3,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Извлечение золота из исходной руды в концентрат находилось на уровне 13,3 %.",
+     "locator_kind": "md_para",
+     "locator": "para:163",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.44,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Тепловая обработка позволила довести этот показатель до 20,44 %.",
+     "locator_kind": "md_para",
+     "locator": "para:163",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 33.11,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "извлечение золота в гравитационный концентрат повысилось до 33,11 % для фракции + 0,045 мм",
+     "locator_kind": "md_para",
+     "locator": "para:163",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 28.56,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "и до 28,56 % для фракции -0,045 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:163",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Thermal treatment enables significant increase of gold recovery by gravity methods.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "gold recovery increase",
+      "direction": "increases",
+      "factor": "thermal treatment",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Тепловая обработка позволила довести этот показатель до 20,44 %.",
+     "locator_kind": "md_para",
+     "locator": "para:163",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В лабораторных условиях реализован разработанный способ извлечения тонкодисперсного золота из упорных карбонатно-силикатных руд.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_12_16-pdf:1",
+   "document_id": "doc:cm_12_16-pdf",
+   "title": "Laboratory cyanidation after thermal treatment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Cyanidation in neutral and alkaline solutions with KCN, stirring with air access for 24–28 h.",
+       "temperature_text": "ambient (laboratory)",
+       "duration_text": "24-28 ч"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:thermally-treated-ore",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "При цианировании, которое проводили в лабораторных условиях в нейтральных и щелочных растворах с добавлением KCN при перемешивании с доступом кислорода воздуха в течение 24-28 ч, извлечение золота после тепловой обработки достигает 100 %.",
+     "locator_kind": "md_para",
+     "locator": "para:164",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Cyanidation of thermally treated ore can achieve complete gold recovery.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "gold recovery",
+      "direction": "increases",
+      "factor": "thermal treatment + cyanidation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "извлечение золота после тепловой обработки достигает 100 %.",
+     "locator_kind": "md_para",
+     "locator": "para:164",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "При цианировании, которое проводили в лабораторных условиях в нейтральных и щелочных растворах с добавлением KCN при перемешивании с доступом кислорода воздуха в течение 24-28 ч, извлечение золота после тепловой обработки достигает 100 %.",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_12_16-pdf:2",
+   "document_id": "doc:cm_12_16-pdf",
+   "title": "Laboratory gravity concentration on Knelson KC‑MD3",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Gravity enrichment of ore before and after thermal treatment using Knelson KC‑MD3 centrifugal concentrator (capacity 0,045 t/h, water flow 3,5 l/min, acceleration 60 g).",
+       "temperature_text": "ambient (lab)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:carbonate-silicate-ore",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Centrifuge capacity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.045,
+      "max": null
+     },
+     "unit": "t/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "центробежном концентраторе Knelson KC-MD3 производительностью 0,045 т/ч",
+     "locator_kind": "md_para",
+     "locator": "para:182",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Water consumption",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.5,
+      "max": null
+     },
+     "unit": "l/min",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расход воды составлял 3,5 л/мин",
+     "locator_kind": "md_para",
+     "locator": "para:182",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Centrifugal acceleration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "g",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "ускорение - 60 g",
+     "locator_kind": "md_para",
+     "locator": "para:182",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Обогащение руды до и после тепловой обработки осуществляли в лабораторных условиях гравитационным способом на центробежном концентраторе Knelson KC-MD3 производительностью 0,045 т/ч.",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Журнал основан в 1926 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "foundation year",
+    "direction": "increases",
+    "factor": "foundation year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Журнал основан в 1926 г.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Издается с 1926 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "start year of publication",
+    "direction": "increases",
+    "factor": "start year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Издается с 1926 г.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Журнал выпускается при участии: Национального исследовательского ядерного университета «МИФИ», Национального исследовательского Томского политехнического университета, Государственного Эрмитажа; при содействии: Научно-производственного объединения «РИВС», Навоийского горно-металлургического комбината; при поддержке: Научно-технического союза по горному делу, геологии и металлургии (Респ. Болгария)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "participating institutions",
+    "direction": "increases",
+    "factor": "institutional involvement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Журнал выпускается при участии: Национального исследовательского ядерного университета «МИФИ», Национального исследовательского Томского политехнического университета, Государственного Эрмитажа; при содействии: Научно-производственного объединения «РИВС», Навоийского горно-металлургического комбината; при поддержке: Научно-технического союза по горному делу, геологии и металлургии (Респ. Болгария)",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Журнал зарегистрирован в Федеральной службе по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор) (Свидетельство ПИ No ФС77-51659 от 02.11.2012 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "registration details",
+    "direction": "increases",
+    "factor": "registration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Журнал зарегистрирован в Федеральной службе по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор) (Свидетельство ПИ No ФС77-51659 от 02.11.2012 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.81,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  },
+  {
+   "text": "In most world deposits, 30 to 60 % of gold is present as fine‑dispersed particles.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gold fine‑dispersion proportion",
+    "direction": "increases",
+    "factor": "global deposits",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С огласно литературным данным в большинстве месторождений мира от 30 до 60 % золота представлено тонкодисперсными частицами.",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.9,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Gold associated with pyrite, arsenopyrite, quartz and iron minerals is not extractable by cyanidation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gold extractability",
+    "direction": "decreases",
+    "factor": "association with certain minerals",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установлено, что золото ассоциировано с пиритом и арсенопиритом, а также заключено в кварце и минералах железа и не извлекается цианированием.",
+   "locator_kind": "md_para",
+   "locator": "para:181",
+   "confidence": 0.9,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Thermal treatment causes co‑agglomeration of gold droplets on the surface of the oxide melt, enabling gravity extraction.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gold particle agglomeration",
+    "direction": "increases",
+    "factor": "thermal treatment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате происходят концентрирование золота на поверхности образующегося оксидного расплава и укрупнение частиц до размеров, позволяющих извлекать Au гравитационными методами.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Approximately 50 % of the gold in the studied carbonate‑silicate ore is in a fine‑dispersed form (size from fractions to 10 µm).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gold fine‑dispersed proportion",
+    "direction": "increases",
+    "factor": "ore composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "~50 % золота находится в тонкодисперсном виде (крупность от долей до 10 мкм)",
+   "locator_kind": "md_para",
+   "locator": "para:180",
+   "confidence": 0.9,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  },
+  {
+   "text": "The ore contains 40‑50 % calcite, 15‑20 % quartz, 10‑15 % dolomite, 8‑10 % plagioclase, 5‑6 % muscovite, 3‑5 % pyrite, <1 % sulfides, 3‑5 % iron oxides/hydroxides.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mineral percentages",
+    "direction": "nonmonotonic",
+    "factor": "ore analysis",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "установлены содержания, % (мас.): 40-50 кальцит; 15-20 кварц; 10-15 доломит; 8-10 плагиоклаз; 5-6 мусковит; 3-5 пирит; <1 сульфиды (халькопирит, арсенопирит и другие); 3-5 оксиды и гидроксиды железа.",
+   "locator_kind": "md_para",
+   "locator": "para:179",
+   "confidence": 0.81,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Gold particles in the raw ore range from fractions up to 10 µm, making them difficult to recover by gravity or cyanidation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gold recoverability",
+    "direction": "decreases",
+    "factor": "particle size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "золото ассоциировано с пиритом и арсенопиритом, а также заключено в кварце и минералах железа и не извлекается цианированием, размеры зерен Au колебались от долей до 10 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Laser irradiation, microwave heating and other methods are being investigated to enlarge fine gold particles before enrichment.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle enlargement methods",
+    "direction": "nonmonotonic",
+    "factor": "research trend",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К этому сводятся воздействие лазерного излучения [4, 5], СВЧ-нагрева и других способов [6-8].",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9,
+   "document_id": "doc:cm_12_16-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,196 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:доклад_новожилова-о-с-pdf",
+   "title": "Доклад_Новожилова О.С.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Доклады\\Доклад_Новожилова О.С.pdf.md",
+   "artifact_sha256": "77c710034c2228aaa28f9da9ef3a442851f7c08fb08a25f1c51d7d1c4cf77cb3",
+   "okf_raw_path": "Доклады/Доклад_Новожилова О.С.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:шлак-силикатная-основа",
+   "label": "шлак (силикатная основа)",
+   "family": "slag",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:доклад_новожилова-о-с-pdf:0",
+   "document_id": "doc:доклад_новожилова-о-с-pdf",
+   "title": "Точный количественный анализ формы потерь цветных металлов в шлаках",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Определение форм потерь цветных металлов в шлаках с использованием SEM‑EDS и SEM‑WDS"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:шлак-силикатная-основа",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:шлак-силикатная-основа",
+     "value": {
+      "min": null,
+      "nominal": 35.5,
+      "max": null
+     },
+     "unit": "%масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "ср состав шлака (хим. анализ) | 35,5",
+     "locator_kind": "md_para",
+     "locator": "para:66",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:шлак-силикатная-основа",
+     "value": {
+      "min": null,
+      "nominal": 35.9,
+      "max": null
+     },
+     "unit": "%масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "цветных ср состав шлака (EDS) | 35,9",
+     "locator_kind": "md_para",
+     "locator": "para:66",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:шлак-силикатная-основа",
+     "value": {
+      "min": null,
+      "nominal": 35.5,
+      "max": null
+     },
+     "unit": "%масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "силикатная основа (WDS) | 35,5",
+     "locator_kind": "md_para",
+     "locator": "para:66",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Результаты EDS и WDS почти совпадают с химическим анализом для Fe",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "no_change",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "ср состав шлака (хим. анализ) | 35,5 ... цветных ср состав шлака (EDS) | 35,9 ... силикатная основа (WDS) | 35,5",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Точный количественный анализ. Пример: Определение форм потерь цветных металлов в шлаках",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Гранулометрические, топографические и морфологические данные могут быть не менее важны, чем элементный анализ",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Гранулометрические, топографические и морфологические данные могут быть не менее важны, чем элементный анализ",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:доклад_новожилова-о-с-pdf",
+   "process": null
+  },
+  {
+   "text": "Локальное ионное травление используется для подготовки образцов",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "ЛОКАЛЬНОЕ ИОННОЕ ТРАВЛЕНИЕ",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:доклад_новожилова-о-с-pdf",
+   "process": null
+  },
+  {
+   "text": "Институт Гипроникель оснащён тремя аналитическими комплексами на базе СЭМ TESCAN: LYRA3 (WDS и EDS), VEGA (EDS) и MIRA (EBSD и EDS)",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Лаборатория пирометаллургии оборудована тремя аналитическими комплексами на базе СЭМ TESCAN: - 1 - LYRA3 с детекторами WDS и EDS - 2 - VEGA с детектором с EDS - 3 - MIRA с детекторами EBSD и EDS",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.81,
+   "document_id": "doc:доклад_новожилова-о-с-pdf",
+   "process": null
+  },
+  {
+   "text": "SEM‑MAG: 13.8 kx, Vlew field: 15.0 um, BI: 9.00",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "20 pm Vlew ficld: 15.0 um SEM MAG: 13.8 kx Vlewfleld: 15.0 um LYRAЗ TESCAN] ... BI: 9.00",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.81,
+   "document_id": "doc:доклад_новожилова-о-с-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

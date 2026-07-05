@@ -1,0 +1,1009 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_01_2006-pdf",
+   "title": "CM_01_2006.pdf",
+   "doc_type": "article",
+   "year": 2006,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2006\\CM_01_2006.pdf.md",
+   "artifact_sha256": "9f1b193ce7f2158b12219df55958c86cc4cab7f2243e6cc95cd179de76b0f136",
+   "okf_raw_path": "Журналы/Цветные металлы/2006/CM_01_2006.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:chalcopyrite-and-chalcosine",
+   "label": "chalcopyrite and chalcosine",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mibk-метилизобутилкарбинол",
+   "label": "MIBK (метилизобутилкарбинол)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:медно-никелевая-руда",
+   "label": "медно‑никелевая руда",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Cu",
+   "label": "Cu",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Ni",
+   "label": "Ni",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Co",
+   "label": "Co",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_01_2006-pdf:0",
+   "document_id": "doc:cm_01_2006-pdf",
+   "title": "Flotation of monomineral samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Flotation of monomineral samples of chalcopyrite and chalcosine"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chalcopyrite-and-chalcosine",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:mibk-метилизобутилкарбинол",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "No signs of adsorption saturation for either BKs or DMDK were observed at the tested concentration.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "adsorption saturation",
+      "direction": "no_change",
+      "factor": "reagent concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При концентрации реагентов 140 мг/л, что соответствует расходу ~400 г/т минерала, признаков насыщения адсорбции как БКс, так и ДМДК не наблюдается.",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Флотацию мономинеральных проб халькопирита и халькозина массой 1 г (класс -0,16+0,071 мкм) проводили во флотационной камере вместимостью 20 мл, используя в качестве пенообразователя метилизобутилкарбинол (МИБК).",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_01_2006-pdf:1",
+   "document_id": "doc:cm_01_2006-pdf",
+   "title": "Опытно‑промышленные испытания плавки медно‑никелевой руды на штейн в печи Ванюкова (ПВ‑1)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "прямая переработка в ПВ богатой медно‑никелевой руды без её измельчения и флотационного обогащения",
+       "temperature_text": "не указана",
+       "duration_text": "80 ч (этап 1), 32 ч (этап 2)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:медно-никелевая-руда",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "mass",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 833.0,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "полученного штейна"
+     },
+     "method": null,
+     "snippet": "На 1‑м этапе было получено 833 т штейна со средним содержанием, %: 33,1 Cu; 12,0 Ni; 0,21 Со",
+     "locator_kind": "md_para",
+     "locator": "para:155",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "mass",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3792.5,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "полученного шлака"
+     },
+     "method": null,
+     "snippet": "3792,5 т шлака со средним содержанием, %: 0,75 Cu; 0,37 Ni; 0,078 Со",
+     "locator_kind": "md_para",
+     "locator": "para:155",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "mass",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 194.5,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "богатого штейна"
+     },
+     "method": null,
+     "snippet": "На 2‑м этапе - 194,5 т богатого штейна со средним содержанием, %: 45,3 Cu; 18,1 Ni; 0,16 Со",
+     "locator_kind": "md_para",
+     "locator": "para:155",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "mass",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1369.0,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "шлака второго этапа"
+     },
+     "method": null,
+     "snippet": "1369 т шлака со средним содержанием, %: 0,83 Cu; 0,77 Ni; 0,101 Co",
+     "locator_kind": "md_para",
+     "locator": "para:155",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 87.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "прямое  cu"
+     },
+     "method": null,
+     "snippet": "на 1‑м этапе: 87,8-89,2 Сu",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 85.7,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "прямое  ni"
+     },
+     "method": null,
+     "snippet": "на 1‑м этапе: 85,7-87,4 Ni",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:chalcopyrite-and-chalcosine",
+     "value": {
+      "min": null,
+      "nominal": 32.7,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "прямое  co"
+     },
+     "method": null,
+     "snippet": "на 1‑м этапе: 32,7-40,4 Co",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 86.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "прямое  cu"
+     },
+     "method": null,
+     "snippet": "на 2‑м этапе: 86,8-87,7 Сu",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 71.3,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "прямое  ni"
+     },
+     "method": null,
+     "snippet": "на 2‑м этапе: 71,3-73,2 Ni",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:chalcopyrite-and-chalcosine",
+     "value": {
+      "min": null,
+      "nominal": 15.7,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "прямое  co"
+     },
+     "method": null,
+     "snippet": "на 2‑м этапе: 15,7-21,3 Co",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Техническое состояние ПВ‑1 в период испытаний было «неидеальным».",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "technical condition",
+      "direction": "nonmonotonic",
+      "factor": "technical condition",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Техническое состояние ПВ‑1 в период испытаний было «неидеальным».",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Целью опытно‑промышленных испытаний являлась экспериментальная проверка возможности прямой переработки в ПВ богатой медно‑никелевой руды без её измельчения и флотационного обогащения.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_01_2006-pdf:2",
+   "document_id": "doc:cm_01_2006-pdf",
+   "title": "Плавка медно‑никелевой руды на штейн в печи Ванюкова (общий обзор)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "плавка в печи Ванюкова (ПВ‑1) с двумя режимами: рядовой штейн (~45 % Σ(Cu+Ni)) и богатый штейн",
+       "temperature_text": "не указана",
+       "duration_text": "80 ч (режим рядовой), 32 ч (режим богатый)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:медно-никелевая-руда",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 68.5,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "суммарное  меди и никеля в полученных штейнах"
+     },
+     "method": null,
+     "snippet": "Максимальное суммарное содержание меди и никеля в полученных штейнах составило 68,5 % (концентрация железа 7,5 %).",
+     "locator_kind": "md_para",
+     "locator": "para:152",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Плавке подвергали руду следующего усредненного состава, %: 7,0 Cu; 3,0 Ni; 0,133 Co; 49,65 Fe; 31,2 S; 2,4 SiO2 , всего было переработано 4627 т медно‑никелевой руды.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_01_2006-pdf:3",
+   "document_id": "doc:cm_01_2006-pdf",
+   "title": "Stage 1 extraction test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Direct extraction of Cu, Ni, Co from matte during the first stage of testing",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:Cu",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:Ni",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:Co",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:Cu",
+     "value": {
+      "min": 87.8,
+      "nominal": null,
+      "max": 89.2
+     },
+     "unit": "wt %",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "cu  in matte"
+     },
+     "method": null,
+     "snippet": "на 1‑этапе: 87,8-89,2 Сu",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:Ni",
+     "value": {
+      "min": 85.7,
+      "nominal": null,
+      "max": 87.4
+     },
+     "unit": "wt %",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "ni  in matte"
+     },
+     "method": null,
+     "snippet": "на 1‑этапе: 85,7-87,4 Ni",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:Co",
+     "value": {
+      "min": 32.7,
+      "nominal": null,
+      "max": 40.4
+     },
+     "unit": "wt %",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "co  in matte"
+     },
+     "method": null,
+     "snippet": "на 1‑этапе: 32,7-40,4 Co",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Средние прямые извлечения меди, никеля и кобальта в штейн за весь период испытаний составили, %: 88,5 Cu; 83,1 Ni; 33,8 Co.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "average direct extraction",
+      "direction": "increases",
+      "factor": "overall test period",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Средние прямые извлечения меди, никеля и кобальта в штейн за весь период испытаний составили, %: 88,5 Сu; 83,1 Ni; 33,8 Co.",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "на 1‑этапе: 87,8-89,2 Сu; 85,7-87,4 Ni; 32,7-40,4 Co.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_01_2006-pdf:4",
+   "document_id": "doc:cm_01_2006-pdf",
+   "title": "Stage 2 extraction test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Direct extraction of Cu, Ni, Co from matte during the second stage of testing",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:Cu",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:Ni",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:Co",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:Cu",
+     "value": {
+      "min": 86.8,
+      "nominal": null,
+      "max": 87.7
+     },
+     "unit": "wt %",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "cu  in matte"
+     },
+     "method": null,
+     "snippet": "на 2‑этапе: 86,8-87,7 Сu",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:Ni",
+     "value": {
+      "min": 71.3,
+      "nominal": null,
+      "max": 73.2
+     },
+     "unit": "wt %",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "ni  in matte"
+     },
+     "method": null,
+     "snippet": "на 2‑этапе: 71,3-73,2 Ni",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:Co",
+     "value": {
+      "min": 15.7,
+      "nominal": null,
+      "max": 21.3
+     },
+     "unit": "wt %",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "co  in matte"
+     },
+     "method": null,
+     "snippet": "на 2‑этапе: 15,7-21,3 Co",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Более низкие по сравнению с плавкой медных концентратов извлечения цветных металлов в штейн связаны с меньшим содержанием цветных металлов в медно‑никелевой руде по сравнению с концентратами и, соответственно, с более высоким выходом шлака, особенно при получении богатых штейнов.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "decreases",
+      "factor": "lower base metal content in ore",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Более низкие по сравнению с плавкой медных концентратов извлечения цветных металлов в штейн связаны с меньшим содержанием цветных металлов в медно‑никелевой руде по сравнению с концентратами и, соответственно, с более высоким выходом шлака, особенно при получении богатых штейнов.",
+     "locator_kind": "md_para",
+     "locator": "para:159",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "на 2‑этапе: 86,8-87,7 Сu; 71,3-73,2 Ni; 15,7-21,3 Co.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "In the presence of DMDK the floatability of arsenopyrite and pyrrhotite with BKs decreases.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "floatability",
+    "direction": "decreases",
+    "factor": "DMDK presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в присутствии ДМДК флотируемость арсенопирита и пирротина БКс снижается",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.45,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "The floatability of pyrite remains at a sufficiently high level under the same conditions.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "floatability",
+    "direction": "no_change",
+    "factor": "DMDK + BKs presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "а флотируемость пирита в этих условиях остается на достаточно высоком уровне",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "On arsenopyrite and pyrrhotite BKs mainly form metal salts that decompose under DMDK action into short‑chain carbamate salts.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "salt formation",
+    "direction": "increases",
+    "factor": "BKs + DMDK interaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на арсенопирите и пирротине БКc образует преимущественно соли металлов, которые под действием ДМДК разрушаются с образованием короткоцепочечных солей карбамата",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "On pyrite the main adsorption form is dixantogenide, which does not desorb in the presence of DMDK, preserving its flotation properties.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "desorption",
+    "direction": "decreases",
+    "factor": "DMDK presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На пирите основной формой адсорбции является диксантогенид, который в присутствии ДМДК не десорбируется с поверхности минерала, что и является причиной сохранения его флотационных свойств",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "DMDK is also capable of reducing the floatability of pyrrhotite when nickel‑pyrrhotite products are being separated.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "floatability",
+    "direction": "decreases",
+    "factor": "DMDK presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Известно также о способности ДМДК снижать флотируемость пирротина при разделении никель‑пирротиновых продуктов",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.45,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Studying the floatability of copper sulfides in the presence of DMDK is of both theoretical and practical importance because many ores contain copper sulfides.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "По скольку в составе многих руд присутствуют сульфиды меди, изучение их флотируемости в присутствии ДМДК представляет как теоретическое, так и практическое значение",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Головным переделом техно‑логической схемы пирометаллургического производства Медного завода ЗФ ГМК «Норильский никель» является плавка на штейн никель‑содержащего медного сырья в печах Ванюкова (ПВ).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "текущий технологический приоритет",
+    "direction": "increases",
+    "factor": "технологический приоритет",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время головным переделом техно‑логической схемы пирометаллургического производства Медного завода ЗФ ГМК «Но‑рильский никель» является плавка на штейн никель‑содержащего медного сырья (концентратов и руды) в печах Ванюкова (ПВ).",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.45,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "ПВ может быть использована не только для селективных медных никельсодержащих концентратов, но и для плавки медно‑никелевого сульфидного сырья, в том числе коллективных медно‑никелевых концентратов, на штейн.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "применимость",
+    "direction": "increases",
+    "factor": "применимость",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ранее показано, что ПВ может быть использована не только для селективных медных никельсодержащих концентратов, но и для плавки медно‑никелевого сульфидного сырья, в том числе коллективных медно‑никелевых концентратов, на штейн.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.45,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Техническое состояние печи ПВ‑1 к началу испытаний было «неидеальным».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "техническое состояние",
+    "direction": "decreases",
+    "factor": "техническое состояние",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Техническое состояние ПВ‑1 в период испытаний было «неидеальным».",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.45,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Максимальное суммарное содержание меди и никеля в полученных штейнах составило 68,5 % (концентрация железа 7,5 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "содержание Cu+Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Максимальное суммарное содержание меди и никеля в полученных штейнах составило 68,5 % (концентрация железа 7,5 %).",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "Увеличение концентрации железа и магнетита в шлаке ведет к росту потерь Cu, Ni и Co со шлаками (положительные значения К п.к).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "yield_fraction",
+    "direction": "increases",
+    "factor": "higher Fe and Fe3O4",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Увеличение концентрации железа и магнетита в шлаке ведет к росту потерь Cu, Ni и Co со шлаками (положительные значения К п.к).",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Повышение концентрации кремнезема в шлаке (в исследованном диапазоне его концентраций), на оборот, способствует снижению потерь всех цветных металлов (отрицательные значения К п.к).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "yield_fraction",
+    "direction": "decreases",
+    "factor": "higher SiO2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение концентрации кремнезема в шлаке (в исследованном диапазоне его концентраций), на оборот, способствует снижению потерь всех цветных металлов (отрицательные значения К п.к).",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Увеличение концентрации серы в шлаке также сопровождается снижением содержания цветных металлов в шлаке (отрицательные значения К п.к).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "color metal content in slag",
+    "direction": "decreases",
+    "factor": "higher S",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Увеличение концентрации серы в шлаке также сопровождается снижением содержания цветных металлов в шлаке (отрицательные значения К п.к).",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Некоторое положительное влияние концентрации оксида кальция (отрицательные значения К п.к) на потери цветных металлов со шлаком, однако абсолютная величина коэффициента корреляции невелика, что делает этот вывод предварительным.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "yield_fraction",
+    "direction": "decreases",
+    "factor": "higher CaO",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Можно отметить также некоторое положительное влияние концентрации оксида кальция (отрицательные значения К п.к) на потери цветных металлов со шлаком. Однако абсолютная величина коэффициента корреляции невелика, что делает этот вывод предварительным.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.45,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "При прочих равных условиях увеличение концентрации FeO (или снижение содержания кремнезема) в шлаке ведет к росту его активности и, в соответствии с реакциями (1) и (2), к увеличению равновесного PO2 системы и активности магнетита.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "slag activity, PO2, magnetite activity",
+    "direction": "increases",
+    "factor": "higher FeO or lower SiO2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При прочих равных условиях увеличение концентрации FeO (или снижение содержания кремнезема) в шлаке ведет к росту его активности и в соответствии с реакциями (1) и (2) к увеличению равновесного PO2 системы и активности магнетита.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.45,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Рост активности оксидов железа (при прочих равных условиях) в соответствии с реакциями (3) и (4) способствует увеличению оксидной растворимости цветных металлов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "higher Fe‑oxide activity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рост активности оксидов железа (при прочих равных условиях) в соответствии с реакциями (3) и (4) способствует увеличению оксидной растворимости цветных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.45,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  },
+  {
+   "text": "Традиционно существует жесткая взаимосвязь между содержанием меди и никеля в штейне и концентрацией в нем серы (К п.к = -0,91) и железа (К п.к = -0,99).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Cu/Ni vs S and Fe",
+    "direction": "decreases",
+    "factor": "higher Cu/Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из данных рис. 1, 2 видно, что традиционно существует жесткая взаимосвязь между содержанием меди и никеля в штейне и концентрацией в нем серы (К п.к = -0,91) и железа (К п.к = -0,99).",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.81,
+   "document_id": "doc:cm_01_2006-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

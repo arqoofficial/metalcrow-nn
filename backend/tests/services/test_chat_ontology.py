@@ -9,12 +9,22 @@ from app.schemas.chat import ChatMessageResponse
 from app.services import ontology_client
 
 
+@pytest.fixture(autouse=True)
+def _no_litsearch_in_auto(monkeypatch: pytest.MonkeyPatch) -> None:
+    """AUTO now offers `literature_search_en` first (spec §2.5); with a reachable
+    gateway the model would non-deterministically grab it and pre-empt the
+    ontology/KG waterfall these tests assert. Empty `LITSEARCH_BASE_URL` forces
+    `llm.chat` (hence the Phase-A loop) into the degraded path, so AUTO
+    deterministically falls through to ontology/KG — the behaviour under test."""
+    monkeypatch.setattr(settings, "LITSEARCH_BASE_URL", "")
+
+
 def test_ontology_claims_maps_citations() -> None:
     from app.services import chat as chat_service
 
     original = ontology_client.ask
     try:
-        ontology_client.ask = lambda _q: {
+        ontology_client.ask = lambda _q, **_kw: {
             "tools_used": ["literature_review"],
             "tool_args": {"process": "хлорирование"},
             "claims": [
@@ -44,7 +54,7 @@ def test_ontology_claims_ignores_empty_evidence_slots(
     monkeypatch.setattr(
         ontology_client,
         "ask",
-        lambda _q: {
+        lambda _q, **_kw: {
             "tools_used": ["evidence"],
             "tool_args": {},
             "claims": [{"text": "recovery_degree = 95–97 %", "kind": "fact"}],
@@ -61,7 +71,7 @@ def test_ontology_claims_ignores_no_match(monkeypatch: pytest.MonkeyPatch) -> No
     monkeypatch.setattr(
         ontology_client,
         "ask",
-        lambda _q: {"tools_used": [], "tool_args": {}, "claims": []},
+        lambda _q, **_kw: {"tools_used": [], "tool_args": {}, "claims": []},
     )
     claims, tools = chat_service._ontology_claims("random english question")
     assert claims == []
@@ -94,7 +104,7 @@ def test_post_message_ontology_branch(
     monkeypatch.setattr(
         ontology_client,
         "ask",
-        lambda _q: {
+        lambda _q, **_kw: {
             "tools_used": ["literature_review"],
             "tool_args": {"process": "хлорирование"},
             "claims": [
@@ -127,7 +137,7 @@ def test_post_message_mode_ontology_forced(
     monkeypatch.setattr(
         ontology_client,
         "ask",
-        lambda _q: {
+        lambda _q, **_kw: {
             "tools_used": ["literature_review"],
             "tool_args": {"process": "хлорирование"},
             "claims": [
@@ -163,7 +173,7 @@ def test_post_message_mode_ontology_no_match(
     monkeypatch.setattr(
         ontology_client,
         "ask",
-        lambda _q: {"tools_used": [], "tool_args": {}, "claims": []},
+        lambda _q, **_kw: {"tools_used": [], "tool_args": {}, "claims": []},
     )
     session = _create_session(client, normal_user_token_headers)
     r = client.post(
@@ -227,7 +237,7 @@ def test_post_message_chitchat_via_ontology(
     monkeypatch.setattr(
         ontology_client,
         "ask",
-        lambda _q: {
+        lambda _q, **_kw: {
             "tools_used": ["chitchat"],
             "tool_args": {},
             "claims": [{"text": "Я — ассистент по базе знаний", "kind": "chat"}],

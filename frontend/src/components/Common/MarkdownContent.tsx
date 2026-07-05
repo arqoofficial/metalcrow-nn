@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown"
+import rehypeRaw from "rehype-raw"
 import remarkGfm from "remark-gfm"
 
 import { cn } from "@/lib/utils"
@@ -13,6 +14,7 @@ export function MarkdownContent({ content, className }: MarkdownContentProps) {
     <div className={cn("wiki-markdown text-sm", className)}>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw]}
         components={{
           h1: ({ children }) => (
             <h1 className="mt-6 mb-4 text-2xl font-bold tracking-tight first:mt-0">
@@ -115,6 +117,8 @@ export function MarkdownContent({ content, className }: MarkdownContentProps) {
               {children}
             </strong>
           ),
+          sub: ({ children }) => <sub>{children}</sub>,
+          sup: ({ children }) => <sup>{children}</sup>,
         }}
       >
         {content}

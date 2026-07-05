@@ -1,0 +1,1011 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:куба_пунтагорда_2018-docx",
+   "title": "Куба_ПунтаГорда_2018.docx",
+   "doc_type": "article",
+   "year": 2012,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Куба_ПунтаГорда_2018.docx.md",
+   "artifact_sha256": "0265a3486ba5d6691fe6126ad0c21e6503d465347f11b426fcbfbecdc9a3c803",
+   "okf_raw_path": "Обзоры/Куба_ПунтаГорда_2018.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:oxidised-ore",
+   "label": "oxidised ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mixed-ni-co-sulfide",
+   "label": "mixed Ni‑Co sulfide",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:limonite-serpentine-ore",
+   "label": "limonite/serpentine ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-cobalt-sinter",
+   "label": "nickel‑cobalt sinter",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-powder-cobalt-powder-briquettes",
+   "label": "nickel powder, cobalt powder, briquettes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:laterrito-serpentinite-ore",
+   "label": "laterrito‑serpentinite ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:open-pit-ore",
+   "label": "open‑pit ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:leach-solution",
+   "label": "leach solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:куба_пунтагорда_2018-docx:0",
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "title": "Moa Nickel plant (industrial)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "autoclave sulfuric‑acid leaching of oxidised iron‑limonite ore (Mg < 1 %)",
+       "temperature_text": "1000°C (drying furnace)",
+       "duration_text": "continuous operation since 1959"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1273.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:oxidised-ore",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:mixed-ni-co-sulfide",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "nickel‑cobalt sulfide processing downstream",
+     "scope": "material",
+     "material_id": "mat:mixed-ni-co-sulfide",
+     "value": {
+      "min": null,
+      "nominal": 1994.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Полученный смешанный никель-кобальтовый сульфид с 1994 года перерабатывается на канадском заводе Fort Saskatchewan компании Sherritt c получением никелевого и кобальтового порошков/брикетов.",
+     "locator_kind": "md_para",
+     "locator": "para:7",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant was commissioned in 1959 by Freeport and has operated on oxidised ore using autoclave sulfuric‑acid leaching.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Завод Moa Nickel введен в строй в 1959 г. американской компанией Freeport; перерабатывал окисленную руду (железистые лимониты с содержанием магния <1%) по технологии автоклавного сернокислотного выщелачивания.",
+     "locator_kind": "md_para",
+     "locator": "para:7",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Завод Moa Nickel введен в строй в 1959 г. американской компанией Freeport; перерабатывал окисленную руду (железистые лимониты с содержанием магния <1%) по технологии автоклавного сернокислотного выщелачивания.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_пунтагорда_2018-docx:1",
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "title": "Punta Gorda plant (industrial)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Caron ammonia‑carbonate leaching (ammoniac‑carbonate leaching)",
+       "temperature_text": "drying furnace 1000°C; cooling to ~100°C; sintering furnace up to 1300°C",
+       "duration_text": "continuous operation since 1987"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1273.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:limonite-serpentine-ore",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:nickel-cobalt-sinter",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:oxidised-ore",
+     "value": {
+      "min": null,
+      "nominal": 1.23,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Содержание никеля в перерабатываемой лимонитово/серпентиновой руде - 1,23%.",
+     "locator_kind": "md_para",
+     "locator": "para:8",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:oxidised-ore",
+     "value": {
+      "min": null,
+      "nominal": 0.1,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Co"
+     },
+     "method": null,
+     "snippet": "кобальта - 0,10%.",
+     "locator_kind": "md_para",
+     "locator": "para:8",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "annual nickel production",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-sinter",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "тыс т/г",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "завод в Punta Gorda выпускал менее 20 тыс т/г никеля при исходной мощности 30 тыс т/г.",
+     "locator_kind": "md_para",
+     "locator": "para:4",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The Caron process is intended mainly for limonite ore (~1,4 % Ni, 0,1 % Co) producing a sinter (~90 % Ni, 10 % O).",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В первую очередь, процесс Карона, вообще говоря, предназначен для переработки, в основном, лимонитовой руды (~1,4% Ni, 0,1% Co) c получением синтера (~90% Ni, 10% O) и других продуктов.",
+     "locator_kind": "md_para",
+     "locator": "para:9",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Завод в Punta Gorda введен в строй в 1987 г. при технической и финансовой поддержке СССР. Как и на заводе в Nicaro, применяется технология аммиачно‑карбонатное выщелачивания – процесс Карона.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_пунтагорда_2018-docx:2",
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "title": "Fort Saskatchewan plant (industrial downstream of Moa Nickel)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "hydrometallurgical processing of mixed Ni‑Co sulfide to powders/briquettes",
+       "duration_text": "since 1994"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mixed-ni-co-sulfide",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:nickel-powder-cobalt-powder-briquettes",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Полученный смешанный никель-кобальтовый сульфид с 1994 года перерабатывается на канадском заводе Fort Saskatchewan компании Sherritt c получением никелевого и кобальтового порошков/брикетов.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_пунтагорда_2018-docx:3",
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "title": "Industrial application of the Caron process at the Nicaro plant (Cuba)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Caron (ammonia‑carbonate leaching) technology",
+       "temperature_text": "720‑750 °C (reduction furnace)",
+       "duration_text": "continuous operation (plant‑scale)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 993.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:laterrito-serpentinite-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "nickel production capacity (design)",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-sinter",
+     "value": {
+      "min": null,
+      "nominal": 23.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Проектная производительность завода 23 тыс. т никеля в год.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "actual nickel production (current)",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-sinter",
+     "value": {
+      "min": null,
+      "nominal": 16.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "производство на заводе в настоящее время составляет только около 16 тыс. т/г.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "ore moisture reduction in drying",
+     "scope": "material",
+     "material_id": "mat:oxidised-ore",
+     "value": {
+      "min": null,
+      "nominal": 38.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Руда сушится в 7 отапливаемых нефтяным топливом вращающихся сушилках, где влажность снижается с 38% до 5%.",
+     "locator_kind": "md_para",
+     "locator": "para:51",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-sinter",
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Co"
+     },
+     "method": null,
+     "snippet": "Извлечение кобальта в получаемый концентрат составляет 30%.",
+     "locator_kind": "md_para",
+     "locator": "para:53",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-sinter",
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Co"
+     },
+     "method": null,
+     "snippet": "Около половины кобальта, извлекаемого в раствор, переходит в никелевый товарный продукт.",
+     "locator_kind": "md_para",
+     "locator": "para:53",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The Caron process at Nicaro can process ore with higher magnesium content than acid leaching, but high energy consumption makes it uneconomical at current nickel prices.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "economic competitiveness",
+      "direction": "decreases",
+      "factor": "energy consumption",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Преимуществом процесса Карон можно назвать возможность переработки руды с более высоким содержанием магния, чем при АКВ, но издержки производства, при очень больших энергозатратах делает эту технологию неконкурентоспособной, особенно при текущем уровне цен на никель.",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Процесс Карона впервые был внедрен **на заводе Nicaro** на Кубе для переработки местных латеритовых руд.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_пунтагорда_2018-docx:4",
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "title": "Industrial application of the Caron process at the Punta Gorda plant (Cuba)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Caron (ammonia‑carbonate leaching) technology, with plant‑specific improvements",
+       "temperature_text": "720‑750 °C (reduction furnace, 11 of 24 Gerringhoff furnaces)",
+       "duration_text": "2005 plant‑scale operation"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 993.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:open-pit-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ore grade",
+     "scope": "material",
+     "material_id": "mat:oxidised-ore",
+     "value": {
+      "min": null,
+      "nominal": 1.27,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Руда, добываемая открытым способом, содержит 1,27% никеля и 0,1% кобальта.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "ore processed (2005)",
+     "scope": "material",
+     "material_id": "mat:oxidised-ore",
+     "value": {
+      "min": null,
+      "nominal": 3300.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Завод перерабатывал в 2005 г. 3300 тыс. т руды (на сухой вес)",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel produced (2005)",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-sinter",
+     "value": {
+      "min": null,
+      "nominal": 31.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и произвел 31,4 тыс. т никеля.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-sinter",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 30.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Co"
+     },
+     "method": null,
+     "snippet": "Однако извлечение кобальта и там не превышает 30%",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Cobalt extraction at Punta Gorda does not exceed 30 %, with roughly half ending in mixed sulfides and half entering the sinter.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "no_change",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Однако извлечение кобальта и там не превышает 30%, половина приходится на смешанные сульфиды, а половина кобальта переходит в синтер.",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Вторым заводом на Кубе, работающим по технологии аммиачно-карбонатного выщелачивания (процесс Карона), является **завод Punta Gorda** , который был спроектирован институтом «Гипроникель» и введен в эксплуатацию в начале 1990‑х годов с помощью советских специалистов.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_пунтагорда_2018-docx:5",
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "title": "Installation of cobalt precipitation unit at Nicaro (1988)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "Ammonia‑sulphide precipitation of cobalt from leach solution"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:leach-solution",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "cobalt recovery to concentrate",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-sinter",
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Извлечение кобальта в получаемый концентрат составляет 30%.",
+     "locator_kind": "md_para",
+     "locator": "para:53",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-sinter",
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Co"
+     },
+     "method": null,
+     "snippet": "Около половины кобальта, извлекаемого в раствор, переходит в никелевый товарный продукт.",
+     "locator_kind": "md_para",
+     "locator": "para:53",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В 1988 году на заводе Nicaro была введена в строй установка по осаждению из раствора выщелачивания кобальта в виде сульфида сульфидом аммония.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The two Cuban nickel plants have a combined capacity of about 70 000 t/yr Ni.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Суммарная мощность двух заводов – около 70 тыс т/г Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:4",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Moa’s mixed Ni‑Co sulfide output in recent years was roughly 36‑37 000 t/yr.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Выпуск Ni+Co в смешанных сульфидах Moa в последние годы составлял порядка 36-37 тыс т/г",
+   "locator_kind": "md_para",
+   "locator": "para:4",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Reliable data on Cuban nickel production are lacking.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Следует отметить, что надежных данных по выпуску никеля кубинскими предприятиями в нашем распоряжении нет.",
+   "locator_kind": "md_para",
+   "locator": "para:4",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "The Caron process includes energy‑intensive drying and roasting steps, leading to high costs.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "increases",
+    "factor": "high",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "он включает в себя пирометаллургические процессы: сушку и обжиг, которые являются существенно энергоемкими. Как следствие, издержки высокие",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Nickel extraction by the Caron process is moderately high, while cobalt extraction is comparatively low.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "извлечение никеля «умеренно высокое», извлечение кобальта – сравнительно низкое",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "The Caron process is usually limited to limonite or mixed ore with >35 % Fe.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "обычно применение процесса ограничивается лимонитовой или смешанной рудой с >35% Fe",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.81,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Nickel recovery from the Caron process is about 75 %.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Извлечение никеля обычно ~75%",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Cobalt recovery from the Caron process is 40‑50 %.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Извлечение кобальта 40-50%.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Only one of the five originally built Cuban ammonia‑leaching plants is currently operating – the one at Punta Gorda.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в настоящее время эксплуатируется только один – в Punta Gorda",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.81,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "The Yabulu plant in Queensland, Australia, which used ammonia leaching, was closed in 2016.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в 2016 г. закрыт завод Yabulu (шт. Квинсленд, Австралия) компании Queensland Nickel, перерабатывавший импортную руду по технологии аммиачного выщелачивания",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Brazilian company Votorantim stopped nickel mining and production at Sao Jose Tocantins and Sao Miguel Paulista in 2016 due to unfavorable market conditions.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в 2016 г. бразильская компания Votorantim S.A. в связи с неблагоприятной ситуацией на рынке никеля решила остановить на неопределенный срок добычу руды и производство никеля на предприятиях в Sao Jose Tocantins и Sao Miguel Paulista",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "The Caron process allows processing of ore with higher magnesium content than acid leaching.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "magnesium tolerance",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Преимуществом процесса Карон можно назвать возможность переработки руды с более высоким содержанием магния, чем при АКВ",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Modernisation of the Punta Gorda plant is a priority to make the plant competitive by reducing energy consumption.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "modernisation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В первую очередь, чтобы сделать завод конкурентоспособным, надо снижать потребление энергии.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Technological changes will be introduced into the energy matrix, including the possible use of coal, coke or gas to lower costs.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fuel type",
+    "direction": "increases",
+    "factor": "cost reduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Изучается вопрос о возможности использования других видов топлива (уголь, кокс, газ) с целью снижения издержек.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "A solar‑energy drying system is planned, with equipment purchase and site preparation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "drying energy source",
+    "direction": "increases",
+    "factor": "solar",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в планах – закупка оборудования и подготовка площадки для применения солнечной энергии для сушки.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Chinese financing was approved for the refurbishment of recovery furnaces, to be completed in 2019.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "furnace refurbishment",
+    "direction": "increases",
+    "factor": "financing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "эта работа, на которую было утверждено «китайское финансирование» должна быть завершена в 2019 г.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Cobalt production at Nicaro is less than 150 t per year, so its impact on nickel cost is minor.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cobalt production volume",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "производство кобальта в концентрате составляет менее 150 т/г, поэтому он может лишь незначительно повлиять на себестоимость никеля на Nicaro.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "In 2016 the Brazilian company Votorantim S.A. halted nickel ore mining and nickel production at Sao Jose Tocantins and Sao Miguel Paulista indefinitely due to an unfavorable nickel market.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operation status",
+    "direction": "decreases",
+    "factor": "market conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2016 г. бразильская компания Votorantim S.A. ... решила остановить на неопределенный срок добычу руды и производство никеля на предприятиях в Sao Jose Tocantins и Sao Miguel Paulista.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "The Punta Gorda plant’s program to eliminate bottlenecks aims to raise Ni+Co output to 36 kt/yr, with a longer‑term target of 52 kt/yr.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Ni+Co output",
+    "direction": "increases",
+    "factor": "bottleneck elimination program",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "«осуществляет программу расшивания узких мест», что позволит увеличить выпуск Ni+Co до 36 тыс т/г. Планы на дальнейшую перспективу – 52 тыс т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  },
+  {
+   "text": "Actual Ni+Co production at Punta Gorda was about 18.5 kt in 2016 and about 19 kt in 2017, affected by a major plant overhaul and a hurricane.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Ni+Co production",
+    "direction": "decreases",
+    "factor": "overhaul, hurricane",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "фактически выпуск в 2016 г. – порядка 18,5 тыс т, в 2017 г. – порядка 19 тыс т.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:куба_пунтагорда_2018-docx",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:mixed-ni-co-sulfide",
+   "dst": "mat:oxidised-ore",
+   "process": "leaching",
+   "kind": null,
+   "snippet": "Завод Moa Nickel введен в строй в 1959 г. американской компанией Freeport; перерабатывал окисленную руду (железистые лимониты с содержанием магния <1%) по технологии автоклавного сернокислотного выщелачивания.",
+   "doc_id": "doc:куба_пунтагорда_2018-docx"
+  },
+  {
+   "src": "mat:nickel-cobalt-sinter",
+   "dst": "mat:limonite-serpentine-ore",
+   "process": "leaching",
+   "kind": null,
+   "snippet": "Завод в Punta Gorda введен в строй в 1987 г. при технической и финансовой поддержке СССР. Как и на заводе в Nicaro, применяется технология аммиачно‑карбонатное выщелачивания – процесс Карона.",
+   "doc_id": "doc:куба_пунтагорда_2018-docx"
+  },
+  {
+   "src": "mat:nickel-powder-cobalt-powder-briquettes",
+   "dst": "mat:mixed-ni-co-sulfide",
+   "process": "other",
+   "kind": null,
+   "snippet": "Полученный смешанный никель-кобальтовый сульфид с 1994 года перерабатывается на канадском заводе Fort Saskatchewan компании Sherritt c получением никелевого и кобальтового порошков/брикетов.",
+   "doc_id": "doc:куба_пунтагорда_2018-docx"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

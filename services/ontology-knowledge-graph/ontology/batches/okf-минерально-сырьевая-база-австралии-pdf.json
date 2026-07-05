@@ -1,0 +1,1026 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "title": "Минерально-сырьевая база Австралии.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Минерально-сырьевая база Австралии.pdf.md",
+   "artifact_sha256": "9d45358dafbb7a01554cded39f301296d3f1ecd071b5f90b41a6c56924cf537e",
+   "okf_raw_path": "Обзоры/Минерально-сырьевая база Австралии.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:газовыи-конденсат",
+   "label": "газовый конденсат",
+   "family": "gas",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:природныи-газ",
+   "label": "природный газ",
+   "family": "gas",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сжиженныи-природныи-газ",
+   "label": "сжиженный природный газ",
+   "family": "gas",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:злато",
+   "label": "золото",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:гипс",
+   "label": "гипс",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:минерально-сырьевая-база-австралии-pdf:0",
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "title": "Industrial production of gas condensate at North West Shelf",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "добыча газового конденсата (100% BHP-Billiton)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:газовыи-конденсат",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity",
+     "scope": "material",
+     "material_id": "mat:газовыи-конденсат",
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "тыс баррелей в сутки",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "North West Shelf, добыча газового конденсата (100% BHP-Billiton) | 60 | 130 км от побережья Dampier, Западная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Industrial plant produces 60 тыс баррелей в сутки of gas condensate.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "capacity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "North West Shelf, добыча газового конденсата (100% BHP-Billiton) | 60 | 130 км от побережья Dampier, Западная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "North West Shelf, добыча газового конденсата (100% BHP-Billiton) | 60 | 130 км от побережья Dampier, Западная Австралия",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:минерально-сырьевая-база-австралии-pdf:1",
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "title": "Industrial production of natural gas at North West Shelf",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "добыча природного газа (100% BHP-Billiton)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:природныи-газ",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity",
+     "scope": "material",
+     "material_id": "mat:природныи-газ",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "млн кубических метров в день",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "North West Shelf, добыча природного газа (100% BHP-Billiton) | 20 | 130 км от побережья Dampier, Западная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Industrial plant produces 20 млн кубических метров в день of natural gas.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "capacity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "North West Shelf, добыча природного газа (100% BHP-Billiton) | 20 | 130 км от побережья Dampier, Западная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "North West Shelf, добыча природного газа (100% BHP-Billiton) | 20 | 130 км от побережья Dampier, Западная Австралия",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:минерально-сырьевая-база-австралии-pdf:2",
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "title": "Industrial LNG production at North West Shelf",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "завод по сжижению природного газа (100% BHP- Billiton)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:сжиженныи-природныи-газ",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity",
+     "scope": "material",
+     "material_id": "mat:сжиженныи-природныи-газ",
+     "value": {
+      "min": null,
+      "nominal": 12.0,
+      "max": null
+     },
+     "unit": "млн т в год",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "North West Shelf, завод по сжижению природного газа (100% BHP- Billiton) | 12 | Полуостров Burrup, Западная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Industrial plant produces 12 млн т в год of LNG.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "capacity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "North West Shelf, завод по сжижению природного газа (100% BHP- Billiton) | 12 | Полуостров Burrup, Западная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "North West Shelf, завод по сжижению природного газа (100% BHP- Billiton) | 12 | Полуостров Burrup, Западная Австралия",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:минерально-сырьевая-база-австралии-pdf:3",
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "title": "Gold production at Agnew mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "открытый / подземный рудник (100% Gold Fields)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:злато",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity",
+     "scope": "material",
+     "material_id": "mat:злато",
+     "value": {
+      "min": null,
+      "nominal": 5.6,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Agnew, открытый / подземный рудник (100% Gold Fields) | 5,6 т | 23 км к западу от Leinster, Запад - ная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The Agnew mine produces 5,6 т of gold per year.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "capacity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Agnew, открытый / подземный рудник (100% Gold Fields) | 5,6 т | 23 км к западу от Leinster, Запад - ная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Agnew, открытый / подземный рудник (100% Gold Fields) | 5,6 т | 23 км к западу от Leinster, Запад - ная Австралия",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:минерально-сырьевая-база-австралии-pdf:4",
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "title": "Gold production at Boddington mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "открытый / подземный рудник (66,67% Newmont Mining, 33,33% AngloGold Ashanti)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:злато",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity",
+     "scope": "material",
+     "material_id": "mat:злато",
+     "value": {
+      "min": null,
+      "nominal": 12.0,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Boddington, открытый / подземный рудник (66,67% Newmont Min- ing, 33,33% AngloGold Ashanti) | 12,0 т | 100 км к юго - западу от Перта , Западная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The Boddington mine produces 12,0 т of gold per year.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "capacity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Boddington, открытый / подземный рудник (66,67% Newmont Min- ing, 33,33% AngloGold Ashanti) | 12,0 т | 100 км к юго - западу от Перта , Западная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Boddington, открытый / подземный рудник (66,67% Newmont Min- ing, 33,33% AngloGold Ashanti) | 12,0 т | 100 км к юго - западу от Перта , Западная Австралия",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:минерально-сырьевая-база-австралии-pdf:5",
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "title": "Gold production at Super Pit",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "открытый рудник (50% Barrick Gold, 50% Newmont Mining)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:злато",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity",
+     "scope": "material",
+     "material_id": "mat:злато",
+     "value": {
+      "min": null,
+      "nominal": 25.0,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Super Pit, открытый рудник (50% Barrick Gold, 50% Newmont Min- ing) | 25,0 т | Kalgoorlie-Boulder Township, За - падная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The Super Pit produces 25,0 т of gold per year.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "capacity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Super Pit, открытый рудник (50% Barrick Gold, 50% Newmont Min- ing) | 25,0 т | Kalgoorlie-Boulder Township, За - падная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Super Pit, открытый рудник (50% Barrick Gold, 50% Newmont Min- ing) | 25,0 т | Kalgoorlie-Boulder Township, За - падная Австралия",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:минерально-сырьевая-база-австралии-pdf:6",
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "title": "Gypsum production at Lake MacDonnell",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "открытый рудник (100% Gypsum Resources Australia)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:гипс",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity",
+     "scope": "material",
+     "material_id": "mat:гипс",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Lake MacDonnell, открытый рудник (100% Gypsum Resources Aus- tralia) | 1 400 | Рядом с Point Thevenard, Южная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Lake MacDonnell mine produces 1 400 units of gypsum.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "capacity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Lake MacDonnell, открытый рудник (100% Gypsum Resources Aus- tralia) | 1 400 | Рядом с Point Thevenard, Южная Австралия",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Lake MacDonnell, открытый рудник (100% Gypsum Resources Aus- tralia) | 1 400 | Рядом с Point Thevenard, Южная Австралия",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "AEDR ( доступные рентабельные достоверные запасы EDR) - это часть суммарных рентабельных запасов , доступных для разра - ботки , т . е . исключая запасы , недоступные для разработки из - за экологических соображений , политики правительства или занятые военными",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "AEDR definition",
+    "direction": "increases",
+    "factor": "availability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "AEDR ( доступные рентабельные достоверные запасы EDR) - это часть суммарных рентабельных запасов , доступных для разра - ботки , т . е . исключая запасы , недоступные для разработки из - за экологических соображений , политики правительства или занятые военными",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "запасы по JORC доказанные и вероятные приведены так , как их приводят компании в годовых отчетах и представляют на Австра - лийскую Фондовую биржу",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "JORC reserves reporting",
+    "direction": "increases",
+    "factor": "transparency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "запасы по JORC доказанные и вероятные приведены так , как их приводят компании в годовых отчетах и представляют на Австра - лийскую Фондовую биржу",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "горнодобывающий сектор обеспечивает 7,7% местного ВВП",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share of GDP",
+    "direction": "increases",
+    "factor": "mining sector",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Австралии ведется активная геологоразведка , т . к . горнодобываю -щий сектор обеспечивает 7,7% местного ВВП .",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Рудник Duchess ( штат Квинсленд ) произвел 1,957 млн т фосфатной породы в 2008-2009 г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "Duchess mine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "рудник Duchess ( штат Квинсленд ) произвел 1,957 млн т фосфатной породы в 2008-2009 г .",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Рудник Christmas Island произвел 420205 т фосфатной породы и 42300 т пыли в 2009 г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "Christmas Island mine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рудник Christmas Island произвел 420205 т фосфатной породы и 42300 т пыли в 2009 г .",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Суммарные предполагаемые ресурсы Toolebuc Formation ( шт . Квинсленд ) оценены в 245000 Гига литров в 1983 г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource size",
+    "direction": "increases",
+    "factor": "Toolebuc Formation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "суммарные предполагаемые ресурсы , исключая « потенциальные » ресурсы Toolebuc Formation ( шт . Квинсленд ), оцененные пред - шественником Geoscience Australia - Bureau of Mineral Resources и CSIRO в 245000 Гига литров в 1983 г .",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "0,105 тыс т танталита ( около 0,022 тыс т Ta) добыто, согласно Western Australian Department of Mines and Petroleum.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "tantalite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "0,105 тыс т танталита ( около 0,022 тыс т Ta), ист : Western Australian Department of Mines and Petroleum",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Ресурсы тория снижены на 10% с учетом добычи и потерь при переработке.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource size",
+    "direction": "decreases",
+    "factor": "titanium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ресурсы тория снижены на 10% с учетом добычи и потерь при переработке",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Извлекаемые ресурсы урановых руд с издержками менее 80 USD/кг U перечислены в OECD/NEA & IAEA (2009).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost threshold",
+    "direction": "increases",
+    "factor": "uranium resources",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ист : OECD/NEA &IAEA (2009). Компиляция последних данных по извлекаемым ресурсам с издержками менее 80 USD/ кг U",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Мировое производство 23 млн т « продажной хромовой руды » по данным USGS.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "global output",
+    "direction": "increases",
+    "factor": "chromite ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое производство 23 млн т « продажной хромовой руды » по данным USGS",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Бокситы в руднике Gove (100% Rio Tinto Alcan) имеют мощность 8 000 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Gove bauxite mine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Бокситы | Gove, открытый рудник (100% Rio Tinto Alcan) | 8 000",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Бокситы в руднике Huntly (100% Alcoa World Alumina Australia) имеют мощность 20 000 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Huntly bauxite mine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Бокситы | Huntly, открытый рудник (100% Alcoa World Alumina Australia) | 20 000",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Бокситы в руднике Weipa‑Andoom (оператор - Comalco, владелец - 100% Rio Tinto Alcan) имеют мощность 21 000 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Weipa‑Andoom bauxite mine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Бокситы | Weipa-Andoom, открытый рудник ( оператор - Comalco, владелец - 100% Rio Tinto Alcan) | 21 000",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Глинозем в заводе Gladstone (оператор - Queensland Alumina, владелец - 80% Rio Tinto Alcan, 20% UC RUSAL) имеет мощность 3 850 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Gladstone alumina plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глинозем | Gladstone, завод по плавке бокситов ( оператор - Queensland Alu- mina, владелец - 80% Rio Tinto Alcan, 20% UC RUSAL) | 3 850",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Глинозем в заводе Gove (100% Rio Tinto Alcan) имеет мощность 3 800 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Gove alumina plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глинозем | Gove, завод по плавке бокситов (100% Rio Tinto Alcan) | 3 800",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Глинозем в заводе Kwinana (100% Alcoa World Alumina Australia) имеет мощность 2 100 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Kwinana alumina plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глинозем | Kwinana, завод по плавке бокситов (100% Alcoa World Alumina Australia) | 2 100",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Глинозем в заводе Pinjarra (100% Alcoa World Alumina Australia) имеет мощность 4 200 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Pinjarra alumina plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глинозем | Pinjarra, завод по плавке бокситов (100% Alcoa World Alumina Australia) | 4 200",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Глинозем в заводе Wangerup (Alcoa World Alumina Australia) имеет мощность 2 600 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Wangerup alumina plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глинозем | Wangerup, завод по плавке бокситов (Alcoa World Alumina Australia) | 2 600",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Глинозем в заводе Worsley (86% BHP‑Billiton) имеет мощность 3 500 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Worsley alumina plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глинозем | Worsley, завод по плавке бокситов (86% BHP-Billiton) | 3 500",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Глинозем в заводе Yarwun (100% Rio Tinto Alcan) имеет мощность 1 400 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Yarwun alumina plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глинозем | Yarwun, завод по плавке бокситов (100% Rio Tinto Alcan) | 1 400",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Алюминий в заводе Bell Bay (100% Rio Tinto Alcan) имеет мощность 160 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Bell Bay aluminium plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Алюминий ме - | Bell Bay, завод по плавке глинозема (100% Rio Tinto Alcan) | 160",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Бокситы | Gove, открытый рудник (100% Rio Tinto Alcan) | 8 000 | В 15 км на юго - восток от Nhulun- buy, Северная территория",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "8 000",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Бокситы | Gove, открытый рудник (100% Rio Tinto Alcan) | 8 000 | В 15 км на юго - восток от Nhulun- buy, Северная территория",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Бокситы | Huntly, открытый рудник (100% Alcoa World Alumina Australia) | 20 000 | 80 км к югу от Перта , Западная Австралия",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "20 000",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Бокситы | Huntly, открытый рудник (100% Alcoa World Alumina Australia) | 20 000 | 80 км к югу от Перта , Западная Австралия",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Глинозем | Gladstone, завод по плавке бокситов ( оператор - Queensland Alu- mina, владелец - 80% Rio Tinto Alcan, 20% UC RUSAL) | 3 850 | Gladstone, Квинсленд",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "3 850",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глинозем | Gladstone, завод по плавке бокситов ( оператор - Queensland Alu- mina, владелец - 80% Rio Tinto Alcan, 20% UC RUSAL) | 3 850 | Gladstone, Квинсленд",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  },
+  {
+   "text": "Aluminium | Bell Bay, завод по плавке глинозема (100% Rio Tinto Alcan) | 160 | Bell Bay, Тасмания",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "160",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Aluminium | Bell Bay, завод по плавке глинозема (100% Rio Tinto Alcan) | 160 | Bell Bay, Тасмания",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "Adelaide Brighton Cement Pty Ltd | 250 | Angaston, Южная Австралия",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "250",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Adelaide Brighton Cement Pty Ltd | 250 | Angaston, Южная Австралия",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:минерально-сырьевая-база-австралии-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

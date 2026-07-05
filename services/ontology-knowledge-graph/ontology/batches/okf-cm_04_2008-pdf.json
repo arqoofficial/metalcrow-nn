@@ -1,0 +1,404 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_04_2008-pdf",
+   "title": "CM_04_2008.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2008\\CM_04_2008.pdf.md",
+   "artifact_sha256": "3f77299bbb0e7e21c6e0b23a204f451b5961802d31da959eb05ca5d86c3c4bd9",
+   "okf_raw_path": "Журналы/Цветные металлы/2008/CM_04_2008.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "The journal has been published since 1926",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "start year",
+    "direction": "increases",
+    "factor": "1926",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The journal has been published since 1926",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Publisher: «Ore and Metals» publishing house, Moscow",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "publisher",
+    "direction": "nonmonotonic",
+    "factor": "«Ore and Metals» publishing house, Moscow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Publisher: «Ore and Metals» publishing house, Moscow",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Printed in printing house «Strit‑Print» JSC, Moscow, tel. 510‑53‑44",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "printing house",
+    "direction": "nonmonotonic",
+    "factor": "«Strit‑Print» JSC, Moscow, tel. 510‑53‑44",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Printed in printing house «Strit‑Print» JSC, Moscow, tel. 510‑53‑44",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.45,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Barclays Capital (Великобритания) пересмотрел в феврале 2008 г. прогноз мировой цены на медь в 2008г. с 7800 до 7550 долл./т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "world price of copper",
+    "direction": "decreases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Barclays Capital (Великобритания) пересмотрел в феврале 2008 г. прогноз мировой цены на медь в 2008г. с 7800 до 7550 долл./т",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Barclays Capital (Великобритания) опубликовал прогноз среднегодовых цен на цветные металлы в 2008 г., долл./т: 5779 медь; 2510 алюминий; 2529 свинец; 2481 цинк; 28 495 никель; 15 387 олово.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "average annual prices of non‑ferrous metals",
+    "direction": "increases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Barclays Capital (Великобритания) опубликовал прогноз среднегодовых цен на цветные металлы в 2008 г., долл./т: 5779 медь; 2510 алюминий; 2529 свинец; 2481 цинк; 28 495 никель; 15 387 олово.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Vale (Бразилия) собирается приобрести Xstrata (Швейцария) за 90 млрд долл., в том числе 60 млрд долл. будут оплачены акциями и 30 млрд долл. - наличными.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purchase amount",
+    "direction": "increases",
+    "factor": "planned transaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Vale (Бразилия) собирается приобрести Xstrata (Швейцария) за 90 млрд долл., в том числе 60 млрд долл. будут оплачены акциями и 30 млрд долл. - наличными.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Vale является крупнейшим в мире производителем железной руды",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "market position",
+    "direction": "increases",
+    "factor": "global ranking",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Vale является крупнейшим в мире производителем железной руды",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.45,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Чистая прибыль компании в 1‑м полугодии 2007 г. выросла на 91 %, до 6,3 млрд долл., по сравнению с 3,3 млрд долл. за аналогичный период 2006 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "net profit",
+    "direction": "increases",
+    "factor": "time period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чистая прибыль компании в 1‑м полугодии 2007 г. выросла на 91 %, до 6,3 млрд долл., по сравнению с 3,3 млрд долл. за аналогичный период 2006 г.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Чистая прибыль Xstrata в 1‑м полугодии 2007 г. увеличилась на 47 %, до 3 млрд долл. по сравнению с 2,04 млрд долл. в первой половине 2006 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "net profit",
+    "direction": "increases",
+    "factor": "time period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чистая прибыль Xstrata в 1‑м полугодии 2007 г. увеличилась на 47 %, до 3 млрд долл. по сравнению с 2,04 млрд долл. в первой половине 2006 г.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Cochilco (Чили) прогнозирует рост производства меди в Чили к 2015 г. до 6,68 млн т, что превышает показатель 2007 г. (5,2 млн т) на 28,5 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper production",
+    "direction": "increases",
+    "factor": "year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cochilco (Чили) прогнозирует рост производства меди в Чили к 2015 г. до 6,68 млн т, что превышает показатель 2007 г. (5,2 млн т) на 28,5 %.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2008 г. ГМК «Норильский никель» планирует увеличение производства никеля до 300-305 тыс. т, меди до 415-420 тыс. т, палладия - до 3,00-3,05 тыс. унц. (93-95 т), платины - до 710-720 тыс. унц. (22 т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "metal output",
+    "direction": "increases",
+    "factor": "year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2008 г. ГМК «Норильский никель» планирует увеличение производства никеля до 300-305 тыс. т, меди до 415-420 тыс. т, палладия - до 3,00-3,05 тыс. унц. (93-95 т), платины - до 710-720 тыс. унц. (22 т).",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "BHP Billiton повысила предложение по покупке Rio Tinto, предлагая по 3,4 собственных акций в обмен на обыкновенную акцию Rio Tinto.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share exchange ratio",
+    "direction": "increases",
+    "factor": "offer",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "BHP Billiton (Австралия) повысила предложение по покупке Rio Tinto (Великобритания-Австралия), предлагая по 3,4 собственных акций в обмен на обыкновенную акцию Rio Tinto.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Чистая прибыль BHP Billiton в 2006/07 фин. году, завершившемся 30 июня 2007 г., выросла на 28,4 %, до 13,43 млрд долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "net profit",
+    "direction": "increases",
+    "factor": "time period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чистая прибыль BHP Billiton в 2006/07 фин. году, завершившемся 30 июня 2007 г., выросла на 28,4 %, до 13,43 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "По информации Mirabela Nickel (Австралия), производство никеля в рамках проекта Santa Rita (Бразилия), работы по которому начались в ноябре 2007 г., может быть увеличено с 18,5 до 25 тыс. т/год, при этом расходы возрастут на 22 %, до 322 млн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel output",
+    "direction": "increases",
+    "factor": "capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По информации Mirabela Nickel (Австралия), производство никеля в рамках проекта Santa Rita (Бразилия), работы по которому начались в ноябре 2007 г., может быть увеличено с 18,5 до 25 тыс. т/год, при этом расходы возрастут на 22 %, до 322 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Производство катодов по технологии SX‑EW вырастет на 19,9 %, до 2,23 млн т/год по сравнению с 1,86 млн т в 2007 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cathode output",
+    "direction": "increases",
+    "factor": "technology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производство катодов по технологии SX‑EW вырастет на 19,9 %, до 2,23 млн т/год по сравнению с 1,86 млн т в 2007 г.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Xstrata Copper намеревается инвестировать 2,5 млрд долл. в проект Эль Морро (El Morro) (Чили).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital expenditure",
+    "direction": "increases",
+    "factor": "project",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Xstrata Copper (Швейцария) намеревается инвестировать 2,5 млрд долл. в проект Эль Морро (El Morro) (Чили).",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Сквозное извлечение меди составляет 88 %, золота 69 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "metal recovery",
+    "direction": "increases",
+    "factor": "process efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сквозное извлечение меди составляет 88 %, золота 69 %.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Срок эксплуатации проекта оценивается в 15 лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "project plan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Срок эксплуатации проекта оценивается в 15 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Мощности предприятия возросли до 240 тыс. т анодной меди/год, серной кислоты - до 1 млн т/год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "modernization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощности предприятия возросли до 240 тыс. т анодной меди/год, серной кислоты - до 1 млн т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.45,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Суммарные инвестиции составят примерно 8 млрд руб.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "increases",
+    "factor": "project",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарные инвестиции составят примерно 8 млрд руб.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  },
+  {
+   "text": "Доля Rio Tinto в совместном предприятии составит 55 %, первоначальные инвестиции - 20 млн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ownership share",
+    "direction": "increases",
+    "factor": "agreement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доля Rio Tinto в СП составит 55 %, первоначальные инвестиции - 20 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.45,
+   "document_id": "doc:cm_04_2008-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,467 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_se_10_2005-pdf",
+   "title": "Cm_Se_10_2005.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2005\\Cm_Se_10_2005.pdf.md",
+   "artifact_sha256": "f98e67cee81cbf2d27d83913fdac6595ead2f286eccc097001421d9b3def8c62",
+   "okf_raw_path": "Журналы/Цветные металлы/2005/Cm_Se_10_2005.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:сульфидное-никельсодержащее-природное-сырье",
+   "label": "сульфидное никельсодержащее природное сырье",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:окисленное-никельсодержащее-природное-сырье",
+   "label": "окисленное никельсодержащее природное сырье",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:металлургическое-сырье-различного-состава-концен",
+   "label": "металлургическое сырье различного состава (концентраты, руды, полу‑продукты, оборотные материалы)",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сплавы-циркония",
+   "label": "циркониевые сплавы",
+   "family": "alloy",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_se_10_2005-pdf:0",
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "title": "Полупромышленные испытания по переработке сульфидного и окисленного никельсодержащего природного сырья",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "плавка окисленного никелевого сырья в печи Ванюкова"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:сульфидное-никельсодержащее-природное-сырье",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:окисленное-никельсодержащее-природное-сырье",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "раздельном расплавлении шихтовых компонентов с получением оксидного расплава и его восстановительно‑сульфидирующей обработки с выделением никельсодержащего продукта и отвального шлака",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process outcome",
+      "direction": "increases",
+      "factor": "product yield",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Суть новой технологии заключается в раздельном расплавлении шихтовых компонентов с получением оксидного расплава и его восстановительно‑сульфидирующей обработки с выделением никельсодержащего продукта и отвального шлака.",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "На основе процессного опыта и результатов полупромышленных испытаний по переработке сульфидного и окисленного никельсодержащего природного сырья разработана новая технология - плавка окисленного никелевого сырья в печи Ванюкова.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_se_10_2005-pdf:1",
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "title": "Промышленное применение процесса Ванюкова в России и Казахстане",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Процесс Ванюкова (включая модифицированную двухзонную печь)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:металлургическое-сырье-различного-состава-концен",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "годовой объём переработки",
+     "scope": "material",
+     "material_id": "mat:металлургическое-сырье-различного-состава-концен",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в России (на Норильском горно‑металлургическом комбинате и Среднеуральском медеплавильном заводе) и в Казахстане перерабатывают ~2 млн т в год металлургического сырья различного состава",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Технология позволяет перерабатывать металлургическое сырье, содержащее медь, никель, цинк, сурьму, железо, серу, туго‑плавкие оксидные минералы",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "applicable feedstock",
+      "direction": "increases",
+      "factor": "range of elements",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "содержащего медь, никель, цинк, сурьму, железо, серу, туго‑плавкие оксидные минералы.",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Процессом Ванюкова в России ... и в Казахстане перерабатывают ~2 млн т в год металлургического сырья различного состава",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_se_10_2005-pdf:2",
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "title": "Совместные работы с Чепецким механическим заводом по совершенствованию технологии обработки давлением циркониевых сплавов",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "технология обработки давлением циркониевых сплавов"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:сплавы-циркония",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "По пяти прямым договорам с Чепецким механическим заводом ведутся работы по совершенствованию технологии обработки давлением циркониевых сплавов.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Ежегодно в выполнении научно‑исследовательских работ участвуют более 150 докторов наук, 300 кандидатов наук, 500 аспирантов и студентов МИСиС.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "personnel count",
+    "direction": "increases",
+    "factor": "annual",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ежегодно в выполнении научно‑исследовательских работ участвуют более 150 докторов наук, 300 кандидатов наук, 500 аспирантов и студентов МИСиС.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "Эти работы охватывают все восемь приоритетных направлений науки и техники РФ и 31 из 52 критических технологии федерального уровня.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "research scope",
+    "direction": "increases",
+    "factor": "breadth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти работы охватывают все восемь приоритетных направлений науки и техники РФ и 31 из 52 критических технологии федерального уровня.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "По их результатам за последние пять лет опубликовано более 1650 статей, получен 71 патент, продано три лицензии, сделано два открытия.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "publications and patents",
+    "direction": "increases",
+    "factor": "five‑year period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по их результатам за последние пять лет опубликовано более 1650 статей, получен 71 патент, продано три лицензии, сделано два открытия.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "В период с 1998 г. издательством МИСиС (с 2004 г. – совместно с Издательским домом «Руда и Металлы») опубликовано и подготовлено к изданию свыше 90 монографий.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "monographs",
+    "direction": "increases",
+    "factor": "since 1998",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В период с 1998 г. издательством МИСиС (с 2004 г. – совместно с Издательским домом «Руда и Металлы») опубликовано и подготовлено к изданию свыше 90 монографий.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.81,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "С 2000 г. ученые института приняли участие почти в 200 конференциях (из них около 130 международных) и в более чем 100 выставках (свыше 30 международных).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "events",
+    "direction": "increases",
+    "factor": "since 2000",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С 2000 г., ученые института приняли участие почти в 200 конференциях (из них около 130 международных) и в более чем 100 выставках (свыше 30 международных).",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.81,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "Ряд процессов и технологий, разработанных учеными МИСиС, внедрены на крупнейших отечественных и зарубежных заводах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "implementation",
+    "direction": "increases",
+    "factor": "industrial adoption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ряд процессов и технологий, разработанных учеными МИСиС, внедрены на крупнейших отечественных и зарубежных заводах.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.81,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "В качестве примера можно привести технологию Romelt и процесс Ванюкова.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technology names",
+    "direction": "nonmonotonic",
+    "factor": "illustrative",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве примера можно привести технологию Romelt и процесс Ванюкова.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "Основным преимуществом предлагаемой технологии является отказ от использования дорогого кокса.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "coke usage",
+    "direction": "decreases",
+    "factor": "cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основным преимуществом предлагаемой технологии является отказ от использования дорогого кокса.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.81,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "Технология и станы радиально‑сдвиговой прокатки не имеют аналогов в отечественной и мировой практике.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "uniqueness",
+    "direction": "increases",
+    "factor": "novelty",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология и станы радиально‑сдвиговой прокатки не имеют аналогов в отечественной и мировой практике.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.81,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "Их приоритет защищен более чем 50 патентами СССР, РФ и австрийскими свидетельствами на изобретения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "intellectual property",
+    "direction": "increases",
+    "factor": "number of patents",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Их приоритет защищен более чем 50 патентами СССР, РФ и австрийскими свидетельствами на изобретения.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.81,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "Общий объем финансирования всех этих работ превысил 2,5 млн руб.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "funding",
+    "direction": "increases",
+    "factor": "amount",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Общий объем финансирования всех этих работ превысил 2,5 млн руб.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.9,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "Разработана новая комплексная технология для производства железнодорожных колес улучшенного качества.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "quality",
+    "direction": "increases",
+    "factor": "product quality",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработана новая комплексная технология для производства железнодорожных колес улучшенного качества.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.81,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "Разрабатываются и внедряются новые марки экономно‑легированных сталей (борсодержащих).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "alloy composition",
+    "direction": "increases",
+    "factor": "boron content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработаны и внедрены новые марки экономно‑легированных сталей (борсодержащих).",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.45,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  },
+  {
+   "text": "Разрабатываются технологии производства перспективных видов IF‑сталей для автолиста с содержанием углерода и серы менее 0,001 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "C and S content",
+    "direction": "decreases",
+    "factor": "impurities",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разрабатываются технологии производства перспективных видов IF‑сталей для автолиста с содержанием углерода и серы менее 0,001 %.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.45,
+   "document_id": "doc:cm_se_10_2005-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

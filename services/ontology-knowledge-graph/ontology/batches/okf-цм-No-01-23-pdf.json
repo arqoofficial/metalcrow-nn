@@ -1,0 +1,806 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-01-23-pdf",
+   "title": "ЦМ № 01-23.pdf",
+   "doc_type": "article",
+   "year": 2023,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2023\\ЦМ № 01-23.pdf.md",
+   "artifact_sha256": "8e33e59f9c70bc4b1f78497a6cc4b1e3f579f0b9d733347c1ba1d982e337b754",
+   "okf_raw_path": "Журналы/Цветные металлы/2023/ЦМ № 01-23.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:nikel",
+   "label": "nickel",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cobalt",
+   "label": "cobalt",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:aluminum",
+   "label": "aluminum",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:converter-slag",
+   "label": "Converter slags",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pre-crushed-converter-slags",
+   "label": "Pre‑crushed converter slags",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:flotation-agents",
+   "label": "Flotation reagents",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:converter-slag-bmz",
+   "label": "converter slag (BMZ)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No-01-23-pdf:0",
+   "document_id": "doc:цм-No-01-23-pdf",
+   "title": "Industrial application",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "HPAL mixed nickel‑cobalt hydroxide plant"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nikel",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:cobalt",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "В начале 2026 г . в Индонезии BASF (ФРГ) и Eramet (Франция) планируют ввести в эксплуатацию комбинат по выпуску смешанного гидроксида никеля и кобальта по технологии HPAL для производства аккумуляторов мощностью 67,0 тыс. т никеля и 7,5 тыс. т кобальта.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-01-23-pdf:1",
+   "document_id": "doc:цм-No-01-23-pdf",
+   "title": "Industrial application",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Portland Aluminum plant restart"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:aluminum",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "В декабре 2022 г. Alcoa (США) перезапустила завод Portland Aluminum (Австралия). Мощность предприятия - 385,0 тыс. т алюминия, текущая загрузка - 95,0 %.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-01-23-pdf:2",
+   "document_id": "doc:цм-No-01-23-pdf",
+   "title": "Industrial application",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Aluminum Dunkerque planned ramp‑up"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:aluminum",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "В мае 2023 г. Aluminum Dunkerque (Франция) планирует выйти на максимальный выпуск алюминия (290,0 тыс. т) через восемь месяцев после сокращения производства на 22,0 % в связи c высокими ценами на электроэнергию.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-01-23-pdf:3",
+   "document_id": "doc:цм-No-01-23-pdf",
+   "title": "Crushing kinetics study in hammer and jaw crushers",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Crushing of converter slags in hammer mill and jaw crusher",
+       "duration_text": "45 min (hammer mill); 60 min (jaw crusher)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:converter-slag",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "optimal crushing time",
+     "scope": "material",
+     "material_id": "mat:converter-slag",
+     "value": {
+      "min": null,
+      "nominal": 45.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Установлено, что оптимальным временем дробления шлаков в молотковой дробилке является 45 мин, свыше которого идет его переизмельчение; в то время как для щековой дробилки процесс переизмельчения и накопления класса -0,045 мм становится явно выраженным после 60 мин измельчения.",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Over‑grinding occurs after 45 min in the hammer mill and after 60 min in the jaw crusher.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "over‑grinding onset",
+      "direction": "increases",
+      "factor": "crushing time",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Установлено, что оптимальным временем дробления шлаков в молотковой дробилке является 45 мин, свыше которого идет его переизмельчение; в то время как для щековой дробилки процесс переизмельчения и накопления класса -0,045 мм становится явно выраженным после 60 мин измельчения.",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Установлено, что оптимальным временем дробления шлаков в молотковой дробилке является 45 мин, свыше которого идет его переизмельчение; в то время как для щековой дробилки процесс переизмельчения и накопления класса -0,045 мм становится явно выраженным после 60 мин измельчения.",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-01-23-pdf:4",
+   "document_id": "doc:цм-No-01-23-pdf",
+   "title": "Flotation of pre‑crushed converter slags",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Flotation of slags previously crushed in hammer or jaw crusher"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pre-crushed-converter-slags",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:flotation-agents",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "copper mass fraction in concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 27.5,
+      "nominal": null,
+      "max": 39.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При флотации предварительно дробленых конвертерных шлаков получен достаточно качественный концентрат с массовой долей меди 27,5-39,0 % (в зависимости от времени измельчении шлака).",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "При этом извлечение меди было всегда выше (в среднем на 5 %) при флотации шлаков, дробленных в молотковой дробилке.",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Copper concentrate grade ranged from 27.5 % to 39.0 % depending on grinding time.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentrate grade",
+      "direction": "increases",
+      "factor": "grinding time",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При флотации предварительно дробленых конвертерных шлаков получен достаточно качественный концентрат с массовой долей меди 27,5-39,0 % (в зависимости от времени измельчении шлака).",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.9
+    },
+    {
+     "text": "Copper extraction was on average 5 % higher for slags crushed in the hammer mill.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "extraction",
+      "direction": "increases",
+      "factor": "crushing method (hammer mill)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При этом извлечение меди было всегда выше (в среднем на 5 %) при флотации шлаков, дробленных в молотковой дробилке.",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "При флотации предварительно дробленых конвертерных шлаков получен достаточно качественный концентрат с массовой долей меди 27,5-39,0 % (в зависимости от времени измельчении шлака).",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-01-23-pdf:5",
+   "document_id": "doc:цм-No-01-23-pdf",
+   "title": "Laboratory flotation tests",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:converter-slag-bmz",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "butyl xanthate dosage",
+     "scope": "material",
+     "material_id": "mat:flotation-agents",
+     "value": {
+      "min": null,
+      "nominal": 200.0,
+      "max": null
+     },
+     "unit": "g/т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "бутиловый ксантогенат - 200 г/т",
+     "locator_kind": "md_para",
+     "locator": "para:166",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "MIBK frother dosage",
+     "scope": "material",
+     "material_id": "mat:flotation-agents",
+     "value": {
+      "min": null,
+      "nominal": 120.0,
+      "max": null
+     },
+     "unit": "g/т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "пенообразователь МИБК - 120 г/т",
+     "locator_kind": "md_para",
+     "locator": "para:166",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Флотационные опыты проводили в лабораторных флотомашинах 240 ФЛ и ФМЛ-1 с объемом камер 3,0; 1,0; 0,5 и 0,3 дм³ при следующем реагентном режиме: рН = 8,5-9,0, бутиловый ксантогенат - 200 г/т, пенообразователь МИБК - 120 г/т.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Флотационные опыты проводили в лабораторных флотомашинах 240 ФЛ и ФМЛ-1 с объемом камер 3,0; 1,0; 0,5 и 0,3 дм 3 при следующем реагентном режиме: рН = 8,5-9,0, бутиловый ксантогенат - 200 г/т, пенообразователь МИБК - 120 г/т.",
+     "locator_kind": "md_para",
+     "locator": "para:166",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Флотационные опыты проводили в лабораторных флотомашинах 240 ФЛ и ФМЛ-1 с объемом камер 3,0; 1,0; 0,5 и 0,3 дм 3 при следующем реагентном режиме: рН = 8,5-9,0, бутиловый ксантогенат - 200 г/т, пенообразователь МИБК - 120 г/т.",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-01-23-pdf:6",
+   "document_id": "doc:цм-No-01-23-pdf",
+   "title": "Industrial flotation at BMZ (Balhash Metallurgical Plant)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation of converter slag"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:converter-slag",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Извлечение меди в медный концентрат составляет 74,7 %, остальная медь теряется с хвостами при содержании в них до 1 % меди.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Извлечение меди в медный концентрат составляет 74,7 %, остальная медь теряется с хвостами при содержании в них до 1 % меди.",
+     "locator_kind": "md_para",
+     "locator": "para:158",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Извлечение меди в медный концентрат составляет 74,7 %, остальная медь теряется с хвостами при содержании в них до 1 % меди.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "мировое производство нержавеющей стали в январе сентябре 2022 г. по сравнению с аналогичным периодом 2021 г. снизилось до 41,852 млн т (-5,1 %)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "decreases",
+    "factor": "-5,1 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое производство нержавеющей стали в январе сентябре 2022 г. по сравнению с аналогичным периодом 2021 г. снизилось до 41,852 млн т (-5,1 %)",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое потребление меди составило 21,263 млн т (+3,7 %)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption volume",
+    "direction": "increases",
+    "factor": "+3,7 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое потребление меди составило 21,263 млн т (+3,7 %)",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на медь составит 8500,0 долл/т (ранее 8400,0 долл/т)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировая цена на медь составит 8500,0 долл/т (ранее 8400,0 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на алюминий в 2023 г. составит 3125,0 долл/т (ранее 2563,0 долл/т)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по прогнозу Goldman Sachs (США), мировая цена на алюминий в 2023 г. составит 3125,0 долл/т (ранее 2563,0 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2022 г. Rio Tinto (Австралия - Великобритания) произвела 3,009 млн т алюминия (-4,0 % к 2021 г .)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "decreases",
+    "factor": "-4,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2022 г. Rio Tinto (Австралия - Великобритания) произвела 3,009 млн т алюминия (-4,0 % к 2021 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2022 г. Aluminium Bahrain (Бахрейн) выпустила 1,6 млн т алюминия (+2,5 % к 2021 г .)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "+2,5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2022 г. Aluminium Bahrain (Бахрейн) выпустила 1,6 млн т алюминия (+2,5 % к 2021 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2022 г. Antofagasta (Великобритания) произвела 646,2 тыс. т меди (-10,4 %), чистая себестоимость составила 3549,4 долл/т (+34,2 %)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "decreases",
+    "factor": "-10,4 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2022 г . Antofagasta (Великобритания) по сравнению с 2021 г. произвела 646,2 тыс. т меди (-10,4 %), чистая себестоимость составила 3549,4 долл/т (+34,2 %).",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2023 г. Alcoa планирует выпустить 2,5-2,6 млн т алюминия",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В 2023 г. Alcoa планирует выпустить 2,5-2,6 млн т алюминия.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Different crushing methods affect the granulometric characteristics of the crushed product, the content of the <0.071 mm size class, and the distribution of copper among size classes.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "granulometric characteristics, fine‑size content, copper distrib",
+    "direction": "increases",
+    "factor": "crushing method (jaw vs. hammer)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Показано, что разный способ разрушения, реализуемый в этих аппаратах, влияет на гранулометрическую характеристику продуктов дробления, на содержание в них класса крупности менее 0,071 мм и на распределение меди по классам крупности.",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Impact crushing of metallurgical slags at the fine‑crushing stage has a significant intensifying effect on subsequent flotation enrichment indicators.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flotation performance",
+    "direction": "increases",
+    "factor": "impact crushing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Показано, что ударный способ разрушения шлаков медеплавильного производства в стадии мелкого дробления оказывает существенное интенсифицирующее влияние на показатели последующего их флотационного обогащения, что должно быть учтено при совершенствовании схем переработки.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Almost all plants that have switched to autogenous smelting of copper concentrates use flotation of converter‑cooled slags as the simplest and least costly method of slag de‑enrichment.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "process simplicity and cost",
+    "direction": "decreases",
+    "factor": "method choice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время практически все заводы, перешедшие на автогенную плавку медьсодержащих концентратов, используют флотацию конвертерных охлажденных шлаков ... как наиболее простой и наименее затратный способ обеднения шлаков.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Copper extraction from circulating slags during flotation reaches 70‑90 %, whereas for dump slags it is less than 60 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "slag type (circulating)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В зависимости от содержания меди при флотации оборотных шлаков достигается извлечение меди в концентрат на уровне 70-90 %, в то время как в случае отвальных шлаков - менее 60 %.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Adding a collector from the class of dialkyl dithiophosphates to xanthate in weakly acidic fine grinding can increase copper extraction in some cases.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "dialkyl dithiophosphate collector",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применение дополнительно к ксантогенату собирателя из класса диалкилдитиофосфатов при тонком измельчении шлака в слабокислой среде позволяет в некоторых случаях повысить извлечение меди в концентрат.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Slow cooling technologies and ultrafine grinding in ball mills are identified as key factors improving flotation performance of metallurgical slags.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flotation performance",
+    "direction": "increases",
+    "factor": "slow cooling, ultrafine grinding",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Другие исследователи определяющую роль в повышении показателей флотационной переработки шлаков медеплавильных заводов отводят технологии их медленного охлаждения ... и ультратонкого измельчения в бисерных мельницах.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В зависимости от содержания меди при флотации оборотных шлаков достигается извлечение меди в концентрат на уровне 70-90 %, в то время как в случае отвальных шлаков - менее 60 %.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В зависимости от содержания меди при флотации оборотных шлаков достигается извлечение меди в концентрат на уровне 70-90 %, в то время как в случае отвальных шлаков - менее 60 %.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Применение дополнительно к ксантогенату собирателя из класса диалкилдитиофосфатов при тонком измельчении шлака в слабокислой среде позволяет в некоторых случаях повысить извлечение меди в концентрат.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper recovery",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применение дополнительно к ксантогенату собирателя из класса диалкилдитиофосфатов при тонком измельчении шлака в слабокислой среде позволяет в некоторых случаях повысить извлечение меди в концентрат.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Другие исследователи определяющую роль в повышении показателей флотационной переработки шлаков медеплавильных заводов отводят технологии их медленного охлаждения и ультратонкого измельчения в бисерных мельницах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "performance",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Другие исследователи определяющую роль в повышении показателей флотационной переработки шлаков медеплавильных заводов отводят технологии их медленного охлаждения и ультратонкого измельчения в бисерных мельницах.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Конвертерный шлак измельчают в две стадии до крупности 60-65 % класса -0,074 мм.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "конвертерный шлак измельчают в две стадии до крупности 60-65 % класса -0,074 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Плотность шлака составляла 4,54 г/см³, насыпная плотность 2,10 г/см³.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Плотность шлака составляла 4,54 г/см 3 , насыпная плотность 2,10 г/см 3 .",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-01-23-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

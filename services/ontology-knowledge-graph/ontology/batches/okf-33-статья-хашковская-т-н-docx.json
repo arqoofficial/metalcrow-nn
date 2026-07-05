@@ -1,0 +1,1132 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:33-статья-хашковская-т-н-docx",
+   "title": "33 Статья - Хашковская Т.Н..docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\33 Статья - Хашковская Т.Н..docx.md",
+   "artifact_sha256": "98e45e866cb2b99498697d99c182fdfb9922963a8cb2bc641039cfc474a9352d",
+   "okf_raw_path": "Статьи/33 Статья - Хашковская Т.Н..docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:millerite-nis",
+   "label": "Millerite (NiS)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:millerite-chalcopyrite-association",
+   "label": "Millerite‑chalcopyrite association",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pentlandite-pyrrhotine-chalcopyrite-association",
+   "label": "Pentlandite‑pyrrhotine‑chalcopyrite association",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:core-fragments-from-krm-11-mayaк-core",
+   "label": "Core fragments from KRM‑11 (Mayaк) core",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:medistye-ore-samples-high-pyrite-32-of-sulfides",
+   "label": "Medistye ore samples (high pyrite 32 % of sulfides)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:medistye-ore-samples-low-pyrite-1-5-of-sulfides",
+   "label": "Medistye ore samples (low pyrite 1‑5 % of sulfides)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:vkriplenny-ore-samples-pyrite-9-of-sulfides",
+   "label": "Vkriplenny ore samples (pyrite ~9 % of sulfides)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:millerite",
+   "label": "Millerite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pyrite",
+   "label": "Pyrite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-sulfate",
+   "label": "Nickel sulfate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:33-статья-хашковская-т-н-docx:0",
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "title": "Nickel extraction from copper concentrate (well M-2857)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Beneficiation of ore from well M-2857"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:millerite-nis",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 87.7,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "в медный концентрат по руде из скважины М-2857 извлекается 87,7% никеля.",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "High nickel extraction when millerite‑chalcopyrite association is the only mineralization.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "nickel distribution",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в медный концентрат по руде из скважины М-2857 извлекается 87,7% никеля.",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в медный концентрат по руде из скважины М-2857 извлекается 87,7% никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:33-статья-хашковская-т-н-docx:1",
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "title": "Nickel extraction from copper concentrate (bodies with mixed mineralization)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Beneficiation of ores containing millerite‑chalcopyrite and pentlandite‑pyrrhotine‑chalcopyrite mineralization"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:millerite-chalcopyrite-association",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:pentlandite-pyrrhotine-chalcopyrite-association",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 21.5,
+      "nominal": null,
+      "max": 21.9
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "извлечение никеля остается повышенным (21,5-21,9% против планового ~ 8,6%)",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Nickel extraction remains elevated compared with the planned ~8.6% when mixed mineralization is present.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "извлечение никеля остается повышенным (21,5-21,9% против планового ~ 8,6%)",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "извлечение никеля остается повышенным (21,5-21,9% против планового ~ 8,6%)",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:33-статья-хашковская-т-н-docx:2",
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "title": "Diffractometer analysis of core samples from well KRM‑11 (Mayaк) on the Talnah site",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory X‑ray diffraction analysis of green‑coated core fragments"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:core-fragments-from-krm-11-mayaк-core",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Mineral identification",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Изучение образцов на дифрактометре в ЛГТИС ООО «Институт Гипроникель» показало, что зеленый налет на керне представлен редкими минералами – сульфатами никеля – ритгерситом Ni(SO 4 )(H 2 O) 6 , никельгексагидритом Ni(SO 4 )(H 2 O) 6 и дворникитом Ni(SO 4 )(H 2 O)",
+     "locator_kind": "md_para",
+     "locator": "para:66",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Green coating on the core is composed of rare nickel sulfates.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "mineral composition",
+      "direction": "increases",
+      "factor": "presence of nickel sulfates",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Изучение образцов на дифрактометре ... показало, что зеленый налет на керне представлен редкими минералами – сульфатами никеля",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Изучение образцов на дифрактометре в ЛГТИС ООО «Институт Гипроникель» показало, что зеленый налет на керне представлен редкими минералами – сульфатами никеля – ритгерситом Ni(SO 4 )(H 2 O) 6 , никельгексагидритом Ni(SO 4 )(H 2 O) 6 и дворникитом Ni(SO 4 )(H 2 O)",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:33-статья-хашковская-т-н-docx:3",
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "title": "Metal extraction tests on “medistye” and “vkriplenny” ores with varying pyrite content",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Batch leaching / flotation tests on ore samples"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:medistye-ore-samples-high-pyrite-32-of-sulfides",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:medistye-ore-samples-low-pyrite-1-5-of-sulfides",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:vkriplenny-ore-samples-pyrite-9-of-sulfides",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 73.76,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "в «медистых» рудах с большим количеством пирита (32% от суммы сульфидов) ... среднее извлечение меди из 9 проб низкое – 73,76%",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 69.08,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "в «медистых» рудах с большим количеством пирита ... никеля – 69,08%",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 88.11,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "в «медистых» рудах с малым количеством пирита ... среднее извлечение меди значительно выше из 130 проб – 88,11%",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 68.07,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "при количестве пирита около 9% от суммы сульфидов извлечение никеля составляет 68,07%",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 93.11,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "при количестве пирита около 9% от суммы сульфидов ... меди – 93,11%",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.41
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Higher pyrite content in medistye ores reduces copper and nickel recovery.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "metal recovery",
+      "direction": "decreases",
+      "factor": "pyrite content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в «медистых» рудах с большим количеством пирита ... среднее извлечение меди ... 73,76%, никеля – 69,08%",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.45
+    },
+    {
+     "text": "Low pyrite content in medistye ores improves copper recovery to above 88 %.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "copper recovery",
+      "direction": "increases",
+      "factor": "low pyrite content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в «медистых» рудах с малым количеством пирита ... среднее извлечение меди значительно выше ... 88,11%",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "в «медистых» рудах с большим количеством пирита (32% от суммы сульфидов) ... среднее извлечение меди из 9 проб низкое – 73,76%, никеля – 69,08%",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:33-статья-хашковская-т-н-docx:4",
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "title": "Micro‑X‑ray spectroscopic analysis of nickel sulfates, pyrite and millerite",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Determination of nickel content in sulfates, pyrite and millerite from the ‘medistaya’ ore of the Mayak deposit using a Tescan micro‑X‑ray spectrometer"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:millerite",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:pyrite",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:nickel-sulfate",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:millerite",
+     "value": {
+      "min": null,
+      "nominal": 33.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Миллерит | | 33,40 | 2,42 | | 64,18 | 100,00",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:millerite",
+     "value": {
+      "min": null,
+      "nominal": 32.98,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Миллерит | | 32,98 | 1,95 | | 65,06 | 100,00",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:pyrite",
+     "value": {
+      "min": null,
+      "nominal": 52.84,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Пирит | | 52,84 | 44,72 | | 2,43 | 100,00",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:pyrite",
+     "value": {
+      "min": null,
+      "nominal": 52.72,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Пирит | | 52,72 | 45,53 | | 1,75 | 100,00",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:nickel-sulfate",
+     "value": {
+      "min": null,
+      "nominal": 31.46,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Сульфат Ni | 36,17 | 17,51 | 4,86 | | 31,46 | 90,00",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:nickel-sulfate",
+     "value": {
+      "min": null,
+      "nominal": 23.03,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Сульфат Ni | 37,79 | 19,13 | 9,80 | 0,24 | 23,03 | 90,00",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Содержание никеля в сульфатах, пирите и в миллерите из названной рудной ассоциации, определено на микрорентгеноспектральном анализаторе Tescan (таблица 4).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "increases",
+      "factor": "micro‑X‑ray spectrometry",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Содержание никеля в сульфатах, пирите и в миллерите из названной рудной ассоциации, определено на микрорентгеноспектральном анализаторе Tescan (таблица 4).",
+     "locator_kind": "md_para",
+     "locator": "para:73",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Содержание никеля в сульфатах, пирите и в миллерите из названной рудной ассоциации, определено на микрорентгеноспектральном анализаторе Tescan (таблица 4).",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Миллерит (NiS) имеет высокое содержание никеля, около 61-62%масс, в связи с этим даже малое его количество повышает содержание никеля в руде (таблица 1).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "millerite presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Миллерит (NiS) имеет высокое содержание никеля, около 61-62%масс, в связи с этим даже малое его количество повышает содержание никеля в руде (таблица 1).",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "в скарнах установлено локальное развитие алюмосиликатов кальция – гроссуляра, гидрограната, везувиана, волластонита, эпидота, что фиксируется повышенным содержанием СаО от 16,4% до 21,7%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "local calcium aluminosilicates",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в скарнах установлено локальное развитие алюмосиликатов кальция – гроссуляра, гидрограната, везувиана, волластонита, эпидота, что фиксируется повышенным содержанием СаО от 16,4% до 21,7%",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.81,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "содержание MgO составляет 10,5-16,2%масс",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "serpentinite zones",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "содержание MgO составляет 10,5-16,2%масс",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Влияние минералов миллерит-валлериит-пиритовой рудной ассоциации на технологические показатели при проведении опытов обогащения по действующей схеме 2ПК-ТОФ и проектной схеме 3ПК-ТОФ Заполярного филиала ПАО ГМК «Норильский никель».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technological indicators",
+    "direction": "increases",
+    "factor": "millerite‑valleriite‑pyrite association",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Влияние минералов миллерит-валлериит-пиритовой рудной ассоциации на технологические показатели при проведении опытов обогащения по действующей схеме 2ПК-ТОФ и проектной схеме 3ПК-ТОФ Заполярного филиала ПАО ГМК «Норильский никель».",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.81,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Millerite (NiS) has a high nickel content, about 61‑62 % mass.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Миллерит (NiS) имеет высокое содержание никеля, около 61-62%масс",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "When millerite is finely disseminated (5‑50 µm) in chalcopyrite, it does not liberate during grinding and passes into the copper concentrate, significantly raising nickel distribution in it.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel distribution in copper concentrate",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в связи с малым размером зерен, миллерит при измельчении руды не высвобождается от срастаний с минералами меди и переходит в медный концентрат, существенно повышая распределение в него никеля",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Nickel content in copper concentrate is undesirable and limited by the enrichment regulation to 2.0 % mass.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel limit in copper concentrate",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "содержание которого в медном концентрате нежелательно и лимитируется Регламентом обогащения на уровне 2,0%масс",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "In most copper ores, besides the millerite‑chalcopyrite association, pentlandite‑pyrrhotine‑chalcopyrite aggregates are also present and they effectively open during grinding, reducing the influence of millerite‑chalcopyrite clumps.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "influence of millerite‑chalcopyrite clumps",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В большинстве «медистых» руд кроме миллерит-халькопиритовой рудной ассоциации присутствуют также пентландит - пирротин- халькопиритовые агрегаты, которые при измельчении раскрываются эффективно и снижают влияние миллерит-халькопиритовых сростков.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "When the millerite‑chalcopyrite association is the sole mineralization, almost complete nickel distribution to the copper concentrate occurs.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel distribution",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при обогащении руд происходит почти полное распределение никеля в медный концентрат",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Valleyrite is associated with serpentinization zones and can replace chalcopyrite, magnetite, pentlandite, pyrrhotine, potentially becoming the main ore mineral.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mineral replacement",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Валлериит, минералы группы валлериита связаны с зонами серпентинизации и развития рудных и бруситовых скарнов, где валлериит замещает халькопирит, магнетит, пентландит, пирротин, может становиться основным рудным минералом.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Pyritization of sulfides is one of several mineralogical factors influencing metal extraction in ores with pyrotin‑pyrite‑valleriite mineralization.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "pyritization of sulfides",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пиритизация сульфидов – один из нескольких минералогических факторов в рудах с пирротин‑пирит‑валлериитовой минерализацией, влияющий на извлечение металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.81,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Nickel and cobalt contents in pyrite depend on the chemical composition of the replaced minerals.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Ni, Co impurity level",
+    "direction": "increases",
+    "factor": "composition of replaced minerals",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Состав и уровень содержания примесей никеля и кобальта в пирите зависит химического состава замещаемых минералов.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Nickel impurity in pyrite from altered inclusions on the western flank of the October field ranges 0.6‑2.6 % mass.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Ni impurity",
+    "direction": "increases",
+    "factor": "origin from altered inclusions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание примеси никеля в пирите из измененных вкрапленных руд на западном фланге Октябрьского месторождения находится в диапазоне 0,6-2,6%масс",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Cobalt impurity in pyrite of medistye ores varies from 0.2 to 6.5 % mass.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Co impurity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание кобальта в пиритах медистых руд варьирует от 0,2 до 6,5%масс.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "In medistye ores, pyrite is associated with valleriite, which passes to the tailings and carries copper away.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper loss to tailings",
+    "direction": "increases",
+    "factor": "association with valleriite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В «медистых» рудах, как показано выше, пирит находится в ассоциации с валлериитом, который переходит в хвосты обогащения и уносит за собой медь.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "In inclusional ores where valleriite is practically absent, a large amount of olivine and serpentine negatively affects nickel extraction.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "decreases",
+    "factor": "olivine and serpentine presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Во вкрапленных рудах, где валлериит практически отсутствует, на извлечение никеля, кроме пиритизации сульфидов, негативно сказывается большое количество оливина и серпентина, в состав которых входит примесь никеля",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Green coating on core samples from the Mayaк deposit consists of rare nickel sulfates.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mineral composition of coating",
+    "direction": "increases",
+    "factor": "presence of nickel sulfates",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Изучение образцов на дифрактометре ... показало, что зеленый налет на керне представлен редкими минералами – сульфатами никеля",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.45,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Сульфаты никеля образуются в поверхностных условиях недр при контакте с водой, в разной степени водорастворимы и могут выноситься из керна скважин.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel_sulfate_formation",
+    "direction": "increases",
+    "factor": "water_contact",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сульфаты никеля образуются в поверхностных условиях недр при контакте с водой, в разной степени водорастворимы и могут выноситься из керна скважин.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Любое взаимодействие с водой на всех стадиях горно-обогатительного цикла, в частности влажность руды, может оказывать влияние на точность определения содержания никеля в зонах распространения сульфатов никеля.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "water_interaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Любое взаимодействие с водой на всех стадиях горно-обогатительного цикла, в частности влажность руды, может оказывать влияние на точность определения содержания никеля в зонах распространения сульфатов никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Степень влияния сульфатов никеля и их распространенность в рудах не установлена за недостаточностью наблюдений, редкостью обнаружения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel_sulfate_impact",
+    "direction": "increases",
+    "factor": "insufficient_observations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Степень влияния сульфатов никеля и их распространенность в рудах не установлена за недостаточностью наблюдений, редкостью обнаружения.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "В связи с тем, что сульфаты никеля образуются в экзогенных условиях при контакте с водой, наблюдается их присутствие в техногенных металлсодержащих осадках, в частности в сырье озера «Барьерное».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "exogenous_water_contact",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В связи с тем, что сульфаты никеля образуются в экзогенных условиях при контакте с водой, наблюдается их присутствие в техногенных металлсодержащих осадках, в частности в сырье озера «Барьерное».",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "Изучение распространения растворимого сульфата никеля в поверхностных условиях имеет экологическое значение с точки зрения загрязнения окружающей среды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel_sulfate_spread",
+    "direction": "increases",
+    "factor": "surface_conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Изучение распространения растворимого сульфата никеля в поверхностных условиях имеет экологическое значение с точки зрения загрязнения окружающей среды [11]",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "В практической деятельности по отработке и обогащению руд минеральный состав должен учитываться для поддержания на обогатительном переделе плановых извлечений металлов и содержания их в товарных медном и никелевом концентратах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mineral_composition_consideration",
+    "direction": "increases",
+    "factor": "operational_practice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В практической деятельности по отработке и обогащению руд минеральный состав должен учитываться для поддержания на обогатительном переделе плановых извлечений металлов и содержания их в товарных медном и никелевом концентратах.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  },
+  {
+   "text": "По мере продвижения отработки к флангам рудных тел возможно распространение специальных минералогических ассоциаций, влияющих на показатели обогащения руд.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "enrichment_indicators",
+    "direction": "increases",
+    "factor": "advancing_processing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По мере продвижения отработки к флангам рудных тел возможно распространение специальных минералогических ассоциаций, влияющих на показатели обогащения руд",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:33-статья-хашковская-т-н-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

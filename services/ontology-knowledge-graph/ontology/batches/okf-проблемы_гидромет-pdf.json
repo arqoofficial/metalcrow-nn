@@ -1,0 +1,1899 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:проблемы_гидромет-pdf",
+   "title": "ПРОБЛЕМЫ_Гидромет.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ПРОБЛЕМЫ_Гидромет.pdf.md",
+   "artifact_sha256": "2a3f03bfb1c3270a4988c570616a352c59988ec0fb0f12da90d07236957c9ed7",
+   "okf_raw_path": "Обзоры/ПРОБЛЕМЫ_Гидромет.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:ore",
+   "label": "ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:bio-leaching-solution",
+   "label": "bio‑leaching solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:heap",
+   "label": "heap",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lime",
+   "label": "lime",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nikel",
+   "label": "nickel",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:poorly-leached-material-from-primary-leaching",
+   "label": "poorly leached material from primary leaching",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Zn",
+   "label": "zinc",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slaked-lime",
+   "label": "slaked lime",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:primary-leach-heap-4",
+   "label": "primary leach heap 4",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:leach-solution",
+   "label": "leach solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:heap-leachate",
+   "label": "heap leachate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:проблемы_гидромет-pdf:0",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Industrial start‑up of open‑pit mining and bio‑leaching at Talvivaara",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "large‑scale open pit mining, crushing, agglomeration with sulfuric acid, heap bio‑leaching using local bacteria, sulfide precipitation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:bio-leaching-solution",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ore mined",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 10.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Руда, млн т | 3,0 | 7,3 | 3,5 | 10,8",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel sulfide produced (dry)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1525.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Выпуск сульфида Ni, т (сух) | - | 668 | 857 | 1525",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "zinc sulfide produced (dry)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5271.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Выпуск сульфида Zn, т (сух) | - | 1444 | 3827 | 5271",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel in sulfide",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 735.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2009 г. было получено 735 т никеля",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "zinc in sulfide",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3133.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2009 г. было получено ... 3133 т цинка",
+     "locator_kind": "md_para",
+     "locator": "para:25",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "continuous production became possible only in 4‑й квартал 2009 г., six months later than planned",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "production continuity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Только в 4 кв. 2009 г., на 6 месяцев позднее намеченного срока, количество раствора выщелачивания стало достаточным для непрерывного производства.",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    },
+    {
+     "text": "product quality at year‑end met design specifications",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "product quality",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Качество продукта к концу года соответствовало проектной спецификации.",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проектом предусмотрена крупномасштабная открытая добыча, начавшаяся в апреле 2008 г. Затем началась подготовка руды к процессу биовыщелачивания, укладывание куч и, с 1 кв.2009 г., производство в коммерческом масштабе.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:1",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Pilot modification of crushing circuit (addition of fourth crushing stage) at Talvivaara",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "crushing chain upgraded from three to four stages; extra screens and a drum added for agglomeration",
+       "duration_text": "implemented by October 2009"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "crushing capacity",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Полная мощность цепочки дробления в 60 тыс т/сут не была достигнута в 2009 г.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "additional crushing capacity improved downstream performance",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "overall chain performance",
+      "direction": "increases",
+      "factor": "finer ore to secondary and tertiary crushers",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Поступающая теперь на вторичное и третичное дробление руда тоньше, что улучшило показатели всей цепочки.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проблема была решена только к октябрю 2009 г. - установлены дополнительные дробильные мощности, а именно: если ранее цепочка включала первичное, вторичное и дробление 3-ей стадии, то теперь дробление осуществляется в 4 стадии.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:2",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Industrial test of aeration improvement in second heap section",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "addition of a bottom‑mounted aeration system plus an intermediate height aeration system"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:heap",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "enhanced aeration positively affected leaching results",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "leaching performance",
+      "direction": "increases",
+      "factor": "improved aeration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "система аэрации во второй секции кучи была улучшена (за счет дополнения придонной системы аэрации второй «промежуточной» (по высоте) системой), что положительно сказалось на результатах.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Система аэрации во второй секции кучи была улучшена ... что положительно сказалось на результатах.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:3",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Industrial adjustment of heap height from 10 m to 8 m",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduced heap height to improve aeration"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:heap",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "lower heaps facilitated better aeration",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "aeration ease",
+      "direction": "increases",
+      "factor": "reduced height",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Оптимизирована высота куч - вместо 10-метровых, перешли на 8-метровые кучи, в которых легче добиться лучшей аэрации.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Оптимизирована высота куч - вместо 10-метровых, перешли на 8-метровые кучи, в которых легче добиться лучшей аэрации.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:4",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Leak containment and water neutralization",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "additional excess water was pumped in to minimize leak consequences; water retained by existing dams and a new 4th protective dam; remaining water released to environment was neutralized with lime to precipitate metals and raise pH to neutral"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lime",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The majority of the leaked water was retained on the mining concession territory",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Основную часть утекшей из пруда воды удалось удержать на территории горной концессии с помощью имеющихся дамб и новой строящейся 4-ой защитной дамбы",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    },
+    {
+     "text": "The metal (including uranium) sludge was localized in a marshy area near the southern border of the concession",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Осадок металлов (в т.ч. урана) был локализован в болотистом участке рядом с южной границей концессии",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Утечка была обнаружена 04.11 и полностью прекращена 14 ноября",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:5",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Nickel concentration monitoring during 4th quarter 2012",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "measurement of nickel concentration in the solution feeding the metal extraction operation",
+       "duration_text": "4th quarter 2012"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:bio-leaching-solution",
+     "value": {
+      "min": null,
+      "nominal": 1.3,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "nickel"
+     },
+     "method": null,
+     "snippet": "на конец 2012 г. составили около 1,3 г/л",
+     "locator_kind": "md_para",
+     "locator": "para:72",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:bio-leaching-solution",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "nickel"
+     },
+     "method": null,
+     "snippet": "по сравнению с почти 2 г/л в начале года",
+     "locator_kind": "md_para",
+     "locator": "para:72",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:bio-leaching-solution",
+     "value": {
+      "min": null,
+      "nominal": 1.8,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "nickel"
+     },
+     "method": null,
+     "snippet": "и 1,8 г/л во 2 кв. 2012 г.",
+     "locator_kind": "md_para",
+     "locator": "para:72",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Nickel concentration continued to decline throughout the 4th quarter",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "концентрация никеля в растворе, поступающем на операцию извлечения металлов, продолжала снижаться на протяжении всего 4-го квартала",
+     "locator_kind": "md_para",
+     "locator": "para:72",
+     "confidence": 0.9
+    },
+    {
+     "text": "Target design concentration is 3‑3,5 г/л",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "«целевая» проектная концентрация - 3-3,5 г/л",
+     "locator_kind": "md_para",
+     "locator": "para:72",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В результате нарушения водного баланса, концентрация никеля в растворе, поступающем на операцию извлечения металлов, продолжала снижаться",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:6",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Production shutdowns and impact on nickel output 2012",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "plant shutdowns due to H2S release and water‑balance incident; measurement of planned vs actual nickel production",
+       "duration_text": "2012"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "planned nickel production",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 25.0,
+      "nominal": null,
+      "max": 30.0
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Talvivaara снизила план выпуска никеля в 2012 г. с 25-30 тыс т примерно до 17 тыс т",
+     "locator_kind": "md_para",
+     "locator": "para:73",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "revised nickel production after leak",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 13.0,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Talvivaara вторично снизила план выпуска никеля в 2012 г. - примерно до 13 тыс т",
+     "locator_kind": "md_para",
+     "locator": "para:73",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Unplanned shutdowns reduced nickel output",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "nickel output",
+      "direction": "decreases",
+      "factor": "shutdowns",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "С учетом этой незапланированной остановки Talvivaara снизила план выпуска никеля",
+     "locator_kind": "md_para",
+     "locator": "para:73",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В течение 2012 г. завод дважды останавливали",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:7",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Financial performance Q4 2012",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "recording of sales and financial results for the fourth quarter",
+       "duration_text": "4th quarter 2012"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "nickel sold",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2183.0,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 4 кв.2012 г. было продано 2183 т никеля",
+     "locator_kind": "md_para",
+     "locator": "para:81",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "cobalt sold",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "70 т кобальта",
+     "locator_kind": "md_para",
+     "locator": "para:81",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "zinc sold",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 8178.0,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "8178 т цинка",
+     "locator_kind": "md_para",
+     "locator": "para:81",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "operating loss",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 57.0,
+      "max": null
+     },
+     "unit": "€",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Операционный убыток компании за 4 кв. 2012 г. составил 57 млн €",
+     "locator_kind": "md_para",
+     "locator": "para:81",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "capital expenditures",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 29.6,
+      "max": null
+     },
+     "unit": "€",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Капитальные затраты за 4 кв. 2012 г. составили 29,6 млн €",
+     "locator_kind": "md_para",
+     "locator": "para:81",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В 4 кв.2012 г. было продано 2183 т никеля, 70 т кобальта и 8178 т цинка",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:8",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Primary bio‑leaching pilot plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "primary bio‑leaching"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nikel",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:nikel",
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "достигнутое извлечение никеля - 60-70%",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Zn"
+     },
+     "method": null,
+     "snippet": "цинка - более 70%",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Primary bio‑leaching performance was initially lower than expected from pilot tests but later improved.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "С самого начала эксплуатации металлургические показатели первичного биовыщелачивания были ниже, чем ожидаемые показатели, полученные на основе пилотных испытаний. С тех пор удалось значительно улучшить показатели",
+     "locator_kind": "md_para",
+     "locator": "para:109",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "С самого начала эксплуатации металлургические показатели первичного биовыщелачивания были ниже, чем ожидаемые показатели, полученные на основе пилотных испытаний. С тех пор удалось значительно улучшить показатели и в настоящее время выщелачивание продолжается, достигнутое извлечение никеля - 60-70%, цинка - более 70%.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:9",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Secondary bio‑leaching industrial operation (since early 2011)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "secondary bio‑leaching of heap leach residues"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:poorly-leached-material-from-primary-leaching",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Secondary leaching works well, but quantitative assessment has not yet been performed.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "плохой выщелоченный материал от первичного выщелачивания укладывается отдельно в кучи, процесс вторичного выщелачивания идет хорошо, но количественная оценка пока не выполнена",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Система вторичного выщелачивания куч введена в строй с начала 2011 г. ... процесс вторичного выщелачивания идет хорошо, но количественная оценка пока не выполнена.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:10",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Nickel production plant operation (June 2011)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "metal extraction from leach solution"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nikel",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:Zn",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "nickel production rate",
+     "scope": "material",
+     "material_id": "mat:nikel",
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "t/d",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Максимальное достигнутый объем производства никеля на протяжении нескольких дней составил 80-90 т/сут в июне 2011 г.",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:nikel",
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "nickel  in solution"
+     },
+     "method": null,
+     "snippet": "Раствор содержал около 3 г/л Ni",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:Zn",
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "zinc  in solution"
+     },
+     "method": null,
+     "snippet": "и 6-7 г/л Zn",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 95.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Извлечение металлов на заводе обычно равняется 95-97%",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant did not operate at design capacity because the solution metal concentration was below design values.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Завод по извлечению металлов из раствора выщелачивания не работал на проектной мощности, поскольку не достигнута проектная концентрация металла в растворе",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Максимальное достигнутый объем производства никеля на протяжении нескольких дней составил 80-90 т/сут в июне 2011 г., что соответствует годовой выработке примерно 30 тыс т/г Ni. Раствор содержал около 3 г/л Ni и 6-7 г/л Zn. Извлечение металлов на заводе обычно равняется 95-97%.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:11",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Installation of additional lime capacity",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "lime neutralization for solution treatment"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slaked-lime",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "A mill for lime production was re‑commissioned and a 7 t/d lime neutralizer was rented to reach a total capacity of 20 t/d.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Tarlivaara повторно вводит в эксплуатацию мельницу для извести, которая будет работать как известегаситель и берет в аренду известегаситель на 7 т/сут с целью доведения суммарной мощности по гашеной извести до 20 т/сут",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Tarlivaara повторно вводит в эксплуатацию мельницу для извести, которая будет работать как известегаситель и берет в аренду известегаситель на 7 т/сут с целью доведения суммарной мощности по гашеной извести до 20 т/сут и ликвидации узкого места.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:12",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Installation of a second aeration system",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "aeration of primary leach heaps",
+       "temperature_text": "winter 2013 > 20 °C, winter 2012 down to 6 °C",
+       "duration_text": "beginning of September – end of September 2013"
+      },
+      "temperature": {
+       "min": 293.15,
+       "nominal": null,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:primary-leach-heap-4",
+     "role": "atmosphere"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.5,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "nickel  in leach solution"
+     },
+     "method": null,
+     "snippet": "Содержание никеля в растворе выщелачивания составляло 1,5-1,6 г/л.",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "the leaching process proceeded actively",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process activity",
+      "direction": "increases",
+      "factor": "temperature above 20 °C",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Процесс выщелачивания идет активно: зимой 2013 г. температура куч держалась на уровне выше 20 ̊С",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В середине 2013 г. введены установки обратного осмоса с тем, чтобы оборотную воду использовать в технологическом процессе на заводе.",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:13",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Operation of the sulfide precipitation plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "metal precipitation from leach solution",
+       "temperature_text": "not specified",
+       "duration_text": "4‑week shutdown in Q4 2013"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:leach-solution",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "the plant was stopped because production was unprofitable",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operational status",
+      "direction": "decreases",
+      "factor": "low metal concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Завод по осаждению сульфидов был остановлен на 4 недели, т.к. концентрация металлов в растворе выщелачивания была такой низкой, что делала производство нерентабельным.",
+     "locator_kind": "md_para",
+     "locator": "para:155",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Завод по осаждению сульфидов был остановлен на 4 недели, т.к. концентрация металлов в растворе выщелачивания была такой низкой, что делала производство нерентабельным.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:проблемы_гидромет-pdf:14",
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "title": "Nickel and zinc production in Jan‑Feb 2014",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "heap bio‑leaching and subsequent metal recovery",
+       "temperature_text": "not specified",
+       "duration_text": "January–February 2014"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:heap-leachate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "nickel production",
+     "scope": "material",
+     "material_id": "mat:nikel",
+     "value": {
+      "min": null,
+      "nominal": 2047.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "За январь-февраль 2014 г. было получено 2047 т никеля",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "zinc production",
+     "scope": "material",
+     "material_id": "mat:Zn",
+     "value": {
+      "min": null,
+      "nominal": 3638.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "За январь-февраль 2014 г. было получено 3638 т цинка",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "production figures are reported for the first two months of 2014",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "production",
+      "direction": "increases",
+      "factor": "operational continuation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "За январь-февраль 2014 г. было получено 2047 т никеля и 3638 т цинка.",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "За январь-февраль 2014 г. было получено 2047 т никеля и 3638 т цинка.",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The bio‑leaching process uses locally sourced bacteria.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "биовыщелачивание (с использованием «местных» бактерий",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Project aims to reach a design capacity of 50 kt Ni per year by 2012.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "в 2009 г. было принято решение об увеличении проектной мощности до 50 тыс т/г Ni к 2012 г.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Potential to produce up to 350 t per year of commercial‑grade yellow cake (U = 70 %).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Из всего многообразия технологий выбран вариант жидкостной экстракции с последующим осаждением перекисью для получения желтого кека коммерческого сорта (U=70%).",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.45,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": "precipitation"
+  },
+  {
+   "text": "The project’s 2009 loss was €55 million, with net sales of €8 million, lower than expected due to crushing‑chain problems.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "financial performance",
+    "direction": "decreases",
+    "factor": "crushing‑chain problems",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "убытки в 55 млн € были выше прогнозных, а чистые продажи в 8 млн € - значительно ниже ожидаемых «из-за проблем в цепочке дробления»",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "If the 60 kt/d crushing capacity is not reached by Q1 2010, three additional third‑stage crushers will be installed.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Если не удастся достичь этого уровня в 1 кв. 2010 г., то надо будет установить дополнительно 3 дробильных установки 3-ей стадии дробления.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.81,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "The new stationary cone crusher installed in October 2009 performed well, allowing abandonment of the contractor’s crushing services.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "equipment performance",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В октябре 2009 г. на ней установили новый неподвижный конус с меньшим углом, показавшим себя хорошо. От услуг подрядчика по дроблению стало возможным отказаться.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Re‑precipitated nickel in the heaps is in an easily soluble form and can be recovered by washing the heaps with water.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Этот «повторно осажденный» никель, однако, как оказалось, находится в легко растворимом виде и его можно вернуть в оборот, промывая кучи водой.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "The target design nickel concentration is 3‑3,5 g/L",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "«целевая» проектная концентрация - 3-3,5 г/л",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Capital expenditures in 2012 were €97.5 million",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Капитальные затраты в 2012 г. составили 97,5 млн €",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Total borrowings as of 31 Dec 2012 were almost €600 million",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "по состоянию дел на 31.12.2012 г. суммарный объем заимствований составил почти 600 млн €",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.81,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Operating loss for the full year 2012 was €83.6 million",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "За полный 2012 г. операционные убытки компании составили 83,6 млн €",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Talvivaara purchased the contaminated zone and treated the polluted soil in December 2012",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В декабре 2012 г. Talvivaara выкупила пораженную зону и обработала зараженную почву",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "The leak was discovered on 04‑Nov and fully stopped on 14‑Nov",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Утечка была обнаружена 04.11 и полностью прекращена 14 ноября",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "The mine’s ore extraction was halted in September 2012 due to water‑balance issues",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "С сентября 2012 г. добыча руды была приостановлена из-за упомянутой «ситуации с водным балансом»",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Planned restart of ore extraction from Kuusilampi was set for July 2013 after dewatering",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Компания планировала возобновить добычу свежей руды с июля 2013 г. после того, как будет откачана вода из основной часть карьера Kuusilampi",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.45,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Capital expenditures for 2013 are planned at €60 million",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Капитальные затраты на 2013 г. запланированы на уровне 60 млн €",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "SRK recommended aligning mining operations with the geological model, not just tonnage",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "SRK настоятельно рекомендовала компании установить системы и процессы для приведения в соответствие горной добычи с геологической моделью",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Primary leaching takes about 1.5 years, while secondary leaching requires at least 3 years.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Важно подчеркнуть, что выщелачивание -длительный процесс: первичное выщелачивание занимает 1,5 года, вторичное выщелачивание - по крайней мере, 3 года.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "The process is still unstable and not fully understood, mainly due to low metal concentrations in the leach solution compared with pilot plant results.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stability",
+    "direction": "decreases",
+    "factor": "low metal concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "SRK отмечает, что процесс до сих пор не стабилен и не полностью понят. На показатели завода по извлечению металлов, в первую очередь, влияет то, что концентрация металлов в растворе выщелачивания ниже той, что была получена на пилотном заводе и ниже заложенной в проект.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Achieving the design capacity of 50 kt/yr Ni may require additional H₂S production capacity costing about €20 million in 2016/2017.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital investment",
+    "direction": "increases",
+    "factor": "additional H₂S capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "для выпуска 50 тыс т/г Ni потребуются, например, дополнительные мощности по производству H2S, для строительства которых запланированы капитальные затраты примерно в 20 млн € на 2016/2017 г.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Total capital expenditures reached approximately $1 billion by February 2012, with an additional €325 million (≈$420 million) forecast for 2013‑2020.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "на февраль 2012 г. капитальные затраты достигли примерно 1 млрд USD, а по прогнозу SRK на период 2013‑2020 гг. потребуется вложить ещё 325 млн € (около 420 млн USD).",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.81,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "The plant’s operating cost estimates for 2014‑2016 were revised upward.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operating cost",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "SRK пересмотрела оценку операционных издержек на 2014-2016 гг. в сторону повышения.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Outotec is the main supplier of the liquid‑extraction and precipitation technology used at the plant.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "главным поставщиком технологии жидкостной экстракции и осаждения является Outotec.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "The plant’s nickel extraction from solution is typically 95‑97%.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Извлечение металлов на заводе обычно равняется 95-97%.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Projected plant output of 30 kt/yr Ni is expected around 2018, i.e., ten years after start‑up in late 2008.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Выход на проектную мощность можно ожидать в районе 2018 г., т.е. 10 лет спустя после ввода в строй (конец 2008 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "The main cause of poor leaching performance of primary heaps is insufficient aeration.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "performance",
+    "direction": "decreases",
+    "factor": "insufficient aeration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основная причина плохих показателей выщелачивания первичных куч заключается в недостаточной аэрацией.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Excessive rainfall in summer‑autumn 2012 and rapid snow melt in spring 2012 caused catastrophic consequences for the leaching process.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stability",
+    "direction": "decreases",
+    "factor": "extreme precipitation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "к катастрофическим последствиям для всего процесса выщелачивания привели чрезвычайно обильные дожди летом-осенью 2012 г., которым предшествовал период бурного таяния снега весной 2012 г.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Nickel concentration in the leach solution feeding the metal extraction operation was significantly below the design target.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "water‑balance disturbance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате нарушения водного баланса, концентрация никеля в растворе, поступающем на операцию извлечения металлов, была значительно ниже проектной.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "The target nickel concentration of ≈3 g/l (design 3‑3.5 g/l) was only reached in June 2011 and could not be maintained.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "process variability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Концентрация ≈ 3 г/л («целевая» проектная концентрация - 3-3,5 г/л) за весь период времени, начиная с 2008 г., была достигнута лишь в июне 2011 г., но удержать её на этом уровне не удалось.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Nickel concentration in the leach solution fell to about 1.3 g/l at the end of 2012, compared with ~2 g/l at the start of 2012 and 1.8 g/l in Q2 2012.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "water‑balance issues",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В конце 2012 г. концентрация никеля составляла около 1,3 г/л по сравнению с почти 2 г/л в начале 2012 г. года и 1,8 г/л во 2 кв. 2012 г.",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Average nickel concentration in 2013 was 1.0 g/l.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "overall water‑balance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средняя концентрация в 2013 г. - 1,0 г/л.",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "The sulfide precipitation plant was shut down for 4 weeks in Q4 2013 because low metal concentrations made production unprofitable.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operational status",
+    "direction": "decreases",
+    "factor": "low metal concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 4 кв. 2013 г. завод по осаждению сульфидов был остановлен на 4 недели, т.к. концентрация металлов в растворе выщелачивания была такой низкой, что делала производство нерентабельным.",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": "precipitation"
+  },
+  {
+   "text": "Ore mining was halted from September 2012 to mid‑May 2013 due to excess water in the pit, then resumed May‑November 2013 and stopped again for financial reasons.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operational status",
+    "direction": "decreases",
+    "factor": "excess water / financial constraints",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добыча руды была остановлена с сентября 2012 г. по середину мая 2013 г. из-за избыточной воды в карьере. (Затем добычу вели с мая по ноябрь 2013 г. и вновь остановили -теперь уже по «финансовым» соображениям).",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Approximately 6‑7 million m³ of rainwater was stored on site in a non‑designated gypsum pond, with two leaks occurring in November 2012 and April 2013.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rainwater volume",
+    "direction": "increases",
+    "factor": "excess water",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания вынуждена была на протяжении года хранить примерно 6-7 млн м 3 дождевой воды на территории рудника -в не предназначенном для этого «гипсовом» пруду. Дважды имели место утечки из пруда - в ноябре 2012 г. и апреле 2013 г.",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Reverse‑osmosis units were introduced in mid‑2013 to recycle process water, allowing the plant to operate almost in a closed water cycle.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "water usage",
+    "direction": "decreases",
+    "factor": "reverse osmosis installation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В середине 2013 г. введены установки обратного осмоса с тем, чтобы оборотную воду использовать в технологическом процессе на заводе. Завод работает практически уже в замкнутом цикле по воде.",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Capital expenditures reached about 1 billion USD by February 2012, and an additional 325 million € (≈420 million USD) is forecast for 2013‑2020.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "increases",
+    "factor": "project development",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на февраль 2012 г. капитальные затраты достигли примерно 1 млрд USD, а по прогнозу SRK на период 2013-2020 гг. потребуется вложить ещё 325 млн € (около 420 млн USD).",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.9,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  },
+  {
+   "text": "Talvivaara’s greenhouse‑gas emissions are 39 % lower and primary energy consumption 21 % lower than the industry average, with SO₂ emissions only 2 % of the average level.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "emissions",
+    "direction": "decreases",
+    "factor": "process efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по итогам анализа ... в Talvivaara выбросы парниковых газов на 39% ниже, а расход первичной энергии на 21% ниже, чем в среднем по отрасли. Выбросы SO2 с Talvivaara составляют всего 2% от среднего уровня.",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.81,
+   "document_id": "doc:проблемы_гидромет-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

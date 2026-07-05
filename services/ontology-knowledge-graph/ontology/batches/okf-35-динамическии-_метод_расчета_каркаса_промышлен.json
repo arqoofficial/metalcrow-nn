@@ -1,0 +1,843 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "title": "35 Динамический_метод_расчета_каркаса_промышленного_здания_на_действие_сейсмической_нагрузки_17-экспертиза.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\35 Динамический_метод_расчета_каркаса_промышленного_здания_на_действие_сейсмической_нагрузки_17-экспертиза.docx.md",
+   "artifact_sha256": "bff9e283556a78ae1aeb35133f51145b8019b4eca980ca8d164784b51c9e2ed5",
+   "okf_raw_path": "Статьи/35 Динамический_метод_расчета_каркаса_промышленного_здания_на_действие_сейсмической_нагрузки_17-экспертиза.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:zet7152-n-digital-accelerometer",
+   "label": "ZET7152‑N digital accelerometer",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:revit",
+   "label": "Revit",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lira-10-12",
+   "label": "LIRA 10.12",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:reinforced-concrete-columns-piles-beams-slabs-wa",
+   "label": "reinforced‑concrete columns, piles, beams, slabs, walls, foundations",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:35-динамическии-_метод_расчета_каркаса_промышлен:0",
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "title": "Field seismic monitoring of building during blasting‑vibration work (БВР)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of ZET7152‑N digital accelerometers on the building foundation and recording of ground motion components (aₓ, a_y, a_z) with a sampling step of 1 ms; subsequent processing of the records into acceleration time histories (seismograms).",
+       "temperature_text": "not specified",
+       "duration_text": "not specified (continuous recording during the blasting‑vibration event)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:zet7152-n-digital-accelerometer",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Accelerograms obtained from the field measurements were used as input seismograms for the direct dynamic FEM analysis of the building.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В результате полевых замеров кинематического воздействия с помощью цифрового акселерометра ZET 7152‑N были получены акселерограммы, приведенные в табл.1.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В результате полевых замеров кинематического воздействия с помощью цифрового акселерометра ZET 7152‑N были получены акселерограммы, приведенные в табл.1.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:35-динамическии-_метод_расчета_каркаса_промышлен:1",
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "title": "Finite‑element modal analysis of the building",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Construction of architectural, analytical and FEM models (Revit → LIRA 10.12); definition of material dynamic parameters, element types (rod for columns, pile, beams; plate for walls, slabs, foundations); mesh size 250 mm; modal analysis to obtain natural frequencies; direct dynamic analysis with the recorded seismograms as prescribed nodal displacements.",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:revit",
+     "role": "atmosphere"
+    },
+    {
+     "material_id": "mat:lira-10-12",
+     "role": "atmosphere"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "frequency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.88,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "natural"
+     },
+     "method": null,
+     "snippet": "В результате проведения модального анализа установлено, что собственные частоты колебания здания составляют по направлению Y: ω₁=4,88 c⁻¹ ; по направлению X: ω₂=7,64 c⁻¹ .",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The obtained natural frequencies were used in LIRA 10.12 to define Rayleigh damping for the low‑frequency part of the seismic loading.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Данные величины использованы в ПК ЛИРА 10.12 для учета демпфирования в форме Рэлея с учетом низкочастотного состава рассматриваемого сейсмического воздействия.",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В результате проведения модального анализа установлено, что собственные частоты колебания здания составляют по направлению Y: ω₁=4,88 c⁻¹ ; по направлению X: ω₂=7,64 c⁻¹ .",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:35-динамическии-_метод_расчета_каркаса_промышлен:2",
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "title": "Static and dynamic FEM calculations of load‑bearing capacity of reinforced‑concrete elements",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Two calculation cases: (1) static analysis without blasting‑vibration (БВР) using standard load combinations; (2) direct dynamic analysis with БВР seismograms, static loads converted to masses, dynamic material properties, and foundation modeled as rigid clamp (approach No 3). Comparison of required versus actual reinforcement was performed using the RSU (calculated effort combination).",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:reinforced-concrete-columns-piles-beams-slabs-wa",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "required reinforcement",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В табл. 3 приведено сравнение требуемого по расчетам и фактического армирования конструкций.",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Both static and dynamic calculations were evaluated on the basis of RSU; the results are presented as a comparison of calculated and actual reinforcement.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Оценка результатов статического и прямого динамического расчетов проводилась на основании РСУ (расчетного сочетания усилий).",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Оценка результатов статического и прямого динамического расчетов проводилась на основании РСУ (расчетного сочетания усилий).",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:35-динамическии-_метод_расчета_каркаса_промышлен:3",
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "title": "Dynamic model deformation and node displacement analysis",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Finite‑element model of the structure was simulated under blast‑wave loading (БВР) and the deformation and vertical node displacements were recorded",
+       "duration_text": "0,79 сек"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "Deformation of the cover with insufficient reinforcement",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На рис. 4 приведена деформированная схема, демонстрирующая развитие, в том числе, изгиба покрытия с недостаточным армированием в момент времени 0,79 сек",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Vertical node displacements",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "а на рис.5 представлены соответствующие вертикальные перемещения",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "There is a deficit of load‑bearing capacity in a number of elements even without blast impact",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "load‑bearing capacity deficit",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Согласно результатам расчетов, на текущей момент имеется дефицит несущей способности у ряда элементов даже при отсутствии воздействия от БВР",
+     "locator_kind": "md_para",
+     "locator": "para:73",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Согласно результатам расчетов, на текущей момент имеется дефицит несущей способности у ряда элементов даже при отсутствии воздействия от БВР",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Проведение буровзрывных работ требует оценки допустимого сейсмического воздействия на сооружения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "necessity of seismic impact evaluation",
+    "direction": "increases",
+    "factor": "safety",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проведение буровзрывных работ требует оценки допустимого сейсмического воздействия на сооружения.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Для этого выполняются измерения колебаний фундаментов сооружений и их сопоставление с допустимыми величинами скоростей в соответствии с нормативными документами.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "foundation vibration",
+    "direction": "increases",
+    "factor": "compliance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для этого выполняются измерения колебаний фундаментов сооружений и их сопоставление с допустимыми величинами скоростей в соответствии с нормативными документами.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Указанный подход может накладывать чрезмерно жесткие требования к снижению веса взрывчатых веществ или, наоборот, не учитывать характерных особенностей конструкций.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "limitations of standard approach",
+    "direction": "decreases",
+    "factor": "practical applicability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Указанный подход может накладывать чрезмерно жесткие требования к снижению веса взрывчатых веществ или, наоборот, не учитывать характерных особенностей конструкций.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "В этом случае выполняется построение расчетных моделей несущих конструкций, а нагрузки от буровзрывных работ задаются с помощью сейсмограмм, полученных при проведении сейсмического мониторинга.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "load definition",
+    "direction": "increases",
+    "factor": "accuracy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В этом случае выполняется построение расчетных моделей несущих конструкций, а нагрузки от буровзрывных работ задаются с помощью сейсмограмм, полученных при проведении сейсмического мониторинга.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Результатами расчетов по предложенной методике конечно-элементного моделирования выступают перемещения, скорости и ускорения узлов расчетной модели, а также усилия и напряжения в элементах, вычисленные как во время воздействия, так и после его окончания.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output parameters",
+    "direction": "increases",
+    "factor": "detail of response",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Результатами расчетов по предложенной методике конечно-элементного моделирования выступают перемещения, скорости и ускорения узлов расчетной модели, а также усилия и напряжения в элементах, вычисленные как во время воздействия, так и после его окончания.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Анализ полученных данных позволяет оценить напряженно‑деформируемое состояние конструкций и уточнить рекомендации по допустимым величинам скоростей для каждого объекта в зоне влияния буровзрывных работ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "assessment of stress‑strain state",
+    "direction": "increases",
+    "factor": "design guidance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Анализ полученных данных позволяет оценить напряженно‑деформируемое состояние конструкций и уточнить рекомендации по допустимым величинам скоростей для каждого объекта в зоне влияния буровзрывных работ.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.81,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "В стандартах стран мира действуют значительно отличающиеся требования к контролируемым параметрам БВР.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "parameter requirements",
+    "direction": "decreases",
+    "factor": "uniformity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В стандартах стран мира действуют значительно отличающиеся требования к контролируемым параметрам БВР.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.81,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Разница состоит не только в величинах, но и в выборе контролируемых параметров.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "parameter selection",
+    "direction": "decreases",
+    "factor": "consistency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разница состоит не только в величинах, но и в выборе контролируемых параметров.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.81,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Действующий российский стандарт по оценке вибраций разработан на основе некоторых вышеупомянутых зарубежных нормативных документов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "basis of Russian standard",
+    "direction": "increases",
+    "factor": "reliance on foreign standards",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Действующий российский стандарт по оценке вибраций разработан на основе некоторых вышеупомянутых зарубежных нормативных документов.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.81,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Без прочностного расчета защищаемых конструкций назначение в качестве допустимого значения той или иной величины скорости в большинстве случаев приводит к чрезмерным запасам прочности.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "use of speed limits without strength analysis",
+    "direction": "increases",
+    "factor": "conservatism",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Без прочностного расчета защищаемых конструкций назначение в качестве допустимого значения той или иной величины скорости в большинстве случаев приводит к чрезмерным запасам прочности.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "В отдельных ситуациях следование формальной логике нормативных документов может, напротив, привести к аварийным ситуациям ввиду слишком укрупненной классификации зданий и сооружений в зоне влияния БВР.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "risk of over‑classification",
+    "direction": "decreases",
+    "factor": "safety",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В отдельных ситуациях следование формальной логике нормативных документов может, напротив, привести к аварийным ситуациям ввиду слишком укрупненной классификации зданий и сооружений в зоне влияния БВР.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Прямой динамический расчет в вычислительных комплексах, реализованных с помощью метода конечных элементов, позволяет производить компьютерное моделирование отклика конструкции на динамические воздействия как во время воздействия, так и после его завершения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "time‑domain response simulation",
+    "direction": "increases",
+    "factor": "model fidelity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Прямой динамический расчет в вычислительных комплексах, реализованных с помощью метода конечных элементов, позволяет производить компьютерное моделирование отклика конструкции на динамические воздействия как во время воздействия, так и после его завершения.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "По сравнению с линейно‑спектральным методом, предложенный метод позволяет учесть малую продолжительность кинематического воздействия, вызванного действием массового взрыва.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "accuracy for blast events",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По сравнению с линейно‑спектральным методом, предложенный метод позволяет учесть малую продолжительность кинематического воздействия, вызванного действием массового взрыва.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Данная особенность взрывного воздействия в сравнении с землетрясениями, в том числе, выделяет расчет зданий от проведения БВР в отдельную группу задач.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "distinctness of blast analysis",
+    "direction": "increases",
+    "factor": "methodological separation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данная особенность взрывного воздействия в сравнении с землетрясениями, в том числе, выделяет расчет зданий от проведения БВР в отдельную группу задач.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Приложение обозначенного подхода далее будет проиллюстрировано с помощью конечно‑элементного комплекса ЛИРА 10.12.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "use of LIRA 10.12",
+    "direction": "increases",
+    "factor": "practical illustration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Приложение обозначенного подхода далее будет проиллюстрировано с помощью конечно‑элементного комплекса ЛИРА 10.12.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.81,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "The structural scheme type is a partial frame: floor slabs are supported on reinforced‑concrete beams on one side and on load‑bearing brick walls on the other side.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Тип конструктивной схемы – неполный каркас: плиты покрытия одной стороной опираются на железобетонные балки, другой стороной – на несущие стены из керамического кирпича.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "The building foundation rests on sandy‑silty soil with gravel, pebbles and occasional boulders containing lenses of sand and silt.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Основанием здания служит песчанистый суглинок с галькой, гравием и отдельными валунами с линзами песка и супеси.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Load is transferred to the ground through pile foundations placed under the columns.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "На массив грунта нагрузка передается через свайные фундаменты, устроенные под колоннами.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Monolithic reinforced‑concrete grade‑boxes have a top size of 700 × 700 mm and a base size up to 1600 × 700 mm.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Монолитные железобетонные ростверки имеют размер поверху 700х700 мм, а у подошвы – до 1600х700 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Reinforced‑concrete piles are produced by the bored‑drilling method with a cross‑section of 300 × 300 mm.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Железобетонные сваи изготовлены по буроопускной технологии с сечением 300х300 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "External load‑bearing walls and partitions are made of ceramic brick masonry on a cement‑sand mortar; wall thickness is 510 mm, partition thickness varies from 120 mm to 380 mm.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Наружные несущие стены и перегородки выполнены из кладки керамического кирпича на цементно‑песчаном растворе. Толщина наружных стен составляет 510 мм. Толщина перегородок изменяется от 120 мм до 380 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.81,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "The monolithic reinforced‑concrete floor at elevation –0.500 m consists of ribbed prefabricated slabs made of concrete class B15 (density 1800 kg/m³).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Монолитное железобетонное перекрытие на отм. -0,500 м устроено по балкам различных сечений. Плиты покрытия являются железобетонными ребристыми сборными плитами. Класс бетона В15, плотность 1800 кг/м³.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.81,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Brick used is type M75 with density 2000 kg/m³; mortar is type M25.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Марка кирпича М75, плотность 2000 кг/м³ , марка раствора М25.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.81,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "The finite‑element mesh size was set to 250 mm based on the actual arrangement of structural members and previous studies.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "На основании работ [23, 27] и фактического расположения конструкций шаг сетки конечных элементов назначен равным 250 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Static loads were converted to masses according to SP 14.13330.2018.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Преобразование статических нагрузок в массы производилось согласно СП 14.13330.2018 [22].",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "The foundation was modeled as a rigid clamp (approach No 3) when applying nodal displacement time histories to all nodes at the ground‑level surface.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Поскольку оборудование для записи колебаний устанавливалось на конструкции фундамента, при назначении граничных условий использовался подход No3.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "The direct dynamic calculation method enables individual assessments of structural performance in the blast‑wave zone",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "assessment capability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полученные результаты указывают на то, что прямой динамический метод расчета позволяет проводить индивидуальные оценки работоспособности конструкций в зоне ведения БВР",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "The methodology extends classical works on explosive engineering that combined instrumental vibration assessment with empirical data to calculate structures such as cantilever rods or frames",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "scope of applicability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Изложенная методика развивает классические труды по взрывному делу, в которых вместе с инструментальной оценкой колебаний и накоплением эмпирических сведений, выполнялись расчеты сооружений как консольных стержней или рам",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "A synthesis of seismograms should be derived from recorded seismic motions depending on the increase or decrease of explosive mass",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method development",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Необходима разработка на базе записей сейсмических колебаний методики получения синтезированных сейсмограмм в зависимости от повышения или понижения масс взрывчатых веществ",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "High‑frequency blast impact requires modeling of seismic wave front propagation through buildings because wavelengths are comparable to column spacing and element dimensions",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "model accuracy",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ввиду того, что БВР инициируют высокочастотное воздействие, при котором длины волн сопоставимы с шагом колонн и габаритами конструктивных элементов здания, требуется дополнить методику моделирования учетом продвижения фронтов сейсмических волн по зданиям",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Rotational components of the seismic vector can significantly affect high‑frequency blast impact and therefore six‑component loading should be used instead of three",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "loading completeness",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно [43], значительное влияние при высокочастотном воздействии могут оказывать ротационные (поворотные) компоненты вектора сейсмического воздействия, что требует задания не трех, а шести компонент воздействия",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Damping models must account for the frequently observed high‑frequency content of seismic loading caused by blast‑wave operations",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "model fidelity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработка методики учета демпфирования с учетом часто фиксируемого высокочастотного состава сейсмического воздействия, вызванного проведением БВР",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  },
+  {
+   "text": "Direct dynamic calculation yields vibration velocities of all structural elements, enabling deeper analysis of field observations and regulatory compliance monitoring",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output data type",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При этом результатами прямого динамического расчета являются скорости колебаний всех элементов конструкций, что дает возможность более глубокого анализа полевых наблюдений и контроля регламентируемых нормативными документами параметров",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:35-динамическии-_метод_расчета_каркаса_промышлен",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

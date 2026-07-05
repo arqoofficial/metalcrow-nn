@@ -1,0 +1,336 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:11_2004_cm-pdf",
+   "title": "11_2004_cm.pdf",
+   "doc_type": "article",
+   "year": 2004,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2004\\11_2004_cm.pdf.md",
+   "artifact_sha256": "812174851b221fc64b9d01255b5c83543851d365e9aa36aeaa7a78af61f1538d",
+   "okf_raw_path": "Журналы/Цветные металлы/2004/11_2004_cm.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Определение физико‑химических свойств диафрагменных материалов, используемых при получении электролитного никеля",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Определение физико‑химических свойств диафрагменных материалов, используемых при получении электролитного никеля",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Методика определения пригодности поверхностно‑активных веществ для использования в технологии электролитического получения металлов",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Методика определения пригодности поверхностно‑активных веществ для использования в технологии электролитического получения металлов",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "при износе более 50 % затраты на производство ежегодно возрастают примерно на 3 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost increase",
+    "direction": "increases",
+    "factor": "wear >50%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при износе более 50 % затраты на производство ежегодно возрастают примерно на 3 %.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "в черной металлургии в среднем на одного российского металлурга приходится порядка 180-250 т металла в год, а в корпорации Nucor (США) - 1,4 тыс. т стали на каждого работника",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metal output per worker",
+    "direction": "decreases",
+    "factor": "country",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в черной металлургии в среднем на одного российского металлурга приходится порядка 180-250 т металла в год, а в корпорации Nucor (США) - 1,4 тыс. т стали на каждого работника",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.81,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "минимальный прирост заработной платы (в % от роста производительности труда в сопоставимых ценах), например не менее 0,30 % роста зарплаты за 1 % роста производительности труда",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "wage growth per productivity growth",
+    "direction": "increases",
+    "factor": "productivity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "минимальный прирост заработной платы (в % от роста производительности труда в сопоставимых ценах), например не менее 0,30 % роста зарплаты за 1 % роста производительности труда",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "доля снижения издержек (себестоимости), используемая для увеличения оплаты труда персонала, например 20 руб. от каждой 1000 руб. снижения затрат",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share of cost reduction for wages",
+    "direction": "increases",
+    "factor": "cost reduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доля снижения издержек (себестоимости), используемая для увеличения оплаты труда персонала, например 20 руб. от каждой 1000 руб. снижения затрат",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.81,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "увеличение обеспеченности жильем (м 2 в расчете на одного работника и неработающего члена его семьи), например с 19 до 21 м 2 /чел.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "housing area per person",
+    "direction": "increases",
+    "factor": "policy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "увеличение обеспеченности жильем (м 2 в расчете на одного работника и неработающего члена его семьи), например с 19 до 21 м 2 /чел.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.81,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "увеличение числа часов полезно используемого рабочего времени (часов работы в расчете на одного работника), например с 1710 до 1730 ч/год",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "productive hours per worker per year",
+    "direction": "increases",
+    "factor": "policy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "увеличение числа часов полезно используемого рабочего времени (часов работы в расчете на одного работника), например с 1710 до 1730 ч/год",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.45,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Промышленная политика, содействующая конкурентоспособности отечественного бизнеса, в том числе: -финансирование достижения целей общенациональных проектов и программ, развитие оборонно‑промышленного комплекса, финансирование перспективных НИОКР, имеющих длительный срок окупаемости;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "financing",
+    "direction": "increases",
+    "factor": "investment in national projects and R&D",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Промышленная политика, содействующая конкурентоспособности отечественного бизнеса, в том числе: -финансирование достижения целей общенациональных проектов и программ, развитие оборонно/hyphenminus промышленного комплекса, финансирование перспективных НИОКР, имеющих длительный срок окупаемости;",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Реализация проектов по снижению энергоемкости продукции и развитию инфраструктуры;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy intensity",
+    "direction": "decreases",
+    "factor": "project implementation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "реализация проектов по снижению энергоемкости продукции и развитию инфраструктуры;",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Снижение инвестиционных рисков и повышение инвестиционной привлекательности за счет стабильности государственной политики, в том числе финансовой и налоговой;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment risk",
+    "direction": "decreases",
+    "factor": "state policy stability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "снижение инвестиционных рисков и повышение инвестиционной привлекательности за счет стабильнос/hyphenminus ти государственной политики, в том числе финансовой и налоговой;",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Улучшение условий конкуренции за счет ускорения реформы естественных монополий и активизации деятельности Федеральной антимонопольной службы;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "competition conditions",
+    "direction": "increases",
+    "factor": "reform of natural monopolies and antitrust activity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "улучшение условий конкуренции за счет ускорения реформы естествен/hyphenminus ных монополий и активизации деятельности Федеральной антимонопольной службы;",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Повышение объема и эффективности инвестиций, в первую очередь для модернизации материальной базы производства, сохранения и создания (в трудоизбыточных регионах) рабочих мест, снижения затрат на производство продукции и роста производительности труда.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "modernization and job creation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение объема и эффективности инвестиций, в первую очередь для модернизации материальной базы производства, сохранения и создания (в трудоизбыточных регионах) рабочих мест, снижения затрат на производство продукции и роста производительности труда.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Внедрение современных методов менеджмента на основе информационных технологий, в том числе формирование и реализация стратегии развития с доведением ключевых показателей эффективности до каждого уровня управления, создание процессно ориентированной системы управления, внедрение системы управления качеством.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "management methods",
+    "direction": "increases",
+    "factor": "IT‑based modern methods",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Внедрение современных методов менеджмента на основе информационных технологий, в том числе формирование и реализация стратегии развития с доведе/hyphenminus нием ключевых показателей эффективн/​ости до каждого уровня управления, создание процессно ориентированной системы управления, внедрение системы управления качеством.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.81,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Обеспечение инвестиционной привлекаемости, в том числе за счет участия большинства предпринимателей в объединениях работодателей, содействие развитию малого бизнеса в составе промышленной и социальной инфраструктуры компаний, ведения социальной отчетности, соблюдения кодекса корпоративного поведения, внедрения систем ERP, развития социального инвестирования и использования социального аудита.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "attractiveness",
+    "direction": "increases",
+    "factor": "entrepreneur participation and corporate practices",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обеспечение инвестиционной привлека/hyphenminus тельности, в том числе за счет участия большинства предпринимателей в объединениях работодателей, содейст/hyphenminus вия развитию малого бизнеса в составе промышленной и социальной инфра/hyphenminus структуры компаний, ведения социальной отчетности, соблюдения кодекса корпо/hyphenminus ративного поведения, внедрения систем ERP, развития социального инвестирова/hyphenminus ния и использования социального аудита.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Формирование конкурентоспособного персонала, в том числе за счет: совместного с государством повышения качества всех форм образования, в первую очередь начального профессионального образования; повышения уровня оплаты труда в меру роста производительности труда и снижения затрат; отсутствия работников с доходом ниже прожиточного минимума; развития подготовки и повышения квалификации персонала на производстве; совершенствования методов мотивации труда; индивидуализации трудовых договоров, предусматривающих реализацию долгосрочных жизненных стратегий работников; повышения обеспеченности жильем; совершенствования совместно с государством медицинского обслуживания, в частности вследствие развития частной медицины.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "competitiveness of staff",
+    "direction": "increases",
+    "factor": "education, wages, training, motivation, housing, healthcare",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Формирование конкурентоспособного персонала, в том числе за счет: -совместного с государством повышения качества всех форм образования, в первую очередь начального профессионального образования; -повышения уровня оплаты труда в меру роста производительности труда и снижения затрат; -отсутствия работников с доходом ниже прожиточного минимума; -развития подготовки и повышения квалификации персонала на производстве; -совершенствования методов мотивации труда; -индивидуализации трудовых договоров, предусматривающих реализацию долго/hyphenminus временных жизненных стратегий работ/hyphenminus ников;",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Установление зависимости роста оплаты труда и стоимости социального пакета от темпов повышения производительности труда и снижения затрат на производство;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "wage growth",
+    "direction": "increases",
+    "factor": "productivity and cost reduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "установление зависимости роста оплаты труда и стоимости социального пакета от темпов повышения производи/hyphenminus тельности труда и снижения затрат на производство;",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Обеспечение роста числа часов полезно используемого рабочего времени за счет снижения его потерь из‑за нарушений трудовой дисциплины и уменьшения продолжительности отпусков без сохранения содержания.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "useful work hours",
+    "direction": "increases",
+    "factor": "discipline and shorter unpaid leave",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обеспечение роста числа часов полезно используемого рабочего времени за счет снижения его потерь из/hyphenminus за нарушений трудовой дисциплины и уменьшения продолжительности отпусков без сохранения содержания.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.81,
+   "document_id": "doc:11_2004_cm-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

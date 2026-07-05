@@ -1,0 +1,1433 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:куба_хром_2012-pdf",
+   "title": "Куба_Хром_2012.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Куба_Хром_2012.pdf.md",
+   "artifact_sha256": "6ef17140f25ecf2db1f0efecad5204cee3dd6a3fc02a9ccfcf74a0d13fbe9435",
+   "okf_raw_path": "Обзоры/Куба_Хром_2012.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:chromite-concentrate",
+   "label": "chromite concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:aluminum-powder-waste-from-local-aluminum-plant",
+   "label": "aluminum powder (waste from local aluminum plant)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cao",
+   "label": "CaO",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:CaF2",
+   "label": "CaF2",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:NaClO3",
+   "label": "NaClO3",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cr2o3",
+   "label": "Cr2O3",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:agglomerated-chromite-waste-25-50-chromite",
+   "label": "agglomerated chromite waste (25‑50% chromite)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloyed-cast-iron-ni-cr",
+   "label": "alloyed cast iron (Ni‑Cr)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ni-cr-cast-iron",
+   "label": "Ni‑Cr cast iron",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:low-nickel-stainless-steel",
+   "label": "low‑nickel stainless steel",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:raw-dump-material",
+   "label": "raw dump material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:processed-product",
+   "label": "processed product",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:куба_хром_2012-pdf:0",
+   "document_id": "doc:куба_хром_2012-pdf",
+   "title": "Laboratory study of aluminothermic reduction of chromite concentrate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "aluminothermic reduction",
+       "temperature_text": "laboratory scale (no explicit temperature given)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chromite-concentrate",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:aluminum-powder-waste-from-local-aluminum-plant",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:cao",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:CaF2",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:NaClO3",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:cr2o3",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 71.7,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cr"
+     },
+     "method": null,
+     "snippet": "Самое высокое содержание хрома в сплаве - 71,7% при расходе алюминия в 120% от стехиометрии",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 71.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cr"
+     },
+     "method": null,
+     "snippet": "самое высокое извлечение хрома равнялось 71,8% при расходе алюминия в 130% от стехиометрии",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "aluminum consumption",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 120.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при расходе алюминия в 120% от стехиометрии",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "aluminum consumption",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 130.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при расходе алюминия в 130% от стехиометрии",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "additive composition in charge",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в обоих случаях в загружаемом сырье содержалось 5% NaClO3+15% хромовой кислоты",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Показана принципиальная возможность получения низкоуглеродистого феррохрома без подвода электроэнергии извне.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "feasibility",
+      "direction": "increases",
+      "factor": "none",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Показана принципиальная возможность получения низкоуглеродистого феррохрома без подвода электроэнергии извне.",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.81
+    },
+    {
+     "text": "В некоторых опытах без добавок каких‑либо термитов (за исключением алюминия) восстановление хромита не достигалось.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reduction success",
+      "direction": "decreases",
+      "factor": "absence of thermite additives",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Однако в некоторых опытах без добавок каких‑либо термитов (за исключением алюминия) восстановление хромита не достигалось.",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Исследователями Стамбульского Университета проводилось изучение алюмотермического восстановления хромитового концентрата с получением низкоуглеродистого феррохрома в лабораторном масштабе [8].",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_хром_2012-pdf:1",
+   "document_id": "doc:куба_хром_2012-pdf",
+   "title": "Effect of splitter position and feed speed on Cr2O3 grade",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "concentration of chromite ore"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chromite-concentrate",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Cr2O3 grade",
+     "scope": "material",
+     "material_id": "mat:chromite-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 48.54,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При позиции на 12 см возможно достичь сортно -сти концентрата 48,54% Cr2O3",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Cr2O3 grade",
+     "scope": "material",
+     "material_id": "mat:chromite-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 30.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "увеличения её до 16 см приводит к сниже -нию сортности до 30,4%",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Cr2O3 grade",
+     "scope": "material",
+     "material_id": "mat:chromite-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 37.74,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при скорости подачи в 1,2 куб . м / час получался концентрат с 37,74% Cr2O3",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Cr2O3 grade",
+     "scope": "material",
+     "material_id": "mat:chromite-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 26.57,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при увеличении скорости до 3 куб . м / час - 26,57%",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Плотность пульпы мало влияла на результат",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "pulp density effect",
+      "direction": "no_change",
+      "factor": "pulp density",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Плотность пульпы мало влияла на результат",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Оказалось , что самое большое влияние на качество концентрата ока -зывает позиция делителя .",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_хром_2012-pdf:2",
+   "document_id": "doc:куба_хром_2012-pdf",
+   "title": "Pilot‑scale blast furnace test of chromite waste agglomerates",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "smelting of agglomerated chromite waste in a pilot electric arc furnace"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:agglomerated-chromite-waste-25-50-chromite",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:alloyed-cast-iron-ni-cr",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "produced cast iron mass",
+     "scope": "material",
+     "material_id": "mat:alloyed-cast-iron-ni-cr",
+     "value": {
+      "min": null,
+      "nominal": 250.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "было получено около 250 т легированного чугуна ( без проблем с поведением печи и выпуском металла и шлака ) при доле 25-50% хромито -вой вскрыши ( в виде синтера ) в сырье",
+     "locator_kind": "md_para",
+     "locator": "para:206",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "опробована выплавка чугуна в пилотном масштабе в электропечи в погруженной дугой",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_хром_2012-pdf:3",
+   "document_id": "doc:куба_хром_2012-pdf",
+   "title": "Industrial production of low‑nickel stainless steel using Ni‑Cr cast iron",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "steelmaking in an electric arc furnace"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ni-cr-cast-iron",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:low-nickel-stainless-steel",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "produced stainless steel mass",
+     "scope": "material",
+     "material_id": "mat:low-nickel-stainless-steel",
+     "value": {
+      "min": null,
+      "nominal": 140.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2004/2005 гг . на мощностях компании Jindal Stainless было получено около 140 т низконикелистой нержавеющей стали",
+     "locator_kind": "md_para",
+     "locator": "para:209",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Этот Ni-Cr чугун годится для производства низколегированной стали в электропечи , а также может быть использован в литейном производстве",
+   "locator_kind": "md_para",
+   "locator": "para:209",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:куба_хром_2012-pdf:4",
+   "document_id": "doc:куба_хром_2012-pdf",
+   "title": "Laboratory production of alloyed pig iron “self‑reducing” pellets from dump material",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Material mixed (presumably with coke), dried at 110 °C for 2 h, reduced with coke at 1400 °C for 15 min in a controlled nitrogen atmosphere in a horizontal tubular furnace; two samples were tested – raw dump material and a “processed” product.",
+       "temperature_text": "1400 °C",
+       "duration_text": "15 min"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1673.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:raw-dump-material",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:processed-product",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 90.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "Извлечение в слитки Fe > 90%",
+     "locator_kind": "md_para",
+     "locator": "para:212",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 40.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cr"
+     },
+     "method": null,
+     "snippet": "Cr<40%",
+     "locator_kind": "md_para",
+     "locator": "para:211",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 95.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Ni >95%",
+     "locator_kind": "md_para",
+     "locator": "para:211",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 82.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "total"
+     },
+     "method": null,
+     "snippet": "Суммарное извлечение трех металлов 82% для сырья « как есть »",
+     "locator_kind": "md_para",
+     "locator": "para:212",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 94.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "total"
+     },
+     "method": null,
+     "snippet": "и 94% для подготовленной пробы",
+     "locator_kind": "md_para",
+     "locator": "para:212",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Low chromium extraction is caused by large losses of chromium to slag because unreduced chromite grains are encapsulated in the slag phase.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "decreases",
+      "factor": "encapsulation of unreduced chromite in slag",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Низкое извлечение хрома связано в большими потерями его со шлаком -зерна невосстановленного хромита инкапсулированы в шлаковой фазе.",
+     "locator_kind": "md_para",
+     "locator": "para:215",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Материал восстанавливали углем при 1400 ̊С в течение 15 мин . Опыты выполняли в контролируемой газовой атмосфере ( азот ) в горизонтальной трубчатой печи . Извлечение в слитки Fe > 90%, Cr<40%, Ni >95%. Суммарное извлечение трех металлов 82% для сырья « как есть » и 94% для подготовленной пробы .",
+   "locator_kind": "md_para",
+   "locator": "para:212",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Основной хромсодержащий минерал -хромит FeO-Cr2O3 содержит 68% Cr2O3 и 32% FeO.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основной хромсодержащий минерал -хромит FeO-Cr2O3 содержит 68% Cr2O3 и 32% FeO.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Лучшие сорта хромовых руд содержат 42-56% Cr2O3 и 10-26% FeO.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Лучшие сорта хромовых руд содержат 42-56% Cr2O3 и 10-26% FeO.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Огнеупорность хромита определяется суммой Cr2O3 +Al2O3, которая должна превышать 57%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ogneupornost",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Огнеупорность хромита определяется суммой Cr2O3 +Al2O3, которая должна превышать 57%.",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Для производства химикатов хрома стартовым материалом является бихромат натрия, которого в 2009 г. было произведено около 638 тыс т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "bichromate sodium output",
+    "direction": "increases",
+    "factor": "year 2009",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для производства химикатов хрома стартовым материалом является бихромат натрия, которого в 2009 г. было произведено около 638 тыс т.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Химическая промышленность потребляет руды и концентраты с содержанием Cr2O3 не менее 45% любого физического состояния, но предпочтительнее‑порошковые, рыхлые и мелкие (до 10 мм).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Cr2O3 minimum",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Химическая промышленность потребляет руды и концентраты с содержанием Cr2O3 не менее 45% любого физического состояния, но предпочтительнее‑порошковые, рыхлые и мелкие (до 10 мм).",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Для производства феррохрома требуются руды: 1) богатые (>45% Cr2O3, с высоким отношением Cr/Fe), 2) крупнокусковые.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для производства феррохрома требуются руды : 1богатые (>45% Cr2O3, с высоким отношением Cr/Fe), 2 крупнокусковые.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Эффективная работа печей требует, чтобы в загружаемом сырье было минимум 30% крупнокусковой руды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "large‑chunk ore share",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "требуется её, как минимум, 30% в загружаемом сырье для эффективной работы печей.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Заменителем крупнокусковой руды становятся спеченные окатыши, полученные окрупкованием и агломерацией рудной мелочи.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "alternative feedstock",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Заменителем крупно‑кусковой руды становятся спеченные окатыши, полученные окомкованием и агломерацией рудной мелочи.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Хромит огнеупорного сорта содержит мало кремнезема - 0,7% SiO2 в типичном случае.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Хромит огнеупорного сорта содержит мало кремнезема - 0,7% SiO2 в типичном случае.",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Огнеупорный хромит в гранулированной форме (хромитовый песок) широко используется в литейной отрасли -для изготовления отливок из черных и цветных металлов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "usage",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Огнеупорный хромит в гранулированной форме (хромитовый песок) широко используется в литейной отрасли -для изготовления отливок из черных и цветных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Окатыши являются идеальным шихтовым материалом для выплавки феррохрома в печах с погруженной дугой.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "material suitability",
+    "direction": "increases",
+    "factor": "process efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Окатыши являются идеальным шихтовым материалом для выплавки феррохрома в печах с погруженной дугой.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Полученные окатыши отличаются высокой прочностью, выдерживают транспортировку на большие расстояния и могут являться товарным продуктом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "strength",
+    "direction": "increases",
+    "factor": "product durability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полученные окатыши отличаются высокой прочностью, выдерживают транспортировку на большие расстояния и могут являться товарным продуктом.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Обжиг на стальной ленте применяется, помимо Outokumpu, на целом ряде предприятий в ЮАР (компаниями Samancor, Hernic, Assmang, Xstrata и др), Казахстане (ТНК «Казхром») и пр.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "geographic spread",
+    "direction": "increases",
+    "factor": "industry use",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обжиг на стальной ленте применяется, помимо Outokumpu, на целом ряде предприятий в ЮАР (компаниями Samancor, Hernic, Assmang, Xstrata и др ), Казахстане (ТНК « Казхром ») и пр.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Все виды феррохрома содержат примерно от 48 до 70% хрома и до 8% C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "composition range",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все виды феррохрома содержат примерно от 48 до 70% хрома и до 8% C.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В аустенитной стали Cr:C >150, а в высокоуглеродистом феррохроме -около 10.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Cr:C ratio",
+    "direction": "increases",
+    "factor": "ratio value",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В аустенитной стали Cr:C >150, а в высокоуглеродистом феррохроме -около 10.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "При восстановлении хромита углеродом (коксом) в печи с погруженной дугой получается феррохром, являющийся, по существу, насыщенным углеродом Fe‑Cr сплавом — в типичном случае с 6‑8% вес C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "typical range",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При восстановлении хромита углеродом ( коксом ) в печи с погруженной дугой получается феррохром , являющийся , по существу , насыщенным углеродом Fe-Cr сплавом -в типичном случае с 6-8% вес C.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания Samancor производит чардж‑хром с 50‑55% Cr, ≈ 7% C, ≈ 4% Si.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "composition",
+    "direction": "increases",
+    "factor": "percentage values",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания Samancor производит чардж -хром с 50-55% Cr, ≈ 7% C , ≈ 4% Si.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Для выплавки высокоуглеродистого феррохрома карботермическим способом расход электроэнергии составляет порядка 3930 кВт·ч/т, низкоуглеродистого феррохрома – 9700 кВт·ч/т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "increases",
+    "factor": "carbon content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для выплавки высокоуглеродистого феррохрома карботермическим способом расход электроэнергии составляет порядка 3930 кВт·час/т , низкоуглеродистого феррохрома - 9700 кВт·час/т.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Если удельная теплота продукта превышает 4500 Дж/г, реакция протекает бурно и может даже привести к взрыву.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction vigor",
+    "direction": "increases",
+    "factor": "specific heat > 4500 J/g",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если это отношение больше 4500 Дж/г , реакция протекает бурно и может даже привести к взрыву.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Если удельная теплота продукта меньше 2250 Дж/г, тепла будет недостаточно для расплавления загружаемого материала.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heat sufficiency",
+    "direction": "decreases",
+    "factor": "specific heat < 2250 J/g",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если отношение меньше 2250 Дж/г , тепла будет недостаточно для расплавления загружаемого материала.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "При удельной теплоте продукта в интервале 2250‑4500 Дж/г можно осуществить контролируемую самоподдерживающуюся металлотермическую реакцию.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction controllability",
+    "direction": "increases",
+    "factor": "specific heat 2250‑4500 J/g",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При значении в интервале 2250-4500 Дж/г можно осуществить контролируемую самоподдерживающуюся металлотермическую реакцию.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Добавки NaClO3 и хромовая кислота повышают выделяемое при алюмотермическом процессе тепло, а добавки CaO и CaF2 понижают температуру плавления шлака.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "melting_point",
+    "direction": "increases",
+    "factor": "NaClO3, chromic acid",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "можно вводить добавки (NaClO3 и хромовую кислоту ), а добавки CaO и CaF2 понижают температуру плавления шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Традиционный карботермический процесс получения феррохрома требует 3,6‑4,2 МВт·ч/т FeCr.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В традиционном варианте феррохром получают карботермическим восстановлением хромита . Процесс энергозатратный : 3,6-4,2 МВт·час/т FeCr.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Для 1 т руды требуется 0,6‑0,7 т восстановителя, в зависимости от содержания углерода в восстановителе.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reductant requirement",
+    "direction": "increases",
+    "factor": "carbon content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На 1 т руды требуется , в первом приближении , 0,6-0,7 т восстановителя ( зависит от содержания углерода в восстановителе ).",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Электродные печи с полностью закрытой камерой являются наиболее энергоэффективными, но открытые печи более гибки по сырью.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "furnace type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электродуговые печи для выплавки феррохрома могут быть откры‑тые, квазизамкнутые или полностью закрытые‑последние наиболее эффективны в энергетическом отношении, но откры‑тые‑самые гибкие по сырью.",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Outokumpu Stainless предпочитает полностью замкнутую электропечь и платит больше за 100 % кокс как «подходящий» восстановитель, чтобы сократить потребление энергии.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "use of 100 % coke in closed furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Outokumpu Stainless, например , приоритетом имеет сокращение потребления энергии , поэтому платит больше за «подходящий» восстановитель - 100% кокс , зато плавит в полностью замкнутой электропечи.",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В открытой печи с погруженной дугой потребление электроэнергии составляет 3800‑4500 кВт·ч/т FeCr; в закрытой печи – 3100‑3500 кВт·ч/т FeCr.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "electricity consumption",
+    "direction": "decreases",
+    "factor": "closed vs open furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электричество , кВт·час/т | 3800-4500 | 3100-3500",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "На заводе Торнио (Финляндия) потребление энергии при плавке феррохрома составляет примерно 3200 кВт·ч/т FeCr.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "specific plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Потребление энергии -примерно 3200 кВт·час/т FeCr.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Плотность пульпы мало влияла на результат",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pulp density effect",
+    "direction": "no_change",
+    "factor": "pulp density",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность пульпы мало влияла на результат",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "MECON была предложена альтернативная технология переработки вскрышной породы на чугун в мини‑домне",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Что касается никеля , то MECON была предложена альтернативная ( попыткам применения гидрометаллургических способов ) технология пе -реработки вскрышной породы на чугун в мини -домне",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Вскрышной материал вместе с железной рудой агломерируется и загружается в домну",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Вскрышной материал вместе с железной рудой агломерируется и загружается в домну",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Железная руда разбавляет концентрацию никеля",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "iron ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Железная руда разбавляет концентрацию никеля",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Средний состав материала, %: Fe2O3 30‑60%, 0,3‑0,7% Ni, 4‑9% Cr2O3, 22‑30% SiO2",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Средний состав ма -териала , %: Fe2O3 30-60%, 0,3-0,7% Ni, 4-9% Cr2O3, 22-30% SiO2",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Этот Ni‑Cr чугун годится для производства низколегированной стали в электропечи, а также может быть использован в литейном производстве",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Этот Ni-Cr чугун годится для производства низколегированной стали в электропечи , а также может быть использован в литейном производстве",
+   "locator_kind": "md_para",
+   "locator": "para:209",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": "casting"
+  },
+  {
+   "text": "С конца 2010 г. был начат новый проект: «Производство ферро‑никеля из хромитовой вскрыши и никелевой латеритовой руды с помощью термической плазмы»",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "С конца 2010 г . был начат новый проект : « Производство ферро -никеля из хромитовой вскрыши и никелевой латеритовой руды с помощью термической плазмы »",
+   "locator_kind": "md_para",
+   "locator": "para:211",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "It is advisable to first separate chromite from dump material by enrichment methods.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "pre‑enrichment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сделан вывод о том , что сначала хромит желательно отделять от материала вскрыши методами обогащения.",
+   "locator_kind": "md_para",
+   "locator": "para:215",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The Mindoro project includes production of 75 kt per year of metallurgical‑grade chromite as a by‑product.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "chromite output",
+    "direction": "increases",
+    "factor": "project design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "75 тыс т / г хромита металлургического сорта",
+   "locator_kind": "md_para",
+   "locator": "para:219",
+   "confidence": 0.9,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Average electricity consumption for producing 1 t of charge‑chrome is about 3800 kWh.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "increases",
+    "factor": "production of 1 t charge‑chrome",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "средний расход на 1 т чардж‑хрома около 3800 кВт·час",
+   "locator_kind": "md_para",
+   "locator": "para:227",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "South Africa is the dominant producer of ferrochrome, but its competitiveness is decreasing due to rising electricity tariffs.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "competitiveness",
+    "direction": "decreases",
+    "factor": "growth of electricity tariffs",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доминирующим ( с большим отрывом ) производителем феррохрома является ЮАР . ... в последние годы ЮАР теряет свою конкурентоспособность на рынке феррохрома , что связано , в первую очередь , с ростом тарифов на электроэнергию.",
+   "locator_kind": "md_para",
+   "locator": "para:211",
+   "confidence": 0.45,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "China is the largest importer of chromite ore/concentrates, with rapidly growing production of non‑alloy steel.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "import volume",
+    "direction": "increases",
+    "factor": "China's demand for non‑alloy steel",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Крупнейшим импортером хромовой руды / концентратов является Китай , где в последние годы особенно быстро растет производство нержа‑веющей стали.",
+   "locator_kind": "md_para",
+   "locator": "para:227",
+   "confidence": 0.81,
+   "document_id": "doc:куба_хром_2012-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:alloyed-cast-iron-ni-cr",
+   "dst": "mat:agglomerated-chromite-waste-25-50-chromite",
+   "process": "smelting",
+   "kind": null,
+   "snippet": "опробована выплавка чугуна в пилотном масштабе в электропечи в погруженной дугой",
+   "doc_id": "doc:куба_хром_2012-pdf"
+  },
+  {
+   "src": "mat:low-nickel-stainless-steel",
+   "dst": "mat:ni-cr-cast-iron",
+   "process": "other",
+   "kind": null,
+   "snippet": "Этот Ni-Cr чугун годится для производства низколегированной стали в электропечи , а также может быть использован в литейном производстве",
+   "doc_id": "doc:куба_хром_2012-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

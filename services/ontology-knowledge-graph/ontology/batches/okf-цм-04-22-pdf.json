@@ -1,0 +1,1103 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-04-22-pdf",
+   "title": "ЦМ 04-22.pdf",
+   "doc_type": "article",
+   "year": 2022,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2022\\ЦМ 04-22.pdf.md",
+   "artifact_sha256": "25eebd0a147ae60e73bfe8886df4674dd736c0ec44bf8d88cb5c9421be012171",
+   "okf_raw_path": "Журналы/Цветные металлы/2022/ЦМ 04-22.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:laterite",
+   "label": "laterite ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lithium",
+   "label": "lithium",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Zn",
+   "label": "zinc",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alumina",
+   "label": "alumina",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:aluminum",
+   "label": "aluminum",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:песковые-насадки-и-гидроциклоны",
+   "label": "песковые насадки и гидроциклоны",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:узлы-флотации",
+   "label": "узлы флотации",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:новые-реагенты",
+   "label": "новые реагенты",
+   "family": "reagent",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-04-22-pdf:0",
+   "document_id": "doc:цм-04-22-pdf",
+   "title": "Industrial application – construction of a hydrometallurgical plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "hydrometallurgical plant for nickel sulfate and cobalt production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:laterite",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "В феврале 2022 г. China Metallurgical Group (КНР) приступила к строительству гидрометаллургического завода по выпуску сульфата никеля (50,0 тыс. т/год в пересчете на никель) и кобальта (4,0 тыс. т/год) на территории промышленной зоны Tsingshan Industrial Park (Индонезия).",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-04-22-pdf:1",
+   "document_id": "doc:цм-04-22-pdf",
+   "title": "Lithium pilot plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "expansion of the Angels Lithium Salt Lake plant"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lithium",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity",
+     "scope": "material",
+     "material_id": "mat:lithium",
+     "value": {
+      "min": null,
+      "nominal": 2.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В настоящее время функционирует пилотный завод мощностью 2,5 тыс. т/год.",
+     "locator_kind": "md_para",
+     "locator": "para:139",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "К концу года после ввода в эксплуатацию второй очереди мощность предприятия вырастет до 27,5 тыс. т/год с возможным увеличением до 50,0 тыс. т/год.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "future capacity",
+      "direction": "increases",
+      "factor": "27,5 тыс. т/год",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "К концу года после ввода в эксплуатацию второй очереди мощность предприятия вырастет до 27,5 тыс. т/год с возможным увеличением до 50,0 тыс. т/год.",
+     "locator_kind": "md_para",
+     "locator": "para:139",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В феврале 2022 г. Tibet Summit Resources (КНР) приступила к расширению завода на месторождении Angels Lithium Salt Lake (Аргентина), запасы которого оцениваются в 2,05 млн т в пересчете на карбонат лития.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-04-22-pdf:2",
+   "document_id": "doc:цм-04-22-pdf",
+   "title": "Nyrstar Auby plant restart",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "resumption of zinc production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:Zn",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity",
+     "scope": "material",
+     "material_id": "mat:Zn",
+     "value": {
+      "min": null,
+      "nominal": 150.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Nyrstar (Швейцария) приняла решение о возобновлении производства на заводе Auby (Франция) мощностью 150,0 тыс. т/год, остановленного в январе 2022 г . из-за высоких цен на электроэнергию.",
+     "locator_kind": "md_para",
+     "locator": "para:120",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Оптимизация энергопотребления предполагает загрузку трех предприятий на уровне 50,0 %.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "energy utilization",
+      "direction": "increases",
+      "factor": "50,0 %",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Оптимизация энергопотребления предполагает загрузку трех предприятий на уровне 50,0 %.",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В связи с устойчивым ростом мировых цен на цинк в марте 2022 г . Nyrstar (Швейцария) приняла решение о возобновлении производства на заводе Auby (Франция) мощностью 150,0 тыс. т/год, остановленного в январе 2022 г . из-за высоких цен на электроэнергию.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-04-22-pdf:3",
+   "document_id": "doc:цм-04-22-pdf",
+   "title": "Glencore alumina supply to AD plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "industrial supply of alumina for aluminum production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:alumina",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:aluminum",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity",
+     "scope": "material",
+     "material_id": "mat:aluminum",
+     "value": {
+      "min": null,
+      "nominal": 286.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Мощность AD - 286,0 тыс. т/год алюминия.",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Часть выпускаемого AD алюминия будет продаваться Glencore.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "sales",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Часть выпускаемого AD алюминия будет продаваться Glencore .",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "С 2023 г. Glencore (Швейцария) будет поставлять глинозем Aluminum Dunkerque ( AD ) (Великобритания).",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-04-22-pdf:4",
+   "document_id": "doc:цм-04-22-pdf",
+   "title": "Поциклонное опробование насос‑гидроциклонных установок (НГЦУ)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "поциклонное опробование насос‑гидроциклонных установок (НГЦУ)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:песковые-насадки-и-гидроциклоны",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "выявление износа песковых, сливных насадок и гидроциклонов",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "износ",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "поциклонное опробование насос‑гидроциклонных установок (НГЦУ) в целях выявления износа песковых, сливных насадок и гидроциклонов",
+     "locator_kind": "md_para",
+     "locator": "para:140",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "поциклонное опробование насос‑гидроциклонных установок (НГЦУ) в целях выявления износа песковых, сливных насадок и гидроциклонов",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-04-22-pdf:5",
+   "document_id": "doc:цм-04-22-pdf",
+   "title": "Пооперационное опробование узлов флотации",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "пооперационное опробование узлов флотации"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:узлы-флотации",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "выявление «узких» мест в узлах флотации",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "пооперационное опробование узлов флотации для выявления «узких» мест",
+     "locator_kind": "md_para",
+     "locator": "para:164",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "пооперационное опробование узлов флотации для выявления «узких» мест",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-04-22-pdf:6",
+   "document_id": "doc:цм-04-22-pdf",
+   "title": "Лабораторные исследования новых реагентов",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "лабораторные исследования новых реагентов в технологии ОФ"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:новые-реагенты",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "оценка эффективности и возможности применения новых реагентов",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "проводятся значительное число лабораторных исследований, нацеленных на оценку эффективности и возможности применения новых реагентов в технологии ОФ",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "проводятся значительное число лабораторных исследований, нацеленных на оценку эффективности и возможности применения новых реагентов в технологии ОФ",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "В марте 2022 г. в свете рекомендаций Министерства промышленности и торговли РФ ПАО «ГМК «Норильский никель» (РФ) и ОК РУСАЛ (РФ) установили цены на никель и алюминий для внутреннего рынка на уровне среднемесячных котировок ЛБМ с поставкой через три месяца за февраль 2022 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price level",
+    "direction": "increases",
+    "factor": "government recommendation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В марте 2022 г. в свете рекомендаций Министерства промышленности и торговли РФ ПАО «ГМК «Норильский никель» (РФ) и ОК РУСАЛ (РФ) установили цены на никель и алюминий для внутреннего рынка на уровне среднемесячных котировок ЛБМ с поставкой через три месяца за февраль 2022 г.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.81,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Данные фиксированные цены действуют с марта по май 2022 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "government recommendation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данные фиксированные цены действуют с марта по май 2022 г.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе‑феврале 2022 г. совокупный выпуск 10 цветных металлов в стране снизился по сравнению с аналогичным периодом прошлого года на 0,5 % до 10,51 млн т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "decreases",
+    "factor": "year‑on‑year change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе‑феврале 2022 г. совокупный выпуск 10 цветных металлов (никель, медь, алюминий, цинк, свинец, олово, сурьма, ртуть, магний, титан) в стране снизился по сравнению с аналогичным периодом прошлого года на 0,5 % до 10,51 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2021 г. показатель составил 64,54 млн т (+5,4 % к 2020 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "year‑on‑year change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2021 г. этот показатель составил 64,54 млн т (+5,4 % к 2020 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно прогнозу International Nickel Study Group (INSG), дефицит мирового рынка никеля в 2022 г. составит 157,1 тыс. т (профицит 103,7 тыс. т в 2021 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "deficit",
+    "direction": "increases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно прогнозу International Nickel Study Group (INSG) (Португалия), дефицит мирового рынка никеля в 2022 г. составит 157,1 тыс. т (профицит 103,7 тыс. т в 2021 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.81,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе 2022 г., по данным INSG, мировая шахтная добыча никеля в пересчете на год увеличилась до 2,7 млн т (+26,0 % к январю 2021 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mining output",
+    "direction": "increases",
+    "factor": "year‑on‑year change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе 2022 г., по данным INSG, мировая шахтная добыча никеля в пересчете на год увеличилась до 2,7 млн т (+26,0 % к январю 2021 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.81,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Производственные мощности Индонезии выросли до 1,2 млн т никеля (+39,0 % к январю 2021 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "year‑on‑year change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производственные мощности Индонезии выросли до 1,2 млн т никеля (+39,0 % к январю 2021 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.81,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Профицит мирового рынка составил 6 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "surplus",
+    "direction": "increases",
+    "factor": "current state",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "профицит мирового рынка составил 6 тыс т.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе‑феврале 2022 г., по информации Национального бюро статистики (КНР), в стране произведено 1,7 млн т меди (+4,5 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper output",
+    "direction": "increases",
+    "factor": "year‑on‑year change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе‑феврале 2022 г., по информации Национального бюро статистики (КНР), в стране произведено 1,7 млн т меди (+4,5 %).",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.45,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе‑феврале 2022 г., по информации Национального бюро статистики (КНР), в стране произведено 2,83 млн т медных полуфабрикатов (+5,2 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper semi‑finished product output",
+    "direction": "increases",
+    "factor": "year‑on‑year change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе‑феврале 2022 г., по информации Национального бюро статистики (КНР), в стране произведено 2,83 млн т медных полуфабрикатов (+5,2 %).",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.45,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "по сравнению с аналогичным периодом 2021 г. в стране произведено 1,7 млн т меди (+4,5 %), 2,83 млн т медных полуфабрикатов (+5,2 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "+4,5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - феврале 2022 г ., по информации Национального бюро статистики (КНР), по сравнению с аналогичным периодом 2021 г. в стране произведено 1,7 млн т меди (+4,5 %), 2,83 млн т медных полуфабрикатов (+5,2 %).",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2022 г . в стране будет произведено 1,4 млн т никеля (+0,4 млн т к 2021 г .), в 2023 г . - 1,9 млн т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "planned production",
+    "direction": "increases",
+    "factor": "+0,4 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно заявлению Министерства по координации морских дел и инвестиций Индонезии, в 2022 г . в стране будет произведено 1,4 млн т никеля (+0,4 млн т к 2021 г .), в 2023 г . - 1,9 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на никель в 2022 г . составит 20 000 долл/т (ранее 16 000 долл/т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price forecast",
+    "direction": "increases",
+    "factor": "20 000 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно прогнозу Fitch Ratings (США), мировая цена на никель в 2022 г . составит 20 000 долл/т (ранее 16 000 долл/т).",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на никель в 2022 г . вырастет до 26 000 долл/т при сохранении дефицита рынка.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price forecast",
+    "direction": "increases",
+    "factor": "26 000 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По информации Citigroup (США), мировая цена на никель в 2022 г . вырастет до 26 000 долл/т при сохранении дефицита рынка.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на медь в 2022 г . составит 9500,0 долл/т (ранее 8500,0 долл/т), в 2023 г . - 8500,0 долл/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price forecast",
+    "direction": "increases",
+    "factor": "9500,0 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Fitch Ratings (США), мировая цена на медь в 2022 г . составит 9500,0 долл/т (ранее 8500,0 долл/т), в 2023 г . - 8500,0 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "дефицит мирового рынка меди составил 475,0 тыс. т (484,0 тыс. т в 2020 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "deficit",
+    "direction": "increases",
+    "factor": "475,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По информации International Copper Study Group (Португалия), в 2021 г . дефицит мирового рынка меди составил 475,0 тыс. т (484,0 тыс. т в 2020 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "в январе - феврале 2022 г . импорт меди и медной продукции увеличился до 0,969 млн т (+9,6 %), медного концентрата - до 4,18 млн т (+10,3 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "import volume",
+    "direction": "increases",
+    "factor": "+9,6 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно данным Главного таможенного управления КНР , в январе - феврале 2022 г . по сравнению с аналогичным периодом прошлого года импорт меди и медной продукции увеличился до 0,969 млн т (+9,6 %), медного концентрата - до 4,18 млн т (+10,3 %).",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "мировой выпуск алюминия снизился ... на 2,3 % до 10,755 млн т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "decreases",
+    "factor": "2,3 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в январе - феврале 2022 г . мировой выпуск алюминия снизился по сравнению с аналогичным периодом прошлого года на 2,3 % до 10,755 млн т",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на алюминий в 2022 г. вырастет до 2950,0 долл/т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "2950,0 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по прогнозу Fitch Solutions (США), мировая цена на алюминий в 2022 г. вырастет до 2950,0 долл/т (ранее 2300,0 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на алюминий в 2023 г. - до 2400,0 долл/т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "decreases",
+    "factor": "2400,0 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2023 г. - до 2400,0 долл/т (ранее 2050,0 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "экспорт алюминия и алюминиевой продукции увеличился до 1,03 млн т (+22,0 %)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "export volume",
+    "direction": "increases",
+    "factor": "22,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в январе - феврале 2022 г . ... экспорт алюминия и алюминиевой продукции увеличился до 1,03 млн т (+22,0 %)",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.45,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "импорт сократился до 0,336 млн т (-26,2 %)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "import volume",
+    "direction": "decreases",
+    "factor": "26,2 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "импорт сократился до 0,336 млн т (-26,2 %)",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "в стране произведено 11,78 млн т глинозема (-7,3 %)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "alumina production",
+    "direction": "decreases",
+    "factor": "7,3 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в стране произведено 11,78 млн т глинозема (-7,3 %)",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "в стране произведено 6,33 млн т алюминия (-1,4 %)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "aluminum production",
+    "direction": "decreases",
+    "factor": "1,4 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в стране произведено 6,33 млн т алюминия (-1,4 %)",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.45,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "в стране выпущено 6,15 млн т алюминия (-3,0 %)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "aluminum production",
+    "direction": "decreases",
+    "factor": "3,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в стране выпущено 6,15 млн т алюминия (-3,0 %), что связано с Олимпиадой.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "дефицит мирового рынка цинка составил 28,4 тыс. т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "zinc deficit",
+    "direction": "increases",
+    "factor": "28,4 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "дефицит мирового рынка цинка составил 28,4 тыс. т (45,5 тыс. т в декабре 2021 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на цинк в 2022 г. составит до 3500,0 долл/т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "3500,0 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по прогнозу Fitch Ratings (США), мировая цена на цинк в 2022 г. составит до 3500,0 долл/т (ранее 2900,0 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.81,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на цинк в 2023 г . - 2900,0 долл/т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "decreases",
+    "factor": "2900,0 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2023 г . - 2900,0 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "дефицит мирового рынка свинца составил 15,0 тыс. т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "lead deficit",
+    "direction": "increases",
+    "factor": "15,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "дефицит мирового рынка свинца составил 15,0 тыс. т (26,2 тыс. т в декабре 2021 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "производство олова выросло до 300,0 тыс. т (264,0 тыс. т)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "tin production",
+    "direction": "increases",
+    "factor": "300,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "производство олова выросло до 300,0 тыс. т (264,0 тыс. т)",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "BHP Billiton произвела 991,0 т кобальта, продажи составили 991,0 т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cobalt production",
+    "direction": "increases",
+    "factor": "991,0 т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2021 г. BHP Billiton (Австралия - Великобритания) произвела 991,0 т кобальта, продажи составили 991,0 т.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "С увеличением численности отдела обогащения, введением новых штатных единиц значительно возросла скорость обработки проб с переделов дробления, измельчения и флотации ОФ",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "увеличение численности отдела и новых штатных единиц",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С увеличением численности отдела обогащения, введением новых штатных единиц значительно возросла скорость обработки проб с переделов дробления, измельчения и флотации ОФ",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Результаты опробований стали доступны уже в тот же день, а не в конце второго – в начале третьего дня после опробования",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "decreases",
+    "factor": "увеличение численности отдела и работа в две смены",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "если раньше руководство и специалисты ОФ получали результаты опробований в конце второго - в начале третьего дня после опробования, то с увеличением численности результаты стали доступны уже в этот же день",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Увеличение численности отдела позволило проводить более частое и полное проведение опробований, в том числе постоянное поциклонное опробование НГЦУ и пооперационное опробование узлов флотации",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "frequency",
+    "direction": "increases",
+    "factor": "увеличение численности отдела",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Также с увеличением численности появилась возможность более частого и полного проведения опробований, например, на постоянной основе проводят поциклонное опробование ... и пооперационное опробование узлов флотации",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.81,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Обновление парка лабораторного оборудования включало закупку новых лабораторных дробилок, мельниц, флотационных машин и др.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Для выполнения поставленных задач в значительной мере был обновлен существующий парк лабораторного оборудования. Закуплены новые лабораторные дробилки, мельницы, флотационные машины, аналитические рассеивающие установки, истиратели, шлифовально‑полировальные станки и оптический микроскоп с современным программным обеспечением.",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.81,
+   "document_id": "doc:цм-04-22-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:aluminum",
+   "dst": "mat:alumina",
+   "process": "other",
+   "kind": null,
+   "snippet": "С 2023 г. Glencore (Швейцария) будет поставлять глинозем Aluminum Dunkerque ( AD ) (Великобритания).",
+   "doc_id": "doc:цм-04-22-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

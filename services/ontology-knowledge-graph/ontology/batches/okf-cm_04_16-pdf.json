@@ -1,0 +1,926 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_04_16-pdf",
+   "title": "CM_04_16.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2016\\CM_04_16.pdf.md",
+   "artifact_sha256": "b689d66da60fcc987d8280cff5c999ebe8356ff52adc7e4b0a10e90bd2d1829a",
+   "okf_raw_path": "Журналы/Цветные металлы/2016/CM_04_16.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:spodumene-concentrate",
+   "label": "spodumene concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:uranium-sorption-filtrates",
+   "label": "uranium sorption filtrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rhenium",
+   "label": "rhenium",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:chalcocite",
+   "label": "Chalcopyrite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:bornite",
+   "label": "Bornite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:water",
+   "label": "Water",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:butyl-xanthogenate",
+   "label": "Butyl xanthogenate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:anabasine-o-o-dimethylphosphonate",
+   "label": "Anabasine‑O, O‑dimethylphosphonate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:n-phenyl-thiosemicarbazide-n-morpholinylacetic-a",
+   "label": "N‑phenyl‑thiosemicarbazide N‑morpholinylacetic acid",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_04_16-pdf:0",
+   "document_id": "doc:cm_04_16-pdf",
+   "title": "Experimental investigations during the technology development of sulfuric acid processing of spodumene concentrate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "sulfuric acid processing of spodumene concentrate"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:spodumene-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Experimental investigations during the technology development of sulfuric acid processing of spodumene concentrate.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_04_16-pdf:1",
+   "document_id": "doc:cm_04_16-pdf",
+   "title": "Semi‑industrial testings of sorption technology of rhenium extraction from uranium sorption filtrates",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "sorption technology of rhenium extraction"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:uranium-sorption-filtrates",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:rhenium",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Semi‑industrial testings of sorption technology of rhenium extraction from uranium sorption filtrates.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_04_16-pdf:2",
+   "document_id": "doc:cm_04_16-pdf",
+   "title": "Differential thermal analysis of mineral samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Mineral samples of chalcopyrite and bornite were pre‑treated at room temperature with water, butyl xanthogenate, anabasine‑O, O‑dimethylphosphonate or N‑phenyl‑thiosemicarbazide N‑morpholinylacetic acid, then analysed by differential thermal analysis (DTA).",
+       "temperature_text": "room temperature (pre‑treatment)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chalcocite",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:bornite",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:water",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:butyl-xanthogenate",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:anabasine-o-o-dimethylphosphonate",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:n-phenyl-thiosemicarbazide-n-morpholinylacetic-a",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:chalcocite",
+     "value": {
+      "min": null,
+      "nominal": 393.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "endothermic peak"
+     },
+     "method": null,
+     "snippet": "t э , о С 120",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:chalcocite",
+     "value": {
+      "min": null,
+      "nominal": 383.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "endothermic peak"
+     },
+     "method": null,
+     "snippet": "t э , о С 110",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:chalcocite",
+     "value": {
+      "min": null,
+      "nominal": 389.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "endothermic peak"
+     },
+     "method": null,
+     "snippet": "t э , о С 116",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:chalcocite",
+     "value": {
+      "min": null,
+      "nominal": 381.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "endothermic peak"
+     },
+     "method": null,
+     "snippet": "t э , о С 108",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:bornite",
+     "value": {
+      "min": null,
+      "nominal": 383.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "endothermic peak"
+     },
+     "method": null,
+     "snippet": "t э , о С 110",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:bornite",
+     "value": {
+      "min": null,
+      "nominal": 386.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "endothermic peak"
+     },
+     "method": null,
+     "snippet": "t э , о С 113",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:bornite",
+     "value": {
+      "min": null,
+      "nominal": 388.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "endothermic peak"
+     },
+     "method": null,
+     "snippet": "t э , о С 115",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:bornite",
+     "value": {
+      "min": null,
+      "nominal": 383.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "endothermic peak"
+     },
+     "method": null,
+     "snippet": "t э , о С 110",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "adsorbed moisture fraction (n)",
+     "scope": "material",
+     "material_id": "mat:chalcocite",
+     "value": {
+      "min": null,
+      "nominal": 19.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "n ,% 19",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "adsorbed moisture fraction (n)",
+     "scope": "material",
+     "material_id": "mat:chalcocite",
+     "value": {
+      "min": null,
+      "nominal": 19.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "n ,% 19",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "adsorbed moisture fraction (n)",
+     "scope": "material",
+     "material_id": "mat:chalcocite",
+     "value": {
+      "min": null,
+      "nominal": 18.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "n ,% 18",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "adsorbed moisture fraction (n)",
+     "scope": "material",
+     "material_id": "mat:chalcocite",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "n ,% 20",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "adsorbed moisture fraction (n)",
+     "scope": "material",
+     "material_id": "mat:bornite",
+     "value": {
+      "min": null,
+      "nominal": 14.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "n ,% 14",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "adsorbed moisture fraction (n)",
+     "scope": "material",
+     "material_id": "mat:bornite",
+     "value": {
+      "min": null,
+      "nominal": 21.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "n ,% 21",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "adsorbed moisture fraction (n)",
+     "scope": "material",
+     "material_id": "mat:bornite",
+     "value": {
+      "min": null,
+      "nominal": 22.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "n ,% 22",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "adsorbed moisture fraction (n)",
+     "scope": "material",
+     "material_id": "mat:bornite",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "n ,% 20",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "При обработке поверхности халькопирита реагентами анабазиний-О, О-диметилтиофосфатом и N-фенилтиосемикарбазидом N-морфолинилуксусной кислоты ослабляются водородные связи и испарение адсорбированной влаги происходит при более низкой температуре по сравнению с не обработанным реагентом халькопиритом и борнитом.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "hydrophobicity increase",
+      "direction": "increases",
+      "factor": "treatment with the three reagents",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "ослабляются водородные связи и испарение адсорбированной влаги происходит при более низкой температуре",
+     "locator_kind": "md_para",
+     "locator": "para:213",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Из полученных результатов следует, что при обработке поверхности халькопирита реагентами анабазиний-О, О-диметилтиофосфатом и N-фенилтиосемикарба зидом N-морфолинилуксусной кислоты ослабляются водородные связи и испарение адсорбированной влаги происходит при более низкой температуре по сравнению с не обработанным реагентом халькопиритом и борнитом.",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_04_16-pdf:3",
+   "document_id": "doc:cm_04_16-pdf",
+   "title": "Foam flotation of chalcopyrite in Hallimond tube",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Monomineral fractions of chalcopyrite (particle size –0.074 mm, mass 0.5 g) were floated in a Hallimond tube using a 1 % solution of N‑phenyl‑thiosemicarbazide N‑morpholinylacetic acid as collector.",
+       "temperature_text": "room temperature (implied)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chalcocite",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:n-phenyl-thiosemicarbazide-n-morpholinylacetic-a",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery (extraction)",
+     "scope": "material",
+     "material_id": "mat:chalcocite",
+     "value": {
+      "min": null,
+      "nominal": 94.54,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "его извлечение составило 94,54 %",
+     "locator_kind": "md_para",
+     "locator": "para:190",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Достигнутые показатели подтверждаются результатами дифференциально‑термического анализа и ИК‑спектроскопии.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery",
+      "direction": "increases",
+      "factor": "use of 1 % N‑phenyl‑thiosemicarbazide N‑morpholinylacetic acid",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Достигнутые показатели подтверждаются результатами дифференциально-термического анализа и ИК-спектроскопии.",
+     "locator_kind": "md_para",
+     "locator": "para:190",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "При флотации халькопирита, обработанного раствором 1 % N-фенилтиосемикарбазида N-морфолинил уксусной кислоты, его извлечение составило 94,54 %.",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Method of sulphide corrosion assessment and investigation of structure influence on granulated nickel alloys taking into account exploitation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "structure influence on granulated nickel alloys",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Method of sulphide corrosion assessment and investigation of structure influence on granulated nickel alloys taking into account exploitation.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Automation of a new process of control of pressure metal heat treatment for obtaining of rolled products with wide consumer properties.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Automation of a new process of control of pressure metal heat treatment for obtaining of rolled products with wide consumer properties.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Design of integrated diagram of aluminium alloys fatigue using acoustic emission method.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Design of integrated diagram of aluminium alloys fatigue using acoustic emission method.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Если в черной металлургии высокие переделы продукции превышают 70 %, то в цветной металлургии, поставляющей за рубеж три четверти производимой продукции, все с точностью до наоборот только 22 % цветных металлов подвергается дальнейшей обработке для получения плит, листов, труб, проволоки и порошков.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of further processing",
+    "direction": "decreases",
+    "factor": "22 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если в черной металлургии высокие переделы продукции превышают 70 %, то в цветной металлургии, поставляющей за рубеж три четверти производимой продукции, все с точностью до наоборот только 22 % цветных металлов подвергается дальнейшей обработке для получения плит, листов, труб, проволоки и порошков.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Уже сегодня наши компании эксплуатируют свыше 60 3D‑принтеров, на которых можно применять недавно разработанные и апробированные металлические порошки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "number of 3D‑printers in operation",
+    "direction": "increases",
+    "factor": "свыше 60",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Уже сегодня наши компании эксплуатируют свыше 60 3D‑принтеров, на которых можно применять недавно разработанные и апробированные металлические порошки.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2015 г. ПАО «ГМК «Норильский никель» произвело 265,495 тыс. т товарного никеля, в том числе 222,016 тыс. т из российского сырья (в 2014 г. 271,041 и 228,438 тыс. т соответственно).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel output",
+    "direction": "decreases",
+    "factor": "265,495 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2015 г. ПАО «ГМК «Норильский никель» произвело 265,495 тыс. т товарного никеля, в том числе 222,016 тыс. т из российского сырья (в 2014 г. 271,041 и 228,438 тыс. т соответственно).",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2015 г. мировое потребление никеля составило 1,934 млн т, производство — 1,921 млн т, дефицит рынка — 0,013 млн т (в 2014 г. профицит 0,242 млн т).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel consumption vs production",
+    "direction": "decreases",
+    "factor": "deficit 0,013 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2015 г., по данным World Bureau of Metal Statistics (Великобритания), мировое потребление никеля составило 1,934 млн т, производство — 1,921 млн т, дефицит рынка — 0,013 млн т (в 2014 г. профицит 0,242 млн т).",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2015 г. Glencore/Xstrata (Швейцария) выпустила 137,6 тыс. т первичного никеля (139,5 тыс. т в 2014 г.), в том числе Nikkelverk (Норвегия) — 91,2 тыс. т (90,5 тыс. т в 2014 г.), Murrin Murrin (Австралия) 37,5 тыс. т (36,4 тыс. т в 2014 г.), Koniambo (Новая Каледония) — 9,1 тыс. т (12,6 тыс. т в 2014 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "primary nickel output by Glencore/Xstrata",
+    "direction": "decreases",
+    "factor": "137,6 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2015 г. Glencore/Xstrata (Швейцария) выпустила 137,6 тыс. т первичного никеля (139,5 тыс. т в 2014 г.), в том числе Nikkelverk (Норвегия) — 91,2 тыс. т (90,5 тыс. т в 2014 г.), Murrin Murrin (Австралия) 37,5 тыс. т (36,4 тыс. т в 2014 г.), Koniambo (Новая Каледония) — 9,1 тыс. т (12,6 тыс. т в 2014 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2015 г. PT Aneka Tambang (AT) (Индонезия) произвела 17,211 тыс. т никеля в ферроникеле (+2,1 % к 2014 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel output by PT Aneka Tambang",
+    "direction": "increases",
+    "factor": "17,211 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2015 г. PT Aneka Tambang (AT) (Индонезия) произвела 17,211 тыс. т никеля в ферроникеле (+2,1 % к 2014 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2015 г. мировое потребление меди составило 22,931 млн т, производство — 23,08 млн т, профицит рынка — 0,149 млн т (0,116 млн т в 2014 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper consumption vs production",
+    "direction": "increases",
+    "factor": "production 23,08 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2015 г., по данным World Bureau of Metal Statistics (Великобритания), мировое потребление меди составило 22,931 млн т, производство — 23,08 млн т, профицит рынка — 0,149 млн т (0,116 млн т в 2014 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2015 г. в Чили было произведено 5,799 млн т меди (5,782 млн т в 2014 г.), 52,474 тыс. т молибдена (48,732 тыс. т в 2014 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper output in Chile",
+    "direction": "increases",
+    "factor": "5,799 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2015 г. в Чили было произведено 5,799 млн т меди (5,782 млн т в 2014 г.), 52,474 тыс. т молибдена (48,732 тыс. т в 2014 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе 2016 г. правительство Индонезии предоставило Freeport‑McMoRan (США) новую лицензию на экспорт 1,338 млн т меди сроком на шесть месяцев (до 08.08.16).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "export licence volume",
+    "direction": "increases",
+    "factor": "1,338 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе 2016 г. правительство Индонезии предоставило Freeport‑McMoRan (США) новую лицензию на экспорт 1,338 млн т меди сроком на шесть месяцев (до 08.08.16).",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2017‑2018 гг. биржевые котировки меди могут вырасти до 7000,0‑8000,0 долл./т в связи с прогнозируемым дефицитом мирового рынка.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "future copper price range",
+    "direction": "increases",
+    "factor": "7000,0‑8000,0 долл./т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2017‑2018 гг. биржевые котировки меди могут вырасти до 7000,0‑8000,0 долл./т в связи с прогнозируемым дефицитом мирового рынка.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.81,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Исследованные флотационные реагенты анабазиний-О, О‑диметилтиофосфат и N‑фенилтиосемикарбазид N‑морфолинилуксусной кислоты (I) могут быть эффективно использованы в качестве реагентов‑собирателей при флотации медно‑сульфидных руд Саякского месторождения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effectiveness as collectors",
+    "direction": "increases",
+    "factor": "use of the three reagents",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "исследованные флотационные реагенты анабазиний-О,О-диметилтиофосфат и N-фенилтиосеми карбазид N-морфолинилуксусной кислоты (I) могут быть эффективно использованы в качестве реагентов-собирателей при флотации медно-сульфидных руд Саякского месторождения.",
+   "locator_kind": "md_para",
+   "locator": "para:217",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Повышение гидрофобности поверхности халькопирита по сравнению с борнитом.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "hydrophobicity",
+    "direction": "increases",
+    "factor": "treatment of chalcopyrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "повышении гидрофобности поверхности халькопирита по сравнению с борнитом.",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Анабазиний-О, О‑диметилтиофосфат синтезирован в лабораторных условиях, в качестве исходного сырья для его получения применили концентрированный водный раствор анабазингидрохлорида и раствор 40 % едкого натра.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "synthetic route",
+    "direction": "nonmonotonic",
+    "factor": "use of concentrated anabasine hydrochloride solution and 40 % caustic soda",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Анабазиний-О, О-диметилтиофосфат синтезирован в лабораторных условиях, в качестве исходного сырья для его получения применили концентрированный водный раствор анабазингидрохлорида и раствор 40 % едкого натра",
+   "locator_kind": "md_para",
+   "locator": "para:205",
+   "confidence": 0.9,
+   "document_id": "doc:cm_04_16-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,794 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "title": "CM_05_2006-распредиление примесей при плавке в печах ванюкова.pdf",
+   "doc_type": "article",
+   "year": 2006,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2006\\CM_05_2006-распредиление примесей при плавке в печах ванюкова.pdf.md",
+   "artifact_sha256": "803952196edf159db4e3a18705fd4eb79af5d94b164b2ff3b4c54610cb62748f",
+   "okf_raw_path": "Журналы/Цветные металлы/2006/CM_05_2006-распредиление примесей при плавке в печах ванюкова.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:fortaleza-ore",
+   "label": "Fortaleza ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-fine-stone-concentrate-50-60-ni-10-cu-7-f",
+   "label": "Nickel fine‑stone concentrate (~50‑60 % Ni, 10 % Cu, 7 % Fe)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:barro-alto-ore",
+   "label": "Barro Alto ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ferronickel-27-ni-in-ingots-and-granules",
+   "label": "Ferronickel (~27 % Ni) in ingots and granules",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-cobalt-ore-from-niquelandia",
+   "label": "Nickel‑cobalt ore from Niquelandia",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:electrolytic-nickel-99-97-and-cobalt",
+   "label": "Electrolytic nickel (99.97 %) and cobalt",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_05_2006-распредиление-примесеи-при-плавке-в-п:0",
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "title": "Industrial start‑up of Rio Tinto Brasil’s Fortaleza sulfide mine and refinery",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Mining and refining of nickel sulfide ore"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fortaleza-ore",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:nickel-fine-stone-concentrate-50-60-ni-10-cu-7-f",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual production capacity",
+     "scope": "material",
+     "material_id": "mat:nickel-fine-stone-concentrate-50-60-ni-10-cu-7-f",
+     "value": {
+      "min": null,
+      "nominal": 7.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Мощность - 7 тыс. т/год.",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant was commissioned in 1997 and supplied all product to Outokumpu for further refining.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Карьер и рафинировочный завод были введены в эксплуатацию в 1997 г. Товарная продукция: никелевый файнштейн (~50-60 % Ni, 10 % Cu, 7 % Fe).",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Карьер и рафинировочный завод были введены в эксплуатацию в 1997 г.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_05_2006-распредиление-примесеи-при-плавке-в-п:1",
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "title": "Industrial processing of Barro Alto ore by Codemin S.A.",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Ore beneficiation and ferronickel production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:barro-alto-ore",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:ferronickel-27-ni-in-ingots-and-granules",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual ferronickel production capacity (planned after 2010)",
+     "scope": "material",
+     "material_id": "mat:ferronickel-27-ni-in-ingots-and-granules",
+     "value": {
+      "min": 30.0,
+      "nominal": null,
+      "max": 35.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Компания планирует поэтапно наращивать рафинировочные мощности до 30-35 тыс. т/год (после 2010 г.).",
+     "locator_kind": "md_para",
+     "locator": "para:134",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Processing of Barro Alto ore started in early 2005.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "С начала 2005 г. Codemin S.A. стала перерабатывать руду месторождения Barro Alto.",
+     "locator_kind": "md_para",
+     "locator": "para:134",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "С начала 2005 г. Codemin S.A. стала перерабатывать руду месторождения Barro Alto.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_05_2006-распредиление-примесеи-при-плавке-в-п:2",
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "title": "Industrial production ramp‑up at Companhia Niquel Tokantin S.A.",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrolytic nickel and cobalt production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-cobalt-ore-from-niquelandia",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:electrolytic-nickel-99-97-and-cobalt",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual nickel production (current average)",
+     "scope": "material",
+     "material_id": "mat:nickel-fine-stone-concentrate-50-60-ni-10-cu-7-f",
+     "value": {
+      "min": null,
+      "nominal": 21.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В настоящее время среднегодовое производство никеля составляет 21 тыс. т",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "annual copper production (current average)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 900.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "меди - 900 т",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "annual cobalt production (current average)",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-ore-from-niquelandia",
+     "value": {
+      "min": null,
+      "nominal": 700.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "кобальта - 700 т",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Production capacity was increased stepwise to 23 000 t in 2005 and to 25 000 t by 2007‑2008.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "В 2003 г. Companhia Niquel Tokantin S . A. приняла программу увеличения производства до 23 тыс. т (1‑я стадия к 2005 г.), до 25 тыс. т (2‑я стадия к 2007-2008 гг.).",
+     "locator_kind": "md_para",
+     "locator": "para:134",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "В 2003 г. Companhia Niquel Tokantin S . A. приняла программу увеличения производства до 23 тыс. т (1‑я стадия к 2005 г.), до 25 тыс. т (2‑я стадия к 2007-2008 гг.).",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Семейство одеял Fiberfrax@ Durablanket@ включает легкие гибкие прошитые одеяла; которые обладают высокой механической прочностью прекрасно держат форму, имеют четыре плотности: 64/96/128/160 кг/м?",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mechanical strength, shape retention, density options",
+    "direction": "nonmonotonic",
+    "factor": "material design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Семейство одеял Fiberfrax@ Durablanket@ включает легкие гибкие прошитые одеяла; которые обладают высокой механической прочностью прекрасно держат форму, имеют четыре плотности: 64/96/128/160 кг/м?",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Бумага Fiberfrax@ Paper FT изготавливается толщиной 1, 2, 3, 4,5,6, 7, 8 мм, обладает исключительной гибкостью",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "thickness options, flexibility",
+    "direction": "nonmonotonic",
+    "factor": "manufacturing parameters",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Бумага Fiberfrax@ Paper FT изготавливается толщиной 1, 2, 3, 4,5,6, 7, 8 мм, обладает исключительной гибкостью",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Фетр Fiberfrax Lo-ConTM обладает высокой упругостью; гибкостью; эластичностью Сопротивление сжатию >350 кПа; а теплопроводность при 1200*С составляет 0,28 Вт/(м К)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "compressive_strength",
+    "direction": "nonmonotonic",
+    "factor": "material composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Фетр Fiberfrax Lo-ConTM обладает высокой упругостью; гибкостью; эластичностью Сопротивление сжатию >350 кПа; а теплопроводность при 1200*С составляет 0,28 Вт/(м К)",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Модули Fiberfrax @ Prismo-Block@ производятся Из одеял керамоволокна для температур 1250, 1350, 1450*С. Они обладают отличной термостойкостью и физической стабильностью имеют широкий диапазон плотностей и габаритов:",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "nonmonotonic",
+    "factor": "module design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Модули Fiberfrax @ Prismo-Block@ производятся Из одеял керамоволокна для температур 1250, 1350, 1450*С. Они обладают отличной термостойкостью и физической стабильностью имеют широкий диапазон плотностей и габаритов:",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Семейство жестких плит Fiberfrax @ Duraboard@ предназначено для применения в условиях; требующих высокой прочности и жесткости, a также стойкости к воздействию высоких температур:",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "nonmonotonic",
+    "factor": "plate composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Семейство жестких плит Fiberfrax @ Duraboard@ предназначено для применения в условиях; требующих высокой прочности и жесткости, a также стойкости к воздействию высоких температур:",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Формованные изделия Fiberfrax @ Rigiform u Flexiformтм изготавливаются под конкретные требования заказчика и имеют температуру применения до 1250*С, диапазон толщин 5-200 мм для жестких форм и 5-100 мм для гибких:",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "nonmonotonic",
+    "factor": "custom molding",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Формованные изделия Fiberfrax @ Rigiform u Flexiformтм изготавливаются под конкретные требования заказчика и имеют температуру применения до 1250*С, диапазон толщин 5-200 мм для жестких форм и 5-100 мм для гибких:",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Ткани; ленты и оплетки Fiberfrax@; а также веревки; шнуры и скрутки Fiberfrax@отличаются высокими теплоизоляционными свойствами при температурах до 1250*С, химически стабильны; не подвержены воздействию большинства коррозионноактивных веществ; за исключением гидрофтористой и фосфорных кислот и концентрированных щелочей.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "thermal insulation up to 1250 °C, chemical stability, corrosion ",
+    "direction": "nonmonotonic",
+    "factor": "material chemistry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ткани; ленты и оплетки Fiberfrax@; а также веревки; шнуры и скрутки Fiberfrax@отличаются высокими теплоизоляционными свойствами при температурах до 1250*С, химически стабильны; не подвержены воздействию большинства коррозионноактивных веществ; за исключением гидрофтористой и фосфорных кислот и концентрированных щелочей.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Мастики; клеи; покрытия Fiberfrax@ это универсальные изоляционные материалы; имеющие широчайший диапазон применения: Данная продукция требует только высыхания для получения относительно сильной изоляционной структуры c низкой теплопроводностью",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "universal insulation, low thermal conductivity, simple curing (d",
+    "direction": "nonmonotonic",
+    "factor": "application method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мастики; клеи; покрытия Fiberfrax@ это универсальные изоляционные материалы; имеющие широчайший диапазон применения: Данная продукция требует только высыхания для получения относительно сильной изоляционной структуры c низкой теплопроводностью",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "В 2005 г. из-за забастовок, неблагоприятных погодных условий, технических проблем было недополучено 45 тыс. т никеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "shortfall",
+    "direction": "decreases",
+    "factor": "strikes, adverse weather, technical problems",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2005 г. из-за забастовок, неблагоприятных погодных условий, технических проблем было недополучено 45 тыс. т никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Высокие цены текущего года будут заставлять производителей работать с максимальной загрузкой, что увеличит риск аварий на производстве.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "risk",
+    "direction": "increases",
+    "factor": "high prices",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Высокие цены текущего года будут заставлять производителей работать с максимальной загрузкой, что увеличит риск аварий на производстве.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "В 2006 г. INCO прогнозирует увеличение мирового производства первичного никеля на 45 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2006 г. INCO прогнозирует увеличение мирового производства первичного никеля на 45 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Manara Resources (Австралия) в 2006 г. планирует произвести 36 тыс. т никеля (+27,5 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "plan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Manara Resources (Австралия) в 2006 г. планирует произвести 36 тыс. т никеля (+27,5 %).",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "В текущем году планируются две штатные остановки производства (в апреле и октябре) продолжительностью 4-6 дней.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "downtime",
+    "direction": "increases",
+    "factor": "planned shutdowns",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В текущем году планируются две штатные остановки производства (в апреле и октябре) продолжительностью 4-6 дней.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "По прогнозу INCO, мировые цены на никель в 2006 г. имеют высокий потенциал роста в связи с обнадеживающими темпами производства нержавеющей стали (6-7 %), сохраняющейся нехваткой никельсодержащих ломов, исторически низкими запасами никеля и устойчивым спросом со стороны Китая.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу INCO, мировые цены на никель в 2006 г. имеют высокий потенциал роста в связи с обнадеживающими темпами производства нержавеющей стали (6-7 %), сохраняющейся нехваткой никельсодержащих ломов, исторически низкими запасами никеля и устойчивым спросом со стороны Китая.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Себестоимость производства - 4800 долл./т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "nonmonotonic",
+    "factor": "reported cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Себестоимость производства - 4800 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Себестоимость 3700 долл./т, полная себестоимость 6200 долл./т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "nonmonotonic",
+    "factor": "reported cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Себестоимость 3700 долл./т, полная себестоимость 6200 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Стоимость модернизации оценивается в 500 млн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "nonmonotonic",
+    "factor": "estimated cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стоимость модернизации оценивается в 500 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Загрузка производственных мощностей в 2005 г. снизилась до 88,3 % по сравнению с 90,6 % в 2004 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "utilization",
+    "direction": "decreases",
+    "factor": "observed data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Загрузка производственных мощностей в 2005 г. снизилась до 88,3 % по сравнению с 90,6 % в 2004 г.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Codemin S.A. increased ferronickel production capacity to 10 000 t in 2003.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "10 000 t",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2003 г. Codemin S.A. увеличила мощности ферроникелевого производства до 10 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "The unit cost of ferronickel production at Codemin S.A. is $4 800 per tonne.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Себестоимость производства - 4800 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Barro Alto deposit contains about 30 million t proven and 20 million t probable reserves with average nickel grade 1.5‑1.8 %.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Месторождение содержит ~30 млн т доказанных и 20 млн т потенциальных запасов со средним содержанием никеля 1,5-1,8 %.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "The mine life of Barro Alto is at least 30 years.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Срок эксплуатации месторождения не менее 30 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Barro Alto’s full production cost is $6 200 per tonne.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "полная себестоимость 6200 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "The modernization of Barro Alto processing facilities is estimated at $500 million.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Стоимость модернизации оценивается в 500 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Companhia Niquel Tokantin S.A. had production capacities of 5 000 t in 1981, 10 000 t in 1992 and 17.8 000 t in 1997.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Компания постоянно наращивает производственные мощности: 5 тыс. т в 1981 г.; 10 тыс. т в 1992 г.; 17,8 тыс. т в 1997 г.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Current unit cost of nickel production at Companhia Niquel Tokantin S.A. is $3 400 per tonne.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Себестоимость производства - 3400 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "Fortaleza sulfide deposit currently holds 60 million t of ore with average nickel content 0.5 %.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В настоящее время запасы месторождения Fortaleza оцениваются в 60 млн т руды со средним содержанием никеля 0,5 %.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "The concentrate from Fortaleza contains about 7.5 % nickel.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Получаемый концентрат (~7,5 % никеля) поступает на Companhia Niquel Tokantin S.A.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.45,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  },
+  {
+   "text": "CVRD’s 2005 fiscal year turnover was $12.1 billion with net profit $4.4 billion.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В 2005 фин. году оборот CVRD составил 12,1 млрд долл., чистая прибыль 4,4 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:nickel-fine-stone-concentrate-50-60-ni-10-cu-7-f",
+   "dst": "mat:fortaleza-ore",
+   "process": "other",
+   "kind": null,
+   "snippet": "Карьер и рафинировочный завод были введены в эксплуатацию в 1997 г.",
+   "doc_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п"
+  },
+  {
+   "src": "mat:ferronickel-27-ni-in-ingots-and-granules",
+   "dst": "mat:barro-alto-ore",
+   "process": "other",
+   "kind": null,
+   "snippet": "С начала 2005 г. Codemin S.A. стала перерабатывать руду месторождения Barro Alto.",
+   "doc_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п"
+  },
+  {
+   "src": "mat:electrolytic-nickel-99-97-and-cobalt",
+   "dst": "mat:nickel-cobalt-ore-from-niquelandia",
+   "process": "other",
+   "kind": null,
+   "snippet": "В 2003 г. Companhia Niquel Tokantin S . A. приняла программу увеличения производства до 23 тыс. т (1‑я стадия к 2005 г.), до 25 тыс. т (2‑я стадия к 2007-2008 гг.).",
+   "doc_id": "doc:cm_05_2006-распредиление-примесеи-при-плавке-в-п"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

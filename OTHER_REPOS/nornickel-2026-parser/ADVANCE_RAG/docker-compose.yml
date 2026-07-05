@@ -1,0 +1,77 @@
+services:
+  api:
+    build: .
+    command: /app/.venv/bin/uvicorn app.main:create_api_app --factory --host 0.0.0.0 --port 8115
+    restart: unless-stopped
+    ports:
+      - "8115:8115"
+    env_file:
+      - .env
+    environment:
+      QUEUE_BACKEND: redis
+      ADVANCE_RAG_ONNX_MODEL_DIR: /app/assets/models/chroma/onnx_models/all-MiniLM-L6-v2
+      ADVANCE_RAG_NLTK_DATA: /app/assets/nltk_data
+      NLTK_DATA: /app/assets/nltk_data
+      ADVANCE_RAG_RERANKER_STOPWORDS: /app/assets/reranker/stopwords.txt
+    volumes:
+      - ${SHARED_PATH:-../SHARED}:/SHARED
+      - chroma_data:/app/data/chroma
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "/app/.venv/bin/python",
+          "-c",
+          "import json,sys,urllib.request; body=urllib.request.urlopen('http://127.0.0.1:8115/ready', timeout=2).read(); data=json.loads(body.decode('utf-8')); sys.exit(0 if data.get('status') == 'ready' else 1)",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  worker:
+    build: .
+    command: /app/.venv/bin/python -m app.worker_main
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      QUEUE_BACKEND: redis
+      ADVANCE_RAG_ONNX_MODEL_DIR: /app/assets/models/chroma/onnx_models/all-MiniLM-L6-v2
+      ADVANCE_RAG_NLTK_DATA: /app/assets/nltk_data
+      NLTK_DATA: /app/assets/nltk_data
+      ADVANCE_RAG_RERANKER_STOPWORDS: /app/assets/reranker/stopwords.txt
+    volumes:
+      - ${SHARED_PATH:-../SHARED}:/SHARED
+      - chroma_data:/app/data/chroma
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  mcp:
+    build: .
+    command: /app/.venv/bin/python -m app.mcp_server
+    restart: unless-stopped
+    ports:
+      - "8120:8120"
+    env_file:
+      - .env
+    environment:
+      API_BASE_URL: http://api:8115
+    depends_on:
+      api:
+        condition: service_healthy
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  chroma_data:

@@ -1,0 +1,1257 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:очистка-от-fe-2020-docx",
+   "title": "Очистка от Fe 2020.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Очистка от Fe 2020.docx.md",
+   "artifact_sha256": "960b3af39d7c3daec11ee754f5b420c0249a50d803880710767161faf7a03603",
+   "okf_raw_path": "Обзоры/Очистка от Fe 2020.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:chalcopyrite-concentrates",
+   "label": "chalcopyrite concentrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-ore",
+   "label": "nickel ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-concentrate",
+   "label": "copper concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-lead-ore",
+   "label": "copper‑lead ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:limonite",
+   "label": "limonite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:saprolite",
+   "label": "saprolite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-laterite-feed-mixture-of-limonite-saproli",
+   "label": "nickel laterite feed (mixture of limonite, saprolite and transition‑zone material)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:hydrochloric-acid-hcl-100",
+   "label": "hydrochloric acid (HCl 100 %)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:laterite-ore-from-jacare-deposit-brazil",
+   "label": "laterite ore from Jacare deposit (Brazil)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:acid-streams-from-steel-making",
+   "label": "acid streams from steel‑making",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:laterite",
+   "label": "laterite ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:recycled-wash-water",
+   "label": "recycled wash water",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:hydrochloric-acid-hcl-vapour",
+   "label": "hydrochloric acid (HCl) vapour",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:model-pyrite",
+   "label": "model pyrite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfate-leaching-reagents",
+   "label": "sulfate leaching reagents",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:chloride-leaching-reagents",
+   "label": "chloride leaching reagents",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:очистка-от-fe-2020-docx:0",
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "title": "CESL copper plant (chloride‑sulfate leaching)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chloride‑sulfate leaching of chalcopyrite concentrates",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chalcopyrite-concentrates",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Модифицированный вариант CESL применяется на единственном полномасштабном гидрометаллургическом никелевом заводе Long Harbour компании Vale.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "industrial use",
+      "direction": "increases",
+      "factor": "application of modified CESL",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Модифицированный вариант CESL применяется на единственном полномасштабном гидрометаллургическом никелевом заводе Long Harbour компании Vale.",
+     "locator_kind": "md_para",
+     "locator": "para:44",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "по технологии хлоридно‑сульфатного выщелачивания CESL был в 2008 г. построен медный завод для переработки халькопиритовых концентратов на 10 тыс т/г Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:очистка-от-fe-2020-docx:1",
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "title": "Long Harbour nickel plant (modified CESL)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "modified CESL chloride‑sulfate leaching",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Модифицированный вариант CESL применяется на единственном полномасштабном гидрометаллургическом никелевом заводе Long Harbour компании Vale.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "industrial use",
+      "direction": "increases",
+      "factor": "application of modified CESL",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Модифицированный вариант CESL применяется на единственном полномасштабном гидрометаллургическом никелевом заводе Long Harbour компании Vale.",
+     "locator_kind": "md_para",
+     "locator": "para:44",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Модифицированный вариант CESL применяется на единственном полномасштабном гидрометаллургическом никелевом заводе Long Harbour компании Vale.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:очистка-от-fe-2020-docx:2",
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "title": "BioCop (Chile) bio‑leaching plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "bio‑leaching of copper concentrate",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Все они не слишком крупные (по масштабам медной отрасли): от 50 до 90 тыс т/г Cu или того меньше (чилийский завод BioCop (биовыщелачивание) на 20 тыс т/г меди – совместное детище BHP/Codelco).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "plant capacity",
+      "direction": "decreases",
+      "factor": "BioCop capacity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "чилийский завод BioCop (биовыщелачивание) на 20 тыс т/г меди – совместное детище BHP/Codelco",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "чилийский завод BioCop (биовыщелачивание) на 20 тыс т/г меди – совместное детище BHP/Codelco",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:очистка-от-fe-2020-docx:3",
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "title": "Noranda leaching test at Brenda mine (1970‑1990)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chloride leaching of Cu and Pb",
+       "temperature_text": "110°C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 383.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-lead-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "вела выщелачивание Cu и Pb раствором с 30%CaCl₂, 10% FeCl₃ и 2,1% CuCl₂ при 110oС.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "leaching conditions",
+      "direction": "nonmonotonic",
+      "factor": "reagent composition and temperature",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "вела выщелачивание Cu и Pb раствором с 30%CaCl 2 , 10% FeCl 3 и 2,1% CuCl 2 при 110oС",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "вела выщелачивание Cu и Pb раствором с 30%CaCl 2 , 10% FeCl 3 и 2,1% CuCl 2 при 110oС",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:очистка-от-fe-2020-docx:4",
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "title": "Leaching experiments with magnesium chloride solution",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chloride leaching of laterite ores (limonite and saprolite)",
+       "temperature_text": "80°C",
+       "duration_text": "3,5 hour"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 353.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:limonite",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:saprolite",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Ni leaching degree (limonite)",
+     "scope": "material",
+     "material_id": "mat:limonite",
+     "value": {
+      "min": null,
+      "nominal": 84.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в опытах с 20% HCl при 80°С и 3,5 час для лимонита 84,4%",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Ni leaching degree (saprolite)",
+     "scope": "material",
+     "material_id": "mat:saprolite",
+     "value": {
+      "min": null,
+      "nominal": 91.5,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "для сапролита 91,5%",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "при достигаемой степени выщелачивания железа каждую единицу магния следовало бы подвергать пирогидролизу 2-3 раза, что бессмысленно с точки зрения капитальных и операционных затрат",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "magnesium recycle feasibility",
+      "direction": "increases",
+      "factor": "2-3",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "каждую единицу магния следовало бы подвергать пирогидролизу 2-3 раза, что бессмысленно с точки зрения капитальных и операционных затрат",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в опытах с 20% HCl при 80°С и 3,5 час для лимонита 84,4%, для сапролита 91,5%",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:очистка-от-fe-2020-docx:5",
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "title": "Neomet mini‑plant leaching of nickel laterites",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Neomet process for laterites",
+       "temperature_text": "90 °C",
+       "duration_text": "60 min"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 363.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-laterite-feed-mixture-of-limonite-saproli",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:hydrochloric-acid-hcl-100",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "HCl consumption",
+     "scope": "material",
+     "material_id": "mat:hydrochloric-acid-hcl-100",
+     "value": {
+      "min": null,
+      "nominal": 800.0,
+      "max": null
+     },
+     "unit": "kg/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На каждую тонну сухого сырья добавляли 800 кг HCl (100%).",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "reactor cascade",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "выщелачивание проводили в системе, включающей каскад из 5‑ти реакторов, при температуре 90 °C.",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Three reactors were sufficient to achieve high extraction for all studied metals.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reactor count",
+      "direction": "increases",
+      "factor": "extraction efficiency",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Трех реакторов оказалось достаточно для достижения высокой степени извлечения.",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Наиболее детально технология Neomet [9,10] проработана на минизаводе на примере переработки никелевых латеритов – смеси лимонитов, сапролитов и материала переходной зоны...",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:очистка-от-fe-2020-docx:6",
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "title": "Anglo‑American pilot plant for laterite processing",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Hybrid chloride‑sulfate scheme (Anglo‑American variant)",
+       "temperature_text": "not specified (thermal decomposition of MgSO4 at 1100 °C required)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 277.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:laterite-ore-from-jacare-deposit-brazil",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "plant capacity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "kg/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "пилотного завода на 30 кг/час по переработке латеритов месторождения Jacare (Бразилия).",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The pilot plant produced a mixed nickel‑cobalt hydroxide product.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Конечным продуктом является смешанный никель/кобальтовый гидроксид.",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Anglo American в годовом отчете за 2010 г. объявила о завершении строительства и вводе в строй пилотного завода на 30 кг/час...",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:очистка-от-fe-2020-docx:7",
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "title": "SMS Siemag large‑scale hydro‑thermal acid regeneration plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Hydro‑thermal regeneration of acid (SMS Siemag for Thyssen‑Krupp)",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:acid-streams-from-steel-making",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Компания SMS Siemag построила для сталеплавильной компании Thyssen Krupp крупно масштабный завод по “гидротермической” регенерации кислоты...",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:очистка-от-fe-2020-docx:8",
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "title": "Industrial demonstration at Magnola plant (Canada)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Leaching of laterite ore with strong hydrochloric acid introduced as vapors",
+       "temperature_text": "≈ 135°C",
+       "duration_text": "10 min residence in mixing tank; 2 h residence in four leaching vats"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 408.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:laterite",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:recycled-wash-water",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:hydrochloric-acid-hcl-vapour",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 408.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "of leaching"
+     },
+     "method": null,
+     "snippet": "Скрытая теплота в поступающей кислоте повышает температуру выщелачивания примерно до 135°С.",
+     "locator_kind": "md_para",
+     "locator": "para:140",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The method eliminates the evaporation stage between leaching and subsequent iron hydrolysis and also removes the need for cooling during leaching, greatly simplifying the leaching reactor series.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process simplification",
+      "direction": "increases",
+      "factor": "process simplicity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Новинка - добавление кислоты на выщелачивание в виде паров позволяет исключить стадию испарения между стадиями выщелачивания и последующего гидролиза железа. Исключается также потребность в охлаждении при выщелачивании, что существенно упрощает серию реакторов для выщелачивания.",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Работоспособность этого метода была продемонстрирована на магниевом заводе Magnola (Канада).",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:очистка-от-fe-2020-docx:9",
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "title": "Comparative laboratory study of sulfate vs. chloride leaching of nickel‑containing pyrite",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Leaching of model pyrite (NiS 1.2 %, FeS₈ 68.3 %, MgO 6.1 %, SiO₂ 24.3 %) using sulfate and chloride reagents",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:model-pyrite",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sulfate-leaching-reagents",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:chloride-leaching-reagents",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Chloride leaching proved to be a considerably more attractive option.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "attractiveness",
+      "direction": "increases",
+      "factor": "chloride leaching",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Как и следовало ожидать, хлоридное выщелачивание оказалось значительно более привлекательным вариантом [11].",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "M.Dry (Arithmetek) и B.Harris (NMR360) провели сравнение сульфатного и хлоридного выщелачивания никельсодержащих пирротинов.",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "все такие процессы оказывались в конечном итоге коммерчески невыгодными и проигрывали современным медеплавильным предприятиям – в значительной мере из‑за того, что нет успешного решения проблемы железа.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "commercial viability",
+    "direction": "decreases",
+    "factor": "lack of iron management solution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "все такие процессы оказывались в конечном итоге коммерчески невыгодными и проигрывали современным медеплавильным предприятиям – в значительной мере из‑за того, что нет успешного решения проблемы железа.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.81,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "Размер “железного слона” для медной отрасли в несколько раз больше, чем для цинковой: в цинковом концентрате >50% Zn и около 10% Fe, в медном - 25% Cu и 30% Fe.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "copper vs zinc concentrates",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Размер “железного слона” для медной отрасли в несколько раз больше, чем для цинковой: в цинковом концентрате >50% Zn и около 10%Fe, в медном - 25% Cu и 30% Fe.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.81,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "на 1 т меди, полученной гидрометаллургически из концентрата, придется в ~6 раз больше требующего размещения железа, чем на 1 т цинка.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "iron waste per tonne of metal",
+    "direction": "increases",
+    "factor": "copper vs zinc production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на 1 т меди, полученной гидрометаллургически из концентрата, придется в ~6 раз больше требующего размещения железа, чем на 1 т цинка.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "доминирование сернокислотного выщелачивания очевидно, достаточно вспомнить предприятия по переработке латеритов по технологии автоклавного сернокислотного выщелачивания.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "prevalence of sulfuric‑acid leaching",
+    "direction": "increases",
+    "factor": "industry practice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доминирование сернокислотного выщелачивания очевидно, достаточно вспомнить предприятия по переработке латеритов по технологии автоклавного сернокислотного выщелачивания.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "хлоридному выщелачиванию уделяется мало внимания и ещё меньше его практическому применению",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "research and application attention",
+    "direction": "decreases",
+    "factor": "industry focus",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "хлоридному выщелачиванию уделяется мало внимания и ещё меньше его практическому применению",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "коммерческих заводов, работающих по технологии хлоридного выщелачивания рудного сырья, пока ещё нет.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "commercial plants",
+    "direction": "decreases",
+    "factor": "technology maturity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Коммерческих заводов, работающих по технологии хлоридного выщелачивания рудного сырья, насколько нам известно, пока ещё нет.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Контроль за железом важен для обеих схем, особенно в сочетании с рециклингом соляной кислоты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "iron control",
+    "direction": "increases",
+    "factor": "acid recycling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Контроль за железом важен для обеих схем, особенно в сочетании с рециклингом соляной кислоты",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Neomet объявила о том, что у неё в портфеле три главных проекта, не включающих, заметмим, хлоридное выщелачивание рудного сырья: переработка литий‑ионных батарей с извлечением кобальта (в ноябре 2019 г. получен сульфат кобальта 99+%, подана заявка на изобретение); рафинирование лития с получением гидроксида из сподуменового концентрата; Ti‑V проект Barrambi (Австралия).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "focus away from chloride leaching of ores",
+    "direction": "decreases",
+    "factor": "company strategy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Neomet объявила о том, что у неё в портфеле три главных проекта, не включающих, заметмим, хлоридное выщелачивание рудного сырья: переработка литий‑ионных батарей с извлечением кобальта (в ноябре 2019 г. получен сульфат кобальта 99+%, подана заявка на изобретение); рафинирование лития с получением гидроксида из сподуменового концентрата; Ti‑V проект Barrambi (Австралия).",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.81,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "Хлоридное выщелачивание латеритов – весьма конкурентоспособный процесс по сравнению с автоклавным сернокислотным выщелачиванием",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "competitiveness",
+    "direction": "increases",
+    "factor": "весьма",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Хлоридное выщелачивание латеритов – весьма конкурентоспособный процесс по сравнению с автоклавным сернокислотным выщелачиванием",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Растворимость хлоридов металлов обычно выше, чем сульфатов",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "обычно выше",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Растворимость хлоридов металлов обычно выше, чем сульфатов",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "В концентрированных растворах хлорида магния активность воды <<1, а активность иона водорода H+ (или H3O+) быстро увеличивается с концентрацией хлорида",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "water activity",
+    "direction": "decreases",
+    "factor": "<<1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "активность воды <<1 в концентрированных растворах хлорида магния, а активность иона водорода H + (или H 3 O + ) быстро увеличивается с концентрацией хлорида",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.81,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Жидкостная экстракция железа может быть технически достижимой, но приводит к образованию значительных объемов кислоты, которую надо нейтрализовать, используя оборотный MgO, а это слишком дорого",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "increases",
+    "factor": "слишком дорого",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "жидкостная экстракция железа может быть технически достижимой, но экстракция таких больших количеств железа приводит к образованию значительных объемов кислоты, которую надо нейтрализовать, используя оборотный MgO\", а это слишком дорого",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "The PORI/SMS Siemag process and its variations are more selective than pyroghydrolysis, allowing selective precipitation of hematite while keeping other metals in solution.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "selectivity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс PORI/SMS Siemag (и его вариации) более избирателен, чем пирогидролиз – возможно селективное осаждение гематита при сохранении прочих металлов в растворе.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "Hybrid chloride‑sulfate schemes are technically and economically viable only if the high cost of sulfuric acid and lime consumption and the need for autoclaves are managed.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "economic viability",
+    "direction": "decreases",
+    "factor": "cost of H2SO4, lime, autoclave",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Значительный расход серной кислоты и извести в сочетании с автоклавом делают процесс довольно дорогим.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "Neomet’s low‑temperature (180 °C) HCl regeneration method avoids the high temperatures (650‑900 °C) required by pyroghydrolysis.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Neomet также разработала свой метод регенерации соляной кислоты при гораздо более низких температурах (180°С), чем пирогидролиз (650-900°С).",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "Thermal decomposition of magnesium sulfate requires a temperature of about 1100 °C.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Термическое разложение сульфата магния требует высокой температуры – 1100°С.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "For the Neomet process, when the concentration of divalent metals reaches roughly 30 % of the FeCl₃ solution, the FeCl₃ melt temperature drops and the system solidifies, becoming inoperable.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operability limit",
+    "direction": "decreases",
+    "factor": "divalent metal content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по мере увеличения содержания двухвалентных металлов в растворе температура ликвидуса FeCl₃ начинает снижаться, при содержании ~30% прочих металлов относительно хлорида железа (III), система начинает затвердевать при температуре реакции и становится неоперабельной.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.81,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "FeCl₃ solutions begin to dry out and undergo strong hydrolysis at temperatures above ~185 °C, with noticeable HCl release above this temperature.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Изменение состояния начинается при температуре ~185oС – раствор соли начинает “высыхать”, что сопровождается сильным гидролизом. Гидролиз начинается уже при температуре ~165oС, но в незначительной степени. При температурах >185oС выделяются значительные количества HCl.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.81,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "Chlorides of alkali metals evaporate “dry” at about 120 °C, and chlorides of alkaline‑earth metals evaporate at about 130‑150 °C.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Хлориды щелочных металлов просто испаряются “досуха” при температуре ~120oС, так же ведут себя и хлориды базовых металлов при температурах ~130-150oС.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "The idea of “dry” evaporation of metal chlorides to recover HCl was patented but never implemented in practice.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Идея испарения “досуха” с целью извлечения HCl была положена в основу заявки на изобретение, но так никогда и не реализована на практике.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "To carry out oxidative hydrolysis at atmospheric pressure, the boiling point of the solution must be sufficiently high – about 175 °C or higher.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "required boiling point",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для того, чтобы провести окислительный гидролиз при атмосферном давлении, температура кипения при нормальных условиях раствора должна быть достаточно высокой - около 175°С или выше (гидролиз FeCl₃ – эндотермическая реакция).",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.81,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "Steam is required to carry away HCl; otherwise the reaction does not proceed sufficiently.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "reaction completeness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Требуется также пар для выноса HCl, иначе реакция не проходит в достаточной степени.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "The hydrochloric acid from hydrolysis and pyrogydrolysis is recycled.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recyclability",
+    "direction": "increases",
+    "factor": "acid reuse",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Соляная кислота от гидролиза и пирогидролиза является оборотной.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "The hematite product is sufficiently pure to be sold as iron ore or possibly for the pigment industry.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "purity",
+    "direction": "increases",
+    "factor": "hematite purity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Гематит – достаточно чистый, чтобы его можно было продавать как железную руду или даже, вероятно, в пигментную отрасль.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  },
+  {
+   "text": "In variant 2, an inert solvent allows oxidation of FeCl₂ and hydrolysis of FeCl₃ to be combined in a single operation, enabling extraction of nickel as basic chlorides after iron is converted to hematite and HCl.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "process integration",
+    "direction": "increases",
+    "factor": "operation consolidation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Радикальное отличие заключается в открытии инертного растворителя (запатентован), в котором окисление FeCl₂ и гидролиз FeCl₃ можно объединить в одну операцию, а также возможность извлечения базовых металлов (в данном случае – никеля) в виде основных хлоридов по завершении превращения железа в гематит и соляную кислоту.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.81,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Magnesium is removed as magnesium hydroxide chloride.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "removal form",
+    "direction": "increases",
+    "factor": "magnesium recovery",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Магний удаляют в виде гидроксихлорида магния.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.9,
+   "document_id": "doc:очистка-от-fe-2020-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

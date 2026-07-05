@@ -1,0 +1,835 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-06-23-pdf",
+   "title": "ЦМ № 06-23.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2023\\ЦМ № 06-23.pdf.md",
+   "artifact_sha256": "73c32d2aeff8ba469719ec71f560d29b14b597ef1984e2d3cea392f2a7bd24d2",
+   "okf_raw_path": "Журналы/Цветные металлы/2023/ЦМ № 06-23.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:core-samples-from-block-h-7-of-the-khiagda-depos",
+   "label": "core samples from block H-7 of the Khiagda deposit",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:leaching-solution-fortified-to-20-g-dm3-h2so4",
+   "label": "leaching solution fortified to 20 g/dm³ H₂SO₄",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:proposed-leaching-solution-20-g-dm3-h2so4",
+   "label": "proposed leaching solution (20 g/dm³ H₂SO₄)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No-06-23-pdf:0",
+   "document_id": "doc:цм-No-06-23-pdf",
+   "title": "Laboratory leaching test on core samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "leaching of core samples in laboratory conditions using the leaching solution of AO \"Khiagda\""
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:core-samples-from-block-h-7-of-the-khiagda-depos",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:core-samples-from-block-h-7-of-the-khiagda-depos",
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "uranium"
+     },
+     "method": null,
+     "snippet": "среднее извлечение урана из керновых проб в лабораторных условиях при использовании выщелачивающего раствора АО «Хиагда» составляет ~55 %.",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Increasing the acidity of the leaching solution to 20 g/dm³ H₂SO₄ raises extraction efficiency to 74.4 %.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "acid concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При повышении кислотности выщелачивающего раствора до концентрации H 2 SO 4 20 г/дм 3 эффективность извлечения возрастает до 74,4 %.",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Среднее извлечение урана из керновых проб в лабораторных условиях при использовании выщелачивающего раствора АО «Хиагда» составляет ~55 %.",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-06-23-pdf:1",
+   "document_id": "doc:цм-No-06-23-pdf",
+   "title": "Continuous filtration leaching test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "continuous filtration leaching using a solution fortified with sulfuric acid"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:leaching-solution-fortified-to-20-g-dm3-h2so4",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "uranium transferred to solution",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 95.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "использование выщелачивающего раствора, укрепленного по серной кислоте до 20 г/дм 3 , позволяет перевести 95,6 % урана в раствор",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "processing time reduction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 36.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "снизить время отработки на 36,8 %",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "uranium  in productive solution"
+     },
+     "method": null,
+     "snippet": "увеличить концентрацию урана в продуктивном растворе примерно в 1,6 раза",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "total solution volume reduction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "уменьшить суммарный объем растворов в 2,3 раза",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The fortified leaching solution significantly improves extraction performance and reduces resource consumption.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "solution acid fortification",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "использование выщелачивающего раствора, укрепленного по серной кислоте до 20 г/дм 3 , позволяет перевести 95,6 % урана в раствор, снизить время отработки на 36,8 %, увеличить концентрацию урана в продуктивном растворе примерно в 1,6 раза и уменьшить суммарный объем растворов в 2,3 раза.",
+     "locator_kind": "md_para",
+     "locator": "para:194",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "использование выщелачивающего раствора, укрепленного по серной кислоте до 20 г/дм 3 , позволяет перевести 95,6 % урана в раствор, снизить время отработки на 36,8 %, увеличить концентрацию урана в продуктивном растворе примерно в 1,6 раза и уменьшить суммарный объем растворов в 2,3 раза.",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-06-23-pdf:2",
+   "document_id": "doc:цм-No-06-23-pdf",
+   "title": "Economic evaluation of leaching solution replacement",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "calculation of economic efficiency based on laboratory and continuous‑filtration results"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:proposed-leaching-solution-20-g-dm3-h2so4",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "operating cost reduction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 75.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "эксплуатационные затраты при отработке Хиагдинского месторождения снизятся на 75,6 %",
+     "locator_kind": "md_para",
+     "locator": "para:195",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "discounted cash"
+     },
+     "method": null,
+     "snippet": "суммарный дисконтированный денежный поток составит ~6,5 млрд руб.",
+     "locator_kind": "md_para",
+     "locator": "para:195",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Replacing the original leaching solution with the proposed one yields large cost savings and a high discounted cash flow.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "economic benefit",
+      "direction": "increases",
+      "factor": "solution replacement",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в этом случае эксплуатационные затраты при отработке Хиагдинского месторождения снизятся на 75,6 %, а суммарный дисконтированный денежный поток составит ~6,5 млрд руб.",
+     "locator_kind": "md_para",
+     "locator": "para:195",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "выполненный на основании полученных результатов расчет экономической эффективности замены выщелачивающего раствора используемого состава на предлагаемый показал, что в этом случае эксплуатационные затраты при отработке Хиагдинского месторождения снизятся на 75,6 %, а суммарный дисконтированный денежный поток составит ~6,5 млрд руб.",
+   "locator_kind": "md_para",
+   "locator": "para:195",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "по информации Maaden , стоимость потенциальных запасов превышает 1,3 трлн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "potential reserve cost",
+    "direction": "increases",
+    "factor": "1,3 трлн долл.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по информации Maaden , стоимость потенциальных запасов превышает 1,3 трлн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2023 г. мировое потребление никеля составит 3,13 млн т (2,96 млн т в 2022 г.)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel consumption",
+    "direction": "increases",
+    "factor": "3,13 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2023 г. мировое потребление никеля составит 3,13 млн т (2,96 млн т в 2022 г.)",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2023 г. производство никеля - 3,37 млн т (3,06 млн т в 2022 г.)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel production",
+    "direction": "increases",
+    "factor": "3,37 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2023 г. производство - 3,37 млн т (3,06 млн т в 2022 г.)",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "профицит рынка никеля в 2023 г. - 0,24 млн т (0,1 млн т в 2022 г.)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel market surplus",
+    "direction": "increases",
+    "factor": "0,24 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "профицит рынка - 0,24 млн т (0,1 млн т в 2022 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2022 г . прирост ресурсов по геологоразведочным работам, завершенным в 2022 г., по категориям Р1 + Р2 составил 452,7 тыс. т меди, 887,4 тыс. т цинка, 513,8 тыс. т свинца.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "resource growth",
+    "direction": "increases",
+    "factor": "452,7 тыс. т меди, 887,4 тыс. т цинка, 513,8 тыс. т свинца",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2022 г . прирост ресурсов по геологоразведочным работам, завершенным в 2022 г., по категориям Р1 + Р2 составил 452,7 тыс. т меди, 887,4 тыс. т цинка, 513,8 тыс. т свинца.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в мае 2023 г. Ivanhoe Electric (Канада) и Maaden (Саудовская Аравия) создали совместное предприятие для поиска и разработки месторождений никеля, меди, лития на Аравийском полуострове по технологии Typhoon, позволяющей обнаружить полезные ископаемые на глубине до 1,5 км.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "exploration capability",
+    "direction": "increases",
+    "factor": "depth up to 1,5 км",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в мае 2023 г. Ivanhoe Electric (Канада) и Maaden (Саудовская Аравия) создали совместное предприятие для поиска и разработки месторождений никеля, меди, лития на Аравийском полуострове по технологии Typhoon, позволяющей обнаружить полезные ископаемые на глубине до 1,5 км.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в апреле 2023 г . Министерство энергетики и минеральных ресурсов Индонезии досрочно отменило десятилетние налоговые каникулы для производителей никельсодержащего чугуна (НСЧ) для стимулирования выпуска продукции с высокой добавленной стоимостью.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "tax incentives",
+    "direction": "decreases",
+    "factor": "tax holidays",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в апреле 2023 г . Министерство энергетики и минеральных ресурсов Индонезии досрочно отменило десятилетние налоговые каникулы для производителей никельсодержащего чугуна (НСЧ) для стимулирования выпуска продукции с высокой добавленной стоимостью.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2023 г . мировая цена на никель, по информации Citigroup (США), составит 23 258,0 долл/т (ранее 23 443,0 долл/т).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel price",
+    "direction": "decreases",
+    "factor": "market outlook",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2023 г . мировая цена на никель, по информации Citigroup (США), составит 23 258,0 долл/т (ранее 23 443,0 долл/т).",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2024 г. - 20 000,0 долл/т (ранее 22 000,0 долл/т).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel price",
+    "direction": "decreases",
+    "factor": "market outlook",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2024 г. - 20 000,0 долл/т (ранее 22 000,0 долл/т).",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В последующие 12 мес. (с мая 2023 г .), по информации Goldman Sachs (США), мировая цена на никель снизится до 16 000,0 долл/т в связи с увеличением поставок никеля из КНР и Индонезии.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel price",
+    "direction": "decreases",
+    "factor": "increased supply",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В последующие 12 мес. (с мая 2023 г .), по информации Goldman Sachs (США), мировая цена на никель снизится до 16 000,0 долл/т в связи с увеличением поставок никеля из КНР и Индонезии.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценке World Stainless Association (Бельгия), мировое потребление нержавеющей стали в 2023 г. будет аналогично предшествующему году, а в 2024 г. увеличится на 3,6 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stainless steel consumption",
+    "direction": "increases",
+    "factor": "market outlook",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценке World Stainless Association (Бельгия), мировое потребление нержавеющей стали в 2023 г. будет аналогично предшествующему году, а в 2024 г. увеличится на 3,6 %.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В I квартале 2024 г. Horizonte Minerals (Великобритания) планирует ввести в эксплуатацию комбинат Araguaia (Бразилия) (готовность по состоянию на апрель 2023 г . - 50,0 %).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plant readiness",
+    "direction": "increases",
+    "factor": "project development",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I квартале 2024 г. Horizonte Minerals (Великобритания) планирует ввести в эксплуатацию комбинат Araguaia (Бразилия) (готовность по состоянию на апрель 2023 г . - 50,0 %).",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в проект - 533,5 млн долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project cost",
+    "direction": "increases",
+    "factor": "capital allocation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инвестиции в проект - 533,5 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2025 г . Posco (Ю. Корея) планирует ввести в эксплуатацию в индустриальном парке Weda Bay (Индонезии) завод по выпуску никельсодержащих полупродуктов (70,0- 75,0 % никеля) для прекурсоров аккумуляторов мощностью 52,0 тыс. т/год (эквивалент 1,0 млн аккумуляторов).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "project development",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2025 г . Posco (Ю. Корея) планирует ввести в эксплуатацию в индустриальном парке Weda Bay (Индонезии) завод по выпуску никельсодержащих полупродуктов (70,0- 75,0 % никеля) для прекурсоров аккумуляторов мощностью 52,0 тыс. т/год (эквивалент 1,0 млн аккумуляторов).",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в проект - 440,0 млн долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project cost",
+    "direction": "increases",
+    "factor": "capital allocation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инвестиции в проект - 440,0 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "GEM (КНР) совместно с Cahaya Java (Сингапур) и Weiming (Г онконг) планирует строительство второго завода по выпуску никеля мощностью 20,0 тыс. т в индустриальном парке Morowali (Индонезия).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "project development",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "GEM (КНР) совместно с Cahaya Java (Сингапур) и Weiming (Г онконг) планирует строительство второго завода по выпуску никеля мощностью 20,0 тыс. т в индустриальном парке Morowali (Индонезия).",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в проект - 500,0 млн долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project cost",
+    "direction": "increases",
+    "factor": "capital allocation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инвестиции в проект - 500,0 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Stellantis (Нидерланды) заключила обязывающий закупочный контракт с Alliance Nickel (Австралия) на поставку 170,0 тыс. т сульфата никеля и 12,0 тыс. т сульфата кобальта в течение пяти лет.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "supply volume",
+    "direction": "increases",
+    "factor": "commercial agreement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Stellantis (Нидерланды) заключила обязывающий закупочный контракт с Alliance Nickel (Австралия) на поставку 170,0 тыс. т сульфата никеля и 12,0 тыс. т сульфата кобальта в течение пяти лет.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В мае 2023 г . Tesla (США) приступила к строительству в Техасе завода по производству лития для аккумуляторов (эквивалент 1,0 млн электромобилей в год).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "lithium production for batteries",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В мае 2023 г . Tesla (США) приступила к строительству в Техасе завода по производству лития для аккумуляторов (эквивалент 1,0 млн электромобилей в год).",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Ввод в эксплуатацию - 2024 г., выход на проектную мощность - 2025 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operational date",
+    "direction": "increases",
+    "factor": "projected capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ввод в эксплуатацию - 2024 г., выход на проектную мощность - 2025 г.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "За 15 лет работы (2007-2022 гг.) руководителями АО «АРМЗ» были Вадим Львович Живов (08.2007-01.2011 гг .), Яков Михайлович Полункин (01.2011-10.2011 гг.), Тигран Гарикович Хачатуров (10.2011-05.2013 гг.) и Владимир Николаевич Верховцев (05.2013 г. - по настоящее время).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "leadership tenure",
+    "direction": "nonmonotonic",
+    "factor": "executive appointments",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За 15 лет работы (2007-2022 гг.) руководителями АО «АРМЗ» были Вадим Львович Живов (08.2007-01.2011 гг .), Яков Михайлович Полункин (01.2011-10.2011 гг.), Тигран Гарикович Хачатуров (10.2011-05.2013 гг.) и Владимир Николаевич Верховцев (05.2013 г. - по настоящее время).",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "После завершения всех организационных мероприятий АО «Атомредметзолото» приняло все полномочия по обеспечению внутренних и внешних сырьевых потребностей российской атомной отрасли и стало одной из ведущих мировых уранодобывающих компаний.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "market position",
+    "direction": "increases",
+    "factor": "full authority over raw material supply",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После завершения всех организационных мероприятий АО «Атомредметзолото» приняло все полномочия по обеспечению внутренних и внешних сырьевых потребностей российской атомной отрасли и стало одной из ведущих мировых уранодобывающих компаний.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1960 гг. началась настоящая урановая лихорадка.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "uranium discovery rate",
+    "direction": "increases",
+    "factor": "exploration activity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1960 гг. началась настоящая урановая лихорадка.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Химико-аналитическая лаборатория осуществляет аналитический контроль содержания редких, рассеянных, цветных, благородных и радиоактивных элементов в рудах и продуктах их переработки, а также вредных химических веществ в объектах окружающей среды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "nonmonotonic",
+    "factor": "laboratory capabilities",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Химико-аналитическая лаборатория осуществляет аналитический контроль содержания редких, рассеянных, цветных, благородных и радиоактивных элементов в рудах и продуктах их переработки, а также вредных химических веществ в объектах окружающей среды.",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The chemical‑analytical laboratory is accredited according to ISO/IEC 17025‑2019.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "лаборатория работает в соответствии с требованиями ГОСТ ISO/IEC 17025-2019 «Общие требо вания к компетентности испытательных и калибровочных лабораторий»",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The laboratory holds accreditation certificate No ИЛ/АЛ-0106 valid from 20.12.2021 to 20.12.2026.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Техническая компетенция лаборатории подтверждена Свидетельством об аккредитации No ИЛ/АЛ-0106, действительным с 20.12.2021 г . по 20.12.2026 г .",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The laboratory uses modern high‑precision analytical instruments, including an ICP‑AES Varian Vista PRO and an AAS Agilent 240 FS AA.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "1. Атомно-эмиссионный спектрометр с индуктивно связанной плазмой Varian Vista PRO. 2. Атомно-абсорбционный спектрометр Agilent 240 FS AA.",
+   "locator_kind": "md_para",
+   "locator": "para:181",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "More than half of the world’s uranium production is obtained by the in‑situ leaching (SPV) method.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Более половины всего объема добычи этого металла в мире приходится на предприятия, работающие по этой технологии",
+   "locator_kind": "md_para",
+   "locator": "para:200",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The Khiagda enterprise is the largest domestic producer of uranium using the SPV method.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "АО «Хиагда» является крупнейшим отечественным производителем урана методом скважинного подземного выщелачивания (СПВ).",
+   "locator_kind": "md_para",
+   "locator": "para:191",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-06-23-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,1099 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "title": "39 ИССЛЕДОВАНИЕ ПЕРСПЕКТИВНЫХ СОСТАВОВ ДЛЯ ОТЛИВКИ МЕДНЫХ АНОДОВ.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\39 ИССЛЕДОВАНИЕ ПЕРСПЕКТИВНЫХ СОСТАВОВ ДЛЯ ОТЛИВКИ МЕДНЫХ АНОДОВ.docx.md",
+   "artifact_sha256": "f27e466f9b5faeccf7fef0fa214b5dc2a003f8af1433ae26e761e49aca7d00cc",
+   "okf_raw_path": "Статьи/39 ИССЛЕДОВАНИЕ ПЕРСПЕКТИВНЫХ СОСТАВОВ ДЛЯ ОТЛИВКИ МЕДНЫХ АНОДОВ.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:ligossulfonate-aqueous-solution",
+   "label": "Ligossulfonate aqueous solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mezdr-type-glue-мездровыи-клеи",
+   "label": "Mezdr‑type glue (мездровый клей)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:polyvinyl-alcohol-solution",
+   "label": "Polyvinyl alcohol solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:graphite-powder",
+   "label": "Graphite powder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:мeртель-refractory",
+   "label": "мeртель refractory",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-melt",
+   "label": "copper melt",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pvs-solution",
+   "label": "PVS solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:graphite-filler",
+   "label": "graphite filler",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pvs-graphite-paint",
+   "label": "PVS‑graphite paint",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-plate",
+   "label": "copper plate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:crucible-surface",
+   "label": "crucible surface",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:graphite",
+   "label": "Graphite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:binder",
+   "label": "Binder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:39-исследование-перспективных-составов-для-отлив:0",
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "title": "Laboratory test of binders for anti‑sticking coating",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory crucible (height 10 mm, width 150 mm, length 180 mm) was filled with copper melt and coated with binders dissolved in water (ligosulfonate solution, mezdr‑type glue, polyvinyl alcohol) mixed with graphite filler.",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ligossulfonate-aqueous-solution",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:mezdr-type-glue-мездровыи-клеи",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:polyvinyl-alcohol-solution",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:graphite-powder",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The recommended coating (polyvinyl alcohol + graphite) was further examined for sedimentation stability and covering ability.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "sedimentation stability and covering ability",
+      "direction": "increases",
+      "factor": "recommended anti‑sticking paint",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В целях оптимизации технологических параметров использования связующего и огнеупорного наполнителя проведены исследования седиментационной устойчивости, а также кроющей способности рекомендуемой антипригарной краски.",
+     "locator_kind": "md_para",
+     "locator": "para:6",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для проведения исследований была изготовлена изложница из анодной меди. Габариты изложницы были приняты исходя на основании коэффициентов подобия в сравнении с промышленной изложницей для отливки 2 кг лабораторного анода прямоугольной формы: высота 10 мм, ширина 150 мм, длина 180 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-исследование-перспективных-составов-для-отлив:1",
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "title": "Effect of мертель consumption and application method on anodic sticking",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Control sample of мертель refractory used as water suspension; two application methods – pouring and brush painting – applied to the crucible (изложница).",
+       "temperature_text": "~1100 °C (melting temperature of copper)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1373.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:мeртель-refractory",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "мeртель consumption",
+     "scope": "material",
+     "material_id": "mat:мeртель-refractory",
+     "value": {
+      "min": null,
+      "nominal": 0.4,
+      "max": null
+     },
+     "unit": "kg/м2",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При повышенных расходах мертеля - более 0,4 кг/м 2 , удается получить аноды без пригара к изложнице.",
+     "locator_kind": "md_para",
+     "locator": "para:24",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "мeртель consumption",
+     "scope": "material",
+     "material_id": "mat:мeртель-refractory",
+     "value": {
+      "min": null,
+      "nominal": 0.4,
+      "max": null
+     },
+     "unit": "kg/м2",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При снижении расхода мертеля 0,4 кг/м 2 происходит пригар анода к изложнице, при этом способ нанесения огнеупорного покрытия не влияет.",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The main cause of sticking is the blurring of the copper melt jet into the anti‑sticking coating and crucible body due to low adhesion.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "cause of sticking",
+      "direction": "increases",
+      "factor": "low adhesion of coating",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Основной причиной возникновения пригара является размытие струей расплава меди противопригарного покрытия и тела изложницы, вследствие низкой степени адгезии противопригарного покрытия к изложнице.",
+     "locator_kind": "md_para",
+     "locator": "para:31",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Расстояние между краем тигля и поверхностью изложницы во всех проведенных экспериментах составляло 20-21 см.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-исследование-перспективных-составов-для-отлив:2",
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "title": "Geometric setup of copper melt pouring",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Copper poured from a crucible into a pre‑heated crucible (изложница) while maintaining a fixed gap.",
+       "temperature_text": "1100‑1130 °C (temperature of copper melt during pouring)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1373.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-melt",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "gap between crucible edge and crucible surface",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 20.0,
+      "nominal": null,
+      "max": 21.0
+     },
+     "unit": "cm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расстояние между краем тигля и поверхностью изложницы во всех проведенных экспериментах составляло 20-21 см.",
+     "locator_kind": "md_para",
+     "locator": "para:22",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Температура расплава меди во время розлива составляла 1100-1130 °С.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-исследование-перспективных-составов-для-отлив:3",
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "title": "Paint consumption vs PVS concentration (Table 7)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Measurement of total paint, graphite and PVS consumption for different PVS solution concentrations and PVS/graphite ratios on copper plates"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pvs-solution",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:graphite-filler",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Lower PVS concentration reduces viscosity, decreasing paint consumption; higher graphite ratio reduces graphite consumption.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Как видно из данных таблицы 7 при снижении концетрации поливинилового спирта расход краски необходимый для сосздания равномерного покрытия на поверхности пластины снижается.",
+     "locator_kind": "md_para",
+     "locator": "para:78",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Как видно из данных таблицы 7 при снижении концетрации поливинилового спирта расход краски необходимый для сосздания равномерного покрытия на поверхности пластины снижается.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-исследование-перспективных-составов-для-отлив:4",
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "title": "Abrasion‑resistance test of PVS‑graphite anti‑sticking paint (Table 8)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Abrasion test of coated copper plates with paints containing 10 %, 7.5 % and 5 % PVS solutions"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pvs-graphite-paint",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:copper-plate",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "abrasion resistance",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 8.41,
+      "max": null
+     },
+     "unit": "kg/mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Устойчивость к истиранию, кг/мм 8,410",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "abrasion resistance",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 7.32,
+      "max": null
+     },
+     "unit": "kg/mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Устойчивость к истиранию, кг/мм 7,320",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "abrasion resistance",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.372,
+      "max": null
+     },
+     "unit": "kg/mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Устойчивость к истиранию, кг/мм 6,372",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Abrasion resistance increases with increasing PVS concentration.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "abrasion resistance",
+      "direction": "increases",
+      "factor": "PVS concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Как видно из полученных результатов устойчивость к истиранию возрастает при увеличении концентрации поливинилового спирта в антипригарной краске.",
+     "locator_kind": "md_para",
+     "locator": "para:85",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Как видно из полученных результатов устойчивость к истиранию возрастает при увеличении концентрации поливинилового спирта в антипригарной краске.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-исследование-перспективных-составов-для-отлив:5",
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "title": "Application‑method study for anti‑sticking coating (Table 9)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Evaluation of different paint‑application techniques on a crucible surface, recording specific graphite and binder consumption and presence of sticking"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pvs-graphite-paint",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:crucible-surface",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "presence of sticking"
+     },
+     "method": null,
+     "snippet": "1.7 | 0,020 | 0,015 | да | присыпка графита + распыление связующего",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "presence of sticking"
+     },
+     "method": null,
+     "snippet": "1.1 … нет … окрашивание кистью",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Brush painting, spraying, and combined spray‑plus‑brush methods can achieve coating without sticking at appropriate binder and graphite loadings.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "sticking",
+      "direction": "no_change",
+      "factor": "application method",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Нанесение краски осуществлялось различными способами. Сводные результаты исследований приведены в таблице 9.",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Нанесение краски осуществлялось различными способами. Сводные результаты исследований приведены в таблице 9.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-исследование-перспективных-составов-для-отлив:6",
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "title": "Comparison of paint application methods for copper anodes",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Various paint application methods (brush painting, spray, spray + brush blending, spray + binder, spray + graphite, etc.) were tested on copper anodes and the specific consumptions of graphite and binder were recorded.",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:graphite",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:binder",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Specific graphite consumption",
+     "scope": "material",
+     "material_id": "mat:graphite",
+     "value": {
+      "min": null,
+      "nominal": 0.174,
+      "max": null
+     },
+     "unit": "kg/м2",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Удельный расход графита, кг/м 2 | 0,174",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Specific binder consumption",
+     "scope": "material",
+     "material_id": "mat:binder",
+     "value": {
+      "min": null,
+      "nominal": 0.017,
+      "max": null
+     },
+     "unit": "kg/м2",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Удельный расход связующего, кг/м 2 | 0,017",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Presence of slag"
+     },
+     "method": null,
+     "snippet": "Наличие пригара | нет",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Установлено, что наиболее технологичным способом нанесения противопригарной краски при розливе медных анодов является распыление.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "most_technological_method",
+      "direction": "increases",
+      "factor": "technology suitability",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Установлено, что наиболее технологичным способом нанесения противопригарной краски при розливе медных анодов является распыление.",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    },
+    {
+     "text": "Нанесение краски поливом может привести к образованию на поверхности анодов приплывов, что приведет к его выбраковке.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "risk_of_slag",
+      "direction": "increases",
+      "factor": "spray‑by‑pouring",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Нанесение краски поливом может привести к образованию на поверхности анодов приплывов, что приведет к его выбраковке.",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    },
+    {
+     "text": "Растушевка слоя противопригарной краски, нанесенной поливом, позволяет создать гладкий равномерный слой покрытия без существенных неровностей.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "surface_uniformity",
+      "direction": "increases",
+      "factor": "brush blending after pouring",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "растушевка слоя противоппригарной краски, нанесенной поливом, позволяет создать гладкий равномерный слой покрытия на поверхности изложницы, без существенных неровностей",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Установлено, что наиболее технологичным способом нанесения противопригарной краски при розливе медных анодов является распыление.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "At the copper plant of PJSC \"Norilsk Nickel\" the crucible is sprayed with a heat‑resistant coating based on silicon dioxide to protect it from rapid wear and to prevent anodic welding during pouring.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "protection from wear and welding",
+    "direction": "increases",
+    "factor": "SiO2 coating",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время на Медном заводе ПАО «ГМК «Норильский Никель» для предохранения изложниц от быстрого изнашивания и предотвращения приваривания к ней анодов при розливе изложницы поливают раствором термостойкой обмазки на основе диоксида кремния.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "The coating layer remaining on the anode increases the slag yield at the electrolysis stage and complicates further slag processing.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "slag yield and processing difficulty",
+    "direction": "increases",
+    "factor": "SiO2 residue",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Слой обмазки, оставшийся на аноде, приводит к увеличению выхода шлама на стадии электролиза, а также к усложнению дальнейшего процесса переработки шлама.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Barium sulfate was historically the most widely used anti‑sticking coating in copper‑anode casting, but it has been abandoned for various reasons.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "adoption in industry",
+    "direction": "decreases",
+    "factor": "barium sulfate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно промышленному опыту медеплавильных производств для предотвращения пригара при отливке медных анодов наибольшее распространение получило использование сульфата бария. Сульфат бария ранее использовался в качестве противопригарного покрытия, но по различным причинам от его использования отказались.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "The basic components of any anti‑sticking coating are a refractory filler that prevents weld‑on to the crucible, a binder that ensures coating continuity and adhesion, and a dispersion medium that carries the first two components.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "component composition",
+    "direction": "nonmonotonic",
+    "factor": "refractory filler, binder, dispersion medium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На основании анализа научно‑технической литературы установлено, что основными компонентами любого противопригарного покрытия являются огнеупорный наполнитель, предотвращающий пригар отливки к изложнице; связующее, обеспечивающее сплошность покрытия и способность его прочно удерживаться на поверхности изложницы; и дисперсионная среда, являющееся носителем двух первых компонентов.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.81,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Carbonaceous materials (e.g., graphite) satisfy the requirements of refractory fillers for anti‑sticking paints the best.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability for anti‑sticking paints",
+    "direction": "increases",
+    "factor": "carbonaceous materials",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В наибольшей степени задачам исследований удовлетворяют противопригарные покрытия и краски, в которых роль огнеупорного наполнителя выполняют углеродистые материалы.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.81,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Water solutions of the listed materials simultaneously acted as binders and dispersion media.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Водные растворы данных материалов одновременно выполняли роль связующих веществ и дисперсионной среды.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "The choice of these materials as binders was based on earlier studies showing their highest effectiveness.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Выбор данных материалов в качестве связующих веществ обусловлен результатами ранее выполненных исследований показавших их наибольшую эффективность [11-13].",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Technical lignosulfonate is most often supplied as a 50 % water solution.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Необходимо отметить, что чаще всего товарной формой технического лигносульфоната является 50 % водный раствор.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Preparation of the melamine glue solution requires soaking for 12‑24 h followed by heating at 60‑70 °C in a water bath.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для получения концентрированного раствора, обладающего достаточными клеящими свойствами, необходимо предварительно замочить мездровый клей и оставить набухать на 12-24 ч, после чего разваривать его при температуре 60-70 °С на «водяной бане».",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "The ratio between binder solution and refractory filler was 2:1.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Отношение между раствором связующего вещества и огнеупорным наполнителем составляло 2:1.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "PVA binder solution contains 10 % dry matter, density 1,018 g/cm³, viscosity 1094 cP at 60 °C, pH 5.65.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "ПВС | 10 | 1,018 | 1094 | 5,65",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Lignosulfonate binder solution contains 50 %±1 dry matter, density 1,297 g/cm³, viscosity 168 cP at 60 °C, pH 5,08.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "ЛСТ | 50±1 | 1,297 | 168 | 5,08",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Melamine glue binder solution contains 15 % dry matter, density 1,016 g/cm³, viscosity 20 cP at 60 °C, pH 5,45.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Мездровый клей | 15 | 1,016 | 20 | 5,45",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "At 2.5 % PVS solution the required wetting of graphite cannot be achieved; graphite forms lumps in the PVS solution.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "wetting",
+    "direction": "decreases",
+    "factor": "PVS concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отдельно следует отметить, что при использовании 2,5 % раствора поливинилового спирта не удается достичь требуемого смачивания графита расвтором ПВС – графит образует комки в растворе.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "It is rational to use a paint based on 5 % aqueous PVS solution with refractory graphite filler particle size not exceeding 180 µm.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "рационально использовать краску на основе 5 % водного раствора ПВС с крупностью огнеупорного наполнителя графита – не более 180 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "The abrasion resistance of the current‑production paint does not exceed 0,55 kg/mm, which is an order of magnitude lower than the prospective composition.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "abrasion resistance",
+    "direction": "decreases",
+    "factor": "paint formulation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Устойчивость к истиранию краски текущего производства не превышает 0,55 кг/мм, что на порядок ниже перспективного состава.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Для предотвращения пригара анода к изложнице расход противопригарной краски при первичном нанесении должен обеспечивать расход графита не менее 0,174 кг/м2.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "graphite consumption",
+    "direction": "no_change",
+    "factor": "minimum required",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для предотвращения пригара анода к изложнице расход противопригарной краски при первичном нанесении должен обеспечивать расход графита не менее 0,174 кг/м2.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Повторное нанесение противопригарной краски должно обеспечивать поддержание данного параметра не ниже установленного значения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "graphite consumption",
+    "direction": "no_change",
+    "factor": "minimum required",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повторное нанесение противопригарной краски должно обеспечивать поддержание данного параметра не ниже установленного значения.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Использование технического лигносульфоната в качестве связующего компонента противопригарной краски не приемлемо ввиду возможности накопления минеральной составляющей в составе огнеупорного наполнителя, заражения ею анодов и возникновения газовой пористости.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "suitability of lignosulfonate",
+    "direction": "decreases",
+    "factor": "acceptability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "использование технического лигносульфоната в качестве связующего компонента противопригарной краски не приемлемо ввиду возможности накопления минеральной составляющей в составе огнеупорного наполнителя, заражения её анодов с последующим переходом в шлам электролиза нежелательных компонентов, и возникновения газовой пористости на поверхности анода",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Мездровый клей не рекомендуется использовать в качестве связующего компонента противопригарной краски.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "use of tar glue",
+    "direction": "decreases",
+    "factor": "acceptability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мездровый клей не рекомендуется использовать в качестве связующего компонента противопригарной краски",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Поливиниловый спирт обеспечивает наименьший расход огнеупорного наполнителя, не приводит к образованию газовой пористости и обеспечивает наибольшую адгезию краски к поверхности изложницы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "performance of polyvinyl alcohol",
+    "direction": "increases",
+    "factor": "adhesion, low filler consumption, no porosity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "использование в качестве связующего компонента противопригарной краски поливинилового спирта обеспечивает наименьший расход огнеупорного наполнителя, не приводит к образования газовой пористости анодов и накоплению минеральной составляющей в составе огнеупорного наполнителя, обеспечивает наибольшую силу адгезии краски к поверхности изложницы",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Рекомендуемый состав противопригарной краски: 5 % раствор поливинилового спирта, крупность графита не более 180 мкм, отношение ж:т = 2:1.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "composition",
+    "direction": "no_change",
+    "factor": "specified values",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рекомендуемый состав противопригарной краски: - концентрация раствора поливиниловго спирта – 5%; - крупность огнеупорного наполнителя графита – не более 180 мкм; - отношение ж:т – 2:1.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.81,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  },
+  {
+   "text": "Вязкость краски 98 сПз, плотность 1,28 г/см³.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "viscosity",
+    "direction": "no_change",
+    "factor": "value",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вязкость – 98 сПз; плотность 1,28 г/см 3 .",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.81,
+   "document_id": "doc:39-исследование-перспективных-составов-для-отлив",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

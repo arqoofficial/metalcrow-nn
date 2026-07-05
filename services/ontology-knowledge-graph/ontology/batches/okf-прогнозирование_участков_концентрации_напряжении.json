@@ -1,0 +1,488 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:прогнозирование_участков_концентрации_напряжении",
+   "title": "Прогнозирование_участков_концентрации_напряжений_в_массиве_горных.pptx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Доклады\\Прогнозирование_участков_концентрации_напряжений_в_массиве_горных.pptx.md",
+   "artifact_sha256": "b942c5d8b8e55a49a56c28e566bc78304dbca965d5864a79b5551bdf3f0c3d69",
+   "okf_raw_path": "Доклады/Прогнозирование_участков_концентрации_напряжений_в_массиве_горных.pptx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:seismopavilions-network-at-the-mine",
+   "label": "Seismopavilions network at the mine",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:industrial-explosions-e-g-7-april-2023-explosion",
+   "label": "Industrial explosions (e.g., 7 April 2023 explosion)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:large-seismic-events-energy-up-to-244-695-j",
+   "label": "Large seismic events (energy up to 244 695 J)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:explosion-of-7-april-2023",
+   "label": "Explosion of 7 April 2023",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:seismopavilions-network",
+   "label": "Seismopavilions network",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:прогнозирование_участков_концентрации_напряжении:0",
+   "document_id": "doc:прогнозирование_участков_концентрации_напряжении",
+   "title": "Field forecasting of stress‑concentration zones using longitudinal‑wave speeds (industrial application)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Industrial explosions and large seismic events were used as initiators of longitudinal waves; interval speeds between seismopavilions were tracked; spatial models of wave‑speed distribution were calculated for different time intervals and overlaid with the occurring seismic events.",
+       "temperature_text": "not specified",
+       "duration_text": "multiple days; forecasts made one day before events"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:seismopavilions-network-at-the-mine",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:industrial-explosions-e-g-7-april-2023-explosion",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:large-seismic-events-energy-up-to-244-695-j",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "longitudinal‑wave speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6000.0,
+      "max": null
+     },
+     "unit": "м/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "произошедшие сейсмособытия практически огибают зону скорости продольных волн от около 6000 метров в секунду.",
+     "locator_kind": "md_para",
+     "locator": "para:25",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "longitudinal‑wave speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5968.7,
+      "max": null
+     },
+     "unit": "м/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "13.08.2024 16:01 … 5968,7 м/с",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "longitudinal‑wave speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6040.0,
+      "max": null
+     },
+     "unit": "м/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "11.08.2024 22:44 … 6040 м/с",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "longitudinal‑wave speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6206.0,
+      "max": null
+     },
+     "unit": "м/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "12.03.2024 17:56 … 6206 м/с",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "longitudinal‑wave speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6093.0,
+      "max": null
+     },
+     "unit": "м/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "04.06.2024 11:27 … 6093 м/с",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "longitudinal‑wave speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6178.0,
+      "max": null
+     },
+     "unit": "м/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "01.05.2024 10:14 … 6178 м/с",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "longitudinal‑wave speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5856.0,
+      "max": null
+     },
+     "unit": "м/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "24.02.2024 9:20 … 5856 м/с",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "7 из 11‑ти удалось спрогнозировать за день, до их проявления, 4 – не удалось спрогнозировать в связи с острой зависимостью от конфигурации сейсмосети и наличия взрывного воздействия достаточной мощности для регистрации наибольшим количеством сейсмопавильонов.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "forecast success rate",
+      "direction": "increases",
+      "factor": "method applicability",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "7 из 11‑ти удалось спрогнозировать за день, до их проявления, 4 – не удалось спрогнозировать в связи с острой зависимостью от конфигурации сейсмосети и наличия взрывного воздействия достаточной мощности для регистрации наибольшим количеством сейсмопавильонов.",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.81
+    },
+    {
+     "text": "После сейсмических событий массив горных пород «разгружался», что подтверждается значительным падением скорости прохождения продольных волн.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "longitudinal‑wave speed",
+      "direction": "decreases",
+      "factor": "post‑seismic unloading",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "После сейсмических событий массив горных пород «разгружался», что подтверждается значительным падением скорости прохождения продольных волн.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для оценки практической пользы методики прогнозирования участков концентрации напряжений в массиве горных пород, были отобраны 11 наиболее крупных сейсмособытий, произошедших за 2024 год на руднике.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:прогнозирование_участков_концентрации_напряжении:1",
+   "document_id": "doc:прогнозирование_участков_концентрации_напряжении",
+   "title": "Spatial model of longitudinal‑wave propagation for the 7 April 2023 explosion (field case)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "A spatial model of longitudinal‑wave speed distribution was calculated based on the explosion that occurred on 7 April 2023; the model was overlaid with seismic events from 6‑8 April 2023.",
+       "temperature_text": "not specified",
+       "duration_text": "single event"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:explosion-of-7-april-2023",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:seismopavilions-network",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "longitudinal‑wave speed zone",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6000.0,
+      "max": null
+     },
+     "unit": "м/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "произошедшие сейсмособытия практически огибают зону скорости продольных волн от около 6000 метров в секунду.",
+     "locator_kind": "md_para",
+     "locator": "para:25",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "large seismic events (≥1000 Дж)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 6000.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Более крупные сейсмособытия (от 1000 Дж), также произошли в зонах более 6000 метров в секунду.",
+     "locator_kind": "md_para",
+     "locator": "para:25",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Скорости продольных волн от 7 апреля 2023 г. показали, что крупные сейсмособытия находятся в зонах с более высокой скоростью (>6000 м/с).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "wave speed",
+      "direction": "increases",
+      "factor": "event magnitude",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Более крупные сейсмособытия (от 1000 Дж), также произошли в зонах более 6000 метров в секунду.",
+     "locator_kind": "md_para",
+     "locator": "para:25",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На рисунке 2 представлена пространственная модель распространения скорости продольных волн, рассчитанная по взрыву, произошедшему 7 апреля 2023 года.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "В процессе эксплуатации горного массива, который подвергается воздействию различных внешних факторов, таких как взрывные работы, бурение и другие технологические процессы, происходит постоянное перераспределение горного напряжения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rock stress",
+    "direction": "increases",
+    "factor": "external activities",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В процессе эксплуатации горного массива, который подвергается воздействию различных внешних факторов, таких как взрывные работы, бурение и другие технологические процессы, происходит постоянное перераспределение горного напряжения.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:прогнозирование_участков_концентрации_напряжении",
+   "process": null
+  },
+  {
+   "text": "Это воздействие является одной из главных причин динамических процессов, таких как горные удары, землетрясения и другие сейсмические явления.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rock bursts, earthquakes",
+    "direction": "increases",
+    "factor": "stress redistribution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это воздействие является одной из главных причин динамических процессов, таких как горные удары, землетрясения и другие сейсмические явления.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:прогнозирование_участков_концентрации_напряжении",
+   "process": null
+  },
+  {
+   "text": "Для решения этой задачи, а именно - оперативности определения геодинамической ситуации на руднике, предлагаем использовать зависимость распространения в массиве скорости продольных волн от плотности горного массива, а значит, и от его напряженно‑деформированного состояния.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "longitudinal‑wave speed",
+    "direction": "increases",
+    "factor": "rock density / stress state",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для решения этой задачи, а именно - оперативности определения геодинамической ситуации на руднике, предлагаем использовать зависимость распространения в массиве скорости продольных волн от плотности горного массива, а значит, и от его напряженно‑деформированного состояния.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.81,
+   "document_id": "doc:прогнозирование_участков_концентрации_напряжении",
+   "process": null
+  },
+  {
+   "text": "Методика может быть использована в качестве дополняющей основные методы регионального прогноза удароопасности микросейсмическим методом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method applicability",
+    "direction": "increases",
+    "factor": "supplementary use",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, данная методика может быть использована в качестве дополняющей основные методы регионального прогноза удароопасности микросейсмическим методом.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:прогнозирование_участков_концентрации_напряжении",
+   "process": "casting"
+  },
+  {
+   "text": "После сейсмических событий массив горных пород «разгружался», что подтверждается значительным падением скорости прохождения продольных волн.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "longitudinal‑wave speed",
+    "direction": "decreases",
+    "factor": "seismic event",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После сейсмических событий массив горных пород «разгружался», что подтверждается значительным падением скорости прохождения продольных волн.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:прогнозирование_участков_концентрации_напряжении",
+   "process": null
+  },
+  {
+   "text": "Скорость продольных волн от 7 апреля 2023 г. показывает, что зоны со скоростью около 6000 м/с соответствуют областям, где происходят крупные сейсмособытия.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "wave speed",
+    "direction": "increases",
+    "factor": "event magnitude",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более крупные сейсмособытия (от 1000 Дж), также произошли в зонах более 6000 метров в секунду.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:прогнозирование_участков_концентрации_напряжении",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

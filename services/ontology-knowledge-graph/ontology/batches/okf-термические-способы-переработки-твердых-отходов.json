@@ -1,0 +1,811 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:термические-способы-переработки-твердых-отходов",
+   "title": "Термические способы переработки твердых отходов.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Термические способы переработки твердых отходов.docx.md",
+   "artifact_sha256": "09aa7be689ea1fe77dd4fa1fee0de9760c7c626fbafd7ccf1ac828b08f20946b",
+   "okf_raw_path": "Обзоры/Термические способы переработки твердых отходов.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:твердые-пастообразные-и-жидкие-отходы",
+   "label": "Твердые, пастообразные и жидкие отходы",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:твердые-отходы-и-осветленныи-шлам",
+   "label": "твердые отходы и осветленный шлам",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:отходы",
+   "label": "отходы",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:различные-виды-отходов",
+   "label": "различные виды отходов",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:термические-способы-переработки-твердых-отходов:0",
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "title": "Industrial application of rotating drum incinerators",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Совместное сжигание твердых, пастообразных и жидких отходов в барабанных вращающихся печах"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:твердые-пастообразные-и-жидкие-отходы",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "печи успешно эксплуатируются",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operational status",
+      "direction": "increases",
+      "factor": "aggregated load",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В настоящее время успешно эксплуатируются барабанные вращающиеся печи для совместного сжигания твердых, пастообразных и жидких отходов с агрегатной нагрузкой от 2 до 6 т/ч [4].",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В настоящее время успешно эксплуатируются барабанные вращающиеся печи для совместного сжигания твердых, пастообразных и жидких отходов с агрегатной нагрузкой от 2 до 6 т/ч [4].",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:термические-способы-переработки-твердых-отходов:1",
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "title": "First pilot test of circulating bubbling bed (ЦКС) technology",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "сжигание твердых отходов и осветленного шлама с использованием ЦКС"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:твердые-отходы-и-осветленныи-шлам",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Технология сжигания твердых отходов и осветленного шлама с использованием ЦКС была впервые опробована в Нидерландах и Великобритании.",
+   "locator_kind": "md_para",
+   "locator": "para:198",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:термические-способы-переработки-твердых-отходов:2",
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "title": "Industrial application of circulating bubbling bed in Germany",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "сжигание отходов в ЦКС"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:отходы",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.1,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "диоксинов"
+     },
+     "method": null,
+     "snippet": "содержание в уходящих газах 0,1 нг/м3 диоксинов",
+     "locator_kind": "md_para",
+     "locator": "para:198",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Технология стала применяться после введения законодательных норм 17 BimSchV",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "В Германии этот способ сжигания стал применяться после введения законодательных норм 17 BimSchV по охране окружающей среды в части содержания в уходящих газах 0,1 нг/м3 диоксинов.",
+     "locator_kind": "md_para",
+     "locator": "para:198",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В Германии этот способ сжигания стал применяться после введения законодательных норм 17 BimSchV по охране окружающей среды в части содержания в уходящих газах 0,1 нг/м3 диоксинов.",
+   "locator_kind": "md_para",
+   "locator": "para:198",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:термические-способы-переработки-твердых-отходов:3",
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "title": "Widespread industrial use of stationary bubbling bed reactors",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "сжигание отходов в стационарном кипящем слое"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:различные-виды-отходов",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Реакторы со стационарным кипящим слоем широко используют для сжигания отходов в США, Германии, Японии и многих других странах.",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "высокие температуры плазменной струи (5–20 тыс. К), быстрота процесса, малое влияние атмосферного кислорода – необходимые условия, обеспечивающие обезвреживание практически любых токсичных, а при определенных условиях – и радиоактивных газов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "высокие температуры плазменной струи (5–20 тыс. К), быстрота процесса, малое влияние атмосферного кислорода – необходимые условия, обеспечивающие обезвреживание практически любых токсичных, а при определенных условиях – и радиоактивных газов.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "потребляемые мощности плазмотронов – от 1 до 100 к Вт",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "power consumption",
+    "direction": "increases",
+    "factor": "power",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "потребляемые мощности плазмотронов – от 1 до 100 к Вт",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Технологии, обеспечивающие необходимые уровни выбросов, известны, но достаточно дороги и требуют постоянного контроля на всех стадиях процесса.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost and control requirements",
+    "direction": "increases",
+    "factor": "cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технологии, обеспечивающие необходимые уровни выбросов, известны, но достаточно дороги и требуют постоянного контроля на всех стадиях процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Основные затраты при строительстве таких дорогостоящих заводов приходятся, в основном, на систему очистки газов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital cost distribution",
+    "direction": "increases",
+    "factor": "cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основные затраты при строительстве таких дорогостоящих заводов приходятся, в основном, на систему очистки газов.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.81,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Эти системы достаточно громоздки и, в свою очередь, требуют обслуживания и периодической утилизации после сильного загрязнения путем сжигания или захоронение на переполненных полигонах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maintenance and disposal needs",
+    "direction": "increases",
+    "factor": "maintenance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти системы достаточно громоздки и, в свою очередь, требуют обслуживания и периодической утилизации после сильного загрязнения путем сжигания или захоронение на переполненных полигонах.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "В большинстве случаев, сжигание мусора происходит после радиологического контроля, но без предварительной сортировки, что зачастую может приводить к появлению токсичных газовых выбросов и повышению концентрации вредных веществ во вторичных продуктах переработки (саже, металлизированных отходах и т. д.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "emission risk",
+    "direction": "increases",
+    "factor": "lack of sorting",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В большинстве случаев, сжигание мусора происходит после радиологического контроля, но без предварительной сортировки, что зачастую может приводить к появлению токсичных газовых выбросов и повышению концентрации вредных веществ во вторичных продуктах переработки (саже, металлизированных отходах и т. д.).",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Из‑за невозможности быстрого мониторинга, как правило, отсутствует контроль по наличию канцерогенных компонент в газовых выбросах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "monitoring capability",
+    "direction": "decreases",
+    "factor": "monitoring speed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из‑за невозможности быстрого мониторинга, как правило, отсутствует контроль по наличию канцерогенных компонент в газовых выбросах.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.81,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Рентабельность такого производства должна обеспечиваться в том числе и мерами административного регулирования.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "profitability",
+    "direction": "increases",
+    "factor": "administrative regulation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рентабельность такого производства должна обеспечиваться в том числе и мерами административного регулирования.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Плазмохимические технологии, в которых образующиеся после термического разложения газы проходят через ванну расплава металла или оксида, такие установки достаточно эффективны по энергетическим и массогабаритным показателям, но их экологическая безопасность пока уступает установкам, использующим традиционные плазменные методы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плазмохимические технологии, в которых образующиеся после термического разложения газы проходят через ванну расплава металла или оксида. Такие установки достаточно эффективны по энергетическим и массогабаритным показателям, но их экологическая безопасность пока уступает установкам, использующим традиционные плазменные методы.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Эффективное сжигание на колосниковой решетке происходит при температуре 850–950 °C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эффективное сжигание на колосниковой решетке происходит при температуре 850–950 °C.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Дымовые газы возникают большей частью в зоне дожигательной камеры, где они выгорают при температуре от 850 °C до более 1000 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Дымовые газы возникают большей частью в зоне дожигательной камеры, где они выгорают при температуре от 850 °C до более 1000 °C.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "При этом (в большинстве случаев) образуется перегретый пар (не более 40 бар, 400 °C).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "increases",
+    "factor": "steam parameters",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При этом (в большинстве случаев) образуется перегретый пар (не более 40 бар, 400 °C).",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Прямоточные системы целесообразно применять при отходах с высокой теплотворной способностью (> 9 МДж/кг).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fuel calorific value",
+    "direction": "increases",
+    "factor": "calorific value",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Прямоточные системы целесообразно применять при отходах с высокой теплотворной способностью (> 9 МДж/кг).",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.81,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Противоточные системы более пригодны для отходов с низкой теплотворной способностью.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fuel calorific value",
+    "direction": "decreases",
+    "factor": "calorific value",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Противоточные системы более пригодны для отходов с низкой теплотворной способностью.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Если на сжигание поступают отходы с различной теплотворной способностью, то компромиссом является использование системы с центральным потоком.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fuel calorific value variability",
+    "direction": "nonmonotonic",
+    "factor": "variability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если на сжигание поступают отходы с различной теплотворной способностью, то компромиссом является использование системы с центральным потоком.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Слойные печи надежны в эксплуатации, просты при обслуживании (особенно топки с неподвижным подом) и имеют длительный ресурс, однако пригодны для термического обезвреживания ограниченного перечня отходов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "applicability scope",
+    "direction": "decreases",
+    "factor": "waste type range",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Слойные печи надежны в эксплуатации, просты при обслуживании (особенно топки с неподвижным подом) и имеют длительный ресурс, однако пригодны для термического обезвреживания ограниченного перечня отходов.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.81,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Основной недостаток локальных слоевых печей — низкая экологическая эффективность разложения отходов — повышенный механический недожог, то есть наличие остаточных токсичных органических соединений в шлаке и выбросы с дымовыми газами супертоксикантов: молекулярного хлора (Cl 2 ), фосгена (COCl 2 ), бензапирена, полихлорированных дибензодиоксинов (ПХДД) и дибензофуранов (ПХДФ).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "technology type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основной недостаток локальных слоевых печей — низкая экологическая эффективность разложения отходов — повышенный механический недожог, то есть наличие остаточных токсичных органических соединений в шлаке и выбросы с дымовыми газами супертоксикантов: молекулярного хлора (Cl 2 ), фосгена (COCl 2 ), бензапирена, полихлорированных дибензодиоксинов (ПХДД) и дибензофуранов (ПХДФ).",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Низкие удельные нагрузки при обезвреживании отходов, громоздкость и металлоемкость, относительно высокие капитальные и эксплуатационные расходы и, главное, низкая экологическая эффективность не позволяют рекомендовать слоевые печи для термического обезвреживания органических отходов в локальных установках малой мощности.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "economic and ecological suitability",
+    "direction": "decreases",
+    "factor": "specific load, size, cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Низкие удельные нагрузки при обезвреживании отходов, громоздкость и металлоемкость, относительно высокие капитальные и эксплуатационные расходы и, главное, низкая экологическая эффективность не позволяют рекомендовать слоевые печи для термического обезвреживания органических отходов в локальных установках малой мощности.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Системы колосниковых решеток с водяным охлаждением позволяют сжигать смеси отходов с теплотворной способностью до 16 МДж/кг.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maximum calorific value",
+    "direction": "increases",
+    "factor": "water‑cooled grate system",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Системы колосниковых решеток с водяным охлаждением позволяют сжигать смеси отходов с теплотворной способностью до 16 МДж/кг.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Теплотворная способность удерживалась на уровне ниже 12 МДж/кг, поскольку в противном случае тепловая нагрузка на решетчатые системы становилась слишком высокой и возникала опасность расплавления или сокращения срока службы решетки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "calorific value limit",
+    "direction": "decreases",
+    "factor": "thermal load on grate systems",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "До настоящего времени теплотворная способность удерживалась на уровне ниже 12 МДж/кг, поскольку в противном случае тепловая нагрузка на решетчатые системы становилась слишком высокой и возникала опасность расплавления или сокращения срока службы решетки [3].",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Температуру в барабанной печи в зависимости от вида сжигаемых отходов поддерживают в пределах 900–1200 °C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "type of waste",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температуру в барабанной печи в зависимости от вида сжигаемых отходов поддерживают в пределах 900–1200 °C.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Барабанные вращающиеся печи характеризуются низкой удельной тепловой и массовой нагрузкой топочного объема, громоздки, а в дымовых газах наблюдается повышенный недожог.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "specific thermal and mass load",
+    "direction": "decreases",
+    "factor": "drum‑type incinerator design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В связи с малоэффективным перемешиванием отходов барабанные вращающиеся печи характеризуются низкой удельной тепловой и массовой нагрузкой топочного объема, кроме того они громоздки, а в дымовых газах наблюдается повышенный недожог.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Барабанные вращающиеся печи с жидким шлакоудалением, дополненные камерой дожигания газообразных продуктов сжигания, характеризуются высокой экологической эффективностью.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "liquid slag removal and post‑combustion chamber",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В то же время барабанные вращающиеся печи с жидким шлакоудалением, дополненные камерой дожигания газообразных продуктов сжигания, характеризуются высокой экологической эффективностью.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Модификация конструкции печи в виде циклонного реактора позволяет увеличить производительность по жидким отходам.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "productivity on liquid waste",
+    "direction": "increases",
+    "factor": "cyclone reactor design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Модификация конструкции печи в виде циклонного реактора (см. рисунок 1.8) позволяет увеличить производительность по жидким отходам.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Циклонная топка обеспечивает более качественное сжигание и относительную минимизацию концентрации контролируемых загрязняющих веществ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "cyclone furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Циклонная топка обеспечивает более качественное сжигание и относительную минимизацию концентрации контролируемых загрязняющих веществ.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Замена один раз в полгода внутренней футеровки печи — операция трудоемкая, сложная и дорогая, её стоимость составляет около 10 % от стоимости печи.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "maintenance cost",
+    "direction": "increases",
+    "factor": "frequency of refractory replacement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Замена один раз в полгода внутренней футеровки печи — операция трудоемкая, сложная и дорогая, ее стоимость составляет около 10 % от стоимости печи.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Для повышения долговечности печи иногда вместо футеровки применяют водяное охлаждение металлической стенки барабана либо охлаждение кирпичной футеровки печи.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "refractory lifespan",
+    "direction": "increases",
+    "factor": "water cooling of drum wall or brick lining",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для повышения долговечности печи иногда вместо футеровки применяют водяное охлаждение металлической стенки барабана либо охлаждение кирпичной футеровки печи.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Для сжигания во взвешенном слое наиболее пригодными считаются бытовые, отработанные, опасные, промышленные, древесные, строительные (только горючие), крупногабаритные (только горючие), медицинские (частично) и прочие горючие отходы.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для сжигания во взвешенном слое наиболее пригодными считаются следующие виды отходов: - бытовые отходы; - отработанные масла; - опасные отходы; - промышленные отходы; - древесные отходы; - строительные отходы (только горючие вещества); - крупногабаритные отходы (сжигание во взвешенном слое следует применять только для обработки горючих материалов, образующихся при разборке этих отходов); - медицинские отходы классов (частично, с учетом особенностей обращения с такими отходами); - прочие отходы (горючие вещества, также и ил очистных сооружений).",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.81,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Отходы, подлежащие сжиганию во взвешенном слое, должны быть предварительно измельчены, без крупных фракций и без радиоактивных компонентов.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Отходы, подлежащие сжиганию во взвешенном слое, требуют предварительной обработки: - должны быть удалены крупные фракции, создающие помехи (например, металлоотходы); - отходы не должны содержать радиоактивных компонентов; - отходы подлежат измельчению до необходимого размера частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.81,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "При критической скорости потока газа инертный слой переходит во взвешенное состояние, напоминающее кипящую жидкость.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "состояние инертного слоя",
+    "direction": "increases",
+    "factor": "критическая скорость потока газа",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При критической скорости потока газа инертный слой переходит во взвешенное состояние, напоминающее кипящую жидкость.",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Для установок с газовыми горелками или мазутными форсунками решетки должны быть водоохлаждаемыми или из жаропрочных, легированных сталей.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для установок, в которых разогрев слоя осуществляется с помощью газовых горелок или мазутных форсунок, конструкция решетки должна быть рассчитана на прохождение горячих газов. Обычно в таких случаях применяются водоохлаждаемые решетки либо решетки из жаропрочных, легированных сталей.",
+   "locator_kind": "md_para",
+   "locator": "para:191",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Псевдоожиженный слой обеспечивает интенсивное перемешивание твердой фазы, приводящее к почти полному выравниванию температур и концентраций.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "равномерность температур и концентраций",
+    "direction": "increases",
+    "factor": "интенсивное перемешивание",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "интенсивное перемешивание твердой фазы, приводящее практически к полному выравниванию температур, концентраций и других параметров по объему псевдоожиженного слоя",
+   "locator_kind": "md_para",
+   "locator": "para:203",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  },
+  {
+   "text": "Недостатком метода является неравномерность времени пребывания частиц в псевдоожиженном слое.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "decreases",
+    "factor": "неравномерность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "неравномерность времени пребывания в псевдоожиженном слое обрабатываемых частиц твердой фазы",
+   "locator_kind": "md_para",
+   "locator": "para:211",
+   "confidence": 0.9,
+   "document_id": "doc:термические-способы-переработки-твердых-отходов",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -114,6 +114,32 @@ class ChatClient:
         except (httpx.HTTPError, ChatError) as exc:
             return ChatTurn(False, time.perf_counter() - t0, {}, str(exc))
 
+    def ask_fresh(self, content: str, mode: str = "auto") -> ChatTurn:
+        """Задать вопрос в СВЕЖЕЙ сессии, не трогая self._session_id — потокобезопасно
+        (httpx.Client разделяем) и без загрязнения историей между вопросами."""
+        t0 = time.perf_counter()
+        try:
+            s = self._http.post(
+                f"{self.cfg.api}/chat/sessions", headers=self._auth, json={"title": "b"}
+            )
+            if s.status_code != 200:
+                return ChatTurn(False, 0.0, {}, f"session {s.status_code}: {s.text[:120]}")
+            sid = s.json()["id"]
+            body: dict[str, Any] = {"content": content}
+            if mode and mode != "auto":
+                body["metadata"] = {"mode": mode}
+            r = self._http.post(
+                f"{self.cfg.api}/chat/sessions/{sid}/messages",
+                headers={**self._auth, "Accept": "text/event-stream"},
+                json=body,
+            )
+            dt = time.perf_counter() - t0
+            if r.status_code != 200:
+                return ChatTurn(False, dt, {}, f"HTTP {r.status_code}: {r.text[:200]}")
+            return ChatTurn(True, dt, _parse_sse(r.text))
+        except (httpx.HTTPError, ChatError) as exc:
+            return ChatTurn(False, time.perf_counter() - t0, {}, str(exc))
+
     def close(self) -> None:
         self._http.close()
 

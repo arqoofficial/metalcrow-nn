@@ -1,0 +1,482 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-05-22-pdf",
+   "title": "ЦМ 05-22.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2022\\ЦМ 05-22.pdf.md",
+   "artifact_sha256": "548afad0a6da8ae96394476052cb583535eb61d4b937ede7712522a6e09da465",
+   "okf_raw_path": "Журналы/Цветные металлы/2022/ЦМ 05-22.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:sulfide-ore-samples",
+   "label": "Sulfide ore samples",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:liquid-phase-after-filtration",
+   "label": "Liquid phase after filtration",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:solid-phase-after-filtration",
+   "label": "Solid phase after filtration",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-05-22-pdf:0",
+   "document_id": "doc:цм-05-22-pdf",
+   "title": "Laboratory analysis of sulfide ore samples from bacterial oxidation plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Samples of sulfide ores were taken from 12 points of the technological chain of the bacterial oxidation workshop (including classifier overflow, flotoc concentrate from the thickener, samples from the outlet windows of reactors 1‑6, solid phases of counter‑current wash‑1 and wash‑3, material from the upper part of the sorption cyanidation stack, material from the tail‑water discharge pipe of cyanidation). The incoming material was filtered to separate liquid and solid phases. Qualitative and quantitative composition of free amino acids was studied, including by liquid chromatography on an Agilent Technologies 1200 instrument."
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfide-ore-samples",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:liquid-phase-after-filtration",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:solid-phase-after-filtration",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Общие характеристики изменения основных физико‑химических параметров процесса бактериального окисления сульфидных руд были определены.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "physicochemical parameters",
+      "direction": "decreases",
+      "factor": "bacterial oxidation of sulfide ores",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В результате были определены общие характеристики изменения основных физико‑химических параметров процесса бактериального окисления сульфидных руд",
+     "locator_kind": "md_para",
+     "locator": "para:185",
+     "confidence": 0.81
+    },
+    {
+     "text": "Количественные и качественные характеристики функционирующих аминокислот были установлены.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "amino acid characteristics",
+      "direction": "decreases",
+      "factor": "bacterial oxidation process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "установлены количественные и качественные характеристики функционирующих аминокислот",
+     "locator_kind": "md_para",
+     "locator": "para:185",
+     "confidence": 0.9
+    },
+    {
+     "text": "Впервые получены результаты, показавшие возможность образования хелатных комплексов в агрессивно‑кислой среде.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "formation of chelate complexes",
+      "direction": "increases",
+      "factor": "acidic environment with free amino acids",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Впервые были получены результаты, показавшие возможность образования хелатных комплексов в агрессивно‑кислой среде.",
+     "locator_kind": "md_para",
+     "locator": "para:185",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Объектами исследований послужили образцы сульфидных руд из разных переделов цеха бактериального окисления в 12 точках технологической цепи (слив классификатора, флотоконцентрат из сгустителя, образцы из выходного окна реакторов 1-6, твердые фазы противоточной отмывки-1 и отмывки-3, материал из верхней части пачука сорбционного цианирования, материал из сбросной трубы хвостов цианирования).",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Журнал основан в 1926 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "foundation_year",
+    "direction": "increases",
+    "factor": "1926",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Журнал основан в 1926 г.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Журнал выпускается при участии: ПАО «ГМК «Норильский никель», ФГАОУ ВО «Национальный исследовательский Томский политехнический университет», ФГАОУ ВО «Национальный исследовательский ядерный университет «МИФИ», ФГБУК «Государственный Эрмитаж»;",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "participating_organizations",
+    "direction": "increases",
+    "factor": "list_of_organizations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Журнал выпускается при участии: ПАО «ГМК «Норильский никель», ФГАОУ ВО «Национальный исследовательский Томский политехнический университет», ФГАОУ ВО «Национальный исследовательский ядерный университет «МИФИ», ФГБУК «Государственный Эрмитаж»;",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.81,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Обосновано использование эффективной методики выявления систематической погрешности интегральных измерений технологических параметров, которая была реализована в условиях ОАО «Навоиазот» при корректировке рассчитываемых технико-экономических показателей производства.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "methodology_application",
+    "direction": "increases",
+    "factor": "effective_methodology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обосновано использование эффективной методики выявления систематической погрешности интегральных измерений технологических параметров, которая была реализована в условиях ОАО «Навоиазот» при корректировке рассчитываемых технико-экономических показателей производства.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.81,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "According to Moody's Investors Service, the average world price of nickel will increase to 19 842,0 $/t in the next 12 months.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "global market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в ближайшие 12 мес. средняя мировая цена на никель увеличится до 19 842,0 долл/т",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The forecasted price increase for nickel is limited by the expansion of production capacity in Indonesia, expected to be between 12 125,4‑15 432,4 $/t in the medium term.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "production capacity in Indonesia",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "рост цен будет ограничен увеличением производственных мощностей в Индонезии (в среднесрочной перспективе 12 125,4-15 432,4 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.81,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The average world price of copper is forecast to rise to 8 818,0 $/t, with a medium‑term range of 6 613,9‑8 818,0 $/t.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "global market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на медь - до 8818,0 долл/т (в среднесрочной перспективе 6613,9-8818,0 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The average world price of aluminium is forecast to rise to 2 866,0 $/t, with a medium‑term range of 2 204,6‑2 866,0 $/t.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "global market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на алюминий - до 2866,0 долл/т (ранее 2204,6 долл/т) (в среднесрочной перспективе 2204,6-2866,0 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The average world price of zinc is forecast to rise to 2 866,0 $/t, with a medium‑term range of 2 425,1‑3 086,5 $/t.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "global market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на цинк - до 2866,0 долл/т (в среднесрочной перспективе 2425,13086,5 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The economic growth of G20 countries is projected to be 3,6 % in 2022 and 3,0 % in 2023.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "economic growth",
+    "direction": "increases",
+    "factor": "G20 economies",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "рост экономик стран G20 в 2022 г. составит 3,6 %, в 2023 г . - 3,0 %.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "London Metal Exchange suspended the placement of non‑ferrous metals exported from Russia on its UK warehouses after 25 March 2022.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "trade restriction",
+    "direction": "decreases",
+    "factor": "LME policy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "London Metal Exchange (Великобритания) объявила о приостановке размещения на биржевых складах в Великобритании цветных металлов, вывезенных из РФ после 25 марта 2022 г.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The suspension affected nickel and copper from Norilsk Nickel, copper from UGMK, aluminium from RUSAL, lead from Fregat, and aluminium alloys from Permmet and SEAL&K.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "trade restriction",
+    "direction": "decreases",
+    "factor": "LME policy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Под ограничения попали металлы ПАО «ГМК «Норильский никель» (РФ) - никель, медь; ОАО УГМК (РФ) - медь; ОК РУСАЛ (РФ) - алюминий; ООО «Фрегат» (РФ) - свинец; ООО «Пермьцветмет» (РФ), ООО «СЕАЛ и К» (РФ) - алюминиевые сплавы.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "In Q1 2022, Norilsk Nickel produced 51,534 kt of nickel, 91,414 kt of copper, 706,0 kt of palladium, and 163,0 kt of platinum, compared with 46,639 kt, 91,292 kt, 766,0 kt, and 184,0 kt respectively in Q1 2021.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "company performance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I квартале 2022 г. по сравнению с аналогичным периодом 2021 г. ПАО «ГМК «Норильский никель» (РФ) (Норильский и Кольский дивизионы) произвело 51,534 тыс. т никеля (46,639 тыс. т), 91,414 тыс. т меди (91,292 тыс. т), 706,0 тыс. тр. унц.* палладия (766,0 тыс. тр. унц.), 163,0 тыс. тр. унц. платины (184,0 тыс. тр. унц.).",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The Zabaikalsky division produced 16,687 kt of copper concentrate, 67,0 kt of gold in copper and gold concentrates, and 0,609 Mt of iron ore concentrate in Q1 2022, compared with 16,278 kt, 60,0 kt, and 0,631 Mt respectively in Q1 2021.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "company performance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Забайкальский дивизион (РФ) выпустил 16,687 тыс. т меди в концентрате (16,278 тыс. т), 67,0 тыс. тр. унц. золота в медном и золотом концентратах (60,0 тыс. тр. унц.), 0,609 млн т железорудного концентрата (0,631 млн т).",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Бактериальное окисление является одним из методов обогащения бедных руд.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "enrichment method",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Одним из методов обогащения бедных руд является бактериальное окисление.",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Сера образует нерастворимые в воде сернистые соединения с тяжелыми металлами.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "decreases",
+    "factor": "presence of sulfur",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сера образует нерастворимые в воде сернистые соединения с тяжелыми металлами",
+   "locator_kind": "md_para",
+   "locator": "para:180",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Подобные соединения для большинства легких металлов из группы щелочных и щелочноземельных могут в сернокислотных растворах переходить в растворенное состояние.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "acidic sulfide solutions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в сернокислотных растворах переходить в растворенное состояние",
+   "locator_kind": "md_para",
+   "locator": "para:180",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Свободные аминокислоты, выделенные микроорганизмами и не теряющие в среде функциональных свойств, мало изучены в процессах бактериального окисления.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "knowledge level",
+    "direction": "decreases",
+    "factor": "free amino acids",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "поведение так называемых свободных аминокислот ... в процессах бактериального окисления еще мало изучено",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.45,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Микроорганизмы способны выделять свободные аминокислоты, такие как цистеин, аргинин, треонин, которые могут участвовать в гидролизе и образовании хелатных комплексов в кислотной среде.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "formation of chelate complexes",
+    "direction": "increases",
+    "factor": "free amino acids",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "микроорганизмы, аминокислота, цистеин, аргинин, треонин, гидролиз, хелатные комплексы, кислотная среда",
+   "locator_kind": "md_para",
+   "locator": "para:186",
+   "confidence": 0.9,
+   "document_id": "doc:цм-05-22-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:liquid-phase-after-filtration",
+   "dst": "mat:sulfide-ore-samples",
+   "process": "other",
+   "kind": null,
+   "snippet": "Объектами исследований послужили образцы сульфидных руд из разных переделов цеха бактериального окисления в 12 точках технологической цепи (слив классификатора, флотоконцентрат из сгустителя, образцы из выходного окна реакторов 1-6, твердые фазы противоточной отмывки-1 и отмывки-3, материал из верхней части пачука сорбционного цианирования, материал из сбросной трубы хвостов цианирования).",
+   "doc_id": "doc:цм-05-22-pdf"
+  },
+  {
+   "src": "mat:solid-phase-after-filtration",
+   "dst": "mat:sulfide-ore-samples",
+   "process": "other",
+   "kind": null,
+   "snippet": "Объектами исследований послужили образцы сульфидных руд из разных переделов цеха бактериального окисления в 12 точках технологической цепи (слив классификатора, флотоконцентрат из сгустителя, образцы из выходного окна реакторов 1-6, твердые фазы противоточной отмывки-1 и отмывки-3, материал из верхней части пачука сорбционного цианирования, материал из сбросной трубы хвостов цианирования).",
+   "doc_id": "doc:цм-05-22-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

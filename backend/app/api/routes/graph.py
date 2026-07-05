@@ -4,7 +4,13 @@ from typing import Annotated
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 
 from app.api.deps import SessionDep, get_current_user
-from app.schemas.graph import GraphQueryRequest, PathResponse, SubgraphResponse
+from app.schemas.common import RegimeBucket
+from app.schemas.graph import (
+    GraphOverviewResponse,
+    GraphQueryRequest,
+    PathResponse,
+    SubgraphResponse,
+)
 from app.services import graph as graph_service
 
 router = APIRouter(
@@ -20,6 +26,39 @@ def query(_session: SessionDep, body: GraphQueryRequest) -> SubgraphResponse:
     для реальных запросов); заглушка — пустой результат, БД пока не используется.
     """
     return graph_service.run_template(body.template_id, body.params, body.max_depth)
+
+
+@router.get("/overview", response_model=GraphOverviewResponse)
+def overview(
+    session: SessionDep,
+    material: str | None = None,
+    property: str | None = None,
+    regime: RegimeBucket | None = None,
+    limit: Annotated[int, Query(ge=1, le=1000)] = 300,
+) -> GraphOverviewResponse:
+    """GET /api/v1/graph/overview — агрегированный граф знаний по experiments_flat.
+
+    Цепочки material→process→equipment→result + связанные лаборатории/эксперты, плюс
+    пробелы покрытия (комбинации без экспериментов). SQL-only, Neo4j не требуется (§8.3).
+    """
+    return graph_service.overview(
+        session, material=material, property_=property, regime=regime, limit=limit
+    )
+
+
+@router.get("/kg", response_model=GraphOverviewResponse)
+def kg(
+    q: str | None = None,
+    depth: Annotated[int, Query(ge=1, le=4)] = 2,
+    limit: Annotated[int, Query(ge=1, le=1000)] = 300,
+) -> GraphOverviewResponse:
+    """GET /api/v1/graph/kg — граф из science-knowledge-graph (GraphRAG).
+
+    Реальные сущности/связи, извлечённые из документов. `q` — тема/сущность
+    (окрестность или подстрочный поиск); без `q` — окрестность первого материала.
+    Сервис опционален: недоступен -> пустой граф, не ошибка.
+    """
+    return graph_service.kg_overview(q=q, depth=depth, limit=limit)
 
 
 @router.get("/subgraph/{entity_id}", response_model=SubgraphResponse)

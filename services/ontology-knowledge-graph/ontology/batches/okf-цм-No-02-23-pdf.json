@@ -1,0 +1,653 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-02-23-pdf",
+   "title": "ЦМ № 02-23.pdf",
+   "doc_type": "article",
+   "year": 2023,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2023\\ЦМ № 02-23.pdf.md",
+   "artifact_sha256": "c7e77b3f775b6ae4c67562e8c6d682173f0b086d6c97a36de5851a0ebefa03b0",
+   "okf_raw_path": "Журналы/Цветные металлы/2023/ЦМ № 02-23.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:pyritic-technogenic-raw-material",
+   "label": "pyritic technogenic raw material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:углисто-глинистые-сланцы-кировско-крыклинскои-ру",
+   "label": "углисто‑глинистые сланцы Кировско‑Крыклинской рудоносной зоны",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:synthetic-materials",
+   "label": "synthetic materials",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore",
+   "label": "ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No-02-23-pdf:0",
+   "document_id": "doc:цм-No-02-23-pdf",
+   "title": "Extraction of gold using sulfate‑sulfite leaching solutions",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "leaching of pyritic technogenic raw material with sulfate‑sulfite solutions"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pyritic-technogenic-raw-material",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 67.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "коллектив авторов НИ ТГУ приводит данные использования сульфатсульфитных выщелачивающих растворов, позволяющих извлечь 67 % золота из пиритового техногенного сырья.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The sulfate‑sulfite leaching solution enables extraction of 67 % of gold from the material.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "sulfate‑sulfite leaching",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "коллектив авторов НИ ТГУ приводит данные использования сульфатсульфитных выщелачивающих растворов, позволяющих извлечь 67 % золота из пиритового техногенного сырья.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "коллектив авторов НИ ТГУ приводит данные использования сульфатсульфитных выщелачивающих растворов, позволяющих извлечь 67 % золота из пиритового техногенного сырья.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-02-23-pdf:1",
+   "document_id": "doc:цм-No-02-23-pdf",
+   "title": "Agitation cyanidation of Kirov‑Kryklinskoe shale with synthetic materials",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "agitation cyanidation of coal‑clay shales using synthetic materials"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:углисто-глинистые-сланцы-кировско-крыклинскои-ру",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:synthetic-materials",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 205.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Обработка углисто‑глинистых сланцев Кировско‑Крыклинской рудоносной зоны перед агитационным цианированием синтетическими материалами обеспечивает повышение извлечения золота в раствор на 205 и 293 %.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 293.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Обработка углисто‑глинистых сланцев Кировско‑Крыклинской рудоносной зоны перед агитационным цианированием синтетическими материалами обеспечивает повышение извлечения золота в раствор на 205 и 293 %.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Pre‑treatment of the shales before agitation cyanidation raises gold extraction by 205 % and 293 %.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "extraction increase",
+      "direction": "increases",
+      "factor": "pre‑treatment with synthetic materials",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Обработка углисто‑глинистых сланцев Кировско‑Крыклинской рудоносной зоны перед агитационным цианированием синтетическими материалами обеспечивает повышение извлечения золота в раствор на 205 и 293 %.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Обработка углисто‑глинистых сланцев Кировско‑Крыклинской рудоносной зоны перед агитационным цианированием синтетическими материалами обеспечивает повышение извлечения золота в раствор на 205 и 293 %.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-02-23-pdf:2",
+   "document_id": "doc:цм-No-02-23-pdf",
+   "title": "Maximum gold extraction by agitation leaching",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "agitation leaching of ore"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "maximum gold extraction degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 76.51,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Максимальная степень извлечения золота, достигнутая при агитационном выщелачивании, составляет 76,51 %.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "residual gold content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -1.17,
+      "max": null
+     },
+     "unit": "g/т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Остаточное содержание золота в руде -1,17 г/т.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The highest extraction achieved by agitation leaching is 76,51 % with a residual gold content of –1,17 g/т.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "extraction degree",
+      "direction": "increases",
+      "factor": "agitation leaching",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Максимальная степень извлечения золота, достигнутая при агитационном выщелачивании, составляет 76,51 %.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    },
+    {
+     "text": "After the process the ore still contains –1,17 g/т of gold.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "decreases",
+      "factor": "agitation leaching",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Остаточное содержание золота в руде -1,17 г/т.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Максимальная степень извлечения золота, достигнутая при агитационном выщелачивании, составляет 76,51 %.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The journal «Цветные металлы» was founded in 1926.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Журнал основан в 1926 г.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на никель в 2023 г . составит 24 000,0 долл/т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "2023",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по прогнозу RBC Capital Markets (Канада), мировая цена на никель в 2023 г . составит 24 000,0 долл/т",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое потребление никеля составит 3,35 млн т (+11,0 %)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption",
+    "direction": "increases",
+    "factor": "2023",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2023 г . по сравнению с 2022 г ., по оценке компании, мировое потребление никеля составит 3,35 млн т (+11,0 %)",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое производство никеля составит 3,47 млн т (+10,0 %)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "2023",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2023 г . по сравнению с 2022 г ., по оценке компании, производство - 3,47 млн т (+10,0 %)",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировой дефицит рынка никеля 0,12 млн т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "deficit",
+    "direction": "decreases",
+    "factor": "2023",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое потребление никеля составит 3,35 млн т (+11,0 %), производство - 3,47 млн т (+10,0 %), профицит рынка 0,12 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое потребление меди составит 25,4 млн т (+2,0 %)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption",
+    "direction": "increases",
+    "factor": "2023",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по оценке ПАО «ГМК «Норильский никель» (РФ), мировое потребление меди составит 25,4 млн т (+2,0 %)",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое производство меди составит 25,2 млн т (+2,0 %)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "2023",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по оценке ПАО «ГМК «Норильский никель» (РФ), производство 25,2 млн т (+2,0 %)",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировой дефицит рынка меди - 0,2 млн т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "deficit",
+    "direction": "decreases",
+    "factor": "2023",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "дефицит рынка - 0,2 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на медь в 2023 г . составит 8487,8 долл/т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "2023",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2023 г . мировая цена на медь составит 8487,8 долл/т",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена на медь в 2024 г . составит 8046,9 долл/т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "decreases",
+    "factor": "2024",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2024 г . - 8046,9 долл/т",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "инвестиции в проект Kabanga Nickel составляют 1,3 млрд долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital",
+    "direction": "increases",
+    "factor": "project",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "инвестиции в проект - 1,3 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "инвестиции в гидрометаллургический завод по собственной технологии с пониженным выделением углекислого газа (4,0-5,0 т на 1 т металла)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technology",
+    "direction": "increases",
+    "factor": "project",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "0,35 млрд долл. - гидрометаллургический завод по собственной технологии с пониженным выделением углекислого газа (4,0-5,0 т на 1 т металла)",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "план выпуска на 2023 г .: Норильский и Кольский дивизионы - 204,0-214,0 тыс. т никеля, 353,0-373,0 тыс. т меди, 2407,0-2562,0 тыс. тр. унц. палладия, 604,0-643,0 тыс. тр. унц. платины",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production targets",
+    "direction": "increases",
+    "factor": "2023",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "План выпуска на 2023 г .: Норильский и Кольский дивизионы - 204,0-214,0 тыс. т никеля, 353,0-373,0 тыс. т меди, 2407,0-2562,0 тыс. тр. унц. палладия, 604,0-643,0 тыс. тр. унц. платины",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "план выпуска на 2023 г .: Забайкальский дивизион - 64,0-68,0 тыс. т меди в концентрате, 225,0-245,0 тыс. тр. унц. золота в медном и золотом концентратах",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production targets",
+    "direction": "increases",
+    "factor": "2023",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Забайкальский дивизион - 64,0-68,0 тыс. т меди в концентрате, 225,0-245,0 тыс. тр. унц. золота в медном и золотом концентратах",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В Казахстане, например, порядка 40 млрд т техногенных минеральных образований, в России, по данным Института проблем комплексного освоения недр, - более 100 млрд т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "volume of technogenic mineral formations",
+    "direction": "increases",
+    "factor": "mining of low‑grade ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Казахстане, например, порядка 40 млрд т техногенных минеральных образований, в России, по данным Института проблем комплексного освоения недр, - более 100 млрд т.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Мы имеем дело с уже переработанным, обогащенным материалом.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "state of technogenic raw material",
+    "direction": "nonmonotonic",
+    "factor": "processing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мы имеем дело с уже переработанным, обогащенным материалом.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Ж. Н. Галиева ... познакомила участников с комплексной технологией переработки отходов производства минеральных удобрений - фосфогипса с получением искусственного гипсового камня и концентрата РЗМ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technology for processing phosphogypsum waste",
+    "direction": "nonmonotonic",
+    "factor": "industrial application",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ж. Н. Галиева , канд. техн. наук, заместитель генерального директора по науке ООО «Лаборатория инновационных технологий» (Москва) познакомила участников с комплексной технологией переработки отходов производства минеральных удобрений - фосфогипса с получением искусственного гипсового камня и концентрата РЗМ",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Ж. Н. Галиевой была вручена Серебряная медаль имени С. Т. Такежанова «За вклад в развитие науки и промышленности редких и редкоземельных металлов» в 2022 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recognition of contribution",
+    "direction": "nonmonotonic",
+    "factor": "scientific and industrial work",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2022 г. Серебряная медаль имени С. Т. Такежанова «За вклад в развитие науки и промышленности редких и редкоземельных металлов» была вручена Ж. Н. Галиевой",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-02-23-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

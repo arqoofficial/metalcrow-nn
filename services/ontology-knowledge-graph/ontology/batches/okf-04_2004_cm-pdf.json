@@ -1,0 +1,520 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:04_2004_cm-pdf",
+   "title": "04_2004_cm.pdf",
+   "doc_type": "article",
+   "year": 2004,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2004\\04_2004_cm.pdf.md",
+   "artifact_sha256": "72bd907bf503358bd91bc8d2452dc9c63a82830f5b4b90f40578518c316c53c0",
+   "okf_raw_path": "Журналы/Цветные металлы/2004/04_2004_cm.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:nickel-ore",
+   "label": "nickel ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-concentrate",
+   "label": "nickel concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:04_2004_cm-pdf:0",
+   "document_id": "doc:04_2004_cm-pdf",
+   "title": "Pilot installation for Voisey's Bay project",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "pilot plant to demonstrate the viability of nickel ore processing technology"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "пилотную установку, которая покажет состоятельность технологии переработки никелевой руды",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "technology viability",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "компания должна запустить пилотную установку, которая покажет состоятельность технологии переработки никелевой руды.",
+     "locator_kind": "md_para",
+     "locator": "para:100",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "компания должна запустить пилотную установку, которая покажет состоятельность технологии переработки никелевой руды.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:04_2004_cm-pdf:1",
+   "document_id": "doc:04_2004_cm-pdf",
+   "title": "Industrial production of nickel concentrate at Voisey's Bay before full‑scale plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "production of nickel concentrate for downstream processing in Ontario and Manitoba"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-concentrate",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "разрешено производить никелевый концентрат по проекту Voisey's Bay и поставлять его на дальнейшую переработку на заводы в Онтарио и Манитобе",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "production permission",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "разрешено производить никелевый концентрат по проекту Voisey's Bay и поставлять его на дальнейшую переработку на заводы в Онтарио и Манитобе.",
+     "locator_kind": "md_para",
+     "locator": "para:100",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "разрешено производить никелевый концентрат по проекту Voisey's Bay и поставлять его на дальнейшую переработку на заводы в Онтарио и Манитобе.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Цены на никель по наличным сделкам на ЛБМ в феврале и начале марта 2004 г. колебались в пределах 13,9-15,9 тыс. долл. США/т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цены на никель по наличным сделкам на ЛБМ в феврале и начале марта 2004 г. колебались в преде/hyphenminus лах 13,9-15,9 тыс. долл. США/т",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "После того как забастовка закончилась, цены на никель несколько снизились и составили порядка 14-15 тыс. долл./т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После того как забастовка закончилась, цены на никель несколько снизились и составили порядка 14-15 тыс. долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасы никеля на ЛБМ в феврале и начале марта 2004 г. находились в пределах 13,5-15,5 тыс. т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stock",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Запасы никеля на ЛБМ в феврале и начале мар/hyphenminus те 2004 г. находились в пределах 13,5-15,5 тыс. т",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "INCO ищет способы ускорить запуск проекта Voisey's Bay",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project acceleration",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "INCO ищет способы ускорить запуск проек/hyphenminus та Voisey's Bay.",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Дата пуска пилотной установки по проекту Voisey's Bay может быть перенесена с середины 2006 г. на более ранний срок — конец 2005 г. или начало 2006 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pilot start date",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "дата пуска пилотной установки по про/hyphenminus екту Voisey's Bay может быть перенесена с середи/hyphenminus ны 2006 г. на более ранний срок - конец 2005 г. или начало 2006 г.",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Проект Voisey's Bay рассчитан на производство 50 тыс. т/год никеля в концентрате",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проект рассчитан на производство 50 тыс. т/год никеля в концентрате.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Строительство никелевого завода Goro имеет мощность 54 тыс. т никеля и 5,4 тыс. т кобальта в год",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощности которого составят 54 тыс. т никеля и 5,4 тыс. т кобальта в год.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Расчетные капитальные затраты на завод Goro выросли на 30-45 % по сравнению с первоначальной оценкой — 1,45 млрд долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost increase",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В ходе проработки проекта расчетные капитальные затраты выросли на 30-45 % по сравнению с перво/hyphenminus начальной оценкой - 1,45 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Первая фаза оценки капитальных затрат Goro завершилась в августе 2003 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "phase completion",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Первая фаза, завершившаяся в августе 2003 г., включала консерва/hyphenminus цию строительных работ и поиск путей для оптимиза/hyphenminus ции капитальных затрат.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Вторая фаза оценки капитальных затрат Goro началась в декабре 2003 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "phase start",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вторая фаза, которая нача/hyphenminus лась в декабре 2003 г., предполагает практическую реализацию...",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Пуск проекта Goro не раньше 2006 г., даже при возобновлении строительства летом текущего года",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project start date",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "даже в случае возобновления строительства летом текущего года пуск проекта состоится не раньше 2006 г.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Falconbridge завершит окончательное ТЭО проекта Koniambo к концу лета 2004 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "feasibility study completion",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "к концу лета 2004 г. закончит окончательное ТЭО по данному проекту.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Цена меди в первую неделю марта 2004 г. превысила 3000 долл./т, против примерно 2500 долл./т в конце января",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper price",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цена меди в первую неделю марта пре/hyphenminus высила 3000 долл./т против примерно 2500 долл./т в конце января.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасы меди на ЛБМ в феврале и начале марта 2004 г. сократились более чем на 80 тыс. т, примерно до 280 тыс. т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper stock",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Запасы меди на ЛБМ в феврале и начале марта 2004 г. сократились более чем на 80 тыс. т, пример/hyphenminus но до 280 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасы меди на ЛБМ в феврале и начале марта 2004 г. сократились более чем на 80 тыс. т, но до 280 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stock reduction",
+    "direction": "decreases",
+    "factor": "80 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Запасы меди на ЛБМ в феврале и начале марта 2004 г. сократились более чем на 80 тыс. т, но до 280 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.81,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Уровень запасов меди на ЛБМ в настоящее время самый низкий за последние 5 лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stock level",
+    "direction": "decreases",
+    "factor": "самый низкий за последние 5 лет",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Уровень запасов меди на ЛБМ в настоящее время самый низкий за последние 5 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе 2004 г. компания Ok Tedi Mining Ltd в Папуа - Новой Гвинее сократила на 40 % производство.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "decreases",
+    "factor": "40 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе 2004 г. компания Ok Tedi Mining Ltd в Папуа - Новой Гвинее сократила на 40 % производство.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.81,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Мощность завода составит 60 тыс. т/год никеля в ферроникеле.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "60 тыс. т/год",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность завода составит 60 тыс. т/год никеля в ферроникеле.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.45,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Крупнейшая на сегодняшний день в Новой Каледонии компания по производству никеля Société Le Nickel планирует увеличить производство на своем заводе Noumea на 25 % (до 75 тыс. т) к 2007 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production increase",
+    "direction": "increases",
+    "factor": "25 % (до 75 тыс. т)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Крупнейшая на сегодняшний день в Новой Каледонии компания по производству никеля Société Le Nickel планирует увеличить производство на своем заводе Noumea на 25 % (до 75 тыс. т) к 2007 г.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.45,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Цены на кобальт в феврале 2004 г. в среднем колебались в пределах от 54 долл./кг за низкосортный металл (Co 99,3 %) до 62 долл./кг за высокосортный металл (Co 99,8 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price range",
+    "direction": "increases",
+    "factor": "от 54 долл./кг до 62 долл./кг",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цены на кобальт в феврале 2004 г. в среднем колебались в пределах от 54 долл./кг за низкосортный металл (Co 99,3 %) до 62 долл./кг за высокосортный металл (Co 99,8 %).",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.81,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "В феврале Gecamines сообщила о том, что планирует произвести в 2004 г. 4,5 тыс. т кобальта и 25 тыс. т меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production plan",
+    "direction": "increases",
+    "factor": "4,5 тыс. т кобальта и 25 тыс. т меди",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В феврале Gecamines сообщила о том, что планирует произвести в 2004 г. 4,5 тыс. т кобальта и 25 тыс. т меди.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:04_2004_cm-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

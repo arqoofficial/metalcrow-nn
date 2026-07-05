@@ -1,0 +1,1385 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "title": "Переработка драг содержащих концентратов.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Переработка драг содержащих концентратов.docx.md",
+   "artifact_sha256": "e2c6c26567c5550a7e0bba9b8460037d8be4da2b2ab951ae1dd565194e8b5834",
+   "okf_raw_path": "Обзоры/Переработка драг содержащих концентратов.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:primary-golden-head",
+   "label": "primary \"golden head\"",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore",
+   "label": "ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:медные-концентраты",
+   "label": "медные концентраты",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:скрап",
+   "label": "скрап",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:медныи-скрап-95-cu",
+   "label": "медный скрап (95% Cu)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:медь-из-конвертеров",
+   "label": "медь из конвертеров",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:anode-sludges",
+   "label": "Anode sludges",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:kal-do-rotating-furnace",
+   "label": "Kal​do rotating furnace",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:crude-lead",
+   "label": "Crude lead",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:переработка-драг-содержащих-концентратов-docx:0",
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "title": "Industrial processing at O/Ф Irikinda",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "dovodka of gravity concentrate to \"golden head\" – roasting – slag melting – cupellation of ingot to obtain Dore alloy",
+       "temperature_text": "roasting at 450‑800°C",
+       "duration_text": "3 months in 1992"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 723.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:primary-golden-head",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:primary-golden-head",
+     "value": {
+      "min": null,
+      "nominal": 18912.5,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "По данным Иргиридмет содержание золота составило 18912,5 г/т, серебра – 12478,8 г/т.",
+     "locator_kind": "md_para",
+     "locator": "para:115",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 47.0,
+      "max": null
+     },
+     "unit": "kg/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "На доводочном оборудовании была получена «золотая головка» с 47-50 кг/т Au.",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Dore alloy composition",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 68.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "получили сплав Доре с 68% Au и 32% Ag [5].",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "processed gravity concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10510.0,
+      "max": null
+     },
+     "unit": "kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "За 3 месяца 1992 г. было переработано 10510 кг гравитационного концентрата с 40,0 кг/т Au",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "produced ingot",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 412.07,
+      "max": null
+     },
+     "unit": "kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и получено 412,07 кг слитка с 70% Au и 30% Ag.",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Extraction efficiency on enrichment facilities was 94,71%.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "94,71%",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Извлечение на обогатительных мощностях 94,71%.",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Сообщается, что на О/Ф Ирокинда под руководством авторов книги [5] были пущены мощности по переработке богатых золотосодержащих материалов, т.е. «золотой головки» по схеме: доводка гравитационного концентрата до «золотой головки» - обжиг – плавка огарка – купелирование слитка с получением сплава Доре.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-драг-содержащих-концентратов-docx:1",
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "title": "Industrial processing at Holbinsky mine (2007‑2008)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "gravity and flotation concentration followed by Dore alloy production and final refining",
+       "temperature_text": "not specified",
+       "duration_text": "2007 year; 2008 plan"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ore mined",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 266.4,
+      "max": null
+     },
+     "unit": "thousand t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2007 г., например, было добыто 266,4 тыс т руды с 10,1 г/т Au (2680,6 кг Au);",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "ore processed on O/F",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 259.6,
+      "max": null
+     },
+     "unit": "thousand t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "переработано на О/Ф 259,6 тыс т руды (2302,7 кг Au)",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "gold extracted in Dore alloy",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 2302.7,
+      "max": null
+     },
+     "unit": "kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "извлечено в сплав Доре 2302,7 кг Au",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "final refined gold",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2160.9,
+      "max": null
+     },
+     "unit": "kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "получено после окончательного рафинирования 2160,9 кг.",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "silver extracted in 2006",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2830.0,
+      "max": null
+     },
+     "unit": "kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2006 г. (данные за 2007 г. отсутствуют) на О/Ф было переработано 245,7 тыс т руды и извлечено 2830 кг Ag.",
+     "locator_kind": "md_para",
+     "locator": "para:120",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "planned ore processing 2008",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 270000.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Переработка руды | Т | 270000",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 8.7,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Содержание Au в руде | Г/т | 8,7",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "overall Au extraction 2008",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 92.91,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Общее извлечение | % | 92,91",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Extraction of Au in flotation concentrate was 67,5 %.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "67,5 %",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Извлечение Au во флотац.конц-т | % | 67,5",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Аналогичная схема с получением гравитационного и флотационного концентратов внедрена и на Холбинском руднике [8].",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-драг-содержащих-концентратов-docx:2",
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "title": "Industrial introduction of weighed melting (взвешенная плавка) on Glogow I",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "взвешенная плавка на черновую медь",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:медные-концентраты",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:скрап",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "в октябре 2016 г. на Glogow I была введена взвешенная плавка на черновую медь",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "industrial implementation",
+      "direction": "increases",
+      "factor": "не указано",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в октябре 2016 г. на Glogow I была введена взвешенная плавка на черновую медь.",
+     "locator_kind": "md_para",
+     "locator": "para:223",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "в октябре 2016 г. на Glogow I была введена взвешенная плавка на черновую медь.",
+   "locator_kind": "md_para",
+   "locator": "para:223",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-драг-содержащих-концентратов-docx:3",
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "title": "Industrial start‑up of rotating casting‑refining furnace (RCR) at Legnica",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ввод в строй вращающейся литейно‑рафинировочной печи (RCR)",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:медныи-скрап-95-cu",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:медь-из-конвертеров",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "ввод которой в строй состоялся в апреле 2019 г.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "industrial implementation",
+      "direction": "increases",
+      "factor": "не указано",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "ввод которой в строй состоялся в апреле 2019 г.",
+     "locator_kind": "md_para",
+     "locator": "para:227",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "ввод которой в строй состоялся в апреле 2019 г.",
+   "locator_kind": "md_para",
+   "locator": "para:227",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-драг-содержащих-концентратов-docx:4",
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "title": "Industrial plant Glogow precious metals plant (1993‑present)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Construction and operation of a dedicated precious‑metals plant at the Glogow complex with a capacity of 1000+ t/yr Ag, licensed by Boliden.",
+       "temperature_text": "not specified",
+       "duration_text": "continuous operation since 1993"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:anode-sludges",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:kal-do-rotating-furnace",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 99.99,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ag"
+     },
+     "method": null,
+     "snippet": "Электролитическое рафинирование серебра до >99,99% с образованием шлама, содержащего металлы, более благородные, чем серебро (Au, Pt, Pd)",
+     "locator_kind": "md_para",
+     "locator": "para:237",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "Lead and selenium content in final silver",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 0.02
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рафинирование с целью получения серебра с содержанием свинца и селена <0,02% и меди <0,8%",
+     "locator_kind": "md_para",
+     "locator": "para:235",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant produces refined silver with impurity levels below 100 ppm total.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "total impurities",
+      "direction": "decreases",
+      "factor": "process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Всего примесей <100",
+     "locator_kind": "md_para",
+     "locator": "para:248",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В 1993 г. на комплексе Glogow был введен в строй собственный завод драгоценных металлов на 1000+ т/г Ag по лицензии Boliden, включающий следующие основные операции",
+   "locator_kind": "md_para",
+   "locator": "para:233",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-драг-содержащих-концентратов-docx:5",
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "title": "Multi‑stage fire refining of crude lead at Legnica refinery",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Multi‑stage fire refining of crude lead containing up to 2 % impurities in separate furnaces, including slagging, copper removal, sulfur‑galena treatment, and various chemical leaching steps.",
+       "temperature_text": "not specified",
+       "duration_text": "industrial operation (ongoing)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:crude-lead",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Products of lead refining",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 98.9,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В результате плавки получают: черновой свинец, Fe‑As шпейзу и шлак.",
+     "locator_kind": "md_para",
+     "locator": "para:257",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The process yields crude lead with 98.9 % Pb and separates Fe‑As speiss and slag.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "lead purity",
+      "direction": "increases",
+      "factor": "refining",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Черновой свинец, содержащий до 2% примесей (Cu, Ag, Sn, Sb, Bi, Te, As, Tl, Cd) подвергают многоступенчатому огневому рафинированию",
+     "locator_kind": "md_para",
+     "locator": "para:261",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Черновой свинец, содержащий до 2% примесей (Cu, Ag, Sn, Sb, Bi, Te, As, Tl, Cd) подвергают многоступенчатому огневому рафинированию в отдельных котлах",
+   "locator_kind": "md_para",
+   "locator": "para:261",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The metal distribution coefficient between matte and slag (L шт/шл) is not constant and depends on temperature, copper content in matte, and partial oxygen pressure.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "distribution coefficient",
+    "direction": "decreases",
+    "factor": "depends on temperature, Cu content, O₂ pressure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Коэффициент распределения металла между штейном и шлаком L шт/шл – не постоянная величина, зависящая, например, от температуры, содержания меди в штейне, парциального давления кислорода.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "With increasing copper grade of matte, copper losses to slag increase, while arsenic increases in matte and lead and bismuth decrease.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper loss",
+    "direction": "increases",
+    "factor": "higher Cu grade",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С ростом сортности штейна по меди, как известно, увеличиваются потери меди со шлаком, напротив – в штейне становится больше мышьяка, но меньше висмута и свинца.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Increasing copper content in matte and lowering temperature raise the distribution coefficient of precious metals between matte and slag.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "distribution coefficient of precious metals",
+    "direction": "increases",
+    "factor": "higher Cu, lower temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С увеличением содержания меди в штейне и снижением температуры коэффициент распределения драгоценных металлов между штейном и шлаком растет.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Matte from suspended‑state copper smelting contains 90‑95 % of Ag, Au and MPГ, 60‑70 % Sb, 30‑75 % Bi, 15‑40 % As, 70‑80 % Ni, 85 % Se, 60‑80 % Te of their original content in the feed.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element retention in matte",
+    "direction": "increases",
+    "factor": "specified percentages",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "например, штейн взвешенной плавки содержит 90-95% Ag, Au и МПГ, 60-70% Sb, 30-75% Bi, 15-40% As, 70-80% Ni, 85% Se, 60-80% Te от их исходного содержания в сырье.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "In liquid‑bath copper smelting, less of the harmful impurities As, Bi, Sb pass into the matte, while Ni and Se behave similarly to suspended‑state smelting.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impurity transfer to matte",
+    "direction": "decreases",
+    "factor": "As, Bi, Sb",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При плавке в жидкой ванне в штейн переходит меньше таких вредных примесей, как As, Bi, Sb, а Ni и Se ведут себя аналогично при ВП и ПЖВ [9].",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "During converter operation, FeS is oxidized to slag and Cu₂S is oxidized to blister copper; up to 35 % cold copper scrap may be added to absorb excess heat.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "heat management",
+    "direction": "increases",
+    "factor": "up to 35 % scrap",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По ходу конвертирования добавляют холодный медный скрап (до 35%) для снятия избыточного тепла экзотермических реакций.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Distribution coefficients between metal and sulfide phase are usually >1 and depend mainly on temperature, indicating a tendency for impurity elements to dissolve in blister copper.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "distribution coefficient",
+    "direction": "increases",
+    "factor": ">1, temperature dependent",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Коэффициенты распределения между металлом и сульфидной фазой обычно >1 и по большей части зависят от температуры.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Elements with equilibrium constant K < 10⁻² (Au, Ag, Hg, Pt, Pd, Se, Tl, Te) are not oxidized during fire refining and remain dissolved in molten copper, later appearing in anode slag.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "oxidation behavior",
+    "direction": "decreases",
+    "factor": "K < 10⁻²",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Примеси с константой равновесия К <10‑2 (Au, Ag, Hg, Pt, Pd, Se, Tl, Te) не будут окисляться; эти элементы растворяются в расплавленной меди и потом оказываются в анодном шламе.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "fire_refining"
+  },
+  {
+   "text": "Примеси с константой равновесия К <10 -2 (Au, Ag, Hg, Pt, Pd, Se, Tl, Te) не будут окисляться; эти элементы растворяются в расплавленной меди и потом оказываются в анодном шламе.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "oxidation resistance",
+    "direction": "no_change",
+    "factor": "equilibrium constant K <10⁻²",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Примеси с константой равновесия К <10 -2 (Au, Ag, Hg, Pt, Pd, Se, Tl, Te) не будут окисляться; эти элементы растворяются в расплавленной меди и потом оказываются в анодном шламе.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Металлы со значениями К>10 3 (Fe, Zn, Na, Cr, Mn, Si, Ti, Al, Ba, Mg, Be, Ca) легко окисляются и не останутся в анодной меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "oxidation",
+    "direction": "increases",
+    "factor": "equilibrium constant K >10³",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Металлы со значениями К>10 3 (Fe, Zn, Na, Cr, Mn, Si, Ti, Al, Ba, Mg, Be, Ca) легко окисляются и не останутся в анодной меди.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Элементы с промежуточными значениями К (Bi, Pb, Ga, Ni, Cd, Sb, As, Co, Ge, Sn, In) - проблематичны как для извлечения, так и для удаления из меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "difficulty",
+    "direction": "increases",
+    "factor": "intermediate K values",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Элементы с промежуточными значениями К (Bi, Pb, Ga, Ni, Cd, Sb, As, Co, Ge, Sn, In) - проблематичны как для извлечения, так и для удаления из меди.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "После плавки в анодных печах содержание меди в анодах в среднем составляет 99,2-99,3%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "average after smelting",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После плавки в анодных печах содержание меди в анодах в среднем составляет 99,2-99,3%.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Главными примесями являются: Ni+Co 1370-2040 ppm, O 1460-1630 ppm, Pb 1000-1290 ppm, As 790-1480 ppm, Sb 240-350 ppm и Bi 130-300 ppm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "impurity levels",
+    "direction": "increases",
+    "factor": "typical range",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Главными примесями являются: Ni+Co 1370-2040 ppm, O 1460-1630 ppm, Pb 1000-1290 ppm, As 790-1480 ppm, Sb 240-350 ppm и Bi 130-300 ppm.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Содержание драгоценных металлов составляет: Ag 710-810 ppm, Au 30-60 ppm, а ценных металлов Se 340-410 ppm, Te 90-110 ppm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "precious metal content",
+    "direction": "increases",
+    "factor": "typical range",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание драгоценных металлов составляет: Ag 710-810 ppm, Au 30-60 ppm, а ценных металлов Se 340-410 ppm, Te 90-110 ppm.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "При последующем электролитическом рафинировании анодов такие примеси, как: Au, Ag, платиноиды, а также Se, Te, у которых стандартный потенциал положительнее, чем Φ 0 Cu/Cu 2+ , переходят в шлам.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "impurity migration",
+    "direction": "increases",
+    "factor": "standard potential > Φ0 Cu/Cu2+",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При последующем электролитическом рафинировании анодов такие примеси, как: Au, Ag, платиноиды, а также Se, Te, у которых стандартный потенциал положительнее, чем Φ 0 Cu/Cu 2+ , переходят в шлам.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Золото и МПГ не растворяются в сульфатном электролите и в виде твердой фазы – частиц шлама либо сцепляются с поверхностью анода, либо падают на дно ванны.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "decreases",
+    "factor": "sulfate electrolyte",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Золото и МПГ не растворяются в сульфатном электролите и в виде твердой фазы – частиц шлама либо сцепляются с поверхностью анода, либо падают на дно ванны.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание серебра в катодной меди обычно составляет 8-10 ppm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "typical value",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание серебра в катодной меди обычно составляет 8-10 ppm.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Современные шламы (2016 г.) содержат в среднем, %: Cu – 21,5; Ag - 12,7; Au – 0,6; Se – 9,0; Te – 1,6; Pb – 10,8; Ni – 2,5; As – 3,4; Sb – 1,5; Bi – 1,5%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average element percentages",
+    "direction": "increases",
+    "factor": "2016 data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Современные шламы (2016 г.) содержат в среднем, %: Cu – 21,5; Ag - 12,7; Au – 0,6; Se – 9,0; Te – 1,6; Pb – 10,8; Ni – 2,5; As – 3,4; Sb – 1,5; Bi – 1,5%.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Свинец присутствует, в основном, в виде нерастворимого PbSO 4 .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lead form",
+    "direction": "increases",
+    "factor": "typical occurrence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Свинец присутствует, в основном, в виде нерастворимого PbSO 4 .",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Сурьма, мышьяк и висмут образуют ряд сложных оксидов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "compound formation",
+    "direction": "increases",
+    "factor": "typical chemistry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сурьма, мышьяк и висмут образуют ряд сложных оксидов.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Переработка шламов в типичном случае включает: обезмеживание, извлечение никеля и теллура, обжиг с целью извлечения селена, плавку серебра и золота на сплав Дорэ, последовательное электролитическое рафинирование анодов с получением чистых металлов Ag, Au и МПГ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "processing steps",
+    "direction": "increases",
+    "factor": "typical case",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Переработка шламов в типичном случае включает: обезмеживание, извлечение никеля и теллура, обжиг с целью извлечения селена, плавку серебра и золота на сплав Дорэ, последовательное электролитическое рафинирование анодов с получением чистых металлов Ag, Au и МПГ.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Самым типичным случаем считается: 22-32% Cu, 23-30% Fe, 27-35% S.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "typical composition ranges",
+    "direction": "increases",
+    "factor": "primary copper production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Самым типичным случаем считается: 22-32% Cu, 23-30% Fe, 27-35% S.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Одно из главных преимуществ ВП прямо на черновую медь заключается в том, что подготовка сырья втрое дешевле, чем брикетирование, плюс исключается один технологический передел – конвертирование для ≈2/3 меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "экономия стоимости подготовки сырья",
+    "direction": "decreases",
+    "factor": "втрое",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Одно из главных преимуществ ВП прямо на черновую медь заключается в том, что подготовка сырья втрое дешевле, чем брикетирование, плюс исключается один технологический передел – конвертирование для ≈2/3 меди.",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Плавку медных концентратов в печи ВП ведут при высоком кислородном потенциале, нацеленном на получение черновой меди с низким содержанием свинца (менее 0,3%).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "electrode_potential",
+    "direction": "increases",
+    "factor": "высокий",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плавку медных концентратов в печи ВП ведут при высоком кислородном потенциале, нацеленном на получение черновой меди с низким содержанием свинца (менее 0,3%).",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "В результате восстановления получается Cu‑Pb сплав с <5% Pb и шлак: 2‑4% Cu, 40‑50% Pb, 6‑10% Fe.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "состав получаемого сплава и шлака",
+    "direction": "nonmonotonic",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате восстановления получается Cu‑Pb сплав с <5% Pb и шлак: 2‑4% Cu, 40‑50% Pb, 6‑10% Fe.",
+   "locator_kind": "md_para",
+   "locator": "para:200",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Шлак, получаемый после восстановления, является сырьем для получения свинца.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "применение шлака",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данный шлак является сырьем для получения свинца.",
+   "locator_kind": "md_para",
+   "locator": "para:200",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Преимуществом схемы Glogow I до 2016 г. является высокая степень удаления свинца и мышьяка на первой стадии пирометаллургического процесса и их аккумуляция в пылегазовой фазе.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "удаление свинца и мышьяка",
+    "direction": "increases",
+    "factor": "высокая степень",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Преимуществом данной схемы является высокая степень удаления свинца и мышьяка на первой стадии пирометаллургического процесса и их аккумуляция в пылегазовой фазе.",
+   "locator_kind": "md_para",
+   "locator": "para:222",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Главный недостаток схемы Glogow I до 2016 г. – сложный и дорогостоящий процесс изготовления брикетов на импортном связующем.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "стоимость и сложность брикетирования",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Главный недостаток – сложный и дорогостоящий процесс изготовления брикетов на импортном связующем.",
+   "locator_kind": "md_para",
+   "locator": "para:222",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "В Glogow I до 2016 г. подготовка сырья, усреднение медных концентратов и оборотов (пыли), смешивание их со связующим (черный щелок) в количестве 10‑11%, брикетирование смеси, высушенной до ~4% H2O.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "phase_fraction",
+    "direction": "nonmonotonic",
+    "factor": "10‑11% связующего, ~4% H2O",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "подготовка сырья, усреднение медных концентратов и оборотов (пыли), смешивание их со связующим (черный щелок) в количестве 10‑11%, брикетирование смеси, высушенной до ~4% H2O;",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "В Glogow I до 2016 г. конвертирование штейна с целью окисления железа и серы с получением черновой меди (~98%).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "~98%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "конвертирование штейна с целью окисления железа и серы с получением черновой меди (~98%);",
+   "locator_kind": "md_para",
+   "locator": "para:215",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": "converting"
+  },
+  {
+   "text": "Silver content in copper anodes was 0,2‑0,3 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание серебра в медных анодах составляло 0,2-0,3%.",
+   "locator_kind": "md_para",
+   "locator": "para:233",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Anode sludges from Cu, Pb, Sn and Zn electro‑refining contain noble metals Au, Ag and PGMs, with the highest weight fraction of noble metals in copper sludges.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "noble‑metal content",
+    "direction": "increases",
+    "factor": "sludge type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Анодные шламы, происходящие от электролитического рафинирования Cu, Pb, Sn и Zn, содержат благородные металлы: Au, Ag и МПГ. Больше всего (по весу) благородных металлов в медных шламах.",
+   "locator_kind": "md_para",
+   "locator": "para:272",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Refined silver (99,99 %) contains less than 100 ppm total impurities.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "total impurity level",
+    "direction": "decreases",
+    "factor": "refining",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Всего примесей <100",
+   "locator_kind": "md_para",
+   "locator": "para:248",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "The Kaldo furnace reduces lead and selenium in the slag to <0,02 % and copper to <0,8 % in the final silver.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Pb, Se, Cu content",
+    "direction": "decreases",
+    "factor": "reduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "рафинирование с целью получения серебра с содержанием свинца и селена <0,02% и меди <0,8%",
+   "locator_kind": "md_para",
+   "locator": "para:235",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  },
+  {
+   "text": "Lead‑zinc dust from the electric furnace contains 23.41 % Zn.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "source",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Pb‑Zn пыли электро‑печи | Zn | 23,41",
+   "locator_kind": "md_para",
+   "locator": "para:252",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-драг-содержащих-концентратов-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

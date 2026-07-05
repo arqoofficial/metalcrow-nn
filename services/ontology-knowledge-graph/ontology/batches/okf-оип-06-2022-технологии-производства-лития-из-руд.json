@@ -1,0 +1,855 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "title": "ОИП-06-2022 Технологии производства лития из рудного сырья.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ОИП-06-2022 Технологии производства лития из рудного сырья.docx.md",
+   "artifact_sha256": "7035d8c967672a1a72f3a17a5a3fe212bc18258253e866dad640bf14dcc31475",
+   "okf_raw_path": "Обзоры/ОИП-06-2022 Технологии производства лития из рудного сырья.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:spodumene-ore",
+   "label": "spodumene ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Hf",
+   "label": "HF",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:талловыи-аминоацетат",
+   "label": "талловый аминоацетат",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:керосин",
+   "label": "керосин",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:вспенивающии-агент",
+   "label": "вспенивающий агент",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:жирная-кислота-талловое-масло",
+   "label": "жирная кислота (талловое масло)",
+   "family": "reagent",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:H2SO4",
+   "label": "H2SO4",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:аминныи-собиратель",
+   "label": "аминный собиратель",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:naoh",
+   "label": "NaOH",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:олеиновои-кислоты",
+   "label": "олеиновая кислота",
+   "family": "reagent",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:додециламин",
+   "label": "додециламин",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:оип-06-2022-технологии-производства-лития-из-руд:0",
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "title": "Main spodumene flotation kinetics",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "primary flotation of spodumene",
+       "duration_text": "60 sec"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:spodumene-ore",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "spodumene recovery",
+     "scope": "material",
+     "material_id": "mat:spodumene-ore",
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "быстрая кинетика, ~60% сподумена флотируется в течение 60 сек.",
+     "locator_kind": "md_para",
+     "locator": "para:212",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "fast kinetics of the main flotation stage",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "kinetics",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "быстрая кинетика, ~60% сподумена флотируется в течение 60 сек.",
+     "locator_kind": "md_para",
+     "locator": "para:212",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "быстрая кинетика, ~60% сподумена флотируется в течение 60 сек.",
+   "locator_kind": "md_para",
+   "locator": "para:212",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-06-2022-технологии-производства-лития-из-руд:1",
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "title": "Флотация полевого шпата в лаборатории",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Кондиционирование пульпы HF до pH ~2-2,5, затем флотация с собирателем – талловым аминоацетатом (цепочка 12‑14С), керосином и вспенивающим агентом"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:Hf",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:талловыи-аминоацетат",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:керосин",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:вспенивающии-агент",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 98.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "SiO2"
+     },
+     "method": null,
+     "snippet": "Конечные хвосты флотации полевого шпата могут представлять собой богатый кварцевый концентрат с >98% SiO 2 .",
+     "locator_kind": "md_para",
+     "locator": "para:235",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Если в руде есть слюда, её нужно удалить до флотации полевого шпата, в противном случае она попадет в полевошпатный концентрат, делая его непригодным для керамической и стекольной отраслей.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Если в руде есть слюда, её нужно удалить до флотации полевого шпата, в противном случае она попадет в полевошпатный концентрат, делая его непригодным для керамической и стекольной отраслей.",
+     "locator_kind": "md_para",
+     "locator": "para:234",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Если в руде есть слюда, её нужно удалить до флотации полевого шпата, в противном случае она попадет в полевошпатный концентрат, делая его непригодным для керамической и стекольной отраслей.",
+   "locator_kind": "md_para",
+   "locator": "para:234",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-06-2022-технологии-производства-лития-из-руд:2",
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "title": "Флотация берилла (Kings Mountain, США) в лаборатории",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Сподумен флотовали жирной кислотой, хвосты кондиционировали H2SO4 и аминым собирателем для удаления слюды, затем HF, промывали, обработали NaOH и флотовали берилл олеиновой кислотой"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:жирная-кислота-талловое-масло",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:H2SO4",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:аминныи-собиратель",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:Hf",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:naoh",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:олеиновои-кислоты",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "li2o"
+     },
+     "method": null,
+     "snippet": "получался берилловый концентрат с 3% Li 2 O и 1,57% ВеО при извлечении берилла 75%.",
+     "locator_kind": "md_para",
+     "locator": "para:236",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.57,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "beo"
+     },
+     "method": null,
+     "snippet": "получался берилловый концентрат с 3% Li 2 O и 1,57% ВеО при извлечении берилла 75%.",
+     "locator_kind": "md_para",
+     "locator": "para:236",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 75.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "берилла"
+     },
+     "method": null,
+     "snippet": "получался берилловый концентрат с 3% Li 2 O и 1,57% ВеО при извлечении берилла 75%.",
+     "locator_kind": "md_para",
+     "locator": "para:236",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "получался берилловый концентрат с 3% Li 2 O и 1,57% ВеО при извлечении берилла 75%.",
+   "locator_kind": "md_para",
+   "locator": "para:236",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-06-2022-технологии-производства-лития-из-руд:3",
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "title": "Лабораторные флотационные опыты с смесью олеиновой кислоты и додециламина",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Флотация в лабораторных условиях на чистых минералах (кварц, сподумен, полевой шпат) и китайской сподуменовой руде с смесью олеиновой кислоты и додециламина в соотношении 10:1"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:олеиновои-кислоты",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:додециламин",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Li2O в концентрате",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.59,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Из руды с 1,48% Li 2 O получен концентрат с 5,59% Li 2 O при извлечении 85,24%.",
+     "locator_kind": "md_para",
+     "locator": "para:251",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 85.24,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "сподумена"
+     },
+     "method": null,
+     "snippet": "Из руды с 1,48% Li 2 O получен концентрат с 5,59% Li 2 O при извлечении 85,24%.",
+     "locator_kind": "md_para",
+     "locator": "para:251",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "при оптимальном соотношении компонентов смеси олеиновая кислота:додециламин =10:1 проходит эффективное флотационное отделение сподумена от кварца и полевого шпата – с хорошей селективностью и собираемостью.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "при оптимальном соотношении компонентов смеси олеиновая кислота:додециламин =10:1 проходит эффективное флотационное отделение сподумена от кварца и полевого шпата – с хорошей селективностью и собираемостью.",
+     "locator_kind": "md_para",
+     "locator": "para:251",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "при оптимальном соотношении компонентов смеси олеиновая кислота:додециламин =10:1 проходит эффективное флотационное отделение сподумена от кварца и полевого шпата – с хорошей селективностью и собираемостью.",
+   "locator_kind": "md_para",
+   "locator": "para:251",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Добыча лития из рапы саларов (солончаков) – самый дешевый способ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добыча лития из рапы саларов (солончаков) – самый дешевый способ.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "Термическое обогащение (декриптацию) применяют при обогащении сподуменовых руд.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "spodumene ores",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Термическое обогащение (декриптацию) применяют при обогащении сподуменовых руд.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "Способ основан на переходе а-сподумена в β-сподумен при нагревании руды до температуры 1000–1100 °С.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "α‑spodumene to β‑spodumene conversion",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Способ основан на переходе а-сподумена в β-сподумен при нагревании руды до температуры 1000–1100 °С.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "Извлечение лития в концентрат составляет 60–80 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery",
+    "direction": "increases",
+    "factor": "lithium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Извлечение лития в концентрат составляет 60–80 %.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "Все эти месторождения соответствуют мировым стандартам как по содержанию лития, так и по его запасам.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "standard compliance",
+    "direction": "increases",
+    "factor": "lithium content and reserves",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все эти месторождения соответствуют мировым стандартам как по содержанию лития, так и по его запасам.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "Полмостундровское и Вороньетундровское месторождения могут служить резервом еще на 25–30 лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reserve lifespan",
+    "direction": "increases",
+    "factor": "reserve duration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полмостундровское и Вороньетундровское месторождения могут служить резервом еще на 25–30 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "его обогащение, обжиг концентрата и гидрометаллургический передел с получением литиевой химической продукции представляются традиционными и воспроизводимыми на стандартном оборудовании.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technology maturity",
+    "direction": "increases",
+    "factor": "standard equipment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "его обогащение, обжиг концентрата и гидрометаллургический передел с получением литиевой химической продукции представляются традиционными и воспроизводимыми на стандартном оборудовании.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "в настоящее время в производстве сподумена из руды доминирует предприятие Greenbushes (Западная Австралия).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "в настоящее время в производстве сподумена из руды доминирует предприятие Greenbushes (Западная Австралия).",
+   "locator_kind": "md_para",
+   "locator": "para:189",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "сподумен и мусковит обычно проявляют ограниченную ассоциацию, то потери лития со слюдяным концентратом ожидаются низкими.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lithium loss",
+    "direction": "decreases",
+    "factor": "limited association of spodumene and muscovite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "поскольку сподумен и мусковит обычно проявляют ограниченную ассоциацию, то потери лития со слюдяным концентратом ожидаются низкими;",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": "flotation"
+  },
+  {
+   "text": "для флотации слюды применяют собиратели на основе аминов (Armac T, EDA, Aero 3030C), работающие как в кислой, так и в щелочной пульпе.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "для флотации слюды применяют собиратели на основе аминов (Armac T, EDA, Aero 3030C), работающие как в кислой, так и в щелочной пульпе.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": "flotation"
+  },
+  {
+   "text": "высокоплотная очистка выполняется при щелочном рН пульпы (c добавками NaOH).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "высокоплотная очистка (high density scrubbing): выполняется при щелочном рН пульпы (c добавками NaOH);",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.81,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "кондиционирование при 50-60% вес твердого собирателем на основе жирной кислоты; имеет критическое значение для достижения хороших показателей флотации сподумена.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "flotation performance",
+    "direction": "increases",
+    "factor": "50-60% solid collector loading",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "кондиционирование (обработка) при 50-60% вес твердого собирателем на основе жирной кислоты; имеет критическое значение для достижения хороших показателей флотации сподумена;",
+   "locator_kind": "md_para",
+   "locator": "para:210",
+   "confidence": 0.81,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "при перечистке надо добавлять небольшие количества диспергирующего агента (лигносульфоната).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "при перечистке надо добавлять небольшие количества диспергирующего агента (лигносульфоната);",
+   "locator_kind": "md_para",
+   "locator": "para:218",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": "flotation"
+  },
+  {
+   "text": "можно выполнить магнитную сепарацию в поле разной силы; при ~10000 гауссов можно удалить большие количества амфибола, который иначе попал бы во флотационный концентрат.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "amphibole removal",
+    "direction": "increases",
+    "factor": "magnetic field ~10000 gauss",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в последнем случае возможно удалить большие количества амфибола (при ~10000 гауссов), который иначе попал бы во флотационный концентрат.",
+   "locator_kind": "md_para",
+   "locator": "para:224",
+   "confidence": 0.81,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "в типичном случае тантал встречается в Ta‑Nb оксидных минералах; его можно извлечь гравитационной сепарацией или магнитной сепарацией.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "в типичном случае тантал встречается в Ta‑Nb оксидных минералах. Его можно извлечь гравитационной сепарацией или магнитной сепарацией.",
+   "locator_kind": "md_para",
+   "locator": "para:225",
+   "confidence": 0.81,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "Aero 3030C фирмы Cytec способен селективно отфлотировать слюду от сподумена в щелочной среде.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "selectivity",
+    "direction": "increases",
+    "factor": "collector Aero 3030C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Имеются коллекторы, способные селективно отфлотировать слюду от сподумена в щелочной среде, например, Aero 3030C фирмы Cytec.",
+   "locator_kind": "md_para",
+   "locator": "para:232",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": "flotation"
+  },
+  {
+   "text": "для флотации полевого шпата используют HF для кондиционирования пульпы и корректировки рН до ~2‑2,5, а затем собирают его талловым аминоацетатом, керосином и вспенивающим агентом.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "для того, чтобы отфлотировать полевой шпат от преимущественно кварцевых хвостов, используют плавиковую кислоту HF для кондиционирования пульпы и корректировки рН до ~2-2,5. Затем флотируют полевой шпат с применением собирателя – таллового аминоацетата с длиной углеводородной цепочки 12-14С, керосина и вспенивающего агента.",
+   "locator_kind": "md_para",
+   "locator": "para:234",
+   "confidence": 0.81,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": "flotation"
+  },
+  {
+   "text": "при перечистке 2‑3 стадии позволяют получить концентрат с >6% Li2O.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "2‑3 re‑flotation stages",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обычно цепочка флотации сподумена включает 2-3 стадии перечистки, чтобы получить концентрат с >6% Li 2 O;",
+   "locator_kind": "md_para",
+   "locator": "para:217",
+   "confidence": 0.81,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": "flotation"
+  },
+  {
+   "text": "массовый баланс типичной флотационной цепочки сподумена показывает, что 85,2% Li извлекается в концентрате 3‑й перечистки немагн. с 6,49% Li2O.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Li recovery",
+    "direction": "increases",
+    "factor": "3‑й перечистки немагн.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Li конц-т 3-й перечистки немагн. | 19,7 | 6,49 | 85,2",
+   "locator_kind": "md_para",
+   "locator": "para:227",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": "flotation"
+  },
+  {
+   "text": "Для того, чтобы отфлотировать полевой шпат от преимущественно кварцевых хвостов, используют плавиковую кислоту HF для кондиционирования пульпы и корректировки рН до ~2-2,5.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pH",
+    "direction": "increases",
+    "factor": "~2-2,5",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для того, чтобы отфлотировать полевой шпат от преимущественно кварцевых хвостов, используют плавиковую кислоту HF для кондиционирования пульпы и корректировки рН до ~2-2,5.",
+   "locator_kind": "md_para",
+   "locator": "para:234",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": "flotation"
+  },
+  {
+   "text": "Калиевый полевой шпат может быть предпочтительно обогащен добавками NaCl при флотации полевого шпата.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "обогащение",
+    "direction": "increases",
+    "factor": "NaCl",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Калиевый полевой шпат может быть предпочтительно обогащен добавками NaCl при флотации полевого шпата.",
+   "locator_kind": "md_para",
+   "locator": "para:235",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": "flotation"
+  },
+  {
+   "text": "Олеиновая кислота и талловые жирные кислоты широко используются в промышленных масштабах.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Олеиновая кислота и талловые жирные кислоты широко используются в промышленных масштабах",
+   "locator_kind": "md_para",
+   "locator": "para:250",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  },
+  {
+   "text": "Серия LR, особенно LR19 способствует повышению извлечения сподумена.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "LR19",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "серия LR, особенно LR19 способствует повышению извлечения сподумена.",
+   "locator_kind": "md_para",
+   "locator": "para:250",
+   "confidence": 0.9,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": "flotation"
+  },
+  {
+   "text": "Калиевый полевой шпат может содержать в своей кристаллической структуре рубидий в больших концентрациях (>1%) и он представляет повышенную ценность для изготовления керамических товаров длительного пользования.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": ">1%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "калиевой полевой шпат может содержать в своей кристаллической структуре рубидий в больших концентрациях (>1%) и он представляет повышенную ценность для изготовления керамических товаров длительного пользования.",
+   "locator_kind": "md_para",
+   "locator": "para:235",
+   "confidence": 0.81,
+   "document_id": "doc:оип-06-2022-технологии-производства-лития-из-руд",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

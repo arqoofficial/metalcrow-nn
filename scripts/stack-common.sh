@@ -57,6 +57,13 @@ stack_parser_compose_args() {
   fi
 }
 
+# Docling workers (raw2docling_raw, docling_raw2docling_clean00) are gated
+# behind the "parsing" profile in nornickel-parser.override.yml. Ingest upload
+# enqueues L1 jobs that require these workers — include the profile on up/down.
+stack_parser_profile_args() {
+  PARSER_PROFILE_ARGS=(--profile parsing)
+}
+
 # Run docker compose for metalcrow (local uses default compose.override.yml merge).
 stack_metalcrow_compose() {
   if [[ "${STACK_MODE}" == "prod" ]]; then
@@ -88,17 +95,20 @@ stack_preload_models_if_needed() {
   stack_ensure_parser_shared
   stack_parser_compose_args
 
+  # raw2docling_raw is gated behind the "parsing" profile in nornickel-parser.override.yml
+  local -a preload_args=(--profile parsing "${PARSER_COMPOSE_ARGS[@]}")
+
   echo "→ checking parser model cache"
   (
     cd "${PARSER_DIR}"
-    docker compose "${PARSER_COMPOSE_ARGS[@]}" build raw2docling_raw
-    if docker compose "${PARSER_COMPOSE_ARGS[@]}" run --rm raw2docling_raw \
+    docker compose "${preload_args[@]}" build raw2docling_raw
+    if docker compose "${preload_args[@]}" run --rm raw2docling_raw \
       python scripts/preload_models.py --check-only >/dev/null 2>&1; then
       echo "  models already cached in services/nornickel-2026-parser/SHARED/MODELS"
       return 0
     fi
     echo "→ preloading Docling/OCR models (первый запуск ~10–20 мин, прогресс ниже — подождите)…"
-    docker compose "${PARSER_COMPOSE_ARGS[@]}" run --rm \
+    docker compose "${preload_args[@]}" run --rm \
       -e PYTHONUNBUFFERED=1 \
       raw2docling_raw \
       python -u scripts/preload_models.py

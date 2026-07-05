@@ -12,6 +12,10 @@ services:
 
   raw2docling_raw:
     image: nornickel-2026-parser:local-gpu
+    build:
+      context: .
+      args:
+        TORCH_VARIANT: gpu
     deploy:
       resources:
         reservations:
@@ -22,6 +26,10 @@ services:
 
   docling_raw2docling_clean00:
     image: nornickel-2026-parser:local-gpu
+    build:
+      context: .
+      args:
+        TORCH_VARIANT: gpu
     deploy:
       resources:
         reservations:

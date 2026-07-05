@@ -1,0 +1,1426 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-9-2018-pdf",
+   "title": "ЦМ № 9-2018.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2018-все\\ЦМ № 9-2018.pdf.md",
+   "artifact_sha256": "b330bc8b973478e5d103aef176b8481b4f4b4665760c95e303d97708d535ef93",
+   "okf_raw_path": "Журналы/Цветные металлы/2018-все/ЦМ № 9-2018.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:sulfite-cellulose-alkaline",
+   "label": "sulfite‑cellulose alkaline",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:wood-glue-or-fish-glue",
+   "label": "wood glue or fish glue",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:chlorine-containing-materials-increased-amount",
+   "label": "chlorine‑containing materials (increased amount)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-anode-containing-gold-and-silver",
+   "label": "Copper anode containing gold and silver",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:white-matte-белыи-матт",
+   "label": "White matte (белый матт)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:raw-copper-черновая-медь",
+   "label": "Raw copper (черновая медь)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:enriched-copper-обедненная-медь",
+   "label": "Enriched copper (обедненная медь)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper",
+   "label": "copper",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No-9-2018-pdf:0",
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "title": "Mount‑Layell plant current‑density test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "electrorefining of copper"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "current_density",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 290.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "завод МаунтЛайель имеет выход по току при плотности тока 290 а/м 2 - 95%",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "current_efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 95.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "завод МаунтЛайель имеет выход по току при плотности тока 290 а/м 2 - 95%",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "current_density",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 355.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "завод МаунтЛайель имеет выход по току при плотности тока 355 а/м 2 - 92%",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "current_efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 92.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "завод МаунтЛайель имеет выход по току при плотности тока 355 а/м 2 - 92%",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Increasing current density reduces current efficiency.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "current_efficiency",
+      "direction": "decreases",
+      "factor": "higher current density",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "завод МаунтЛайель имеет выход по току при плотности тока 355 а/м 2 - 92%",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "завод МаунтЛайель имеет выход по току при плотности тока 290 а/м 2 - 95% и при 355 а/м 2 - 92%",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-9-2018-pdf:1",
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "title": "Industrial data on performance vs. current density (table 1)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "copper electrorefining"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "overall electrolyzer volume per ton‑day",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 17.6,
+      "max": null
+     },
+     "unit": "м3/т‑сутки",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Общий объем электролизера,м 3 /т-сутки .............. | 17,6 | 11,8 | 9,0",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "overall electrolyzer volume per ton‑day",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 11.8,
+      "max": null
+     },
+     "unit": "м3/т‑сутки",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Общий объем электролизера,м 3 /т-сутки .............. | 17,6 | 11,8 | 9,0",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "overall electrolyzer volume per ton‑day",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 9.0,
+      "max": null
+     },
+     "unit": "м3/т‑сутки",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Общий объем электролизера,м 3 /т-сутки .............. | 17,6 | 11,8 | 9,0",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "energy_consumption",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 230.0,
+      "max": null
+     },
+     "unit": "квт‑ч/т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "per ton"
+     },
+     "method": null,
+     "snippet": "Расход энергии, квт-ч/т........................................... | 230 | 295 | 340",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "energy_consumption",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 295.0,
+      "max": null
+     },
+     "unit": "квт‑ч/т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "per ton"
+     },
+     "method": null,
+     "snippet": "Расход энергии, квт-ч/т........................................... | 230 | 295 | 340",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "energy_consumption",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 340.0,
+      "max": null
+     },
+     "unit": "квт‑ч/т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "per ton"
+     },
+     "method": null,
+     "snippet": "Расход энергии, квт-ч/т........................................... | 230 | 295 | 340",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Higher current density reduces electrolyzer volume per ton‑day and increases energy consumption per ton.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "electrolyzer volume",
+      "direction": "decreases",
+      "factor": "higher current density",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Общий объем электролизера,м 3 /т-сутки .............. | 17,6 | 11,8 | 9,0",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    },
+    {
+     "text": "Higher current density increases energy consumption per ton of copper.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "energy_consumption",
+      "direction": "increases",
+      "factor": "higher current density",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Расход энергии, квт-ч/т........................................... | 230 | 295 | 340",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "ТАБЛИЦА 1. Изменение некоторых показателей по электрорафинированию меди в зависимости от плотности тока (расчетные данные)",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-9-2018-pdf:2",
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "title": "Addition of combined additives to eliminate “шишко” formation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "copper electrorefining"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfite-cellulose-alkaline",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:wood-glue-or-fish-glue",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:chlorine-containing-materials-increased-amount",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The previously observed excessive “шишко” formation was eliminated by introducing the combined additives.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "shishko formation",
+      "direction": "decreases",
+      "factor": "combined additives",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наблюдаемое при этом ранее большее шишко образование удалось устранить вводом в электролит комбинированных добавок, состоящих из сульфитцеллюлозных щелоков и столярного или рыбьего клея при одновременной добавке повышенного количества хлорсодержащих материалов",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Наблюдаемое при этом ранее большее шишко образование удалось устранить вводом в электролит комбинированных добавок, состоящих из сульфитцеллюлозных щелоков и столярного или рыбьего клея при одновременной добавке повышенного количества хлорсодержащих материалов",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-9-2018-pdf:3",
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "title": "Effect of current density on gold and silver transfer to cathode",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrorefining of copper at various current densities"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Gold transfer to cathode (% of anode content)",
+     "scope": "material",
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "value": {
+      "min": null,
+      "nominal": 0.25,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "0,25 | 0,30 | 0,62 | 0,87",
+     "locator_kind": "md_para",
+     "locator": "para:97",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Silver transfer to cathode (% of anode content)",
+     "scope": "material",
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "value": {
+      "min": null,
+      "nominal": 0.45,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "0,45 | 0,55 | 1,28 | 1,88",
+     "locator_kind": "md_para",
+     "locator": "para:97",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Чем ниже плотность тока, тем меньше потери золота и серебра (табл. 2).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "losses",
+      "direction": "decreases",
+      "factor": "current density",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "чем ниже плотность тока, тем меньше потери золота и серебра (табл. 2).",
+     "locator_kind": "md_para",
+     "locator": "para:115",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Таблица 2. Переход золота и серебра в катодную медь в зависимости от плотности тока",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-9-2018-pdf:4",
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "title": "Selective decoppering (bessemerovanie) at Karabash plant, USSR, 1913",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Selective decoppering of copper matte"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:white-matte-белыи-матт",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Gold recovery in first portions of matte",
+     "scope": "material",
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "value": {
+      "min": null,
+      "nominal": 97.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "белый матт отдает первым порциям отделяющейся от него в начале продувки меди 97% всего золота",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Silver recovery in first portions of matte",
+     "scope": "material",
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и 40% всего серебра, заключающихся в нем.",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "белый матт отдает первым порциям отделяющейся от него в начале продувки меди 97% всего золота и 40% всего серебра, заключающихся в нем.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-9-2018-pdf:5",
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "title": "Selective decoppering at Kunipto Mines (and later Rio‑Tinto)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Selective decoppering of copper matte with subsequent electrolytic refining"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:raw-copper-черновая-медь",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:enriched-copper-обедненная-медь",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "value": {
+      "min": null,
+      "nominal": 17.15,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Обычная черновая медь......... 17,15 857 99,25",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "value": {
+      "min": null,
+      "nominal": 857.0,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ag"
+     },
+     "method": null,
+     "snippet": "Обычная черновая медь......... 17,15 857 99,25",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "value": {
+      "min": null,
+      "nominal": 2.13,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Обедненная медь первой партии..................................... 2,13 236,8 99,86",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "value": {
+      "min": null,
+      "nominal": 236.8,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ag"
+     },
+     "method": null,
+     "snippet": "Обедненная медь первой партии..................................... 2,13 236,8 99,86",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [],
+   "snippet": "ТАБЛИЦА 3. Результаты селективного бессемерования на Кюнипто Майнс",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-9-2018-pdf:6",
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "title": "Losses of gold and silver at Greif‑Falls plant at 285 A/m²",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrorefining of copper"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Gold and silver losses",
+     "scope": "material",
+     "material_id": "mat:copper-anode-containing-gold-and-silver",
+     "value": {
+      "min": null,
+      "nominal": 1.3,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "на заводе Грэт‑Фоллс при плотности тока 285 а/м 2 потери золога и серебра составляют 1,3%.",
+     "locator_kind": "md_para",
+     "locator": "para:113",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Практически потери благородных металлов могут отклоняться от указанного в таблице: например, на заводе Грэт‑Фоллс при плотности тока 285 а/м 2 потери золога и серебра составляют 1,3%.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-9-2018-pdf:7",
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "title": "Industrial application at an unnamed plant (based on plant experience)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "copper refining without electrolytic step (converter‑only scheme)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "раз в пять дешевле, чем по стандартной с применением электролиза",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "cost",
+      "direction": "decreases",
+      "factor": "5",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Опыт и расчет показали, что рафинирование меди по такой схеме раз в пять дешевле, чем по стандартной с применением электролиза.",
+     "locator_kind": "md_para",
+     "locator": "para:126",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Опыт и расчет показали, что рафинирование меди по такой схеме раз в пять дешевле, чем по стандартной с применением электролиза.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-9-2018-pdf:8",
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "title": "Industrial application at RioTinto plant (12 /g133 (3,66‑м) converter, Great Falls)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "copper refining in converter with white matte"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "mass",
+     "scope": "material",
+     "material_id": "mat:copper",
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "около 15 т меди в белом матте почти теоретической чистоты",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "операция проходит удачно при наличии достаточного количества массы в конверторе",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "operability",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Длительная практика этого завода позволила установить, что удачно операция проходит в случае наличия в конверторе достаточного количества массы",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Аналогичная работа производилась на заводе РиоТинто в 12 /g133 (3,66-м) конверторе Грэт-Фоллс",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Increasing current density, all else being equal, positively affects current output.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current output",
+    "direction": "increases",
+    "factor": "higher current density",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом повышение плотности тока при прочих равных условиях благоприятно сказывается на выходе по току.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "For higher current density it is desirable to have an electrolyte with the lowest possible resistance.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "electrolyte resistance",
+    "direction": "decreases",
+    "factor": "higher current density",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При повышении плотности тока желательно иметь электролит с наименьшим сопротивлением.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Increasing electrolyte acidity and reducing copper sulfate concentration lower the resistance of the electrolyte.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "electrolyte resistance",
+    "direction": "decreases",
+    "factor": "higher acidity, lower CuSO4 concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это достигается повышением до определенных пределов кислотности электролита и снижением концентрации медного купороса.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Higher temperature improves electrical conductivity but also promotes oxidation of monovalent copper and cathode dissolution; therefore temperature rise must be accompanied by a suitable increase in current density.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "higher temperature with adequate current density",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение температуры, также желательное с точки зрения максимальной электропроводности, способствует окислению одновалентной меди и химическому растворению катода. Поэтому повышение температуры должно сопровождаться повышением в определенных пределах плотности тока",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Presence of iron in the copper electrolyte at 2‑13 g/l reduces current output by 0.2‑0.5 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current output",
+    "direction": "decreases",
+    "factor": "Fe 2‑13 g/l",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Присутствие железа в медном электролите в пределах 2-13 г/л при рафинировании меди ... приводит к снижению выхода по току на 0,2-0,5%.",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Short circuits and current leaks have the greatest impact on current utilization, especially at increased current density.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current utilization",
+    "direction": "decreases",
+    "factor": "short circuits, leaks, high current density",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "наибольшее значение в отношении использования тока имеет не борьба с вредными химическими процессами, а борьба с короткими замыканиями и утечками тока, в особенности при повышенной плотности тока",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Industrial practice in the USSR commonly uses a current density of 180 A/m²; 270 A/m² is typical for the Great Falls plant; 350 A/m² for the Mount‑Layell plant.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В табл. 1 плотности тока приняты: 180 а/м 2 как наиболее широко применяемая у нас в СССР , 270 а/м 2 - плотность тока завода Грэт-Фоллс, 350 а/м 2 -плотность тока завода Маунт-Лайель.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "For better insulation and to reduce grounding hazards, granite or basalt blocks with lead caps are installed above the tank columns, and glass isolators are used.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "insulation",
+    "direction": "increases",
+    "factor": "granite/basalt blocks, lead caps, glass isolator",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для лучшей изоляции и уменьшения опасности заземления прибегают к следующим мероприятиям: 1. В верхней части столбиков под ваннами устраиваются гранитные или базальтовые блоки, закрываемые свинцовыми крышками... Стеклянный изолятор применяется при этом, как обычно.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Плотность тока является основным фактором, влияющим на производительность электролитного предприятия и электролизера.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "productivity",
+    "direction": "increases",
+    "factor": "current density",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность тока является основным фактором, влияющим на производительность электролитного предприятия и электролизера.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Обычно свинец содержит сурьму.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "composition",
+    "direction": "increases",
+    "factor": "lead",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обычно свинец содержит сурьму.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Для изготовления ванн стали часто употреблять железобетон, который при правильном расположении арматуры является непроводником тока.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "electrical conductivity",
+    "direction": "decreases",
+    "factor": "concrete with proper reinforcement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для изготовления ванн стали часто употреблять железобетон, который при правильном расположении арматуры является непроводником тока",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Футеровка из кислотоупорного асфальта выдерживает температуру 70‑100 °C и при ремонте легко заменяется.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "acid‑resistant asphalt lining",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Последний выдерживает температуру 70-100 ° и при ремонте легко заменяется.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Увеличение плотности тока требует повышения скорости циркуляции электролита, что облегчает механический перенос благородных металлов в шламме на катод.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "noble‑metal transfer",
+    "direction": "increases",
+    "factor": "circulation speed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при увеличении плотности тока приходится для выравнивания состава электролита в катодном и анодном пространстве увеличивать скорость циркуляции, что облегчает механический перенос благородных металлов в шламме на катод.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Повышение температуры электро‑рафинирования улучшает диффузию меди, снижает вязкость электролита и облегчает осаждение мелкого шлама.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "viscosity",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При этом улучшается диффузия меди и может быть несколько снижена скорость циркуляции электролита, снижается вязкость электролита и облегчается осаждение мелкого шламма",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Опыт и расчёт показали, что рафинирование меди по схеме селективного бессемерования в пять раз дешевле, чем по стандартной схеме с электролизом.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "process scheme",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Опыт и расчет показали, что рафинирование меди по такой схеме раз в пять дешевле, чем по стандартной с применением электролиза.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "свыше 98% всей заводской меди может быть рафинировано в конверторе и только незначительное количество (около 2%) должно быть обязательно переработано электролизом",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "refining share",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На основании этого заводского опыта было сделано заключение, что свыше 98% всей заводской меди может быть рафинировано в конверторе и только незначительное количество (около 2%) должно быть обязательно переработано электролизом.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "идея процесса базировалась на опыте производства медного боттомса на заводе Гренби",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Авторы работы отмечают, что идея процесса базировалась на опыте производства медного боттомса на заводе Гренби.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "при электрорафинировании полученных двух сортов меди электролитный завод получает значительные выгоды",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "economic benefit",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При электрорафинировании полученных двух сортов меди электролитный завод получает значительные выгоды.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "создаются условия, позволяющие вести электролиз очищенной меди при более высокой плотности тока, чем обычно, с незначительными относительно потерями благородных металлов",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При этом создаются условия, позволяющие вести электролиз очищенной меди при более высокой плотности тока, чем обычно, с незначительными относительно потерями благородных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "медь, обогащенная примесями, а также золотом и серебром, может быть очищена в достаточной степени от ряда примесей (за исключением благородных металлов) предварительным огневым рафинированием, а затем подвергнута электролизу при низкой плотности тока, НИЗКОЙ скорости циркуляции электролита и высокой относительно температуре",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Обогащенная примесями, а также золотом и серебром медь может быть очищена в достаточной степени от ряда примесей (за исключением благородных металлов) предварительным огневым рафинированием, а затем подвергнута электролизу при низкой плотности тока, НИЗКОЙ скорости циркуляции электролита и высокой относительно температуре.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "потери золота и серебра при этом могут быть весьма незначительны",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "noble‑metal loss",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Потери золота и серебра при этом могут быть весьма незначительны.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "в сумме будет достигнуто увеличение производительности установки, снижение потерь благородных металлов и большая экономичность производства",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "productivity, noble‑metal loss, economy",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом в сумме будет достигнуто увеличение производительности установки, снижение потерь благородных металлов и большая экономичность производства.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "применяемая максимальная длина ванны в 5 м близка к экономически целесообразной",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "bath length",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "применяемая максимальная длина ванны в 5 м близка к экономически целесообразной.",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "дальнейшее увеличение использования объёма ванн в медном электролизе возможно",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "bath volume usage",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "показало, что дальнейшее увеличение использования объёма ванн в (медном электролизе возможно",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "получение катодного осадка в виде непрерывного полотна может быть применено либо как вспомогательная операция для получения основных катодных листов при обычной схеме электролиза, либо как самостоятельная операция",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Получение катодного осадка в виде непрерывного полотна может быть применено либо как вспомогательная операция для получения основных катодных листов при обычной схеме электролиза, либо как самостоятельная операция.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "электролиз по системе серий обладает рядом крупных преимуществ по сравнению с системой мультипл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "advantages",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электролиз по системе серий обладает ряд крупных преимуществ по сравнению с системой мультипл.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "эта система требует анодного материала высокой чистоты с относительно малым содержанием благородных металлов (потери их достигают 2-2,5%) и тщательно подготовленной поверхностью, например путем проката.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purity and surface condition",
+    "direction": "decreases",
+    "factor": "noble metal loss",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "эта система требует анодного материала высокой чистоты с относительно малым содержанием благородных металлов (потери их достигают 2-2,5%) и тщательно подготовленной поверхностью, например путем проката.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Первые два требования могут быть выполнены путем применения селективного бессемерования, в особенности казахстанской меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fulfilment of purity and low noble metal content",
+    "direction": "increases",
+    "factor": "feasibility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Первые два требования могут быть выполнены путем применения селективного бессемерования, в особенности казахстанской меди.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Выполнение последнего требования значительно упрощается прокатом жидкого анодного металла.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "surface preparation",
+    "direction": "increases",
+    "factor": "ease",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выполнение последнего требования значительно упрощается прокатом жидкого анодного металла.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-9-2018-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:enriched-copper-обедненная-медь",
+   "dst": "mat:raw-copper-черновая-медь",
+   "process": "other",
+   "kind": null,
+   "snippet": "ТАБЛИЦА 3. Результаты селективного бессемерования на Кюнипто Майнс",
+   "doc_id": "doc:цм-No-9-2018-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

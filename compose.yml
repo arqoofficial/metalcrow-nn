@@ -33,6 +33,42 @@ services:
     volumes:
       - redis-data:/data
 
+  minio:
+    image: minio/minio:latest
+    restart: always
+    command: server /data --console-address ":9001"
+    env_file:
+      - .env
+    environment:
+      - MINIO_ROOT_USER=${MINIO_ROOT_USER:-minioadmin}
+      - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD:-changethis}
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+      timeout: 5s
+    volumes:
+      - minio-data:/data
+
+  minio-init:
+    image: minio/mc:latest
+    depends_on:
+      minio:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - MINIO_ROOT_USER=${MINIO_ROOT_USER:-minioadmin}
+      - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD:-changethis}
+      - MINIO_BUCKET=${MINIO_BUCKET:-metalcrow-documents}
+    entrypoint: >
+      /bin/sh -c "
+      mc alias set local http://minio:9000 $$MINIO_ROOT_USER $$MINIO_ROOT_PASSWORD &&
+      mc mb --ignore-existing local/$$MINIO_BUCKET
+      "
+    restart: "no"
+
   # Neo4j — опциональный компонент (SPEC_V3 §3 п.8, P1), первый кандидат на
   # отрез при нехватке времени. Graph API деградирует до 503/SQL fallback,
   # если контейнер недоступен (см. app/services/graph.py, Фаза 4).
@@ -117,6 +153,11 @@ services:
       - LLM_INTENT_MODEL=${LLM_INTENT_MODEL:-Openai/Gpt-oss-120b}
       - ONTOLOGY_LLM_INTENT=${ONTOLOGY_LLM_INTENT:-1}
       - ONTOLOGY_LLM_SYNTH=${ONTOLOGY_LLM_SYNTH:-1}
+    # metalcrow-net — как у science-knowledge-graph: чтобы ingest_shared мог
+    # достучаться до парсера на http://parser-main:8114 (SHARED-корпус).
+    networks:
+      - default
+      - metalcrow-net
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
       interval: 10s
@@ -215,6 +256,8 @@ services:
         condition: service_completed_successfully
       redis:
         condition: service_healthy
+      minio:
+        condition: service_healthy
       # Парсер — отдельный compose-стек (`make up`); backend не health-гейтим на него.
       # Не health-гейтим backend на science-knowledge-graph — сервис опциональный,
       # недоступность деградирует до пустого результата (see
@@ -246,11 +289,42 @@ services:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
       - SENTRY_DSN=${SENTRY_DSN}
       - REDIS_URL=redis://redis:6379/0
+      - MINIO_ENDPOINT=minio:9000
+      - MINIO_ROOT_USER=${MINIO_ROOT_USER:-minioadmin}
+      - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD:-changethis}
+      - MINIO_BUCKET=${MINIO_BUCKET:-metalcrow-documents}
+      - MINIO_SECURE=${MINIO_SECURE:-false}
       - PARSER_URL=${PARSER_URL:-http://parser-main:8114}
       - NEO4J_URI=${NEO4J_URI:-bolt://neo4j:7687}
       - NEO4J_USER=${NEO4J_USER:-neo4j}
       - NEO4J_PASSWORD=${NEO4J_PASSWORD?Variable not set}
       - SCIENCE_KG_URL=http://science-knowledge-graph:8000
+      # ReAct-агент (SPEC_V3 §5.7). Включён по умолчанию: при заданном LLM URL/ключе
+      # отвечает агент, иначе (или при любой ошибке LLM) — прежний водопад.
+      - LLM_AGENT_ENABLED=${LLM_AGENT_ENABLED:-true}
+      - LLM_AGENT_GATEWAY_URL=${LLM_AGENT_GATEWAY_URL:-}
+      - LLM_AGENT_API_KEY=${LLM_AGENT_API_KEY:-}
+      # Пусто по умолчанию → агент падает назад на общий LLM_INTENT_MODEL (модель
+      # сайдкаров). Свою модель агента задавать только вместе со своим gateway.
+      - LLM_AGENT_MODEL=${LLM_AGENT_MODEL:-}
+      - OKF_ROOT=/app/okf
+      # litsearch tool: `start_search` (abstract synthesis + OpenAlex search +
+      # fetch dispatch) runs INLINE in the backend request handler, so the
+      # backend needs the same litsearch/LLM/fetcher config as worker-litsearch
+      # (which also calls start_search for follow-up rounds). Without LLM_* here
+      # the abstract answer #1 silently degrades to the template fallback.
+      - ARTICLE_FETCHER_URL=http://article-fetcher:8200
+      - LITSEARCH_BASE_URL=${LITSEARCH_BASE_URL:-}
+      - LITSEARCH_API_KEY=${LITSEARCH_API_KEY:-}
+      - LITSEARCH_LLM_MODEL=${LITSEARCH_LLM_MODEL:-deepseek/deepseek-v4-flash__or}
+      - LITSEARCH_LLM_TIMEOUT=${LITSEARCH_LLM_TIMEOUT:-180}
+      - LITSEARCH_MAX_RESULTS=${LITSEARCH_MAX_RESULTS:-5}
+      - LITSEARCH_MAX_ROUNDS=${LITSEARCH_MAX_ROUNDS:-2}
+      - LITSEARCH_FULLTEXT_CHAR_CAP=${LITSEARCH_FULLTEXT_CHAR_CAP:-60000}
+      - LITSEARCH_FETCH_TIMEOUT=${LITSEARCH_FETCH_TIMEOUT:-180}
+      - LITSEARCH_INGEST_ENABLED=${LITSEARCH_INGEST_ENABLED:-true}
+    volumes:
+      - ./okf:/app/okf
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/utils/health-check/"]
       interval: 10s
@@ -259,6 +333,99 @@ services:
     networks:
       - default
       - metalcrow-net
+
+  # article-fetcher — internal-only sidecar (OpenAlex search + DOI/URL PDF
+  # download, optional headless-stealth tier). Internal-only (no published
+  # port): backend/worker-litsearch reach it at http://article-fetcher:8200
+  # (ARTICLE_FETCHER_URL). See services/article-fetcher/README.md.
+  article-fetcher:
+    build:
+      context: .
+      dockerfile: services/article-fetcher/Dockerfile
+    restart: always
+    depends_on:
+      minio:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - MINIO_ENDPOINT=http://minio:9000
+      - MINIO_BUCKET=${MINIO_BUCKET:-metalcrow-documents}
+      - MINIO_ACCESS_KEY=${MINIO_ROOT_USER:-minioadmin}
+      - MINIO_SECRET_KEY=${MINIO_ROOT_PASSWORD:-changethis}
+      - MINIO_PUBLIC_ENDPOINT=http://minio:9000
+      - REDIS_URL=redis://redis:6379/0
+      - OPENALEX_API_KEY=${OPENALEX_API_KEY:-}
+      - OPENALEX_MAILTO=${OPENALEX_MAILTO:-}
+      - CYBERLENINKA_PROXY_URL=${CYBERLENINKA_PROXY_URL:-socks5h://37.16.81.138:1080}
+
+  # worker-litsearch — Celery worker for the litsearch tool loop's
+  # asynchronous steps (monitor/reconcile/synthesize/add_to_database, Tasks
+  # 8-10). Explicit `:celery_app` app path avoids auto-discovery ambiguity
+  # with the other Celery apps in this repo (worker-etl/embed/graph),
+  # matching their convention.
+  worker-litsearch:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: always
+    # Phase B is I/O-bound (LLM calls + PDF-download waits, which the heartbeat
+    # releases the slot for), so prefork slots free up quickly. 6 handles a burst
+    # of ~10 concurrent users with modest queueing; the real ceiling is the LLM
+    # gateway's concurrent-request capacity. To scale further: cap the SQLAlchemy
+    # pool, switch to a gevent pool (-P gevent -c 20+), or run replicas
+    # (`--scale worker-litsearch=N`). See docs/litsearch-findings.md.
+    command: ["celery", "-A", "app.worker.litsearch_app:celery_app", "worker", "-Q", "litsearch", "--concurrency=6", "--loglevel=info"]
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+      article-fetcher:
+        condition: service_started
+    env_file:
+      - .env
+    environment:
+      - FRONTEND_HOST=${FRONTEND_HOST?Variable not set}
+      - ENVIRONMENT=${ENVIRONMENT}
+      - BACKEND_CORS_ORIGINS=${BACKEND_CORS_ORIGINS}
+      - SECRET_KEY=${SECRET_KEY?Variable not set}
+      - FIRST_SUPERUSER=${FIRST_SUPERUSER?Variable not set}
+      - FIRST_SUPERUSER_PASSWORD=${FIRST_SUPERUSER_PASSWORD?Variable not set}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - EMAILS_FROM_EMAIL=${EMAILS_FROM_EMAIL}
+      - POSTGRES_SERVER=db
+      - POSTGRES_PORT=${POSTGRES_PORT:-5432}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER?Variable not set}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
+      - SENTRY_DSN=${SENTRY_DSN}
+      - REDIS_URL=redis://redis:6379/0
+      - MINIO_ENDPOINT=minio:9000
+      - MINIO_ROOT_USER=${MINIO_ROOT_USER:-minioadmin}
+      - MINIO_ROOT_PASSWORD=${MINIO_ROOT_PASSWORD:-changethis}
+      - MINIO_BUCKET=${MINIO_BUCKET:-metalcrow-documents}
+      - MINIO_SECURE=${MINIO_SECURE:-false}
+      - NEO4J_URI=${NEO4J_URI:-bolt://neo4j:7687}
+      - NEO4J_USER=${NEO4J_USER:-neo4j}
+      - NEO4J_PASSWORD=${NEO4J_PASSWORD?Variable not set}
+      - SCIENCE_KG_URL=http://science-knowledge-graph:8000
+      - ARTICLE_FETCHER_URL=http://article-fetcher:8200
+      - LITSEARCH_BASE_URL=${LITSEARCH_BASE_URL:-}
+      - LITSEARCH_API_KEY=${LITSEARCH_API_KEY:-}
+      - LITSEARCH_LLM_MODEL=${LITSEARCH_LLM_MODEL:-deepseek/deepseek-v4-flash__or}
+      - LITSEARCH_LLM_TIMEOUT=${LITSEARCH_LLM_TIMEOUT:-180}
+      - LITSEARCH_MAX_RESULTS=${LITSEARCH_MAX_RESULTS:-5}
+      - LITSEARCH_MAX_ROUNDS=${LITSEARCH_MAX_ROUNDS:-2}
+      - LITSEARCH_FULLTEXT_CHAR_CAP=${LITSEARCH_FULLTEXT_CHAR_CAP:-60000}
+      - LITSEARCH_FETCH_TIMEOUT=${LITSEARCH_FETCH_TIMEOUT:-180}
+      - LITSEARCH_INGEST_ENABLED=${LITSEARCH_INGEST_ENABLED:-true}
 
   frontend:
     build:

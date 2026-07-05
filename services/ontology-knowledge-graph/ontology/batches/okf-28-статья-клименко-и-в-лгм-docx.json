@@ -1,0 +1,1532 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "title": "28 Статья - Клименко И.В. (ЛГМ).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\28 Статья - Клименко И.В. (ЛГМ).docx.md",
+   "artifact_sha256": "b49b1f0f7019714ca4cba2441ce8f935a21bd5bc566d4696e6d95e373e7edc70",
+   "okf_raw_path": "Статьи/28 Статья - Клименко И.В. (ЛГМ).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:Ni",
+   "label": "Ni",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Cl",
+   "label": "Cl",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:SO4",
+   "label": "SO₄",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fe",
+   "label": "Fe",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:na",
+   "label": "Na",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Cu",
+   "label": "Cu",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fe-ii-solution",
+   "label": "Fe(II) solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:o2-n2-gas-mixture",
+   "label": "O₂/N₂ gas mixture",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cu2-0-92-g-dm3",
+   "label": "Cu²⁺ (0.92 g/dm³)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:o2-in-gas-phase",
+   "label": "O₂ in gas phase",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fe-ii-in-nickel-solution",
+   "label": "Fe(II) in nickel solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:o2-gas-phase",
+   "label": "O₂ (gas phase)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:28-статья-клименко-и-в-лгм-docx:0",
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "title": "Base laboratory experiment (zero‑run)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory oxidation of Fe²⁺ in a 1 L glass vessel",
+       "temperature_text": "80 °C",
+       "duration_text": "1 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 353.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:Ni",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:Cl",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:SO4",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:fe",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:na",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:Cu",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "mixing speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 935.0,
+      "max": null
+     },
+     "unit": "об/мин",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "935 об/мин мешалки",
+     "locator_kind": "md_para",
+     "locator": "para:14",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "O"
+     },
+     "method": null,
+     "snippet": "40% О₂ в подаваемой КВС",
+     "locator_kind": "md_para",
+     "locator": "para:14",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "gas_flow",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "л/мин",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "расход – 2 л/мин",
+     "locator_kind": "md_para",
+     "locator": "para:14",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Базовый набор параметров использовался для последующего варьирования отдельных факторов.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "experimental design",
+      "direction": "no_change",
+      "factor": "all",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Условия базового (нулевого) опыта: - 935 об/мин мешалки; - 40% О₂ в подаваемой КВС; расход – 2 л/мин - pH раствора = 1,6; - Температура раствора - 80 оС; - Состав раствора: 200-220 г/дм³ Ni; 250-260 г/дм³ Cl; 35-40 г/дм³ SO₄ ; 8-10 г/дм³ Fe; 8-10 г/дм³ Na; 0,85-0,95 г/дм³ Cu.",
+     "locator_kind": "md_para",
+     "locator": "para:13",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Продолжительность всех опытов составляла 1 ч, каждые 10 минут отбирались пробы раствора на химический анализ, каждые 5 мин. регистрировались значения pH, ОВП.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:28-статья-клименко-и-в-лгм-docx:1",
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "title": "Preliminary series to assess mixing intensity",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory oxidation of Fe²⁺ with varied stirrer speed",
+       "temperature_text": "80 °C",
+       "duration_text": "300 min"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 353.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:Ni",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:Cl",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:fe",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "sample interval",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6000.0,
+      "max": null
+     },
+     "unit": "s",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Опыты проводились в течение 300 мин, пробы отбирались каждые 100 мин.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Опыт позволил снять кинетические кривые окисления железа и определить необходимую интенсивность перемешивания, обеспечивающую снятие диффузионных ограничений.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "mixing intensity",
+      "direction": "increases",
+      "factor": "mixing speed",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Указанная продолжительность опытов позволила снять кинетические кривые окисления железа, определить необходимую интенсивность перемешивания, обеспечивающую снятие диффузионных ограничений, для постановки дальнейших экспериментов.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Предварительная серия опытов проводилась для определения влияния перемешивания на окисление железа.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:28-статья-клименко-и-в-лгм-docx:2",
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "title": "Effect of mixing power on iron(II) oxidation kinetics",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidation of Fe(II) in aqueous solution",
+       "temperature_text": "not specified",
+       "duration_text": "not specified (kinetic curves recorded over time)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe-ii-solution",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "All subsequent experiments were performed at a stirrer speed of 935 min⁻¹, corresponding to a specific mixing power in the range 1000–1150 Вт/м³.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operating conditions",
+      "direction": "increases",
+      "factor": "mixing power",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Все дальнейшие опыты вели при скорости вращения мешалки 935 мин⁻¹, что соответствовало удельной мощности перемешивания в пределах 1000 – 1150 Вт/м³",
+     "locator_kind": "md_para",
+     "locator": "para:31",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Все дальнейшие опыты вели при скорости вращения мешалки 935 мин⁻¹, что соответствовало удельной мощности перемешивания в пределах 1000 – 1150 Вт/м³ (диапазон обусловлен колебаниями состава раствора и его плотности).",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:28-статья-клименко-и-в-лгм-docx:3",
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "title": "Effect of oxygen content in gas mixture on iron oxidation rate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidation of Fe(II) in aqueous solution under gas flow",
+       "temperature_text": "not specified",
+       "duration_text": "less than 1 hour for 100% O₂"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe-ii-solution",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:o2-n2-gas-mixture",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "fraction of Fe oxidized",
+     "scope": "material",
+     "material_id": "mat:fe-ii-solution",
+     "value": {
+      "min": null,
+      "nominal": 99.9,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В опыте с содержанием кислорода 100 % об. 99,9 % железа было окислено до окончания эксперимента, т.е., менее чем за час",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:o2-n2-gas-mixture",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "O"
+     },
+     "method": null,
+     "snippet": "Содержание кислорода (выраженное в объёмных процентах) в газовой смеси изменяли в диапазоне от 20 % об. до 100 % об.",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "There is a direct proportional dependence between oxygen concentration in the gas mixture and the iron oxidation rate.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "oxidation rate",
+      "direction": "increases",
+      "factor": "oxygen concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Очевидно, что существует прямая пропорциональная зависимость между концентрацией кислорода в газовой смеси и скоростью окисления железа.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В опыте с содержанием кислорода 100 % об. 99,9 % железа было окислено до окончания эксперимента, т.е., менее чем за час",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:28-статья-клименко-и-в-лгм-docx:4",
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "title": "Base experiment with copper mediator vs. without copper",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidation of Fe(II) in presence or absence of Cu²⁺",
+       "temperature_text": "not specified",
+       "duration_text": "1 hour"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe-ii-solution",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:cu2-0-92-g-dm3",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "oxidation depth (α) after 1 h with Cu",
+     "scope": "material",
+     "material_id": "mat:fe-ii-solution",
+     "value": {
+      "min": null,
+      "nominal": 47.5,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Глубина окисления железа (II) в условиях базового опыта (в присутствии 0,92 г/дм³ Cu, аналогично содержаниям, наблюдающимся в промышленной практике АО «Кольская ГМК») за час составила 47,5 %",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "oxidation depth (α) after 1 h without Cu",
+     "scope": "material",
+     "material_id": "mat:fe-ii-solution",
+     "value": {
+      "min": null,
+      "nominal": 8.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "а в отсутствии меди (прямое окисление железа кислородом) за час составила 8,8 %",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The presence of copper markedly accelerates iron oxidation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "oxidation depth",
+      "direction": "increases",
+      "factor": "copper mediator",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Глубина окисления железа (II) ... за час составила 47,5 %, а в отсутствии меди ... за час составила 8,8 %",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Глубина окисления железа (II) в условиях базового опыта (в присутствии 0,92 г/дм³ Cu, аналогично содержаниям, наблюдающимся в промышленной практике АО «Кольская ГМК») за час составила 47,5 %, а в отсутствии меди (прямое окисление железа кислородом) за час составила 8,8 %",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:28-статья-клименко-и-в-лгм-docx:5",
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "title": "Determination of reaction order with respect to oxygen",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidation of Fe(II) at different O₂ partial pressures, keeping 50 % conversion depth",
+       "temperature_text": "not specified",
+       "duration_text": "varies to reach 50 % conversion"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe-ii-solution",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:o2-n2-gas-mixture",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The reaction order with respect to oxygen (n) can be obtained from the logarithmic relation n = log_{P₁/P₂}(α₂/α₁).",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "n= log_{\\frac{P_{1}}{P_{2}}}(\\frac{_{2}}{_{1}})",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для двух опытов, отличающихся только содержанием кислорода в газовой фазе, … получаем: … (P₁/P₂)ⁿ",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:28-статья-клименко-и-в-лгм-docx:6",
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "title": "Effect of oxygen concentration on reaction depth and order",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Oxidation of Fe(II) in gas‑phase oxygen at various O₂ concentrations",
+       "temperature_text": "not specified (ambient)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe-ii-solution",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:o2-in-gas-phase",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "time_duration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 110.77,
+      "max": null
+     },
+     "unit": "s",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reach reaction depth α = 50 %"
+     },
+     "method": null,
+     "snippet": "Время достижения глубины протекания реакции α = 50% 110,77",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "time_duration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 55.88,
+      "max": null
+     },
+     "unit": "s",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reach reaction depth α = 50 %"
+     },
+     "method": null,
+     "snippet": "Время достижения глубины протекания реакции α = 50% 55,88",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "time_duration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 37.15,
+      "max": null
+     },
+     "unit": "s",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reach reaction depth α = 50 %"
+     },
+     "method": null,
+     "snippet": "Время достижения глубины протекания реакции α = 50% 37,15",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "time_duration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 26.13,
+      "max": null
+     },
+     "unit": "s",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reach reaction depth α = 50 %"
+     },
+     "method": null,
+     "snippet": "Время достижения глубины протекания реакции α = 50% 26,13",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "time_duration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.47,
+      "max": null
+     },
+     "unit": "s",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reach reaction depth α = 50 %"
+     },
+     "method": null,
+     "snippet": "Время достижения глубины протекания реакции α = 50% 20,47",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "reaction order with respect to oxygen",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расчетный порядок реакции по кислороду 1,0",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "reaction order with respect to oxygen",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расчетный порядок реакции по кислороду 1,0",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "reaction order with respect to oxygen",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расчетный порядок реакции по кислороду 1,0",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "reaction order with respect to oxygen",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расчетный порядок реакции по кислороду 1,0",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Порядок реакции по кислороду во всех случаях равен единице.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reaction order (oxygen)",
+      "direction": "increases",
+      "factor": "oxygen concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Расчет показывает, что порядок реакции по кислороду во всех случаях равен единице.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Порядок реакции для каждого эксперимента рассчитан по уравнению (13).",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:28-статья-клименко-и-в-лгм-docx:7",
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "title": "Temperature effect on Fe(II) oxidation rate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Oxidation of Fe(II) in nickel solution with constant O₂ supply",
+       "temperature_text": "60 °C to 90 °C (step 10 °C)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe-ii-in-nickel-solution",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:o2-gas-phase",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "relative increase of oxidation rate per 10 °C",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при повышении температуры на каждые 10 о С скорость окисления возрастает приблизительно на 10%.",
+     "locator_kind": "md_para",
+     "locator": "para:82",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "coefficient of determination for linear fit",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.89,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "коэффициент детерминации R 2 = 0,89",
+     "locator_kind": "md_para",
+     "locator": "para:82",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "average rate constant k at 60 °C",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.000112,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Среднее значение k 0,000112",
+     "locator_kind": "md_para",
+     "locator": "para:94",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "average rate constant k at 70 °C",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.000142,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Среднее значение k 0,000142",
+     "locator_kind": "md_para",
+     "locator": "para:94",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "average rate constant k at 80 °C",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.000171,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Среднее значение k 0,000171",
+     "locator_kind": "md_para",
+     "locator": "para:94",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "average rate constant k at 90 °C",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.000169,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Среднее значение k 0,000169",
+     "locator_kind": "md_para",
+     "locator": "para:94",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "slope of Arrhenius plot (−Ea/R)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -1724.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "угловой коэффициент прямой k соответствует значению $-\\frac{E_{a}}{R}$ ... имеет значение, равное -1724,4.",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "calculated activation energy Ea",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 14.34,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "расчетная энергия активации составляет 14,34 кДж/моль.",
+     "locator_kind": "md_para",
+     "locator": "para:106",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Скорость окисления возрастает приблизительно на 10 % при повышении температуры на каждые 10 °C.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "oxidation rate",
+      "direction": "increases",
+      "factor": "temperature",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при повышении температуры на каждые 10 о С скорость окисления возрастает приблизительно на 10%.",
+     "locator_kind": "md_para",
+     "locator": "para:82",
+     "confidence": 0.9
+    },
+    {
+     "text": "Полученная энергия активации (14,34 кДж/моль) считается аномальной и указывает на диффузионный либо переходный режим.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "activation energy",
+      "direction": "decreases",
+      "factor": "calculated value",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Такое значение выглядит аномальным, поскольку ... оно указывает на диффузионный либо переходный режим протекания реакции",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Температура варьировалась от 60 о С до 90 о С с шагом в 10 о С.",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Переход цеха электролиза никеля No2 (ЦЭН‑2) АО «Кольская ГМК» на технологию электроэкстракции никеля из растворов хлорного выщелачивания потребовал значительного изменения режимов работы на ряде переделов площадки, включая передел железоочистки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating regime",
+    "direction": "increases",
+    "factor": "process complexity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Переход цеха электролиза никеля No2 (ЦЭН-2) АО «Кольская ГМК» на технологию электроэкстракции никеля из растворов хлорного выщелачивания, концепция которой описана в [1], потребовал значительного изменения режимов работы на ряде переделов площадки, включая передел железоочистки.",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Процесс железоочистки в условиях высококонцентрированных хлоридных растворов был изучен в лабораторном и пилотном масштабах, а затем отработанные решения были успешно внедрены в промышленном масштабе.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technology readiness",
+    "direction": "no_change",
+    "factor": "scale",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Хотя процесс железоочистки в условиях высококонцентрированных хлоридных растворов был изучен в лабораторном [3] и пилотном [2] масштабах, а затем отработанные решения были успешно внедрены в промышленном масштабе",
+   "locator_kind": "md_para",
+   "locator": "para:4",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Для текущих исследований была выбрана концентрация железа в никелевом растворе на уровне 8‑10 г/дм³.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "iron content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "для текущих исследований была выбрана концентрация железа в никелевом растворе на уровне 8-10 г/дм³.",
+   "locator_kind": "md_para",
+   "locator": "para:5",
+   "confidence": 0.81,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Удельную мощность перемешивания (E_уд) рассчитывают как N/V = K_n n³ d⁵ / V.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "specific mixing power",
+    "direction": "no_change",
+    "factor": "formula",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "E уд рассчитывается как: $E_{ \\cyru \\cyrd }=\\frac{N}{V}= \\frac{K_{n}n^{3}d^{5}}{V}$",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.81,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Для расчётов удельной мощности в лабораторной установке использовались: d=0,04 м; V=0,0007 м³; K_n=8,4; тип мешалки – 6‑ти лопастная турбинная с вертикальными лопатками.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "input parameters",
+    "direction": "no_change",
+    "factor": "geometry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При расчете удельной мощности были приняты следующие исходные данные, отвечающие условиям проведения экспериментов в лабораторной установке: d=0,04 м; V=0,0007 м³ ; тип мешалки – 6-ти лопастная турбинная с вертикальными лопатками в аппарате без отражательных перегородок с K N =8,4.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "There is a direct proportional dependence between oxygen concentration in the gas mixture and the iron oxidation rate.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxidation rate",
+    "direction": "increases",
+    "factor": "oxygen concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Очевидно, что существует прямая пропорциональная зависимость между концентрацией кислорода в газовой смеси и скоростью окисления железа.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "The order of the oxidation reaction with respect to iron is one, both in the presence and absence of copper.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "можно сделать вывод, что порядок реакции окисления по железу как в присутствии в растворе меди, так и без неё, неё равен единице.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "For any reversible reaction there exists an initial time interval where the reaction depth is small and the reaction can be treated as irreversible.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "для любой двусторонней реакции (такой как реакция 3) существует некоторый начальный промежуток времени, когда величина глубины протекания реакции мала, и двустороннюю реакцию можно рассматривать как одностороннюю.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "The rate equation for a one‑step reaction A+B→C+D can be written as –dC_A/dt = –dC_B/dt = k C_A^{n1} C_B^{n2}.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "уравнение скорости имеет общий вид: –\\frac{dC_{A}}{d}=–\\frac{dC_{B}}{d}=kC_{A}^{n_{1}}C_{B}^{n_{2}}",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.81,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "In the iron oxidation system the rate can be expressed as v = k C_{Fe} C_{O2}^{n}, with the iron order fixed at 1.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Запишем уравнение скорости реакции железа в общем виде: –\\frac{dC_{Fe}}{d}=kC_{Fe}C_{O_{2}}^{n}",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.81,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "The Henry‑Dalton law relates dissolved oxygen concentration to its partial pressure: C = K_H P.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "C = K_{\\CYRG} P",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.45,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "The specific mixing power range 1000–1150 W/m³ is caused by variations in solution composition and density.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "диапазон обусловлен колебаниями состава раствора и его плотности",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Окисление железа(II) в одномолярных растворах серной и соляной кислоты при температуре 40 °C дает такой же порядок реакции по кислороду, равный единице.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction order (oxygen)",
+    "direction": "increases",
+    "factor": "literature result",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Схожий результат был получен в работе [10] в ходе окисления железа(II) в одномолярных растворах серной и соляной кислоты при температуре 40 о С.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "При повышении температуры раствора снижается растворимость кислорода, что уменьшает его равновесное содержание в объёме раствора.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "decreases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "с повышением температуры раствора снижается растворимость кислорода и, соответственно, его равновесное содержание в объёме раствора",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Увеличение температуры оказывает двойное влияние: снижает равновесную концентрацию кислорода, но повышает кинетику окисления, ускоряя процесс.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxidation rate",
+    "direction": "increases",
+    "factor": "temperature (kinetic effect)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "увеличение температуры раствора оказывает сложное разнонаправленное влияние, с одной стороны снижая равновесную концентрацию кислорода в растворе, а с другой положительно влияя на кинетику окисления и повышая скорость усвоения кислорода раствором.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Энергия активации выше 40 кДж/моль характерна для кинетической области гетерогенных реакций.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "activation energy threshold",
+    "direction": "increases",
+    "factor": "kinetic regime",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "значения энергии активации выше 40 кДж/моль.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Для оценки истинной энергии активации необходимо ввести поправочный коэффициент, учитывающий снижение растворимости кислорода с ростом температуры.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "activation energy",
+    "direction": "increases",
+    "factor": "solubility correction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для оценки истинной энергии активации потребовалось определить поправочный коэффициент учёта снижения растворимости кислорода.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "В отсутствие данных о растворимости кислорода в никелевых растворах использованы справочные данные о растворимости в чистой воде.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "nonmonotonic",
+    "factor": "literature substitution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в литературе не удалось найти данных о растворимости кислорода в растворах ... поэтому для оценочных расчетов были использованы справочные данные о растворимости кислорода воздуха в чистой воде",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.45,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "необходимая мощность перемешивания (>662 Вт/м 3 ), которая позволит обеспечить максимально эффективный кинетический режим окисления железа (II).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mixing power",
+    "direction": "increases",
+    "factor": ">662 Вт/м 3",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "необходимая мощность перемешивания (>662 Вт/м 3 ), которая позволит обеспечить максимально эффективный кинетический режим окисления железа (II).",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.81,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "порядок реакции окисления железа (II) по железу (II), равный 1",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction order",
+    "direction": "increases",
+    "factor": "1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "порядок реакции окисления железа (II) по железу (II), равный 1",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "порядок реакции окисления железа (II) по кислороду, равный 1",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction order",
+    "direction": "increases",
+    "factor": "1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "порядок реакции окисления железа (II) по кислороду, равный 1",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "энергия активации реакции окисления железа (II) с учетом влияния температуры на растворимость кислорода (48,18 кДж/моль)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "activation energy",
+    "direction": "increases",
+    "factor": "48,18 кДж/моль",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "энергия активации реакции окисления железа (II) с учетом влияния температуры на растворимость кислорода (48,18 кДж/моль)",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "энергия активации реакции окисления железа (II) без учета этого фактора (14,34 кДж/моль, “кажущаяся” энергия активации)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "activation energy",
+    "direction": "increases",
+    "factor": "14,34 кДж/моль",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "энергия активации реакции окисления железа (II) без учета этого фактора (14,34 кДж/моль, “кажущаяся” энергия активации)",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.45,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "коэффициент корреляции R 2 = 0,998 при построении графика k поправочная от температуры",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "R²",
+    "direction": "increases",
+    "factor": "0,998",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "с коэффициентом корреляции R 2 = 0,998",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "коэффициент корреляции R 2 = 0,995 при построении графика в координатах Аррениуса с использованием поправочной величины константы скорости",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "R²",
+    "direction": "increases",
+    "factor": "0,995",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обладает высоким коэффициентом корреляции R 2 = 0,995",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:28-статья-клименко-и-в-лгм-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

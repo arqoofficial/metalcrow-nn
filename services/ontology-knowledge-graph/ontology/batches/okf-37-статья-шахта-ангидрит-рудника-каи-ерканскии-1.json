@@ -1,0 +1,849 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "title": "37 Статья шахта Ангидрит рудника Кайерканский (1).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\37 Статья шахта Ангидрит рудника Кайерканский (1).docx.md",
+   "artifact_sha256": "8f0552a3c53a32f655704ab958205c450944afe7f45f6be430fb9aea1b6b14e0",
+   "okf_raw_path": "Статьи/37 Статья шахта Ангидрит рудника Кайерканский (1).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:rock-mass-various-lithologies",
+   "label": "Rock mass (various lithologies)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pillar-целик",
+   "label": "Pillar (целик)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:целик-pillar",
+   "label": "целик (pillar)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1:0",
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "title": "Numerical FEM modeling – greenfield and post‑mining stages",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Step 1: model natural stress‑strain state of the rock mass (greenfield) considering only self‑weight; Step 2: model excavation development and formation of pillars in the mass",
+       "temperature_text": "N/A",
+       "duration_text": "N/A"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rock-mass-various-lithologies",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "stress",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "Pa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "es in the productive anhydrite layer"
+     },
+     "method": null,
+     "snippet": "Рисунок 5 – Максимальные главные напряжения по слою продуктивного ангидрита: а) по кровле, Па, б) по почве, Па",
+     "locator_kind": "md_para",
+     "locator": "para:54",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "Tensile stresses in the mudstone floor above the productive anhy",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Как видно на рисунке выше, по почве слоя мергелей присутствуют растягивающие напряжения с величиной до 2 МПа.",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The numerically obtained stress zones accurately reflect the complications observed during operation of the \"Anhydrite\" mine, indicating qualitative agreement of stress distribution in the rock mass.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "stress distribution agreement",
+      "direction": "increases",
+      "factor": "N/A",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Полученные при численном моделировании зоны довольно точно отображают осложнения в рамках эксплуатации шахты «Ангидрит». Таким образом можно сделать вывод о качественном совпадении распределения напряжений в скальном массиве.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    },
+    {
+     "text": "Quantitative convergence between modeled and observed plastic deformation zones was not achieved, requiring local analyses for detailed behavior assessment.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "qualitative_observation",
+      "direction": "decreases",
+      "factor": "N/A",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "не удалось добиться количественной сходимости результатов, что указывает на необходимость решения локальных задач для оценки местных особенностей поведения массива.",
+     "locator_kind": "md_para",
+     "locator": "para:66",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Моделирование выполняется в два шага:\n1. Шаг 1: моделируется природное напряженно-деформированное состояние массива («greenfield»), в котором учитывается только собственный вес массива горных пород; 2. Шаг 2: моделируется отработка выработок и образование целиков в массиве.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1:1",
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "title": "Local numerical modeling of pillar stability in the Angidrit mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "stepwise reduction of pillar width"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pillar-целик",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "reserve of strength (запас прочности)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рассматривалось развитие зон с запасом прочности меньше 1",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "step 1 – zones absent",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "qualitative_observation",
+      "direction": "no_change",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "шаг 1 – зоны отсутствуют",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    },
+    {
+     "text": "step 3 – small low‑strength zones appear at stress concentration points",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "qualitative_observation",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "шаг 3 – присутствуют незначительные зоны с низким запасом прочности в местах концентрации напряжений",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    },
+    {
+     "text": "step 5 – total width reduction of 40 cm, slight growth of low‑strength zones at pillar ends",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "qualitative_observation",
+      "direction": "increases",
+      "factor": "40 cm width reduction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "шаг 5 – суммарное уменьшение ширины целика на 40 см, наблюдается незначительный рост зон с запасом прочности меньше 1 в торцах целика",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    },
+    {
+     "text": "step 6 – total width reduction of 60 cm, zones develop slightly",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "qualitative_observation",
+      "direction": "increases",
+      "factor": "60 cm width reduction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "шаг 6 – суммарное уменьшение ширины целика на 60 см, зоны незначительно развиваются",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    },
+    {
+     "text": "step 10 – total width reduction of 140 cm, zones with reserve <1 increase substantially and start spreading to pillar side surfaces",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "qualitative_observation",
+      "direction": "increases",
+      "factor": "140 cm width reduction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "шаг 10 – суммарное уменьшение ширины целика на 140 см, зоны с запасом прочности меньше 1 существенно увеличились, начинается распространение зон на боковую поверхность целиков",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    },
+    {
+     "text": "step 13 – total width reduction of 200 cm, most pillars have reserve <1",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "qualitative_observation",
+      "direction": "increases",
+      "factor": "200 см width reduction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "шаг 13 – суммарное уменьшение ширины целика на 200 см, большая часть целиков имеет запас прочности меньше 1",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Расчет выполнялся в 15 этапов: 1. Шаг 1. Восстановление природного напряженно-деформированного состояния. 2. Шаг 2. Формирование выработок. 3. Шаг 3. Моделирование очистных работ в расчетной зоне. 4. Шаг 4-15. Поэтапное уменьшение ширины целика с шагом 0,1 м.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1:2",
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "title": "Natural field measurement of pillar width reduction",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "натурные измерения"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:целик-pillar",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ширина целика",
+     "scope": "material",
+     "material_id": "mat:pillar-целик",
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "по результатам натурных измерений, суммарное уменьшение ширины целика составило 80 см, что подтверждает результаты численного моделирования.",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "результаты натурных измерений подтверждают результаты численного моделирования",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "по результатам натурных измерений, суммарное уменьшение ширины целика составило 80 см, что подтверждает результаты численного моделирования.",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "по результатам натурных измерений, суммарное уменьшение ширины целика составило 80 см, что подтверждает результаты численного моделирования.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Применение МКЭ для геомеханических расчетов имеет широкое распространение как в горном деле, так и в гражданском строительстве.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "wide use",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применение МКЭ для геомеханических расчетов имеет широкое распространение как в горном деле, так и в гражданском строительстве.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.81,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Разработка глобальных численных моделей подземных сооружений с высокой степенью детализации является достаточно перспективным направлением в геомеханике.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "prospective direction",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработка глобальных численных моделей подземных сооружений с высокой степенью детализации является достаточно перспективным направлением в геомеханике.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Использование подобных моделей позволяет получить не только укрупненные данные о напряженно-деформированном состоянии (НДС) массива, но и уточнить значения НДС на конкретных интересующих участках, что может быть использовано в дальнейшем при решении локальных задач.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ability to obtain refined stress‑strain data",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использование подобных моделей позволяет получить не только укрупненные данные о напряженно-деформированном состоянии (НДС) массива, но и уточнить значения НДС на конкретных интересующих участках, что может быть использовано в дальнейшем при решении локальных задач.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Разработка подобных конечно-элементных моделей является важным шагом на пути к созданию цифровых двойников рудников.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "importance for digital twins",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработка подобных конечно-элементных моделей является важным шагом на пути к созданию цифровых двойников рудников.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Для того, чтобы корректно определить НДС подземного сооружения, необходимо правильно воссоздать его природное напряженно-деформированное состояние (фактически, учесть преднапряжение массива).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "need to recreate natural stress‑strain state",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для того, чтобы корректно определить НДС подземного сооружения, необходимо правильно воссоздать его природное напряженно-деформированное состояние (фактически, учесть преднапряжение массива).",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Ввиду того, что подземные работы в шахте ведутся на небольшой глубине (до 350 м), а тектонические нарушения представлены двумя вертикальными разломами на востоке и западе, не пересекающими область ведения работ, можно сделать вывод о гравитационном режиме напряжений.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "gravity stress regime",
+    "direction": "increases",
+    "factor": "depth up to 350 m",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ввиду того, что подземные работы в шахте ведутся на небольшой глубине (до 350 м), а тектонические нарушения представлены двумя вертикальными разломами на востоке и западе, не пересекающими область ведения работ, можно сделать вывод о гравитационном режиме напряжений.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Таким образом, для корректного учета природного НДС достаточно учесть лишь величину горного давления от действия веса скального массива.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, для корректного учета природного НДС достаточно учесть лишь величину горного давления от действия веса скального массива.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Элементы с низким рангом качества расположены в слое четвертичных отложений, таким образом, они не виляют на расчетную зону (слой продуктивного ангидрита).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "low‑quality elements do not affect calculation zone",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Элементы с низким рангом качества расположены в слое четвертичных отложений, таким образом, они не виляют на расчетную зону (слой продуктивного ангидрита).",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "При необходимости переноса расчетной зоны в данный слой, необходимо выполнить сгущение сетки по выклиниваниям.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "need to densify mesh in thin layers",
+    "direction": "increases",
+    "factor": "layer thickness less than 1 m",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При необходимости переноса расчетной зоны в данный слой, необходимо выполнить сгущение сетки по выклиниваниям.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Physical‑mechanical characteristics of the weakened anhydrite are lower than those of normal anhydrite.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "strength, modulus, etc.",
+    "direction": "decreases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Физико-механические характеристики разупрочненного ангидрита являются пониженными характеристиками обычного.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "The parameter D (disturbance from blasting) is taken as 0.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "disturbance factor D",
+    "direction": "no_change",
+    "factor": "0",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "D – параметр нарушенности взрывными работами, принят равным 0;",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.81,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "During cleaning operations, anchoring of the roof of excavations is mandatory to avoid rock falls.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "roof support",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При ведении очистных работ, обязательным является крепление кровли выработок анкерами во избежание вывалов породы.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "The geological strength index (GSI) is determined based on the Q‑index according to Barton.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "GSI",
+    "direction": "no_change",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "GSI – geological strength index, определялся на основании индекса Q (по Бартону), полученному по результатам картирования;",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.81,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Elastic modulus, Poisson’s ratio, density, cohesion and internal friction angle for each lithology are listed in Table 1.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mechanical parameters",
+    "direction": "no_change",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Физико-механические характеристики материалов приведены в таблице 1.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Величина пластических деформаций больше в центральной части целиков.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plastic deformation magnitude",
+    "direction": "increases",
+    "factor": "location (central part of pillars)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Величина пластических деформаций больше в центральной части целиков.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.81,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "В целиках, расположенных с левой стороны, пластические деформации уменьшаются от ближних к дальним.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plastic deformation magnitude",
+    "direction": "decreases",
+    "factor": "distance from the near side (left side pillars)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в целиках, расположенных с левой стороны, пластические деформации уменьшаются от ближних к дальним.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Целики на данном участке сильнее разрушены в верхней их части.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "damage level",
+    "direction": "increases",
+    "factor": "vertical position (upper part)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "целики на данном участке сильнее разрушены в верхней их части",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Величина пластических деформаций в верхней части целиков выше, чем в нижней.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plastic deformation magnitude",
+    "direction": "increases",
+    "factor": "upper vs lower part of pillars",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по результатам численного моделирования, величина пластических деформаций в верхней части целиков выше, чем в нижней",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Максимально допустимая величина уменьшения поперечного размера целика была принята 1,2 метра с каждой стороны (2,4 м в сумме).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "allowable width reduction",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Максимально допустимая величина уменьшения поперечного размера целика была принята 1,2 метра с каждой стороны (2,4 м в сумме)",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Шаг изменения ширины – 0,1 м.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "шаг изменения ширины – 0,1 м",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Сетка конечных элементов состоит из 4 356 551 тетраэдров и 1 177 696 узлов.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Сетка конечных элементов состоит из 4 356 551 тетраэдров и 1 177 696 узлов.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "Для упрощения численной модели скальные породы были смоделированы единым слоем с присвоением медианных физико‑механических характеристик.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "для упрощения численной модели они были смоделированы единым слоем с присвоением медианных физико‑механических характеристик.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.81,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "при заданных горно-геологических условиях, прочности пород, при отсутствии перебора породы вследствие взрывных работ при нарезке и соблюдению параметров ведения горных работ в исключительных случаях возможно проведение очистных работ при уменьшении ширины целика от проектной величины на 80-100 см, значение 140 см является предельным",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "можно сделать вывод, что при заданных горно-геологических условиях, прочности пород, при отсутствии перебора породы вследствие взрывных работ при нарезке и соблюдению параметров ведения горных работ в исключительных случаях возможно проведение очистных работ при уменьшении ширины целика от проектной величины на 80-100 см, значение 140 см является предельным",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "не допускается более 2-х целиков подряд с уменьшенной шириной, т.к. это будет способствовать перераспределению давления на соседние целики, что может служить причиной их разрушения",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "не допускается более 2-х целиков подряд с уменьшенной шириной, т.к. это будет способствовать перераспределению давления на соседние целики, что может служить причиной их разрушения",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "математическая модель является наиболее приближенной к реальности по сравнению с аналитическими методами, однако она не дает стопроцентной точности расчета",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "математическая модель является наиболее приближенной к реальности по сравнению с аналитическими методами, однако она не дает стопроцентной точности расчета",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "глобальная численная модель предназначена для получения укрупненных результатов и моделирования глобальных изменений в эксплуатации подземного сооружения",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "глобальная численная модель в первую очередь, предназначенная для получения укрупненных результатов и моделирования глобальных изменений в эксплуатации подземного сооружения",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "модель не дает возможности количественно оценить величину зон разрушения, а также локальное напряженно-деформированное состояние",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "она не дает возможности количественно оценить величину зон разрушения, а также локальное напряженно-деформированное состояние",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "методология построения численных моделей от глобальных к локальным является наиболее корректной при решении производственных задач",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Методология построения численных моделей от глобальных к локальным, является наиболее корректной при решении производственных задач",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "одновременное использование глобальной и локальной численных моделей позволило решить производственную задачу в сжатые сроки и получить достаточно высокую сходимость с натурными наблюдениями",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Одновременное использование глобальной и локальной численных моделей в данной статье, позволило не только решить производственную задачу в сжатые сроки, но и получить достаточно высокую сходимость с натурными наблюдениями",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "применение детальных глобальных численных моделей затруднено ввиду значительных трудоемкости и наукоемкости их создания",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Применение детальных глобальных численных моделей на текущий момент затруднено ввиду значительных трудоемкости и наукоемкости их создания",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  },
+  {
+   "text": "оптимизация исходной твердотельной геометрии позволяет решить проблему качества геометрии и обеспечивает возможность формирования глобальных численных моделей",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Использование разработанного дополнительного программного обеспечения для оптимизации геометрии позволяет решить данную проблему, что обеспечивает возможность формирования глобальных численных моделей",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:37-статья-шахта-ангидрит-рудника-каи-ерканскии-1",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,975 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "title": "31 Статья - Савинова Ю.А. (ЛПМ).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\31 Статья - Савинова Ю.А. (ЛПМ).docx.md",
+   "artifact_sha256": "ca25d7b7eae287b051816db2b95e34fa084199dc8a53db904cc5e083d598e55a",
+   "okf_raw_path": "Статьи/31 Статья - Савинова Ю.А. (ЛПМ).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:lead-arsenic-containing-dust",
+   "label": "lead‑arsenic containing dust",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:chromite-periclase-refractory-samples-russian-pr",
+   "label": "chromite‑periclase refractory samples (Russian production)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:high-iron-slags",
+   "label": "high‑iron slags",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:relic-particles-of-the-reducer-reductant",
+   "label": "relic particles of the reducer (reductant)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:relic-particles-of-the-reducer",
+   "label": "relic particles of the reducer",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag",
+   "label": "slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:31-статья-савинова-ю-а-лпм-docx:0",
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "title": "Local ion etching of lead‑arsenic dust (Ust‑Kamenogorsk Metallurgical Complex)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "local ion etching",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-arsenic-containing-dust",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "arsenic removal (de‑arsenisation)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "percent relative",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "До получения данных о внутренней структуре гранул пыли, показатели деарсенизации не превышали 30‑35%отн.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Local ion etching revealed a dense lead‑sulfate shielding layer on the surface of arsenic oxides, which prevented arsenic volatilisation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "surface layer composition",
+      "direction": "increases",
+      "factor": "lead‑sulfate shielding",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "окислы мышьяка, ... оказался покрытым по поверхности плотным экранирующим слоем сульфата свинца. Именно указанный слой препятствовал отгонке мышьяка.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.81
+    },
+    {
+     "text": "Optimised firing parameters destroyed the surface lead shell and achieved stable arsenic removal >90 % отн.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "arsenic removal",
+      "direction": "increases",
+      "factor": "firing parameters",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На основе полученной информации были подобраны параметры обжига, позволившие разрушить поверхностную свинцовую оболочку и достигнуть стабильных показателей удаления мышьяка более чем на 90% отн.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Наглядно демонстрируют возможности как двулучевой системы, так и в целом локального фазового анализа результаты исследований морфологии свинцовой мышьяксодержащей пыли, проведенных в рамках совместной с коллегами из Германии и Казахстана работе [6].",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:31-статья-савинова-ю-а-лпм-docx:1",
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "title": "Upscaled laboratory testing of chromite‑periclase refractory samples in high‑iron slags",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "exposure (holding) of refractory samples in slag",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chromite-periclase-refractory-samples-russian-pr",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:high-iron-slags",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Two groups of degradation processes were identified: (1) infiltration of the refractory mass by the silicate component of the slag, and (2) chemical interaction of the material with the slag.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Весь спектр процессов, приводящих к разрушению материала, можно условно разделить на две группы: 1) пропитка массы огнеупора силикатной составляющей шлакового расплава; 2) химическое взаимодействие материала со шлаком.",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.81
+    },
+    {
+     "text": "Direct interaction of periclase with slag melt replaces magnesium in periclase with iron from the silicate component, producing secondary iron‑magnesium spines on grain surfaces.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "chemical substitution",
+      "direction": "increases",
+      "factor": "direct interaction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при прямом взаимодействии периклаза со шлаковым расплавом происходит замещение магния в периклазе железом силикатной составляющей шлака.",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Образцы хромит‑периклазовых огнеупоров российского производства были подвергнуты выдержке в высокожелезистых шлаках в рамках укрупненно‑лабораторных испытаний.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:31-статья-савинова-ю-а-лпм-docx:2",
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "title": "Reduction of accelerating voltage to detect Rhodium",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Accelerating voltage of the primary electron beam was reduced to the minimally sufficient value for generating the Rhodium peak"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:relic-particles-of-the-reducer-reductant",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "material",
+     "material_id": "mat:relic-particles-of-the-reducer-reductant",
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Rhodium peak presence"
+     },
+     "method": null,
+     "snippet": "В новых условиях анализа значимый пик родия был обнаружен на всех собранных спектрах, что подтвердило предположение о локализации родия в приповерхностных слоях частиц.",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Rhodium can be concentrated in narrow near‑surface regions of the particles",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "localization",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "было высказано предположение, что родий может быть сконцентрирован в узких приповерхностных областях",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "С целью снижения локальности анализа ускоряющее напряжение первичного электронного пучка было снижено до минимально достаточного для генерации пика родия значения 6 кэВ.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:31-статья-савинова-ю-а-лпм-docx:3",
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "title": "Local ion etching to estimate enriched layer thickness",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Relic particles of the reducer were subjected to local ion etching and the composition of the near‑surface layer was compared with the interior of the particles"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:relic-particles-of-the-reducer",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "material",
+     "material_id": "mat:relic-particles-of-the-reducer",
+     "value": {
+      "min": 0.5,
+      "nominal": null,
+      "max": 1.0
+     },
+     "unit": "µm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "enriched layer thickness"
+     },
+     "method": null,
+     "snippet": "Итоговая толщина обсуждаемого слоя была оценена в диапазоне 0,5-1,0мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.63
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The enriched Rhodium layer is confined to a sub‑micron near‑surface region",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "layer thickness",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Для уточнения возможной толщины обогащенного слоя, частицы восстановителя были подвергнуты уже упомянутому выше локальному ионному травлению.",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Далее было проведено сравнение элементного состава приповерхностного слоя и внутренних областей частицы восстановителя (см. рисунок ниже).",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:31-статья-савинова-ю-а-лпм-docx:4",
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "title": "Comparison of slag composition by chemical analysis, EDS and WDS",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Measurement of the elemental composition of slag and its constituents using three methods: bulk chemical analysis, energy‑dispersive X‑ray spectroscopy (EDS) and wavelength‑dispersive X‑ray spectroscopy (WDS)."
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 35.5,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "Ср. состав шлака (хим. анализ) | 35,5",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.115,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Co"
+     },
+     "method": null,
+     "snippet": "Ср. состав шлака (хим. анализ) | 0,115",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 0.1
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Co"
+     },
+     "method": null,
+     "snippet": "Ср. состав шлака (EDS) | <0,1",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.074,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Co"
+     },
+     "method": null,
+     "snippet": "силикатная основа (WDS) | 0,074",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.264,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Ср. состав шлака (хим. анализ) | 0,264",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.2,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Ср. состав шлака (EDS) | 0,2",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.032,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "силикатная основа (WDS) | 0,032",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.268,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Ср. состав шлака (хим. анализ) | 0,268",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.2,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Ср. состав шлака (EDS) | 0,2",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.175,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "силикатная основа (WDS) | 0,175",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Приведенные в таблице данные позволяют не только наглядно продемонстрировать преимущества локального элементного анализа над валовым химическим, но и существенную разницу между информативностью микроанализа в зависимости от типа используемого детектора (ЕDS и WDS).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "informative value of EDS vs WDS",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Приведенные в таблице данные позволяют не только наглядно продемонстрировать преимущества локального элементного анализа над валовым химическим (сравните оценки среднего состава шлака по данным хим анализа и EDSх), но и существенную разницу между информативностью микроанализа в зависимости от типа используемого детектора (ЕDS и WDS).",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    },
+    {
+     "text": "При работе с детектором EDS чувствительность составляет около 0,1%масс., при использовании детектора WDS чувствительность улучшается минимум на один порядок и достигает значений вплоть до последних тысячных %масс.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "sensitivity",
+      "direction": "increases",
+      "factor": ">=10×",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в большинстве случаев, при работе с детектором EDS чувствительность составляет около 0,1%масс., при использовании детектора WDS (количество кристаллов – 5шт) чувствительность улучшается минимум на один порядок и достигает значений вплоть до последних тысячных %масс.",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Энергетического разрешения ЕDS (фактически – способности отделить один пик от другого) не хватает для выделения пика кобальта на фоне пика железа. В свою очередь WDS прекрасно разделяет («разрешает») обсуждаемые пики, что и позволяет в итоге перейти на пределы обнаружения на уровне сотых и даже тысячных%масс.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Local research methods such as scanning electron microscopy and X-ray microanalysis are the most informative ones for studying metallurgical products.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "informativeness",
+    "direction": "increases",
+    "factor": "method selection",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Long-term experience of the Gipronickel Institute LLC shows that local research methods such as scanning electron microscopy and X-ray microanalysis are the most informative ones for studying metallurgical products.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "The detection limit of the components depends on the type of a detector used.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "detection limit",
+    "direction": "decreases",
+    "factor": "detector type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The detection limit of the components depends on the type of a detector used.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "When using the most common in analytical practice energy dispersive detector, the detection limit is about 0.1% mass.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "detection limit",
+    "direction": "decreases",
+    "factor": "detector type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Thus, when using the most common in analytical practice energy dispersive detector, the detection limit is about 0.1% mass.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Analysis of trace contents is realized on a complex equipped with a detector with photon wavelength dispersion with an exceptionally low detection limit (down to the last thousandths of % mass).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "detection limit",
+    "direction": "decreases",
+    "factor": "photon wavelength dispersion detector",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The analysis of trace contents is realized on a complex equipped with a detector with photon wavelength dispersion with an exceptionally low detection limit (down to the last thousandths of % mass).",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.81,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "The electron microscope is additionally equipped with an ion column to study the fine morphology of structures that are destroyed by traditional mechanical sample preparation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capability",
+    "direction": "increases",
+    "factor": "ion column addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The electron microscope is additionally equipped with an ion column to study the fine morphology of structures that are destroyed by traditional mechanical sample preparation.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "The Institute’s analytical base is comprised by the most informative equipment.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "informativeness",
+    "direction": "increases",
+    "factor": "equipment selection",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The Institute is proud of its analytical base comprised by the most informative equipment.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Local analytical methods allow obtaining the most important and, often, exhaustive information not only about the composition and structure of the material as a whole, but also about its individual components with a size of less than a micron.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "information completeness",
+    "direction": "increases",
+    "factor": "method application",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "These methods allow obtaining the most important and, often, exhaustive information not only about the composition and structure of the material as a whole, but also about its individual components with a size of less than a micron.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "In many cases such micro‑ and sub‑micron structures are extremely brittle and can be destroyed already during sample preparation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "structural integrity",
+    "direction": "decreases",
+    "factor": "brittleness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "во многих случаях такого рода структуры являются крайне хрупкими и могут разрушаться еще на этапе пробоподготовки материала.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Local ion etching has not become widespread in Russia and former USSR countries due to the rarity of electron microscopes equipped with an ion column.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "adoption level",
+    "direction": "decreases",
+    "factor": "instrument availability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в России и странах бывшего СССР практика локального ионного травления не получила широкого распространения ввиду редкости электронных микроскопов, дополнительно оснащённых ионной колонной.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Electron microscopy provides high informational value, but technological material studies usually require elemental analysis at qualitative, semi‑quantitative or fully quantitative levels.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "analysis completeness",
+    "direction": "increases",
+    "factor": "addition of elemental analysis",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Исчерпывающий анализ указанных материалов, как правило, предполагает проведение элементного анализа на качественном, полуколичественном либо точном количественном уровне.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "The interaction of periclase with slag melt can lead to the formation of a dense layer of secondary refractory‑high‑temperature products that shields the refractory surface from the slag melt.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "protective layer formation",
+    "direction": "increases",
+    "factor": "secondary product accumulation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "накопление вторичных тугоплавких продуктов может привести к формированию плотного слоя, экранирующего поверхность огнеупора от шлакового расплава.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "The locality of elemental analysis typically ranges from 2 to 5 µm depending on instrument settings and material composition",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "в подавляющем большинстве случаев она составляет порядка 2-5 мкм [1,4-5].",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "For precise quantitative analysis the accuracy must not exceed 2 % relative to the declared concentration",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "необходимо обеспечить значение точности не выходящее за пределы 2% отн. по модулю от заявляемой концентрации [1,4-5].",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Correct sample preparation, calibration of beam current and energy, and controlled temperature regime are required to achieve the stated accuracy",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Достижение обсуждаемого уровня возможно при соблюдении целого ряда требований: корректная пробоподготовка ... своевременная и корректная калибровка тока и энергии электронного пучка, ... обеспечение контролируемого температурного режима отбора/хранения материала",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.45,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Сканирующая электронная микроскопия и рентгеноспектральный микроанализ в современной научно‑производственной практике – один из наиболее часто используемых аналитических инструментов, дающий зачастую исчерпывающую информацию об исследуемом материале.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "frequency",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сканирующая электронная микроскопия и рентгеноспектральный микроанализ в современной научно‑производственной практике – один из наиболее часто используемых аналитических инструментов, дающий зачастую исчерпывающую информацию об исследуемом материале.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Получение достоверной и полной информации, даже при наличии самого современного оборудования, зачастую невозможно без внедрения практики индивидуального методического подхода к материалу.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "information reliability",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "получение достоверной и полной информации, даже при наличии самого современного оборудования, зачастую невозможно без внедрения практики индивидуального методического подхода к материалу.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Энергетическое разрешение WDS позволяет переходить к пределам обнаружения на уровне сотых и даже тысячных %масс.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "detection limit",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "что и позволяет в итоге перейти на пределы обнаружения на уровне сотых и даже тысячных%масс.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "В большинстве случаев, при работе с детектором EDS чувствительность составляет около 0,1%масс.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sensitivity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при работе с детектором EDS чувствительность составляет около 0,1%масс.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "При использовании детектора WDS (количество кристаллов – 5шт) чувствительность улучшается минимум на один порядок и достигает значений вплоть до последних тысячных %масс.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sensitivity",
+    "direction": "increases",
+    "factor": ">=10×",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при использовании детектора WDS (количество кристаллов – 5шт) чувствительность улучшается минимум на один порядок и достигает значений вплоть до последних тысячных %масс.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:31-статья-савинова-ю-а-лпм-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

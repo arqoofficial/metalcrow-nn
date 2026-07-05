@@ -1,0 +1,134 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:08_2004_cm-pdf",
+   "title": "08_2004_cm.pdf",
+   "doc_type": "article",
+   "year": 2004,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2004\\08_2004_cm.pdf.md",
+   "artifact_sha256": "712c6b481ba0efcebb86cf429b875f46c5fdb3009ea41f02b2529d45c18a5a40",
+   "okf_raw_path": "Журналы/Цветные металлы/2004/08_2004_cm.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Стоимость электроэнергии также принята по минимальному и максимальному уровням: 9 и 18 долл. за 1000 кВт·ч.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "electricity_price",
+    "direction": "increases",
+    "factor": "price_level",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стоимость электроэнергии также принята по ми/hyphenminus нимальному и максимальному уровням: 9 и 18 долл. за 1000 кВт . ч.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9,
+   "document_id": "doc:08_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Ставка дисконта 0,10 - среднее значение диапазона 0,16-0,04, где 0,16 - уровень действующей в настоящее время в России банковской ставки рефинансирования, а 0,04 - средняя ставка, соответствующая безрисковому уровню доходности в США и в других ведущих капиталистических странах.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "discount_rate",
+    "direction": "nonmonotonic",
+    "factor": "range",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ставка дисконта 0,10 - среднее значение диа/hyphenminus пазона 0,16-0,04, где 0,16 - уровень действующей в настоящее время в России банковской ставки рефи/hyphenminus нансирования (установлена с 21.06.03), а 0,04 - сред/hyphenminus няя ставка, соответствующая безрисковому уровню доходности в США и в других ведущих капитали/hyphenminus стических странах.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:08_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "При стоимости шин 1500 долл./т (цена электроэнергии 9 долл./1000 кВт·ч) масса ошиновки должна быть приблизительно 30 т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "optimal_shoe_mass",
+    "direction": "increases",
+    "factor": "shoe_price",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При стоимости шин 1500 долл./т (цена электроэнергии 9 долл./1000 кВт . ч) масса ошиновки должна быть по/hyphenminus рядка 30 т.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:08_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Одновременное равнопропорциональное увеличение или снижение стоимости ошиновки и электроэнергии не влияет на оптимальную массу ошиновки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "optimal_shoe_mass",
+    "direction": "no_change",
+    "factor": "combined_price_change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Одновременное равнопропор/hyphenminus циональное увеличение или снижение стоимости ошиновки и электроэнергии не влияет на оптималь/hyphenminus ную массу ошиновки.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:08_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Схема ВАМИ позволяет легко реализовать в чертежах ошиновку с нужной массой.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "implementation_feasibility",
+    "direction": "increases",
+    "factor": "methodology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Схема ВАМИ позволяет лег/hyphenminus ко реализовать в чертежах ошиновку с нужной мас/hyphenminus сой.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:08_2004_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Металл должен работать только в новых формах шин, так как старые шины при модернизации идут в переплав.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metal_usage",
+    "direction": "decreases",
+    "factor": "recycling_policy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, металл про/hyphenminus должает работать только в новых формах шин.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:08_2004_cm-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

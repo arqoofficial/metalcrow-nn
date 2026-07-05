@@ -60,6 +60,19 @@ def relax_query(query: str) -> str:
     return re.sub(r'"([^"]*)"', r"\1", query).strip()
 
 
+def _sanitize_search(query: str) -> str:
+    """Strip OpenAlex free-text wildcard operators (`?`, `*`) from `query`.
+
+    OpenAlex treats `?`/`*` in the `search=` param as single-/multi-character
+    wildcards, which is only valid alongside `search.exact=`; any bare `search=`
+    containing them 400s. Natural-language questions ("What is known about NMC
+    degradation?") almost always contain a `?`, so this must run on every query
+    before it hits the `search` param. Collapses the resulting extra whitespace.
+    """
+    cleaned = re.sub(r"[?*]+", " ", query)
+    return re.sub(r"\s+", " ", cleaned).strip()
+
+
 def _oa_pdf_url(result: dict) -> str | None:
     """Resolve a downloadable OA PDF URL, preferring a bot-wall-free EuropePMC link.
 
@@ -98,8 +111,9 @@ def search(
     url = f"{OPENALEX_API_BASE}/works"
     resp: httpx.Response | None = None
 
+    sanitized_query = _sanitize_search(query)
     for key_idx, api_key in enumerate(keys):
-        params: dict = {"search": query, "per_page": max_results}
+        params: dict = {"search": sanitized_query, "per_page": max_results}
         if api_key:
             params["api_key"] = api_key
         if mailto:

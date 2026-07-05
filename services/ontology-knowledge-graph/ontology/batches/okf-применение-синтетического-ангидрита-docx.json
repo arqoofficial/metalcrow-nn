@@ -1,0 +1,1116 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:применение-синтетического-ангидрита-docx",
+   "title": "Применение синтетического ангидрита.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Применение синтетического ангидрита.docx.md",
+   "artifact_sha256": "b939b6e99a8886c7badd7e0ccc405fc241c93f59abe5c87030834bbe6d512420",
+   "okf_raw_path": "Обзоры/Применение синтетического ангидрита.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:waste-sulfuric-acid",
+   "label": "waste sulfuric acid",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:limestone",
+   "label": "limestone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gypsum",
+   "label": "gypsum",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lime-sludge-suspension",
+   "label": "lime sludge suspension",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfuric-acid",
+   "label": "sulfuric acid",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fa-sample-no-1",
+   "label": "FA sample No 1",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fa-sample-no-2",
+   "label": "FA sample No 2",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fa-sample-no-3",
+   "label": "FA sample No 3",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:применение-синтетического-ангидрита-docx:0",
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "title": "Synthesis of synthetic gypsum from chemical‑plant waste (August 2021)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Scientists mixed waste sulfuric acid with water and limestone",
+       "temperature_text": "high‑temperature processing (implied by “high‑temperature processing” in cost discussion)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:waste-sulfuric-acid",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:limestone",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The produced synthetic gypsum exceeds the characteristics of the natural analogue.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "quality",
+      "direction": "increases",
+      "factor": "synthetic gypsum",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "по своим характеристикам превосходящий природный аналог.",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В августе 2021 г совместными усилиями ученых НИТУ «МИСиС», Белорусского государственного технологического университета, Института общей и неорганической химии Национальной академии наук Белоруссии и Лимерикского университета Ирландии был синтезированы синтетический гипс из отходов химических заводов и известняка, по своим характеристикам превосходящий природный аналог.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:применение-синтетического-ангидрита-docx:1",
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "title": "Development of low‑cost anhydrite production technology (December 2021)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Use gypsum as a base to produce calcium sulfate anhydrite",
+       "temperature_text": "high‑temperature processing (required for conversion)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gypsum",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "cost of gypsum per tonne",
+     "scope": "material",
+     "material_id": "mat:gypsum",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при стоимости тонны гипса около 20 долларов (около 1480 рублей)",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "cost of anhydrite per tonne",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 300.0,
+      "nominal": null,
+      "max": 400.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "стоимость тонны ангидрита составляет 300–400 долларов (22200–29600 рублей)",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The technology is ecological and low‑cost for producing raw material for construction materials.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "environmental impact",
+      "direction": "decreases",
+      "factor": "technology",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "разработали новую — экологичную и низкозатратную технологию получения сырья для производства стройматериалов.",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В декабре 2021 г стало известно, что ученые НИТУ «МИСиС» разработали новую — экологичную и низкозатратную технологию получения сырья для производства стройматериалов.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:применение-синтетического-ангидрита-docx:2",
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "title": "Synthesis of calcium sulfate anhydrite in aqueous medium",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "water_treatment",
+      "extra": {
+       "raw_process": "One‑stage synthesis from lime sludge suspension (waste from water treatment) and sulfuric acid in water",
+       "temperature_text": "45–55 °C"
+      },
+      "temperature": {
+       "min": 318.15,
+       "nominal": null,
+       "max": 328.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lime-sludge-suspension",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:sulfuric-acid",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "purity of the obtained anhydrite",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 99.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Степень чистоты полученного таким образом продукта составила не менее 99 процентов.",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The new aqueous‑phase method allows production at much lower temperature than conventional high‑temperature calcination.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "decreases",
+      "factor": "process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Новая технология, предложенная авторами, применяется в реакторе в водной среде при температуре всего 45–55 °C, причем на основе отходов производств, что влечет за собой экономию ресурсов и топлива.",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Исследователи разработали метод синтеза ангидрита из суспензии извести недопала, которая является отходом водоподготовки, и серной кислоты в водной среде.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:применение-синтетического-ангидрита-docx:3",
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "title": "Laboratory test of synthetic anhydrite (FA) samples for Portland cement applications",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Three FA samples (≥100 kg each) were mixed with water and allowed to cure; compressive strength was measured after 28 days.",
+       "temperature_text": "ambient (not specified)",
+       "duration_text": "28 days"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fa-sample-no-1",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:fa-sample-no-2",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:fa-sample-no-3",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "compressive_strength",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При смешивании с водой медленно затвердевает на ранних стадиях, к 28 суткам его прочность на сжатие равна 3-5 МПа.",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Synthetic anhydrite from fluorine‑hydrogen production can achieve measurable strength when used in Portland cement mixes.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "strength development",
+      "direction": "increases",
+      "factor": "synthetic anhydrite addition",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При смешивании с водой медленно затвердевает на ранних стадиях, к 28 суткам его прочность на сжатие равна 3-5 МПа.",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В работе [14] были исследованы три образца ФА массой не менее 100 кг каждый.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "On each tonne of fluorspar acid about 3.5 t of anhydrite are produced as a by‑product.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "by‑product ratio",
+    "direction": "increases",
+    "factor": "anhydrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на каждую тонну плавиковой кислоты приходится около 3,5 т ангидрита.",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Synthetic anhydrite is used abroad as a raw material in the production of cement, plaster, floor coverings and other products.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "application scope",
+    "direction": "increases",
+    "factor": "synthetic anhydrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в настоящее время за рубежом значительную часть этого «неприятного» продукта используют в качестве сырьевого материала в производстве цемента, штукатурки, напольного покрытия и др.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Anhydrite provides properties such as regulation of setting time, strength increase and shrinkage inhibition in cement.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "performance",
+    "direction": "increases",
+    "factor": "anhydrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ангидрит придает некоторые свойства, например, регулирование времени схватывания, усиление механической прочности и ингибирование усадки",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "The method of producing construction gypsum from synthetic gypsum in powder form allows obtaining crystals of required shape and size according to specifications.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crystal control",
+    "direction": "increases",
+    "factor": "method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Метод позволяет получать кристаллы необходимой формы и размеров в зависимости от предъявляемых требований.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "The developed synthetic gypsum production can fully replace natural gypsum in countries lacking sufficient natural gypsum reserves.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "replacement potential",
+    "direction": "increases",
+    "factor": "synthetic gypsum",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "данная разработка может полностью заменить природный гипс в странах, не имеющих достаточных запасов гипсового камня.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Synthetic anhydrite binders have been used in construction of oil‑product storage tanks, foundations of production buildings, and cast‑in‑place building structures.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "application examples",
+    "direction": "increases",
+    "factor": "anhydrite binders",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ангидритовые вяжущие использовались при строительстве ёмкостей для хранения нефтепродуктов, возведения фундаментов для производственных помещений, строительства зданий по литьевой технологии.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "In Russia the production of building materials from anhydrite raw material is still insufficiently developed compared with foreign countries where demand is significant.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "development level",
+    "direction": "decreases",
+    "factor": "Russian production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производство строительных материалов из ангидритового сырья в России, как следует из публикаций в отечественной печати, пока ещё недостаточно развито, тогда как в зарубежных странах эти материалы пользуются значительным спросом.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Cost of a ton of gypsum is about 20 dollars (≈1480 rubles).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "при стоимости тонны гипса около 20 долларов (около 1480 рублей)",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Cost of a ton of anhydrite obtained by the new method remains at the level of the raw material – gypsum.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "no_change",
+    "factor": "new method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стоимость же ангидрита, полученного новым способом, останется на уровне стоимости сырья — гипса.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Conventional anhydrite production relies on high‑temperature firing at 800–1000 °C in rotating furnaces.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Большинство технологий получения ангидрита основываются на высокотемпературном обжиге при 800–1000 °C во вращающихся печах.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.81,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Gypsos (synthetic anhydrite) contains a very high SO₃ content, the highest among natural or chemical gypsum, which reduces the specific consumption of calcium‑sulfate raw material in cement production.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "raw material consumption",
+    "direction": "decreases",
+    "factor": "high SO₃ content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Благодаря высокому содержанию ангидрита и минимальной концентрации примесей количество SO₃ на тонну материала является самым высоким по сравнению с другими природными или химическими гипсами. Таким образом, его использование позволяет снизить удельный расход сырья на основе сульфата кальция, используемого при производстве цемента.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.81,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Gypsos is used as an additive to regulate setting time in the cement industry.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Он используется в цементной промышленности в качестве добавки для регулирования времени схватывания.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Gypsos can replace cement in the industrial production of construction mortars and most concretes not intended for structural elements.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "material substitution",
+    "direction": "increases",
+    "factor": "Gypsos use",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "является альтернативой цементу в процессе промышленного производства строительных растворов и большинства бетонов не предназначенных для возведения конструкций.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Gypsos serves as a binder for interior works such as plasters, fire‑protection blocks and aerated concrete.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Gypsos также используются в качестве связующего вещества для внутренних работ в качестве штукатурок, блоков для противопожарных систем и газобетона.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Gypsos, due to its high SO₃ content, is an excellent raw material for fertilizer production, improving soil structure and balancing calcium intake.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "soil improvement",
+    "direction": "increases",
+    "factor": "high SO₃ content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Gypsos, благодаря высокому содержанию SO₃, является отличным сырьем для производства удобрений. Удобрения на его основе помогают улучшить структуру почвы. Увеличивая содержание кальция, они также уравновешивают усвоение веществ и минералов.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.81,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "SYNTHECO offers synthetic anhydrite Raddipur (D) and Raddipur (S) as raw material for building material production.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "availability",
+    "direction": "increases",
+    "factor": "synthetic anhydrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания SYNTHECO предлагает синтетический ангидрит Raddipur (D) и Raddipur (S), которые используется в качестве сырья при производстве строительных материалов.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Raddipur (D) and Raddipur (S) are synthetic calcium sulfate anhydrite intended for floor screeds, gypsum‑based plasters, or construction chemistry.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "increases",
+    "factor": "synthetic anhydrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Raddipur (D) и Raddipur (S) представляют собой синтетический ангидрит сульфата кальция ... предназначенный для использования в составах напольных стяжек из сульфата кальция, штукатурок на гипсовой основе или для строительной химии.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.45,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Anhydrite SUPER® from Caltra is a stable, finely ground synthetic anhydrous calcium sulfate obtained from processing industrial by‑products and is mainly used in liquid floor screeds.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "increases",
+    "factor": "synthetic anhydrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Anhydrite SUPER® компании Caltra - это стабильный, тонко измельченный синтетический безводный сульфат кальция (CaSO 4 ). ... Используется в основном в наливных напольных стяжках.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.45,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Anhydrite is increasingly used as a shrinkage reducer in calcium aluminate‑based self‑leveling surfaces, tile adhesives, grouts, repair mortars, etc., reducing Portland cement shrinkage.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "shrinkage",
+    "direction": "decreases",
+    "factor": "anhydrite addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все большее применение ангидрид находит в качестве восстановителя усадки в продуктах на основе алюмината кальция ... Уменьшает усадку портландцемента.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.81,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Natural gypsum or anhydrite used for cement setting time control face decreasing reserves and quality, and in some regions gypsum deposits are absent, making extraction and transport costly.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "resource availability",
+    "direction": "decreases",
+    "factor": "natural gypsum/anhydrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На цементных заводах для контроля времени схватывания цемента используется природные гипс или ангидрит, но их запасы и качество со временем неизбежно снижаются.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Anhydrite cement is an air‑binding material mainly composed of insoluble calcium sulfate that does not set by itself; its binding properties are obtained by grinding together with catalyst additives determined by preliminary tests.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "binding ability",
+    "direction": "increases",
+    "factor": "catalyst additives",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ангидритовый цемент представляет собой воздушное вяжущее, состоящее преимущественно из сернокислого кальция (нерастворимого ангидрита), не способного схватываться. Для придания ему вяжущих свойств его измельчают вместе с добавками - катализаторами твердения, количество которых устанавливают предварительными испытаниями.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Synthetic materials that are by‑products of the chemical industry can be used to regulate the setting process of Portland cement.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "setting control",
+    "direction": "increases",
+    "factor": "synthetic by‑product anhydrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Результаты различных исследований ... показывают, что синтетические материалы, которые являются побочными продуктами химической промышленности, могут быть использованы для регулирования процесса схватывания портландцемента.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.81,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Fluorine‑hydrogen production plants generate hundreds of thousands of tons of anhydrite (FA) annually, which pollutes the environment.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pollution",
+    "direction": "increases",
+    "factor": "FA production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На предприятиях по производству фтористого водорода ежегодно образуются сотни тысяч тонн ангидрита (его также называют фторангидрит, или ФА), загрязняя окружающую среду.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "разработанная ангидритовая композиция с легким заполнителем на основе вспученного перлитового песка по физико-механическим показателям может быть использована в качестве эффективного конструкционно-теплоизоляционного материала при производстве пазогребневых плит, блоков для возведения конструкций внутри зданий и сооружений.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "physical‑mechanical characteristics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "разработанная ангидритовая композиция с легким заполнителем на основе вспученного перлитового песка по физико-механическим показателям может быть использована в качестве эффективного конструкционно-теплоизоляционного материала при производстве пазогребневых плит, блоков для возведения конструкций внутри зданий и сооружений.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "характеристики композиции можно значительно улучшить использованием модифицирующих поверхностно-активных веществ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "performance",
+    "direction": "increases",
+    "factor": "surface‑active modifiers",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "характеристики композиции можно значительно улучшить использованием модифицирующих поверхностно-активных веществ.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Преимущество ангидритовых полов - незначительная деформация объема, что позволяет покрывать без швов поверхности в несколько сотен квадратных метров.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "volume deformation",
+    "direction": "decreases",
+    "factor": "anhydrite binder",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Преимущество ангидритовых полов - незначительная деформация объема, что позволяет покрывать без швов поверхности в несколько сотен квадратных метров.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Время сушки относительно короткое.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "drying time",
+    "direction": "decreases",
+    "factor": "anhydrite composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Время сушки относительно короткое.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Толщина слоя составляет 2-3 миллиметра.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "layer thickness",
+    "direction": "nonmonotonic",
+    "factor": "design specification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Толщина слоя составляет 2-3 миллиметра.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Устойчивость к истиранию и воздействию агрессивных сред.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "abrasion resistance",
+    "direction": "increases",
+    "factor": "anhydrite floor composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Устойчивость к истиранию и воздействию агрессивных сред.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.81,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "По ангидритовой стяжке можно ходить примерно через два дня после ее установки и только слегка нагружать не ранее чем через пять дней.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "load‑bearing time",
+    "direction": "increases",
+    "factor": "anhydrite screed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По ангидритовой стяжке можно ходить примерно через два дня после ее установки и только слегка нагружать не ранее чем через пять дней.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Она не должна подвергаться постоянному воздействию влаги, поэтому эта стяжка особенно подходит для сухих помещений.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "moisture resistance",
+    "direction": "decreases",
+    "factor": "anhydrite screed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Она не должна подвергаться постоянному воздействию влаги, поэтому эта стяжка особенно подходит для сухих помещений.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "По сравнению с цементной стяжкой ангидритовая стяжка обладает меньшей прочностью и поэтому должна подвергаться меньшим нагрузкам.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "strength",
+    "direction": "decreases",
+    "factor": "anhydrite vs cement screed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По сравнению с цементной стяжкой ангидритовая стяжка обладает меньшей прочностью и поэтому должна подвергаться меньшим нагрузкам.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Обычная для цементной стяжки деформация (приподнятые края, вызванные неравномерной усадкой) не наблюдается при использовании текучей ангидритной стяжки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "deformation",
+    "direction": "decreases",
+    "factor": "fluid anhydrite screed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обычная для цементной стяжки деформация (приподнятые края, вызванные неравномерной усадкой) не наблюдается при использовании текучей ангидритной стяжки.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Мировой опыт показывает, что основной отраслью для использования многотоннажных отходов и побочных продуктов химического производства, производства минеральных удобрений, металлургической промышленности является строительство.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "application sector",
+    "direction": "increases",
+    "factor": "industrial waste",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мировой опыт показывает, что основной отраслью для использования многотоннажных отходов и побочных продуктов химического производства, производства минеральных удобрений, металлургической промышленности является строительство.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Такими «полезными» отходами являются термический ангидрит - продукт термической обработки двуводного сульфата кальция, получаемого, например, в процессе десульфуризации дымовых газов ТЭС известковым шламом; и синтетический ангидрит - побочный продукт производства плавиковой кислоты, получаемый в результате реакции плавикового шпата с концентрированной горячей серной кислотой.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "waste type",
+    "direction": "nonmonotonic",
+    "factor": "industrial by‑products",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такими «полезными» отходами являются термический ангидрит - продукт термической обработки двуводного сульфата кальция, получаемого, например, в процессе десульфуризации дымовых газов ТЭС известковым шламом; и синтетический ангидрит - побочный продукт производства плавиковой кислоты, получаемый в результате реакции плавикового шпата с концентрированной горячей серной кислотой.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Термический ангидрит - продукт термической обработки двуводного сульфата кальция, получаемого, например, в процессе десульфуризации дымовых газов ТЭС известковым шламом;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "origin",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Термический ангидрит - продукт термической обработки двуводного сульфата кальция, получаемого, например, в процессе десульфуризации дымовых газов ТЭС известковым шламом;",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.81,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Синтетический ангидрит - побочный продукт производства плавиковой кислоты, получаемый в результате реакции плавикового шпата с концентрированной горячей серной кислотой.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "origin",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Синтетический ангидрит - побочный продукт производства плавиковой кислоты, получаемый в результате реакции плавикового шпата с концентрированной горячей серной кислотой.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.81,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "В настоящее время за рубежом значительную часть синтетического ангидрита используют в качестве сырьевого материала в производстве цемента, штукатурки, напольного покрытия и др.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "use",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время за рубежом значительную часть синтетического ангидрита используют в качестве сырьевого материала в производстве цемента, штукатурки, напольного покрытия и др.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Также существует ряд исследований на предмет использования синтетического ангидрита на основе отходов пирометаллургической промышленности в качестве одного из компонентов закладочных смесей для заполнения шахтных выработок.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "research",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Также существует ряд исследований на предмет использования синтетического ангидрита на основе отходов пирометаллургической промышленности в качестве одного из компонентов закладочных смесей для заполнения шахтных выработок.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "Основные области применения синтетического ангидрита: - наливные полы; - штукатурки для внутренних; - цементная отрасль; - производство удобрений.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application_areas",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основные области применения синтетического ангидрита:\n- наливные полы;\n- штукатурки для внутренних;\n- цементная отрасль;\n- производство удобрений.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.81,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  },
+  {
+   "text": "На фоне исчерпания запасов природного гипса и ангидрита, а в некоторых регионах отсутствия каких-либо месторождений гипса, а также накопления отходов химических и металлургических производств, получение и использование синтетического ангидрита видится актуальным направлением.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "relevance",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На фоне исчерпания запасов природного гипса и ангидрита, а в некоторых регионах отсутствия каких-либо месторождений гипса, а также накопления отходов химических и металлургических производств, получение и использование синтетического ангидрита видится актуальным направлением.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:применение-синтетического-ангидрита-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

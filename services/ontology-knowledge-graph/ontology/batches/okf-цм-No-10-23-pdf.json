@@ -1,0 +1,842 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-10-23-pdf",
+   "title": "ЦМ № 10-23.pdf",
+   "doc_type": "article",
+   "year": 2023,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2023\\ЦМ № 10-23.pdf.md",
+   "artifact_sha256": "d89eeef04272c0c17748018f363256ad4af37647918f617fe5bb78701201f121",
+   "okf_raw_path": "Журналы/Цветные металлы/2023/ЦМ № 10-23.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:gold-bearing-copper-porphyry-ore",
+   "label": "gold‑bearing copper‑porphyry ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:reagents-of-the-company-kvalitet",
+   "label": "reagents of the company “Kvalitet”",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore-from-the-kalmakyr-deposit",
+   "label": "ore from the Kalmakyr deposit",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:reagent-regime-a",
+   "label": "reagent regime A",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:reagent-regime-b",
+   "label": "reagent regime B",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dp-4-collector-reagent",
+   "label": "DP-4 collector reagent",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:butyl-xanthate-bk",
+   "label": "butyl xanthate (BK)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dialkyl-dithiophosphate",
+   "label": "dialkyl dithiophosphate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No-10-23-pdf:0",
+   "document_id": "doc:цм-No-10-23-pdf",
+   "title": "Laboratory flotation tests on gold‑bearing copper‑porphyry ores (Oliy Ziyo, Almalik GMK)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gold-bearing-copper-porphyry-ore",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:reagents-of-the-company-kvalitet",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "reagents allow exclusion of less effective analogue reagents",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "позволяют исключить использование менее эффективных реагентов‑аналогов",
+     "locator_kind": "md_para",
+     "locator": "para:131",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В ходе проведенных испытаний на золотосодержащих МПР месторождения Олий Зиё Алмалыкского ГМК (участки Кальмакыр и Ёшлик‑I) установлено, что реагенты компании «Квалитет» наряду с увеличением извлечения меди, молибдена и золота одновременно улучшают кинетику процесса флотации, позволяют исключить использование менее эффективных реагентов‑аналогов.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-10-23-pdf:1",
+   "document_id": "doc:цм-No-10-23-pdf",
+   "title": "Semi‑industrial pilot tests recommended for the Almalik GMK pilot plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-from-the-kalmakyr-deposit",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:reagent-regime-a",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:reagent-regime-b",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "two reagent regimes to be tested on the pilot plant",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "рекомендована проверка двух вариантов реагентного режима: комбинация АФИ‑4Г10К и ДП‑4 в сочетании с БК; сочетание М‑ТФ‑421 с БК",
+     "locator_kind": "md_para",
+     "locator": "para:132",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Полученные результаты лабораторных исследований позволили рекомендовать проведение полупромышленных испытаний предложенных реагентов на установке опытной обогатительной фабрики Алмалыкского ГМК.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-10-23-pdf:2",
+   "document_id": "doc:цм-No-10-23-pdf",
+   "title": "Industrial application of collector reagent DP-4 with butyl xanthate (BK) at the Zapolyarny branch of Norilsk Nickel (Norilsk)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "serosulphide flotation (autoclave hydrometallurgy of the Nadezhdinsky metallurgical plant) and flotation of copper‑nickel ores at the Norilsk enrichment plant",
+       "temperature_text": "autoclave conditions (unspecified)",
+       "duration_text": "industrial continuous operation (unspecified)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dp-4-collector-reagent",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:butyl-xanthate-bk",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "increase in extraction of platinum‑group metals (PGM)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 8.0,
+      "nominal": null,
+      "max": 11.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в Заполярном филиале Норникеля (Норильск) применение реагента-собирателя ДП-4 в сочетании с БК ... обеспечило прирост извлечения металлов платиновой группы (МПГ) на 8-11 % (абс.) по сравнению с базовым реагентным режимом",
+     "locator_kind": "md_para",
+     "locator": "para:173",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The reagent regime has been used industrially in Norilsk for more than a quarter of a century.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "industrial adoption",
+      "direction": "increases",
+      "factor": "DP-4 + BK",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Указанные реагентные режимы промышленно используют в Норильске уже более четверти века.",
+     "locator_kind": "md_para",
+     "locator": "para:174",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в Заполярном филиале Норникеля (Норильск) применение реагента-собирателя ДП-4 в сочетании с БК ... обеспечило прирост извлечения металлов платиновой группы (МПГ) на 8-11 % (абс.) по сравнению с базовым реагентным режимом",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-10-23-pdf:3",
+   "document_id": "doc:цм-No-10-23-pdf",
+   "title": "Industrial application of collector reagent DP-4 with BK and dialkyl dithiophosphate at the Talnaya enrichment plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation of copper‑nickel ores rich in copper and nickel",
+       "temperature_text": "unspecified",
+       "duration_text": "industrial continuous operation (unspecified)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dp-4-collector-reagent",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:butyl-xanthate-bk",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:dialkyl-dithiophosphate",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "increase in extraction of platinum‑group metals (PGM)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 3.0,
+      "nominal": null,
+      "max": 5.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На Талнахской обогатительной фабрике ... применение ДП-4 в сочетании с БК и диалкилдитиофосфатом повысило извлечение МПГ на 3-5 % (абс.)",
+     "locator_kind": "md_para",
+     "locator": "para:158",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The reagent regime has been used industrially in Norilsk for more than a quarter of a century.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "industrial adoption",
+      "direction": "increases",
+      "factor": "DP-4 + BK + dialkyl dithiophosphate",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Указанные реагентные режимы промышленно используют в Норильске уже более четверти века.",
+     "locator_kind": "md_para",
+     "locator": "para:174",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На Талнахской обогатительной фабрике при обогащении шихты богатых и медистых медно-никелевых руд применение ДП-4 в сочетании с БК и диалкилдитиофосфатом повысило извлечение МПГ на 3-5 % (абс.)",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "World zinc production in 2022 was 4,85 million t, an increase of 9,8 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "9,8 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "периодом 2022 г. производство цинка в стране составило 4,85 млн т (+9,8 %).",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Almina‑Mins do Alentejo (Portugal) suspended zinc output until Q2 2025 due to unfavourable world‑market conditions.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operation",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С 24 сентября 2023 г. в связи с неблагоприятной конъюнктурой мирового рынка Almina‑Mins do Alentejo (Португалия) до II квартала 2025 г. приостановила выпуск цинка.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "In 2022 the company produced 215 000 t of zinc concentrate and 50,0 000 t of lead concentrate.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2022 г . компания произвела 215, тыс. т цинка в концентрате, 50,0 тыс. т свинца в концентрате.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Boliden (Sweden) suspended the Tara mine (Ireland) after producing 103 000 t of zinc concentrate in 2022 because of unfavourable world‑market conditions.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operation",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В сентябре 2023 г . Boliden (Швеция) из-за неблагоприятной конъюнктуры мирового рынка приостанавливает работу рудника Tara (Ирландия), где в 2022 г . произведено 103 тыс. т цинка в концентрате.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World lead consumption in 2023 will be 12,805 million t (+1,1 % vs 2022) and production 12,84 million t (+2,7 %).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption",
+    "direction": "increases",
+    "factor": "1,1 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2023 г. мировое потребление свинца составит 12,805 млн т (+1,1 % к 2022 г .), производство - 12,84 млн т (+2,7 % к 2022 г.)",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "China’s customs data show that export of lead in Jan‑Aug 2023 grew to 101,0 000 t (+10,0 % vs the same period last year).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "export",
+    "direction": "increases",
+    "factor": "10,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по данным Главного таможенного управления КНР, в январе - августе 2023 г. экспорт по сравнению с аналогичным периодом прошлого года вырос до 101,0 тыс. т (+10,0 %).",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World tin consumption in 2022 was 360,0 000 t, production 348,9 000 t, resulting in a market deficit of 11,1 000 t.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "мировое потребление олова составило 360,0 тыс. т, производство - 348,9 тыс. т, дефицит рынка - 11,1 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "In Russia, tin output in Jan‑Sep 2023 was 131,0 000 t, up 5,6 % YoY.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "5,6 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в январе - сентябре 2023 г . по сравнению с аналогичным периодом прошлого года, по данным Antaike (КНР), выпуск олова в стране составил 131,0 тыс. т (+5,6 %).",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Polar Lithium (Russia) plans to commission its first Kolmozersky processing line in 2026 with a capacity of 0,4 million t/yr of ore for lithium carbonate and hydroxide production.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2026 г . ООО «Полярный литий» (РФ) планирует ввести в эксплуатацию первую линию Колмозерского ГОКа (РФ), рассчитанную на переработку 0,4 млн т/год руды для производства карбоната и гидроксида лития.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Second phase of the Polar Lithium project is scheduled for 2030, raising annual ore mining to 2,0 million t.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Ввод второй очереди намечен на 2030 г., ежегодная добыча руды вырастет до 2,0 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Sigma Lithium (Brazil) reached its 2023 design capacity of 130,0 000 t at the Greentech plant, producing chemical‑grade lithium concentrate with 100 % water recycle and no tail‑storage.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в октябре 2023 г . Sigma Lithium (Бразилия) достигла проектной мощности на 2023 г. - 130,0 тыс. т на заводе Greentech (Бразилия), производящем концентрат лития химического качества без хвостохранилища и со 100,0%-ным повторным использованием воды.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "LG Chem (South Korea) together with Huayou Cobalt (China) plan to start a lithium plant in Morocco by 2025 with a capacity of 50,0 000 t/yr.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "К 2025 г. LG Chem (Южная Корея) совместно с Huayou Cobalt (КНР) планируют ввести в эксплуатацию в Марокко завод по производству лития мощностью 50,0 тыс. т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World copper demand is expected to grow by more than 40 % by 2030, reaching 36 million t, with price forecasts of $12‑14 000 per tonne.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "demand",
+    "direction": "increases",
+    "factor": "more than 40 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ожидается, что мировой спрос на медь к 2030 г . вырастет более чем на 40 % и составит 36 млн т. При этом мировая цена меди прогнозируется на уровне 12-14 тыс. долл. за 1 т",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировой спрос на медь к 2030 г . вырастет более чем на 40 % и составит 36 млн т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "demand",
+    "direction": "increases",
+    "factor": "2030",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировой спрос на медь к 2030 г . вырастет более чем на 40 % и составит 36 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировая цена меди прогнозируется на уровне 12-14 тыс. долл. за 1 т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "future",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировая цена меди прогнозируется на уровне 12-14 тыс. долл. за 1 т",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "на их долю приходится более 60 % мирового производства меди и более 95 % молибдена",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share",
+    "direction": "increases",
+    "factor": "global production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на их долю приходится более 60 % мирового производства меди и более 95 % молибдена",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Алмалыкский горно-металлургический комбинат (АГМК) - одно из самых крупных горно-металлургических промышленных предприятий Узбекистана, единственный производитель меди в республике.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "status",
+    "direction": "no_change",
+    "factor": "industry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Алмалыкский горно-металлургический комбинат (АГМК) - одно из самых крупных горно-металлургических промышленных предприятий Узбекистана, единственный производитель меди в республике.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Комбинат выпускает порядка 90 % серебра и 20 % золота в стране, являясь крупнейшим производителем меди в Центральной Азии.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production_share",
+    "direction": "increases",
+    "factor": "national",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Комбинат выпускает порядка 90 % серебра и 20 % золота в стране, являясь крупнейшим производителем меди в Центральной Азии.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "За последние 5 лет объем производства меди на АГМК увеличился почти в 1,5 раза и в 2020 г. достиг 148 тыс. т",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production_volume",
+    "direction": "increases",
+    "factor": "5 years",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За последние 5 лет объем производства меди на АГМК увеличился почти в 1,5 раза и в 2020 г. достиг 148 тыс. т",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Улучшение показателей достигается за счет совершенствования реагентных режимов флотации на основе использования композиционных реагентов-собирателей нового поколения",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "performance",
+    "direction": "increases",
+    "factor": "reagent regime",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Улучшение показателей достигается за счет совершенствования реагентных режимов флотации на основе использования композиционных реагентов-собирателей нового поколения",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2020 г. утверждены окончательные параметры Проекта, предусматривающие достижение к 2028 г. выпуска 400 тыс. т катодной меди, 50 т золота и 270 т серебра.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "future production targets",
+    "direction": "increases",
+    "factor": "project parameters",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2020 г. утверждены окончательные параметры Проекта, предусматривающие достижение к 2028 г . выпуска 400 тыс. т катодной меди, 50 т золота и 270 т серебра.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Общие мощности АГМК по переработке руды будут доведены до 220 млн т/год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "MOF‑3‑5 introduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в результате чего общие мощности АГМК по переработке руды будут доведены до 220 млн т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Доходы АГМК от продажи меди в настоящее время составляют 2,5 млрд долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "revenue",
+    "direction": "increases",
+    "factor": "current sales",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доходы АГМК от продажи меди в настоящее время составляют 2,5 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "При увеличении производства меди до 400 тыс. т в ближайшие 5 лет этот показатель, учитывая смежные отрасли, может достичь 7-8 млрд долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "revenue",
+    "direction": "increases",
+    "factor": "higher copper output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При увеличении производства меди до 400 тыс. т в ближайшие 5 лет этот показатель, учитывая смежные отрасли, может достичь 7-8 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "АгМК ежегодно теряет с отвальными хвостами МОФ-1,2: 25-30 тыс. т меди; 420-450 т молибдена и 4-5 т золота.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "metal losses",
+    "direction": "decreases",
+    "factor": "current processing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ежегодно теряет с отвальными хвостами МОФ-1,2: 25-30 тыс. т меди; 420-450 т молибдена и 4-5 т золота.",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "После планируемого расширения АГМК абсолютные потери металлов и финансовые потери соответственно возрастут в 4,0-4,5 раза.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "metal and financial losses",
+    "direction": "increases",
+    "factor": "plant expansion",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После планируемого расширения АГМК абсолютные потери металлов и финансовые потери соответственно возрастут в 4,0-4,5 раза.",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "При содержании в МПР Ёшлик-1 0,34 % Cu и 0,3 г/т Au извлечение этих металлов в Cu‑Mo‑концентрат составляет только ~81 % Cu и ~54 % Au.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery rates",
+    "direction": "decreases",
+    "factor": "ore composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при содержании в МПР Ёшлик-1 0,34 % Cu и 0,3 г/т Au извлечение этих металлов в Cu - Mo-концентрат составляет только ~81 % Cu и ~54 % Au.",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Современные флотореагенты открывают новые возможности и перспективы для рентабельного извлечения редких и драгоценных металлов (Mo, Ag, Pt, Pd, Re, In и др.) из МПР в запредельно низких концентрациях.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "extraction capability",
+    "direction": "increases",
+    "factor": "modern flotation reagents",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Современные флотореагенты открывают также новые возможности и перспективы для рентабельного извлечения редких и драгоценных металлов (Mo, Ag, Pt, Pd, Re, In и др.), содержащихся в МПР в запредельно низких концентрациях.",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Контрастность поверхностных свойств минералов, обладающих близкими технологическими свойствами, может быть повышена за счет разработки и использования селективных флотореагентов‑собирателей.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "selectivity",
+    "direction": "increases",
+    "factor": "selective collectors",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Контрастность поверхностных свойств минералов, обладающих близкими технологическими свойствами, может быть повышена за счет разработки и использования селективных флотореагентов‑собирателей.",
+   "locator_kind": "md_para",
+   "locator": "para:171",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Повышение селективности реагентных режимов при флотации сульфидных минералов достигается прежде всего за счет использования в качестве собирателей композиционных реагентов или комбинации собирателей.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "selectivity",
+    "direction": "increases",
+    "factor": "composite collectors",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение селективности реагентных режимов при флотации сульфидных минералов достигается прежде всего за счет использования в качестве собирателей композиционных реагентов или комбинации собирателей.",
+   "locator_kind": "md_para",
+   "locator": "para:171",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-10-23-pdf",
+   "process": "flotation"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

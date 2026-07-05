@@ -1,4 +1,86 @@
-# metalcrow
+# MetalCrow · научный клубок
+
+**Граф знаний R&D для горно-металлургической отрасли** — поисково-аналитическая система, которая связывает статьи, эксперименты, технологии, материалы, режимы, установки и исследовательские команды в единую карту знаний и отвечает на вопросы со ссылками на источники.
+
+Решение для кейса **«Научный клубок»** на [NorNickel AI Science Hack 2026](https://nornickel-ai-hackathon.ru/task-2).
+
+---
+
+## О проекте
+
+Исследователи Норникеля работают с огромным массивом неструктурированных данных: внутренние отчёты, протоколы экспериментов, обзоры, журналы «Цветные металлы», справочники материалов и оборудования. Эти знания разрознены — лежат в PDF, DOCX и таблицах, не связаны между собой.
+
+Чтобы ответить на вопрос *«что уже делали по процессу X при режиме Y — и какой был эффект на показатель Z?»*, исследователь вынужден вручную перебирать десятки документов, полагаться на память коллег и не видит пробелов в экспериментальном покрытии.
+
+**MetalCrow** решает эту задачу:
+
+- **Ingestion-пайплайн** — PDF и сканы проходят Docling + OCR, многоуровневую обработку (L1→L3) и попадают в OKF-репозиторий и Postgres
+- **Граф знаний** — Neo4j хранит сущности (материалы, процессы, оборудование, эксперты) и связи между ними с провенансом
+- **GraphRAG-агент** — отвечает на вопросы на естественном языке, достаёт подграф и фрагменты корпуса, собирает ответ с цитатами и меткой достоверности
+- **LitSearch** — если ответа нет во внутреннем корпусе, агент выходит в мировую литературу (OpenAlex, КиберЛенинка), скачивает статьи и добавляет их в граф
+- **Аналитика** — покрытие корпуса, противоречия между источниками, сравнение отечественной и зарубежной практики, пробелы в данных
+
+Система отвечает на сложные многопараметрические запросы — материал + процесс + условия + география + числовые диапазоны — и показывает, на чём держится каждое утверждение.
+
+---
+
+## Кейс
+
+**Трек:** «Научный клубок» · **Хакатон:** [NorNickel AI Science Hack 2026](https://nornickel-ai-hackathon.ru/)
+
+**Задача:** создать knowledge graph или поисково-аналитическую систему, которая связывает статьи, эксперименты, материалы, свойства, режимы, установки, исследовательские команды и выводы. Главное — чтобы система отвечала на вопросы вида *«что уже делали по сплавам X при режиме Y и какой был эффект на свойство Z»*, показывала связанные сущности, историю решений и пробелы в данных.
+
+**Корпус:** анонимизированные внутренние отчёты и статьи, каталог экспериментов, справочники материалов и оборудования, перечень сотрудников/лабораторий, таксономия тематик. [Данные кейса](https://disk.yandex.ru/d/npigiuw4Rbe9Pg).
+
+**Контрольные запросы**, на которые система должна отвечать:
+
+1. Методы обессоливания воды при сульфатах/хлоридах 200–300 мг/л и сухом остатке ≤1000 мг/дм³
+2. Циркуляция католита при электроэкстракции никеля — мировая практика и оптимальная скорость потока
+3. Распределение Au, Ag и МПГ между штейном и шлаком за последние 5 лет
+4. Закачка шахтных вод в глубокие горизонты — РФ vs мир, технико-экономические показатели
+
+Подробнее о формулировке задачи: [`docs/TASK_EXPLANATION.md`](docs/TASK_EXPLANATION.md), [`docs/CASE.md`](docs/CASE.md).
+
+---
+
+## Команда
+
+Команда из **5 человек**, time-boxed delivery за ~2 дня хакатона. Каждый владел своим набором микросервисов и тестов — изоляция по сервисам минимизировала конфликты при параллельной разработке.
+
+| Зона | Что делали |
+|------|------------|
+| **Инфра / Lead** | Docker Compose, CI/CD, `tool_sdk`, очереди Celery, деплой на сервер |
+| **Ingestion** | Сервис приёма документов, парсер-микросервисы (Docling, cleanup, extract), статистика по файлам |
+| **Data / RAG** | OKF-репозиторий, GraphRAG, Neo4j, векторный индекс, wiki, онтология |
+| **NLP** | spaCy-словарь RU/EN, извлечение сущностей и числовых ограничений |
+| **Frontend** | UI: чат, поиск, граф, загрузка документов, дашборд покрытия, лендинг |
+
+Парсер документов основан на [репозитории Константина Ушенина](OTHER_REPOS/README.md) (`OKF_PARSER`) — в monorepo выделен и доработан как [`services/nornickel-2026-parser/`](services/nornickel-2026-parser/).
+
+---
+
+## Архитектура
+
+Monorepo на базе [full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template), расширенный до микросервисной архитектуры:
+
+```
+Пользователь → nginx (frontend) → FastAPI backend (auth, chat, BFF)
+                                        ↓
+              ┌─────────────────────────┼─────────────────────────┐
+              │                         │                         │
+         Ingestion plane          Tool plane              Retrieval plane
+    Docling → Clean → spaCy → LLM   search, graph,      GraphRAG + hybrid
+              ↓                     analytics, wiki      search (BM25+vector)
+         Neo4j + Postgres + MinIO + Redis
+```
+
+Traefik не используется — фронтенд (nginx) сам проксирует `/api`, `/docs`, `/redoc` на бэкенд внутри docker-сети. Наружу торчит **один порт**.
+
+**Стек:** FastAPI · React · Neo4j · Postgres + pgvector · Redis · Celery · MinIO · Docling OCR · Docker Compose
+
+Техническая спецификация: [`specs/SPEC_V5.md`](specs/SPEC_V5.md).
+
+---
 
 ## Быстрый старт
 
@@ -7,151 +89,85 @@ cp .env.example .env          # один раз
 make up                       # парсер (CPU) + metalcrow
 ```
 
-Первый запуск скачает модели Docling/OCR в `services/nornickel-2026-parser/SHARED/MODELS` — это может занять 10–20 минут. Дальше `make up` поднимает всё за пару минут.
+Первый запуск скачает модели Docling/OCR (~10–20 мин). Дальше `make up` поднимает всё за пару минут.
 
 | Команда | Что делает |
 |---------|------------|
 | `make up` | Локально: парсер (CPU) + metalcrow |
 | `make up-gpu` | То же, парсер на CUDA |
-| `make up-prod` | Сервер: парсер + metalcrow, наружу только фронт `:80` |
-| `make up-no-parser` | Только metalcrow (L1 — stub, без Docling) |
-| `make up-fast` | Без проверки/скачивания моделей |
-| `make parser-models` | Только предзагрузка моделей |
+| `make up-prod` | Сервер: наружу только фронт `:80` |
+| `make up-no-parser` | Только metalcrow (L1 — stub) |
 | `make down` | Остановить оба стека |
 
-Эквивалент без Make: `./scripts/dev-up.sh`, `./scripts/dev-down.sh` (флаги `--gpu`, `--prod`, `--no-parser`).
+**Локально после старта:**
 
-### Сборка образов (без старта)
+| Сервис | URL |
+|--------|-----|
+| Frontend | http://localhost:5173 |
+| Backend API docs | http://localhost:8000/docs |
+| Adminer | http://localhost:8080 |
+| Parser API | http://localhost:8114/health |
 
-Python-сервисы собираются через `uv sync` с BuildKit-кэшем (зависимости не перекачиваются при каждом билде). Скрипты `make up` / `make build` включают BuildKit автоматически.
-
-Пересобрать образы отдельно от запуска — удобно перед `make up-fast`:
-
-| Команда | Что делает |
-|---------|------------|
-| `make build` | Образы парсера (CPU) + metalcrow |
-| `make build-gpu` | Парсер CUDA + metalcrow |
-| `make build-prod` | metalcrow prod overlay + парсер CPU |
-| `make build-no-parser` | Только metalcrow |
-| `make build-parser` | Только парсер (CPU) |
-| `make build-parser-gpu` | Только парсер (CUDA) |
-
-```bash
-make build      # пересборка
-make up-fast    # поднять без повторной сборки и без скачивания моделей
-```
-
-Эквивалент: `./scripts/dev-build.sh` (флаги `--gpu`, `--prod`, `--no-parser`, `--parser-only`).
-
-### Сервисы (локально)
-
-- Frontend: http://localhost:5173 (сюда же `/api/*`, `/docs`, `/redoc`)
-- Backend: http://localhost:8000/docs
-- Adminer: http://localhost:8080
-- Parser API: http://localhost:8114/health
-
-Остановить с удалением данных БД: `make down` с аргументом `-v` → `./scripts/dev-down.sh -v`.
-
-## Запуск вручную (без make)
-
-Если нужен только metalcrow без парсера (stub L1):
-
-```bash
-cp .env.example .env
-docker compose up -d --build
-```
-
-`docker compose` без `-f` мёржит `compose.yml` + `compose.override.yml` — порты наружу и live-reload бэкенда.
-
-## Запуск на сервере (хакатон)
+**На сервере (хакатон):**
 
 ```bash
 cp .env.example .env   # смените SECRET_KEY, POSTGRES_PASSWORD, FIRST_SUPERUSER_PASSWORD
 make up-prod
 ```
 
-Наружу публикуется **только фронтенд** на порту `80` — в браузере достаточно `http://<ip-сервера>`. `VITE_API_URL` трогать не нужно.
+→ `http://<ip-сервера>` — `VITE_API_URL` трогать не нужно.
 
-## Ingest SHARED → knowledge graph
+---
 
-Разовая загрузка корпуса парсера (`SHARED/RAW_DATA` + `UPLOAD_DATA`) в Neo4j через
-`science-knowledge-graph`. Скрипт: `services/science-knowledge-graph/scripts/ingest_shared_corpus.py`.
+## Документация
 
-Берёт только файлы с готовым OKF-markdown (стадия `00_docling_raw`); сырой PDF без
-Docling пропускается. Прогресс resumable — `scripts/.ingest_shared_progress.json` внутри
-контейнера. Парсер должен быть доступен как `http://parser-main:8114` (сеть `metalcrow-net`).
+| Документ | Содержание |
+|----------|------------|
+| **[SETUP.md](SETUP.md)** | **Основное руководство:** требования, пошаговый запуск, compose-файлы, предзагрузка моделей и данных, Neo4j ingest, скрипты, типичные проблемы |
+| [`docs/TASK_EXPLANATION.md`](docs/TASK_EXPLANATION.md) | Полная формулировка кейса от организаторов |
+| [`specs/SPEC_V5.md`](specs/SPEC_V5.md) | Итоговая техническая спецификация |
+| [`services/science-knowledge-graph/README.md`](services/science-knowledge-graph/README.md) | GraphRAG и Neo4j ingest |
+| [`services/nornickel-2026-parser/README.md`](services/nornickel-2026-parser/README.md) | Парсер документов (Docling pipeline) |
 
-Проверить coverage OKF (локально, если парсер слушает `:8114`):
+---
 
-```bash
-curl -s http://localhost:8114/api/v1/statistics | python3 -m json.tool
-# поле stage0_done — сколько файлов реально ingestable
+## Лендинг
+
+Презентационная страница проекта для жюри и участников хакатона:
+
+**→ [arqoofficial.github.io/metalcrow-nn](https://arqoofficial.github.io/metalcrow-nn/)**
+
+Лендинг показывает:
+
+- **Hero** — суть продукта и примеры контрольных вопросов к агенту
+- **LitSearch** — поиск по мировой литературе (OpenAlex + КиберЛенинка) с автоматическим скачиванием статей
+- **Возможности** — чат-агент, гибридный поиск, граф знаний, wiki, загрузка PDF
+- **Как устроено** — пайплайн от Docling/OCR до GraphRAG-ответа с провенансом
+- **Достоверность** — метки уверенности, противоречия между источниками, автоматический бенчмарк
+
+Исходники лендинга: [`docs/index.html`](docs/index.html) (GitHub Pages) и [`frontend/public/landing/`](frontend/public/landing/) (доступен в приложении по `/landing`).
+
+---
+
+## Структура репозитория
+
+```
+metalcrow/
+├── backend/              # FastAPI-оркестратор: auth, chat, BFF, ingest API
+├── frontend/             # React UI + nginx proxy
+├── services/             # Микросервисы: parse-docling, science-knowledge-graph, …
+├── packages/tool_sdk/    # Общий SDK для tool-сервисов
+├── scripts/              # dev-up.sh, dev-down.sh, fetch-shared-yandex.sh
+├── compose.yml           # Базовый Docker Compose
+├── compose.override.yml  # Локальная разработка (порты, live-reload)
+├── compose.prod.yml      # Прод: наружу только :80
+└── SETUP.md              # Подробное руководство по запуску
 ```
 
-### Локально
+---
 
-```bash
-make up   # парсер + metalcrow
+## Лицензия и ссылки
 
-docker compose build science-knowledge-graph
-docker compose up -d science-knowledge-graph
-
-# smoke test
-docker compose exec science-knowledge-graph \
-  uv run python scripts/ingest_shared_corpus.py --limit 10
-
-# полный прогон
-docker compose exec science-knowledge-graph \
-  uv run python scripts/ingest_shared_corpus.py
-```
-
-### На сервере
-
-Из корня репозитория (тот же каталог, где `make up-prod`). Compose-файлы как при prod-деплое:
-
-```bash
-cd /path/to/metalcrow
-git pull   # если обновляли скрипт
-
-docker compose -f compose.yml -f compose.prod.yml build science-knowledge-graph
-docker compose -f compose.yml -f compose.prod.yml up -d science-knowledge-graph
-
-# опционально: парсер жив
-docker compose -f compose.yml -f compose.prod.yml exec science-knowledge-graph \
-  curl -sf http://parser-main:8114/health
-
-docker compose -f compose.yml -f compose.prod.yml exec science-knowledge-graph \
-  uv run python scripts/ingest_shared_corpus.py
-```
-
-Долгий прогон — в `tmux`/`screen` (SSH может оборваться). Ожидаемо: ~2700 raw paths в tree,
-~300 с OKF попадут в граф, остальные — `skipped (no OKF output yet)`.
-
-Подробнее: [services/science-knowledge-graph/README.md](services/science-knowledge-graph/README.md).
-
-## Парсер документов (nornickel-2026-parser)
-
-L1-слой (`svc-parse-docling`) ходит по HTTP в автономный стек парсера
-(`services/nornickel-2026-parser`, API `:8114`), забирает сырой Docling-markdown
-(стадия `docling_raw`) и пишет в OKF/Postgres. Если парсер недоступен — stub-fallback.
-
-Связь через external-сеть `metalcrow-net` (alias `parser-main`), см.
-[services/nornickel-parser.override.yml](services/nornickel-parser.override.yml).
-`make up` создаёт сеть, копирует `.env` и предзагружает модели автоматически.
-
-Ручной запуск (если нужен контроль):
-
-```bash
-docker network create metalcrow-net
-docker compose -f services/nornickel-2026-parser/docker-compose.yml \
-               -f services/nornickel-parser.override.yml up -d --build
-docker compose up -d --build
-```
-
-GPU: добавьте `-f services/nornickel-2026-parser/docker-compose.gpu.yml` к команде парсера или используйте `make up-gpu`.
-
-## Структура compose-файлов
-
-- `compose.yml` — база: сборка из исходников, `restart: always`, без единого опубликованного порта (сервисы видны только друг другу внутри сети).
-- `compose.override.yml` — подключается автоматически при локальном `docker compose up` (без `-f`): открывает порты db/adminer/backend/frontend, включает live-reload бэкенда.
-- `compose.prod.yml` — явный оверлей для сервера (`-f compose.yml -f compose.prod.yml`): публикует наружу только порт `80` фронтенда.
+- Исходный код: этот репозиторий
+- Публичный репозиторий для сдачи: [github.com/arqoofficial/metalcrow-nn](https://github.com/arqoofficial/metalcrow-nn)
+- Хакатон: [nornickel-ai-hackathon.ru](https://nornickel-ai-hackathon.ru/)

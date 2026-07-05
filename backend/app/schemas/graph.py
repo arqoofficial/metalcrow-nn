@@ -2,6 +2,8 @@ from typing import Any
 
 from sqlmodel import Field, SQLModel
 
+from app.schemas.common import RegimeBucket
+
 
 # POST /api/v1/graph/query request body (SPEC_V3 §8.3, Приложение D.5).
 # Только шаблон + параметры — raw Cypher от клиента не принимается.
@@ -38,3 +40,24 @@ class PathResponse(SQLModel):
     nodes: list[GraphNode] = Field(default_factory=list)
     edges: list[GraphEdge] = Field(default_factory=list)
     path_length: int
+
+
+# Пробел покрытия для GET /api/v1/graph/overview: комбинация material × property ×
+# regime_bucket, по которой нет ни одного эксперимента (переиспользует heatmap-логику
+# analytics.coverage). `reason` — человекочитаемая формулировка для UI.
+class GraphGap(SQLModel):
+    material: str
+    property: str
+    regime_bucket: RegimeBucket
+    reason: str
+
+
+# Response for GET /api/v1/graph/overview — агрегированный граф знаний по experiments_flat
+# (цепочки material→process→equipment→result + labs/experts) плюс пробелы покрытия.
+class GraphOverviewResponse(SQLModel):
+    nodes: list[GraphNode] = Field(default_factory=list)
+    edges: list[GraphEdge] = Field(default_factory=list)
+    gaps: list[GraphGap] = Field(default_factory=list)
+    # Свободнотекстовые пробелы (источник GraphRAG отдаёт их строками, а не
+    # структурированными material×property×regime как SQL-coverage).
+    notes: list[str] = Field(default_factory=list)

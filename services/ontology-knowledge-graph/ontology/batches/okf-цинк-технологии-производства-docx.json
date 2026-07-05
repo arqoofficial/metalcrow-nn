@@ -1,0 +1,1238 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цинк-технологии-производства-docx",
+   "title": "Цинк Технологии производства.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Цинк Технологии производства.docx.md",
+   "artifact_sha256": "0cbaa3676ea49f413d58096a154fe4ea3aba694a5183498c758460a6cc43b911",
+   "okf_raw_path": "Обзоры/Цинк Технологии производства.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:zinc-concentrate",
+   "label": "zinc concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gagok-ore-sample",
+   "label": "Gagok ore sample",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:zn-pb-concentrates-samples-1-5",
+   "label": "Zn‑Pb concentrates (samples 1‑5)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:additives-na2o-k2o-cao-bao",
+   "label": "additives (Na2O, K2O, CaO, BaO)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:concentrate-na2o-k2o-cao-bao",
+   "label": "concentrate + Na2O, K2O, CaO, BaO",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:basic-oxides",
+   "label": "basic oxides",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:initial-concentrate",
+   "label": "initial concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:zno-feed",
+   "label": "ZnO feed",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цинк-технологии-производства-docx:0",
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "title": "Roasting of six zinc concentrates with varying iron content",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "obжиг (roasting) of zinc concentrates",
+       "temperature_text": "700-900 °С",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": 973.15,
+       "nominal": null,
+       "max": 1173.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:zinc-concentrate",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "degree of desulphurization",
+     "scope": "material",
+     "material_id": "mat:zinc-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 1.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В работе [10] 6 цинковых концентратов из разных стран с разным содержанием железа (мин. 4,69 %, макс. 13,22 %) подвергали обжигу в следующих условиях: образец весом 0,5 г; стационарный слой в трубчатой печи, поток воздуха 0,8 л/мин, температура 700-900 °С.",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Степень десульфурации концентрата зависит от содержания железа (см. Рисунок 1.6).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "desulphurization degree",
+      "direction": "decreases",
+      "factor": "iron content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Рисунок 1.6 - Степень десульфурации концентрата в минимальным (C1) и максимальным (C6) содержанием железа",
+     "locator_kind": "md_para",
+     "locator": "para:120",
+     "confidence": 0.9
+    },
+    {
+     "text": "% цинка в виде ZnFe₂O₄ растёт с увеличением концентрации железа в концентратах.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "% Zn as ZnFe₂O₄",
+      "direction": "increases",
+      "factor": "iron concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Рисунок 1.7 - Зависимость % цинка в виде ZnFe₂O₄ от концентрации железа в концентратах",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "В работе [10] 6 цинковых концентратов из разных стран с разным содержанием железа (мин. 4,69 %, макс. 13,22 %) подвергали обжигу в следующих условиях: образец весом 0,5 г; стационарный слой в трубчатой печи, поток воздуха 0,8 л/мин, температура 700-900 °С.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цинк-технологии-производства-docx:1",
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "title": "Dry magnetic pre‑concentration of Gagok ore",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "dry magnetic separation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gagok-ore-sample",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "mass removal",
+     "scope": "material",
+     "material_id": "mat:gagok-ore-sample",
+     "value": {
+      "min": null,
+      "nominal": 48.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Около 48,5% образца удалялось при предварительном обогащении, что снижает нагрузку на флотацию",
+     "locator_kind": "md_para",
+     "locator": "para:132",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "pre‑concentration reduces the load on flotation",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Около 48,5% образца удалялось при предварительном обогащении, что снижает нагрузку на флотацию",
+     "locator_kind": "md_para",
+     "locator": "para:132",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Около 48,5% образца удалялось при предварительном обогащении, что снижает нагрузку на флотацию",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цинк-технологии-производства-docx:2",
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "title": "Pilot‑scale roasting of Zn‑Pb concentrates for Almalik zinc plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "roasting in a laboratory KС furnace (LPKS)",
+       "temperature_text": "950°C",
+       "duration_text": "2 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1223.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:zn-pb-concentrates-samples-1-5",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:additives-na2o-k2o-cao-bao",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "best reduction of ferrite and silicate in stationary furnace achieved with preparation No 3 (wet granulation)",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "ferrite and silicate content",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наилучшие показатели по снижению содержания ферритов и силикатов для стационарных условий получены для варианта подготовки шихты No3",
+     "locator_kind": "md_para",
+     "locator": "para:159",
+     "confidence": 0.9
+    },
+    {
+     "text": "no reduction of ferrite or silicate observed in the LPKS furnace",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "ferrite and silicate content",
+      "direction": "no_change",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Для печи КС снижения содержания ферритов или силикатов не выявлено",
+     "locator_kind": "md_para",
+     "locator": "para:160",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В динамическом режиме для обжига использовали лабораторную печь КС LPKS. Диаметр кварцевой трубы 60 мм. **В печь КС загружали определенные части пластин шихты, приготовленные разными способами. Время пребывания одной пластины в печи – 1,5-2,0 мин.**",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цинк-технологии-производства-docx:3",
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "title": "Effect of basic oxide additives on ferrite and silicate formation during roasting",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "roasting of concentrate‑additive mixtures",
+       "temperature_text": "950°C",
+       "duration_text": "2 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1223.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:concentrate-na2o-k2o-cao-bao",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "reduction factor of ferrite and silicate formation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 1.5,
+      "nominal": null,
+      "max": 1.7
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 1,5-1,7 раза при оптимальном количестве МеО 7 % от веса шихты",
+     "locator_kind": "md_para",
+     "locator": "para:161",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "strong basic oxides lower ferrite and silicate formation by 1.5–1.7 times at 7 % additive by weight",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "ferrite and silicate formation",
+      "direction": "decreases",
+      "factor": "1,5-1,7",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в 1,5-1,7 раза при оптимальном количестве МеО 7 % от веса шихты",
+     "locator_kind": "md_para",
+     "locator": "para:161",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Тем не менее, авторы сделали вывод о том, что введение сильных основных окислов ведет к снижению образования ферритов и силикатов цинка - в 1,5-1,7 раза при оптимальном количестве МеО 7 % от веса шихты",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цинк-технологии-производства-docx:4",
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "title": "Effect of strong basic oxides on ferrite and zinc silicate formation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory addition of basic oxides to the feed"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:basic-oxides",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "formation of ferrites and zinc silicates",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 1.5,
+      "nominal": null,
+      "max": 1.7
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "введение сильных основных окислов ведет к снижению образования ферритов и силикатов цинка - в 1,5-1,7 раза при оптимальном количестве МеО 7 % от веса шихты.",
+     "locator_kind": "md_para",
+     "locator": "para:161",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Оптимальный способ подготовки шихты – с добавкой воды.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Оптимальный способ подготовки шихты – с добавкой воды.",
+     "locator_kind": "md_para",
+     "locator": "para:161",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Тем не менее, авторы сделали вывод о том, что введение сильных основных окислов ведет к снижению образования ферритов и силикатов цинка - в 1,5-1,7 раза при оптимальном количестве МеО 7 % от веса шихты. Оптимальный способ подготовки шихты – с добавкой воды.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цинк-технологии-производства-docx:5",
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "title": "Improved enrichment scheme for Zhеzkhent zinc concentrate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Industrial enrichment at Zhеzkhent plant (Kazakhstan)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:initial-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 47.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Zn"
+     },
+     "method": null,
+     "snippet": "концентрат КЦ-3 с Zn 47,0 %",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.9,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Cu 1,9 %",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 86.65,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Zn"
+     },
+     "method": null,
+     "snippet": "при извлечении 86,65 %",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 45.1,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "45,10 %",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 8.92,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "«медный» концентрат с 8,92 % Cu",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Авторы рекомендуют перерабатывать медный концентрат автоклавным выщелачиванием.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "который авторы рекомендуют перерабатывать автоклавным выщелачиванием [14].",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Усовершенствованная схема обогащения цинкового концентрата Жезкентского завода (Казахстан) позволяет получить концентрат КЦ-3 с Zn 47,0 %; Cu 1,9 % (при извлечении 86,65 % и 45,10 %, соответственно) из исходного концентрата %: Zn – 44,77, Pb – 2,30, Cu – 3,20, Fe – 15,96, S (пиритная) – 14,82. Попутно получен «медный» концентрат с 8,92 % Cu который авторы рекомендуют перерабатывать автоклавным выщелачиванием [14].",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цинк-технологии-производства-docx:6",
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "title": "First industrial EZINEX plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Industrial operation of EZINEX hydrometallurgical plant"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:zno-feed",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Первая промышленная установка была спроектирована под переработку пылей электродуговых печей в Италии в 1993 г.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Первая промышленная установка была спроектирована под переработку пылей электродуговых печей в Италии в 1993 г.",
+     "locator_kind": "md_para",
+     "locator": "para:169",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Первая промышленная установка была спроектирована под переработку пылей электродуговых печей в Италии в 1993 г.",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "в настоящее время в ~85 % всего производства цинка используется сфалерит (ZnS), т.е. на металлургическую переработку поступают сульфидные концентраты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "feedstock composition",
+    "direction": "increases",
+    "factor": "~85 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в настоящее время в ~85 % всего производства цинка используется сфалерит (ZnS), т.е. на металлургическую переработку поступают сульфидные концентраты.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Основная цель при флотации – оптимизация сортности и извлечения ценных металлов в соответствующие концентраты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "goal",
+    "direction": "increases",
+    "factor": "сортности и извлечения",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основная цель при флотации – оптимизация сортности и извлечения ценных металлов в соответствующие концентраты.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "Чем тоньше частицы, тем выше степень высвобождения минерала.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mineral liberation",
+    "direction": "increases",
+    "factor": "тонкость частиц",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чем тоньше частицы, тем выше степень высвобождения минерала.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Однако извлечение очень тонких частиц может снизиться, т.к. они, по большей части, не способны прикрепиться к пузырькам воздуха.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery of fine particles",
+    "direction": "decreases",
+    "factor": "very fine particles",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако извлечение очень тонких частиц может снизиться, т.к. они, по большей части, не способны прикрепиться к пузырькам воздуха.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "Выбор конкретного положения на кривой сортность-извлечение диктуется условиями конкуренции при продаже концентрата и общими затратами, включая транспортные расходы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating point selection",
+    "direction": "increases",
+    "factor": "market competition and total costs",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выбор конкретного положения на кривой сортность-извлечение диктуется условиями конкуренции при продаже концентрата и общими затратами, включая транспортные расходы.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "В некоторых случаях тонкое измельчение невыгодно и прибегают к получению коллективного или промежуточного концентрата, содержащего относительно высокие концентрации двух или более ценных металлов при приемлемом уровне извлечения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "grinding fineness",
+    "direction": "decreases",
+    "factor": "economic viability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В некоторых случаях тонкое измельчение невыгодно и прибегают к получению коллективного или промежуточного концентрата, содержащего относительно высокие концентрации двух или более ценных металлов при приемлемом уровне извлечения.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Такие концентраты могут быть подходящим сырьем для шахтной плавки IS (ISF - Imperial Smelting Furnace), но не пригодны для получения электролитического цинка по технологии ОВЭ (обжиг-выщелачивание-электролиз).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability for ISF vs OVE",
+    "direction": "increases",
+    "factor": "concentrate composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такие концентраты могут быть подходящим сырьем для шахтной плавки IS (ISF - Imperial Smelting Furnace), но не пригодны для получения электролитического цинка по технологии ОВЭ (обжиг-выщелачивание-электролиз).",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "При обогащении сульфидной руды стандартными флотационными методами надо учитывать степень упорности руды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "hardness",
+    "direction": "increases",
+    "factor": "ore hardness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При обогащении сульфидной руды стандартными флотационными методами надо учитывать степень упорности руды.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "Пример: одно из крупнейших и богатейших австралийских месторождений Pb-Zn руды McArthur River характеризуется очень упорной рудой.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "hardness",
+    "direction": "increases",
+    "factor": "McArthur River ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пример: одно из крупнейших и богатейших австралийских месторождений Pb-Zn руды McArthur River характеризуется очень упорной рудой.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Разработка месторождения заняла почти 40 лет из-за тонкозернистой природы оруднения; потребовалась разработка новой технологии - технологии IsaMill, но даже и тогда полученный коллективный Pb-Zn концентрат мог быть отправлен на переработку на ограниченное число плавильных заводов – тех, что применяют плавку ISF.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "processing feasibility",
+    "direction": "increases",
+    "factor": "IsaMill technology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработка месторождения заняла почти 40 лет из-за тонкозернистой природы оруднения; потребовалась разработка новой технологии - технологии IsaMill, но даже и тогда полученный коллективный Pb-Zn концентрат мог быть отправлен на переработку на ограниченное число плавильных заводов – тех, что применяют плавку ISF.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "по технологии ОВЭ получают >90 % электролитического цинка в мире",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "global production share",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Хотелось бы особо подчеркнуть, что по технологии ОВЭ получают >90 % электролитического цинка в мире",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.81,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Типичная целевая техническая требуемая доля Zn в концентрате для ОВЭ составляет 47‑56 %, Fe < 10 %, Pb < 3 %, Cu < 2 %, S 30‑32 %",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Таблица 1.2 - Типичная целевые технические требования к составу цинкового концентрата для производства электролитического цинка | Zn 47-56 | Fe <10 | Pb <3 | Cu <2 | S 30-32",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.81,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Для продажи концентратов применяются более строгие предельные значения, например Pb ≤ 3,5 %, Cd ≤ 0,30 %, Cu ≤ 2,0 %, Fe ≤ 12 %, SiO₂ ≤ 3,0 %",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Таблица 1.3 - Технические требования к составу продажного цинкового концентрата ... Pb 1,0-3,0 3,5 | Cd 0,15-0,30 | Cu 0,10-1,5 2,0 | Fe 1,5-10 12 | SiO2` 0,2-2,5 3,0",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.81,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Если Pb > 3‑4 %, SiO₂ > 3‑4 %, Cu > 2 % или Mn > 0,4 % в концентрате, то он может быть отклонён или к его стоимости применяются штрафные вычеты",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impurity limits",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если концентрат предназначен для получения электролитического цинка (технология ОВЭ ...), за превышение уровня примесей могут быть наложены штрафные вычеты из стоимости концентрата или концентраты отвергаются вообще (отказ, например, если Pb>3-4 %, SiO 2 >3-4 %, Cu>2 %, Mn>0,4 %).",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Для гидрометаллургического способа получения цинка предпочтительно, чтобы огарок был в виде порошка с пористой структурой и минимальным содержанием сульфидной серы, нерастворимых ферритов Zn и силикатов свинца и цинка",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для гидрометаллургического способа получения цинка выщелачиванием продукта обжига слабым раствором серной кислоты и электролизом очищенного раствора, желательно, чтобы огарок был в виде порошка с не оплавленной поверхностью частиц. Огарок должен иметь зернистую, пористую структуру. Кроме того, - минимальное остаточное содержание сульфидной серы, - минимальное содержание нерастворимых в кислоте ферритов цинка, - минимальное содержание силикатов свинца и цинка, затрудняющих отстаивание и фильтрование растворов.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.81,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "«Хорошие» цинковые концентраты для ОВЭ обычно имеют Zn > 50 % и Fe ≤ 8 %, но граница Fe сейчас смещена к 10 % и иногда к 12‑14 %",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Под «хорошими» цинковыми концентратами для ОВЭ обычно подразумевали концентраты с содержанием цинка >50 % и низким содержанием железа ≤8 %. Граница по содержанию железа в настоящее время передвинулась к 10 % и даже иногда к 12-14 %.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.81,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Плотности входящих в состав руды металлсодержащих минералов заметно выше, чем у минералов пустой породы",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "density of metal‑bearing minerals vs gangue",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поскольку плотности входящих в состав руды металлсодержащих минералов заметно выше, чем у минералов пустой породы",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Высокое содержание железа отнесено на счет мармарита и пирротина",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Высокое содержание железа отнесено на счет мармарита и пирротина",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Если процесс идет по схеме 2 (реакции 3 и 4) замещение оксида цинка из феррита оксидом другого металла зависит от того, насколько «сильный» оксид добавки",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Если процесс идет по схеме 2 (реакции 3 и 4) замещение оксида цинка из феррита оксидом другого металла зависит от того, насколько «сильный» оксид добавки",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Оптимальный способ подготовки шихты – с добавкой воды",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Оптимальный способ подготовки шихты – с добавкой воды",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Технология ОВЭ (обжиг-выщелачивание-электролиз) является основным способом получения электролитического цинка.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Технология ОВЭ (обжиг-выщелачивание-электролиз) является основным способом получения электролитического цинка.",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "RLE – общепринятая технология, включающая 5 основных стадий: обжиг, выщелачивание, очистка растворов, электролиз и литье.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "RLE («ОВЭ»: обжиг-выщелачивание- электролиз) | Общепринятая технология, включающая 5 основных стадий: обжиг, выщелачивание, очистка растворов, электролиз и литье.",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "ADL – типичный гирометаллургический процесс, отличающийся от RLE тем, что отсутствует этап обжига.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "ADL (прямое атмосферное выщелачивание) | Типичные гирометаллургический процесс, отличающийся от RLE тем, что отсутствует этап обжига",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "EZINEX – гидрометаллургический процесс с NH4Cl‑электролитом, нечувствительный к типичным примесям, влияющим на традиционные способы получения цинка.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "EZINEX – гидрометаллургический процесс с NH4Cl -электролитом. ... нечувствительная к типичным примесям, влияющим на традиционные способы получения цинка.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.45,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "ZPL – прямое выщелачивание сульфидных концентратов с получением раствора сульфата цинка, при этом сульфидная сера окисляется только до элементарной формы.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "ZPL (автоклавное выщелачивание цинка) | Прямое выщелачивание сульфидных концентратов с получением раствора сульфата цинка, ... сульфидная сера окисляется только до элементарной формы",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.45,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "DZS – двухстадийный плавильный процесс, особенно хорошо подходит для переработки низкосортных концентратов, содержащих значительные количества железа и других пустопородных примесей (MnO, SiO2, MgO).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "DZS (прямая плавка цинка) ... Он особенно хорошо подходит для переработки низкосортных концентратов, содержащих значительные количества железа и других пустопородных примесей (MnO, SiO 2 , MgO)",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.81,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "KIVSET – процесс, разработанный ВНИИЦветмет в 1985 г., включает две стадии с образованием полурасплавленного шлака и последующим восстановлением оксидов коксом.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "KIVSET («кислородный взвешенный циклонный электротермический процесс») | Разработанный ВНИИЦветмет (Усть-Каменогорск, Казахстан) в 1985 г процесс включает две стадии: ...",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.81,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "ISP – процесс плавки, позволяющий одновременно извлекать цинк и свинец, разработанный в середине 20‑го века в Великобритании.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "ISP (процесс плавки Imperial) | Один из ранее распространенных видов плавки, в ходе которого извлекаются одновременно цинк и свинец. ... Эта технология была разработана в середине 20-го века в Великобритании.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.45,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Падение давления на решетке должно быть порядка 30%, чтобы обеспечить хорошее распределение газа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "increases",
+    "factor": "grid design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Падение давления на решетке должно быть порядка 30%, чтобы обеспечить хорошее распределение газа.",
+   "locator_kind": "md_para",
+   "locator": "para:241",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Соотношение размеров частиц (самых крупных к самым мелким) в КС должно быть близко к 10:1.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "increases",
+    "factor": "particle size distribution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "соотношение размеров частиц (самых крупных к самым мелким) в КС должно быть близко к 10:1.",
+   "locator_kind": "md_para",
+   "locator": "para:250",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Для типичной системы воздух‑цинковый концентрат взаимосвязь экстремальных размеров частиц иллюстрируется на рисунке 3.5.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "nonmonotonic",
+    "factor": "gas velocity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для типичной системы воздух-цинковый концентрат эта взаимосвязь проиллюстрирована на Рис. 3.5.",
+   "locator_kind": "md_para",
+   "locator": "para:244",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Если газовый поток растет, слой будет и дальше расширяться – вплоть до точки, когда индивидуальные частицы разделяются и транспортируются с газовым потоком.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "layer thickness",
+    "direction": "increases",
+    "factor": "gas flow rate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если газовый поток растет, слой будет и дальше расширяться – вплоть до точки, когда индивидуальные частицы разделяются и транспортируются с газовым потоком.",
+   "locator_kind": "md_para",
+   "locator": "para:240",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Для обеспечения хорошего распределения газа существенное значение имеет относительное падение давления на распределительной колосниковой решетке по сравнению с самим слоем.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "increases",
+    "factor": "grid vs layer pressure drop",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для обеспечения хорошего распределения газа существенное значение имеет относительное падение давления на распределительной колосниковой решетке по сравнению с самим слоем.",
+   "locator_kind": "md_para",
+   "locator": "para:241",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Решетка обычно представляет собой керамическую пластину с отверстиями ~6 мм в диаметре, с расстоянием между центрами ~100 мм.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "hole size and spacing",
+    "direction": "nonmonotonic",
+    "factor": "grid geometry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Решетка обычно представляет собой керамическую пластину с отверстиями ~6 мм в диаметре, с расстоянием между центрами ~100 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:241",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Отсюда площадь газового потока составляет ~0,3% суммарной площади поверхности решетки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow area fraction",
+    "direction": "increases",
+    "factor": "grid open area",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отсюда площадь газового потока составляет ~0,3% суммарной площади поверхности решетки.",
+   "locator_kind": "md_para",
+   "locator": "para:241",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "D1/D2 =9,6, где D1 - максимальный размер частицы для поддержания ожижения, D2 - минимальный размер частицы, не подверженной переносу.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "size ratio",
+    "direction": "increases",
+    "factor": "particle dimensions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "D 1 /D 2 =9,6, где D 1 - максимальный размер частицы для поддержания ожижения, D 2 - минимальный размер частицы, не подверженной переносу.",
+   "locator_kind": "md_para",
+   "locator": "para:250",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "Скорость уноса из слоя частиц, размер которых меньше минимального значения, зависит от концентрации таких частиц в слое.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "removal rate",
+    "direction": "increases",
+    "factor": "particle concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Скорость уноса из слоя частиц, размер которых меньше минимального значения, зависит от концентрации таких частиц в слое.",
+   "locator_kind": "md_para",
+   "locator": "para:251",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  },
+  {
+   "text": "При работе в периодическом режиме концентрация мелочи в данный момент/исходная концентрация мелочи =е -kt , где k – константа уноса.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "концентрация мелочи в данный момент/исходная концентрация мелочи =е -kt , где k – константа уноса.",
+   "locator_kind": "md_para",
+   "locator": "para:251",
+   "confidence": 0.9,
+   "document_id": "doc:цинк-технологии-производства-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

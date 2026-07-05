@@ -1,0 +1,560 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:04_2005_cm-pdf",
+   "title": "04_2005_CM.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2005\\04_2005_CM.pdf.md",
+   "artifact_sha256": "a08314254b4e3ee9178c2186a80a63967053a79e0b53fbbb969f5497e9c3e0f2",
+   "okf_raw_path": "Журналы/Цветные металлы/2005/04_2005_CM.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:nickel-cobalt-ore",
+   "label": "nickel‑cobalt ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:04_2005_cm-pdf:0",
+   "document_id": "doc:04_2005_cm-pdf",
+   "title": "Mini‑plant leach test of autoclave sulphuric‑acid leaching technology",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "autoclave sulphuric‑acid leaching"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-cobalt-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "nickel and cobalt extraction degree",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-ore",
+     "value": {
+      "min": null,
+      "nominal": 96.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "степень извлечения никеля и кобальта составила порядка 96 %",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "acid consumption",
+     "scope": "material",
+     "material_id": "mat:nickel-cobalt-ore",
+     "value": {
+      "min": null,
+      "nominal": 220.0,
+      "max": null
+     },
+     "unit": "kg/т руды",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "потребление кислоты ~220 кг на 1 т руды",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The test gave excellent results.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "дало отличные результаты",
+     "locator_kind": "md_para",
+     "locator": "para:100",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Опробирование технологии на минизаводе в январе и марте 2004 г. дало отличные результаты: степень извлечения никеля и кобальта составила порядка 96 %, потребление кислоты ~220 кг на 1 т руды.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Jinchuan is a major nickel producer in China, accounting for about 95 % of the country's production.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "компания Jinchuan является крупным в Китае производителем никеля, на нее приходится ~95 % производства.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.45,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Jinchuan's nickel output in 2004 was 73 000 t, with a plan for 90 000 t in 2005.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel output",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2004 г. выпуск Jinchuan составил 73 тыс. т никеля, план на 2005 г. - 90 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "The average cash price of copper on LME in January 2005 was $3 170 per tonne.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Средняя наличная цена меди на ЛБМ в январе 2005 г. составила 3170 долл./т",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "LME copper cash price in January 2005 ranged from a low of $3 072/t on 05‑01‑2005 to a high of $3 275/t on 31‑01‑2005.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Цена меди на ЛБМ в январе 2005 г. изменялась от минимума в 3072 долл./т (на 5.01.05) до максимума в 3275 долл./т (на 31.01.05).",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Back‑wardation on LME rose from $100/t at the start of the month to $191/t at the end, indicating a metal deficit.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "back‑wardation level",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отметим рост «бэквардейшн» с 100 долл./т в начале месяца до 191 долл./т в конце (рост «бэквардейшн» обычно говорит о дефиците металла в текущий момент времени).",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.45,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Codelco plans to invest $1.9 billion in 2005 to increase copper production to 2.2 Mt by 2010.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Codelco инвестирует 1,9 млрд долл. в 2005 г. ... планирует инвестировать 1,9 млрд долл. в соответствии с программой увеличения производства меди к 2010 г. до 2,2 млн т",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.45,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Codelco expanded El Teniente capacity from 350 kt/yr to 480 kt/yr of copper concentrate in 2004.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2004 г. компания Codelco завершила расширение мощностей El Teniente c 350 до 480 тыс. т/год меди в концентрате.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Codelco intends to invest $900 million in a new mine, Mansa Mina, with a capacity of 188 kt/yr of copper concentrate.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Компания же намерена вложить 900 млн долл. в строительство нового рудника Mansa Mina мощностью 188 тыс. т/год меди в концентрате.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.81,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "The Ventanas smelting‑refining complex is to be expanded from 400 kt/yr to 800 kt/yr of copper.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "дополнительно к этому планируется расширить плавительно‑рафинировочный комплекс Ventanas с 400 до 800 тыс. т меди в год.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.81,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Zambia produced 400 kt of copper in the referenced year, 14 % more than in 2003, with a plan for 550 kt in 2005.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper production",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в стране было произведено 400 тыс. т меди, что на 14 % больше, чем в 2003 г. План на 2005 г. - 550 тыс. т меди.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "A Chinese copper smelter signed a contract in early 2005 to supply 10 kt of copper concentrate at TC $140/t and RC $0.31/kg.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "в начале 2005 г. одна китайская медеплавильная компания заключила контракт на поставку 10 тыс. т медных концентратов при TC 140 долл./т, RC 0,31 долл./кг.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.81,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Noranda announced that a decision on building the El Pachón copper mine in Argentina will be taken during 2005.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "в январе 2005 г. компания Noranda (Канада) объявила о том, что в течение 2005 г. примет решение о строительстве нового медного рудника El Pachon (Аргентина).",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.81,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "El Pachón mine is projected to produce 200 kt of copper and 3 kt of molybdenum per year for 20 years, with capital costs of $1.15 billion.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "на руднике планируется производить 200 тыс. т меди и 3 тыс. т молибдена в концентрате в год в течение 20 лет. Капзатраты составят 1,15 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.81,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "El Pachón ore reserves are estimated at 724 Mt with 0.62 % Cu and 0.015 % Mo, to be mined open‑pit.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Запасы месторождения El Pachon оцениваются в 724 млн т руды с 0,62 % Cu и 0,015 % Mo, подлежащих открытой добыче.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Капзатраты составят 1,15 млрд долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "increases",
+    "factor": "capital investment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Капзатраты составят 1,15 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасы месторождения El Pachon оцениваются в 724 млн т руды с 0,62 % Cu и 0,015 % Mo, подлежащих открытой добыче.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reserve size",
+    "direction": "increases",
+    "factor": "ore grade",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Запасы месторождения El Pachon оцениваются в 724 млн т руды с 0,62 % Cu и 0,015 % Mo, подлежащих открытой добыче.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Производство меди на горно‑металлургическом комплексе Olympic Dam компании WMC Resources (Австралия) в 2004 г. достигло рекордного уровня и составило 224,8 тыс. т по сравнению с 160 тыс. т годом ранее благодаря увеличению мощностей завода.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual copper output",
+    "direction": "increases",
+    "factor": "plant capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производство меди на горно‑металлургическом комплексе Olympic Dam компании WMC Resources (Австралия) в 2004 г. достигло рекордного уровня и составило 224,8 тыс. т по сравнению с 160 тыс. т годом ранее благодаря увеличению мощностей завода.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.45,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "План на 2005 г. - 220-230 тыс. т меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual copper output target",
+    "direction": "increases",
+    "factor": "planned expansion",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "План на 2005 г. - 220-230 тыс. т меди.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания WMC Resources рассматривает дальнейшие планы увеличения мощности Olympic Dam с 250 до 500 тыс. т меди/год.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "expansion plan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания WMC Resources рассматривает дальнейшие планы увеличения мощности Olympic Dam с 250 до 500 тыс. т меди/год.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Для этого планируется расширить обогатительную фабрику до 40 млн т руды/год и начать добычу руды открытым способом дополнительно к подземной добыче.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ore processing capacity",
+    "direction": "increases",
+    "factor": "facility enlargement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для этого планируется расширить обогатительную фабрику до 40 млн т руды/год и начать добычу руды открытым способом дополнительно к подземной добыче.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.45,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "По предварительной оценке стоимость расширения составляет ~6 млрд AUD (4,6 млрд долл. США).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "expansion cost",
+    "direction": "increases",
+    "factor": "project investment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По предварительной оценке стоимость расширения составляет ~6 млрд AUD (4,6 млрд долл. США).",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.45,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Средняя цена за 2004 г. Co 99,8 % - 53,3 долл./кг, Co 99,3 % - 50,2 долл. /кг.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average price",
+    "direction": "increases",
+    "factor": "market price",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средняя цена за 2004 г. Co 99,8 % - 53,3 долл./кг, Co 99,3 % - 50,2 долл. /кг.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу аналитиков AME, средняя цена кобальта в 2005 г. будет гораздо ниже и составит 39,7 долл./кг.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average price",
+    "direction": "decreases",
+    "factor": "forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу аналитиков AME, средняя цена кобальта в 2005 г. будет гораздо ниже и составит 39,7 долл./кг.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.45,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": "casting"
+  },
+  {
+   "text": "В 2004 г. производство меди составило 1,14 млн т (1,12 млн т в 2003 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual copper output",
+    "direction": "increases",
+    "factor": "production level",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2004 г. производство меди составило 1,14 млн т (1,12 млн т в 2003 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.45,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Производственный план на 2005 г. - 1,22 млн т меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual copper output target",
+    "direction": "increases",
+    "factor": "planned production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производственный план на 2005 г. - 1,22 млн т меди.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Jiangxi Copper приняла решение о строительстве нового завода по производству медной катанки мощностью 220 тыс. т/год.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "new plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Jiangxi Copper приняла решение о строительстве нового завода по производству медной катанки мощностью 220 тыс. т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.81,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Планируется начать производство уже в середине 2006 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "start-up date",
+    "direction": "increases",
+    "factor": "project timeline",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Планируется начать производство уже в середине 2006 г.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "По последнему прогнозу Falconbridge (январь 2005 г.), избыток предложения кобальта в 2005 г. сократится до 60 т по сравнению с избытком в 435 т в 2004 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "excess supply",
+    "direction": "decreases",
+    "factor": "market outlook",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По последнему прогнозу Falconbridge (январь 2005 г.), избыток предложения кобальта в 2005 г. сократится до 60 т по сравнению с избытком в 435 т в 2004 г.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.81,
+   "document_id": "doc:04_2005_cm-pdf",
+   "process": "casting"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

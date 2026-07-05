@@ -95,6 +95,102 @@ class Settings(BaseSettings):
     # (app/services/ontology_client.py) деградирует до пустого результата.
     ONTOLOGY_KG_URL: str = "http://ontology-knowledge-graph:8000"
 
+    # ── ReAct-агент (SPEC_V3 §5.7) ────────────────────────────────────────────
+    # Основной способ ответа chat: агент планирует вызовы тулов ретрива (онтология
+    # /manifest + граф знаний) и синтезирует claims с провенансом. Включён по
+    # умолчанию; при пустом LLM URL/ключе ИЛИ любой ошибке LLM chat автоматически
+    # откатывается на детерминированный водопад (app/services/chat.py::
+    # _waterfall_answer) — то есть агент не может «сломать» ответы, только обогатить.
+    # OpenAI-совместимый LLM-эндпоинт, общий для сайдкаров (онтология читает эти же
+    # LLM_BASE_URL/LLM_API_KEY/LLM_INTENT_MODEL из общего .env). Агент по умолчанию
+    # переиспользует их — один подключённый LLM-провайдер на весь стек. Значения
+    # задаются через .env (services/llm-gateway или иной OpenAI-совместимый шлюз).
+    LLM_BASE_URL: str = ""
+    LLM_API_KEY: str = ""
+    LLM_INTENT_MODEL: str = "openai/gpt-oss-120b"
+
+    # Выделенный gateway агента (services/llm-gateway). Если пусто — агент падает
+    # назад на общие LLM_BASE_URL/LLM_API_KEY/LLM_INTENT_MODEL выше. Префикс
+    # LLM_AGENT_* отделён, чтобы при желании дать агенту свой эндпоинт/модель, не
+    # трогая сайдкары.
+    LLM_AGENT_ENABLED: bool = True  # False — жёстко только прежний водопад
+    LLM_AGENT_GATEWAY_URL: str = ""  # напр. http://llm-gateway:4100/v1 (без / на конце)
+    LLM_AGENT_API_KEY: str = ""
+    LLM_AGENT_MODEL: str = ""
+    LLM_AGENT_TIMEOUT_S: float = 60.0
+    # Бюджет ReAct-цикла: максимум шагов планировщика и общий дедлайн по стене
+    # (спека требует ответ < 15s; при превышении — принудительный синтез из уже
+    # собранного).
+    LLM_AGENT_MAX_STEPS: int = 3  # раундов планировщика (в каждом — тулы параллельно)
+    LLM_AGENT_MAX_PARALLEL_TOOLS: int = 4  # тулов за раунд (диспатчатся конкурентно)
+    LLM_AGENT_DEADLINE_S: float = 25.0
+    # reasoning-модели (gpt-oss и т.п.) «думают» по умолчанию и жгут токены/латенси;
+    # low останавливает переусердствование. Пусто — параметр не отправляется
+    # (для моделей без reasoning_effort).
+    LLM_AGENT_REASONING_EFFORT: str = "low"
+
+    # litsearch → chat integration (design doc §8). article-fetcher's real port is
+    # 8200 (Dockerfile), not the generic 8000 used by the other sidecars above.
+    ARTICLE_FETCHER_URL: str = "http://article-fetcher:8200"
+    OPENALEX_MAILTO: str = ""
+    # LLM for the litsearch tool loop (OpenAI-compatible gateway; LiteLLM +
+    # Langfuse, spec §2.8). Named LITSEARCH_* (not the generic LLM_*) so it is
+    # unambiguously the LITERATURE pipeline's model — distinct from the
+    # science-knowledge-graph's OPENAI_* and the ontology sidecar's own LLM_*
+    # gateway vars. Empty LITSEARCH_BASE_URL keeps the feature inert (no
+    # fabricated answer — `llm.chat` degrades explicitly). The committed default
+    # points at the shared gateway; override per-env via LITSEARCH_BASE_URL /
+    # LITSEARCH_LLM_MODEL / LITSEARCH_API_KEY.
+    LITSEARCH_BASE_URL: str = "https://llm.autumn-lab.uk/v1"
+    LITSEARCH_API_KEY: str = ""
+    LITSEARCH_LLM_MODEL: str = "deepseek/deepseek-v4-flash__or"
+    # Client read-timeout for one gateway call. The Phase-B read answer can take
+    # ~80s+ to generate over a large (100k+ token) full-text context — at 60s the
+    # httpx read timed out and DISCARDED a perfectly good answer the model had
+    # already produced, degrading the turn ("LLM недоступен"). 180s leaves ample
+    # margin. (A faster model would let this drop back down.)
+    LITSEARCH_LLM_TIMEOUT: int = 180
+    LITSEARCH_MAX_RESULTS: int = 5
+    LITSEARCH_MAX_ROUNDS: int = 2
+    # Max `litsearch_search` calls per Phase-A question; beyond it the loop forces an abstract-only reply.
+    # Kept as the global fallback (unused by chat.py's Phase A now that EN/RU
+    # have independent per-tool caps below — chat.py passes
+    # `max_successful_by_tool`, not this, so the two caps stack rather than
+    # sharing one budget). Still available for any other caller that wants a
+    # single combined cap.
+    LITSEARCH_MAX_SEARCHES: int = 3
+    # Per-tool successful-search caps for Phase A's `literature_search_en` /
+    # `literature_search_ru` tools (each counted independently — a turn may
+    # use up to EN + RU successful searches total, not one shared budget).
+    LITSEARCH_MAX_SEARCHES_EN: int = 3
+    LITSEARCH_MAX_SEARCHES_RU: int = 3
+    # Cap on *successful* (>=1 paper) literature searches per chat turn. A
+    # larger LITSEARCH_MAX_SEARCH_ATTEMPTS bounds total attempts so a run of
+    # empty/failed queries can't loop forever while still allowing retries.
+    LITSEARCH_MAX_SEARCH_ATTEMPTS: int = 6
+    LITSEARCH_FULLTEXT_CHAR_CAP: int = 60000
+    # Running read budget (chars): the max total full text the read tool will
+    # hand the model across ALL its reads in one Phase-B turn. The model reads
+    # papers selectively (by idx); the tool tracks chars returned so far and,
+    # once the NEXT read would exceed this budget, returns a "read budget
+    # exhausted — answer now, stop calling tools" note instead of more text.
+    # This bounds the context so a big union can't overflow / time out the read
+    # call (which degraded turns). Live evidence: ~720k chars processed fine,
+    # ~1.5M timed out — 500k leaves comfortable room for the prompt + answer.
+    LITSEARCH_READ_BUDGET_CHARS: int = 500000
+    LITSEARCH_FETCH_TIMEOUT: int = 180
+    # Phase B heartbeat: while a search's PDFs are still downloading, the
+    # `agent_continue` task re-enqueues itself every N seconds (releasing the
+    # worker) instead of blocking, until every paper is terminal (or
+    # LITSEARCH_FETCH_TIMEOUT elapses from the search's creation). Only then does
+    # it inject the "papers downloaded — read them" turn and run the read loop.
+    LITSEARCH_HEARTBEAT_SECONDS: int = 8
+    # AM §15 gate: false=stage L0 only (B), true=full graph/ontology ingest (A).
+    # Add-to-DB hard ingest (option A): «Добавить в базу» runs the full
+    # hard-parse -> graph/ontology pipeline (enqueue_l1_parse). OSN signed off
+    # 2026-07-04 -> default True. Set False to stage the Document at L0 only.
+    LITSEARCH_INGEST_ENABLED: bool = True
+
     SMTP_TLS: bool = True
     SMTP_SSL: bool = False
     SMTP_PORT: int = 587

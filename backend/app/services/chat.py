@@ -17,12 +17,16 @@ provenance-цитаты), `knowledge_graph` — только Neo4j GraphRAG + hy
 чтобы фронтенд мог показать это явно, а не только через `tools_used`.
 """
 
+import logging
 import re
 import uuid
 
+from sqlalchemy import update
 from sqlmodel import Session, col, select
 
+from app.core.config import settings
 from app.models.chat import ChatMessage, ChatRole, ChatSession
+from app.models.litsearch import LiteraturePaper, LiteratureSearch, LitStage
 from app.schemas.chat import (
     ChatMessageRequest,
     ChatMessageResponse,
@@ -33,8 +37,23 @@ from app.schemas.chat import (
     ClaimConfidence,
     ClaimKind,
 )
+from app.schemas.litsearch import LiteratureRef
 from app.schemas.search import SearchRequest
-from app.services import agent, ontology_client, science_kg_client, wiki
+from app.services import (
+    agent,
+    litsearch,
+    litsearch_tools,
+    ontology_client,
+    science_kg_client,
+    wiki,
+)
+from app.services.agent import llm as agent_llm
+from app.services.agent import react as agent_react
+from app.services.agent.llm import LLMUnavailable
+from app.services.agent.loop import run_loop
+from app.services.tasks import celery_app
+
+logger = logging.getLogger(__name__)
 
 # ontology-knowledge-graph kind → как показываем в чате
 _ONTO_CONF = {"high": ClaimConfidence.HIGH, "medium": ClaimConfidence.MEDIUM,
@@ -72,11 +91,20 @@ def _shared_raw_path_candidates(source_path: str) -> list[str]:
 
 
 def _okf_path_for_source_path(source_path: str) -> str | None:
-    """Resolve a wiki deep-link okf_path, probing parser-backed wiki content."""
-    for raw in _shared_raw_path_candidates(source_path):
-        okf_path = f"{_OKF_STAGE1_PREFIX}{raw}.md"
-        if wiki.get_document_content(okf_path) is not None:
-            return okf_path
+    """Resolve a wiki deep-link okf_path, probing parser-backed wiki content.
+
+    Best-effort: the parser is an optional external service. If it is
+    unreachable, the deep-link is simply skipped (return None) rather than
+    propagating the error and failing the whole answer / session-history load."""
+    try:
+        for raw in _shared_raw_path_candidates(source_path):
+            okf_path = f"{_OKF_STAGE1_PREFIX}{raw}.md"
+            if wiki.get_document_content(okf_path) is not None:
+                return okf_path
+    except Exception:
+        logger.warning(
+            "okf_path resolution skipped for %r (parser unreachable?)",
+            source_path, exc_info=True)
     return None
 
 
@@ -87,7 +115,14 @@ def _okf_path_for_filename(filename: str) -> str | None:
     if "/" in filename or "." not in name:
         return None
     query = name.removesuffix(".pdf") if name.lower().endswith(".pdf") else name
-    for item in wiki.search_documents(query, limit=20).results:
+    try:
+        results = wiki.search_documents(query, limit=20).results
+    except Exception:
+        logger.warning(
+            "okf_path filename resolution skipped for %r (parser unreachable?)",
+            filename, exc_info=True)
+        return None
+    for item in results:
         try:
             raw = wiki.okf_to_raw_path(item.okf_path)
         except ValueError:
@@ -141,6 +176,21 @@ def _resolve_chat_sources(doc_ids: list[str]) -> list[ChatSource]:
     return out
 
 
+def _langfuse_headers(
+    user_id: uuid.UUID | None, session_id: uuid.UUID | None
+) -> dict[str, str]:
+    """Langfuse trace-attribution headers forwarded to the internal KG services,
+    which relay them onto their LiteLLM-gateway LLM calls. LiteLLM strips the
+    `langfuse_` prefix and maps these onto the trace (User ID / Session ID) —
+    see docs.litellm.ai/docs/observability/langfuse_integration."""
+    headers: dict[str, str] = {}
+    if user_id is not None:
+        headers["langfuse_trace_user_id"] = str(user_id)
+    if session_id is not None:
+        headers["langfuse_session_id"] = str(session_id)
+    return headers
+
+
 def refresh_stored_message_sources(metadata: dict | None) -> dict | None:
     """Re-resolve wiki links for persisted assistant metadata.
 
@@ -172,11 +222,13 @@ def refresh_stored_message_sources(metadata: dict | None) -> dict | None:
     return metadata
 
 
-def _ontology_claims(question: str) -> tuple[list[Claim], list[str]]:
+def _ontology_claims(
+    question: str, *, langfuse_headers: dict[str, str] | None = None
+) -> tuple[list[Claim], list[str]]:
     """Спросить онтологию; пустой список = не нашла (деградация на старый
     контур). Цитаты-провенанс вшиваются в текст claim'а (schema Claim не несёт
     отдельного поля citations)."""
-    result = ontology_client.ask(question)
+    result = ontology_client.ask(question, langfuse_headers=langfuse_headers)
     if not result:
         return [], []
     answer_text = result.get("answer")
@@ -225,7 +277,10 @@ def _ontology_claims(question: str) -> tuple[list[Claim], list[str]]:
 
 
 def _knowledge_graph_answer(
-    session: Session, request: ChatMessageRequest
+    session: Session,
+    request: ChatMessageRequest,
+    *,
+    langfuse_headers: dict[str, str] | None = None,
 ) -> tuple[Claim, list[str], str]:
     """Ветка knowledge_graph: Postgres `hybrid_search` + science-knowledge-graph
     GraphRAG. Используется и как явный режим, и как fallback в auto."""
@@ -241,7 +296,9 @@ def _knowledge_graph_answer(
     # context-appropriate reply, so no need to pre-filter on matched_entities
     # here (that used to be needed only to avoid surfacing science-kg's old
     # hardcoded "no data" string on plain greetings).
-    rag_result = science_kg_client.rag_query(request.content)
+    rag_result = science_kg_client.rag_query(
+        request.content, langfuse_headers=langfuse_headers
+    )
     if rag_result and rag_result.get("answer"):
         tools_used.append("graph_rag_query")
         summary = rag_result["answer"]
@@ -337,27 +394,263 @@ def delete_session(session: Session, chat_session: ChatSession) -> None:
     session.commit()
 
 
-def answer_message(
-    session: Session, chat_session_id: uuid.UUID, request: ChatMessageRequest
-) -> ChatMessageResponse:
-    _maybe_autotitle_session(session, chat_session_id, request.content)
+_LITSEARCH_SYSTEM_PROMPT = (
+    "Ты — научный ассистент-металлург. Если вопрос требует научной литературы, "
+    "вызови инструмент поиска. У тебя ДВА инструмента поиска, с независимыми "
+    "лимитами — используй ОБА, если это полезно, поиск по каждому не мешает "
+    "другому:\n"
+    "• literature_search_en — международная англоязычная научная литература "
+    "(OpenAlex). Используй для международной литературы и когда термин "
+    "устоялся по-английски.\n"
+    "• literature_search_ru — русскоязычная научная литература (Cyberleninka). "
+    "Используй для тем российской практики и русскоязычных публикаций.\n\n"
+    "КАК ФОРМУЛИРОВАТЬ ПОИСКОВЫЕ ЗАПРОСЫ (сильно влияет на релевантность):\n"
+    "• Разбей вопрос на 2–4 ОТДЕЛЬНЫХ запроса, ОДНА идея на запрос. НЕ добавляй "
+    "географию (\"Россия\", \"зарубежье\") и общие слова (\"показатели\", "
+    "\"методы\", \"проблема\") — они размывают выдачу.\n\n"
+    "literature_search_en (OpenAlex, по-английски):\n"
+    "  – короткая фраза из устоявшихся английских терминов области "
+    "(\"acid mine drainage\", \"froth flotation\", \"xanthate collectors\"), а "
+    "не дословный перевод;\n"
+    "  – ИЗБЕГАЙ многозначных слов в одиночку: \"deep\" (→ океанология / "
+    "deep-learning), \"failure\" (→ медицина), \"heavy metals\" (→ токсикология) "
+    "— если нужны, привяжи к доменному существительному (\"underground "
+    "injection\", \"tailings dam stability\");\n"
+    "  – предпочитай аббревиатуры/жаргон области (\"PGM\" вместо \"platinum "
+    "group metals\", \"AMD\");\n"
+    "  – уточняй конкретным существительным (реагент/минерал/процесс: "
+    "\"chalcopyrite\", \"matte\", \"xanthate\"), а не общими словами;\n"
+    "  – OpenAlex почти только англоязычный: русские запросы дают 0–2 "
+    "результата — не полагайся на него для русской тематики;\n"
+    "  – если результатов очень мало (<~30) — расширь словарь, не доверяй "
+    "почти пустой выдаче.\n\n"
+    "literature_search_ru (Cyberleninka, по-русски):\n"
+    "  – КОРОТКАЯ именная фраза (3–5 слов: процесс + материал), НИКОГДА не "
+    "вопрос (\"как…\", \"какие…\") — вопросы резко роняют и число, и "
+    "релевантность;\n"
+    "  – узкие горно-металлургические термины (\"шахтные воды\", \"рудничные "
+    "воды\"), а НЕ общие (\"промышленные стоки\", \"сточные воды\") — общие "
+    "слова уводят в чужую тематику;\n"
+    "  – РАСКРЫВАЙ аббревиатуры (\"платиновые металлы\", а не \"МПГ\");\n"
+    "  – БЕЗ кавычек (они резко сокращают выдачу без пользы); падеж, число и "
+    "порядок слов не важны;\n"
+    "  – корни-синонимы взаимозаменяемы (закачка / нагнетание / захоронение; "
+    "шахтные / рудничные) — пробуй 2–3 варианта, чтобы расширить выдачу.\n\n"
+    "• Для российской тематики ищи И через literature_search_ru, И через "
+    "literature_search_en — часть литературы есть только на одном языке. Если "
+    "выдача нерелевантна — смени ТЕРМИН, не повторяй ту же фразу.\n\n"
+    "Затем ответь по аннотациям найденных статей на русском языке, опираясь "
+    "только на них. Не выдумывай факты. В каждом ответе по аннотациям обязательно "
+    "предупреди пользователя, что вскоре появится более подробный ответ на "
+    "основе полных текстов статей, и предложи поискать ещё, если это нужно."
+)
+
+_LITSEARCH_EXHAUSTED_MSG = (
+    "Достигнут лимит поисков по литературе. Больше не вызывай инструменты. "
+    "Ответь на русском языке по аннотациям уже найденных статей, опираясь "
+    "только на них и не выдумывая фактов. Предупреди пользователя, что вскоре "
+    "появится более подробный ответ на основе полных текстов статей, и "
+    "предложи поискать ещё, если это нужно."
+)
+
+
+def _litsearch_assistant_persisted(response: ChatMessageResponse) -> bool:
+    """Phase A persists its own assistant turn; avoid duplicating it."""
+    return response.tools_used == ["litsearch"] and response.mode_used in (
+        "literature",
+        "degraded",
+    )
+
+
+def _dispatch_agent_continue(
+    session: Session, search_id: uuid.UUID, chat_session_id: uuid.UUID
+) -> None:
+    try:
+        celery_app.signature(
+            "litsearch.agent_continue",
+            args=[str(search_id), str(chat_session_id)],
+        ).apply_async()
+    except Exception:
+        logger.critical(
+            "Failed to dispatch litsearch.agent_continue for search %s; "
+            "marking stage=FAILED so the panel stops polling",
+            search_id,
+            exc_info=True,
+        )
+        search = session.get(LiteratureSearch, search_id)
+        if search is not None:
+            search.stage = LitStage.FAILED
+            session.add(search)
+            session.commit()
+
+
+def _run_litsearch_phase_a(
+    session: Session,
+    chat_session_id: uuid.UUID,
+    request: ChatMessageRequest,
+    *,
+    primed: bool,
+) -> ChatMessageResponse | None:
+    messages = [
+        {"role": "system", "content": _LITSEARCH_SYSTEM_PROMPT},
+        {"role": "user", "content": request.content},
+    ]
+    tools = [
+        litsearch_tools.make_search_tool(round=0),
+        litsearch_tools.make_search_ru_tool(round=0),
+    ]
+    outcome = run_loop(
+        session,
+        chat_session_id,
+        messages,
+        tools,
+        max_iters=4,
+        first_tool_choice="literature_search_en" if primed else None,
+        max_tool_calls=settings.LITSEARCH_MAX_SEARCH_ATTEMPTS,
+        max_successful_by_tool={
+            "literature_search_en": settings.LITSEARCH_MAX_SEARCHES_EN,
+            "literature_search_ru": settings.LITSEARCH_MAX_SEARCHES_RU,
+        },
+        exhausted_system_msg=_LITSEARCH_EXHAUSTED_MSG,
+    )
+
+    if not outcome.literature_search_ids:
+        if primed:
+            degraded = outcome.degraded or outcome.final_text is None
+            content = (
+                "LLM недоступен — ответ не сформирован."
+                if degraded
+                else outcome.final_text or ""
+            )
+            session.add(
+                ChatMessage(
+                    session_id=chat_session_id,
+                    role=ChatRole.ASSISTANT,
+                    content=content,
+                    message_metadata={
+                        "mode_used": "degraded" if degraded else "literature"
+                    },
+                )
+            )
+            session.commit()
+            return ChatMessageResponse(
+                claims=[
+                    Claim(
+                        text=content,
+                        experiment_ids=[],
+                        confidence=ClaimConfidence.LOW,
+                        kind=ClaimKind.FACT,
+                    )
+                ],
+                summary=content,
+                tools_used=["litsearch"],
+                session_id=chat_session_id,
+                mode_used="degraded" if degraded else "literature",
+            )
+        return None
+
+    search_ids = outcome.literature_search_ids
+    anchor_id = search_ids[0]
+    member_ids = search_ids[1:]
+    if member_ids:
+        session.exec(
+            update(LiteratureSearch)
+            .where(col(LiteratureSearch.id).in_(member_ids))
+            .values(followup_of=anchor_id)
+        )
+        session.commit()
+    search_id = anchor_id
+
+    if outcome.degraded or outcome.final_text is None:
+        content = "LLM недоступен — ответ не сформирован."
+        session.add(
+            ChatMessage(
+                session_id=chat_session_id,
+                role=ChatRole.ASSISTANT,
+                content=content,
+                message_metadata={
+                    "mode_used": "degraded",
+                    "search_id": str(search_id),
+                },
+            )
+        )
+        session.commit()
+        return ChatMessageResponse(
+            claims=[
+                Claim(
+                    text=content,
+                    experiment_ids=[],
+                    confidence=ClaimConfidence.LOW,
+                    kind=ClaimKind.FACT,
+                )
+            ],
+            summary=content,
+            tools_used=["litsearch"],
+            session_id=chat_session_id,
+            mode_used="degraded",
+        )
+
+    summary = outcome.final_text or ""
     session.add(
         ChatMessage(
             session_id=chat_session_id,
-            role=ChatRole.USER,
-            content=request.content,
-            message_metadata=(
-                request.metadata.model_dump(mode="json") if request.metadata else None
-            ),
+            role=ChatRole.ASSISTANT,
+            content=summary,
+            message_metadata={
+                "litsearch_kind": "abstracts",
+                "search_id": str(search_id),
+            },
         )
     )
+    session.commit()
 
+    union_papers = session.exec(
+        select(LiteraturePaper).where(col(LiteraturePaper.search_id).in_(search_ids))
+    ).all()
+    paper_count = len(litsearch._dedup_papers(union_papers))
+
+    _dispatch_agent_continue(session, search_id, chat_session_id)
+
+    return ChatMessageResponse(
+        claims=[
+            Claim(
+                text=summary,
+                experiment_ids=[],
+                confidence=ClaimConfidence.LOW,
+                kind=ClaimKind.FACT,
+            )
+        ],
+        summary=summary,
+        tools_used=["litsearch"],
+        session_id=chat_session_id,
+        mode_used="literature",
+        literature=LiteratureRef(search_id=search_id, paper_count=paper_count),
+    )
+
+
+def _waterfall_answer(
+    session: Session,
+    chat_session_id: uuid.UUID,
+    request: ChatMessageRequest,
+    *,
+    langfuse_headers: dict[str, str] | None = None,
+) -> ChatMessageResponse:
+    """Детерминированный водопад ontology → knowledge_graph (SPEC_V3 §8.4).
+
+    Прежнее поведение chat: используется по умолчанию (LLM-агент выключен) и как
+    безопасный откат, если агент недоступен/не собрал провенанс. Логика не
+    менялась — вынесена из `answer_message` без изменений."""
     is_gap_click = bool(
         request.metadata
         and request.metadata.trigger == ChatTrigger.GAP_CLICK
         and request.metadata.gap_cell
     )
     mode = request.metadata.mode if request.metadata else ChatMode.AUTO
+
+    if not is_gap_click and mode == ChatMode.AUTO:
+        lit = _run_litsearch_phase_a(session, chat_session_id, request, primed=False)
+        if lit is not None:
+            return lit
 
     onto_claims: list[Claim] = []
     if is_gap_click:
@@ -368,14 +661,16 @@ def answer_message(
         mode_used = "hypothesis"
     elif mode == ChatMode.KNOWLEDGE_GRAPH:
         # Явный выбор пользователя — онтология не спрашивается вовсе.
-        claim, tools_used, summary = _knowledge_graph_answer(session, request)
+        claim, tools_used, summary = _knowledge_graph_answer(
+            session, request, langfuse_headers=langfuse_headers
+        )
         mode_used = "knowledge_graph"
     elif mode == ChatMode.ONTOLOGY:
         # Явный выбор пользователя — knowledge_graph не используется, даже
         # для обогащения experiment_ids, чтобы ответ был честно только из
         # онтологии.
         mode_used = "ontology"
-        onto = _ontology_claims(request.content)
+        onto = _ontology_claims(request.content, langfuse_headers=langfuse_headers)
         if onto and onto[0]:
             onto_claims, tools_used = onto
             summary = onto_claims[0].text.split("\n")[0]
@@ -394,7 +689,7 @@ def answer_message(
                 confidence=ClaimConfidence.LOW,
                 kind=ClaimKind.FACT,
             )
-    elif (onto := _ontology_claims(request.content)) and onto[0]:
+    elif (onto := _ontology_claims(request.content, langfuse_headers=langfuse_headers)) and onto[0]:
         # auto: онтология ответила структурно (типизированные факты + дословные
         # цитаты) — её claims идут первыми; hybrid_search добавляет
         # experiment_ids-доказательства из своего индекса.
@@ -414,10 +709,12 @@ def answer_message(
         mode_used = "ontology"
     else:
         # auto: онтология промолчала — fallback на knowledge_graph.
-        claim, tools_used, summary = _knowledge_graph_answer(session, request)
+        claim, tools_used, summary = _knowledge_graph_answer(
+            session, request, langfuse_headers=langfuse_headers
+        )
         mode_used = "knowledge_graph"
 
-    response = ChatMessageResponse(
+    return ChatMessageResponse(
         claims=onto_claims or [claim],
         summary=summary,
         tools_used=tools_used,
@@ -426,13 +723,88 @@ def answer_message(
         mode_used=mode_used,
     )
 
+
+def _recent_history(
+    session: Session, chat_session_id: uuid.UUID, *, limit: int = 6
+) -> list[tuple[str, str]]:
+    """Последние реплики сессии (старые→новые) для контекста агента. Вызывать ДО
+    записи текущего сообщения пользователя, иначе оно попадёт в свой же контекст."""
+    rows = session.exec(
+        select(ChatMessage)
+        .where(ChatMessage.session_id == chat_session_id)
+        .order_by(col(ChatMessage.created_at).desc())
+        .limit(limit)
+    ).all()
+    history: list[tuple[str, str]] = []
+    for msg in reversed(rows):
+        role = getattr(msg.role, "value", msg.role)
+        history.append((str(role), msg.content))
+    return history
+
+
+def answer_message(
+    session: Session,
+    chat_session_id: uuid.UUID,
+    request: ChatMessageRequest,
+    *,
+    user_id: uuid.UUID | None = None,
+) -> ChatMessageResponse:
+    """Один ход диалога: автозаголовок, запись реплики пользователя, ответ
+    (ReAct-агент при LLM_AGENT_ENABLED, иначе/при ошибке — детерминированный
+    водопад), запись реплики ассистента, commit."""
+    lf_headers = _langfuse_headers(user_id, chat_session_id)
+    history = _recent_history(session, chat_session_id)
+    _maybe_autotitle_session(session, chat_session_id, request.content)
     session.add(
         ChatMessage(
             session_id=chat_session_id,
-            role=ChatRole.ASSISTANT,
-            content=summary,
-            message_metadata=response.model_dump(mode="json"),
+            role=ChatRole.USER,
+            content=request.content,
+            message_metadata=(
+                request.metadata.model_dump(mode="json") if request.metadata else None
+            ),
         )
     )
+
+    is_gap_click = bool(
+        request.metadata
+        and request.metadata.trigger == ChatTrigger.GAP_CLICK
+        and request.metadata.gap_cell
+    )
+    mode = request.metadata.mode if request.metadata else ChatMode.AUTO
+
+    if mode == ChatMode.LITERATURE:
+        result = _run_litsearch_phase_a(
+            session, chat_session_id, request, primed=True
+        )
+        assert result is not None
+        return result
+
+    # ReAct-агент — опциональная надстройка. gap_click остаётся детерминированной
+    # веткой водопада (жёсткое правило спеки: обязательный generate_hypothesis).
+    # Любая ошибка агента откатывает на водопад — прежнее поведение не теряется.
+    response: ChatMessageResponse | None = None
+    if not is_gap_click and agent_llm.is_configured():
+        try:
+            response = agent_react.run_agent(
+                session, chat_session_id, request, history
+            )
+        except LLMUnavailable as exc:
+            logger.info("LLM-агент недоступен, откат на водопад: %s", exc)
+            response = None
+    if response is None:
+        response = _waterfall_answer(
+            session, chat_session_id, request, langfuse_headers=lf_headers
+        )
+
+    if not _litsearch_assistant_persisted(response):
+        session.add(
+            ChatMessage(
+                session_id=chat_session_id,
+                role=ChatRole.ASSISTANT,
+                content=response.summary,
+                message_metadata=response.model_dump(mode="json"),
+            )
+        )
     session.commit()
     return response

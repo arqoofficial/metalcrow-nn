@@ -1,0 +1,790 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:55-приложение-текст-статьи-docx",
+   "title": "55 Приложение. Текст статьи.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\55 Приложение. Текст статьи.docx.md",
+   "artifact_sha256": "f2b8fe0cebd2cd3f7d0b6d9661dbc31bc429971d0b07c456185c4edbefaeafb3",
+   "okf_raw_path": "Статьи/55 Приложение. Текст статьи.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:iron-powder-crushed-iron-slags",
+   "label": "iron powder (crushed iron slags)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:high-concentration-nickel-chloride-solutions",
+   "label": "high‑concentration nickel chloride solutions",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:primary-iron-cake",
+   "label": "primary iron cake",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:D6313",
+   "label": "D6313",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:MTA6002PF",
+   "label": "MTA6002PF",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mts9841",
+   "label": "MTS9850",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-sulfate-chloride-electrolyte",
+   "label": "nickel sulfate‑chloride electrolyte",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:каусорб-6х12",
+   "label": "КАУСОРБ 6х12",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:55-приложение-текст-статьи-docx:0",
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "title": "Laboratory study of deep copper cementation using iron powder",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "deep cementation copper removal from concentrated nickel chloride solutions with iron powder as cementing agent",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:iron-powder-crushed-iron-slags",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 0.025,
+      "nominal": null,
+      "max": 0.03
+     },
+     "unit": "g/dm³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "copper residual"
+     },
+     "method": null,
+     "snippet": "Установлено, что при определенных условиях достижима глубина очистки концентрированных хлоридных никелевых растворов от меди вплоть до содержаний 0,025-0,03 г/дм 3 меди.",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Reduction of iron powder particle size (increase of specific surface) positively affects the kinetics of the cementation process.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "kinetics",
+      "direction": "increases",
+      "factor": "smaller particle size",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Показано, что уменьшение крупности железного порошка (что приводит к увеличению рабочей удельной поверхности) благотворно сказывается на кинетике процесса.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В ходе работы было изучено влияние степени измельчения железного порошка, кислотности раствора и содержания хлор-иона на показатели цементационной медеочистки.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:55-приложение-текст-статьи-docx:1",
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "title": "Industrial application of iron‑removal (hydro‑lithic) process at CEN‑2 plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "hydro‑lithic oxidation and precipitation of iron to produce primary iron cake",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:high-concentration-nickel-chloride-solutions",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Содержание цветных металлов в первичном железистом кеке было снижено с 5 % Ni и 1,5 % Cu в 1 п.г. 2020 г. до 1-2% Ni и 0,2-0,5% Cu в настоящее время.",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.2,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Содержание цветных металлов в первичном железистом кеке было снижено с 5 % Ni и 1,5 % Cu в 1 п.г. 2020 г. до 1-2% Ni и 0,2-0,5% Cu в настоящее время.",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The iron‑removal unit at CEN‑2 was stabilized and met the regulatory cleaning targets.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process stability",
+      "direction": "increases",
+      "factor": "optimized operating modes",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В результате работа передела железоочистки ЦЭН-2 АО «Кольская ГМК» была стабилизирована, были обеспечены регламентные показатели очистки раствора.",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В результате работа передела железоочистки ЦЭН-2 АО «Кольская ГМК» была стабилизирована, были обеспечены регламентные показатели очистки раствора.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:55-приложение-текст-статьи-docx:2",
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "title": "Pilot/industrial tests of nickel‑cake repulping by yarosite recrystallization",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "replacement of counter‑current repulping with yarosite recrystallization of primary iron cake",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:primary-iron-cake",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "nickel residual in waste cake",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Минимальное содержание никеля в отвальном кеке находилось на уровне 2-7,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Existing repulping scheme did not provide effective nickel leaching and had high water consumption.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "decreases",
+      "factor": "current technology",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Существующая в ЦЭН-2 АО «Кольская ГМК» схема репульпации железистого кека не обеспечивала эффективную отмывку никеля. Минимальное содержание никеля в отвальном кеке находилось на уровне 2,0-7,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В связи с этим было предложено сменить технологию с противоточной репульпации на ярозитную перекристаллизацию железистого кека.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:55-приложение-текст-статьи-docx:3",
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "title": "Laboratory sorption tests of anion exchange resins for lead removal from nickel chloride electrolytes",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory experiments",
+       "temperature_text": "varied (temperature effect studied)",
+       "duration_text": "static and dynamic conditions (specific times not given)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:D6313",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:MTA6002PF",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:mts9841",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "equilibrium capacity for lead",
+     "scope": "material",
+     "material_id": "mat:D6313",
+     "value": {
+      "min": null,
+      "nominal": 6313.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "наиболее эффективным (характеризующимся наиболее высокими значениями равновесной емкости по свинцу) из рассмотренных 4-х образцов является смола D6313.",
+     "locator_kind": "md_para",
+     "locator": "para:74",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 0.015,
+      "nominal": null,
+      "max": 0.02
+     },
+     "unit": "mg/dm³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "lead  in treated nickel solution"
+     },
+     "method": null,
+     "snippet": "Сорбционная очистка никелевого раствора от свинца позволяет достигать содержаний свинца в никелевом растворе порядка 0,015-0,020 мг/дм 3 .",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "D6313 identified as the most effective sorbent among those tested.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "effectiveness",
+      "direction": "increases",
+      "factor": "equilibrium capacity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "наиболее эффективным (характеризующимся наиболее высокими значениями равновесной емкости по свинцу) из рассмотренных 4-х образцов является смола D6313.",
+     "locator_kind": "md_para",
+     "locator": "para:74",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В ходе лабораторных исследований были определены физико-механические, кинетические, емкостные параметры сорбентов, влияние на эти параметры температуры и концентрации хлор-иона в растворе.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:55-приложение-текст-статьи-docx:4",
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "title": "Industrial investigation of the existing zinc extraction cascade at АО «Кольская ГМК» (2019‑2021)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Industrial investigation / pilot‑scale testing",
+       "temperature_text": "not specified",
+       "duration_text": "2019‑2021"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-sulfate-chloride-electrolyte",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Isotherms for Zn, Co, Cu, Pb, Fe were built for the extraction system used at that time.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "isotherms",
+      "direction": "increases",
+      "factor": "knowledge base",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "построить изотермы экстракции и реэкстракции для Zn, Co, Cu, Pb, Fe для экстракционной системы, использовавшейся на тот момент времени.",
+     "locator_kind": "md_para",
+     "locator": "para:80",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Обследования ЦЭН-2 и анализ работы переделов цеха, проводившиеся в период с 2019 по 2021-й год, выявили ряд проблем и отклонений от проектных показателей работы различных переделов действующего производства, в том числе и цинкоочистки.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:55-приложение-текст-статьи-docx:5",
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "title": "2022 study of sorbent КАУСОРБ 6х12 for fine removal of organic phase from zinc extraction cascade",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory / pilot study",
+       "temperature_text": "not specified",
+       "duration_text": "2022"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:каусорб-6х12",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The sorbent was selected based on experience in related production.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "selection rationale",
+      "direction": "increases",
+      "factor": "experience",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "выбор был обусловлен опытом его использования в смежном производстве",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Исследования с целью изучения возможности организации глубокой очистки и получения исходных данных для технико-экономической оценки необходимых для этого решений были выполнены в ООО «Институт Гипроникель» в 2022 г.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Absence of copper, which acts as a mediating ion, necessitates oxidation of iron with chlorine and incurs additional operating costs.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating cost",
+    "direction": "increases",
+    "factor": "lack of copper",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отсутствие меди, которая играет роль иона‑медиатора ... приводит к необходимости организации окисления железа хлором с соответствующим переоборудованием действующего производства и наличием операционных затрат.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.81,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "Placing deep copper cleaning after iron removal and using nickel carbonate as precipitant increases solution dilution and the scale of evaporators in the nickel electrolysis circuit.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "dilution level / equipment size",
+    "direction": "increases",
+    "factor": "post‑iron‑removal copper cleaning with nickel carbonate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глубокая медеочистка расположена после железоочистки, а в качестве осадителя используется ... карбонат никеля. ... его использование будет приводить к большей степени разбавления растворов и увеличению масштабов выпарных аппаратов в контуре цеха электролиза никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.45,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "More effective cementing reagent than PNTП is iron powder.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reagent effectiveness",
+    "direction": "increases",
+    "factor": "iron powder vs PNTП",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Известно, что более эффективным реагентом для цементации, чем ПНТП, является железный порошок.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "Concentrated nickel chloride solutions from the chlorination leaching stage contain 220‑300 g/dm³ chloride ions.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "process output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Растворы, выходящие из передела хлорного выщелачивания, характеризуются содержанием Cl‑иона на уровне 220‑300 г/дм³.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.81,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "When chloride ion concentration exceeds 70 g/dm³, deep copper removal with PNTП is impossible; residual copper after cleaning can be 0,8‑1,5 g/dm³.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "residual copper",
+    "direction": "increases",
+    "factor": "high chloride concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При высоких концентрациях хлор‑иона ... при использовании ПНТП не представляется возможным глубоко очистить раствор от меди, в результате ... остаточное содержание меди может составлять порядка 0,8‑1,5 г/дм³.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.45,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "Deep cementation copper cleaning to below 0,05 g/dm³ is possible after diluting the solution with recycle anolyte to chloride ion levels below 70 g/dm³.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "solution dilution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глубокая цементационная медеочистка с использованием ПНТП (до содержаний менее 0,05 г/дм³) возможна при значительном разбавлении ... до содержания хлор‑иона менее 70 г/дм³.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.81,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "The iron‑removal unit’s primary iron cake now contains 1‑2 % Ni and 0,2‑0,5 % Cu, down from 5 % Ni and 1,5 % Cu in early 2020.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel and copper content in cake",
+    "direction": "decreases",
+    "factor": "optimized operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание цветных металлов в первичном железистом кеке было снижено с 5 % Ni и 1,5 % Cu в 1 п.г. 2020 г. до 1‑2 % Ni и 0,2‑0,5 % Cu в настоящее время.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.81,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "Additional instrument control of pH and oxidation‑reduction potential (OVP) should be installed at process stages.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "instrument control",
+    "direction": "increases",
+    "factor": "process monitoring",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "дополнительного приборного контроля pH, ОВП на стадиях процесса",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "Distributed feeding of oxidizer and neutralizer is recommended on process stages.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "oxidizer/neutralizer feeding",
+    "direction": "increases",
+    "factor": "distribution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "распределенной подачи окислителя и нейтрализатора на стадиях процесса",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "A second (control) filtration stage for the solution exiting the re‑robbing line is advised.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "filtration stage",
+    "direction": "increases",
+    "factor": "number of stages",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "второй (контрольной) стадии фильтрации выходящего с передела раствора",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "Maintaining a T:Z ratio that theoretically allows deeper lead removal is recommended.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "T:Z ratio",
+    "direction": "increases",
+    "factor": "lead removal depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обеспечению уровня Т:Ж, при котором теоретически достижима более глубокая очистка раствора от свинца",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "Anion‑exchange resins are a well‑known method for chloride solution lead removal.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method applicability",
+    "direction": "increases",
+    "factor": "knowledge base",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "способы очистки хлоридных растворов от свинца хорошо известны и основаны на применении анионообменных смол различных типов",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "The existing zinc extraction cascade processes about one third to one half of the total plant flow.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "throughput proportion",
+    "direction": "increases",
+    "factor": "capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "пропускная способность существующего каскада составляла от трети до половины от общего потока с предыдущего передела",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  },
+  {
+   "text": "Optimizing the water balance of the plant includes re‑using water from fine organic‑phase cleanup for washing sludges or reagent preparation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "water reuse",
+    "direction": "increases",
+    "factor": "resource efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при организации тонкой доочистки от органической фазы (ОФ) на сорбционных угольных колоннах нейтрализованного реэкстракта примесей можно было бы вовлечь эту воду в такие операции, как промывка кеков или приготовление реагентики, вместо использования свежего притока воды",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:55-приложение-текст-статьи-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

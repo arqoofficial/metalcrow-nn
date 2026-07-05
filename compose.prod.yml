@@ -12,3 +12,13 @@ services:
   frontend:
     ports:
       - "${FRONTEND_PORT:-80}:80"
+
+  # Read-only bind mount of the parser SHARED folder so the precomputed-facts
+  # loader can read facts/vectors without copying ~1 GB into the container.
+  # Relative path is resolved against the project (repo-root) dir. Harmless for
+  # the running service (read-only, unused at runtime); consumed only by the
+  # one-shot `scripts/load_precomputed_facts.py` — see
+  # services/science-knowledge-graph/README.md → "Load precomputed facts".
+  science-knowledge-graph:
+    volumes:
+      - ./services/nornickel-2026-parser/SHARED:/shared:ro

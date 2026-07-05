@@ -1,0 +1,663 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-12-23-pdf",
+   "title": "ЦМ № 12-23.pdf",
+   "doc_type": "article",
+   "year": 2023,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2023\\ЦМ № 12-23.pdf.md",
+   "artifact_sha256": "ce0e1f26f5117ad391e154b95847f513736c2b3d3e46755738e683b46fe09dc6",
+   "okf_raw_path": "Журналы/Цветные металлы/2023/ЦМ № 12-23.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:nickel-powder",
+   "label": "Nickel powder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:flotation-residue-of-chlorination-leaching",
+   "label": "Flotation residue of chlorination leaching",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No-12-23-pdf:0",
+   "document_id": "doc:цм-No-12-23-pdf",
+   "title": "Industrial implementation of nickel‑powder feedstock in tube furnaces",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Replacement of nickel anodes with nickel powder produced in tube furnaces for commodity metal production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-powder",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Повысил качество продукции",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "product quality",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "повысил качество продукции",
+     "locator_kind": "md_para",
+     "locator": "para:177",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Новая технология позволила отказаться от плавки никелевых анодов. Вместо них сырьем для выпуска товарного металла стал никелевый порошок, получаемый в трубчатых печах.",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-12-23-pdf:1",
+   "document_id": "doc:цм-No-12-23-pdf",
+   "title": "Industrial scale expansion and automation of flotation residue processing from chlorination leaching",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Expansion, automation and use of a proprietary ‘reagent recipe advisor’ for each feed composition in flotation of leaching residue"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:flotation-residue-of-chlorination-leaching",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Effective extraction and increased recovery of precious metals, reduction of unfinished production",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "metal recovery",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это позволяет эффективно извлекать и больше получать драгоценных металлов для компании, сокращать незавершенное производство",
+     "locator_kind": "md_para",
+     "locator": "para:179",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2022 году мы его серьезно расширили, автоматизировали, разработали уникальное собственное решение, так называемый Советчик рецептур флотореагентов для каждого состава сырья, поступающего на флотацию остатка выщелачивания",
+   "locator_kind": "md_para",
+   "locator": "para:179",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-12-23-pdf:2",
+   "document_id": "doc:цм-No-12-23-pdf",
+   "title": "Pilot/industrial test of sulfur dioxide emission reduction program (\"Серная программа\")",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Implementation of a comprehensive environmental initiative to cut SO₂ emissions at Kola division facilities"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "SO₂ emissions",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "по итогам 2022 г . Кольский дивизион Норникеля снизил объемы выбросов диоксида серы (главного загрязнителя воздуха от деятельности компании) на 90 %",
+     "locator_kind": "md_para",
+     "locator": "para:192",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "SO₂ emissions (absolute)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 155.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "со 155 тыс. до 13 тыс. т",
+     "locator_kind": "md_para",
+     "locator": "para:192",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "No exceedances of permissible sanitary norms for annual average SO₂ concentration in air",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "air quality compliance",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "больше не фиксируют превышения допустимых санитарных норм по среднегодовой концентрации диоксида серы в атмосферном воздухе",
+     "locator_kind": "md_para",
+     "locator": "para:192",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "«Серная программа», масштабная экологическая инициатива организации, в городах ее присутствия в Мурманской области фактически уже завершилась",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Журнал основан в 1926 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "establishment year",
+    "direction": "increases",
+    "factor": "founding date",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Журнал основан в 1926 г.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2023 г. библиотека НИЯУ МИФИ (Центр информационно-библиотечного обеспечения учебно-научной деятельности - так называется библиотека с 2011 г.) отметила свое 80-летие.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "anniversary",
+    "direction": "increases",
+    "factor": "age",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2023 г. библиотека НИЯУ МИФИ (Центр информационно-библиотечного обеспечения учебно-научной деятельности - так называется библиотека с 2011 г.) отметила свое 80-летие.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2015 г. в Центре информационно-библиотечного обеспечения учебнонаучной деятельности НИЯУ МИФИ был организован отдел научных журналов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "organization",
+    "direction": "increases",
+    "factor": "establishment of department",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2015 г. в Центре информационно-библиотечного обеспечения учебнонаучной деятельности НИЯУ МИФИ был организован отдел научных журналов.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Внедрение технологий искусственного интеллекта позволяет расширить возможности в обслуживании читателей.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "service capability",
+    "direction": "increases",
+    "factor": "AI technologies",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Внедрение технологий искусственного интеллекта позволяет расширить возможности в обслуживании читателей.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Библиотеки максимально открывают фонды для пользователей, создают полнотекстовые коллекции научных ресурсов в открытом доступе - университетские репозитории.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "accessibility",
+    "direction": "increases",
+    "factor": "open collections",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Библиотеки максимально открывают фонды для пользователей, создают полнотекстовые коллекции научных ресурсов в открытом доступе - университетские репозитории.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В ноябре 2023 г. Antofagasta (Великобритания) и Jinchuan Group (КНР) согласовали тарифы на переработку и рафинирование медного концентрата (TC/RC) по срочным контрактам на 2024 г.: 80,0 долл/т / 8,0 ц/фунт (88,0 долл/т / 8,8 ц/фунт в 2023 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "processing and refining rates",
+    "direction": "increases",
+    "factor": "80,0 долл/т / 8,0 ц/фунт for 2024",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В ноябре 2023 г. Antofagasta (Великобритания) и Jinchuan Group (КНР) согласовали тарифы на переработку и рафинирование медного концентрата (TC/RC) по срочным контрактам на 2024 г.: 80,0 долл/т / 8,0 ц/фунт (88,0 долл/т / 8,8 ц/фунт в 2023 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В декабре 2023 г . Freeport-McMoRan (США) и Jiangxi Copper (КНР) согласовали тарифы на переработку и рафинирование медного концентрата (TC/RC) по контрактам на 2024 г .: 80,0 долл/т / 8,0 ц/фунт (88,0 долл/т / 8,8 ц/фунт в 2023 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "processing and refining rates",
+    "direction": "increases",
+    "factor": "80,0 долл/т / 8,0 ц/фунт for 2024",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В декабре 2023 г . Freeport-McMoRan (США) и Jiangxi Copper (КНР) согласовали тарифы на переработку и рафинирование медного концентрата (TC/RC) по контрактам на 2024 г .: 80,0 долл/т / 8,0 ц/фунт (88,0 долл/т / 8,8 ц/фунт в 2023 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2024 г . Codelco (Чили) планирует выпустить 1,34 млн т меди (1,315 млн т в 2023 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper output",
+    "direction": "increases",
+    "factor": "1,34 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2024 г . Codelco (Чили) планирует выпустить 1,34 млн т меди (1,315 млн т в 2023 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2024 г. Rio Tinto (Австралия - Великобритания) намеревается добыть 600,0-720,0 тыс. т меди, выпустить 230,0-260,0 тыс. т металла.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper mining and metal output",
+    "direction": "increases",
+    "factor": "600,0-720,0 тыс. т добычи, 230,0-260,0 тыс. т выпуска",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2024 г. Rio Tinto (Австралия - Великобритания) намеревается добыть 600,0-720,0 тыс. т меди, выпустить 230,0-260,0 тыс. т металла.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2028-2036 гг . компания планирует производить на комбинате Oyu Tolgoi (Монголия) ежегодно 500,0 тыс. т меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual copper production",
+    "direction": "increases",
+    "factor": "500,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2028-2036 гг . компания планирует производить на комбинате Oyu Tolgoi (Монголия) ежегодно 500,0 тыс. т меди.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "По информации International Aluminum Institute (Великобритания), в январе - ноябре 2023 г . по сравнению с аналогичным периодом прошлого года мировой выпуск алюминия вырос до 64,516 млн т (63,119 млн т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "global aluminum output",
+    "direction": "increases",
+    "factor": "64,516 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По информации International Aluminum Institute (Великобритания), в январе - ноябре 2023 г . по сравнению с аналогичным периодом прошлого года мировой выпуск алюминия вырос до 64,516 млн т (63,119 млн т).",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке UBS (Швейцария), в 2024 г . дефицит мирового рынка алюминия составит 7,0 тыс. т (ранее профицит 385,0 тыс. т, профицит 89,0 тыс. т в 2023 г .), мировая цена - 2337,5 долл/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "aluminum market deficit and price",
+    "direction": "decreases",
+    "factor": "deficit 7,0 тыс. т, price 2337,5 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно оценке UBS (Швейцария), в 2024 г . дефицит мирового рынка алюминия составит 7,0 тыс. т (ранее профицит 385,0 тыс. т, профицит 89,0 тыс. т в 2023 г .), мировая цена - 2337,5 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "По информации Goldman Sachs (США), в 2024 г . дефицит мирового рынка алюминия составит 1,23 млн т, мировая цена - 2600,5 долл/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "aluminum market deficit and price",
+    "direction": "decreases",
+    "factor": "deficit 1,23 млн т, price 2600,5 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По информации Goldman Sachs (США), в 2024 г . дефицит мирового рынка алюминия составит 1,23 млн т, мировая цена - 2600,5 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке UBS (Швейцария), в 2024 г. профицит миро вого рынка цинка составит 183,0 тыс. т (ранее 11,0 тыс. т , 192,0 тыс. т в 2023 г .), мировая цена поквартально, долл/т: 2500,0; 2500,0; 2600,0; 2600,0.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "zinc market surplus and price",
+    "direction": "increases",
+    "factor": "surplus 183,0 тыс. т, price 2500,0-2600,0 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно оценке UBS (Швейцария), в 2024 г. профицит миро вого рынка цинка составит 183,0 тыс. т (ранее 11,0 тыс. т , 192,0 тыс. т в 2023 г .), мировая цена поквартально, долл/т: 2500,0; 2500,0; 2600,0; 2600,0.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке UBS (Швейцария), в 2024 г . профицит мирового рынка свинца составит 62,0 тыс. т (38,0 тыс. т в 2023 г .), мировая цена - 2150,0 долл/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "lead market surplus and price",
+    "direction": "increases",
+    "factor": "surplus 62,0 тыс. т, price 2150,0 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно оценке UBS (Швейцария), в 2024 г . профицит мирового рынка свинца составит 62,0 тыс. т (38,0 тыс. т в 2023 г .), мировая цена - 2150,0 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "New technology allowed abandoning the melting of nickel anodes.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Новая технология позволила отказаться от плавки никелевых анодов.",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The method reduced operational costs and metal losses during production.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operational costs, metal losses",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такой метод сократил операционные затраты и потери металла при его производстве",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The method improved product quality.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product quality",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "повысил качество продукции",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The method lowered emissions of sulfur dioxide and nickel‑containing dust to the atmosphere.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SO₂ and nickel dust emissions",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "снизил выбросы диоксида серы и никельсодержащей пыли в атмосферу",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The flotation residue processing project achieved the highest extraction rates in Norilsk Nickel.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "extraction rate",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "что позволило добиться наиболее высоких показателей извлечения в Норникеле",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The “minus 730” horizon ensures mine operation up to 2048, providing over 60 years of production at current annual rates.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mine life",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при существующих годовых объемах добычи деятельность горно-обогатительного производства обеспечена более чем на 60 лет",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The project is described as beautiful and efficient with high profitability values.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project profitability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Горный проект получается красивым и эффективным с высокими значениями рентабельности",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The sulfur dioxide emission reduction program cut emissions by 90 % compared with 2015 levels.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SO₂ emissions",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по итогам 2022 г . Кольский дивизион Норникеля снизил объемы выбросов диоксида серы ... на 90 %",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Absolute SO₂ emissions fell from 155 000 t to 13 000 t.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SO₂ emissions",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "со 155 тыс. до 13 тыс. т",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The company stopped the outdated melting operation in the settlement of Nickel at the end of 2020.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В конце 2020 г . остановлено плавильное производство в поселке Никель, устаревшее технически и переставшее отвечать высоким экологическим требованиям",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-12-23-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

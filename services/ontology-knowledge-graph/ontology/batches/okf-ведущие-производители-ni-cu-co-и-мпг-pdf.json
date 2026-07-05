@@ -1,0 +1,1518 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "title": "Ведущие производители Ni, Cu,Co и МПГ.pdf",
+   "doc_type": "article",
+   "year": 2017,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Ведущие производители Ni, Cu,Co и МПГ.pdf.md",
+   "artifact_sha256": "39254a082b9fa3031e5be092d1025ee023d2d7177cb60d174b55278b78b81225",
+   "okf_raw_path": "Обзоры/Ведущие производители Ni, Cu,Co и МПГ.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:nickel-ore",
+   "label": "Nickel ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fine-stone-feed-from-sorowako-indonesia-or-blend",
+   "label": "Fine‑stone feed from Sorowako (Indonesia) or blend with Voisey’s Bay concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:laterite",
+   "label": "Laterite ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mixed-hydroxide-product-nhc",
+   "label": "Mixed hydroxide product (NHC)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-concentrate",
+   "label": "nickel concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:furnace-off-gas",
+   "label": "furnace off‑gas",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:медныи-концентрат",
+   "label": "медный концентрат",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fine-stone",
+   "label": "fine stone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:voisey-s-bay-concentrate",
+   "label": "Voisey's Bay concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:ведущие-производители-ni-cu-co-и-мпг-pdf:0",
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "title": "Industrial commissioning of the Onca Puma ferro‑nickel plant (Brazil)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Traditional RKEF (roasting in a rotating furnace – melting in an electric furnace)",
+       "temperature_text": "not specified",
+       "duration_text": "commissioned March 2011; planned full capacity 2012; interruptions May‑June 2012; line‑1 restarted end 2013"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Capacity utilization",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 93.0,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 3 кв.2014 г. завод Onca Puma достиг 93% номинальной мощности (для одной линии) в 25 тыс. т/г",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Annual production",
+     "scope": "material",
+     "material_id": "mat:nickel-ore",
+     "value": {
+      "min": null,
+      "nominal": 24.4,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2015 г. завод работал на проектной мощности, произведено 24,4 тыс. т Ni в FeNi.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Cash cost (net of by‑products)",
+     "scope": "material",
+     "material_id": "mat:nickel-ore",
+     "value": {
+      "min": null,
+      "nominal": 7710.0,
+      "max": null
+     },
+     "unit": "USD/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Наличные издержки производства никеля после учета побочной продукции на единицу реализованной продукции в 4 кв.2015 г. составляли 7710 USD/т.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "One furnace (No 1) was put into service end 2013; the second line (No 2) was postponed indefinitely.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "operational status",
+      "direction": "decreases",
+      "factor": "capacity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Одна печь - No1 была введена в строй в конце 2013 г., решение о вводе в строй второй производственной линии с печью No2 отложено на неопределенный срок.",
+     "locator_kind": "md_para",
+     "locator": "para:44",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Ввод в строй ферроникелевого завода Onca-Puma (Бразилия) исходной проектной мощностью 57 тыс. т/г Ni в ферроникеле состоялся в марте 2011 г.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ведущие-производители-ni-cu-co-и-мпг-pdf:1",
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "title": "Industrial start‑up of the Long Harbour hydrometallurgical plant (Newfoundland & Labrador, Canada)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "New hydrometallurgical technology originally conceived by Inco",
+       "temperature_text": "not specified",
+       "duration_text": "commissioned 2014; technology development 2014‑2015; full concentrate processing began 2016"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-stone-feed-from-sorowako-indonesia-or-blend",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Cash costs are expected to decline as production volumes increase.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "cash cost",
+      "direction": "decreases",
+      "factor": "production volume",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "По мере наращивания объемов производства наличные издержки будут, естественно, снижаться.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Завод Long Harbour (провинция Ньюфаундленд и Лабрадор) по переработке сульфидных никелевых концентратов по новой гидрометаллургической технологии (задуманной ещё Inco) был введен в строй в 2014 г.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ведущие-производители-ni-cu-co-и-мпг-pdf:2",
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "title": "Industrial commissioning of the Goro (VNC) hydrometallurgical plant (New Caledonia)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "New AKV‑type hydrometallurgical route for laterite ore, developed at Inco",
+       "temperature_text": "not specified",
+       "duration_text": "first autoclave commissioned August 2010; 2015 production 30,9 000 t Ni (≈21‑22 000 t as NiO); full capacity planned for 2020"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:laterite",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:mixed-hydroxide-product-nhc",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Annual nickel production",
+     "scope": "material",
+     "material_id": "mat:nickel-ore",
+     "value": {
+      "min": null,
+      "nominal": 30.9,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2015 г. было получено всего 30,9 тыс. т Ni, из них ≈21-22 тыс т Ni в NiO.",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Cash cost (net of by‑products)",
+     "scope": "material",
+     "material_id": "mat:nickel-ore",
+     "value": {
+      "min": null,
+      "nominal": 21000.0,
+      "max": null
+     },
+     "unit": "USD/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "издержки производства VNC пока ещё очень высокие - порядка 21000 USD/т Ni в 2015 г.",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Full design capacity (57 000 t Ni + 4,5 000 t Co) is scheduled for 2020, but expected cash costs remain high.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "capacity",
+      "direction": "increases",
+      "factor": "time",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Выход на проектную мощность запланирован на 2020 г., но, как видно из рис.2, ожидаемые издержки все равно весьма высокие.",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На заводе Goro (VNC), Новая Каледония только в 2016 г. наметился положительный сдвиг.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ведущие-производители-ni-cu-co-и-мпг-pdf:3",
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "title": "Industrial application – Vale AER project at Copper Cliff (single‑furnace configuration)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "conversion of the smelter to operate with one furnace and installation of a new gas‑cleaning system for converter off‑gas (cooling, removal of nickel, copper and other metals, and sulfuric‑acid plant treatment)",
+       "temperature_text": "not specified",
+       "duration_text": "project started before 2013, completion target moved from 2015 → 2016 → 2018"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "SO₂ emissions",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20000.0,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "по оценкам компании по завершении проекта (с одной печью) концентрация никеля в почве рядом с заводом снизится примерно до 0,16 микрограммов на 1 м 3 (действующий стандарт ˂1мкг/ м 3 ), а выбросы SO2 - до 20000-25000 т/г.",
+     "locator_kind": "md_para",
+     "locator": "para:79",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "project cost reduced from ~2 bn $ to ~1 bn $ by moving to a single‑furnace operation",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "cost",
+      "direction": "decreases",
+      "factor": "~1 bn $",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Стоимость проекта была оценена в 2 млрд долларов, однако в 2013 г. Vale «урезала» расходы до ~1 млрд долларов за счет перехода на плавку в одной печи ВП",
+     "locator_kind": "md_para",
+     "locator": "para:78",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Vale «урезала» расходы до ~1 млрд долларов за счет перехода на плавку в одной печи ВП (SO2 от плавки будет образовываться, соответственно, меньше).",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ведущие-производители-ni-cu-co-и-мпг-pdf:4",
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "title": "Industrial application – Inco “super‑pipe” (380 m high) for dispersion of SO₂ and other volatiles at Copper Cliff (1972)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "construction of a 380 m high stack to disperse furnace gases containing SO₂, lead, arsenic, etc. over a wide area",
+       "temperature_text": "not specified",
+       "duration_text": "operational from 1972; emissions measured in 1970s"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:furnace-off-gas",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "SO₂ emissions",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Выбросы SO2 компанией Inco на тот момент достигали порядка 2 млн т/г.",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "ground‑level air quality improved locally, but SO₂ and heavy‑metal deposition were recorded ≥240 km downwind",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "environmental impact",
+      "direction": "increases",
+      "factor": "≥240 km",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Газовые выбросы были зафиксированы вокруг территории «Большого Садбери» на расстоянии 240 км и больше, а в почвах обнаружены свинец, другие тяжелые металлы.",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В 1972 г. на заводе Copper Cliff компания Inco (предыдущий владелец) построила «супертрубу» высотой 380 м с целью рассеивания отходящих газов от плавки, содержащих, в первую очередь, SO2, а также другие летучие примеси (свинец, мышьяк и пр.) за пределами г.Садбери.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ведущие-производители-ni-cu-co-и-мпг-pdf:5",
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "title": "Copper extraction chain at O/F Clarabelle (2006)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Организована цепочка выделения меди в самостоятельный медный концентрат товарного качества"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:медныи-концентрат",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:медныи-концентрат",
+     "value": {
+      "min": null,
+      "nominal": 33.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "с ~33%Cu, 0,4% Ni",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:медныи-концентрат",
+     "value": {
+      "min": null,
+      "nominal": 0.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "с ~33%Cu, 0,4% Ni",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "на плавку поступает меньший объем сырья и меньше меди в сырье, а О/Ф может принимать на переработку руды с более высоким отношением Cu:Ni, не нарушая процесс дальнейшей переработки",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Таким образом, на плавку поступает меньший объем сырья и меньше меди в сырье, а О/Ф может принимать на переработку руды с более высоким отношением Cu:Ni, не нарушая процесс дальнейшей переработки.",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На О/Ф Clarabelle в 2006 г. была организована цепочка выделения меди в самостоятельный медный концентрат товарного качества с ~33%Cu, 0,4% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ведущие-производители-ni-cu-co-и-мпг-pdf:6",
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "title": "Global reconstruction of CORe plant (2010‑2013)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Замена/обновление основного оборудования, установка мельницы Isa Mill, замена флотационных камер",
+       "duration_text": "2010‑2013"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "повышение извлечения никеля (на ≈4%)",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Проект имел целью повышение извлечения никеля",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Проект имел целью, в первую очередь, повышение извлечения никеля (на ≈4%)",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в 2010-2013 гг. был выполнен проект глобальной реконструкции фабрики CORe стоимостью 200 млн долларов. Проект имел целью, в первую очередь, повышение извлечения никеля (на ≈4%) и включает замену/обновление основного оборудования (установку мельницы Isa Mill, замену флотационных камер и т.д. и т.п.).",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ведущие-производители-ni-cu-co-и-мпг-pdf:7",
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "title": "Technology trial at Long Harbour (2014‑2015)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Отработка технологии с использованием в качестве сырья файнштейна с индонезийского завода Sorowako или смеси файнштейна с концентратом Voisey's Bay",
+       "duration_text": "2014‑2015"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-stone",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:voisey-s-bay-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Технология отработана в течение 2014‑2015 гг.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "в 2014-2015 гг. продолжалась отработка технологии с использованием в качестве сырья файнштейна с индонезийского завода Sorowako или смеси файнштейна с концентратом Voisey's Bay.",
+     "locator_kind": "md_para",
+     "locator": "para:97",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в 2014-2015 гг. продолжалась отработка технологии с использованием в качестве сырья файнштейна с индонезийского завода Sorowako или смеси файнштейна с концентратом Voisey's Bay.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ведущие-производители-ni-cu-co-и-мпг-pdf:8",
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "title": "Transition to single VPF furnace at Copper Cliff (planned 2017)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Переключение плавки с двух печей на одну VPF печь",
+       "duration_text": "конец 2017 г."
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "furnace capacity increase",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 25.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "мощность этой печи увеличена на 25%",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "expected SO2 emission reduction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 25.0,
+      "nominal": null,
+      "max": 30.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "сокращение выпуска составит, по оценкам компании, 25-30%, а не 50%",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Цель – освободить мощности для плавки никелевых концентратов",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "цель, как упоминалось выше, освободить мощности для плавки никелевых концентратов.",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2013 г. Vale объявила о планах перевода плавильного завода Copper Cliff на одну печь ВП (взамен двух) ... -мощность этой печи увеличена на 25%; ... -на О/Ф «вывод» меди на «ранней стадии», составлявший 45%, будет увеличен до 75-80% - цель, как упоминалось выше, освободить мощности для плавки никелевых концентратов.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "мощность ~66 тыс т/г рафинир.Ni плюс оксид никеля - сырье для карбонильного рафин.завода Clydach (Великобритания).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "~66 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощность ~66 тыс т/г рафинир.Ni плюс оксид никеля - сырье для карбонильного рафин.завода Clydach (Великобритания).",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "мощность ~50 тыс т/г рафин.Ni",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "~50 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощность ~50 тыс т/г рафин.Ni",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "мощность ~40 тыс т/г рафин.Ni; сырье - оксид никеля, промпродукт с завода Copper Cliff и/или Matsuzaka (Япония)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "~40 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощность ~40 тыс т/г рафин.Ni; сырье - оксид никеля, промпродукт с завода Copper Cliff и/или Matsuzaka (Япония)",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "мощность ~57 тыс т/г Ni в оксиде и гидроксиде и 4500 т/г Co в карбонате",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "~57 тыс т/г Ni, 4500 т/г Co",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощность ~57 тыс т/г Ni в оксиде и гидроксиде и 4500 т/г Co в карбонате",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "мощность ~60 тыс т/г Ni; сырье - файнштейн Sorowako",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "~60 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощность ~60 тыс т/г Ni; сырье - файнштейн Sorowako",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "мощность ~18 тыс т/г Ni; сырье - с Matsuzaka и VNC.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "~18 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощность ~18 тыс т/г Ni; сырье - с Matsuzaka и VNC.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "мощность - ~32тыс т/г Ni; сырье - с Matsuzaka и VNC",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "~32 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощность - ~32тыс т/г Ni; сырье - с Matsuzaka и VNC",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "мощность 25 тыс т/г Ni в FeNi для одной линии",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "25 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощность 25 тыс т/г Ni в FeNi для одной линии",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Copper Cliff: 63 тыс т карбонильного Ni из «своего» местного сырья - с рудников Садбери (см.табл.1), а также из концентратов Voisey's Bay, но без учета произведенного никеля в синтере;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "63 тыс т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Copper Cliff: 63 тыс т карбонильного Ni из «своего» местного сырья - с рудников Садбери (см.табл.1), а также из концентратов Voisey's Bay, но без учета произведенного никеля в синтере;",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Thompson: 43 тыс т электрорафинированного Ni: 24,8 тыс т - из концентратов рудников провинции Манитоба (табл.1), остальное - из концентратов Voisey's Bay;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "43 тыс т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Thompson: 43 тыс т электрорафинированного Ni: 24,8 тыс т - из концентратов рудников провинции Манитоба (табл.1), остальное - из концентратов Voisey's Bay;",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Long Harbour: ещё только вступает в строй, выпуск в 2015 г. оценен в 8 тыс т;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "8 тыс т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Long Harbour: ещё только вступает в строй, выпуск в 2015 г. оценен в 8 тыс т;",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Clydach: 40 тыс т карбонильного Ni из синтера и промпродукта с Copper Cliff и, возможно, Matsuzaka;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "40 тыс т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Clydach: 40 тыс т карбонильного Ni из синтера и промпродукта с Copper Cliff и, возможно, Matsuzaka;",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Matsuzaka: 50 тыс т никеля класса II (см.табл.2);",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "50 тыс т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Matsuzaka: 50 тыс т никеля класса II (см.табл.2);",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Onca Puma: 24 тыс т Ni в FeNi;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "24 тыс т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Onca Puma: 24 тыс т Ni в FeNi;",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "VNC (Goro): ≈21 тыс т Ni в оксиде (без учета промпродукта - гидроксида никеля).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "≈21 тыс т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "VNC (Goro): ≈21 тыс т Ni в оксиде (без учета промпродукта - гидроксида никеля).",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Итого: ≈250 тыс т рафинированного никеля классов I и II.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "total refined nickel production",
+    "direction": "increases",
+    "factor": "≈250 тыс т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Итого: ≈250 тыс т рафинированного никеля классов I и II.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Vale introduced three new large‑scale plants in the last five years: Goro (VNC) in New Caledonia (2010), Onca Puma in Brazil (2011), and Long Harbour in Canada (2014).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "number of new plants",
+    "direction": "increases",
+    "factor": "time (last five years)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За последние пять лет Vale ввела в строй три новых крупных завода : Goro (VNC) на Новой Каледонии - 2010г., Onca Puma в Бразилии - 2011 г., Long Harbour в Канаде - 2014г.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Only the Onca Puma plant has reached its design capacity to date.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "design capacity attainment",
+    "direction": "decreases",
+    "factor": "plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "из которых только один (Onca Puma) к настоящему времени вышел на проектную мощность.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Cash costs of nickel production after accounting for by‑products were 7 710 USD/t in Q4 2015 at Onca Puma.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cash cost",
+    "direction": "decreases",
+    "factor": "time (Q4 2015)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наличные издержки производства никеля после учета побочной продукции на единицу реализованной продукции в 4 кв.2015 г. составляли 7710 USD/т.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Cash costs at the Goro (VNC) plant were about 21 000 USD/t Ni in 2015, remaining very high.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cash cost",
+    "direction": "increases",
+    "factor": "time (2015)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "издержки производства VNC пока ещё очень высокие - порядка 21000 USD/т Ni в 2015 г.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Total nickel production of Vale is expected to stay above 300 000 t/yr in the medium term thanks to new plants and material‑flow optimisation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual production",
+    "direction": "increases",
+    "factor": "new plants & optimisation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наращивание выпуска с новых заводов и оптимизация конфигурации схемы движения материалов (сырья) на «старых» канадских предприятиях позволят компании в среднесрочной перспективе поддерживать суммарный объем производства никеля во всех видах на уровне >300 тыс т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.81,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "The Thompson smelter‑refining complex is planned to be shut down by 2019 as part of the North‑Atlantic scheme optimisation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operational status",
+    "direction": "decreases",
+    "factor": "time (by 2019)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "закрыть плавильно-рафинировочные мощности на комплексе Thompson",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "The Thompson smelter‑refining complex will be closed in 2018, while mining in Manitoba will continue.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operational status",
+    "direction": "decreases",
+    "factor": "time (2018)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2018 г. Vale планирует закрыть плавильно-рафинировочный комплекс Томпсон, при этом добыча руды на рудниках провинции Манитоба и её обогащение продолжатся.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Up to 45 % of the nickel produced at the Thompson plant historically came from external feed, mainly concentrates from the Voisey’s Bay mine.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "external feed share",
+    "direction": "increases",
+    "factor": "historical",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "До 45% выпускаемого на заводе Томпсон никеля приходилось на стороннее сырье, преимущественно концентраты с рудника Voisey's Bay",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Ore reserves in Manitoba are insufficient to operate the Thompson smelter‑refinery complex at full capacity.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ore reserve adequacy",
+    "direction": "decreases",
+    "factor": "insufficient",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "запасов руды в Манитобе недостаточно для эксплуатации плавильнорафинировочного комплекса на полной мощности.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Up to 45 % of the nickel produced at the Thompson plant historically came from external concentrate, mainly from the Voisey’s Bay mine, which will become unavailable after the Long Harbour plant starts up.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "external concentrate share",
+    "direction": "decreases",
+    "factor": "45 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "До 45% выпускаемого на заводе Томпсон никеля приходилось на стороннее сырье, преимущественно концентраты с рудника Voisey's Bay, но это сырье после ввода в строй нового гидрометаллургического завода Long Harbour становится недоступным;",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "New Canadian federal SO₂ emission standards require a reduction of about 88 % at the Thompson complex, which Vale says would need unacceptably large capital investment.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "required emission reduction",
+    "direction": "decreases",
+    "factor": "≈88 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На комплексе Томпсон в провинции Манитоба потребуется сократить выбросы в атмосферу примерно на 88%, что, по заявлению Vale, потребовало бы от компании неприемлемо больших капиталовложений.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Ontario’s SO₂ emission limit for Copper Cliff is 66 000 t/yr, while Vale’s AER program originally targeted 45 000 t/yr by 2015.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SO₂ emission limit",
+    "direction": "decreases",
+    "factor": "45 000 t/yr (target) vs 66 000 t/yr (limit)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "имевшей первоначальной целью сокращение выбросов SO2 до 45 тыс т/г к 2015 г. - при том, что правительство провинции Онтарио установило лимит в 66 тыс т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "In 2015 the Copper Cliff smelter emitted 146.7 000 t of SO₂, the Copper Cliff refinery emitted 7.3 000 t, and the Thompson complex emitted 151.2 000 t.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual SO₂ emissions",
+    "direction": "increases",
+    "factor": "146.7 k t, 7.3 k t, 151.2 k t",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За 2015 г. выбросы в атмосферу диоксида серы составили 146,7 тыс т с плавильного завода Copper Cliff, 7,3 тыс т с рафинировочного завода Copper Cliff и 151,2 тыс т с комплекса Thompson.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "The Clarabelle ore‑processing plant, commissioned in 1971, reached a maximum capacity of 11.9 million t/yr in the 1990s, with typical later production around 10 million t/yr.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual throughput",
+    "direction": "increases",
+    "factor": "11.9 M t/yr (max), ≈10 M t/yr (typical)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1990 г. была установлена мельница полусамоизмельчения и максимальная производительность достигла 11,9 млн кор.т/г (в последующие годы в типичном случае ≈10 млн кор.т/год).",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Typical feed ore in the 1990s–2000s contained 1.4 % Cu and 1.2 % Ni.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper and nickel grades",
+    "direction": "increases",
+    "factor": "1.4 % Cu, 1.2 % Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средний состав сырья, поступавшего на обогащение в 1990‑е годы и начале 2000х годов, таков: 1,4% Cu, 1,2% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.81,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "The selective flotation circuit produces a Cu/Ni concentrate with 14 % Ni‑equivalent (≈8.5 % Cu, 11 % Ni).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentrate composition",
+    "direction": "increases",
+    "factor": "14 % Ni‑eq (≈8.5 % Cu, 11 % Ni)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "получением коллективного Cu/Ni концентрата с 14% Niэкв. (≈8,5% Cu, 11% Ni).",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "After project completion, soil nickel concentration near the plant is expected to fall to about 0.16 µg/m³ (standard < 1 µg/m³).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "soil nickel level",
+    "direction": "decreases",
+    "factor": "0.16 µg/m³",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по оценкам компании по завершении проекта (с одной печью) концентрация никеля в почве рядом с заводом снизится примерно до 0,16 микрограммов на 1 м 3 (действующий стандарт ˂1мкг/ м 3 )",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.81,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Повышение извлечения никеля на ≈4% в результате реконструкции CORe",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "≈4%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "повышение извлечения никеля (на ≈4%)",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Мощность одной VPF печи увеличена на 25%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "мощность печи",
+    "direction": "increases",
+    "factor": "25%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мощность этой печи увеличена на 25%",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Ожидаемое сокращение выпуска SO2 составит 25‑30%, а не 50%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SO2 emissions",
+    "direction": "decreases",
+    "factor": "25‑30% (vs 50%)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сокращение выпуска составит, по оценкам компании, 25-30%, а не 50%",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Новый гидрометаллургический завод Long Harbour имеет «нулевые выбросы SO2»",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SO2 emissions",
+    "direction": "decreases",
+    "factor": "нулевые",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "новый завод имеет «нулевые выбросы SO2»",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Концентрат О/Ф Clarabelle в 2006 г. имел состав ~33%Cu, 0,4% Ni",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "с ~33%Cu, 0,4% Ni",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Концентрат Voisey's Bay «богатый Ni» содержит ~24%Ni, 0,5%Cu",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "богатого Ni концентрата с низким содержанием меди (~24%Ni, 0,5%Cu)",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Концентрат «среднего» качества содержит 14‑16%Ni и 4‑6%Cu",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "концентрата «среднего» качества с 14-16%Ni и 4-6%Cu",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Концентраты Манитобы содержат примерно 12‑14% Ni и 0,2‑0,3% Cu",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "концентраты с рудников Манитобы содержат примерно 1214% Ni и 0,2-0,3% Cu",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "Концентраты О/Ф Clarabelle в Садбери содержат 10% Ni и 12% Cu",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "концентраты О/Ф Clarabelle в Садбери, где расположен завод Copper Cliff, - 10% Ni и 12% Cu",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  },
+  {
+   "text": "После ввода Long Harbour никельсодержащие концентраты будут объединены (~20% Ni, 4% Cu)",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "никельсодержащие концентраты Voisey's Bay будут объединены (примерно 20% Ni и 4% Cu)",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:mixed-hydroxide-product-nhc",
+   "dst": "mat:laterite",
+   "process": "other",
+   "kind": null,
+   "snippet": "На заводе Goro (VNC), Новая Каледония только в 2016 г. наметился положительный сдвиг.",
+   "doc_id": "doc:ведущие-производители-ni-cu-co-и-мпг-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

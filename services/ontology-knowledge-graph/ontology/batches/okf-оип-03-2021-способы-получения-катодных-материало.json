@@ -1,0 +1,1203 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "title": "ОИП – 03 – 2021 Способы получения катодных материалов с никелем и кобальтом для ЛИБ.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ОИП – 03 – 2021 Способы получения катодных материалов с никелем и кобальтом для ЛИБ.docx.md",
+   "artifact_sha256": "27242ca09599cfefce18ce80397b1d0d035889f75f106e6d91fa8da73696e86f",
+   "okf_raw_path": "Обзоры/ОИП – 03 – 2021 Способы получения катодных материалов с никелем и кобальтом для ЛИБ.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:NCM",
+   "label": "NCM",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfate-solutions",
+   "label": "sulfate solutions",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:naoh-and-nh4oh",
+   "label": "NaOH and NH4OH",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:precursor-cake",
+   "label": "precursor cake",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:li-nmc",
+   "label": "Li‑NMC",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nmc-powder",
+   "label": "NMC powder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lini0-8co0-15al0-05o2-precursors",
+   "label": "LiNi0.8Co0.15Al0.05O2 precursors",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:li-ni-co-al-hydroxides",
+   "label": "Li, Ni, Co, Al hydroxides",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ni-co-al-sulfates",
+   "label": "Ni, Co, Al sulfates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nh4oh-naoh",
+   "label": "NH₄OH, NaOH",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lioh",
+   "label": "LiOH",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:оип-03-2021-способы-получения-катодных-материало:0",
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "title": "Industrial production of NCM",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "two‑stage industrial process (precursor production, solid‑state synthesis, subsequent treatment)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:NCM",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "В промышленном масштабе NCM производят, главным образом, в двухстадийном процессе, который подразделяется на три подпроцесса: производство прекурсора, синтез в твердом состоянии и последующую обработку",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2021-способы-получения-катодных-материало:1",
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "title": "Co‑precipitation of Ni, Co and Mn sulfates in continuous reactor",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "continuous mode in a mechanically stirred reactor",
+       "temperature_text": "35‑80°C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 308.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfate-solutions",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:naoh-and-nh4oh",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "mixing speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "скорость перемешивания 1000 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:79",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "в непрерывном режиме (в реакторе непрерывного действия с механическим перемешиванием) получают более качественный продукт",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "product quality",
+      "direction": "increases",
+      "factor": "continuous mode",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в непрерывном режиме (в реакторе непрерывного действия с механическим перемешиванием) получают более качественный продукт",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    },
+    {
+     "text": "При перемешивании осаждение проходит быстро и снижается риск осаждения индивидуальных гидроксидов",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "precipitation speed / risk of individual hydroxide formation",
+      "direction": "increases",
+      "factor": "mixing",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При перемешивании осаждение проходит быстро и снижается риск осаждения индивидуальных гидроксидов",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Процесс совместного осаждения сульфатов никеля, кобальта, марганца в присутствии NaOH и NH 4 OH может быть выполнен в периодическом или непрерывном режиме.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2021-способы-получения-катодных-материало:2",
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "title": "Filtration, washing and drying of the co‑precipitated precursor",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "continuous belt filter followed by drying",
+       "temperature_text": "≈110°C (drying)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 383.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:precursor-cake",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "drying"
+     },
+     "method": null,
+     "snippet": "температура сушки 100-110°С",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Сушка кека проходит в непрерывном режиме при температуре около 110°С",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Сушка кека проходит в непрерывном режиме при температуре около 110°С",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Смесь после соосаждения помещают на ленточный фильтр, чтобы отделить прекурсор от взвеси.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2021-способы-получения-катодных-материало:3",
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "title": "Solid‑phase synthesis of NMC precursor using LiOH/Li2CO3 in a calcination furnace (continuous)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "continuous calcination furnace with ceramic containers/dosers",
+       "temperature_text": "800‑1000°C",
+       "duration_text": "depends on NMC stoichiometry"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1073.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:li-nmc",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 800.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "температура 800-1000°С",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Температура оказывает существенное влияние на размер частиц, а также на мобильность свободных электронов, рост кристаллов и развитость нежелательных побочных реакций, например, испарение лития",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Температура оказывает существенное влияние на размер частиц, а также на мобильность свободных электронов, рост кристаллов и развитость нежелательных побочных реакций, например, испарение лития",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.9
+    },
+    {
+     "text": "Скорость нагрева печи намеренно поддерживается низкой, чтобы предотвратить неравномерность в распределении температуры",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "heating rate",
+      "direction": "decreases",
+      "factor": "temperature uniformity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Скорость нагрева печи намеренно поддерживается низкой, чтобы предотвратить неравномерность в распределении температуры",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Твердофазный синтез прекурсора NMC с LiOH/Li 2 CO 3 осуществляется в печи кальцинирования в непрерывном режиме, где Li‑NMC движется вдоль печи в керамических ёмкостях/дозаторах.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2021-способы-получения-катодных-материало:4",
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "title": "Solid‑phase synthesis of NMC in a jet mill (continuous)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "air‑assisted jet milling with continuous air flow",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nmc-powder",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "gas velocity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 300.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "скорость: 300 м/сек",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Непрерывный поток воздуха способствует циркуляции измельчаемого материала",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "material circulation",
+      "direction": "increases",
+      "factor": "continuous air flow",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Непрерывный поток воздуха способствует циркуляции измельчаемого материала",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    },
+    {
+     "text": "Идеальным агрегатом для этой цели является воздушная струйная мельница, где частицы измельчаются за счет столкновений",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Идеальным агрегатом для этой цели является воздушная струйная мельница, где частицы измельчаются за счет столкновений",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Твердофазный синтез КМ NMC осуществляется в струйной мельнице.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2021-способы-получения-катодных-материало:5",
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "title": "Solid‑state synthesis with pressure‑pressed precursors",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "precursor powder prepared by ball‑milling and spray‑drying, pressed into tablets at 2, 4 and 6 MPa, milled, sieved (200 mesh) at room temperature, then calcined at 750 °C for 12 h in O₂ atmosphere",
+       "temperature_text": "750 °C",
+       "duration_text": "12 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1023.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lini0-8co0-15al0-05o2-precursors",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Авторы считают, что разработали простой и привлекательный метод синтеза NCA.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Авторы считают, что разработали простой и привлекательный метод синтеза NCA.",
+     "locator_kind": "md_para",
+     "locator": "para:202",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Авторы считают, что разработали простой и привлекательный метод синтеза NCA.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2021-способы-получения-катодных-материало:6",
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "title": "Solid‑phase synthesis using hydroxides (periodic mode)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "hydroxides Li, Ni, Co, Al (Merck) mixed in ball mill with ethanol, calcined at 450 °C in air for 6 h, then sintered at 800 °C in O₂ flow (2 L/min) for 12 h",
+       "temperature_text": "450 °C (calcination), 800 °C (sintering)",
+       "duration_text": "6 h (calcination), 12 h (sintering)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 723.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:li-ni-co-al-hydroxides",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Тверфазный синтез (нагрев предварительно измельченных материалов) выполняли с гидроксидами в качестве сырьевых материалов, а не с оксидами металлов.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "в отличие от предшествующих исследований, тверфазный синтез (нагрев предварительно измельченных материалов) выполняли с гидроксидами в качестве сырьевых материалов, а не с оксидами металлов",
+     "locator_kind": "md_para",
+     "locator": "para:211",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в отличие от предшествующих исследований, тверфазный синтез (нагрев предварительно измельченных материалов) выполняли с гидроксидами в качестве сырьевых материалов, а не с оксидами металлов",
+   "locator_kind": "md_para",
+   "locator": "para:211",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2021-способы-получения-катодных-материало:7",
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "title": "Joint precipitation (co‑precipitation) followed by solid‑state lithiation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Ni, Co, Al sulfates mixed in molar ratio 85:14:1, combined with 1 M NH₄OH and heated to 60 °C for 30 min, then with 4 M NaOH at 60 °C, stirred at 600 rpm, pH kept at 10‑11 for 6 h, then cooled, stirred additional 12 h, filtered, washed (3× hot de‑ionised water, 1× with alcohol), dried 3 h; powder mixed with LiOH (5 % excess), calcined at 450 °C for 6 h in air, then at 800 °C for 12 h in O₂ flow",
+       "temperature_text": "60 °C (precipitation), 450 °C (calcination), 800 °C (sintering)",
+       "duration_text": "6 h (precipitation), 12 h (post‑mix stirring), 6 h (calcination), 12 h (sintering)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ni-co-al-sulfates",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:nh4oh-naoh",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:lioh",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Совместное осаждение проводили с использованием сульфатов Ni, Co, Al в молярном соотношении Ni:Co:Al = 85:14:1.",
+   "locator_kind": "md_para",
+   "locator": "para:212",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Самым распространенным катодным материалом для литиевых батарей является кобальтат лития (LiCoO2).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "prevalence",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время самым распространенным катодным материалом для литиевых батарей является, так называемый, кобальтат лития или двойной литий/кобальтовый оксид (ЛКО) – LiCoO2",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "NCM 622 состоит из 60 % мол. никеля, 20 % мол. марганца и 20 % мол. кобальта; NCM 811 – 80 % Ni, 10 % Co, 10 % Mn.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "NCM 622 состоит из 60% мол. никеля, 20% мол. марганца и 20% мол. кобальта, а NCM811, соответственно, 80:10:10",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Типичный состав NCA – никель, кобальт и алюминий в соотношении 84:12:4.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Типичный КМ NCA содержит никель, кобальт и алюминий в соотношении 84:12:4",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Высоконикелистые КМ появились только недавно и ещё должны получить широкое распространение в коммерческих ЛИБ, хотя процесс быстро развивается.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technology maturity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "высоконикелистые КМ появились только недавно, и они ещё должны получить широкое распространение в коммерческих ЛИБ (хотя в настоящее время этот процесс быстро развивается)",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Монокристаллические КМ NCM 523 доступны коммерчески, так как на них есть спрос.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Коммерчески доступны монокристаллические КМ NCM 523, т.к. на них есть спрос",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Крупные зерна в монокристаллическом КМ повышают структурную стабильность при перезарядке, увеличивают циклическую долговечность и снижают образование газа, но за счёт снижения плотности энергии и повышения цены.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "grain_size",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Крупные зерна усиливают структурную стабильность во время перезарядки (особенно при высоких температурах) и увеличивают циклическую долговечность, при этом по ходу снижается образование газа. Однако всё это – за счет компромиссного снижения плотности энергии и повышения цены материала",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "В большинстве случаев в качестве связующего используют поливинилиденфторид (ПВДФ) с добавками углерода в качестве проводящего агента.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В большинстве случаев в качестве связующего используют поливинилиденфторид (ПВДФ) с добавками углерода в качестве проводящего агента",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Токосъёмник в катоде обычно представляет собой алюминиевую фольгу толщиной 15‑25 мкм.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "покрывающего токосъемник (обычно алюминиевую фольгу толщиной 15-25 мкм)",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Прекурсор может быть синтезирован из карбоната или гидроксида.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "precursor source",
+    "direction": "increases",
+    "factor": "use of carbonate or hydroxide",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Прекурсор может быть синтезирован из карбоната или гидроксида.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Стартовыми материалами для приготовления прекурсора являются сульфаты никеля, марганца и кобальта высокой чистоты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "starting materials",
+    "direction": "increases",
+    "factor": "use of high‑purity nickel, manganese and cobalt sulfates",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стартовыми материалами для приготовления прекурсора являются сульфаты никеля, марганца и кобальта высокой чистоты.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Контроль за содержанием примесей очень важен, но также материал должен содержать однородные и тонкие кристаллы с нулевой влажностью и отсутствием пыли.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impurity level, crystal morphology, moisture, dust",
+    "direction": "decreases",
+    "factor": "strict impurity control and fine, dry, dust‑free crystals",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Контроль за содержанием примесей очень важен, но также материал должен содержать однородные и тонкие кристаллы с нулевой влажностью и отсутствием пыли.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Для приготовления NCM и LMO используют, соответственно, сульфат марганца и оксид марганца.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "precursor type",
+    "direction": "increases",
+    "factor": "use of manganese sulfate for NCM and manganese oxide for LMO",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для приготовления NCM и LMO используют, соответственно, сульфат марганца и оксид марганца.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Сульфат марганца батарейного сорта – точнее моногидрат сульфата марганца высокой чистоты должен содержать мин.31,8% Mn; примеси, такие как: Ca, Mg, Na негативно влияют на морфологию при высоких температурах и эксплуатационные характеристики при повторных циклах батареи.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Mn content, impurity impact",
+    "direction": "increases",
+    "factor": "minimum 31,8 % Mn and low Ca, Mg, Na",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сульфат марганца батарейного сорта – точнее моногидрат сульфата марганца высокой чистоты должен содержать мин.31,8% Mn; примеси, такие как: Ca, Mg, Na негативно влияют на морфологию при высоких температурах и эксплуатационные характеристики при повторных циклах батареи.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "За пределами Китая компания Prince Erachem, как утверждают авторы [4], является единственным производителем моногидрата сульфата марганца высокой чистоты с рафинировочными заводами в Мексике и Бельгии.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "availability",
+    "direction": "increases",
+    "factor": "Prince Erachem facilities in Mexico and Belgium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За пределами Китая компания Prince Erachem, как утверждают авторы [4], является единственным производителем моногидрата сульфата марганца высокой чистоты с рафинировочными заводами в Мексике и Бельгии.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Получение моногидрата сульфата марганца высокой чистоты непосредственно из электролитического металлического марганца (99,7%) не рассматривается в качестве подходящего варианта из-за загрязнения его селеном, точнее из-за опасений по поводу высокой токсичности соединений селена, а именно – селенистого водорода.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "decreases",
+    "factor": "high selenium contamination in 99,7 % electrolytic manganese",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Получение моногидрата сульфата марганца высокой чистоты непосредственно из электролитического металлического марганца (99,7%) не рассматривается в качестве подходящего варианта из-за загрязнения его селеном, точнее из-за опасений по поводу высокой токсичности соединений селена, а именно – селенистого водорода.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Ключевое требование изготовителей батарей с использованием электролитного марганца 99,9% заключается в ограничении концентрации селена до 3 ppm («Обычный» электролитичесикй марганец в типичном случае содержит 1800 ppm Se).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "max 3 ppm Se for 99.9 % electrolytic manganese",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ключевое требование изготовителей батарей с использованием электролитного марганца 99,9% заключается в ограничении концентрации селена до 3 ppm («Обычный» электролитичесикй марганец в типичном случае содержит 1800 ppm Se).",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Моногидрат сульфата марганца получают либо непосредственным выщелачиванием карбонатной руды серной кислотой или из электролитного марганца высокой чистоты, а в последнее время – и из окисленной руды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production routes",
+    "direction": "increases",
+    "factor": "leaching of carbonate ore with sulfuric acid, high‑purity electrolytic manganese, or oxidized ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Моногидрат сульфата марганца получают либо непосредственным выщелачиванием карбонатной руды серной кислотой или из электролитного марганца высокой чистоты, а в последнее время – и из окисленной руды.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Что касается кобальта, то изготовители КМ для NMC полагаются преимущественно на гептагидрат сульфата кобальта (CoSO4·7H2O).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cobalt compound",
+    "direction": "increases",
+    "factor": "use of cobalt sulfate heptahydrate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Что касается кобальта, то изготовители КМ для NMC полагаются преимущественно на гептагидрат сульфата кобальта (CoSO4·7H2O).",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "По прогнозам гидроксид лития в последующие пять лет превзойдет по популярности карбонат лития в качестве литиевого прекурсора для КМ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "precursor popularity",
+    "direction": "increases",
+    "factor": "LiOH expected to surpass Li2CO3 within five years",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозам гидроксид лития в последующие пять лет превзойдет по популярности карбонат лития в качестве литиевого прекурсора для КМ.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Требования к составу LiOH·H2O приведены в таблице 2.4. Важно контролировать содержание таких примесей, как: Na, Fe, K с целью поддержания эксплуатационных характеристик, длительности срока службы и безопасности ЛИБ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impurity levels",
+    "direction": "decreases",
+    "factor": "limit Na, Fe, K in LiOH·H2O",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Требования к составу LiOH·H2O приведены в таблице 2.4. Важно контролировать содержание таких примесей, как: Na, Fe, K с целью поддержания эксплуатационных характеристик, длительности срока службы и безопасности ЛИБ.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Помимо химического состава кристаллы должны быть представлены тонкими частицами (0,11 мм) с очень низкой растворимостью в воде и HCl.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "decreases",
+    "factor": "particle size 0,11 mm and very low water/HCl solubility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Помимо химического состава кристаллы должны быть представлены тонкими частицами (0,11 мм) с очень низкой растворимостью в воде и HCl.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Для процесса смешивания лучше всего применять интенсивные смесители, часто используют плужный смеситель (с ползунами ножа)",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Лучше всего для процесса смешивания применять интенсивные смесители, часто используют плужный смеситель (с ползунами ножа)",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Смесители облицованы керамикой, пластиком или твердым сплавом, чтобы обеспечить условия синтеза, свободные от загрязнения железом",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Они облицованы керамикой, пластиком или твердым сплавом, чтобы обеспечить условия синтеза, свободные от загрязнения железом",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Часть лития испаряется при последующем шаге из-за нагрева и эту нехватку компенсируют, добавляя при смешивании небольшой избыток лития в размере 5‑10 %",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Часть лития испаряется при последующем шаге из-за нагрева и эту нехватку компенсируют, добавляя при смешивании небольшой избыток лития в размере 5-10%",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Стехиометрия Li в NMC должна быть 1,05‑1,10",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "стехиометрия Li в NMC 1,05-1,10",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Размер частиц NMC – несколько микрометров",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "размер частиц – несколько микрометров",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Для измерения остаточной влажности используют баланс остаточной влаги",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "баланс остаточной влаги",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Для морфологии частиц используют сканирующую электронную микроскопию",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "сканирующая электронная микроскопия",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Для химического состава используют оптическую эмиссионную спектрометрию с индуктивно связанной плазмой (ICP‑OES)",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "оптическая эмиссионная спектрометрия с индуктивно связанной плазмой (ICP-OES)",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "NCA считается одним из наиболее перспективных катодных материалов.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Одним из наиболее перспективных КМ считается NCA – LiNi 0,8 Co 0,15 Al 0,05 O 2 .",
+   "locator_kind": "md_para",
+   "locator": "para:200",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Метод промышленного синтеза NCA нуждается в доработке.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "метод его синтеза нуждается в доработке.",
+   "locator_kind": "md_para",
+   "locator": "para:200",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Промышленный способ получения NCA использует прекурсы‑соли, которые смешивают с источником лития и кальцинируют.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Промышленный способ получения данного КМ заключается в использовании прекурсоров – соли соосаждают, смешивают с источником лития и кальцинируют.",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Трудно получить равномерное распределение элементов прекурсора из‑за сильно различающихся констант растворимости Ksp.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "во-первых, трудно получить равномерное распределение элементов прекурсора, потому что значения константы растворимости продукта K sp очень cильно отличаются: K sp Ni(OH)2 , Co(OH)2 и Al(OH)3 равны 2,0×10−15 ; 5,92×10−15 и 1,3×10−33 .",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Промышленный процесс образует много кислых растворов, загрязняющих окружающую среду.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Кроме того, образуется много кислых растворов, загрязняющих окружающую среду.",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Трудно окислить Ni2+ до Ni3+ в промышленном синтезе, что приводит к катионной разупорядоченности и образованию литий‑дефицитного КМ.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "во‑вторых, в процессе промышленного синтеза очень трудно окислить Ni2+ до Ni3+ и, в результате, наблюдается катионная разупорядоченность в слоях КМ, а это ведет к образованию обедненного по литию КМ (Li1−x Nix2+)(Nix2+ Ni1‑2x3+)O2.",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Разупорядочение катионов приводит к большим поляризационным потерям в удельной емкости.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Далее это ведет к громадным поляризационным потерям в удельной емкости.",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Поверхностное покрытие предотвращает контакт активного материала с электролитом.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Эффективно решается эта проблема модификацией поверхности: слой покрытия предотвращает контакт активного материала с электролитом.",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Предпочтительным коммерческим способом получения NCA стал метод совместного осаждения прекурсора, за которым следует твердофазное литирование.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Как уже отмечалось выше, предпочтительным коммерческим способом получения NCA стал метод совместного осаждения прекурсора NCA (гидроксида и карбоната), за которым следует твердофазное литирование.",
+   "locator_kind": "md_para",
+   "locator": "para:205",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Преимущества совместного осаждения: отсутствие сложных технологических решений, возможность использования любого легко растворимого сырья, сравнительно мягкие условия, получение сферических частиц с узким распределением размеров.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "- не требуются сложные технологические решения\n- может быть использован, в принципе, любой сырьевой материал, лишь бы он легко растворялся в растворителе\n- сравнительно мягкие рабочие условия\n- получение сферических вторичных частиц с узким распределением по размерам.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Контроль pH, скорости потока, перемешивания и температуры в непрерывном совместном осаждении является дорогостоящей проблемой.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Однако дорогостоящий контроль рН, скорости потока, перемешивания и температуры стал главной проблемой на пути развития этого метода.",
+   "locator_kind": "md_para",
+   "locator": "para:210",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Метод совместного осаждения требует длительного времени реакции.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Кроме того, этот метод требует длительного времени проведения реакции.",
+   "locator_kind": "md_para",
+   "locator": "para:210",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  },
+  {
+   "text": "Промышленность нуждается в доступном, недорогом и простом методе получения NCA.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В общем, промышленность, по‑прежнему, нуждается в доступном, недорогом и простом методе получения NCA.",
+   "locator_kind": "md_para",
+   "locator": "para:210",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2021-способы-получения-катодных-материало",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

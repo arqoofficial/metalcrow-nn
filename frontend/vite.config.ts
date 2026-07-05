@@ -20,6 +20,18 @@ export default defineConfig({
     },
   },
   plugins: [
+    {
+      name: "landing-route",
+      configureServer(server) {
+        server.middlewares.use((req, _res, next) => {
+          const url = req.url?.split("?")[0]
+          if (url === "/landing") {
+            req.url = "/landing/index.html"
+          }
+          next()
+        })
+      },
+    },
     tanstackRouter({
       target: "react",
       autoCodeSplitting: true,

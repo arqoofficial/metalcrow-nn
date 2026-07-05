@@ -1,0 +1,343 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No11-2018-pdf",
+   "title": "ЦМ №11-2018.pdf",
+   "doc_type": "article",
+   "year": 2018,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2018-все\\ЦМ №11-2018.pdf.md",
+   "artifact_sha256": "c8f6b58a63b9572d5a96d0b162d679391947c5f14ee10c42dc1250f3302082f3",
+   "okf_raw_path": "Журналы/Цветные металлы/2018-все/ЦМ №11-2018.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:ао-русал-саяногорск",
+   "label": "АО «РУСАЛ Саяногорск»",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No11-2018-pdf:0",
+   "document_id": "doc:цм-No11-2018-pdf",
+   "title": "Industrial application case – АО «РУСАЛ Саяногорск» (social‑economic indicators 2011‑2017)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Application of the normative method for forming the wage fund (ФЗП) and related remuneration systems at the plant"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ао-русал-саяногорск",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Объём реализованной продукции",
+     "scope": "material",
+     "material_id": "mat:ао-русал-саяногорск",
+     "value": {
+      "min": null,
+      "nominal": 54.0,
+      "max": null
+     },
+     "unit": "тыс. руб.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Объём реализованной продукции, тыс. руб. … 54 020 059,0",
+     "locator_kind": "md_para",
+     "locator": "para:153",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Фонд заработной платы ППП",
+     "scope": "material",
+     "material_id": "mat:ао-русал-саяногорск",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "тыс. руб.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Фонд заработной платы ППП, тыс. руб. … 1 733 773,8",
+     "locator_kind": "md_para",
+     "locator": "para:153",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Зарплатоемкость продукции (ФЗП/объём реализации)",
+     "scope": "material",
+     "material_id": "mat:ао-русал-саяногорск",
+     "value": {
+      "min": null,
+      "nominal": 0.03,
+      "max": null
+     },
+     "unit": "руб./руб.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Зарплатоемкость продукции (пп. 4/1), руб./руб. … 0,03",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Рост/снижение ЗП на 1 % роста/снижения ПТ",
+     "scope": "material",
+     "material_id": "mat:ао-русал-саяногорск",
+     "value": {
+      "min": null,
+      "nominal": 0.63,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Рост/снижение ЗП на 1 %роста/снижения ПТ … 0,63",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Комплекс мер по повышению операционной эффективности, дополненный применением нормативного метода формирования ФЗП и совершенствованием систем премирования работников, позволит снизить необоснованные затраты на оплату труда и создать условия роста реальной ЗП.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "По мнению авторов, комплекс мер по повышению операционной эффективности, дополненный применением нормативного метода формирования ФЗП и совершенствованием систем премирования работников, позволит снизить необоснованные затраты на оплату труда и создать условия роста реальной ЗП.",
+     "locator_kind": "md_para",
+     "locator": "para:164",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 24 странах ОЭСР (Организация экономического сотрудничества и развития) повышение ПТ у наиболее эффективных производственных компаний (5 % от общего числа компаний) в 2001-2013 гг. составило 40 %, а у остальных компаний ПТ возросла всего на 7 % [6].",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Рекомендовано применение нормативного метода формирования фонда заработной платы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method applicability",
+    "direction": "increases",
+    "factor": "wage fund formation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рекомендовано применение нормативного метода формирования фонда заработной платы.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "авторы считают необходимым установление в КД предприятий показателя «темп роста средней заработной платы промышленно-производственного персонала на каждый процент роста производительности труда (ПТ)», обеспечив ежегодный рост ПТ не менее чем на пять процентов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual productivity growth",
+    "direction": "no_change",
+    "factor": "minimum 5 % per year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "авторы считают необходимым установление в КД предприятий показателя «темп роста средней заработной платы промышленно-производственного персонала на каждый процент роста производительности труда (ПТ)», обеспечив ежегодный рост ПТ не менее чем на пять процентов.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "зарплатоемкость рубля ВВП (по данным табл. 1), которая в 2018 г. составит 0,225 руб./руб., в 2024 г . достигнет 0,228 руб./руб., т. е. будет выше на 1,3 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "wage intensity",
+    "direction": "increases",
+    "factor": "from 0,225 руб./руб. in 2018 to 0,228 руб./руб. in 2024 (increase of 1,3 %)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "зарплатоемкость рубля ВВП (по данным табл. 1), которая в 2018 г. составит 0,225 руб./руб., в 2024 г . достигнет 0,228 руб./руб., т. е. будет выше на 1,3 %.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Эффективный рынок труда будет обеспечивать рост оплаты труда в реальном выражении не ниже темпов роста ПТ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "real wage growth",
+    "direction": "no_change",
+    "factor": "must be at least equal to productivity growth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эффективный рынок труда будет обеспечивать рост оплаты труда в реальном выражении не ниже темпов роста ПТ.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Без активного участия трудовых коллективов, вовлеченности персонала реализация принципов бережливого производства невозможна.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "feasibility",
+    "direction": "decreases",
+    "factor": "lack of worker participation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "без активного участия трудовых коллективов, вовлеченности персонала реализация принципов бережливого производства невозможна.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "особое внимание следует уделить оценке степени зависимости фонда заработной платы (ФЗП) и среднемесячной заработной платы (СЗП) работников от повышения ПТ (снижению зарплатоемкости рубля реализации продукции) и улучшению использования рабочего времени (снижению доли оплаченного неотработанного времени), а также развитию персонала.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "wage fund and average wage sensitivity",
+    "direction": "increases",
+    "factor": "productivity growth and better use of working time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "особое внимание следует уделить оценке степени зависимости фонда заработной платы (ФЗП) и среднемесячной заработной платы (СЗП) работников от повышения ПТ (снижению зарплатоемкости рубля реализации продукции) и улучшению использования рабочего времени (снижению доли оплаченного неотработанного времени), а также развитию персонала.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Для выполнения Указа Президента РФ от 07.05.2018 на каждом предприятии следует обеспечить ежегодный рост ПТ не менее чем на 5 % и опережение темпов роста ПТ по сравнению с повышением СЗП ППП.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "годовой рост ПТ",
+    "direction": "increases",
+    "factor": "≥5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При этом для выполнения Указа Президента РФ от 07.05.2018 на каждом предприятии следует обеспечить ежегодный рост ПТ не менее чем на 5 % и опережение темпов роста ПТ по сравнению с повышением СЗП ППП.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Обязательность применения нормативного метода формирования фонда заработной платы (ФЗП) должна быть предусмотрена в ОТС и КД.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Вместе с тем рекомендовано предусмотреть в ОТС с последующей конкретизацией в КД еще одну норму - обязательность применения нормативного метода формирования фонда заработной платы (ФЗП)",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Фонд заработной платы работников предприятия (ФЗП) должен определяться по одному или нескольким нормативам зарплатоемкости, рассчитанным как отношение ФЗП или его условно‑постоянной и переменной частей к реализации продукции, добавленной стоимости, ключевым показателям эффективности (КПЭ).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Фонд заработной платы работников предприятия (ФЗП) должен быть определен по одному или нескольким нормативам зарплатоемкости, рассчитанным как отношение ФЗП или его условно‑постоянной и переменной частей к реализации продукции (в денежном и/или натуральном измерении), добавленной стоимости, ключевым показателям эффективности (КПЭ)",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Затраты на оплату труда топ‑менеджеров при определении нормативов образования ФЗП предприятия целесообразно не учитывать.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "затраты на оплату труда топ‑менеджеров",
+    "direction": "nonmonotonic",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Затраты на оплату труда топ-менеджеров при определении нормативов образования ФЗП предприятия целесообразно не учитывать.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В 24 странах ОЭСР повышение ПТ у наиболее эффективных производственных компаний (5 % от общего числа компаний) в 2001‑2013 гг. составило 40 %, а у остальных компаний ПТ возросла всего на 7 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "повышение ПТ",
+    "direction": "increases",
+    "factor": "40 % (top 5 %) / 7 % (others)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 24 странах ОЭСР (Организация экономического сотрудничества и развития) повышение ПТ у наиболее эффективных производственных компаний (5 % от общего числа компаний) в 2001-2013 гг. составило 40 %, а у остальных компаний ПТ возросла всего на 7 % [6].",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No11-2018-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

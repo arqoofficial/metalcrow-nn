@@ -77,16 +77,75 @@ def search(
         return None
 
 
+def entities(
+    *, type_: str | None = None, limit: int = 100
+) -> list[dict[str, Any]] | None:
+    """GET /api/v1/entities — каталог сущностей (без рёбер), опц. фильтр по типу.
+    Response shape: [{"text","type","sources",...}]."""
+    params: dict[str, Any] = {"limit": limit}
+    if type_ is not None:
+        params["type"] = type_
+    try:
+        resp = httpx.get(
+            f"{settings.SCIENCE_KG_URL}/api/v1/entities",
+            params=params,
+            timeout=_TIMEOUT,
+            trust_env=False,
+        )
+        resp.raise_for_status()
+        data: list[dict[str, Any]] = resp.json()
+        return data
+    except httpx.HTTPError as exc:
+        logger.warning("science-knowledge-graph entities failed: %s", exc)
+        return None
+
+
+def neighbourhood(text: str, *, depth: int = 2) -> dict[str, Any] | None:
+    """GET /api/v1/entities/{text}/neighbourhood — подграф вокруг сущности (до 4 hops).
+    Тот же shape, что и search: {"nodes","edges","gaps"}."""
+    try:
+        resp = httpx.get(
+            f"{settings.SCIENCE_KG_URL}/api/v1/entities/{quote(text, safe='')}/neighbourhood",
+            params={"depth": depth},
+            timeout=_TIMEOUT,
+            trust_env=False,
+        )
+        resp.raise_for_status()
+        data: dict[str, Any] = resp.json()
+        return data
+    except httpx.HTTPError as exc:
+        logger.warning("science-knowledge-graph neighbourhood failed: %s", exc)
+        return None
+
+
 def rag_query(
-    question: str, *, max_hops: int = 2, max_nodes: int = 20
+    question: str,
+    *,
+    max_hops: int = 2,
+    max_nodes: int = 20,
+    history: list[dict[str, str]] | None = None,
+    langfuse_headers: dict[str, str] | None = None,
 ) -> dict[str, Any] | None:
     """POST /api/v1/rag/query — graph-grounded LLM answer with sources.
     Response shape: {"answer","context_nodes","context_edges","sources",
-    "matched_entities"}."""
+    "matched_entities"}.
+
+    `history` is the prior conversation (oldest-first, [{role, content}]) so the
+    service can resolve follow-up questions against what was already said.
+
+    `langfuse_headers` (langfuse_trace_user_id / langfuse_session_id) are
+    forwarded so science-knowledge-graph can relay them onto its LiteLLM-gateway
+    LLM call for Langfuse trace attribution."""
     try:
         resp = httpx.post(
             f"{settings.SCIENCE_KG_URL}/api/v1/rag/query",
-            json={"question": question, "max_hops": max_hops, "max_nodes": max_nodes},
+            json={
+                "question": question,
+                "max_hops": max_hops,
+                "max_nodes": max_nodes,
+                "history": history or [],
+            },
+            headers=langfuse_headers or None,
             timeout=_RAG_TIMEOUT,
             trust_env=False,
         )

@@ -1,0 +1,1015 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:npi_2013-pdf",
+   "title": "NPI_2013.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\NPI_2013.pdf.md",
+   "artifact_sha256": "82847b08f027c5b835c460c630fc91aaeeb2ad6eeb19e4c6a366c0af400b8a85",
+   "okf_raw_path": "Обзоры/NPI_2013.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:laterite-ore-sample",
+   "label": "laterite ore sample",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:железная-руда-и-кокс",
+   "label": "железная руда и кокс",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:никелистыи-чугун",
+   "label": "никелистый чугун",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ifn-25-nickel-pig-iron",
+   "label": "IFN 25 nickel pig iron",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-matte-нч",
+   "label": "nickel matte (НЧ)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:npi_2013-pdf:0",
+   "document_id": "doc:npi_2013-pdf",
+   "title": "Direct Nickel pilot test in Australia",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Direct Nickel technology of acid leaching of laterite ore"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:laterite-ore-sample",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "sample mass",
+     "scope": "material",
+     "material_id": "mat:laterite-ore-sample",
+     "value": {
+      "min": null,
+      "nominal": 200.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Antam отправила пробу весом 200 т для переработки на опытном заводе Direct Nickel в Австралии.",
+     "locator_kind": "md_para",
+     "locator": "para:155",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Direct Nickel рассматривает вопрос о выборе площадки для возможного строительства первого коммерческого завода по этой технологии в Индонезии.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Direct Nickel рассматривает вопрос о выборе площадки для возможного строительства первого коммерческого завода по этой технологии в Индонезии.",
+     "locator_kind": "md_para",
+     "locator": "para:155",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Antam отправила пробу весом 200 т для переработки на опытном заводе Direct Nickel в Австралии.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:npi_2013-pdf:1",
+   "document_id": "doc:npi_2013-pdf",
+   "title": "Первый завод по производству никелистого чугуна за пределами Китая",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "производство никелистого чугуна (NCH)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:железная-руда-и-кокс",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Завод был введён в строй в 2012 г.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Первый завод по производству НЧ за пределами Китая - в Индонезии был введен в строй в 2012 г.",
+     "locator_kind": "md_para",
+     "locator": "para:158",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Первый завод по производству НЧ за пределами Китая - в Индонезии был введен в строй в 2012 г.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:npi_2013-pdf:2",
+   "document_id": "doc:npi_2013-pdf",
+   "title": "Indoferro expansion of nickel‑cast iron capacity",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "расширение мощностей производства никелистого чугуна"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:никелистыи-чугун",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "инвестиции",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "компания инвестировала ещё 100 млн USD в расширение мощностей с текущих 250 тыс т/г до 500 тыс т/г никелистого чугуна.",
+     "locator_kind": "md_para",
+     "locator": "para:159",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Ввод в строй Этапа II (вторая домна) запланирован на 2014 г.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Ввод в строй Этапа II (вторая домна) запланирован на 2014 г.",
+     "locator_kind": "md_para",
+     "locator": "para:159",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "компания инвестировала ещё 100 млн USD в расширение мощностей с текущих 250 тыс т/г до 500 тыс т/г никелистого чугуна.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:npi_2013-pdf:3",
+   "document_id": "doc:npi_2013-pdf",
+   "title": "First commercial shipment of nickel pig iron IFN 25",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Shipping of nickel pig iron product IFN 25 (2,45-2,55% Ni; >2,5% Cr; <5,5% C)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ifn-25-nickel-pig-iron",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:ifn-25-nickel-pig-iron",
+     "value": {
+      "min": 2.45,
+      "nominal": null,
+      "max": 2.55
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Первая отправка продукции - никелистого чугуна IFN 25 (2,45-2,55% Ni; >2,5% Cr; <5,5% C) ... была осуществлена в конце декабря 2012 г.",
+     "locator_kind": "md_para",
+     "locator": "para:163",
+     "confidence": 0.41
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Shipment to Walsin Lihwa Corp (Taiwan) and Jindal Stainless Steel (India) completed",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Первая отправка продукции - никелистого чугуна IFN 25 (2,45-2,55% Ni; >2,5% Cr; <5,5% C) ... была осуществлена в конце декабря 2012 г.",
+     "locator_kind": "md_para",
+     "locator": "para:163",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Первая отправка продукции - никелистого чугуна IFN 25 (2,45-2,55% Ni; >2,5% Cr; <5,5% C) ... была осуществлена в конце декабря 2012 г.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:npi_2013-pdf:4",
+   "document_id": "doc:npi_2013-pdf",
+   "title": "Pilot installation of two modules",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of two production modules as pilot stage",
+       "duration_text": "8 months"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Plan to install 2 modules within 8 months; if successful, 38 more modules over next 4 years",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "На первом (пилотном) этапе решено установить 2 модуля в течение 8-ми месяцев. Если на этом этапе удастся добиться успеха, в течение последующих 4-х лет будут установлены ещё 38 модулей.",
+     "locator_kind": "md_para",
+     "locator": "para:175",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На первом (пилотном) этапе решено установить 2 модуля в течение 8-ми месяцев. Если на этом этапе удастся добиться успеха, в течение последующих 4-х лет будут установлены ещё 38 модулей.",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:npi_2013-pdf:5",
+   "document_id": "doc:npi_2013-pdf",
+   "title": "First offshore nickel matte plant pilot",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "production of nickel matte (НЧ) on Java island"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-matte-нч",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "пробные партии продукта предложены потребителям Индии, Японии, Европы",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "market acceptance",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "пробные партии продукта предложены потребителям Индии, Японии, Европы.",
+     "locator_kind": "md_para",
+     "locator": "para:201",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "В 2012 г. вошел в строй первый завод по производству НЧ за пределами Китая - на острове Ява, пробные партии продукта предложены потребителям Индии, Японии, Европы.",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:npi_2013-pdf:6",
+   "document_id": "doc:npi_2013-pdf",
+   "title": "Industrial rollout of RKEF technology in China",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "RKEF (pre‑reduction in rotary furnace – electric furnace melting) for nickel matte"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-matte-нч",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "share of total nickel matte production",
+     "scope": "material",
+     "material_id": "mat:nickel-matte-нч",
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2012 г. 30% всего НЧ было произведено этим способом.",
+     "locator_kind": "md_para",
+     "locator": "para:206",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Технология RKEF была впервые внедрена для производства НЧ в конце 2010 г. а уже в 2012 г. 30% всего НЧ было произведено этим способом.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Переход на технологию RKEF и снижение издержек производства до 12,5 тыс USD/т приводит, соответственно, к большей устойчивости производства НЧ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production stability",
+    "direction": "increases",
+    "factor": "cost reduction to 12,5 тыс USD/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Переход на технологию RKEF и снижение издержек производства до 12,5 тыс USD/т приводит, соответственно, к большей устойчивости производства НЧ.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2009 г. Индонезия приняла закон «О добыче минерального сырья и угля», предусматривающий в качестве приоритета переработку минерального сырья внутри страны.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "priority of domestic processing",
+    "direction": "increases",
+    "factor": "law adoption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2009 г. Индонезия приняла закон «О добыче минерального сырья и угля», предусматривающий в качестве приоритета переработку минерального сырья внутри страны.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспорт не переработанной никелевой руды был наложен запрет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "export of unprocessed nickel ore",
+    "direction": "decreases",
+    "factor": "ban",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На экспорт не переработанной никелевой руды был наложен запрет.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2012 г. вошел в строй первый завод за пределами Китая, но он пока не «делает погоду».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "market impact",
+    "direction": "no_change",
+    "factor": "new plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2012 г. вошел в строй первый завод за пределами Китая, но он пока не «делает погоду».",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Существенного сокращения производства никеля за пределами Китая пока не наблюдается - отчасти потому, что Западные производители ждут существенного сокращения выпуска НЧ, особенно с 2014 г., когда Индонезия введет запрет на экспорт не переработанной руды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel production outside China",
+    "direction": "no_change",
+    "factor": "anticipation of export ban",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Существенного сокращения производства никеля за пределами Китая пока не наблюдается - отчасти потому, что Западные производители ждут существенного сокращения выпуска НЧ, особенно с 2014 г., когда Индонезия введет запрет на экспорт не переработанной руды.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "В условиях избыточного предложения никеля на мировом рынке в текущем году и снижения цен до уровня ниже 14000 USD/т, как считают аналитики Macquarie, более 40% мировой никелевой отрасли несет денежные потери.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "financial losses in nickel industry",
+    "direction": "increases",
+    "factor": "price below 14000 USD/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В условиях избыточного предложения никеля на мировом рынке в текущем году и снижения цен до уровня ниже 14000 USD/т, как считают аналитики Macquarie, более 40% мировой никелевой отрасли несет денежные потери.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Спрос на никель за 5 месяцев (январь-май 2013 г.) по данным International Nickel Study Group увеличился на 5,9%, главным образом, за счет роста спроса в Китае на 16,7%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel demand",
+    "direction": "increases",
+    "factor": "5‑month period Jan‑May 2013",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Спрос на никель за 5 месяцев (январь-май 2013 г.) по данным International Nickel Study Group увеличился на 5,9%, главным образом, за счет роста спроса в Китае на 16,7%.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.81,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Предполагаемая ревизия закона, по словам Министра промышленности, даст возможность компаниям, строящим заводы, продолжать экспорт не переработанного сырья, облагаемого прогрессивной пошлиной в зависимости от сроков завершения строительства.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Предполагаемая ревизия закона, по словам Министра промышленности , даст возможность компаниям, строящим заводы, продолжать экспорт не переработанного сырья, облагаемого прогрессивной пошлиной в зависимости от сроков завершения строительства.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам Antaike в 2012 г. импорт никелевой руды Китаем достиг примерно 60 млн т.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "По оценкам Antaike в 2012 г. импорт никелевой руды Китаем достиг примерно 60 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "В краткосрочной перспективе увеличится импорт руды Китаем с Филиппин, а также ускорится работа над проектами перерабатывающих мощностей с китайским участием в Индонезии.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "По всей видимости, в краткосрочной перспективе увеличится импорт руды Китаем с Филиппин, а также ускорится работа над проектами перерабатывающих мощностей с китайским участием в Индонезии.",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Проект PT Vale по технологии АКВ планируется ввести в строй в районе 2017 г. с мощностью 48 тыс т/г Ni.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Новый завод( совместный с Sumitomo) будет перерабатывать низкосортную руду, залежи которой имеются на территории концессии, по технологии АКВ. Проект на 48 тыс т/г Ni планируется ввести в строй в районе 2017 г.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Проект PT Weda Bay по технологии Eramet планируется ввести в строй в 2016 г. с начальной мощностью 35 тыс т/год Ni и расширением до 65 тыс т/год Ni в карбонате.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Проект на 35 тыс т/год Ni (I Этап) с расширением до 65 тыс т/ Ni в карбонате планируется ввести в строй в 2016 г.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Antam имеет 3 небольших ферроникелевых завода «теоретической» суммарной мощностью 26 тыс т/г Ni в FeNi при сортности 2,38% Ni и пиковой нагрузке 42 МВт.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Antam имеет 3 небольших ферроникелевых завода «теоретической» суммарной мощностью 26 тыс т/г Ni в FeNi - при сортности перерабатываемой руды 2,38% Ni и пиковой нагрузке 42 МВт.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Фактическая суммарная мощность Antam составляет 18‑20 тыс т/г Ni в FeNi при реальной сортности 1,8‑2,0% Ni и пиковой нагрузке около 38‑40 МВт.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Однако на переработку поступает обычно руда с 1,8-2,0% Ni, а пиковая нагрузка составляет около 38-40 МВт, поэтому фактическая суммарная мощность составляет 18-20 тыс т/г Ni в FeNi.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Капитальные затраты на модернизацию ферроникелевого завода в Pomalaa оцениваются в 450‑500 млн USD, срок окончания работ – 2014 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Капитальные затраты по проекту оцениваются в 450-500 млн USD, срок окончания работ - 2014 г.",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Капитальные затраты на строительство нового ферроникелевого завода 'FeNi Haltim' (27 тыс т/г Ni) составляют 1,6 млрд USD, включая ТЭЦ около 600 млн USD, ввод в строй – 2014 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Капитальные затраты по проекту - 1,6 млрд USD, включая ТЭЦ (около 600 млн USD). Срок ввода проекта в строй - 2014 г.",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Капитальные затраты проекта Mandiodo (Этап I, 120 тыс т/г или ≈12 тыс т/г Ni) оцениваются в 350‑400 млн USD, ввод в строй – 2016 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "капитальные затраты по Этапу I (на 120 тыс т/г или ≈12 тыс т/г Ni) оцениваются в 350-400 млн USD. Срок ввода в строй Этапа I - 2016 г.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.45,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2011 г. объём двустороннего товарооборота между Китаем и Индонезией превысил 50 млрд USD.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в 2011 г. объем двустороннего товарооборота превысил 50 млрд USD.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "APOL насчитывает более 200 членов из 12 стран.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "APOL - Asian Pacific Organization for Lateritic-Nickel Ore (Азиатско-Тихоокеанская организация по латеритовой никелевой руде), насчитывающая уже более 200 членов из 12ти стран",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Indoferro инвестировала 100 млн USD в расширение мощностей с 250 тыс т/г до 500 тыс т/г никелистого чугуна.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "компания инвестировала ещё 100 млн USD в расширение мощностей с текущих 250 тыс т/г до 500 тыс т/г никелистого чугуна.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Indoferro планирует установить в 2013 г. рафинировочную дуговую электропечь, что позволит повысить содержание никеля до 810% и снизить содержание углерода.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Indoferro имеет также планы установки в 2013 г. рафинировочной дуговой электропечи, что позволило бы повысить содержание никеля до 810% и снизить содержание углерода.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Indoferro plans to install a refining electric arc furnace in 2013, which would raise nickel content to 810% and lower carbon content.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "810%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Indoferro имеет также планы установки в 2013 г. рафинировочной дуговой электропечи, что позволило бы повысить содержание никеля до 810% и снизить содержание углерода.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Dutch company Fondel Metals is the exclusive marketing agent for Indoferro nickel pig iron in Europe, Brazil, South Africa and the USA.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Голландская компания Fondel Metals стала эксклюзивным агентом по маркетингу никелистого чугуна Indoferro в Европе, Бразилии, ЮАР и США.",
+   "locator_kind": "md_para",
+   "locator": "para:171",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Ibris Group announced in June 2013 plans to build a nickel pig iron plant on Sulawesi costing 1,8 billion USD.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Ibris Group (Сингапур) в июне 2013 г. объявила о планах строительства завода по производству НЧ на о-ве Сулавеси стоимостью 1,8 млрд USD.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Solway Group confirmed in 2011 plans to build the Aquila ferro‑nickel plant in Halmahera with initial capacity 50 kt/yr Ni and possible expansion to 80 kt/yr, estimated cost about 3 billion USD.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Российская компания Solway Group ... в 2011 г. подтвердила планы строительства ферроникелевого завода Aquila ... исходной мощностью 50 тыс т/г с возможностью расширения до 80 тыс т/г Ni в FeNi. Ориентировочная стоимость проекта (оценка 2011 г.) - около 3 млрд USD.",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.81,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Solway expects total nickel output to reach 120‑130 kt/yr by 2017 if its two overseas projects and the Pobuzhsky plant are realized.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "При условии реализации двух своих зарубежных проектов (Aquila в Индонезии и Fenix в Гватемале) ... к 2017 г. суммарные выпуск никеля, как заявляет Solway, достигнет 120-130 тыс т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.45,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "GCL Group plans to expand its business in Indonesia, the Philippines and Southeast Asia and intends to build a nickel pig iron plant.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "GCL Group имеет планы расширения бизнеса в Индонезии, на Филиппинах и вообще в Юго-Восточной Азии. ... намерена построить завод по производству никелистого чугуна.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.45,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "A cost‑saving melting scheme was chosen: electric furnace with an additional blast furnace using low‑grade coal from its own power plant and coke ovens.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production cost",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С целью сокращения производственных затрат выбрана схема плавки в электропечи с «дополнительной» домной, включающая «полный цикл» использования угля, а именно: обеспечение низкокачественным энергетическим углем своей ТЭЦ и собственных мощностей по коксованию для использования в домне.",
+   "locator_kind": "md_para",
+   "locator": "para:179",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Fujian Pan‑Chinese Mining and Indonesia's Seram Bagian Barat signed an agreement to build a ferro‑nickel plant using a blast furnace; the ore contains 1,8‑2,0% Ni, Fe ≥17%, P<0,01, S<0,01.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Fujian Pan‑Chinese Mining Co и индонезийская Seram Bagian Barat подписали соглашение ... в настоящее время здесь ведется добыча руды, содержащей 1,8-2,0% Ni, Fe ≥17%, P<0,01; S<0,01.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.45,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "In October 2012 the Chinese NDRC approved a 560 million USD ferro‑nickel project in Indonesia by Dafeng Port Group, with a 335 MW coal‑fired power plant and expected ferro‑nickel output >10% Ni of 200 kt/yr.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В октябре 2012 г. китайская Комиссия по национальному развитию и реформам (NDRC) одобрила проект ... стоимостью 560 млн USD ... По проекту выпуск ферроникеля с содержанием никеля >10% составит 200 тыс т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.45,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "China Nickel Resources Holdings plans to invest 1,8 billion USD in a steel and ferro‑nickel project in Kalimantan, targeting 1 million t/yr steel rod and 600 kt/yr ferro‑nickel production.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "China Nickel Resources Holdings (Гонконг) планирует инвестировать 1,8 млрд USD в проект производства стали и ферроникеля на о-ве Калимантан. ... строительство мощностей по производству 1 млн т/г стального прутка и 600 тыс т/г ферроникеля.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.45,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Hanking Holdings announced in December 2012 the purchase of 70% of Northeastern Lion for 50 million USD, acquiring laterite resources of about 3,75 million t Ni and plans a 40 kt/yr nickel melting plant in Indonesia by 2016.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Hanking Holdings Ltd ... в декабре 2012 г. о заключении соглашения на покупку 70% в компании Northeastern Lion за 50 млн USD ... Суммарные ресурсы - около 3,75 млн т Ni в руде. К 2016 г. Hanking планирует построить в Индонезии плавильный завод на 40 тыс т/г никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.45,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Выпуск никелистого чугуна (НЧ) в Китае увеличился с 1тыс Ni в 2005 г. до 360 тыс т Ni в 2012 г. и 450 тыс т в 2013 г. (прогноз).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выпуск никелистого чугуна (НЧ) в Китае увеличился с 1тыс Ni в 2005 г. до 360 тыс т Ni в 2012 г. и 450 тыс т в 2013 г. (прогноз).",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2012 г. доля НЧ в мировом выпуске рафинированного никеля составила 21%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "global share",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2012 г. доля НЧ в мировом выпуске рафинированного никеля составила 21%.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология RKEF была впервые внедрена для производства НЧ в конце 2010 г.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Технология RKEF была впервые внедрена для производства НЧ в конце 2010 г.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Совершенствование технологии производства НЧ сопровождается улучшением качества продукта (до 20% Ni, мало примесей) и снижением издержек (с 18000-20000 USD/т до 12500-15200 USD/т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product quality and cost",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Совершенствование технологии производства НЧ сопровождается улучшение качества продукта (до 20% Ni, мало примесей) и снижением издержек (с 18000-20000 USD/т до 12500-15200 USD/т).",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "С1 производства FeNi, исключая НЧ, составляют порядка 14900 USD/т никеля.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "С1 производства FeNi, исключая НЧ, составляют порядка 14900 USD/т никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Текущий уровень издержек производства НЧ по способу RKEF уже сопоставимы с издержками производства ферроникеля.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Текущий уровень издержек производства НЧ по способу RKEF уже сопоставимы с издержками производства ферроникеля.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Цена никеля в последнее время снизилась до 14000 USD/т и ниже.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel price",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цена никеля в последнее время снизилась до 14000 USD/т и ниже.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.81,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам Barclays, производственные мощности на почти 450 тыс т Ni, исключая НЧ, теряют деньги при текущих ценах на никель (начало августа 2013 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "profitability",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам Barclays, производственные мощности на почти 450 тыс т Ni, исключая НЧ, теряют деньги.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.81,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Экспорт никелевой руды из Индонезии в I п/г 2013 г. достиг 40 млн т по сравнению с 26 млн т в I п/г 2012 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ore export volume",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I п/г 2013 г. экспорт никелевой руды из Индонезии достиг 40 млн т по сравнению с 26 млн т в I п/г 2012 г.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  },
+  {
+   "text": "Низкие требования к минимальной степени переработки никелевой руды (>6% Ni в НЧ может быть получен в домне).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "низкие требования к минимальной степени переработки никелевой руды (>6% Ni в НЧ может быть получен в домне).",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.81,
+   "document_id": "doc:npi_2013-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

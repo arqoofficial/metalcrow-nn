@@ -1,0 +1,1547 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:13-приложение-статья-pdf",
+   "title": "13 Приложение. Статья.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\13 Приложение. Статья.pdf.md",
+   "artifact_sha256": "47fe3a06a720efc8b9a1eff928d54dfb934a5097e2fe75da6a1ee2974ca6b00f",
+   "okf_raw_path": "Статьи/13 Приложение. Статья.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:dust-suppressing-reagent",
+   "label": "dust‑suppressing reagent",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:inorganic-dust-70-20-sio2",
+   "label": "inorganic dust (70‑20 % SiO₂)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:uprza-ekolog-4-7",
+   "label": "UPRZA “Ekolog‑4.7”",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:bitumen-emulsion",
+   "label": "bitumen emulsion",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rutrol-ad-171",
+   "label": "Rutrol AD 171",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:tailings-sample-from-lebyazhye",
+   "label": "Tailings sample from \"Lebyazhye\"",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rutrol-ad-171-3-solution",
+   "label": "Rutrol AD 171 3 % solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:13-приложение-статья-pdf:0",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "Field trials",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "selection of an optimal concentration and consumption of the dust‑suppressing reagent to ensure formation of a long‑term stable protective crust on the treated surface of the tailings dump exposed to wind erosion"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dust-suppressing-reagent",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The optimal effectiveness of the reagent with respect to reducing dust emission was established.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reagent effectiveness",
+      "direction": "increases",
+      "factor": "dust emission reduction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "По результатам опытно-промышленных испытаний установлена оптимальная эффективность реагента с точки зрения сокращения эмиссии пыли.",
+     "locator_kind": "md_para",
+     "locator": "para:4",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проведены опытно-промышленные испытания для выбора оптимальной концентрации и расхода пылеподавляющего реагента, которые обеспечивают образование защитной корки на поверхности хвостохранилища, подверженной ветровой эрозии.",
+   "locator_kind": "md_para",
+   "locator": "para:4",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:13-приложение-статья-pdf:1",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "Laboratory investigations",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "simulation of inorganic dust (70‑20 % SiO₂) dispersion using the UPRZA “Ekolog‑4.7” model for tailings dump No 1 and “Lebyazhye” under two scenarios"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:inorganic-dust-70-20-sio2",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:uprza-ekolog-4-7",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "material",
+     "material_id": "mat:inorganic-dust-70-20-sio2",
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "dust dispersion pattern"
+     },
+     "method": null,
+     "snippet": "The distribution of inorganic dust 70-20% SiO2 was simulated using the UPRZA \"Ekolog-4.7\" within the boundaries of tailings dump No 1 and \"Lebyazhye\" in two ways: during dusting without dust suppression measures and as a subject to the treatment of the entire dusting surface of the tailings dumps with dust suppressing reagents in a residential area.",
+     "locator_kind": "md_para",
+     "locator": "para:11",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Проведено моделирование рассеивания пыли неорганической 70-20% SiO2, с использованием УПРЗА «Эколог-4.7» в границах влияния хвостохранилища No1 и «Лебяжье» по двум вариантам: при пылении без проведения мероприятий по пылеподавлению и при условии обработки всей пылящей поверхности хвостохранилищ пылеподавляющими реагентами на селитебной территории.",
+   "locator_kind": "md_para",
+   "locator": "para:4",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:13-приложение-статья-pdf:2",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "Industrial application of bitumen emulsion at the AО “Apatit” tailings storage facility",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "application of bitumen emulsion on the tailings surface"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:bitumen-emulsion",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "the destroyed film areas became the main sources of fine dust",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "dust emission source",
+      "direction": "increases",
+      "factor": "film rupture",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "эти участки становились основными источниками мелкодисперсной пыли",
+     "locator_kind": "md_para",
+     "locator": "para:31",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в процессе применения битумной эмульсии на хвостохранилище в условиях АО «Апатит» , выяснилось, что при неблагоприятных метеорологических условиях (скорость ветра ≥ 10 м/с) поверхностная пленка разрушалась и эти участки становились основными источниками мелкодисперсной пыли",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:13-приложение-статья-pdf:3",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "Laboratory research on Rutrol AD 171",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory tests of Rutrol AD 171 on a sample of tailings from the \"Lebyazhye\" tailings storage",
+       "temperature_text": "cold water (reagent is well soluble in cold water)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rutrol-ad-171",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:tailings-sample-from-lebyazhye",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "В ходе лабораторного тестирования в существующие реагентные композиции серии Rutrol AD вносились необходимые изменения с учетом морфологии отходов обогащения и придания реагентам необходимых физико‑химических свойств для увеличения их сродства к обрабатываемым поверхностям.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "modification of composition to increase affinity",
+      "direction": "increases",
+      "factor": "morphology of enrichment waste",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В ходе лабораторного тестирования в существующие реагентные композиции серии Rutrol AD вносились необходимые изменения с учетом морфологии отходов обогащения и придания реагентам необходимых физико‑химических свойств для увеличения их сродства к обрабатываемым поверхностям.",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Проведению промышленных испытаний предшествовали лабораторные исследования, проведенные в лаборатории производителя.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:13-приложение-статья-pdf:4",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "Pilot (OPI) field test at \"Medvezhiy Ruchy\" tailings storage \"Lebyazhye\"",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Application of water solution of Rutrol AD 171 on 16 test plots (≈2 m² each) with varying application rates and solution concentrations",
+       "temperature_text": "clear weather (no temperature value given)",
+       "duration_text": "July‑September 2023; evaluation after 50 days"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rutrol-ad-171",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "application rate",
+     "scope": "material",
+     "material_id": "mat:rutrol-ad-171",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "g/м²",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Таблица 1 . Объёмы растворов реагента разных концентраций, нанесённые на каждый участок (л).",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:rutrol-ad-171",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "solution"
+     },
+     "method": null,
+     "snippet": "Таблица 1 . Объёмы растворов реагента разных концентраций, нанесённые на каждый участок (л).",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "protective crust thickness after 50 days",
+     "scope": "material",
+     "material_id": "mat:rutrol-ad-171",
+     "value": {
+      "min": 7.0,
+      "nominal": null,
+      "max": 10.0
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "‑‑толщина 7‑10 mm",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "crust resistance to human weight",
+     "scope": "material",
+     "material_id": "mat:rutrol-ad-171",
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "‑‑относительная прочность (не разрушается под весом человека массой в 80‑90 kg).",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "При всех расходах и при всех рабочих концентрациях реагента Rutrol AD 171 на поверхности хвостохранилища было образовано защитное покрытие (корка).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "formation of protective crust",
+      "direction": "increases",
+      "factor": "any tested rate and concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При всех расходах и при всех рабочих концентрациях реагента Rutrol AD 171 на поверхности хвостохранилища было образовано защитное покрытие (корка).",
+     "locator_kind": "md_para",
+     "locator": "para:53",
+     "confidence": 0.9
+    },
+    {
+     "text": "Наилучшие результаты были получены при расходах реагента Rutrol AD 171 в 30‑40 г/м² с рабочей концентрацией 3 %.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "crust quality",
+      "direction": "increases",
+      "factor": "30‑40 g/м², 3 % concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наилучшие результаты были получены при расходах реагента Rutrol AD 171 в 30‑40 г/м² с рабочей концентрацией 3 %.",
+     "locator_kind": "md_para",
+     "locator": "para:53",
+     "confidence": 0.81
+    },
+    {
+     "text": "Установлено, что при всех концентрациях и расходах образующаяся корка значительно снижает ветровую эрозию поверхности хвостохранилища.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "wind erosion reduction",
+      "direction": "decreases",
+      "factor": "any tested rate and concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Установлено, что при всех концентрациях и расходах образующаяся корка значительно снижает ветровую эрозию поверхности хвостохранилища.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.9
+    },
+    {
+     "text": "Даже при минимальном расходе (20 г/м² в виде 1 % раствора) наблюдается формирование защитного слоя, достаточного для предохранения поверхности хвостохранилища от значительной ветровой эрозии.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "minimum effective dose",
+      "direction": "increases",
+      "factor": "20 g/м², 1 % solution",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Даже при минимальном расходе (20 г/м² в виде 1 % раствора) наблюдается формирование защитного слоя, достаточного для предохранения поверхности хвостохранилища от значительной ветровой эрозии.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В период с июля по сентябрь 2023 года на хвостохранилище «Лебяжье» были проведены испытания по определению эффективности пылеподавляющего реагента Rutrol AD 171.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:13-приложение-статья-pdf:5",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "Field observation 1 day after treatment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Visual inspection of the test area",
+       "duration_text": "1 day after application"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Surface appearance"
+     },
+     "method": null,
+     "snippet": "Внешний вид площадки через 1 день после обработки: площадка гладкая",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The treated surface remained smooth after one day.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "surface condition",
+      "direction": "no_change",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Внешний вид площадки через 1 день после обработки: площадка гладкая",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Внешний вид площадки через 1 день после обработки: площадка гладкая",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:13-приложение-статья-pdf:6",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "Field observation 45 days after treatment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Visual inspection of the test area",
+       "duration_text": "45 days after application"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Erosion appeared along the marking lines after 45 days.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "erosion",
+      "direction": "increases",
+      "factor": "time",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Общий вид площадки через 45 дней после обработки. Наблюдается эрозия по линиям между участками, где производилась обработка.",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Общий вид площадки через 45 дней после обработки. Наблюдается эрозия по линиям между участками, где производилась обработка.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:13-приложение-статья-pdf:7",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "Laboratory tests of Rutrol AD 171 (wind‑tunnel test)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Wind‑tunnel exposure of treated and untreated sample trays",
+       "duration_text": "48 h drying + 30 min wind exposure"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rutrol-ad-171-3-solution",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Dust mass removed from treated sample (m1)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.856,
+      "max": null
+     },
+     "unit": "g",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "20 г/м2 … масса вынесенной пыли 1,856 г; 30 г/м2 … 0,964 г; 40 г/м2 … 0,365 г; 60 г/м2 … 0,362 г",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Dust mass removed from control sample (m2)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 106.0,
+      "max": null
+     },
+     "unit": "g",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "0 г/м2 … масса вынесенной пыли 106 г",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 98.25,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "dust suppression  η"
+     },
+     "method": null,
+     "snippet": "Эффективность, %: 20 г/м2 – 98,25; 30 г/м2 – 99,09; 40 г/м2 – 99,66; 60 г/м2 – 99,66",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Increasing the reagent dosage from 20 to 60 g/м² raised the crust thickness, but the increase in thickness became small (≈10 %) when the dosage was raised from 40 to 60 g/м².",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "crust thickness",
+      "direction": "increases",
+      "factor": "reagent dosage",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При увеличении расхода реагента с 40 до 60 г/м2 толщина корки увеличивается уже незначительно (около 10 %).",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.81
+    },
+    {
+     "text": "Dust suppression efficiency exceeds 99 % for dosages of 30 g/м² and higher under the test conditions.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "reagent dosage",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В отсутствие внешних факторов воздействия, таких как осадки и сильный ветер, вычисленная эффективность составляет более 99 %.",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Лабораторные испытания были проведены на установке (рис . 3 ) при вычисленной скорости ветра 16 м/с.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:13-приложение-статья-pdf:8",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "Theoretical emission calculations for tail‑storage facilities",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Quantitative estimation of solid‑particle emission before and after applying the dust‑suppressant"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rutrol-ad-171",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Annual solid‑particle emission without suppression (t/yr)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 68.875,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "68,875; 99,284; 107,195; Всего хвостохранилище No1 : 275,4",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Annual solid‑particle emission with suppression (t/yr)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.888,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "6,888; 9,928; 10,720; Всего хвостохранилище No1 : 27,54",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Applying the dust‑suppressant reduces the estimated annual emission from 275,4 t to 27,54 t for tail‑storage No1.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "emission reduction",
+      "direction": "decreases",
+      "factor": "dust suppression (η=0,9)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Всего хвостохранилище No1 : 275,4 → 27,54",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Для теоретической оценки эффекта пылеподавления на всей пылящей поверхности хвостохранилищ No1 и «Лебяжье», проведен количественный расчет мощности выброса твердых частиц до и после применения пылеподавляющего реагента.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:13-приложение-статья-pdf:9",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "laboratory experiment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "пылеподавляющего реагента Rutrol AD 171"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rutrol-ad-171",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "efficiency",
+     "scope": "material",
+     "material_id": "mat:rutrol-ad-171",
+     "value": {
+      "min": 99.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В отсутствии внешних факторов воздействия, таких как осадки и сильный ветер, вычисленная эффективность составляет более 99%, что свидетельствует об образовании крепкого защитного покрытия.",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "высокую эффективность в защите поверхности от пылеуноса",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Проведенные испытания пылеподавляющего реагента Rutrol AD 171 в лабораторных условиях показали высокую эффективность в защите поверхности от пылеуноса.",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проведенные испытания пылеподавляющего реагента Rutrol AD 171 в лабораторных условиях показали высокую эффективность в защите поверхности от пылеуноса.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:13-приложение-статья-pdf:10",
+   "document_id": "doc:13-приложение-статья-pdf",
+   "title": "pilot / pilot‑industrial test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "опытно‑промышленные испытания реагента Rutrol AD 171 на пляжах хвостохранилища"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rutrol-ad-171",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:rutrol-ad-171",
+     "value": {
+      "min": 30.0,
+      "nominal": null,
+      "max": 40.0
+     },
+     "unit": "г/м2",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "реагента"
+     },
+     "method": null,
+     "snippet": "наилучшие результаты были получены при расходах реагента в 30 -40 г/м 2 с рабочей концентрацией 3%.",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:rutrol-ad-171",
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "рабочая"
+     },
+     "method": null,
+     "snippet": "наилучшие результаты были получены при расходах реагента в 30 -40 г/м 2 с рабочей концентрацией 3%.",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "material",
+     "material_id": "mat:rutrol-ad-171",
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "наличие «барханов»"
+     },
+     "method": null,
+     "snippet": "Эффективность обработки реагентом подтверждается отсутствием на обработанной поверхности «барханов» -следствия ветровой эрозии.",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "возможность применения реагента Rutrol AD 171 для закрепления пылящих поверхностей пляжей хвостохранилища",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "применимость",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "можно сделать вывод, что проведенные результаты показали возможность применения реагента Rutrol AD 171 для закрепления пылящих поверхностей пляжей хвостохранилища и показали приемлемый результат.",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На основании полученных результатов опытно -промышленных испытаний можно сделать вывод, что проведенные результаты показали возможность применения реагента Rutrol AD 171 для закрепления пылящих поверхностей пляжей хвостохранилища и показали приемлемый результат.",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Tailings surfaces become permanent dust sources at wind speeds of 4‑5 m/s and higher.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "dust generation threshold",
+    "direction": "increases",
+    "factor": "wind speed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Надводные участки хвостохранилища уже при скорости ветра 4 -5 м/с и более являются постоянными источниками пылеобразования.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Dust particles smaller than 10 µm are the most hazardous because they can travel long distances without settling.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "hazard level of fine particles",
+    "direction": "increases",
+    "factor": "particle size <10 µm",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наиболее опасный размер пылевых частиц составляет менее 10 микрон - такие частицы могут преодолевать большие расстояния, не оседая на поверхность достаточно долгое время.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Dust pollution combined with suspended particles is classified as a Group 1 carcinogenic factor for humans.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "carcinogenic classification",
+    "direction": "increases",
+    "factor": "dust + suspended particles",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Комбинация загрязнения воздуха и взвешенных частиц классифицируется как канцерогенный фактор группы 1 для человека.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Three main dust‑control methods are recognized: physical, chemical and biological, and combinations thereof may also be used.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Общепринято выделять три основных метода борьбы с пылью: физический, химический и биологический. Также возможно использование комбинации вышеперечисленных методов.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Implementation of the proposed dust‑suppression measures will reduce the environmental burden of dust emissions.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "environmental impact",
+    "direction": "decreases",
+    "factor": "dust emissions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Реализация предложенных мероприятий позволит уменьшить уровень воздействия выбросов пыли, снижая дополнительную экологическую нагрузку на окружающую среду.",
+   "locator_kind": "md_para",
+   "locator": "para:4",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "The work aims to reduce the dustiness of the surrounding environment.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Целью работы является снижение запыленности окружающей среды.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Пылеподавление с использованием воды требует меньших затрат, чем при применении специальных реагентов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "use of water vs reagents",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пылеподавление с использованием воды требует меньших затрат, чем при применении специальных реагентов.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "В сухую жаркую погоду увлажнённая поверхность быстро высыхает, вследствие чего требуется повторное орошение водой.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "drying rate",
+    "direction": "increases",
+    "factor": "hot dry weather",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в сухую жаркую погоду увлажненная поверхность быстро высыхает, вследствие чего требуется повторное орошение водой.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Проведение мероприятий по пылеподавлению посредством только воды не позволяет осадить частицы пыли размером менее 10 микрон, которые являются наиболее опасными для здоровья людей.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "absence of additives",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проведение мероприятий по пылеподавлению посредством только воды не позволяет осадить частицы пыли размером менее 10 микрон, которые являются наиболее опасными для здоровья людей",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Аэродинамический способ имеет ограничение для хвостохранилищ высотой более 20‑30 м, которые превышают высоту кроны деревьев.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "decreases",
+    "factor": "tailings height >20‑30 m",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "данный способ имеет ограничение для хвостохранилищ высотой более 20 -30 м, которые превышают высоту кроны деревьев",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Ветреные экраны имеют относительно высокую стоимость их сооружения и низкую механическую устойчивость, особенно при сильных и ураганных порывах ветра.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "increases",
+    "factor": "construction of screens",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Недостатком использования ветровых экранов является относительно высокая стоимость их сооружения и низкая механическая устойчивость, особенно в случае сильных и ураганных порывов ветра",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Срок эффективного действия водно‑солевых растворов (бишофит) составляет всего несколько дней.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "decreases",
+    "factor": "solution type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "срок эффективного действия водно -солевых растворов (бишофит) составляет всего несколько дней",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Водно‑битумная эмульсия имеет плохое сродство к большинству материалов, поэтому после её применения требуется тщательно следить за целостностью корки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "adhesion",
+    "direction": "decreases",
+    "factor": "material compatibility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Водно -битумная эмульсия имеет плохое сродство к большинству материалов, поэтому после её применения требуется тщательно следить за целостностью корки",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "При неблагоприятных метеорологических условиях (скорость ветра ≥ 10 м/с) поверхностная пленка разрушалась.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "film integrity",
+    "direction": "decreases",
+    "factor": "wind speed ≥ 10 м/с",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при неблагоприятных метеорологических условиях (скорость ветра ≥ 10 м/с) поверхностная пленка разрушалась",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Биологический метод применяется на законсервированных хвостохранилищах в качестве биологического этапа рекультивации.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application scope",
+    "direction": "increases",
+    "factor": "conserved tailings",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данный метод применяется на законсервированных хвостохранилищах в качестве биологического этапа рекультивации",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Для действующих хвостохранилищ, особенно в условиях Крайнего севера, наиболее перспективным является химический метод пылеподавления.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "prospective applicability",
+    "direction": "increases",
+    "factor": "extreme north conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для действующих хвостохранилищ, особенно в условиях Крайнего севера, наиболее перспективным является химический метод пылеподавления.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Биологический метод засевания травами хвостохранилищ и отвалов не пригоден при постоянном перемещении площадей заливки хвостами, а также малоэффективен в условиях низких температур и нестабильной погоды.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "decreases",
+    "factor": "moving tailing areas, low temperature, unstable weather",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Биологический метод засевания травами хвостохранилищ и отвалов не пригоден при постоянном перемещении площадей заливки хвостами, а также малоэффективен в условиях низких температур и нестабильной погоды.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Физический метод имеет ограниченное применение, так как инертные материалы, как правило, находятся далеко от хвостохранилищ, покрытие значительных площадей хвостохранилищ накладывает большие транспортные расходы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "decreases",
+    "factor": "distance of inert materials, transport cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Физический метод имеет ограниченное применение, так как инертные материалы, как правило, находятся далеко от хвостохранилищ, покрытие значительных площадей хвостохранилищ накладывает большие транспортные расходы.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Применение водного пылеподавления, как было указано выше, также имеет ряд недостатков.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "limitations",
+    "direction": "decreases",
+    "factor": "unspecified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применение водного пылеподавления, как было указано выше, также имеет ряд недостатков.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "RUTROL AD 171‑продукт представляет собой дисперсию полимеров, стабилизационных добавок, диспергаторов в воде.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "composition",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "RUTROL AD 171‑продукт представляет собой дисперсию полимеров, стабилизационных добавок, диспергаторов в воде.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Реагент хорошо растворим в холодной воде и рассчитан на быстрое образование прочной эластичной корки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "cold water",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Реагент хорошо растворим в холодной воде и рассчитан на быстрое образование прочной эластичной корки.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Реагент эффективен для фиксации пыли в виде твердого, эластичного влагоустойчивого слоя на неподвижной поверхности пылящего материала.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "effectiveness",
+    "direction": "increases",
+    "factor": "static dusty surface",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Реагент эффективен для фиксации пыли в виде твердого, эластичного влагоустойчивого слоя на неподвижной поверхности пылящего материала.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Неравномерность образования и толщины защитной корки, обуславливаются погодными условиями в период проведения испытаний.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "uniformity",
+    "direction": "decreases",
+    "factor": "weather conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Неравномерность образования и толщины защитной корки, обуславливаются погодными условиями в период проведения испытаний.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Непосредственно после нанесения раствора реагента на поверхность участка, а также во время формирования корки (2‑3 дня после нанесения) имели место обильные осадки в виде дождя.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rainfall impact",
+    "direction": "decreases",
+    "factor": "rain during 2‑3 days after application",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Непосредственно после нанесения раствора реагента на поверхность участка, а также во время формирования корки (2‑3 дня после нанесения) имели место обильные осадки в виде дождя.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Установлено, что при всех концентрациях и расходах образующаяся корка значительно снижает ветровую эрозию поверхности хвостохранилища.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "wind erosion",
+    "direction": "decreases",
+    "factor": "any concentration and rate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установлено, что при всех концентрациях и расходах образующаяся корка значительно снижает ветровую эрозию поверхности хвостохранилища.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "The dust‑suppression coefficient η is taken as 0,9 according to reference [15].",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для учета пылеподавления применяется значение коэффициента η, принятое по [15], η=0,9.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "The calculation of ground‑level concentrations follows the methods approved by the Russian Ministry of Natural Resources order No 273 dated 6 June 2017.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "расчетов рассеивания выбросов загрязняющих веществ в атмосферном воздухе, утвержденными Приказом Минприроды России от 6 июня 2017 года No 273",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "In the residential zone the dust concentration decreased from 0,45 PDK to 0,05 PDK after dust‑suppression measures.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "dust‑suppression measures",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В селитебной зоне концентрация пыли уменьшилась с 0,45 ПДК до 0,05.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "The crust formed on the treated surface has a thickness of 1–3 mm.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Корка толщиной 1 -3 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "Elasticity of the crust decreases as its thickness increases.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crust elasticity",
+    "direction": "decreases",
+    "factor": "crust thickness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эластичность корки снижается с увеличением ее толщины.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "When the reagent dosage is increased from 20 to 60 g/м², the crust thickness increases.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crust thickness",
+    "direction": "increases",
+    "factor": "reagent dosage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При увеличении удельного расхода реагента в диапазоне 20 -60 г/м2, наблюдается увеличение толщины образовавшейся корки.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "предприятие внедряет наилучшие доступные технологии (НДТ), разработанные для предприятий горнодобывающей промышленности -НДТ 5.5.2 -орошение пылящих поверхностей",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Реализуя данные мероприятия по снижению выбросов в атмосферный воздух от неорганизованных источников, предприятие внедряет наилучшие доступные технологии (НДТ), разработанные для предприятий горнодобывающей промышленности -НДТ 5.5.2 -орошение пылящих поверхностей [ 17].",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "внедрение реагентов, разработанных специально для борьбы с пылью на действующих и законсервированных хвостохранилищах, позволит уменьшить уровни загрязнения воздуха, экологическую обстановку в районах складирования отходов гидрометаллургической переработки руд",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "уровни загрязнения воздуха",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, внедрение реагентов, разработанных специально для борьбы с пылью на действующих и законсервированных хвостохранилищах, позволит уменьшить уровни загрязнения воздуха, экологическую обстановку в районах складирования отходов гидрометаллургической переработки руд.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  },
+  {
+   "text": "рекомендовать проведение полномасштабных промышленных испытаний реагентной программы Rutrol AD 171",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Результаты, полученные в ходе лабораторных и опытно -промышленных испытаний, позволяют рекомендовать проведение полномасштабных промышленных испытаний реагентной программы Rutrol AD 171.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:13-приложение-статья-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

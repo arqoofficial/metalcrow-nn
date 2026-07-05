@@ -1,0 +1,2303 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:24-статья-docx",
+   "title": "24 Статья.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\24 Статья.docx.md",
+   "artifact_sha256": "a20e52b693dfd82b02fd612d52b6d40ba7f7384cd437e67c8c83aebeddcc9871",
+   "okf_raw_path": "Статьи/24 Статья.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:cu-ni-fe-bottom-phase",
+   "label": "Cu‑Ni‑Fe bottom phase",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:waste-slag",
+   "label": "waste slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag-from-oxidizing-melt-of-copper-nickel-concen",
+   "label": "slag from oxidizing melt of copper‑nickel concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag-charge",
+   "label": "slag charge",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alundum-crucible",
+   "label": "alundum crucible",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coke",
+   "label": "coke",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag",
+   "label": "slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-donor-phase",
+   "label": "alloy (donor phase)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag-sample",
+   "label": "slag sample",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:bottom-phase",
+   "label": "bottom phase",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag-samples",
+   "label": "slag samples",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:furnace-slag",
+   "label": "furnace slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gas-mixtures-of-various-composition",
+   "label": "gas mixtures of various composition",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:24-статья-docx:0",
+   "document_id": "doc:24-статья-docx",
+   "title": "Pyrometallurgical depletion of slag in bubbling mode with reducing gas mixtures",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidative melting of sulfide copper‑nickel concentrate followed by depletion of the resulting slag in a bubbling mode using reducing gas mixtures of various compositions"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cu-ni-fe-bottom-phase",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:waste-slag",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "yield_fraction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt+Pd+Rh+S"
+     },
+     "method": null,
+     "snippet": "Pt, Pd and Rh have the lowest loss rates with waste slag, the losses of which are about 5%",
+     "locator_kind": "md_para",
+     "locator": "para:5",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "S"
+     },
+     "method": null,
+     "snippet": "the extraction of Ru and Ir into waste slag is at the level of 10%",
+     "locator_kind": "md_para",
+     "locator": "para:5",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 50.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "maximum"
+     },
+     "method": null,
+     "snippet": "the possibility of maximum extraction of this metal when obtaining a bottom phase with an Fe content of more than 50% wt",
+     "locator_kind": "md_para",
+     "locator": "para:5",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "the determining factor influencing the yield of the bottom phase and the chemical composition of the melting products is the consumption of the reducing agent",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "yield of bottom phase",
+      "direction": "increases",
+      "factor": "consumption of the reducing agent",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "the determining factor influencing the yield of the bottom phase and, as a consequence, the chemical composition of the products of melting, is the consumption of the reducing agent",
+     "locator_kind": "md_para",
+     "locator": "para:5",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "The article presents the results of a study of the distribution of platinum group metals (Pt, Pd, Rh, Ru, Ir) and Au between the bottom phase based on Cu‑Ni‑Fe and waste slag during pyrometallurgical depletion of slag from oxidative melting of sulfide copper‑nickel concentrate in bubbling mode with reducing gas mixtures of various compositions.",
+   "locator_kind": "md_para",
+   "locator": "para:5",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:1",
+   "document_id": "doc:24-статья-docx",
+   "title": "Laboratory barbotage (modeling Vanjukov) slag de‑enrichment of oxidizing melt of copper‑nickel sulfide concentrate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "barbotage slag de‑enrichment in an induction furnace",
+       "temperature_text": "1450 °C",
+       "duration_text": "5–30 min (gas blowing), then 10 min resting"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1723.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-from-oxidizing-melt-of-copper-nickel-concen",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "gas"
+     },
+     "method": null,
+     "snippet": "Расход газа во время продувки во всех экспериментах равнялся 1 л/мин.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "initial slag charge",
+     "scope": "material",
+     "material_id": "mat:waste-slag",
+     "value": {
+      "min": null,
+      "nominal": 200.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В реактор индукционной печи помещали алундовый тигель с исходной навеской шлака, равной 200 грамм.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "resting time after mixing",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "По окончании перемешивания расплав отстаивали в течение 10 минут.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "После окончания эксперимента отключали печь. Тигель с расплавом вынимали из печи, охлаждали на воздухе, после чего отделяли шлак от штейна, пробы взвешивали и подготавливали для дальнейших исследований.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "post‑processing procedure",
+      "direction": "increases",
+      "factor": "sample readiness for analysis",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "После окончания эксперимента отключали печь. Тигель с расплавом вынимали из печи, охлаждали на воздухе, после чего отделяли шлак от штейна, пробы взвешивали и подготавливали для дальнейших исследований.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В реактор индукционной печи помещали алундовый тигель с исходной навеской шлака, равной 200 грамм. … После полного проплавления шихты через трубку из оксида алюминия начинали продувку восстановительным газом. … Расход газа во время продувки во всех экспериментах равнялся 1 л/мин. Время продувки в экспериментах варьировалась от 5 до 30 минут. По окончании перемешивания расплав отстаивали в течение 10 минут, затем в шлак погружали стальной стержень и отбирали пробу шлака с закалкой в воду.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:2",
+   "document_id": "doc:24-статья-docx",
+   "title": "Series 1 – gas mixture CO2‑CO‑H2 (α≈0.6)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory experiment in an induction furnace",
+       "temperature_text": "1450 о С",
+       "duration_text": "variable (5‑30 min, step 5 min)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1723.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-charge",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:alundum-crucible",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "gas"
+     },
+     "method": null,
+     "snippet": "Расход газа во время продувки во всех экспериментах равнялся 1 л/мин.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Obednenie slag was performed with the gas mixture CO2 33,01 % + CO 43,48 % + H2 20,9 % (α≈0,6).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "gas composition",
+      "direction": "decreases",
+      "factor": "α≈0,6",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Обеднение шлака в первой серии экспериментов осуществляли с использованием газовой смеси следующего состава, % об.: CO 2 – 33,01, CO – 43,48, H 2 – 20,9; что ориентировочно соответствует коэффициенту расхода кислорода α~0,6.",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В реактор индукционной печи помещали алундовый тигель с исходной навеской шлака, равной 200 грамм.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:3",
+   "document_id": "doc:24-статья-docx",
+   "title": "Series 2 – pure CO (α≈0.1)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory experiment in an induction furnace",
+       "temperature_text": "1450 о С",
+       "duration_text": "variable (5‑25 min, step 5 min)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1723.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-charge",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "gas"
+     },
+     "method": null,
+     "snippet": "Расход газа во время продувки во всех экспериментах равнялся 1 л/мин.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Obednenie slag was performed by blowing pure carbon monoxide, corresponding to α≈0,1.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "gas composition",
+      "direction": "decreases",
+      "factor": "α≈0,1",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Во второй серии опытов обеднение шлака вели путем продувки его чистым монооксидом углерода, что соответствует α~0,1.",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В серии также варьировали время продувки от 5 до 25 минут с шагом 5 мин.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:4",
+   "document_id": "doc:24-статья-docx",
+   "title": "Series 3 – gas mixture (α≈0.6) + coke addition",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory experiment in an induction furnace",
+       "temperature_text": "1450 о С",
+       "duration_text": "20 min (fixed)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1723.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-charge",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:coke",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "coke addition",
+     "scope": "material",
+     "material_id": "mat:coke",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Навеска кокса варьировали от 1 до 4% от массы исходного шлака с шагом 1%.",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "gas"
+     },
+     "method": null,
+     "snippet": "Расход газа во время продувки во всех экспериментах равнялся 1 л/мин.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Obednenie slag was studied with the same gas mixture as series 1 (α≈0,6) together with simultaneous coke loading.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "combined treatment",
+      "direction": "decreases",
+      "factor": "α≈0,6",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Третья серия экспериментов была посвящена изучению обеднения шлака газовой смесью, состав которой соответствовал составу газовой смеси, используемой в первой серии (α~0,6), с добавкой кокса.",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В данной серии экспериментов вместе с началом продувки шлака газовой смесью на шлак единовременно загружали навеску кокса.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:5",
+   "document_id": "doc:24-статья-docx",
+   "title": "Series No1 – обеднение шлака газовой смесью CO‑CO₂‑H₂",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduction of slag with a gas mixture of CO, CO₂ and H₂"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:alloy-donor-phase",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.0336,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "1 | 0,0336 | 0,141 | 0,0049 | 0,0019 | 0,0008 | 0,0349 | 18,27 | 52,94 | 1,24 | 0,47 | 0,18 | 3,35",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:alloy-donor-phase",
+     "value": {
+      "min": null,
+      "nominal": 18.27,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "1 | 0,0336 | 0,141 | 0,0049 | 0,0019 | 0,0008 | 0,0349 | 18,27 | 52,94 | 1,24 | 0,47 | 0,18 | 3,35",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.141,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pd"
+     },
+     "method": null,
+     "snippet": "1 | 0,0336 | 0,141 | 0,0049 | 0,0019 | 0,0008 | 0,0349 | 18,27 | 52,94 | 1,24 | 0,47 | 0,18 | 3,35",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:alloy-donor-phase",
+     "value": {
+      "min": null,
+      "nominal": 52.94,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pd"
+     },
+     "method": null,
+     "snippet": "1 | 0,0336 | 0,141 | 0,0049 | 0,0019 | 0,0008 | 0,0349 | 18,27 | 52,94 | 1,24 | 0,47 | 0,18 | 3,35",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Содержание как цветных металлов, так и металлов платиновой группы, в продуктах плавки снижается по мере увеличения расхода восстановительного агента.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "decreases",
+      "factor": "reducing agent consumption",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "по данным результатов химического анализа продуктов плавки, полученных в ходе проведенных экспериментов, было установлено, что содержание как цветных металлов, так и металлов платиновой группы, в продуктах плавки снижается по мере увеличения расхода восстановительного агента.",
+     "locator_kind": "md_para",
+     "locator": "para:44",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Series No1 – обеднение шлака газовой смесью CO-CO2-H2",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:6",
+   "document_id": "doc:24-статья-docx",
+   "title": "Series No2 – обеднение шлака монооксидом углерода",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduction of slag with CO as the sole reducing agent"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:alloy-donor-phase",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.0289,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "7 | 0,0289 | 0,0841 | 0,0038 | 0,0013 | 0,0008 | 0,029 | 20,36 | 63,10 | 1,45 | 0,56 | 0,19 | 4,07",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:alloy-donor-phase",
+     "value": {
+      "min": null,
+      "nominal": 20.36,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "7 | 0,0289 | 0,0841 | 0,0038 | 0,0013 | 0,0008 | 0,029 | 20,36 | 63,10 | 1,45 | 0,56 | 0,19 | 4,07",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Содержание железа в сплавах варьируется в диапазоне от 17,1 до 44,9% масс.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "increases",
+      "factor": "experimental series",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "содержание железа в сплавах варьируется в диапазоне от 17,1 до 44,9% масс.",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Series No2 – обеднение шлака монооксидом углерода",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:7",
+   "document_id": "doc:24-статья-docx",
+   "title": "Series No3 – обеднение шлака газовой смесью CO‑CO₂‑H₂ совместно с коксом",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduction of slag with CO‑CO₂‑H₂ gas mixture together with coke addition"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:alloy-donor-phase",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.0174,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "12 | 0,0174 | 0,043 | 0,0013 | 0,0007 | 0,0004 | 0,0187 | 13,22 | 41,31 | 1,04 | 0,37 | 0,15 | 3,14",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:alloy-donor-phase",
+     "value": {
+      "min": null,
+      "nominal": 13.22,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "12 | 0,0174 | 0,043 | 0,0013 | 0,0007 | 0,0004 | 0,0187 | 13,22 | 41,31 | 1,04 | 0,37 | 0,15 | 3,14",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Коэффициенты распределения Pt, Pd, Rh, Ru, Ir, Au находятся в диапазонах 544‑974, 375‑1560, 215‑1060, 245‑640, 198‑480, 96‑249 соответственно.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "544-974 | 375-1560 | 215-1060 | 245-640 | 198-480 | 96-249",
+     "locator_kind": "md_para",
+     "locator": "para:51",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Series No3 – обеднение шлака газовой смесью CO-CO2-H2 совместно с коксом",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:8",
+   "document_id": "doc:24-статья-docx",
+   "title": "REM‑RSMA analysis of slag samples No4,5,8,13",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Scanning electron microscopy (SEM) and energy‑dispersive X‑ray microanalysis (REM‑RSMA) of hardened slag specimens No4,5,8,13",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-sample",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 1.0
+     },
+     "unit": "µm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "size of corollas"
+     },
+     "method": null,
+     "snippet": "корольки размером менее 1 мкм должны быть формально отнесены к растворимым потерям.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.63
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "корольки размером менее 1 мкм должны быть формально отнесены к растворимым потерям",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "assumption",
+      "direction": "nonmonotonic",
+      "factor": "content in mechanical suspension equals content in bottom phase",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "для расчета доли механических потерь благородных металлов со шлаками примем допущение, что их содержание в механической взвеси равняется содержанию в донной фазе.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "С целью определения доли механических потерь благородных металлов со шлаками, закаленные пробы шлака No4,5,8,13 были проанализированы методами РЭМ-РСМА (см. рисунок 3).",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:9",
+   "document_id": "doc:24-статья-docx",
+   "title": "Effect of Fe content on mechanical losses of noble metals",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Quantitative assessment of mechanical loss fractions in bottom phase with varying Fe content",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:bottom-phase",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:bottom-phase",
+     "value": {
+      "min": 18.1,
+      "nominal": null,
+      "max": 35.2
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "при увеличении содержания Fe в донной фазе с 18,10 до 35,20% масс.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Au, together with Cu, tends to dissolve in metallic form in silicate melts",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "dissolution tendency",
+      "direction": "increases",
+      "factor": "Au and Cu",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "что может указывать на склонность Au, наряду с Cu, к металлической форме растворения в силикатных расплавах [25-26].",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Отмечается, что при увеличении содержания Fe в донной фазе с 18,10 до 35,20% масс. наблюдается рост механических потерь Pt, Pd, Rh, а также Au.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:10",
+   "document_id": "doc:24-статья-docx",
+   "title": "Mechanical loss measurements at varying Fe content in the bottom phase",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory analysis of slag samples with different Fe mass percentages",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-samples",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:bottom-phase",
+     "value": {
+      "min": null,
+      "nominal": 18.1,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "при увеличении содержания Fe в донной фазе с 18,10 до 35,20% масс.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:bottom-phase",
+     "value": {
+      "min": null,
+      "nominal": 22.22,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "22,22",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:bottom-phase",
+     "value": {
+      "min": null,
+      "nominal": 22.33,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "22,33",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:bottom-phase",
+     "value": {
+      "min": null,
+      "nominal": 35.2,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "35,20",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Mechanical loss fraction of Pt",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 84.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "84,00",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Mechanical loss fraction of Pd",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 73.76,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "73,76",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Mechanical loss fraction of Rh",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 44.44,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "44,44",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Mechanical loss fraction of Au",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 13.16,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "13,16",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Mechanical loss fraction of Pt (Fe 22,22%)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 80.84,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "80,84",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Mechanical loss fraction of Pd (Fe 22,22%)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 98.91,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "98,91",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Mechanical loss fraction of Au (Fe 22,22%)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 14.85,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "14,85",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Mechanical loss fraction of Au (Fe 35,20%)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.94,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "20,94",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "При увеличении содержания Fe в донной фазе с 18,10 до 35,20% масс. наблюдается рост механических потерь Pt, Pd, Rh, а также Au.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "mechanical loss trend",
+      "direction": "increases",
+      "factor": "Fe content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При увеличении содержания Fe в донной фазе с 18,10 до 35,20% масс. наблюдается рост механических потерь Pt, Pd, Rh, а также Au.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.81
+    },
+    {
+     "text": "Доля механических потерь Au в исследуемом диапазоне составов донной фазы существенно ниже, чем у металлов платиновой группы.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Au mechanical loss fraction",
+      "direction": "decreases",
+      "factor": "compared to Pt, Pd, Rh",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "доля механических потерь Au в исследуемом диапазоне составов донной фазы существенно ниже, чем у металлов платиновой группы",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Таблица 7 – механические потери металлов платиновой группы и золота при различных содержаниях железа в донной фазе",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:11",
+   "document_id": "doc:24-статья-docx",
+   "title": "Effect of Fe content on noble‑metal losses to furnace slag (graphical analysis)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Interpretation of Figure 4 showing loss percentages versus Fe content",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:furnace-slag",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "optimal Fe content for minimal Pt, Pd, Rh losses",
+     "scope": "material",
+     "material_id": "mat:bottom-phase",
+     "value": {
+      "min": null,
+      "nominal": 25.0,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "получение сплавов с содержанием железа на уровне ≈25% масс. является оптимальным",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Pt, Pd, Rh loss at Fe 25‑30% masses",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При содержании железа в донной фазе 25-30% масс., потери Pt, Pd и Rh с отвальным шламом составят около 5%",
+     "locator_kind": "md_para",
+     "locator": "para:66",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Ru, Ir loss at Fe 25‑30% masses",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ru и Ir – ориентировочно 10%",
+     "locator_kind": "md_para",
+     "locator": "para:66",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Au loss trend",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 50.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "возможность более полного доизвлечения данного металла только при получении донных фаз с содержанием Fe свыше 50%",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Рост концентрации железа приводит к увеличению температуры ликвидуса получаемого сплава, что может затруднить процесс выпуска сплава из печи.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "increases",
+      "factor": "Fe content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "рост концентрации железа приводит к увеличению температуры ликвидус получаемого сплава",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    },
+    {
+     "text": "Увеличение содержания железа в донной фазе обеднительной печи увеличит нагрузку на конвертерный передел и длительность 1‑й стадии конвертирования.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "time_duration",
+      "direction": "increases",
+      "factor": "Fe content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "рост содержания железа в донной фазе обеднительной печи увеличит нагрузку на конвертерный передел, ... увеличение длительности 1 стадии конвертирования",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Согласно рисунку 4, который описывает зависимость потерь благородных металлов с отвальным шлак от содержания железа в донной фазе",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:24-статья-docx:12",
+   "document_id": "doc:24-статья-docx",
+   "title": "Laboratory experiments on barbotage slag refining",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "барботажное обеднение шлака медно-никелевого производства"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:gas-mixtures-of-various-composition",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "residual"
+     },
+     "method": null,
+     "snippet": "остаточное извлечение которых в отвальный шлак находится на уровне 5%",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "yield_fraction",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "S+Fe"
+     },
+     "method": null,
+     "snippet": "потери Ir и Ru с отвальным шлаком при получении донной фазы с содержанием Fe≥25% масс. составляет ≈10%",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 25.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au+S+Fe"
+     },
+     "method": null,
+     "snippet": "извлечение Au в отвальный шлак при содержании Fe в сплаве 25% масс. составляет ≈25%",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Содержание Fe в донной фазе, является универсальной характеристикой восстановительного потенциала процесса.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "increases",
+      "factor": "reductive potential",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "по результатам проведенных исследований установлено, что содержание Fe в донной фазе, является универсальной характеристикой восстановительного потенциала процесса.",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Проведены экспериментальные исследования процесса барботажного обеднения шлака медно-никелевого производства газовыми смесями различного состава.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "the determining factor influencing the yield of the bottom phase and, as a consequence, the chemical composition of the products of melting, is the consumption of the reducing agent",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "yield of bottom phase",
+    "direction": "increases",
+    "factor": "consumption of the reducing agent",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "the determining factor influencing the yield of the bottom phase and, as a consequence, the chemical composition of the products of melting, is the consumption of the reducing agent",
+   "locator_kind": "md_para",
+   "locator": "para:5",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "the limiting content of Fe in the Cu‑Ni‑Fe alloy has been established, after which the distribution coefficients practically do not change",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "distribution coefficients",
+    "direction": "no_change",
+    "factor": "Fe content beyond limiting value",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "the limiting content of Fe in the Cu‑Ni‑Fe alloy has been established, after which the distribution coefficients practically do not change",
+   "locator_kind": "md_para",
+   "locator": "para:5",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "the index of extraction of platinum group metals into waste slag is characterized by minimal values",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "extraction index of PGM into waste slag",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "the index of extraction of platinum group metals into waste slag is characterized by minimal values",
+   "locator_kind": "md_para",
+   "locator": "para:5",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "maximum extraction of Au is possible when obtaining a bottom phase with Fe content above 50 % wt",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "Fe content >50 % wt in bottom phase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "the possibility of maximum extraction of this metal when obtaining a bottom phase with an Fe content of more than 50% wt",
+   "locator_kind": "md_para",
+   "locator": "para:5",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Основные потери металлов платиновой группы со шлаками связаны с запутыванием корольков штейна в объеме шлака – механическими потерями, а доля растворимых потерь металлов платиновой группы со шлаками невелика.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "PGM loss mechanism",
+    "direction": "increases",
+    "factor": "mechanical losses",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основные потери металлов платиновой группы со шлаками связаны с запутыванием корольков штейна в объеме шлака – механическими потерями, а доля растворимых потерь металлов платиновой группы со шлаками невелика.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "При близком качестве перерабатываемого рудного концентрата потери цветных металлов со шлаками на Copper Cliff существенно выше и превышают 0,4% по меди и никелю для каждого металла.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "non‑ferrous metal loss",
+    "direction": "increases",
+    "factor": "Copper Cliff plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при близком качестве перерабатываемого рудного концентрата потери цветных металлов со шлаками на Copper Cliff существенно выше и превышают 0,4% по меди и никелю для каждого металла",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Использование печи Ванюкова в качестве обеднительной печи позволяет существенно сократить габариты агрегата по сравнению с электропечью за счет протекания процесса в условиях интенсивного перемешивания расплава.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment size",
+    "direction": "decreases",
+    "factor": "Vanjukov furnace vs electric furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использование печи Ванюкова в качестве обеднительной печи позволяет существенно сократить габариты агрегата по сравнению с электропечью за счет протекания процесса в условиях интенсивного перемешивания расплава.",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Разработана термодинамическая модель, описывающая поведение металлов платиновой группы при различном соотношении шлака и штейна в расплаве.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "разработали термодинамическую модель, описывающую поведение металлов платиновой группы при различном соотношении шлака и штейна в расплаве.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Даны рекомендации по режимным параметрам процесса восстановления шлака окислительной плавки с целью формирования фазы на основе железа, которая является хорошим коллектором металлов платиновой группы.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "даны рекомендации по режимным параметрам процесса восстановления шлака окислительной плавки с целью формирования фазы на основе железа, которая является хорошим коллектором металлов платиновой группы.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "The oxygen consumption coefficient α is a qualitative characteristic of the atmosphere in which the experiment is conducted.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Здесь и далее под α подразумевается коэффициент расхода кислорода дутья, который является качественной характеристикой атмосферы, при которой проводится опыт.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "When α < 1, the slag reduction experiments are performed with varying gas‑blowing times.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "При α<1 Время продувки газовой смесью шлакового расплава в данной серии опытов варьировали от 5 до 30 минут с шагом 5 мин.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "The furnace was heated to a working temperature of 1450 °C before slag melting.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Разогревали печь до рабочей температуры 1450 о С.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "After melting, the slag was held for 10 minutes before sampling.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "По окончании перемешивания расплав отстаивали в течение 10 минут, затем в шлак погружали стальной стержень и отбирали пробу шлака с закалкой в воду.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "The coke used in the experiments contained 77,9 % carbon and minor amounts of S, Fe, SiO₂, CaO, Al₂O₃, MgO.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Кокс | 0,38 | 1,38 | 8,27 | 0,86 | 3,83 | 0,386 | 77,9",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Расход восстановительного агента является главным фактором, определяющим выход продуктов плавки, а также их химический состав.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product yield and composition",
+    "direction": "increases",
+    "factor": "reducing agent consumption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "расход восстановительного агента является главным фактором, определяющим выход продуктов плавки, а также их химический состав.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Показатель выхода сплава находится в диапазоне от 0,96 до 2,53% от массы исходного шлака.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "показатель выхода сплава находится в диапазоне от 0,96 до 2,53% от массы исходного шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Графики зависимости изменения массы донной фазы и содержания в ней железа от расхода восстановительного агента имеют схожий характер для каждой из отдельно рассматриваемых серий опытов.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "графики зависимости изменения массы донной фазы и содержания в ней железа от расхода восстановительного агента имеют схожий характер для каждой из отдельно рассматриваемых серий опытов.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание железа в донной фазе будет использоваться в качестве параметра, характеризующего степень восстановительного потенциала системы.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "на основании данного факта в дальнейшем в данной статье содержание железа в донной фазе будет использоваться в качестве параметра, характеризующего степень восстановительного потенциала системы.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Восстановленное металлическое железо является хорошим восстановителем цветных металлов, растворенных в силикатной составляющей шлакового расплава в форме оксидов.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Восстановленное металлическое железо является хорошим восстановителем цветных металлов, растворенных в силикатной составляющей шлакового расплава в форме оксидов: (MeO)+[Fe мет. ]=[Me]+(FeO)",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "При росте содержания железа в донной фазе наблюдается снижение концентраций благородных металлов как в донной фазе, так и в шлаке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "Fe content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Во всем исследованном диапазоне содержаний железа в донной фазе по мере роста содержания железа наблюдается снижение концентраций благородных металлов, как в донной фазе, так и в шлаке.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Извлечения благородных металлов в донную фазу по мере увеличения содержания железа растут.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery of noble metals to donor phase vs Fe content",
+    "direction": "increases",
+    "factor": "Fe content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "извлечения благородных металлов в донную фазу по мере увеличения содержания железа растут.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Показатели коэффициентов распределения благородных металлов имеют существенный разброс значений, что, вероятно, связано с малыми содержаниями данных металлов в шлаке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "coefficient variability",
+    "direction": "increases",
+    "factor": "low metal content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по результатам, полученным в данной работе, отмечается, что показатели коэффициентов распределения благородных металлов имеют существенный разброс значений, что, вероятно, связано с малыми содержаниями данных металлов в шлаке.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Наибольшие значения коэффициентов распределения характерны для Pd, затем в порядке убывания следуют Pt, Rh, Ru, Ir, Au.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "coefficient magnitude",
+    "direction": "decreases",
+    "factor": "metal type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "наибольшие значения коэффициентов распределения характерны для Pd, затем в порядке убывания следуют Pt, Rh, Ru, Ir, Au.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Рассчитанные значения коэффициентов распределения благородных металлов между продуктами плавки, в целом, согласуются с данными, представленными в таблице 6.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "coefficient agreement",
+    "direction": "increases",
+    "factor": "agreement with table 6",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рассчитанные значения коэффициентов распределения благородных металлов между продуктами плавки, в целом, согласуются с данными, представленными в таблице 6",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Сравнение коэффициентов распределения благородных металлов осуществляли с промышленными процессами, протекающими в нейтральной (рудно‑термическая плавка концентрата) или восстановительной (обеднительная электропечь) атмосферах.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в связи с этим, сравнение коэффициентов распределения благородных металлов осуществляли с промышленными процессами, протекающими в нейтральной (рудно‑термическая плавка концентрата) или восстановительной (обеднительная электропечь) атмосферах.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "В открытой печати редко встречаются данные о содержаниях благородных металлов в продуктах плавки, в частности, в шлаке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "frequency",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стоит отметить, что в открытой печати редко встречаются данные о содержаниях благородных металлов в продуктах плавки, в частности, в шлаке.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Исключением являются Надеждинский металлургический завод и Никелевый завод, а также завод Stillwater, для которых известно суммарное содержание металлов платиновой группы в продуктах плавки.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Исключением являются Надеждинский металлургический завод и Никелевый завод, являющиеся предприятиями ПАО ГМК «Норильский Никель» [23] и завод Stillwater, для которого известно суммарное содержание металлов платиновой группы в продуктах плавки [24].",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Корольки размером менее 1 мкм должны быть формально отнесены к растворимым потерям.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "корольки размером менее 1 мкм должны быть формально отнесены к растворимым потерям.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Данные, отраженные в таблице 7, носят качественный характер из‑за допущений при расчете распределения потерь благородных металлов со шлаками.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "поскольку в данной работе приняты ряд допущений при расчете распределения потерь благородных металлов со шлаками, корректно будет говорить, что данные, отраженные в таблице 7, носят качественный характер.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Большинство исследователей сходится во мнении, что потери благородных металлов, прежде всего Pt, Pd, Rh, Au, определяются главным образом наличием в шлаках окислительной плавки механической взвеси сульфидно‑металлических корольков.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "noble‑metal loss cause",
+    "direction": "increases",
+    "factor": "mechanical sulfide‑metal nodules",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "большинство исследователей сходится во мнении, что потери благородных металлов, прежде всего Pt, Pd, Rh, Au, определяются главным образом, наличием в шлаках окислительной плавки механической взвеси сульфидно-металлических корольков",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "В крайне ограниченном числе работ исследователи отмечают некоторую склонность к окислению Ru и Ir в процессе окислительной плавки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Ru and Ir oxidation",
+    "direction": "increases",
+    "factor": "oxidative smelting",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в крайне ограниченном числе работ ... исследователи отмечают некоторую склонность к окислению Ru и Ir в процессе окислительной плавки",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Получение сплавов с содержанием железа на уровне ≈25% масс. является оптимальным, поскольку дальнейшее увеличение содержания железа в донной фазе не приводит к существенному снижению потерь металлов платиновой группы с отвальным шламом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "optimal Fe content",
+    "direction": "no_change",
+    "factor": "Fe increase beyond 25% masses",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "получение сплавов с содержанием железа на уровне ≈25% масс. является оптимальным, поскольку дальнейшее увеличение содержания железа в донной фазе не приводит существенному снижению потерь металлов платиновой группы с отвальным шламом",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Рост содержания железа в донной фазе обеднительной печи увеличит нагрузку на конвертерный передел и длительность 1‑й стадии конвертирования.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "Fe content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "рост содержания железа в донной фазе обеднительной печи увеличит нагрузку на конвертерный передел, ... увеличение длительности 1 стадии конвертирования",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.45,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Для более полного извлечения Au необходимо получать донные фазы с содержанием Fe свыше 50% масс.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "Fe content >50% masses",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "возможность более полного доизвлечения данного металла только при получении донных фаз с содержанием Fe свыше 50%",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание Fe в донной фазе, является универсальной характеристикой восстановительного потенциала процесса.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "reductive potential",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по результатам проведенных исследований установлено, что содержание Fe в донной фазе, является универсальной характеристикой восстановительного потенциала процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.81,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Наиболее полно из металлов платиновой группы в донную фазу извлекаются Pt, Pd и Rh, остаточное извлечение которых в отвальный шлак находится на уровне 5 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "наиболее полно из металлов платиновой группы в донную фазу извлекаются Pt, Pd и Rh, остаточное извлечение которых в отвальный шлак находится на уровне 5%",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Потери Ir и Ru с отвальным шлаком при получении донной фазы с содержанием Fe≥25 % масс. составляет ≈10 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "yield_fraction",
+    "direction": "increases",
+    "factor": "Fe≥25 % in bottom phase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "потери Ir и Ru с отвальным шлаком при получении донной фазы с содержанием Fe≥25% масс. составляет ≈10%",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  },
+  {
+   "text": "Извлечение Au в отвальный шлак при содержании Fe в сплаве 25 % масс. составляет ≈25 %, что свидетельствует о более низкой эффективности обеднения шлака по Au, чем по металлам платиновой группы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "Fe=25 % in alloy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "извлечение Au в отвальный шлак при содержании Fe в сплаве 25% масс. составляет ≈25%, что свидетельствует о более низкой эффективности обеднения шлака по Au, чем по металлам платиновой группы",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:24-статья-docx",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:alloy-donor-phase",
+   "dst": "mat:slag",
+   "process": "other",
+   "kind": null,
+   "snippet": "Series No1 – обеднение шлака газовой смесью CO-CO2-H2",
+   "doc_id": "doc:24-статья-docx"
+  },
+  {
+   "src": "mat:alloy-donor-phase",
+   "dst": "mat:slag",
+   "process": "other",
+   "kind": null,
+   "snippet": "Series No2 – обеднение шлака монооксидом углерода",
+   "doc_id": "doc:24-статья-docx"
+  },
+  {
+   "src": "mat:alloy-donor-phase",
+   "dst": "mat:slag",
+   "process": "other",
+   "kind": null,
+   "snippet": "Series No3 – обеднение шлака газовой смесью CO-CO2-H2 совместно с коксом",
+   "doc_id": "doc:24-статья-docx"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

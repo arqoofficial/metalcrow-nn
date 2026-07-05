@@ -1,0 +1,2178 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:мельницы_пч_2012-pdf",
+   "title": "МЕЛЬНИЦЫ_ПЧ_2012.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\МЕЛЬНИЦЫ_ПЧ_2012.pdf.md",
+   "artifact_sha256": "70eb7f26ed09a7b95e03ba9e38ea345457393d890bb58113bb3fa2be1b747502",
+   "okf_raw_path": "Обзоры/МЕЛЬНИЦЫ_ПЧ_2012.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:rich-sulfide-ore",
+   "label": "rich sulfide ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-ore",
+   "label": "copper ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-nickel-ore",
+   "label": "copper‑nickel ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore-from-bougainville-mine",
+   "label": "ore from Bougainville mine",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:образцы-породы-или-керн",
+   "label": "образцы породы или керн",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:руда",
+   "label": "руда",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:santa-rita-ore",
+   "label": "Santa Rita ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dumont-ore",
+   "label": "Dumont ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dumont-ore-samples",
+   "label": "Dumont ore samples",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:kevitsa-ore",
+   "label": "Kevitsa ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:мельницы_пч_2012-pdf:0",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Industrial application – transition from AG to SAG at Raglan nickel mine (Canada)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Grinding circuit upgrade from autogenous (AG) mill to semi‑autogenous (SAG) mill"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rich-sulfide-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual throughput",
+     "scope": "material",
+     "material_id": "mat:rich-sulfide-ore",
+     "value": {
+      "min": null,
+      "nominal": 1.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2005 г . в рамках программы оптимизации был совершен переход с AG на SAG с увеличением производительности до 1,2 млн т / год",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The upgrade increased plant capacity from 800 000 t/yr to 1,2 M t/yr.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "capacity increase",
+      "direction": "increases",
+      "factor": "1.5‑fold",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в 2005 г . в рамках программы оптимизации был совершен переход с AG на SAG с увеличением производительности до 1,2 млн т / год",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "на никелевом руднике Raglan ( Канада ) компании Xstrata, рассчитанном по проекту на переработку 800 тыс т / год богатой сульфидной руды , в 2005 г . в рамках программы оптимизации был совершен переход с AG на SAG с увеличением производительности до 1,2 млн т / год",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:1",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Industrial application – use of AG mills at Aitik (Sweden) and Olympic Dam (Australia)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Autogenous (AG) grinding in copper mines"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Application of AG mills allowed noticeable reduction of operating costs.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operating cost",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Примерами применения AG на крупных предприятиях являются медные рудники Aitik ( Швеция ) компании Boliden и Olympic Dam ( Ав -стралия ) компании BHP Billiton, где удалось заметно сократить операци -онные издержки",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Примерами применения AG на крупных предприятиях являются медные рудники Aitik ( Швеция ) компании Boliden и Olympic Dam ( Ав -стралия ) компании BHP Billiton, где удалось заметно сократить операци -онные издержки",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:2",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Industrial application of AG mills at Aitik copper mine (Sweden)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Use of autogenous (AG) grinding technology"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "AG grinding reduced operational costs at the Aitik copper mine.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operational cost",
+      "direction": "decreases",
+      "factor": "AG grinding",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Примерами применения AG на крупных предприятиях являются медные рудники Aitik ( Швеция ) компании Boliden ... где удалось заметно сократить операци -онные издержки .",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Примерами применения AG на крупных предприятиях являются медные рудники Aitik ( Швеция ) компании Boliden ... где удалось заметно сократить операци -онные издержки .",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:3",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Industrial application of AG mills at Olympic Dam copper‑nickel mine (Australia)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Use of autogenous (AG) grinding technology"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-nickel-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "AG grinding reduced operational costs at the Olympic Dam mine.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operational cost",
+      "direction": "decreases",
+      "factor": "AG grinding",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Примерами применения AG на крупных предприятиях являются медные рудники ... Olympic Dam ( Ав -стралия ) компании BHP Billiton, где удалось заметно сократить операци -онные издержки .",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Примерами применения AG на крупных предприятиях являются медные рудники ... Olympic Dam ( Ав -стралия ) компании BHP Billiton, где удалось заметно сократить операци -онные издержки .",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:4",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Operational analysis at Bougainville mine (18‑inch SAG mill)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Grinding with an 18‑inch SAG mill"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-from-bougainville-mine",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The drop in efficiency was caused by operating conditions, not mill size.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "decreases",
+      "factor": "operating conditions",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Однако , как показал анализ , наблюдавшееся снижение эффективности измельчения в Bouganville было связано с операционными условиями , а не с размером мельницы .",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Однако , как показал анализ , наблюдавшееся снижение эффективности измельчения в Bouganville было связано с операционными условиями , а не с размером мельницы .",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:5",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Successful operation of 18‑inch SAG mill at Pinto Valley mine (USA)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Grinding with an 18‑inch SAG mill"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Mills of the same size performed successfully at Pinto Valley.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "performance",
+      "direction": "increases",
+      "factor": "mill size (18‑inch)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Мельни -цы аналогичного размера успешно работали на медном руднике Pinto Valley ( США ).",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Мельни -цы аналогичного размера успешно работали на медном руднике Pinto Valley ( США ).",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:6",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Исследование измельчаемости образцов породы",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Определение рабочего коэффициента Бонда, предела прочности при неограниченном сжатии, испытания на ударное дробление, испытание на кантование, испытание падающим грузом (JK)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:образцы-породы-или-керн",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Для того чтобы определить , какой тип контура измельчения больше подходит для данной породы , а также требуемый размер мельницы , необходимо подвергнуть образцы породы исследованию на измельчаемость .",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:7",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Пробные испытания на измельчение (SMC‑тест)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Тестирование на конструкцию мельницы полусамоизмельчения"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:руда",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "SMCтест\nПробные испытания на измельчение\nТестирование на конструкцию мельницы полусамоизмельчения",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:8",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Пилотные испытания с использованием сотен тонн руды",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Вариант исследовательских работ, варьирующийся от простых измерений на небольшом образце до всесторонних пробных испытаний с использованием сотен тонн руды"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:руда",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "В зависимости от рассматриваемого контура измельчения , исследовательские работы могут варьироваться от простых измерений , проведенных на небольшом образце породы или керне , до всесторонних пробных испытаний с использованием сотен тонн руды .",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:9",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Santa Rita plant commissioning and ramp‑up",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "SAG mill and ball mill circuit for nickel flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:santa-rita-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "SAG mill power rating",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 8.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Была выбрана мельница SAG на 8,5 МВт и шаровая мельница на 5,8 МВт , обеспечивающие целевой помол Р 80 125 мкм .",
+     "locator_kind": "md_para",
+     "locator": "para:154",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Ball mill power rating",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Была выбрана мельница SAG на 8,5 МВт и шаровая мельница на 5,8 МВт , обеспечивающие целевой помол Р 80 125 мкм .",
+     "locator_kind": "md_para",
+     "locator": "para:154",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Target grind (P80)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 125.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Была выбрана мельница SAG на 8,5 МВт и шаровая мельница на 5,8 МВт , обеспечивающие целевой помол Р 80 125 мкм .",
+     "locator_kind": "md_para",
+     "locator": "para:154",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Design throughput",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 575.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Проектная производительность О / Ф составляла 575 т / час .",
+     "locator_kind": "md_para",
+     "locator": "para:161",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Actual throughput (full SAG grinding, no balls)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 650.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "мельница SAG работала в режиме полного са -моизмельчения -без шаров ( по проекту загрузка шаров 12%) и производи -тельность достигала 650 т / час .",
+     "locator_kind": "md_para",
+     "locator": "para:161",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Throughput after 2010 upgrade",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 800.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2010 г . компания приступила к увеличению производительности до 800 т / час (6,4 млн т / г ) за счет установки второй шаровой мельницы (20') и галечной дробилки .",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Current annual throughput",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 7.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В настоящее время производительность О / Ф - 7,2 млн т / г .",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant reached and exceeded its design capacity within days after start‑up.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Компания Mirabela отмечает , что пуск сопровождался лишь незна -чительными проблемами , требующими корректировки , и период выхода на проектную производительность цепочки измельчения исчисляется днями .",
+     "locator_kind": "md_para",
+     "locator": "para:159",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Santa Rita plant commissioning and ramp‑up",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:10",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Flotation tests",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dumont-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "material",
+     "material_id": "mat:dumont-ore",
+     "value": {
+      "min": null,
+      "nominal": 150.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "sensitivity to"
+     },
+     "method": null,
+     "snippet": "Опыты по флотации показали , что руда Dumont сравнительно мало -чувствительна к крупности частиц ( Р 80) в пределах до 150 мкм , поэтому был выбран целевой помол в 150 мкм .",
+     "locator_kind": "md_para",
+     "locator": "para:190",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Target grind of 150 µm was selected",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "target grind",
+      "direction": "increases",
+      "factor": "150 µm",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Опыты по флотации показали , что руда Dumont сравнительно мало -чувствительна к крупности частиц ( Р 80) в пределах до 150 мкм , поэтому был выбран целевой помол в 150 мкм .",
+     "locator_kind": "md_para",
+     "locator": "para:190",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Опыты по флотации показали , что руда Dumont сравнительно мало -чувствительна к крупности частиц ( Р 80) в пределах до 150 мкм , поэтому был выбран целевой помол в 150 мкм .",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:11",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "SGS Lakefield laboratory tests for grinding indices",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "laboratory testing"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dumont-ore-samples",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "working crushing coefficient (CWI)",
+     "scope": "material",
+     "material_id": "mat:dumont-ore",
+     "value": {
+      "min": null,
+      "nominal": 15.3,
+      "max": null
+     },
+     "unit": "кВт × час / т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "- -рабочий коэффициент дробления (CWI) 15,3 кВт × час / т на базе 75ой процентили испытанных SGS образцов ;",
+     "locator_kind": "md_para",
+     "locator": "para:186",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "working rod mill coefficient (RWI)",
+     "scope": "material",
+     "material_id": "mat:dumont-ore",
+     "value": {
+      "min": null,
+      "nominal": 15.7,
+      "max": null
+     },
+     "unit": "кВт × час / т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "- -рабочий коэффициент стержневой мельницы (RWI) 15,7 кВт × час / т на базе 75ой процентили испытанных SGS образцов ;",
+     "locator_kind": "md_para",
+     "locator": "para:186",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Bond ball mill index (BWI)",
+     "scope": "material",
+     "material_id": "mat:dumont-ore",
+     "value": {
+      "min": null,
+      "nominal": 20.7,
+      "max": null
+     },
+     "unit": "кВт × час / т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "- -индекс Бонда шаровой мельницы (BWI) 20,7 кВт × час / т на базе 75ой процентили испытанных SGS образцов ;",
+     "locator_kind": "md_para",
+     "locator": "para:186",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Bond abrasive wear index (AI)",
+     "scope": "material",
+     "material_id": "mat:dumont-ore",
+     "value": {
+      "min": null,
+      "nominal": 0.007,
+      "max": null
+     },
+     "unit": "г",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "- -индекс абразивности Бонда ( коэффициент абразивного износа ) (AI) 0,007 г на базе 75ой процентили испытанных SGS образцов ;",
+     "locator_kind": "md_para",
+     "locator": "para:186",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "SMC (falling weight index)",
+     "scope": "material",
+     "material_id": "mat:dumont-ore",
+     "value": {
+      "min": null,
+      "nominal": 5.33,
+      "max": null
+     },
+     "unit": "кВт × час / м 3",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "- -индекс падающего веса (DWI) 5,33 кВт × час / м 3 измерен SGS ( эк -вивалентен A×b 47,6 при удельном весе 2,57);",
+     "locator_kind": "md_para",
+     "locator": "para:186",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Ausenco used the 75th percentile of these values for design",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "design percentile",
+      "direction": "increases",
+      "factor": "75th percentile",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Ausenco закладывала в проект 75ую процентиль каждого из этих значений .",
+     "locator_kind": "md_para",
+     "locator": "para:183",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Базой для выбора типа и размеров оборудования цепочек дробления и измельчения являются результаты определения коэффициен -тов / индексов , выполненные SGS Lakefield: рабочего индекса дробления (CWI), индекса Бонда для шаровой мельницы , рабочего коэффициента стержневой мельницы , коэффициента абразивного износа , а также значе -ний индексов падающего веса SMC и JK A×b для отдельных проб .",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мельницы_пч_2012-pdf:12",
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "title": "Laboratory extraction test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory scale test of ore processing"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:kevitsa-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "acceptable quality nickel and copper concentrates with a reasonable extraction level",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "concentrate quality",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В 2005 г . исследования , выполненные Геологической службой Фин -ляндии (GTK) в лабораторном масштабе , показали , что из руды Kevitsa можно получить концентраты ( никелевый и медный ) приемлемого качества с разумным уровнем извлечения в концентрат .",
+     "locator_kind": "md_para",
+     "locator": "para:225",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В 2005 г . исследования , выполненные Геологической службой Фин -ляндии (GTK) в лабораторном масштабе , показали , что из руды Kevitsa можно получить концентраты ( никелевый и медный ) приемлемого качества с разумным уровнем извлечения в концентрат .",
+   "locator_kind": "md_para",
+   "locator": "para:225",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "In the world “sulfide” nickel sector, there are practically no undeveloped large and rich sulfide deposits left.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "resource availability",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С одной стороны , неразработанных крупных и богатых сульфидных месторождений никеля практически не осталось",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The grade of ore feed for leading nickel producers from sulfide ore is gradually decreasing.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ore grade",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сортность рудной базы ведущих производителей никеля из сульфидной руды постепенно снижается",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Demand for nickel concentrates will exceed supply in the near term, and the deficit will continue to grow.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "supply‑demand balance",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по прогнозам аналитиков Brook Hunt в самое ближайшее время потребность действующих никелевых плавильных заводов в концентратах превысит их предложение и в последующие годы дефицит будет только нарастать",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "In copper industry, projects to process large volumes of low‑grade (0.2‑0.5 % Cu) ore are becoming the norm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project type",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в медной отрасли проекты переработки больших объемов низкосортной (0,2-0,5% Cu) руды постепенно становятся нормой",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "From 1968 to 1998 the diameter of SAG/AG mills grew from 9.8 m (32 ft) to 12 m (40 ft) and installed power from 5 MW to 20 MW; today diameters exceed 12 m and power is 27.5+ MW.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mill size and power",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если в 1968 г . мельницы SAG/AG имели диаметр 9,8 м (32') и установленную мощность 5 МВт , то в 1998 г . -диаметр 12 м (40') и установленную мощ -ность 20 МВт , а в настоящее время диаметр свыше 12 м и мощность 27,5+ МВт",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Replacement time for liners has been significantly reduced, reliability and liner life have increased.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "liner replacement time / reliability",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Существенно сократилось время , необходимое на замену футеровки , надежность и срок службы футеровки тоже увеличился",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "SAG+ball mill circuits provide higher specific productivity and better load control than AG mills.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "circuit performance",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "вариант SAG+ шаровая мель -ница , обеспечивающий более высокую удельную производительность и возможность контроля при высокой степени загрузки шаров , стал более распространенным",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "When using AG mills, feed must remain physically and mechanically homogeneous throughout the plant life.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "feed uniformity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при использовании мельницы AG необходимо обеспечивать поступление на переработку « однородного » по физико -механическим свойствам сырья на протяжении всего срока эксплуатации",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The size and power of ball mill drives have increased over time.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "size and power of ball mill drives",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Размеры и мощность двигателей шаровых мельниц тоже росли .",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "There is no basis to assume that grinding efficiency declines with increasing mill size.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "no_change",
+    "factor": "mill size increase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "каких -либо основания полагать , что с увеличением размеров падает эффектив -ность , нет .",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "With further increase of mill size, pulp speed becomes very high and should be treated with caution.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pulp speed",
+    "direction": "increases",
+    "factor": "mill size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Возможно , с осторожностью следует относиться к тому , что по мере дальнейшего увеличения размера мельницы становится очень высо -кой скорость пульпы .",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Ball mills can be used as primary, secondary, or re‑grinding mills, producing different product size ranges.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В цепочке измельчения шаровая мельница может использоваться в качестве первичной или вторичной мельницы , а также в качестве мельни -цы доизмельчения концентрата .",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Typical product size ranges for ball mills are: primary 80 %‑100‑200 µm, secondary 80 %‑100‑200 µm, and re‑grinding 80 %‑20‑40 µm.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В качестве первичной мельницы , измельчающей продукт дробления ... 80% -100-200 мкм ... В качестве вторичной мельницы ... 80% -100-200 мкм ... В качестве мельницы доиз - мельчения концентрата ... 80% -20-40 мкм",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.45,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "High‑pressure grinding rolls (HPGR) introduced about 20 years ago replace second‑ and third‑stage crushing and improve energy efficiency for hard ores.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "HPGR use",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При дроблении крепких руд с высокой производительностью энерге -тически эффективным решением оказались валки высокого давления HPGR, являющиеся высокопроизводительной дробилкой третьей и четвер -той стадии дробления .",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "HPGR can reduce capital costs and simplify multistage crushing circuits.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "decreases",
+    "factor": "HPGR implementation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Валки позволяют сократить капитальные затраты и упростить схему многостадийного дробления и измельчения в шаровых мельницах .",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "When the mineral is brittle and primarily broken by rolls, HPGR may generate excessive ultra‑fine fines.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ultra‑fine fines generation",
+    "direction": "increases",
+    "factor": "brittle mineral with HPGR",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "если минерал хрупкий и именно он преимущественно разруша -ется при дроблении валками , то получается большое количество нежела -тельной сверхтонкой мелочи .",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Outotec, FLSmidth and ThyssenKrupp Polysius are leading suppliers of AG, SAG and ball mills.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Компании Outotec, FLSmidth и ThyssenKrupp Polysis являются веду -щими игроками по разработке , производству и поставкам как мельниц са -моизмельчения (AG), мельницы полусамоизмельчения (SAG), так и шаро -вых (Ball Mill).",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Turbo‑pulp lifter Outotec TPL™ делает процесс измельчения в мельницах самоизмельчения и полусамоизмельчения более производительным, так как может ускорить процесс первичного измельчения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "повышение производительности",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Турбо‑пульповый лифтер Outotec TPLTM (Turbo Pulp Lifter) делает процесс измельчения в мельницах самоизмельчения и полусамоизмельчения более производительным , так как может ускорить процесс первичного измельчения .",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "TPL является экологически безопасной технологией, и применяется для рационального переноса материала с целью повышения эффективности использования энергии.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "TPL является экологически безопасной технологией , и применяется для рационального переноса материала с целью повышения эффективности использования энергии .",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Более эффективное использование энергии в процессе измельчения может способствовать существенной экономии затрат на обогатительной фабрике.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "затраты",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более эффективное использование энергии в процессе измельчения может способствовать существенной экономии за‑трат на вашей обогатительной фабрике .",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Шаровые мельницы обычно используются для вторичного и третичного измельчения и являются наиболее часто применяемыми для подготовки материала к последующим этапам обогащения.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Как правило , шаровые мельницы используются для вторичного и третичного измельчения . Шаровые мельницы являются вторичными мельницами и наиболее часто используются для подготовки материала к последующим этапам обогащения .",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Стержневые мельницы применяются для первичного измельчения дробленой руды размером до -50 мм по мягким материалам и от -20 до 30 мм по более твёрдым материалам.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Стержневые мельницы используются прежде всего для первичного измельчения дробленой руды размером до -50 мм по мягким материалам и от -20 до 30 мм по более твердым , а также для подготовки питания вторичных шаровых мельниц .",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Outotec имеет всемирную сеть сервисных центров, обеспечивающих монтаж, ввод в эксплуатацию и пуск мельниц, а также широкий спектр услуг по модернизации, техобслуживанию и поставке запасных частей.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Специалисты компании Outotec обеспечивают надлежащий монтаж мельницы , её ввод в эксплуатацию и пуск . После ввода в эксплуатацию Outotec также предоставляет широкий спектр услуг : Модернизация завода и оборудования … Услуги по техобслуживанию … Поставка запасных частей от производителей оборудования …",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Шаровые мельницы серии Fuller‑Traylor® имеют диаметр установок более 8 м и оснащены гидростатической системой смазки.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Мельницы серии Fuller‑Traylor® имеют самую прочную конструкцию , из представленных в отрасли , диаметр установок достигает более 8 метров . Данные мельницы для работы в тяжелых условиях оснащены гидростатической системой смазки ...",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания имеет свыше 30 лет опыта в производстве мельниц полу -самоизмельчения и самоизмельчения",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "experience",
+    "direction": "increases",
+    "factor": "years of experience",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания имеет свыше 30 лет опыта в производстве мельниц полу -самоизмельчения и самоизмельчения",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "С начала 1980х годов компания FLSmidth проектирует и производит под маркой Fuller-Traylor мельницы полусамоизмельчения (SAG) и само -измельчения (AG).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "availability",
+    "direction": "increases",
+    "factor": "time period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С начала 1980х годов компания FLSmidth проектирует и производит под маркой Fuller-Traylor мельницы полусамоизмельчения (SAG) и само -измельчения (AG).",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Диаметр мельниц Fuller-Traylor SAG/AG варьирует от 5,5 м до 12,2 м , мощность достигает 22 МВт .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "size and power",
+    "direction": "increases",
+    "factor": "diameter, power",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Диаметр мельниц Fuller-Traylor SAG/AG варьирует от 5,5 м до 12,2 м , мощность достигает 22 МВт .",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Мельницы комплектуются гидростатической системой смазывания и оснащаются либо редукторным либо безредуктор -ным приводом .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "lubrication system and drive type",
+    "direction": "increases",
+    "factor": "hydrostatic lubrication, drive type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мельницы комплектуются гидростатической системой смазывания и оснащаются либо редукторным либо безредуктор -ным приводом .",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Стандартно в таких мельницах используется металличе -ская футеровка ; разгрузка материала осуществляется через решетку .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "lining and discharge method",
+    "direction": "increases",
+    "factor": "metal lining, grate discharge",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стандартно в таких мельницах используется металличе -ская футеровка ; разгрузка материала осуществляется через решетку .",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "ThyssenKrupp Polysius вместе со своими дочерними компаниями на 5 континентах мира объединяет более чем 2500 сотрудников и является од -ним из ведущих предприятий по инжинирингу оборудования для цемент -ной промышленности и сектора переработки минерального сырья .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "size and market position",
+    "direction": "increases",
+    "factor": "employee count, market leadership",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ThyssenKrupp Polysius вместе со своими дочерними компаниями на 5 континентах мира объединяет более чем 2500 сотрудников и является од -ним из ведущих предприятий по инжинирингу оборудования для цемент -ной промышленности и сектора переработки минерального сырья .",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "ThyssenKrupp Polysius поставляет мельницы как для само -и полуса -моизмельчения (AG и SAG), так и шаровые мельницы различных разме -ров .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product range",
+    "direction": "increases",
+    "factor": "type and size of mills",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ThyssenKrupp Polysius поставляет мельницы как для само -и полуса -моизмельчения (AG и SAG), так и шаровые мельницы различных разме -ров .",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Максимальные размеры поставляемых шаровых мельниц : диаметр 7,3 м , длина 10,1-12,5 м , мощность 10,0-13,3 МВт .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "size and power limits",
+    "direction": "increases",
+    "factor": "diameter, length, power",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Максимальные размеры поставляемых шаровых мельниц : диаметр 7,3 м , длина 10,1-12,5 м , мощность 10,0-13,3 МВт .",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "ThyssenKrupp Polysius является лидером по поставке инерционных волков высокого давления (HPGR).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "market leadership",
+    "direction": "increases",
+    "factor": "HPGR supply",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ThyssenKrupp Polysius является лидером по поставке инерционных волков высокого давления (HPGR).",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Проект Santa Rita был введен в строй компанией Mirabela Nickel в октябре 2009 г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "commissioning date",
+    "direction": "increases",
+    "factor": "date",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проект Santa Rita был введен в строй компанией Mirabela Nickel в октябре 2009 г .",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Santa Rita месторождение вкрапленной сульфидной никелевой ру -ды .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ore type",
+    "direction": "increases",
+    "factor": "sulphide nickel ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Santa Rita месторождение вкрапленной сульфидной никелевой ру -ды .",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Суммарные запасы по JORC на 31.12.2010 составляли 159,3 млн т с 0,52% Ni и 0,13% Cu.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource size and grade",
+    "direction": "increases",
+    "factor": "tonnage, Ni%, Cu%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарные запасы по JORC на 31.12.2010 составляли 159,3 млн т с 0,52% Ni и 0,13% Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Добычу ведут открытым способом , обогащение руды -по обычной схеме : дробление -измельчение (SAG+ шаровая мельница ) -флотация .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "process scheme",
+    "direction": "increases",
+    "factor": "open pit mining, SAG + ball mill, flotation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добычу ведут открытым способом , обогащение руды -по обычной схеме : дробление -измельчение (SAG+ шаровая мельница ) -флотация .",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Исходная проектная производительность О / Ф составляла 4,6 млн т / г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "4,6 млн т / г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Исходная проектная производительность О / Ф составляла 4,6 млн т / г .",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Руду можно измельчать в мельнице полусамоизмельчения , абразивные свойства руды меньше , чем у кварца , но все -таки довольно высокие .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "grindability",
+    "direction": "increases",
+    "factor": "abrasive properties relative to quartz",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Руду можно измельчать в мельнице полусамоизмельчения , абразивные свойства руды меньше , чем у кварца , но все -таки довольно высокие .",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The start‑up experienced only minor problems that required adjustments, and the time to reach design grinding performance was measured in days.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Компания Mirabela отмечает , что пуск сопровождался лишь незна -чительными проблемами , требующими корректировки , и период выхода на проектную производительность цепочки измельчения исчисляется днями .",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The contract for equipment supply was valued at 20,96 млн USD and was signed in April 2007.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Контракт стоимостью 20,96 млн USD на поставку оборудования Mirabela заключила с Outotec ещё в апреле 2007 г .",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The abrasive index of the ore is 0,346.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Индекс абразивности 0,346",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The optimal particle size for flotation is P80 = 125 µm.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Оптимальный размер частиц , Р 80 125 мкм",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Nickel extraction from the concentrate is approximately 70 %.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Извлечение никеля ~70%",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Nominal plant throughput is 50 000 t/d initially and will increase to 100 000 t/d from the 5th year (2 circuits).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "100 000 t/d",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производительность О / Ф составит сначала 50 тыс т / сут , с 5го года эксплуатации будет увеличена до 100 тыс т / сут (2 цепочки ).",
+   "locator_kind": "md_para",
+   "locator": "para:179",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Average nickel grade of feed ore is 0.35 % Ni.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Средняя сорт -ность поступающего на переработку сырья 0,35% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:179",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Ausenco selected one SAG mill (22 MW, 11.6 m dia, 6.7 m EGL) and two ball mills (12 MW each, 7.9 m dia, 7.9 m EGL) for each 50 000 t/d circuit.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Ausenco выбрала вариант с одной мельницей SAG на 22 МВт диа -метром 11,6 м (38 футов ), эффективной длиной измельчения (egl) 6,7 м и 2 шаровые мельницы на 12 Мвт диаметром 7,9 м (26 футов ) и эффективной длиной измельчения 7,9 м для каждой цепочки по 50 тыс т / сут .",
+   "locator_kind": "md_para",
+   "locator": "para:180",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Ball mills operate in a closed circuit with hydrocyclones to achieve product size P80 150 µm.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Шаровые мельницы работают в замкнутой цепи с гидроциклонами , обеспечивая це -левую крупность продукта Р 80 150 мкм .",
+   "locator_kind": "md_para",
+   "locator": "para:180",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Standard industry capacity factor for large flotation plants processing moderately abrasive ore is 92 % (8059 operating hours per year).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Номинальная производительность фабрики по коэффициенту готов -ности оборудования 92% или 8059 рабочих часов в год -это стандарт от -расли для крупных флотационных фабрик , перерабатывающих умеренно абразивную руду .",
+   "locator_kind": "md_para",
+   "locator": "para:181",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Primary crushing uses a 60×89 mm cone crusher to achieve P80 101 mm.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Учитывая проектную производительность и умеренную крепость ру -ды , для первичного дробления выбрана конусная ( жираторная ) дробилка 60×89. Руду дробят до P80 101 мм .",
+   "locator_kind": "md_para",
+   "locator": "para:184",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Design uses 75th percentile values for all grinding parameters, so processing softer ore can yield higher throughput.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput for softer ore",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чтобы учесть вариации в крепости руды , Ausenco брала 75ую процентиль для всех параметров . Отсюда следует , что при переработке менее крепкой руды достижима более высокая производительность .",
+   "locator_kind": "md_para",
+   "locator": "para:189",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Target grind of P80 150 µm is based on flotation test results.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "- -целевой помол Р 80 150 мкм на базе опытов по флотации .",
+   "locator_kind": "md_para",
+   "locator": "para:186",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The plant design includes a SAG‑ball mill circuit capable of processing 50 000 t/d of ore.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Цепочка первичного измельчения состоит из связки мельницы SAG и шаровых мельниц . Выгружаемый из мельницы SAG продукт самотеком поступает в барабанный грохот , затем -в загрузочную воронку циклона .",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Installed motor power for the SAG mill is 22 000 kW.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Установленная мощность двигателя | | кВт | 22000 | 22000 |",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Electrical consumption per SAG mill is 17 731 kW.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Потребляемая элек - троэнергия на ко - жухе | | кВт | 17731 | 17731 |",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Ball mill electrical consumption is 12 296 kW.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Потребность в элек - троэнергии на ше - стерне | | кВт | 12296 | 12296 |",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Ввод проекта Dumont запланирован на конец 2015 г . -начало 2016 г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "start date",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ввод проекта Dumont запланирован на конец 2015 г . -начало 2016 г .",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "ТЭО по проекту компания планирует выпустить с 4 кв .2014 г ., ввод проекта в строй -в 2017 г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "release and construction start",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ТЭО по проекту компания планирует выпустить с 4 кв .2014 г ., ввод проекта в строй -в 2017 г .",
+   "locator_kind": "md_para",
+   "locator": "para:220",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Средн . коэффициент вскрыши 0,79:1",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "breakage ratio",
+    "direction": "increases",
+    "factor": "0,79:1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средн . коэффициент вскрыши 0,79:1",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Средн . извлечение никеля ,% 80%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery",
+    "direction": "increases",
+    "factor": "80%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средн . извлечение никеля ,% 80%",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Средн . сортность концентрата ,% 28% Ni",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel grade",
+    "direction": "increases",
+    "factor": "28% Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средн . сортность концентрата ,% 28% Ni",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Срок эксплуатации рудника 19 лет",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operating period",
+    "direction": "increases",
+    "factor": "19 лет",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Срок эксплуатации рудника 19 лет",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Средн . извлечение магнетита 90%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery",
+    "direction": "increases",
+    "factor": "90%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средн . извлечение магнетита 90%",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Средн . сортность магнетитового концентрата 66%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "66%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средн . сортность магнетитового концентрата 66%",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Наличн . издержки C1*, 1-5 годы 3,50 USD/ фунт Ni",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "unit cost",
+    "direction": "increases",
+    "factor": "3,50 USD/ фунт Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наличн . издержки C1*, 1-5 годы 3,50 USD/ фунт Ni",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Наличн . издержки C1*, средн . за весь период 3,55 USD/ фунт Ni",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "unit cost",
+    "direction": "increases",
+    "factor": "3,55 USD/ фунт Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наличн . издержки C1*, средн . за весь период 3,55 USD/ фунт Ni",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The project was approved by First Quantum management at the end of 2009.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Проект был утвержден руководством First Quantum в конце 2009 г .",
+   "locator_kind": "md_para",
+   "locator": "para:227",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The mining will be carried out by open‑pit methods with a pit depth of up to 528 m.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pit depth",
+    "direction": "increases",
+    "factor": "528 m",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глубина карьера -до 528 м .",
+   "locator_kind": "md_para",
+   "locator": "para:231",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The processing plant capacity is about 5 Mt per year of ore.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "5 млн т / г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проект -ная мощность О / Ф по руде -около 5 млн т / г .",
+   "locator_kind": "md_para",
+   "locator": "para:231",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The mine life for this scenario is estimated at 32 years.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mine life",
+    "direction": "increases",
+    "factor": "32 года",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Срок эксплуатации карьера в этом варианте оценивается в 32 года .",
+   "locator_kind": "md_para",
+   "locator": "para:232",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Primary crushing is performed in a cone (jaw) crusher.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "- -первичное дробление руды с карьера в конусной ( жираторной ) дробилке",
+   "locator_kind": "md_para",
+   "locator": "para:234",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Two AG grinding mills of 7 MW each operate in parallel in autogenous grinding mode.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mill power",
+    "direction": "increases",
+    "factor": "7 МВт",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "- -измельчение смеси руды в двух мельницах AG ( режим самоизмельчения ) мощностью по 7 МВт , работающих параллельно",
+   "locator_kind": "md_para",
+   "locator": "para:234",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The final product from the pebble mill has a P80 of 75 µm.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "- -одна галечная мельница в замкнутом цикле с циклонами , где получается конечный продукт P80 75 мкм",
+   "locator_kind": "md_para",
+   "locator": "para:234",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Copper concentrate flotation time: primary 30 min, re‑clean 70 min.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Время выдержки при флотации меди : | Основная | Мин | 30 | | Перечистная (4 стадии ) | Мин | 70",
+   "locator_kind": "md_para",
+   "locator": "para:238",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Nickel concentrate flotation time: primary 90 min, re‑clean 130 min.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Время выдержки при флотации никеля : | Основная | Мин | 90 | | Перечистная (4 стадии ) | Мин | 130",
+   "locator_kind": "md_para",
+   "locator": "para:238",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Equipment for the grinding circuit was ordered from Outotec in 2007 and delivered in 2010.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Заказ на приобретение оборудования для це -почки измельчения у Outotec разместила ещё в 2007 г . компания Scandinavian Minerals предыдущий владелец проекта . Оборудование было по -ставлено в 2010 г .",
+   "locator_kind": "md_para",
+   "locator": "para:239",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "At a processing rate of 5.5 Mt/yr with average nickel (sulphide) grade 0.268 % and copper grade 0.399 %, annual nickel concentrate production is about 98.4 kt/yr (12 % Ni) and copper concentrate production about 64.9 kt/yr (28 % Cu).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "При объеме переработки руды 5,5 млн т / г со средним содержанием никеля ( сульф ) 0,268% и 0,399% меди ежегодный объем производства никелевого концентрата составит около 98,4 тыс т / г со средним содержанием никеля 12% плюс 64,9 тыс т / г медного концентрата со средним содержани -",
+   "locator_kind": "md_para",
+   "locator": "para:240",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Base‑case capital cost is estimated at 400 million US$, NPV (10 %) 505 million US$, IRR 24 %, and payback period 4 years.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В базовом варианте ( при объеме переработки руды 5,5 млн т / г ) капитальные затраты по проекту оценены в 400 млн US$; NPV (10%) 505 млн US$, IRR 24%, срок окупаемости проекта оценен в ТЭР в 4 года .",
+   "locator_kind": "md_para",
+   "locator": "para:243",
+   "confidence": 0.81,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Alternative processing rates of 7.5 Mt/yr and 10.0 Mt/yr would require additional permits.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Альтернативные варианты в объемом переработки руды 7,5 и 10,0 млн т / г включают ресурсы в категории « предполагаемые ». Увеличение объемов переработки требует получения дополнительных разрешений .",
+   "locator_kind": "md_para",
+   "locator": "para:244",
+   "confidence": 0.9,
+   "document_id": "doc:мельницы_пч_2012-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

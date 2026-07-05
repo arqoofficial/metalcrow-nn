@@ -1,0 +1,1193 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:8-статья_цм-docx",
+   "title": "8 Статья_ЦМ.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\8 Статья_ЦМ.docx.md",
+   "artifact_sha256": "698df6717bb859943d54fa85b46d82061ec48c1b88e1b3938ee3894c8dc0b26e",
+   "okf_raw_path": "Статьи/8 Статья_ЦМ.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:sodium-hydroxide-naoh",
+   "label": "sodium hydroxide (NaOH)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-carbonate-na2co3",
+   "label": "sodium carbonate (Na2CO3)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-carbonate",
+   "label": "sodium carbonate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-hydroxide",
+   "label": "sodium hydroxide",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cathode-material-powders-obtained-with-naoh",
+   "label": "cathode material powders obtained with NaOH",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cathode-material-powders-obtained-with-na2co3",
+   "label": "cathode material powders obtained with Na2CO3",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:precursor",
+   "label": "precursor",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:na2co3",
+   "label": "Na₂CO₃",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:naoh",
+   "label": "NaOH",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mixed-hydroxides-ni-co-mn",
+   "label": "mixed hydroxides Ni‑Co‑Mn",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ni-co-mn-mixed-hydroxide",
+   "label": "Ni‑Co‑Mn mixed hydroxide",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:8-статья_цм-docx:0",
+   "document_id": "doc:8-статья_цм-docx",
+   "title": "Laboratory high‑temperature synthesis study",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "high‑temperature synthesis of cathode powders from an NMC‑type precursor with two different sodium sources",
+       "temperature_text": "high‑temperature (exact value not given in text)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sodium-hydroxide-naoh",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sodium-carbonate-na2co3",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Samples with a high degree of sodiumization were obtained using sodium hydroxide, while sodium carbonate leads to practically no sodiumization.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "NaOH vs Na2CO3",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "As a result of the experimental studies, samples with a high degree of sodium hydroxide were obtained using sodium hydroxide as a source. When using sodium carbonate, the material is practically not sodiumized.",
+     "locator_kind": "md_para",
+     "locator": "para:10",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "In this regard, a laboratory study was conducted on the effect of high-temperature synthesis conditions on the microstructure of the resulting powders of cathode materials for SIB when working with a precursor of the NMC type and various sodium sources (sodium carbonate and sodium hydroxide).",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:8-статья_цм-docx:1",
+   "document_id": "doc:8-статья_цм-docx",
+   "title": "Comparative thermoanalytical study",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "thermoanalytical investigation of the high‑temperature sodium‑hydroxide process using mixtures containing sodium carbonate and sodium hydroxide",
+       "temperature_text": "high‑temperature (exact value not given)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sodium-carbonate",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sodium-hydroxide",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The thermoanalytical study was performed to elucidate the mechanism of high‑temperature sodiumization.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "mechanistic insight",
+      "direction": "increases",
+      "factor": "thermoanalysis",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "In order to establish the mechanism and expand the theoretical basis in the field of synthesis of cathode materials for sodium-ion systems, a comparative thermoanalytical study of the high-temperature sodium hydroxide process using sodium carbonate and hydroxide in the mixture was carried out.",
+     "locator_kind": "md_para",
+     "locator": "para:10",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "In order to establish the mechanism and expand the theoretical basis in the field of synthesis of cathode materials for sodium-ion systems, a comparative thermoanalytical study of the high-temperature sodium hydroxide process using sodium carbonate and hydroxide in the mixture was carried out.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:8-статья_цм-docx:2",
+   "document_id": "doc:8-статья_цм-docx",
+   "title": "Morphology and phase composition analysis",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "scanning electron microscopy (SEM) and X‑ray spectral microanalysis of the obtained cathode material particles",
+       "temperature_text": "room‑temperature analysis",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cathode-material-powders-obtained-with-na2co3",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Morphological and compositional data were collected for both NaOH‑ and Na2CO3‑derived powders.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "characterization",
+      "direction": "increases",
+      "factor": "SEM/X‑ray analysis",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "The morphology and chemical and phase composition of the particles of the obtained materials were studied using scanning electron microscopy and X-ray spectral microanalysis.",
+     "locator_kind": "md_para",
+     "locator": "para:10",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "The morphology and chemical and phase composition of the particles of the obtained materials were studied using scanning electron microscopy and X-ray spectral microanalysis.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:8-статья_цм-docx:3",
+   "document_id": "doc:8-статья_цм-docx",
+   "title": "Sodium‑incorporation using Na₂CO₃ (laboratory scale)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Natri‑sintering of precursor (Ni₀.₈₇Co₀.₁Mn₀.₀₃(OH)₂) with Na₂CO₃",
+       "temperature_text": "500 °C for 3 h, then 750 °C for 12 h",
+       "duration_text": "15 h total"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 773.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:precursor",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:na2co3",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Na excess in mixture",
+     "scope": "material",
+     "material_id": "mat:na2co3",
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Избыток Na 40",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Yield of SAM from mixture",
+     "scope": "material",
+     "material_id": "mat:na2co3",
+     "value": {
+      "min": null,
+      "nominal": 83.94,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Выход САМ от смеси, % 83,94",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "After sintering the material was water‑washed to remove excess sodium.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "post‑treatment",
+      "direction": "increases",
+      "factor": "Na content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "После обжига материал подвергался водной обработке (промывке) с целью удаления избытка натрия.",
+     "locator_kind": "md_para",
+     "locator": "para:54",
+     "confidence": 0.9
+    },
+    {
+     "text": "Post‑wash Na content dropped from 20.0 % to 2.28 % (mass).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "decreases",
+      "factor": "Na₂CO₃ sample",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Na_CAM_NMC_1 (до отмывки) … 20,0 … Na_CAM_NMC_1 (после отмывки) … 2,28",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Таблица 2 – Параметры натрирующего обжига РСАМ … 1 | 500°С_3ч_750°C_12ч | Na 2 CO 3 | 40 | 60 | 1,1 | 83,94",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:8-статья_цм-docx:4",
+   "document_id": "doc:8-статья_цм-docx",
+   "title": "Sodium‑incorporation using NaOH (laboratory scale)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Natri‑sintering of the same precursor with NaOH",
+       "temperature_text": "500 °C for 3 h, then 750 °C for 12 h",
+       "duration_text": "15 h total"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 773.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:precursor",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:naoh",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Na excess in mixture",
+     "scope": "material",
+     "material_id": "mat:naoh",
+     "value": {
+      "min": null,
+      "nominal": 33.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Избыток Na 33",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Yield of SAM from mixture",
+     "scope": "material",
+     "material_id": "mat:naoh",
+     "value": {
+      "min": null,
+      "nominal": 82.81,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Выход САМ от смеси, % 82,81",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "After washing the Na content fell from 21.5 % to 16.1 % (mass).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "decreases",
+      "factor": "NaOH sample",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Na_CAM_NMC_2 (до отмывки) … 21,5 … Na_CAM_NMC_2 (после отмывки) … 16,1",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.81
+    },
+    {
+     "text": "SEM shows more effective sodium incorporation in the NaOH‑treated sample than in the Na₂CO₃‑treated one.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "NaOH sample",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Анализ SEM-изображений частиц Na_CAM_NMC-2 … показал, что натрирование … произошло более эффективно, чем в образце Na_CAM_NMC-1.",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Таблица 2 – Параметры натрирующего обжига РСАМ … 2 | 500°С_3ч_750°C_12ч | NaOH | 33 | 67 | 1,1 | 82,81",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:8-статья_цм-docx:5",
+   "document_id": "doc:8-статья_цм-docx",
+   "title": "Laboratory tests of Na‑doping of Ni‑Co‑Mn mixed hydroxides",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "laboratory testing",
+       "temperature_text": "high‑temperature sintering",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mixed-hydroxides-ni-co-mn",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sodium-carbonate",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sodium-hydroxide",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Na incorporation using sodium carbonate",
+     "scope": "material",
+     "material_id": "mat:sodium-carbonate",
+     "value": {
+      "min": null,
+      "nominal": 0.87,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "использование карбоната натрия не обеспечивает встраивание натрия в слоистую структуру Ni 0.87 Co 0.1 Mn 0.03 (OH) 2",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "relatively high degree of Na‑doping NMC Na/ΣME = 0,84‑0,9 was achieved",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Na/ΣME",
+      "direction": "increases",
+      "factor": "use of NaOH",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В рамках проведенных исследований достигнута относительно высокая степень натрирования NMC Na/ΣME = 0,84-0,9.",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проведенные лабораторные испытания показали, что процесс натрирования смешанных гидроксидов Ni‑Co‑Mn происходит не так эффективно, как литирование в условиях получения катодных материалов для ЛИА [15].",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:8-статья_цм-docx:6",
+   "document_id": "doc:8-статья_цм-docx",
+   "title": "Effect of sintering temperature on Na‑doping degree",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "experimental sintering",
+       "temperature_text": "600 °C and 750 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 873.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ni-co-mn-mixed-hydroxide",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sodium-hydroxide",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Na/ΣME (degree of Na‑doping)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.46,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При увеличении температуры обжига степень натрирования увеличивается с мольного содержания от 0,46 после обжига при 600°С до 0,84 после обжига при 750°С.",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Na/ΣME (degree of Na‑doping)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.84,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При увеличении температуры обжига степень натрирования увеличивается с мольного содержания от 0,46 после обжига при 600°С до 0,84 после обжига при 750°С.",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "material is polycrystalline and multiphase, preventing electrochemical testing",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "phase composition",
+      "direction": "increases",
+      "factor": "incomplete Na‑doping",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Материал характеризуется поликристаллическим строением и, ввиду неполного натрирования, многофазным составом, что не позволило перейти на стадию исследования электрохимических характеристик.",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "При увеличении температуры обжига степень натрирования увеличивается с мольного содержания от 0,46 после обжига при 600°С до 0,84 после обжига при 750°С.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:8-статья_цм-docx:7",
+   "document_id": "doc:8-статья_цм-docx",
+   "title": "Sintering with sodium carbonate as Na source",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "experimental sintering",
+       "temperature_text": "high‑temperature sintering (exact value not given)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ni-co-mn-mixed-hydroxide",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sodium-carbonate",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Na/ΣME (degree of Na‑doping)",
+     "scope": "material",
+     "material_id": "mat:sodium-carbonate",
+     "value": {
+      "min": null,
+      "nominal": 0.08,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При использовании карбоната натрия в смеси материал после обжига характеризуется Na/ΣME = 0,08 (т. е. низкой степенью натрирования)",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Na2CO3 cannot be recommended for Na‑doping of high‑Ni RSAM",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "Na source suitability",
+      "direction": "decreases",
+      "factor": "low Na‑doping",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Na 2 CO 3 не может быть рекомендован для натрирования высоконикелевого РСАМ.",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "При использовании карбоната натрия в смеси материал после обжига характеризуется Na/ΣME = 0,08 (т. е. низкой степенью натрирования).",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The demand for batteries with reversible and efficient electrochemical storage and conversion of energy is growing from year to year.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "demand",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Currently, the demand for batteries with reversible and efficient electrochemical storage and conversion of energy is growing from year to year.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Sodium‑ion batteries (SIB) have high potential, especially for energy‑storage systems, according to experts.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "potential",
+    "direction": "increases",
+    "factor": "application in energy‑storage systems",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The high potential of sodium‑ion batteries (SIB) is estimated by experts primarily in energy storage systems.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Publications on cathode materials for sodium‑ion batteries rarely address the use of high‑nickel layered oxides.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "coverage",
+    "direction": "decreases",
+    "factor": "high‑nickel layered oxides",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Publications devoted to the production of cathode materials for sodium‑ion batteries (including from precursors used for lithium‑ion batteries) do not cover the issues of using high‑nickel layered oxides.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Optimizing sodiumization conditions for high‑nickel materials remains an open and promising research direction.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "optimization need",
+    "direction": "increases",
+    "factor": "sodiumization conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The issue of optimization of the conditions for sodium hydroxide in materials is one of the promising areas of research in the field of obtaining cathode materials for SIB and remains open.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Lithium‑ion batteries dominate the market for portable devices and electric vehicles due to high energy density and high operating voltage.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "market share",
+    "direction": "increases",
+    "factor": "energy density and voltage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Lithium‑ion batteries (LIB) ... occupy a dominant role on the battery market for portable devices and electric vehicles.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Scarcity, uneven distribution of raw‑material reserves and high lithium cost drive interest in alternative energy‑storage systems.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "driver",
+    "direction": "increases",
+    "factor": "lithium scarcity and cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "However, scarcity and uneven distribution of raw‑material reserves, as well as the high cost of lithium, push researchers and manufacturers toward developing alternative energy‑storage systems.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Главным преимуществом НИА является доступность и низкая стоимость натрия, что делает данные аккумуляторы более рентабельными для крупномасштабных областей применения, например, хранения энергии для электросетей/стационарных систем и электротранспорта.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost advantage",
+    "direction": "increases",
+    "factor": "sodium availability and low cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Главным преимуществом НИА является доступность и низкая стоимость натрия, что делает данные аккумуляторы более рентабельными для крупномасштабных областей применения, например, хранения энергии для электросетей/стационарных систем и электротранспорта",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "НИА значительно уступают ЛИА по электрохимическим характеристикам, особенно в части удельной плотности энергии, поскольку окислительно-восстановительный потенциал пары Na/Na+ (-2,71 В относительно стандартного водородного потенциала) на 0,3 В выше потенциала пары Li/Li+, а молекулярная масса натрия больше, чем масса лития.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "specific energy density",
+    "direction": "decreases",
+    "factor": "higher redox potential and larger atomic mass of Na",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "НИА значительно уступают ЛИА по электрохимическим характеристикам, особенно в части удельной плотности энергии, поскольку окислительно-восстановительный потенциал пары Na/Na+ (-2,71 В относительно стандартного водородного потенциала) на 0,3 В выше потенциала пары Li/Li+, а молекулярная масса натрия больше, чем масса лития",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Больший ионный размер Na+ (1,02 Å) по сравнению с размером Li+ (0,76 Å) ограничивает диффузию ионов натрия для деинтеркаляции/интеркаляции во время заряда/разряда, что влияет на общую кинетику процесса и стабильность материала.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "diffusion rate",
+    "direction": "decreases",
+    "factor": "larger ionic radius of Na+",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Больший ионный размер Na+ (1,02 Å) по сравнению с размером Li+ (0,76 Å) ограничивает диффузию ионов натрия для деинтеркаляции/интеркаляции во время заряда/разряда, что влияет на общую кинетику процесса и стабильность материала",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "В литературе описывается опыт получения катодных материалов, содержащих никель, кобальт и марганец для НИА, начиная с невысокого мольного содержания никеля от 0,3 до 0,5 и до повышенного от 0,6 до 0,8 долей.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "experimental variation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В литературе описывается опыт получения катодных материалов, содержащих никель, кобальт и марганец для НИА, начиная с невысокого мольного содержания никеля от 0,3 до 0,5 и до повышенного от 0,6 до 0,8 долей",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "В то же время в изученном объеме публикаций, касающихся синтеза различных катодных материалов для НИА, не освещены вопросы использования высоконикелевых (мольная доля Ni > 0,8) слоистых оксидов типа NMC.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "high‑nickel NMC oxides usage",
+    "direction": "no_change",
+    "factor": "lack of studies",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в изученном объеме публикаций, касающихся синтеза различных катодных материалов для НИА, не освещены вопросы использования высоконикелевых (мольная доля Ni > 0,8) слоистых оксидов типа NMC",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Методика эксперимента включала подготовку исходных материалов к обжигу, смешивание прекурсора с источником натрия, обжиг по заданным термическим программам, отмывку полученного катодного материала от избыточного натрия с последующей сушкой в вакууме.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "process steps",
+    "direction": "increases",
+    "factor": "described methodology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Методика эксперимента включала подготовку исходных материалов к обжигу, смешивание прекурсора с источником натрия, обжиг по заданным термическим программам, отмывку полученного катодного материала от избыточного натрия с последующей сушкой в вакууме",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Обжиги проводились в токе кислорода (не менее 99,85% об. О2) с расходом 1-3 л/мин.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "specified gas conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обжиги проводились в токе кислорода (не менее 99,85% об. О2) с расходом 1-3 л/мин",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Температура деионизированной воды, использующейся для промывки катодного материала, составляет 25°C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "specified temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура деионизированной воды, использующейся для промывки катодного материала, составляет 25°C",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "The melting point of sodium hydroxide is substantially lower than that of sodium carbonate: 323 °C versus 851 °C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "melting_point",
+    "direction": "decreases",
+    "factor": "NaOH vs Na₂CO₃",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "гидроксид натрия … обладает существенно более низкой температурой плавления: 323°С против 851°С.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Deionized water used for washing the cathode material is at 25 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "nonmonotonic",
+    "factor": "deionized water",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура деионизированной воды, использующейся для промывки катодного материала, составляет 25°C.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "The phase composition of the sintered samples is heterogeneous, consisting of NiO, Na‑Co‑Mn oxides (e.g., Na₀.₆CoO₂, NaMnO₂) and Na‑Ni oxides (e.g., NaNiO₂).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "phase homogeneity",
+    "direction": "decreases",
+    "factor": "sample",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "фазовый состав образцов не однороден, а именно являются смесью фаз NiO, натрий‑кобальт‑марганец содержащих оксидов (например, Na 0.6 CoO 2 , NaMnO 2 ) и натрий‑никель содержащих оксидов (например NaNiO 2 ).",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Particles of Na_CAM_NMC‑1 retain a spherical shape inherited from the precursor, while particles of Na_CAM_NMC‑2 are mainly polyhedral with partial spherical morphology.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle shape",
+    "direction": "decreases",
+    "factor": "Na_CAM_NMC‑2 vs Na_CAM_NMC‑1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "частицы Na_CAM_NMC-1 имеют сферическую форму, унаследованную от исходного РСАМ, а Na_CAM_NMC-2 - в основном полиэдрическую и лишь частично сферическую форму",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Approximately 20 % of the particles in Na_CAM_NMC‑1 exhibit cracks, and some contain sodium‑rich layered oxide phases.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crack occurrence",
+    "direction": "increases",
+    "factor": "Na_CAM_NMC‑1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оценочно в 20% об. частиц обнаружены трещины, внутри некоторых из них были обнаружены частицы натрированных слоистых оксидов",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Higher‑temperature treatment destroys the original RSAM structure, which may negatively affect the performance of the sodium‑layered oxide as a cathode material.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "structure integrity",
+    "direction": "decreases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более высокотемпературная обработка разрушает структуру исходного РСАМ, что может негативно сказаться на работе натрированного слоистого оксида, как катодного материала.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Using the lower‑melting‑point sodium source (sodium hydroxide) instead of the widely used sodium carbonate increases the degree of Na‑doping of the material.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Na‑doping degree",
+    "direction": "increases",
+    "factor": "sodium hydroxide vs sodium carbonate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проведенные исследования свидетельствуют о том, что использование более низкоплавкого источника натрия (гидроксида натрия) взамен широко используемого карбоната натрия повышает степень натрирования материала.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "The achieved degree of Na‑doping and homogeneity of the cathode material are still insufficient, leaving the optimization of SAM synthesis conditions for NIA as an open research direction.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Na‑doping degree and homogeneity",
+    "direction": "increases",
+    "factor": "process optimization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Недостижение необходимой степени натрирования и однородности катодного материала оставляет открытым вопрос оптимизации условий синтеза САМ для НИА, что представляет собой одно из перспективных направлений исследований в области получения катодных материалов для различных металл‑ионных систем.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "Differential thermal analysis (DTA) was used to study the processes occurring during interaction of high‑Ni RSAM with sodium carbonate and sodium hydroxide at high‑temperature sintering.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "С использованием дифференциального термического анализа (ДТА) исследованы процессы, протекающие при взаимодействии высоконикелевого РСАМ состава Ni 0,87 Co 0,1 Mn 0,03 (OH) 2 в смеси с карбонатом и гидроксидом натрия, используемыми в качестве источника натрия при высокотемпературном обжиге с целью натрирования и получения катодных материалов для НИА.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  },
+  {
+   "text": "The material obtained after sintering with sodium carbonate shows a low Na/ΣME value of 0,08, indicating poor Na‑doping.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Na/ΣME",
+    "direction": "decreases",
+    "factor": "use of sodium carbonate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При использовании карбоната натрия в смеси материал после обжига характеризуется Na/ΣME = 0,08 (т. е. низкой степенью натрирования).",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:8-статья_цм-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

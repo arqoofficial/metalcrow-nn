@@ -1,0 +1,595 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "title": "25 Статья - Бикетова Л.В. (ЛГМ).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\25 Статья - Бикетова Л.В. (ЛГМ).docx.md",
+   "artifact_sha256": "8101595f91d3e15e6ca2dd897017f56786bb7610d896d188b1c347ac304f7679",
+   "okf_raw_path": "Статьи/25 Статья - Бикетова Л.В. (ЛГМ).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:sample",
+   "label": "sample",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:CO",
+   "label": "CO",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-tetracarbonyl",
+   "label": "Nickel tetracarbonyl",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ferrocene",
+   "label": "Ferrocene",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:decane",
+   "label": "Decane",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:25-статья-бикетова-л-в-лгм-docx:0",
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "title": "Experiment 1",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "CO pyrolysis on iron Armco cup sample",
+       "temperature_text": "600 °C",
+       "duration_text": "1 hour ultrasonic cleaning before loading; heating to 600 °C before CO feed"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 873.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sample",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:CO",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "X‑ray diffraction pattern"
+     },
+     "method": null,
+     "snippet": "Дифрактограмма пробы характеризуется высоким уровнем фона, низкой интенсивностью и размытым профилем дифракционных максимумов.",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "tem"
+     },
+     "method": null,
+     "snippet": "На рисунке 2 приведено типичное изображение углеродсодержащей фазы из которой формируются различные кристаллические наночастицы, в т.ч. нанотрубки или фуллерены.",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Carbon nanostructures (nanotubes, fullerenes) formed on the sample surface.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "nanostructure formation",
+      "direction": "increases",
+      "factor": "CO pyrolysis at 600 °C",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На рисунке 3 приведена фотография углеродной нанотрубки, аморфизированной под действием пучка.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В опыте 1 систему промывали азотом и опрессовывали, образец нагревали до 600 0 С. По достижении требуемой температуры, подавали СО.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:25-статья-бикетова-л-в-лгм-docx:1",
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "title": "Experience 2",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "System washing with nitrogen and pressurization; liquid nickel tetracarbonyl introduced into an “internal” evaporator placed at the bottom of a glass reactor; lower part of reactor heated to 50 °C; sample heated to 200 °C; nickel coating formed; temperature raised to 450 °C; CO fed to lower part of reactor; gradual blackening of sample observed.",
+       "temperature_text": "200 °C then 450 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 473.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-tetracarbonyl",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Heterogeneous decomposition of nickel tetracarbonyl on the substrate and growth of a nickel coating were observed; after coating, the sample blackened when CO was introduced.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reaction behavior",
+      "direction": "increases",
+      "factor": "CO flow",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Отмечалось гетерогенное разложение тетракарбонила никеля на подложке и рост никелевого покрытия. После покрытия подложки слоем никеля, температуру образца поднимали до 450 °C, в нижнюю часть реактора подавали СО. Постепенно происходило почернение образца.",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В опыте 2 систему промывали азотом и опрессовывали. Жидкий тетракарбонил никеля вводили в ёмкость («внутренний» испаритель), установленную в нижней части стеклянного реактора. Нижнюю часть реактора помещали в термостат и нагревали до 50 0 С. Образец нагревали до 200 0 С. Отмечалось гетерогенное разложение тетракарбонила никеля на подложке и рост никелевого покрытия. После покрытия подложки слоем никеля, температуру образца поднимали до 450 0 С, в нижнюю часть реактора подавали СО. Постепенно происходило почернение образца.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:25-статья-бикетова-л-в-лгм-docx:2",
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "title": "Experience 3",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "System washing with nitrogen and pressurization; sample heated to 700 °C; gas mixture fed to reactor; intense formation of loose deposit on substrate observed.",
+       "temperature_text": "700 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 973.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The deposit was identified as a carbonyl nickel nanopowder.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Было установлено, что при таких технологических параметрах был сформирован карбонильный никелевый нанопорошок.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В опыте 3 систему промывали азотом и опрессовывали. Образец нагревали до температуры 700 0 С, после чего в реактор подавали газовую смесь. Наблюдалось интенсивное образование рыхлого осадка на подложке.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:25-статья-бикетова-л-в-лгм-docx:3",
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "title": "Experience 4",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Internal evaporator placed at reactor bottom; mixture containing 0.6 mg ferrocene and 20 ml decane introduced; lower part of reactor heated to 170 °C; upper part cooled with water at 75 °C; system cooling water at ~18 °C; sample heated to 700 °C; small argon flow supplied to lower part of reactor.",
+       "temperature_text": "170 °C (lower), 75 °C (upper cooling), 700 °C (sample)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 443.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ferrocene",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:decane",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Morphology",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На рисунке 7 представлен характерный вид углеродных иголок.",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Carbon nanostructures (needles, fullerene C70, nanotube nodes) were formed under the described conditions.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Полученный осадок исследовался методами ПЭМ и СЭМ. На рисунке 7 представлен характерный вид углеродных иголок.",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В опыте 4 на дно реактора устанавливали «внутренний» испаритель, куда заливали смесь, содержащую 0,6 мг ферроцена и 20 мл декана. Нижнюю часть реактора размещали в термостате и нагревали до 170 0 С. Верхнюю часть реактора охлаждали водой с температурой 75 0 С, циркулирующей в контуре с термостатом, узлы системы охлаждались проточной водой с температурой приблизительно 18 0 С. Образец нагревали до 700 0 С, процесс проводили в небольшом токе аргона, который подавался в нижнюю часть реактора.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Метод пиролитического разложения углеводородов при 600 – 1100 0 С в присутствии нанесённых металлических катализаторов, осаждаемых из газовой фазы, либо из растворов солей, как наиболее простой метод, является приемлемым для получения углеродных нанотрубок в промышленных количествах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "temperature range 600 – 1100 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Метод пиролитического разложения углеводородов при 600 – 1100 0 С в присутствии нанесённых металлических катализаторов, осаждаемых из газовой фазы, либо из растворов солей, как наиболее простой метод, является приемлемым для получения углеродных нанотрубок в промышленных количествах.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.81,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Считается, что зарождение, рост и удлинение углеродных наноструктур начинается только после стадии восстановления образующегося из солей оксида металла, что обычно происходит при температурах выше 900-950 0 С.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "temperature > 900‑950 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Считается, что зарождение, рост и удлинение углеродных наноструктур начинается только после стадии восстановления образующегося из солей оксида металла, что обычно происходит при температурах выше 900-950 0 С.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.81,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "При температурах выше 1020-1050 0 С превалирует стадия утолщения наноструктур за счёт осаждения на их поверхности пиролитического углерода.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "dominant stage",
+    "direction": "increases",
+    "factor": "temperature > 1020‑1050 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При температурах выше 1020-1050 0 С превалирует стадия утолщения наноструктур за счёт осаждения на их поверхности пиролитического углерода.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "CO ↔ C + CO 2 (1).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reaction equation",
+    "direction": "nonmonotonic",
+    "factor": "CO disproportionation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "CO ↔ C + CO 2 (1).",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Целью проведения исследований являлось определение возможности практического получения массива вертикально ориентированных углеродных нанотрубок методом CVD с использованием различных металлических подложек, углеродсодержащих материалов (моноокисид углерода, углеводороды) и металлоорганических катализаторов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "goal",
+    "direction": "nonmonotonic",
+    "factor": "various substrates and catalysts",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Целью проведения исследований являлось определение возможности практического получения массива вертикально ориентированных углеродных нанотрубок методом CVD с использованием различных металлических подложек, углеродсодержащих материалов (моноокисид углерода, углеводороды) и металлоорганических катализаторов.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Reactor IV is a quartz glass vessel with steel flanges for sealing.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "material and sealing",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Реактор (IV) представляет собой сосуд из кварцевого стекла, имеющий стальные фланцы для герметизации и снабженный устройствами для подачи и удаления реакционного газа.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "The heater can raise sample temperature up to 800 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность нагревателя позволяет нагревать образцы до температуры 800 °С.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "The lower part of the reactor can serve as an evaporator when needed.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "versatility",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Нижняя часть реактора, при необходимости, может выполнять роль испарителя.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "The reactor is equipped with a water‑cooled jacket to protect the walls from fouling by pyrolysis products.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "wall protection",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снаружи реактор оборудован водяным проточным холодильником для защиты стенок от протекания на его поверхности реакций различного типа, и, как следствия затуманивания и зарастания внутренней поверхности реактора продуктами пиролиза.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Samples can be oxidized in‑reactor by heating to 600‑700 °C in air until surface coloration appears.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При необходимости, перед началом эксперимента, поверхность образцов можно окислять непосредственно в реакторе ... образец нагревается до температуры 600-700 °С до появления на поверхности металла «цветов побежалости», после чего охлаждается в токе азоте.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.45,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Reactor temperature is controlled by a thermocouple; a second thermocouple measures the sample surface temperature.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура в реакторе IV регулируется по показаниям термопары. Вторая термопара измеряет температуру на поверхности образца.",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "The evaporator (III) is used to saturate the carrier gas with catalyst or carbon‑containing vapors and is equipped with a bottom heater.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gas saturation",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В этом аппарате происходит насыщение реакционного газа парами катализатора, либо насыщение газа – носителя парами углеродсодержащих веществ. Испаритель снабжен донным нагревателем.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "The developed laboratory setup can be used for the synthesis of vertically oriented carbon nanotubes by catalytic decomposition of gaseous hydrocarbons.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проведенные исследования показывают возможность использования разработанной лабораторной установки для проведения процесса синтеза вертикально ориентированных углеродных нанотрубок методом каталитического разложения газообразных углеводородов.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.81,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Scanning and transmission electron microscopy confirm the formation of carbon nanostructures when carbon monoxide is used as the carbon source, indicating the prospectiveness of this research direction.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Исследования полученных образцов методами сканирующей электронной микроскопии и просвечивающей электронной микроскопии подтверждают факт формирования углеродных наноструктур при использовании в качестве источника углерода монооксида углерода, что свидетельствует о перспективности данного направления работы.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Further experiments on carbon nanotube synthesis should be carried out on various substrate types while varying synthesis conditions.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Дальнейшие эксперименты по синтезу углеродных нанотрубок необходимо провести на различных типах подложек при варьировании условий получения.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:25-статья-бикетова-л-в-лгм-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

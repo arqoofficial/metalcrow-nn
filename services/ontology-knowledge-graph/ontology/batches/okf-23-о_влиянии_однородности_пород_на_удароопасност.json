@@ -1,0 +1,960 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "title": "23 О_ВЛИЯНИИ_ОДНОРОДНОСТИ_ПОРОД_НА_УДАРООПАСНОСТЬ_МЕСТОРОЖДЕНИЙ.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\23 О_ВЛИЯНИИ_ОДНОРОДНОСТИ_ПОРОД_НА_УДАРООПАСНОСТЬ_МЕСТОРОЖДЕНИЙ.docx.md",
+   "artifact_sha256": "7ba3693a0a92809b2a299b834b8a55add92b73a896d67654befadc7620d86fb6",
+   "okf_raw_path": "Статьи/23 О_ВЛИЯНИИ_ОДНОРОДНОСТИ_ПОРОД_НА_УДАРООПАСНОСТЬ_МЕСТОРОЖДЕНИЙ.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:rock-samples",
+   "label": "Rock samples",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:homogeneous-column",
+   "label": "Homogeneous column",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:heterogeneous-column",
+   "label": "Heterogeneous column",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:core-samples-from-multiple-deposits",
+   "label": "Core samples from multiple deposits",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:23-о_влиянии_однородности_пород_на_удароопасност:0",
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "title": "Correlation study of strength variability coefficients with rock‑burst hazard",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Collected factual data for 44 rock varieties from 18 different mining sites and analyzed the correlation between coefficients of variation of uniaxial compressive and tensile strength in local zones of the rock mass and the occurrence of rock bursts."
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rock-samples",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Выявлена зависимость удароопасности массива от коэффициентов вариации.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "rock‑burst hazard",
+      "direction": "increases",
+      "factor": "coefficient of variation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Сделаны выводы о наличии зависимости удароопасности массива от коэффициентов вариации.",
+     "locator_kind": "md_para",
+     "locator": "para:6",
+     "confidence": 0.9
+    },
+    {
+     "text": "Определены пороговые значения коэффициента вариации, свидетельствующие об опасности ударов на месторождении.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "rock‑burst hazard",
+      "direction": "increases",
+      "factor": "coefficient of variation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Предложены величины коэффициента вариации, которые свидетельствуют об опасности ударов на месторождении.",
+     "locator_kind": "md_para",
+     "locator": "para:6",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проведено исследование корреляции коэффициентов вариации прочности с удароопасностью массивов горных пород, для чего собраны фактические данные по 44 разновидностям пород с 18 различных объектов ведения горных работ.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:23-о_влиянии_однородности_пород_на_удароопасност:1",
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "title": "Thought experiment on homogeneous vs heterogeneous rock columns under uniaxial compression",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Incremental loading of two rock columns (one homogeneous, one with strength variation) until element failure, observing redistribution of stresses and damage accumulation.",
+       "temperature_text": "ambient (not specified)",
+       "duration_text": "not specified (conceptual loading steps)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:homogeneous-column",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:heterogeneous-column",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "material",
+     "material_id": "mat:heterogeneous-column",
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "presence of pre‑yield and post‑yield deformation stages"
+     },
+     "method": null,
+     "snippet": "В неоднородном целике присутствует допредельная пластическая и запредельная стадия деформирования из‑за поочередного разрушения отдельных элементов, в отличие от однородного целика.",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Homogeneity influences the rock‑burst hazard of a rock mass.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "*Таким образом описанный мысленный эксперимент объясняет, как однородность может влиять на удароопасность массива горных пород.*",
+     "locator_kind": "md_para",
+     "locator": "para:44",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для выполнения лабораторных испытаний часто производится отбор керновой пробы, размеры которой позволяют изготовить несколько лабораторных образцов.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:23-о_влиянии_однородности_пород_на_удароопасност:2",
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "title": "Laboratory data analysis of strength variability across several fields",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Collect core samples, prepare multiple laboratory specimens, measure uniaxial compressive strength, compute coefficient of variation, compare sites with recorded rock‑bursts to sites without.",
+       "temperature_text": "ambient (standard laboratory conditions)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:core-samples-from-multiple-deposits",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Low coefficient of variation of strength in local zones may serve as a criterion for rock‑burst hazard.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "coefficient of variation of strength",
+      "direction": "decreases",
+      "factor": "rock‑burst hazard",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Из всего вышесказанного можно предположить, что критерием удароопасности породного массива может служить низкий коэффициент вариации прочностных свойств в отдельных локальных областях массива.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для выполнения лабораторных испытаний часто производится отбор керновой пробы, размеры которой позволяют изготовить несколько лабораторных образцов.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Существующие критерии и методы прогноза опасности горных ударов недостаточно надежны.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Существующие критерии и методы прогноза опасности горных ударов недостаточно надежны.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Горные удары происходят не на всех месторождениях, которые отнесены к склонными и опасными по горным ударам согласно действующей нормативной документации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rock‑burst occurrence",
+    "direction": "decreases",
+    "factor": "site classification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Горные удары происходят не на всех месторождениях, которые отнесены к склонными и опасными по горным ударам согласно действующей нормативной документации.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Удароопасность массива горных пород может зависеть от однородности массива, а не только от свойств образца породы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rock‑burst hazard",
+    "direction": "increases",
+    "factor": "inhomogeneity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Иначе говоря, удароопасность массива горных пород может зависеть не только от склонности к ударам породы в образце, но и от других факторов.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Месторождение считается удароопасным с глубины H1, если в горных породах, составляющих не менее 10 % планируемого к отработке объёма, отношение модуля спада к модулю упругости > 1 и измеренное или расчётное главное напряжение превышает предел прочности породы при одноосном сжатии.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "rock‑burst hazard",
+    "direction": "increases",
+    "factor": "ratio of drop modulus to elastic modulus > 1 and principal stress > compressive strength",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В соответствии с п. 4 [2] месторождение следует считать удароопасным с глубины H1, если в горных породах, составляющих не менее 10 процентов планируемого к отработке объема, отношение модуля спада к модулю упругости больше 1 и измеренное или расчетное главное напряжение превышает предел прочности породы при одноосном сжатии.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Месторождение считается потенциально удароопасным с глубины H2, если в горных породах, составляющих не менее 10 % планируемого к отработке объёма, отношение модуля спада к модулю упругости > 1 и наибольшее горизонтальное напряжение превышает 80 % предела прочности на одноосное сжатие.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "potential rock‑burst hazard",
+    "direction": "increases",
+    "factor": "ratio of drop modulus to elastic modulus > 1 and horizontal stress > 80 % of compressive strength",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в соответствии с п. 5 [2] месторождение считается потенциально удароопасным с глубины Н2, если: в горных породах, составляющих не менее 10 процентов планируемого к отработке объема, отношение модуля спада к модулю упругости больше 1; наибольшее горизонтальное напряжение на наиболее напряженных участках месторождения превышает 80 процентов предела прочности на одноосное сжатие.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Склонными к горным ударам являются месторождения, в пределах которых имеются горные породы и руды с высокими упругими свойствами, способные к хрупкому разрушению под нагрузкой.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "rock‑burst susceptibility",
+    "direction": "increases",
+    "factor": "high elastic properties",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "склонными к горным ударам являются месторождения или их части, в пределах которых имеются горные породы и руды с высокими упругими свойствами способные к хрупкому разрушению под нагрузкой.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Месторождения относятся к склонным по горным ударам при достижении глубин, на которых действующие напряжения превышают 80 % от предела прочности на сжатие горных пород месторождения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "rock‑burst susceptibility",
+    "direction": "increases",
+    "factor": "effective stress > 80 % of compressive strength",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "месторождения относятся к склонным по горным ударам при достижении глубин, на которых действующие напряжения превышают 80 % от предела прочности на сжатие горных пород месторождения.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Существующие критерии удароопасности основаны на изучении горных пород только в образце.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Можно отметить, что существующие критерии удароопасности основаны на изучении горных пород только в образце.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Величина упругой энергии, которая высвобождается при разрушении участка породы, определяет магнитуду горного удара или иного сейсмического события.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "elastic energy determines seismic magnitude",
+    "direction": "increases",
+    "factor": "elastic energy released during rock failure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Величина упругой энергии, которая высвобождается при разрушении участка породы, определяет магнитуду горного удара или иного сейсмического события.",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Чем больше объём накопленной энергии, тем больше площадь единомоментно образующихся трещин.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crack area",
+    "direction": "increases",
+    "factor": "accumulated energy volume",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чем больше объём накопленной энергии, тем больше площадь единомоментно образующихся трещин",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "В соответствии с условием Гриффитса для условно мгновенного роста трещины длиной 2*l* должно соблюдаться условие превышения критического напряжения на краю трещины.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "critical stress",
+    "direction": "increases",
+    "factor": "crack length l, surface energy e_s, elastic modulus E",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В соответствии с условием Гриффитса для условно мгновенного роста трещины длиной 2 *l* должно соблюдаться условие превышения критического напряжения на краю трещины",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Критическое напряжение рассчитывается как σ_cr = sqrt( (2 e_s E) / (π l) ).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "critical stress",
+    "direction": "increases",
+    "factor": "surface energy e_s, elastic modulus E, crack half‑length l",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "σ_{cr}=\\sqrt{\\frac{2e_{s}E}{ \\pi l}}",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Если материал неоднороден, то критическое напряжение будет превышаться лишь на локальных участках, и рост трещины будет прерываться.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crack propagation continuity",
+    "direction": "decreases",
+    "factor": "material heterogeneity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в однородном материале рост трещины будет происходить устойчиво, но если материал неоднороден ... то критическое напряжение будет превышаться лишь на локальных участках. Соответственно, рост трещины будет прерываться",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.45,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Чем более однородным является образец породы, тем более однородным будет НДС в образце при его деформировании, следовательно, и трещинообразование будет происходить относительно более кратковременно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "decreases",
+    "factor": "rock sample homogeneity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "чем более однородным является образец породы, то есть если он не содержит крупных зёрен, слабых включений, тем более однородным будет НДС в образце при его деформировании, следовательно, и трещинообразование с последующим разрушением такого образца будет происходить относительно более кратковременно",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Уэуерсик и Фэйрхёрст утверждали, что существует влияние однородности породы на её хрупкость.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rock brittleness",
+    "direction": "increases",
+    "factor": "rock homogeneity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Уэуерсик и Фэйрхёрст утверждали, что существует влияние однородности породы на её хрупкость",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Численное моделирование с использованием метода конечных элементов и метода дискретных элементов показало влияние однородности породного массива на его удароопасность и хрупкость.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "impact hazard and brittleness",
+    "direction": "increases",
+    "factor": "rock mass homogeneity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "численное моделирование также позволяет выявить данную зависимость. Например, выполнялись исследования с применением метода конечных элементов ... и метода дискретных элементов ... которые показали влияние однородности породного массива на его удароопасность и хрупкость",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Наблюдениями подтверждается большая опасность ударов в более однородных породах.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "impact danger",
+    "direction": "increases",
+    "factor": "higher rock homogeneity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в их же статье указано, что наблюдениями подтверждается большая опасность ударов в более однородных породах",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Без учёта изменчивости свойств в модели долговременное деформирование борта карьера оканчивалось мгновенным и хрупким обрушением без проявления стадии прогрессирующего разрушения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "failure mode",
+    "direction": "increases",
+    "factor": "absence of property variability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Без учёта изменчивости свойств в модели долговременное деформирование борта карьера оканчивалось мгновенным и хрупким обрушением без проявления стадии прогрессирующего разрушения",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "The rock‑burst hazard of a rock mass depends on the variability of strength properties, not only on rock brittleness.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Иначе говоря, в масштабе массива для возникновения горных ударов, помимо хрупкости породы в образце, по‑видимому, требуются низкие значения коэффициента вариации прочности.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Energy release during failure is proportional to the volume of fracture formation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy release",
+    "direction": "increases",
+    "factor": "fracture volume",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если принимать, что объём разрушения породы (трещинообразования) пропорционален выбросу энергии, то неоднородный целик разрушается с меньшим выбросом энергии, чем левый.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "A homogeneous rock column releases more elastic energy than a heterogeneous column under the same loading conditions.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "elastic energy release",
+    "direction": "increases",
+    "factor": "homogeneity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Иначе говоря, левый целик разрушается в большей степени динамически, чем правый.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Low coefficient of variation of compressive strength in a local volume is a potential indicator of rock‑burst susceptibility.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "coefficient of variation of UCS",
+    "direction": "decreases",
+    "factor": "rock‑burst susceptibility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для проверки данного предположения проведём анализ фактических данных по вариации прочностных свойств пород различных месторождений.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "σ ≥ 0.8 UCS",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stress",
+    "direction": "increases",
+    "factor": "UCS",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "$$\\sigma \\geq 0.8 UCS,$$",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Для анализа принимались результаты определений дисперсии на более чем 10 образцах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sample size",
+    "direction": "increases",
+    "factor": "number of samples",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для анализа принимались результаты определений дисперсии на более чем 10 образцах.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Размер области массива, в пределах которого отбираются образцы, ограничивался интервалом 2÷100 м.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sampling interval",
+    "direction": "increases",
+    "factor": "interval length",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Размер области массива, в пределах которого отбираются образцы, ограничивался интервалом 2÷100 м.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Описанным способом выполнен анализ данных по 16 месторождениям, отрабатываемым подземным способом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "number of fields",
+    "direction": "increases",
+    "factor": "fields analyzed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Описанным способом выполнен анализ данных по 16 месторождениям, отрабатываемым подземным способом (Таблица 1).",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Границы этих зон могут и должны уточняться при дальнейшем накоплении аналогичных данных профессиональным сообществом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "zone boundaries",
+    "direction": "increases",
+    "factor": "additional data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Границы этих зон могут и должны уточняться при дальнейшем накоплении аналогичных данных профессиональным сообществом.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "В частности, требуется уточнение влияния размера области изучения свойств, которое на текущем этапе сложно оценить.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "study area size",
+    "direction": "increases",
+    "factor": "current difficulty",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В частности, требуется уточнение влияния размера области изучения свойств, которое на текущем этапе сложно оценить.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "В статье показано, как однородность массива горных пород может влиять на его удароопасность.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "homogeneity",
+    "direction": "increases",
+    "factor": "impact on rock mass brittleness and seismic hazard",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В статье показано, как однородность массива горных пород может влиять на его удароопасность.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Приведены публикации, в которых показано наличие зависимости хрупкости горных пород от их однородности.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "brittleness",
+    "direction": "increases",
+    "factor": "homogeneity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Приведены публикации, в которых показано наличие зависимости хрупкости горных пород от их однородности.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Произведён анализ фактических данных об удароопасности горных пород в массиве в зависимости от величины коэффициента вариации прочности на сжатие и растяжение.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "seismic hazard",
+    "direction": "increases",
+    "factor": "coefficient of variation of compressive and tensile strength",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Произведён анализ фактических данных об удароопасности горных пород в массиве в зависимости от величины коэффициента вариации прочности на сжатие и растяжение.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "На реальных данных показывается наличие корреляции удароопасности пород с величиной коэффициента вариации в ограниченной области массива.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "seismic hazard",
+    "direction": "increases",
+    "factor": "coefficient of variation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На реальных данных показывается наличие корреляции удароопасности пород с величиной коэффициента вариации в ограниченной области массива.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Представленная методика с использованием графика на рисунке 2 может быть полезен для уточнения прогноза удароопасности месторождений на основе других, широко применяемых критериев.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "seismic hazard prediction",
+    "direction": "increases",
+    "factor": "use of graph from figure 2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Представленная методика с использованием графика на рисунке 2 может быть полезен для уточнения прогноза удароопасности месторождений на основе других, широко применяемых критериев.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Для применения методики представляется полезным составление баз данных определений физико-механических свойств с пространственной привязкой проб.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "physical‑mechanical property definitions",
+    "direction": "increases",
+    "factor": "spatially referenced samples",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для применения методики представляется полезным составление баз данных определений физико-механических свойств с пространственной привязкой проб.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Предложенная методика, возможно, может применяться также для районирования месторождений по степени удароопасности и прогноза горных ударов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "regionalization by seismic hazard",
+    "direction": "increases",
+    "factor": "method applicability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Предложенная методика, возможно, может применяться также для районирования месторождений по степени удароопасности и прогноза горных ударов.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Анализ изменчивости свойств пород методами неразрушающего контроля или лабораторными испытаниями керна или штуфных проб может проводиться для оперативного контроля удароопасности выработок.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "seismic hazard control",
+    "direction": "increases",
+    "factor": "NDT or lab testing of core or plug samples",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Анализ изменчивости свойств пород методами неразрушающего контроля или лабораторными испытаниями керна или штуфных проб может проводиться для оперативного контроля удароопасности выработок.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Последние два утверждения требуют дальнейшей проверки экспериментальным путем на рудниках, на которых происходят горные удары.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method validity",
+    "direction": "increases",
+    "factor": "field tests at mines with seismic events",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Последние два утверждения требуют дальнейшей проверки экспериментальным путем на рудниках, на которых происходят горные удары.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Графики на рисунках 2, 3, 5 необходимо уточнять путём пополнения новыми данными для повышения его точности.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "graph accuracy",
+    "direction": "increases",
+    "factor": "addition of new data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Графики на рисунках 2, 3, 5 необходимо уточнять путём пополнения новыми данными для повышения его точности.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Необходимо формировать базы данных физико-механических испытаний пород, в особенности на месторождениях с породами, склонными к горным ударам.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "physical‑mechanical test data",
+    "direction": "increases",
+    "factor": "focus on rock masses prone to seismic events",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Необходимо формировать базы данных физико-механических испытаний пород, в особенности на месторождениях с породами, склонными к горным ударам.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Это позволит проверить и уточнить предложенный критерий удароопасности массива горных пород, а также выявить опасность конкретных типов пород или даже локальных участков массива.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "seismic hazard criterion",
+    "direction": "increases",
+    "factor": "availability of test data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это позволит проверить и уточнить предложенный критерий удароопасности массива горных пород, а также выявить опасность конкретных типов пород или даже локальных участков массива.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  },
+  {
+   "text": "Требуется накопление данных по месторождениям, на которых горные удары не происходят при прочих подтверждающих удароопасность условиях.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "absence of seismic events",
+    "direction": "increases",
+    "factor": "sites with no rock bursts under otherwise hazardous conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Требуется накопление данных по месторождениям, на которых горные удары не происходят при прочих подтверждающих удароопасность условиях.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.81,
+   "document_id": "doc:23-о_влиянии_однородности_пород_на_удароопасност",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,961 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:презентация-тяпкина-па-pptx",
+   "title": "Презентация Тяпкина ПА.pptx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Доклады\\Презентация Тяпкина ПА.pptx.md",
+   "artifact_sha256": "b2c534f7ad99590e729b3831c4b8626fbe808b83f677407d8bd96001f8708984",
+   "okf_raw_path": "Доклады/Презентация Тяпкина ПА.pptx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:велосиметр-zet-7156",
+   "label": "Велосиметр ZET 7156",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:акселератор-zet-7152n",
+   "label": "Акселератор ZET 7152N",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сеи-смостанция-zet-048-e-два-сеи-смоприемника-вс",
+   "label": "Сейсмостанция ZET 048‑E, два сейсмоприемника ВС 1313",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:тензометрическии-датчик-перемещении",
+   "label": "Тензометрический датчик перемещений",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:вибромонитор-micromate-с-функциеи-измерения-увв",
+   "label": "Вибромонитор Micromate с функцией измерения УВВ",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:высокоскоростная-камера-phantom-miro-c320",
+   "label": "Высокоскоростная камера Phantom Miro C320",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:phantom-miro-c320-high-speed-camera",
+   "label": "Phantom MIRO C320 high‑speed camera",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:accelerometer-zet-7152-n",
+   "label": "Accelerometer ZET 7152‑N",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сеи-смостанция-и-датчик-no1",
+   "label": "Сейсмостанция и датчик No1",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:датчик-no2",
+   "label": "датчик No2",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:презентация-тяпкина-па-pptx:0",
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "title": "Measurement of building natural vibration parameters",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of seismic sensors on lower and upper floors of a building and analysis with software «Fundamental Tone»",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:велосиметр-zet-7156",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:акселератор-zet-7152n",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:сеи-смостанция-zet-048-e-два-сеи-смоприемника-вс",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:тензометрическии-датчик-перемещении",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "frequency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "Гц",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "вертикальная ось –"
+     },
+     "method": null,
+     "snippet": "Верти‑кальная ось | 3,0-5,0",
+     "locator_kind": "md_para",
+     "locator": "para:9",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "Вертикальная ось – коэффициент затухания",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.1,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "0,1-0,5",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "frequency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.8,
+      "max": null
+     },
+     "unit": "Гц",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "малая ось –"
+     },
+     "method": null,
+     "snippet": "Малая ось | 3,8-4,6",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "frequency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.1,
+      "max": null
+     },
+     "unit": "Гц",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "большая ось –"
+     },
+     "method": null,
+     "snippet": "Большая ось | 3,1-3,4",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Определение параметров собственных колебаний здания в ПО «Fundamental Tone»",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "natural frequencies and damping",
+      "direction": "increases",
+      "factor": "не указано",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Определение параметров собственных колебаний здания в ПО «Fundamental Tone»",
+     "locator_kind": "md_para",
+     "locator": "para:83",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Определение параметров собственных колебаний здания в ПО «Fundamental Tone»",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:презентация-тяпкина-па-pptx:1",
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "title": "Measurement of building swing caused by blasting in a quarry",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of measurement equipment on lower and upper building levels during blasting operations in a quarry and recording of velocity and displacement",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:вибромонитор-micromate-с-функциеи-измерения-увв",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:высокоскоростная-камера-phantom-miro-c320",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.41,
+      "max": null
+     },
+     "unit": "мм/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "смещения нижний ярус 13.03.20"
+     },
+     "method": null,
+     "snippet": "0,41",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.28,
+      "max": null
+     },
+     "unit": "мм/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "смещения верхний ярус 13.03.20"
+     },
+     "method": null,
+     "snippet": "1,28",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Раскачка (сейсмовзрывная волна) 13.03.20",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.12,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "3,12",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.64,
+      "max": null
+     },
+     "unit": "мм/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "смещения нижний ярус 25.09.20"
+     },
+     "method": null,
+     "snippet": "0,64",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.43,
+      "max": null
+     },
+     "unit": "мм/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "смещения верхний ярус 25.09.20"
+     },
+     "method": null,
+     "snippet": "2,43",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Раскачка (ударно‑воздушная волна) 25.09.20",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "3,80",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Результаты измерений раскачки здания",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "вибрация",
+      "direction": "increases",
+      "factor": "не указано",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Результаты измерений раскачки здания",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Результаты измерений раскачки здания",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:презентация-тяпкина-па-pptx:2",
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "title": "Deformation monitoring of building structures under blast influence",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of custom-made tensometric displacement sensors on cracks in building structures and periodic calibration",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:тензометрическии-датчик-перемещении",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Рост деформаций – закрытие трещин"
+     },
+     "method": null,
+     "snippet": "Рост деформаций – закрытие трещин",
+     "locator_kind": "md_para",
+     "locator": "para:140",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Снижение деформаций – раскрытие трещин"
+     },
+     "method": null,
+     "snippet": "Снижение деформаций – раскрытие трещин",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Изменения ширины раскрытия трещин в конструкциях здания (под влиянием взрывов и погодных условий)",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "ширина трещин",
+      "direction": "increases",
+      "factor": "взрывы, погода",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Изменения ширины раскрытия трещин в конструкциях здания (под влиянием взрывов и погодных условий)",
+     "locator_kind": "md_para",
+     "locator": "para:151",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Изменения ширины раскрытия трещин в конструкциях здания (под влиянием взрывов и погодных условий)",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:презентация-тяпкина-па-pptx:3",
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "title": "High‑speed video recording of blasted blocks",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Use of high‑speed camera Phantom Miro C320 to film blasting of blocks in a quarry",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:высокоскоростная-камера-phantom-miro-c320",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Высокоскоростная видеосъёмка взрываемых блоков",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:презентация-тяпкина-па-pptx:4",
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "title": "High‑speed video recording of block explosions",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Recording the actual firing order of well charges in an explosive block with a Phantom MIRO C320 camera"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:phantom-miro-c320-high-speed-camera",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "frame rate",
+     "scope": "material",
+     "material_id": "mat:phantom-miro-c320-high-speed-camera",
+     "value": {
+      "min": null,
+      "nominal": 2000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Высокоскоростная камера Phantom MIRO C320 (2000 кадров в секунду)",
+     "locator_kind": "md_para",
+     "locator": "para:159",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The video captured the factual sequence of well detonations in the block.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Фактическая очередность взрывания скважин блока",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "ВЫСОКОСКОРОСТНАЯ ВИДЕОСЪЕМКА ВЗРЫВАЕМЫХ БЛОКОВ",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:презентация-тяпкина-па-pptx:5",
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "title": "Seismic impact measurement of a nearby explosion",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Instrumental recording of seismic vibrations during an explosion using accelerometers ZET 7152‑N"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:accelerometer-zet-7152-n",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "frequency",
+     "scope": "material",
+     "material_id": "mat:accelerometer-zet-7152-n",
+     "value": {
+      "min": 3.0,
+      "nominal": null,
+      "max": 150.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "range"
+     },
+     "method": null,
+     "snippet": "Акселерометр ZET 7152-N: рабочий диапазон 3 – 150 Гц",
+     "locator_kind": "md_para",
+     "locator": "para:240",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "sampling step",
+     "scope": "material",
+     "material_id": "mat:accelerometer-zet-7152-n",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "шаг дискретизации 1 мс.",
+     "locator_kind": "md_para",
+     "locator": "para:234",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Recorded accelerograms before and after band‑pass filtering show the effect of trend removal and integration.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Запись акселерограмм во время взрывных работ",
+     "locator_kind": "md_para",
+     "locator": "para:239",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "ИЗМЕРЕНИЯ ВЛИЯНИЯ СЕЙСМИЧЕСКОГО ДЕЙСТВИЯ ВЗРЫВ В БЛИЖНЕЙ ЗОНЕ",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:презентация-тяпкина-па-pptx:6",
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "title": "Measurement of longitudinal wave propagation speed",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Determination of permissible vibration speed using seismic stations and sensors No1 and No2"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:сеи-смостанция-и-датчик-no1",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:датчик-no2",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The measured speeds are compared with class‑dependent allowable deformation ratios.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Допустимая упр. отн. деформация*",
+     "locator_kind": "md_para",
+     "locator": "para:188",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "ИЗМЕРЕНИЕ СКОРОСТИ РАСПРОСТРАНЕНИЯ ПРОДОЛЬНОЙ ВОЛНЫ",
+   "locator_kind": "md_para",
+   "locator": "para:181",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Установка датчиков измерения сейсмического воздействия взрывов рекомендуется на твёрдой породе или на значительной бетонной массе плотно контактирующей с грунтом, на гипс или анкерные (болтовые) крепления",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "механическая надёжность",
+    "direction": "increases",
+    "factor": "жёсткая связь",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "1.Установка на твёрдые породы или на значительную бетонную массу плотно контактирующую с грунтом на гипс или анкерные (болтовые) крепления",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "Установка датчиков в грунт закапыванием и утрамбовкой является допустимым способом",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "надёжность установки",
+    "direction": "increases",
+    "factor": "заглубление",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "2. Установка в грунт закапыванием и утрамбовкой",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "Пригрузка мешком с песком допускается только для низких уровней воздействия",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mass",
+    "direction": "increases",
+    "factor": "низкий уровень воздействия",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "4. Пригрузка мешком с песком (только для низких уровней воздействия)",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "Не рекомендуется установка датчиков на рыхлых породах и неровных поверхностях, тонком слое бетона, рыхлом кирпиче или брусчатке, а также на шипах при отсутствии контакта из‑за слабой прижимки или растительности",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "надёжность установки",
+    "direction": "decreases",
+    "factor": "неподходящая поверхность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "1. Рыхлые породы и неровные поверхности",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "Рекомендуемые предельные значения колебаний верхнего перекрытия определены нормативными документами",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "amplitude",
+    "direction": "decreases",
+    "factor": "нормативные ограничения",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рекомендуемые предельные значения колебаний верхнего перекрытия",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "PVS (скорость поверхностных волн) при измерениях в разных датчиках составила 0,68 см/с, 1,36 см/с и 1,31 см/с",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "разные датчики",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "PVS=0,68см/с",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "Велосиграммы, зарегистрированные на фундаменте здания при ведении взрывных работ в карьере, показывают различную интенсивность вибраций",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "интенсивность вибраций",
+    "direction": "increases",
+    "factor": "взрывные работы",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Зарегистрированные на фундаменте здания велосиграммы при ведении взрывных работ в карьере",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "Class I structures (e.g., mine shafts, permanent galleries) require an allowable relative deformation of 0,0001.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "I | Особо ответственные сооружения ... | 0,0001",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.45,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "For surface blasting in quarries the seismic wave frequency range is 10‑60 Hz.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Взрывные работы на поверхности | Карьеры | 10-60",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "For underground blasting in a passage the seismic wave frequency range is 60‑300 Hz.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Взрывные работы в подземных условиях | Проходка | 60-300",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "The upper limit for seismic‑impact filtering is 33 Hz according to Rutman and Birbraer.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Ю. Л. Рутман, А. Н. Бирбраер – верхняя граница фильтрации 33 Гц при сейсмических воздействиях.",
+   "locator_kind": "md_para",
+   "locator": "para:218",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "The ZET 7152‑N accelerometer operates in the 3‑150 Hz band with a 1 ms sampling step.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Акселерометр ZET 7152-N: рабочий диапазон 3 – 150 Гц, шаг дискретизации 1 мс.",
+   "locator_kind": "md_para",
+   "locator": "para:232",
+   "confidence": 0.81,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "Typical charge diameters are 200‑380 mm for coal seam blasts, 76‑150 mm for quarry blasts, and 25‑76 mm for construction site blasts.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Взрывы на угольных разрезах dзар=200-380мм; Взрывы на карьере dзар=76-150мм; Взрывы на стройплощадках dзар=25-76мм",
+   "locator_kind": "md_para",
+   "locator": "para:207",
+   "confidence": 0.81,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  },
+  {
+   "text": "No normative documentation provides recommendations for seismic‑impact processing.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Нормативная документация – нет рекомендаций",
+   "locator_kind": "md_para",
+   "locator": "para:218",
+   "confidence": 0.9,
+   "document_id": "doc:презентация-тяпкина-па-pptx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,979 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "title": "48 Поведение силикатной составляющей при переработке Ni к-та -в редакцию Цв.металлы.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\48 Поведение силикатной составляющей при переработке Ni к-та -в редакцию Цв.металлы.docx.md",
+   "artifact_sha256": "501d40708a7f2e41e8ed3b9e8670e82024c2d5472eac87f45b428f9611938f74",
+   "okf_raw_path": "Статьи/48 Поведение силикатной составляющей при переработке Ni к-та -в редакцию Цв.металлы.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:nickel-concentrate-slag-oxidized-nickel-ash",
+   "label": "nickel concentrate slag (oxidized nickel ash)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-powder-nptp",
+   "label": "nickel powder (NPTP)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-concentrate",
+   "label": "nickel concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coke-from-ks-furnaces",
+   "label": "coke from KS furnaces",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:reduced-nickel-oxide-from-tube-furnaces",
+   "label": "reduced nickel oxide from tube furnaces",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:magnetic-separation-products",
+   "label": "magnetic separation products",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:residue-of-chlorination-leaching-from-downstream",
+   "label": "residue of chlorination leaching from downstream hydrometallurgical stages",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:products-listed-in-table-3",
+   "label": "products listed in Table 3",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-powder-magnetic-fraction",
+   "label": "nickel powder magnetic fraction",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:48-поведение-силикатнои-составляющеи-при-перераб:0",
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "title": "Pilot tests of pyrometallurgical upgrades (2000s)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "pyrometallurgical upgrades of roasting and solid‑phase reduction in tube furnaces"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-concentrate-slag-oxidized-nickel-ash",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "degree of metallisation of nickel powder",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 90.0,
+      "nominal": null,
+      "max": 95.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в результате испытаний по совершенствованию пирометаллургических переделов обжига и твердофазного восстановления, проведенных в 2000х годах под научным руководством П.С. Серегина, степень металлизации никелевого порошка достигла 90-95% отн.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "cementation activity of nickel powder",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "а цементационная активность никелевого порошка выросла до 80 % отн.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "allowed abandonment of KS furnaces used for producing active nickel powder",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "что в свою очередь позволило отказаться от печей КС, используемых для получения активного никелевого порошка.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в результате испытаний по совершенствованию пирометаллургических переделов обжига и твердофазного восстановления, проведенных в 2000х годах под научным руководством П.С. Серегина, степень металлизации никелевого порошка достигла 90-95% отн., а цементационная активность никелевого порошка выросла до 80 % отн.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:48-поведение-силикатнои-составляющеи-при-перераб:1",
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "title": "Industrial implementation of new nickel production (2016‑2018)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chlorine leaching of nickel powder with subsequent electro‑extraction using insoluble anodes"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-powder-nptp",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "refinery shop work was changed, electric furnaces for anode melting were abandoned, and a magnetic‑separation unit was commissioned",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "реализация проекта нового никелевого производства АО «Кольская ГМК» по технологии хлорного выщелачивания никелевого порошка с последующей электроэкстракцией никеля с нерастворимыми анодами привела к изменению работы рафинировочного цеха, отказу от применения электропечей для выплавки анодов и введение в эксплуатацию передела магнитной сепарации",
+     "locator_kind": "md_para",
+     "locator": "para:6",
+     "confidence": 0.81
+    },
+    {
+     "text": "magnetic separation improves quality of nickel powder for tube furnaces by removing non‑magnetic components",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "который обеспечивает повышение качества никелевого порошка трубчатых печей (НПТП) удаляя из него непрореагировавший уголь, оксиды металлов и другие немагнитные компоненты",
+     "locator_kind": "md_para",
+     "locator": "para:6",
+     "confidence": 0.9
+    },
+    {
+     "text": "removal of electric furnaces created a need for strict control of carbon and slag‑forming components in nickel powder sent to chlorine leaching",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "исключение из технологической цепочки электропечей привело к необходимости серьезного контроля содержания углерода и шлакообразующих компонентов в никелевом порошке, отправляемого на хлорное выщелачивание",
+     "locator_kind": "md_para",
+     "locator": "para:6",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "реализация проекта нового никелевого производства АО «Кольская ГМК» по технологии хлорного выщелачивания никелевого порошка с последующей электроэкстракцией никеля с нерастворимыми анодами привела к изменению работы рафинировочного цеха, отказу от применения электропечей для выплавки анодов и введение в эксплуатацию передела магнитной сепарации, который обеспечивает повышение качества никелевого порошка трубчатых печей (НПТП) удаляя из него непрореагировавший уголь, оксиды металлов и другие немагнитные компоненты.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:48-поведение-силикатнои-составляющеи-при-перераб:2",
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "title": "2020 technological audit of nickel branch at AO Kola GMK",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "sampling and analytical testing of various streams in the refinery shop",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:coke-from-ks-furnaces",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:reduced-nickel-oxide-from-tube-furnaces",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:magnetic-separation-products",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:residue-of-chlorination-leaching-from-downstream",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:nickel-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 0.16,
+      "max": null
+     },
+     "unit": "% mass",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "SiO2"
+     },
+     "method": null,
+     "snippet": "Содержание SiO 2 | % масс. | 0,16",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 0.38,
+      "nominal": null,
+      "max": 0.66
+     },
+     "unit": "% mass",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "SiO2"
+     },
+     "method": null,
+     "snippet": "Содержание SiO 2 | % масс. | 0,38-0,66 (0,47)",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 1.0,
+      "nominal": null,
+      "max": 1.3
+     },
+     "unit": "% mass",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "SiO2"
+     },
+     "method": null,
+     "snippet": "Содержание SiO 2 | % масс. | 1,0-1,3 (1,15)",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "Relative SiO2 distribution by processing stage (product)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 13.9,
+      "max": null
+     },
+     "unit": "% relative",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Распределение SiO 2 по переделам (продуктам) | % отн. | 13,9 | 27,0 | 59,1",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Share of SiO2 relative to regulatory limits",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 36.4,
+      "max": null
+     },
+     "unit": "% relative",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Доля от регламентных показателей | % отн. | 36,4 | 70,5 | 154,5",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "С никелевым концентратом поступает порядка 36% отн. от регламентных показателей SiO 2 , с оборотами, вводимыми в печи КС эта доля достигает уже 107% отн., с углем же вносится более 150% отн.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "SiO2 contribution",
+      "direction": "increases",
+      "factor": "source",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "С никелевым концентратом поступает порядка 36% отн. от регламентных показателей SiO 2 , с оборотами, вводимыми в печи КС эта доля достигает уже 107% отн., с углем же вносится более 150% отн.",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В 2020 году в АО «Кольская ГМК» был проведён технологический аудит работы никелевой ветки. В ходе испытаний в рафинировочном цехе были отобраны пробы никелевого концентрата, огарков печей КС, восстановленной закиси никеля трубчатых печей, продуктов магнитной сепарации и остатка хлорного выщелачивания, образующегося на последующих гидропеределах, расположенных в цехе электролиза никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:48-поведение-силикатнои-составляющеи-при-перераб:3",
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "title": "Microscopic and micro‑analytical study of SiO2‑bearing particles",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Scanning electron microscopy (SEM) combined with X‑ray micro‑analysis (EDS) of selected refinery products",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:products-listed-in-table-3",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "presence and morphology of SiO2‑containing particles"
+     },
+     "method": null,
+     "snippet": "Исследования методами растровой электронной микроскопии (РЭМ) и рентгеноспектрального микроанализа (РСМА) продуктов позволило определить формы и размеры частиц, содержащих SiO 2 .",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Исследования методами РЭМ‑РСМА поступили продукты следующего состава, представленные в таблице 3.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "composition",
+      "direction": "decreases",
+      "factor": "SiO2 forms",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На исследования методами РЭМ-РСМА поступили продукты следующего состава, представленные в таблице 3.",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На исследования методами РЭМ-РСМА поступили продукты следующего состава, представленные в таблице 3.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:48-поведение-силикатнои-составляющеи-при-перераб:4",
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "title": "Effect of missing recycle outlet on SiO₂ content and recycle yield",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "magnetic fraction processing of nickel powder"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-powder-magnetic-fraction",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "SiO₂ content in magnetic fraction of nickel powder",
+     "scope": "material",
+     "material_id": "mat:nickel-powder-magnetic-fraction",
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при отсутствии канала вывода оборотов из технологической цепочки содержание SiO 2 в магнитной фракции никелевого порошка вырастает до 4% масс.",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recycle product output",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 8.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "выход оборотов достигает 8,5%, возрастая в 3,5 раза.",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "necessity to remove a substantial part of the recycle stream from the processing scheme",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Полученные данные однозначно свидетельствуют о необходимости вывода существенной части оборотов из технологической схемы переработки магнитной фракции никелевого порошка.",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Полученные данные однозначно свидетельствуют о необходимости вывода существенной части оборотов из технологической схемы переработки магнитной фракции никелевого порошка.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Restoration of oxidised nickel in tube furnaces achieved 75‑80 % relative conversion, using fuel oil and coke fines as reductants.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Восстановление окисленного никеля в трубчатых печах достигало 75-80 % отн., а в качестве восстановителя использовался мазут и коксовая мелочь.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Electro‑refining of nickel anodes involved significant operational and energy costs and required large amounts of labour in harmful and aggressive conditions.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "технология электролитического рафинирования никелевых анодов сопровождалась значительными эксплуатационными и энергетическими затратами, что приводило к значительному количеству человеческого труда во вредных и агрессивных условиях",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Active nickel powder is used for cementation cleaning of hydrometallurgical solutions from copper.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Активный никелевый порошок используется для очистки растворов гидрометаллургического участка от меди.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "The desire to reduce operating costs of the expensive nickel‑powder production in KS furnaces led to the need to modernise roasting and ash‑reduction steps.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Желание снизить операционные затраты дорогостоящего производства никелевого порошка в печах КС, привело к необходимости модернизации переделов обжига никелевого концентрата и восстановления огарка в трубчатых вращающихся печах.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Fundamental knowledge of reduction processes from leading metallurgists contributed to higher metallisation and activity of NPTP.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Фундаментальные знания процессов восстановления работ выдающихся ученых-металлургов ... привел к повышению металлизации и активности НПТП.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Новая технология получения катодного никеля основана на хлорном выщелачивании НПТП, очистке образующихся растворов от примесей (Cu, Fe, Zn, Co) и последующей передачей очищенного электролита в электролизные ванны для получения никелевых катодов высокой чистоты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production method",
+    "direction": "increases",
+    "factor": "nickel cathode purity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время производится вывод на проектные показатели новой технологии получения катодного никеля, основанной на хлорном выщелачивании НПТП, очистки образующихся растворов от примесей (Cu, Fe, Zn, Co) и последующей передачей очищенного электролита в электролизные ванны для получения никелевых катодов высокой чистоты.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": "leaching"
+  },
+  {
+   "text": "Модернизация никелевого производства с переходом на новую технологию позволяет отказаться от использования анодной плавки восстановленного никелевого порошка и улучшить экологическую обстановку (снижение углеродного следа компании), минимизировать участие человека при взаимодействии с агрессивными средами, сократить операционные затраты и потери металла в процессе производства, повысить качество никелевой продукции.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "environmental impact, labor exposure, operating cost, metal loss",
+    "direction": "decreases",
+    "factor": "carbon footprint, human exposure, costs, losses",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Модернизация никелевого производства с переходом на новую технологию позволяет отказаться от использования анодной плавки восстановленного никелевого порошка и улучшить экологическую обстановку (снижение углеродного следа компании), минимизировать участие человека при взаимодействии с агрессивными средами, сократить операционные затраты и потери металла в процессе производства, повысить качество никелевой продукции.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Одним из требований к никелевому порошку, поступающему на выщелачивание, является содержание шлакообразующих компонентов (SiO2, Al2O3, CaO, MgO, Na2O и проч.), особенное в этом списке занимает диоксид кремния (SiO2), как наиболее весомый и проблемный компонент из прочих.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "SiO2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Одним из требований к никелевому порошку, поступающему на выщелачивание, является содержание шлакообразующих компонентов (SiO 2, Al 2 O 3 , CaO, MgO, Na 2 O и проч.), особенное в этом списке занимает диоксид кремния (SiO 2 ), как наиболее весомый и проблемный компонент из прочих.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Повышенное содержание SiO2 в пробе, поступающей на растворение, приводит к ухудшению фильтрации пульпы остатков хлорного растворения ЦЭН-2, приводит к образованию нерегламентированных оборотных продуктов, рост доли SiO2 в остатках хлорного растворения снижает эффективность флотации и последующей переработки пенного продукта на концентрат драгоценных металлов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "SiO2 content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышенное содержание SiO 2 в пробе, поступающей на растворение привод к ухудшению фильтрации пульпы остатков хлорного растворения ЦЭН-2, приводит к образованию нерегламентированных оборотных продуктов, Рост доли SiO 2 в остатках хлорного растворения снижает эффективность флотации и последующей переработки пенного продукта на концентрат драгоценных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": "leaching"
+  },
+  {
+   "text": "Требования к восстановленному порошку: Ni 89,15 % масс., SiO2 ≤0,44 % масс., C 0,118 % масс., Fe 3,74 % масс., Cu 4,00 % масс., Pb 0,0087 % масс., Zn 0,0075 % масс., As 0,04 % масс., Sb 0,0009 % масс., степень металлизации ≥96,6 % отн.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "composition limits and metallization degree",
+    "direction": "increases",
+    "factor": "Ni content, metallization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таблица 1 - Требования к восстановленному порошку | Ni | % масс. | 89,15 | | SiO 2 | % масс. | 0,44 | | C | % масс. | 0,118 | | Fe | % масс. | 3,74 | | Cu | % масс. | 4,00 | | Pb | % масс. | 0,0087 | | Zn | % масс. | 0,0075 | | As | % масс. | 0,04 | | Sb | % масс. | 0,0009 | | Степень металлизации | % отн. | не менее 96,6",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Содержание SiO2 в технологическую цепочку поступает по трем основным каналам: с никелевым концентратом, с оборотными материалами, вводимыми в КС, с восстановителем трубчатой печи.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Анализ показал, что SiO 2 в технологическую цепочку поступает по трем основным каналам: с никелевым концентратом, с оборотными материалами, вводимыми в КС, с восстановителем трубчатой печи.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Объёмная доля металлической фазы составляет не менее 90% об.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "объёмная доля металлической фазы",
+    "direction": "no_change",
+    "factor": "не менее 90% об.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объёмная доля металлической фазы составляет не менее 90% об.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.81,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Суммарная объёмная доля «примесных» компонентов не превышает 2% объёмных и состоит из остаточных оксидов цветных металлов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "объёмная доля примесных компонентов",
+    "direction": "no_change",
+    "factor": "не превышает 2% объёмных",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарная объёмная доля «примесных» компонентов не превышает 2% объёмных и состоит- остаточных оксидов цветных металлов",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.81,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Содержание SiO2 в магнитной фракции никелевого порошка составит 4,5% масс.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "no_change",
+    "factor": "4,5% масс.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "содержание SiO2 в магнитной фракции никелевого порошка составит 4,5% масс.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.81,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Доля оборотных продуктов гидрометаллургического передела достигает значения 8,5%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "phase_fraction",
+    "direction": "no_change",
+    "factor": "8,5%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доля оборотных продуктов гидрометаллургического передела достигает значения 8,5%.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Операция магнитной сепарации недостаточно эффективно разделяет немагнитную и магнитную фракции, что приводит к попаданию частиц типов II, III и IV в магнитный никелевый порошок.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "недостаточно эффективно",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "операция магнитной сепарации недостаточно эффективно разделяет немагнитную и магнитную фракции, что приводит к попаданию частиц типов II, III и IV в магнитный никелевый порошок",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Размер силикатных частиц может не превышать первых микрон, что затрудняет их разделение на участке магнитной сепарации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "размер силикатных частиц",
+    "direction": "decreases",
+    "factor": "не превышает первых микрон",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "фракционный состав таких частиц может не превышать первых микрон",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Four main types of slag-forming components were identified.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В результате работы было выделено четыре основных типа шлакообразующих компонентов.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Type I phase contributes no more than 14 % of the total SiO₂ entering the nickel sulfide concentrate processing technology.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SiO₂ contribution",
+    "direction": "no_change",
+    "factor": "≤14 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доля SiO 2 вносимая данной фазой не превышает 14% отн. от всего объема SiO 2 поступающего в технологию переработки сульфидного никелевого концентрата с получением никелевых катодов высокой чистоты.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Types II (ash component of coal) and IV (coal particles) are natural components present in the coal used as a reducer in tube furnaces.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Тип II (зольная составляющая углей) и Тип IV (частицы угля), относится к природным компонентам, содержащимся в угле, который используется в трубчатых печах в качестве восстановителя никелевого огарка.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "These slag-forming forms were not found in the products of the KS furnaces, indicating their transformation into Type III at high temperatures during oxidation of sulfide raw material.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Отметим, что данные формы шлакообразующих не были обнаружены в продуктах печей КС, что свидетельствует об их превращении в Тип III (а и б) в области высоких температур при окислении сульфидного сырья в печах КС.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "The most common form is Type IIIa, represented by fine dispersed strands of melted ash particles within the nickel oxide structure.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Наиболее распространенной формой существования силикатных форм является тип IIIа, который представлен мелкодисперсными прожилками плавленых капель зольной составляющей углей в структуре оксидов никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Removal of SiO₂ and other Type IIIa slag-forming components by the existing magnetic separation scheme is practically impossible.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "removal feasibility",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Анализ продуктов участка магнитной сепарации показал, что удаление SiO 2 и других шлакообразующих соответствующих типу IIIа при существующей схеме магнитной сепарации практически невозможен.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Non‑magnetic fractions contain Types II, IIIb and IV, demonstrating the principle possibility of removing such silicate forms.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "removal possibility",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В тоже время в немагнитной фракции присутствуют Тип II, IIIб и IV, что показывает принципиальную возможность удаления таких форм силикатов.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Current requirements for metal powder destined for hydrometallurgical dissolution do not match the industrial results obtained in pilot‑scale tests.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "requirement compliance",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Требования, предъявляемые к металлическому порошку, направляемому на растворение гидрометаллургическими методами, не соответствуют промышленным результатам, полученным в ходе опытно-промышленных испытаний.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "To meet silica content requirements after magnetic separation, it is necessary to exclude the introduction of recycle materials rich in ash component of coal into the KS furnace.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для соблюдения требований по содержанию силикатов в НПТП после прохождения магнитной сепарации, необходимо исключить введение оборотных материалов гидрометаллургического передела, богатых зольной составляющей углей в печи КС.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  },
+  {
+   "text": "Improvement of the magnetic separation unit scheme and optimization of tube furnace and KS furnace operating regimes are required.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Кроме того, требуется совершенствование технологической схемы работы участка магнитной сепарации и оптимизация режимов работы трубчатых печей и печей КС.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:48-поведение-силикатнои-составляющеи-при-перераб",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

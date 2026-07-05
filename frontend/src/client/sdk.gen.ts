@@ -3,7 +3,7 @@
 import type { CancelablePromise } from './core/CancelablePromise';
 import { OpenAPI } from './core/OpenAPI';
 import { request as __request } from './core/request';
-import type { AdminAdminCoverageResponse, AnalyticsCoverageResponse, AnalyticsMetricsResponse, ChatListSessionsResponse, ChatCreateSessionData, ChatCreateSessionResponse, ChatGetSessionHistoryData, ChatGetSessionHistoryResponse, ChatDeleteSessionData, ChatDeleteSessionResponse, ChatPostMessageData, ChatPostMessageResponse, GraphQueryData, GraphQueryResponse, GraphSubgraphData, GraphSubgraphResponse, GraphPathData, GraphPathResponse, IngestUploadData, IngestUploadResponse2, IngestRunIngestData, IngestRunIngestResponse, IngestListFilesData, IngestListFilesResponse, IngestGetFileDetailData, IngestGetFileDetailResponse, IngestDeleteFileData, IngestDeleteFileResponse, IngestReindexResponse, IngestGetStatusData, IngestGetStatusResponse, LoginLoginAccessTokenData, LoginLoginAccessTokenResponse, LoginTestTokenResponse, LoginRecoverPasswordData, LoginRecoverPasswordResponse, LoginResetPasswordData, LoginResetPasswordResponse, LoginRecoverPasswordHtmlContentData, LoginRecoverPasswordHtmlContentResponse, PrivateCreateUserData, PrivateCreateUserResponse, SourcesDownloadContentData, SourcesDownloadContentResponse, UsersReadUsersData, UsersReadUsersResponse, UsersCreateUserData, UsersCreateUserResponse, UsersReadUserMeResponse, UsersDeleteUserMeResponse, UsersUpdateUserMeData, UsersUpdateUserMeResponse, UsersUpdatePasswordMeData, UsersUpdatePasswordMeResponse, UsersRegisterUserData, UsersRegisterUserResponse, UsersReadUserByIdData, UsersReadUserByIdResponse, UsersUpdateUserData, UsersUpdateUserResponse, UsersDeleteUserData, UsersDeleteUserResponse, UtilsTestEmailData, UtilsTestEmailResponse, UtilsHealthCheckResponse, WikiGetTreeData, WikiGetTreeResponse, WikiSearchData, WikiSearchResponse2, WikiGetDocumentContentData, WikiGetDocumentContentResponse, WikiDownloadMarkdownData, WikiDownloadMarkdownResponse, WikiDownloadRawData, WikiDownloadRawResponse } from './types.gen';
+import type { AdminAdminCoverageResponse, AdminListRawFilesData, AdminListRawFilesResponse, AdminParseRawFileData, AdminParseRawFileResponse, AnalyticsCoverageResponse, AnalyticsMetricsResponse, ChatListSessionsResponse, ChatCreateSessionData, ChatCreateSessionResponse, ChatGetSessionHistoryData, ChatGetSessionHistoryResponse, ChatDeleteSessionData, ChatDeleteSessionResponse, ChatPostMessageData, ChatPostMessageResponse, GraphQueryData, GraphQueryResponse, GraphOverviewData, GraphOverviewResponse2, GraphKgData, GraphKgResponse2, GraphSubgraphData, GraphSubgraphResponse, GraphPathData, GraphPathResponse, IngestUploadData, IngestUploadResponse2, IngestRunIngestData, IngestRunIngestResponse, IngestListFilesData, IngestListFilesResponse, IngestGetFileDetailData, IngestGetFileDetailResponse, IngestDeleteFileData, IngestDeleteFileResponse, IngestReindexResponse, IngestGetStatusData, IngestGetStatusResponse, LoginLoginAccessTokenData, LoginLoginAccessTokenResponse, LoginTestTokenResponse, LoginRecoverPasswordData, LoginRecoverPasswordResponse, LoginResetPasswordData, LoginResetPasswordResponse, LoginRecoverPasswordHtmlContentData, LoginRecoverPasswordHtmlContentResponse, PrivateCreateUserData, PrivateCreateUserResponse, SourcesDownloadContentData, SourcesDownloadContentResponse, UsersReadUsersData, UsersReadUsersResponse, UsersCreateUserData, UsersCreateUserResponse, UsersReadUserMeResponse, UsersDeleteUserMeResponse, UsersUpdateUserMeData, UsersUpdateUserMeResponse, UsersUpdatePasswordMeData, UsersUpdatePasswordMeResponse, UsersRegisterUserData, UsersRegisterUserResponse, UsersReadUserByIdData, UsersReadUserByIdResponse, UsersUpdateUserData, UsersUpdateUserResponse, UsersDeleteUserData, UsersDeleteUserResponse, UtilsTestEmailData, UtilsTestEmailResponse, UtilsHealthCheckResponse, WikiGetTreeData, WikiGetTreeResponse, WikiSearchData, WikiSearchResponse2, WikiGetDocumentContentData, WikiGetDocumentContentResponse, WikiDownloadMarkdownData, WikiDownloadMarkdownResponse, WikiDownloadRawData, WikiDownloadRawResponse } from './types.gen';
 
 export class AdminService {
     /**
@@ -16,6 +16,51 @@ export class AdminService {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/api/v1/admin/coverage'
+        });
+    }
+    
+    /**
+     * List Raw Files
+     * GET /api/v1/admin/raw-files — нераспаршенные PDF из SHARED/RAW_DATA.
+     * @param data The data for the request.
+     * @param data.search
+     * @param data.limit
+     * @param data.offset
+     * @returns RawDataFilesResponse Successful Response
+     * @throws ApiError
+     */
+    public static listRawFiles(data: AdminListRawFilesData = {}): CancelablePromise<AdminListRawFilesResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/admin/raw-files',
+            query: {
+                search: data.search,
+                limit: data.limit,
+                offset: data.offset
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Parse Raw File
+     * POST /api/v1/admin/raw-files/parse — зарегистрировать RAW_DATA PDF и поставить L1 в очередь.
+     * @param data The data for the request.
+     * @param data.requestBody
+     * @returns IngestUploadResponse Successful Response
+     * @throws ApiError
+     */
+    public static parseRawFile(data: AdminParseRawFileData): CancelablePromise<AdminParseRawFileResponse> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/api/v1/admin/raw-files/parse',
+            body: data.requestBody,
+            mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
         });
     }
 }
@@ -171,6 +216,61 @@ export class GraphService {
             url: '/api/v1/graph/query',
             body: data.requestBody,
             mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Overview
+     * GET /api/v1/graph/overview — агрегированный граф знаний по experiments_flat.
+     *
+     * Цепочки material→process→equipment→result + связанные лаборатории/эксперты, плюс
+     * пробелы покрытия (комбинации без экспериментов). SQL-only, Neo4j не требуется (§8.3).
+     * @param data The data for the request.
+     * @param data.material
+     * @param data.property
+     * @param data.regime
+     * @param data.limit
+     * @returns GraphOverviewResponse Successful Response
+     * @throws ApiError
+     */
+    public static overview(data: GraphOverviewData = {}): CancelablePromise<GraphOverviewResponse2> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/graph/overview',
+            query: {
+                material: data.material,
+                property: data.property,
+                regime: data.regime,
+                limit: data.limit
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+
+    /**
+     * Kg
+     * GET /api/v1/graph/kg — граф из science-knowledge-graph (GraphRAG).
+     * @param data The data for the request.
+     * @param data.q
+     * @param data.depth
+     * @param data.limit
+     * @returns GraphOverviewResponse Successful Response
+     * @throws ApiError
+     */
+    public static kg(data: GraphKgData = {}): CancelablePromise<GraphKgResponse2> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/graph/kg',
+            query: {
+                q: data.q,
+                depth: data.depth,
+                limit: data.limit
+            },
             errors: {
                 422: 'Validation Error'
             }
