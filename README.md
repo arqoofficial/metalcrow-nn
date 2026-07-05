@@ -59,6 +59,16 @@
 
 ---
 
+## Статья
+
+**[MetalCrow: граф знаний с пофразовым провенансом для научно-технического корпуса горно-металлургической отрасли](docs/metalcrow-paper.pdf)** — описание архитектуры, онтологической модели, конвейера извлечения и ReAct-агента с обязательной привязкой утверждений к источникам. В статье — сквозной бенчмарк из 107 вопросов с контролями честности.
+
+Авторы: Константин Ушенин, Артём Голубев, Станислав Малашкевич, Степан Остарков, Всеволод Каримов.
+
+PDF доступен на лендинге (кнопка «Читать статью») и по прямой ссылке: [`docs/metalcrow-paper.pdf`](docs/metalcrow-paper.pdf).
+
+---
+
 ## Архитектура
 
 Monorepo на базе [full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template), расширенный до микросервисной архитектуры:
@@ -128,6 +138,7 @@ make up-prod
 | [`specs/SPEC_V5.md`](specs/SPEC_V5.md) | Итоговая техническая спецификация |
 | [`services/science-knowledge-graph/README.md`](services/science-knowledge-graph/README.md) | GraphRAG и Neo4j ingest |
 | [`services/nornickel-2026-parser/README.md`](services/nornickel-2026-parser/README.md) | Парсер документов (Docling pipeline) |
+| [`docs/metalcrow-paper.pdf`](docs/metalcrow-paper.pdf) | Статья о системе: архитектура, онтология, бенчмарк |
 
 ---
 
@@ -139,7 +150,7 @@ make up-prod
 
 Лендинг показывает:
 
-- **Hero** — суть продукта и примеры контрольных вопросов к агенту
+- **Hero** — суть продукта, кнопка «Читать статью» ([PDF](docs/metalcrow-paper.pdf)) и примеры контрольных вопросов к агенту
 - **LitSearch** — поиск по мировой литературе (OpenAlex + КиберЛенинка) с автоматическим скачиванием статей
 - **Возможности** — чат-агент, гибридный поиск, граф знаний, wiki, загрузка PDF
 - **Как устроено** — пайплайн от Docling/OCR до GraphRAG-ответа с провенансом
