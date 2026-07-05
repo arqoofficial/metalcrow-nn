@@ -62,6 +62,49 @@ export type ChatSessionsPublic = {
 
 export type ChatTrigger = 'gap_click' | 'user_input';
 
+export type CorpusDocumentHit = {
+    okf_path: string;
+    title: string;
+    snippet?: (string | null);
+};
+
+export type CorpusPassageHit = {
+    kind: string;
+    doc: string;
+    text?: (string | null);
+    snippet?: (string | null);
+    okf_path?: (string | null);
+    locator?: (string | null);
+    year?: (number | null);
+    country?: (string | null);
+    lang?: (string | null);
+    value?: (string | null);
+    unit?: (string | null);
+    rank?: number;
+};
+
+export type CorpusSearchRequest = {
+    query?: string;
+    limit?: number;
+    kinds?: (Array<(string)> | null);
+    year_from?: (number | null);
+    year_to?: (number | null);
+    geo?: (string | null);
+    numeric?: (NumericCondition | null);
+    include_documents?: boolean;
+};
+
+export type CorpusSearchResponse = {
+    query: string;
+    passages?: Array<CorpusPassageHit>;
+    documents?: Array<CorpusDocumentHit>;
+    entities?: RecognizedEntities;
+    expanded_terms?: Array<(string)>;
+    note?: (string | null);
+    total_passages?: number;
+    total_documents?: number;
+};
+
 export type CoverageCell = {
     material: string;
     property: string;
@@ -88,6 +131,10 @@ export type DocumentFileSummary = {
     latest_task_stage?: (string | null);
     latest_task_error?: (string | null);
 };
+
+export type FetchStatus = 'pending' | 'downloading' | 'done' | 'failed' | 'skipped';
+
+export type FulltextStatus = 'none' | 'added' | 'failed';
 
 export type GapCell = {
     material_id: string;
@@ -125,7 +172,7 @@ export type GraphOverviewResponse = {
     nodes?: Array<GraphNode>;
     edges?: Array<GraphEdge>;
     gaps?: Array<GraphGap>;
-    notes?: Array<string>;
+    notes?: Array<(string)>;
 };
 
 export type GraphQueryRequest = {
@@ -184,6 +231,43 @@ export type IngestUploadResponse = {
     error?: (string | null);
 };
 
+export type LitAnswerRef = {
+    message_id: string;
+    kind: 'abstracts' | 'fulltext';
+};
+
+export type kind = 'abstracts' | 'fulltext';
+
+export type LiteraturePaperPublic = {
+    id: string;
+    doi?: (string | null);
+    title: string;
+    authors: string;
+    year?: (number | null);
+    abstract: string;
+    pdf_url?: (string | null);
+    citation_count?: (number | null);
+    fetch_status: FetchStatus;
+    fulltext_status: FulltextStatus;
+    fulltext_chars: number;
+    ingest_status: LitIngestStatus;
+    document_id?: (string | null);
+};
+
+export type LiteratureSearchPublic = {
+    id: string;
+    stage: LitStage;
+    round: number;
+    followup_search_id?: (string | null);
+    papers?: Array<LiteraturePaperPublic>;
+    answers?: Array<LitAnswerRef>;
+    queries?: Array<(string)>;
+};
+
+export type LitIngestStatus = 'none' | 'queued' | 'running' | 'done' | 'failed';
+
+export type LitStage = 'searching' | 'fetching' | 'reading' | 'done' | 'failed';
+
 export type Message = {
     message: string;
 };
@@ -201,6 +285,23 @@ export type MetricsResponse = {
 export type NewPassword = {
     token: string;
     new_password: string;
+};
+
+/**
+ * Числовое условие: величина + диапазон значений в её отображаемой
+ * единице (temperature — °C, concentration — г/л, доли — %).
+ */
+export type NumericCondition = {
+    quantity: string;
+    value_from?: (number | null);
+    value_to?: (number | null);
+};
+
+export type PaperIngestStatusPublic = {
+    status?: string;
+    progress?: number;
+    stage_name?: (string | null);
+    error?: (string | null);
 };
 
 export type ParseRawDataFileRequest = {
@@ -250,6 +351,15 @@ export type RawDataFileSummary = {
     document_id?: (string | null);
     processing_level?: (ProcessingLevel | null);
     latest_task_status?: (IngestStatus | null);
+};
+
+/**
+ * Сущности, распознанные онтологией в тексте запроса (канонические имена).
+ */
+export type RecognizedEntities = {
+    process?: (string | null);
+    quantity_kind?: (string | null);
+    materials?: Array<(string)>;
 };
 
 export type RegimeBucket = 'low' | 'medium' | 'high';
@@ -435,7 +545,7 @@ export type GraphKgData = {
     q?: (string | null);
 };
 
-export type GraphKgResponse2 = (GraphOverviewResponse);
+export type GraphKgResponse = (GraphOverviewResponse);
 
 export type GraphSubgraphData = {
     depth?: number;
@@ -492,6 +602,24 @@ export type IngestGetStatusData = {
 
 export type IngestGetStatusResponse = (IngestUploadResponse);
 
+export type LitsearchGetSearchData = {
+    searchId: string;
+};
+
+export type LitsearchGetSearchResponse = (LiteratureSearchPublic);
+
+export type LitsearchAddPaperToDatabaseData = {
+    paperId: string;
+};
+
+export type LitsearchAddPaperToDatabaseResponse = (LiteraturePaperPublic);
+
+export type LitsearchGetPaperIngestStatusData = {
+    paperId: string;
+};
+
+export type LitsearchGetPaperIngestStatusResponse = (PaperIngestStatusPublic);
+
 export type LoginLoginAccessTokenData = {
     formData: Body_login_login_access_token;
 };
@@ -523,6 +651,12 @@ export type PrivateCreateUserData = {
 };
 
 export type PrivateCreateUserResponse = (UserPublic);
+
+export type SearchCorpusSearchData = {
+    requestBody: CorpusSearchRequest;
+};
+
+export type SearchCorpusSearchResponse = (CorpusSearchResponse);
 
 export type SourcesDownloadContentData = {
     docId: string;
@@ -591,6 +725,10 @@ export type UtilsTestEmailData = {
 export type UtilsTestEmailResponse = (Message);
 
 export type UtilsHealthCheckResponse = (boolean);
+
+export type UtilsLlmHealthResponse = ({
+    [key: string]: unknown;
+});
 
 export type WikiGetTreeData = {
     maxDepth?: number;

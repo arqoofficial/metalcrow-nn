@@ -120,7 +120,7 @@ def test_run_agent_end_to_end(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(
         ontology_client,
         "ask",
-        lambda _q: {
+        lambda _q, **_kw: {
             "claims": [
                 {"text": "медь при 60C", "citations": ["Отчёт Z с.5: плотность тока 300"]}
             ]

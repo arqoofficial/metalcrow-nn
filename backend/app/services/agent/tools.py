@@ -133,9 +133,13 @@ def _run_hybrid_search(session: Session, args: dict[str, Any]) -> Observation:
     if not query:
         return Observation(text="hybrid_search: пустой запрос.", ok=False)
     top_k = min(int(args.get("top_k") or 5), 10)
-    resp = search_service.hybrid_search(session, SearchRequest(query=query, top_k=top_k))
+    resp = search_service.hybrid_search(
+        session, SearchRequest(query=query, top_k=top_k)
+    )
     if not resp.results:
-        return Observation(text=f"hybrid_search: по «{query}» ничего не найдено.", ok=False)
+        return Observation(
+            text=f"hybrid_search: по «{query}» ничего не найдено.", ok=False
+        )
     exp_ids: list[str] = []
     sources: list[str] = []
     chat_sources: list[ChatSource] = []
@@ -173,7 +177,9 @@ def _run_graph_rag(_session: Session, args: dict[str, Any]) -> Observation:
         return Observation(text="graph_rag: пустой вопрос.", ok=False)
     result = science_kg_client.rag_query(question)
     if not result or not result.get("answer"):
-        return Observation(text="graph_rag: сервис недоступен или ответа нет.", ok=False)
+        return Observation(
+            text="graph_rag: сервис недоступен или ответа нет.", ok=False
+        )
     raw = [str(s) for s in (result.get("sources") or [])[:5] if s]
     sources = [_clip(s, 160) for s in raw]
     # science-kg doc_id-ы резолвятся в кликабельные чипы с wiki-ссылкой ровно тем же
@@ -233,7 +239,9 @@ def _make_ontology_tool(name: str, schema: dict[str, Any]) -> ToolSpec:
 # (граф-визуализация, покрытие корпуса), а не ответ на доменный вопрос. Они остаются
 # доступны как /invoke, просто не засоряют маршрутизацию LLM (меньше тулов → точнее
 # выбор). Не хардкод обёрток — только фильтр меню поверх авто-регистрации.
-_ONTOLOGY_ENDPOINT_ONLY = {"get_subgraph", "coverage"}
+# эндпоинт-only тулы (UI/дашборд/вкладка Поиск), в меню агента не идут:
+# больше тулов = хуже роутинг, а search_measurements дублируется evidence.
+_ONTOLOGY_ENDPOINT_ONLY = {"get_subgraph", "coverage", "search_measurements"}
 
 _ontology_cache: list[ToolSpec] | None = None
 

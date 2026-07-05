@@ -6,12 +6,19 @@ custom distance metric -> Reciprocal Rank Fusion -> опц. LLM rerank). В эт
 всегда 0, `reranked` всегда False, `score` — заглушка (1.0).
 """
 
+import logging
+import re
 from typing import Any
 
 from sqlalchemy import text
 from sqlmodel import Session
 
 from app.schemas.search import (
+    CorpusDocumentHit,
+    CorpusPassageHit,
+    CorpusSearchRequest,
+    CorpusSearchResponse,
+    RecognizedEntities,
     SearchFilters,
     SearchMeta,
     SearchRequest,
@@ -20,6 +27,12 @@ from app.schemas.search import (
     SearchResultRegime,
     SearchResultSource,
 )
+from app.services import ontology_client
+from app.services import wiki as wiki_service
+
+logger = logging.getLogger(__name__)
+
+_CYRILLIC_RE = re.compile(r"[а-яё]", re.IGNORECASE)
 
 _SELECT_COLUMNS = (
     "id, title, material_name, material_composition, temperature, pressure, "
@@ -124,4 +137,152 @@ def hybrid_search(session: Session, request: SearchRequest) -> SearchResponse:
         search_meta=SearchMeta(
             bm25_hits=len(results), vector_hits=0, custom_hits=0, reranked=False
         ),
+    )
+
+
+# ── Поиск по корпусу: онтология (пассажи) + парсер (документы) ──────────────
+
+
+def _passage_passes(p: dict[str, Any], request: CorpusSearchRequest) -> bool:
+    """Пост-фильтры типа, года и географии. Пассаж с неизвестными метаданными
+    при активном фильтре НЕ отбрасывается — иначе фильтр скрывал бы большую
+    часть корпуса (год/язык заполнены не у всех документов)."""
+    if request.kinds and p.get("kind") not in request.kinds:
+        return False
+    year = p.get("year")
+    if year is not None:
+        if request.year_from is not None and year < request.year_from:
+            return False
+        if request.year_to is not None and year > request.year_to:
+            return False
+    if request.geo in ("ru", "en"):
+        lang, country = p.get("lang"), p.get("country")
+        if lang is not None or country is not None:
+            is_ru = lang == "ru" or country == "RU"
+            if (request.geo == "ru") != is_ru:
+                return False
+    return True
+
+
+# отображаемая единица UI → каноническая единица сервиса онтологии:
+# только temperature требует конверсии (°C на фронте, K в БД по контракту).
+def _numeric_to_canonical(quantity: str, v: float | None) -> float | None:
+    if v is None:
+        return None
+    if quantity == "temperature":
+        return v + 273.15
+    return v
+
+
+def corpus_search(request: CorpusSearchRequest) -> CorpusSearchResponse:
+    """Поиск по корпусу для вкладки «Поиск».
+
+    Два источника: (1) онтология `search_passages` — выводы и измерения с
+    дословным сниппетом, документом-источником и распознанными сущностями
+    запроса; (2) парсер — обработанные markdown-документы по имени/пути.
+    Любой из источников недоступен → деградация до второго, не ошибка."""
+    numeric = request.numeric
+    numeric_active = numeric is not None and (
+        numeric.value_from is not None or numeric.value_to is not None
+    )
+    if not request.query.strip() and not numeric_active:
+        return CorpusSearchResponse(query=request.query)
+
+    # при активных пост-фильтрах (тип/год/гео) выбираем у сервиса с запасом:
+    # он режет топ-N по рангу ДО фильтрации, и без запаса отфильтрованная
+    # выдача была бы недозаполненной или ложно пустой.
+    has_filters = (
+        bool(request.kinds)
+        or request.geo in ("ru", "en")
+        or (request.year_from is not None or request.year_to is not None)
+    )
+    fetch_limit = min(request.limit * 3, 60) if has_filters else request.limit
+    if numeric_active and numeric is not None:
+        # числовое условие ведёт поиск: измерения величины в диапазоне,
+        # текст запроса лишь сужает выдачу на стороне сервиса онтологии.
+        raw = (
+            ontology_client.invoke(
+                "search_measurements",
+                {
+                    "quantity": numeric.quantity,
+                    "value_from": _numeric_to_canonical(
+                        numeric.quantity, numeric.value_from
+                    ),
+                    "value_to": _numeric_to_canonical(
+                        numeric.quantity, numeric.value_to
+                    ),
+                    "query": request.query,
+                    "limit": fetch_limit,
+                },
+            )
+            or {}
+        )
+    else:
+        raw = (
+            ontology_client.invoke(
+                "search_passages", {"query": request.query, "limit": fetch_limit}
+            )
+            or {}
+        )
+
+    passages = [
+        CorpusPassageHit(
+            kind=p.get("kind") or "finding",
+            doc=p.get("doc") or "источник не указан",
+            text=p.get("text"),
+            snippet=p.get("snippet"),
+            okf_path=p.get("okf_path"),
+            locator=p.get("locator"),
+            year=p.get("year"),
+            country=p.get("country"),
+            lang=p.get("lang"),
+            value=p.get("value"),
+            unit=p.get("unit"),
+            rank=float(p.get("rank") or 0.0),
+        )
+        for p in (raw.get("passages") or [])
+        if _passage_passes(p, request)
+    ][: request.limit]
+
+    documents: list[CorpusDocumentHit] = []
+    if (
+        request.include_documents
+        and request.query.strip()
+        and (not request.kinds or "document" in request.kinds)
+    ):
+        # parser_client оборачивает в ParserError только HTTP-статусы; сетевые
+        # ошибки (парсер не поднят) летят сырыми httpx-исключениями — документы
+        # вторичный источник, любой их сбой не должен ронять поиск целиком.
+        try:
+            wiki_response = wiki_service.search_documents(request.query, limit=10)
+            documents = [
+                CorpusDocumentHit(okf_path=r.okf_path, title=r.title, snippet=r.snippet)
+                for r in wiki_response.results
+            ]
+        except Exception as exc:  # noqa: BLE001 — деградация, не сбой поиска
+            logger.warning("corpus_search: документы недоступны: %s", exc)
+            documents = []
+    if request.geo in ("ru", "en") and documents:
+        # у markdown-документов нет метаданных языка — эвристика по кириллице
+        # в имени файла (заголовок = имя исходника)
+        documents = [
+            d
+            for d in documents
+            if bool(_CYRILLIC_RE.search(d.title)) == (request.geo == "ru")
+        ]
+
+    entities_raw = raw.get("entities") or {}
+    return CorpusSearchResponse(
+        query=request.query,
+        passages=passages,
+        documents=documents,
+        entities=RecognizedEntities(
+            process=entities_raw.get("process"),
+            quantity_kind=entities_raw.get("quantity_kind"),
+            materials=entities_raw.get("materials") or [],
+        ),
+        expanded_terms=raw.get("expanded_terms") or [],
+        note=raw.get("note"),
+        total_passages=len(passages),
+        total_documents=len(documents),
     )

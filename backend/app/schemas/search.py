@@ -76,3 +76,72 @@ class SearchResponse(SQLModel):
     results: list[SearchResultItem]
     total: int
     search_meta: SearchMeta
+
+
+# ── Поиск по корпусу: пассажи онтологии + markdown-документы ────────────────
+# Вкладка «Поиск»: онтологический ретрив (search_passages: выводы/измерения с
+# дословным сниппетом и документом-источником) + подбор обработанных документов.
+
+
+class RecognizedEntities(SQLModel):
+    """Сущности, распознанные онтологией в тексте запроса (канонические имена)."""
+
+    process: str | None = None
+    quantity_kind: str | None = None
+    materials: list[str] = []
+
+
+class NumericCondition(SQLModel):
+    """Числовое условие: величина + диапазон значений в её отображаемой
+    единице (temperature — °C, concentration — г/л, доли — %)."""
+
+    quantity: str = Field(min_length=1, max_length=64)
+    value_from: float | None = None
+    value_to: float | None = None
+
+
+class CorpusSearchRequest(SQLModel):
+    # пустой запрос допустим при активном числовом условии (поиск по условию)
+    query: str = Field(default="", max_length=500)
+    limit: int = Field(default=20, ge=1, le=50)
+    # фильтр типов результата: measurement | finding | recommendation | document
+    kinds: list[str] | None = None
+    year_from: int | None = None
+    year_to: int | None = None
+    # география/язык источника: 'ru' — отечественные, 'en' — мировые
+    geo: str | None = None
+    numeric: NumericCondition | None = None
+    include_documents: bool = True
+
+
+class CorpusPassageHit(SQLModel):
+    kind: str
+    doc: str
+    text: str | None = None
+    snippet: str | None = None
+    okf_path: str | None = None
+    locator: str | None = None
+    year: int | None = None
+    country: str | None = None
+    lang: str | None = None
+    value: str | None = None
+    unit: str | None = None
+    rank: float = 0.0
+
+
+class CorpusDocumentHit(SQLModel):
+    okf_path: str
+    title: str
+    snippet: str | None = None
+
+
+class CorpusSearchResponse(SQLModel):
+    query: str
+    passages: list[CorpusPassageHit] = []
+    documents: list[CorpusDocumentHit] = []
+    entities: RecognizedEntities = Field(default_factory=RecognizedEntities)
+    # термы, добавленные к запросу словарём синонимов/аббревиатур (кросс-язык)
+    expanded_terms: list[str] = []
+    note: str | None = None
+    total_passages: int = 0
+    total_documents: int = 0

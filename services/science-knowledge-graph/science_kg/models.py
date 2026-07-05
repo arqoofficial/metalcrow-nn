@@ -109,6 +109,15 @@ class PDFIngestionResult(BaseModel):
 # ── Graph RAG models ──────────────────────────────────────────────────────────
 
 
+class RetrievalOutcome(StrEnum):
+    """Coarse verdict on what retrieval actually found, so the caller can tell a
+    genuine corpus gap apart from a retrieval miss (SPEC gap-handling §A1)."""
+
+    STRONG_CONTEXT = "strong_context"  # exact/lemma anchor + query terms present in prose
+    WEAK_CONTEXT = "weak_context"  # nodes found, but prose doesn't cover the query
+    NO_ANCHOR = "no_anchor"  # nothing in the graph matched the question at all
+
+
 class RetrievalContext(BaseModel):
     nodes: list[GraphNode]
     edges: list[GraphEdge]
@@ -119,6 +128,27 @@ class RetrievalContext(BaseModel):
     # (applications, causes, procedures) that never becomes a triple — feeding
     # the actual chunk text alongside the triples lets the LLM answer those too.
     source_texts: list[str] = Field(default_factory=list)
+    # Fraction of distinct query terms that actually appear in the fetched
+    # source prose (0..1) — the cheap "did we retrieve the right text" signal
+    # used to classify the outcome without a second LLM call (SPEC §A1).
+    context_relevance: float = 0.0
+    outcome: RetrievalOutcome = RetrievalOutcome.STRONG_CONTEXT
+
+
+class AnswerStatus(StrEnum):
+    """How the generator's answer relates to the retrieved context — reported by
+    the model itself (structured JSON), replacing the keyword refusal heuristic
+    that made the grounded flag flip run-to-run on identical context."""
+
+    GROUNDED = "grounded"  # domain answer supported by the graph context
+    UNGROUNDED = "ungrounded"  # domain answer from the model's own knowledge
+    NO_DATA = "no_data"  # domain question, no answer available → honest gap
+    CASUAL = "casual"  # greeting / thanks / meta small-talk, not a domain question
+
+
+class GeneratedAnswer(BaseModel):
+    answer: str
+    status: AnswerStatus = AnswerStatus.GROUNDED
 
 
 class RAGQuery(BaseModel):
@@ -133,3 +163,11 @@ class RAGResponse(BaseModel):
     context_edges: list[GraphEdge]
     sources: list[str]
     matched_entities: list[str]
+    # Whether the answer is grounded in the retrieved context. False = the model
+    # fell back on its own parametric knowledge (or declined for lack of data);
+    # surfaced so the UI can lower the confidence badge (SPEC §A5).
+    grounded: bool | None = None
+    # Machine-readable reason when retrieval could not answer, so the client can
+    # phrase an honest degradation ("not in corpus" vs "couldn't match query")
+    # instead of a mute refusal (SPEC §A2/§A3). None = normal answer.
+    gap_reason: RetrievalOutcome | None = None

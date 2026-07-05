@@ -146,9 +146,23 @@ def get_document_content(okf_path: str) -> WikiDocumentContent | None:
     if not normalized.startswith(WIKI_STAGE_ROOT):
         normalized = f"{WIKI_STAGE_ROOT}/{normalized.removeprefix('/')}"
 
-    try:
-        markdown = parser_client.fetch_markdown(normalized)
-    except parser_client.ParserError:
+    # Провенанс онтологии хранит okf_raw_path без сегмента RAW_DATA/ (корпус
+    # извлекался из зеркала этого поддерева), а парсер требует точный путь.
+    # Пробуем путь как есть, затем с RAW_DATA/ сразу после stage-корня.
+    candidates = [normalized]
+    rest = normalized.removeprefix(WIKI_STAGE_ROOT).lstrip("/")
+    if not rest.startswith("RAW_DATA/"):
+        candidates.append(f"{WIKI_STAGE_ROOT}/RAW_DATA/{rest}")
+
+    markdown: str | None = None
+    for candidate in candidates:
+        try:
+            markdown = parser_client.fetch_markdown(candidate)
+            normalized = candidate
+            break
+        except parser_client.ParserError:
+            continue
+    if markdown is None:
         return None
 
     raw_path: str | None

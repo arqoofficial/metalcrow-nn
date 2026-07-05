@@ -30,12 +30,12 @@ const mainItems: Item[] = [
   { icon: Bot, title: "Агент", path: "/chat" },
   { icon: BookOpen, title: "Вики", path: "/wiki" },
   { icon: Share2, title: "Граф", path: "/graph" },
+  { icon: Search, title: "Поиск", path: "/search" },
 ]
 
 const inDevelopmentItems: Item[] = [
   { icon: FileText, title: "Отчёты", path: "/reports" },
   { icon: LayoutGrid, title: "Пробелы", path: "/gaps" },
-  { icon: Search, title: "Поиск", path: "/search" },
 ]
 
 const adminItems: Item[] = [

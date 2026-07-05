@@ -8,6 +8,7 @@ from app.api.routes import (
     litsearch,
     login,
     private,
+    search,
     sources,
     users,
     utils,
@@ -22,6 +23,7 @@ api_router.include_router(utils.router)
 api_router.include_router(chat.router)
 api_router.include_router(graph.router)
 api_router.include_router(wiki.router)
+api_router.include_router(search.router)
 api_router.include_router(analytics.router)
 api_router.include_router(analytics.metrics_router)
 api_router.include_router(ingest.router)

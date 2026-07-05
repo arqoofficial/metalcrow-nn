@@ -89,6 +89,15 @@ TOOLS: dict[str, dict] = {
                      "любых открытых запросов, где нет одной числовой величины",
                      query={"type": "string"}, process={"type": "string"},
                      limit={"type": "integer", "default": 8})},
+    "search_measurements": {
+        "fn": lambda store, **a: q.search_measurements(store, **a),
+        "schema": _s("Измерения по числовому условию: величина + диапазон значений "
+                     "в канонической единице (temperature — K, concentration — g/l, "
+                     "доли — %); опциональное текстовое сужение",
+                     quantity={"type": "string"},
+                     value_from={"type": "number"}, value_to={"type": "number"},
+                     query={"type": "string"},
+                     limit={"type": "integer", "default": 20})},
 }
 
 app = FastAPI(title=NAME, version=VERSION)

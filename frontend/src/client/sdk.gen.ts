@@ -3,7 +3,7 @@
 import type { CancelablePromise } from './core/CancelablePromise';
 import { OpenAPI } from './core/OpenAPI';
 import { request as __request } from './core/request';
-import type { AdminAdminCoverageResponse, AdminListRawFilesData, AdminListRawFilesResponse, AdminParseRawFileData, AdminParseRawFileResponse, AnalyticsCoverageResponse, AnalyticsMetricsResponse, ChatListSessionsResponse, ChatCreateSessionData, ChatCreateSessionResponse, ChatGetSessionHistoryData, ChatGetSessionHistoryResponse, ChatDeleteSessionData, ChatDeleteSessionResponse, ChatPostMessageData, ChatPostMessageResponse, GraphQueryData, GraphQueryResponse, GraphOverviewData, GraphOverviewResponse2, GraphKgData, GraphKgResponse2, GraphSubgraphData, GraphSubgraphResponse, GraphPathData, GraphPathResponse, IngestUploadData, IngestUploadResponse2, IngestRunIngestData, IngestRunIngestResponse, IngestListFilesData, IngestListFilesResponse, IngestGetFileDetailData, IngestGetFileDetailResponse, IngestDeleteFileData, IngestDeleteFileResponse, IngestReindexResponse, IngestGetStatusData, IngestGetStatusResponse, LoginLoginAccessTokenData, LoginLoginAccessTokenResponse, LoginTestTokenResponse, LoginRecoverPasswordData, LoginRecoverPasswordResponse, LoginResetPasswordData, LoginResetPasswordResponse, LoginRecoverPasswordHtmlContentData, LoginRecoverPasswordHtmlContentResponse, PrivateCreateUserData, PrivateCreateUserResponse, SourcesDownloadContentData, SourcesDownloadContentResponse, UsersReadUsersData, UsersReadUsersResponse, UsersCreateUserData, UsersCreateUserResponse, UsersReadUserMeResponse, UsersDeleteUserMeResponse, UsersUpdateUserMeData, UsersUpdateUserMeResponse, UsersUpdatePasswordMeData, UsersUpdatePasswordMeResponse, UsersRegisterUserData, UsersRegisterUserResponse, UsersReadUserByIdData, UsersReadUserByIdResponse, UsersUpdateUserData, UsersUpdateUserResponse, UsersDeleteUserData, UsersDeleteUserResponse, UtilsTestEmailData, UtilsTestEmailResponse, UtilsHealthCheckResponse, WikiGetTreeData, WikiGetTreeResponse, WikiSearchData, WikiSearchResponse2, WikiGetDocumentContentData, WikiGetDocumentContentResponse, WikiDownloadMarkdownData, WikiDownloadMarkdownResponse, WikiDownloadRawData, WikiDownloadRawResponse } from './types.gen';
+import type { AdminAdminCoverageResponse, AdminListRawFilesData, AdminListRawFilesResponse, AdminParseRawFileData, AdminParseRawFileResponse, AnalyticsCoverageResponse, AnalyticsMetricsResponse, ChatListSessionsResponse, ChatCreateSessionData, ChatCreateSessionResponse, ChatGetSessionHistoryData, ChatGetSessionHistoryResponse, ChatDeleteSessionData, ChatDeleteSessionResponse, ChatPostMessageData, ChatPostMessageResponse, GraphQueryData, GraphQueryResponse, GraphOverviewData, GraphOverviewResponse2, GraphKgData, GraphKgResponse, GraphSubgraphData, GraphSubgraphResponse, GraphPathData, GraphPathResponse, IngestUploadData, IngestUploadResponse2, IngestRunIngestData, IngestRunIngestResponse, IngestListFilesData, IngestListFilesResponse, IngestGetFileDetailData, IngestGetFileDetailResponse, IngestDeleteFileData, IngestDeleteFileResponse, IngestReindexResponse, IngestGetStatusData, IngestGetStatusResponse, LitsearchGetSearchData, LitsearchGetSearchResponse, LitsearchAddPaperToDatabaseData, LitsearchAddPaperToDatabaseResponse, LitsearchGetPaperIngestStatusData, LitsearchGetPaperIngestStatusResponse, LoginLoginAccessTokenData, LoginLoginAccessTokenResponse, LoginTestTokenResponse, LoginRecoverPasswordData, LoginRecoverPasswordResponse, LoginResetPasswordData, LoginResetPasswordResponse, LoginRecoverPasswordHtmlContentData, LoginRecoverPasswordHtmlContentResponse, PrivateCreateUserData, PrivateCreateUserResponse, SearchCorpusSearchData, SearchCorpusSearchResponse, SourcesDownloadContentData, SourcesDownloadContentResponse, UsersReadUsersData, UsersReadUsersResponse, UsersCreateUserData, UsersCreateUserResponse, UsersReadUserMeResponse, UsersDeleteUserMeResponse, UsersUpdateUserMeData, UsersUpdateUserMeResponse, UsersUpdatePasswordMeData, UsersUpdatePasswordMeResponse, UsersRegisterUserData, UsersRegisterUserResponse, UsersReadUserByIdData, UsersReadUserByIdResponse, UsersUpdateUserData, UsersUpdateUserResponse, UsersDeleteUserData, UsersDeleteUserResponse, UtilsTestEmailData, UtilsTestEmailResponse, UtilsHealthCheckResponse, UtilsLlmHealthResponse, WikiGetTreeData, WikiGetTreeResponse, WikiSearchData, WikiSearchResponse2, WikiGetDocumentContentData, WikiGetDocumentContentResponse, WikiDownloadMarkdownData, WikiDownloadMarkdownResponse, WikiDownloadRawData, WikiDownloadRawResponse } from './types.gen';
 
 export class AdminService {
     /**
@@ -251,10 +251,14 @@ export class GraphService {
             }
         });
     }
-
+    
     /**
      * Kg
      * GET /api/v1/graph/kg — граф из science-knowledge-graph (GraphRAG).
+     *
+     * Реальные сущности/связи, извлечённые из документов. `q` — тема/сущность
+     * (окрестность или подстрочный поиск); без `q` — окрестность первого материала.
+     * Сервис опционален: недоступен -> пустой граф, не ошибка.
      * @param data The data for the request.
      * @param data.q
      * @param data.depth
@@ -262,7 +266,7 @@ export class GraphService {
      * @returns GraphOverviewResponse Successful Response
      * @throws ApiError
      */
-    public static kg(data: GraphKgData = {}): CancelablePromise<GraphKgResponse2> {
+    public static kg(data: GraphKgData = {}): CancelablePromise<GraphKgResponse> {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/api/v1/graph/kg',
@@ -474,6 +478,75 @@ export class IngestService {
     }
 }
 
+export class LitsearchService {
+    /**
+     * Get Search
+     * GET /api/v1/litsearch/{search_id} — poll target for the frontend while
+     * a search is in flight, and the source of truth for its papers/answers
+     * once done.
+     * @param data The data for the request.
+     * @param data.searchId
+     * @returns LiteratureSearchPublic Successful Response
+     * @throws ApiError
+     */
+    public static getSearch(data: LitsearchGetSearchData): CancelablePromise<LitsearchGetSearchResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/litsearch/{search_id}',
+            path: {
+                search_id: data.searchId
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Add Paper To Database
+     * POST /api/v1/litsearch/papers/{paper_id}/add-to-database — "Добавить в
+     * базу" chat action (task 10's `add_to_database`, flag-gated ingest).
+     * @param data The data for the request.
+     * @param data.paperId
+     * @returns LiteraturePaperPublic Successful Response
+     * @throws ApiError
+     */
+    public static addPaperToDatabase(data: LitsearchAddPaperToDatabaseData): CancelablePromise<LitsearchAddPaperToDatabaseResponse> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/api/v1/litsearch/papers/{paper_id}/add-to-database',
+            path: {
+                paper_id: data.paperId
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Get Paper Ingest Status
+     * GET /api/v1/litsearch/papers/{paper_id}/ingest-status — poll target
+     * for the "Добавить в базу" action's background ingest pipeline.
+     * @param data The data for the request.
+     * @param data.paperId
+     * @returns PaperIngestStatusPublic Successful Response
+     * @throws ApiError
+     */
+    public static getPaperIngestStatus(data: LitsearchGetPaperIngestStatusData): CancelablePromise<LitsearchGetPaperIngestStatusResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/litsearch/papers/{paper_id}/ingest-status',
+            path: {
+                paper_id: data.paperId
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+}
+
 export class LoginService {
     /**
      * Login Access Token
@@ -584,6 +657,31 @@ export class PrivateService {
         return __request(OpenAPI, {
             method: 'POST',
             url: '/api/v1/private/users/',
+            body: data.requestBody,
+            mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+}
+
+export class SearchService {
+    /**
+     * Corpus Search
+     * POST /api/v1/search — поиск по корпусу.
+     *
+     * Пассажи онтологии (выводы/измерения с дословным сниппетом, источником и
+     * распознанными сущностями запроса) + обработанные markdown-документы.
+     * @param data The data for the request.
+     * @param data.requestBody
+     * @returns CorpusSearchResponse Successful Response
+     * @throws ApiError
+     */
+    public static corpusSearch(data: SearchCorpusSearchData): CancelablePromise<SearchCorpusSearchResponse> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/api/v1/search',
             body: data.requestBody,
             mediaType: 'application/json',
             errors: {
@@ -844,6 +942,24 @@ export class UtilsService {
         return __request(OpenAPI, {
             method: 'GET',
             url: '/api/v1/utils/health-check/'
+        });
+    }
+    
+    /**
+     * Llm Health
+     * Real minimal gateway round-trip so a misconfigured/unreachable LLM is
+     * visible, not silent (spec §2.7). Superuser-gated (M4 fix, matching the
+     * other admin/diagnostic routes in this module): unauthenticated, this
+     * fires a real paid gateway completion per request, i.e. an anonymous
+     * caller could hit it in a loop and run up gateway spend/DoS the LLM
+     * backend — the round-trip itself stays real, only the auth gate is new.
+     * @returns unknown Successful Response
+     * @throws ApiError
+     */
+    public static llmHealth(): CancelablePromise<UtilsLlmHealthResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/utils/llm-health'
         });
     }
 }

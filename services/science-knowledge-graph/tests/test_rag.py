@@ -9,6 +9,8 @@ from science_kg.models import (
     GraphEdge,
     SearchResult,
     RetrievalContext,
+    GeneratedAnswer,
+    AnswerStatus,
 )
 from science_kg.rag.retriever import GraphRetriever, _extract_terms
 
@@ -91,6 +93,9 @@ def _make_client(nodes=None, edges=None):
     # channel — must be an AsyncMock so the union ranking has something to
     # iterate (empty list = channel contributes nothing, other channels stand).
     client.find_documents_by_title = AsyncMock(return_value=[])
+    # retrieve() also awaits find_documents_by_content() for the full-text prose
+    # channel (SPEC §B1) — AsyncMock so the RRF fusion has something to iterate.
+    client.find_documents_by_content = AsyncMock(return_value=[])
     return client
 
 
@@ -227,11 +232,11 @@ async def test_generator_empty_context_still_calls_llm_for_casual_message():
         mock_client.chat.completions.create = AsyncMock(return_value=mock_response)
         mock_cls.return_value = mock_client
 
-        answer = await generate_answer("hi", ctx)
+        result = await generate_answer("hi", ctx)
 
     mock_client.chat.completions.create.assert_called_once()
-    assert "knowledge graph" not in answer.lower()
-    assert "not contain" not in answer.lower()
+    assert "knowledge graph" not in result.answer.lower()
+    assert "not contain" not in result.answer.lower()
 
 
 @pytest.mark.asyncio
@@ -301,9 +306,9 @@ async def test_generator_calls_claude_api():
         mock_client.chat.completions.create = AsyncMock(return_value=mock_response)
         mock_cls.return_value = mock_client
 
-        answer = await generate_answer("What is the yield strength of Ti-6Al-4V?", ctx)
+        result = await generate_answer("What is the yield strength of Ti-6Al-4V?", ctx)
 
-    assert "Ti-6Al-4V" in answer
+    assert "Ti-6Al-4V" in result.answer
     mock_client.chat.completions.create.assert_called_once()
 
 
@@ -369,10 +374,10 @@ async def test_generator_api_error_returns_helpful_message():
         )
         mock_cls.return_value = mock_client
 
-        answer = await generate_answer("What is Ti-6Al-4V?", ctx)
+        result = await generate_answer("What is Ti-6Al-4V?", ctx)
 
-    assert "generation failed" in answer.lower()
-    assert "OPENAI_API_KEY" in answer
+    assert "generation failed" in result.answer.lower()
+    assert "OPENAI_API_KEY" in result.answer
 
 
 def test_expand_search_terms_canonicalizes_vt6():
@@ -416,7 +421,10 @@ async def test_rag_endpoint_returns_response():
         mock_retriever = AsyncMock()
         mock_retriever.retrieve = AsyncMock(return_value=ctx)
         mock_ret_cls.return_value = mock_retriever
-        mock_gen.return_value = "Ti-6Al-4V has high strength (source: p1.pdf)."
+        mock_gen.return_value = GeneratedAnswer(
+            answer="Ti-6Al-4V has high strength (source: p1.pdf).",
+            status=AnswerStatus.GROUNDED,
+        )
 
         app = FastAPI()
         app.include_router(router)
@@ -435,3 +443,199 @@ async def test_rag_endpoint_returns_response():
     assert "context_nodes" in body
     assert "sources" in body
     assert body["answer"] == "Ti-6Al-4V has high strength (source: p1.pdf)."
+    assert body["grounded"] is True  # status-driven grounding flag
+
+
+# ── Gap handling + ranking helpers (SPEC gap-handling+ranking) ─────────────────
+
+from science_kg.models import RetrievalOutcome
+from science_kg.rag.retriever import (
+    _extract_relevant_window,
+    _rrf_fuse,
+    _is_junk_entity,
+)
+from science_kg.graph.neo4j_client import _lucene_or_query
+from science_kg.rag.generator import looks_like_refusal, gap_hint
+
+
+def test_relevant_window_localises_deep_passage():
+    """§B2: the window is picked around query terms, not from the doc opening."""
+    filler = "\n\n".join(f"обложка журнала часть {i}" for i in range(400))
+    answer = "Обратный осмос удаляет сульфаты и хлориды из воды обогащения."
+    text = filler + "\n\n" + answer + "\n\n" + filler
+    window = _extract_relevant_window(text, ["осмос", "сульфаты", "хлориды"], 2000)
+    assert "осмос" in window
+    assert len(window) <= 2100
+
+
+def test_relevant_window_falls_back_to_prefix_without_matches():
+    text = "\n\n".join(f"параграф без совпадений {i}" for i in range(500))
+    out = _extract_relevant_window(text, ["осмос", "теллур"], 500)
+    assert out.startswith("параграф")  # prefix truncation, not a window marker
+
+
+def test_rrf_fuse_rewards_agreement_and_weight():
+    """A doc two channels agree on beats one only a single channel ranks."""
+    channels = {
+        "title": ["A", "B"],
+        "content": ["A", "C"],
+        "specificity": ["D"],
+        "coverage": ["D"],
+    }
+    weights = {"title": 2.0, "content": 1.5, "specificity": 1.0, "coverage": 1.0}
+    fused = _rrf_fuse(channels, weights)
+    assert fused[0] == "A"  # top of the two strongest-weighted channels
+
+
+def test_lucene_query_drops_short_and_boosts_long():
+    q = _lucene_or_query(["мм", "осмос", "обессоливание"])
+    assert "мм" not in q  # < 4 chars and not an element symbol → dropped
+    assert "осмос" in q
+    assert "обессоливание^2" in q  # long term boosted
+
+
+def test_lucene_query_empty_when_all_generic():
+    assert _lucene_or_query(["мм", "см", "аб"]) == ""
+
+
+def test_is_junk_entity():
+    assert _is_junk_entity("для")
+    assert _is_junk_entity("的")
+    assert not _is_junk_entity("мышьяк")
+    assert not _is_junk_entity("Ti-6Al-4V")
+
+
+def test_looks_like_refusal_only_at_opening():
+    assert looks_like_refusal("В предоставленном контексте нет информации о X.")
+    assert looks_like_refusal("В тексте нет данных о лабораториях, занимавшихся этим.")
+    # a genuine answer that mentions a marker word deep in the body (past the
+    # opening disclaimer zone) is NOT a refusal — this is the #3 selenium case.
+    good = (
+        "Селен и теллур окисляются на свинцовом аноде до неосаждающихся форм и "
+        "накапливаются в циркулирующих растворах электролита, поэтому в товарной "
+        "катодной меди они практически отсутствуют при высоком извлечении меди."
+    )
+    assert not looks_like_refusal(good)
+
+
+def test_gap_hint_distinguishes_no_corpus_from_no_match():
+    no_anchor = RetrievalContext(
+        nodes=[], edges=[], matched_entities=[], sources=[],
+        outcome=RetrievalOutcome.NO_ANCHOR,
+    )
+    assert "не нашлось" in gap_hint(no_anchor)
+    weak = RetrievalContext(
+        nodes=[], edges=[], matched_entities=["никель", "плотность тока"],
+        sources=[], outcome=RetrievalOutcome.WEAK_CONTEXT,
+    )
+    hint = gap_hint(weak)
+    assert "никель" in hint and "Онтолог" in hint
+
+
+def test_gap_hint_never_echoes_filenames():
+    weak = RetrievalContext(
+        nodes=[], edges=[],
+        matched_entities=["RAW_DATA/Обзоры/Мышьяк.pdf::chunk0", "мышьяк"],
+        sources=[], outcome=RetrievalOutcome.WEAK_CONTEXT,
+    )
+    hint = gap_hint(weak)
+    assert "::chunk" not in hint and ".pdf" not in hint
+    assert "мышьяк" in hint
+
+
+# ── Chemical element symbols (SPEC §B1/§B2 follow-up) ──────────────────────────
+
+from science_kg.nlp.normalizer import is_element_symbol
+from science_kg.rag.retriever import _extract_element_symbols
+
+
+def test_is_element_symbol_case_sensitive():
+    assert is_element_symbol("Au") and is_element_symbol("Ni") and is_element_symbol("As")
+    # lowercase english stop words that collide with symbols must NOT match
+    assert not is_element_symbol("as") and not is_element_symbol("in")
+    assert not is_element_symbol("мышьяк")
+
+
+def test_extract_element_symbols_from_question():
+    syms = _extract_element_symbols("Как распределяются Au, Ag и МПГ между штейном?")
+    assert syms == ["Au", "Ag"]  # order-preserving; МПГ is not a symbol
+    assert _extract_element_symbols("электроэкстракция Ni") == ["Ni"]
+
+
+def test_lucene_query_keeps_element_symbols():
+    q = _lucene_or_query(["Ni", "плотность", "тока"])
+    assert "Ni" in q  # 2-char symbol kept despite the length cutoff
+    assert "плотность" in q
+
+
+def test_relevant_window_localises_on_element_symbols():
+    filler = "\n\n".join(f"страница {i} без темы" for i in range(300))
+    target = "Коэффициент распределения Au и Ag между штейном и шлаком составляет L=5."
+    text = filler + "\n\n" + target + "\n\n" + filler
+    window = _extract_relevant_window(text, ["Au", "Ag", "штейн"], 1500)
+    assert "Коэффициент распределения" in window
+
+
+def test_relevant_window_keeps_document_opening():
+    """§B2 stabilisation: the opening is always kept, so a document that leads
+    with its answer is never worse off than plain prefix truncation."""
+    opening = "ВВЕДЕНИЕ. Основные положения работы изложены здесь."
+    deep = "\n\n".join(f"раздел {i} про осмос и сульфаты" for i in range(400))
+    text = opening + "\n\n" + deep
+    window = _extract_relevant_window(text, ["осмос", "сульфаты"], 3000)
+    assert "ВВЕДЕНИЕ" in window  # opening preserved even though matches are deep
+
+
+# ── Structured answer status (grounded flag from the model) ───────────────────
+
+from science_kg.rag.generator import _parse_generated, _infer_status
+
+
+def test_parse_generated_reads_status_from_json():
+    g = _parse_generated('{"status": "no_data", "answer": "Нет данных по X."}')
+    assert g.status == AnswerStatus.NO_DATA
+    assert g.answer == "Нет данных по X."
+    g2 = _parse_generated('{"status": "grounded", "answer": "Медь плавится при 1085 °C."}')
+    assert g2.status == AnswerStatus.GROUNDED
+
+
+def test_parse_generated_falls_back_on_plain_text():
+    # a non-JSON reply (endpoint ignored json mode) is taken verbatim
+    g = _parse_generated("Ti-6Al-4V has high strength.")
+    assert g.answer == "Ti-6Al-4V has high strength."
+    assert g.status == AnswerStatus.GROUNDED
+    g2 = _parse_generated("В предоставленном контексте нет информации об этом.")
+    assert g2.status == AnswerStatus.NO_DATA  # heuristic fallback
+
+
+def test_parse_generated_unknown_status_infers():
+    g = _parse_generated('{"status": "weird", "answer": "Нет данных."}')
+    assert g.status == AnswerStatus.NO_DATA  # falls back to heuristic on bad status
+
+
+@pytest.mark.asyncio
+async def test_generator_requests_json_and_zero_temperature():
+    from science_kg.rag.generator import generate_answer
+
+    ctx = RetrievalContext(nodes=[], edges=[], matched_entities=[], sources=[])
+    mock_message = MagicMock()
+    mock_message.content = '{"status": "casual", "answer": "Привет!"}'
+    mock_choice = MagicMock()
+    mock_choice.message = mock_message
+    mock_response = MagicMock()
+    mock_response.choices = [mock_choice]
+
+    with (
+        patch("science_kg.rag.generator.settings.openai_api_key", "test-key"),
+        patch("science_kg.rag.generator.openai.AsyncOpenAI") as mock_cls,
+    ):
+        mock_client = MagicMock()
+        mock_client.chat.completions.create = AsyncMock(return_value=mock_response)
+        mock_cls.return_value = mock_client
+        result = await generate_answer("привет", ctx)
+
+    kwargs = mock_client.chat.completions.create.call_args.kwargs
+    assert kwargs["temperature"] == 0
+    assert kwargs["response_format"] == {"type": "json_object"}
+    assert result.status == AnswerStatus.CASUAL
+    assert result.answer == "Привет!"

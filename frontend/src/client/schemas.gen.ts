@@ -215,7 +215,7 @@ export const ChatMessageRequestSchema = {
 
 export const ChatModeSchema = {
     type: 'string',
-    enum: ['auto', 'ontology', 'knowledge_graph'],
+    enum: ['auto', 'ontology', 'knowledge_graph', 'literature'],
     title: 'ChatMode'
 } as const;
 
@@ -302,6 +302,295 @@ export const ChatTriggerSchema = {
     type: 'string',
     enum: ['gap_click', 'user_input'],
     title: 'ChatTrigger'
+} as const;
+
+export const CorpusDocumentHitSchema = {
+    properties: {
+        okf_path: {
+            type: 'string',
+            title: 'Okf Path'
+        },
+        title: {
+            type: 'string',
+            title: 'Title'
+        },
+        snippet: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Snippet'
+        }
+    },
+    type: 'object',
+    required: ['okf_path', 'title'],
+    title: 'CorpusDocumentHit'
+} as const;
+
+export const CorpusPassageHitSchema = {
+    properties: {
+        kind: {
+            type: 'string',
+            title: 'Kind'
+        },
+        doc: {
+            type: 'string',
+            title: 'Doc'
+        },
+        text: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Text'
+        },
+        snippet: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Snippet'
+        },
+        okf_path: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Okf Path'
+        },
+        locator: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Locator'
+        },
+        year: {
+            anyOf: [
+                {
+                    type: 'integer'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Year'
+        },
+        country: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Country'
+        },
+        lang: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Lang'
+        },
+        value: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Value'
+        },
+        unit: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Unit'
+        },
+        rank: {
+            type: 'number',
+            title: 'Rank',
+            default: 0
+        }
+    },
+    type: 'object',
+    required: ['kind', 'doc'],
+    title: 'CorpusPassageHit'
+} as const;
+
+export const CorpusSearchRequestSchema = {
+    properties: {
+        query: {
+            type: 'string',
+            maxLength: 500,
+            title: 'Query',
+            default: ''
+        },
+        limit: {
+            type: 'integer',
+            maximum: 50,
+            minimum: 1,
+            title: 'Limit',
+            default: 20
+        },
+        kinds: {
+            anyOf: [
+                {
+                    items: {
+                        type: 'string'
+                    },
+                    type: 'array'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Kinds'
+        },
+        year_from: {
+            anyOf: [
+                {
+                    type: 'integer'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Year From'
+        },
+        year_to: {
+            anyOf: [
+                {
+                    type: 'integer'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Year To'
+        },
+        geo: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Geo'
+        },
+        numeric: {
+            anyOf: [
+                {
+                    '$ref': '#/components/schemas/NumericCondition'
+                },
+                {
+                    type: 'null'
+                }
+            ]
+        },
+        include_documents: {
+            type: 'boolean',
+            title: 'Include Documents',
+            default: true
+        }
+    },
+    type: 'object',
+    title: 'CorpusSearchRequest'
+} as const;
+
+export const CorpusSearchResponseSchema = {
+    properties: {
+        query: {
+            type: 'string',
+            title: 'Query'
+        },
+        passages: {
+            items: {
+                '$ref': '#/components/schemas/CorpusPassageHit'
+            },
+            type: 'array',
+            title: 'Passages',
+            default: []
+        },
+        documents: {
+            items: {
+                '$ref': '#/components/schemas/CorpusDocumentHit'
+            },
+            type: 'array',
+            title: 'Documents',
+            default: []
+        },
+        entities: {
+            '$ref': '#/components/schemas/RecognizedEntities'
+        },
+        expanded_terms: {
+            items: {
+                type: 'string'
+            },
+            type: 'array',
+            title: 'Expanded Terms',
+            default: []
+        },
+        note: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Note'
+        },
+        total_passages: {
+            type: 'integer',
+            title: 'Total Passages',
+            default: 0
+        },
+        total_documents: {
+            type: 'integer',
+            title: 'Total Documents',
+            default: 0
+        }
+    },
+    type: 'object',
+    required: ['query'],
+    title: 'CorpusSearchResponse'
 } as const;
 
 export const CoverageCellSchema = {
@@ -460,6 +749,18 @@ export const DocumentFileSummarySchema = {
     title: 'DocumentFileSummary'
 } as const;
 
+export const FetchStatusSchema = {
+    type: 'string',
+    enum: ['pending', 'downloading', 'done', 'failed', 'skipped'],
+    title: 'FetchStatus'
+} as const;
+
+export const FulltextStatusSchema = {
+    type: 'string',
+    enum: ['none', 'added', 'failed'],
+    title: 'FulltextStatus'
+} as const;
+
 export const GapCellSchema = {
     properties: {
         material_id: {
@@ -579,6 +880,13 @@ export const GraphOverviewResponseSchema = {
             },
             type: 'array',
             title: 'Gaps'
+        },
+        notes: {
+            items: {
+                type: 'string'
+            },
+            type: 'array',
+            title: 'Notes'
         }
     },
     type: 'object',
@@ -828,6 +1136,183 @@ export const IngestUploadResponseSchema = {
     title: 'IngestUploadResponse'
 } as const;
 
+export const LitAnswerRefSchema = {
+    properties: {
+        message_id: {
+            type: 'string',
+            format: 'uuid',
+            title: 'Message Id'
+        },
+        kind: {
+            type: 'string',
+            enum: ['abstracts', 'fulltext'],
+            title: 'Kind'
+        }
+    },
+    type: 'object',
+    required: ['message_id', 'kind'],
+    title: 'LitAnswerRef'
+} as const;
+
+export const LitIngestStatusSchema = {
+    type: 'string',
+    enum: ['none', 'queued', 'running', 'done', 'failed'],
+    title: 'LitIngestStatus'
+} as const;
+
+export const LitStageSchema = {
+    type: 'string',
+    enum: ['searching', 'fetching', 'reading', 'done', 'failed'],
+    title: 'LitStage'
+} as const;
+
+export const LiteraturePaperPublicSchema = {
+    properties: {
+        id: {
+            type: 'string',
+            format: 'uuid',
+            title: 'Id'
+        },
+        doi: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Doi'
+        },
+        title: {
+            type: 'string',
+            title: 'Title'
+        },
+        authors: {
+            type: 'string',
+            title: 'Authors'
+        },
+        year: {
+            anyOf: [
+                {
+                    type: 'integer'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Year'
+        },
+        abstract: {
+            type: 'string',
+            title: 'Abstract'
+        },
+        pdf_url: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Pdf Url'
+        },
+        citation_count: {
+            anyOf: [
+                {
+                    type: 'integer'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Citation Count'
+        },
+        fetch_status: {
+            '$ref': '#/components/schemas/FetchStatus'
+        },
+        fulltext_status: {
+            '$ref': '#/components/schemas/FulltextStatus'
+        },
+        fulltext_chars: {
+            type: 'integer',
+            title: 'Fulltext Chars'
+        },
+        ingest_status: {
+            '$ref': '#/components/schemas/LitIngestStatus'
+        },
+        document_id: {
+            anyOf: [
+                {
+                    type: 'string',
+                    format: 'uuid'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Document Id'
+        }
+    },
+    type: 'object',
+    required: ['id', 'title', 'authors', 'abstract', 'fetch_status', 'fulltext_status', 'fulltext_chars', 'ingest_status'],
+    title: 'LiteraturePaperPublic'
+} as const;
+
+export const LiteratureSearchPublicSchema = {
+    properties: {
+        id: {
+            type: 'string',
+            format: 'uuid',
+            title: 'Id'
+        },
+        stage: {
+            '$ref': '#/components/schemas/LitStage'
+        },
+        round: {
+            type: 'integer',
+            title: 'Round'
+        },
+        followup_search_id: {
+            anyOf: [
+                {
+                    type: 'string',
+                    format: 'uuid'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Followup Search Id'
+        },
+        papers: {
+            items: {
+                '$ref': '#/components/schemas/LiteraturePaperPublic'
+            },
+            type: 'array',
+            title: 'Papers'
+        },
+        answers: {
+            items: {
+                '$ref': '#/components/schemas/LitAnswerRef'
+            },
+            type: 'array',
+            title: 'Answers'
+        },
+        queries: {
+            items: {
+                type: 'string'
+            },
+            type: 'array',
+            title: 'Queries'
+        }
+    },
+    type: 'object',
+    required: ['id', 'stage', 'round'],
+    title: 'LiteratureSearchPublic'
+} as const;
+
 export const MessageSchema = {
     properties: {
         message: {
@@ -918,6 +1403,85 @@ export const NewPasswordSchema = {
     type: 'object',
     required: ['token', 'new_password'],
     title: 'NewPassword'
+} as const;
+
+export const NumericConditionSchema = {
+    properties: {
+        quantity: {
+            type: 'string',
+            maxLength: 64,
+            minLength: 1,
+            title: 'Quantity'
+        },
+        value_from: {
+            anyOf: [
+                {
+                    type: 'number'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Value From'
+        },
+        value_to: {
+            anyOf: [
+                {
+                    type: 'number'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Value To'
+        }
+    },
+    type: 'object',
+    required: ['quantity'],
+    title: 'NumericCondition',
+    description: `Числовое условие: величина + диапазон значений в её отображаемой
+единице (temperature — °C, concentration — г/л, доли — %).`
+} as const;
+
+export const PaperIngestStatusPublicSchema = {
+    properties: {
+        status: {
+            type: 'string',
+            title: 'Status',
+            default: 'none'
+        },
+        progress: {
+            type: 'number',
+            maximum: 1,
+            minimum: 0,
+            title: 'Progress',
+            default: 0
+        },
+        stage_name: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Stage Name'
+        },
+        error: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Error'
+        }
+    },
+    type: 'object',
+    title: 'PaperIngestStatusPublic'
 } as const;
 
 export const ParseRawDataFileRequestSchema = {
@@ -1096,6 +1660,44 @@ export const RawDataFilesResponseSchema = {
     type: 'object',
     required: ['data', 'count', 'offset', 'limit'],
     title: 'RawDataFilesResponse'
+} as const;
+
+export const RecognizedEntitiesSchema = {
+    properties: {
+        process: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Process'
+        },
+        quantity_kind: {
+            anyOf: [
+                {
+                    type: 'string'
+                },
+                {
+                    type: 'null'
+                }
+            ],
+            title: 'Quantity Kind'
+        },
+        materials: {
+            items: {
+                type: 'string'
+            },
+            type: 'array',
+            title: 'Materials',
+            default: []
+        }
+    },
+    type: 'object',
+    title: 'RecognizedEntities',
+    description: 'Сущности, распознанные онтологией в тексте запроса (канонические имена).'
 } as const;
 
 export const RegimeBucketSchema = {
