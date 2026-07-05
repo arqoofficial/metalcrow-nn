@@ -1,0 +1,763 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No1-2018-pdf",
+   "title": "ЦМ №1-2018.pdf",
+   "doc_type": "article",
+   "year": 2018,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2018-все\\ЦМ №1-2018.pdf.md",
+   "artifact_sha256": "5570c01b7bdacea93a929de392114a98f27065c57db5f2d068564399b7eaecff",
+   "okf_raw_path": "Журналы/Цветные металлы/2018-все/ЦМ №1-2018.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:slag-штаи-н",
+   "label": "slag (штайн)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:клапаны-дабли",
+   "label": "Клапаны Дабли",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:холодные-присадки-штеи-новые-жорки-медно-цинковы",
+   "label": "Холодные присадки (штейновые жорки, медно‑цинковые кеки, конверторная пыль, концентрат и т. д.)",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No1-2018-pdf:0",
+   "document_id": "doc:цм-No1-2018-pdf",
+   "title": "Expansion of vat N1 and N3 and effect on daily slag output",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "expansion of vat N1 to 13.6 m³ and vat N3 to 12.67 m³",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-штаи-н",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "daily slag output",
+     "scope": "material",
+     "material_id": "mat:slag-штаи-н",
+     "value": {
+      "min": null,
+      "nominal": 400.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "суточный выход штейна увеличился до 400 т при одновременной работе трех конверторов типа Грэйт-Фоллс и одного конвертора типа Пирс-Смит.",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "expansion of the vats allowed a higher daily slag output while operating three Great‑Falls converters and one Pierce‑Smith converter",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "daily slag output",
+      "direction": "increases",
+      "factor": "vat expansion",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "суточный выход штейна увеличился до 400 т при одновременной работе трех конверторов типа Грэйт-Фоллс и одного конвертора типа Пирс-Смит.",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "суточный выход штейна увеличился до 400 т при одновременной работе трех конверторов типа Грэйт-Фоллс и одного конвертора типа Пирс-Смит.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No1-2018-pdf:1",
+   "document_id": "doc:цм-No1-2018-pdf",
+   "title": "April 1936 operation of converters on slag with different copper contents",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "continuous operation of converters during April 1936",
+       "temperature_text": "not specified",
+       "duration_text": "April 1936 (one month)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-штаи-н",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "air consumption per tonne of copper",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 130.0,
+      "max": null
+     },
+     "unit": "m³/min",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расход воздуха на основе измеренин принят для конвертора N 1 _ 130 м3 мин",
+     "locator_kind": "md_para",
+     "locator": "para:79",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "air consumption for Kirovgrad converters is lower than for comparable American plants at the same slag copper content",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "air consumption",
+      "direction": "decreases",
+      "factor": "plant design",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Из сравнения табл 2 и 3 видно, ЧТО расход воздуха на 1 меди (при одних тех же содержанию меди штейнах) конверторах Кировградского завода несколько меньше по сравнению расходом воздуха конверторах американских заводов",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Табл: 2 показывает; конверторы N 2 и 3 работали течение апреля на штейнах До 20\"/0, конвертор N 1 до 270/0",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No1-2018-pdf:2",
+   "document_id": "doc:цм-No1-2018-pdf",
+   "title": "Effect of idle blowing on slag processing speed",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "idle blowing (продувка) of slag in converters",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-штаи-н",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "idle blowing of slag provides no advantage in accelerating the process and makes temperature control more difficult",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "decreases",
+      "factor": "idle blowing",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "штейна холостыми продувками не дает никаких преимуществ B смысле ускорения процесса; кроме того, при этом груднее поддерживать температуру на нужном уровне",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "штейна холостыми продувками не дает никаких преимуществ B смысле ускорения процесса; кроме того, при этом груднее поддерживать температуру на нужном уровне",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No1-2018-pdf:3",
+   "document_id": "doc:цм-No1-2018-pdf",
+   "title": "Обточка фланцев у клапанов Дабли и замена B 3/4 на формовки",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Обточка фланцев у клапанов Дабли с целью применения формовок вместо ранее употреблявшихся B 3/4"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:клапаны-дабли",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 22.0,
+      "max": null
+     },
+     "unit": "м³/мин",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "воздуха"
+     },
+     "method": null,
+     "snippet": "Число | Расход воздуха м8 мин | Расход воздуха м8 мин | |-------------------------------------|----------|--------------------------------|------------------------------| | Тип и N кон- верторов | [фурм | при старом ВОЗ - душном режиме | при новом воз- душном режиме | | Конв: типа Грэйт-Фоллс N 1 Ng 2 N 3 | 22 20 14 | 130 115 90 |",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "При новом воздушном режиме конверторы типа Грэйт‑Фоллс уже увеличили свою производительность до 0,80,9 на час работы при условном содержании меди штейне",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "Производительность",
+      "direction": "increases",
+      "factor": "0,80,9 на час",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При новом воздушном режиме конверторы типа Грэйт‑Фоллс уже увеличили свою производительность до 0,80,9 на час работы при условном содержании меди штейне",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Это мероприятие сейчас осуществляется, и практические результаты уже заметны работе конверторов, ЧТО можно заключить из табл: 4",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No1-2018-pdf:4",
+   "document_id": "doc:цм-No1-2018-pdf",
+   "title": "Загрузка холодных присадок",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Загрузка холодных присадок в конверторы",
+       "temperature_text": "1200‑1220 °C"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1473.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:холодные-присадки-штеи-новые-жорки-медно-цинковы",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Доза холодных присадок",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.5,
+      "max": null
+     },
+     "unit": "на 1 т горячего штейна",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "можно загрузить холодных присадок до 0,5 0,7 на 1 т горячего штейна при содержании меди последнем до",
+     "locator_kind": "md_para",
+     "locator": "para:104",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Сохранение футеровки возможно за счёт увеличения количества холодных присадок в период наиболее горячего хода конвертора",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "Износ футеровки",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Сохранение футеровки возможно sa счет увеличения количества холодных присадок В период наиболее горячего хода конвертора после набора штейна до белого матта",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Практика работы конверторов до после апреля 1936 также результаты работ исследовательской бригады псказали, можно загрузить холодных присадок до 0,5 0,7 на 1 т горячего штейна при содержании меди последнем до",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No1-2018-pdf:5",
+   "document_id": "doc:цм-No1-2018-pdf",
+   "title": "Поддержание температуры футеровки",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Контроль температуры футеровки",
+       "temperature_text": "1140‑1160 °C"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1413.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Рекомендуется поддерживать температуру футеровки равной 1140‑1160 °C",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "рекомендут в своих выводах поддерживать температуру футеровки равной 1140_11609",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "рекомендут в своих выводах поддерживать температуру футеровки равной 1140_11609",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No1-2018-pdf:6",
+   "document_id": "doc:цм-No1-2018-pdf",
+   "title": "Применение кислородного воздуха",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Подача воздуха, обогащённого кислородом, в конверторы типа Грэйт‑Фоллс"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Применение воздуха, обогащённого кислородом, может увеличить суточную выплавку меди",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "Производительность",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Лучшие показатели C точки зрения интенсификации процесса бессемерования увеличения суточной выплавки меди можно ожидать случае применения воздуха, обогащенного кислородом",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Лучшие показатели C точки зрения интенсификации процесса бессемерования увеличения суточной выплавки меди можно ожидать случае применения воздуха, обогащенного кислородом",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Годовая производительность существующих конверторов Кировградского медеплавильного завода определена отраслевой конференцией по пересмотру норм медеплавильной промышленности в 29 300 т черновой меди",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual production",
+    "direction": "increases",
+    "factor": "existing converters",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Годовая производительность существующих конверторов Кировградского медеплавильного завода определена отраслевой конференцией по пересмотру норм медеплавильной промышленности в 29 300 т черновой меди",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Это подсчитано при условии получения 1,3 меди на час работы конвертора Пирс Смит и 0,8 на час работы конвертора Грэйт-Фоллс при содержании меди штейне 20 /0 за вычетом 30 дней на ремонт каждого конвертора",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "productivity per hour",
+    "direction": "decreases",
+    "factor": "maintenance downtime",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это подсчитано при условии получения 1,3 меди на час работы конвертора Пирс Смит и 0,8 на час работы конвертора Грэйт-Фоллс при содержании меди штейне 20 /0 за вычетом 30 дней на ремонт каждого конвертора",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Если учесть необходимость иметь один конвертор резерве, напряженность конверторов в переработке штейна на Кировградском заводе становится очевидной",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "converter utilization",
+    "direction": "increases",
+    "factor": "reserve converter requirement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если учесть необходимость иметь один конвертор резерве, напряженность конверторов в переработке штейна на Кировградском заводе становится очевидной",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Annual production capacity of the existing converters at Kirovgrad copper smelter is 29 300 t of blister copper under the assumption of 1.3 t Cu/h for Pierce‑Smith converters and 0.8 t Cu/h for Great‑Falls converters with 30 days per year allocated to maintenance for each converter",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual production capacity",
+    "direction": "increases",
+    "factor": "operating rates and maintenance schedule",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Годовая производительность существующих конверторов Кировградского медеплавильного завода определена отраслевой конференцией ... в 29 300 т черновой меди Это подсчитано при условии получения 1,3 меди на час работы конвертора Пирс Смит и 0,8 на час работы конвертора Грэйт-Фоллс при содержании меди штейне 20 /0 за вычетом 30 дней на ремонт каждого конвертора",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "The use of water‑jet furnaces for melting heavy, copper‑rich ores reduced the consumption of Belorechensk ore and lowered converter workload while increasing copper output beyond the plant plan of 23 000 t per year",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper output",
+    "direction": "increases",
+    "factor": "use of heavy copper‑rich ores",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на ватержакетных печах была освоена выплавка так называемых ктяжелых>, но богатых руд ... резким сокращением расхода белореченской руды; что позволило; одной стороны, снизить напряженность работы конверторов, С другой, дать в 1936 г: меди значительно боль ше, чем это предусмотрено для завода планом (23 000 черновой меди год)",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "When four converters (three Great‑Falls and one Pierce‑Smith) could not process the slag for several months, they managed to keep up by operating only 2.5–3 converters",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "processing capability",
+    "direction": "decreases",
+    "factor": "reduced number of active converters",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "время когда 4 конвертора (3 Грэйт-Фоллс и 1 Смит) ряде месяцев не успевали перерабатывать штейна, они справлялись работой при 2,5 3 конверторах",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Air flow to the converters varied between 90 and 150 m³/min, and insufficient air supply reduced the intensity of the decoppering process",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "process intensity",
+    "direction": "decreases",
+    "factor": "air flow rate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Переменное количество подаваемого в конвертор воздуха еди: ницу времени: Последнее изменялось B пределах от 90 до 150 мз/мин: Вследствие недостаточного поступления воздуха интенсивность процесса бессемерования уменьшалась",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Inaccurate recording of converter operating time (e.g., reduced actual working time due to crane breakdowns, slag discharge, loading) leads to an overestimation of blowing time and lowers the apparent productivity of converters",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "productivity measurement",
+    "direction": "decreases",
+    "factor": "recording inaccuracies",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Неточность учета времени работы конверторов; особенно тех случаях; когда мастер записывает на доске учета уменьшенное профактического время нерабочих (поломка крана; ожидание штейна) и рабочих простоев ... Такая неточность операционного учета ведет к увеличению времени работы конвертора на дутье по сравнению фактическим и уменьшает показатель производительности конвер торов",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Higher percentage of air utilization in converters contributes to achieving the reported performance indicators",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "performance indicators",
+    "direction": "increases",
+    "factor": "air utilization percentage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Достижению вышеуказанных показателей способствовал; главным образом; высокий процент использования воздуха; поступающего B конверторы",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Pierce‑Smith converters can handle richer slag than Great‑Falls converters because of their larger capacity, resulting in higher productivity at high copper contents",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "productivity",
+    "direction": "increases",
+    "factor": "converter type (capacity)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в конвертор Ne 4 типа Смит направляют штейны, относительно более богатые; чем B верторы типа Грэйт-Фоллс; так как первый имеет большую емкость и обеспечивает при богатых штейнах большую производительность",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Фактический средний расход воздуха на конверторах типа Грэйт‑Фоллс до апреля 1936 г был недостаточным",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Фактический средний расход воздуха на жонверторах типа ГрэйтФоллс до апреля 1936 Г (табл: 4) являлся недостаточным",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Конверторы Кировградского завода работают при повышенной температуре 1200‑1220 °C",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "1200‑1220 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "конверторы Кировградского завод отличие многих других заводов, имсют горячий вследствие чего их pa бота протекает прй повышенной температуре 120012209",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Частые ремонты футеровки в I квартале 1936 г были вызваны недоброкачественностью магнезитового и хромо‑магнезитового кирпича",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в первой четверти 1936 провождалась очень частыми ремонтами футеровки (главным зом фурменной части), в первую очередь ИЗ‑За недоброкачественности магнезитового и хромо‑магнезитового кирпича",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Преждевременный износ футеровки может быть вызван химическим разъеданием, механическим воздействием загрузки крупнокусковых материалов и резкими отклонениями от нормального температурного режима",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Преждевременный износ футеровки может быть вызван не только плохим качеством кирпича и резкими отклонениями от нормального температурного режима: качестве других возможных причин можназвать: химическое разъедание футеровки; механическое воздействие загрузки крупнокусковых материалов и т д",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Простои конверторов в период апрель‑июнь 1936 г возросли до 20‑30 % и более от общей продолжительности операций",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "phase_fraction",
+    "direction": "increases",
+    "factor": "20\"/6 и больше",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "отличие работы в 1935 простои конверторов период аПрель -июнь 1936 г: сильно возросли и доходят иногда до 20\"/6 и больше к общей продолжительности операций",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Увеличение емкости ковшей для штейна позволит сразу заливать конвертор в первые часы работы без излишней продувки",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Емкость ковша",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Увеличение емкости ковшей для штейна позволяло бы сразу заливать конвертор первые часы {работы (во время рядки) штейна не больше чем обычном случае",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No1-2018-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

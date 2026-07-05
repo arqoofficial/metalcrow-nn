@@ -1,0 +1,800 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "title": "Переработка отработанных литий-ионных батарей ОИП 01-2021.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Переработка отработанных литий-ионных батарей ОИП 01-2021.docx.md",
+   "artifact_sha256": "fb7d42a0d0c397a506ba727c49dd0700f607edafbfbe548ace69c78ea5107da8",
+   "okf_raw_path": "Обзоры/Переработка отработанных литий-ионных батарей ОИП 01-2021.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Прогнозный спрос на ЛИБ в период с 2018 г до 2030г будет расти на 25% в год и увеличится со 180 ГВт·ч в 2018 г до 2600 ГВт·ч в 2030г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual growth rate and total demand",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Прогнозный спрос на ЛИБ в период с 2018 г до 2030г будет расти на 25% в год и увеличится со 180 ГВт·ч в 2018 г до 2600 ГВт·ч в 2030г.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "В 2019 г в мире было продано более 2,1 млн электромобилей и, после некоторого спада в 2020 г. (на -14%) из-за пандемии, к 2030 г продажи могут превысить 130 млн единиц.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sales volume",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2019 г в мире было продано более 2,1 млн электромобилей и, после некоторого спада в 2020 г. (на -14%) из-за пандемии, к 2030 г продажи могут превысить 130 млн единиц.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Литий-ионные батареи (ЛИБ) частично вытеснили NiMH-батареи как источник энергии в портативном электронном оборудовании и стали основным источником энергии в электромобилях и прочих транспортных средствах (автобусах, велосипедах и т.д.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "adoption",
+    "direction": "increases",
+    "factor": "technology replacement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Литий-ионные батареи (ЛИБ) частично вытеснили NiMH-батареи как источник энергии в портативном электронном оборудовании и стали основным источником энергии в электромобилях и прочих транспортных средствах (автобусах, велосипедах и т.д.).",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Литий-ионные батареи различаются (и называются) по типу используемого катодного материала. В настоящее время имеется пять основных коммерческих типов катодных материалов: Li-Co оксид (LCO), Li-Ni-Mn-Co (NMC), Li-Mn оксид (LMO), Li-Ni-Al оксид (NCA) и Li-Fe фосфат (LFP).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "types of cathode materials",
+    "direction": "nonmonotonic",
+    "factor": "material composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Литий-ионные батареи различаются (и называются) по типу используемого катодного материала. В настоящее время имеется пять основных коммерческих типов катодных материалов: Li-Co оксид (LCO), Li-Ni-Mn-Co (NMC), Li-Mn оксид (LMO), Li-Ni-Al оксид (NCA) и Li-Fe фосфат (LFP).",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Большое разнообразие материалов для электродов и их быстрая эволюция представляют большую проблему для компаний, занимающихся переработкой отработанных батарей (рецирклингом).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "difficulty level",
+    "direction": "increases",
+    "factor": "material diversity and evolution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Большое разнообразие материалов для электродов и их быстрая эволюция представляют большую проблему для компаний, занимающихся переработкой отработанных батарей (рецирклингом).",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Отработанная ЛИБ (ОЛИБ) содержит значительные количества ценных металлов: Co, Cu, Ni, Al, Mn, Li и др.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отработанная ЛИБ (ОЛИБ) содержит значительные количества ценных металлов: Co, Cu, Ni, Al, Mn, Li и др.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "По оценкам аналитиков Circular Energy Storage к 2030г из скрапа батарей может быть извлечено около 125 тыс т эквивалента карбоната лития, 35 тыс т кобальта и 86 тыс т никеля.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recoverable quantities",
+    "direction": "increases",
+    "factor": "by 2030",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам аналитиков Circular Energy Storage к 2030г из скрапа батарей может быть извлечено около 125 тыс т эквивалента карбоната лития, 35 тыс т кобальта и 86 тыс т никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Изготовление катодного материала ЛИБ с применением вторичных Co и Ni, полученных из отработанных ЛИБ, может помочь сэкономить расход ископаемого топлива на 45,3%, руды – на 51,3%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fuel and ore savings",
+    "direction": "decreases",
+    "factor": "45,3% fuel, 51,3% ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Изготовление катодного материала ЛИБ с применением вторичных Co и Ni, полученных из отработанных ЛИБ, может помочь сэкономить расход ископаемого топлива на 45,3%, руды – на 51,3%.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Тяжелые металлы и вредные органические химикаты, содержащиеся в ЛИБ, представляют серьезную угрозу для экосистемы и для здоровья человека.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "hazard level",
+    "direction": "increases",
+    "factor": "presence of heavy metals and organics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тяжелые металлы и вредные органические химикаты, содержащиеся в ЛИБ, представляют серьезную угрозу для экосистемы и для здоровья человека.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Захоронение таких отходов приведет к серьезному загрязнению почвы и грунтовых вод, а сжигание без особых мер предосторожности – к выделению токсичных газов в атмосферу.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "environmental contamination",
+    "direction": "increases",
+    "factor": "landfilling or incineration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Захоронение таких отходов приведет к серьезному загрязнению почвы и грунтовых вод, а сжигание без особых мер предосторожности – к выделению токсичных газов в атмосферу.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Батарея в электроинструменте, которым ежедневно пользуется некий условный ремесленник, может достичь окончания срока службы через несколько месяцев, а батареи в некоторых накопителях энергии – через 20+ лет.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "decreases",
+    "factor": "application type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Батарея в электроинструменте, которым ежедневно пользуется некий условный ремесленник, может достичь окончания срока службы через несколько месяцев, а батареи в некоторых накопителях энергии – через 20+ лет.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Расчетный срок службы батареи в электромобиле – 8 лет для “первой” жизни и 5 лет для “второй” жизни.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "decreases",
+    "factor": "first vs second life",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Расчетный срок службы батареи в электромобиле – 8 лет для “первой” жизни и 5 лет для “второй” жизни.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Автомобилестроители дают гарантии для батарей на 8 лет, также на 100000-125000 миль.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "guaranteed lifespan",
+    "direction": "increases",
+    "factor": "manufacturer policy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Автомобилестроители дают гарантии для батарей на 8 лет, также на 100000-125000 миль.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "В Европе и США использованные батареи электромобилей устанавливаются в различные системы накопления энергии – от небольших систем жилых домов до более крупномасштабных энергосистем.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "deployment scope",
+    "direction": "increases",
+    "factor": "region (Europe, USA)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Европе и США использованные батареи электромобилей устанавливаются в различные системы накопления энергии – от небольших систем жилых домов до более крупномасштабных энергосистем.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "В 2018 г ЛИБ “второй жизни” в Китае стоила менее 100 долларов за кВт·ч, т.е. практически столько же, что и свинцовый аккумулятор.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price per kWh",
+    "direction": "decreases",
+    "factor": "year 2018, China",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2018 г ЛИБ “второй жизни” в Китае стоила менее 100 долларов за кВт·ч, т.е. практически столько же, что и свинцовый аккумулятор.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "С учетом возможностей повторного применения ЛИБ (“вторая жизнь”) и прочих обстоятельств к 2025 году тоннаж доступных для рециклинга батарей составит порядка 400 тыс т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "available tonnage",
+    "direction": "increases",
+    "factor": "by 2025",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С учетом возможностей повторного применения ЛИБ (“вторая жизнь”) и прочих обстоятельств к 2025 году тоннаж доступных для рециклинга батарей составит порядка 400 тыс т.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Элементы NCM 811 уже выдают 300 Вт·ч/кг",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy density",
+    "direction": "increases",
+    "factor": "NCM 811",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Элементы NCM 811 уже выдают 300 Вт·ч/кг",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "CATL планирует повысить эту цифру до 350 Вт·ч/кг уже к 2024 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy density",
+    "direction": "increases",
+    "factor": "CATL",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "CATL планирует повысить эту цифру до 350 Вт·ч/кг уже к 2024 г.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "LFP – идеальный вариант для сравнительно дешевых электромобилей, предназначенных для перевозок на небольшие расстояния, например, “по городу”, для которых цена электромобиля важнее величины пробега без зарядки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost vs range trade‑off",
+    "direction": "increases",
+    "factor": "LFP batteries",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "LFP – идеальный вариант для сравнительно дешевых электромобилей, предназначенных для перевозок на небольшие расстояния, например, “по городу”, для которых цена электромобиля важнее величины пробега без зарядки.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "в высококачественных электромобилях с большой дальностью пробега тройные системы с никелем типа NCX (X=Al или Mn) не теряют актуальности",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "relevance",
+    "direction": "no_change",
+    "factor": "NCX cathodes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в высококачественных электромобилях с большой дальностью пробега тройные системы с никелем типа NCX (X=Al или Mn) не теряют актуальности",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Среднее содержание кобальта снизится с 4,4% в 2015 г до 3,6% в 2025 г и 3,2% в 2030г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "NMC cathodes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Среднее содержание кобальта снизится с 4,4% в 2015 г до 3,6% в 2025 г и 3,2% в 2030г.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "В Европе доля LFP-батарей сравнительно низкая и проблема их рециклинга “повсеместно игнорируется”.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recycling attention",
+    "direction": "decreases",
+    "factor": "LFP batteries in Europe",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Европе доля LFP-батарей сравнительно низкая и проблема их рециклинга “повсеместно игнорируется”.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "В Европе степень переработки ЛИБ пока ещё очень низкая – порядка 5% в 2019 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recycling share",
+    "direction": "decreases",
+    "factor": "Europe",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Европе степень переработки ЛИБ пока ещё очень низкая – порядка 5% в 2019 г.",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "В 2018 г по оценкам было переработано 97 тыс т ЛИБ, в т.ч.: 67 тыс т – в Китае, 18 тыс т – в Корее.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "tonnage",
+    "direction": "increases",
+    "factor": "global 2018",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2018 г по оценкам было переработано 97 тыс т ЛИБ, в т.ч.: 67 тыс т – в Китае, 18 тыс т – в Корее.",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "По оценкам BNEF (Bloomberg New Energy Finance) в начале 2019г мировые мощности по изготовлению ЛИБ составляли 316 ГВт·ч, из которых 73% приходилось на Китай и 12% на США.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "manufacturing capacity",
+    "direction": "increases",
+    "factor": "global 2019",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам BNEF (Bloomberg New Energy Finance) в начале 2019г мировые мощности по изготовлению ЛИБ составляли 316 ГВт·ч, из которых 73% приходилось на Китай и 12% на США.",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "К 2025 г мировые мощности расширятся до 1211 ГВт·ч и доминирование Китая сохранится.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "manufacturing capacity",
+    "direction": "increases",
+    "factor": "global 2025",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К 2025 г мировые мощности расширятся до 1211 ГВт·ч и доминирование Китая сохранится.",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Основная масса ЛИБ, достигших окончания срока жизни, поступают из сектора потребительской электроники.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "source",
+    "direction": "increases",
+    "factor": "consumer electronics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основная масса ЛИБ, достигших окончания срока жизни, поступают из сектора потребительской электроники",
+   "locator_kind": "md_para",
+   "locator": "para:179",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "доминирующей “химией” отработанных ЛИБ сейчас, соответственно, является LCO.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dominant chemistry",
+    "direction": "increases",
+    "factor": "LCO",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доминирующей “химией” отработанных ЛИБ сейчас, соответственно, является LCO",
+   "locator_kind": "md_para",
+   "locator": "para:179",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Эти батареи привлекательны для переработчиков, т.к. содержат высокий процент кобальта.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "high percentage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти батареи привлекательны для переработчиков, т.к. содержат высокий процент кобальта",
+   "locator_kind": "md_para",
+   "locator": "para:179",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Однако с учетом складывающихся тенденций на рынке катодных материалов растет доступность для рециклинга ЛИБ других типов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "availability for recycling",
+    "direction": "increases",
+    "factor": "other battery types",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако с учетом складывающихся тенденций на рынке катодных материалов растет доступность для рециклинга ЛИБ других типов",
+   "locator_kind": "md_para",
+   "locator": "para:179",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "В настоящее время “вторичные” материалы для ЛИБ представляют лишь малую часть рынка.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "secondary material share",
+    "direction": "decreases",
+    "factor": "small part",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время “вторичные” материалы для ЛИБ представляют лишь малую часть рынка",
+   "locator_kind": "md_para",
+   "locator": "para:180",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Извлечение лития из ЛИБ начинает расти, но объемы пока ещё слишком малы, чтобы влиять на общий рынок лития.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "extraction volume",
+    "direction": "increases",
+    "factor": "still too small to affect market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Извлечение лития из ЛИБ начинает расти, но объемы пока ещё слишком малы, чтобы влиять на общий рынок лития",
+   "locator_kind": "md_para",
+   "locator": "para:180",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Аналогичная ситуация наблюдается для никеля, алюминия и меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "extraction volume",
+    "direction": "decreases",
+    "factor": "similar to lithium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Аналогичная ситуация наблюдается для никеля, алюминия и меди",
+   "locator_kind": "md_para",
+   "locator": "para:180",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Исключение составляет, пожалуй, только кобальт.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "extraction volume",
+    "direction": "increases",
+    "factor": "cobalt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Исключение составляет, пожалуй, только кобальт",
+   "locator_kind": "md_para",
+   "locator": "para:180",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "В настоящее время в Китае, Европе, Японии и США работает ряд заводов, перерабатывающих отработанные ЛИБ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "number of plants",
+    "direction": "increases",
+    "factor": "China, Europe, Japan, USA",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время в Китае, Европе, Японии и США работает ряд заводов, перерабатывающих отработанные ЛИБ",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Для ряда компаний из списка (Snam, Glencore) переработка ЛИБ является расширением их первоначальной деятельности по переработке отработанных никелевых батарей (NiCd, NiMH).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "scope of recycling",
+    "direction": "increases",
+    "factor": "Snam, Glencore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для ряда компаний из списка (Snam, Glencore) переработка ЛИБ является расширением их первоначальной деятельности по переработке отработанных никелевых батарей (NiCd, NiMH)",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Другие компании специализируются только на переработке ЛИБ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "specialization",
+    "direction": "increases",
+    "factor": "recycling only",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Другие компании специализируются только на переработке ЛИБ",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Не претендующий на полноту список предприятий приведен ниже.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "completeness",
+    "direction": "decreases",
+    "factor": "non‑exhaustive",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Не претендующий на полноту список предприятий приведен ниже",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "По самым приблизительным оценкам вес аккумуляторного блока для электромобиля ~300-500 кг, для гибрида 30-50 кг, для подключённого гибрида 120-180 кг.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "weight",
+    "direction": "increases",
+    "factor": "vehicle_type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По самым приблизительным оценкам вес аккумуляторного блока для электромобиля ~300-500 кг, для гибрида 30-50 кг, для подключённого гибрида 120-180 кг.",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "ЛИБ может давать более 450В или 150 кВт.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "voltage_power",
+    "direction": "increases",
+    "factor": "battery_state",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ЛИБ может давать более 450В или 150 кВт.",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "транспортные расходы, которые могут достигать, по некоторым данным, 40-50% суммарной стоимости рециклинга.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost_share",
+    "direction": "increases",
+    "factor": "risk_of_fire",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "транспортные расходы, которые могут достигать, по некоторым данным, 40-50% суммарной стоимости рециклинга.",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "Термическая обработка, например, пиролизу до механической обработки с целью контролируемого сокращения риска возгорания, удаления органических компонентов и снижения содержания галогенов. Этот процесс идет при ~500°С и ограничен температурой плавления алюминия (660°С).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "safety",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Термическая обработка, например, пиролизу до механической обработки с целью контролируемого сокращения риска возгорания, удаления органических компонентов и снижения содержания галогенов. Этот процесс идет при ~500°С и ограничен температурой плавления алюминия (660°С).",
+   "locator_kind": "md_para",
+   "locator": "para:231",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  },
+  {
+   "text": "После термообработки, прошедшие пиролиз батареи можно механически обрабатывать без риска воспламенения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fire_risk",
+    "direction": "decreases",
+    "factor": "thermal_treatment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После термообработки, прошедшие пиролиз батареи можно механически обрабатывать без риска воспламенения.",
+   "locator_kind": "md_para",
+   "locator": "para:231",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-отработанных-литии-ионных-батареи-ои",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

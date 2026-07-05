@@ -1,0 +1,1367 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "title": "32 Статья - Салтыков П.М. (ЛГМ).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\32 Статья - Салтыков П.М. (ЛГМ).docx.md",
+   "artifact_sha256": "5459fb3ed55005a93b5bc08dbf19a4c5cabff3efcb6229684cca6345f825c47b",
+   "okf_raw_path": "Статьи/32 Статья - Салтыков П.М. (ЛГМ).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:limestone-pulp",
+   "label": "limestone pulp",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:concentrated-sulfuric-acid",
+   "label": "concentrated sulfuric acid",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:limestone-slurry",
+   "label": "limestone slurry",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfuric-acid",
+   "label": "sulfuric acid",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gypsum-pulp",
+   "label": "gypsum pulp",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:limestone",
+   "label": "limestone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:32-статья-салтыков-п-м-лгм-docx:0",
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "title": "Laboratory periodic‑mode neutralization of sulfuric acid",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "neutralization of sulfuric acid with limestone pulp in a 1 dm³ glass vessel"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:limestone-pulp",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:concentrated-sulfuric-acid",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "mixing speed",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": null,
+      "nominal": 600.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "скорость перемешивания – 600 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "time_duration",
+     "scope": "material",
+     "material_id": "mat:concentrated-sulfuric-acid",
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "acid feed"
+     },
+     "method": null,
+     "snippet": "продолжительность подачи кислоты – 40 мин",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "time_duration",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "post-feed stirring"
+     },
+     "method": null,
+     "snippet": "продолжительность выкрутки – 20 мин",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "limestone consumption",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": null,
+      "nominal": 1.25,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "расход известняка 1,25 кг на кг кислоты",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "initial limestone pulp solid content",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": null,
+      "nominal": 120.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "содержание известняка в исходной пульпе – 120-130 г/л",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Optimal conditions for periodic‑mode neutralization were identified, providing stable operation without excessive foaming.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Проведенные эксперименты по нейтрализации концентрированной серной кислоты в периодическом режиме показали, что оптимальные условия процесса следующие: скорость перемешивания – 600 об/мин, продолжительность подачи кислоты – 40 мин, продолжительность выкрутки – 20 мин, расход известняка 1,25 кг на кг кислоты, содержание известняка в исходной пульпе – 120-130 г/л.",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.9
+    },
+    {
+     "text": "Increasing mixing speed and acid feed rate are the key factors preventing excessive foam formation.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Важнейшими факторами обеспечения устойчивого ведения процесса без обильного пенообразования является скорость подачи кислоты и интенсивность перемешивания.",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Эксперименты по нейтрализации серной кислоты проводились в стакане емкостью 1 дм 3 .",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:32-статья-салтыков-п-м-лгм-docx:1",
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "title": "Effect of reduced acid feed time and increased limestone pulp density on foaming",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "periodic‑mode neutralization with varied acid feed duration and limestone pulp solid content"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:limestone-pulp",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:concentrated-sulfuric-acid",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Shortening acid feed time or increasing limestone pulp density leads to noticeable foam formation and pulp thickening.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Так на рисунках 1, 2 показано заметное пенообразование и загустевание пульпы при сокращении времени подачи кислоты (рисунок 1) и повышении плотности пульпы известняка (рисунок 2).",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Любое изменение параметров операции, направленное на интенсификацию процесса, приводит к загустеванию пульпы, пенообразованию и повышению риска выброса пульпы.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:32-статья-салтыков-п-м-лгм-docx:2",
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "title": "Laboratory continuous neutralization experiments",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "continuous neutralization of sulfuric acid with limestone slurry",
+       "temperature_text": "controlled (exact value not given)",
+       "duration_text": "4-5 hours per experiment"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:limestone-slurry",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:sulfuric-acid",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "acid flow to first reactor",
+     "scope": "material",
+     "material_id": "mat:sulfuric-acid",
+     "value": {
+      "min": 0.28,
+      "nominal": null,
+      "max": 0.33
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В процессе нейтрализации в непрерывном режиме устойчивое течение процесса обеспечивается при расходе кислоты в первый реактор в диапазоне 0,28-0,33 л/час (или 0,19-0,22 л/час на л объёма реактора).",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:sulfuric-acid",
+     "value": {
+      "min": null,
+      "nominal": 0.42,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "acid"
+     },
+     "method": null,
+     "snippet": "Повышение расхода кислоты на нейтрализацию более 0,4 л/час (или 0,27 л/час на л объёма) приводит к исчезновению воронки в процессе перемешивания пульпы в первом реакторе и повышению риска выброса пульпы из реактора.",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "lime-to-acid ratio",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": null,
+      "nominal": 1.25,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При нейтрализации концентрированной кислоты в непрерывном режиме с расходом известняка 1,25 кг на кг кислоты время достижения требуемого значения рН (6,0-6,6) составляет 35-45 мин.",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "lime-to-acid ratio (lower)",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": 1.11,
+      "nominal": null,
+      "max": 1.16
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При снижении расхода известняка до 1,11-1,16 кг/кг кислоты время достижения требуемого значения рН (6,0-6,6) при нейтрализации повышается до 50-60 мин.",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:limestone-slurry",
+     "value": {
+      "min": null,
+      "nominal": 195.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "solid"
+     },
+     "method": null,
+     "snippet": "Повышение плотности исходной пульпы известняка до содержания твердого 195 г/л приводит к увеличению времени достижения требуемого значения рН (6,0-6,6) до 45-55 мин.",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Stable regime is obtained at acid flow 0,28‑0,33 l/час; higher acid flow causes vortex disappearance in reactor 1 and increased risk of slurry discharge.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process stability",
+      "direction": "increases",
+      "factor": "acid flow",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В процессе нейтрализации в непрерывном режиме устойчивое течение процесса обеспечивается при расходе кислоты в первый реактор в диапазоне 0,28-0,33 л/час... Повышение расхода кислоты на нейтрализацию более 0,4 л/час ... приводит к ... повышению риска выброса пульпы из реактора.",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.45
+    },
+    {
+     "text": "Higher lime-to-acid ratio (1.25 kg/kg) shortens the time to reach target pH (6.0‑6.6) to 35‑45 min; lower ratio (1.11‑1.16 kg/kg) lengthens it to 50‑60 min.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "time_duration",
+      "direction": "decreases",
+      "factor": "lime-to-acid ratio",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При нейтрализации концентрированной кислоты ... с расходом известняка 1,25 кг на кг кислоты время достижения требуемого значения рН (6,0-6,6) составляет 35-45 мин. При снижении расхода известняка до 1,11-1,16 кг/кг кислоты время достижения требуемого значения рН (6,0-6,6) при нейтрализации повышается до 50-60 мин.",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Эксперименты по нейтрализации в непрерывном режиме.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:32-статья-салтыков-п-м-лгм-docx:3",
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "title": "Pilot‑scale continuous neutralization experiment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "continuous neutralization of sulfuric acid with limestone slurry on a pilot plant",
+       "temperature_text": "controlled (exact value not given)",
+       "duration_text": "not specified (experiment performed for confirmation of laboratory results)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:limestone-slurry",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:sulfuric-acid",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Для подтверждения технологических показателей, полученных на лабораторной установке, был проведен эксперимент по нейтрализации серной кислоты пульпой известняка в непрерывном режиме на пилотной установке.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:32-статья-салтыков-п-м-лгм-docx:4",
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "title": "Pilot continuous neutralization test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "continuous neutralization of sulfuric acid with limestone gypsum pulp"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gypsum-pulp",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:limestone",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pulp residence time in cascade",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": null,
+      "nominal": 3180.0,
+      "max": null
+     },
+     "unit": "s",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Время пребывания пульпы в каскаде, мин 53",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": null,
+      "nominal": 183.7,
+      "max": null
+     },
+     "unit": "l/ч",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "limestone pulp"
+     },
+     "method": null,
+     "snippet": "Расход пульпы известняка, л/час 183,7",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:sulfuric-acid",
+     "value": {
+      "min": null,
+      "nominal": 10.6,
+      "max": null
+     },
+     "unit": "l/ч",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "sulfuric acid"
+     },
+     "method": null,
+     "snippet": "Расход серной кислоты, л/час 10,6",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": null,
+      "nominal": 129.8,
+      "max": null
+     },
+     "unit": "g/л",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "limestone"
+     },
+     "method": null,
+     "snippet": "Содержание известняка в пульпе, г/л 129,8",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "limestone to acid ratio",
+     "scope": "material",
+     "material_id": "mat:limestone",
+     "value": {
+      "min": null,
+      "nominal": 122.5,
+      "max": null
+     },
+     "unit": "kg/kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расход известняка, кг/кг кислоты 122,5",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "pH in reactor 1 (steady state)",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": 2.3,
+      "nominal": null,
+      "max": 2.8
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Диапазон изменения рН составляет: в первом реакторе – 2,3-2,8",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "pH in reactor 2 (steady state)",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": 5.85,
+      "nominal": null,
+      "max": 6.04
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "во втором реакторе – 5,85-6,04",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "pH in reactor 3 (steady state)",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": 6.31,
+      "nominal": null,
+      "max": 6.46
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в третьем реакторе – 6,31-6,46",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "В течение всего периода испытаний не наблюдалось вспенивания и выброса пульпы.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "foam formation",
+      "direction": "no_change",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В течение всего периода испытаний не наблюдалось вспенивания и выброса пульпы.",
+     "locator_kind": "md_para",
+     "locator": "para:44",
+     "confidence": 0.9
+    },
+    {
+     "text": "Стабильный уровень рН пульпы во всех реакторах устанавливается через 20-25 мин после начала испытаний и остается на этом уровне в течение всего периода испытаний.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "pH stability",
+      "direction": "increases",
+      "factor": "time",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "По данным графика стабильный уровень рН пульпы во всех реакторах устанавливается через 20-25 мин после начала испытаний и остается на этом уровне в течение всего периода испытаний.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Рисунок 8 – Общий вид пилотной установки непрерывной нейтрализации",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:32-статья-салтыков-п-м-лгм-docx:5",
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "title": "Stability test (pulp feed interruption)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "continuous neutralization, interruption of limestone pulp feed",
+       "duration_text": "~140 min from start (interruption), 5 min pause, 10‑15 min recovery"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:limestone-pulp",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pH in reactor 1 after interruption",
+     "scope": "material",
+     "material_id": "mat:limestone-pulp",
+     "value": {
+      "min": null,
+      "nominal": 1.1,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "несмотря на снижение рН в первом реакторе до 1,1, сильного вспенивания и выброса пульпы в первом реакторе не наблюдалось",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "После возобновления подачи пульпы известняка через 5 мин, в течение 10‑15 мин рН пульпы во всех реакторах вновь вышел на стабильный уровень.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "pH recovery",
+      "direction": "increases",
+      "factor": "pulp feed resumption",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Подача пульпы известняка была возобновлена через 5 мин, после чего в течение 10-15 мин рН пульпы во всех реакторах вновь вышел на стабильный уровень.",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.9
+    },
+    {
+     "text": "Это дополнительно свидетельствует о достаточно высокой стабильности процесса нейтрализации серной кислоты известняком при условии контроля параметров процесса (рН, расход реагентов), автоматизации управления этими параметрами и обеспечения высокой интенсивности перемешивания пульпы, в первую очередь, в первом реакторе.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process stability",
+      "direction": "increases",
+      "factor": "control of pH, flow, automation, mixing",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это дополнительно свидетельствует о достаточно высокой стабильности процесса нейтрализации серной кислоты известняком при условии контроля параметров процесса (рН, расход реагентов), автоматизации управления этими параметрами и обеспечения высокой интенсивности перемешивания пульпы, в первую очередь, в первом реакторе.",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для этого, (~ 140 мин от начала испытаний), нами была прекращена подача пульпы известняка в реактор.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:32-статья-салтыков-п-м-лгм-docx:6",
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "title": "Comparison of periodic vs continuous regimes (pilot data)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "neutralization of sulfuric acid in periodic and continuous modes"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:limestone-pulp",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.5,
+      "max": null
+     },
+     "unit": "um",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "average gypsum  d50"
+     },
+     "method": null,
+     "snippet": "В периодическом режиме – 20,5 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 53.8,
+      "max": null
+     },
+     "unit": "um",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "average gypsum  d50"
+     },
+     "method": null,
+     "snippet": "В непрерывном режиме – 53,8 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Процесс нейтрализации серной кислоты может быть реализован как в периодическом, так и непрерывном режиме.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process mode feasibility",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Проведенные эксперименты показывают, что процесс нейтрализации серной кислоты может быть реализован как в периодическом, так и непрерывном режиме.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.9
+    },
+    {
+     "text": "Непрерывный режим характеризуется более крупным осадком (D50 = 53,8 мкм) по сравнению с периодическим (D50 = 20,5 мкм).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "particle_size",
+      "direction": "increases",
+      "factor": "continuous regime",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В непрерывном режиме средний размер частиц гипса (D50) – 53,8 мкм, в периодическом режиме – 20,5 мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Таблица 3 – Гранулометрический состав гипсовых осадков",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:32-статья-салтыков-п-м-лгм-docx:7",
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "title": "Continuous mode gypsum neutralization experiment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "neutralization of sulfuric acid with limestone pulp in a continuous reactor (1 cascade reactor)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfuric-acid",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:limestone-pulp",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "material",
+     "material_id": "mat:gypsum-pulp",
+     "value": {
+      "min": null,
+      "nominal": 53.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "average gypsum"
+     },
+     "method": null,
+     "snippet": "В непрерывном режиме средний размер частиц гипса (D50) – 53,8 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "density of compacted gypsum pulp in storage",
+     "scope": "material",
+     "material_id": "mat:gypsum-pulp",
+     "value": {
+      "min": null,
+      "nominal": 1.28,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при переходе на непрерывный режим повышается плотность сгущенной гипсовой пульпы в гипсохранилище с 1,15-1,18 т/м 3 до 1,28 т/м 3",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "continuous mode provides larger gypsum particles and higher storage density",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Повышение крупности гипсовых частиц приводит к улучшению седиментационных свойств осадка",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Таким образом, несмотря на то, что проведенные эксперименты показали возможность реализации процесса нейтрализации серной кислоты как в периодическом, так и непрерывном режиме, непрерывный режим обладает очевидными преимуществами.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:32-статья-салтыков-п-м-лгм-docx:8",
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "title": "Periodic mode gypsum neutralization experiment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "neutralization of sulfuric acid with limestone pulp in a periodic (batch) operation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfuric-acid",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:limestone-pulp",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "material",
+     "material_id": "mat:gypsum-pulp",
+     "value": {
+      "min": null,
+      "nominal": 20.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "average gypsum"
+     },
+     "method": null,
+     "snippet": "в периодическом режиме – 20,5 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Таким образом, несмотря на то, что проведенные эксперименты показали возможность реализации процесса нейтрализации серной кислоты как в периодическом, так и непрерывном режиме, непрерывный режим обладает очевидными преимуществами.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Серный проект – крупнейшая и наиболее важная экологическая инициатива ПАО «ГМК «Норильский никель», предусматривающая утилизацию диоксида серы на Надеждинском металлургическом заводе.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Серный проект – крупнейшая и наиболее важная экологическая инициатива ПАО «ГМК «Норильский никель», предусматривающая утилизацию диоксида серы на Надеждинском металлургическом заводе",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Флагманский экологический проект ПАО «ГМК «Норильский никель» использует двухэтапную технологию нейтрализации диоксида серы – промежуточное производство серной кислоты со степенью утилизации диоксида серы 99,5 % и её последующую нейтрализацию в безвредный гипс.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Флагманский экологический проект ПАО «ГМК «Норильский никель» использует двухэтапную технологию нейтрализации диоксида серы – промежуточное производство серной кислоты со степенью утилизации диоксида серы 99,5 % и ее последующую нейтрализацию через переработку в безвредный гипс.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Полученный гипс можно без ущерба для окружающей среды складировать в гипсохранилищах или использовать в производстве строительных материалов.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Полученный гипс можно без ущерба для окружающей среды складировать в гипсохранилищах или использовать для конкретных целей, например, в производстве строительных материалов",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Основным недостатком технологии нейтрализации ОАО «Казцинк», реализованной в непрерывном режиме, были большие выбросы кислой аэрозоли в окружающую среду.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Основным недостатком технологии нейтрализации ОАО «Казцинк», реализованной в непрерывном режиме, были большие выбросы кислой аэрозоли в окружающую среду.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "В периодическом режиме нейтрализации в три раза сокращается продолжительность процесса и исключается образование кислой газоаэрозольной смеси.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в периодическом режиме нейтрализации в три раза сокращается продолжительность процесса и исключается образование кислой газоаэрозольной смеси",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Производительность одной линии нейтрализации на Надеждинском металлургическом заводе составляет 621,7 тыс. т/год, всего участок имеет четыре равнозначные линии.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "на участке нейтрализации на Надеждинском металлургическом заводе производительность только одной линии нейтрализации по серной кислоте составляет 621,7 тыс. т/год. Всего на участке – четыре равнозначные линии нейтрализации.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.81,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "При увеличении масштаба гидрометаллургического процесса более эффективным становится его реализация в непрерывном режиме.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "при увеличении масштаба гидрометаллургического процесса более эффективным становится реализация его в непрерывном режиме",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Any change of operating parameters aimed at intensifying the process leads to slurry thickening, foaming and increased risk of slurry discharge.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "risk of discharge",
+    "direction": "increases",
+    "factor": "parameter change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Любое изменение параметров операции, направленное на интенсификацию процесса, приводит к загустеванию пульпы, пенообразованию и повышению риска выброса пульпы.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Increase of slurry viscosity hinders free release of CO₂ generated during neutralization, which promotes foaming.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "viscosity increase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение вязкости пульпы препятствует свободному выделению углекислого газа, образующегося в процессе нейтрализации, что способствует пенообразованию.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Increase of slurry viscosity also reduces the neutralization reaction rate, extending the process duration.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction rate",
+    "direction": "decreases",
+    "factor": "viscosity increase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение вязкости пульпы также снижает скорость реакции нейтрализации, что приводит к увеличению продолжительности процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "The laboratory installation consisted of four cascaded reactors each with a working volume of 1.5 dm³, equipped with open‑type turbine mixers of 5 cm diameter.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Установка представляла собой четыре последовательно установленных реактора с рабочим объёмом 1,5 дм³ каждый. ... Перемешивание пульпы в реакторах осуществлялось мешалкой – турбиной открытого типа диаметром 5 см.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.45,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Pilot‑scale installation comprised three cascaded reactors with a working volume of 57‑59 dm³ each and turbine mixers of 12 cm diameter, operated at 700 rpm.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Установка представляет собой три последовательно установленных реактора с рабочим объёмом 57-59 дм³ каждый. ... Перемешивание пульпы в реакторах осуществлялось мешалкой – турбиной открытого типа диаметром 12 см. Скорость перемешивания пульпы во всех реакторах поддерживалась на уровне 700 об/мин.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.45,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Спокойное течение процесса нейтрализации обеспечивается при контроле и поддержании заданных потоков реагентов, при контроле рН пульпы в первом реакторе и при относительно высокой интенсивности перемешивания пульпы в первом реакторе.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "process stability",
+    "direction": "increases",
+    "factor": "flow control, pH control, mixing intensity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это подтверждает вывод, сделанный ранее, о том, что спокойное течение процесса нейтрализации обеспечивается при контроле и поддержании заданных потоков реагентов, при контроле рН пульпы в первом реакторе и при относительно высокой интенсивности перемешивания пульпы в первом реакторе.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Для обеспечения устойчивого ведения процесса без обильного пенообразования более предпочтительным является непрерывный режим, который характеризуется пониженным риском выброса пульпы, меньшими объёмами реакторного оборудования, отсутствием необходимости интенсивного перемешивания во всех реакторах и возможностью автоматического контроля процесса.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "process mode selection",
+    "direction": "increases",
+    "factor": "continuous mode",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для обеспечения устойчивого ведения процесса без обильного пенообразования более предпочтительным является непрерывный режим, который характеризуется следующими преимуществами: – пониженный риск выброса пульпы вследствие образования пены; – меньшие объёмы реакторного оборудования; – отсутствие необходимости обеспечивать интенсивное перемешивание во всех реакторах (в последних реакторах каскада возможно менее интенсивное перемешивание); - устойчивость процесса к воздействию негативных факторов техногенного характера; – возможность осуществления автоматического контроля процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.81,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Присутствие затравки (гипсовых частиц) в реакционном объёме способствует увеличению крупности частиц гипса, образующихся в процессе нейтрализации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "increases",
+    "factor": "seed particles",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Присутствие затравки способствует увеличению крупности частиц гипса образующихся в процессе нейтрализации",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": "precipitation"
+  },
+  {
+   "text": "Непрерывный режим требует меньших объёмов реакторного оборудования по сравнению с периодическим режимом.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reactor volume",
+    "direction": "decreases",
+    "factor": "continuous mode",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "меньшие объёмы реакторного оборудования",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Автоматический контроль процесса возможен в непрерывном режиме нейтрализации.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "automation",
+    "direction": "increases",
+    "factor": "continuous mode",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "возможность осуществления автоматического контроля процесса",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Presence of gypsum particles in the reactor acts as a seed in the neutralization process, promoting larger gypsum particle formation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "increases",
+    "factor": "seed particles",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в котором всегда присутствуют гипсовые частицы, которые являются затравкой в процессе нейтрализации и образования гипсового осадка",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Larger gypsum particles improve sedimentation properties of the precipitate.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sedimentation",
+    "direction": "increases",
+    "factor": "particle size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение крупности гипсовых частиц приводит к улучшению седиментационных свойств осадка",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Continuous mode has obvious advantages over periodic mode for gypsum neutralization.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "непрерывный режим обладает очевидными преимуществами",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:32-статья-салтыков-п-м-лгм-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

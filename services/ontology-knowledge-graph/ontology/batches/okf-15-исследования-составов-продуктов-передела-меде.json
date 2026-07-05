@@ -1,0 +1,1322 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "title": "15 Исследования составов продуктов передела медеочистки ОРИД и фильтрации пульпы медеочистки.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\15 Исследования составов продуктов передела медеочистки ОРИД и фильтрации пульпы медеочистки.docx.md",
+   "artifact_sha256": "46856f1ed13c8a53b71b025bca5d6524b78f6a27ba7b2ee571764575a6606c28",
+   "okf_raw_path": "Статьи/15 Исследования составов продуктов передела медеочистки ОРИД и фильтрации пульпы медеочистки.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:concentrated-chloride-sulfate-nickel-solutions",
+   "label": "concentrated chloride‑sulfate nickel solutions",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:silicon-compounds",
+   "label": "silicon compounds",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pulp-containing-fine-particles-of-nickel-oxides",
+   "label": "pulp containing fine particles of nickel oxides, silicon oxides, aluminum oxides, carbon",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:synthetic-solution",
+   "label": "synthetic solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:real-nickel-electrolyte-post-refining",
+   "label": "real nickel‑electrolyte (post‑refining)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-powder-pntp",
+   "label": "nickel powder (PNTP)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:operating-plant-solution",
+   "label": "Operating plant solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:PNTF",
+   "label": "PNTF",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fine-fraction-pulp",
+   "label": "Fine‑fraction pulp",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:concentrated-sulfuric-acid",
+   "label": "Concentrated sulfuric acid",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:15-исследования-составов-продуктов-передела-меде:0",
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "title": "Laboratory study of optimal operating regimes for the ORID nickel‑solution re‑processing (medeo‑cleaning)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "medeo‑cleaning of nickel sulfate‑chloride solutions",
+       "temperature_text": "65‑75 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 338.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:concentrated-chloride-sulfate-nickel-solutions",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:silicon-compounds",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "silicon speciation",
+     "scope": "material",
+     "material_id": "mat:concentrated-chloride-sulfate-nickel-solutions",
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В кислых растворах растворённый кремний присутствует главным образом в форме мономерной ортокремниевой кислоты Si(OH)4, однако такая форма не всегда является устойчивой.",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Formation of thin aluminosilicate suspensions in the medeo‑cleaning solution leads to sharp drops in pulp filtration speed.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "filtration performance",
+      "direction": "decreases",
+      "factor": "aluminosilicate phase formation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "на основании фазового анализа было предположено, что именно образование тонких взвесей алюмосиликатных фаз в растворе медеочистки приводит к проблемам на операции фильтрации пульпы передела.",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Лабораторные исследования по определению оптимальных режимов работы передела медеочистки ОРИД",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:15-исследования-составов-продуктов-передела-меде:1",
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "title": "Pilot‑scale observation of filter‑candle performance in the No2 nickel electrolysis plant (ЦЭН‑2)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "candle‑type filtration of pulp after medeo‑cleaning",
+       "temperature_text": "65‑75 °C (process temperature of the medeo‑cleaning reactors, same pulp temperature)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 338.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pulp-containing-fine-particles-of-nickel-oxides",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Aluminosilicate phases in the solution are responsible for filter fouling.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "filter fouling",
+      "direction": "increases",
+      "factor": "aluminosilicate formation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "на основании фазового анализа было предположено, что именно образование тонких взвесей алюмосиликатных фаз в растворе медеочистки приводит к проблемам на операции фильтрации пульпы передела.",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "При нормальной работе свечевые фильтры передела обеспечивают необходимую производительность фильтрации пульпы, однако периодически происходят резкие падения скорости фильтрации",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:15-исследования-составов-продуктов-передела-меде:2",
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "title": "Synthetic solution series at 60 °C",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory experiment",
+       "temperature_text": "60 °C",
+       "duration_text": "1 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:synthetic-solution",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pH range",
+     "scope": "material",
+     "material_id": "mat:concentrated-chloride-sulfate-nickel-solutions",
+     "value": {
+      "min": null,
+      "nominal": 0.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "первую при 60 °C, варьируя pH в диапазоне от 0 до ~2,5",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Al₂O₃ precipitation onset",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 1.5,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "переход Al 2 O 3 в значительных количествах начинается только в области pH > 1,5 независимо от температуры раствора",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "SiO₂ precipitation onset",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 1.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при 60 о С переход начинается уже при pH > 1",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Positive influence of higher acid content on filtration speed in pH = 0–2,5 range.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "filtration speed",
+      "direction": "increases",
+      "factor": "acid content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "на этом этапе было установлено положительное влияние роста содержания кислоты в растворе на скорость фильтрации в диапазоне pH = 0 – 2,5",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проводили две серии опытов – первую при 60 °C, варьируя pH в диапазоне от 0 до ~2,5",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:15-исследования-составов-продуктов-передела-меде:3",
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "title": "Synthetic solution series at 70 °C",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory experiment",
+       "temperature_text": "70 °C",
+       "duration_text": "1 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 343.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:synthetic-solution",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pH range",
+     "scope": "material",
+     "material_id": "mat:concentrated-chloride-sulfate-nickel-solutions",
+     "value": {
+      "min": null,
+      "nominal": 0.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "вторую в аналогичном диапазоне pH при 70 °C",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "SiO₂ precipitation onset",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 0.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "SiO 2 достаточно чувствителен к изменению температуры среды, и переходит в кек достаточно интенсивно при значениях pH > 0 при температуре 70 0С",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Positive influence of higher acid content on filtration speed in pH = 0–2,5 range.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "filtration speed",
+      "direction": "increases",
+      "factor": "acid content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "на этом этапе было установлено положительное влияние роста содержания кислоты в растворе на скорость фильтрации в диапазоне pH = 0 – 2,5",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "вторую в аналогичном диапазоне pH при 70 °C",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:15-исследования-составов-продуктов-передела-меде:4",
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "title": "Laboratory cementation of copper from nickel electrolyte",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory pilot test",
+       "temperature_text": "70 °C",
+       "duration_text": "until OVP = -200 ± 50 mV"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 343.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:real-nickel-electrolyte-post-refining",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:nickel-powder-pntp",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.5,
+      "max": null
+     },
+     "unit": "g/dm³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "acid  range"
+     },
+     "method": null,
+     "snippet": "в ходе опытов варьировали концентрацию кислоты в растворе в интервале от 0,5 до 40 г/дм 3",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "pH range",
+     "scope": "material",
+     "material_id": "mat:concentrated-chloride-sulfate-nickel-solutions",
+     "value": {
+      "min": null,
+      "nominal": -0.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рН в интервале -0,5 – +0,5 ед.",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "end point criterion",
+     "scope": "material",
+     "material_id": "mat:concentrated-chloride-sulfate-nickel-solutions",
+     "value": {
+      "min": null,
+      "nominal": -200.0,
+      "max": null
+     },
+     "unit": "mV",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": {
+      "sd": 50.0
+     },
+     "conditions": {},
+     "method": null,
+     "snippet": "Продолжительность процесса цементации определялась достижением значения ОВП = -200±50",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Цементацию меди вели при температуре раствора 70°C и механическом перемешивании",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:15-исследования-составов-продуктов-передела-меде:5",
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "title": "Cementation of copper",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Cementation of copper was performed using a solution of the operating plant and a PNTF at 70 °C, pH = 0.3 with mechanical stirring. The process was stopped when the electrode potential reached OVP = ‑200±50 mV.",
+       "temperature_text": "70 °C",
+       "duration_text": "until OVP = -200±50 mV"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 343.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:operating-plant-solution",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:PNTF",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "electrode_potential",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -200.0,
+      "max": null
+     },
+     "unit": "mV",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": {
+      "sd": 50.0
+     },
+     "conditions": {},
+     "method": null,
+     "snippet": "Продолжительность процесса цементации определялась достижением значения ОВП = -200±50 мВ",
+     "locator_kind": "md_para",
+     "locator": "para:91",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "After cementation, the copper was decanted on a sieve with 0.1 mm mesh and the coarse fractions were separated.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "solid separation",
+      "direction": "decreases",
+      "factor": "sieve size",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "отделяли декантацией цементную медь на сите с размером ячеек 0,1 мм (отделяли крупные фракции)",
+     "locator_kind": "md_para",
+     "locator": "para:91",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Цементацию меди вели при температуре раствора 70°C, рН=0,3 и механическом перемешивании.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:15-исследования-составов-продуктов-передела-меде:6",
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "title": "Filtration test of centrifuged fine‑fraction pulp (with solid phase removed)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "The solid phase of the fine‑fraction pulp was removed by centrifugation, the liquid phase was divided into 100 ml portions, each portion was acidified with varying amounts of concentrated sulfuric acid, then filtered on a vacuum laboratory unit while recording filtration time.",
+       "temperature_text": "70 °C",
+       "duration_text": "filtration time recorded for each 100 ml portion"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 343.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-fraction-pulp",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:concentrated-sulfuric-acid",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "filtration rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 2.5,
+      "nominal": null,
+      "max": 3.0
+     },
+     "unit": "м³/(м²×ч)",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "кислотность практически не влияет на производительность фильтрации раствора (2,5-3 м 3 /(м 2 ×ч)) после центрифугирования",
+     "locator_kind": "md_para",
+     "locator": "para:99",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Acidity does not significantly affect the filtration performance of the centrifuged solution.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "filtration performance",
+      "direction": "no_change",
+      "factor": "acidity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "кислотность практически не влияет на производительность фильтрации раствора (2,5-3 м 3 /(м 2 ×ч)) после центрифугирования",
+     "locator_kind": "md_para",
+     "locator": "para:99",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Пульпу мелких фракций делили на 2 части: из одной части на центрифуге отделяли твердую фазу, полученную водную фазу делили на порции по 100 мл, в каждую порцию добавляли концентрированную серную кислоту в различных количествах, после чего фильтровали подкисленный раствор на вакуумной лабораторной установке, фиксируя продолжительность фильтрации.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:15-исследования-составов-продуктов-передела-меде:7",
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "title": "Filtration test of fine‑fraction pulp (without centrifugation)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "The fine‑fraction pulp was divided into 100 ml portions without prior centrifugation, each portion was acidified with concentrated sulfuric acid at concentrations ranging from 4 to 15 g/dm³, and filtration speed was measured at 70 °C.",
+       "temperature_text": "70 °C",
+       "duration_text": "filtration speed recorded for each acid concentration"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 343.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-fraction-pulp",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:concentrated-sulfuric-acid",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "filtration speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 0.1,
+      "nominal": null,
+      "max": 0.25
+     },
+     "unit": "м³/(м²×ч)",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "повышение кислотности пульпы от 4-6 до 10 г/дм 3 приводит к практически 2-кратному росту скорости фильтрации – от 0,1 до 0,25 м 3 /(м 2 ×ч)",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Increasing acid concentration from 4‑6 g/dm³ to 10 g/dm³ roughly doubles the filtration speed of the non‑centrifuged pulp.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "filtration speed",
+      "direction": "increases",
+      "factor": "acid concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "повышение кислотности пульпы от 4-6 до 10 г/дм 3 приводит к практически 2-кратному росту скорости фильтрации – от 0,1 до 0,25 м 3 /(м 2 ×ч)",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.9
+    },
+    {
+     "text": "Further increase of acidity above 10 g/dm³ does not change the filtration characteristics of the pulp.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "filtration characteristics",
+      "direction": "no_change",
+      "factor": "acid concentration >10 g/dm³",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Дальнейшее увеличение кислотности не привело к каким-либо изменениям фильтрационных характеристик пульпы.",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Вторая часть пульпы мелких фракций также делили на порции по 100 мл без отделения твердой фазы на центрифуге, подкисляли концентрированной серной кислотой и определяли влияние кислотности на фильтрационные характеристики пульпы.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The composition of the PНТП powder currently differs from the design composition by increased copper (1.2‑2 times) and silicon dioxide, and contains noticeable amounts of aluminum oxide.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "composition deviation",
+    "direction": "increases",
+    "factor": "Cu, SiO2, Al2O3",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в настоящее время фактический состав ПНТП ... отличается от проектного повышенными содержаниями меди (в 1,2 – 2 раза), диоксида кремния, также в заметных количествах в порошке присутствует оксид алюминия",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "Metallisation degree of the main metals (Ni, Cu, Fe, etc.) in the powder reaches 98 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metallisation degree",
+    "direction": "increases",
+    "factor": "Ni, Cu, Fe",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Степень металлизации основных металлов в порошке (Ni, Cu, Fe и пр.) достигает 98%",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "The medeo‑cleaning process is carried out in cementation reactors in a “boiling layer” with an upward nickel‑solution flow at 65‑75 °C and pH = –0.5‑0.5.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Процесс медеочистки ведут в реакторах-цементаторах в «кипящем слое» в восходящем потоке никелевого раствора при температуре 65-75 о С и ptyp = -0,5-0,5.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.81,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "Silicon behavior in concentrated chloride media is governed mainly by the “silicic acid – oligomer – colloidal/amorphous SiO2” system rather than by formation of stable chloro‑complexes.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В концентрированных хлоридных средах поведение кремния определяется прежде всего не образованием прочных хлорокомплексов, а состоянием системы «кремниевая кислота — олигомеры — коллоидный/аморфный диоксид кремния».",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.81,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "The rate of polymerisation of amorphous silica increases with higher temperature and ionic strength of the medium.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "polymerisation rate",
+    "direction": "increases",
+    "factor": "temperature, ionic strength",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при этом скорость полимеризации возрастает с увеличением температуры и ионной силы среды",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "Candle‑type filters normally provide the required pulp filtration capacity, but occasional sharp drops in filtration speed can cause plant shutdowns and require filter cleaning.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "filter performance",
+    "direction": "decreases",
+    "factor": "fouling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при нормальной работе свечевые фильтры передела обеспечивают необходимую производительность фильтрации пульпы, однако периодически происходят резкие падения скорости фильтрации, которые приводят к технологическим проблемам вплоть до остановок цеха с выводом фильтров на чистку.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.81,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "скорость полимеризации возрастает с увеличением температуры и ионной силы среды",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "polymerization rate",
+    "direction": "increases",
+    "factor": "temperature and ionic strength",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "скорость полимеризации возрастает с увеличением температуры и ионной силы среды",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "ускорение этих процессов наблюдается не только при росте концентрации HCl, но и при увеличении содержания хлоридных солей, то есть при повышении общей ионной силы раствора",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "process rate",
+    "direction": "increases",
+    "factor": "HCl concentration and chloride salt content (ionic strength)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ускорение этих процессов наблюдается не только при росте концентрации HCl, но и при увеличении содержания хлоридных солей, то есть при повышении общей ионной силы раствора",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": "precipitation"
+  },
+  {
+   "text": "образование SiO2‑геля может резко осложнять или даже делать невозможным отделение продуктивного раствора от твёрдого остатка",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "separability of productive solution",
+    "direction": "decreases",
+    "factor": "SiO2‑gel presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "образование SiO2‑геля может резко осложнять или даже делать невозможным отделение продуктивного раствора от твёрдого остатка",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.81,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "развитие гелеобразования определяется не только содержанием кремния как таковым, но и совокупностью параметров раствора, включая pH, концентрации сопутствующих хлоридов металлов и соотношение твёрдого и жидкого",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "extent of gel formation",
+    "direction": "increases",
+    "factor": "silicon content, pH, metal chloride concentrations, solid‑liquid ratio",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "развитие гелеобразования определяется не только содержанием кремния как таковым, но и совокупностью параметров раствора, включая pH, концентрации сопутствующих хлоридов металлов и соотношение твёрдого и жидкого",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "образование тонкодисперсных частиц аморфного SiO2 и коллоидной кремниевой кислоты, которые из‑за малого размера медленно осаждаются, легко проходят через поры формирующегося кека и ухудшают проницаемость фильтрующего слоя",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "filter layer permeability",
+    "direction": "decreases",
+    "factor": "fine SiO2 and colloidal silica particles",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "образование тонкодисперсных частиц аморфного SiO2 и коллоидной кремниевой кислоты, которые из‑за малого размера медленно осаждаются, легко проходят через поры формирующегося кека и ухудшают проницаемость фильтрующего слоя",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.81,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "по мере полимеризации возможно формирование гелеобразной структуры, которая связывает воду, повышает вязкость пульпы и резко увеличивает гидравлическое сопротивление фильтрации",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "hydraulic resistance of filtration",
+    "direction": "increases",
+    "factor": "gel‑like structure formation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по мере полимеризации возможно формирование гелеобразной структуры, которая связывает воду, повышает вязкость пульпы и резко увеличивает гидравлическое сопротивление фильтрации",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "при повышении pH растворённый кремний способен перейти в коллоидную взвесь аморфного кремнезёма",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "state of silicon",
+    "direction": "increases",
+    "factor": "pH increase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при повышении pH растворённый кремний способен перейти в коллоидную взвесь аморфного кремнезёма",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "при последующем подкислении он может растворяться только частично, медленно или почти не возвращаться в исходное состояние, если система уже успела уйти в развитую полимерную/гелевую форму",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "silicon dissolution",
+    "direction": "decreases",
+    "factor": "presence of developed polymer/gel phase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при последующем подкислении он может растворяться только частично, медленно или почти не возвращаться в исходное состояние, если система уже успела уйти в развитую полимерную/гелевую форму",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "в ходе дальнейшей работы был проведено несколько серий экспериментов, целью которых было определение условий, влияющих на фазовое состояние соединений кремния и алюминия, и разработка методов управления этими факторами в ходе технологического процесса медеочистки высококонцентрированных никелевых хлорид‑сульфатных растворов, реализованного в ЦЭН‑2",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "objective",
+    "direction": "no_change",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в ходе дальнейшей работы был проведено несколько серий экспериментов, целью которых было определение условий, влияющих на фазовое состояние соединений кремния и алюминия, и разработка методов управления этими факторами в ходе технологического процесса медеочистки высококонцентрированных никелевых хлорид‑сульфатных растворов, реализованного в ЦЭН‑2",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.81,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "Лабораторные исследования проводили в два этапа. На первом использовались синтетические (модельные) растворы, исследовался диапазон pH = 0 – 2,5 и поведение алюминия и кремния в нем, а также влияние температуры. На втором эксперименты ставились на реальных (технологических) растворах в более кислом диапазоне (pH = -0,5 – 0,5) с целью определения оптимальных режимных параметров ведения процесса",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "experimental setup",
+    "direction": "no_change",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Лабораторные исследования проводили в два этапа. На первом использовались синтетические (модельные) растворы, исследовался диапазон pH = 0 – 2,5 и поведение алюминия и кремния в нем, а также влияние температуры. На втором эксперименты ставились на реальных (технологических) растворах в более кислом диапазоне (pH = -0,5 – 0,5) с целью определения оптимальных режимных параметров ведения процесса",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "Al₂O₃ precipitation starts only at pH > 1.5, independent of temperature.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Al₂O₃ precipitation onset",
+    "direction": "increases",
+    "factor": "pH",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "переход Al 2 O 3 в значительных количествах начинается только в области pH > 1,5 независимо от температуры раствора",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "SiO₂ precipitation is highly temperature‑sensitive; at 70 °C it occurs already at pH > 0, while at 60 °C the threshold shifts to pH > 1.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SiO₂ precipitation onset",
+    "direction": "increases",
+    "factor": "temperature and pH",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "SiO 2 достаточно чувствителен к изменению температуры среды, и переходит в кек достаточно интенсивно при значениях pH > 0 при температуре 70 0С",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "Filtration speed decreases markedly with decreasing acidity for both 60 °C and 70 °C curves.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "filtration speed",
+    "direction": "decreases",
+    "factor": "acidicity (pH)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "с падением кислотности скорость фильтрации раствора значительно падает, что характерно для обеих температурных кривых 60 0С и 70 0С",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "At high acidity the temperature effect on filtration is minor, but it grows as pH increases.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "pH",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в области высокой кислотности влияние температурного фактора незначительно, однако оно растет по мере роста pH",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "The real nickel‑electrolyte used for cementation contains 200,5 g/dm³ Ni, 4,89 g/dm³ Co, 11,75 g/dm³ Cu, 8,97 g/dm³ Fe, 0,066 g/dm³ SiO₂, 0,053 g/dm³ Al₂O₃, 199,8 g/dm³ Cl⁻, 52 g/dm³ SO₄²⁻, <0,1 g/dm³ H₂SO₄, pH 0,3, OVP 445 ± 10 mV.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Концентрация, г/дм 3 | 200,5 | 4,89 | 11,75 | 8,97 | 0,066 | 0,053 | 199,8 | 52 | <0,1 | 0,3 | 445±10",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "PNTP powder used in studies is ~96 % particles sized -1 + 0,1 mm, with 2,14 % finer than 100 µm.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Преимущественно (практически на 96%) изучаемый образец представлен частицами, крупностью -1+0,1 мм, содержание класса менее 100 мкм составило 2,14%.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "Acidity practically does not affect the filtration productivity of the solution (2,5‑3 m³/(m²·h)) after centrifugation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "filtration productivity",
+    "direction": "no_change",
+    "factor": "acidity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "кислотность практически не влияет на производительность фильтрации раствора (2,5-3 м 3 /(м 2 ×ч)) после центрифугирования",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "Introducing free sulfuric acid into the aqueous phase up to 10 g/dm³ reduces the negative influence of the silicate component on the filtration properties of the copper‑cleaning pulp.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "filtration properties",
+    "direction": "increases",
+    "factor": "free sulfuric acid ≤10 g/dm³",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "введение перед фильтрацией свободной серной кислоты в водную фазу в количестве до 10 г/дм 3 позволяет снизить негативное влияние силикатной составляющей на фильтрационные свойства пульпы медеочистки",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "For high‑concentration chloride‑sulfate nickel solutions, increasing pH from 0 to 2.5 at 70 °C reduces solution filtrability due to precipitation of silicon and aluminum as insoluble compounds.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "filtrability",
+    "direction": "decreases",
+    "factor": "pH increase 0→2.5",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установлено, что применительно к исследованной среде высококонцентрированных хлоридно-сульфатных никелевых растворов с ростом pH от 0 до 2,5 при температуре 70 о С фильтруемость раствора снижается, что обусловлено, по всей видимости, осаждением кремния и алюминия в виде нерастворимых соединений",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "Centrifugation before filtration provides a radical improvement of the solution’s filtration properties.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "filtration properties",
+    "direction": "increases",
+    "factor": "centrifugation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "центрифугирование перед фильтрацией обеспечивает радикальное улучшение фильтрационных свойств раствора",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "The optimal pH range for the best filtration speed without centrifugation is –0.1 to 0.1, corresponding to sulfuric acid content of 4‑10 g/dm³ in the high‑concentration chloride‑sulfate nickel solution.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "filtration speed",
+    "direction": "increases",
+    "factor": "pH –0.1 to 0.1 (4‑10 g/dm³ H₂SO₄)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Показано, что для обеспечения наилучшей скорости фильтрации без применения центрифуги приемлемым является диапазон pH = -0,1 – 0,1, что соответствует содержанию серной кислоты на уровне 4-10 г/дм 3",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "For satisfactory filtrability of the suspension‑containing pulp, it is not necessary to maintain high acidity during cementation; simple acidification after cementation, just before filtration, is sufficient.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "filtrability",
+    "direction": "increases",
+    "factor": "acidification before filtration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "для обеспечения удовлетворительной фильтруемости взвесь‑содержащей пульпы не обязательно поддерживать такой уровень кислотности в процессе цементации, достаточно простого подкисления раствора уже после процесса цементации непосредственно перед фильтрацией",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.81,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  },
+  {
+   "text": "A scheme of acidifying the copper‑cleaning pulp with sulfuric acid to a concentration of 4‑10 g/dm³ directly before filtration is recommended for implementation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "implementation",
+    "direction": "increases",
+    "factor": "acid concentration 4‑10 g/dm³",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На основе полученных экспериментальных данных рекомендована к реализации схема подкисления пульпы медеочистки серной кислотой в сборниках пульпы непосредственно перед фильтрацией до содержания кислоты на уровне 4-10 г/дм 3",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:15-исследования-составов-продуктов-передела-меде",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

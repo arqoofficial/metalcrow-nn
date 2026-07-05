@@ -1,0 +1,1426 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:tati-nkomati-cu-conc-pdf",
+   "title": "Tati Nkomati Cu conc.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Tati Nkomati Cu conc.pdf.md",
+   "artifact_sha256": "ceafa249289d767d2234e390114cc4e7da00a645aa7badb3166bbb2f5fb7b4e4",
+   "okf_raw_path": "Обзоры/Tati Nkomati Cu conc.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:copper-concentrate",
+   "label": "copper concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-anodes",
+   "label": "copper anodes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cathode",
+   "label": "cathode copper",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-sulfate",
+   "label": "nickel sulfate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-concentrates-including-low-arsenic-second",
+   "label": "copper concentrates (including low‑arsenic secondary feed)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cu-au-ag-concentrate",
+   "label": "Cu‑Au‑Ag concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:tati-nkomati-cu-conc-pdf:0",
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "title": "Industrial production at Palabora complex",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "electroextraction",
+      "extra": {
+       "raw_process": "full copper production cycle (underground mining, flotation, smelting, converting, anode casting, electrowinning)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:copper-anodes",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:cathode",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ore processed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 11538.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "переработано руды , тыс т 11538",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "average ore grade",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.67,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "средн . сортность , %Cu 0,67",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "copper concentrate produced",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 270.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "произведено концентратов , тыс т 270,8",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "copper in concentrate",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 82.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "произведено Cu в конц - те , тыс т 82,6",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "fresh anodes produced",
+     "scope": "material",
+     "material_id": "mat:copper-anodes",
+     "value": {
+      "min": null,
+      "nominal": 65.9,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "выпуск свежих анодов , тыс т 65,9",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "refined copper produced",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 69.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "выпуск свежей рафин . меди , тыс т 69,4",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Palabora complex operates a complete copper production chain from underground mining to refined copper export.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Комплекс Palabora включает полный цикл производства : - -подземный рудник ... - -цех электролиза , где получают катоды чистотой 99,99%, в основ -ном , идущие на экспорт",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Комплекс Palabora включает полный цикл производства : - -подземный рудник ( в 2004/2005 г . состоялся переход с открытой на подземную добычу ); - -обогатительную фабрику ( флотационный медный концентрат с 32% Cu); - -медеплавильные мощности ( отражательная печь на угле , где полу -чают штейн с 42% Cu); - -конвертирование (3 конвертера качающегося типа ); - -выплавку анодов (3 анодные печи ) и одну вращающуюся машину для литья анодов ; - -цех электролиза , где получают катоды чистотой 99,99%, в основ -ном , идущие на экспорт ; - -цех по производству катанки для поставок Южноафриканским по -треб",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:tati-nkomati-cu-conc-pdf:1",
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "title": "Industrial nickel sulfate plant at Palabora",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "nickel extraction from electrolyte with ion exchange, production of nickel sulfate"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-sulfate",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "production capacity",
+     "scope": "material",
+     "material_id": "mat:nickel-sulfate",
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Современный завод на 80 т / мес сульфата никеля , построенный СП Metals Finance/Rio Tinto, был введен в строй в феврале 2009 г .",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel sulfate produced 2009",
+     "scope": "material",
+     "material_id": "mat:nickel-sulfate",
+     "value": {
+      "min": null,
+      "nominal": 370.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "сульфат никеля , т 370",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "nickel sulfate produced 2010",
+     "scope": "material",
+     "material_id": "mat:nickel-sulfate",
+     "value": {
+      "min": null,
+      "nominal": 372.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "сульфат никеля , т 372",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The nickel sulfate plant was commissioned in February 2009 and produced around 370‑372 t per year in 2009‑2010.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Современный завод на 80 т / мес сульфата никеля , построенный СП Metals Finance/Rio Tinto, был введен в строй в феврале 2009 г .",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "никель извлекается из электролита с получением чистого кристалличе -ского сульфата с использованием нового процесса , включающего ионный обмен . Современный завод на 80 т / мес сульфата никеля , построенный СП Metals Finance/Rio Tinto, был введен в строй в феврале 2009 г .",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:tati-nkomati-cu-conc-pdf:2",
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "title": "Ausmelt furnace repurposed for copper concentrate melting",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "Ausmelt furnace originally for lead smelting was converted to melt copper concentrates and placed into service"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "crude copper grade after converters",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 98.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "После конвертирования в конвертерах Пирса‑Смита получают черновую медь 98,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Melt from Ausmelt can be sent either to converters (with slag granulated) or to the reverberatory furnace for slag settling and enrichment.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Расплав из печи Ausmelt можно либо передавать на конвертирование, а шлак на гранулирование, либо передавать расплав в отражательную печь для отстаивания и обеднения шлака.",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Печь Ausmelt для выплавки свинца была перепрофилирована на плавку медных концентратов и сдана в эксплуатацию в 2008 г.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:tati-nkomati-cu-conc-pdf:3",
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "title": "Commissioning of first oxygen plant (February 2010)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of an oxygen enrichment station for the reverberatory furnace"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "plant throughput after commissioning",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 120.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "после ввода в строй в феврале 2010 г. первой кислородной станции) в 120 тыс т / г по концентрату.",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant’s capacity doubled compared with earlier operation.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Пропускная способность завода составит около 240 тыс т / г по концентрату (150 тыс т / г‑Chelopech, около 90 тыс т / г‑концентраты третьих сторон) по сравнению с текущей пропускной способностью (после ввода в строй в феврале 2010 г. первой кислородной станции) в 120 тыс т / г по концентрату.",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В предшествующий период основной медеплавильной печью была отражательная печь.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:tati-nkomati-cu-conc-pdf:4",
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "title": "Planned commissioning of second oxygen station (mid‑2012)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of a second oxygen enrichment station and modernization of Ausmelt furnace"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrates-including-low-arsenic-second",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "planned plant throughput after second station",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 240.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Пропускная способность завода составит около 240 тыс т / г по концентрату ... по сравнению с текущей пропускной способностью ... в 120 тыс т / г по концентрату.",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The reverberatory furnace may be adapted for secondary raw material and low‑arsenic concentrate processing.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Отражательная печь будет приспособлена, возможно, под переработку вторичного сырья и концентратов с низким содержание мышьяка, а печь Ausmelt модернизирована.",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "На NCS в середине 2012 г. будет введена в строй вторая кислородная станция.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:tati-nkomati-cu-conc-pdf:5",
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "title": "Crude copper production 2009 vs 2007",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Processing of imported and local concentrates at NCS"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "crude copper output 2009",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 21.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2009 г. выпуск черновой меди составил около 21,5 тыс т по сравнению с 16,3 тыс т в 2007 г. и 20,6 тыс т в 2007 г.",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "crude copper from local concentrates 2007",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 8.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2007 г. (и предшествовашие годы) 8 тыс т меди было получено из местных концентратов.",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В 2009 г. выпуск черновой меди составил около 21,5 тыс т по сравнению с 16,3 тыс т в 2007 г. и 20,6 тыс т в 2007 г.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:tati-nkomati-cu-conc-pdf:6",
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "title": "Chelopech concentrate production 2010 and planned expansion",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Mining and concentration at Chelopech (Bulgaria) and supply to NCS"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cu-au-ag-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "copper in concentrate 2010",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 11.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2010 г. было получено 11,8 тыс т Cu и 2 т Au в концентрате.",
+     "locator_kind": "md_para",
+     "locator": "para:91",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "planned concentrate output after expansion (end 2011)",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 150.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "по планам Dundee ... выпуск концентратов увеличится до 150 тыс т / г.",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [],
+   "snippet": "На подземном руднике Chelopech получают Cu‑Au‑Ag концентрат.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "« Стандарта » на содержание меди в продажном концентрате нет , но обычно подразумевают 28-30% Cu в « типичном » концентрате .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "typical concentrate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "« Стандарта » на содержание меди в продажном концентрате нет , но обычно подразумевают 28-30% Cu в « типичном » концентрате .",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "В богатых концентратах -> 35% меди , в бедных концентратах <- 23%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "rich vs poor concentrates",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В богатых концентратах -> 35% меди , в бедных концентратах <- 23%.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "концентрат Nkomati с 23,5% Cu сравнительно бедный , но после дополнительной перечистки и повышения содержания меди до 27-28% близок к « стандартному ».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "post‑cleaning",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "концентрат Nkomati с 23,5% Cu сравнительно бедный , но после дополнительной перечистки и повышения содержания меди до 27-28% близок к « стандартному ».",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Медный концентрат Tati - « стандарт -ный » по содержанию меди .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "no_change",
+    "factor": "Tati concentrate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медный концентрат Tati - « стандарт -ный » по содержанию меди .",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "типичного уровня влажности 8-9%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "moisture",
+    "direction": "no_change",
+    "factor": "typical level",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "типичного уровня влажности 8-9%.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "указанная влажность концентрата Nkomati 10-12% , т . е . во избежание штрафов его необходимо подсушивать .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "moisture",
+    "direction": "decreases",
+    "factor": "Nkomati concentrate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "указанная влажность концентрата Nkomati 10-12% , т . е . во избежание штрафов его необходимо подсушивать .",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Превышение TML может привести к « разжижению » концентрата при циклических воздействиях ( уплотнение и вибрация ) в условиях качки и , в результате , к нарушению остойчивости судна и его переворачиванию .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stability",
+    "direction": "decreases",
+    "factor": "exceeding TML",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Превышение TML может привести к « разжижению » концентрата при циклических воздействиях ( уплотнение и вибрация ) в условиях качки и , в результате , к нарушению остойчивости судна и его переворачиванию .",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "медный концентрат Cu-1 компании Boliden c 21,7% Cu, размером частиц 96,8% менее 90 мкм и влажностью 7,7% имеет TML 10,7-12,8%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "TML",
+    "direction": "no_change",
+    "factor": "Boliden Cu-1 concentrate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "медный концентрат Cu-1 компании Boliden c 21,7% Cu, размером частиц 96,8% менее 90 мкм и влажностью 7,7% имеет TML 10,7-12,8%.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "обычно штрафами облагаются следующие элементы : As, Sb, Bi, Pb, Zn, Hg, Cl, F.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impurities",
+    "direction": "no_change",
+    "factor": "listed elements",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обычно штрафами облагаются следующие элементы : As, Sb, Bi, Pb, Zn, Hg, Cl, F.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "некоторые медеплавильные заводы накладывают штраф , если сумма Ni+Co превышает некоторый уровень -конкретных цифр нет .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Ni+Co content",
+    "direction": "decreases",
+    "factor": "excess Ni+Co",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "некоторые медеплавильные заводы накладывают штраф , если сумма Ni+Co превышает некоторый уровень -конкретных цифр нет .",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "При переработке медных никельсодержащих концентратов никель в небольших количествах переходит в отвальные шлаки плавильных печей.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "перенос никеля в отвальные шлаки",
+    "direction": "increases",
+    "factor": "небольшие количества",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При переработке медных никельсодержащих концентратов никель в небольших количествах переходит в отвальные шлаки плавильных печей.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Основные количества никеля выводятся при конвертировании штейнов с твердыми шлаками, которые направляются в пирометаллургическое производство.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "вывод никеля",
+    "direction": "increases",
+    "factor": "основные количества",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основные количества никеля выводятся при конвертировании штейнов с твердыми шлаками, которые направляются в пирометаллургическое производство.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": "converting"
+  },
+  {
+   "text": "При конвертировании медных штейнов помимо жидких оборотных и твердых шлаков образуется черновая медь, в которой может быть 1,0-1,2% Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "1,0-1,2%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При конвертировании медных штейнов помимо жидких оборотных и твердых шлаков образуется черновая медь, в которой может быть 1,0-1,2% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": "converting"
+  },
+  {
+   "text": "При огневом рафинировании черновой меди никель выводится в оборотные шлаки, направляемые в конвертера.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "вывод никеля в оборотные шлаки",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При огневом рафинировании черновой меди никель выводится в оборотные шлаки, направляемые в конвертера.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": "fire_refining"
+  },
+  {
+   "text": "Остаточное содержание никеля в анодной меди — около 0,6%, в катодной меди — тысячные доли процента.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "0,6% в анодной, тысячные доли в катодной",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Остаточное содержание никеля в анодной меди — около 0,6%, в катодной меди — тысячные доли процента.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "При электрическом рафинировании анодной меди никель переходит в электролит и по мере его накопления выводится из него в виде сульфата.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "перенос никеля в электролит и последующий вывод в виде сульфата",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При электрическом рафинировании анодной меди никель переходит в электролит и по мере его накопления выводится из него в виде сульфата.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Технологические схемы переработки медных концентратов, не содержащих никель, проще.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "сложность технологических схем",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технологические схемы переработки медных концентратов, не содержащих никель, проще.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Никель и МПГ — две основные проблемы, ограничивающие возможности сбыта медного концентратов Nkomati и Tati.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ограничивающие факторы",
+    "direction": "increases",
+    "factor": "никель и МПГ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Никель и МПГ — две основные проблемы, ограничивающие возможности сбыта медного концентратов Nkomati и Tati.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Содержание никеля (1+%) по нашему мнению не является «критическим» — такой концентрат, в принципе, может быть переработан на крупном медном комплексе.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "критичность содержания никеля",
+    "direction": "decreases",
+    "factor": "1+%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание никеля (1+%), по нашему мнению, не является «критическим» — такой концентрат, в принципе, может быть переработан на крупном медном комплексе.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "При оценке стоимости такого концентрата возможно наложение штрафа за повышенное содержание никеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "наложение штрафа",
+    "direction": "increases",
+    "factor": "повышенное содержание никеля",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При оценке стоимости такого концентрата возможно наложение штрафа за повышенное содержание никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Второй вариант — переработка концентратов Tati/Nkomati на предприятиях, перерабатывающих медно-никелевое сырье по схеме, включающей получение раздельных медного и никелевого концентратов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "использование схемы получения раздельных концентратов",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Второй вариант — переработка концентратов Tati/Nkomati на предприятиях, перерабатывающих медно-никелевое сырье по схеме, включающей получение раздельных медного и никелевого концентратов.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "В ЮАР единственным производителем рафинированной меди является компания Palabora Mining Co (входит в группу компаний Rio Tinto, которой принадлежит 57,7%, 17% у Anglo American).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В ЮАР единственным производителем рафинированной меди является компания Palabora Mining Co (входит в группу компаний Rio Tinto, которой принадлежит 57,7%, 17% у Anglo American).",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "The Palabora copper cathode brand is registered with the London Bullion Market.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Марка катодной меди Palabora зарегистрирована на ЛБМ .",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "The complex also produces a magnetite concentrate as a by‑product for local coal companies and export to China.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в качестве побочной продукции получают магнетитовый концентрат ( для поставки местным угледобывающим ком -паниям и на экспорт в Китай ).",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "By‑products include 98 % sulfuric acid for the domestic market and anode sludges containing Au, Ag, Pt, Pd that are sent abroad for refining.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Другими видами побочной продукции являются : - 98%ая серная кислота ( для поставок на внутренний рынок ); - -анодные шламы , содержащие Au, Ag, Pt, Pd. Шламы отправляют на за -рубежные рафинировочные заводы .",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "After switching from open‑pit to underground mining in 2004/2005, ore throughput fell from 28‑29 Mt/year to 15‑16 Mt/year in 2007‑2008 and to about 11 Mt/year in 2009‑2010.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "После перехода с открытой на под -земную разработку ( по исчерпании запасов подлежащей открытой добыче руды ), объемы переработки руды сократились с 28-29 млн т / г до 15-16 млн т / г в 2007-2008 гг . и примерно 11 млн г в 2009-2010 гг .",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Proven underground ore reserves as of 31‑12‑2009 were 75,33 Mt at 0,61 % Cu.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "На 31.12.2009 доказанные запасы руды , подлежащей подземной до -быче , оценивались в 75,33 млн т с 0,61% Cu",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "In 2010 copper concentrate production was 10 % lower than in 2009 due to processing very low‑grade ore (0,12 % Cu) for Foskor and a fire at the plant.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Выпуск меди в концентрате в 2010 г . был на 10% ниже , чем в 2009 г . из -за переработки по толлингу на О / Ф Palabora очень бедного по меди сы -рья (0,12%) для компании Foskor, а также пожара на фабрике в I п / г 2010 г .",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "In 2010 Palabora processed 870 kt of slag containing 20 kt Cu, compared with 278 kt of slag (9 kt Cu) in 2009.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2010 г . было обогащено 870 тыс т шлака , содержащего 20 тыс т Cu, по сравнению с 278 тыс т шлака (9 тыс т Cu) в 2009 г .",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Import of copper concentrate stopped in Q4 2009 after Zambian export controls were introduced.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "импорт концентратов прекратился в 4 кв .2009 г . ... импорт прекратился по причине вступивших в силу в конце 2009 г . в Зам -бии правил по контролю за экспортом не переработанного сырья .",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "In 2010 Palabora imported 1 858 t of crude copper, 3 800 t of cathode copper and almost 5 000 t of copper rod to meet contract obligations.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Однако в 2010 г . было импортировано 1858 т черновой меди , 3800 т катодной меди и почти 5 тыс т катанки для выполнения контрактных обя -зательств .",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Technical problems and equipment failures reduced first‑quarter 2011 production to 58,4 kt copper concentrate (29,5 % Cu) and 14,8 kt refined copper.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Технические проблемы , поломки оборудования сказались и на про -изводственных показателях 1 кв .2011 г . -было произведено 58,4 тыс т медных концентратов средней сортностью 29,5% (17,3 тыс т Cu). Выпуск рафинированной меди составил 14,8 тыс т",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "The Namibian Custon Smelter (NCS) is located in Tsumeb, about 430 km north of Windhoek and linked by a 500 km railway to the deep‑water port of Walvis Bay.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Медеплавильный завод Namibian Custon Smelter (NCS) расположен в г .Tsumeb ... Завод связан железной дорогой (500 км ) с глубоководным портом Walvis Bay ( Намибия )",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.45,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "NCS is one of the few copper smelters in the world capable of processing copper concentrates that contain arsenic and lead.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В настоящее время завод является крупным переработчиком сторонних концентратов и одним из немногих медеплавильных заводов мира, приспособленных к переработке медных концентратов, содержащих мышьяк и свинец.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "The plant’s main product is crude copper 98.5% supplied to refining plants.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Товарной продукцией является черновая медь 98,5% (поставляемая на рафинировочные заводы) и трехокись мышьяка (на продажу).",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Approximately half of the concentrates processed at NCS come from Dundee’s Chelopech copper mine in Bulgaria; the rest are imported from Peru, Greece, Russia, Poland and African countries including Botswana and DR Congo.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Примерно половина перерабатываемых концентратов поступает тогда с принадлежащего Dundee медного рудника Chelopech (Болгария), остальные — из Перу, Греции, России, Польши и Африканских стран (в т.ч. из Ботсваны и ДР Конго).",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "NCS is connected by a 500 km railway to the deep‑water port of Walvis Bay on the Atlantic Ocean.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Завод связан железной дорогой (500 км) с глубоководным портом Walvis Bay (Намибия) на Атлантическом океане.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Louis Dreyfus Commodities Metals Suisse SA (LDC) holds exclusive rights to purchase Chelopech concentrate for tolling at NCS and exclusive agreement for additional raw material supply through 2020 inclusive.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Компания LDC (Louis Dreyfus Commodities Metals Suisse SA) имеет эксклюзивные права на закупку концентрата Chelopech для переработки его по толлингу на медеплавильном заводе NCS, а также эксклюзивное со‑глашение на поставку дополнительного сырья для переработки по толлингу на срок по 2020 г. включительно.",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "The Ausmelt furnace was originally a lead smelting furnace before being repurposed for copper concentrate melting in 2008.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Печь Ausmelt для выплавки свинца была перепрофилирована на плавку медных концентратов и сдана в эксплуатацию в 2008 г.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "The plant’s capacity after the first oxygen station (commissioned February 2010) is about 120 kt of concentrate per year.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "после ввода в строй в феврале 2010 г. первой кислородной станции) в 120 тыс т / г по концентрату.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "The plant’s planned capacity after the second oxygen station (mid‑2012) will be about 240 kt of concentrate per year.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Пропускная способность завода составит около 240 тыс т / г по концентрату ... по сравнению с текущей пропускной способностью ... в 120 тыс т / г по концентрату.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.45,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология хлорного выщелачивания позволяет перерабатывать никелевый файнштейн с высоким содержанием меди и МПГ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ability to process nickel fine‑steel with high copper and MPG co",
+    "direction": "increases",
+    "factor": "applicability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология хлорного выщелачивания позволяет перерабатывать никелевый файнштейн с высоким содержанием меди и МПГ.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Цепочка извлечения никеля на медном рафинировочном заводе Kidd Creek была установлена в 1995 г., что в значительной мере сняло ограничения по содержанию никеля в поступающих на плавку медных концентратах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "removal of nickel content limits for copper concentrates",
+    "direction": "increases",
+    "factor": "process capability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цепочка извлечения никеля на медном рафинировочном заводе Kidd Creek была установлена в 1995 г., что в значительной мере сняло ограничения по содержанию никеля в поступающих на плавку медных концентратах.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "медный концентрат перерабатывается на медном плавильно‑рафинировочном комплексе Kidd Creek (непрерывная плавка по способу Mitsubishi, процесс рафинирования Kidd с катодами из нержавеющей стали) мощностью около 145 тыс т / г по черновой и катодной меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "throughput",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "медный концентрат перерабатывается на медном плавильно‑рафинировочном комплексе Kidd Creek (непрерывная плавка по способу Mitsubishi, процесс рафинирования Kidd с катодами из нержавеющей стали) мощностью около 145 тыс т / г по черновой и катодной меди.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "Печной штейн имеет следующий примерный состав: 21,6% Ni, 11,2% Cu, 40,3% Fe, 24,6% S.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "typical composition",
+    "direction": "nonmonotonic",
+    "factor": "composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Печной штейн имеет следующий примерный состав: 21,6% Ni, 11,2% Cu, 40,3% Fe, 24,6% S.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "В медном отделении на О/Ф Kidd Creek из медно‑цинковой руды рудника Kidd Creek получают медный и цинковый концентраты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product output",
+    "direction": "increases",
+    "factor": "copper and zinc concentrate production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В медном отделении на О/Ф Kidd Creek из медно‑цинковой руды рудника Kidd Creek получают медный и цинковый концентраты.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "В никелевом отделении на О/Ф Strathcona при переработке медно‑никелевой руды с рудников района Садбери получают раздельные медный и никелевые концентраты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product separation",
+    "direction": "increases",
+    "factor": "separation capability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В никелевом отделении на О/Ф Strathcona при переработке медно‑никелевой руды с рудников района Садбери получают раздельные медный и никелевые концентраты.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  },
+  {
+   "text": "Схема обогащения руды Strathcona позволяет получить 4 продукта: богатый Cu‑концентрат (30‑33% Cu, влажность 6‑8%; средн. состав 31,5% Cu, 0,4% Ni), Ni‑Cu концентрат (8‑13% Ni, 3‑5% Cu, высокое содержание пирротина), хвосты с высоким содержанием серы (30‑34% S, 0,7‑0,8% Ni), несульфидные хвосты (0,6‑0,9% S, 0,07‑0,09% Ni, 0,05‑0,07% Cu).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product yields and compositions",
+    "direction": "increases",
+    "factor": "product diversity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Схема обогащения руды Strathcona позволяет получить 4 продукта: - -богатый Cuконцентрат (30-33% Cu, влажность 6-8%; средн . состав 31,5% Cu, 0,4% Ni). Этот концентрат до недавнего времени отправлялся в медное отделение -на комплекс Kidd Creek; - Ni-Cu концентрат (8-13% Ni, 3-5% Cu, высокое содержание пирротина ) для переработки на плавильном заводе Садбери ; - -хвосты с высоким содержанием серы (30-34% S, 0,7-0,8% Ni); - -несульфидные хвосты (0,6-0,9% S, 0,07-0,09% Ni, 0,05-0,07% Cu).",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.81,
+   "document_id": "doc:tati-nkomati-cu-conc-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:copper-anodes",
+   "dst": "mat:copper-concentrate",
+   "process": "electroextraction",
+   "kind": null,
+   "snippet": "Комплекс Palabora включает полный цикл производства : - -подземный рудник ( в 2004/2005 г . состоялся переход с открытой на подземную добычу ); - -обогатительную фабрику ( флотационный медный концентрат с 32% Cu); - -медеплавильные мощности ( отражательная печь на угле , где полу -чают штейн с 42% Cu); - -конвертирование (3 конвертера качающегося типа ); - -выплавку анодов (3 анодные печи ) и одну",
+   "doc_id": "doc:tati-nkomati-cu-conc-pdf"
+  },
+  {
+   "src": "mat:cathode",
+   "dst": "mat:copper-concentrate",
+   "process": "electroextraction",
+   "kind": null,
+   "snippet": "Комплекс Palabora включает полный цикл производства : - -подземный рудник ( в 2004/2005 г . состоялся переход с открытой на подземную добычу ); - -обогатительную фабрику ( флотационный медный концентрат с 32% Cu); - -медеплавильные мощности ( отражательная печь на угле , где полу -чают штейн с 42% Cu); - -конвертирование (3 конвертера качающегося типа ); - -выплавку анодов (3 анодные печи ) и одну",
+   "doc_id": "doc:tati-nkomati-cu-conc-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

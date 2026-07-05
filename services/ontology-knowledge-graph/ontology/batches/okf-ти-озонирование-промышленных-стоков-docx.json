@@ -1,0 +1,1802 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "title": "ТИ Озонирование промышленных стоков.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ТИ Озонирование промышленных стоков.docx.md",
+   "artifact_sha256": "d511f1a3ee158cf2d73a91c589e8b347818cc1f9bb15649706a616c494ed78da",
+   "okf_raw_path": "Обзоры/ТИ Озонирование промышленных стоков.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:cyanide-containing-wastewater",
+   "label": "cyanide‑containing wastewater",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cyanide-containing-wastewater-from-metal-surface",
+   "label": "cyanide‑containing wastewater from metal‑surface treatment",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:industrial-wastewater-containing-high-toxicity-r",
+   "label": "industrial wastewater containing high‑toxicity rocket fuel residues",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:wastewater-from-dehydration-of-methylphenylcarbi",
+   "label": "wastewater from dehydration of methylphenylcarbinol (MFK) in styrene and propylene oxide production",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ccl4-ch3cl-c6h5n-h2o2-30-mass-moo2-oc2h4oh-2-37",
+   "label": "CCl4, CH3Cl, C6H5N, H2O2 (30 % mass), MoO2(OC2H4OH)2 (37.8 % Mo)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:acidic-wastewater-from-cprm-mpz",
+   "label": "acidic wastewater from CPRM MPZ",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:acidic-effluents-of-copper-sulfate-shop-mpz",
+   "label": "acidic effluents of copper sulfate shop (MPZ)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rinse-solutions-of-skc-cz",
+   "label": "rinse solutions of SKC CZ",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:acidic-effluents-of-copper-sulfate-workshop-mpz",
+   "label": "acidic effluents of copper sulfate workshop (MPZ)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:wash-solutions-of-zinc-plant-skc-cz",
+   "label": "wash solutions of zinc plant (SKC CZ)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:ти-озонирование-промышленных-стоков-docx:0",
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "title": "Industrial application of ozone for cyanide‑containing wastewater at Boeing Aircraft (Kansas, USA)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ozonation",
+       "temperature_text": "5—25°С",
+       "duration_text": "continuous operation (installed in 1957)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 278.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cyanide-containing-wastewater",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.0,
+      "max": null
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "cyanide  in influent"
+     },
+     "method": null,
+     "snippet": "Содержание цианидов в сточных водах составляло от 0,0 до 0,25 мг/л.",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "ozone generator capacity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 27.2,
+      "max": null
+     },
+     "unit": "kg/day",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "два генератора озона (из воздуха) производительностью 27,2 кг/день",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "column dimensions",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 9.14,
+      "max": null
+     },
+     "unit": "m",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "эти колонны имели высоту 9,14 м и диаметр 1,36 м",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Метод позволял удалить избыток SO₂ и избавиться от избытка озона, содержащегося в отходящих газах из первой колонны.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "SO₂ removal and excess ozone elimination",
+      "direction": "increases",
+      "factor": "ozonation with two‑column counter‑current gas flow",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Этот метод позволял удалить избыток SO 2 и избавиться от избытка озона, содержащегося в отходящих газах из первой колонны.",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На предприятии Boeing Aircraft (шт. Канзас, США) установка для очистки цианид‑содержащих сточных вод с использованием озонирования была введена в эксплуатацию в 1957 году.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-озонирование-промышленных-стоков-docx:1",
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "title": "Industrial application of ozone for cyanide‑containing wastewater at Cadillac (General Motors)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ozonation",
+       "temperature_text": "neutral or weakly acidic (recommended)",
+       "duration_text": "continuous operation (flow rates given)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cyanide-containing-wastewater-from-metal-surface",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "total cyanide"
+     },
+     "method": null,
+     "snippet": "общее содержание цианида - 60 мг/л",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "amenable cyanide",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "цианид, поддающийся обработке (amenable cyanide) - 55 мг/л",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 49.0,
+      "max": null
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "copper"
+     },
+     "method": null,
+     "snippet": "медь - 49 мг/л",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.2,
+      "max": null
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "nickel"
+     },
+     "method": null,
+     "snippet": "никель - 0,2 мг/л",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1325.0,
+      "max": null
+     },
+     "unit": "m³/day",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "average"
+     },
+     "method": null,
+     "snippet": "Усредненный поток сточных вод 1325 м 3 /день",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1892.0,
+      "max": null
+     },
+     "unit": "m³/day",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "maximum"
+     },
+     "method": null,
+     "snippet": "максимальный поток 1892 м 3 /день",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "average cyanide load",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "kg/day",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "среднее содержание цианида - 80 кг цианида в день",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "maximum cyanide load",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 103.0,
+      "max": null
+     },
+     "unit": "kg/day",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "максимум – 103 кг/день",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Озонирование применяется к этим стокам, однако в тексте не указаны конкретные показатели очистки.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficacy",
+      "direction": "increases",
+      "factor": "ozonation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Цианид‑содержащие сточные воды ... перед озонированием имели следующие характеристики",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Цианид‑содержащие сточные воды от обработки металлических поверхностей завода Cadillac (General Motors) перед озонированием имели следующие характеристики",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-озонирование-промышленных-стоков-docx:2",
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "title": "Industrial application at rocket‑engine test station",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ozonation of industrial wastewater",
+       "temperature_text": "not specified",
+       "duration_text": "continuous operation (plant scale)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:industrial-wastewater-containing-high-toxicity-r",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "water throughput",
+     "scope": "material",
+     "material_id": "mat:cyanide-containing-wastewater",
+     "value": {
+      "min": null,
+      "nominal": 2000.0,
+      "max": null
+     },
+     "unit": "м3/сутки",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "установка производительностью по воде 2000 м3/сутки для обработки озоном промышленных стоков",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "patent status",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2034799.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Технология была запатентована (патент РФ No 2034799 - Приложение)",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "установка использовалась для очистки воды от остатков высокотоксичного ракетного топлива",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "установка ... очищающих воду от остатков высокотоксичного ракетного топлива",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Примером воплощения данной идеи послужила разработанная и введенная в действие установка производительностью по воде 2000 м3/сутки для обработки озоном промышленных стоков",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-озонирование-промышленных-стоков-docx:3",
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "title": "Laboratory ozonation of high‑load aromatic wastewater (Nizhnekamsk‑Neftekhim)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ozone‑oxygen mixture treatment in a tubular aerated reactor",
+       "temperature_text": "20‑80 °C (automatically controlled)",
+       "duration_text": "≤6 h per experiment"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 293.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:wastewater-from-dehydration-of-methylphenylcarbi",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:ccl4-ch3cl-c6h5n-h2o2-30-mass-moo2-oc2h4oh-2-37",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.16,
+      "max": null
+     },
+     "unit": "л/мин",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "oxygen"
+     },
+     "method": null,
+     "snippet": "скорость подачи кислорода 1,16 л/мин",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 12.3,
+      "max": null
+     },
+     "unit": "г/м3",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "ozone  in gas mixture"
+     },
+     "method": null,
+     "snippet": "концентрация озона 12.3 г/м3",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "initial COD (ХПК)",
+     "scope": "material",
+     "material_id": "mat:cyanide-containing-wastewater",
+     "value": {
+      "min": null,
+      "nominal": 46000.0,
+      "max": null
+     },
+     "unit": "мг О2/дм3",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Начальные значения показателей ХПК соответствовали величинам 46000 мг О2/дм3",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "pH of feed water",
+     "scope": "material",
+     "material_id": "mat:cyanide-containing-wastewater",
+     "value": {
+      "min": null,
+      "nominal": 12.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "доведением показателя pH среды до значения 12,8",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.029,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "benzene"
+     },
+     "method": null,
+     "snippet": "содержание ... бензола ... уменьшается с 0,029 ... до 0,013% масс.",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.33,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "ethylbenzene"
+     },
+     "method": null,
+     "snippet": "содержание ... этилбензола ... 0,33 % масс.",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.001,
+      "max": null
+     },
+     "unit": "% масс.",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "benzene"
+     },
+     "method": null,
+     "snippet": "в случае озонирования в присутствии активных добавок содержание примесей уменьшается почти до 0,001% масс.",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "наилучшие результаты по удалению примесей получены по этилбензолу, бензолу и ацетофенону, содержание которых через 6 ч реакции снижается наполовину",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "decreases",
+      "factor": "6 h reaction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наилучшие результаты по удалению примесей из сточных вод получены по этилбензолу(ЭБ), бензолу и ацетофенону (АЦФ), содержание которых через 6 ч реакции снижается наполовину.",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    },
+    {
+     "text": "добавка CCl4 дает конверсию 30,2 % при 6 h",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "1 | 0,000 | 0,020 | 0,150 | 1,504 | 0,660 | 0,005 | 30,2*",
+     "locator_kind": "md_para",
+     "locator": "para:72",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Исследования выполняли на установке, состоящей из трубчатого барботажного реактора-окислителя, ... Температуру контролировали и поддерживали автоматически в интервале температур 20-80°С ... Окисление осуществляли озоно‑кислородной смесью, скорость подачи кислорода 1,16 л/мин, концентрация озона 12.3 г/м3.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-озонирование-промышленных-стоков-docx:4",
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "title": "Laboratory barbotage column test on acidic effluents from CPRM MPZ",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ozonation",
+       "temperature_text": "20°С",
+       "duration_text": "20 min"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 293.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:acidic-wastewater-from-cprm-mpz",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.25,
+      "max": null
+     },
+     "unit": "l/min",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "ozone"
+     },
+     "method": null,
+     "snippet": "При проведении опытов озоно-воздушная смесь подавалась в реактор с расходом 0,25 л/мин",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "ozone"
+     },
+     "method": null,
+     "snippet": "и концентрацией озона C = 6,0 мг/л",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "initial pH",
+     "scope": "material",
+     "material_id": "mat:cyanide-containing-wastewater",
+     "value": {
+      "min": 4.0,
+      "nominal": null,
+      "max": 5.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Начальные значения рН были в пределах 4-5",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "final pH (optimal extraction)",
+     "scope": "material",
+     "material_id": "mat:cyanide-containing-wastewater",
+     "value": {
+      "min": 8.0,
+      "nominal": null,
+      "max": 9.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "максимальное извлечение металлов в осадок наблюдается при pH = 8-9",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "metal removal (Cu)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Степень очистки металлов составляет 100%.",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "metal removal (Zn)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Степень очистки металлов составляет 100%.",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "metal removal (Fe +2)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Степень очистки металлов составляет 100%.",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "metal removal (Fe +3)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Степень очистки металлов составляет 100%.",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Maximum metal extraction into precipitate occurs at pH 8‑9 with 100 % removal.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "pH",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Результаты экспериментов показывают, что максимальное извлечение металлов в осадок наблюдается при pH = 8-9. Степень очистки металлов составляет 100%.",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для проведения исследований по очистке кислых стоков ЦПРМ МПЗ ... была изготовлена барботажная колонна высотой 0,5 м, оборудованная мелкопористым фильтром с диаметром пор 70-100 мкм",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-озонирование-промышленных-стоков-docx:5",
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "title": "Pilot test on acidic effluents from the copper sulfate shop (MPZ) and rinse solutions from SKC CZ",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ozonation",
+       "temperature_text": "20°С",
+       "duration_text": "20 min"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 293.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:acidic-effluents-of-copper-sulfate-workshop-mpz",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:rinse-solutions-of-skc-cz",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "ozone"
+     },
+     "method": null,
+     "snippet": "концентрации озона 6 мг/л",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.25,
+      "max": null
+     },
+     "unit": "l/min",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "ozone"
+     },
+     "method": null,
+     "snippet": "расход озоно-воздушной смеси 0,25 л/мин",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:rinse-solutions-of-skc-cz",
+     "value": {
+      "min": null,
+      "nominal": 293.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "температура растворов 20°С",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The same operating conditions (6 mg/L ozone, 0.25 L/min flow, 20 °C, 20 min) were used for both types of acidic streams.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operating condition",
+      "direction": "no_change",
+      "factor": "process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Условия проведения опытов: концентрации озона 6 мг/л, расход озоно-воздушной смеси 0,25 л/мин, температура растворов 20°С, продолжительность очистки 20 мин.",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Также были проведены эксперименты по очистке кислых стоков купоросного цеха МПЗ и промывных растворов СКЦ ЦЗ озоном.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-озонирование-промышленных-стоков-docx:6",
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "title": "Ion flotation of acidic effluents from copper sulfate workshop and wash solutions from zinc plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "ion flotation after ozonation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:acidic-effluents-of-copper-sulfate-workshop-mpz",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:wash-solutions-of-zinc-plant-skc-cz",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 9.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "maximum"
+     },
+     "method": null,
+     "snippet": "Максимальная степень извлечения Mo, Сu и Zn в осадок наблюдается при 9, 8 и 7 соответственно.",
+     "locator_kind": "md_para",
+     "locator": "para:105",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Осаждение металлов происходит во всём рассматриваемом интервале значений pH раствора.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "metal precipitation",
+      "direction": "increases",
+      "factor": "pH",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Во всем рассматриваемом интервале значений pH раствора происходит осаждение металлов.",
+     "locator_kind": "md_para",
+     "locator": "para:105",
+     "confidence": 0.9
+    },
+    {
+     "text": "Наиболее полно осаждение протекает в близких средах, соответствующих нахождению металлов в форме гидроксидов.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "metal precipitation",
+      "direction": "increases",
+      "factor": "hydroxide-forming pH",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наиболее полно осаждение протекает в близких средах, соответствующих нахождению металлов в форме гидроксидов.",
+     "locator_kind": "md_para",
+     "locator": "para:106",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В результате проведенных исследований, на основе полученных результатов, разработана технологическая схема очистки сточных вод медного и цинкового производства озоном (рис. 3).",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Озон сам по себе, или в комбинации с гидроксид‑радикалами, эффективен против большинства органических трудноокисляемых соединений, которые разлагаются с образованием безвредных веществ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effectiveness against recalcitrant organics",
+    "direction": "increases",
+    "factor": "ozone (alone or with hydroxyl radicals)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Озон сам по себе, или в комбинации с гидроксид-радикалами, эффективен против большинства органических трудноокисляемых соединений, которые разлагаются с образованием безвредных веществ.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.81,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "В результате окисления озоном устраняются неприятные запахи, а сточные воды дополнительно дезинфицируются за счет бактерицидных свойств озона.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "odor removal and disinfection",
+    "direction": "increases",
+    "factor": "ozone oxidation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в результате окисления озоном устраняются неприятные запахи, а сточные воды дополнительно дезинфицируются за счет бактерицидных свойств озона.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Капитальные и эксплуатационные затраты на процесс озонирования иногда могут в несколько раз превысить стоимость традиционных методов обработки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "increases",
+    "factor": "ozonation compared with traditional methods",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Капитальные и эксплуатационные затраты на процесс озонирования иногда могут в несколько раз превысить стоимость традиционных методов обработки.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Озон имеет преимущества перед гипохлоритом натрия и хлором как по эффективности воздействия, так и по экономии средств на окисление цианистых соединений при pH = 11,5.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "ozone vs. sodium hypochlorite/chlorine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Озон имеет преимущества перед этими реагентами как по эффективности воздействия, так и по экономии средств на окисление.",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Повышение pH среды уменьшает скорость реакции окисления, поэтому рекомендуется проводить озонирование роданид‑содержащих сточных вод в нейтральной или слабокислой среде.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reaction rate",
+    "direction": "decreases",
+    "factor": "higher pH",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение pH среды уменьшает скорость реакции, поэтому рекомендуется проводить озонирование роданидсодержащих сточных вод в нейтральной или слабокислой среде.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Оптимальное значение температуры для озонирования составляет 5—25 °C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "operating within 5—25 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эффективность протекания процесса также зависит от температуры обрабатываемой воды (оптимальное значение: 5—25°С).",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Озоном эффективно окисляются фенолы и углеводороды в сточных водах нефтеперерабатывающих заводов, при концентрациях фенолов от 0 до 1000 мг/л.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxidation of phenols and hydrocarbons",
+    "direction": "increases",
+    "factor": "ozone presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По отношению к фенолам озон проявляет высокую активность в широком диапазоне их концентрации (от 0 до 1000 мг/л).",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Применение озона для очистки производственных сточных вод возможно в широких масштабах, но экономически оправдано в случаях специфической очистки (обесцвечивание, снижение токсичности) и удаления следов загрязнений перед сбросом в водоем.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "applicability scope",
+    "direction": "increases",
+    "factor": "specific cases",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "применение озона для очистки производственных сточных вод возможно в широких масштабах. Однако по экономическим соображениям оно как будто наиболее реально лишь в нескольких случаях: для специфической очистки (обесцвечивание, снижение токсичности и т.д.), когда классическая очистка неприемлема или неэффективна, а также для удаления следов загрязнений перед сбросом сточных вод в водоем.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Гидродинамический способ заключается в формировании главных процессов очистки в рабочей зоне аппарата, подвергая рабочую среду разнообразным интенсифицирующим физическим воздействиям.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Так возникла идея гидродинамического способа, который заключался в том, чтобы главные процессы очистки сформировать в рабочей зоне аппарата, подвергнув рабочую среду в ней разнообразным интенсифицирующим физическим воздействиям.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Особенностью реакции озона с двойными углерод‑углеродными связями является возможность изменять направление реакции при введении активных растворителей.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Особенностью реакции озона с двойными углерод-углеродными связями является возможность изменять направление реакции при введении «активных растворителей»",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Наилучшие результаты получены по очистке сточных вод от бензола и этилбензола, содержание которых при озонировании в отсутствии активных добавок уменьшается с 0,029 и 0,33 % масс. до 0,013 % масс. соответственно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "benzene and ethylbenzene content",
+    "direction": "decreases",
+    "factor": "no additives",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "наилучшие результаты получены по очистке сточных вод от бензола и этилбензола, содержание которых при озонировании в отсутствии активных добавок уменьшается с 0,029 и 0,33 % масс. До 0,013% масс. соответственно",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.81,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Ozonation of wastewater is an absorption process accompanied by an irreversible chemical reaction in the liquid phase, which proceeds faster than simple physical absorption.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction speed",
+    "direction": "increases",
+    "factor": "chemical reaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Озонирование сточных вод представляет собой процесс абсорбции, сопровождающийся необратимой химической реакцией в жидкой фазе. Вследствие химической реакции движущая сила возрастает, и процесс протекает быстрее, нежели в случае простой физической абсорбции.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Increasing the interfacial surface area in the diffusion zone accelerates the absorption process.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "process speed",
+    "direction": "increases",
+    "factor": "interfacial surface area",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для повышения скорости процесса в диффузионной области необходимо увеличивать поверхность соприкосновения фаз.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Raising the pressure also enhances the absorption efficiency.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "pressure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для процесса абсорбции эффективным является также повышение давления.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "A barbotage column of 0.5 m height equipped with a fine‑porous filter (pore size 70‑100 µm) was used to disperse the ozone‑air mixture for laboratory studies.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment design",
+    "direction": "no_change",
+    "factor": "column geometry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для проведения исследований ... была изготовлена барботажная колонна высотой 0,5 м, оборудованная мелкопористым фильтром с диаметром пор 70-100 мкм",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.45,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Typical operating conditions for effective metal removal are ozone concentration 6 mg/L, gas flow 0.25 L/min, solution temperature 20 °C, and contact time 20 min.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating parameters",
+    "direction": "no_change",
+    "factor": "standard practice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Условия проведения опытов: концентрации озона 6 мг/л, расход озоно-воздушной смеси 0,25 л/мин, температура растворов 20°С, продолжительность очистки 20 мин.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Metal removal efficiencies of up to 100 % were achieved for Cu, Zn, Fe +2 and Fe +3 under the described laboratory conditions.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "optimal pH 8‑9",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Степень очистки металлов составляет 100%.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Для малых доз озона наиболее целесообразен прямой ввод озона без зацикливания потока воды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ozone dose",
+    "direction": "decreases",
+    "factor": "dose",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для малых доз озона наиболее целесообразен прямой ввод озона без зацикливания потока воды",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Для больших доз – от 6 мг/л и выше – компания рекомендует использование установок озонирования воды напорно-циркуляционного типа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ozone dose",
+    "direction": "increases",
+    "factor": "dose ≥ 6 mg/л",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "для больших доз - от 6 мг/л и выше – компания рекомендует использование установок озонирования воды напорно-циркуляционного типа",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Конструкция данных установок позволяет эффективно обрабатывать воду озоном в напорном трубопроводе с давлением 0,5-3 бара.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "increases",
+    "factor": "pressure 0,5‑3 бар",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конструкция данных установок позволяет эффективно обрабатывать воду озоном в напорном трубопроводе с давлением 0,5-3 бара",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "При увеличении расхода воды доза уменьшается, при увеличении расхода доза возрастает.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ozone dose",
+    "direction": "increases",
+    "factor": "water flow rate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При увеличении расхода воды доза уменьшается, при увеличении возрастает",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Время контакта озона с водой оптимизировано для максимального усвоения озона без излишнего увеличения объёма колонны растворения озона.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "contact time",
+    "direction": "increases",
+    "factor": "contact time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Время контакта озона с водой оптимизировано для максимального усвоения озона без излишнего увеличения объёма колонны растворения озона",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.81,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Принцип работы установок основан на растворении озона в воде методом вакуумного эжектирования.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Принцип работы установок основан на растворении озона в воде методом вакуумного эжектирования",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "На выходе станции поступает обработанная озоном вода с минимальным содержанием газовой фазы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gas phase content",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На выход станции поступает обработанная озоном вода с минимальным содержанием газовой фазы",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Давление воды на выходе станции равно давлению на входе.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Давление воды на выходе станции равно давлению на входе",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Избыток газовой фазы отделяется в циклонном сепараторе, удаляется через газоотделительный клапан и поступает на деструктор, где остаточный озон превращается в кислород.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Избыток газовой фазы отделяется в циклонном сепараторе, удаляется через газоотделительный клапан и поступает на деструктор, где остаточный озон превращается в кислород",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Внедрение данной технологии позволит получить эколого-экономический эффект за счёт очистки сточных вод, сокращения водопотребления и получения осадка соединений металлов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "eco‑economic effect",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сообщается, что внедрение данной технологии позволит получить эколого-экономический эффект за счет очистки сточных вод, сокращения водопотребления и получения осадка соединений металлов",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": "water_treatment"
+  },
+  {
+   "text": "Модель СОВ‑М/10К-Ц/25 имеет производительность по озону 10 г/ч, максимальный расход воды 3 м³/ч, минимальная доза 3,3 мг/л, потребляемую мощность 1,5 кВт.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "СОВ‑М/10К-Ц/25 | 10 | 3 | 3,3 | 1,5",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.81,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Модель СОВ‑М/150К-Ц/300 имеет производительность по озону 150 г/ч, максимальный расход воды 25 м³/ч, минимальная доза 6 мг/л, потребляемую мощность 10,5 кВт.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "СОВ‑М/150К-Ц/300 | 150 | 25 | 6 | 10,5",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.81,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Установки Триотехники применяются для очистки сточных вод от фенолов, нефтепродуктов, ПАВ, формальдегида, сероводорода, органических сульфидов и меркаптанов, а также для обеззараживания воды и предварительного озонирования перед флотацией и коагуляцией.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Такие установки используются в системах очистки сточных вод для удаления фенолов, нефтепродуктов, ПАВ, очистки стоков от формальдегида, сероводорода, органических сульфидов и меркаптанов, обеззараживания воды, предварительного озонирования воды для улучшения условий флотации и коагуляции воды с повышенным содержанием органических примесей",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "МЭЛП выпускает типовые установки озонирования воды для озонирования сточных вод:",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "type",
+    "direction": "decreases",
+    "factor": "installation type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "МЭЛП выпускает типовые установки озонирования воды для озонирования сточных вод:",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "УО-1 – производительность по воде до 1 м3/час;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "water flow capacity",
+    "direction": "increases",
+    "factor": "model UO-1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "УО-1 – производительность по воде до 1 м3/час;",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "УО-5 – производительность по воде до 5 м3/час;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "water flow capacity",
+    "direction": "increases",
+    "factor": "model UO-5",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "УО-5 – производительность по воде до 5 м3/час;",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.81,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "УО-10 – производительность по воде до 10 м3/час;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "water flow capacity",
+    "direction": "increases",
+    "factor": "model UO-10",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "УО-10 – производительность по воде до 10 м3/час;",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.81,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "УО-20 – производительность по воде до 20 м3/час.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "water flow capacity",
+    "direction": "increases",
+    "factor": "model UO-20",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "УО-20 – производительность по воде до 20 м3/час.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.81,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Соотношение производительности установки по воде и производительности озонатора выбирается, как правило, исходя из задачи очистки, типа и концентраций характерных загрязнителей воды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ratio of water capacity to ozone generator capacity",
+    "direction": "decreases",
+    "factor": "cleaning task, pollutant type and concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Соотношение производительности установки по воде и производительности озонатора выбирается, как правило, исходя из задачи очистки, типа и концентраций характерных загрязнителей воды.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  },
+  {
+   "text": "Компания предлагает производство установок большей производительности по воде.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "water flow capacity",
+    "direction": "increases",
+    "factor": "company offering",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания предлагает производство установок большей производительности по воде.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9,
+   "document_id": "doc:ти-озонирование-промышленных-стоков-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

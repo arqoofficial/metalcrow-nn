@@ -82,10 +82,10 @@ def parse_pdf(path: Path) -> ParsedDoc:
     return doc
 
 
-def parse_markdown(path: Path) -> ParsedDoc:
-    """OKF raw markdown (выход docling из ingest-контура) → блоки-параграфы."""
-    doc = ParsedDoc(source_path=str(path))
-    text = path.read_text(encoding="utf-8", errors="ignore")
+def parse_markdown_text(text: str, source_path: str = "") -> ParsedDoc:
+    """OKF raw markdown (текст) → блоки-параграфы. Общее ядро для файлового
+    parse_markdown и HTTP-ингеста из parser SHARED (ingest_shared.py)."""
+    doc = ParsedDoc(source_path=source_path)
     for i, para in enumerate(re.split(r"\n\s*\n", text)):
         clean = _WS.sub(" ", para.replace("\n", " ")).strip()
         if len(clean) < 3 or clean.startswith(("---", "```")):
@@ -93,6 +93,12 @@ def parse_markdown(path: Path) -> ParsedDoc:
         doc.blocks.append(Block("md_para", f"para:{i}", clean))
     doc.artifact_sha256 = hashlib.sha256(doc.full_text.encode()).hexdigest()
     return doc
+
+
+def parse_markdown(path: Path) -> ParsedDoc:
+    """OKF raw markdown (выход docling из ingest-контура) → блоки-параграфы."""
+    return parse_markdown_text(path.read_text(encoding="utf-8", errors="ignore"),
+                               str(path))
 
 
 PARSERS = {".docx": parse_docx, ".docm": parse_docx, ".pdf": parse_pdf,

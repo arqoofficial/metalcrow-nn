@@ -1,0 +1,224 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No10-2018-pdf",
+   "title": "ЦМ №10-2018.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2018-все\\ЦМ №10-2018.pdf.md",
+   "artifact_sha256": "7ceb8cb74f0b6498b26cb020aebcd5e59cd46a15d6462630b4e5908c2f0e98bf",
+   "okf_raw_path": "Журналы/Цветные металлы/2018-все/ЦМ №10-2018.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Поскольку распределение Больцмана для теплового движения частиц справедливо для любого состояния вещества, оно имманентно входит в любые температурные зависимости для каких угодно процессов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability of Boltzmann distribution",
+    "direction": "increases",
+    "factor": "universality",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поскольку распределение Больцмана для теплового движения частиц справедливо для любого состояния вещества, оно имманентно входит в любые температурные зависимости для каких угодно процессов.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В не слишком большом интервале температур справедливо следующее уравнение Френкеля, где предэкспоненциальный множитель имеет смысл и размерность вязкости при некоторых граничных условиях, а U является мольной величиной энергии активации вязкого течения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "validity of Frenkel equation",
+    "direction": "increases",
+    "factor": "temperature interval",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В не слишком большом интервале температур справедливо следующее уравнение Френкеля, где предэкспоненциальный множитель имеет смысл и размерность вязкости при некоторых граничных условиях, а U является мольной величиной энергии активации вязкого течения.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Уравнение (14), выведенное из уравнения Френкеля, представляется более фундаментальным, поскольку оно согласуется по понятию активации с уравнением Аррениуса и распределением Больцмана.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fundamentality of equation (14)",
+    "direction": "increases",
+    "factor": "consistency with Arrhenius and Boltzmann",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Уравнение (14), выведенное из уравнения Френкеля, представляется более фундаментальным, поскольку оно согласуется по понятию активации с уравнением Аррениуса и распределением Больцмана.",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Сванте Аррениус в 1989 г. постулировал, что столкновения молекул будут эффективны и приводить к реакциям, если сталкивающиеся молекулы обладают некоторым запасом энергии — энергией активации.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effectiveness of molecular collisions",
+    "direction": "increases",
+    "factor": "presence of activation energy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сванте Аррениус в 1989 г. постулировал, что столкновения молекул будут эффективны и приводить к реакциям, если сталкивающиеся молекулы обладают некоторым запасом энергии - энергией активации.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В уравнении Френкеля экспонента имеет принципиальное отличие от экспоненты в уравнении Аррениуса, поскольку в первом случае в показателе экспоненты отсутствует знак «минус».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sign of exponent",
+    "direction": "decreases",
+    "factor": "presence of minus sign",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В уравнении Френкеля экспонента имеет принципиальное отличие от экспоненты в уравнении Аррениуса, поскольку в первом случае в показателе экспоненты отсутствует знак «минус».",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "При изменении температуры от нуля до бесконечности она остается в пределах от нуля до единицы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "range of exponential term",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При изменении температуры от нуля до бесконечности она остается в пределах от нуля до единицы.",
+   "locator_kind": "md_para",
+   "locator": "para:171",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "При E mec > E b , что в реальных условиях разрушения может быть нормой, получаются абсурдные значения Р а > 1.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "probability of destruction",
+    "direction": "decreases",
+    "factor": "mechanical energy exceeding binding energy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При E mec > E b , что в реальных условиях разрушения может быть нормой, получаются абсурдные значения Р а > 1.",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "При любом RT и E mec гарантируется соблюдение условия 0 ≤ P a ≤ 1.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "probability bounds",
+    "direction": "increases",
+    "factor": "inclusion of both thermal and mechanical energy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Здесь, в отличие от уравнения (15), появление абсурдных результатов исключено при любом RT и E mec и гарантируется соблюдение условия 0 ≤ P a ≤ 1.",
+   "locator_kind": "md_para",
+   "locator": "para:189",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "При E mec ≫ RT роль тепловой энергии становится ничтожной.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "relative importance of thermal energy",
+    "direction": "decreases",
+    "factor": "mechanical energy much larger than RT",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "а при E mec ≫ RT роль тепловой энергии становится ничтожной.",
+   "locator_kind": "md_para",
+   "locator": "para:189",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Все выкладки справедливы для любого вида воздействующей энергии – звуковой, лучистой (в частности, лазерной), а также механической энергии удара.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "type of external energy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В принципе, все выкладки справедливы для любого вида воздействующей энергии - звуковой, лучистой (в частности, лазерной), а также механической энергии удара.",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Новое понимание вязкости, текучести, химической кинетики и разрушения материалов использовано нами для разработки математических моделей соответствующих процессов, проверенных по справочным данным и применительно к промышленным условиям.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "validation",
+    "direction": "increases",
+    "factor": "comparison with reference data and industrial conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Новое понимание вязкости, текучести, химической кинетики и разрушения материалов использовано нами для разработки математических моделей соответствующих процессов, проверенных по справочным данным и применительно к промышленным условиям.",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No10-2018-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

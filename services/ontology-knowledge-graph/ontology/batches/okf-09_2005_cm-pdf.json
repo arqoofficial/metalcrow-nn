@@ -1,0 +1,832 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:09_2005_cm-pdf",
+   "title": "09_2005_CM.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2005\\09_2005_CM.pdf.md",
+   "artifact_sha256": "ca3204c61d4c1ecb8b34f8d94acfba46d2e82c132183b77fe1573b65ac694398",
+   "okf_raw_path": "Журналы/Цветные металлы/2005/09_2005_CM.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:aluminum-alloy",
+   "label": "aluminum alloys",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:magnesium-alloy",
+   "label": "magnesium alloys",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:titanium-alloy",
+   "label": "titanium alloys",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:titanium-alloys-with-zirconium-oxide-film",
+   "label": "titanium alloys with zirconium oxide film",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:кольцо-с-покрытием",
+   "label": "кольцо с покрытием",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:кольцо-без-покрытия",
+   "label": "кольцо без покрытия",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cu-50-cr",
+   "label": "Cu‑50 % Cr",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cu-sic",
+   "label": "Cu‑SiC",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:09_2005_cm-pdf:0",
+   "document_id": "doc:09_2005_cm-pdf",
+   "title": "Microplasma oxidation process for complex‑shaped aluminum, magnesium and titanium alloy parts",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "microplasma oxidation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:aluminum-alloy",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:magnesium-alloy",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:titanium-alloy",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The process enables nanostructured coatings on both external and internal surfaces of complex‑shaped parts.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Разработанный на кафедре коррозии процесс микроплазменного оксидирования позволяет наносить наноструктурные покрытия как на внешнюю, так и на внутреннюю поверхность изделий сложной формы, изготовленных из алюминиевых, магниевых и титановых сплавов.",
+     "locator_kind": "md_para",
+     "locator": "para:156",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Разработанный на кафедре коррозии процесс микроплазменного оксидирования позволяет наносить наноструктурные покрытия как на внешнюю, так и на внутреннюю поверхность изделий сложной формы, изготовленных из алюминиевых, магниевых и титановых сплавов.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:09_2005_cm-pdf:1",
+   "document_id": "doc:09_2005_cm-pdf",
+   "title": "Liquid‑ceramic method for multilayer composite materials and high‑speed explosive stamping",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "liquid ceramic (liquid‑ceramics) technology"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:aluminum-alloy",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:titanium-alloys-with-zirconium-oxide-film",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Coated titanium rings survive explosive stamping at 7500 m/s, whereas uncoated rings fail.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "structural integrity",
+      "direction": "increases",
+      "factor": "coating",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в результате при штамповке взрывом, когда скорость деформации составляет 7500 м/с, кольцо с покрытием остается целым, в то время как без покрытия разрывается",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Метод жидкой керамики, разработанный на кафедре физической химии, позволяет создавать уникальные материалы различного назначения.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:09_2005_cm-pdf:2",
+   "document_id": "doc:09_2005_cm-pdf",
+   "title": "explosive forming of coated ring",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "штамповка взрывом"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:кольцо-с-покрытием",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:кольцо-без-покрытия",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 7500.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "скорость деформации"
+     },
+     "method": null,
+     "snippet": "когда скорость деформации составляет 7500 м/с",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "кольцо с покрытием остается целым, в то время как без покрытия разрывается",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "целостность",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "кольцо с покрытием остается целым, в то время как без покрытия разрывается",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В результате при штамповке взрывом, когда скорость деформации составляет 7500 м/с, кольцо с покрытием остается целым, в то время как без покрытия разрывается (рис. 3).",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:09_2005_cm-pdf:3",
+   "document_id": "doc:09_2005_cm-pdf",
+   "title": "industrial production of fast‑acting contacts from Cu‑50 % Cr",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "обеспечивается получение, например, из материала Cu‑50 % Cr контактов быстродействующих автоматических выключателей электроснабжения железной дороги"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cu-50-cr",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "контакты быстродействующих автоматических выключателей электроснабжения железной дороги",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "из материала Cu‑50 % Cr контактов быстродействующих автоматических выключателей электроснабжения железной дороги (рис. 4).",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "В соответствии с разработанной технологией обеспечивается получение, например, из материала Cu‑50 % Cr контактов быстродействующих автоматических выключателей электроснабжения железной дороги (рис. 4).",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:09_2005_cm-pdf:4",
+   "document_id": "doc:09_2005_cm-pdf",
+   "title": "use of Cu‑SiC composite for heat‑spreader substrates",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "производство теплоотводящих подложек микросхем больших компьютеров"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cu-sic",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "обладает низким линейным коэффициентом термического расширения при высокой тепло‑ и электропроводности",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "термический коэффициент, теплопроводность, электропроводность",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "обладает низким линейным коэффициентом термического расширения при высокой тепло‑ и электропроводности",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Это сочетание свойств делает новый материал незаменимым при производстве теплоотводящих подложек микросхем больших компьютеров (рис. 5).",
+   "locator_kind": "md_para",
+   "locator": "para:181",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Для наноструктурированных материалов меняются параметры кристаллической решетки, теплоемкость, температура плавления, электропроводность, многие механические и физико‑химические характеристики.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "nanostructuring",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для наноструктурированных материа‑лов меняются параметры кристаллической решет‑ки, теплоемкость, температура плавления, элек‑тропроводность, многие механические и физико‑химические характеристики.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Наибольший прогресс достигнут в области полупроводниковых и магнитных наноматериалов, которые используютcя в изготовлении компьютеров, мобильных телефонов, DVD‑дисков и т. д.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application in electronics",
+    "direction": "increases",
+    "factor": "nanostructuring",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наибольший прогресс достигнут в области полупроводниковых и магнитных наноматериалов, которые используют‑ся в изготовлении компьютеров, мобильных телефонов, DVD‑дисков и т. д.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Ультрадисперсные частицы металлов и методы их получения относят к числу перспективных направлений металлургии XXI в.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "strategic relevance",
+    "direction": "increases",
+    "factor": "nanotechnology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ультрадисперсные частицы металлов и методы их получения относят к числу перспективных направлений металлургии XXI в.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Актуальность появления подобного раздела, а может быть, и нового журнала обусловлена, на наш взгляд, востребованностью наноструктурированных материалов на основе Ni, Co, Cu, Ag, Au, Pd, Bi и других цветных металлов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "need for dedicated journal section",
+    "direction": "increases",
+    "factor": "demand for nanostructured materials",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Актуальность появления подобного раздела, а может быть, и нового журнала обусловлена, на наш взгляд, востребованностью наноструктурированных материалов на основе Ni, Co, Cu, Ag, Au, Pd, Bi и других цветных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "расширения памяти ЭВМ до 10 12 байт, что повысит возможность хранения информации в па/мяти на единицу объема в 1000 раз;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "memory capacity",
+    "direction": "increases",
+    "factor": "10 12 байт",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "расширения памяти ЭВМ до 10 12 байт, что повысит возможность хранения информации в па/мяти на единицу объема в 1000 раз;",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "обработки материалов с нанометрической точностью, что приведет к новым возможностям создания прецизионных систем, защиты от подде/лок ценных бумаг, изготовления уникальных опти/ко/технических элементов;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "processing precision",
+    "direction": "increases",
+    "factor": "нанометрической точностью",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обработки материалов с нанометрической точностью, что приведет к новым возможностям создания прецизионных систем, защиты от подде/лок ценных бумаг, изготовления уникальных опти/ко/технических элементов;",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "создания новых легких материалов с внут/ренной наноструктурой в десятки раз прочнее ста/ли для изготовления всех видов наземных, воздуш/нных и космических систем;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "material strength",
+    "direction": "increases",
+    "factor": "в десятки раз прочнее стали",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "создания новых легких материалов с внут/ренной наноструктурой в десятки раз прочнее ста/ли для изготовления всех видов наземных, воздуш/нных и космических систем;",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "доставки биологических препаратов и лекар/ственных средств в конкретные органы в человече/ском комплексе для диагностики и лечения заболеваний;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "targeted delivery",
+    "direction": "increases",
+    "factor": "в конкретные органы",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доставки биологических препаратов и лекар/ственных средств в конкретные органы в человече/ском комплексе для диагностики и лечения заболеваний;",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "очистки от загрязнителей высочайшей дис/персности для создания ультрачистых помещений в условиях производственных систем и с целью за/щиты окружающей среды;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "высочайшей дисперсности",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "очистки от загрязнителей высочайшей дис/персности для создания ультрачистых помещений в условиях производственных систем и с целью за/щиты окружающей среды;",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "увеличения энергетической эффективности солнечных батарей в несколько раз.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "в несколько раз",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "увеличения энергетической эффективности солнечных батарей в несколько раз.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "по оценкам американских экспертов, через 10-15 лет рынок нанотехнологий превысит 1 трлн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "future market size",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по оценкам американских экспертов, через 10-15 лет рынок нанотехнологий превысит 1 трлн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "размер кристалла или конденсированной фазы может в одном из направлений уменьшаться до сотен и единиц нанометров (10 -9 м).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crystal size",
+    "direction": "decreases",
+    "factor": "nanometer scale",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "размер кристалла или конденсированной фазы может в одном из направлений уменьшаться до сотен и единиц нанометров (10 -9 м).",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Переход веществ в наносостояние существенным образом изменяет практически все его свойства, такие как электрические, магнитные, оптические, механические, термические, биологические и др.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "material properties",
+    "direction": "increases",
+    "factor": "nanostructuring",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Переход веществ в наносостояние существенным образом изменяет практически все его свойства, такие как электрические, магнитные, оптические, механические, термические, биологические и др.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Результаты исследований, носивших в середине прошлого века в большинстве случаев чисто фундаментальный характер, дали мощный импульс к развитию этих работ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "impact on development",
+    "direction": "increases",
+    "factor": "fundamental research",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Результаты исследований, носивших в середине прошлого века в большинстве случаев чисто фундаментальный характер, дали мощный импульс к развитию этих работ.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Наноматериалы – материалы, состоящие целиком или содержащие нанообъекты в качестве структурных составляющих, количество, размер и физико‑химические свойства которых определяют функциональную направленность и эксплуатационные характеристики данного материала.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Наноматериалы - материалы, состоящие целиком или содержащие нанообъекты в качестве структурных составляющих, количество, размер и физико‑химические свойства которых определяют функциональную направленность и эксплуатационные характеристики данного материала.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Нанотехнологии – технологии, позволяющие целенаправленно создавать и конструировать материалы и устройства на наноразмерном уровне.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Нанотехнологии - технологии, позволяющие целенаправленно создавать и конструировать материалы и устройства на наноразмерном уровне.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Метод жидкой керамики позволяет создавать уникальные материалы различного назначения.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Метод жидкой керамики, разработанный на кафедре физической химии, позволяет создавать уникальные материалы различного назначения.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "В МИСиС впервые в России создан аналитический центр для прецизионных исследований физико‑механических характеристик поверхности и нано‑структурных тонких пленок, оснащенный уникальными приборами и устройствами последнего поколения.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "в МИСиС впервые в России создан аналитический центр для прецизионных исследований физико‑механических характеристик поверхности и нано‑структурных тонких пленок, оснащенный уникальными приборами и устройствами последнего поколения.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Разработанный на кафедре коррозии процесс микроплазменного оксидирования позволяет наносить наноструктурные покрытия как на внешнюю, так и на внутреннюю поверхность изделий сложной формы.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Разработанный на кафедре коррозии процесс микроплазменного оксидирования позволяет наносить наноструктурные покрытия как на внешнюю, так и на внутреннюю поверхность изделий сложной формы, изготовленных из алюминиевых, магниевых и титановых сплавов.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Метод жидкой керамики, разработанный на кафедре физической химии, позволяет создавать уникальные материалы различного назначения.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Метод жидкой керамики, разработанный на кафедре физической химии, позволяет создавать уникальные материалы различного назначения.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Пленка оксида циркония, нанесенная по этой технологии на титановые сплавы, резко увеличивает их пластичность.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "пластичность",
+    "direction": "increases",
+    "factor": "резко",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пленка оксида циркония, нанесенная по этой технологии на титановые сплавы, резко увеличивает их пластичность.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Использование наночастиц в качестве центров кристаллизации при синтезе алмазов, плотных модификаций нитрида бора существенно повышает эксплуатационные характеристики изделий.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "существенным образом",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "использование наночастиц в качестве центров кристаллизации при синтезе этих материалов существенным образом повышает эксплуатационные характеристики изделий.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "МИСиС является головным координирующим центром в России по инженерии поверхности в рамках Европейской программы научно‑технической интеграции «Эврика».",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "МИСиС является головным координирующим центром в России по инженерии поверхности в рамках Европейской программы научно‑технической интеграции «Эврика»",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "МИСиС является иностранным членом лаборатории передовых покрытий и инженерии поверхности Горной академии Колорадо (США).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "МИСиС является иностранным членом лаборатории передовых покрытий и инженерии поверхности Горной академии Колорадо (США).",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "МИСиС выиграл грант НАТО, Минпромнауки и МНТЦ и впервые в России провёл семинар НАТО‑Россия по передовым исследованиям на тему «Наноструктурные тонкие пленки и покрытия, упрочненные наночастицами».",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "МИСиС выиграл грант НАТО, Минпромнауки и МНТЦ и впервые в России провёл семинар НАТО‑Россия по передовым исследованиям на тему «Наноструктурные тонкие пленки и покрытия, упрочненные наночастицами».",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "С 2004 г. МИСиС принимает участие в проекте KMM‑NoE Шестой рамочной программы Евросоюза в области нанотехнологий, многофункциональных материалов, новых процессов и устройств.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "С 2004 г. МИСиС принимает участие в проекте KMM‑NoE Шестой рамочной программы Евросоюза в области нанотехнологий, многофункциональных материалов, новых процессов и устройств.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.45,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Министерство образования Российской Федерации приказом No 2398 от 04.06.03 открыло в России в качестве эксперимента новое направление подготовки дипломированных специалистов - «Нанотехнология».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "new educational direction",
+    "direction": "increases",
+    "factor": "government order",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Министерство образования Российской Федерации приказом No 2398 от 04.06.03 открыло в России в качестве эксперимента новое направление подготовки дипломированных специалистов - «Нанотехнология».",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "В рамках этого направления образованы специальности «Нанотехнология в электронике», базовым вузом определен Московский государственный институт электронной техники (технический университет), и «Наноматериалы» с базовым вузом - Московский государственный институт стали и сплавов (технологический университет).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "specialties",
+    "direction": "increases",
+    "factor": "educational program",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В рамках этого направления образованы специальности «Нанотехнология в электронике», базовым вузом определен Московский государственный институт электронной техники (технический университет), и «Наноматериалы» с базовым вузом - Московский государственный институт стали и сплавов (технологический университет).",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Создание СТМ послужило толчком к разработке нанотехнологий - совокупности методов получения нанопленок, наночастиц, нанотрубок и других нанообъектов с уникальными физическими и иными свойствами.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method development",
+    "direction": "increases",
+    "factor": "STM invention",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Создание СТМ послужило толчком к разработке нанотехнологий - совокупности методов получения нанопленок, наночастиц, нанотрубок и других нанообъектов с уникальными физическими и иными свойствами.",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  },
+  {
+   "text": "Все три перечисленных достижения, отмеченные Нобелевскими премиями по физике соответственно в 1986, 2000 и 2001 гг., прямо или косвенно связаны с решением центральной проблемы физики и естественного знания XXI в. в целом - создания материалов с заданными свойствами.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impact of Nobel‑awarded discoveries",
+    "direction": "increases",
+    "factor": "Nobel prizes 1986, 2000, 2001",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все три перечисленных достижения, отмеченные Нобелевскими премиями по физике соответственно в 1986, 2000 и 2001 гг., прямо или косвенно связаны с решением центральной проблемы физики и естественного знания XXI в. в целом - создания материалов с заданными свойствами.",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.81,
+   "document_id": "doc:09_2005_cm-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

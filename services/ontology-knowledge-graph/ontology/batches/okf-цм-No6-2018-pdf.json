@@ -1,0 +1,877 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No6-2018-pdf",
+   "title": "ЦМ №6-2018.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2018-все\\ЦМ №6-2018.pdf.md",
+   "artifact_sha256": "6351084915f67ad25eb11e1c9b79ec42406e3220deb326b716c3b7fe45d5c3cd",
+   "okf_raw_path": "Журналы/Цветные металлы/2018-все/ЦМ №6-2018.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:lying-flotation-tailings-of-copper-zinc-ores",
+   "label": "lying flotation tailings of copper‑zinc ores",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:leached-flotation-tailings-of-the-uchalinsky-gok",
+   "label": "leached flotation tailings of the Uchalinsky GOK",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ammonium-chloride-nh4cl",
+   "label": "ammonium chloride (NH4Cl)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ammonium-nitrate-nh4no3",
+   "label": "ammonium nitrate (NH4NO3)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pyrite-fes2-present-in-tailings",
+   "label": "pyrite (FeS2) present in tailings",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:tailing",
+   "label": "Tailings",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No6-2018-pdf:0",
+   "document_id": "doc:цм-No6-2018-pdf",
+   "title": "Laboratory-scale tests of thermochemical processing of copper‑zinc flotation tailings",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Two‑stage thermal treatment of flotation tailings with ammonium chloride and its mixture with ammonium nitrate",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lying-flotation-tailings-of-copper-zinc-ores",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The technology is resource‑reproducing because it extracts gold, silver and iron from the tailings and uses secondary‑processing waste as backfill mixes for mining works.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "resource‑reproducing capability",
+      "direction": "increases",
+      "factor": "not quantified",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Показано, что предлагаемая технология является ресурсовоспроизводящей, поскольку позволяет не только извлекать золото, серебро и железо из лежалых хвостов, но и использовать отходы вторичной переработки в качестве закладочных смесей для проведения горнотехнических работ.",
+     "locator_kind": "md_para",
+     "locator": "para:128",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Представлены результаты апробации разработанной технологии в рамках укрупненно-лабораторных испытаний на базе исследовательской лаборатории АО «Учалинский ГОК».",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No6-2018-pdf:1",
+   "document_id": "doc:цм-No6-2018-pdf",
+   "title": "Thermal treatment of leached flotation tailings with ammonium chloride at 200‑300 °C",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "spiking of tailings with ammonium chloride and subsequent water leaching of the sinters",
+       "temperature_text": "200‑300 °C",
+       "duration_text": "varied (4 h, 8 h)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 473.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:leached-flotation-tailings-of-the-uchalinsky-gok",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:ammonium-chloride-nh4cl",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "максимальное извлечение железа в раствор (порядка 90 %) наблюдается после спекания при 275 о C в течение 4 ч и при 250 о C в течение 8 ч.",
+     "locator_kind": "md_para",
+     "locator": "para:149",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "gold remaining in the first sinter after leaching",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "до 100 % золота после выщелачивания остается в кеке-1",
+     "locator_kind": "md_para",
+     "locator": "para:149",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The presence of divalent iron in leachate‑1 reduces gold loss during leaching.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "gold recovery",
+      "direction": "increases",
+      "factor": "divalent iron",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "что обусловлено наличием в растворе-1 двухвалентного железа, восстанавливающего ионы вскрытого при спекании золота.",
+     "locator_kind": "md_para",
+     "locator": "para:149",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Учитывая эти данные, исследование режимов спекания отходов с хлоридом аммония проводили в диапазоне температур 200-300 о C",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No6-2018-pdf:2",
+   "document_id": "doc:цм-No6-2018-pdf",
+   "title": "Thermal treatment of tailings with ammonium chloride followed by ammonium nitrate mixture (two‑stage)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "first stage: ammonium chloride; second stage: mixture of ammonium chloride and ammonium nitrate",
+       "temperature_text": "not explicitly stated (implied same 200‑300 °C range)",
+       "duration_text": "not explicitly stated"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 473.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:leached-flotation-tailings-of-the-uchalinsky-gok",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:ammonium-chloride-nh4cl",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:ammonium-nitrate-nh4no3",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Two‑stage processing (NH4Cl → NH4Cl+NH4NO3) is more effective than single‑reagent thermal treatment.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "two‑stage regime",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Показаны необходимость и преимущество двухстадиальной обработки отходов сначала хлоридом аммония, затем его смесью с нитратом аммония по сравнению с термообработкой только одним из указанных реагентов",
+     "locator_kind": "md_para",
+     "locator": "para:146",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Показаны необходимость и преимущество двухстадиальной обработки отходов сначала хлоридом аммония, затем его смесью с нитратом аммония по сравнению с термообработкой только одним из указанных реагентов",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No6-2018-pdf:3",
+   "document_id": "doc:цм-No6-2018-pdf",
+   "title": "Thermal analysis of interaction between ammonium chloride and pyrite in tailings",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "thermogravimetric/thermal analysis of pyrite mixed with NH4Cl",
+       "temperature_text": "above 183 °C for interaction; above 270 °C for decomposition of ammonium chloroferrites"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 456.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pyrite-fes2-present-in-tailings",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:ammonium-chloride-nh4cl",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:pyrite-fes2-present-in-tailings",
+     "value": {
+      "min": null,
+      "nominal": 456.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "onset of interaction with pyrite"
+     },
+     "method": null,
+     "snippet": "взаимодействие с хлоридом аммония пирита ... наблюдается при температурах выше 183 о C",
+     "locator_kind": "md_para",
+     "locator": "para:132",
+     "confidence": 0.32
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 543.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "decomposition of ammonium chloroferrites to FeCl2"
+     },
+     "method": null,
+     "snippet": "образующиеся при спекании водорастворимые хлорферриты аммония начиная с 270 о C разлагаются с образованием хлорида железа (II)",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.63
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "These temperature thresholds define the feasible range for thermochemical processing of the tailings.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process window",
+      "direction": "increases",
+      "factor": "temperature",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Учитывая эти данные, исследование режимов спекания отходов с хлоридом аммония проводили в диапазоне температур 200-300 о C",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "по результатам термического анализа установлено, что взаимодействие с хлоридом аммония пирита ... наблюдается при температурах выше 183 о C",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No6-2018-pdf:4",
+   "document_id": "doc:цм-No6-2018-pdf",
+   "title": "Laboratory‑scale thermochemical processing of flotation tailings (Uchalinskaya enrichment plant)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Sequential roasting, leaching and cementation steps using ammonium chloride, ammonium nitrate and other reagents",
+       "temperature_text": "250 °C (first roasting), 200 °C (second roasting)",
+       "duration_text": "8 h (first roasting), 5 h (second roasting)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 523.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:tailing",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 73.13,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "При апробации термохимической технологии переработки лежалых хвостов флотации извлечено: 73,13 % золота и 8,60 % серебра в Au, Ag‑продукт (при содержании в нем золота 1039,95 г/т, серебра - 2139,25 г/т);",
+     "locator_kind": "md_para",
+     "locator": "para:177",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 8.6,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ag"
+     },
+     "method": null,
+     "snippet": "При апробации термохимической технологии переработки лежалых хвостов флотации извлечено: 73,13 % золота и 8,60 % серебра в Au, Ag‑продукт (при содержании в нем золота 1039,95 г/т, серебра - 2139,25 г/т);",
+     "locator_kind": "md_para",
+     "locator": "para:177",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The two‑stage thermochemical treatment with ammonium chloride and its mixture with ammonium nitrate allows effective opening and leaching of ~78 % of silver and 86 % of gold.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "two‑stage thermochemical treatment",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "разработанная химическая технология ... позволяет эффективно вскрыть и перевести в растворы выщелачивания ~78 % серебра и 86 % золота",
+     "locator_kind": "md_para",
+     "locator": "para:173",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Переработка лежалых хвостов в укрупненнолабораторном масштабе включала следующие этапы и реагенты: 1 - спекание отходов с хлоридом аммония (5,0 кг NH4Cl; 250 оC, 8 ч); … 5 - водное выщелачивание спека с применением дифенилгуанидина (ДФГ) … (9,3 дм3 Н2О; 0,5 г ДФГ; Т:Ж = 1:2); …",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No6-2018-pdf:5",
+   "document_id": "doc:цм-No6-2018-pdf",
+   "title": "Laboratory‑scale extraction of silver, copper and iron from the same tailings",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Same thermochemical flow, results reported for Ag‑product and Fe‑product",
+       "temperature_text": "not specified for this result",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:tailing",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 62.7,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ag"
+     },
+     "method": null,
+     "snippet": "62,70 % серебра и 56,07 % меди в Ag‑продукт, содержащий 1728,90 г/т серебра, 7,42 % меди;",
+     "locator_kind": "md_para",
+     "locator": "para:185",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 56.07,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "62,70 % серебра и 56,07 % меди в Ag‑продукт, содержащий 1728,90 г/т серебра, 7,42 % меди;",
+     "locator_kind": "md_para",
+     "locator": "para:185",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 87.6,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "87,6 % железа в Fe‑продукт ( /g69 Fe = 69,80 %).",
+     "locator_kind": "md_para",
+     "locator": "para:185",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The process also yields a Fe‑product with high iron content, suitable for back‑fill use.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "iron recovery",
+      "direction": "increases",
+      "factor": "thermochemical processing",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "87,6 % железа в Fe‑продукт ( /g69 Fe = 69,80 %).",
+     "locator_kind": "md_para",
+     "locator": "para:185",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "62,70 % серебра и 56,07 % меди в Ag‑продукт, содержащий 1728,90 г/т серебра, 7,42 % меди; 87,6 % железа в Fe‑продукт ( /g69 Fe = 69,80 %).",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The thermochemical processing of lying flotation tailings with ammonium chloride reagents is applicable for extracting gold, silver and iron.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "not quantified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обоснован выбор термохимической переработки лежалых хвостов с использованием хлораммонийных реагентов для извлечения золота и серебра.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Optimal technological parameters for each stage of the processing have been established.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "process parameters",
+    "direction": "increases",
+    "factor": "not quantified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установлены оптимальные технологические параметры каждой стадии переработки.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "A principal scheme of equipment chain, including regeneration of the main reagent ammonium chloride and closed water supply, is proposed for the technology.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment scheme",
+    "direction": "increases",
+    "factor": "not quantified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для осуществления разработанной технологии предложена принципиальная схема цепи аппаратов, включающая регенерацию основного реагента -хлорида аммония и организацию оборотного водоснабжения.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "In Russian tailings, more than 100 t of gold and 1200 t of silver remain undetected after primary processing.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource potential",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в хвостохранилищах предприятий медного комплекса Урала содержится более 100 т золота и 1200 т серебра, недоизвлеченных при первичной переработке.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "The main ore mineral in the studied tailings is pyrite (50‑56 %).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "главным рудным минералом является пирит (50-56 %)",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Gold in the cyanidation‑accessible form constitutes only 30‑31 % of total Au.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в цианируемой форме (свободное золото и золото в сростках) находится только 30-31 % Au",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "52.3‑55.5 % of gold is locked in sulfides, 9.5‑11.8 % in quartz, and 4.0‑5.9 % covered by oxide films.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Основная масса золота закапсулирована в сульфидах (52,3-55,5 %), ... упорность к цианированию обусловлена нахождением золота в кварце (9,5-11,8 %), а также наличием на нем покровных пленок (4,0-5,9 %)",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Oxide films, mainly iron hydroxides, significantly hinder flotation of the tailings.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "iron hydroxide films",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Окисленные пленки, состоящие в основном из гидроксидов железа, существенно затрудняют и процесс флотации хвостов",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "More than 90 % of the material has a particle size of –0.040 + 0 mm, containing about 96.12 % of gold and 97.62 % of silver.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "класс крупности -0,040+0 мм составляет более 90 % материала, в нем содержится практически 96,12 % золота и 97,62 % серебра",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Thermochemical processing with ammonium chloride and ammonium nitrate is considered promising due to low toxicity compared with cyanides.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method suitability",
+    "direction": "increases",
+    "factor": "low toxicity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Перспективной технологией ... является термическая переработка с хлораммонийными реагентами ... Это обусловлено комплексным воздействием и низкой токсичностью этих реагентов в сравнении с цианидами.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "The developed technological scheme enables extraction not only of gold and silver but also of other valuable metals.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "process scope",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Схема обеспечивает выделение не только золота и серебра, но и других ценных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "The technology is resource‑recovering because it extracts Au, Ag, Fe and 40‑50 % of the tailings mass (mainly quartz and aluminosilicates) for use as back‑fill mixtures in mining works.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource recovery",
+    "direction": "increases",
+    "factor": "use of residuals as back‑fill",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Предлагаемая технология является ресурсовоспроизводящей, поскольку позволяет извлечь из лежалых хвостов флотации не только Au, Ag, но и Fe, а значительную массу отходов вторичной переработки (40-50 % массы лежалых хвостов), которые содержат в основном кварц и алюмосиликаты, использовать в качестве закладочных смесей для проведения горнотехнических работ.",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Regeneration of the main reagent ammonium chloride and recirculation of process water reduce economic costs and environmental load.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost and environmental impact",
+    "direction": "decreases",
+    "factor": "reagent regeneration and water recirculation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для осуществления технологии предложена принципиальная схема цепи аппаратов, изображенная на рис. 6, включающая регенерацию основного реагента хлорида аммония и организацию оборотного водоснабжения для снижения экономических затрат и экологической нагрузки в районах переработки.",
+   "locator_kind": "md_para",
+   "locator": "para:186",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Optimal conditions for gold, silver and other valuable metals extraction were determined for a two‑stage thermal treatment with ammonium chloride and its mixture with ammonium nitrate.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "use of NH4Cl and NH4NO3 mixture",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "определены оптимальные условия вскрытия и извлечения золота, серебра и других ценных металлов двухстадиальной термической обработкой хлоридом аммония и его смесью с нитратом аммония.",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "During the first roasting stage, pyrite and gold‑silver sulfides decompose forming mainly metal chlorides, which are then leached; gold ions are reduced to free gold in the presence of Fe(II).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "chemical transformation",
+    "direction": "increases",
+    "factor": "reaction with NH4Cl",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На I стадии спекания хвостов с хлоридом аммония происходит разложение пирита и халькогенидов золота, серебра с образованием в спеке преимущественно хлоридов металлов для их последующего выщелачивания в раствор‑1. Ионы золота в присутствии железа (II) восстанавливаются до свободного золота, которое отделяется и концентрируется в кеке‑1.",
+   "locator_kind": "md_para",
+   "locator": "para:191",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "The second roasting stage chlorinates free gold and opens residual pyrite and sulfide masses, forming metal chlorides for further leaching.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "chemical transformation",
+    "direction": "increases",
+    "factor": "NH4Cl/NH4NO3 mixture",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На II стадии спекания золотосодержащего кека‑1 с нитратно‑хлоридной смесью под действием продуктов ее разложения происходит хлорирование свободного золота, вскрытие остаточных масс пирита, халькогенидов золота, серебра с образованием преимущественно хлоридов металлов для их последующего выщелачивания в раствор‑2.",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No6-2018-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

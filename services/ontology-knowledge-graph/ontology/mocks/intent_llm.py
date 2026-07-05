@@ -91,7 +91,25 @@ def _ensure_client():
         return _client
 
 
-def classify(question: str) -> dict | None:
+def _trace_kwargs(langfuse_headers: dict | None) -> dict:
+    """Turn forwarded `langfuse_*` headers into openai `create()` kwargs the
+    LiteLLM gateway understands: request headers + `metadata` (extra_body)
+    mirror of user/session, so Langfuse attribution lands regardless of the
+    gateway's LiteLLM version."""
+    if not langfuse_headers:
+        return {}
+    kwargs: dict = {"extra_headers": dict(langfuse_headers)}
+    metadata: dict = {}
+    if "langfuse_trace_user_id" in langfuse_headers:
+        metadata["trace_user_id"] = langfuse_headers["langfuse_trace_user_id"]
+    if "langfuse_session_id" in langfuse_headers:
+        metadata["session_id"] = langfuse_headers["langfuse_session_id"]
+    if metadata:
+        kwargs["extra_body"] = {"metadata": metadata}
+    return kwargs
+
+
+def classify(question: str, *, langfuse_headers: dict | None = None) -> dict | None:
     """Вопрос → {intent, слоты} или None при ошибке/таймауте."""
     try:
         client = _ensure_client()
@@ -102,6 +120,7 @@ def classify(question: str) -> dict | None:
             messages=[{"role": "user", "content": _PROMPT + question}])
         if _model and "Gpt-oss" in _model:
             kwargs["reasoning_effort"] = "low"
+        kwargs.update(_trace_kwargs(langfuse_headers))
         r = client.chat.completions.create(**kwargs)
         data = json.loads(r.choices[0].message.content or "{}")
         if data.get("intent") in INTENTS:

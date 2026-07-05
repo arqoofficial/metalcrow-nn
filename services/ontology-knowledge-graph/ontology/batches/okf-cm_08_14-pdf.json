@@ -1,0 +1,805 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_08_14-pdf",
+   "title": "CM_08_14.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2014\\CM_08_14.pdf.md",
+   "artifact_sha256": "8c31e8ef5635372853f952fbb354e1be7c07e98933c5b5fece2e9fb5201fbabe",
+   "okf_raw_path": "Журналы/Цветные металлы/2014/CM_08_14.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:low-nickel-ore",
+   "label": "low‑nickel ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:imported-ore-from-se-asian-countries",
+   "label": "imported ore from SE Asian countries",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_08_14-pdf:0",
+   "document_id": "doc:cm_08_14-pdf",
+   "title": "Posco pilot development of low‑nickel ore hydrometallurgical process",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Posco New Nickel Extraction Process (POSNeP)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:low-nickel-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Posco (Ю. Корея) завершает разработку собственного гидрометаллургического процесса обогащения руды с низким содержанием никеля Posco New Nickel Extraction Process (POSNeP) на пилотном предприятии получения никеля для собственных производств, выпускающих нержавеющую сталь.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process development",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Posco (Ю. Корея) завершает разработку собственного гидрометаллургического процесса обогащения руды с низким содержанием никеля Posco New Nickel Extraction Process (POSNeP) на пилотном предприятии получения никеля для собственных производств, выпускающих нержавеющую сталь.",
+     "locator_kind": "md_para",
+     "locator": "para:109",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Posco (Ю. Корея) завершает разработку собственного гидрометаллургического процесса обогащения руды с низким содержанием никеля Posco New Nickel Extraction Process (POSNeP) на пилотном предприятии получения никеля для собственных производств, выпускающих нержавеющую сталь.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_08_14-pdf:1",
+   "document_id": "doc:cm_08_14-pdf",
+   "title": "Commissioning of nickel alloy plant in Luntan technopark",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "nickel alloy production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:imported-ore-from-se-asian-countries",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "в июне - июле текущего года будут проходить пусконаладочные работы на комбинате по производству никелевых сплавов мощностью 500,0 тыс. т/год. Ввод в эксплуатацию август текущего года.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "plant commissioning",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в июне - июле текущего года будут проходить пусконаладочные работы на комбинате по производству никелевых сплавов мощностью 500,0 тыс. т/год. Ввод в эксплуатацию август текущего года.",
+     "locator_kind": "md_para",
+     "locator": "para:113",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в июне - июле текущего года будут проходить пусконаладочные работы на комбинате по производству никелевых сплавов мощностью 500,0 тыс. т/год. Ввод в эксплуатацию август текущего года.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Shanghai Futures Exchange (Китай) планирует в текущем году запустить первые китайские фьючерсные контракты по никелю и олову в рамках плана по выходу страны на международный рынок сырья.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "launch of futures contracts",
+    "direction": "increases",
+    "factor": "government plan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Shanghai Futures Exchange (Китай) планирует в текущем году запустить первые китайские фьючерсные контракты по никелю и олову в рамках плана по выходу страны на международный рынок сырья.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Биржа также готовит запуск опционов по меди и золоту.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "launch of options",
+    "direction": "increases",
+    "factor": "exchange preparation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Биржа также готовит запуск опционов по меди и золоту.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Freeport Indonesia (FI) , Newmont Nusa Tenggara (NNT) , PT Aneka Tambang (все Индонезия) планируют строительство завода мощностью 400,0 тыс. т/год меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "company plans",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Freeport Indonesia (FI) , Newmont Nusa Tenggara (NNT) , PT Aneka Tambang (все Индонезия) планируют строительство завода мощностью 400,0 тыс. т/год меди.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Работы начнутся во 2-м полугодии 2014 г.; ввод в эксплуатацию - в 2017 г.; инвестиции составляют 2,3 млрд долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "project plan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Работы начнутся во 2-м полугодии 2014 г.; ввод в эксплуатацию - в 2017 г.; инвестиции составляют 2,3 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Гарантией FI и NNT является депозит в государственном банке Bank Mandiri (Индонезия) 115,0 млн и 26,0 млн долл. соответственно.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "deposit amount",
+    "direction": "increases",
+    "factor": "company guarantee",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Гарантией FI и NNT является депозит в государственном банке Bank Mandiri (Индонезия) 115,0 млн и 26,0 млн долл. соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "После внесения депозита для FI и NNT устанавливается квота на беспошлинный экспорт 850,0 тыс. т медного концентрата.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "export quota",
+    "direction": "increases",
+    "factor": "deposit fulfillment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После внесения депозита для FI и NNT устанавливается квота на беспошлинный экспорт 850,0 тыс. т медного концентрата.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "В случае несоблюдения сроков строительства правительство Индонезии может ввести для компаний экспортный тариф и удержать депозит.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "export tariff",
+    "direction": "increases",
+    "factor": "delay in construction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В случае несоблюдения сроков строительства правительство Индонезии может ввести для компаний экспортный тариф и удержать депозит.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке правительства страны, в связи с ограничительными мерами в текущем году экспорт снизится до 7,0 млрд долл. (11,0-12,0 млрд долл. в 2013 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "export volume",
+    "direction": "decreases",
+    "factor": "restrictive measures",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно оценке правительства страны, в связи с ограничительными мерами в текущем году экспорт снизится до 7,0 млрд долл. (11,0-12,0 млрд долл. в 2013 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По данным ФТС РФ, в январе - апреле текущего года экспорт никеля составил 63,7 тыс. т (-5,0 % к январю - апрелю 2013 г.) стоимостью 903,0 млн долл. (-21,2 % к тому же периоду 2013 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "export volume and value",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным ФТС РФ, в январе - апреле текущего года экспорт никеля составил 63,7 тыс. т (-5,0 % к январю - апрелю 2013 г.) стоимостью 903,0 млн долл. (-21,2 % к тому же периоду 2013 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу RBC Capital Markets (Канада), мировая цена на никель в 2014 г. составит 18 740,0 долл./т, в 2015 г. - 24 250,0 долл./т, в 2016 г. - 26 455,0 долл./т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу RBC Capital Markets (Канада), мировая цена на никель в 2014 г. составит 18 740,0 долл./т, в 2015 г. - 24 250,0 долл./т, в 2016 г. - 26 455,0 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Goldman Sachs (США), цены на никель в июле - сентябре текущего года превысят 22 000,0 долл./т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Goldman Sachs (США), цены на никель в июле - сентябре текущего года превысят 22 000,0 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Основная причина появления дефицита - запрет экспорта латеритных руд из Индонезии (в 2013 г . 20,0 % мирового производства никеля приходилось на индонезийскую руду).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Основная причина появления дефицита - запрет экспорта латеритных руд из Индонезии (в 2013 г . 20,0 % мирового производства никеля приходилось на индонезийскую руду).",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2013 г. Китай импортировал из Индонезии 41,12 млн т руды (58,0 % экспорта Индонезии).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2013 г. Китай импортировал из Индонезии 41,12 млн т руды (58,0 % экспорта Индонезии).",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасы никеля на ЛБМ (по состоянию на 19.05.14 г.) увеличились до 279,138 тыс. т, что с учетом запасов руды в КНР соответствует 24 неделям мирового потребления.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stock level",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Запасы никеля на ЛБМ (по состоянию на 19.05.14 г.) увеличились до 279,138 тыс. т, что с учетом запасов руды в КНР соответствует 24 неделям мирового потребления.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2014 г. мировое производство нержавеющей стали увеличится до 40,0 млн т (+7,0-8,0 % к 2013 г .).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2014 г. мировое производство нержавеющей стали увеличится до 40,0 млн т (+7,0-8,0 % к 2013 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Macquarie (Австралия), мировая цена на никель в текущем году составит 19 910,0 долл./т, в 2015 г. - 26 001,0 долл./т, в 2016 г. - 30 000,0 долл./т, что связано с сокращением запасов металла в КНР и запретом на экспорт латеритных руд из Индонезии.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Macquarie (Австралия), мировая цена на никель в текущем году составит 19 910,0 долл./т, в 2015 г. - 26 001,0 долл./т, в 2016 г. - 30 000,0 долл./т, что связано с сокращением запасов металла в КНР и запретом на экспорт латеритных руд из Индонезии.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1-м квартале текущего года Talvivaara Mining (Финляндия) произвела, тыс. т: 3,068 никеля; 5,726 цинка.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 1-м квартале текущего года Talvivaara Mining (Финляндия) произвела, тыс. т: 3,068 никеля; 5,726 цинка.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По данным Министерства экономики, торговли и промышленности Японии, потребление никеля в стране в 2013 г . по сравнению с предыдущим годом увеличилось на 7,8 % до 43,948 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption volume",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным Министерства экономики, торговли и промышленности Японии, потребление никеля в стране в 2013 г . по сравнению с предыдущим годом увеличилось на 7,8 % до 43,948 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Чистый убыток ОАО «Уралэлектромедь» (Россия) в 1-м квартале текущего года составил 0,129 млрд руб. (в 1-м квартале 2013 г. чистая прибыль 0,305 млрд руб.), выручка - 4,56 млрд руб. (-16,0 % к январю - марту 2013 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "net loss and revenue",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чистый убыток ОАО «Уралэлектромедь» (Россия) в 1-м квартале текущего года составил 0,129 млрд руб. (в 1-м квартале 2013 г. чистая прибыль 0,305 млрд руб.), выручка - 4,56 млрд руб. (-16,0 % к январю - марту 2013 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе - апреле 2014 г. ОАО «ГМК «Дальполиметалл» (Россия) произвело 5,296 тыс. т свинцового и 9,158 тыс. т цинкового концентратов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - апреле 2014 г. ОАО «ГМК «Дальполиметалл» (Россия) произвело 5,296 тыс. т свинцового и 9,158 тыс. т цинкового концентратов.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По данным International Lead and Zinc Study Group (Португалия), в январе - марте текущего года мировое потребление цинка составило 3,231 млн т, производство - 3,214 млн т, дефицит рынка - 0,017 млн т (профицит 0,72 млн т в январе - марте 2013 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption/production/deficit",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным International Lead and Zinc Study Group (Португалия), в январе - марте текущего года мировое потребление цинка составило 3,231 млн т, производство - 3,214 млн т, дефицит рынка - 0,017 млн т (профицит 0,72 млн т в январе - марте 2013 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Commerzbank (ФРГ), в связи с активизацией спроса в Китае мировые цены на цинк составят, долл./т: 2200,0 в текущем году; 2300,0 в 2015 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "China demand",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Commerzbank (ФРГ), в связи с активизацией спроса в Китае мировые цены на цинк составят, долл./т: 2200,0 в текущем году; 2300,0 в 2015 г.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По данным International Lead and Zinc Study Group (Португалия), в 1-м квартале текущего года мировое потребление свинца составило 2,631 млн т, производство - 2,621 млн т; дефицит рынка - 0,01 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption/production/deficit",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным International Lead and Zinc Study Group (Португалия), в 1-м квартале текущего года мировое потребление свинца составило 2,631 млн т, производство - 2,621 млн т; дефицит рынка - 0,01 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу International Tin Research Iinstitute (Филиппины), добыча олова в Индонезии в текущем году сократится с 90,0 тыс. до 60,0 тыс. т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "tin output",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу International Tin Research Iinstitute (Филиппины), добыча олова в Индонезии в текущем году сократится с 90,0 тыс. до 60,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе - апреле 2014 г. экспорт олова из Индонезии составил 21,678 тыс. т стоимостью 500,66 млн долл., в том числе 5,219 тыс. т в апреле (-33,5 % к апрелю 2013 г.), 5,847 тыс. т в марте (-10,7 % к марту 2013 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "tin export volume/value",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - апреле 2014 г. экспорт олова из Индонезии составил 21,678 тыс. т стоимостью 500,66 млн долл., в том числе 5,219 тыс. т в апреле (-33,5 % к апрелю 2013 г.), 5,847 тыс. т в марте (-10,7 % к марту 2013 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "По данным Таможенной службы Китая, в 1-м квартале текущего года экспорт металлического кобальта, порошка и штейна сократился до 296,0 т (-57,3 % к январю - марту 2013 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cobalt export",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным Таможенной службы Китая, в 1-м квартале текущего года экспорт металлического кобальта, порошка и штейна сократился до 296,0 т (-57,3 % к январю - марту 2013 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "В последние годы для отечественной металлургии прослеживается характерный для всех развитых стран тренд уменьшения их доли на глобальном рынке под давлением производителей из развивающихся стран, прежде всего КНР.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share decline",
+    "direction": "decreases",
+    "factor": "competition from developing countries",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В последние годы для отечественной металлургии прослеживается характерный для всех развитых стран тренд уменьшения их доли на глобальном рынке под давлением производителей из развивающихся стран, прежде всего КНР.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.81,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Хотя по сравнению с 2012 г. (без учета КНР) мировое производство стали в 2013 г. снизилось на 0,1 %, но общий прирост по отрасли оказался положительным и составил 3,5 % от объемов за предыдущий год.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "steel output change",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Хотя по сравнению с 2012 г. (без учета КНР) мировое производство стали в 2013 г. снизилось на 0,1 %, но общий прирост по отрасли оказался положительным и составил 3,5 % от объемов за предыдущий год.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Российские компании закончили 2013 г. хуже, чем их конкуренты из развитых стран, потеряв в среднем 20 % доходов, а капитализация некоторых из них уменьшилась почти на 40 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "revenue loss / capitalization decline",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Российские компании закончили 2013 г. хуже, чем их конкуренты из развитых стран, потеряв в среднем 20 % доходов, а капитализация некоторых из них уменьшилась почти на 40 %.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "На 33,6 % снизилась стоимость акций Северстали, на 34,6 % - Норильского никеля, на 58 % - Мечела и на 45,3 % - компании РУСАЛ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share price decline",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На 33,6 % снизилась стоимость акций Северстали, на 34,6 % - Норильского никеля, на 58 % - Мечела и на 45,3 % - компании РУСАЛ.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.81,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Существует возможность реализации российскими предприятиями концепции «опережающего развития», т. е. выход на рынки инновационной металлургической продукции, на которых в ближайшие годы они впереди большинства азиатских конкурентов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "market entry potential",
+    "direction": "increases",
+    "factor": "innovation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Существует возможность реализации российскими предприятиями концепции «опережающего развития», т. е. выход на рынки инновационной металлургической продукции, на которых в ближайшие годы они впереди большинства азиатских конкурентов.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Срок эксплуатации стандартного металлургического предприятия составляет более 40 лет.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operational life",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Срок эксплуатации стандартного металлургического предприятия составляет более 40 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Процедура реализации стратегии опережающего развития в металлургии России с учетом выделяемых на модернизацию сумм вполне реальна и во многом частично реализуется уже сейчас",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "feasibility",
+    "direction": "increases",
+    "factor": "realism",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процедура реализации стратегии опережающего развития в металлургии России с учетом выделяемых на модернизацию сумм вполне реальна и во многом частично реализуется уже сейчас",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "примером успешного внедрения инновационной технологии с коэффициентом конкурентоспособности инновации 4 и выше является организация на недавно начавшем полноценно функционировать Забайкальском горно-обогатительном комбинате выпуска нового для данного производства вида продукции - сурьмяного концентрата",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "competitiveness coefficient",
+    "direction": "increases",
+    "factor": ">=4",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "примером успешного внедрения инновационной технологии с коэффициентом конкурентоспособности инновации 4 и выше является организация на недавно начавшем полноценно функционировать Забайкальском горно-обогатительном комбинате выпуска нового для данного производства вида продукции - сурьмяного концентрата",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "Российские предприятия имеют преимущества перед китайскими металлургами по следующим направлениям",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "advantage",
+    "direction": "increases",
+    "factor": "relative to Chinese metallurgists",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Российские предприятия имеют преимущества перед китайскими металлургами по следующим направлениям",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "в России существует ряд отечественных патентов, позволяющих полностью заместить импорт высокотехнологичной металлургической продукции",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "import substitution capability",
+    "direction": "increases",
+    "factor": "existence of domestic patents",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в России существует ряд отечественных патентов, позволяющих полностью заместить импорт высокотехнологичной металлургической продукции",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "многие перспективные современные отечественные патенты не были востребованы рынком и к настоящему моменту прекратили свое действие",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "utilization",
+    "direction": "decreases",
+    "factor": "lack of market demand",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "многие перспективные современные отечественные патенты не были востребованы рынком и к настоящему моменту прекратили свое действие",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.81,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  },
+  {
+   "text": "из 8 млрд долл. США, которые планирует к 2015 г. инвестировать компания РУСАЛ, большую часть составят расходы на создание высокопроизводительных рабочих мест и модернизацию",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "expenditure share",
+    "direction": "increases",
+    "factor": "majority of 8 billion USD",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "из 8 млрд долл. США, которые планирует к 2015 г. инвестировать компания РУСАЛ, большую часть составят расходы на создание высокопроизводительных рабочих мест и модернизацию",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9,
+   "document_id": "doc:cm_08_14-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

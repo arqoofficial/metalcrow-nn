@@ -1,0 +1,649 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-09-23-pdf",
+   "title": "ЦМ № 09-23.pdf",
+   "doc_type": "article",
+   "year": 2023,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2023\\ЦМ № 09-23.pdf.md",
+   "artifact_sha256": "c1d4ce4f485e428a264ae630afb716343d2974d9847449d1c566d83d924f5c87",
+   "okf_raw_path": "Журналы/Цветные металлы/2023/ЦМ № 09-23.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:руда-кгмк",
+   "label": "руда КГМК",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:катодныи-никель",
+   "label": "катодный никель",
+   "family": "metal",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nn-282",
+   "label": "NN 282",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nn-214",
+   "label": "NN 214",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore-feed",
+   "label": "ore feed",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No-09-23-pdf:0",
+   "document_id": "doc:цм-No-09-23-pdf",
+   "title": "Апробация технологий повышения эффективности измельчения и обогащения руд с использованием магнитно‑импульсной обработки",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "проведение на руде КГМК на комбинате совместно с партнёрами"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:руда-кгмк",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Их апробации на руде КГМК проводят на комбинате совместно с партнерами уже второй год, прорабатывают возможности использования СВЧ- и электроимпульсных воздействий.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-09-23-pdf:1",
+   "document_id": "doc:цм-No-09-23-pdf",
+   "title": "Программа по снижению концентраций примесей свинца и цинка в катодах никеля",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "electroextraction",
+      "extra": {
+       "raw_process": "повышение контроля за состоянием электролизных ванн и аналитика"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:катодныи-никель",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "полученный катодный никель соответствует более дорогой марке",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "чистота",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "За счет повышения контроля за состоянием электролизных ванн и аналитики удалось достичь снижения доли примесей в получаемом катодном никеле, соответствующем более дорогой марке",
+     "locator_kind": "md_para",
+     "locator": "para:159",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "За счет повышения контроля за состоянием электролизных ванн и аналитики удалось достичь снижения доли примесей в получаемом катодном никеле, соответствующем более дорогой марке",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-09-23-pdf:2",
+   "document_id": "doc:цм-No-09-23-pdf",
+   "title": "Prototype nickel‑cobalt superalloy production (AO «Кольская ГМК»)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "vacuum induction melting of edge and centre parts of nickel and cobalt cathodes, followed by thermal treatment",
+       "temperature_text": "various technological regimes (unspecified)",
+       "duration_text": "second half of 2022 and Q1 2023 (research) – Q2 2023 (sample fabrication)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nn-282",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:nn-214",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "presence of non‑metallic inclusions and their influence on mechanical properties"
+     },
+     "method": null,
+     "snippet": "Получены данные о наличии неметаллических включений и влиянии их, а также технологических режимов получения сплавов и состава используемого шихтового сырья на механические свойства сплавов.",
+     "locator_kind": "md_para",
+     "locator": "para:176",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "В оптимальных режимах получены прототипы никелевых жаропрочных сплавов NN 625, NN 718, NN X-750, NN X-276.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "prototype composition",
+      "direction": "increases",
+      "factor": "optimal regimes",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В оптимальных режимах получены прототипы никелевых жаропрочных сплавов NN 625, NN 718, NN X-750, NN X-276.",
+     "locator_kind": "md_para",
+     "locator": "para:183",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В рамках указанной деятельности в лаборатории партнера АО «Кольская ГМК» изучены пробы от краевых и центральных частей катодов никеля и кобальта, проведены выплавки и исследования усредненных составов.",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-09-23-pdf:3",
+   "document_id": "doc:цм-No-09-23-pdf",
+   "title": "Laboratory flotation tests for magnetic‑pulse ore processing (AO «Кольская ГМК»)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "laboratory flotation tests combined with mineralogical analysis of concentrate products",
+       "temperature_text": "ambient laboratory conditions (not specified)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-feed",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Эффективность магнитно‑импульсной обработки (МИО) на стадиях рудоподготовки и флотации подтверждена.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "magnetic‑pulse treatment",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Цель заключалась в обосновании эффективности магнитно‑импульсной обработки (МИО) на стадиях рудоподготовки и флотации.",
+     "locator_kind": "md_para",
+     "locator": "para:186",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Работы по этому направлению проводили сотрудники КГМК и подрядчик.",
+   "locator_kind": "md_para",
+   "locator": "para:186",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Министерство промышленности и торговли Вьетнама планирует строительство трех рудников по добыче бокситов мощностью 1,55-2,25 млн т/год в северных провинциях и оценивает возможность ежегодной добычи 68,0-112,2 млн т бокситов в центральных провинциях.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "new mines",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Министерство промышленности и торговли Вьетнама планирует строительство трех рудников по добыче бокситов мощностью 1,55-2,25 млн т/год в северных провинциях и оценивает возможность ежегодной добычи 68,0-112,2 млн т бокситов в центральных провинциях.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Национальные запасы бокситов составляют 5,8 млрд т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reserve size",
+    "direction": "increases",
+    "factor": "geological surveys",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Национальные запасы бокситов составляют 5,8 млрд т.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В I полугодии 2023 г. Norsk Hydro (Норвегия) по сравнению с аналогичным периодом 2022 г. произвела 1,005 млн т алюминия (1,072 млн т), средняя цена продаж - 2289,0 долл/т (2833,0 долл/т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output and price",
+    "direction": "decreases",
+    "factor": "year‑over‑year change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I полугодии 2023 г. Norsk Hydro (Норвегия) по сравнению с аналогичным периодом 2022 г. произвела 1,005 млн т алюминия (1,072 млн т), средняя цена продаж - 2289,0 долл/т (2833,0 долл/т).",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В I полугодии 2023 г. отгрузки алюминия Alcoa (США) составили 1,23 млн т (1,308 млн т в январе июне 2022 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "shipment volume",
+    "direction": "decreases",
+    "factor": "year‑over‑year change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I полугодии 2023 г. отгрузки алюминия Alcoa (США) составили 1,23 млн т (1,308 млн т в январе июне 2022 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке Shanghai Metals Market (КНР), в январе - августе 2023 г . производство цинка в стране составило 4,3 млн т (+10,08 % к январю - августу 2022 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "annual growth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно оценке Shanghai Metals Market (КНР), в январе - августе 2023 г . производство цинка в стране составило 4,3 млн т (+10,08 % к январю - августу 2022 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2022 г., по информации World Bureau of Metal Statistics (Великобритания), мировое потребление олова составило 360,0 тыс. т, производство - 348,9 тыс. т, дефицит рынка - 11,1 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption, production, deficit",
+    "direction": "increases",
+    "factor": "annual data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2022 г., по информации World Bureau of Metal Statistics (Великобритания), мировое потребление олова составило 360,0 тыс. т, производство - 348,9 тыс. т, дефицит рынка - 11,1 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "По информации Allkem (Австралия), разрабатывающей месторождение James Bay (Канада), запасы рудника составляют 110,2 млн т литийсодержащей руды (ранее 54,3 млн т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reserve size",
+    "direction": "increases",
+    "factor": "new assessment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По информации Allkem (Австралия), разрабатывающей месторождение James Bay (Канада), запасы рудника составляют 110,2 млн т литийсодержащей руды (ранее 54,3 млн т).",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Производительность комбината 321,0 тыс. т/год сподуменового концентрата.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производительность комбината 321,0 тыс. т/год сподуменового концентрата.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Срок эксплуатации - 20 лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operational life",
+    "direction": "increases",
+    "factor": "project planning",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Срок эксплуатации - 20 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в проект 285,8 млн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "project financing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инвестиции в проект 285,8 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В сентябре 2023 г. E3 Lithium (Канада) приступила к производству лития по технологии прямого извлечения на заводе Olds (Канада).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production start",
+    "direction": "increases",
+    "factor": "new plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В сентябре 2023 г. E3 Lithium (Канада) приступила к производству лития по технологии прямого извлечения на заводе Olds (Канада).",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2026 г. Standard Lithium (Канада) планирует ввести в эксплуатацию завод South Plant (США) по выпуску лития из солей брома для производства аккумуляторов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity expansion",
+    "direction": "increases",
+    "factor": "planned investment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2026 г. Standard Lithium (Канада) планирует ввести в эксплуатацию завод South Plant (США) по выпуску лития из солей брома для производства аккумуляторов.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "На сегодняшний день это крайне актуально для российских производственных компаний, в том числе и с учетом потребности в импортозамещении.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "relevance",
+    "direction": "increases",
+    "factor": "current market conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На сегодняшний день это крайне актуально для российских производственных компаний, в том числе и с учетом потребности в импортозамещении.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "модернизация и внедрение инновационных технологий, оборудования и материалов влияют на конкурентоспособность металлургического производства",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "конкурентоспособность",
+    "direction": "increases",
+    "factor": "модернизация и внедрение инновационных технологий, оборудования и материалов",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "модернизация и внедрение инновационных технологий, оборудования и материалов влияют на конкурентоспособность металлургического производства",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "подход имеет важное значение для российских производственных компаний с учетом импортозамещения",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Такой подход имеет важное значение для российских производственных компаний с учетом импортозамещения",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "переработка техногенных отходов позволяет извлекать ценные компоненты – драгоценные и цветные металлы",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При этом извлекают ценные компоненты - драгоценные и цветные металлы",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "использование 3D‑печати деталей из порошков на основе никеля позволяет интегрировать продукцию КГМК в новые изделия",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "интеграция продукции КГМК",
+    "direction": "increases",
+    "factor": "порошки на основе никеля",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применяют 3D-печать деталей, в составе которых присутствуют материалы на основе продукции КГМК, такие как порошки на основе никеля",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В перспективе в случае создания производства сплавов это позволит увеличить годовую потребность в никеле в объемах от 10 до 20 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel demand",
+    "direction": "increases",
+    "factor": "new production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В перспективе в случае создания производства сплавов это позволит увеличить годовую потребность в никеле в объемах от 10 до 20 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2019 г. заключено более 350 контрактов на поставку жаропрочной продукции в объеме более 1275 т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "number of contracts",
+    "direction": "increases",
+    "factor": "2019",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2019 г . заключено более 350 контрактов на поставку жаропрочной продукции в объеме более 1275 т.",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В стоимостном выражении величина поставок составила более 6491,8 млн руб.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "value of supplies",
+    "direction": "increases",
+    "factor": "2019",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В стои мостном выражении величина поставок составила более 6491,8 млн руб.",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "К жаропрочным сплавам на никелевой основе относят те, которые содержат более 50 % никеля, а также присадки кобальта, титана, алюминия, молибдена, вольфрама, ниобия и бора.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Как известно, к жаропрочным сплавам на никелевой основе относят те, которые содержат более 50 % никеля, а также присадки кобальта, титана, алюминия, молибдена, вольфрама, ниобия и бора.",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Наиболее оптимальной технологией получения качественных литых никелевых жаропрочных сплавов является выплавка слитка с применением технологии фильтрации через керамический фильтр расплава при сливе.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Наиболее оптимальной технологией получения качественных литых никелевых жаропрочных сплавов является выплавка слитка с применением технологии фильтрации через керамический фильтр расплава при сливе.",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-09-23-pdf",
+   "process": "casting"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

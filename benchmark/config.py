@@ -69,6 +69,7 @@ class BenchConfig:
     # транспорт
     timeout_s: float = 120.0
     reuse_session: bool = True
+    concurrency: int = 1  # параллельных вопросов; каждый — в своей свежей сессии
 
     # LLM-судья (опционально, OpenAI-совместимый эндпоинт)
     judge: bool = False

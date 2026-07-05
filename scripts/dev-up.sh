@@ -67,11 +67,12 @@ if [[ "${WITH_PARSER}" == true ]]; then
   fi
 
   stack_parser_compose_args
-  echo "→ starting parser stack (${STACK_MODE})"
+  stack_parser_profile_args
+  echo "→ starting parser stack (${STACK_MODE}, with Docling workers for ingest)"
   echo "  (сборка образов при первом запуске может занять много времени — не прерывайте)"
   (
     cd "${PARSER_DIR}"
-    docker compose "${PARSER_COMPOSE_ARGS[@]}" up -d --build
+    docker compose "${PARSER_PROFILE_ARGS[@]}" "${PARSER_COMPOSE_ARGS[@]}" up -d --build
   )
 else
   stack_ensure_env_files

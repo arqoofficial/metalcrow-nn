@@ -21,11 +21,26 @@ services:
     ports:
       - "${REDIS_PORT:-6379}:6379"
 
+  minio:
+    restart: "no"
+    ports:
+      - "${MINIO_PORT:-9000}:9000"
+      - "${MINIO_CONSOLE_PORT:-9001}:9001"
+
   neo4j:
     restart: "no"
     ports:
       - "${NEO4J_HTTP_PORT:-7474}:7474"
       - "${NEO4J_BOLT_PORT:-7687}:7687"
+
+  # Live code reload (parity with `backend`) so litsearch Phase-B edits apply on
+  # a container restart instead of needing an image rebuild. Celery does not
+  # hot-reload, so a `docker compose restart worker-litsearch` is still required
+  # after editing, but the mount is what makes that restart pick up new code.
+  worker-litsearch:
+    restart: "no"
+    volumes:
+      - ./backend/app:/app/backend/app
 
   prestart:
     restart: "no"

@@ -209,6 +209,113 @@ def download_pdf_via_headless(url: str) -> bytes:
             logger.debug("headless: could not delete temp file %s", out_path, exc_info=True)
 
 
+def fetch_html_via_headless(url: str) -> str:
+    """Best-effort rendered-HTML fetch via the headless solver subprocess.
+
+    PARENT side, mirroring ``download_pdf_via_headless``'s subprocess spawn +
+    hard-timeout + process-group-kill + cleanup — but spawns the CLI in ``html``
+    mode (``... <url> <out_path> html``) and reads the child's output as UTF-8
+    text instead of validating it as a PDF.
+
+    This is the cyberleninka full-text rescue path: a plain-``requests`` fetch
+    of the article page came back empty (JS interstitial, transient bot-block,
+    etc.), and the caller wants the RENDERED page HTML to re-run its own
+    extraction regex against. Deliberately duplicates the PDF path's subprocess
+    boilerplate rather than sharing it, so a bug in this best-effort tier can
+    never change the PDF tier's behaviour.
+
+    Unlike ``download_pdf_via_headless``, this function NEVER raises: any
+    failure (SSRF-blocked URL, no free browser slot, subprocess timeout/crash,
+    unreadable or undecodable output, or any other unexpected error) is logged
+    and degrades to "" so a single unfetchable page never breaks the caller's
+    fallback chain.
+    """
+    try:
+        assert_public_http_url(url)
+    except UnsafeUrlError as exc:
+        logger.warning("headless html fetch blocked unsafe URL %s: %s", url, exc)
+        return ""
+
+    acquired = _BROWSER_SEMAPHORE.acquire(timeout=settings.headless_fetch_timeout)
+    if not acquired:
+        logger.warning(
+            "headless html fetch for %s timed out waiting for a browser slot (>%ss)",
+            url, settings.headless_fetch_timeout,
+        )
+        return ""
+
+    fd, out_path = tempfile.mkstemp(suffix=".html", prefix="headless_html_")
+    os.close(fd)
+    hard_timeout = settings.headless_fetch_timeout + 15
+    proc: Optional[subprocess.Popen] = None
+    try:
+        proc = subprocess.Popen(
+            [sys.executable, "-m", "app.headless_solver_cli", url, out_path, "html"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            cwd=_APP_ROOT,
+            start_new_session=True,
+        )
+        try:
+            _, stderr_bytes = proc.communicate(timeout=hard_timeout)
+        except subprocess.TimeoutExpired:
+            _killpg(proc)
+            # killpg misses Playwright's detached Firefox (own session); sweep it.
+            _sweep_browser_processes()
+            try:
+                proc.communicate()
+            except Exception:
+                logger.debug("headless html: reap after timeout-kill failed for %s", url, exc_info=True)
+            logger.warning(
+                "headless html fetch for %s timed out (>%ss); process group killed",
+                url, hard_timeout,
+            )
+            return ""
+
+        if proc.returncode != 0:
+            stderr = (stderr_bytes or b"").decode("utf-8", "replace").strip()
+            logger.warning(
+                "headless html solver subprocess failed (rc=%s) for %s: %s",
+                proc.returncode, url, stderr[:500],
+            )
+            return ""
+
+        try:
+            with open(out_path, "rb") as fh:
+                content = fh.read()
+        except OSError as exc:
+            logger.warning(
+                "headless html solver reported success but produced no output for %s: %s",
+                url, exc,
+            )
+            return ""
+
+        try:
+            return content.decode("utf-8")
+        except UnicodeDecodeError:
+            logger.warning("headless html fetch for %s produced undecodable output", url)
+            return ""
+    except Exception:
+        logger.exception("headless html fetch for %s failed unexpectedly", url)
+        return ""
+    finally:
+        # Defensive: if the child is still running for ANY reason (an exception path
+        # that did not reach the timeout handler), kill its whole group and reap it.
+        if proc is not None and proc.poll() is None:
+            _killpg(proc)
+            # killpg misses Playwright's detached Firefox (own session); sweep it.
+            _sweep_browser_processes()
+            try:
+                proc.communicate()
+            except Exception:
+                logger.debug("headless html: defensive reap failed for %s", url, exc_info=True)
+        _BROWSER_SEMAPHORE.release()
+        try:
+            os.unlink(out_path)
+        except OSError:
+            logger.debug("headless html: could not delete temp file %s", out_path, exc_info=True)
+
+
 def _killpg(proc: subprocess.Popen) -> None:
     """SIGKILL the child's whole process group (child + Xvfb + Firefox grandchildren).
 
@@ -248,7 +355,9 @@ def _remaining_ms(deadline: float) -> int:
     return max(0, int((deadline - time.monotonic()) * 1000))
 
 
-def _solve_and_fetch(invisible_playwright_cls, url: str, deadline: float) -> bytes:
+def _solve_and_fetch(
+    invisible_playwright_cls, url: str, deadline: float, *, return_html: bool = False
+) -> bytes:
     """Inner solve: owns the browser lifecycle and ALWAYS closes it.
 
     ``invisible_playwright`` launches Firefox HEADED (stealth), so a real X server
@@ -258,6 +367,12 @@ def _solve_and_fetch(invisible_playwright_cls, url: str, deadline: float) -> byt
     context manager ALWAYS stops the X server on exit. ``pyvirtualdisplay`` is an
     optional heavy dep imported lazily here; on ImportError a ``FetchError`` is
     raised so the caller falls through (mirrors the invisible_playwright pattern).
+
+    When ``return_html`` is True, the PDF fetch is skipped entirely: once the
+    interstitial clears, the rendered ``page.content()`` is returned (UTF-8
+    encoded) instead. This is the cyberleninka full-text rescue path — it wants
+    the rendered HTML, not a PDF. The default (``return_html=False``) PDF path is
+    unchanged.
     """
     try:
         from pyvirtualdisplay import Display  # optional dep; needs the Xvfb binary
@@ -284,6 +399,9 @@ def _solve_and_fetch(invisible_playwright_cls, url: str, deadline: float) -> byt
                     # plus a clearance-cookie inspection. Best-effort + bounded by
                     # the SHARED deadline (never waits for networkidle).
                     _wait_for_clearance(page, context, url, deadline)
+
+                    if return_html:
+                        return page.content().encode("utf-8")
 
                     cookies = context.cookies()
                     cookie_header = _cookies_to_header(cookies)

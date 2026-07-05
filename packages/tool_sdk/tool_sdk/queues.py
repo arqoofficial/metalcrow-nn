@@ -28,6 +28,11 @@ _TASK_QUEUE_MAP: Final[dict[str, str]] = {
     "extract.llm": QUEUE_EXTRACT_LLM,
     "embed": QUEUE_EMBED,
     "graph.sync": QUEUE_GRAPH_SYNC,
+    # Legacy SPEC_V3 pipeline (kept during migration)
+    "etl": "etl",
+    "graph.sync_neo4j": QUEUE_GRAPH_SYNC,
+    # litsearch → chat integration (Celery pipeline, see design doc §4)
+    "litsearch": "litsearch",
 }
 
 

@@ -1,0 +1,1071 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:обогащение-оип-02-2018-pdf",
+   "title": "Обогащение ОИП - 02 -2018.pdf",
+   "doc_type": "article",
+   "year": 2018,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Обогащение ОИП - 02 -2018.pdf.md",
+   "artifact_sha256": "0a832b7b339fea5baf8bc01191ab6d179608a71be498f8a69bf8b99967829976",
+   "okf_raw_path": "Обзоры/Обогащение ОИП - 02 -2018.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:copper-porphyry-ore",
+   "label": "copper porphyry ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:phosphate-ore-coarse-grind-max-size-up-to-4-mm",
+   "label": "phosphate ore (coarse grind, max size up to 4 mm)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:potash",
+   "label": "potash ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:porphyry-ore",
+   "label": "porphyry ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-molybdenum-tailings",
+   "label": "copper‑molybdenum tailings",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-ore",
+   "label": "copper ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cu-ag-pb-zn-ore",
+   "label": "Cu‑Ag‑(Pb, Zn) ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gold-copper-ore",
+   "label": "gold‑copper ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:обогащение-оип-02-2018-pdf:0",
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "title": "Jameson flotation machine test on copper porphyry ore",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Jameson flotation machine"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-porphyry-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2015 г. флотомашина Джеймсона была опробована на медной порфировой руде из Латинской Америки. Были получены воодушевляющие результаты: 100% извлечение для частиц размером до 300 мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Successful recovery of coarse particles",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery",
+      "direction": "increases",
+      "factor": "100% for particles ≤300 µm",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Были получены воодушевляющие результаты: 100% извлечение для частиц размером до 300 мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2015 г. флотомашина Джеймсона была опробована на медной порфировой руде из Латинской Америки. Были получены воодушевляющие результаты: 100% извлечение для частиц размером до 300 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обогащение-оип-02-2018-pdf:1",
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "title": "Hydrofloat flotation of coarse phosphate ore",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Hydrofloat separator"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:phosphate-ore-coarse-grind-max-size-up-to-4-mm",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:phosphate-ore-coarse-grind-max-size-up-to-4-mm",
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "k2o"
+     },
+     "method": null,
+     "snippet": "при флотации поташа грубого помола (макс.размер - до 4мм) извлечение K2O повысилось с 60% до 90%.",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Hydrofloat increased K2O extraction",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "from 60% to 90%",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "извлечение K2O повысилось с 60% до 90%.",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "при флотации поташа грубого помола (макс.размер - до 4мм) извлечение K2O повысилось с 60% до 90%.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обогащение-оип-02-2018-pdf:2",
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "title": "Coarse‑grind potash flotation with Hydrofloat",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation of potash ore with coarse particles (max size up to 4 mm)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:potash",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:potash",
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "k2o"
+     },
+     "method": null,
+     "snippet": "при флотации поташа грубого помола (макс.размер - до 4мм) извлечение K2O повысилось с 60% до 90%.",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Hydrofloat technology was very successful for coarse‑grind potash.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Технология оказалась весьма успешной.",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "при флотации поташа грубого помола (макс.размер - до 4мм) извлечение K2O повысилось с 60% до 90%.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обогащение-оип-02-2018-pdf:3",
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "title": "Model study of porphyry ore enrichment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Hydrofloat integration in the beneficiation circuit"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:porphyry-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "plant throughput",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 20.0,
+      "nominal": null,
+      "max": 25.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при обогащении порфировой руды производительность обогатительной установки может увеличиться на 20-25% без добавления нового измельчительного оборудования.",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Throughput can be increased without new grinding equipment.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "throughput",
+      "direction": "increases",
+      "factor": "20-25 %",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при обогащении порфировой руды производительность обогатительной установки может увеличиться на 20-25% без добавления нового измельчительного оборудования.",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Было показано на модели, что при обогащении порфировой руды производительность обогатительной установки может увеличиться на 20-25% без добавления нового измельчительного оборудования.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обогащение-оип-02-2018-pdf:4",
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "title": "Pilot‑scale test of Hydrofloat with tailings (5 t/h)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "split‑feed Hydrofloat‑Stackcell circuit"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-molybdenum-tailings",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Cu grade in feed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.092,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Cырье 0,092",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Mo grade in feed",
+     "scope": "material",
+     "material_id": "mat:copper-molybdenum-tailings",
+     "value": {
+      "min": null,
+      "nominal": 0.01,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Cырье 0,010",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Cu recovery in fine fraction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "20,5",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Cu recovery in coarse fraction (Hydrofloat)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 35.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "35,8",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Overall Cu recovery",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 56.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в целом суммарное извлечение меди составило 56,2%",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Overall Mo recovery",
+     "scope": "material",
+     "material_id": "mat:copper-molybdenum-tailings",
+     "value": {
+      "min": null,
+      "nominal": 29.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "было извлечено 29,6% молибдена",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The split‑feed scheme enables recovery of coarse particles previously considered too large for conventional flotation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "схема с «разделенными потоками» позволяет извлекать грубые частицы, которые считались слишком крупными для того, чтобы их обогащать в традиционных пенных флотомашинах.",
+     "locator_kind": "md_para",
+     "locator": "para:124",
+     "confidence": 0.9
+    },
+    {
+     "text": "Mill throughput may increase by 20‑25 % without additional grinding equipment.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "throughput",
+      "direction": "increases",
+      "factor": "20‑25 %",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "производительность мельницы может увеличиться на 20-25% без дополнительного измельчительного оборудования.",
+     "locator_kind": "md_para",
+     "locator": "para:124",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Схема c хвостами была опробована в пилотном масштабе (5 т/час) на нескольких предприятиях.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обогащение-оип-02-2018-pdf:5",
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "title": "Pilot test on Copperton (Kennecott Copper, Utah, USA)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Hydrofloat applied to copper ore"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery of coarse copper particles",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "извлекается до 70% грубых частиц меди",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery of coarse molybdenum particles",
+     "scope": "material",
+     "material_id": "mat:copper-molybdenum-tailings",
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "до 90% грубых частиц молибдена",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Hydrofloat recovers coarse copper and molybdenum particles that are normally lost.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery",
+      "direction": "increases",
+      "factor": "до 70 % (Cu), до 90 % (Mo)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "извлекается до 70% грубых частиц меди и до 90% грубых частиц молибдена, которые обычно теряются",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "технология Hydrofloat была испытана в пилотном масштабе на медной О/Ф Copperton комплекса Kennecott Copper (штат Юта, США) компании Rio Tinto.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обогащение-оип-02-2018-pdf:6",
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "title": "FeedAirJet™ installation on Cozamin (Capstone Gold, Mexico)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "pre‑aeration of flotation feed"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cu-ag-pb-zn-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "copper recovery increase",
+     "scope": "material",
+     "material_id": "mat:cu-ag-pb-zn-ore",
+     "value": {
+      "min": null,
+      "nominal": 0.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "извлечение меди ... увеличилось в среднем на 0,8%",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "silver recovery increase",
+     "scope": "material",
+     "material_id": "mat:cu-ag-pb-zn-ore",
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "извлечение ... серебра ... увеличилось в среднем на 3%",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "FeedAirJet™ can be retro‑fitted to an operating plant and raises Cu and Ag recoveries.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery",
+      "direction": "increases",
+      "factor": "0,8 % (Cu), 3 % (Ag)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "FeedAirJet легко установить на действующей фабрике",
+     "locator_kind": "md_para",
+     "locator": "para:130",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в апреле 2017 г. впервые одна из разработок Eriez - система предварительной аэрации потоков флотационного сырья FeedAirJetTM установлена в Мексике на перечистной колонне О/Ф Cozamin компании Capstone Gold.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обогащение-оип-02-2018-pdf:7",
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "title": "Planned supply to Newcrest Mining (Cadia Au‑Cu mine, Australia)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Hydrofloat and CrossFlow classifiers in split‑feed circuit and tailings re‑processing"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gold-copper-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Two Hydrofloat separators and four CrossFlow classifiers are to be installed for coarse‑particle recovery.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Планируется поставка двух сепараторов HydroFloat и четырех классификаторов CrossFlow для извлечения грубых частиц во флотационных цепочках с «резделенными потоками» и перечистке хвостов.",
+     "locator_kind": "md_para",
+     "locator": "para:131",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в сентябре 2017 г. золотодобывающая компания Newcrest Mining выбрала Eriez в качестве поставщика оборудования для своего Au-Cu рудника Cadia (Австралия).",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Current flotation technologies are efficient, providing high recovery within a particle size interval of approximately 15‑150 µm.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery",
+    "direction": "increases",
+    "factor": "high within 15‑150 µm",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Известно, что доступные в настоящее время технологии флотации эффективны, т.е. обеспечивают высокие показатели извлечения, в определенном интервале размеров частиц - примерно 15-150 мкм [2]",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Increasing flotation speed can be achieved by increasing the air‑bubble surface area, i.e., by reducing bubble diameter (micro‑ and picobubbles) or by increasing gas flow rate.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "speed",
+    "direction": "increases",
+    "factor": "air‑bubble surface area, smaller bubbles, higher gas flow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повысить скорость флотации можно путем увеличения площади поверхности воздуха, т.е. поднимающихся вверх пузырьков, уменьшая их диаметр (микро- и пикопузырьки) или увеличивая скорость потока газа.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "For fine particles, low bubble‑particle collision frequency reduces attachment probability, which can be mitigated by equipment that raises flotation speed.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "frequency",
+    "direction": "decreases",
+    "factor": "low frequency reduces attachment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для тонких частиц снижение извлечения обычно приписывают низкой частоте столкновений пузырьков с частицами, в результате чего снижается вероятность прилипания (пузырька воздуха к минералу).",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Traditional mechanical flotation machines cause excessive turbulence that detaches coarse particles, so static systems are preferable for coarse‑particle recovery.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "detachment",
+    "direction": "increases",
+    "factor": "excessive turbulence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для крупных частиц снижение извлечения связывают с отцеплением (расцеплением) из-за избыточной турбулентности в традиционных механических флотомашинах.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Eriez’s Hydrofloat technology, introduced in 2001, successfully increased K2O extraction from coarse phosphate grind (max 4 mm) from 60% to 90%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "from 60% to 90%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология оказалась весьма успешной. Так, например, при флотации поташа грубого помола (макс.размер - до 4мм) извлечение K2O повысилось с 60% до 90%.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Hydrofloat was introduced to the market in 2001.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Именно для них, в первую очередь, Eriez разработала новую технологию Hydrofloat, представленную на рынке в 2001 г.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Hydrofloat overcomes the negative buoyancy of bubble/particle aggregates.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Одно из очевидных преимуществ Hydrofloat - преодоление отрицательной плавучести (подъемной силы выталкивания) агрегата пузырь/частица.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.81,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Hydrofloat operates in an overflow mode without limitations on foam/pulp movement.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В сепараторе Hydrofloat это ограничение снимается, т.к. он работает в режиме переполнения без ограничений по перемещению пена/пульпа.",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "The contact mechanism in Hydrofloat increases bubble‑particle collision frequency and attachment coefficient.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Затрудняющие осаждение условия внутри кипящего слоя существенно сокращают разницу скоростей пузырьков и частиц, что, в свою очередь, приводит к увеличению продолжительности контакта и к увеличению вероятности успешного сцепления пузырьков с гидрофобными частицами.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.45,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Particles move opposite to the liquid flow, extending residence time and improving recovery without increasing cell volume.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В системе Hydrofloat частицы движутся в противоположном направлении по отношению к потоку жидкости. Как следствие, ожижающая вода обеспечивает существенное увеличение продолжительности пребывания частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.81,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Hydrofloat functions like a series of ideal displacement reactors due to low axial mixing and uniform particle distribution.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Сепаратор Hydrofloat работает почти как реактор идеального вытеснения из-за низкой степени осевого (продольного) смешения, благодаря равномерному распределению частиц по кипящему слою.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Hydrofloat operates at very low pulp turbulence, allowing particles to stay suspended without intensive mixing.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Hydrofloat работает в режиме очень низкой степени турбулентности пульпы. Применение кипящего слоя делает возможным поддержание частиц во взвешенном состоянии без интенсивного перемешивания.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "StackCell is a smaller, high‑performance flotation machine that consumes less electricity than traditional machines.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Была разработана новая высокопроизводительная флотомашина - меньшая по размеру и требующая меньше электроэнергии по сравнению с традиционным вариантом.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Hydrofloat is not flash flotation as previously thought.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Подчеркивается, что Hydrofloat - это не скоростная флотация («флэш-флотация»), как считали ранее.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Split‑feed Hydrofloat reduces the amount of fine material (<20 µm) entering the conventional flotation train.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "fine material fraction",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "установка цепочки с «разделенными потоками» ('split-feed') Hydrofloat снижает количество тонкого материала, поступающего в существующую традиционную флотационную цепочку в результате увеличения крупности помола и многостадийной классификации.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Reduced fines should lead to a modest increase in overall recovery because fewer ultra‑fine (<20 µm) particles are present.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "overall recovery",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На практике уменьшение количества мелочи должно приводить к некоторому увеличению извлечения, т.к. будет меньше сверхтонких (<20 мкм) частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "The Eriez combined scheme can also be applied to tailings re‑processing.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Разработанная Eriez комбинированная схема может быть также применена к повторной переработке хвостов.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Pilot‑scale tests on copper mills worldwide achieved comparable results to conventional flotation with less than half the energy consumption and on less than half the area.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "less than half",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Испытания в пилотном масштабе на медных фабриках в разных регионах мира показали, что можно получить сопоставимые с обычными флотомашинами результаты при расходе энергии менее половины и на площадях менее половины.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Hydrofloat can extract acid‑forming minerals such as pyrite as very coarse particles, with >90 % of sulfur‑bearing minerals recovered from the coarse fraction.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "acid‑forming mineral recovery",
+    "direction": "increases",
+    "factor": ">90 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из грубой фракции, как показали опыты, можно извлечь более 90% серусодержащих минералов.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "FeedAirJet™ creates micro‑bubbles on hydrophobic particle surfaces before entering the flotation cell, accelerating flotation.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "FeedAirJetTM дает толчок процессу флотации, т.к. сбор частиц начинается до входа во флотационный сосуд.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "CrossFlow classifiers are high‑efficiency hydraulic classifiers for size, shape and/or density separation and can be used for de‑sliming, counter‑current washing and acid neutralisation.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Сепараторы CrossFlow -это высокоэффективные гидравлические классификаторы для разделения материала по размеру частиц, форме и/или плотности. Они могут быть использованы для обесшламливания, промывки противотоком и нейтрализации кислоты.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.81,
+   "document_id": "doc:обогащение-оип-02-2018-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

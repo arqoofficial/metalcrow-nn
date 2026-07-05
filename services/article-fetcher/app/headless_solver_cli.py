@@ -9,8 +9,13 @@ indefinitely, holding the single browser semaphore forever. Running the solve in
 process gives it a real main thread (the ~9s path that actually works) AND lets the parent
 impose a hard kill-timeout via ``subprocess.run(timeout=...)``.
 
-Contract: ``python -m app.headless_solver_cli <url> <out_path>``.
-- exit 0  -> a validated PDF was written to ``out_path`` (atomic: temp file + rename).
+Contract: ``python -m app.headless_solver_cli <url> <out_path> [mode]``.
+- ``mode`` is optional and defaults to ``pdf`` (the original 2-arg contract keeps
+  working byte-for-byte unchanged). ``html`` solves the same JS interstitial but
+  writes the RENDERED PAGE HTML instead of fetching a PDF — used by cyberleninka's
+  headless full-text rescue path (``app.headless_downloader.fetch_html_via_headless``).
+- exit 0  -> the solved payload (PDF bytes, or UTF-8 HTML bytes in ``html`` mode)
+  was written to ``out_path`` (atomic: temp file + rename).
 - exit 1  -> failure; a short message is written to stderr and NO file is left at
   ``out_path`` (so the parent never reads a partial/invalid payload).
 
@@ -30,12 +35,17 @@ from app.fetcher import FetchError
 from app.headless_downloader import _solve_and_fetch
 
 
-def _solve(url: str) -> bytes:
+def _solve(url: str, *, return_html: bool = False) -> bytes:
     """Run the shared solve on THIS process's main thread and return PDF bytes.
 
     Establishes the same single wall-clock deadline the in-process path used
     (``time.monotonic() + headless_fetch_timeout``) so goto + clearance-wait + PDF
     fetch together can never exceed the budget. Raises ``FetchError`` on any failure.
+
+    ``return_html`` forwards to ``_solve_and_fetch`` (see there): when True, the
+    rendered page HTML is returned (UTF-8 encoded) instead of a PDF. The keyword
+    is only passed through when True, so the default ``pdf`` mode's call shape is
+    byte-for-byte identical to before this option existed.
     """
     try:
         from invisible_playwright import InvisiblePlaywright
@@ -45,6 +55,8 @@ def _solve(url: str) -> bytes:
         ) from exc
 
     deadline = time.monotonic() + max(1, settings.headless_fetch_timeout)
+    if return_html:
+        return _solve_and_fetch(InvisiblePlaywright, url, deadline, return_html=True)
     return _solve_and_fetch(InvisiblePlaywright, url, deadline)
 
 
@@ -63,15 +75,20 @@ def _write_atomic(out_path: str, data: bytes) -> None:
 
 
 def main(argv: list[str]) -> int:
-    """Solve ``argv[1]`` and write the PDF to ``argv[2]``. Returns a process exit code."""
-    if len(argv) != 3:
-        sys.stderr.write("usage: python -m app.headless_solver_cli <url> <out_path>\n")
+    """Solve ``argv[1]`` and write the result to ``argv[2]``. Returns a process exit code.
+
+    ``argv[3]`` (optional) selects the mode: ``pdf`` (default, unchanged contract)
+    or ``html`` (writes the rendered page HTML instead of a PDF).
+    """
+    if len(argv) not in (3, 4):
+        sys.stderr.write("usage: python -m app.headless_solver_cli <url> <out_path> [mode]\n")
         return 2
 
     url = argv[1]
     out_path = argv[2]
+    mode = argv[3] if len(argv) == 4 else "pdf"
     try:
-        pdf_bytes = _solve(url)
+        result_bytes = _solve(url, return_html=(mode == "html"))
     except FetchError as exc:
         sys.stderr.write(f"headless solver failed: {exc}\n")
         return 1
@@ -80,7 +97,7 @@ def main(argv: list[str]) -> int:
         return 1
 
     try:
-        _write_atomic(out_path, pdf_bytes)
+        _write_atomic(out_path, result_bytes)
     except Exception as exc:
         sys.stderr.write(f"headless solver could not write output: {exc}\n")
         return 1

@@ -1,0 +1,594 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:bindura_2010-pdf",
+   "title": "Bindura_2010.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Bindura_2010.pdf.md",
+   "artifact_sha256": "f5f036965921f078c43cd837ffa6342110a3f4d4de9012b8d146977ef7a861f5",
+   "okf_raw_path": "Обзоры/Bindura_2010.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:limestone",
+   "label": "limestone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sio2",
+   "label": "SiO2",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pyrite",
+   "label": "pyrite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:концентрат",
+   "label": "концентрат",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:bindura_2010-pdf:0",
+   "document_id": "doc:bindura_2010-pdf",
+   "title": "Installation of oxygen injection and plant re‑equipping at Trojan",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "Installation of an oxygen injection unit and completion of the re‑equipping of the Trojan ore‑processing plant"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "В 2008 году была введена в строй установка по инжекции кислорода и завершено переоснащение О/Ф Trojan.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "industrial implementation",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В 2008 году была введена в строй установка по инжекции кислорода и завершено переоснащение О/Ф Trojan.",
+     "locator_kind": "md_para",
+     "locator": "para:12",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В 2008 году была введена в строй установка по инжекции кислорода и завершено переоснащение О/Ф Trojan.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:bindura_2010-pdf:1",
+   "document_id": "doc:bindura_2010-pdf",
+   "title": "Laboratory study on limestone addition",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "slag viscosity reduction by adding limestone to the charge"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:limestone",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Лимит добавки известняка установлен в 4,5% во избежание размывания защитного гарнисажа.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "в количестве до 4,5% (при более высокой концентрации CaO начинался процесс размывания защитного гарнисажа и огнеупорные кирпичи входили в непосредственный контакт с расплавленным металлом).",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Исследования, выполненные в Университете Зимбабве, показали, что снизить вязкость шлака можно за счет введения добавок известняка в шихту в количестве до 4,5% (при более высокой концентрации CaO начинался процесс размывания защитного гарнисажа и огнеупорные кирпичи входили в непосредственный контакт с расплавленным металлом).",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:bindura_2010-pdf:2",
+   "document_id": "doc:bindura_2010-pdf",
+   "title": "Laboratory observation of slag basicity effect",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "control of slag basicity using SiO2 flux"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sio2",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "viscosity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "of silicate slag"
+     },
+     "method": null,
+     "snippet": "Вязкость силикатного шлака снижается с увеличением основности до 1,3, а затем начинает расти вместе с основностью.",
+     "locator_kind": "md_para",
+     "locator": "para:78",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "basicity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На плавку в качестве флюса начали подавать SiO2, чтобы снизить основность до 1,2.",
+     "locator_kind": "md_para",
+     "locator": "para:78",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Снижение основности до 1,2 дало положительный эффект до роста MgO в концентрате.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Это давало какой‑то положительный эффект до тех пор, пока содержание MgO в концентратах Trojan не подскочило до 22%, а в шлаке, соответственно, до 21%.",
+     "locator_kind": "md_para",
+     "locator": "para:78",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Вязкость силикатного шлака снижается с увеличением основности до 1,3, а затем начинает расти вместе с основностью.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:bindura_2010-pdf:3",
+   "document_id": "doc:bindura_2010-pdf",
+   "title": "Laboratory addition of pyrite as flux",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "adding pyrite to mitigate iron deficiency and energy balance"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pyrite",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Было принято решение о добавлении пирита в качестве флюса, ситуация улучшилась.",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:bindura_2010-pdf:4",
+   "document_id": "doc:bindura_2010-pdf",
+   "title": "Industrial pilot test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "проплавлена пробная партия концентрата"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:концентрат",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "успешно проплавлена",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "result",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в 2009 фин . г . на плавильном заводе BNC была успешно проплавле -на пробная партия концентрата с рудника Munali, Замбия .",
+     "locator_kind": "md_para",
+     "locator": "para:109",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "в 2009 фин . г . на плавильном заводе BNC была успешно проплавле -на пробная партия концентрата с рудника Munali, Замбия .",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Отношение Ni:Cu во всех трех типах руд составляет в среднем 15:1.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Отношение Ni:Cu во всех трех типах руд составляет в среднем 15:1.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "В настоящее время 52,9% в BNC принадлежит компании Mwana Africa, которая приобрела эту долю у Anglo American в 2003 г. за 8 млн долларов.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В настоящее время 52,9% в BNC принадлежит компании Mwana Africa, которая приобрела эту долю у Anglo American в 2003 г. за 8 млн долларов.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.81,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "плавильно-рафинировочный комплекс Bindura, мощность плавильного завода 17 тыс т никеля в файнштейне в год, рафинировочного -14,5 тыс т рафинированного никеля.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "плавильно-рафинировочный комплекс Bindura, мощность плавильного завода 17 тыс т никеля в файнштейне в год , рафинировочного -14,5 тыс т рафинированного никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.81,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Вязкость силикатного шлака снижается с увеличением основности до 1,3, а затем начинает расти вместе с основностью.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "viscosity",
+    "direction": "decreases",
+    "factor": "basicity up to 1.3",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вязкость силикатного шлака снижается с увеличением основности до 1,3, а затем начинает расти вместе с основностью.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.81,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Снижение содержания MgO в концентрате до <12% было одной из целей проекта по О/Ф.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "<12%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "снижение концентрации MgO в концентрате до <12%.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.81,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Цель проекта по О/Ф – увеличение извлечения никеля примерно на 3%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel recovery",
+    "direction": "increases",
+    "factor": "≈3%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цель проекта по О/Ф - увеличение извлечения никеля (примерно на 3%).",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.81,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Стоимость проекта переоснащения и модернизации О/Ф составила 5,9 млн фунтов стерлингов.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Стоимость проекта переоснащения и модернизации О/Ф - 5,9 млн фунтов стерлингов.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.81,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2006 г. C1 = 6,47 USD/фунт, из которых 4,71 (73%) – издержки добычи/обогащения.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2006 г., например, С1 = 6,47 USD/фунт, из которых 4,71 (73%) это издержки добычи / обогащения.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.81,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Проект установки по инжекции кислорода в 2008 году стоил 4,4 млн USD.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Проект стоимостью 4,4 млн USD выполняла TWP.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.81,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": "injection"
+  },
+  {
+   "text": "Добавление известняка более 4,5% делает процесс неэкономичным из‑за высокой цены поставщика.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "economic viability",
+    "direction": "decreases",
+    "factor": ">4,5% limestone",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "единственный поставщик известняка так повысил цены, что для плавильного завода этот вариант стал нерентабельным.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.81,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Наличные издержки производства никеля C1, по данным Brook Hunt, в 2007 г . у BNC составляли 17,2 USD/ кг при том , что средние С 1 среди про -изводителей никеля из сульфидной руды в 2007 г . составляли 6,8 USD/ кг Ni.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "C1",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наличные издержки производства никеля C1, по данным Brook Hunt, в 2007 г . у BNC составляли 17,2 USD/ кг при том , что средние С 1 среди про -изводителей никеля из сульфидной руды в 2007 г . составляли 6,8 USD/ кг Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Сравнительно низкие издержки ( порядка 8,4 USD/ кг Ni по оценкам BNC) ожидаются по проекту Hunter's Road, но для его реализации в бли -жайшие годы у компании , по всей видимости , нет средств .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "C1",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сравнительно низкие издержки ( порядка 8,4 USD/ кг Ni по оценкам BNC) ожидаются по проекту Hunter's Road, но для его реализации в бли -жайшие годы у компании , по всей видимости , нет средств .",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "BNC была выну -ждена в конце 2008 г . остановить добычу , а в марте 2009 г . остановить за -вод в связи со снижением цен на никель .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "shutdown",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "BNC была выну -ждена в конце 2008 г . остановить добычу , а в марте 2009 г . остановить за -вод в связи со снижением цен на никель .",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Закрыт был и золотой рудник Freda Rebecca ( Зимбабве ), работа которого была возобновлена в октябре 2009 г .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "status",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Закрыт был и золотой рудник Freda Rebecca ( Зимбабве ), работа которого была возобновлена в октябре 2009 г .",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Проект возобновления эксплуатации Trojan предполагает производ -ство 7 тыс т / г Ni в концентрате для продажи третьим сторонам .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проект возобновления эксплуатации Trojan предполагает производ -ство 7 тыс т / г Ni в концентрате для продажи третьим сторонам .",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "модернизация обогатительной фабрики Trojan, выполненная в 2008 г., позволяет получать концентрат с проектной концентрацией MgO порядка 12%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "модернизация обогатительной фабрики Trojan, выполненная в 2008 г., позволяет получать концентрат с проектной концентрацией MgO порядка 12%.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "BNC позиционирует себя как « потенциаль -ный металлургический центр переработки сырья в регионе ».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "role",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "BNC позиционирует себя как « потенциаль -ный металлургический центр переработки сырья в регионе ».",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2009 фин . г . производство никеля из собственных концентратов резко снизилось -до 2,4 тыс т по сравнению с 4,2 тыс т в 2008 фин . г .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2009 фин . г . производство никеля из собственных концентратов резко снизилось -до 2,4 тыс т по сравнению с 4,2 тыс т в 2008 фин . г .",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:bindura_2010-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

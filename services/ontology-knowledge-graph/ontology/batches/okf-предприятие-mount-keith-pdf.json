@@ -1,0 +1,1082 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:предприятие-mount-keith-pdf",
+   "title": "Предприятие Mount Keith.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Предприятие Mount Keith.pdf.md",
+   "artifact_sha256": "0b674ff7cfeb9837b5668e75dfa0356bf625256483e2d659868aaf59acfbc0d8",
+   "okf_raw_path": "Обзоры/Предприятие Mount Keith.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:mt-keith-nickel-sulfide-ore",
+   "label": "Mt Keith nickel sulfide ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:stockpiled-talc-rich-ore-from-mt-keith",
+   "label": "stockpiled talc‑rich ore from Mt Keith",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-bearing-sulfide-minerals-pentlandite-mill",
+   "label": "nickel‑bearing sulfide minerals (pentlandite, millerite, violarite)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:talc-particles",
+   "label": "talc particles",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:guar-surface-depressant",
+   "label": "guar (surface depressant)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-dithionate",
+   "label": "sodium dithionate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:emulsified-diesel-fuel",
+   "label": "emulsified diesel fuel",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:carboxymethyl-cellulose-cmc",
+   "label": "carboxymethyl cellulose (CMC)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mt-keith-mineral-pulp",
+   "label": "Mt Keith mineral pulp",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mimosa-ore",
+   "label": "Mimosa ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore-from-dumont-project",
+   "label": "ore from Dumont project",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:предприятие-mount-keith-pdf:0",
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "title": "Industrial modification of Mt Keith flotation circuit (1995‑2003)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Mt Keith processing plant"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mt-keith-nickel-sulfide-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Введение цепочки с раздельной флотацией частиц разных диапазонов по крупности позволило повысить извлечение никеля на 10% с 60 примерно до 70%.",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The modified circuit increased nickel recovery and improved Fe:MgO balance, enabling acceptable feed to the Kalgoorlie smelter.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Введение цепочки с раздельной флотацией ... позволило повысить извлечение никеля на 10% с 60 примерно до 70%.",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Работы по модификации схемы были завершены в сентябре 1999 г.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:предприятие-mount-keith-pdf:1",
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "title": "Pilot test of Talc Redesign project",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "pilot testing of the Talc Redesign technology for processing stockpiled high‑talc ore"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:stockpiled-talc-rich-ore-from-mt-keith",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "production level",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Данный проект призван способствовать поддержанию уровня производства на плавильном заводе Калгурли в 100 тыс т / г .",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "pilot tests indicated the possibility of processing the stockpiled high‑talc ore with the new technology",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "в презентации 2008 г . упомянуто о пилотных испытания по проекту 'Talc Redesign' ( ≈ « перепроектирование талька ») и сделан намек на возможность переработки складированной руды с высоким содержанием талька по собственной технологии",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "в презентации 2008 г . упомянуто о пилотных испытания по проекту 'Talc Redesign' ( ≈ « перепроектирование талька ») и сделан намек на возможность переработки складированной руды с высоким содержанием талька по собственной технологии",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:предприятие-mount-keith-pdf:2",
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "title": "Laboratory experiments on Eh regulation and guar addition",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "laboratory flotation tests varying pulp Eh and adding surface‑modifying agents (guar, sodium dithionate)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-bearing-sulfide-minerals-pentlandite-mill",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:talc-particles",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:guar-surface-depressant",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:sodium-dithionate",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Guar depresses talc flotation but is less effective for Mt Keith ore because it also depresses sulfides under natural conditions",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "гуар оказался значительно менее эффективным агентом для обогащения руд типа Mt Keith",
+     "locator_kind": "md_para",
+     "locator": "para:54",
+     "confidence": 0.9
+    },
+    {
+     "text": "Sequential re‑grinding of the froth product markedly increases talc removal to the tailings and improves talc‑sulfide separation",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "последовательное повторное измельчение пенного продукта приводит к неожиданно сильному увеличению вывода талька в хвосты и, соответственно, улучшению разделения талька от сульфидов",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Метод включает регулирование Eh пульпы (из руды или концентратов) и введение добавки модифицирующего поверхностного вещества (т. е. депрессора) таким образом, чтобы частицы «сульфидов» стали менее гидрофобными, чем частицы талька, и их можно было бы отфлотировать, оставив тальк в пульпе.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:предприятие-mount-keith-pdf:3",
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "title": "Industrial implementation at Mt Keith (end‑2011)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "full‑scale application of the Talc Redesign technology to process stockpiled ore and maintain concentrate output"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:stockpiled-talc-rich-ore-from-mt-keith",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentrate production",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Успешное внедрение данной технологии в конце 2011 г . позволило компании при сокращении на 30% объема добычи на руднике Mt Keith в 1 кв .2012 г . ... сохранить объем производства концентрата",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "NiWest concentrate output (Q1 2012)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 9.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "за I п / г 2012 г . выпуск никеля в концентрате NiWest составил 9 тыс т",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The technology enabled the plant to keep concentrate output while mining volume fell",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Успешное внедрение данной технологии ... позволило компании ... сохранить объем производства концентрата",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Успешное внедрение данной технологии в конце 2011 г . позволило компании при сокращении на 30% объема добычи на руднике Mt Keith ... сохранить объем производства концентрата",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:предприятие-mount-keith-pdf:4",
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "title": "Flotation tests with varying solid content and emulsified diesel fuel",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mt-keith-nickel-sulfide-ore",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:emulsified-diesel-fuel",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Эмульгированный дизельный топливо действует как агломерирующая добавка, изменяя эффективность флотации.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Программа экспериментов на сульфидной руде Mt Keith включала : 1 опыты по флотации при разном содержании твердого в присутствии / отсутствии эмульгированного дизельного топлива (агломерирующая добавка)",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Программа экспериментов на сульфидной руде Mt Keith [I.Kilickaplan, 2009] включала : 1 опыты по флотации при разном содержании твердого в присутствии / отсутствии эмульгированного дизельного топлива (агломерирующая добавка)",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:предприятие-mount-keith-pdf:5",
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "title": "Flotation tests with CMC dispersant for slime control",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mt-keith-nickel-sulfide-ore",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:carboxymethyl-cellulose-cmc",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "CMC, being an anionic polymer, can be used to weaken the formation of slime coating on pentlandite particles.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "КМЦ (CMC), являясь анионным полимером, может быть использован для ослабления процесса образования шламового покрытия.",
+     "locator_kind": "md_para",
+     "locator": "para:74",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Программа экспериментов на сульфидной руде Mt Keith включала : 2 флотация с диспергированием шлама КМЦ",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:предприятие-mount-keith-pdf:6",
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "title": "Rheological measurements of mineral pulp under different experimental conditions",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "rheology measurement"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mt-keith-mineral-pulp",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Increased serpentine content leads to a sharp rise in the Bingham yield stress of the mineral pulp.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Bingham yield stress",
+      "direction": "increases",
+      "factor": "serpentine content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Как отмечали авторы [Senior, Thomas 2005], повышенное содержание серпентина приводит к резкому увеличению значений предела текучести Бингама для минеральной пульпы.",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Программа экспериментов на сульфидной руде Mt Keith включала : 3 измерения реологических свойств пульпы в разных экспериментальных условиях",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:предприятие-mount-keith-pdf:7",
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "title": "Mimosa ore flotation and de‑sludging experiments",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation and de‑sludging of high‑talc ore from the Mimosa mine (Zimbabwe)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mimosa-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:mimosa-ore",
+     "value": {
+      "min": null,
+      "nominal": 76.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "mpeg"
+     },
+     "method": null,
+     "snippet": "На 2004 г . извлечение МПГ в концентрат на ГОКе Mimosa повысилось с 76% до 79%",
+     "locator_kind": "md_para",
+     "locator": "para:106",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "depressant consumption",
+     "scope": "material",
+     "material_id": "mat:mimosa-ore",
+     "value": {
+      "min": null,
+      "nominal": 1.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "обесшламливание позволило более чем в полтора раза сократить расход депрессора",
+     "locator_kind": "md_para",
+     "locator": "para:106",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "high talc content causes reagent consumption to increase up to six times compared with Merensky reef ore",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "в руде Mimosa необычно высокое , по сравнению с рудой рифа Меренски в ЮАР , содержание талька , который вызывает проблемы при флотации , поглощая большие количества реагентов -достигая шестикратного превышения",
+     "locator_kind": "md_para",
+     "locator": "para:104",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В данной работе описаны результаты опытов по подбору оптимального коллектора / смеси коллекторов и по обесшламливанию .",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:предприятие-mount-keith-pdf:8",
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "title": "Dumont project flow‑sheet pilot study (as described in technical report)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "combined crushing, hydro‑cyclone de‑sludging, primary and secondary nickel sulfide flotation, magnetic separation, re‑grinding and final nickel sulfide + avaruite flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-from-dumont-project",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 29.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Конечной продукци -ей станет « объединенный » ( сульфидный + аваруитовый ) кон -центрат со средним содержанием никеля около 29%",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В последнем по времени Техническом отчете предлагается следующая схема : дробление / измельчение руды (SAG и ша -ровая мельница ), обесшламливание в цепочке гидроциклонов , флотация шлама , основная флотация сульфида никеля , пере -чистная флотация сульфида никеля , магнитная сепарация хвостов основной флотации , доизмельчение магнитного кон -центрата и хвостов первой перечистной флотации сульфида никеля , основная и перечистная флотация никелевого « метал -лического » ( аваруитовый ) концентрата .",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Mt Keith is the world’s largest open‑pit nickel sulfide mine.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Руд -ник Mt Keith самый крупный в мире открытый сульфидный никелевый рудник.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "The ore contains about 40 % MgO.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Содержание MgO в руде -около 40%.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Concentrate from Mt Keith contains roughly 20 % Ni, 26.6 % Fe, 25.1 % S and 9.6 % MgO.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Примерный состав концен‑трата Mt Keith, %: Ni - 20,9; Fe - 26,6; S - 25,1; MgO - 9,6",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "The Fe:MgO ratio of the concentrate blend fed to the Kalgoorlie smelter must be 5.3 or higher (i.e., <5 % MgO).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Отношение Fe:MgO в смеси концентратов, поступающих на плавку, должно быть 5,3 или выше (т. е. <5% MgO).",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Flotation of coarse particles is most efficient at high pulp density (>45 % solids) in the presence of acid.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Эффективность флотации крупных частиц существенно повышается при высокой плотности пульпы (>45% твердого) в присутствии кислоты.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Flotation of fine particles is most efficient at low pulp density (<20 % solids) with only collector and frother present.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Эффективность флотации тонких частиц существенно повышается при низкой плотности пульпы (<20% твердого) в присутствии только коллектора и пенообразователя.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "The Mt Keith processing plant has a capacity of about 11.5 Mt per year of ore, producing a flotation concentrate containing roughly 20 % Ni, with an annual Ni output of 35‑40 kt.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "На О/Ф производительностью около 11,5 млн т/г по руде получают флотационный концентрат, содержащий примерно 20% Ni. Объем производства - 35-40 тыс т/г Ni в концентрате.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Remaining mine life is estimated at about 13 years with possible extension.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Оставшийся срок эксплуатации рудника оценивается примерно в 13 лет с возможностью продления.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "The new furnace No 3 was planned to raise the working temperature by about 50 °C, which would lower the Fe:MgO boundary from 5.3 to 4.7",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Fe:MgO boundary",
+    "direction": "decreases",
+    "factor": "temperature increase ~50 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проект новой печи предусматривал повышение рабочей температуры примерно на 50° С , что позволило бы снизить границу Fe:MgO с 5,3 до 4,7.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Electro‑furnace would allow more efficient slag de‑enrichment",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "use of electro‑furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электропечь позволила бы более эффективно обеднять шлаки.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "BHP Billiton mentioned the possibility of increasing MgO tolerance during furnace repair",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "MgO tolerance",
+    "direction": "increases",
+    "factor": "furnace repair",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "BHP Billiton, которая лишь упомянула « о воз -можности повышения « терпимости » к MgO» по ходу ремонта печи",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Capital cost of the Talc Redesign project was estimated at 152 million US$",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Капитальные затраты по проекту оценены в 152 млн US$.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "The Talc Redesign project was commissioned in December 2011",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Ввод проекта в строй был запланирован на 2012 финансовый год и состоялся , действительно , в декабре 2011 г .",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "The invention (WO/2009/086606) emphasizes that talc‑rich ores are a problem not only at Mt Keith but also at several other Australian deposits",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Авторы изобретения подчеркивают , что проблема « тальковистых » руд не ограничивается Mt Keith, а существует и на ряде других австралийских месторождений.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Guar is a well‑known depressant for talc flotation",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "talc flotation",
+    "direction": "decreases",
+    "factor": "guar addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Действие гуара (и других модификаторов поверхности) заключается в том, что покрытые гуаром частицы флокулируют и флотируемость частиц талька подавляется. Это хорошо известный факт.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Optimal pH for sulfide flotation was determined (acidic conditions with sulfuric acid and guar)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sulfide flotation",
+    "direction": "increases",
+    "factor": "pH adjustment with sulfuric acid and guar",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В ходе исследований определено также оптимальное значение pH (флотируемость сульфидов улучшается при введении серной кислоты в комбинации с гуаром)",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Serpentine minerals suppress the flotation of pentlandite, and extraction decreases as serpentine content increases.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "decreases",
+    "factor": "serpentine content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Известно, что серпентины подавляют флотацию пентландита, извлечение которого снижается по мере повышения содержания серпентина.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "More than 90 % of the gangue (waste rock) in Mt Keith ore consists of serpentine minerals.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "На минералы группы серпентинов приходится более 90% пустой породы",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Chrysotile (white asbestos) makes up about 80 % of the mass of the Mt Keith ore.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Хризотил - основной компонент пустой породы в данной сульфидной никелевой руде, на него приходится порядка 80% массы руды.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Chrysotile fibers have a very high surface‑area‑to‑volume ratio, which sharply increases particle‑particle interactions, raising yield stress and viscosity of the pulp.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "viscosity",
+    "direction": "increases",
+    "factor": "chrysotile fiber morphology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Волокна хризотила имеют очень высокое отношение площади поверхности к объему частицы. Это приводит к резкому увеличению числа взаимодействий между частицами, следствием чего является увеличение пределов текучести и значений вязкости.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "When slime (tailings) carries a negative charge, slime coating on pentlandite particles does not form and flotation difficulties are not observed.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "slime coating formation",
+    "direction": "decreases",
+    "factor": "negative slime charge",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Когда шламы (хвосты флотации) имеют отрицательный заряд, шламовое покрытие на поверхности частиц пентландита не образуется и затруднения флотации не наблюдается.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Providing particles of both target mineral and slime with the same sign of surface charge prevents slime coating formation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "slime coating formation",
+    "direction": "decreases",
+    "factor": "matching surface charge",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Предотвратить образование шламового покрытия можно, обеспечив заряд одинакового знака на поверхности частиц как целевого минерала, так и шлама.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Serpentine minerals have a positive charge over a wide pH range, which can electrostatically attract negatively charged pentlandite particles, causing strong depression.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pentlandite depression",
+    "direction": "increases",
+    "factor": "serpentine positive charge",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поскольку серпентины имеют положительный заряд в широком интервале pH, вероятно, что частицы серпентина в результате электростатического притяжения атакуют отрицательно заряженную поверхность пентландита, результатом чего является сильная депрессия.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Chrysotile and brucite layers in chrysotile fibers carry a positive charge over a wide pH range, but the charge on chrysotile surface tends to become negative at pH > 10, leading to hetero‑agglomeration.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Однако имеется тенденция к изменению знака заряда на поверхности хризотила на отрицательный по мере роста pH (pH>10), приводящая к гетероагуляции этих частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "dry crushing / de‑fibrillation variant is extremely complex, with high operating costs and potential occupational safety and health problems",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Вариант с сухим дроблением / дефибрированием оказался чрезвычайно сложным , с высокими операционными затратами и потенциальными проблемами с безопасностью труда и охраной здоровья",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "the closest analogue to the Dumont project, according to Naldrett classification, is Mt Keith",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в соответствии с классификацией Налдрет -та , самым близким аналогом Dumont является Mt Keith",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Dumont differs from Mt Keith by the presence of avaruite and a limited degree of talc‑carbonate metamorphic replacement",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Основные отличия Dumont: наличие аваруита , ограниченная степень тальк‑карбонатного метаморфического вытеснения",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "Mimosa ore is processed by the traditional scheme: crushing/grinding, flotation, smelting/converting",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Руда Mimosa перерабатывается по традиционной схеме : дробление / измельчение , флотация , плавка / конвертирование",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "talc in Mimosa ore absorbs large amounts of reagents, reaching six‑fold excess compared with Merensky reef ore",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в руде Mimosa необычно высокое , по сравнению с рудой рифа Меренски в ЮАР , содержание талька , который вызывает проблемы при флотации , поглощая большие количества реагентов -достигая шестикратного превышения",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "extraction of MPg in concentrate at Mimosa plant in 2004 increased from 76% to 79%, still noticeably lower than Merensky concentrate extraction (80‑90%)",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "На 2004 г . извлечение МПГ в концентрат на ГОКе Mimosa повысилось с 76% до 79%, что всё равно замет -но ниже , чем извлечение в концентрат Меренски (80-90%)",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": null
+  },
+  {
+   "text": "talc transfers to the MPg concentrate, and smelting of the high‑magnesian concentrate can be associated with problems",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "тальк переходит в МПГ -концентрат , а плавка вы -сокомагнезиального концентрата может быть сопряжена с проблемами",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:предприятие-mount-keith-pdf",
+   "process": "smelting"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

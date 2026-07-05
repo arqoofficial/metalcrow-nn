@@ -5,6 +5,7 @@ from app.api.routes import (
     chat,
     graph,
     ingest,
+    litsearch,
     login,
     private,
     sources,
@@ -26,6 +27,7 @@ api_router.include_router(analytics.metrics_router)
 api_router.include_router(ingest.router)
 api_router.include_router(ingest.admin_router)
 api_router.include_router(sources.router)
+api_router.include_router(litsearch.router)
 
 
 if settings.ENVIRONMENT == "local":

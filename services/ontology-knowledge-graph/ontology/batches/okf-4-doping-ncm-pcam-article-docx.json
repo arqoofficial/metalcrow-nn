@@ -1,0 +1,435 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:4-doping-ncm-pcam-article-docx",
+   "title": "4 Doping NCM pCAM article.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "XX",
+   "lang": "en",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\4 Doping NCM pCAM article.docx.md",
+   "artifact_sha256": "8de81fd3f07d7147ed5772b97e26cdbd0e71471e9e7b3b13edc213938eb19416",
+   "okf_raw_path": "Статьи/4 Doping NCM pCAM article.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:al-doped-pcam",
+   "label": "Al‑doped PCAM",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ncm-undoped",
+   "label": "NCM (undoped)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ncma-al-doped",
+   "label": "NCMA (Al‑doped)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ncma-cathode-material",
+   "label": "NCMA cathode material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:4-doping-ncm-pcam-article-docx:0",
+   "document_id": "doc:4-doping-ncm-pcam-article-docx",
+   "title": "Synthesis of Al‑doped precursor (PCAM) by co‑precipitation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Aqueous solution of NiSO4, CoSO4, MnSO4 (2 mol∙L‑1) mixed with 4 M NaOH and ammonia in a stainless‑steel reactor under N2; Al2(SO4)3 solution added; greenish powders dried at 110 °C under vacuum.",
+       "temperature_text": "110 °C (drying)",
+       "duration_text": "unspecified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 383.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:al-doped-pcam",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Elemental composition",
+     "scope": "material",
+     "material_id": "mat:al-doped-pcam",
+     "value": {
+      "min": null,
+      "nominal": 0.86,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Elemental analysis performed by atomic emission spectroscopy measurements showed that formula units of PCAMs are … Ni 0.86 Co 0.07 Mn 0.05 Al 0.009 (OH) 2 for NCMA.",
+     "locator_kind": "md_para",
+     "locator": "para:15",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The dopant retains completely during lithiation process.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "dopant retention",
+      "direction": "increases",
+      "factor": "Al‑doping",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "During lithiation process the dopant retains completely.",
+     "locator_kind": "md_para",
+     "locator": "para:10",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "The precursors of cathode material (PCAM) were prepared via employing a controlled co‑precipitation reaction in a continuous stirred reactor.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:4-doping-ncm-pcam-article-docx:1",
+   "document_id": "doc:4-doping-ncm-pcam-article-docx",
+   "title": "Calcination of precursors to obtain cathode materials",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Calcination of PCAM with LiOH·H2O powder (molar ratio 1:1.08) at 750 °C for 12 h and then at 650 °C for 4 h in pure O2 atmosphere.",
+       "temperature_text": "750 °C (12 h) then 650 °C (4 h)",
+       "duration_text": "12 h + 4 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1023.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ncm-undoped",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:ncma-al-doped",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Phase identification (XRD)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "The resulted CAMs demonstrated almost similar diffraction peaks (Fig. 1b) which are corresponded to the LiNiO2 R3m phase (ICCD No01‑084‑8629).",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "distance",
+     "scope": "material",
+     "material_id": "mat:ncma-al-doped",
+     "value": {
+      "min": null,
+      "nominal": 21.0,
+      "max": null
+     },
+     "unit": "degrees",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "interlayer"
+     },
+     "method": null,
+     "snippet": "Inclusion of Al 3+ ions in the material crystal lattice led to the increasing the interlayer distances which is observed from the shifting the peak at 21°.",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Molar ratios of the components remain unchanged during calcination.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "composition stability",
+      "direction": "no_change",
+      "factor": "calcination",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Molar ratios of the components remain unchanged during calcination with regard to the precursors, so the formula units are LiNi0.86Co0.1Mn0.04O2 and LiNi0.86Co0.07Mn0.05Al0.009O2, respectively.",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Cathode materials were prepared by calcination of the PCAM with LiOH·H2O powder in molar ratio of 1:1.08 at 750 °C for 12 h and 650 °C for 4 h in the pure oxygen atmosphere.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:4-doping-ncm-pcam-article-docx:2",
+   "document_id": "doc:4-doping-ncm-pcam-article-docx",
+   "title": "Electrochemical performance test of Al‑doped cathode (NCMA)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Galvanostatic charge‑discharge cycling at various C‑rates.",
+       "temperature_text": "room temperature (unspecified)",
+       "duration_text": "100 cycles at 1 C (for stability test)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ncma-cathode-material",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Specific capacity at 0.1 C",
+     "scope": "material",
+     "material_id": "mat:ncma-al-doped",
+     "value": {
+      "min": null,
+      "nominal": 205.0,
+      "max": null
+     },
+     "unit": "mA∙h∙g‑1",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "The obtained material LiNi0.86Co0.07Mn0.05Al0.009O2 demonstrated remarkable performance (205 and 151 mA∙h∙g‑1 at 0.1 C and 2 C).",
+     "locator_kind": "md_para",
+     "locator": "para:4",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Specific capacity at 2 C",
+     "scope": "material",
+     "material_id": "mat:ncma-al-doped",
+     "value": {
+      "min": null,
+      "nominal": 151.0,
+      "max": null
+     },
+     "unit": "mA∙h∙g‑1",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "The obtained material LiNi0.86Co0.07Mn0.05Al0.009O2 demonstrated remarkable performance (205 and 151 mA∙h∙g‑1 at 0.1 C and 2 C).",
+     "locator_kind": "md_para",
+     "locator": "para:4",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Capacity retention after 100 cycles at 1 C",
+     "scope": "material",
+     "material_id": "mat:ncma-al-doped",
+     "value": {
+      "min": null,
+      "nominal": 83.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "The cyclic stability of the Al‑doped cathode material was 83% after 100 cycles at 1 C.",
+     "locator_kind": "md_para",
+     "locator": "para:4",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Al‑doping enhances high‑rate performance and cyclic stability.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "rate capability / stability",
+      "direction": "increases",
+      "factor": "Al‑doping",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "The doped cathode materials were demonstrated superior high‑rate performance (150 mAh∙g‑1 at 2 C) as well as enhanced cyclic stability at 1 C current.",
+     "locator_kind": "md_para",
+     "locator": "para:10",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "The doped cathode materials were demonstrated superior high‑rate performance (150 mAh∙g‑1 at 2 C) as well as enhanced cyclic stability at 1 C current.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Al‑doping can effectively enhance the rate of lithium‑ion intercalation or deintercalation due to enlarging the interlayer distances.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Li‑ion intercalation/deintercalation rate",
+    "direction": "increases",
+    "factor": "Al‑doping",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The excellent performance demonstrates that Al‑doping can effectively enhance the rate of lithium ions intercalation or deintercalation due to enlarging the interlayer distances.",
+   "locator_kind": "md_para",
+   "locator": "para:4",
+   "confidence": 0.81,
+   "document_id": "doc:4-doping-ncm-pcam-article-docx",
+   "process": null
+  },
+  {
+   "text": "Doping of precursors is an easy and effective route to enhance the functional properties of the cathode materials.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "functional properties of cathode materials",
+    "direction": "increases",
+    "factor": "precursor doping",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "the doping of precursors is ease and effective route to enhance the functional properties of the cathode materials.",
+   "locator_kind": "md_para",
+   "locator": "para:4",
+   "confidence": 0.9,
+   "document_id": "doc:4-doping-ncm-pcam-article-docx",
+   "process": null
+  },
+  {
+   "text": "Al‑3+ ions improve the structural stability of cathode active material and reduce microcracking.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "structural stability / microcracking",
+    "direction": "increases",
+    "factor": "Al‑3+ ions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Among the doping ions, Al 3+ ones improve the structural stability of CAM and reduce microcracking process.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.81,
+   "document_id": "doc:4-doping-ncm-pcam-article-docx",
+   "process": null
+  },
+  {
+   "text": "Nickel‑rich layered‑type cathodes have high theoretical and practical specific capacity (~200 mA∙h∙g‑1) and operating voltage >3.8 V vs. Li/Li+.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "specific capacity / voltage",
+    "direction": "increases",
+    "factor": "nickel‑rich NCM",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "high theoretical and practical (about 200 mA∙h∙g‑1) specific capacity, operating voltage (E > 3.8 V vs. Li/Li+).",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.81,
+   "document_id": "doc:4-doping-ncm-pcam-article-docx",
+   "process": null
+  },
+  {
+   "text": "The most common method of adding dopant ions to the CAM structure is to introduce them at the precursor calcination stage in the presence of LiOH and a doping agent.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "The most common method of adding dopant ions to the CAM structure is to introduce them at the precursor calcination stage in the presence of LiOH and a doping agent.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:4-doping-ncm-pcam-article-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

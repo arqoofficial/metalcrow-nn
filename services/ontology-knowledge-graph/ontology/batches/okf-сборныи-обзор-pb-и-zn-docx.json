@@ -1,0 +1,2039 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "Сборный обзор. Pb и Zn.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Сборный обзор. Pb и Zn.docx.md",
+   "artifact_sha256": "bcc3aae2cdd56383d390ff8ffd3b285e96e70505f42f59a029aa35d8b5eb2a48",
+   "okf_raw_path": "Обзоры/Сборный обзор. Pb и Zn.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:lead-containing-materials",
+   "label": "lead‑containing materials",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:various-concentrates-and-secondary-materials-mai",
+   "label": "various concentrates and secondary materials (mainly lead‑silver slags)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:primary-and-secondary-lead-raw-materials",
+   "label": "primary and secondary lead raw materials",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lead-concentrates",
+   "label": "lead concentrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:quartz-and-lime-fluxes-carbon-materials-coke-oth",
+   "label": "quartz and lime fluxes, carbon materials, coke, other recycle streams",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coke-or-clinker",
+   "label": "coke or clinker",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:zinc-cakes-sintered",
+   "label": "zinc cakes (sintered)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:crushed-battery-scrap",
+   "label": "crushed battery scrap",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lead-concentrates-rich-65-70-pb-poor-45-50-pb",
+   "label": "lead concentrates (rich 65‑70 % Pb, poor 45‑50 % Pb)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coke-imported",
+   "label": "coke (imported)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:смесь-аккумуляторного-лома-с-корпусами-из-полипр",
+   "label": "смесь аккумуляторного лома с корпусами из полипропилена и частично из эбонита",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:смесь-аккумуляторного-лома-40-т-сут",
+   "label": "смесь аккумуляторного лома (40 т/сут)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:zinc-concentrate",
+   "label": "zinc concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:сборныи-обзор-pb-и-zn-docx:0",
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "QSL plant in Stolberg (Metallgesellschaft AG, Germany)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "QSL (Queneau‑Schuman‑Lurgi) direct lead smelting",
+       "temperature_text": "1200 °C"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1473.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-containing-materials",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "Содержание свинца в шлаке при 1200 °С в зоне восстановления снижается до 2%.",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "overall lead extraction",
+     "scope": "material",
+     "material_id": "mat:lead-containing-materials",
+     "value": {
+      "min": null,
+      "nominal": 98.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Общее извлечение свинца превышает 98%.",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The converter can process 80 000 t of lead per year.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "annual lead capacity",
+      "direction": "increases",
+      "factor": "80 тыс. т/год",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Производительность конвертера QSL по свинцу составляет 80 тыс. т/год при длине 33 м, в том числе длине плавильной зоны 12,5 м, зоны восстановления шлака — 20,5 м, их диаметрах 3,5 и 3 м соответственно.",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Схема завода компании Metallgesellschaft AG (Германия) в Штольберге приведена на рисунке 1.1. Установка предназначена для переработки 150 тыс. т/год свинецсодержащих материалов, доля вторичного сырья в которых по проекту составляет около 1/3.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сборныи-обзор-pb-и-zn-docx:1",
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "QSL plant at Korea Zink, Onsan, Republic of Korea",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "QSL direct lead smelting (adapted)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:various-concentrates-and-secondary-materials-mai",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "secondary material share in charge",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 35.0,
+      "nominal": null,
+      "max": 47.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Содержание вторичного сырья в шихте 35 - 47%.",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "overall lead extraction",
+     "scope": "material",
+     "material_id": "mat:lead-containing-materials",
+     "value": {
+      "min": null,
+      "nominal": 98.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Общее извлечение свинца составляет - 98 %",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "zinc volatilization from slag",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 30.0,
+      "nominal": null,
+      "max": 40.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "возгонка цинка из шлаков осуществляется лишь на 30 - 40%.",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Final zinc depletion to about 3 % Zn and 1 % Pb is achieved in an Ausmelt furnace.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "zinc depletion",
+      "direction": "decreases",
+      "factor": "до 3% no Zn и до 1% по РЬ",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Окончательное их обеднение до 3% no Zn и до 1% по РЬ проводится в печи Ausmelt с погружной фурмой.",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Технология QSL была внедрена также на свинцовом заводе компании Korea Zink в г. Онсан, Республика Корея.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сборныи-обзор-pb-и-zn-docx:2",
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "Cominco (Canada) attempted QSL installation, 1989",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "QSL pilot/plant attempt"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:primary-and-secondary-lead-raw-materials",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The project was not successful and the QSL reactor was replaced by a KIVCET furnace.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "project outcome",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Процесс не был освоен. После неудачных попыток заменить пыле-уголь на медленно горящий метан реактор QSL был заменен КИВЦЭТной печью.",
+     "locator_kind": "md_para",
+     "locator": "para:73",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Компания Cominco (Канада) пыталась ввести в строй в 1989 году установку по технологии QSL для получения свинца совместно из первичного и вторичного сырья.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сборныи-обзор-pb-и-zn-docx:3",
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "Industrial operation of KIVTS‑ET‑CS furnace",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "smelting of lead‑zinc concentrates with dry or wet charge preparation, injection of charge and technical oxygen (95–96% O₂) into the roasting‑melting chamber",
+       "temperature_text": "flame temperature up to 1300 °C, then 1200 °C; slag bath in the electric‑thermal chamber 1350–1400 °C",
+       "duration_text": "continuous plant operation (no explicit time given)"
+      },
+      "temperature": {
+       "min": 1623.15,
+       "nominal": null,
+       "max": 1673.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-concentrates",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:quartz-and-lime-fluxes-carbon-materials-coke-oth",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "degree of desulphurization",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Степень десульфуризации шихты достигает 90%.",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:lead-containing-materials",
+     "value": {
+      "min": 35.0,
+      "nominal": null,
+      "max": 40.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "Извлечение свинца в черновой металл в обжигово-плавильной камере достигает 35–40% от исходного в концентрате.",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "zinc recovery in fumes",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 90.0,
+      "nominal": null,
+      "max": 92.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В электротермической камере образующийся металлический свинец в основном переходит в черновой металл, часть свинца – в возгоны, а цинк переводится в возгоны на 90–92 %.",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "dust capture in electro‑filter",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.99,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В электрофильтре улавливается 99,99% пыли.",
+     "locator_kind": "md_para",
+     "locator": "para:94",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The process yields liquid products (raw lead, slag, sometimes matte, and SO₂‑rich gases).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "product composition",
+      "direction": "increases",
+      "factor": "SO₂ concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В обжигово-плавильной камере получают жидкие продукты плавки: черновой свинец, шлак, иногда штейн и концентрированные по SO₂ (~70%) технологические газы.",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Шихту из бункеров и технический кислород (95–96% O₂) через вертикальную горелку вводят в обжигово-плавильную камеру агрегата (1.2).",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сборныи-обзор-pb-и-zn-docx:4",
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "Industrial modification with coke/clinker filter in the roasting‑melting chamber",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "addition of coke or clinker on the slag‑bath surface after sintering zinc cakes, creating a coke filter layer through which the slag melt passes",
+       "temperature_text": "slag bath 1350–1400 °C (same as base plant)",
+       "duration_text": "continuous plant operation after retrofit (no explicit time given)"
+      },
+      "temperature": {
+       "min": 1623.15,
+       "nominal": null,
+       "max": 1673.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:coke-or-clinker",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:zinc-cakes-sintered",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:lead-containing-materials",
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "Извлечение свинца в черновой металл в обжигово-плавильной камере повышается с 35–40% до 90%.",
+     "locator_kind": "md_para",
+     "locator": "para:99",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "lead oxide  in slag after electric-thermal treatment"
+     },
+     "method": null,
+     "snippet": "В электротермической камере аппарата, куда переходит шлак для доработки, концентрация оксида свинца быстро снижается до 1%.",
+     "locator_kind": "md_para",
+     "locator": "para:99",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The coke filter enables production of slag with low lead‑oxide content and smaller volume.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "slag quality",
+      "direction": "increases",
+      "factor": "quality",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Восстановительный коксовый фильтр в обжигово-плавильной камере позволяет получать шлак с невысоким содержанием оксида свинца и меньшего объема.",
+     "locator_kind": "md_para",
+     "locator": "para:99",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для повышения извлечения свинца в черновой металл в обжигово-плавильной камере было предложено усовершенствовать процесс плавки в аппарате КИВЦЭТ путем загрузки на поверхность шлаковой ванны ... восстановителя – кокса или клинкера после вельцевания цинковых кеков.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сборныи-обзор-pb-и-zn-docx:5",
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "Semi‑industrial tests of the KEPAL‑JV process",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "KEPAL‑JV autogenous melting of crushed battery scrap in a bubbling liquid bath",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:crushed-battery-scrap",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "throughput",
+     "scope": "material",
+     "material_id": "mat:crushed-battery-scrap",
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Полупромышленные испытания этого процесса на установке производительностью около 40 т лома в сутки позволили получить следующие показатели",
+     "locator_kind": "md_para",
+     "locator": "para:166",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The semi‑industrial tests demonstrated the feasibility of producing lead‑antimony alloy, copper slag and furnace slag from un‑sorted battery scrap.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Основными продуктами процесса являются свинцово‑сурьмянистый сплав, кондиционный медный штейн и отвальной шлак.",
+     "locator_kind": "md_para",
+     "locator": "para:165",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Полупромышленные испытания этого процесса на установке производительностью около 40 т лома в сутки позволили получить следующие показатели",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сборныи-обзор-pb-и-zn-docx:6",
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "Industrial modernization of a lead smelter in Kazakhstan (2010‑2013)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ISASMELT™ technology with TSL top‑submerged lance",
+       "temperature_text": "1150 °C (temperature of poured slag)",
+       "duration_text": "2010‑2013"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1423.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-concentrates-rich-65-70-pb-poor-45-50-pb",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:coke-imported",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:various-concentrates-and-secondary-materials-mai",
+     "value": {
+      "min": null,
+      "nominal": 500.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "slag cooling  after air cooling"
+     },
+     "method": null,
+     "snippet": "затем принудительно охлаждается при помощи воздуходувок для снижения температуры до 500 °C",
+     "locator_kind": "md_para",
+     "locator": "para:158",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 300.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "final chill  of lead chunks"
+     },
+     "method": null,
+     "snippet": "чтобы охладить чушки до температуры менее 300 °C",
+     "locator_kind": "md_para",
+     "locator": "para:158",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The modernization eliminated large consumption of imported coke, enabled processing of copper‑containing products from a zinc plant, and removed sulfur‑rich gases from atmospheric emission.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Модернизация устранила следующие недостатки процесса: • крупный объем потребления импортного кокса • невозможность перерабатывать медьсодержащие продукты с цинкового завода, ставящим под угрозу экологическую обстановку местности • выработка обедненных серных газов и их выброс в атмосферу из-за неэффективности их использования.",
+     "locator_kind": "md_para",
+     "locator": "para:151",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В 2010-2013 гг. компания Engineering Dobersek GmbH участвовала в новом проекте по модернизации завода по выплавке свинца в Казахстане (компания Казцинк).",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сборныи-обзор-pb-и-zn-docx:7",
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "Полупромышленные испытания процесса на установке 40 т/сут",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "КЭПАЛ‑ЖВ (пирометаллургическая переработка)",
+       "temperature_text": "не указана",
+       "duration_text": "не указана"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:смесь-аккумуляторного-лома-с-корпусами-из-полипр",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "удельная производительность по шихте, т/м²‑сут",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "т/м²‑сут",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "удельная производительность по шихте, т/м 2 -сутки — 40-50",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 350.0,
+      "max": null
+     },
+     "unit": "нм³/т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "кислорода, нм³/т шихты, не более"
+     },
+     "method": null,
+     "snippet": "расход кислорода, нм 3 /т шихты, не более — 350",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 97.3,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "извлечение свинца в Pb-Sb сплав, % — 97,3",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "yield_fraction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "шлака"
+     },
+     "method": null,
+     "snippet": "выход шлака, % от сырья, не более — 10",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "содержание свинца в шлаке, % — менее 1",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "извлечение Сu в товарный штейн, % — 80",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "расчетный расход электроэнергии на промышленной установке, кВтч/",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 210.0,
+      "max": null
+     },
+     "unit": "kWh/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "расчетный расход электроэнергии на промышленной установке, кВт ч/т чернового свинца — 210",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Получены высокие показатели извлечения свинца и низкое содержание свинца в шлаке.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "не указано",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "извлечение свинца в Pb-Sb сплав, % — 97,3",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Полупромышленные испытания этого процесса на установке производительностью около 40 т лома в сутки позволили получить следующие показатели:",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сборныи-обзор-pb-и-zn-docx:8",
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "Полупромышленные испытания того же процесса (повторные измерения)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "КЭПАЛ‑ЖВ",
+       "temperature_text": "не указана",
+       "duration_text": "не указана"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:смесь-аккумуляторного-лома-40-т-сут",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "удельная производительность плавильной зоны по шихте, т/м²‑сут",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "т/м²‑сут",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "удельная производительность плавильной зоны по шихте, т/м 2 сут — 40",
+     "locator_kind": "md_para",
+     "locator": "para:179",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 300.0,
+      "max": null
+     },
+     "unit": "нм³/т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "кислорода, нм³/т шихты, не более"
+     },
+     "method": null,
+     "snippet": "расход кислорода, нм 3 т шихты, не более — 300",
+     "locator_kind": "md_para",
+     "locator": "para:179",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 97.2,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "извлечение свинца в черновой сплав, %, — 97,2",
+     "locator_kind": "md_para",
+     "locator": "para:179",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "yield_fraction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "шлаков"
+     },
+     "method": null,
+     "snippet": "выход шлаков, % от сырья, — 4",
+     "locator_kind": "md_para",
+     "locator": "para:179",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "содержание свинца в шлаке, % — менее 1",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 220.0,
+      "max": null
+     },
+     "unit": "kWh/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "электроэнергии на промышленной установке, квтч/т чернового с"
+     },
+     "method": null,
+     "snippet": "расход электроэнергии на промышленной установке, кВтч/т чернового свинца — 220",
+     "locator_kind": "md_para",
+     "locator": "para:179",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Показатели почти совпадают с предыдущими, но расход кислорода снижен до 300 нм³/т.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "flow_rate",
+      "direction": "decreases",
+      "factor": "не указано",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "расход кислорода, нм 3 т шихты, не более — 300",
+     "locator_kind": "md_para",
+     "locator": "para:179",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "При полупромышленных испытаниях этого процесса на установке производительностью 40 т лома в сутки были получены следующие результаты:",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сборныи-обзор-pb-и-zn-docx:9",
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "title": "industrial application",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reconstruction of an eight‑bed furnace at the Trail (Canada) plant",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:zinc-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "moisture after second drying stage",
+     "scope": "material",
+     "material_id": "mat:zinc-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 0.5,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "до содержания влаги менее 0,5 %",
+     "locator_kind": "md_para",
+     "locator": "para:216",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 95.0,
+      "max": null
+     },
+     "unit": "µm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "after grinding"
+     },
+     "method": null,
+     "snippet": "95 % класса –74 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:216",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "two upper and two lower beds were retained and equipped with burners for combustion of the concentrate in a suspended state",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "process modification",
+      "direction": "increases",
+      "factor": "combustion efficiency",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В образовавшейся на месте удаленных подов камере были установлены две горелки для сжигания концентрата во взвешенном состоянии.",
+     "locator_kind": "md_para",
+     "locator": "para:215",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В качестве усовершенствования многоподовых печей на заводе Трейл (Канада) провели реконструкцию восьмиподовой печи Веджа.",
+   "locator_kind": "md_para",
+   "locator": "para:215",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Автогенные процессы – это технологические процессы, которые осуществляются полностью за счет внутренних энергетических ресурсов без затрат посторонних источников теплоты – топлива или электрического тока.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "definition",
+    "direction": "no_change",
+    "factor": "energy source",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Автогенные процессы – это технологические процессы, которые осуществляются полностью за счет внутренних энергетических ресурсов без затрат посторонних источников теплоты – топлива или электрического тока.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Тепло при автогенных плавках выделяется за счет реакции окисления серосодержащих компонентов шихты.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heat generation mechanism",
+    "direction": "no_change",
+    "factor": "reaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тепло при автогенных плавках выделяется за счет реакции окисления серосодержащих компонентов шихты.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Для медно-цинкового сырья автогенный режим наступает при содержании в нем 30–35 % серы и 27–30 % железа, для свинцового сырья – при 20–23 % серы и 15–20 % железа.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "applicability condition (sulfur and iron content)",
+    "direction": "no_change",
+    "factor": "sulfur and iron percentages",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для медно-цинкового сырья автогенный режим наступает при содержании в нем 30–35 % серы и 27–30 % железа, для свинцового сырья – при 20–23 % серы и 15–20 % железа.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.81,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Температура подогрева дутья определяется количеством сульфидов, которое может быть окислено по условиям технологии и составляет 200–600 °С.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "no_change",
+    "factor": "sulfide content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура подогрева дутья определяется количеством сульфидов, которое может быть окислено по условиям технологии и составляет 200–600 °С.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.81,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Разработан и является перспективным для переработки свинцовых концентратов процесс КИВЦЭТ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "development status",
+    "direction": "no_change",
+    "factor": "technology readiness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработан и является перспективным для переработки свинцовых концентратов процесс КИВЦЭТ.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Additional heat for the process can be obtained by pre‑heating the blast air, the required pre‑heat temperature being 200–600 °C, which is defined by the amount of sulfides that can be oxidized under the technology conditions.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "200–600 °С",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Дополнительная теплота для процесса может быть получена за счет предварительного подогрева дутья (необходимая температура подогрева дутья определяется количеством сульфидов, которое может быть окислено по условиям технологии и составляет 200–600 °С)",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Heat can also be supplied by burning a certain amount of carbonaceous fuel – a semi‑autogenous process.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "heat supply method",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "так и за счет сжигания некоторого количества углеродистого топлива – полуавтогенный процесс.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Using oxygen‑enriched or pure technological oxygen in the blast reduces consumption items, because less ballast nitrogen lowers the volume of exhaust gases and thus the associated heat losses.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fuel and heat loss reduction",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Уменьшение статей расхода достигается при использовании дутья, обогащенного кислородом, или чистого технологического кислорода. Снижение количества балластного азота приводит к уменьшению количества отходящих газов и, следовательно, к уменьшению тепловых потерь с ними.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "The oxygen content required in the blast to achieve an autogenous regime depends on the sulfur content in the charge and the degree of desulphurisation.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Необходимое для достижения автогенного режима, содержание кислорода в дутье зависит от содержания серы в шихте и степени десульфуризации.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Direct smelting processes offer several significant advantages: reduced environmental pollution due to less dust, considerable fuel savings through efficient use of heat during melting, and higher SO₂ concentration in off‑gas which is more suitable for sulfuric acid production.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Процессы прямой плавки предлагают несколько существенных преимуществ, а именно:\n- Минимизация загрязнения окружающей среды из-за меньшего количества пыли\n- значительная экономия топлива за счет эффективного использования тепла во время плавки\n- более высокая концентрация диоксида серы в отходящем газе, что более подходит для производства серной кислоты.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.81,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "The KIVCET‑CS process has low specific productivity because of the long slag treatment time in the electric‑thermal chamber.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "specific productivity",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Недостатком процесса является низкая удельная производительность процесса, связанная с большой продолжительностью доработки шлака в электротермической камере.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "The specific productivity of the process is low because of the long residence time of slag in the electric‑thermal chamber.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "productivity",
+    "direction": "decreases",
+    "factor": "long slag residence time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Недостатком процесса является низкая удельная производительность процесса, связанная с большой продолжительностью доработки шлака в электротермической камере.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Charge particle size must not exceed 2 mm.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "no_change",
+    "factor": "max 2 mm",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Крупность частиц компонентов шихты не должна превышать 2 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Charge moisture must be between 1.0 % and 1.5 % to keep the charge free‑flowing.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "moisture",
+    "direction": "no_change",
+    "factor": "1.0–1.5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чтобы шихта была сыпучей, влажность ее не должна превышать 1,0–1,5%.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Technical oxygen with 95–96 % O₂ is used for the process.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxygen purity",
+    "direction": "no_change",
+    "factor": "95–96 % O₂",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технический кислород (95–96% O₂) через вертикальную горелку вводят в обжигово-плавильную камеру агрегата.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.81,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Flame length exceeds 2 m.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flame length",
+    "direction": "increases",
+    "factor": "more than 2 m",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Смесь шихты с кислородом, выходящая из сопла горелки в своде плавильной камеры, воспламеняется, образуя вертикальный факел длиной более 2 м.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "The electric‑thermal chamber requires a large area, which raises equipment cost.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "equipment cost",
+    "direction": "increases",
+    "factor": "large chamber area",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "невысокая производительность электротермической камеры при доработке шлаков ... требует большой площади электротермической камеры и значительно повышает стоимость аппарата",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.45,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Fumes captured contain about 50 % zinc and 22–30 % lead.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "no_change",
+    "factor": "50 % Zn, 22–30 % Pb",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Уловленные возгоны содержат около 50% цинка и 22–30% свинца.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Cleaned gases contain 30–70 % SO₂ and can be used for sulfuric acid, liquid anhydride or elemental sulfur production.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SO₂ content",
+    "direction": "no_change",
+    "factor": "30–70 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Очищенные газы, содержащие 30–70% SO₂, могут быть использованы для производства серной кислоты, жидкого ангидрида или элементарной серы.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "The process allows improvement of lead extraction, better quality zinc fumes, and increased lead recovery when using the coke filter version of the KIVTS‑ET‑KF furnace.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lead extraction, fumes quality",
+    "direction": "increases",
+    "factor": "coke filter",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плавка свинцовых концентратов в аппарате КИВЦЭТ‑КФ с коксовым фильтром позволяет повысить производительность аппарата, значительно улучшить качество цинковых возгонов, которые содержат мало свинца и не содержат хлора и фтора; увеличить извлечение свинца в черновой металл.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.81,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "When air is blown at 1000 °C the off‑gas yield is 20 %; enriching the blast air with oxygen to 35 % raises the temperature sharply and increases the off‑gas yield to 40 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "off‑gas yield",
+    "direction": "increases",
+    "factor": "oxygen enrichment to 35 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При плавке на воздушном дутье при 1000°С выход возгонов составляет 20%; увеличение степени обогащения дутья кислородом до 35% резко повышает температуру и увеличивает выход возгонов до 40%.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Lead content in furnace slag is about 3 %.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Содержание свинца в отвальном шлаке составляет около 3 %.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "The Ausmelt top‑submerged lance can be used to feed fuel, air or oxygen into a molten slag bath for the production of copper, lead, nickel, tin and zinc.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В основе процесса лежит верхняя погружная фурма (TSL- Top Submerged Lance) Ausmelt, которая используется для подачи топлива/воздуха/кислорода в ванну расплавленного шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Ausmelt technology is considered economically efficient and is used worldwide for processing lead‑ and zinc‑containing materials.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Технология Ausmelt обеспечивает превосходное решение для переработки свинец и цинк содержащих материалов. Технология рассматривается металлургической промышленностью как экономически эффективная и используется по всему миру.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "The ISASMELT™ process, implemented in the “New Metallurgy” project, expanded the range of lead products that can be processed and completely eliminated sulfur, preventing the formation of slag in the furnace.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sulfur removal",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полное удаление серы предотвращает образование штейна в доменной печи.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "A simple raw‑material preparation system can handle concentrates with moisture up to 14 % and consists of bunkers, conveyors, feeders and a mixing drum.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Простая система подготовки сырья, предназначенная для обработки концентратов с влажностью до 14% и состоящая из бункеров, конвейеров, питателей и смесительного барабана.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "The slag poured from the ISASMELT furnace is at about 1150 °C and is cooled first by natural air, then by forced air to 500 °C, and finally by water spray to below 300 °C before the lead chunks are transferred to the furnace for reduction.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Температура разливаемого шлака составляет около 1150 °C. Шлак охлаждается воздухом естественным образом в голове литейной машины, затем принудительно охлаждается при помощи воздуходувок для снижения температуры до 500 °C и в хвосте машины происходит дополнительное охлаждение водой, распыляемой 20ю соплами сверху и снизу, чтобы охладить чушки до температуры менее 300 °C.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Использование КЭПАЛ процесса позволяет существенно повысить гибкость технологии переработки аккумуляторного лома, как с точки зрения достижения высоких технических показателей, так и с точки зрения получения различных видов товарной продукции.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "гибкость технологии",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использование КЭПАЛ процесса позволяет существенно повысить гибкость технологии переработки аккумуляторного лома, как с точки зрения достижения высоких технических показателей, так и с точки зрения получения различных видов товарной продукции.",
+   "locator_kind": "md_para",
+   "locator": "para:180",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Возможно получение попеременно как свинцово‑сурьмянистого сплава, так и малосурьмянистого свинца в одной и той же печи КЭПАЛ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "вид продукции",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Возможно получение попеременно как свинцово-сурьмянистого сплава, так и малосурьмянистого свинца в одной и той же печи КЭПАЛ.",
+   "locator_kind": "md_para",
+   "locator": "para:181",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "КЭПАЛ и КЭПАЛ‑ЖБ процессы открывают возможности для переработки других видов вторичного свинцового сырья: свинцовой изгари, пасты, пылей, сплавов, стружки, кабельных оболочек, различных промпродуктов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "применимость к различным видам сырья",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "КЭПАЛ и КЭПАЛ-ЖБ процессы открывают возможности для переработки других видов вторичного свинцового сырья: свинцовой изгари, пасты, пылей, сплавов, стружки, кабельных оболочек, различных промпродуктов: некондиционных штейнов, оборотов рафинирования свинца и др.",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Автогенность процессов, высокая удельная производительность по сырью, низкий уровень расхода топлива и электроэнергии, отсутствие сложных стадий подготовки сырья и сточных вод — основные преимущества КЭПАЛ‑ЖВ и КЭПАЛ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "технические преимущества",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по мнению авторов, процессы КЭПАЛ-ЖВ и КЭПАЛ обеспечивают следующие преимущества технологии переработки аккумуляторного лома: - автогенность процессов; - высокая удельная производительность по сырью; - незначительная зависимость технологических показателей переработки исходного сырья от его состава; - низкий уровень расхода топлива и электроэнергии; - исключение сложных стадий подготовки сырья; - уменьшение объема технологических газов и достижение норм выброса вредных веществ в окружающую среду; - исключение расхода топлива на дожигание органики в газах; - использование тепла отходящих технол",
+   "locator_kind": "md_para",
+   "locator": "para:186",
+   "confidence": 0.81,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Полипропилен, полученный в результате гидродинамического разделения, может быть использован повторно для различных промышленных целей, а его сжигание в агрегате КЭПАЛ‑ЖБ или захоронение экономически нецелесообразно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "повторное использование полипропилена",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полипропилен может быть использован повторно для различных промышленных целей, а сжигание его в агрегате КЭПАЛ-ЖБ или захоронение экономически нецелесообразно.",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Автогенность плавки в агрегате КЭПАЛ достигается за счет тепла сгорания органики, без добавки дополнительного топлива или восстановителя.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "энергетическая автономность",
+    "direction": "increases",
+    "factor": "не указано",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Автогенность плавки в агрегате КЭПАЛ достигается за счет тепла сгорания органики. Свинец из оксидного расплава восстанавливается в плавильной шахте печи КЭПАЛ органикой корпусов без добавки дополнительного топлива или восстановителя.",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Recovery of zinc from oxide to metal by carbon and CO occurs at 1000–1100 °C",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "reduction efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Восстановление оксида цинка до металла углеродом и СО происходит при температуре 1000–1100 °С",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Boiling point of the obtained zinc is 906 °C",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "boiling point",
+    "direction": "increases",
+    "factor": "zinc volatility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "температура кипения получаемого при этом цинка – 906 °С",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Direct extraction of zinc to metal in the pyrometallurgical scheme is about 93 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "metal yield",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сравнительно высокое прямое извлечение цинка в металл (93%)",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Coke consumption can reach up to 25 % of the agglomerate mass",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "coke consumption",
+    "direction": "increases",
+    "factor": "raw material cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "большой расход кокса (до 25% от массы агломерата)",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "In world practice, pyrometallurgical method yields no more than 15 % of total zinc production",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share of global zinc production",
+    "direction": "decreases",
+    "factor": "method popularity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в мировой практике по пирометаллургическому способу получают не более 15 % цинка",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "The pyrometallurgical technology is usually applied to low‑grade zinc concentrates with high iron, arsenic, antimony, silica and low rare‑metal content",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitable feedstock",
+    "direction": "increases",
+    "factor": "applicability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эта технология обычно применяется для переработки бедных цинковых концентратов с высоким содержанием примесей железа, мышьяка, сурьмы, кремнезема и с невысоким содержанием редких металлов",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "For hydrometallurgical processing, the roasted concentrate (slag) must contain 3–4 % sulfate sulfur to compensate acid losses",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sulfate sulfur content",
+    "direction": "increases",
+    "factor": "acid balance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "оставить в обожженном продукте небольшое количество сульфатной серы, обычно в пределах 3–4 %",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Multibed furnaces have a low productivity of 40–60 t per day of concentrate",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "productivity",
+    "direction": "decreases",
+    "factor": "throughput",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "низкая производительность (40–60 т/сут по концентрату)",
+   "locator_kind": "md_para",
+   "locator": "para:209",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "SO₂ content in furnace exhaust gases is 6–7 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "emission level",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание SO2 в отходящих из печи газах составляет 6–7 %",
+   "locator_kind": "md_para",
+   "locator": "para:207",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Dust loss during roasting is about 10 % of the concentrate mass",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dust loss",
+    "direction": "increases",
+    "factor": "material loss",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вынос пылив процессе обжига – около 10 % от массы концентрата",
+   "locator_kind": "md_para",
+   "locator": "para:207",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Approximately 12–15 % sulfur remains in semi‑roasted lumps (up to 25 % of the slag) and must be re‑crushed and re‑roasted",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "re‑processing need",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "до 25 % огарка выходит в виде полуобоженных комков, содержащих 12–15 % серы",
+   "locator_kind": "md_para",
+   "locator": "para:207",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  },
+  {
+   "text": "Fuel consumption for autogenous roasting in multibed furnaces is about 3–5 % of the nominal fuel",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fuel consumption",
+    "direction": "increases",
+    "factor": "energy requirement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при обжиге в многоподовых печах, вследствие больших потерь тепла с отходящими газами, на нижних подах его бывает недостаточно для дожигания оставшихся сульфидов цинка. В связи с этим приходится расходовать около 3–5 % условного топлива.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:сборныи-обзор-pb-и-zn-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

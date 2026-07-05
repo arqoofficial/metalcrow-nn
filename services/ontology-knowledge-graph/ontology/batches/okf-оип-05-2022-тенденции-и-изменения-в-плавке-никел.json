@@ -1,0 +1,1664 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "title": "ОИП-05-2022 Тенденции и изменения в плавке никелевых сульфидных концентратов.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ОИП-05-2022 Тенденции и изменения в плавке никелевых сульфидных концентратов.docx.md",
+   "artifact_sha256": "a6b1355fc550d2a27bf2ffaf87b664d5ad2d03a980b6768eb0f27d7106c39c7d",
+   "okf_raw_path": "Обзоры/ОИП-05-2022 Тенденции и изменения в плавке никелевых сульфидных концентратов.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:kevitsa-ore",
+   "label": "Kevitsa ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-concentrates-own-and-third-party",
+   "label": "Nickel concentrates (own and third‑party)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag",
+   "label": "slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:concentrate",
+   "label": "concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:liquid-vp-slag",
+   "label": "liquid VP slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:оип-05-2022-тенденции-и-изменения-в-плавке-никел:0",
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "title": "Laboratory and pilot scale flotation studies (2004‑2009)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Sequential flotation to obtain separate copper and nickel concentrates"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:kevitsa-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 7.0,
+      "nominal": null,
+      "max": 12.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "получены никелевые концентраты, содержащий ~7-12% Ni, 1,25-1,85% Cu; 40-44% Fe и от ~3% MgO (концентрат с 12,2% Ni) до ~6,5-8,1% MgO (6,9% и 8,1% Ni; Fe/MgO 6,8 и 5,5).",
+     "locator_kind": "md_para",
+     "locator": "para:178",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 1.25,
+      "nominal": null,
+      "max": 1.85
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "получены никелевые концентраты, содержащий ~7-12% Ni, 1,25-1,85% Cu; 40-44% Fe и от ~3% MgO (концентрат с 12,2% Ni) до ~6,5-8,1% MgO (6,9% и 8,1% Ni; Fe/MgO 6,8 и 5,5).",
+     "locator_kind": "md_para",
+     "locator": "para:178",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 40.0,
+      "nominal": null,
+      "max": 44.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "получены никелевые концентраты, содержащий ~7-12% Ni, 1,25-1,85% Cu; 40-44% Fe и от ~3% MgO (концентрат с 12,2% Ni) до ~6,5-8,1% MgO (6,9% и 8,1% Ni; Fe/MgO 6,8 и 5,5).",
+     "locator_kind": "md_para",
+     "locator": "para:178",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Magnesium oxide content in nickel concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "получены никелевые концентраты, содержащий ~7-12% Ni, 1,25-1,85% Cu; 40-44% Fe и от ~3% MgO (концентрат с 12,2% Ni) до ~6,5-8,1% MgO (6,9% и 8,1% Ni; Fe/MgO 6,8 и 5,5).",
+     "locator_kind": "md_para",
+     "locator": "para:178",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Получить отдельные медный и никелевый концентраты удовлетворительного качества можно последовательной флотацией – сначала меди, затем никеля (и потом пирротина).",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Оказалось, что получить их можно последовательной флотацией – сначала меди, затем никеля (и потом пирротина).",
+     "locator_kind": "md_para",
+     "locator": "para:178",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2004-2009 гг GTK (Геологическая служба Финляндии) провела исследования в лабораторном и пилотном масштабе по получению раздельных медного и никелевого концентратов удовлетворительного качества.",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-05-2022-тенденции-и-изменения-в-плавке-никел:1",
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "title": "Industrial melting of nickel concentrates at Harjavalta plant (2020)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "DON process – melting of nickel concentrates in a furnace to produce fine‑steel (fine‑steine)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-concentrates-own-and-third-party",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Nickel concentrate melted",
+     "scope": "material",
+     "material_id": "mat:nickel-concentrates-own-and-third-party",
+     "value": {
+      "min": null,
+      "nominal": 254.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2020 г было проплавлено 254 тыс т никелевых концентратов («своих» и третьих сторон) и получено 25 тыс т никеля в файнштейне.",
+     "locator_kind": "md_para",
+     "locator": "para:188",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Nickel produced in fine‑steel",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 25.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2020 г было проплавлено 254 тыс т никелевых концентратов («своих» и третьих сторон) и получено 25 тыс т никеля в файнштейне.",
+     "locator_kind": "md_para",
+     "locator": "para:188",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Industrial application of the DON process at Harjavalta achieved 25 000 t of fine‑steel nickel from 254 000 t of concentrate in 2020.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "в 2020 г было проплавлено 254 тыс т никелевых концентратов («своих» и третьих сторон) и получено 25 тыс т никеля в файнштейне.",
+     "locator_kind": "md_para",
+     "locator": "para:188",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На заводе Харьявалта в 2020 г было проплавлено 254 тыс т никелевых концентратов («своих» и третьих сторон) и получено 25 тыс т никеля в файнштейне.",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-05-2022-тенденции-и-изменения-в-плавке-никел:2",
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "title": "Pilot and industrial scale test of Outokumpu slag circulation concept",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "circulation of slag (штейн) Outokumpu"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Концепцию циркуляции штейна Outokumpu опробовала в пилотном масштабе и в промышленном масштабе – на заводе Форталеза",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-05-2022-тенденции-и-изменения-в-плавке-никел:3",
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "title": "Concentrate injection at Harjavalta plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "periodic injection of concentrate using steel consumable furnace immersed in slag layer"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "effective and reliable means of modifying EP slag composition",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "effectiveness",
+      "direction": "increases",
+      "factor": "modification of EP slag composition",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Вдувание концентрата, как было подтверждено, является эффективным и надежным средством модификации состава штейна ЭП.",
+     "locator_kind": "md_para",
+     "locator": "para:201",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Вдувание концентрата, как было подтверждено, является эффективным и надежным средством модификации состава штейна ЭП.",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-05-2022-тенденции-и-изменения-в-плавке-никел:4",
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "title": "Use of liquid VP slag at Fortaleza plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "application of liquid VP slag for concentrate injection"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:liquid-vp-slag",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "На заводе Форталеза для этой цели использовали жидкий штейн ВП.",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-05-2022-тенденции-и-изменения-в-плавке-никел:5",
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "title": "Installation of continuous weigh feeder (LIW) at Harjavalta plant (2017)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "replacement of old scraper conveyor with continuous weigh feeder"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "improved process control and higher oxygen utilisation",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process control",
+      "direction": "increases",
+      "factor": "oxygen utilisation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "что привело к улучшению контроля за процессом и повышению степени использования кислорода.",
+     "locator_kind": "md_para",
+     "locator": "para:210",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2017 г. была заменена система подачи концентрата: у старого скребкового конвейера были проблемы с поддержанием постоянной скорости подачи сырья в виде смеси совершенно сухих и тонких частиц. Был установлен весовой питатель непрерывного действия (LIW), что привело к улучшению контроля за процессом и повышению степени использования кислорода.",
+   "locator_kind": "md_para",
+   "locator": "para:210",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-05-2022-тенденции-и-изменения-в-плавке-никел:6",
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "title": "Resulting rich slag composition from DON smelting",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "DON smelting"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": 4.0,
+      "nominal": null,
+      "max": 6.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "В результате плавки DON получается богатый штейн с 4-6% Fe",
+     "locator_kind": "md_para",
+     "locator": "para:211",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Ni+Cu+Co",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ni+Cu+Co ≈70%",
+     "locator_kind": "md_para",
+     "locator": "para:211",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В результате плавки DON получается богатый штейн с 4-6% Fe и Ni+Cu+Co ≈70%.",
+   "locator_kind": "md_para",
+   "locator": "para:211",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Основную часть никеля (64% в 2011 г) получали из сульфидных руд, но основную часть (59,5%) ресурсов вмещали латеритовые месторождения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "share_of_nickel_from_sulfide_ores",
+    "direction": "increases",
+    "factor": "historical_data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основную часть никеля (64% в 2011 г) получали из сульфидных руд, но основную часть (59,5%) ресурсов вмещали латеритовые месторождения.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "USGS дает оценку запасов по известным промышленным (рентабельным) месторождениям (economic deposits).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "definition_of_economic_deposits",
+    "direction": "nonmonotonic",
+    "factor": "USGS_methodology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "USGS дает оценку запасов по известным промышленным (рентабельным) месторождениям (economic deposits).",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Запасы в варианте USGS зачастую ошибочно считают абсолютной (полной) оценкой запасов, например, никеля и этой ведет к ошибочным заявлениям о близящемся их исчерпании.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "accuracy_of_USGS_reserve_estimates",
+    "direction": "decreases",
+    "factor": "misinterpretation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Запасы в варианте USGS зачастую ошибочно считают абсолютной (полной) оценкой запасов, например, никеля и этой ведет к ошибочным заявлениям о близящемся их исчерпании.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Будущая добыча никеля зависит, вероятно, от ряда таких факторов, как: социальные факторы (экономическая выгода, рабочая сила и др), экологические вопросы (хвосты, рудные отвалы, выбросы в атмосферу и т.д.), ухудшение условий добычи (глубины >1 км и др), проблемы инфраструктуры, флуктуации цен на металлы, политические вопросы, доступ к территориям для геологоразведки и др.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "influencing_factors",
+    "direction": "nonmonotonic",
+    "factor": "multiple",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Будущая добыча никеля зависит, вероятно, от ряда таких факторов, как: социальные факторы (экономическая выгода, рабочая сила и др), экологические вопросы (хвосты, рудные отвалы, выбросы в атмосферу и т.д.), ухудшение условий добычи (глубины >1 км и др), проблемы инфраструктуры, флуктуации цен на металлы (что особенно важно для никеля, т.к значительная часть никеля является побочной продукцией и, наоборот, там, где никель – целевой металл важна побочная продукция), политические вопросы, доступ к территориям для геологоразведки и др.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Приведенные в работе [1] данные дают надежную, как полагают авторы, расчетную минимальную оценку доступных в настоящее время мировых ресурсов никеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "minimum_estimate_of_global_nickel_resources",
+    "direction": "increases",
+    "factor": "study_1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Приведенные в работе [1] данные дают надежную, как полагают авторы, расчетную минимальную оценку доступных в настоящее время мировых ресурсов никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "по ресурсам никеля Австралия занимает 1-ое место в мире (43,41 млн т Ni) с прошлым производством 5,02 млн т Ni.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rank and production",
+    "direction": "increases",
+    "factor": "national resource endowment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по ресурсам никеля Австралия занимает 1-ое место в мире (43,41 млн т Ni) с прошлым производством 5,02 млн т Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "в первую пятерку стран также входят с ресурсами (млн т Ni): Индонезия (33,29), ЮАР (33,22), Россия (24,42), Канада (21,92) с оценкой прошлого производства, соответственно (млн т Ni): 3,66; 1,31; 10,66; 14,17.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "resource quantities and past production",
+    "direction": "increases",
+    "factor": "national resource endowment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в первую пятерку стран также входят с ресурсами (млн т Ni): Индонезия (33,29), ЮАР (33,22), Россия (24,42), Канада (21,92) с оценкой прошлого производства, соответственно (млн т Ni): 3,66; 1,31; 10,66; 14,17.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "то обстоятельство, что тройку замыкает ЮАР кажется неожиданным, учитывая малую роль этой страны в производстве никеля, являющегося в данном случае побочной продукцией МПГ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "unexpected ranking",
+    "direction": "nonmonotonic",
+    "factor": "production vs resource size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "то обстоятельство, что тройку замыкает ЮАР кажется неожиданным, учитывая малую роль этой страны в производстве никеля, являющегося в данном случае побочной продукцией МПГ.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "в типичном случае оно самое высокое в коматиитах, а самое низкое – в гидротермальных и интрузивных/связанных с интрузией месторождениях.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "ore type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в типичном случае оно самое высокое в коматиитах, а самое низкое – в гидротермальных и интрузивных/связанных с интрузией месторождениях.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Для сульфидного среднемасштабного проекта с 62,1 тыс т Ni - медианная сортность 0,50% Ni.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "median grade",
+    "direction": "increases",
+    "factor": "project type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для сульфидного среднемасштабного проекта с 62,1 тыс т Ni - медианная сортность 0,50% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Для среднемасштабного латеритового проекта с 344,3 тыс т Ni сортность руды 1,1% Ni.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "grade",
+    "direction": "increases",
+    "factor": "project type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для сравнения: для среднемасштабного латеритового проекта с 344,3 тыс т Ni сортность руды 1,1% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "У сульфидных месторождений вариабельность сортности руды обычно выражена сильнее, чем у латеритовых.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "grade variability",
+    "direction": "increases",
+    "factor": "deposit type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "У сульфидных месторождений вариабельность сортности руды обычно выражена сильнее, чем у латеритовых.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "это не значит, что технологические достижения не повлияли на эту конверсию; например, для латеритовых руд расширение применения автоклавного кислотного выщелачивания для извлечения никеля из латеритов и рост цен на никель и побочные продукты в последние годы (предшествовавшие 2011 г) явились важными факторами, способствовавшими конверсии ресурсов в запасы по ряду проектов (Murrin Murrin, Ambatovy, Goro и др.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impact of technology and price",
+    "direction": "increases",
+    "factor": "autoclave acid leaching and nickel price",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "это не значит, что технологические достижения не повлияли на эту конверсию; например, для латеритовых руд расширение применения автоклавного кислотного выщелачивания для извлечения никеля из латеритов и рост цен на никель и побочные продукты в последние годы (предшествовавшие 2011 г) явились важными факторами, способствовавшими конверсии ресурсов в запасы по ряду проектов (Murrin Murrin, Ambatovy, Goro и др.).",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Последняя по времени оценка ресурсов (2017 г) по проекту при бортовом содержании МПГ в 2,0 г/т: в категории «исчисленные» – 346 млн т с 3,77 г/т 4Е, 0,32% Ni и 0,16% Cu; «предполагаемые» – 506 млн т с 3,24 г/т 4Е, 0,31% Ni и 0,16% Cu, т.е в ресурсах в сумме около 2663 тыс т Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "2,0 г/т МПГ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Последняя по времени оценка ресурсов (2017 г) по проекту при бортовом содержании МПГ в 2,0 г/т: в категории «исчисленные» – 346 млн т с 3,77 г/т 4Е, 0,32% Ni и 0,16% Cu; «предполагаемые» – 506 млн т с 3,24 г/т 4Е, 0,31% Ni и 0,16% Cu, т.е в ресурсах в сумме около 2663 тыс т Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Рассматриваются различные варианты поэтапной реализации проекта по добыче с 4 млн т/г до 12 млн т/г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production rate",
+    "direction": "increases",
+    "factor": "4–12 млн т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рассматриваются различные варианты поэтапной реализации проекта по добыче с 4 млн т/г до 12 млн т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В предварительном ТЭО 2020 г при добыче/переработке 4,4 млн т/г руды будет получено примерно 196 тыс т/г коллективного концентрата, содержащего 85,1 г/т 4Е; 3,3% Cu; 5,5% Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentrate composition",
+    "direction": "increases",
+    "factor": "85,1 г/т 4Е, 3,3% Cu, 5,5% Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В предварительном ТЭО 2020 г при добыче/переработке 4,4 млн т/г руды будет получено примерно 196 тыс т/г коллективного концентрата, содержащего 85,1 г/т 4Е; 3,3% Cu; 5,5% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "действующий открытый рудник Mogalakwena ... по состоянию дел на 2020 г суммарные ресурсы (всех трех категорий изученности) составляли 2231,7 млн т с 2,14 г/т 4Е.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "total resources",
+    "direction": "increases",
+    "factor": "2231,7 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "действующий открытый рудник Mogalakwena ... по состоянию дел на 2020 г суммарные ресурсы (всех трех категорий изученности) составляли 2231,7 млн т с 2,14 г/т 4Е.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.45,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Ориентировочное содержание никеля и меди в руде – 0,19% и 0,11%, соответственно (в «официальных» таблицах по запасам/ресурсам компания их не приводит).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Ni and Cu grades",
+    "direction": "increases",
+    "factor": "0,19% Ni, 0,11% Cu",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ориентировочное содержание никеля и меди в руде – 0,19% и 0,11%, соответственно (в «официальных» таблицах по запасам/ресурсам компания их не приводит).",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "По последним оценкам (2019 года) измеренные плюс исчисленные ресурсы по проекту составляют 1666 млн т с 0,27% Ni и 107 ppm Co (=4430 тыс т Ni и 180 тыс т Со), а также 0,029 г/т Pt+Pd и 4,27% магнетита; предполагаемые – 500 млн т с 0,26% Ni и 101 ppm Co (= 1300 тыс т Ni и 50 тыс т Со), а также 0,020 г/т Pt+Pd и 4,02% магнетита, т.е. в сумме – 5730 тыс т никеля, что близко к данным табл. 1.2.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Ni resources",
+    "direction": "increases",
+    "factor": "5730 тыс т Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По последним оценкам (2019 года) измеренные плюс исчисленные ресурсы по проекту составляют 1666 млн т с 0,27% Ni и 107 ppm Co (=4430 тыс т Ni и 180 тыс т Со), а также 0,029 г/т Pt+Pd и 4,27% магнетита; предполагаемые – 500 млн т с 0,26% Ni и 101 ppm Co (= 1300 тыс т Ni и 50 тыс т Со), а также 0,020 г/т Pt+Pd и 4,02% магнетита, т.е. в сумме – 5730 тыс т никеля, что близко к данным табл. 1.2.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Исходная производительность – 33 тыс т/г Ni и 1,0 тыс т/г Со с расширением выпуска с 7-го года эксплуатации до 50 тыс т/г Ni и 2 тыс т/г Со.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Ni and Co production",
+    "direction": "increases",
+    "factor": "33→50 тыс т/г Ni, 1,0→2 тыс т/г Со",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Исходная производительность – 33 тыс т/г Ni и 1,0 тыс т/г Со с расширением выпуска с 7-го года эксплуатации до 50 тыс т/г Ni и 2 тыс т/г Со.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "в 2021 г компания Uru Metals продала проект Zebediela (ЮАР) компании Blue Rhino Capital, которая сразу изменила название на Zeb Nickel Corp (зарегистрирована на ФБ Торонто).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "project ownership",
+    "direction": "increases",
+    "factor": "Blue Rhino Capital",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2021 г компания Uru Metals продала проект Zebediela (ЮАР) компании Blue Rhino Capital, которая сразу изменила название на Zeb Nickel Corp (зарегистрирована на ФБ Торонто).",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "в зоне Clipperton изыскания ведут и другие компании, но разрешений на добычу пока не выдано ни одной компании из-за опасений по поводу экологических последствий.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mining permits",
+    "direction": "decreases",
+    "factor": "none issued",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в зоне Clipperton изыскания ведут и другие компании, но разрешений на добычу пока не выдано ни одной компании из-за опасений по поводу экологических последствий.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Мировые ресурсы никеля в рудах с содержанием ≥0,5% Ni оцениваются, по крайней мере, в 300 млн т Ni (60% - в латеритах, 40% - в сульфидных рудах).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "global_nickel_resources",
+    "direction": "increases",
+    "factor": "≥0,5% Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мировые ресурсы никеля в рудах с содержанием ≥0,5% Ni оцениваются, по крайней мере, в 300 млн т Ni (60% - в латеритах, 40% - в сульфидных рудах).",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Участники рынка на протяжении длительного времени рассматривали цену никеля в 20000 USD/т как критический уровень цен, открывающий доступ к «свежему» предложению.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel_price",
+    "direction": "decreases",
+    "factor": "20000 USD/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Участники рынка на протяжении длительного времени рассматривали цену никеля в 20000 USD/т как критический уровень цен, открывающий доступ к «свежему» предложению.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В течение последних лет цены были значительно ниже этого уровня, затраты на геологоразведку – тоже довольно низкими.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel_price",
+    "direction": "decreases",
+    "factor": "20000 USD/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако в посление годы цены были значительно ниже этого уровня, затраты на геологоразведку – тоже довольно низкими.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Представленная аналитиками S&P сводка новых крупных открытий, начиная с 1990 г по 2019 г, включает 50 новых месторождений, вмещающих 96,4 млн т никеля в сульфидной и окисленной руде.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "new_deposits",
+    "direction": "increases",
+    "factor": "1990‑2019",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Представленная аналитиками S&P сводка новых крупных открытий, начиная с 1990 г по 2019 г, включает 50 новых месторождений, вмещающих 96,4 млн т никеля в сульфидной и окисленной руде.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "За последнее десятилетие было выявлено только 3 крупных месторождения – это только 7% суммарного обнаруженного никеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "large_deposits",
+    "direction": "decreases",
+    "factor": "last_decade",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За последнее десятилетие было выявлено только 3 крупных месторождения – это только 7% суммарного обнаруженного никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "На сульфидные месторождения приходится лишь 18,1 млн т никеля (19%).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sulfide_deposits",
+    "direction": "increases",
+    "factor": "total_nickel",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На сульфидные месторождения приходится лишь 18,1 млн т никеля (19%).",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Из 10‑ти выявленных сульфидных месторождений только одно – Voisey's Bay (Канада) компании Vale в настоящее время разрабатывается.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sulfide_deposits_developed",
+    "direction": "increases",
+    "factor": "Voisey's Bay",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из 10‑ти выявленных сульфидных месторождений только одно – Voisey's Bay (Канада) компании Vale в настоящее время разрабатывается.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Остальные сульфидные месторождения, вмещающие 16,5 млн т никеля подлежат разработке, но пока только по трем из них завершено выполнение ТЭО и производство может начаться в течение ближайших нескольких лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sulfide_deposits_pending",
+    "direction": "increases",
+    "factor": "16,5 млн т никеля",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Остальные сульфидные месторождения, вмещающие 16,5 млн т никеля подлежат разработке, но пока только по трем из них завершено выполнение ТЭО и производство может начаться в течение ближайших нескольких лет.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В отличие от меди, где барьер был определен Скиннером в 0,1%, этот подход к никелю затрудняет факт наличия «никелевых» месторождений (особенно это касается сульфидных руд), где никель является, скорее, побочным металлом (платиновые руды ЮАР).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "0,1% Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В отличие от меди, где барьер был определен Скиннером в 0,1%, этот подход к никелю затрудняет факт наличия «никелевых» месторождений (особенно это касается сульфидных руд), где никель является, скорее, побочным металлом (платиновые руды ЮАР).",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Авторы считают 0,02% Ni для сульфидной минерализации и 0,3% для латеритов как приблизительные оценки барьера.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel_barrier",
+    "direction": "increases",
+    "factor": "0,02% Ni, 0,3% Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наилучшей догадкой (или очень приблизительной оценкой) авторы считают 0,02% Ni для сульфидной минерализации, несмотря на многочисленные оговорки, включая побочную/сопутствующую продукцию и др.) и 0,3% для латеритов (более приближенное к реальности значение).",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В 2005 г ресурсы Inco в Садбери составляли 258 млн т с 1,35% Ni (3,49 млн т Ni).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource_quantity",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2005 г ресурсы Inco в Садбери составляли 258 млн т с 1,35% Ni (3,49 млн т Ni).",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В таком самом приблизительном варианте на 2011 г ресурсы Inco составили бы около 222,2 млн т с 1,36% Ni (~3,0 млн т Ni) и 1,38% Cu.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource_quantity",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В таком самом приблизительном варианте на 2011 г ресурсы Inco составили бы около 222,2 млн т с 1,36% Ni (~3,0 млн т Ni) и 1,38% Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Последняя по времени (2021 г) оценка ресурсов (исчисленные плюс предполагаемые) Lynn Lake в соответствии с кодексом JORC 2012 г: 16,3 млн т с 0,72% Ni; 0,33% Cu; 0,033% Co (0,5% Ni в отрезе), что соответствует 116,8 тыс т Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource_quantity",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Последняя по времени (2021 г) оценка ресурсов (исчисленные плюс предполагаемые) Lynn Lake в соответствии с кодексом JORC 2012 г: 16,3 млн т с 0,72% Ni; 0,33% Cu; 0,033% Co (0,5% Ni в отрезе), что соответствует 116,8 тыс т Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В рамках этой оценки учтена и богатая зона: 5,4 млн т с 0,99% Ni; 0,41% Cu; 0,043% Co.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource_quantity",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В рамках этой оценки учтена и богатая зона: 5,4 млн т с 0,99% Ni; 0,41% Cu; 0,043% Co.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "К 2011 г в районе Камбалда было обогащено 50,2 млн т руды с ~3,10% Ni и 0,23% Cu, для сравнения: в 1966 г запасы оценивались в 1,93 млн т с 4,15% Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ore_processed",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К 2011 г в районе Камбалда было обогащено 50,2 млн т руды с ~3,10% Ni и 0,23% Cu, для сравнения: в 1966 г запасы оценивались в 1,93 млн т с 4,15% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Оценка ресурсов на 2012 г – 22,5 млн т с с 2,32% Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource_quantity",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оценка ресурсов на 2012 г – 22,5 млн т с с 2,32% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "За период 1996 – 2011 гг объем производства составил 3,94 млн т Ni и 6,12 млн т Cu плюс МПГ (за 2005-2011 гг 626,7 т Pd и 150,3 т Pt).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "metal_produced",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За период 1996 – 2011 гг объем производства составил 3,94 млн т Ni и 6,12 млн т Cu плюс МПГ (за 2005-2011 гг 626,7 т Pd и 150,3 т Pt).",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Объём производства никеля на Кольском полуострове оценен в ~1,8 млн т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel_produced",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объём производства никеля на Кольском полуострове оценен в ~1,8 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В проекте Dumont, Канада (0,27% Ni в руде), планируется производить объединённый концентрат (сульфидный + аваруитовый) с 29% Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentrate_grade",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "например, упомянутый выше проект Dumont, Канада (0,27% Ni в руде), где планируется производить объединеный концентрат (сульфидный +аваруитовый) с 29% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В проекте Crawford (Канада) с рудой, содержащей 0,31% Ni, предполагается получать три продукта: «самый богатый никелевый концентрат в мире» с 35% Ni, стандартный концентрат с 12% Ni и магнетитовый концентрат.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentrate_grade",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Другой пример – проект Crawford (Канада) с рудой, содержащей 0,31% Ni. По проекту предполагается получать три продукта: «самый богатый никелевый концентрат в мире» с 35% Ni, стандартный концентрат с 12% Ni и магнетитовый концентрат.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Vale (Североатлантическое отделение – предприятия в Канаде и Великобритании, 88,5 тыс т Ni в 2020 г).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel_output",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Vale (Североатлантическое отделение – предприятия в Канаде и Великобритании, 88,5 тыс т Ni в 2020 г).",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Boliden является владельцем крупнейшего в ЕС плавильного никелевого завода Harjavalta (Финляндия), в настоящее время – единственного в мире завода, применящего технологию DON (Direct Outokumpu Nickel).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "largest EU nickel smelter",
+    "direction": "increases",
+    "factor": "ownership",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Boliden является владельцем крупнейшего в ЕС плавильного никелевого завода Harjavalta (Финляндия), в настоящее время – единственного в мире завода, применяющего технологию DON (Direct Outokumpu Nickel).",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В 1995 г никелевый плавильный завод перешел c взвешенной плавки по способу Outokumpu на технологию DON, конвертерный передел был ликвидирован.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "adoption of DON technology",
+    "direction": "increases",
+    "factor": "technology switch",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1995 г никелевый плавильный завод перешел c взвешенной плавки по способу Outokumpu на технологию DON, конвертерный передел был ликвидирован.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Мощность завода составляла 25-35 тыс т/г никеля в файнштейне.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual nickel production capacity",
+    "direction": "increases",
+    "factor": "plant design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность завода составляла 25-35 тыс т/г никеля в файнштейне.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В 1995 г «своего» никеля в концентрате было получено: 3100 т с Hitura, 50 т с Vammalа и 7600 т с Forrestania.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentrate nickel production",
+    "direction": "increases",
+    "factor": "mine output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1995 г «своего» никеля в концентрате было получено: 3100 т с Hitura, 50 т с Vammalа и 7600 т с Forrestania.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Выпуск рафинированнного никеля на рафинировочном заводе Харьявалта из своего и стороннего сырья в 1995 г – 18,4 тыс т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "refined nickel production",
+    "direction": "increases",
+    "factor": "plant operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выпуск рафинированнного никеля на рафинировочном заводе Харьявалта из своего и стороннего сырья в 1995 г – 18,4 тыс т.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В 2015 г никелевым сырьем для обоих заводов Харьявалта являлись никелевые концентраты Южноафриканского рудника Nkomati (50% у Норникеля), Mirabela (Бразилия), Titania (Норвегия), CRI (Канада), Talvivaara (Финляндия), а также файнштейны компании BHP (Австралия), BCL (Ботсвана) и штейн с Кольской ГМК.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "source of concentrate feed",
+    "direction": "increases",
+    "factor": "supply diversification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2015 г никелевым сырьем для обоих заводов Харьявалта являлись никелевые концентраты Южноафриканского рудника Nkomati (50% у Норникеля), Mirabela (Бразилия), Titania (Норвегия), CRI (Канада), Talvivaara (Финляндия), а также файнштейны компании BHP (Австралия), BCL (Ботсвана) и штейн с Кольской ГМК.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Если в 2016 г было произведено 53,7 тыс т рафинированного никеля, в т.ч. 19 тыс т – из Российского сырья, то в 2020 г. - 63,4 тыс т, в т.ч. из Российского сырья – 60,2 тыс т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "refined nickel output",
+    "direction": "increases",
+    "factor": "increased Russian feedstock",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если в 2016 г было произведено 53,7 тыс т рафинированного никеля, в т.ч. 19 тыс т – из Российского сырья, то в 2020 г. - 63,4 тыс т, в т.ч. из Российского сырья – 60,2 тыс т.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "На плавильном заводе Харьявалта проплав концентратов колебался по годам, но всё-таки имел тенденцию к повышению, например, с 2000 г по 2020 г составлял от ~205 тыс т/г (2003-2004 гг) до 294-296 тыс т/г (2016-2018 гг).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentrate smelted amount",
+    "direction": "increases",
+    "factor": "operational trend",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На плавильном заводе Харьявалта проплав концентратов колебался по годам, но всё-таки имел тенденцию к повышению, например, с 2000 г по 2020 г составлял от ~205 тыс т/г (2003-2004 гг) до 294-296 тыс т/г (2016-2018 гг).",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": "smelting"
+  },
+  {
+   "text": "В процессе DON могут быть переработаны самые разные коллективные концентраты: от низкомедистых до высокомедистых c Cu/Ni >1, а также шихта с содержанием MgO от низкой концентрации до Fe/MgO ≈3,4.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В процессе DON могут быть переработаны самые разные коллективные концентраты: от низкомедистых до высокомедистых c Cu/Ni >1, а также шихта с содержанием MgO от низкой концентрации до Fe/MgO ≈3,4 [14].",
+   "locator_kind": "md_para",
+   "locator": "para:191",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В печь ВП подается сухой концентрат, в типичном случае содержащий от 5% до 12% Ni.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В печь ВП подается сухой концентрат, в типичном случае содержащий от 5% до 12% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Концентраты из Западной Австралии богаче и содержали обычно 20% Ni и даже 25% Ni; меди в австралийских концентратах очень мало – менее 0,1% Cu.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Концентраты из Западной Австралии богаче и содержали обычно 20% Ni и даже 25% Ni. Меди в австралийских концентратах очень мало – менее 0,1% Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Поступавшие на плавку концентраты содержали также 0,2%-1% Co.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Поступавшие на плавку концентраты содержали также 0,2%-1% Co.",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В 2019 году объём обогащения руды составил 7,53 млн т, а содержание меди в руде, поступившей на обогащение, снизилось с 0,39% до 0,29%, никеля – с 0,26% до 0,19%.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2019 «переходном» году, когда шли работы по проекту расширения добычи, объем обогащения руды – 7,53 млн т был аналогичен уровню 2018 г – 7,58 млн т, но содержание меди в руде, поступившей на О/Ф, снизилось с 0,39% до 0,29%, никеля – с 0,26% до 0,19%.",
+   "locator_kind": "md_para",
+   "locator": "para:186",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "В 2020 г было обогащено 9,19 млн т руды с 0,33% Cu и 0,18% Ni, получено 110 тыс т медного концентрата (с 25% Cu) и 129 тыс т никелевого концентрата (с 8,6% Ni).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2020 г завершен проект расширения добычи до 9,5 млн т/г и было обогащено 9,19 млн т руды с 0,33% Cu и 0,18% Ni и получено 110 тыс т медного концентрата (с 25% Cu) и 129 тыс т никелевого концентрата (с 8,6% Ni, т.е. 11,1 тыс т Ni в концентрате).",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Boliden рассматривает рудник Kevitsa в первую очередь как медный рудник, так как на медь пришлось 44% поступлений с Kevitsa в 2020 г, а на никель – 32%.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Boliden рассматривает рудник Kevitsa, в первую очередь, как медный рудник, т.к. на медь пришлось 44% поступлений с Kevitsa в 2020 г, а на никель – 32%.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Process DON can be operated with full circulation of EP slag through the VP furnace.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "slag circulation",
+    "direction": "increases",
+    "factor": "operational flexibility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс DON можно вести и с полной циркуляцией штейна ЭП через печь ВП.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "This yields a single low‑iron VP slag, simplifying downstream refining because less iron has to be removed.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "refining complexity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тогда получается только один низкожелезистый штейн ВП, что упрощает схему дальнейшего рафинирования – меньше железа предстоит удалять.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "The concept is suitable only when the raw material lacks elements that would accumulate during circulation between two furnaces, such as cobalt.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "decreases",
+    "factor": "presence of accumulating elements (e.g., cobalt)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако эта концепция пригодна, если в сырьевом материале в существенных количествах отсутствуют такие элементы, которые аккумулировались бы при циркуляции между двумя печами. Примером такого элемента является кобальт.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Concentrates containing PGMs can benefit from this concept.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "PGM benefit",
+    "direction": "increases",
+    "factor": "process concept",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Концентраты, содержащие МПГ, могут выиграть от реализации этой концепции.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "DON has no converters and material circulation between units is minimized, which positively affects cobalt recovery.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cobalt recovery",
+    "direction": "increases",
+    "factor": "reduced material circulation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В процессе DON нет конвертеров, циркуляция материалов между технологическими агрегатами сведена к минимуму, что очень положительно сказывается на извлечении кобальта.",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Traditional VP‑Pierce‑Smith converters give high nickel and copper recovery but comparatively low cobalt recovery.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cobalt recovery",
+    "direction": "decreases",
+    "factor": "process type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Извлечение никеля и меди в процессе «традиционная» ВП – конвертеры Пирса-Смита обычно высокое, несмотря на циркуляцию значительных объемов материалов. Однако извлечение кобальта – сравнительно низкое.",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "PGMs are efficiently collected in the rich VP slag and the amount entering the slag‑de‑enrichment furnace is almost negligible.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "PGM loss to de‑enrichment furnace",
+    "direction": "decreases",
+    "factor": "PGM collection efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Что касается МПГ в процессе DON, то они эффективно коллектируются непосредственно в богатом штейне ВП и количество МПГ, поступающих в печь обеднения шлака, «почти пренебрежимо мало».",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "Compared with conventional nickel smelting, DON uses fewer furnace units, giving a significant economic and environmental advantage.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "economic and environmental performance",
+    "direction": "increases",
+    "factor": "reduced number of units",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По сравнению с «обычной» никелевой плавкой процесс DON включает меньшее число плавильных агрегатов (не нужны конвертеры, конвертерные пролеты с кранами и т.д.), что дает существенный экономический выигрыш и преимущество в экологическом отношении (периодический процесс заменен на непрерывный).",
+   "locator_kind": "md_para",
+   "locator": "para:209",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  },
+  {
+   "text": "For a 70 kt/yr nickel plant, capital costs are about 15 % lower with DON than with VP‑Pierce‑Smith converters.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "decreases",
+    "factor": "process choice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для никелевого завода на 70 тыс т/г капитальные затраты будут примерно на 15% ниже в случае DON по сравнению с «ВП-конвертеры Пирса-Смита».",
+   "locator_kind": "md_para",
+   "locator": "para:209",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2022-тенденции-и-изменения-в-плавке-никел",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

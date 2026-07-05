@@ -1,0 +1,170 @@
+{
+  "ner": {
+    "per_type": {
+      "EQUIPMENT": {
+        "precision": 0.3542,
+        "recall": 0.8947,
+        "f1": 0.5075,
+        "tp": 17,
+        "fp": 31,
+        "fn": 2,
+        "support": 19
+      },
+      "MATERIAL": {
+        "precision": 0.2407,
+        "recall": 0.9101,
+        "f1": 0.3807,
+        "tp": 162,
+        "fp": 511,
+        "fn": 16,
+        "support": 178
+      },
+      "PROCESS": {
+        "precision": 0.1972,
+        "recall": 0.7636,
+        "f1": 0.3134,
+        "tp": 42,
+        "fp": 171,
+        "fn": 13,
+        "support": 55
+      },
+      "PROPERTY": {
+        "precision": 0.1383,
+        "recall": 0.8966,
+        "f1": 0.2396,
+        "tp": 26,
+        "fp": 162,
+        "fn": 3,
+        "support": 29
+      }
+    },
+    "micro": {
+      "precision": 0.2201,
+      "recall": 0.879,
+      "f1": 0.3521,
+      "tp": 247,
+      "fp": 875,
+      "fn": 34,
+      "support": 281
+    },
+    "macro_f1": 0.3603,
+    "mode": "relaxed"
+  },
+  "relations": {
+    "per_predicate": {
+      "derived_from": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 7,
+        "support": 7
+      },
+      "has_property": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 7,
+        "support": 7
+      },
+      "run_on_equipment": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "support": 4
+      },
+      "uses_material": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 18,
+        "support": 18
+      }
+    },
+    "micro": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 36,
+      "support": 36
+    },
+    "macro_f1": 0.0
+  },
+  "jargon": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total_gold": 19,
+    "prf": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 19,
+      "support": 19
+    }
+  },
+  "candidate": "E2_v3",
+  "coverage": {
+    "gold_docs": 30,
+    "pred_docs": 68,
+    "missing_docs": [],
+    "extra_docs": [
+      "elec-art-055",
+      "elec-conf-021",
+      "elec-conf-022",
+      "elec-conf-023",
+      "elec-conf-024",
+      "elec-jrn-003",
+      "elec-rev-039",
+      "flot-art-059",
+      "flot-art-061",
+      "flot-art-062",
+      "flot-conf-025",
+      "flot-conf-026",
+      "flot-conf-027",
+      "flot-conf-028",
+      "flot-jrn-005",
+      "flot-jrn-006",
+      "flot-jrn-008",
+      "flot-rev-040",
+      "flot-rev-043",
+      "inje-conf-029",
+      "inje-conf-030",
+      "inje-jrn-010",
+      "inje-jrn-012",
+      "inje-rev-046",
+      "refi-art-064",
+      "refi-art-066",
+      "refi-conf-031",
+      "refi-conf-032",
+      "refi-conf-033",
+      "refi-conf-034",
+      "refi-jrn-014",
+      "refi-rev-048",
+      "wate-art-068",
+      "wate-conf-035",
+      "wate-jrn-018",
+      "wate-jrn-020",
+      "wate-rev-052",
+      "wate-rev-053"
+    ]
+  },
+  "cost": {
+    "tokens": null,
+    "usd": null,
+    "wall_s": null
+  },
+  "notes": "glossary_v3 (28,176 patterns, NuExtract3 corpus harvest) — same slice/gold/matching as E2_v2",
+  "caveat": "scored vs model-assisted SILVER gold (not human gold)"
+}

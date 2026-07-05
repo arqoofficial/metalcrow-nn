@@ -1,0 +1,2287 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "ТИ-5-2017. Кучное выщелачивание в условиях холодного климата.pdf",
+   "doc_type": "article",
+   "year": 2017,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ТИ-5-2017. Кучное выщелачивание в условиях холодного климата.pdf.md",
+   "artifact_sha256": "845aecb0caaddefab32626310b58f7134e0dd5ef1a327bd4abf6c72dda5f837b",
+   "okf_raw_path": "Обзоры/ТИ-5-2017. Кучное выщелачивание в условиях холодного климата.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:oxidized-copper-ore",
+   "label": "oxidized copper ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore",
+   "label": "ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfuric-acid-solution",
+   "label": "sulfuric acid solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:crushed-ore",
+   "label": "crushed ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfuric-acid",
+   "label": "sulfuric acid",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore-30-mm",
+   "label": "Ore (-30 mm)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:organic-extractant-lix-984n-shellsol-d90",
+   "label": "Organic extractant (LIX 984N + ShellSol D90)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:water",
+   "label": "Water",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gold-ore",
+   "label": "gold ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nikel",
+   "label": "Nickel",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Zn",
+   "label": "Zinc",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rare-earth-elements-ree",
+   "label": "Rare earth elements (REE)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:уран",
+   "label": "Uranium",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:0",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Industrial application of heap leaching at OAO \"Uralgidem\"",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "underground heap leaching of copper from oxidized ores"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:oxidized-copper-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "в нашей стране существует только одно предприятие по добычи меди из окисленных руд - ОАО «Уралгидромедь», расположенное в г. Полевском Свердловской области, которое занимается подземным выщелачиванием металла.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:1",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Laboratory column leaching tests",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "heap leaching in laboratory columns",
+       "temperature_text": "ambient (not specified)",
+       "duration_text": "71 days"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sulfuric-acid-solution",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Кучное выщелачивание в колоннах дало продуктивные растворы, богатые медью.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "increases",
+      "factor": "natural percolation through ore",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в результате чего на выходе из колонн получали богатые по меди продуктивные растворы",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Поисковые исследования по кучному выщелачиванию руды проводили в лабораторных колоннах высотой 1,5 м.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:2",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Agitated sulfuric acid leaching of crushed ore (laboratory)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "agitated leaching",
+       "temperature_text": "not specified",
+       "duration_text": "up to 120 h"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:crushed-ore",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sulfuric-acid-solution",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "copper dissolution",
+     "scope": "material",
+     "material_id": "mat:oxidized-copper-ore",
+     "value": {
+      "min": 82.0,
+      "nominal": null,
+      "max": 84.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при поддержании pH пульпы на уровне 1,0 в раствор переходит 82-84% меди",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "copper dissolution in first 4 h",
+     "scope": "material",
+     "material_id": "mat:oxidized-copper-ore",
+     "value": {
+      "min": null,
+      "nominal": 65.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Наиболее интенсивное растворение меди (до 65% металла) происходит в первые 4 ч выщелачивания",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "sulfuric acid consumption",
+     "scope": "material",
+     "material_id": "mat:sulfuric-acid-solution",
+     "value": {
+      "min": 80.0,
+      "nominal": null,
+      "max": 130.0
+     },
+     "unit": "kg/t ore",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расход серной кислоты при агитационном выщелачивании составляет от 80 до 130 кг/т руды",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Agitated leaching yields high copper extraction but is not a model for industrial heap leaching.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "applicability",
+      "direction": "increases",
+      "factor": "agitated leaching",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Агитационное выщелачивание измельченного материала позволяет быстро достичь глубокого вскрытия минералов и высокого извлечения меди в раствор, но не может служить моделью промышленной технологии кучного выщелачивания",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Исследования по агитационному сернокислотному выщелачиванию меди показали, что на крупности материала 80% -38 мкм при поддержании pH пульпы на уровне 1,0 в раствор переходит 82-84% меди.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:3",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Semi‑industrial ore agglomeration test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ore agglomeration (окмкование) with sulfuric acid",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:sulfuric-acid",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "sulfuric acid addition rate",
+     "scope": "material",
+     "material_id": "mat:sulfuric-acid",
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "kg/t ore",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в руду на стадии окомкования добавляют серную кислоту в количестве 15 кг/т руды",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "maximum heap height",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "m",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Окомкованную руду можно укладывать в штабель высотой до 4 м",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "maximum leachate flow density",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "l/(h·m2)",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "плотность потока выщелачивающего раствора при этом не должна превышать 5 л/(ч∙м 2 )",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Agglomeration with acid improves strength of ore lumps and shortens heap leaching time.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "time_duration",
+      "direction": "decreases",
+      "factor": "agglomeration with 15 kg/t acid",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Для сокращения продолжительности кучного выщелачивания и повышения прочности окатышей в руду на стадии окомкования добавляют серную кислоту в количестве 15 кг/т руды",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для организации кучного выщелачивания такой руды необходима разработка специального подхода с учетом ее минерального состава и физических свойств.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:4",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Laboratory column leaching tests",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Leaching of ore in mini‑columns"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sulfuric-acid",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 85.6,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "85,6 | 86,8 | 85,9",
+     "locator_kind": "md_para",
+     "locator": "para:46",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "Sulfuric acid consumption",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 82.0,
+      "max": null
+     },
+     "unit": "kg/t ore",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "82 | 85 | 93",
+     "locator_kind": "md_para",
+     "locator": "para:46",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Reducing the ore size from -30 mm to -20 mm and -10 mm does not significantly increase copper extraction but increases total acid consumption.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "уменьшение крупности дробления с -30 мм до -20 и -10 мм не позволяет существенно увеличить извлечение меди в раствор, но при этом приводит к росту полного расхода серной кислоты.",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.9
+    },
+    {
+     "text": "The optimal size for heap leaching is -30 mm.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Оптимальной для кучного выщелачивания является крупность материала -30 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Таблица 2.1 - Результаты выщелачивания руды в мини-колонна х",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:5",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Semi‑industrial column test (closed‑circuit)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Heap leaching simulation in a large‑diameter column with 4 m ore layer, closed solution circuit, and subsequent two‑stage solvent extraction",
+       "duration_text": "70 days leaching + 3 days washing + 3 days drainage"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-30-mm",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:sulfuric-acid",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:organic-extractant-lix-984n-shellsol-d90",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 77.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "извлечение меди в раствор на уровне 77,8%",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 0.09
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "содержании меди в хвостах менее 0,09%",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.38,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "содержание меди в руде, рассчитанное по балансу полупромышленных испытаний, составило около 0,38%",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Sulfuric acid consumption (total, agglomeration + leaching)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 66.0,
+      "max": null
+     },
+     "unit": "kg/t ore",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Полный расход серной кислоты на окомкование и выщелачивание уменьшился ... до 66 кг/т руды для полупромышленных испытаний.",
+     "locator_kind": "md_para",
+     "locator": "para:46",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Impurity transfer to solution at end of leaching",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 15.4,
+      "max": null
+     },
+     "unit": "kg/t ore",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Степень перехода основных примесей в раствор на момент завершения выщелачивания составила 15,4 кг/т руды",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 54.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "total impurity  in final productive solution"
+     },
+     "method": null,
+     "snippet": "Суммарная концентрация данных примесей в конечном продуктивном растворе составила около 54 г/л.",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Closed‑circuit operation reduces acid consumption compared with laboratory tests but acid demand remains high because of acid‑consuming minerals.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "потребление кислоты остается высоким, что связано с присутствием значительного количества кислотопотребляющих минералов в руде.",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    },
+    {
+     "text": "Leaching dynamics are lower than in open‑circuit tests due to increased salt background, which negatively affects copper dissolution.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "динамика извлечения меди из руды ниже, чем в поисковых тестах. Данное обстоятельство связано с повышением солевого фона выщелачивающих растворов, оказывающего негативное влияние на процесс растворения меди.",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Полупромышленные испытания проводили в закрытом цикле растворов",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:6",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Agglomeration of -30 mm ore for semi‑industrial test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory drum agglomerator with 15 kg/t sulfuric acid as binder, 72 h curing, then loading into column",
+       "duration_text": "72 h curing"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-30-mm",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:sulfuric-acid",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:water",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Руду крупностью -30 мм подвергали окомкованию ... с добавлением 15 кг/т серной кислоты ... выдерживали в течение 72 часов",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:7",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Industrial application of heap leaching technology at Fort Knox mine (Alaska)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "heap leaching of gold ore",
+       "temperature_text": "2 °C to 8 °C (temperature of saturated solution)",
+       "duration_text": "90 days (leaching cycle)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 275.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gold-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 0.17,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Бортовое содержание золота в руде для кучного выщелачивания 0,17 г/т.",
+     "locator_kind": "md_para",
+     "locator": "para:83",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "annual ore feed",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "тонн",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Номинальная добыча составляет 30 млн. тонн руды, направляемой на кучное выщ-е.",
+     "locator_kind": "md_para",
+     "locator": "para:83",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "heap height",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 153.0,
+      "max": null
+     },
+     "unit": "м",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Конечная высота кучи - 153 м.",
+     "locator_kind": "md_para",
+     "locator": "para:83",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Heap leaching can be successfully performed in a cold, dry sub‑arctic climate with recorded low temperatures down to -42 °C.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "climate suitability",
+      "direction": "increases",
+      "factor": "temperature range",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Работы ведутся в холодном сухом субарктическом климате со средним количеством осадков около 46 см и зарегистрированными низкими температурами до - 42°С.",
+     "locator_kind": "md_para",
+     "locator": "para:83",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Рудник Fort Knox (принадлежащий Kinross Gold), расположен примерно в 26 милях к северо‑востоку от Фэрбенкса, штат Аляска. Работы ведутся в холодном сухом субарктическом климате со средним количеством осадков около 46 см и зарегистрированными низкими температурами до - 42°С.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:8",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Industrial production at Talvivaara Nickel Mine (Finland) – 2011",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Two‑stage leaching (heap bio‑leaching and conventional heap leaching)",
+       "temperature_text": "average low temperatures from 11 °C in summer to –19 °C in winter",
+       "duration_text": "year 2011"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 284.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nikel",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Nickel production",
+     "scope": "material",
+     "material_id": "mat:organic-extractant-lix-984n-shellsol-d90",
+     "value": {
+      "min": null,
+      "nominal": 16.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "За 2011 г. было получено около 16 тыс. т никеля и 32 тыс. т Zn",
+     "locator_kind": "md_para",
+     "locator": "para:130",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Zinc production",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 32.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "За 2011 г. было получено около 16 тыс. т никеля и 32 тыс. т Zn",
+     "locator_kind": "md_para",
+     "locator": "para:130",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Production was achieved using the planned two‑stage heap leaching system.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "production",
+      "direction": "increases",
+      "factor": "implementation of the two‑stage leaching process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На проекте Talvivaara ... используется двухступенчатая система выщелачивания для переработки сульфидной никелевой руды",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "За 2011 г. было получено около 16 тыс. т никеля и 32 тыс. т Zn",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:9",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Industrial production at Talvivaara Nickel Mine – 2012",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Two‑stage leaching (heap bio‑leaching and conventional heap leaching)",
+       "temperature_text": "average low temperatures from 11 °C in summer to –19 °C in winter",
+       "duration_text": "year 2012"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 284.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nikel",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Nickel production",
+     "scope": "material",
+     "material_id": "mat:organic-extractant-lix-984n-shellsol-d90",
+     "value": {
+      "min": null,
+      "nominal": 12.9,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2012 г. - всего 12,9 тыс. т никеля и 25,9 тыс. т цинка",
+     "locator_kind": "md_para",
+     "locator": "para:130",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Zinc production",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 25.9,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2012 г. - всего 12,9 тыс. т никеля и 25,9 тыс. т цинка",
+     "locator_kind": "md_para",
+     "locator": "para:130",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Production dropped sharply due to water‑balance problems and leakage of toxic effluents.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "production",
+      "direction": "decreases",
+      "factor": "water‑balance problems and leakage",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Начиная с весны 2012 г. процесс кучного биовыщелачивания «страдал» от циркуляции избыточной воды",
+     "locator_kind": "md_para",
+     "locator": "para:130",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в 2012 г. - всего 12,9 тыс. т никеля и 25,9 тыс. т цинка",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:10",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Industrial production at Talvivaara – post‑bankruptcy under Terrafame (2015‑2016)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Heap bio‑leaching (single‑stage after restart)",
+       "temperature_text": "average low temperatures from 11 °C in summer to –19 °C in winter",
+       "duration_text": "2015‑2016"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 284.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nikel",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:Zn",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Ore stacked (2015)",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 4.1,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "до конца 2015 года уложила в кучи 4,1 млн. т руды",
+     "locator_kind": "md_para",
+     "locator": "para:132",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Ore stacked (Q1‑Q3 2016)",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 10.1,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "за 1-3 кв. 2016 г. в первичные кучи было уложено 10,1 млн. т руды",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Nickel production (Q1‑Q3 2016)",
+     "scope": "material",
+     "material_id": "mat:organic-extractant-lix-984n-shellsol-d90",
+     "value": {
+      "min": null,
+      "nominal": 5.7,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "получено 5,7 тыс. т никеля",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Zinc production (Q1‑Q3 2016)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 14.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "получено 5,7 тыс. т никеля и 14 тыс. т цинка",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Annual Nickel production (planned 2016)",
+     "scope": "material",
+     "material_id": "mat:organic-extractant-lix-984n-shellsol-d90",
+     "value": {
+      "min": null,
+      "nominal": 11.5,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "План на 2016 г. - 11,5 тыс. т никеля",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Annual Nickel production (actual 2016)",
+     "scope": "material",
+     "material_id": "mat:organic-extractant-lix-984n-shellsol-d90",
+     "value": {
+      "min": null,
+      "nominal": 9.6,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "по факту было произведено за год 9,6 тыс. т Ni",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Process performance improved after restart, reaching near‑planned nickel output.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "production",
+      "direction": "increases",
+      "factor": "restart and operational improvements",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Компания сразу отметила, что процесс биовыщелачивания «идет очень хорошо»",
+     "locator_kind": "md_para",
+     "locator": "para:132",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "за 1-3 кв. 2016 г. в первичные кучи было уложено 10,1 млн. т руды, получено 5,7 тыс. т никеля и 14 тыс. т цинка",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-5-2017-кучное-выщелачивание-в-условиях-холодн:11",
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "title": "Laboratory research on extraction of by‑product REE and uranium at Terrafame",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Laboratory leaching experiments",
+       "temperature_text": "not specified (lab conditions)",
+       "duration_text": "started July 2017"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rare-earth-elements-ree",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:уран",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Laboratory investigations of REE and uranium extraction were initiated.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "research",
+      "direction": "increases",
+      "factor": "new laboratory program",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Компания приступила также к лабораторным исследованиям возможности извлечения «побочных» РЗМ и урана",
+     "locator_kind": "md_para",
+     "locator": "para:134",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Компания приступила также к лабораторным исследованиям возможности извлечения «побочных» РЗМ и урана",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "КВ оксидных медных руд в настоящее время является твердоустановившимся низкозатратным способом извлечения меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "low cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "КВ оксидных медных руд в настоящее время является твердоустановившимся низкозатратным способом извлечения меди.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "electroextraction"
+  },
+  {
+   "text": "В ряде случаев введение данной операции приводит к увеличению извлечения металла в 1,5-2 раза.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "metal recovery",
+    "direction": "increases",
+    "factor": "1,5-2 times",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В ряде случаев введение данной операции приводит к увеличению извлечения металла в 1,5-2 раза.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Производственная мощность предприятий, которые будут работать по технологии кучное выщелачивание - экстракция - электролиз, составит около 10 тыс. т катодной меди в год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "≈10 000 t Cu per year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производственная мощность предприятий, которые будут работать по технологии кучное выщелачивание - экстракция - электролиз, составит около 10 тыс. т катодной меди в год.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Суммарные запасы этих двух медно‑порфировых месторождений составляют 800 млн т руды при среднем содержании меди 0,4%, запасы окисленных руд оцениваются в 10,8 млн т и 64,2 млн т соответственно.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reserve size",
+    "direction": "increases",
+    "factor": "800 M t ore, 0,4 % Cu; 10,8 M t and 64,2 M t oxidized ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарные запасы этих двух медно‑порфировых месторождений составляют 800 млн т руды при среднем содержании меди 0,4%, запасы окисленных руд оцениваются в 10,8 млн т и 64,2 млн т соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.81,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Учитывая, что мощность зоны окисления может достигать нескольких десятков метров, а среднее содержание меди в рудном теле составляет 0,5-0,7%, окисленные руды данного месторождения представляют большой интерес для переработки их методом кучного выщелачивания.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "increases",
+    "factor": "oxidized ore with 0,5‑0,7 % Cu and oxidation zone depth of several tens of meters",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Учитывая, что мощность зоны окисления может достигать нескольких десятков метров, а среднее содержание меди в рудном теле составляет 0,5-0,7%, окисленные руды данного месторождения представляют большой интерес для переработки их методом кучного выщелачивания.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Добавка серной кислоты на стадии окомкования позволяет сократить продолжительность выщелачивания.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "decreases",
+    "factor": "sulfuric acid addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добавка серной кислоты на стадии окомкования позволяет сократить продолжительность выщелачивания.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "В качестве гидроизоляции чаще всего используют более дешевую пленку, создание противофильтрационного экрана из нее позволяет надежно защитить почву, поверхностные и грунтовые воды от заражения растворами, а также предотвращает просачивание раствора, обогащенного металлом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "environmental protection",
+    "direction": "increases",
+    "factor": "use of cheap film as anti‑filtration screen",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве гидроизоляции чаще всего используют более дешевую пленку, создание противофильтрационного экрана из нее позволяет надежно защитить почву, поверхностные и грунтовые воды от заражения растворами, а также предотвращает просачивание раствора, обогащенного металлом.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Обычно высота штабеля КВ меди составляет от 2 до 8 м.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stack height",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обычно высота штабеля КВ меди составляет от 2 до 8 м.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Известны случаи, когда высота штабеля при переработке медных руд не превышает 0,5 м.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stack height",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Известны случаи, когда высота штабеля при переработке медных руд не превышает 0,5 м.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "В результате экстракции медь на 85-95% переходит в органическую фазу, а основная часть примесей остается в водном растворе.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате экстракции медь на 85-95% переходит в органическую фазу, а основная часть примесей остается в водном растворе.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Полученный в результате реэкстракции водный раствор содержит от 40 до 48 г/л меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полученный в результате реэкстракции водный раствор содержит от 40 до 48 г/л меди.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Суммарное содержание металлов примесей в данном растворе не превышает 1-3 г/л.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарное содержание металлов примесей в данном растворе не превышает 1-3 г/л.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Товарный реэкстракт смешивается с оборотными растворами отделения электролиза. Полученный раствор с содержанием меди 35-40 г/л направляется на электролитическое извлечение меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Товарный реэкстракт смешивается с оборотными растворами отделения электролиза. Полученный раствор с содержанием меди 35-40 г/л направляется на электролитическое извлечение меди.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Для электролиза применяют аноды из сплавов свинца и катоды из нержавеющей стали или матрицы катодной меди.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для электролиза применяют аноды из сплавов свинца и катоды из нержавеющей стали или матрицы катодной меди.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Продуктивные растворы КВ зачастую являются относительно бедными по меди (до 5 г/л) и содержат большое количество металлов примесей: железа, магния и др. (до 40-50 г/л).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Продуктивные растворы КВ зачастую являются относительно бедными по меди (до 5 г/л) и содержат большое количество металлов примесей: железа, магния и др. (до 40-50 г/л).",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "В результате промывки органической фазы кислым медьсодержащим раствором происходит дополнительная очистка органической фазы от металлов примесей.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "impurity removal",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате промывки происходит дополнительная очистка органической фазы от металлов примесей.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "In Russia only one enterprise (OAO \"Uralgidemed\") currently produces copper from oxidized ores by underground leaching.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "number of plants",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в нашей стране существует только одно предприятие по добычи меди из окисленных руд - ОАО «Уралгидромедь», расположенное в г. Полевском Свердловской области, которое занимается подземным выщелачиванием металла",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Russian climate requires special technical solutions for heap leaching, notably operation at sub‑zero temperatures.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "cold climate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "основной особенностью КВ меди в России является проведение процесса в условиях отрицательных температур",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Recommended measures for cold‑climate heap leaching include heating leach solutions, deepening irrigation systems, and insulating main and productive pipelines.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technical measures",
+    "direction": "increases",
+    "factor": "cold climate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При реализации КВ меди в холодном климате рекомендуется предусматривать специальные мероприятия, такие как: - подогрев выщелачивающих растворов; - заглубление системы орошения; - теплоизоляция магистральных трубопроводов и продуктивных трубопроводов.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "In many Russian territories there is a positive water balance, so excess leachate must be neutralized before storage.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "leachate handling",
+    "direction": "increases",
+    "factor": "positive water balance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При реализации КВ меди в России необходимо предусматривать мероприятия по нейтрализации оставшейся в отработанном штабеле серной кислоты",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "The studied oxidized ore contains about 0.4 % copper, 94 % of which is oxidized; 70 % of the oxidized copper is present as free oxidized minerals (malachite, azurite).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper grade and mineralogy",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На стадии изучения вещественного состава определено, что руда содержит около 0,4% меди, основная масса которой находится в окисленной форме. Доля общей окисленной меди составляет 94%, из них около 70% - это медь свободных окисленных минералов (в основном малахит и азурит)",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "The ore has very high oxidation degree, abundant fine fractions, low strength, and a large amount of acid‑consuming minerals, leading to poor permeability and high acid consumption.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "permeability and acid demand",
+    "direction": "decreases",
+    "factor": "ore properties",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти свойства являются причиной плохой проницаемости руды в штабеле и высокого потребления кислоты",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "For successful heap leaching of this ore, ore must be agglomerated.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pre‑treatment",
+    "direction": "increases",
+    "factor": "ore characteristics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для успешного проведения процесса кучного выщелачивания необходимо проводить окомкование руды",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.81,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Agglomeration should be performed in drum agglomerators proven in gold mining and made of acid‑resistant material to avoid corrosion.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment",
+    "direction": "increases",
+    "factor": "corrosion risk",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс рекомендуется проводить в хорошо зарекомендовавших себя в золотодобывающей промышленности барабанных окомкователях. Для предотвращения коррозии окомкователь должен быть изготовлен в кислотостойком исполнении.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "During agitated leaching, sulfuric acid consumption (80–130 kg/t ore) is mainly due to dissolution of acid‑consuming gangue minerals, not copper extraction.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "acid consumption source",
+    "direction": "increases",
+    "factor": "gangue dissolution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Расход серной кислоты при агитационном выщелачивании составляет от 80 до 130 кг/т руды и связан, в первую очередь, с растворением кислотопотребляющих минералов пустой породы, а не с извлечением меди.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "The maximum permissible leachate flow density in a heap is 5 l/(h·m²).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "leachate flow density",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "плотность потока выщелачивающего раствора при этом не должна превышать 5 л/(ч∙м 2 )",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Optimal ore size for heap leaching is -30 mm.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Оптимальной для кучного выщелачивания является крупность материала -30 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "When copper extraction reaches about 75 %, dissolution proceeds actively with moderate acid consumption; further leaching time sharply reduces dissolution rate and increases impurity leaching, raising acid consumption.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "до уровня извлечения меди 75% происходит активное ее растворение при умеренном расходе серной кислоты. При дальнейшем увеличении продолжительности процесса скорость растворения меди значительно снижается и наблюдается значительный переход примесей в раствор ... что приводит к повышению расхода серной кислоты.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.81,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Total acid consumption for agglomeration and leaching decreased from 82 kg/t (lab column) to 66 kg/t (semi‑industrial), but remains high due to acid‑consuming minerals.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Полный расход серной кислоты на окомкование и выщелачивание уменьшился с 82 кг/т руды для теста в лабораторной колонне до 66 кг/т руды для полупромышленных испытаний. Несмотря на это, потребление кислоты остается высоким, что связано с присутствием значительного количества кислотопотребляющих минералов в руде.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Impurity transfer to solution at the end of leaching was 15,4 kg/t ore (sum of Fe, Al, Mg, Mn, Si, Ca).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Степень перехода основных примесей в раствор на момент завершения выщелачивания составила 15,4 кг/т руды по сумме Fe, Al, Mg, Mn, Si и Ca.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Total impurity concentration in the final productive solution was about 54 g/l.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Суммарная концентрация данных примесей в конечном продуктивном растворе составила около 54 г/л.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "When the summed concentration of major impurities exceeds 68,3 g/l, uniform percolation through the ore heap is disturbed.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "при суммарном содержании основных примесей более 68,3 г/л наблюдается нарушение равномерного просачивания растворов через рудный штабель.",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Impurities above 68.3 g/l cause non‑uniform flow through the ore stack.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "impurities",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полученные данные показывают, что при суммарном содержании основных примесей более 68,3 г/л наблюдается нарушение равномерного просачивания растворов через рудный штабель.",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Heap height should not exceed 4 m and leachate flow density should be limited to 5 l/(ч·м²).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "heap height",
+    "direction": "decreases",
+    "factor": "height limit",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Предложено перерабатывать руду в штабелях высотой не более 4 м при плотности потока выщелачивающего раствора до 5 л/(ч∙м 2 ).",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Prior to leaching, ore should be agglomerated with 15 kg of sulfuric acid per tonne of ore.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "acid addition",
+    "direction": "increases",
+    "factor": "agglomeration acid dosage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Перед проведением процесса кучного выщелачивания необходимо проводить окомкование руды с добавлением серной кислоты в количестве 15 кг/т руды.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "When 15 g/l of sulfuric acid is added to leach solutions, the temperature rises by 2 °C; at 35 g/l the rise is 5.2 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "acid concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При добавлении серной кислоты в выщелачивающие растворы до уровня 15 и 35 г/л растворы будут нагреваться на 2°С и 5,2°С соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "In cold periods, leachate must be heated to above 15 °C before extraction; expected temperature drop through the heap is 9–12 °C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "heat loss",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для восполнения потерь тепла при работе в холодный период года необходимо осуществлять нагрев медьсодержащих растворов, подаваемых на экстракцию, до температуры более 15°С. Ожидаемое снижение температуры растворов за период их прохождения через рудный штабель в холодный период года составит порядка 9-12°С.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Spent ore has high moisture and low strength, preventing multi‑layer heap systems and requiring removal after each leaching cycle.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "spent ore handling",
+    "direction": "increases",
+    "factor": "removal frequency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отработанная руда имеет высокую влажность и низкие прочностные свойства, что не позволяет организовать многоярусную систему кучного выщелачивания и обуславливает необходимость выемки отработанной руды после каждого цикла выщелачивания.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "In Russian cold climates, tailings of spent ore dry slowly and acidic runoff during rains must be neutralized to protect the environment.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "environmental protection",
+    "direction": "decreases",
+    "factor": "acidic runoff",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В холодных климатических условиях России отвалы отработанной руды будут терять влагу медленно. Во время дождей с отвалов будут стекать кислые растворы, которые необходимо обезвреживать для предотвращения негативного воздействия на окружающую среду.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.81,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "Среднемесячная температура на участке колеблется от -12 °С в январе до 12 °С в июле, при этом средняя температура ниже ноля держится в течение 7 месяцев в год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "month",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Среднемесячная температура на участке колеблется от -12 °С в январе до 12 °С в июле, при этом средняя температура ниже ноля держится в течение 7 месяцев в год.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Карьер Gilt Edge (прин. Brohm), эксплуатировался с 1988 по 1999 год, производя 4,1 млн. т/г руды со средним содержанием 1,5 г/т Au.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual ore throughput",
+    "direction": "increases",
+    "factor": "year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Карьер Gilt Edge (прин. Brohm), эксплуатировался с 1988 по 1999 год, производя 4,1 млн. т/г руды со средним содержанием 1,5 г/т Au.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Для КВ используется обычная площадка и ежегодно производит от 85 до 90 тыс. унций золота.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual gold output",
+    "direction": "increases",
+    "factor": "year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для КВ используется обычная площадка и ежегодно производит от 85 до 90 тыс. унций золота.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Среднегодовая температура в районе составляет -3 ° C, при этом среднемесячные минимальные и максимальные температуры составляют -17°C в январе и 12°C в июле, соответственно.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Среднегодовая температура в районе составляет -3 ° C, при этом среднемесячные минимальные и максимальные температуры составляют -17°C в январе и 12°C в июле, соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Крайние максимальные и минимальные температуры, зарегистрированные за период более 100 лет, составляют 35°С и -50°С соответственно.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Крайние максимальные и минимальные температуры, зарегистрированные за период более 100 лет, составляют 35°С и -50°С соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Укладка кучи запланирована на 300 дней в год в ярусы по 8 м., с круглогодичным орошением.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating days per year",
+    "direction": "increases",
+    "factor": "year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Укладка кучи запланирована на 300 дней в год в ярусы по 8 м., с круглогодичным орошением.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Мощность участка КВ - 25 тыс.т/день",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "daily throughput",
+    "direction": "increases",
+    "factor": "day",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность участка КВ - 25 тыс.т/день",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Ожидается, что затраты на электроэнергию составят 9,5 ¢ / кВтч, не включая амортизацию электростанции",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "electricity cost",
+    "direction": "increases",
+    "factor": "kWh",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ожидается, что затраты на электроэнергию составят 9,5 ¢ / кВтч, не включая амортизацию электростанции",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Эксплуатационные затраты на участке КВ - 1,31 $/т, на участке ADR (адсорбция-десорбция-извлечение)/SART - 2,73 $/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost per tonne",
+    "direction": "increases",
+    "factor": "tonne",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эксплуатационные затраты на участке КВ - 1,31 $/т, на участке ADR (адсорбция-десорбция-извлечение)/SART - 2,73 $/т.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Капитальные затраты КВ - 139 млн.$",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital expenditure",
+    "direction": "increases",
+    "factor": "project",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Капитальные затраты КВ - 139 млн.$",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Среднемесячные низкие температуры на участке колеблются от 11°C летом до -19°C зимой, с экстремальными минимальными значениями до -45°C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "climate",
+    "direction": "increases",
+    "factor": "geographic location",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Среднемесячные низкие температуры на участке колеблются от 11°C летом до -19°C зимой, с экстремальными минимальными значениями до 45°C.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Целевая проектная концентрация никеля в растворе составляет 3‑3,5 g/l.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "design specification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "«целевая» проектная концентрация 3-3,5 г/л",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "В 2012 г. концентрация никеля в растворе упала до около 1,3 g/l, что ниже целевой.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "water‑balance problems",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "концентрация никеля в растворе ... составили около 1,3 г/л при том, что «целевая» проектная концентрация 3-3,5 г/л",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.45,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": "leaching"
+  },
+  {
+   "text": "В ноябре 2012 г. произошла утечка сточных вод с токсичными уровнями никеля, кадмия, урана, алюминия и цинка, при этом концентрация урана в водных источниках выросла более чем в 50 раз.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "spill event",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "концентрация урана в водных источниках выросла более чем в 50 раз",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "На компанию Talvivaara Sotkamo был наложен корпоративный штраф в размере 300 тысяч евро за нанесение ущерба окружающей среде.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "penalty",
+    "direction": "increases",
+    "factor": "environmental damage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на компанию Talvivaara Sotkamo был наложен корпоративный штраф в размере 300 тысяч евро за нанесение ущерба окружающей среде",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.81,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Проект предусматривал переработку руды с получением (тыс. t/г): Ni – 50; Co – 1,8; Zn – 90; Cu – 15 плюс (потенциально) 350 t/г желтого кека.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metal yields",
+    "direction": "increases",
+    "factor": "design specifications",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проектом предусматривалась переработка руды по технологии кучного биовыщелачивания с получением (тыс. т/г): Ni - 50; Co - 1,8; Zn - 90; Cu - 15 плюс (потенциально) 350 т/г желтого кека",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  },
+  {
+   "text": "Terrafame планирует наращивание объёмов производства никеля до 24 000 t в 2017 г., 30 000 t в 2018 г. и 35 000 t в 2019 г. и далее.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel production",
+    "direction": "increases",
+    "factor": "capacity expansion",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания планирует наращивание объемов производства в 2017 г. - до 24 тыс. т никеля, в 2018 г. - до 30 тыс. т никеля, в 2019 г. и далее - до 35 тыс. т никеля",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:ти-5-2017-кучное-выщелачивание-в-условиях-холодн",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

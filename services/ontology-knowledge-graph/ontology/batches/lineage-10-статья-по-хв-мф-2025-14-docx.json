@@ -1,0 +1,187 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:10-статья-по-хв-мф-2025-14-docx",
+   "title": "10 Статья по ХВ МФ-2025-14.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\10 Статья по ХВ МФ-2025-14.docx.md",
+   "artifact_sha256": "251666273189ddd780d85d5d4583fb9cc43f477437502d6b4af07368ab1f320c",
+   "okf_raw_path": null
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:магнитная-фракция-мф",
+   "label": "магнитная фракция (МФ",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:медно-никелевыи-фаи-нштеи-н",
+   "label": "медно-никелевый файнштейн",
+   "family": "matte",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:мф",
+   "label": "мф",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:фаи-нштеи-н",
+   "label": "файнштейн",
+   "family": "matte",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:магнетит",
+   "label": "магнетит",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cu2",
+   "label": "cu2+",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cu-and-cl2",
+   "label": "Cu+ and Cl2",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cus",
+   "label": "cus",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cu9s5-and-cu2",
+   "label": "Cu9S5 and Cu2+",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nis",
+   "label": "nis",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ni3s2-and-cu2",
+   "label": "Ni3S2 and Cu2+",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:FeNi2S4",
+   "label": "FeNi2S4",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fe-ni-9s8-and-cu2",
+   "label": "Fe,Ni)9S8 and Cu2+",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [],
+ "claims": [],
+ "lineage": [
+  {
+   "src": "mat:магнитная-фракция-мф",
+   "dst": "mat:медно-никелевыи-фаи-нштеи-н",
+   "process": "выделения",
+   "kind": null,
+   "snippet": "выделения из всего объёма медно-никелевого файнштейна металлизированного продукта - магнитной фракции (МФ)",
+   "doc_id": "doc:10-статья-по-хв-мф-2025-14-docx"
+  },
+  {
+   "src": "mat:мф",
+   "dst": "mat:фаи-нштеи-н",
+   "process": "other",
+   "kind": null,
+   "snippet": "Составы МФ с различным содержанием серы (от 3,4 до 13,5%), выделенные из файнштейна",
+   "doc_id": "doc:10-статья-по-хв-мф-2025-14-docx"
+  },
+  {
+   "src": "mat:магнетит",
+   "dst": "mat:фаи-нштеи-н",
+   "process": "other",
+   "kind": null,
+   "snippet": "Магнетит, содержащий примеси кобальта и никеля, является продуктом окисления файнштейна, как правило, в период кристаллизации и в пробах наблюдается его вариантные количества.",
+   "doc_id": "doc:10-статья-по-хв-мф-2025-14-docx"
+  },
+  {
+   "src": "mat:cu2",
+   "dst": "mat:cu-and-cl2",
+   "process": "other",
+   "kind": null,
+   "snippet": "2Cu+ + Cl 2 → 2Cu 2+ + 2Cl - (2)",
+   "doc_id": "doc:10-статья-по-хв-мф-2025-14-docx"
+  },
+  {
+   "src": "mat:cus",
+   "dst": "mat:cu9s5-and-cu2",
+   "process": "other",
+   "kind": null,
+   "snippet": "Cu 9 S 5 + 4Сu 2+ → 5CuS + 8Cu + (4)",
+   "doc_id": "doc:10-статья-по-хв-мф-2025-14-docx"
+  },
+  {
+   "src": "mat:nis",
+   "dst": "mat:ni3s2-and-cu2",
+   "process": "other",
+   "kind": null,
+   "snippet": "2Ni 3 S 2 + 6Сu 2+ → Ni 3 S 4 + 3Ni 2+ + 6Cu + (5)",
+   "doc_id": "doc:10-статья-по-хв-мф-2025-14-docx"
+  },
+  {
+   "src": "mat:FeNi2S4",
+   "dst": "mat:fe-ni-9s8-and-cu2",
+   "process": "other",
+   "kind": null,
+   "snippet": "(Fe,Ni) 9 S 8 +24Cu 2+ → 2FeNi 2 S 4 + 7Fe 2+ + 5Ni 2+ + 24Cu + (6)",
+   "doc_id": "doc:10-статья-по-хв-мф-2025-14-docx"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

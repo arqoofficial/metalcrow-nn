@@ -1,0 +1,1405 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:австралия_никель_2011-pdf",
+   "title": "Австралия_никель_2011.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Австралия_никель_2011.pdf.md",
+   "artifact_sha256": "50d7edc938405cb987d35fb344e4d7df4042cb97e34261134004b7709a0f579f",
+   "okf_raw_path": "Обзоры/Австралия_никель_2011.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:concentrate",
+   "label": "concentrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-dithiolate",
+   "label": "sodium dithiolate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:guar",
+   "label": "guar",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:air",
+   "label": "air",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfuric-acid",
+   "label": "sulfuric acid",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:froth-product-containing-talc-and-sulfides",
+   "label": "froth product containing talc and sulfides",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:talc-rich-ore",
+   "label": "talc‑rich ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fine-stone-фаи-нштеи-н",
+   "label": "fine‑stone (файнштейн)",
+   "family": "matte",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:австралия_никель_2011-pdf:0",
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "title": "industrial",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation improvement and Fe:MgO increase using gravity chain",
+       "duration_text": "2000‑2004"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "За период с 2000 г . по 2004 г . WMC удалось не только улучшить показатели флотации , но и повысить Fe:MgO за счет того , что 50% концентратов про -пускалось через гравитационную цепочку , что позволило повысить Fe:MgO в конечном концентрате , правда , за счет некоторого снижения из -влечения .",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:австралия_никель_2011-pdf:1",
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "title": "laboratory",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Eh reduction with sodium dithiolate to make nickel sulfide minerals less hydrophobic than talc"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sodium-dithiolate",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:guar",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Выяснилось , в частности , что снижение Eh путем добавки , например , дитионата натрия делает суль -фидные никельсодержащие минералы менее гидрофобными , чем частицы талька и , в результате , гуар селективно покрывает частицы талька , мало затрагивая сульфиды .",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:австралия_никель_2011-pdf:2",
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "title": "laboratory",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Eh increase by air addition to improve flotation of nickel sulfide minerals"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:air",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Последующее повышение Eh, например , путем до -бавок воздуха позволяет улучшить флотируемость никельсодержащих сульфидных минералов и отфлотировать их от частиц талька , остающихся в пульпе .",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:австралия_никель_2011-pdf:3",
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "title": "laboratory",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Optimization of pH with sulfuric acid and guar for sulfide flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfuric-acid",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:guar",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "В ходе исследований определено также оптимальное значение pH ( флотируемость сульфидов улучшается при введении серной кислоты в комбинации с гуа -ром )",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:австралия_никель_2011-pdf:4",
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "title": "Laboratory experiment on sequential re‑grinding of froth product",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "sequential repeated grinding of the froth product"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:froth-product-containing-talc-and-sulfides",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Sequential re‑grinding enhances talc recovery and improves talc‑sulfide separation.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "последовательное повторное измельчение пенного продукта приводит к неожиданно сильному увеличению вывода талька в хвосты и, соответственно, улучшению разделения талька и сульфидов",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "последовательное повторное измельчение пенного продукта приводит к неожиданно сильному увеличению вывода талька в хвосты и, соответственно, улучшению разделения талька и сульфидов",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:австралия_никель_2011-pdf:5",
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "title": "Pilot test of the “Talc Redesign” project",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "pilot trials on talc‑rich ore processing"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:talc-rich-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "в презентации почти двухлетней давности упомянуто о пилотных испытаниях по проекту 'Talc Redesign'",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:австралия_никель_2011-pdf:6",
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "title": "Industrial implementation at Mt Keith processing plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "installation of additional grinding and flotation equipment and a new flotation circuit for high‑MgO concentrates"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:talc-rich-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "выполнено ТЭО проекта модернизации обогатительной фабрики Mt Keith, включающего установку дополнительного измельчительного и флотационного оборудования в рамках действующих обогатительных цепочек, а также дополнительной флотационной цепочки для концентратов с высоким содержанием MgO",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:австралия_никель_2011-pdf:7",
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "title": "Industrial operation at Kwinana refinery (Sherritt‑Gordon autoclave ammonia leaching)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "autoclave ammonia leaching followed by autoclave hydrogen reduction to produce 99.8 % pure nickel powder and briquettes"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-stone-фаи-нштеи-н",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "nickel purity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "получают никель в виде металлического никеля чистотой 99,8% качества ЛБМ",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [],
+   "snippet": "по технологии автоклавного аммиачного выщелачивания Шеррит‑Гордон с последующим автоклавным водородным восстановлением никеля из раствора в виде порошка и получением металлического никеля чистотой 99,8% качества ЛБМ",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Суммарный выпуск рафинированного никеля этими заводами в 2008/09 фин . г . составил 111 тыс т , в 2009/10 фин . г . - 120 тыс т , а в 2010/11 фин . г ., по прогнозу ABARE, достигнет 124 тыс т .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "refined nickel output",
+    "direction": "increases",
+    "factor": "annual production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарный выпуск рафинированного никеля этими заводами в 2008/09 фин . г . составил 111 тыс т , в 2009/10 фин . г . - 120 тыс т , а в 2010/11 фин . г ., по прогнозу ABARE, достигнет 124 тыс т .",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Суммарный выпуск никеля во всех видах ( в концентрате , файнштейне , ра -финированного ) составил 121 тыс т в 2008 г ., 131,5 тыс т в 2009 г . и 121,1 тыс т в 2010 г . ( календарные годы ).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "total nickel production (all forms)",
+    "direction": "increases",
+    "factor": "annual production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарный выпуск никеля во всех видах ( в концентрате , файнштейне , ра -финированного ) составил 121 тыс т в 2008 г ., 131,5 тыс т в 2009 г . и 121,1 тыс т в 2010 г . ( календарные годы ).",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Мощность Yabulu к 2007 году была увеличена с 32 тыс т никеля и 2 тыс т кобальта до 76 тыс т никеля и 3,5 тыс т кобальта .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel and cobalt production capacity",
+    "direction": "increases",
+    "factor": "capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность Yabulu к 2007 году была увеличена с 32 тыс т никеля и 2 тыс т кобальта до 76 тыс т никеля и 3,5 тыс т кобальта .",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Ravensthorpe, введенный в строй в конце 2007 года , так и не смог выйти даже на 50% от проектной мощности , которая состав -ляла 50 тыс т / г Ni и 1400 т / г Co в промпродукте .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "achieved capacity",
+    "direction": "decreases",
+    "factor": "capacity utilization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ravensthorpe, введенный в строй в конце 2007 года , так и не смог выйти даже на 50% от проектной мощности , которая состав -ляла 50 тыс т / г Ni и 1400 т / г Co в промпродукте .",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "На 30.06.2010 измеренные ресурсы - 196 млн т с 0,55% Ni.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ore resource size and grade",
+    "direction": "increases",
+    "factor": "resource quantity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На 30.06.2010 измеренные ресурсы - 196 млн т с 0,55% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Мощность О / Ф - 11,5 млн т / г по руде .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ore processing capacity",
+    "direction": "increases",
+    "factor": "capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность О / Ф - 11,5 млн т / г по руде .",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасов руды , подле -жащей открытой добыче , должно хватить еще как минимум на 14 лет эксплуатации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mine life expectancy",
+    "direction": "increases",
+    "factor": "reserve duration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Запасов руды , подле -жащей открытой добыче , должно хватить еще как минимум на 14 лет эксплуатации.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Снижение объемов добычи за прошедшие два года связано с оста -новкой добычи на австралийских рудниках « Норильского никеля » и на комплексе Ravensthorpe.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel mining volumes",
+    "direction": "decreases",
+    "factor": "production volumes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снижение объемов добычи за прошедшие два года связано с оста -новкой добычи на австралийских рудниках « Норильского никеля » и на комплексе Ravensthorpe.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Горно‑обогатительный комплекс Leinster (введен в строй в 1967 году) включает : подземный рудник Perseverance (измеренные ресурсы - 3,7 млн т с 1,7% Ni), месторождения‑спутники (Cliffs - 0,4 млн т с 4,8% Ni, Rocky's Reward), обогатительную фабрику и мощности по сушке концентратов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "complex composition",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Горно -обогатительный комплекс Leinster ( введен в строй в 1967 го -ду ) включает : подземный рудник Perseverance ( измеренные ресурсы - 3,7 млн т с 1,7% Ni), месторождения -спутники (Cliffs - 0,4 млн т с 4,8% Ni, Rocky's Reward), обогатительную фабрику и мощности по сушке концен -тратов .",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Производительность О/Ф - 3,0 млн т/г по руде.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производительность О / Ф - 3,0 млн т / г по руде .",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Сортность концентрата -≈ 12% Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "grade",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сортность концен -трата -≈ 12% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Предполагаемые, измеренные и исчисленные ресурсы отделения Leinster составляют 207,6 млн т руды с 0,78% Ni, запасы (доказаны‑не + вероятные) - 18,4 млн т руды с 1,7% никеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource size",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Предполагаемые , измеренные и исчисленные ресурсы отделения Leinster составляют 207,6 млн т руды с 0,78% Ni, запасы ( доказаны -не + вероятные ) - 18,4 млн т руды с 1,7% никеля .",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам BHP Billiton (по состоянию дел на 30.06.2010) запасов руды в Leinster хватит на 8 лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reserve life",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам BHP Billiton ( по состоянию дел на 30.06.2010) запасов руды в Leinster хватит на 8 лет ( Приложение 1, таблицы 3-4).",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "С месторождения Cliffs в 2008 году начата добыча руды, которая поступает на обогатительную фабрику Leinster.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production start year",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отметим , что с месторождения Cliffs в 2008 году начата добыча ру -ды , которая поступает на обогатительную фабрику Leinster.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценкам на середину 2009 года запасов хватит еще приблизительно на 3 года добычи.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reserve life",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам на середину 2009 года запасов хватит еще приблизительно на 3 года добычи .",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Продление срока эксплуатации Leinster примерно до 2020 г. было связано, главным образом, с вводом в строй в районе 2013 г. проекта Perseverance Deeps.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating horizon",
+    "direction": "increases",
+    "factor": "project introduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Продление срока эксплуатации Leinster примерно до 2020 г . было связано , главным образом , с вводом в строй в районе 2013 г . проекта Perseverance Deeps.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "На О/Ф Leinster, в соответствии с соглашением о переработке руды и покупке концентратов компанией BHP Billiton, поступала и руда с рудника Waterloo, принадлежащего «Норильскому никелю».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "source of ore",
+    "direction": "increases",
+    "factor": "agreement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На О / Ф Leinster, в соответствии с соглашением о переработке руды и покупке концентратов компанией BHP Billiton, поступала и руда с рудника Waterloo, принадлежащего « Норильскому никелю ».",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "На руднике Waterloo (35 км от Leinster) производство началось в октябре 2006 года, остановлено в ноябре 2008 года из‑за неблагоприятной рыночной ситуации.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production dates",
+    "direction": "increases",
+    "factor": "market conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На руднике Waterloo (35 км от Leinster) производство началось в ок -тябре 2006 года , остановлено в ноябре 2008 года из -за неблагоприятной рыночной ситуации .",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2007 году было произведено 3,2 тыс т никеля в концентрате, в 2008 году - 5,8 тыс т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel concentrate production",
+    "direction": "increases",
+    "factor": "year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2007 году было произведено 3,2 тыс т никеля в концентрате , в 2008 году - 5,8 тыс т .",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Доказанные и вероятные запасы руд‑ника Waterloo - 99 тыс т руды с 2,93% Ni, измеренные и исчисленные ресурсы - 57,5 тыс т руды с 4,58% Ni, предполагаемые ресурсы 753,9 тыс т руды с 1,39% никеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource size and grade",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доказанные и вероятные запасы руд -ника Waterloo - 99 тыс т руды с 2,93% Ni, измеренные и исчисленные ре -сурсы - 57,5 тыс т руды с 4,58% Ni, предполагаемые ресурсы 753,9 тыс т руды с 1,39% никеля .",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "О/Ф Kambalda (60 км к югу от г. Калгурли) имеет пропускную способность по руде 1,5 млн т/г, в выпускаемом концентрате - около 13% Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput and grade",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "О / Ф Kambalda (60 км к югу от г . Калгурли ) имеет пропускную способность по руде 1,5 млн т / г , в выпускаемом концентрате -около 13% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Мощность завода по концентрату - 750-800 тыс т/г или 100-110 тыс т/г Ni в файнштейне.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность завода по концентрату - 750-800 тыс т / г или 100-110 тыс т / г Ni в файнштейне .",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Конечная продукция - гранулированный никелевый файнштейн (около 68% Ni, 2-3% Cu, 1% Co).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "grade",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конечная продукция -гранулированный никелевый файнштейн ( около 68% Ni, 2-3% Cu, 1% Co).",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Отношение Fe:MgO в смеси концентратов, поступающих на плавку, должно быть 5,3 или выше (т. е. <5% MgO).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Fe:MgO ratio",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отношение Fe:MgO в смеси концентратов , поступающих на плавку , должно быть 5,3 или выше ( т . е . <5% MgO).",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В концентратах O/Ф Kambalda отношение Fe:MgO самое высокое по сравнению с Leinster и, тем более, Mt Keith ≈ 11 или ≈ 14‑15.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Fe:MgO ratio",
+    "direction": "increases",
+    "factor": "source",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В руде Kambalda отношение Fe:MgO самое высокое по сравнению с Leinster и , тем более , Mt Keith ≈ 11 [AMC. WMC Resources Ltd Specialist's Technical Report, 21 Dec 2004] или ≈ 14-15 [WMC].",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В руде Kambalda отношение Fe:MgO самое высокое по сравнению с Leinster и , тем более , Mt Keith ≈ 11",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Fe:MgO ratio",
+    "direction": "increases",
+    "factor": "≈ 11",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В руде Kambalda отношение Fe:MgO самое высокое по сравнению с Leinster и , тем более , Mt Keith ≈ 11",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В Leinster ... отношение Fe:MgO ... составляло ≈ 7",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В Leinster ... отношение Fe:MgO, во всяком случае на середину про -шлого десятилетия , составляло ≈ 7",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "За счет ввода в строй рудника Cliffs (Fe:MgO ≈ 25) компания WMC предполагала повысить от -ношение Fe:MgO в руде Leinster до 8-9.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Fe:MgO ratio",
+    "direction": "increases",
+    "factor": "до 8-9",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За счет ввода в строй рудника Cliffs (Fe:MgO ≈ 25) компания WMC предполагала повысить от -ношение Fe:MgO в руде Leinster до 8-9.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Проект новой печи предусматривал повышение рабочей температуры примерно на 50° С , что позволило бы снизить границу Fe:MgO с 5,3 до 4,7.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Fe:MgO boundary",
+    "direction": "decreases",
+    "factor": "с 5,3 до 4,7",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проект новой печи предусматривал повышение рабочей температуры при -мерно на 50° С , что позволило бы снизить границу Fe:MgO с 5,3 до 4,7.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Ремонт пе -чи взвешенной плавки осуществляла уже BHP Billiton, которая лишь упо -мянула « о возможности повышения « терпимости » к MgO» по ходу ремон -та печи .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "MgO tolerance",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ремонт пе -чи взвешенной плавки осуществляла уже BHP Billiton, которая лишь упо -мянула « о возможности повышения « терпимости » к MgO» по ходу ремон -та печи .",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "На месторождении Mt Keith перерабатывается в концентрат примерно 85% добытой руды , а 10-15% руды с повышенным содержанием талька -складируется .",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "На месторождении Mt Keith перерабатывается в концентрат примерно 85% добытой руды , а 10-15% руды с повышенным содержанием талька -складируется .",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Из складирован -ной руды по действующей технологии невозможно получить флотацион -ный концентрат приемлемого качества .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "flotation concentrate quality",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из складирован -ной руды по действующей технологии невозможно получить флотацион -ный концентрат приемлемого качества .",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Авторы изобретения подчеркивают , что проблема « тальковистых » руд не ограничивается Mt Keith, а суще -ствует и на ряде других австралийских месторождений .",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Авторы изобретения подчеркивают , что проблема « тальковистых » руд не ограничивается Mt Keith, а суще -ствует и на ряде других австралийских месторождений .",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Гуар оказался значительно менее эффективным агентом для обогащения руд типа Mt Keith.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "guar effectiveness",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Гуар оказался значительно менее эффективным агентом для обогащения руд типа Mt Keith.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Optimal pH for sulfide flotation is achieved by adding sulfuric acid together with guanidine.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pH",
+    "direction": "increases",
+    "factor": "sulfuric acid + guanidine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "оптимальное значение pH (флотируемость сульфидов улучшается при введении серной кислоты в комбинации с гуаром)",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Capital cost of the Talc Redesign project is estimated at 152 million US$.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Капитальные затраты по проекту оценены в 152 млн US$",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "The Talc Redesign project is scheduled to start construction in 2011 and will support production at the Kalgoorlie smelter at 100 kt/yr.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Ввод проекта в строй запланирован на 2011 г. Данный проект будет способствовать поддержанию уровня производства на плавильном заводе Калгурли в 100 тыс т/г",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "The Kwinana refinery has a design capacity of about 70 kt/yr of nickel.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Мощность завода Квинана -около 70 тыс т/г Ni",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "By‑product sulfuric acid plant upgrades and autoclave maintenance were performed during a 3‑week production shutdown in May 2010.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в период остановки производства на 3 недели был выполнен комплекс работ (обновление катализатора на сернокислотном заводе, инспекция автоклавов, замена теплообменника на сернокислотном заводе и др)",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Murrin Murrin plant has a nominal capacity of 40 kt/yr Ni and 5 kt/yr Co.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Завод Murrin Murrin, работающий по технологии автоклавного кислотного выщелачивания, имеет номинальную мощность 40 тыс т/г Ni и 5 тыс т/г Co",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Measured resources of the Murrin Murrin ore are 114 Mt at 1.03 % Ni and 0.076 % Co.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Измеренные 114 1,03 0,076",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.45,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Рудник Cosmos включает из 5 рудных тел : Cosmos, Cosmos Deeps, Alec Mairs Complex, Prospero и Tapinos, а также обогатительную фабрику с пропускной способностью 350 тыс т руды в год .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "throughput",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рудник Cosmos включает из 5 рудных тел : Cosmos, Cosmos Deeps, Alec Mairs Complex, Prospero и Tapinos, а также обогатительную фабрику с пропускной способностью 350 тыс т руды в год .",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "На руднике производит -ся 18% флотационный никелевый концентрат , который поставляется через порт Esperance на плавильный завод Sudbury ( Канада ), также принадлежа -щий компании Xstrata.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentrate grade",
+    "direction": "increases",
+    "factor": "18% Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На руднике производит -ся 18% флотационный никелевый концентрат , который поставляется через порт Esperance на плавильный завод Sudbury ( Канада ), также принадлежа -щий компании Xstrata.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Добыча руды на руднике ведется с 1999 года , пер -вый концентрат был получен в апреле 2000 года .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "start date",
+    "direction": "increases",
+    "factor": "1999",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добыча руды на руднике ведется с 1999 года , пер -вый концентрат был получен в апреле 2000 года .",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2010 году на руднике было выпущено 14 тыс т никеля в концен -трате и обогащено 383 тыс т руды .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "increases",
+    "factor": "14 тыс т Ni concentrate, 383 тыс т ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2010 году на руднике было выпущено 14 тыс т никеля в концен -трате и обогащено 383 тыс т руды .",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2010 году на руднике обогащено 149 тыс т руды и произведено 3 тыс т ни -келя в концентрате .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "increases",
+    "factor": "149 тыс т ore, 3 тыс т Ni concentrate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2010 году на руднике обогащено 149 тыс т руды и произведено 3 тыс т ни -келя в концентрате .",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "На 30 июня 2010 года доказанные запасы составляли 0,3 млн т с 4,19% Ni, веро -ятные - 0,8 млн т с 2,45% Ni.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "proved reserves",
+    "direction": "increases",
+    "factor": "0,3 млн т @ 4,19% Ni, 0,8 млн т @ 2,45% Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На 30 июня 2010 года доказанные запасы составляли 0,3 млн т с 4,19% Ni, веро -ятные - 0,8 млн т с 2,45% Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Цель плана состояла в том , чтобы со -кратить наличные издержки до 5,40-5,70 AUD/ фунт оплачиваемого никеля (3,35-3,55 USD/ фунт при курсе 0,62), а с учетом хеджирования эффектив -ные наличные издержки -до 2,50-2,80 USD/ фунт оплачиваемого никеля .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cash cost target",
+    "direction": "decreases",
+    "factor": "5,40-5,70 AUD/lb, 2,50-2,80 USD/lb",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цель плана состояла в том , чтобы со -кратить наличные издержки до 5,40-5,70 AUD/ фунт оплачиваемого никеля (3,35-3,55 USD/ фунт при курсе 0,62), а с учетом хеджирования эффектив -ные наличные издержки -до 2,50-2,80 USD/ фунт оплачиваемого никеля .",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В пресс -релизе от 07.05.2010 Miitel сообщила о решении немедленно возобновить производство на руднике Miitel, на запуск рудника потребуется менее 1 млн долларов .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital requirement",
+    "direction": "decreases",
+    "factor": "< 1 млн долларов",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В пресс -релизе от 07.05.2010 Miitel сообщила о решении немедленно возобновить производство на руднике Miitel, на запуск рудника потребуется менее 1 млн долларов .",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Наличные издержки составят в среднем за весь срок эксплуатации рудника 5,50-6,00 AUD/ фунт оплачи -ваемого никеля .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average cash cost",
+    "direction": "increases",
+    "factor": "5,50-6,00 AUD/lb",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наличные издержки составят в среднем за весь срок эксплуатации рудника 5,50-6,00 AUD/ фунт оплачи -ваемого никеля .",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Ресурсы никеля увеличились с немногим более 40 тыс т в 2000 фин . году до 154 тыс т в 2009 фин . г . и 151 тыс т на 30.06.2010 г .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel resources",
+    "direction": "increases",
+    "factor": "40 тыс т → 154 тыс т → 151 тыс т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ресурсы никеля увеличились с немногим более 40 тыс т в 2000 фин . году до 154 тыс т в 2009 фин . г . и 151 тыс т на 30.06.2010 г .",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2011 фин . году компания планирует произвести около 14 тыс т никеля в руде , а к 2012 году увеличить добычу до 16 тыс т .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel production",
+    "direction": "increases",
+    "factor": "to ~14 kt (2011) and ~16 kt (2012)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2011 фин . году компания планирует произвести около 14 тыс т никеля в руде , а к 2012 году увеличить добычу до 16 тыс т .",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "на старейшем руднике компании Otter Juan не -ожиданно отмечено ухудшение устойчивости почв на самых нижних горизонтах .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "soil stability",
+    "direction": "decreases",
+    "factor": "unexpected deterioration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на старейшем руднике компании Otter Juan не -ожиданно отмечено ухудшение устойчивости почв на самых нижних горизонтах .",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Было принято решение о переносе срока закрытия рудника на 1 год вперед -на начало 2012 г ., а до 2012 г . добыча на руднике будет продолжаться в сокращенном объеме .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "closure schedule",
+    "direction": "decreases",
+    "factor": "shifted earlier by 1 year, production reduced",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Было принято решение о переносе срока закрытия рудника на 1 год вперед -на начало 2012 г ., а до 2012 г . добыча на руднике будет продолжаться в сокращенном объеме .",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "За 2010 фин . год на руднике Lanfranchi было добыто 398,9 тыс т руды с 2,54% никеля (10,1 тыс т никеля в руде ), что приблизительно соответствует поставкам предыдущего фин . года .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ore extracted",
+    "direction": "increases",
+    "factor": "398.9 kt ore, 2.54 % Ni (10.1 kt Ni)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За 2010 фин . год на руднике Lanfranchi было добыто 398,9 тыс т ру -ды с 2,54% никеля (10,1 тыс т никеля в руде ), что приблизительно соответ -ствует поставкам предыдущего фин . года",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Извлечение Ni,% 86,3",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel recovery",
+    "direction": "increases",
+    "factor": "86,3 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Извлечение Ni,% 86,3",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Извлечение Cu,% 96,3",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper recovery",
+    "direction": "increases",
+    "factor": "96,3 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Извлечение Cu,% 96,3",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Извлечение Co,% 90,1",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cobalt recovery",
+    "direction": "increases",
+    "factor": "90,1 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Извлечение Co,% 90,1",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Долгосрочная цель компании -поддержание уровня производства в 9 тыс т / г Ni с низкими издержками .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production level",
+    "direction": "increases",
+    "factor": "9 kt Ni per year with low costs",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Долгосрочная цель компании -поддержание уровня производства в 9 тыс т / г Ni с низкими издержками .",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Соглашение о толлинговой переработке руды на о / ф Kambalda за -ключено до февраля 2019 года .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "valid until February 2019",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Соглашение о толлинговой переработке руды на о / ф Kambalda за -ключено до февраля 2019 года .",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:австралия_никель_2011-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

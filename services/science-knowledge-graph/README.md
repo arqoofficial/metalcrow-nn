@@ -108,6 +108,44 @@ Flags: `--limit N` (smoke test), `--concurrency`, `--batch-size`. Resume via
 `scripts/.ingest_shared_progress.json` inside the container. See root
 [README.md](../../README.md#ingest-shared--knowledge-graph) for coverage checks and prod notes.
 
+## Load precomputed facts + vectors into Neo4j (server)
+
+`docker compose up` только поднимает сервисы — Neo4j стартует **пустым**, ничего
+не читается на старте. Граф нужно наполнить один раз из предрасчитанных
+артефактов в `SHARED/` (spaCy-факты + OpenAI-эмбеддинги, собранные
+`scripts/embed_facts.py`). Без этого шага `/rag/query` на каждый вопрос
+отвечает «нет данных».
+
+`compose.prod.yml` монтирует `SHARED` в контейнер read-only как `/shared`
+(`./services/nornickel-2026-parser/SHARED:/shared:ro`), поэтому загрузчик
+запускается без ручного `-v`. Эмбеддинги берутся из `vectors/` — **новых
+вызовов OpenAI при загрузке нет**; Neo4j должен быть healthy. Запускать из
+корня репозитория:
+
+```bash
+docker compose -f compose.yml -f compose.prod.yml run --rm \
+  science-knowledge-graph \
+  uv run python scripts/load_precomputed_facts.py \
+    /shared/facts/facts \
+    /shared/vectors \
+    --md-dir /shared/RAW_DATA_646/RAW_DATA
+```
+
+Три входа: `facts/facts` — JSON с фактами; `vectors` — предрасчитанные
+`entities.npy`/`.jsonl`; `--md-dir` — исходные тексты для `Document.text` (без
+него источники в ответах не подтянутся). Загрузка идёт в 2 прохода (структура
+графа → backfill эмбеддингов). Флаг `--skip-existing` пропускает уже
+загруженные документы. Проверка после загрузки:
+
+```bash
+docker compose -f compose.yml -f compose.prod.yml exec neo4j \
+  cypher-shell -u neo4j -p "$NEO4J_PASSWORD" \
+  "MATCH (e:Entity) WITH count(e) AS ents MATCH (d:Document) RETURN ents, count(d) AS docs;"
+```
+
+Альтернатива: перенести уже наполненную БД — скопировать папку `neo4j-data/`
+(при остановленном `neo4j`), тогда загрузчик не нужен.
+
 ## Demo data
 
 ```bash

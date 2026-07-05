@@ -1,0 +1,622 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "title": "54 Поведение селена и теллура при электроэкстракции меди.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\54 Поведение селена и теллура при электроэкстракции меди.docx.md",
+   "artifact_sha256": "cbf8694a20d491bb895181bd5e44ddba2d9a8c1b14a07f73e76b783605fccfec",
+   "okf_raw_path": "Статьи/54 Поведение селена и теллура при электроэкстракции меди.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:Se-IV",
+   "label": "Se(IV)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Te-IV",
+   "label": "Te(IV)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:selenate-se-vi",
+   "label": "Selenate (Se(VI))",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:tellurate-te-vi",
+   "label": "Tellurate (Te(VI))",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:54-поведение-селена-и-теллура-при-электроэкстрак:0",
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "title": "Copper electrodeposition on sequential cathodes",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrodeposition of copper on a series of cathodes",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:Se-IV",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:Te-IV",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:Se-IV",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 0.2
+     },
+     "unit": "g/т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "S"
+     },
+     "method": null,
+     "snippet": "стабилизируясь на уровне ниже предела обнаружения: <0,2 г/т Se",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:Te-IV",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 0.02
+     },
+     "unit": "g/т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "te"
+     },
+     "method": null,
+     "snippet": "стабилизируясь на уровне ниже предела обнаружения: <0,02 г/т Te",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Снижение концентрации примесей в осадке происходит при практически неизменной их концентрации в растворе",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "decreases",
+      "factor": "constant solution concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Снижение концентрации примесей в осадке происходит при практически неизменной их концентрации в растворе",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для выяснения причин расхождения полученных данных с литературными, выполнено осаждение меди на последовательно сменяемых катодах с начальным содержанием, мг/дм 3 : Se(IV) - 4,0; Te(IV) - 40,0.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:54-поведение-селена-и-теллура-при-электроэкстрак:1",
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "title": "Additional experiment with added selenate and tellurate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Copper electrodeposition in a clean electrolyte with added 100 mg/dm³ selenate and tellurate",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:selenate-se-vi",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:tellurate-te-vi",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Содержание микропримесей в осадке не зависит от содержания Se(VI) и Te(VI) в электролите",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "no_change",
+      "factor": "added Se(VI) and Te(VI)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "подтвердили независимость содержания микропримесей в осадке от содержания Se (VI) и Te (VI) в электролите.",
+     "locator_kind": "md_para",
+     "locator": "para:25",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Результаты дополнительного опыта с добавкой в чистый электролит по 100 мг/дм 3 селената и теллурата подтвердили независимость содержания микропримесей в осадке от содержания Se (VI) и Te (VI) в электролите.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "ГОСТ 859-2001 «Медь. Марки», ограничивает содержание суммы первых трех указанных примесей в высшей марке катодной меди М00к не более 3 г/т, и не более 2 г/т каждой",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maximum impurity content",
+    "direction": "no_change",
+    "factor": "3 г/т, 2 г/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ограничивает содержание суммы первых трех указанных примесей в высшей марке катодной меди М00к не более 3 г/т, и не более 2 г/т каждой",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "негативное влияние на способность меди к отжигу проявляется уже при содержании селена и теллура в 0,5 г/т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annealability",
+    "direction": "decreases",
+    "factor": "0,5 г/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "негативное влияние на способность меди к отжигу проявляется уже при содержании селена и теллура в 0,5 г/т",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "разряд селена (IV) и теллура (IV) при их низкой концентрации в медном электролите подчиняется закономерностям диффузионной кинетики",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reduction kinetics",
+    "direction": "no_change",
+    "factor": "низкой концентрации",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "разряд селена (IV) и теллура (IV) при их низкой концентрации в медном электролите подчиняется закономерностям диффузионной кинетики",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "содержание селена и теллура в меди изменяется пропорционально концентрации халькогенитов в растворе",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "пропорционально концентрации халькогенитов",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "а содержание селена и теллура в меди изменяется пропорционально концентрации халькогенитов в растворе",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "концентрация халькогенитов имеет минус первый порядок от съема меди из единичного объема электролита",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "минус первый порядок",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "концентрация халькогенитов имеет минус первый порядок от съема меди из единичного объема электролита",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "загрязнение катодной меди селеном и теллуром быстро снижается с увеличением съема меди",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "contamination_level",
+    "direction": "decreases",
+    "factor": "увеличением съема меди",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "загрязнение катодной меди селеном и теллуром быстро снижается с увеличением съема меди",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "традиционно требования к чистоте продукционных растворов по селену (IV) ограничивают его содержанием на уровне не более 1 мг/дм 3",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "selenium_IV_limit",
+    "direction": "no_change",
+    "factor": "1 мг/дм 3",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "требования к чистоте продукционных растворов по селену (IV) ограничивают его содержанием на уровне не более 1 мг/дм 3",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "требования к чистоте растворов по селену (VI) и теллуру (VI) не предъявляются",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "selenium_VI_and_tellurium_VI_limits",
+    "direction": "no_change",
+    "factor": "не предъявляются",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Требования к чистоте растворов по селену (VI) и теллуру (VI) не предъявляются",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "при электроэкстракции меди из содержащего тиомочевину промышленного электролита в присутствии селенита на его поверхности формируются обогащенные селеном, углеродом и кислородом микроглобулы, а локальное содержание каждой из перечисленных примесей может превышать первые проценты",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "surface_impurity_content",
+    "direction": "increases",
+    "factor": "первые проценты",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "может превышать первые проценты",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": "electroextraction"
+  },
+  {
+   "text": "влияние теллура на внешний вид медных осадков подобно влиянию селена, но проявляется при более высоких концентрациях в электролите",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "decreases",
+    "factor": "более высоких концентрациях",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "влияние теллура на внешний вид медных осадков подобно влиянию селена, но проявляется при более высоких концентрациях в электролите",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.81,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Коэффициенты истинных пропорциональности Kп.0 равны 89,3 для селена и 2,02 для теллура",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Kп.0",
+    "direction": "increases",
+    "factor": "derived from initial concentrations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Величина полученных таким образом истинных коэффициентов пропорциональности К п.0 =89,3 для селена и К п.0 =2,02 для теллура",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Анодное окисление проходит интенсивнее, чем катодное восстановление",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction intensity",
+    "direction": "increases",
+    "factor": "anodic oxidation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Видно, таблица 2, что анодное окисление проходит интенсивнее, чем катодное восстановление",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Коэффициенты пропорциональности k для частичных плотностей тока: Se(IV) anodic oxidation 70,4 (мА×м)/мг, Se(IV) cathodic reduction 40,3 (мА×м)/мг, Te(IV) anodic oxidation 36,5 (мА×м)/мг, Te(IV) cathodic reduction 0,56 (мА×м)/мг",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "k",
+    "direction": "nonmonotonic",
+    "factor": "different for Se and Te, anodic vs cathodic",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таблица 2 – Коэффициенты пропорциональности k уравнений парциальных плотностей тока электродных реакций селена и теллура (IV) вида i=k C пр.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.81,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Скорость восстановления теллура (IV) аномально низкая по сравнению с селеном (IV)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reduction speed",
+    "direction": "decreases",
+    "factor": "telurium vs selenium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Аномально низкая скорость восстановления теллура (IV) коррелирует с известными данными о существенных затруднениях реакции восстановления теллура (IV) по сравнению с селеном (IV)",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Графики зависимости логарифма содержания селена и теллура в катодных осадках от количества электричества Q хорошо аппроксимируются линейной зависимостью",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "log‑C vs Q",
+    "direction": "increases",
+    "factor": "linear approximation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Графики зависимости логарифма содержания селена и теллура в катодных осадках от количества электричества Q, пропущенного через удельный объем раствора, хорошо аппроксимируются линейной зависимостью",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Для гальваностатических условий dCж./dt = -A I Cж.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для гальваностатических условий Q =It, где I – общий ток, t – время, тогда dC ж. /dt= - AIC ж.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Осаждение меди без циркуляции, в периодическом режиме, сопровождается снижением содержания примесей в осадке согласно уравнению: С тв. =С тв.0* exp(aQ+b), где а и b – коэффициенты аппроксимирующих уравнений на рисунке 2а, а С тв.0 – содержание примеси в осадке для начального момента осаждения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impurity reduction",
+    "direction": "decreases",
+    "factor": "exp(aQ+b)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Осаждение меди без циркуляции, в периодическом режиме, сопровождается снижением содержания примесей в осадке согласно уравнению: С тв. =С тв.0* exp(aQ+b), где а и b – коэффициенты аппроксимирующих уравнений на рисунке 2а, а С тв.0 – содержание примеси в осадке для начального момента осаждения.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Коэффициент пропорциональности между содержанием примеси в растворе и осадке будет снижаться: К п. = К п.0 С тв. /С тв.0 .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "proportionality coefficient",
+    "direction": "decreases",
+    "factor": "Kp = Kp0 * Stv / Stv0",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Коэффициент пропорциональности между содержанием примеси в растворе и осадке будет снижаться: К п. = К п.0 С тв. /С тв.0 .",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.81,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Одним из основных показателей промышленного производства меди электроэкстракцией является её съём с единичного объёма раствора ∆Cu=qηQ, где q = 1,186 г/Ач – электрохимический эквивалент меди, а η – выход меди по току.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper recovery rate",
+    "direction": "increases",
+    "factor": "∆Cu = q η Q, q = 1,186 г/Ач",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Одним из основных показателей промышленного производства меди электроэкстракцией является её съём с единичного объёма раствора ∆Cu=qηQ, где q = 1,186 г/Ач – электрохимический эквивалент меди, а η – выход меди по току.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.81,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Для ванны, работающей в непрерывном режиме при съеме меди в 50 г/дм³, коэффициент между содержанием примеси в питающем электролите и её содержанием в катоде для селена К п. =0,64, а для теллура К п. =0,07.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impurity transfer coefficient",
+    "direction": "decreases",
+    "factor": "Kp (Se)=0,64; Kp (Te)=0,07 at 50 g/dm³ Cu removal",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выполненные по уравнению (2) расчеты показывают, что для ванны, работающей в непрерывном режиме при съеме меди в 50 г/дм³, коэффициент между содержанием примеси, в питающем электролите и её содержанием в катоде для селена К п. =0,64, а для теллура К п. =0,07.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Содержание примесей в катоде не выше 0,5 г/т обеспечивается при концентрации в питании менее: селена (IV) – 0,8 мг/дм³, а теллура (IV) – 7 мг/дм³.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maximum allowable impurity level in cathode",
+    "direction": "decreases",
+    "factor": "feed concentration ≤0,8 mg/dm³ Se(IV), ≤7 mg/dm³ Te(IV)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тогда содержание примесей в катоде не выше 0,5 г/т обеспечивается при концентрации в питании менее: селена (IV) – 0,8 мг/дм³, а теллура (IV) – 7 мг/дм³.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Для получения меди с содержанием примеси не выше 1,0 г/т, в электролите по расчёту допускается не более 0,01 мг/дм³ селена (IV) и 0,50 мг/дм³ теллура (IV).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "≤0,01 mg/dm³ Se(IV), ≤0,50 mg/dm³ Te(IV)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для получения меди с содержанием примеси не выше 1,0 г/т, в электролите по расчёту допускается не более 0,01 мг/дм³ селена (IV) и 0,50 мг/дм³ теллура (IV).",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.81,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": null
+  },
+  {
+   "text": "Электроэкстракция, интегрированная в производство меди рафинированием черновых анодов, оказывается достаточно эффективной очистной операцией в отношении селена и теллура (IV).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "overall impurity removal effectiveness",
+    "direction": "increases",
+    "factor": "effective for Se(IV) and Te(IV)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электроэкстракция, интегрированная в производство меди рафинированием черновых анодов, оказывается достаточно эффективной очистной операцией в отношении селена и теллура (IV).",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:54-поведение-селена-и-теллура-при-электроэкстрак",
+   "process": "electroextraction"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

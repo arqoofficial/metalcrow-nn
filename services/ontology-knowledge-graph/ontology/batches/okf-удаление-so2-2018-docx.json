@@ -1,0 +1,2055 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:удаление-so2-2018-docx",
+   "title": "Удаление SO2 2018.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Удаление SO2 2018.docx.md",
+   "artifact_sha256": "cac084f28335f951447b158b03e63a4e62302ab92e8ca719e414efab616db822",
+   "okf_raw_path": "Обзоры/Удаление SO2 2018.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:raw-gas",
+   "label": "raw gas",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:wet-gas-streams",
+   "label": "wet gas streams",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:catalyst",
+   "label": "catalyst",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:off-gas-from-lead-agglomeration-plant-and-zinc-c",
+   "label": "off‑gas from lead agglomeration plant and zinc concentrate sintering",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:topsoe-vk-series-catalyst",
+   "label": "Topsoe VK series catalyst",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gas-stream",
+   "label": "gas stream",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:vk-w-catalyst-25-mm-daisy-flower-particles-in-fi",
+   "label": "VK‑W catalyst (25 mm ‘daisy‑flower’ particles in first pack, 9 mm or 12 mm in later packs)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cesium-promoted-catalyst-4th-pack",
+   "label": "cesium‑promoted catalyst (4th pack)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:удаление-so2-2018-docx:0",
+   "document_id": "doc:удаление-so2-2018-docx",
+   "title": "Olympic Dam dry‑sorbent injection pilot",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "installation of a pre‑converter to lower SO₂ concentration before the first catalyst pack",
+       "temperature_text": "~370°C inlet temperature of the first catalyst pack"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 643.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:raw-gas",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:raw-gas",
+     "value": {
+      "min": null,
+      "nominal": 18.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "so₂  in raw gas"
+     },
+     "method": null,
+     "snippet": "Такой подход позволил предприятию Olympic Dam перерабатывать сырьевой газ с 18% SO₂.",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "subsequent new sulfuric acid plant designed for ~11‑12% SO₂ raw gas",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Впоследствии на Olympic Dam был построен новый сернокислотный завод, спроектированный под более привычный сырьевой газ – порядка 11-12% SO₂.",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Установка предварительного конвертера для снижения концентрации SO₂ в газе, входящем в первый пакет катализатора основного конвертера.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:удаление-so2-2018-docx:1",
+   "document_id": "doc:удаление-so2-2018-docx",
+   "title": "World‑wide industrial deployment of WSA technology (2009)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "wet gas sulfuric acid (WSA) process"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:wet-gas-streams",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "number of installations",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "на 2009 г. в мире работало 80 установок WSA",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "gas_flow",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2600.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "capacity per installation"
+     },
+     "method": null,
+     "snippet": "от 2600 нм³/час до 1,2 млн нм³/час",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "sulfuric acid production per installation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 11.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "объёмами производства серной кислоты от 11 т/сут до 1200 т/сут",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "WSA technology is widely applied in oil refining, petrochemical, non‑ferrous metallurgy and other industries",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Технология WSA применяется в нефтеперерабатывающей и нефтехимической отраслях, в цветной металлургии, в химической отрасли (производство вискозного волокна) и др.",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Технология получения серной кислоты из влажного газа (WSA), разработанная компанией Haldor Topsoe в 1980‑е годы, стала чрезвычайно популярной для удаления SO₂ и превращения его в товарную концентрированную серную кислоту.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:удаление-so2-2018-docx:2",
+   "document_id": "doc:удаление-so2-2018-docx",
+   "title": "Cesium‑promoted catalyst laboratory test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "use of cesium‑promoted V₂O₅‑K₂SO₄ catalyst on the first catalyst pack",
+       "temperature_text": "~370°C inlet, ~40°C lower than traditional catalysts"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 643.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:catalyst",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:catalyst",
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "inlet  reduction"
+     },
+     "method": null,
+     "snippet": "что позволяет эксплуатировать его при температуре на входе ~370°C, т.е. примерно на 40°C ниже, чем с традиционными катализаторами.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "higher temperature rise and higher SO₂ conversion can be achieved on the first pack without exceeding outlet temperature limits",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Как следствие, допустим более высокий рост температуры (и достигается более высокая конверсия SO₂) на первом пакете без превышения температурной границы на выходе",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "установка промотированного цезием катализатора на первом пакете (слое) катализатора, что позволяет эксплуатировать его при температуре на входе ~370°C",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:удаление-so2-2018-docx:3",
+   "document_id": "doc:удаление-so2-2018-docx",
+   "title": "Ust‑Kamenogorsk zinc plant (Kazakhstan)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "WSA sulfuric acid plant integrated with zinc production",
+       "temperature_text": "not explicitly stated for this plant",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:off-gas-from-lead-agglomeration-plant-and-zinc-c",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:off-gas-from-lead-agglomeration-plant-and-zinc-c",
+     "value": {
+      "min": null,
+      "nominal": 125000.0,
+      "max": null
+     },
+     "unit": "nm³/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "gas"
+     },
+     "method": null,
+     "snippet": "Завод перерабатывает 125000 нм³/час отходящих газов с содержанием SO₂ 6,5% об.",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:off-gas-from-lead-agglomeration-plant-and-zinc-c",
+     "value": {
+      "min": null,
+      "nominal": 6.5,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "so₂  in feed gas"
+     },
+     "method": null,
+     "snippet": "Завод перерабатывает 125000 нм³/час отходящих газов с содержанием SO₂ 6,5% об.",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "acid production rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 900.0,
+      "max": null
+     },
+     "unit": "t/day",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и производит около 900 т/сут 98%-ной серной кислоты.",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "acid purity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 98.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и производит около 900 т/сут 98%-ной серной кислоты.",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant demonstrates successful industrial implementation of the WSA technology with high acid purity and substantial gas throughput.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "acid purity",
+      "direction": "increases",
+      "factor": "WSA technology",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "и производит около 900 т/сут 98%-ной серной кислоты.",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На цинковом заводе в Усть‑Каменогорске имеется полный цикл производства цинка, в качестве побочной продукции получают медь, свинец, драгоценные металлы. На заводе WSA перерабатываются отходящие газы свинцовой аглофабрики и газы от обжига цинковых концентратов.",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:удаление-so2-2018-docx:4",
+   "document_id": "doc:удаление-so2-2018-docx",
+   "title": "Topsoe VK catalyst two‑layer configuration (modern WSA plants for metallurgy)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "WSA conversion of SO₂ in SO₂ converters",
+       "temperature_text": "~410°C (catalyst working temperature)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 683.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:topsoe-vk-series-catalyst",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:catalyst",
+     "value": {
+      "min": null,
+      "nominal": 683.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "catalyst operating"
+     },
+     "method": null,
+     "snippet": "обычный катализатор окисления SO₂ – Topsoe серии VK с рабочей температурой ~410°C.",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "SO₂ conversion (two‑layer)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 98.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в зависимости от концентрации SO₂ в технологическом газе возможно достичь конверсии 98‑99%, что и было неоднократно подтверждено.",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "SO₂ conversion (three‑layer, Chile plant)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.6,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Достижение конверсии 99,6% возможно с применением трех слоев катализатора (чилийский завод Molibdenos y Metales).",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Two‑layer VK catalyst reliably provides 98‑99% SO₂ conversion; three‑layer configuration can reach 99.6% conversion.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "SO₂ conversion",
+      "direction": "increases",
+      "factor": "additional catalyst layer",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в зависимости от концентрации SO₂ в технологическом газе возможно достичь конверсии 98‑99%, что и было неоднократно подтверждено.",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "На всех последних поколениях заводов WSA для металлургической промышленности в конвертере SO₂ используется два слоя/пакета катализатора, устанавливается обычный катализатор окисления SO₂ – Topsoe серии VK с рабочей температурой ~410°C.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:удаление-so2-2018-docx:5",
+   "document_id": "doc:удаление-so2-2018-docx",
+   "title": "Industrial WSA‑DC plant operation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "SO₂ conversion to H₂SO₄ using a multi‑stage WSA‑DC scheme with VK‑W and cesium‑promoted catalysts",
+       "temperature_text": "~400 °C (initial cooling in high‑pressure steam boiler), ~600 °C (exit of first pack), ~380 °C (pre‑heat before 4th pack), 240 °C (after 4th pack), 150 °C (final condenser)",
+       "duration_text": "continuous plant operation (industrial scale)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 673.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gas-stream",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:vk-w-catalyst-25-mm-daisy-flower-particles-in-fi",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:cesium-promoted-catalyst-4th-pack",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "SO₂ conversion after third catalytic pack",
+     "scope": "material",
+     "material_id": "mat:raw-gas",
+     "value": {
+      "min": null,
+      "nominal": 95.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На выходе из третьего пакета достигается конверсия в 95%.",
+     "locator_kind": "md_para",
+     "locator": "para:150",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "SO₂ conversion after fourth catalytic pack",
+     "scope": "material",
+     "material_id": "mat:raw-gas",
+     "value": {
+      "min": null,
+      "nominal": 99.95,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Он обеспечивает достижение конверсии в 99,95%.",
+     "locator_kind": "md_para",
+     "locator": "para:153",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "acid strength (typical case)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В типичном случае её крепость составляет 99%.",
+     "locator_kind": "md_para",
+     "locator": "para:150",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "H₂O/SO₂ ratio in gas before final condensation",
+     "scope": "material",
+     "material_id": "mat:raw-gas",
+     "value": {
+      "min": null,
+      "nominal": 1.05,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Содержание H₂O в газе строго контролируется ... чтобы достичь значения H₂O/SO₂ 1,05‑1,10.",
+     "locator_kind": "md_para",
+     "locator": "para:150",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "pressure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "bar",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "steam"
+     },
+     "method": null,
+     "snippet": "Система утилизации тепла ... отводится пар ~80 bar (избыт) и 500 °C – идеален для генерации энергии.",
+     "locator_kind": "md_para",
+     "locator": "para:150",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 773.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "steam  for heat recovery"
+     },
+     "method": null,
+     "snippet": "Система утилизации тепла ... отводится пар ~80 bar (избыт) и 500 °C – идеален для генерации энергии.",
+     "locator_kind": "md_para",
+     "locator": "para:150",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The multi‑stage WSA‑DC configuration achieves very high SO₂ conversion and produces highly concentrated sulfuric acid.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "overall performance",
+      "direction": "increases",
+      "factor": "conversion and acid strength",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На выходе из третьего пакета достигается конверсия в 95%... Он обеспечивает достижение конверсии в 99,95%... в типичном случае её крепость составляет 99%.",
+     "locator_kind": "md_para",
+     "locator": "para:150",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Этот газ охлаждают в паровом котле высокого давления до ~400°С – оптимальной температуры для катализатора конверсии SO₂ в SO₃ серии Topsoe VK‑W.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:удаление-so2-2018-docx:6",
+   "document_id": "doc:удаление-so2-2018-docx",
+   "title": "Industrial application – Stolberg lead plant (2009)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "BAYQIK / CORE pseudo‑isothermal converter used as a pre‑converter before the first catalytic pack",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:raw-gas",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "SO₂ content of feed gas",
+     "scope": "material",
+     "material_id": "mat:raw-gas",
+     "value": {
+      "min": null,
+      "nominal": 18.0,
+      "max": null
+     },
+     "unit": "percent by volume",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Первый такой реактор был установлен на свинцовом заводе Stolberg (Германия) компании Berzelius Stolberg GmbH в 2009 г. Реактор функционирует в качестве «предварительного конвертера» и установлен до первого каталитического пакета, позволяя сернокислотному заводу перерабатывать сырьевые газы с 18-21%об.SO 2 .",
+     "locator_kind": "md_para",
+     "locator": "para:213",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant can process raw gases with 18‑21 % SO₂ using the pseudo‑isothermal converter.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "process capability",
+      "direction": "increases",
+      "factor": "SO₂ content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Первый такой реактор был установлен на свинцовом заводе Stolberg (Германия) компании Berzelius Stolberg GmbH в 2009 г. Реактор функционирует в качестве «предварительного конвертера» и установлен до первого каталитического пакета, позволяя сернокислотному заводу перерабатывать сырьевые газы с 18-21%об.SO 2 .",
+     "locator_kind": "md_para",
+     "locator": "para:213",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Первый такой реактор был установлен на свинцовом заводе Stolberg (Германия) компании Berzelius Stolberg GmbH в 2009 г. Реактор функционирует в качестве «предварительного конвертера» и установлен до первого каталитического пакета, позволяя сернокислотному заводу перерабатывать сырьевые газы с 18-21%об.SO 2 .",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:удаление-so2-2018-docx:7",
+   "document_id": "doc:удаление-so2-2018-docx",
+   "title": "Industrial application – second plant (January 2017)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "BAYQIK / CORE pseudo‑isothermal converter",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:raw-gas",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "SO₂ content of feed gas",
+     "scope": "material",
+     "material_id": "mat:raw-gas",
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "percent by volume",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Второй завод был введен в строй в январе 2017 г., на нем перерабатывается газ с содержанием SO 2 до 15% об.",
+     "locator_kind": "md_para",
+     "locator": "para:213",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant can process gas with up to 15 % SO₂.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "process capability",
+      "direction": "increases",
+      "factor": "SO₂ content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Второй завод был введен в строй в январе 2017 г., на нем перерабатывается газ с содержанием SO 2 до 15% об.",
+     "locator_kind": "md_para",
+     "locator": "para:213",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Второй завод был введен в строй в январе 2017 г., на нем перерабатывается газ с содержанием SO 2 до 15% об.",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Системы FGD (flue gas desulphurization – десульфуризации отходящих газов) могут удалять ~70-90% SO 2 из отходящего газа, а в некоторых случаях – до 95% и более.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Системы FGD (flue gas desulphurization – десульфуризации отходящих газов) могут удалять ~70-90% SO 2 из отходящего газа, а в некоторых случаях – до 95% и более.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "В сухом варианте получаются сухие отходы, а покидающий абсорбент отходящий газ не насыщен влагой.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "by‑product state",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В сухом варианте получаются сухие отходы, а покидающий абсорбент отходящий газ не насыщен влагой.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Извлечение SO 2 в сухом варианте ~50-60% значительно ниже, чем в мокром (93-98%), но в последнее время и в сухом варианте достижимо извлечение >90%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Извлечение SO 2 в сухом варианте ~50-60% значительно ниже, чем в мокром (93-98%), но в последнее время и в сухом варианте достижимо извлечение >90%.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Ключевыми параметрами при выборе той или иной системы являются: концентрация SO 2 на входе и её колебания, требования к концентрации SO 2 на выходе и степени удаления SO 2 , pH скрубберной жидкости, отношение жидкость:газ, образование отложений и закупорка, распределение и контакт жидкость – газ, операции с побочными продуктами и их обезвреживание и т.д.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "selection criteria",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ключевыми параметрами при выборе той или иной системы являются: концентрация SO 2 на входе и её колебания, требования к концентрации SO 2 на выходе и степени удаления SO 2 , pH скрубберной жидкости, отношение жидкость:газ, образование отложений и закупорка, распределение и контакт жидкость – газ, операции с побочными продуктами и их обезвреживание и т.д.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Известь – самый популярный материал. Примерно 75% всех систем FGD, установленных на энергетических котлах, это либо системы с известью, либо с известняком.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "material prevalence",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Известь – самый популярный материал. Примерно 75% всех систем FGD, установленных на энергетических котлах, это либо системы с известью, либо с известняком.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Около 70% всех мощностей FGD в США используют мокрую очистку известью с форсированным окислением (LSFO), мокрую очистку известью с использованием извести, улучшенной магнием (MEL) или сухую очистку известью с использованием традиционного абсорбера с распылительной сушкой.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technology share",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Около 70% всех мощностей FGD в США используют мокрую очистку известью с форсированным окислением (LSFO), мокрую очистку известью с использованием извести, улучшенной магнием (MEL) или сухую очистку известью с использованием традиционного абсорбера с распылительной сушкой.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "К преимуществам мокрой очистки относятся: сравнительно высокая степень удаления (90-95%), низкие затраты, минимальное количество источников повышенной опасности (взрывы, пожары), возможность сбора газа и материала в виде частиц.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "advantages",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К преимуществам мокрой очистки относятся: сравнительно высокая степень удаления (90-95%), низкие затраты, минимальное количество источников повышенной опасности (взрывы, пожары), возможность сбора газа и материала в виде частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "К недостаткам мокрой очистки относятся: образование мокрых отходов (загрязненная скрубберная жидкость), образование сильно коррозионно активных кислот, высокое потребление электроэнергии.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "disadvantages",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К недостаткам мокрой очистки относятся: образование мокрых отходов (загрязненная скрубберная жидкость), образование сильно коррозионно активных кислот, высокое потребление электроэнергии.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Сухие методы легче установить и требуется меньше места.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "installation ease",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сухие методы легче установить и требуется меньше места.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Поскольку извлечение SO 2 в «сухом» варианте 50-60% - значительно ниже, чем при мокрой очистке (93-98%), сухие методы рекомендованы к применению в случаях низких концентраций SO 2 .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application suitability",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поскольку извлечение SO 2 в «сухом» варианте 50-60% - значительно ниже, чем при мокрой очистке (93-98%), сухие методы рекомендованы к применению в случаях низких концентраций SO 2 .",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Dry processes have significantly lower costs than wet processes due to simplicity, lower water consumption and simplified solid‑waste handling",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "significantly lower",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "затраты по «сухим» процессам значительно ниже, благодаря простоте, меньшему потреблению воды и упрощению операций с твердыми остатками.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Dry methods are easier to install and require less space",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "installation difficulty",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "«Сухие» методы легче установить и требуется меньше места.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "SO₂ removal efficiency of dry processes is 50‑60%, which is much lower than wet cleaning (93‑98%)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "50‑60% vs 93‑98%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поскольку извлечение SO₂ в «сухом» варианте 50-60% - значительно ниже, чем при мокрой очистке (93-98%)",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Dry methods are recommended for low SO₂ concentrations",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сухие методы рекомендованы к применению в случаях низких концентраций SO₂.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Scale of production influences FGD system choice; wet technologies are too bulky and expensive for waste‑fuel plants, making dry sorbent injection more suitable",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technology suitability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "технологии мокрой очистки, используемая на электростанциях, слишком громоздкая и дорогая для завода по сжиганию твердых отходов и в этом случае, возможно, больше подходит технология инжекции сухого сорбента",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Typical SO₂ content in exhaust gas entering a drying column is ~6‑18%",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Среднее содержание SO₂ в отходящем газе, поступающем в сушильную колонну, составляет теперь ~6-18%.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "High‑SO₂ gases contain little nitrogen, are heated more strongly in catalyst beds, which can cause overheating and degradation of V₂O₅‑K₂SO₄ catalyst at 650°C and loss of steel support strength at 630°C",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это может привести к перегреву и деградации V₂O₅‑K₂SO₄ катализатора (650°C) и потере прочности стальной подложки катализатора (630°C).",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Conventional schemes limit raw gas SO₂ level to about 13% for acid production",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Эти обстоятельства ограничивают крепость сырьевого газа для получения кислоты уровнем примерно в 13% SO₂ (при традиционных схемах).",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Recycling high‑SO₃ gas from the third catalyst pack to the first (LURECTM process) is a technology developed by Outotec",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "рециклинг газа с высоким содержанием SO₃ от выхода с третьего пакета катализатора на первый. Это процесс LURECTM, разработанный Outotec",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Two other technologies are WSA‑DC and BayQIK (renamed CORETM)",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Двумя другими технологиями являются WSA-DC и BayQIK (переименована в CORETM).",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Haldor Topsoe is a leading global provider of heterogeneous catalysts and plant design for emission control, including NOx, CO, SO₂ and VOC removal",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Компания обслуживает разные отрасли, в том числе и горно-металлургическую отрасль в части решения проблем с выбросами: удаление NOx и CO; отфильтровывание твердых частиц; удаление серы (см.далее) и удаление летучих органических соединений.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "WSA process was developed in the 1980s and became extremely popular for SO₂ removal and production of marketable concentrated sulfuric acid",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Технология получения серной кислоты из влажного газа (WSA), разработанная компанией Haldor Topsoe в 1980‑е годы, стала чрезвычайно популярной для удаления SO₂ и превращения его в товарную концентрированную серную кислоту.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "The molten salt used for heat exchange is a water‑free mixture of potassium and sodium nitrates and nitrites with a melting point of 150‑160 °C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "melting_point",
+    "direction": "increases",
+    "factor": "salt composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Соль – безводная смесь нитратов калия и натрия и нитритов, имеющая температуру плавления 150‑160°С.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "The total pressure drop for the process gas in the WSA converter is about 100 mbar, and for the cooling air about 40 mbar.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "decreases",
+    "factor": "integrated heat exchangers and short piping",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "приводит к суммарному падению давления по технологическому газу примерно в 100 миллибар, а для охлаждающего воздуха – в 40 мб.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Energy consumption of the WSA process is 45‑50 kWh per tonne of produced acid under the specified conditions (0 bar, 6 % SO₂).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "low pressure drop and heat recovery",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это дает при пересчете потребление энергии всего 45‑50 кВт∙час/т произведенной кислоты от переработки газа в установленных границах – 0 бар и.д. с 6% SO₂.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Oxidation of SO₂ releases 99 kJ per mole (242 000 kcal per tonne of acid).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction enthalpy",
+    "direction": "increases",
+    "factor": "chemical reaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Окисление SO₂ : SO₂ + 1⁄2 O₂ → SO₃ + 99 кДж/моль (242000 ккал/т кислоты)",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Hydration of SO₃ releases 101 kJ per mole (247 000 kcal per tonne of acid).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction enthalpy",
+    "direction": "increases",
+    "factor": "chemical reaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Гидратация SO₃ : SO₃ + H₂O → H₂SO₄ (газ) + 101кДж/моль (247000 ккал/т кислоты)",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.45,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Condensation of H₂SO₄ releases 90 kJ per mole (219 000 kcal per tonne of acid).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction enthalpy",
+    "direction": "increases",
+    "factor": "chemical reaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конденсация H₂SO₄ : H₂SO₄ газ → H₂SO₄ жидк . + 90 кДж/моль (219000 ккал/т кислоты).",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.45,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "WSA can operate autothermally without additional fuel when the feed gas contains up to 3 % SO₂.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fuel requirement",
+    "direction": "decreases",
+    "factor": "low SO₂ content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Завод WSA может работать в автотермическом режиме, т.е. без использования дополнительного топлива для предварительного подогрева газа, в случае переработки газа с низким содержанием SO₂ – до 3%.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Other sulfuric‑acid technologies need 6‑7 % SO₂ in the feed to achieve autothermal mode because they cannot recover heat from hydration and condensation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "required SO₂ content",
+    "direction": "increases",
+    "factor": "lack of heat recovery",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Другие технологии получения серной кислоты, не способные утилизировать тепло от гидратации и конденсации, требуют 6‑7% SO₂ для автотермического режима.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Cooling water consumption for acid cooling is only 8‑9 m³ per tonne of acid, corresponding to a heat removal of 80 000‑90 000 kcal per tonne.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "water consumption",
+    "direction": "decreases",
+    "factor": "low heat load",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "потребность в охлаждении - всего лишь 80000‑90000 ккал/т H₂SO₄, что соответствует потоку охлаждающей воды в 8‑9 м³/т кислоты при росте температуры воды в 10°С.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "The WSA condenser guarantees an acid‑mist level in the outlet gas of usually less than 10 vol ppm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "condenser design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конструкция и эксплуатационный режим конденсора WSA гарантируют очень низкий уровень кислотного тумана в газе, покидающем конденсор – обычно менее 10 объемн.ppm.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "WSA‑DC has higher energy efficiency than the original WSA process.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "высокая энергетическая эффективность (даже выше, чем в WSA).",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "In WSA‑DC the main part of the acid is produced at 150 °C, lower than the 260 °C required in WSA, reducing heat loss during cooling.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в процессе WSA‑DC основная часть кислоты производится при температуре 150 °C по сравнению с 260 °C в WSA",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "WSA‑DC can handle gases with higher SO₂ concentration because the dew‑point limitation at 260 °C is eliminated.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ограничение по точке росы газа в 260 °C исчезло. Таким образом, можно перерабатывать значительно более крепкие по SO₂ газы.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "The two‑contact nature of WSA‑DC enables higher overall SO₂ conversion than the single‑contact WSA process.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SO₂ conversion",
+    "direction": "increases",
+    "factor": "conversion degree",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "поскольку процесс WSA‑DC – двухконтактный, можно достичь более высокой степени конверсии, чем в процессе WSA.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Controlling the H₂O/SO₂ ratio allows production of very strong acid, potentially oleum.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "strength",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "поскольку отношение H₂O/SO₂ контролируется, можно получить очень крепкую кислоту – потенциально олеум.",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Cooling water consumption is low because almost all process heat is recovered as steam.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cooling water consumption",
+    "direction": "decreases",
+    "factor": "water use",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "поскольку почти всё тепло процесса утилизируется в производстве пара, лишь очень маленькая часть тепла удаляется охлаждающей водой.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "The SNOx process, based on WSA technology, removes SO₂, NOₓ and particulates without consuming water or absorbents.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "resource consumption",
+    "direction": "decreases",
+    "factor": "water/absorbent use",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс SNOx ... не потребляет воду или абсорбенты.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.45,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "SNOx improves net heat recovery and reduces CO₂ emissions when burning high‑sulfur coal in combined‑heat‑power plants.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heat recovery and CO₂ emissions",
+    "direction": "increases",
+    "factor": "efficiency, decreases emissions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс SNOx позволяет повысить полезную отдачу тепла и снизить выбросы CO₂ при сжигании высокосернистого угля на ТЭЦ.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Процесс SNOx базируется на технологии WSA и включает стадию селективного каталитического восстановления DeNOx.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "basis",
+    "direction": "increases",
+    "factor": "technology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс SNOx базируется на технологии WSA и включает стадию селективного каталитического восстановления DeNOx.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "В процессе SNOx из отходящего газа удаляются диоксид серы, оксиды азота и твердые частицы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "removal",
+    "direction": "increases",
+    "factor": "pollutants",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В процессе SNOx из отходящего газа удаляются диоксид серы, оксиды азота и твердые частицы.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Из SO2 получают концентрированную серную кислоту, а оксиды азота восстанавливаются до свободного азота.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product",
+    "direction": "increases",
+    "factor": "sulfuric acid, nitrogen",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из SO2 получают концентрированную серную кислоту, а оксиды азота восстанавливаются до свободного азота.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Процесс включает каталитические реакции и не потребляет воду или абсорбенты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "water consumption",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс включает каталитические реакции и не потребляет воду или абсорбенты.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Твердых отходов, за исключением отделенной пыли, нет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "solid waste",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Твердых отходов, за исключением отделенной пыли, нет.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Процесс считается очень привлекательным для нефтеперерабатывающих заводов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "attractiveness",
+    "direction": "increases",
+    "factor": "refineries",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс считается очень привлекательным для нефтеперерабатывающих заводов.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Процесс SNOx позволяет повысить полезную отдачу тепла и снизить выбросы CO2 при сжигании высокосернистого угля на ТЭЦ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "heat recovery",
+    "direction": "increases",
+    "factor": "high‑sulfur coal combustion",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс SNOx позволяет повысить полезную отдачу тепла и снизить выбросы CO2 при сжигании высокосернистого угля на ТЭЦ.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Удаление пыли (золы и сажи) происходит в электрофильтре или тканевом фильтре.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dust removal",
+    "direction": "increases",
+    "factor": "electrofilter or fabric filter",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Удаление пыли (золы и сажи) происходит в электрофильтре или тканевом фильтре.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Остаточная пыль улавливается катализатором конверсии SO2, откуда может быть удалена.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "residual dust capture",
+    "direction": "increases",
+    "factor": "SO2 conversion catalyst",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Остаточная пыль улавливается катализатором конверсии SO2, откуда может быть удалена.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Главным преимуществом данного процесса является высокая степень рекуперации тепла, сокращение выбросов CO2, отсутствие потребности в технологических химреагентах, отсутствие потребления воды, отсутствие образования твердых отходов и жидкостей, получение серной кислоты, экологичность, низкие операционные затраты и затраты на текущий ремонт.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "overall benefits",
+    "direction": "increases",
+    "factor": "multiple",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Главным преимуществом данного процесса является высокая степень рекуперации тепла, сокращение выбросов CO2, отсутствие потребности в технологических химреагентах, отсутствие потребления воды, отсутствие образования твердых отходов и жидкостей, получение серной кислоты, экологичность, низкие операционные затраты и затраты на текущий ремонт.",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "ISAC поставляются только вместе с технологией WSA или SNOX.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "availability",
+    "direction": "increases",
+    "factor": "WSA/SNOX integration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ISAC поставляются только вместе с технологией WSA или SNOX.",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Фильтры SOLVE поставляются только вместе с технологией WSA или SNOX.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "availability",
+    "direction": "increases",
+    "factor": "WSA/SNOX integration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Фильтры SOLVE поставляются только вместе с технологией WSA или SNOX.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Конденсоры WSA поставляются только вместе с технологией WSA или SNOX.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "availability",
+    "direction": "increases",
+    "factor": "WSA/SNOX integration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конденсоры WSA поставляются только вместе с технологией WSA или SNOX.",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Система охлаждения серной кислоты поставляются только вместе с технологией WSA или SNOX.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "availability",
+    "direction": "increases",
+    "factor": "WSA/SNOX integration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Система охлаждения серной кислоты поставляются только вместе с технологией WSA или SNOX.",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "В отходящих газах современных интенсивных процессов плавки и на обогащенном кислородом дутья может содержаться до 75% SO2.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "up to 75%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В отходящих газах современных интенсивных процессов плавки и на обогащенном кислородом дутья может содержаться до 75% SO2.",
+   "locator_kind": "md_para",
+   "locator": "para:181",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Отходящий газ от плавки часто смешивают с менее концентрированным газом от «второго передела» (в типичном случае – конвертеры Пирса-Смита) и от других источников.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mixing practice",
+    "direction": "increases",
+    "factor": "dilution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отходящий газ от плавки часто смешивают с менее концентрированным газом от «второго передела» (в типичном случае – конвертеры Пирса-Смита) и от других источников.",
+   "locator_kind": "md_para",
+   "locator": "para:181",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "После корректировки отношения O2:SO2 итоговая концентрация SO2 в технологическом газе составляет обычно 15-25%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "15-25%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После корректировки отношения O2:SO2 итоговая концентрация SO2 в технологическом газе составляет обычно 15-25%.",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Традиционный сернокислотный завод (двойной контакт – двойная абсорбция) ограничен 12-13% об. SO2 на входе в реактор, чтобы температура газа, выходящего из первого каталитического этапа, была ниже предела термостойкости ванадиевого катализатора (~630°C).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "SO2 inlet limit",
+    "direction": "decreases",
+    "factor": "12-13% vol.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Традиционный сернокислотный завод (двойной контакт – двойная абсорбция) ограничен 12-13% об. SO2 на входе в реактор, чтобы температура газа, выходящего из первого каталитического этапа, была ниже предела термостойкости ванадиевого катализатора (~630°C).",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.81,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Process CHS extracts benefit from differences in SO₂ concentrations of different raw streams and can process gases with strength up to ~18 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "gas strength",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс CHS «извлекает выгоду» из разницы в концентрациях SO 2 разных сырьевых потоков и способен перерабатывать газы крепостью до ~18%.",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Combination of two gas streams (high and low SO₂) during processing is achieved by re‑configuring the contact section.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stream combination method",
+    "direction": "increases",
+    "factor": "process flexibility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объединение двух газовых потоков (с высокой и низкой концентрациями SO 2 ) при переработке осуществляется за счет реконфигурации контактной секции [6].",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "CHS converter is a single stainless‑steel reactor with five catalyst packs and two internal heat exchangers, fully welded, fast‑heating and reliable.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment description",
+    "direction": "increases",
+    "factor": "reliability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конвертер CHS – это единый реактор из нержавеющей стали с пятью пакетами и двумя внутренними теплообменниками, цельносварной, быстро нагревается, надежен и т.д.",
+   "locator_kind": "md_para",
+   "locator": "para:198",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Compared with the competing technology, the CHS variant shows much lower gas velocities through converter layers and heat exchangers, higher equilibrium conversion before intermediate absorption, lower energy consumption, and concerns about the reliability of the exhaust fan due to recirculation of hot SO₃ gas.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "performance advantages",
+    "direction": "increases",
+    "factor": "efficiency and reliability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По сравнению с «конкурирующей технологией», где горячий богатый по SO 3 газ с пакета 3 заворачивается обратно на пакет 1 с целью подавления роста температуры, вариант CHS имеет ряд преимуществ: значительно меньшие скорости потока газа, проходящего по слоям конвертера и теплообменникам, расположенным выше по цепочке от промежуточной абсорбционной колонны; более высокая равновесная конверсия до промежуточной абсорбции; более низкое потребление энергии; опасения по поводу надежности дымососа (?) в связи с рециркуляцией горячего SO 3 -газа ниже.",
+   "locator_kind": "md_para",
+   "locator": "para:205",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "BAYQIK (CORE) technology is a pseudo‑isothermal reactor capable of converting strong‑SO₂ gas without dilution by air or recirculated process gas.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dilution requirement",
+    "direction": "decreases",
+    "factor": "need for air/recirculation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В основе BAYQIK – псевдо-изотермический реактор (конвертер), способный конвертировать крепкий по SO 2 газ без его разбавления воздухом или рециркулирующим технологическим газом.",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Heat from the circulating cooling medium can be used for pre‑heating the process gas and for generating high‑pressure steam.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "heat recovery",
+    "direction": "increases",
+    "factor": "energy utilization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тепло от циркулирующей охлаждающей среды может быть использовано для предварительного нагрева технологического газа и для генерации пара высокого давления.",
+   "locator_kind": "md_para",
+   "locator": "para:214",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  },
+  {
+   "text": "Projects exist for CORE™ reactors with capacity up to 100 000 nm³/h (~2000 t/d acid), and larger reactors are under development.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "throughput",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время имеются проекты реакторов CORETM для производительности до 100000 нм 3 /час (~2000 т/сут кислоты), разрабатываются и более крупные реакторы.",
+   "locator_kind": "md_para",
+   "locator": "para:214",
+   "confidence": 0.9,
+   "document_id": "doc:удаление-so2-2018-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

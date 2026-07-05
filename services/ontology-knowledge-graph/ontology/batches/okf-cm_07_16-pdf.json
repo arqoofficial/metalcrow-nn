@@ -1,0 +1,453 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cm_07_16-pdf",
+   "title": "CM_07_16.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2016\\CM_07_16.pdf.md",
+   "artifact_sha256": "7462962db36d2fe8f1aa8f5e8d3e12a3a492f276e9f479ac02620d480ff4f070",
+   "okf_raw_path": "Журналы/Цветные металлы/2016/CM_07_16.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:злато",
+   "label": "золото",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cm_07_16-pdf:0",
+   "document_id": "doc:cm_07_16-pdf",
+   "title": "Полупромышленные испытания интенсивной технологии выщелачивания золота в цикле измельчения с применением гидроакустического",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "выщелачивание золота в цикле измельчения с применением гидроакустического"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:злато",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Полупромышленные испытания интенсивной технологии выщелачивания золота в цикле измельчения с применением гидроакустического",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cm_07_16-pdf:1",
+   "document_id": "doc:cm_07_16-pdf",
+   "title": "Производство слитков золота большого сечения методом непрерывного горизонтального литья",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "casting",
+      "extra": {
+       "raw_process": "непрерывное горизонтальное литьё"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:злато",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Производство слитков золота большого сечения методом непрерывного горизонтального литья",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Журнал включен в Международные базы данных Scopus, Chemical Abstracts Service",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "indexing",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Журнал включен в Международные базы данных Scopus, Chemical Abstracts Service",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Пятилетний импакт-фактор 0,194",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Пятилетний импакт-фактор\n0,194",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "КНР производит до 40 % алюминия от общемирового выпуска (28 млн т)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of global aluminium production",
+    "direction": "increases",
+    "factor": "China",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "КНР производит до 40 % алюминия от общемирового выпуска (28 млн т)",
+   "locator_kind": "md_para",
+   "locator": "para:225",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "потенциальная сумма экспортных потерь для отечественных металлургических компаний составит до 1 млрд долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "potential export loss",
+    "direction": "increases",
+    "factor": "anti‑dumping investigations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "потенциальная сумма экспортных потерь для отечественных металлургических компаний составит до 1 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:227",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Средняя заработная плата в ГМК (по данным Росстата по наблюдаемым видам деятельности) увеличилась в 2015 г. по сравнению с 2014 г. на 8,8 % (с 39,8 до 43,3 тыс. руб.)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average wage growth",
+    "direction": "increases",
+    "factor": "year 2015 vs 2014",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средняя заработная плата в ГМК (по данным Росстата по наблюдаемым видам деятельности) увеличилась в 2015 г. по сравнению с 2014 г. на 8,8 % (с 39,8 до 43,3 тыс. руб.)",
+   "locator_kind": "md_para",
+   "locator": "para:230",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "это в полтора раза ниже уровня фактической инфляции (в целом по стране 12,9 процента)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "wage growth vs inflation",
+    "direction": "decreases",
+    "factor": "inflation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "что в полтора раза ниже уровня фактической инфляции (в целом по стране 12,9 процента)",
+   "locator_kind": "md_para",
+   "locator": "para:230",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "сохранение либо рост реального содержания зарплаты обеспечены только на 25 процентах предприятий",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "real wage preservation",
+    "direction": "decreases",
+    "factor": "enterprise count",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сохранение либо рост реального содержания зарплаты обеспечены только на 25 процентах предприятий",
+   "locator_kind": "md_para",
+   "locator": "para:232",
+   "confidence": 0.81,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "ИПЦ равен 114 %",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumer price index",
+    "direction": "increases",
+    "factor": "Sverdlovsk region Dec 2015 vs Dec 2014",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ИПЦ равен 114 % (табл. 1, 2)",
+   "locator_kind": "md_para",
+   "locator": "para:237",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "СЗП на Братском алюминиевом заводе возросла с 52 136 руб. в 2014 г. до 54 157 руб. (+2,0 тыс. руб., 3,9 %)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average wage growth",
+    "direction": "increases",
+    "factor": "Bristol aluminium plant 2014‑2015",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На Братском алюминиевом заводе СЗП с 52 136 руб. в 2014 г . возросла до 54 157 руб. (+2,0 тыс. руб., 3,9 %)",
+   "locator_kind": "md_para",
+   "locator": "para:238",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "доля индексации в ЗП составила 4,4 %",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of indexation in wages",
+    "direction": "increases",
+    "factor": "monthly indexation amount 1971,9 руб.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доля индексации в ЗП составила 4,4 %",
+   "locator_kind": "md_para",
+   "locator": "para:238",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "В Иркутской области СФН в декабре 2015 г. составляла 12 346,9 руб. и за год возросла на 9,7 %, а ИПЦ (декабрь 2015 г. к декабрю 2014 г .) - 112,2 %",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumer basket price and CPI",
+    "direction": "increases",
+    "factor": "Irkutsk region Dec 2015 vs Dec 2014",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Иркутской области СФН в декабре 2015 г. составляла 12 346,9 руб. и за год возросла на 9,7 %, а ИПЦ (декабрь 2015 г. к декабрю 2014 г .) - 112,2 %",
+   "locator_kind": "md_para",
+   "locator": "para:238",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Методика расчета темпа прироста реальной среднемесячной заработной платы, в процентах к предыдущему году с учетом индекса потребительских цен, является приложением 5 к приказу Росстата от 21.02.2013 No 70",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "methodology source",
+    "direction": "nonmonotonic",
+    "factor": "Rosstat order 70",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "методика расчета показателя «темп прироста реальной среднемесячной заработной платы, в процентах к предыдущему году с учетом индекса потребительских цен» является приложением 5 к приказу Росстата от 21.02.2013 No 70",
+   "locator_kind": "md_para",
+   "locator": "para:240",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Эта методика не может служить основанием для применения значения ИПЦ при определении порядка и размера индексации ЗП работников предприятий ГМК",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability of CPI method",
+    "direction": "decreases",
+    "factor": "wage indexation in mining enterprises",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Но эта методика не может служить основанием для применения значения ИПЦ при определении порядка и размера индексации ЗП работников предприятий ГМК",
+   "locator_kind": "md_para",
+   "locator": "para:240",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "методика не может служить основанием для применения значения ИПЦ при определении порядка и размера индексации ЗП работников предприятий ГМК.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "unsuitability",
+    "direction": "increases",
+    "factor": "ИПЦ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "методика не может служить основанием для применения значения ИПЦ при определении порядка и размера индексации ЗП работников предприятий ГМК.",
+   "locator_kind": "md_para",
+   "locator": "para:240",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "в положениях статьи 134 ТК РФ законодателем обоснованно предусмотрено отсутствие централизованного регулирования индексации заработной платы в отношении всех работающих.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "centralized regulation",
+    "direction": "decreases",
+    "factor": "индексация заработной платы",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в положениях статьи 134 ТК РФ законодателем обоснованно предусмотрено отсутствие централизованного регулирования индексации заработной платы в отношении всех работающих.",
+   "locator_kind": "md_para",
+   "locator": "para:241",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "рост потребительских цен на товары и услуги является основанием (причиной) проведения индексации заработной платы, но его значение не является обязательной величиной такой индексации.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "necessity",
+    "direction": "increases",
+    "factor": "рост потребительских цен",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "рост потребительских цен на товары и услуги является основанием (причиной) проведения индексации заработной платы, но его значение не является обязательной величиной такой индексации.",
+   "locator_kind": "md_para",
+   "locator": "para:241",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "ОТС не содержит норм по отношению СЗП к ПМ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "decreases",
+    "factor": "отношение СЗП к ПМ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ОТС не содержит норм по отношению СЗП к ПМ.",
+   "locator_kind": "md_para",
+   "locator": "para:243",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "ПМ во II квартале 2015 г . составлял 10 792 руб., а в IV квартале 2015 г . 10 187 руб., т. е. имело место снижение ПМ на 605 руб. (или на 5,6 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "value",
+    "direction": "decreases",
+    "factor": "ПМ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПМ во II квартале 2015 г . составлял 10 792 руб., а в IV квартале 2015 г . 10 187 руб., т. е. имело место снижение ПМ на 605 руб. (или на 5,6 %).",
+   "locator_kind": "md_para",
+   "locator": "para:243",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "При росте СЗП отношение ее к ПМ возросло, а не снизилось.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ratio",
+    "direction": "increases",
+    "factor": "отношение СЗП к ПМ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При росте СЗП отношение ее к ПМ возросло, а не снизилось.",
+   "locator_kind": "md_para",
+   "locator": "para:243",
+   "confidence": 0.9,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  },
+  {
+   "text": "Снижение ПМ для субъектов РФ, в которых расположены предприятия ГМК, в IV квартале 2015 г. по сравнению со II кварталом 2015 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "value",
+    "direction": "decreases",
+    "factor": "ПМ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снижение ПМ для субъектов РФ, в которых расположены предприятия ГМК, в IV квартале 2015 г. по сравнению со II кварталом 2015 г.",
+   "locator_kind": "md_para",
+   "locator": "para:244",
+   "confidence": 0.81,
+   "document_id": "doc:cm_07_16-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

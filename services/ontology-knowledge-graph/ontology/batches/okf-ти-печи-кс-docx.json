@@ -1,0 +1,1600 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:ти-печи-кс-docx",
+   "title": "ТИ. Печи КС.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ТИ. Печи КС.docx.md",
+   "artifact_sha256": "a1a23fbaafd6f3aa685da9bb3cb08db4d06a803c8570501daa8f2ef0e65fa92c",
+   "okf_raw_path": "Обзоры/ТИ. Печи КС.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:сульфидная-пульпа",
+   "label": "Сульфидная пульпа",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сульфидные-концентраты",
+   "label": "Сульфидные концентраты",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сульфидные-материалы",
+   "label": "Сульфидные материалы",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-sulfide-concentrate-pulp",
+   "label": "copper sulfide concentrate pulp",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfide-concentrate",
+   "label": "sulfide concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:enriched-oxygen-air-up-to-30-o2",
+   "label": "enriched oxygen air (up to 30% O₂)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:low-grade-copper-sulfide-concentrate",
+   "label": "low‑grade copper sulfide concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:медныи-сульфидныи-концентрат",
+   "label": "медный сульфидный концентрат",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:остаток-хлорного-выщелачивания",
+   "label": "остаток хлорного выщелачивания",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:никелевыи-завод-koniambo",
+   "label": "никелевый завод Koniambo",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cu-ni-concentrate",
+   "label": "Cu‑Ni concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:quartz-sand-60-65-sio2",
+   "label": "quartz sand (60‑65 % SiO₂)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:zn-sulfide-concentrates",
+   "label": "Zn sulfide concentrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:ти-печи-кс-docx:0",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Obжиг Cu‑Co концентрата в печи КС на заводе Luilu (ДРК)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Кипящий слой в вертикальной печи КС",
+       "temperature_text": "от 650 до 700 °C",
+       "duration_text": "не указано (постоянный процесс)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 923.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:сульфидная-пульпа",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:сульфидная-пульпа",
+     "value": {
+      "min": null,
+      "nominal": 75.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "твёрдых веществ"
+     },
+     "method": null,
+     "snippet": "Содержание твердых в исходной пульпе поддерживалось на уровне до 75 мас. %.",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "подачи"
+     },
+     "method": null,
+     "snippet": "При проектировании печи основывались на скорости подачи приблизительно 20 т/ч (в пересчете на сухое вещество).",
+     "locator_kind": "md_para",
+     "locator": "para:51",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Объём резервуара для хранения пульпы",
+     "scope": "material",
+     "material_id": "mat:сульфидная-пульпа",
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Проектный объем таких резервуаров составлял 100 м 3 , что позволяло хранить материал в течение 20 часов.",
+     "locator_kind": "md_para",
+     "locator": "para:44",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "time_duration",
+     "scope": "material",
+     "material_id": "mat:сульфидная-пульпа",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "хранения в резервуаре"
+     },
+     "method": null,
+     "snippet": "что позволяло хранить материал в течение 20 часов.",
+     "locator_kind": "md_para",
+     "locator": "para:44",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Размер капель распыленной пульпы",
+     "scope": "material",
+     "material_id": "mat:сульфидная-пульпа",
+     "value": {
+      "min": null,
+      "nominal": 250.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Капли распыленной пульпы (примерно 250 мкм) подвергаются частичной сушке в шахте печи перед попаданием в область кипящего слоя.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 150.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "охлаждения огарка"
+     },
+     "method": null,
+     "snippet": "охладителя, для охлаждения огарка до 150°C",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Система подачи обеспечивает непрерывный, устойчивый поток материала в обжиговую печь.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Накопительный бак был разработан для поддержания постоянного напора, чтобы обеспечить непрерывный, устойчивый поток материала в обжиговую печь.",
+     "locator_kind": "md_para",
+     "locator": "para:44",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Обжиг Cu‑Co концентрата в печи КС на заводе Luilu (ДРК)",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:1",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Обжиг сульфидных концентратов в печи КС на заводе Nkana (Замбия)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Кипящий слой в печи КС",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:сульфидные-концентраты",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Обжиг сульфидных концентратов в печи КС на заводе Nkana (Замбия)",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:2",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Обжиг в кипящем слое на медеплавильном заводе им. Г. Дамянова (Болгария)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Кипящий слой в печи КС",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:сульфидные-материалы",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Обжиг в кипящем слое на медеплавильном заводе им. Г. Дамянова (Болгария)",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:3",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Laboratory test of the specially designed multi‑phase nozzle",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "spray testing of the Hatch multi‑phase nozzle with vertical downward flow",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-sulfide-concentrate-pulp",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The nozzle design is suitable for copper sulfide roasting.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "applicability",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Испытания специально разработанной форсунки подтвердили её применимость для использования при обжиге сульфидов меди.",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Испытания специально разработанной форсунки подтвердили её применимость для использования при обжиге сульфидов меди.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:4",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Industrial application at Nkana (Zambia) copper plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "roasting of sulfide concentrates in a K‑S furnace with pulp injection",
+       "temperature_text": "695‑705°C (layer), 700°C (sulfation optimum)",
+       "duration_text": "continuous operation (not specified)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 968.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfide-concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:enriched-oxygen-air-up-to-30-o2",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "furnace productivity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 465.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Производительность обжиговой печи – около 465 т/сут.",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "gas sulfur content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в результате обжига получают два продукта: отходящий газ, содержащий 4‑6% S",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "slag copper content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "«сульфатный огарок» c ~2% Co, 12% Cu",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Optimal sulfation temperature (≈700 °C) is maintained, producing mainly water‑soluble sulfates.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "product composition",
+      "direction": "increases",
+      "factor": "temperature control",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Для поддержания оптимальной температуры сульфатизации (700 °C) в печь вводят дополнительное количество воды.",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Производительность обжиговой печи – около 465 т/сут.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:5",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Industrial application at G. Damyanov copper plant (Bulgaria)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "roasting in a bubbling‑layer K‑S furnace with oxygen‑enriched blast",
+       "temperature_text": "800 °C (with O₂‑enriched blast)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1073.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfide-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "furnace productivity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.77,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при температуре 800 °C производительность печи по шихте возросла в 1,77 раза по сравнению с воздушным дутьем",
+     "locator_kind": "md_para",
+     "locator": "para:74",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "SO₂ content in gases",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 23.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Содержание сернистого ангидрида в газах повысилось до 23%",
+     "locator_kind": "md_para",
+     "locator": "para:74",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "slag output",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "выход огарка увеличился в 1,3 раза",
+     "locator_kind": "md_para",
+     "locator": "para:74",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Oxygen‑enriched blast (up to 30 % O₂) significantly improves productivity and gas composition.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "productivity",
+      "direction": "increases",
+      "factor": "O₂ enrichment",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В 1973 г. на комбинате им. Г. Дамянова при обжиге применили дутье, обогащенное кислородом до 30%.",
+     "locator_kind": "md_para",
+     "locator": "para:74",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "при температуре 800 °C производительность печи по шихте возросла в 1,77 раза по сравнению с воздушным дутьем.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:6",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Industrial application at Naoshima (Japan) copper plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "roasting of low‑grade copper sulfide concentrate (26‑28 % Cu) in a K‑S furnace",
+       "temperature_text": "not specified",
+       "duration_text": "continuous operation until 1991"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:low-grade-copper-sulfide-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "process line usage",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "6 многоподовых печей были заменены одной крупной печью КС",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The K‑S furnace was successfully used for roasting low‑grade concentrate until 1991.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process suitability",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "для переработки низкокачественного медного сульфидного концентрата (26‑28% меди) использовался традиционный процесс - обжиг в печах КС",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "6 многоподовых печей были заменены одной крупной печью КС.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:7",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Naoshima plant Mitsubishi line replacement",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "КС (каменная печь) обжиг низкокачественного медного сульфидного концентрата",
+       "temperature_text": "630 °C"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 903.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:медныи-сульфидныи-концентрат",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "производительность",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1320.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Печь КС имела диаметр 5,3 м и высоту 8 м и производительность 1320 т/сут. по сырому концентрату.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "воздушный поток",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 320.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "через которые подавалось 320 м 3 /мин воздуха под давлением 300 кПа.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "pressure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 300.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "через которые подавалось 320 м 3 /мин воздуха под давлением 300 кПа.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "удаление серы",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 40.0,
+      "nominal": null,
+      "max": 50.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При обжиге удалялось 40-50% серы, содержащейся в исходном сырье, с получением газа с содержанием 11% серы.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 11.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "S"
+     },
+     "method": null,
+     "snippet": "с получением газа с содержанием 11% серы.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "улавливание огарка",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 80.0,
+      "nominal": null,
+      "max": 90.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Около 80-90% огарка улавливалось в циклонах (шесть на первой стадии, четыре – на второй).",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Технология позволила заменить старую линию Mitsubishi и печь отражательную, увеличив производительность и улучшив улавливание огарка.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В 1991 г. на заводе была введена в строй новая увеличенная по размерам и производительности линия Mitsubishi процесса, заменившая собой плавку в отражательной печи и старую линию процесса Mitsubishi.",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 1991 г. на заводе была введена в строй новая увеличенная по размерам и производительности линия Mitsubishi процесса, заменившая собой плавку в отражательной печи и старую линию процесса Mitsubishi.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:8",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Nikkelverk Glencore copper‑nickel leach residue roasting",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "КС обжиг в кипящем слое (FluoSolids)",
+       "temperature_text": "870-880 °C"
+      },
+      "temperature": {
+       "min": 1143.15,
+       "nominal": null,
+       "max": 1153.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:остаток-хлорного-выщелачивания",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 870.0,
+      "nominal": null,
+      "max": 880.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "слоя"
+     },
+     "method": null,
+     "snippet": "Температура слоя должна поддерживаться на уровне 870-880 0 С, чтобы максимально удалить серу.",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "размеры печи",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 9.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Обжиговая установка состоит из двух печей КС. Каждая печь имеет высоту от подины до свода 9,3 м, форкамеру размером 3,4 м в диаметре и 2,8 м высотой, область расширения 3,6 м, которая примыкает к шахте печи (диаметром 5 м) и верхнюю цилиндрическую секцию высотой 2,3 м.",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "газовый поток охлаждение",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 400.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Газовый поток из печи перед подачей его в электрофильтр охлаждается в холодильниках воздухом до 400 0 С.",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Поддержание температуры 870‑880 °C обеспечивает максимальное удаление серы из остатка.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "удаление серы",
+      "direction": "increases",
+      "factor": "температура 870‑880 °C",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Температура слоя должна поддерживаться на уровне 870-880 0 С, чтобы максимально удалить серу.",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На заводе Nikkelverk компании Glencor остаток хлорного выщелачивания содержит порядка 50% Cu, 15% Ni, 2% Fe и 30% S...",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:9",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Technip FluoSolids installation at Koniambo nickel plant (2012)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "КС обжиг арсенопиритных руд и других концентратов"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:никелевыи-завод-koniambo",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "мощность печей",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 160.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Это были две обжиговых печи КС, 160 т/ч каждая.",
+     "locator_kind": "md_para",
+     "locator": "para:81",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В 2012 году компания Technip установила систему на никелевом заводе Koniambo в Новой Каледонии.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:10",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Partial oxidative roasting of Cu‑Ni sulfide concentrate at Thompson Vale plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "partial oxidative roasting of a feed based on 80 % mass sulfide Cu‑Ni concentrate",
+       "temperature_text": "620‑650 °C",
+       "duration_text": "continuous industrial operation (no specific time given)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 893.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cu-ni-concentrate",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:quartz-sand-60-65-sio2",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pressure",
+     "scope": "material",
+     "material_id": "mat:enriched-oxygen-air-up-to-30-o2",
+     "value": {
+      "min": null,
+      "nominal": 0.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "air"
+     },
+     "method": null,
+     "snippet": "Давление воздуха перед подиной 0,3 атм.",
+     "locator_kind": "md_para",
+     "locator": "para:94",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Loading 20 % sand in the charge facilitates concentrate loading, prevents hanging of wet charge, forms a boiling‑layer bed and provides heating of the flux, thereby saving electricity in the subsequent electrosmelting.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "energy_consumption",
+      "direction": "decreases",
+      "factor": "sand addition",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Загрузка в печи КС песка в смеси с концентратом в количестве 20% в шихте облегчает загрузку концентрата, исключая зависание влажной шихты; формирует постель кипящего слоя; обеспечивает нагрев флюса и благодаря этому экономию электроэнергии при последующей электроплавке.",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На плавильном заводе Thompson компании Vale в Канаде, в провинции Манитоба перерабатывался концентрат, полученный из медно-никелевых руд. На заводе используется процесс обжига концентрата в печах КС с последующей плавкой горячего огарка в электропечах.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ти-печи-кс-docx:11",
+   "document_id": "doc:ти-печи-кс-docx",
+   "title": "Reconstruction and oxygen‑injection upgrade of Lurgi rotary kilns at Zincor (South Africa)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "partial oxidative roasting of sulfide zinc concentrates in Lurgi rotary kilns",
+       "temperature_text": "not specified (industrial kiln operation)",
+       "duration_text": "mid‑1990s onward (industrial use)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:zn-sulfide-concentrates",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "age of kilns in 2006",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 26.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "К 2006 году «возраст» этих агрегатов достиг от 26 до 38 лет, в то время как ожидаемый срок их службы обычно составляет от 20 до 25 лет.",
+     "locator_kind": "md_para",
+     "locator": "para:97",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Oxygen injection was introduced in the mid‑1990s to increase productivity without excessive carry‑over of solid particles.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "productivity",
+      "direction": "increases",
+      "factor": "oxygen injection",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В середине 1990‑х годов на Zincor была введена система впрыска кислорода, с целью увеличения производительности.",
+     "locator_kind": "md_para",
+     "locator": "para:112",
+     "confidence": 0.81
+    },
+    {
+     "text": "Granulation unit commissioned in 2005 allows reduction of oxygen feed while maintaining productivity by increasing particle size of the concentrate.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "oxygen consumption",
+      "direction": "decreases",
+      "factor": "granulation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В 2005 году был введен в эксплуатацию участок гранулирования. Его целью является гранулирование части концентрата, подаваемого на обжиг. Увеличивая размер частиц концентрата, подачу кислорода можно уменьшить, не оказывая негативного влияния на производительность, так как снижается риск выноса твердых частиц.",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Zincor – цинковый завод в Южной Африке. На заводе работали четыре обжиговые печами КС Lurgi.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Преимущества этого вида обжига по сравнению с обжигом в подовых печах заключается в простоте конструкции печей, высокой их производительности, возможности эффективного использования отходящих газов для производства серной кислоты, возможности полной механизации и автоматизации процесса.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Преимущества этого вида обжига по сравнению с обжигом в подовых печах заключается в простоте конструкции печей, высокой их производительности, возможности эффективного использования отходящих газов для производства серной кислоты, возможности полной механизации и автоматизации процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Для осуществления обжига в кипящем слое сульфидных материалов применяют печи с вертикальным рабочим пространством, отличающиеся устройством отдельных узлов, геометрическими размерами и формой поперечного и вертикального сечений.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для осуществления обжига в кипящем слое сульфидных материалов применяют печи с вертикальным рабочим пространством, отличающиеся устройством отдельных узлов, геометрическими размерами и формой поперечного и вертикального сечений.",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Отходящий газ из печи обрабатывается в двух параллельных циклонах для улавливания пыли перед отправкой в скруббер, в то время как уловленная пыль возвращается в печь.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Отходящий газ из печи обрабатывается в двух параллельных циклонах для улавливания пыли перед отправкой в скруббер, в то время как уловленная пыль возвращается в печь.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Low moisture in the layer limits the subsequent binding reaction.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "moisture effect",
+    "direction": "decreases",
+    "factor": "moisture",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это важный расчетный параметр для обжиговой печи, поскольку низкая влажность в слое ограничивает следующую связывающую реакцию",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "The presence of moisture around fine sulfide particles in the feed pulp reduces particle heating rate.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heating rate",
+    "direction": "decreases",
+    "factor": "moisture",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Присутствие влаги, окружающей мелкие частицы сульфида в исходной пульпе, снижает скорость нагрева частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Lower residual moisture increases the heating rate of particles entering the layer.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heating rate",
+    "direction": "increases",
+    "factor": "lower residual moisture",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "чем ниже остаточная влажность, тем выше скорость нагрева входящих в слой частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "The bubbling layer is maintained up to 700 °C, but the gas exiting the layer cools significantly in the furnace shaft due to water injection from roof nozzles.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "water injection",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Несмотря на то, что кипящий слой, содержащий как твердые частицы, так и ожижающий газ, поддерживается при температуре до 700 °C, отходящий из слоя газ подвергается значительному охлаждению в шахте печи.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.81,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Nozzle construction is critical for achieving desired particle size distribution before contact with the layer.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "increases",
+    "factor": "nozzle design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, конструкция форсунок очень важна при обеспечении желаемого распределения по крупности твердых частиц до контакта со слоем.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Hatch selected a much harder construction material for the nozzle to resist abrasive erosion caused by high‑velocity solid particles.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "erosion resistance",
+    "direction": "increases",
+    "factor": "harder material",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "инженеры Hatch выбрали гораздо более твердый конструкционный материал, противостоящий абразивной эрозии, вызванной высокой скоростью твердых частиц через форсунку.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "The furnace temperature is kept at 695‑705 °C, yielding predominantly water‑soluble sulfates rather than insoluble oxides.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product composition",
+    "direction": "increases",
+    "factor": "temperature control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура в слое поддерживается на уровне 695‑705°C, при этом получаются, преимущественно водорастворимые сульфаты, а не нерастворимые оксиды.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.81,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "If the sulfur content in the raw material is low, pyrite is added to maintain thermal balance.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "thermal balance",
+    "direction": "increases",
+    "factor": "pyrite addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если содержание серы в сырье низкое, вводится пирит с целью поддержания теплового баланса.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "The slag (sulfate residue) is rapidly cooled from 700 °C to 65 °C before leaching with H₂SO₄.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cooling step",
+    "direction": "decreases",
+    "factor": "rapid cooling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Этот огарок быстро охлаждают с 700 °C до 65 °C и затем выщелачивают H₂SO₄.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Oxygen‑enriched blast up to 30 % O₂ raises SO₂ content in off‑gas to 23 % and increases slag output by 1.3 times.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SO₂ content",
+    "direction": "increases",
+    "factor": "O₂ enrichment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание сернистого ангидрида в газах повысилось до 23%, выход огарка увеличился в 1,3 раза",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "At 800 °C, furnace productivity increased 1.77 times compared with air blast.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "productivity",
+    "direction": "increases",
+    "factor": "temperature 800 °C with O₂‑enriched blast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при температуре 800 °C производительность печи по шихте возросла в 1,77 раза по сравнению с воздушным дутьем",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Технология Dorr Oliver FluoSolids делает компанию Technip одним из ведущих поставщиков систем КС.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Технология Dorr Oliver FluoSolids делает компанию Technip одним из ведущих поставщиков систем КС.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Первой в мире промышленной обжиговой системой с кипящим слоем была установка FluoSolids®.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Первой в мире промышленной обжиговой системой с кипящим слоем была установка FluoSolids®, предназначенная для переработки золотосодержащей сульфидной руды.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Обжиг медных сульфидных концентратов в печах КС использовался также на шведском заводе Ronnskar компании Boliden.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Обжиг медных сульфидных концентратов в печах КС использовался также на шведском заводе Ronnskar компании Boliden.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Для повышения производительности обжига в 1992 г. стали использовать дутье, обогащенное кислородом.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "производительность обжига",
+    "direction": "increases",
+    "factor": "кислородное обогащение дутья",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для повышения производительности обжига в 1992 г. стали использовать дутье, обогащенное кислородом.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Технология применяется в металлургической, химической промышленности и промышленности удаления отходов.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В настоящее время печи КС компании используются в разных отраслях промышленности: в металлургической (для обжига золотых, цинковых и др. концентратов и руд), химической промышленности и промышленности удаления отходов.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Typical service life of rotary kilns is 20‑25 years.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "в то время как ожидаемый срок их службы обычно составляет от 20 до 25 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "The plant has five K‑S kilns: three 4.27 m diameter × 4.87 m high with a grate area of 14.5 m² and a capacity of 700 t/day each, and two 5.5 m diameter × 6.0 m high with a grate area of 23.8 m² and a capacity of 1200 t/day.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "На заводе установлено 5 печей КС: три диаметром 4,27 м и высотой 4,87 м, площадью пода 14,5 м 2 , производительностью 700 т/сут концентрата каждая и две печи диаметром 5,5 м, высотой 6,0 м, площадью пода 23,8 м2, производительностью 1200 т/сут.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Air is supplied through 256 nozzles installed in the hearth of the kiln.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Подача воздуха осуществляется через 256 сопел, установленных в подине печи КС.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "Typical concentrate composition for Zincor’s Zn sulfide concentrates: e.g., Maranda – 54.5 % Zn, 9 % Fe, 1 % Cu, 0.05 % Pb, 1 % SiO₂, 32.5 % S.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Maranda | 54,5 | 9 | 1 | 0,05 | 1 | 32,5",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  },
+  {
+   "text": "The cooled slag (100‑120 °C) is milled before pneumatic storage.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Охлажденный огарок (100-120°C) затем проходит через шаровую мельницу для размельчения агломерата, до того, как он пневматически подается в бункеры для хранения.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:ти-печи-кс-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

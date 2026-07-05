@@ -93,11 +93,13 @@ def resolve_quantity_kind(store: Store, raw: str, report: LoadReport) -> str:
 # ── провенанс ────────────────────────────────────────────────────────────
 
 def _prov_json(store: Store, doc_ext: str, snippet: str, locator_kind: str,
-               locator: str, extractor: str, confidence: float) -> str:
+               locator: str, extractor: str, confidence: float,
+               okf_raw_path: str | None = None) -> str:
     p = Provenance(
         doc_id=doc_ext, locator_kind=LocatorKind(locator_kind), locator=locator,
         snippet=snippet, extractor=ExtractorKind(extractor),
-        confidence=confidence, ingested_at=_dt.datetime.now(_dt.timezone.utc))
+        confidence=confidence, okf_raw_path=okf_raw_path,
+        ingested_at=_dt.datetime.now(_dt.timezone.utc))
     return store.jsondump(json.loads(p.model_dump_json()))
 
 
@@ -109,15 +111,18 @@ def load_batch(store: Store, batch: ExtractionBatch | dict) -> LoadReport:
             {k: v for k, v in batch.items() if not k.startswith("_")})
     rep = LoadReport()
     ext = batch.extractor
+    # doc_id → okf_raw_path: путь источника кладём в провенанс каждого факта,
+    # чтобы фронт строил wiki-диплинк (/wiki?doc=<okf_raw_path>) без join по документам.
+    okf_of_doc = {d.doc_id: d.okf_raw_path for d in batch.documents if d.okf_raw_path}
 
     for d in batch.documents:
         store.execute(
             "INSERT INTO experiments.documents(id, minio_key, filename, doc_type,"
-            " year, country, lang, artifact_sha256)"
-            " VALUES (%s,%s,%s,%s,%s,%s,%s,%s) ON CONFLICT (id) DO NOTHING",
+            " year, country, lang, artifact_sha256, okf_raw_path)"
+            " VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s) ON CONFLICT (id) DO NOTHING",
             (ext_uuid(d.doc_id), d.source_path or d.doc_id,
              Path(d.source_path).name if d.source_path else d.title[:120],
-             d.doc_type, d.year, d.country, d.lang, d.artifact_sha256))
+             d.doc_type, d.year, d.country, d.lang, d.artifact_sha256, d.okf_raw_path))
         _alias(store, "document", d.doc_id, d.title)
         rep.add("documents")
 
@@ -148,9 +153,10 @@ def load_batch(store: Store, batch: ExtractionBatch | dict) -> LoadReport:
 
     doc_of_mat = _material_doc_hints(batch)
     for m in batch.materials:
-        prov = _prov_json(store, doc_of_mat.get(m.id, "handbook"),
+        _md = doc_of_mat.get(m.id)
+        prov = _prov_json(store, _md or "handbook",
                           f"{m.label} ({m.family})", "xlsx_row", "row:auto",
-                          "structured_etl", 1.0)
+                          "structured_etl", 1.0, okf_of_doc.get(_md))
         store.execute(
             "INSERT INTO experiments.materials(id, name, family, grade, phase,"
             " composition, prov) VALUES (%s,%s,%s,%s,%s,%s,%s)"
@@ -161,8 +167,9 @@ def load_batch(store: Store, batch: ExtractionBatch | dict) -> LoadReport:
         rep.add("materials")
 
     for e in batch.experiments:
+        okf = okf_of_doc.get(e.document_id)
         prov = _prov_json(store, e.document_id, e.snippet or e.title or e.id,
-                          e.locator_kind, e.locator, ext, e.confidence)
+                          e.locator_kind, e.locator, ext, e.confidence, okf)
         regime_id = _insert_regime(store, e)
         store.execute(
             "INSERT INTO experiments.experiments(id, title, date, origin, regime_id,"
@@ -186,7 +193,7 @@ def load_batch(store: Store, batch: ExtractionBatch | dict) -> LoadReport:
         for i, ms in enumerate(e.measurements):
             try:
                 mprov = _prov_json(store, e.document_id, ms.snippet,
-                                   ms.locator_kind, ms.locator, ext, ms.confidence)
+                                   ms.locator_kind, ms.locator, ext, ms.confidence, okf)
             except Exception as err:                    # snippet пуст → отбраковка
                 rep.rejected.append(f"{e.id}:m{i}: {err}")
                 continue
@@ -211,7 +218,7 @@ def load_batch(store: Store, batch: ExtractionBatch | dict) -> LoadReport:
         for i, c in enumerate(e.conclusions):
             try:
                 cprov = _prov_json(store, e.document_id, c.snippet,
-                                   c.locator_kind, c.locator, ext, c.confidence)
+                                   c.locator_kind, c.locator, ext, c.confidence, okf)
             except Exception as err:
                 rep.rejected.append(f"{e.id}:c{i}: {err}")
                 continue
@@ -225,7 +232,8 @@ def load_batch(store: Store, batch: ExtractionBatch | dict) -> LoadReport:
     for i, c in enumerate(batch.claims):
         try:
             cprov = _prov_json(store, c.document_id, c.snippet,
-                               c.locator_kind, c.locator, ext, c.confidence)
+                               c.locator_kind, c.locator, ext, c.confidence,
+                               okf_of_doc.get(c.document_id))
         except Exception as err:
             rep.rejected.append(f"claim:{i}: {err}")
             continue
@@ -315,22 +323,36 @@ def main() -> None:
     if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
         sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description="ExtractionBatch JSON → Postgres")
-    ap.add_argument("batch", type=Path)
+    ap.add_argument("batch", type=Path, nargs="?", help="один батч JSON")
+    ap.add_argument("--dir", type=Path, default=None,
+                    help="загрузить все *.json из папки (deploy-load, идемпотентно)")
+    ap.add_argument("--glob", default="*.json",
+                    help="маска файлов для --dir (по умолчанию *.json)")
     ap.add_argument("--reset", action="store_true", help="пересоздать схему")
     ap.add_argument("--db", default=None, help="postgresql://... (или ONTOLOGY_DB_URL)")
     args = ap.parse_args()
+
+    if not args.batch and not args.dir:
+        ap.error("нужен либо файл батча, либо --dir")
 
     store = Store.open(args.db)
     if args.reset:
         store.reset()
     seed_registries(store)
-    raw = json.loads(args.batch.read_text(encoding="utf-8"))
-    rep = load_batch(store, raw)
-    print("загружено:", json.dumps(rep.counts, ensure_ascii=False))
-    if rep.hitl_quantity_kinds:
-        print("HITL (новые величины):", rep.hitl_quantity_kinds)
-    if rep.rejected:
-        print("отбраковано:", *rep.rejected, sep="\n  ")
+
+    files = ([args.batch] if args.batch else []) + (
+        sorted(args.dir.glob(args.glob)) if args.dir else [])
+    agg: dict = {}
+    for f in files:
+        if f.stem.startswith("_"):
+            continue
+        try:
+            rep = load_batch(store, json.loads(f.read_text(encoding="utf-8")))
+            for k, v in rep.counts.items():
+                agg[k] = agg.get(k, 0) + v
+        except Exception as e:
+            print(f"  пропущен {f.name}: {type(e).__name__}: {e}")
+    print(f"загружено батчей: {len(files)} →", json.dumps(agg, ensure_ascii=False))
     store.close()
 
 

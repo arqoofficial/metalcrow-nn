@@ -1,0 +1,575 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "title": "Tony_Keating_Пример общего характера по переработке латеритных руд.pdf",
+   "doc_type": "article",
+   "year": 2013,
+   "country": "XX",
+   "lang": "en",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Материалы конференций\\Tony_Keating_Пример общего характера по переработке латеритных руд.pdf.md",
+   "artifact_sha256": "6bcbd21d5e424da5f3a9a5f221b882a362e4002038488500886062b42b357010",
+   "okf_raw_path": "Материалы конференций/Tony_Keating_Пример общего характера по переработке латеритных руд.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:nickel-ore",
+   "label": "nickel ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nikel",
+   "label": "nickel",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-cobalt-laterite-ore",
+   "label": "nickel‑cobalt laterite ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:tony_keating_пример-общего-характера-по-перерабо:0",
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "title": "Industrial production of MHP at Ravensthorpe (Australia)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Mixed hydroxide precipitate (MHP) production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual production capacity",
+     "scope": "material",
+     "material_id": "mat:nickel-ore",
+     "value": {
+      "min": 31.0,
+      "nominal": null,
+      "max": 35.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "First Quantum's Ravensthorpe (Australia) at 31,000-35,000 tpa of nickel as MHP",
+     "locator_kind": "md_para",
+     "locator": "para:22",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "MHP is produced and sold at commercial scale",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "First Quantum's Ravensthorpe (Australia) at 31,000-35,000 tpa of nickel as MHP",
+     "locator_kind": "md_para",
+     "locator": "para:22",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "First Quantum's Ravensthorpe (Australia) at 31,000-35,000 tpa of nickel as MHP",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:tony_keating_пример-общего-характера-по-перерабо:1",
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "title": "Industrial shipment of MHP from MCC's Ramu (PNG)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "MHP production and export"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nikel",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "shipped quantity",
+     "scope": "material",
+     "material_id": "mat:nikel",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "MCC's Ramu (PNG) shipped 2,000t of nickel as MHP Q1 2013",
+     "locator_kind": "md_para",
+     "locator": "para:22",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "MHP is being shipped from PNG at commercial scale",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "MCC's Ramu (PNG) shipped 2,000t of nickel as MHP Q1 2013",
+     "locator_kind": "md_para",
+     "locator": "para:22",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "MCC's Ramu (PNG) shipped 2,000t of nickel as MHP Q1 2013",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:tony_keating_пример-общего-характера-по-перерабо:2",
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "title": "Integrated pilot demonstration of single‑step leach and cobalt‑nickel separation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Selective acid re‑leach (single‑step) to leach and separate nickel from cobalt"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-cobalt-laterite-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The technology has been demonstrated and is moving toward an integrated pilot",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Demonstrated and moving toward integrated pilot",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Demonstrated and moving toward integrated pilot",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "MHP is a low cost, marketable product",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost and marketability",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "MHP is a low cost, marketable product",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "MHP valued by the market at 70-80% of contained nickel value",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "MHP valued by the market at 70-80% of contained nickel value",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "MHP has no or little value for contained cobalt",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cobalt value",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "No or little value for contained cobalt",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "MHP production results in low profitability",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "profitability",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "MHP production results in low profitability",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "Cash costs for MHP production are $6 / lb recovered Ni",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Cash costs | $6 / lb recovered Ni 2",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "Annual gross profit for MHP is $82M",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Annual gross profit | $82M",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "Payback period for MHP is 19 years",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Payback period | 19 years",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "NPV (8%) for MHP is -$690M",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "NPV (8%) | -$690M",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "IRR for MHP is 1%",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "IRR | 1%",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "MHP+SAL improves profitability with annual gross profit $301M",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gross profit",
+    "direction": "increases",
+    "factor": "$301M",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Annual gross profit | $301M",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.81,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "MHP+SAL reduces payback period to 6 years",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "payback period",
+    "direction": "decreases",
+    "factor": "6 years",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Payback period | 6 years",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.81,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "MHP toll refinery concept shows payback period of 2 years",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Payback period | 2 years",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "MHP toll refinery NPV (8%) is $1,812M",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "NPV (8%) | $1,812M",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "MHP toll refinery IRR is 77%",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "IRR | 77%",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "Direct shipping of ore provides 15-20% of nickel value for 1.8% nickel ore",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Relatively low value for the miner - 15-20% of nickel value for 1.8% nickel ore",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "Producers prefer ore grade > 1.5% nickel",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Producers prefer > 1.5% nickel grade",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.81,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "Long term metal prices of $9/lb for nickel, and $15/lb for cobalt",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metal price",
+    "direction": "increases",
+    "factor": "long term market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Long term metal prices of $9/lb for nickel, and $15/lb for cobalt",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "Cash costs do not include cobalt credits",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cash cost composition",
+    "direction": "no_change",
+    "factor": "cobalt credits",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cash costs do not include cobalt credits",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "Assuming MHP purchase at 75% contained nickel value",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "purchase price basis",
+    "direction": "increases",
+    "factor": "contained nickel value",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Assuming MHP purchase at 75% contained nickel value",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "MHP production, reasonable capital cost but low product value (7075%)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product value",
+    "direction": "decreases",
+    "factor": "MHP production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "MHP production, reasonable capital cost but low product value (7075%)",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "Metal production by SX or FeNi, very high capital cost but high product value (100%)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product value",
+    "direction": "increases",
+    "factor": "SX or FeNi production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Metal production by SX or FeNi, very high capital cost but high product value (100%)",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "MHP is a popular option, but low payable makes it uneconomic at low nickel prices",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "economic viability",
+    "direction": "decreases",
+    "factor": "low nickel prices",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "MHP is a popular option, but low payable makes it uneconomic at low nickel prices",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "High value products are key to being economic at low nickel prices",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product selection",
+    "direction": "increases",
+    "factor": "high value products",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "High value products are key to being economic at low nickel prices",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  },
+  {
+   "text": "Need a low capital and operating cost to get shareholder return",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost structure",
+    "direction": "decreases",
+    "factor": "capital and operating cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "But, need a low capital and operating cost to get shareholder return",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:tony_keating_пример-общего-характера-по-перерабо",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,607 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:11-korzhakovaa-811-docx",
+   "title": "11 KorzhakovAA 811.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\11 KorzhakovAA 811.docx.md",
+   "artifact_sha256": "109a47af7ab329789276ef6a5f44b87aefbe4db53d468c7178e909e13be45066",
+   "okf_raw_path": "Статьи/11 KorzhakovAA 811.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:precursor-of-ncm811-cathode-material",
+   "label": "precursor of NCM811 cathode material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:NiSO4-6H2O",
+   "label": "NiSO4·6H2O",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:CoSO4-7H2O",
+   "label": "CoSO4·7H2O",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:MnSO4-H2O",
+   "label": "MnSO4·H2O",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nh3-ammonium-hydroxide",
+   "label": "NH3 (ammonium hydroxide)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sample-p-12",
+   "label": "Sample P-12",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sample-p-13",
+   "label": "Sample P-13",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sample-p-14",
+   "label": "Sample P-14",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sample-p-15",
+   "label": "Sample P-15",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:11-korzhakovaa-811-docx:0",
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "title": "Co‑precipitation laboratory experiment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "co‑precipitation in a 10 dm³ batch reactor without baffles"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:precursor-of-ncm811-cathode-material",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Strict control of mixing rate, pH, complexing‑agent concentration and NH₃/sulphate molar ratio enables obtaining a material with preferable physicochemical characteristics.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "material quality",
+      "direction": "increases",
+      "factor": "process‑parameter control",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Selection of parameters for the synthesis of precursors for NCM cathode materials is one of the prevailing factors that have a significant impact on the chemical composition, bulk density, surface microstructure, electrochemical characteristics and service life of the resulting cathode materials.",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Their strict control during co‑precipitation in a 10 dm³ batch reactor without baffles made it possible to obtain a material with obviously preferable physicochemical characteristics.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:11-korzhakovaa-811-docx:1",
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "title": "Effect of mixing speed, pH and NH3 concentration on precursor morphology",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "co‑precipitation of Ni‑Co‑Mn hydroxide precursor (Ni0.8Co0.1Mn0.1(OH)2) in a 10 dm³ periodic‑action reactor",
+       "temperature_text": "not varied (constant)",
+       "duration_text": "not varied (constant)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:NiSO4-6H2O",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:CoSO4-7H2O",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:MnSO4-H2O",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:nh3-ammonium-hydroxide",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "material",
+     "material_id": "mat:precursor-of-ncm811-cathode-material",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "nm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "particle shape and size"
+     },
+     "method": null,
+     "snippet": "Для таких частиц характерно высокое значение насыпной плотности после утряски (≥1,5 г/см 3 )",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.63
+    },
+    {
+     "quantity_kind": "bulk density after tapping",
+     "scope": "material",
+     "material_id": "mat:precursor-of-ncm811-cathode-material",
+     "value": {
+      "min": 1.5,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "g/cm³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Для таких частиц характерно высокое значение насыпной плотности после утряски (≥1,5 г/см 3 )",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Intensive mixing promotes homogeneous chemical composition and formation of needle‑like particles.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "morphology",
+      "direction": "increases",
+      "factor": "mixing speed",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Интенсивное перемешивание в процессе соосаждения способствует более быстрому распределению ионов металлов и позволяет избежать избыточной локальной концентрации компонентов, что в свою очередь способствует образованию гомогенных по химическому составу частиц.",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "P-2 | 300 | 11,0 | 13,32 | 1,6",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:11-korzhakovaa-811-docx:2",
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "title": "Synthesis of precursor samples with varying NH₃/ sulfate ratios",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "Co‑precipitation of Ni‑Co‑Mn hydroxide precursors",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sample-p-12",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sample-p-13",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sample-p-14",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:sample-p-15",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "NH₃ / sulfate molar ratio",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Рис. 6. Дифрактограммы образцов, полученные при различном соотношении NH 3 /р-р сульфатов: Р-12 – 1,6 моль/моль, Р-13 – 1,8 моль/моль, Р - 14 – 2,0 моль/моль, Р - 15 – 2,1 моль/моль",
+     "locator_kind": "md_para",
+     "locator": "para:85",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Particle morphology (micrograph observation)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Исходя из микрофотографий можно сделать вывод, что наиболее пористыми, вытянутыми и сферичными получились частицы при соотношении ~ 1,6.",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "µm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "distribution"
+     },
+     "method": null,
+     "snippet": "гистограмма распределения имеет узкий пик на уровне 10-12 мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:92",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -12.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Presence of heterogenite CoOOH"
+     },
+     "method": null,
+     "snippet": "В пробах Р-12, Р-14 и Р-15 присутствуют следы гетерогенита CoOOH.",
+     "locator_kind": "md_para",
+     "locator": "para:79",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Most uniform co‑deposition of the main metals occurs at NH₃/Me ratio ~1.6.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "optimal ratio",
+      "direction": "increases",
+      "factor": "NH₃/Me ratio",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "можно сделать вывод, что наиболее равномерный процесс соосаждения основных металлов происходит при соотношении М NH3 /М Me ~ 1,6.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.81
+    },
+    {
+     "text": "Higher ratios lead to nickel binding and formation of dense secondary particles with fine primary crystallites.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "effect of higher ratio",
+      "direction": "increases",
+      "factor": "NH₃/Me ratio",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Увеличение соотношения приводит к связыванию никеля, параллельно процессу соосаждения комплекса.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "При более высоких соотношениях (2,1) получаются плотные вторичные частицы с мелкими первичными кристаллитами.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Selection of parameters for the synthesis of precursors for NCM cathode materials is one of the prevailing factors that have a significant impact on the chemical composition, bulk density, surface microstructure, electrochemical characteristics and service life of the resulting cathode materials.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "chemical composition, bulk density, surface microstructure, elec",
+    "direction": "increases",
+    "factor": "parameter selection",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Selection of parameters for the synthesis of precursors for NCM cathode materials is one of the prevailing factors that have a significant impact on the chemical composition, bulk density, surface microstructure, electrochemical characteristics and service life of the resulting cathode materials.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": "precipitation"
+  },
+  {
+   "text": "NMC cathode materials are among the most successful combinations providing high energy density, charge/discharge efficiency, long service life, etc.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "Ni‑Co‑Mn synergistic effect",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Because of the synergistic effect of Ni, Co, Mn, NMC‑type cathode materials are one of the most successful combinations providing high energy density, charge/discharge efficiency, long service life and others.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": null
+  },
+  {
+   "text": "NMC‑based cathode materials allow wide variation of composition by changing the Ni:Mn:Co ratio, enabling materials for specific applications.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application specificity",
+    "direction": "increases",
+    "factor": "Ni:Mn:Co ratio adjustment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Another important advantage of NMC‑based cathode materials is the possibility of varying (over a wide range) the composition by changing the Ni:Mn:Co ratio, which allows creating materials for use in specific areas and directions.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": null
+  },
+  {
+   "text": "Co‑precipitation followed by lithiation calcination in an oxygen atmosphere is one of the most high‑productivity and widely recognized methods for producing cathode active materials.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "productivity, recognition",
+    "direction": "increases",
+    "factor": "method choice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "however, one of the most high‑productivity and widely recognized methods is co‑precipitation with subsequent lithiation calcination in an oxygen atmosphere.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": "precipitation"
+  },
+  {
+   "text": "Co‑precipitation with subsequent lithiation firing in an oxygen atmosphere is one of the most high‑productivity and widely recognized methods for producing SAM.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "productivity",
+    "direction": "increases",
+    "factor": "method choice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "одним из наиболее высокопроизводительных и широко признанных методов является соосаждение с последующим литирующим обжигом в атмосфере кислорода.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": null
+  },
+  {
+   "text": "The microstructure of polycrystalline SAM is largely formed during synthesis of the precursor cathode material (pSAM).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "microstructure",
+    "direction": "increases",
+    "factor": "synthesis stage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "микроструктура поликристаллических САМ в значительной степени формируется на этапе синтеза предшественника катодного материала (pСАМ)",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": null
+  },
+  {
+   "text": "Establishing the influence and refining co‑precipitation parameters is an important step in developing materials with targeted functional characteristics.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "parameter study",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "установление влияния и уточнение параметров соосаждения являются важным звеном при разработке материалов с заданными функциональными характеристиками.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": null
+  },
+  {
+   "text": "Intensive mixing during co‑precipitation leads to faster distribution of metal ions and avoids excessive local concentration of components.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ion distribution",
+    "direction": "increases",
+    "factor": "mixing intensity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Интенсивное перемешивание в процессе соосаждения способствует более быстрому распределению ионов металлов и позволяет избежать избыточной локальной концентрации компонентов",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": null
+  },
+  {
+   "text": "Optimal key synthesis parameters for NMC811‑type precursors are: pH = 11.0, complexing‑agent concentration = 13,32 mol/L, NH₃/ sulfate ratio = 1,6 mol/mol, stirring speed = 450 rev/min.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "На основании вышеописанных результатов установлено, что оптимальными ключевыми параметрами синтеза РСАМ типа NMC811 являются: pH – 11,0, концентрация комплексообразующего агента – 13,32 моль/л, соотношение NH 3 /р-р сульфатов – 1,6 моль/моль и скорость перемешивания – 450 об/мин.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": null
+  },
+  {
+   "text": "These parameters yield a precursor whose particles have a near‑spherical shape with a reproducible average size of 12 µm.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Указанные параметры позволяют получать прекурсор, частицы которого имеют форму, наиболее приближенную сферической со средним (воспроизводящимся) размером 12 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.81,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": null
+  },
+  {
+   "text": "Primary particles are tightly packed with nanometer‑scale gaps between plates, which can facilitate Li⁺ transport during solid‑state reaction and ultimately increase the capacity of the cathode material.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Первичные частицы плотно упакованы относительно друг друга, при этом между пластинами сохраняются зазоры нанометрового размера, указанные зазоры могут обеспечить более легкий транспорт для Li + при твердофазной реакции в процессе литирования, что в конечном итоге увеличивается емкостные характеристики катодного материала.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": null
+  },
+  {
+   "text": "A more uniform co‑deposition of the main metals is achieved when the NH₃/Me molar ratio is approximately 1.6.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "можно сделать вывод, что наиболее равномерный процесс соосаждения основных металлов происходит при соотношении М NH3 /М Me ~ 1,6.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.81,
+   "document_id": "doc:11-korzhakovaa-811-docx",
+   "process": "precipitation"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

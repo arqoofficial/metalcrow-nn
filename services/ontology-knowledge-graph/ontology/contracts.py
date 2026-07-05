@@ -250,6 +250,8 @@ class Provenance(BaseModel):
     extractor: ExtractorKind
     confidence: float = Field(ge=0.0, le=1.0)
     artifact_sha256: Optional[str] = None   # хэш MD-артефакта, к которому привязан спан
+    okf_raw_path: Optional[str] = None      # путь к OKF raw markdown источника →
+                                            # wiki-диплинк фронта (/wiki?doc=<okf_raw_path>)
     ingested_at: Optional[_dt.datetime] = None  # «дата актуализации»;
                                                 # проставляется пайплайном автоматически
 

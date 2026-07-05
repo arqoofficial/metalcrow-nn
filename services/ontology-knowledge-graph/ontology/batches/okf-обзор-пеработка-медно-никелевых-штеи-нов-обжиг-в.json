@@ -1,0 +1,1593 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Обзор пеработка медно-никелевых штейнов (обжиг-выщелачивание) фул.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Обзор пеработка медно-никелевых штейнов (обжиг-выщелачивание) фул.docx.md",
+   "artifact_sha256": "3db424f147d8691ae9ec992cf33e097c2edc5d3a41629abdfd4dab8f7acaf4fc",
+   "okf_raw_path": "Обзоры/Обзор пеработка медно-никелевых штейнов (обжиг-выщелачивание) фул.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:fine-tailings-canadian",
+   "label": "fine tailings (Canadian)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fine-stannum-canada",
+   "label": "Fine‑stannum (Canada)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fine-stannum-botswana",
+   "label": "Fine‑stannum (Botswana)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fine-stone-feed",
+   "label": "fine‑stone feed",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fecl3-and-cl2",
+   "label": "FeCl3 and Cl2",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:roasted-slag",
+   "label": "roasted slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-electrolyte",
+   "label": "copper electrolyte",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:various-copper-containing-materials-e-g-v-p-conc",
+   "label": "various copper‑containing materials (e.g., V‑P concentrate, copper concentrate, nickel carbonylation residue)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fine-copper-bearing-concentrates-or-fractions",
+   "label": "fine copper‑bearing concentrates or fractions",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:roasted-fine-stone",
+   "label": "roasted fine‑stone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-copper-concentrate",
+   "label": "nickel‑copper concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-concentrate",
+   "label": "nickel concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в:0",
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Industrial application of modified Hybinette process at Nikkelverk refinery (Norway)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "modified Hybinette (oxidation‑leaching‑electrolysis) of fine copper‑nickel tailings",
+       "temperature_text": "~800°C",
+       "duration_text": "several days for anode cleaning (boiling of anolyte with anode scrap)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1073.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-tailings-canadian",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "composition of feed tailings",
+     "scope": "material",
+     "material_id": "mat:fine-tailings-canadian",
+     "value": {
+      "min": null,
+      "nominal": 48.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Основным сырьем являлся канадский файштейн, содержащий, %: Ni-48, Cu – 27, S – 22, Co – 0,8, Fe – 0,9, As – 0,13, Pb – 0,06, Se – 0,04",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "copper to nickel ratio in leach residue",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "остаток выщелачивания, представленный, в основном, оксидом никеля, всё ещё содержит медь в отношении 1 Cu : 5 Ni",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Получали сульфат никеля (кристаллический), катодные кобальт и никель, жидкий SO₂ и концентрат драгоценных металлов.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "product slate",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На заводе Nikkelverk при переработке файнштейна по модифицированному способу Хибинетта в качестве готовой продукции получали: сульфат никеля (кристаллический), катодные кобальт и никель, жидкий SO 2 и концентрат драгоценных металлов.",
+     "locator_kind": "md_para",
+     "locator": "para:51",
+     "confidence": 0.9
+    },
+    {
+     "text": "Медь из огарка извлекали сернокислотным выщелачиванием в пачуках с использованием отработанного электролита.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "copper recovery method",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Медь из огарка извлекали сернокислотным выщелачиванием в пачуках с использованием отработанного электролита.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На заводе Nikkelverk при переработке файнштейна по модифицированному способу Хибинетта в качестве готовой продукции получали: сульфат никеля (кристаллический), катодные кобальт и никель, жидкий SO 2 и концентрат драгоценных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в:1",
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Industrial application of Falconbridge chlorine leach at Nikkelverk (Canada/Botswana feed) 1975‑1981",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Falconbridge Chlorine Leach (FCL)",
+       "temperature_text": "760°C",
+       "duration_text": "1975‑1981 (transition period)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1033.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-stannum-canada",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:fine-stannum-botswana",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Sulfur removal in roast",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Степень удаления серы при обжиге – около 70%",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "FeS oxidation to magnetite",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "что примерно соответствует 90% окислению содержащегося в концентрате FeS до магнетита",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 573.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Gas cooling in scrubber"
+     },
+     "method": null,
+     "snippet": "газ охлаждается примерно до 300°C",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.57
+    },
+    {
+     "quantity_kind": "Chlorine exothermic effect",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "каждая тонна вводимого в чаны хлора способна вскипятить 1 т воды",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Transition to chlorine leaching replaced earlier multi‑step operations with a single leach stage.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process simplification",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В результате, был осуществлен переход на хлорное выщелачивание по способу Falconbridge (FCL).",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 1975 г. начался переход на хлорное выщелачивание – процесс Falconbridge Chlorine Leach (FCL), завершившийся к 1981 г.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в:2",
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Industrial operation of FCL at Nikkelverk (2000‑2005) – material balance",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Falconbridge chlorine leach",
+       "duration_text": "2000‑2005"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-stannum-canada",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:fine-stannum-botswana",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 54.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Файнштейн (Канада) | 54-56",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 33.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Файнштейн (Ботсвана) | 33-35",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "Ni in leach solution",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "g/л",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ni электролит, г/л | 60",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Co in leach solution",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.01,
+      "max": null
+     },
+     "unit": "g/л",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Co электролит, г/л | 0,01",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Typical leach product contains 220 g/L Ni and 0,5 g/L Cu.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Раствор хлорного выщелачивания, г/л | 220 | 0,5",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Таблица 1.2 – Хлорное выщелачивание: типичный анализ материалов, вес % и г/л",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в:3",
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Industrial application of chlorination leaching at Sandouville plant (France)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chlorination leaching of fine‑stone (fine‑steine) containing Ni and Co",
+       "temperature_text": "95 °C"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 368.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-stone-feed",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:fecl3-and-cl2",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:fine-stone-feed",
+     "value": {
+      "min": null,
+      "nominal": 70.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Файнштейн с ≈70% Ni (до 2017 г.) поступал с плавильного завода компании Doniambo на Новой Каледонии.",
+     "locator_kind": "md_para",
+     "locator": "para:125",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "processing capacity",
+     "scope": "material",
+     "material_id": "mat:fine-stone-feed",
+     "value": {
+      "min": null,
+      "nominal": 25.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На полной мощности на заводе Sandouville будут перерабатывать порядка 25 тыс т/г файнштейна.",
+     "locator_kind": "md_para",
+     "locator": "para:128",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Получается смесь трех хлоридов (Fe, Ni, Co), а сера остается в элементарной форме и отделяется от раствора вместе с нерастворимым остатком в перколяторе.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "product composition",
+      "direction": "increases",
+      "factor": "Fe, Ni, Co chlorides",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Получается смесь трех хлоридов (Fe, Ni, Co), а сера остается в элементарной форме и отделяется от раствора вместе с нерастворимым остатком в перколяторе.",
+     "locator_kind": "md_para",
+     "locator": "para:126",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Хлорное выщелачивание на заводе Sandouville - перемены",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в:4",
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Industrial copper leaching after roasting (copper smelter)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "acid leaching of roasted slag with copper electrolyte (H2SO4 + CuSO4)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:roasted-slag",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:copper-electrolyte",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "electrolyte composition",
+     "scope": "material",
+     "material_id": "mat:copper-electrolyte",
+     "value": {
+      "min": null,
+      "nominal": 95.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Получается раствор с 95 г/л H 2 SO 4 и 50 г/л Cu 2+ .",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "efficiency",
+     "scope": "material",
+     "material_id": "mat:roasted-slag",
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "copper removal"
+     },
+     "method": null,
+     "snippet": "Выщелачивание удаляет около 90% меди [2].",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [],
+   "snippet": "После обжига огарок поступает в систему выщелачивания меди",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в:5",
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Inco 1979 roast‑leach process (lab‑scale)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "roast‑leach of copper‑containing sulfide material",
+       "temperature_text": "750‑800 °C",
+       "duration_text": "3‑6 h (depending on initial sulfur content)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1023.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:various-copper-containing-materials-e-g-v-p-conc",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Copper ends up in the solid residue (94‑97 % Cu in leach residue), while Ni, Fe, Co go to the leachate (97‑99 % Ni, 97‑98 % Fe, 80‑99 % Co).",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "metal distribution",
+      "direction": "increases",
+      "factor": "copper recovery in solid residue",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Во всех случаях медь распределялась следующим образом: 94-97% Cu – в остатке выщелачивания, в конечном щелоке – 97-99% Ni, 97-98% Fe, 80-99% Co.",
+     "locator_kind": "md_para",
+     "locator": "para:168",
+     "confidence": 0.9
+    },
+    {
+     "text": "For a specific nickel‑carbonylation residue (Cu 55.1 %, Ni 7.4 %, Fe 8.0 %, Co 3.7 %, S 17.4 %) the roast contained Cu 57.3 %, Ni 7.61 %, Fe 8.33 %, Co 3.75 %; after leaching the residue contained Cu 90.9 %, Ni 0.03 %, Fe 0.25 %, Co 0.04 % and most of the selenium and precious metals.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "copper recovery",
+      "direction": "increases",
+      "factor": "final copper content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Был получен огарок, %: Cu 57,3; Ni 7,61; Fe 8,33; Co 3,75, после выщелачивания которого получился остаток, %: Cu 90,9; Ni 0,03; Fe 0,25; Co 0,04, содержащий также основную массу селена и драгоценных металлов.",
+     "locator_kind": "md_para",
+     "locator": "para:169",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В результате, идет процесс сульфатирования «других» металлов и восстановления меди до элементарной формы: другие металлы - в щелоке, медь – в твердом остатке.",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в:6",
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Inco second patent roast‑leach (lab‑scale)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "roast‑leach of fine copper‑bearing sulfide material with sulfuric acid leach",
+       "temperature_text": "≥110 °C (preferably 150‑160 °C)",
+       "duration_text": "0.5‑2 h"
+      },
+      "temperature": {
+       "min": 383.15,
+       "nominal": null,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fine-copper-bearing-concentrates-or-fractions",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pressure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.75,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "leach"
+     },
+     "method": null,
+     "snippet": "при суммарном давлении в автоклаве порядка 0,75-3 МПа.",
+     "locator_kind": "md_para",
+     "locator": "para:165",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Most of the copper dissolves in the sulfuric acid leach, while Fe, Ni and Co remain in the solid residue.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "solubility",
+      "direction": "increases",
+      "factor": "copper extraction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "большая часть меди растворяется в отличие от Fe, Ni и Co, оставшихся в остатке.",
+     "locator_kind": "md_para",
+     "locator": "para:170",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Этот способ особенно полезен, как считают авторы, для обработки медьсодержащих (файн)штейнов или их фракций.",
+   "locator_kind": "md_para",
+   "locator": "para:171",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в:7",
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Laboratory extraction test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Selective reduction of roasted fine‑stone followed by leaching",
+       "temperature_text": "not explicitly stated for this test (procedure uses high‑temperature reduction atmosphere)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:roasted-fine-stone",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 97.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "извлечение меди составило 97,8%",
+     "locator_kind": "md_para",
+     "locator": "para:188",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:various-copper-containing-materials-e-g-v-p-conc",
+     "value": {
+      "min": null,
+      "nominal": 0.3,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "никеля – всего около 0,3%",
+     "locator_kind": "md_para",
+     "locator": "para:188",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "удивительно эффективное выделение меди из смеси с Ni, Fe, Co и/или другими какими‑то металлами",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "selectivity",
+      "direction": "increases",
+      "factor": "copper recovery",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "удивительно эффективное выделение меди из смеси с Ni, Fe, Co и/или другими какими‑то металлами",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "в одном из опытов, где коллективный обожженный файнштейн c отношением Cu/Ni 1,0 был подвергнут данной процедуре, извлечение меди составило 97,8%, а никеля – всего около 0,3%.",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в:8",
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Industrial‑scale pilot of nickel‑copper concentrate roasting‑reduction‑leaching",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Deep roasting of nickel concentrates, reduction melting of the ash in an electric furnace, conversion in Pierce‑Smith converters",
+       "temperature_text": "up to ≈1050°C for roasting; reduction melting in electric furnace (temperature not given)",
+       "duration_text": "commercial‑scale operation in 1981‑1982"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1323.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-copper-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "великолепные данные по извлечению никеля",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "nickel recovery",
+      "direction": "increases",
+      "factor": "nickel extraction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "были получены «великолепные данные» по извлечению никеля",
+     "locator_kind": "md_para",
+     "locator": "para:193",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "процесс был доведен до стадии опробования в коммерческом масштабе на комплексе Томпсон в 1981-1982 гг.",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в:9",
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "title": "Inco late‑1970s pilot of deep roasting and electric‑furnace reduction of nickel concentrates",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Deep roasting in KS furnaces to form sulfides, off‑gas to sulfuric acid plant, reduction melting in electric furnace with coke, conversion in Pierce‑Smith converters",
+       "temperature_text": "deep roasting up to ≈1050°C (as later recommended)",
+       "duration_text": "development period late 1970s, described as «почти внедрен»"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1323.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "выбросы SO2 минимальны из‑за дефицита серы",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "SO2 emissions",
+      "direction": "decreases",
+      "factor": "sulfur content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "выбросы SO 2 минимальны из‑за дефицита серы",
+     "locator_kind": "md_para",
+     "locator": "para:192",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "процесс обжига никелевых концентратов с последующей восстановительно плавкой огарка в электропечи был разработан Inco в конце 1970‑х годов … и «почти внедрен».",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Единственным примером промышленного применения технологии ОВЭ «в современную эпоху» является никелевый рафинировочный завод Nikkelverk.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "industrial applicability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Единственным примером промышленного применения технологии ОВЭ (окисление-выщелачиваение-электролиз) «в современную эпоху», насколько нам известно, является никелевый рафинировочный завод Nikkelverk",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "electroextraction"
+  },
+  {
+   "text": "По способу Хибинетта после измельчения файнштейн обжигали при ~800°C в многоподовых печах для удаления большей части серы и одновременного превращения сульфидов металлов в оксиды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По способу Хибинетта после измельчения файнштейн обжигали при ~800°С в многоподовых печах для удаления большей части серы и одновременного превращения сульфидов металлов в оксиды.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Оксиды никеля медленно растворяются в разбавленной серной кислоте, тогда как «свободный» оксид меди растворяется без труда.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После обжига при этой температуре оксиды никеля медленно растворяются в разбавленной серной кислоте, в то время как «свободный» оксид меди растворяется без труда.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "Частично обеднённый электролит может быть использован для выщелачивания в следующем цикле.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "electrolyte reuse",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Частично обедненный электролит может быть использован для выщелачивания в следующем цикле.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "Медь из раствора цементировалась на никеле из анодного лома, вытесняя ионы никеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper precipitation mechanism",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медь из раствора цементировалась на никеле из анодного лома, вытесняя ионы никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Many operations with anodes and other fine‑powder solids create a barrier for modern process control and cost savings.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "process control difficulty",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это барьер на пути современных методов контроля за процессом и общей экономии.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Labor‑intensive operations (loading anode furnaces, metal discharge, casting, etc.) and non‑ideal working conditions were identified as disadvantages.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "operational difficulty",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К недостаткам отнесены также многочисленные трудоемкие операции (загрузка анодных печей, выпуск металла, отливка и операции с анодами и др.), зачастую условия труда там были «не идеальны».",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Roasting temperature of the layer is 760 °C.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Температура слоя - 760°С.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Roast feed is pulp with 74‑76 % solids, and sand is also added.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Концентрат загружают в обжиговые печи в виде пульпы с 74-76% твердого.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Gas cleaning system includes cyclones, a spray‑chiller and an electro‑filter.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Система улавливания отходящих газов включает циклоны, оросительный холодильник (газ охлаждается примерно до 300°С) и электрофильтр.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Each tonne of chlorine injected can instantly absorb chlorine forming CuCl₂, which leaches nickel.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "должно быть достаточное количество CuCl для того, чтобы обеспечить немедленную абсорбцию хлора с образованием промежуточного хлорида CuCl₂, который выщелачивает никель.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "Fine‑stannums are mainly composed of hessite (Ni₃S₂), chalcopyrite (Cu₂S) and a Ni:Cu alloy ≈7:3.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Файнштейны представлены, в основном, хизлевудитом (Ni 3 S 2 ), халькоцитом (Cu 2 S) и сплавом с Ni:Cu ≈ 7:3.",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Nickel capacity was expanded from 54 kt/yr to 85 kt/yr in 1988 with the addition of the Raglan mine.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "Raglan mine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 1988 г. в схему были внесены существенные изменения, мощность по никелю была расширена с 54 тыс т/г до 85 тыс т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Выщелачивание удаляет около 90% меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "leaching",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выщелачивание удаляет около 90% меди [2].",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "Остаток от выщелачивания огарка содержит 55% Ni, 18% Cu и, по существу, все драгоценные металлы (МПГ).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "slag",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Остаток от выщелачивания огарка содержит 55% Ni, 18% Cu и, по существу, все драгоценные металлы (МПГ).",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "Хлорное выщелачивание с FeCl3 в присутствии Cl2 используется при низком содержании меди в файнштейне.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reagent choice",
+    "direction": "increases",
+    "factor": "FeCl3 + Cl2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако, благодаря очень низкому содержанию в файнштейне меди, используется хлорное выщелачивание с FeCl 3 в присутствии Cl 2 .",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "Сера остается в элементарной форме и отделяется от раствора вместе с нерастворимым остатком в перколяторе.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sulfur form",
+    "direction": "increases",
+    "factor": "elemental sulfur",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сера остается в элементарной форме и отделяется от раствора вместе с нерастворимым остатком в перколяторе.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "На полной мощности на заводе Sandouville будут перерабатывать порядка 25 тыс т/г файнштейна.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "plant capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На полной мощности на заводе Sandouville будут перерабатывать порядка 25 тыс т/г файнштейна.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Первая стадия обогащения остатка состоит в выщелачивании соляной кислотой при 95°С с целью растворения максимального количества оксидов металлов на фоне минимального растворения ДМ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "95°С",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как следует из Рис.1.2(б), теперь первая стадия обогащения остатка состоит в выщелачивании соляной кислотой при 95°С с целью растворения максимального количества оксидов металлов на фоне минимального растворения ДМ.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "При введении кислорода в осадительные чаны Cu+ и Fe+ окисляются и дают осадок гидроксида железа – без использования карбоната никеля.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "precipitate type",
+    "direction": "increases",
+    "factor": "oxygen addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При введении кислорода в эти осадительные чаны Cu + и Fe + окисляются и дают осадок гидроксида железа – без использования карбоната никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "precipitation"
+  },
+  {
+   "text": "Остаток от выщелачивания соляной кислотой обогащают путем плавки на штейн, который выщелачивают соляной кислотой/хлором и удаляют серу с получением ДМ‑концентрата, содержащего 30‑40% ДМ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "PGM concentrate grade",
+    "direction": "increases",
+    "factor": "30‑40% ДМ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Остаток от выщелачивания соляной кислотой обогащают далее путем плавки на штейн, который выщелачивают соляной кислотой/хлором и удаляют серу с получением ДМ‑концентрата, содержащего 30-40% ДМ.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Existing hydrometallurgical methods of the late 1970s had certain disadvantages, such as low selectivity and low extraction due to ferrite formation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method performance",
+    "direction": "decreases",
+    "factor": "selectivity and extraction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "существующие (на момент издания данного патента – конец 1970‑х годов) способы гидрометаллургической переработки медьсодержащих материалов имеют определенные недостатки.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "Roasting must guarantee sulfation of copper; therefore partial roasting at temperatures below 750 °C (e.g., 675 °C, 550 °C) is used to maximize copper soluble in acid.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "roast temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Характерной чертой всех этих процессов является то, что обжиг должен гарантировать сульфатирование меди – вот почему речь идет о частичном обжиге, а не об обжиге намертво, где медь, скорее всего, присутствует в виде оксида, а не сульфата. Такой обжиг выполняется при температуре ниже 750°С – обычно при 675°С, 550°С и даже ещё ниже.",
+   "locator_kind": "md_para",
+   "locator": "para:175",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "The Cu:Ni ratio in blister copper should normally be 100 or higher; otherwise nickel is removed in the converter cycle, causing copper losses to the nickel extraction chain.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Cu:Ni ratio",
+    "direction": "increases",
+    "factor": "desired ratio",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "отношение Cu:Ni в черновой меди обычно должно быть равным 100 или более.",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "If the Cu:Ni ratio in concentrate is about 20, roughly one‑quarter of the copper ends up in the nickel extraction chain with converter slags.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper loss",
+    "direction": "increases",
+    "factor": "low Cu:Ni ratio",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "например, если в концентрате Cu:Ni ≈20, то примерно 1⁄4 всей меди попадает в никелевую цепочку с конвертерными шлаками.",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "SO₂ emissions from smelting are more difficult to control than those from converting, because converting produces weakly concentrated SO₂ streams.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "SO₂ emission difficulty",
+    "direction": "decreases",
+    "factor": "concentration of gas streams",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при конвертировании выбросы SO₂ – более сложная проблема, т.к. получаются слабо концентрированные потоки.",
+   "locator_kind": "md_para",
+   "locator": "para:171",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "smelting"
+  },
+  {
+   "text": "Continuous converting aggravates the problem of slag recirculation, producing slags richer in copper than periodic converting.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "slag copper content",
+    "direction": "increases",
+    "factor": "operating mode",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эта проблема обостряется именно в случае непрерывного конвертирования, где получаются более богатые по меди шлаки, чем при конвертировании в периодическом режиме.",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "converting"
+  },
+  {
+   "text": "процесс применим к широкому кругу медьсодержащих материалов, но вряд ли к рудам и концентратам, а, скорее, к (файн)штейнам и прочим «остаткам», полученным, например, от кислотного выщелачивания или от процесса карбонилирования никеля",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "material type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "процесс применим к широкому кругу медьсодержащих материалов, но вряд ли к рудам и концентратам, а, скорее, к (файн)штейнам и прочим «остаткам», полученным, например, от кислотного выщелачивания или от процесса карбонилирования никеля",
+   "locator_kind": "md_para",
+   "locator": "para:189",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "данный процесс эффективен практически для любого диапазона отношений Cu, Fe, Ni",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "selectivity",
+    "direction": "increases",
+    "factor": "Cu/Fe/Ni ratio",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "данный процесс эффективен практически для любого диапазона отношений Cu, Fe, Ni",
+   "locator_kind": "md_para",
+   "locator": "para:189",
+   "confidence": 0.9,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "обжиг можно вести при более высоких температурах – до ≈1050°С, чем было рекомендовано ранее в «217»",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "maximum temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обжиг можно вести при более высоких температурах – до ≈1050°С, чем было рекомендовано ранее в «217»",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  },
+  {
+   "text": "температура выщелачивания – минимум ≈50°С (но не выше ≈80°С) для достижения целесообразной скорости выщелачивания",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "minimum temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "температура выщелачивания – минимум ≈50°С (но не выше ≈80°С) для достижения целесообразной скорости выщелачивания",
+   "locator_kind": "md_para",
+   "locator": "para:191",
+   "confidence": 0.81,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": "leaching"
+  },
+  {
+   "text": "обжиг сульфидного материала должен гарантировать практически 100% удаления серы",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sulfur removal",
+    "direction": "increases",
+    "factor": "completeness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обжиг сульфидного материала должен гарантировать практически 100% удаления серы",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.45,
+   "document_id": "doc:обзор-пеработка-медно-никелевых-штеи-нов-обжиг-в",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

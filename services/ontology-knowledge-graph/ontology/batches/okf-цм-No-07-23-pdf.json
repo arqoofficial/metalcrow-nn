@@ -1,0 +1,1186 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-07-23-pdf",
+   "title": "ЦМ № 07-23.pdf",
+   "doc_type": "article",
+   "year": 2023,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2023\\ЦМ № 07-23.pdf.md",
+   "artifact_sha256": "021d90364af85a9a84b6525ace2e052d2fe9d04d04821527ab679810087ff56e",
+   "okf_raw_path": "Журналы/Цветные металлы/2023/ЦМ № 07-23.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:nickel-ore",
+   "label": "nickel ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-concentrate",
+   "label": "copper concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:bauxite",
+   "label": "bauxite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:aluminum",
+   "label": "aluminium",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:халькопирит",
+   "label": "халькопирит",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:пирит",
+   "label": "пирит",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:галит",
+   "label": "галенит",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:пвк-мдтк-к",
+   "label": "ПВК МДТК К",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сульфидные-минералы-в-поликомпонентных-рудах-хал",
+   "label": "сульфидные минералы в поликомпонентных рудах (халькопирит, галенит)",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:PVC",
+   "label": "PVC",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:MDTC",
+   "label": "MDTC",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:halcopirite-galena-pyrite-chips-10-10-mm",
+   "label": "halcopirite, galena, pyrite chips (10 × 10 mm)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pvc-mdtc",
+   "label": "PVC‑MDTC",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:halcopirite-galena-pyrite-powder-0-063-0-044-mm",
+   "label": "halcopirite, galena, pyrite powder (‑0.063 + 0.044 mm)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pvc-mdtc-solution",
+   "label": "PVC‑MDTC solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pvc-mdtc-various-concentrations",
+   "label": "PVC‑MDTC (various concentrations)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No-07-23-pdf:0",
+   "document_id": "doc:цм-No-07-23-pdf",
+   "title": "Nickel sulfate plant commissioning",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "HPAL technology for nickel sulfate production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual production capacity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 240.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В июне 2023 г. Halmahera Persada Lygend (Индонезия) ввела в эксплуатацию завод по выпуску сульфата никеля по технологии HPAL мощностью 240,0 тыс. т/год.",
+     "locator_kind": "md_para",
+     "locator": "para:78",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Plant entered commercial operation",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В июне 2023 г. Halmahera Persada Lygend (Индонезия) ввела в эксплуатацию завод по выпуску сульфата никеля по технологии HPAL мощностью 240,0 тыс. т/год.",
+     "locator_kind": "md_para",
+     "locator": "para:78",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В июне 2023 г. Halmahera Persada Lygend (Индонезия) ввела в эксплуатацию завод по выпуску сульфата никеля по технологии HPAL мощностью 240,0 тыс. т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-07-23-pdf:1",
+   "document_id": "doc:цм-No-07-23-pdf",
+   "title": "Freeport Indonesia and Amman Minerals International copper concentrate export ban",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Domestic refining of copper concentrate"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "policy implementation date",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 2024.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "После введения в эксплуатацию в мае 2024 г. мощностей Freeport Indonesia (Индонезия) и Amman Minerals International (Индонезия) Правительство Индо незии запретит экспорт медного концентрата в целях переработки его в рафинированный металл внутри страны.",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Export of copper concentrate will be prohibited to force domestic refining",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "После введения в эксплуатацию в мае 2024 г. мощностей Freeport Indonesia (Индонезия) и Amman Minerals International (Индонезия) Правительство Индо незии запретит экспорт медного концентрата в целях переработки его в рафинированный металл внутри страны.",
+     "locator_kind": "md_para",
+     "locator": "para:84",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "После введения в эксплуатацию в мае 2024 г. мощностей Freeport Indonesia (Индонезия) и Amman Minerals International (Индонезия) Правительство Индо незии запретит экспорт медного концентрата в целях переработки его в рафинированный металл внутри страны.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-07-23-pdf:2",
+   "document_id": "doc:цм-No-07-23-pdf",
+   "title": "RusAl alumina plant first phase construction",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Alumina production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:bauxite",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "planned commissioning quarter",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2028.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ввод в эксплуатацию первой очереди мощностью 2,4 млн т/год намечен на IV квартал 2028 г.",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "First phase of alumina plant scheduled for late 2028",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Ввод в эксплуатацию первой очереди мощностью 2,4 млн т/год намечен на IV квартал 2028 г.",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Ввод в эксплуатацию первой очереди мощностью 2,4 млн т/год намечен на IV квартал 2028 г.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-07-23-pdf:3",
+   "document_id": "doc:цм-No-07-23-pdf",
+   "title": "Rio Tinto Complexe Jonquiere aluminium capacity expansion",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "Aluminium smelting"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:aluminum",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity increase",
+     "scope": "material",
+     "material_id": "mat:aluminum",
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Rio Tinto (Австралия - Великобритания) инвестирует 1,1 млрд долл. в расширение производственных мощностей завода Complexe Jonquiere (Канада) с 60,0 до 220,0 тыс. т алюминия к I полугодию 2026 г.",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Capacity will more than triple by mid‑2026",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "расширение производственных мощностей завода Complexe Jonquiere (Канада) с 60,0 до 220,0 тыс. т алюминия к I полугодию 2026 г.",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "расширение производственных мощностей завода Complexe Jonquiere (Канада) с 60,0 до 220,0 тыс. т алюминия к I полугодию 2026 г.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-07-23-pdf:4",
+   "document_id": "doc:цм-No-07-23-pdf",
+   "title": "Laboratory flotation tests on monomineral samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation",
+       "temperature_text": "не указана",
+       "duration_text": "не указана"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:халькопирит",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:пирит",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:галит",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "повышит качество коллективного медно-свинцового концентрата",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "концентрат",
+      "direction": "increases",
+      "factor": "selective flotation of galenite and chalcopyrite",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "что в условиях рудной флотации будет способствовать повышению качества коллективного медно-свинцового концентрата",
+     "locator_kind": "md_para",
+     "locator": "para:137",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Исследования проводили на мономинеральных образцах халькопирита, пирита и галенита.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-07-23-pdf:5",
+   "document_id": "doc:цм-No-07-23-pdf",
+   "title": "Microscopy identification of polymer adsorption",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "electron and laser microscopy",
+       "temperature_text": "не указана",
+       "duration_text": "не указана"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:пвк-мдтк-к",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:сульфидные-минералы-в-поликомпонентных-рудах-хал",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Методами электронной и лазерной микроскопии идентифицирована адсорбция ПВК МДТК К на сульфидных минералах, входящих в состав поликомпонентных руд - халькопирите и галените.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-07-23-pdf:6",
+   "document_id": "doc:цм-No-07-23-pdf",
+   "title": "Synthesis of modified polyvinylcaprolactam (PVC‑MDTC)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "solid‑phase modification of PVC with sodium morpholinedithiocarbamate (MDTC)",
+       "temperature_text": "room temperature (drying) and 20‑45 °C (solution preparation)",
+       "duration_text": "15 min (grinding)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 293.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:PVC",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:MDTC",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Термочувствительность ПВК МДТК оценивали визуально по помутнению раствора полимера.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "thermosensitivity",
+      "direction": "increases",
+      "factor": "temperature",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Термочувствительность ПВК МДТК оценивали визуально по помутнению раствора полимера.",
+     "locator_kind": "md_para",
+     "locator": "para:155",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Модифицированный ПВК был получен методом твердофазной модификации ПВК реагентом МДТК.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-07-23-pdf:7",
+   "document_id": "doc:цм-No-07-23-pdf",
+   "title": "Adsorption study of PVC‑MDTC on mineral surfaces",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Scanning electron microscopy (SEM), laser scanning microscopy (LSM) and local X‑ray microanalysis of mineral chips after treatment with PVC‑MDTC",
+       "temperature_text": "room temperature (drying of the complex)",
+       "duration_text": "not specified (grinding 15 min, then drying)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:halcopirite-galena-pyrite-chips-10-10-mm",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:pvc-mdtc",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "presence of MDTC‑metal complexes on mineral surface"
+     },
+     "method": null,
+     "snippet": "Образование комплексного соединения МДТК c Au в условиях, близких к флотационным, и адсорбция на золотоносных сульфидах была подтверждена УФ‑спектрофотометрией, SLM‑ и ASEM‑микроскопией.",
+     "locator_kind": "md_para",
+     "locator": "para:149",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Selective action of MDTC on copper‑ and gold‑bearing sulfide minerals can positively affect flotation of Au‑Cu concentrates with reduced iron sulfide content.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "flotation selectivity",
+      "direction": "increases",
+      "factor": "MDTC presence",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Селективное воздействие МДТК на медные и золотоносные сульфидные минералы способно оказывать положительный эффект при флотационном получении Au‑Cu‑концентратов с пониженным содержанием сульфидов железа.",
+     "locator_kind": "md_para",
+     "locator": "para:149",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Идентификацию адсорбированного ПВК МДТК на поверхности аншлифа минерала проводили методом сканирующей лазерной микроскопии (KEYENCE VK‑9700), растровой электронной микроскопии (LEO 1420VP) и локального рентгеноспектрального микроанализа (Oxford INCA Energy 350).",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-07-23-pdf:8",
+   "document_id": "doc:цм-No-07-23-pdf",
+   "title": "Kinetic photometry of mineral suspension in PVC‑MDTC solutions",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Kinetic photometry on Shimadzu 1800 spectrophotometer",
+       "temperature_text": "38 °C (constant stirring)",
+       "duration_text": "not specified (measurement of transparency over time)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 311.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:halcopirite-galena-pyrite-powder-0-063-0-044-mm",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:pvc-mdtc-solution",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "transparency change of suspension",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.0,
+      "max": null
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Навеску минерала 1 g помещали в 25 ml раствора ПВК МДТК заданной концентрации (0, 30, 60 и 100 mg/л) и нагревали при постоянном перемешивании до температуры 38 °C. Затем полученную суспензию переносили в кювету и методом кинетической фотометрии фиксировали изменение прозрачности суспензии во времени.",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Kinetic data were obtained for the deposition of monomineral powders in the presence of PVC‑MDTC.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "deposition kinetics",
+      "direction": "increases",
+      "factor": "PVC‑MDTC concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Кинетика осаждения мономинеральных порошков халькопирита, галенита и пирита крупностью -0,063+0,044 mm в присутствии ПВК МДТК изучена методом кинетической фотометрии.",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Кинетика осаждения мономинеральных порошков халькопирита, галенита и пирита крупностью -0,063+0,044 mm в присутствии ПВК МДТК изучена методом кинетической фотометрии на спектрофотометре Shimadzu 1800.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-07-23-pdf:9",
+   "document_id": "doc:цм-No-07-23-pdf",
+   "title": "Laboratory flotation tests of monomineral powders",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Monomineral flotation in a laboratory flotation machine",
+       "temperature_text": "not specified (standard laboratory conditions)",
+       "duration_text": "not specified (single flotation run)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:halcopirite-galena-pyrite-powder-0-063-0-044-mm",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:pvc-mdtc-various-concentrations",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flotation activity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Флотационную активность минеральных порошков изучали методом мономинеральной флотации в лабораторной флотомашине с объемом камеры 20 ml на навеске минерала 1 g.",
+     "locator_kind": "md_para",
+     "locator": "para:158",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The presence of PVC‑MDTC influences the flotation activity of the studied sulfide minerals.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "flotation activity",
+      "direction": "increases",
+      "factor": "PVC‑MDTC modification",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Селективное воздействие МДТК на медные и золотоносные сульфидные минералы способно оказывать положительный эффект при флотационном получении Au‑Cu‑концентратов...",
+     "locator_kind": "md_para",
+     "locator": "para:149",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Флотационную активность минеральных порошков изучали методом мономинеральной флотации в лабораторной флотомашине с объемом камеры 20 ml на навеске минерала 1 g.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Журнал основан в 1926 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "foundation_year",
+    "direction": "increases",
+    "factor": "1926",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Журнал основан в 1926 г.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Журнал выпускается при участии: ПАО «ГМК «Норильский никель», ПАО «Ракетно-космическая корпорация «Энергия» имени С. П. Королёва», ФГАОУ ВО «Национальный исследовательский Томский политехнический университет», ФГАОУ ВО «Национальный исследовательский ядерный университет «МИФИ», ФГБУК «Государственный Эрмитаж»",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "participating_organizations",
+    "direction": "increases",
+    "factor": "multiple organizations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Журнал выпускается при участии: ПАО «ГМК «Норильский никель», ПАО «Ракетно-космическая корпорация «Энергия» имени С. П. Королёва», ФГАОУ ВО «Национальный исследовательский Томский политехнический университет», ФГАОУ ВО «Национальный исследовательский ядерный университет «МИФИ», ФГБУК «Государственный Эрмитаж»",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Информационный координатор тематики технологического обеспечения переработки минерального сырья АО «ВНИПИпромтехнологии» (Госкорпорация «Росатом»).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "coordinator",
+    "direction": "increases",
+    "factor": "АО «ВНИПИпромтехнологии»",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Информационный координатор тематики технологического обеспечения переработки минерального сырья АО «ВНИПИпромтехнологии» (Госкорпорация «Росатом»).",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1943 г. превзойден уровень 1940 г. по выпуску важнейших видов цветных металлов: первичного алюминия - на 4 %, никеля - на 29 %, олова - на 68 %, вольфрамовых и молибденовых концентратов - на 84 и 230 % соответственно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "increase_over_1940",
+    "direction": "increases",
+    "factor": "4 %; 29 %; 68 %; 84 %; 230 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1943 г. превзойден уровень 1940 г. по выпуску важнейших видов цветных металлов: первичного алюминия - на 4 %, никеля - на 29 %, олова - на 68 %, вольфрамовых и молибденовых концентратов - на 84 и 230 % соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 1944 г. рост производства такой продукции по сравнению с 1943 г. составил в среднем 34,7 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "growth_over_1943",
+    "direction": "increases",
+    "factor": "34,7 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 1944 г. рост производства такой продукции по сравнению с 1943 г. составил в среднем 34,7 %.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World nickel sulfate plant capacity of 240,0 thousand tonnes per year was commissioned in June 2023.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В июне 2023 г. Halmahera Persada Lygend (Индонезия) ввела в эксплуатацию завод по выпуску сульфата никеля по технологии HPAL мощностью 240,0 тыс. т/год.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "ACG purchased the Santa‑Rita nickel ore mine and the Cerrote copper ore mine for a total deal value of 1,0 млрд долл.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В июне 2023 г. ACG (Великобритания) купила никелевый рудник Santa‑Rita (Бразилия) и медный рудник Cerrote (Бразилия) для производства сульфата никеля и медного концентрата, которые будут поставлять в Европу и Северную Америку. Стоимость сделки 1,0 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World stainless‑steel production in China grew to 13,89 million tonnes (+2,2 %) in Jan‑May 2023 versus the same period a year earlier.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production",
+    "direction": "increases",
+    "factor": "2,2 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по информации Mysteel (КНР), выпуск нержавеющей стали в стране вырос до 13,89 млн т (+2,2 %).",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Global copper consumption in Jan‑Apr 2023 was 8,61 Mt (+3,1 %) and production 8,99 Mt (+8,0 %).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption",
+    "direction": "increases",
+    "factor": "3,1 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по данным International Copper Study Group (Португалия), в январе‑апреле 2023 г. ... мировое потребление меди составило 8,61 млн т (+3,1 %); производство 8,99 млн т (+8,0 %).",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World copper concentrate surplus in 2023 will reach 0,216 Mt and 0,107 Mt in 2024.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Профицит мирового рынка медного концентрата в 2023 г. достигнет 0,216 млн т, в 2024 г. - 0,107 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Glencore will invest 1,5 bn USD to raise Antapaccay mine copper output from 150,0 kt to 250,0 kt per year and extend its life to 2045‑2050.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Glencore (Швейцария) инвестирует 1,5 млрд долл. в увеличение ежегодной производительности рудника Antapaccay (Перу) со 150,0 до 250,0 тыс. т меди и продление эксплуатации до 2045-2050 гг.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World aluminium price is forecast at $2 500‑$2 600 per tonne in 2023, $2 700 in 2024 and $2 900 in 2025.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "по прогнозу Benchmark Mineral Intelligence (Великобритания), в 2023 г. мировая цена на алюминий будет находиться в диапазоне 2500-2600,0 долл/т, в 2024 г. она вырастет до 2700,0 долл/т, в 2025 г. до 2900,0 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World zinc consumption is expected to rise 2,7 % in 2023 versus 2022, with production up 3,4 %; price forecast $3 050/ton in 2023, $2 525/ton in 2024, $2 000/ton in 2025.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "consumption",
+    "direction": "increases",
+    "factor": "2,7 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по оценке Commodity Research Unit (Великобритания), в 2023 г. по сравнению с 2022 г. мировое потребление цинка вырастет на 2,7 %, производство - на 3,4 %; мировая цена на металл в 2023 г. составит 3050,0 долл/т, в 2024 г. - 2525,0 долл/т, в 2025 г. 2000,0 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Russian government plan aims to increase domestic aluminium consumption to 1,5 Mt by 2026.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Документ предусматривает рост потребления металла на внутреннем рынке к 2026 г. до 1,5 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Традиционные реагенты для флотации не в полной мере обеспечивают достаточную степень разделения, высокое извлечение металлов и сопровождаются значительными (до 35-50 %) потерями цветных и благородных металлов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "metal loss",
+    "direction": "increases",
+    "factor": "traditional reagents",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применение традиционных реагентов для флотации не в полной мере обеспечивает достаточную степень разделения, высокое извлечение металлов и сопровождается значительными (до 35-50 %) потерями цветных и благородных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Водорастворимые полимеры, чувствительные к изменению температуры, являются перспективными реагентами для повышения эффективности и селективности процесса флотации.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "thermo‑sensitive water‑soluble polymers",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Среди таких реагентов можно выделить водорастворимые полимеры, чувствительные к изменению температуры.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Поли‑N‑винилкапролактам (ПВК) сохраняет термочувствительные свойства в условиях многокомпонентной флотационной пульпы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "thermal sensitivity",
+    "direction": "increases",
+    "factor": "ПВК",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПВК обладает устойчивостью и сохраняет термочувствительные свойства в условиях многокомпонентной флотационной пульпы.",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Термочувствительные полимеры при нагревании до температуры фазового перехода (32‑33 °C) переходят из жидкого состояния в твердое и повышают гидрофобность молекул.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "polymer state and hydrophobicity",
+    "direction": "increases",
+    "factor": "temperature (32‑33 °C)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При нагревании пульпы до температуры фазового перехода (32-33 o C) происходит изменение структуры реагента с переходом из жидкого состояния в твердое и повышением гидрофобности его молекул.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Термочувствительные флотореагенты ограничены в ассортименте, а их синтез сопряжён с рядом сложностей.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "availability of reagents",
+    "direction": "decreases",
+    "factor": "thermo‑sensitive reagents",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ассортимент термочувствительных флотореагентов ограничен, а синтез на основе N-изопропилакриламида и N-акрилоксисукцинимида сопряжен с рядом сложностей.",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Solid‑phase modification reactions involve at least one solid reactant and differ fundamentally from solution‑phase reactions because of limited ion mobility and kinetic constraints.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reaction nature",
+    "direction": "decreases",
+    "factor": "ion mobility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Твердофазные реакции с участием кристаллических компонентов характеризуются ограниченной подвижностью их атомов или ионов и сложной зависимостью от многих факторов.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Diffusion in solids proceeds mainly via the mobility of ions and electrons caused by a non‑equilibrium lattice state.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "diffusion mechanism",
+    "direction": "increases",
+    "factor": "lattice non‑equilibrium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По Вагнеру диффузия и, следовательно, реакция в твердых телах осуществляется главным образом за счет подвижности ионов и электронов, обусловленной неравновесным состоянием решетки.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Modification of PVC with MDTC reduces lattice stresses and changes the chemical composition of the polymer.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crystal lattice stress",
+    "direction": "decreases",
+    "factor": "MDTC addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, по мнению авторов, происходит существенная перестройка кристаллической упаковки, снижаются напряжения между двумя кристаллическими решетками, изменяется химический состав.",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "MDTC is widely used in analytical chemistry for photometric determination of Cu, Co, Ni and Au due to its complex‑forming ability.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application scope",
+    "direction": "increases",
+    "factor": "complex formation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В аналитической химии соли дитиокарбаминовой кислоты, благодаря их способности к комплексообразованию, используют для количественного определения разных металлов. В частности, МДТК применяют для фотометрического определения Cu, Co, Ni и Au.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": null
+  },
+  {
+   "text": "The selective action of MDTC on copper‑ and gold‑bearing sulfide minerals can improve the production of Au‑Cu concentrates with lower iron sulfide content.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentrate quality",
+    "direction": "increases",
+    "factor": "MDTC selectivity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Селективное воздействие МДТК на медные и золотоносные сульфидные минералы способно оказывать положительный эффект при флотационном получении Au‑Cu‑концентратов с пониженным содержанием сульфидов железа.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-07-23-pdf",
+   "process": "flotation"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -5,14 +5,11 @@
 #    (backend, science-knowledge-graph) can reach it at http://parser-main:8114
 #    while the parser keeps its own internal `parser-net`.
 #
-# 2. Gates the Docling/OCR workers behind a `parsing` compose profile so they
-#    do NOT start by default. metalcrow only reads already-parsed documents
-#    out of SHARED/ (main's /files/raw + /markdown) — it never converts
-#    raw→markdown here — so the workers, and the multi-GB EasyOCR/HuggingFace
-#    model weights they download into SHARED/MODELS, are unnecessary. Default
-#    `up` brings up only `main` (+ `redis`), no model download.
-#    To actually run the parsing pipeline, opt in explicitly:
-#      docker compose ... --profile parsing up -d
+# 2. Gates the Docling/OCR workers behind a `parsing` compose profile.
+#    `make up` / dev-up.sh opt in with `--profile parsing` because ingest upload
+#    enqueues L1 jobs that require these workers. To run API-only (read existing
+#    SHARED markdown without new parsing):
+#      docker compose ... up -d   # without --profile parsing
 #
 # Create the network once:  docker network create metalcrow-net
 #
@@ -36,9 +33,17 @@ services:
 
   raw2docling_raw:
     profiles: ["parsing"]
+    build:
+      context: .
+      args:
+        TORCH_VARIANT: cpu
 
   docling_raw2docling_clean00:
     profiles: ["parsing"]
+    build:
+      context: .
+      args:
+        TORCH_VARIANT: cpu
 
 networks:
   metalcrow-net:

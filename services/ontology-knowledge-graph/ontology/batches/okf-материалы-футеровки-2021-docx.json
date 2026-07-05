@@ -1,0 +1,1167 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:материалы-футеровки-2021-docx",
+   "title": "Материалы футеровки 2021.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Материалы футеровки 2021.docx.md",
+   "artifact_sha256": "2363ee841f8fbfbb7a7179e2eae67f3ba1874ec54d24cca8be6ab4f97986173b",
+   "okf_raw_path": "Обзоры/Материалы футеровки 2021.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:periklasochromite-bricks-phs",
+   "label": "periklasochromite bricks (PHS)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:perikla-chromite-melt-material",
+   "label": "perikla‑chromite melt material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cr2o3",
+   "label": "Cr₂O₃",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:chromite-periclase-powder",
+   "label": "chromite‑periclase powder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cast-iron-powder",
+   "label": "cast‑iron powder",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:liquid-glass",
+   "label": "liquid glass",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:chromite-periclase-concrete",
+   "label": "chromite‑periclase concrete",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:magnesio-chromite-brick-type-60-40",
+   "label": "magnesio‑chromite brick (type 60:40)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag",
+   "label": "slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-matte",
+   "label": "nickel matte",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:материалы-футеровки-2021-docx:0",
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "title": "Durability of traditional converter linings",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Observation of service life of traditional periklasochromite linings in horizontal copper‑nickel converters",
+       "temperature_text": "1400 - 1500°C",
+       "duration_text": "45-50 days for copper converters, 5-15 days for nickel converters"
+      },
+      "temperature": {
+       "min": 1673.15,
+       "nominal": null,
+       "max": 1773.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:periklasochromite-bricks-phs",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "service life of the furnace zone",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 45.0,
+      "nominal": null,
+      "max": 50.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Стойкость футеровки медных конвертеров составляет 45-50 суток, никелевых от 5-15 суток",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "service life of the furnace zone",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 5.0,
+      "nominal": null,
+      "max": 15.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Стойкость футеровки медных конвертеров составляет 45-50 суток, никелевых от 5-15 суток",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Традиционная футеровка конвертеров имеет очень короткий срок службы, особенно в фурменной зоне.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "service life",
+      "direction": "decreases",
+      "factor": "furnace zone",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Стойкость футеровки медных конвертеров составляет 45-50 суток, никелевых от 5-15 суток, что крайне мало",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Авторами [1] был проведен ряд экспериментов, но основании которых были определены основные направления по повышению стойкости футеровки медно-никелевых конвертеров.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:материалы-футеровки-2021-docx:1",
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "title": "Industrial production of furnace blocks",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "manufacture of furnace blocks for the furnace belt lining of copper‑nickel converters using periclase‑chromite melt material with increased Cr₂O₃ content",
+       "temperature_text": "20‑25 % Cr₂O₃ content (by weight)",
+       "duration_text": "industrial batch"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 293.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:perikla-chromite-melt-material",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:cr2o3",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "produced quantity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1000.0,
+      "max": null
+     },
+     "unit": "tonnes",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "выпущена промышленная партия в количестве 1000 тонн на комбинате «Магнезит» (г. Сатка)",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "промышленная партия в количестве 1000 тонн",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "production scale",
+      "direction": "increases",
+      "factor": "industrial scale",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "выпущена промышленная партия в количестве 1000 тонн на комбинате «Магнезит» (г. Сатка)",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "по первому и второму направлениям была разработана технология изготовления фурменных блоков для футоровки фурменного пояса медно-никелевых конвертеров на основе периклазохромитового плавленого материала с повышенным содержанием Cк2О3 до 20-25% и выпущена промышленная партия в количестве 1000 тонн на комбинате «Магнезит» (г. Сатка)",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:материалы-футеровки-2021-docx:2",
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "title": "Pilot test of high‑conductivity refractory mass in 40‑ton converters",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "installation of a specially developed refractory mass (chromite‑periclase powder, cast‑iron powder, liquid glass) in the furnace belt lining of 40‑ton converters",
+       "temperature_text": "120‑150 °C at the converter shell in the furnace zone",
+       "duration_text": "testing and implementation phase"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 393.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chromite-periclase-powder",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:cast-iron-powder",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:liquid-glass",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "thermal conductivity increase",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "масса обладает повышенной теплопроводностью, превышающей в 3‑4 раза теплопроводность магнезиальной засыпки",
+     "locator_kind": "md_para",
+     "locator": "para:85",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "reduction of slag‑penetrated layer thickness",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Увеличение теплопроводности кладки позволило уменьшить толщину пропитки кладки шлако‑штейновым расплавом на 20‑30 мм",
+     "locator_kind": "md_para",
+     "locator": "para:85",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "increase of lining durability",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "разработанная огнеупорная масса успешно прошла испытания и внедрение в кладке 40‑тонных конвертеров Алавердинского горно‑металлургического комбината с увеличением стойкости футеровки 40 %",
+     "locator_kind": "md_para",
+     "locator": "para:85",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "increase of lining durability 40 %",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "durability",
+      "direction": "increases",
+      "factor": "refractory mass",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "с увеличением стойкости футеровки 40 %",
+     "locator_kind": "md_para",
+     "locator": "para:85",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "разработанная огнеупорная масса успешно прошла испытания и внедрение в кладке 40‑тонных конвертеров Алавердинского горно‑металлургического комбината с увеличением стойкости футеровки 40 %",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:материалы-футеровки-2021-docx:3",
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "title": "Industrial application of improved furnace‑belt lining at Kirovograd and Ufaley plants",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "use of a redesigned furnace‑belt lining with longer over‑ and under‑furnace bricks (520 mm) filled with chromite‑periclase concrete",
+       "duration_text": "operational period after installation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chromite-periclase-concrete",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "increase of lining resistance",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "данная конструкция позволила увеличить стойкость футеровки конвертеров на 30‑40 % на Кировоградском медеплавильном и Уфалейском никелевом комбинатах",
+     "locator_kind": "md_para",
+     "locator": "para:80",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "increase of lining resistance 30‑40 %",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "resistance",
+      "direction": "increases",
+      "factor": "new brick length and concrete fill",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "увеличить стойкость футеровки конвертеров на 30‑40 % на Кировоградском медеплавильном и Уфалейском никелевом комбинатах",
+     "locator_kind": "md_para",
+     "locator": "para:80",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "данная конструкция позволила увеличить стойкость футеровки конвертеров на 30‑40 % на Кировоградском медеплавильном и Уфалейском никелевом комбинатах",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:материалы-футеровки-2021-docx:4",
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "title": "Industrial case study of TBRC refractory brick after service",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "visual inspection and sampling of used magnesio‑chromite brick from the top‑blown rotary converter (TBRC) of Stillwater Mining",
+       "temperature_text": "service of 105 heats (no explicit temperature given)",
+       "duration_text": "service life of 105 heating cycles"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 378.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:magnesio-chromite-brick-type-60-40",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "remaining brick thickness",
+     "scope": "material",
+     "material_id": "mat:periklasochromite-bricks-phs",
+     "value": {
+      "min": 170.0,
+      "nominal": null,
+      "max": 180.0
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Остаточная толщина кирпича составляла 170-180 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:124",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "reaction layer thickness on hot face",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 0.0,
+      "nominal": null,
+      "max": 2.0
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На непосредственно рабочей поверхности наблюдался реакционный слой толщиной 0-2 мм, состоящий из оксида Fe‑Ni‑Cr‑(Mg‑Co)…",
+     "locator_kind": "md_para",
+     "locator": "para:126",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "depth of brittle microstructure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "За этим на глубине примерно 15 мм от рабочей поверхности микроструктура полностью разложилась и стала хрупкой.",
+     "locator_kind": "md_para",
+     "locator": "para:127",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "depth of Ca‑Al‑Fe oxide impregnation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В области между 15-25 мм от рабочей поверхности микроструктура кирпича была пропитана оксидом Ca‑Al‑Fe.",
+     "locator_kind": "md_para",
+     "locator": "para:128",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "depth of Cu‑Fe and Ni‑(Fe) sulfide impregnation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 35.0,
+      "max": null
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ниже этого, на глубине примерно 35 мм от рабочей поверхности, микроструктура кирпича была пропитана сульфидом Cu‑Fe и сульфидом Ni‑(Fe).",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The hot face was worn and covered with a thin slag layer, showing cracks parallel to the surface.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "surface condition",
+      "direction": "decreases",
+      "factor": "wear",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Непосредственная рабочая (горячая) поверхность была изношена и покрыта тонким слоем шлака… Можно было наблюдать трещины, идущие параллельно рабочей поверхности кирпича.",
+     "locator_kind": "md_para",
+     "locator": "para:124",
+     "confidence": 0.81
+    },
+    {
+     "text": "Significant enrichment of CaO, Fe2O3, NiO and CuO was found on the hot face.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "chemical composition",
+      "direction": "increases",
+      "factor": "use",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Химический анализ показал значительное обогащение рабочей поверхности огнеупора CaO, Fe 2 O 3 , NiO и CuO.",
+     "locator_kind": "md_para",
+     "locator": "para:125",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Исследование проводилось на использованном огнеупоре (магнезиально‑хромитовый кирпич типа 60:40) из рабочей футеровки вращающегося конвертера с верхним дутьём (Top Blown Rotary Converter - TBRC) компании Stillwater Mining.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:материалы-футеровки-2021-docx:5",
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "title": "Two‑year joint testing program with rotating furnace and TBRC",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "controlled tests of various refractory types (magnesio‑chromite and alumina‑chromium bricks) using supplied slag and nickel matte",
+       "temperature_text": "not specified (operating furnace conditions)",
+       "duration_text": "two years of collaboration"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:nickel-matte",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "amount of slag used per test",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 120.0,
+      "max": null
+     },
+     "unit": "kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "с использованием 120 кг шлака",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "amount of nickel matte used per test",
+     "scope": "material",
+     "material_id": "mat:nickel-matte",
+     "value": {
+      "min": null,
+      "nominal": 215.0,
+      "max": null
+     },
+     "unit": "kg",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и 215 кг никелевого штейна, предоставленного компанией Stillwater.",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The program required a double‑testing approach with a rotating furnace and a TBRC to reproduce wear mechanisms.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "testing methodology",
+      "direction": "increases",
+      "factor": "complexity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Для точного воспроизведения механизмов износа огнеупоров в многоступенчатом производственном процессе потребовалась двойная программа испытаний с использованием вращающейся печи и TBRC.",
+     "locator_kind": "md_para",
+     "locator": "para:140",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В течение двухлетнего сотрудничества между горнодобывающей компанией Stillwater (США) и компанией RHI AG были проведены испытания с различных типов огнеупоров…",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Материалы с высоким содержанием магнезии имеют относительное преимущество для применения в фурменной зоне.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "advantage",
+    "direction": "increases",
+    "factor": "magnesia content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Материалы с высоким содержанием магнезии по-прежнему имеют относительное преимущество для применения в фурменной зоне.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Хромомагнезиальные огнеупоры более высокой чистоты лучше противостоят низкотемпературной коррозии расплавленными силикатами.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "corrosion resistance",
+    "direction": "increases",
+    "factor": "purity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Хромомагнезиальные огнеупоры, особенно материалы более высокой чистоты, как правило, лучше противостоят низкотемпературной коррозии расплавленными силикатами",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Реакция между купритом (Cu2O) в шлаке и хромитом (Cr2O3) в огнеупорном зерне образует твердый хромит меди (CuCrO2), покрывающий огнеупорную поверхность и ограничивающий дальнейшее повреждение.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "protective layer formation",
+    "direction": "increases",
+    "factor": "Cu2O + Cr2O3 interaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "реакция между купритом (Cu2O) в шлаке и хромитом (Cr2O3) в огнеупорном зерне приводит к образованию твердого хромита меди (CuCrO2), который покрывает огнеупорную поверхность и ограничивает дальнейшее повреждение",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Более высокая прочность хромомагнезиального огнеупора является преимуществом, как и более высокие соотношения кальция и кремнезема.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "strength",
+    "direction": "increases",
+    "factor": "Ca/SiO2 ratio",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более высокая прочность хромомагнезиального огнеупора также является преимуществом, как и более высокие соотношения кальция и кремнезема, которые демонстрируют эти составы",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Кирпичи с более высоким содержанием хрома предпочтительнее в вращающихся конвертерах с верхним дутьем (TBRC) из‑за более низкой пористости и снижения уровня просачивания.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "permeability",
+    "direction": "decreases",
+    "factor": "chromium content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по тем же причинам кирпичи с более высоким содержанием хрома также предпочтительнее в вращающихся конвертерах с верхним дутьем (TBRC). Более низкая пористость, проявляемая этими типами кирпича, способствует снижению уровня просачивания",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Низкая пористость приводит к более низкой стойкости к термическому удару, но это не вызывает большой озабоченности вдали от фурменной зоны.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "thermal shock resistance",
+    "direction": "decreases",
+    "factor": "porosity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более низкая стойкость к термическому удару, связанная с более низким уровнем пористости, не вызывает большой озабоченности вдали от фурменной зоны",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Отсутствие фаялитового шлака и высокая степень основности в анодных печах делают привлекательным применение высокоосновных огнеупоров.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "increases",
+    "factor": "absence of fayalite slag and high basicity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отсутствие фаялитового шлака в печах огневого рафинирования и высокая степень основности делают привлекательным применение высокоосновных огнеупоров",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Для фурменной зоны рекомендуется использовать плавленые кирпичи с пористостью до 11,5-12,5 об.% и лучшей стойкостью к контакту с оксидом меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "porosity",
+    "direction": "decreases",
+    "factor": "specified range",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Этот огнеупорный материал изготавливается с пористостью до 11,5-12,5 об.% и лучше выдерживает контакт с оксидом меди",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Для обеднительной печи предпочтительны прямосвязанные хромомагнезитовые огнеупоры из‑за необходимости хорошей стойкости к шлаку и просачиванию.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "slag resistance",
+    "direction": "increases",
+    "factor": "directly bonded chromomagnesite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Предпочтительны материалы - прямосвязанные хромомагнезитовые огнеупоры",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Тепловой перепад при продувке конвертера может составлять 20‑1200°C, что способствует эрозивному износу.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "blower operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "термические удары на границе воздух-огнеупор – шлако-штейновый расплав при продувке конвертера во время службы (перепад составляет 20-1200°С)",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Температуры в районе дутья достигают 1400‑1500°C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "air blast zone",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "высокие температуры в районе дутья (1400 - 1500°С)",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "при футеровке фурменного пояса данными блоками количество швов сокращается в 4 раза",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "number of seams",
+    "direction": "decreases",
+    "factor": "furnace blocks",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при футеровке фурменного пояса данными блоками количество швов сокращается в 4 раза",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.81,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Открытая пористость - 14‑16 %",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Открытая пористость - 14‑16 %",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.81,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Предел прочности при сжатии – 35 МПа",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Предел прочности при сжатии – 35 МПа",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Кажущаяся плотность – 3,09 г/см³",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Кажущаяся плотность – 3,09 г/см 3",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Температура начала деформации под нагрузкой 0,2 МПа - 1600 °C",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Температура начала деформации под нагрузкой 0,2МПа - 1600°С",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Термостойкость (1300 °C – вода) – 5‑6 теплосмен",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Термостойкость (1300°С – вода) – 5-6 теплосмен",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Масса – 43 кг",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Масса – 43 кг",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "скалывание происходит вследствие различных температурных коэффициентов линейного расширения (ТКЛР) исходных огнеупоров и части огнеупора, пропитанной шлако‑штейновым расплавом",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Скалывание происходит вследствие различных температурных коэффициентов линейного расширения (ТКЛР) исходных огнеупоров и части огнеупора, пропитанной шлако‑штейновым расплавом",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "толщина слоя, пропитанного шлако‑штейновым расплавом, составляет примерно от 80 до 150 мм",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Толщина данного слоя составляет примерно от 80 до 150 мм",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "малая градиент температур в рабочем окате кладки приводит к глубокому проникновению шлако‑штейнового раствора в огнеупор (80‑150 мм)",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Малый градиент температур в рабочем окате кладки приводит к глубокому проникновению шлако‑штейнового раствора в огнеупор (80-150 мм)",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "разработанная огнеупорная масса целесообразно использовать в аналогичных конвертерах Уфалейского никелевого завода, Кировоградского медеплавильного комбината, Красноуральского медеплавильного комбината",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Данную массу целесообразно использовать в аналогичных конвертерах Уфалейского никелевого завода, Кировоградского медеплавильного комбината, Красноуральского медеплавильного комбината",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Effective use of high‑speed natural‑gas burners has a beneficial effect on converter refractory life.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "refractory service life",
+    "direction": "increases",
+    "factor": "burner technology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эффективное использование высокоскоростных горелок на природном газе оказывает благотворное влияние на срок службы огнеупора конвертера.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.81,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Secondary burners are required on the furnace face to maintain a uniform temperature on the refractory surface.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "secondary burners",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для поддержания равномерной температуры на рабочей поверхности огнеупора на фурменной линии должны быть вторичные горелки.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Keeping the furnace lining at a constant temperature prevents brick shrinkage during tapping, especially opposite the tap hole.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "brick shrinkage",
+    "direction": "decreases",
+    "factor": "constant temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Считается, что усилия по поддержанию футеровки фурменной линии при постоянной температуре предотвратят усадку кирпича во время выпуска, особенно напротив загрузочного отверстия.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Modern converter burner systems are designed to be easily removed during blow‑down cycles and re‑installed between cycles, reducing slag deposits especially in Hoboken converters.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "slag deposits",
+    "direction": "decreases",
+    "factor": "burner design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Современные системы горелок для использования в конвертерах спроектированы таким образом, чтобы их можно было легко убирать во время циклов продувки и повторно водить между циклами. Эти горелки, несомненно, уменьшат объем наростов (настылей), особенно в конвертерах Hoboken.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  },
+  {
+   "text": "Use of secondary burners helps preserve the working temperature of furnace brick between product tapping cycles, reducing seam opening and steel penetration, and eliminating brick lining deformation on end plates.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "brick deformation and seam opening",
+    "direction": "decreases",
+    "factor": "temperature stability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наиболее полезным последствием применения вторичных горелок является сохранение рабочей температуры кирпича фурменной линии в промежутках между циклами выпуска продуктов. В результате отсутствие циклического изменения температуры уменьшает раскрытие швов и проникновение штейна в стыки, и устраняет деформацию кирпичной футеровки фурменной зоны на торцевых пластинах конвертера.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:материалы-футеровки-2021-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,685 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:смеш_гидроксиды-pdf",
+   "title": "Смеш_гидроксиды.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Смеш_гидроксиды.pdf.md",
+   "artifact_sha256": "2f8972289ccc1c92e04042001f16aca2db7792d0adfa52df96c69833ec7fa3a8",
+   "okf_raw_path": "Обзоры/Смеш_гидроксиды.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:mixed-ni-co-hydroxide",
+   "label": "mixed Ni/Co hydroxide",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:philippine-laterite-ore",
+   "label": "Philippine laterite ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:смеш_гидроксиды-pdf:0",
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "title": "Ravensthorpe mixed hydroxide production (industrial)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "production of mixed Ni/Co hydroxide at the Ravensthorpe project"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mixed-ni-co-hydroxide",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ore mined",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 13.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "по приблизительным оценкам за период с декабря 2006 г . по январь 2009 г . (26 месяцев ) было добыто около 13 млн т руды",
+     "locator_kind": "md_para",
+     "locator": "para:29",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "mixed hydroxide produced",
+     "scope": "material",
+     "material_id": "mat:mixed-ni-co-hydroxide",
+     "value": {
+      "min": null,
+      "nominal": 82.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "из которых 8,6 млн т складировано и выпущено порядка 82 тыс т смешанного гидроксида",
+     "locator_kind": "md_para",
+     "locator": "para:29",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "nickel contained in produced hydroxide",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "содержащего примерно 20 тыс т никеля",
+     "locator_kind": "md_para",
+     "locator": "para:29",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "First Quantum successfully restarted the Ravensthorpe plant in late 2011 after 18 months of modification.",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Компания First Quantum затратила 18 месяцев на модификацию Ravensthorpe и успешно « перезапустила » предприятие в конце 2011 г .",
+     "locator_kind": "md_para",
+     "locator": "para:31",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В октябре 2007 г . произведена первая партия смешанного гидроксида .",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:смеш_гидроксиды-pdf:1",
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "title": "Pilot plant processing of Philippine ore (Stage I)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "DNi hydrometallurgical leaching using nitric acid with reagent recycling",
+       "temperature_text": "moderate temperatures (atmospheric pressure)",
+       "duration_text": "November 2012 (single batch)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:philippine-laterite-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The pilot test demonstrated that the DNi process can produce a mixed Ni/Co hydroxide‑type intermediate from laterite ore with magnesium oxide as a by‑product.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process feasibility",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На пилотном заводе в Перте в ноябре 2012 г . в рамках Этапа I испы -таний была переработана партия филиппинской руды и получением про -межуточного продукта , содержащего никель , кобальт и оксид железа , а также оксида магния в качестве побочного продукта .",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На пилотном заводе в Перте в ноябре 2012 г . в рамках Этапа I испы -таний была переработана партия филиппинской руды и получением про -межуточного продукта , содержащего никель , кобальт и оксид железа , а также оксида магния в качестве побочного продукта .",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "При объеме переработки руды в 3,75 млн т / год (влажн) средней влажности 35% мощность завода составляла около 31 тыс т / г Ni и 2 тыс т / г Co.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "При объеме переработки руды в 3,75 млн т / год (влажн ) средней влажности 35% мощность завода составляла около 31 тыс т / г Ni и 2 тыс т / г Co.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2004‑2007 гг. было проведено расширение мощностей завода с учетом поступления на переработку смешанного гидроксида Ravensthorpe, содержащего по проекту примерно 45 тыс т / г Ni и 1,5 тыс т / г Co.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В 2004-2007 гг . было проведено расширение мощностей завода с учетом поступления на переработку смешанного гидроксида Ravensthorpe, содержащего по проекту примерно 45 тыс т / г Ni и 1,5 тыс т / г Co.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "После реконструкции завод Yabulu был призван выполнять три основные функции: переработку 3,75 млн т / г импортной латеритовой руды, переработку 0,19 млн т / г смешанных гидроксидов Ravensthorpe, рафинирование никеля и кобальта.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "рационализированный завод Yabulu после реконструкции был призван выполнять 3 основные функции : переработку 3,75 млн т / г импортной латеритовой руды , переработку 0,19 млн т / г смешанных гидроксидов Ravensthorpe, рафинирование никеля и кобальта .",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Проектные показатели выпуска продукции скорректированы до 39 тыс т / г никеля в промпродукте в 1‑5 годы эксплуатации и в среднем около 28 тыс т / г в дальнейшем.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "First Quantum скорректировала в сторону понижения проектные показатели выпуска продукции : 39 тыс т / г никеля в промпродукте в 1-5 годы эксплуатации и в среднем около 28 тыс т / г",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Пром -продуктом , как и ранее , является смешанный гидроксид , содержащий 2224% Ni и около 1% Co.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "composition",
+    "direction": "nonmonotonic",
+    "factor": "Ni, Co",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пром -продуктом , как и ранее , является смешанный гидроксид , содержащий 2224% Ni и около 1% Co.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Это сухой на ощупь сыпучий материал , который отгружают в мешки ( биг -бэги или мягкие контейнеры ) или в контейнеры для насыпных грузов (bulk-fill container) в зависимости от пункта назначения .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "physical state",
+    "direction": "nonmonotonic",
+    "factor": "packaging",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это сухой на ощупь сыпучий материал , который отгружают в мешки ( биг -бэги или мягкие контейнеры ) или в контейнеры для насыпных грузов (bulk-fill container) в зависимости от пункта назначения .",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2011/12 финансовом году ( по 30.06.2012) выпуск никеля Queensland Nickel достиг 39,5 тыс т ( предыдущий рекорд 33,8 тыс т в 2009 фин . г .), а кобальта - 2753 т ( предыдущий рекорд 2412 т в 2011 фин . г . и 2140 т в 2010 фин . г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "nonmonotonic",
+    "factor": "nickel, cobalt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2011/12 финансовом году ( по 30.06.2012) выпуск никеля Queensland Nickel достиг 39,5 тыс т ( предыдущий рекорд 33,8 тыс т в 2009 фин . г .), а кобальта - 2753 т ( предыдущий рекорд 2412 т в 2011 фин . г . и 2140 т в 2010 фин . г .).",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Рост выпуска кобальта объясняется тем , что удалось организовать поступ -ление на переработку руды с более высоким содержанием кобальта .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cobalt output",
+    "direction": "increases",
+    "factor": "ore cobalt content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рост выпуска кобальта объясняется тем , что удалось организовать поступ -ление на переработку руды с более высоким содержанием кобальта .",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "По проекту предполагалось производить смешанный сульфид , но производство смешанного гидроксида , по мнению компании , имеет преимущества , т . к . это , во -первых , хорошо известный процесс и , во вторых , более безопасный ( не включает сероводород , кото -рый предполагалось ранее использовать для получения смешанного суль -фида ).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "process safety",
+    "direction": "increases",
+    "factor": "hydroxide vs sulfide",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По проекту предполагалось производить смешанный сульфид , но производство смешанного гидроксида , по мнению компании , имеет преимущества , т . к . это , во -первых , хорошо известный процесс и , во вторых , более безопасный ( не включает сероводород , кото -рый предполагалось ранее использовать для получения смешанного суль -фида ).",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Vale ещё в ноябре 2010 г . сообщала о планах начала поставок с декабря 2010 г . промпродукта с Goro на Queensland Nickel, но при этом подчеркивала , что это временная мера и компания не собирается в будущем продавать промпродукт , затратив бо -лее 4 млрд USD на реализацию проекта .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "future sales intention",
+    "direction": "decreases",
+    "factor": "temporary measure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Vale ещё в ноябре 2010 г . сообщала о планах начала поставок с декабря 2010 г . промпродукта с Goro на Queensland Nickel, но при этом подчеркивала , что это временная мера и компания не собирается в будущем продавать промпродукт , затратив бо -лее 4 млрд USD на реализацию проекта .",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "В пусковой период , за несколько месяцев 2012 г . ( по октябрь включительно ) было произведено 9465 т смешанного гидроксида , содержащего около 3536 т никеля и 332 т кобальта .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output quantity",
+    "direction": "increases",
+    "factor": "mixed hydroxide",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В пусковой период , за несколько месяцев 2012 г . ( по октябрь включительно ) было произведено 9465 т смешанного гидроксида , содержащего около 3536 т никеля и 332 т кобальта .",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "В ноябре 2012 г . небольшая партия в 576 т ( в пересчете на сух . вес ) гидроксида , содержащего около 217 т Ni и 19 т Co, была отгружена китайскому покупателю .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "export quantity",
+    "direction": "increases",
+    "factor": "mixed hydroxide",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В ноябре 2012 г . небольшая партия в 576 т ( в пересчете на сух . вес ) гидроксида , содержащего около 217 т Ni и 19 т Co, была отгружена китайскому покупателю .",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Выход на проектную мощность (31 150 т / г Ni и 3300 т / г Co в смешанном гидроксиде ) запланирован на середину 2013 г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "projected capacity",
+    "direction": "increases",
+    "factor": "mixed hydroxide",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выход на проектную мощность (31 150 т / г Ni и 3300 т / г Co в смешанном гидроксиде ) запланирован на середину 2013 г .",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "В проекте Ramu 85% принадлежит синдикату китайских компаний под эгидой Metallurgical Group Corporation (MCC), ответственной за организацию 100% финансирования проекта и являющейся менеджером и оператором проекта .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "shareholding",
+    "direction": "nonmonotonic",
+    "factor": "MCC",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В проекте Ramu 85% принадлежит синдикату китайских компаний под эгидой Metallurgical Group Corporation (MCC), ответственной за организацию 100% финансирования проекта и являющейся менеджером и оператором проекта .",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Alternative processes such as autoclave acid leaching become uneconomic when the magnesium content in the ore reaches about 3 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "economic viability",
+    "direction": "decreases",
+    "factor": "Mg content ≈ 3 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "альтернативные процессы , такие как например автоклавное кислотное выщела -чивание , становятся неэкономичными в случаях , когда содержание магния в руде достигает примерно 3%",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "The DNi process has no upper limit for magnesium content in the ore.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "magnesium tolerance",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "у процесса DNi нет верхнего предела по магнию",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Acid recycle in the DNi process exceeds 95 %, which substantially reduces costs.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "acid recycle rate",
+    "direction": "increases",
+    "factor": ">95 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Уникальной особенностью процесса является высокая степень по -вторного использования кислоты ( более 95%)",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Nitric acid consumption is about 30 kg per tonne of feedstock, compared with more than 300 kg/t for sulfuric acid.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "acid consumption",
+    "direction": "decreases",
+    "factor": "30 kg/t vs 300+ kg/t",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Расход азотной кислоты составляет порядка 30 кг / т сырья по сравнению с 300+ кг / т для серной кислоты",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Operating and capital costs of the DNi process are roughly half of those of existing processes.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "≈ 50 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "операционные и капитальные затраты со -ставляют примерно половину от действующих процессов",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.45,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "The DNi technology can produce a mixed hydroxide product containing 40‑45 % Ni and 2‑4 % Co.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product composition",
+    "direction": "increases",
+    "factor": "Ni 40‑45 %, Co 2‑4 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "показана прин -ципиальная возможность получения смешанного гидроксида с 40-45% Ni и 2-4% Co",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "The mixed hydroxide product was tested by a refining company and judged a satisfactory raw material, with an assumed nickel price of about 75 % of the LME price.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product acceptance and price",
+    "direction": "increases",
+    "factor": "≈75 % of LME nickel price",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "полученный смешанный гидроксид был опробован рафиниро -вочной компанией и признан удовлетворительным товарным сырьевым продуктом с предполагаемым уровнем оплаты никеля -около 75% цены никеля на ЛБМ",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "The joint venture plans an initial production capacity of 20 000 t/yr of Ni, expanding to 60 000 t/yr from the fifth year of operation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "20 000 t → 60 000 t per year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в соответствии с со -глашением об СП по проекту Mambare предполагается производить снача -ла 20 тыс т / г Ni с последующим расширением ( с 5го года эксплуатации ) до 60 тыс т / г",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "The DNi technology has not yet been commercialized, but a pilot plant in Perth processed a 200‑t batch of ore in November 2012.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Технология DNi пока не внедрена , но показана прин -ципиальная возможность получения смешанного гидроксида с 40-45% Ni и 2-4% Co. Полученный смешанный гидроксид был опробован...",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.81,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Капитальные затраты оценены в 940 млн USD (ноябрь 2011 г.), операционные – 2,60 USD/фунт Ni после учета побочной продукции (кобальта и избыточной электроэнергии), период окупаемости – 5,5 лет.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost, operating cost, payback period",
+    "direction": "increases",
+    "factor": "cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Капитальные затраты оценены в 940 млн USD ( ноябрь 2011 г .), опе -рационные -в 2,60 USD/ фунт Ni после учета побочной продукции ( ко -бальта и избыточной электроэнергии ), период окупаемости - 5,5 лет .",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "По данным Ausenco можно надеяться на оплату 75-80% (возможно, ниже) содержания никеля и 40-45% содержания кобальта в гидроксиде при продаже на условиях СИФ, порт доставки покупателя.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel and cobalt payable percentages",
+    "direction": "increases",
+    "factor": "payable content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным Ausenco можно надеяться на оплату 75-80% ( возможно , ниже ) содержания никеля и 40-45% содержания кобальта в гидроксиде при продаже на условиях СИФ , порт доставки покупателя .",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Смешанный гидроксид Agata содержит много марганца, что представляет проблему для некоторых рафинировочных заводов – требуются мощности по аммиачному выщелачиванию типа процесса Шерритт.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "processing difficulty",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Смешанный гидроксид Agata содержит много марганца , что пред -ставляет проблему для некоторых рафинировочных заводов -требуются мощности по аммиачному выщелачиванию типа процесса Шерритт .",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Свободный рынок смешанных Ni/Co гидроксидов пока ещё не сформировался.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "market maturity",
+    "direction": "decreases",
+    "factor": "market development",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Свободный рынок смешанных Ni/Co гидроксидов пока ещё не сформировался .",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "При приблизительной оценке стоимости смешанного гидроксида принято брать 75-78% оплачиваемого никеля и 40-45% оплачиваемого кобальта.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "payable nickel and cobalt percentages used for pricing",
+    "direction": "increases",
+    "factor": "price basis",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При приблизительной оценке стоимости смешанного гидроксида принято брать 75-78% оплачиваемого никеля и 4045% оплачиваемого кобальта .",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  },
+  {
+   "text": "Единственный рафинировочный завод Yabulu (Австралия) в настоящее время имеет цепочку переработки смешанного гидроксида, не загруженную сырьем, за исключением временных поставок с Goro.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "utilization of processing plant",
+    "direction": "decreases",
+    "factor": "feedstock availability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Единственный рафинировочный завод Yabulu ( Австра -лия ) в настоящее время имеет цепочку переработки смешанного гидроксида ( в свое время построенную под выпуск Ravensthorpe), не загруженную сырьем , за исключением времен -ных поставок с Goro.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9,
+   "document_id": "doc:смеш_гидроксиды-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

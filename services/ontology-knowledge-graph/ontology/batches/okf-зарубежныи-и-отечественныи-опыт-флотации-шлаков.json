@@ -1,0 +1,1731 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Зарубежный и отечественный опыт флотации шлаков медеплавильного производства.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Зарубежный и отечественный опыт флотации шлаков медеплавильного производства.docx.md",
+   "artifact_sha256": "940b0adc0ca7788522216e47ce9e1356aaf1378fafed63b5d6102641aa3267f1",
+   "okf_raw_path": "Обзоры/Зарубежный и отечественный опыт флотации шлаков медеплавильного производства.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:шлак",
+   "label": "шлак",
+   "family": "slag",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dsp-330-collector",
+   "label": "DSP 330 collector",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sibx-isobutyl-xanthate-of-sodium",
+   "label": "SIBX (isobutyl xanthate of sodium)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:various-collectors-e-g-isopropyl-xanthate-na-uz",
+   "label": "various collectors (e.g., isopropyl xanthate Na, UZ 200, etc.)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:various-foaming-agents-e-g-pine-oil-mf550",
+   "label": "various foaming agents (e.g., pine oil, MF550)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore-particles-75-74-μm",
+   "label": "Ore particles 75% -74 µm",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-sulfide",
+   "label": "Sodium sulfide",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:raw-ore-for-flotation",
+   "label": "Raw ore for flotation",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag-samples-tsl-converter-reflector",
+   "label": "Slag samples (TSL, converter, reflector)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dehydrated-slag",
+   "label": "Dehydrated slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:collector-potassium-amyl-xanthate",
+   "label": "Collector (potassium amyl xanthate)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:secondary-collector-sodium-di-alkyl-dithiophosph",
+   "label": "Secondary collector (sodium di‑alkyl dithiophosphate)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:CuO",
+   "label": "CuO",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:elemental-sulfur",
+   "label": "Elemental sulfur",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:butylxanthogenate",
+   "label": "Butylxanthogenate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pine-camphor-oil",
+   "label": "Pine camphor oil",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:зарубежныи-и-отечественныи-опыт-флотации-шлаков:0",
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Отстаивание шлака на заводе Tamano",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "взвешенная плавка",
+       "duration_text": "4-5 часов"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:шлак",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "размер оседающих частиц",
+     "scope": "material",
+     "material_id": "mat:шлак",
+     "value": {
+      "min": 0.13,
+      "nominal": null,
+      "max": 0.15
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В этих временных рамках оседают частицы размером более 0,13-0,15 мм, продление периода отстаивания слабо влияет на оседание более мелких частиц.",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Продление периода отстаивания слабо влияет на оседание более мелких частиц.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "оседание мелких частиц",
+      "direction": "no_change",
+      "factor": "продление периода отстаивания",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "продление периода отстаивания слабо влияет на оседание более мелких частиц.",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для условий взвешенной плавки на заводе Tamano (см.выше рис.2) среднее время отстаивания шлака составляет 4-5 часов. В этих временных рамках оседают частицы размером более 0,13-0,15 мм, продление периода отстаивания слабо влияет на оседание более мелких частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежныи-и-отечественныи-опыт-флотации-шлаков:1",
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Laboratory research on collector DSP 330 with SIBX",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation of slow‑cooled copper slag",
+       "temperature_text": "natural pH 7",
+       "duration_text": "grinding time 18.5 minutes – to P80 70 µm"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 280.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dsp-330-collector",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:sibx-isobutyl-xanthate-of-sodium",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 92.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "В начальных лабораторных исследованиях – на 3%, в последующих опытах и промышленных испытаниях - на 3,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:128",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Best laboratory flotation results – copper extraction 92,4% were obtained with 50:50 DSP 330:SIBX at natural pH 7, grinding time 18.5 min – to P80 70 µm.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "DSP 330 + SIBX",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В наилучшие лабораторные результаты по флотации – извлечение меди 92,4% были получены при добавлении 50:50 DSP 330:SIBX и естественном рН 7, при времени помола 18,5 минут – до Р 80 -70 мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:128",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "На основе исследований в лабораторном масштабе и промышленных испытаний Orica подтвердила, что собиратель DSP 330 в сочетании с изобутилксантогенатом натрия (SIBX) способствует повышению извлечения: в начальных лабораторных исследованиях – на 3%, в последующих опытах и промышленных испытаниях - на 3,5%.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежныи-и-отечественныи-опыт-флотации-шлаков:2",
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Industrial plant trials at Mt Isa (Glencore) using DSP 330",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation of slow‑cooled copper slag from Isasmelt concentrates",
+       "temperature_text": "natural pH 7",
+       "duration_text": "continuous plant operation (no specific time given)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 280.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dsp-330-collector",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:sibx-isobutyl-xanthate-of-sodium",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.5,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "в последующих опытах и промышленных испытаниях - на 3,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:128",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "DSP 330 was selected as the special collector for slag processing in the plant.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "collector selection",
+      "direction": "increases",
+      "factor": "DSP 330",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В результате, DSP 330 был выбран в качестве специального собирателя для переработки шлака.",
+     "locator_kind": "md_para",
+     "locator": "para:128",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На основе исследований в лабораторном масштабе и промышленных испытаний Orica подтвердила, что собиратель DSP 330 в сочетании с изобутилксантогенатом натрия (SIBX) способствует повышению извлечения: ... в последующих опытах и промышленных испытаниях - на 3,5%.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежныи-и-отечественныи-опыт-флотации-шлаков:3",
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Industrial flotation of converter copper slags at three plants (Saganoseki, Toyo, Pasar)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation of converter copper slag after slow cooling, crushing and grinding",
+       "temperature_text": "pH 7‑8 (Saganoseki, Toyo) or 8,5‑9,5 (Pasar)",
+       "duration_text": "30 min (main + control flotation) at Saganoseki"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 280.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:various-collectors-e-g-isopropyl-xanthate-na-uz",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:various-foaming-agents-e-g-pine-oil-mf550",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 95.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Извлечение Cu, % 95",
+     "locator_kind": "md_para",
+     "locator": "para:131",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 95.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Извлечение Cu, % 95",
+     "locator_kind": "md_para",
+     "locator": "para:131",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 97.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Извлечение Cu, % 97-98",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.41
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Copper extraction at the three plants ranged from 95 % to 98 % with copper in concentrates 21.8‑33 % Cu.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "plant operation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Извлечение Cu, % 95 … 97-98",
+     "locator_kind": "md_para",
+     "locator": "para:121",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Таблица 2 - Показатели флотации конвертерных медных шлаков трех предприятий … Извлечение Cu, % 95 … 97-98",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежныи-и-отечественныи-опыт-флотации-шлаков:4",
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Particle size effect on copper extraction",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Laboratory grinding and flotation of copper ore",
+       "duration_text": "14 min"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-particles-75-74-μm",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:ore-particles-75-74-μm",
+     "value": {
+      "min": null,
+      "nominal": 88.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Для материала 75% -74 мкм извлечение меди составило 88% (в конечных хвостах 0,47% меди)",
+     "locator_kind": "md_para",
+     "locator": "para:156",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "При измельчении до 85% -74 мкм за теже 14 минут извлечение меди достигло 90,6%",
+     "locator_kind": "md_para",
+     "locator": "para:156",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Concentrate grade",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 15.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "получен концентрат сортностью 15,3%",
+     "locator_kind": "md_para",
+     "locator": "para:156",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Finer grinding beyond 85% -74 µm does not improve copper extraction",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Увеличение тонкости помола до 93% -74 мкм заметным образом не влияло на извлечение",
+     "locator_kind": "md_para",
+     "locator": "para:156",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Опыты выполняли с частицами размером 75%, 85% и 93% -75 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежныи-и-отечественныи-опыт-флотации-шлаков:5",
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Sodium sulfide additive test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Laboratory flotation with sodium sulfide addition"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sodium-sulfide",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Sodium sulfide additive was omitted",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "от него решили отказаться",
+     "locator_kind": "md_para",
+     "locator": "para:157",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Добавки сульфида натрия к пульпе (до добавления собирателя и пенообразователя) составляли 100-300 г/т.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежныи-и-отечественныи-опыт-флотации-шлаков:6",
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Optimised flotation test (clean and re‑clean)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Laboratory flotation sequence (primary, cleaning, re‑cleaning) in optimal conditions"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:raw-ore-for-flotation",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Primary concentrate grade",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 19.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Конц-т осн.флотации 17,71 | 19",
+     "locator_kind": "md_para",
+     "locator": "para:160",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Primary copper extraction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 91.1,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Конц-т осн.флотации 17,71 | 10194 | 91,1",
+     "locator_kind": "md_para",
+     "locator": "para:160",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Cleaning concentrate grade",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 27.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Конц-т очистки 11,83 | 27,4",
+     "locator_kind": "md_para",
+     "locator": "para:160",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Cleaning copper extraction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 96.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Конц-т очистки 11,83 | 9820,2 | 96,3",
+     "locator_kind": "md_para",
+     "locator": "para:156",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Re‑cleaning concentrate grade after 5 min",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 13.69,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Конц-т перечистки (5 мин) | 0,32 | 13,69",
+     "locator_kind": "md_para",
+     "locator": "para:160",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Re‑cleaning copper extraction after 5 min",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Конц-т перечистки (5 мин) | 0,32 | 13,69 | 132,8 | 1,4",
+     "locator_kind": "md_para",
+     "locator": "para:160",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Primary concentrate grade 19 % with 91,1 % extraction; cleaning concentrate 27,4 % with 96,3 % extraction; after re‑cleaning grade increased to ~32 % with 93 % extraction",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Таким образом, получен концентрат основной флотации сортностью 19% при извлечении меди 91,1%, концентрат очистной флотации сортностью 27,4% при извлечении 96,3% и после перечистки сортность повысилась до 32% при извлечении 93%.",
+     "locator_kind": "md_para",
+     "locator": "para:161",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "**Наконец, после выбора оптимальных параметров был поставлен опыт, включающий очистную и перечистную флотацию.**",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежныи-и-отечественныи-опыт-флотации-шлаков:7",
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Grinding time test for slag material (Namibia Custom Smelter)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Batch grinding in ball mill followed by sieve analysis",
+       "duration_text": "30, 60, 90, 120, 150 and 180 min"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-samples-tsl-converter-reflector",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 45.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "distribution after 2 h grinding"
+     },
+     "method": null,
+     "snippet": "длительность измельчения в 2 часа достаточна для того, чтобы 75% частиц были менее 45 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Two‑hour grinding is sufficient to achieve the target size for flotation feed",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "длительность измельчения в 2 часа достаточна для того, чтобы 75% частиц были менее 45 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Пробы шлаков … измельчение вели в течение 30, 60, 90, 120, 150 и180 мин.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежныи-и-отечественныи-опыт-флотации-шлаков:8",
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Flotation test of slag at Namibia Custom Smelter",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Batch flotation in W.Fagergren LA500 cell",
+       "duration_text": "Flotation 15 min (3 min residence, 1380 rpm, air 2‑3 l/min)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dehydrated-slag",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:collector-potassium-amyl-xanthate",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:secondary-collector-sodium-di-alkyl-dithiophosph",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Для опытов по флотации использовали флотационную камеру W.Fagergren'a компании WEMCO (модель LA500). … Время выдержки – 3 мин. Пульпу перемешивали (1380 оборотов в минуту), барботировали воздух (2-3 л/мин). Флотация длилась 15 мин.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежныи-и-отечественныи-опыт-флотации-шлаков:9",
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "title": "Laboratory grinding and flotation of CuO with elemental sulfur",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "CuO and elemental sulfur were mixed in a mass ratio of 20:1, placed in a planetary ball mill (QM‑3SP4, 500 cm³) with seven 17 mm stainless‑steel balls, and ground for 20 min at 500 rpm in ambient atmosphere; the 5.25 g sample was then floated in a laboratory XFGC2 5‑35 g cell at room temperature with a pulp density of 10.5 % deionised water, adding collector (0.2 g/L) for 5 min, frother (0.05 g/L) for 2 min, and manually skimming foam every 10 s for 3 min.",
+       "temperature_text": "room temperature",
+       "duration_text": "20 min grinding, 5 min collector conditioning, 2 min frother conditioning, 3 min flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:CuO",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:elemental-sulfur",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:butylxanthogenate",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:pine-camphor-oil",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "material",
+     "material_id": "mat:CuO",
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "X‑ray diffraction pattern"
+     },
+     "method": null,
+     "snippet": "При измельчении CuO+S в течение 20 мин и 500 об/мин, по данным дифрактометрии, все пики измельченной смеси были такими же, как и у исходного материала, за исключением их высоты.",
+     "locator_kind": "md_para",
+     "locator": "para:210",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "particle_size",
+     "scope": "material",
+     "material_id": "mat:CuO",
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "µm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Фотографии, полученные на сканирующем электронном микроскопе, после измельчения CuO без серы и с серой показывают, что в этих двух образцах частицы имеют размер в среднем около 5‑10 мкм и их поверхность гладкая.",
+     "locator_kind": "md_para",
+     "locator": "para:210",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Mild grinding does not cause sulfide formation and preserves particle morphology, providing samples that are “morphologically viable” for flotation without additional dispersion treatment.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Это означает, что такое мягкое измельчение не вызывает образование сульфидов... Полученные образцы “морфологически жизнеспособны” для флотации без необходимости в какой-либо специальной “диспергирующей” обработке.",
+     "locator_kind": "md_para",
+     "locator": "para:196",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Все химические реагенты (CuO, PbO, ZnO, S) – чистотой “для аналитических целей”. При флотации использовали обычные реагенты: бутилксантогенат – собиратель, сосновое камфорное масло – пенообразователь.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "В медной отрасли ежегодно образуется около 46 млн т шлаков или 2,2-3,0 т шлака на каждую тонну металла.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual slag generation",
+    "direction": "increases",
+    "factor": "copper industry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В медной отрасли ежегодно образуется около 46 млн т шлаков или 2,2-3,0 т шлака на каждую тонну металла.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "В промышленной практике широко применяют только два способа переработки шлаков: восстановительно-сульфидирующее обеднение в электропечах и флотацию.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recycling methods",
+    "direction": "increases",
+    "factor": "slag processing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако в промышленной практике широко применяют только два способа переработки шлаков: восстановительно-сульфидирующее обеднение в электропечах и флотацию.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "При флотационной переработке шлаков основным принципом подготовки, по мнению большинства специалистов, является медленное охлаждение, особенно в температурном интервале, в котором происходит переход из жидкого состояния в твердое, способствующем укрупнению частиц сульфидов – в несколько раз.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cooling method",
+    "direction": "increases",
+    "factor": "particle size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При флотационной переработке шлаков основным принципом подготовки, по мнению большинства специалистов, является медленное охлаждение, особенно в температурном интервале, в котором происходит переход из жидкого состояния в твердое, способствующем укрупнению частиц сульфидов – в несколько раз.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "flotation"
+  },
+  {
+   "text": "Сульфидирование шлака позволяет перевести растворенную в шлаке окисленную медь в сульфидную форму, пригодную для последующей флотации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper speciation",
+    "direction": "increases",
+    "factor": "sulfidation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сульфидирование шлака позволяет перевести растворенную в шлаке окисленную медь в сульфидную форму, пригодную для последующей флотации.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "В медной отрасли при переработке сульфидных концентратов содержание меди в плавильных шлаках достигает 1-2%, в конвертерных шлаках 4-8%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "type of slag",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В медной отрасли при переработке сульфидных концентратов содержание меди в плавильных шлаках достигает 1-2%, в конвертерных шлаках 4-8% [1,2].",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "При плавке Teniente получается штейн с 72-74%Cu, а в шлаке 6-10% Cu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "например, при плавке Teniente получается штейн с 72-74%Cu, а в шлаке 6-10% Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "smelting"
+  },
+  {
+   "text": "При взвешенной плавке прямо на черновую медь (direct-ro-blister) в шлаке 15-22% Cu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При взвешенной плавке прямо на черновую медь (direct-ro-blister) в шлаке 15-22% Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "smelting"
+  },
+  {
+   "text": "Цель: снижение содержания меди в шлаке, по крайней мере, до 0,4-0,6% и ниже методами флотации или обеднения в печах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "flotation or furnace treatment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цель: снижение содержания меди в шлаке, по крайней мере, до 0,4-0,6% и ниже методами флотации или обеднения в печах.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "При переработке сульфидных никелевых руд шлаки от плавки в электропечах с 0,1-0,4% Ni обычно идут в отвал; шлаки процесса DON (~4% Ni) и конвертерные шлаки (1-6%) - поступают в обеднительные печи или возвращаются на плавку.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "slag type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При переработке сульфидных никелевых руд шлаки от плавки в электропечах с 0,1-0,4% Ni обычно идут в отвал; шлаки процесса DON (~4% Ni) и конвертерные шлаки (1-6%) - поступают в обеднительные печи или возвращаются на плавку.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "При переработке МПГ-(Ni,Cu) - содержащих сульфидных концентратов в плавильных электропечных шлаках ~8 г/т МПГ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "slag type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При переработке МПГ-(Ni,Cu) - содержащих сульфидных концентратов в плавильных электропечных шлаках ~8 г/т МПГ.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Эти шлаки либо идут в отвал, либо на флотацию с целью снижения содержания МПГ примерно до 4 г/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "flotation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти шлаки либо идут в отвал, либо на флотацию с целью снижения содержания МПГ примерно до 4 г/т.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "В конвертерных шлаках содержание МПГ достигает ~40 г/т, их перерабатывают с целью снижения содержания МПГ до тех же 4-8 г/т следующим способами: возврат назад на плавку, отстаивание в обеднительной электропечи, затвердевание/измельчение/флотация.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "slag type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В конвертерных шлаках содержание МПГ достигает ~40 г/т, их перерабатывают с целью снижения содержания МПГ до тех же 4-8 г/т следующим способами: возврат назад на плавку, отстаивание в обеднительной электропечи, затвердевание/измельчение/флотация.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Установлено, что минимальные механические потери имеют место при ~35% SiO2.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mechanical losses",
+    "direction": "decreases",
+    "factor": "SiO2 content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снижение потерь до этой концентрации SiO2 объясняется преобладанием влияния межфазного натяжения между шлаком и штейном над вязкостью расплава.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Увеличение содержания FeO ведет к снижению вязкости, увеличению плотности и облегчает восстановление магнетита, что, в свою очередь, усиливает растворимость меди в шлаке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "FeO content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Увеличение содержания FeO ведет к снижению вязкости, увеличению плотности и облегчает восстановление магнетита, что, в свою очередь, усиливает растворимость меди в шлаке.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Повышение температуры и снижение содержания SiO2 понижает вязкость шлака и, следовательно скорость осаждения растет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "повышение температуры и снижение содержания SiO2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение температуры и снижение содержания SiO2 понижает вязкость шлака и, следовательно скорость осаждения растет.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Скорость оседания увеличивается также в более восстановительной атмосфере, т.к. снижается содержание магнетита и, соответственно, вязкость шлака.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "более восстановительная атмосфера",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Скорость оседания увеличивается также в более восстановительной атмосфере, т.к. снижается содержание магнетита и, соответственно, вязкость шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Скорость оседания увеличивается с ростом сортности штейна – у более низкосортного штейна плотность ниже и, соответственно, скорость ниже.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "decreases",
+    "factor": "низкосортный штейн (низкая плотность)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Скорость оседания увеличивается с ростом сортности штейна – у более низкосортного штейна плотность ниже и, соответственно, скорость ниже.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Для быстрой декантации необходимы: большая разница плотностей, большой размер капель, низкая вязкость шлака.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для быстрой декантации необходимы следующие меры (по возможности): - большая разница плотностей. - большой размер капель - низкая вязкость шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Содержание меди в шлаке снижается с увеличением времени отстаивания.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "увеличение времени отстаивания",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как и следовало ожидать, содержание меди в шлаке снижается с увеличением времени отстаивания.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Мелкие частицы меди в закаленном шлаке обычно окружены сферой, предположительно магнетитовой.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Мелкие частицы меди в закаленном шлаке обычно окружены сферой, предположительно магнетитовой.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Добавки углерода снижают количество твердого магнетита, следствием чего является снижение вязкости шлака.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "viscosity",
+    "direction": "decreases",
+    "factor": "добавки углерода",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добавки углерода также снижают количество твердого магнетита, следствием чего является снижение вязкости шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Флотацией можно извлечь металлические и сульфидные частицы из измельченного шлака, однако при флотации теряются очень мелкие частицы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "флотация",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Флотацией можно извлечь металлические и сульфидные частицы из измельченного шлака. Однако при флотации теряются очень мелкие частицы.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "flotation"
+  },
+  {
+   "text": "Flotation can extract metallic and sulfide particles from ground slag.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "flotation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Флотацией можно извлечь металлические и сульфидные частицы из измельченного шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "flotation"
+  },
+  {
+   "text": "Very fine particles are lost during flotation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "fine particle recovery",
+    "direction": "decreases",
+    "factor": "flotation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако при флотации теряются очень мелкие частицы.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "flotation"
+  },
+  {
+   "text": "Copper sulfide minerals Cu2S have a good flotation response to anionic collectors (amyl, isopropyl and butyl xanthates).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "collector response",
+    "direction": "increases",
+    "factor": "anionic collectors",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Известно, что минералы сульфидов меди Cu2S имеют “хороший флотационный ответ” по отношению к анионным коллекторам (амиловый, изопропиловый и бутиловый ксантогенат);",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "flotation"
+  },
+  {
+   "text": "Collector dosages usually range from 3 to 300 g/t.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "collector dosage",
+    "direction": "increases",
+    "factor": "collector addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "добавки коллектора обычно составляют от 3 до 300 г/т.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "flotation"
+  },
+  {
+   "text": "The most important control parameter in flotation is grind fineness; at optimal fineness extraction reaches 85‑95 % with average copper in concentrate 20 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "grind fineness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Самым важным параметром контроля процесса флотации является тонкость помола. При оптимальной тонкости помола извлечение достигает 85-95% при среднем содержании меди в концентрате 20%.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "flotation"
+  },
+  {
+   "text": "Copper content in tails is sometimes below 0,35 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper in tails",
+    "direction": "decreases",
+    "factor": "flotation efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание меди в хвостах иногда ниже 0,35%",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "flotation"
+  },
+  {
+   "text": "Slow cooling of molten slag promotes crystallization of copper and copper sulfides, forming large crystals that facilitate separation in subsequent grinding and flotation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crystal formation",
+    "direction": "increases",
+    "factor": "slow cooling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медленное охлаждение шлака способствует процессу кристаллизации меди и медных сульфидов, при этом образуются отдельные, крупные кристаллы и это является предпосылкой для их разделения от пустой породы в следующих процессах измельчения и флотации.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Flotation is carried out at natural pH using xanthate as collector and oil as frother.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reagents",
+    "direction": "increases",
+    "factor": "xanthate and oil",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Флотация проходит в среде естественного pH, в качестве собирателя применяется ксантогент, а также вспениватель – обычно какое-нибудь масло.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": "flotation"
+  },
+  {
+   "text": "Search for more effective collectors continues despite xanthate becoming common.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "collector effectiveness",
+    "direction": "increases",
+    "factor": "research",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Несмотря на то что применение ксантогената “стало общим местом”, поиск более эффективных собирателей продолжается.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Systematic exceedance of 0,9 % copper in final tails is too high for disposal in a dump",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "final tail copper content",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основная проблема – систематическое превышение 0,9% содержания меди в конечных хвостах, что является слишком высоким содержанием для направления в отвал.",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Copper in slags ranges from 0,8 % to 5 % by weight",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В результате получаются разные шлаки, содержание меди в них колеблется в интервале от 0,8% до 5%вес.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Primary collector used is potassium amyl xanthate at ~300 g/t; secondary collector is sodium di‑alkyl dithiophosphate at 200 g/t",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В качестве основного собирателя применяется амиловый ксантогенат калия (~300 г/т), вторичный коллектирующий агент – диалкилдитиофосфат натрия (200 г/т).",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "The plant processes three furnaces (TSL, converter, reflector) with a grinding circuit of 25 t/h producing material ≤ 45 µm (75 % passing)",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Схема переработки шлаков на заводе NCS включает цепочку измельчения производительностью 25 т/час, продуктом которой является тонко измельченный материал (75% -45 мкм).",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Flotation cell operating conditions: 30 % solids, 1380 rpm agitation, air flow 2‑3 l/min, 15 min flotation",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Пульпу перемешивали (1380 оборотов в минуту), барботировали воздух (2-3 л/мин). Флотация длилась 15 мин.",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Na₂S, unlike secondary collectors, did not lead to a significant increase in total copper extraction after regrinding of tails.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "no_change",
+    "factor": "Na₂S addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Заметим, что Na₂S (в отличие от вторичных собирателей) не привел к существенному увеличению суммарного извлечения меди после доизмельчения хвостов.",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Elemental sulfur can replace sulfide reagents and avoids the need for wastewater treatment of sulfur ions.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "wastewater handling",
+    "direction": "decreases",
+    "factor": "use of elemental sulfur",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве сульфидирующего агента использовали дешевую элементарную серу, заменяющую сульфиды. Использование элементарной серы также помогает избежать необходимость обработки сточных вод.",
+   "locator_kind": "md_para",
+   "locator": "para:203",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Flotation of oxidized feed is more difficult and less efficient than sulfide feed because of mineral surface hydrophilicity and electrostatic repulsion between negatively charged bubble and particle surfaces.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "oxidized feed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Флотация – один из самых распространенных способов переработки руд цветных металлов, но флотация окисленного сырья, в отличие от сульфидного, сложнее и менее эффективна.",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Strong agglomeration during mechanochemical conversion hinders diffusion and reduces flotation efficiency; mild grinding prevents agglomeration and enables formation of a sulfur coating.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "mild grinding",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сильная агломерация затрудняет его непосредственное применение... Таким образом, с точки зрения морфологии и способности к диффузии измельчение в мягких условиях может дать возможность образованию серного покрытия и одновременно предотвратить агломерацию.",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.45,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  },
+  {
+   "text": "Controlling Na₂S dosage is difficult; both insufficient and excessive additions can easily worsen extraction.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "decreases",
+    "factor": "Na₂S dosage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако контролировать дозировку Na₂S с целью высокого извлечения металла при флотации не просто и извлечение можно с легкостью ухудшить либо неадекватными, либо избыточными исходными добавками Na₂S.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежныи-и-отечественныи-опыт-флотации-шлаков",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

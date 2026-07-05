@@ -1,0 +1,628 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-09-22-pdf",
+   "title": "ЦМ 09-22.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2022\\ЦМ 09-22.pdf.md",
+   "artifact_sha256": "245c8380d8f48eff0f97977f6e7c8e80714d9158a1b3892365e5d2812b46a191",
+   "okf_raw_path": "Журналы/Цветные металлы/2022/ЦМ 09-22.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:zro2-mgo",
+   "label": "ZrO2‑MgO",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:solid-electrolytes-various-compositions",
+   "label": "solid electrolytes (various compositions)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:zro2-mgo-powder-system",
+   "label": "ZrO2‑MgO powder system",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:solid-electrolytes-of-different-compositions",
+   "label": "solid electrolytes of different compositions",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-09-22-pdf:0",
+   "document_id": "doc:цм-09-22-pdf",
+   "title": "Synthesis of nanostructured ZrO2‑MgO ceramic",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "powder system based on ZrO2‑MgO with controlled particle structure",
+       "temperature_text": "1550‑1800 o C"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1823.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:zro2-mgo",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "thermostability",
+     "scope": "material",
+     "material_id": "mat:zro2-mgo",
+     "value": {
+      "min": null,
+      "nominal": 1550.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Показано, что создание в структуре этого материала нанокристаллических включений придает ему термостойкость и проводящие свойства при погружении в расплав сталей при температурах 1550-1800 o C.",
+     "locator_kind": "md_para",
+     "locator": "para:154",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "nanostructured ZrO2‑MgO ceramic can withstand thermal shock when immersed in steel melts",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "thermal shock resistance",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Показано, что создание в структуре этого материала нанокристаллических включений придает ему термостойкость и проводящие свойства при погружении в расплав сталей при температурах 1550-1800 o C.",
+     "locator_kind": "md_para",
+     "locator": "para:154",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Представлены способ получения наноструктурной керамики системы ZrO 2 - MgO с повышенным значением термостойкости из нанокристаллических порошков и результаты изучения свойств чувствительных элементов.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-09-22-pdf:1",
+   "document_id": "doc:цм-09-22-pdf",
+   "title": "Industrial testing of solid‑electrolyte sensors",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "testing of sensitive elements with solid electrolytes of different compositions in industrial operation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:solid-electrolytes-various-compositions",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "sensitive elements with solid electrolytes performed successfully in industrial conditions",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operational performance",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Приведены результаты испытаний чувствительных элементов с твердыми электролитами разных составов в условиях промышленной эксплуатации.",
+     "locator_kind": "md_para",
+     "locator": "para:154",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Приведены результаты испытаний чувствительных элементов с твердыми электролитами разных составов в условиях промышленной эксплуатации.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-09-22-pdf:2",
+   "document_id": "doc:цм-09-22-pdf",
+   "title": "Synthesis and testing of ZrO2‑MgO nanostructured ceramic for steel‑melt sensors",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "nanocrystalline powders synthesized by precipitation were sintered to obtain a dense nanostructured ZrO2‑MgO ceramic",
+       "temperature_text": "1550‑1800 °C"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1823.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:zro2-mgo-powder-system",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The composition ZrO2 + 2.0 % MgO obtained from precipitation‑synthesized powders, whose structure contains many ellipsoidal tetragonal‑phase inclusions, shows the best operational characteristics (time to stable signal, EMF after immersion, scatter within the stable‑signal plateau in highly decarburized steels).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "sensor performance",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наилучшие эксплуатационные характеристики (время выхода на стабильные показания, ЭДС после погружения в расплав, разброс в пределах площадки стабильных показаний в высокораскисленных сталях) имеет чувствительный элемент состава ZrO 2 + 2,0 % (мас.) MgO , изготовленный из порошков, синтезированных методом осаждения, структура которого содержит большое количество эллипсоидных выделений тетрагональной фазы.",
+     "locator_kind": "md_para",
+     "locator": "para:155",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Представлены способ получения наноструктурной керамики системы ZrO 2 - MgO с повышенным значением термостойкости из нанокристаллических порошков и результаты изучения свойств чувствительных элементов.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-09-22-pdf:3",
+   "document_id": "doc:цм-09-22-pdf",
+   "title": "Industrial‑scale testing of solid‑electrolyte sensors with various compositions",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "deployment of sensors with solid electrolytes of different compositions in a steel‑making plant and monitoring under real production conditions"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:solid-electrolytes-of-different-compositions",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Sensors with the described nanostructured ZrO2‑MgO electrolytes can be operated in real steel‑making environments.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "industrial applicability",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Приведены результаты испытаний чувствительных элементов с твердыми электролитами разных составов в условиях промышленной эксплуатации.",
+     "locator_kind": "md_para",
+     "locator": "para:154",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Приведены результаты испытаний чувствительных элементов с твердыми электролитами разных составов в условиях промышленной эксплуатации.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "В I полугодии 2022 г . по сравнению с аналогичным периодом 2021 г. ПАО «ГМК «Норильский никель» (НН) (РФ) (Норильский и Кольский дивизионы) произвело 99,551 тыс. т никеля (79,283 тыс. т), 203,93 тыс. т меди (172,692 тыс. т), 1416,0 тыс. тр. унц.* палладия (1314,0 тыс. тр. унц.), 321,0 тыс. тр. унц. платины (319,0 тыс. тр. унц.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "time period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I полугодии 2022 г . по сравнению с аналогичным периодом 2021 г. ПАО «ГМК «Норильский никель» (НН) (РФ) (Норильский и Кольский дивизионы) произвело 99,551 тыс. т никеля (79,283 тыс. т), 203,93 тыс. т меди (172,692 тыс. т), 1416,0 тыс. тр. унц.* палладия (1314,0 тыс. тр. унц.), 321,0 тыс. тр. унц. платины (319,0 тыс. тр. унц.).",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Забайкальский дивизион (РФ) выпустил 33,618 тыс. т меди в концентрате (32,746 тыс. т), 133,0 тыс. тр. унц. золота в медном и золотом концентратах (122,0 тыс. тр. унц.), 1,242 млн т железорудного концентрата (1,269 млн т).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "time period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Забайкальский дивизион (РФ) выпустил 33,618 тыс. т меди в концентрате (32,746 тыс. т), 133,0 тыс. тр. унц. золота в медном и золотом концентратах (122,0 тыс. тр. унц.), 1,242 млн т железорудного концентрата (1,269 млн т).",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценке International Nickel Study Group (Португалия), в I полугодии 2022 г . профицит мирового рынка никеля составил 30,8 тыс. т (дефицит 125,5 тыс. т в январе - июне 2021 г .).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "balance",
+    "direction": "increases",
+    "factor": "time period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценке International Nickel Study Group (Португалия), в I полугодии 2022 г . профицит мирового рынка никеля составил 30,8 тыс. т (дефицит 125,5 тыс. т в январе - июне 2021 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "в январе - июле 2022 г . совокупный выпуск 10 цветных металлов (никель, медь, алюминий, цинк, свинец, олово, сурьма, ртуть, магний, титан) в стране вырос по сравнению с аналогичным периодом прошлого года на 1,4 % до 38,3 млн т, в том числе алюминия - до 22,95 млн т (+1,1 %).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "time period",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в январе - июле 2022 г . совокупный выпуск 10 цветных металлов (никель, медь, алюминий, цинк, свинец, олово, сурьма, ртуть, магний, титан) в стране вырос по сравнению с аналогичным периодом прошлого года на 1,4 % до 38,3 млн т, в том числе алюминия - до 22,95 млн т (+1,1 %).",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Ford will invest $50.0 billion in expanding EV production capacity to 0.6 million vehicles by the end of 2023 and to 2.0 million vehicles by the end of 2026.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment amount and production targets",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "До 2026 г . Ford (США) инвестирует 50,0 млрд долл. в расширение мощностей по производству электромобилей до 0,6 млн т машин к концу 2023 г . и до 2,0 млн машин к концу 2026 г .",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Ford signed contracts in early 2022 to supply 70.0 % of its battery needs from CATL and LG Energy Solution.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "battery supply contracts",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В начале 2022 г . компания заключила контракты на поставку аккумуляторов (70,0 % потребности) с CATL (КНР) и LG Energy Solution (Ю. Корея).",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "From 2025 Ford will obtain nickel‑hydroxide and lithium from Zhejiang Huayou Cobalt (China) and Vale Indonesia (Indonesia).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "raw material sourcing",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Смешанный гидроксид никеля и лития с 2025 г . Ford планирует получать из Индонезии от СП Zhejiang Huayou Cobalt (КНР) и Vale Indonesia (Индонезия);",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "From 2025 Ford will obtain nickel sulfate from Billiton (Australia) via Nickel West plant.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "raw material sourcing",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сульфат никеля с 2025 г . - от ВНР Billiton (Австралия) c комбината Nickel West (Австралия);",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "From 2025 Ford will obtain lithium from Rio Tinto (Australia‑UK) from the Rincon deposit in Argentina.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "raw material sourcing",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "литий - от Rio Tinto (Австралия - Великобритания) с месторождения Rincon (Аргентина).",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Ioneer plans to supply Ford with 7.0 thousand tonnes of lithium carbonate from the Rhyolite Ridge plant (USA) with a capacity of 20.6 thousand tonnes per year of carbonate and hydroxide.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "lithium supply volume and plant capacity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С 2025 г . Ioneer (Австралия) планирует поставлять Ford 7,0 тыс. т карбоната лития с завода Rhyolite Ridge (США) мощностью 20,6 тыс. т/год карбоната и гидроксида лития.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The book on welding of aluminum alloys is intended for engineers, scientists, graduate and postgraduate students working on metallurgy and welding of aluminum alloys.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Книга будет полезна для инженерно-технических и научных работников, магистров и аспирантов, занимающихся вопросами металловедения и сварки алюминиевых сплавов.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The second, revised and expanded edition of the book on welding of aluminum alloys has been published.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Издание 2-е, переработанное и дополненное.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Density functional theory was used to study electronic properties of flotation reagents and their interaction mechanisms with sulfide mineral surfaces.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "С помощью метода теории функционала плотности исследованы электронные свойства флотационных реагентов и рассмотрена структурная активность реагентов, изучен механизм взаимодействия флотационного реагента с минеральными поверхностями.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The solid electrolyte material must be thermally stable to retain integrity when abruptly immersed in steel melt at temperatures 1600‑1800 °C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "thermostability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "материал должен быть термостойким, чтобы сохранять целостность при резком погружении в расплав стали при температуре 1600-1800 o C",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Time to reach stable EMF after immersion in liquid steel should not exceed 2 s.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "response time",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "время выхода на стабильные показания ЭДС после погружения в жидкую сталь - не более 2 с",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Stable EMF plateau duration should be 3‑6 s.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "стабильная площадка показаний - 3-6 с",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "EMF scatter within the stable plateau must be no more than 10 mV.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "EMF stability",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "разброс ЭДС в пределах площадки стабильных показаний - не более 10 мВ",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Zirconia‑based nanostructured ceramics have a melting point of 2780 °C and are chemically and corrosion‑resistant in metal melts at operating temperatures 1570‑1800 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "melting_point",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "высокой температуры плавления (2780 o C), коррозионной и химической стойкости к расплавам металлов ... при температурах эксплуатации 1570-1800 o C",
+   "locator_kind": "md_para",
+   "locator": "para:168",
+   "confidence": 0.81,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Using zirconia‑based solid‑electrolyte sensors for oxygen activity measurement is economically justified because it optimizes steel decarburization, saves deoxidizers, and reduces non‑metallic inclusions.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost benefit",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Известна экономическая целесообразность метода применения измерений активности кислорода с помощью датчиков на основе керамического твердого электролита из диоксида циркония, так как позволяет оптимизировать процесс раскисления стали, экономить раскислители, уменьшать загрязненность металлов неметаллическими включениями",
+   "locator_kind": "md_para",
+   "locator": "para:169",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Nanocrystalline powder‑derived electrolytes improve sensor response speed, enabling more accurate monitoring of steel alloying efficiency and control of slag oxidation potential.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "response speed / monitoring accuracy",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Увеличение его быстродействия дает возможность получать более точную информацию об эффективности легирования стали и позволяет управлять окислительным потенциалом шлака",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:цм-09-22-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

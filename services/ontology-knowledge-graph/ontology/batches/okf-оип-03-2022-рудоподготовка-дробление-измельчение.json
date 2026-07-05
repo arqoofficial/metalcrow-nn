@@ -1,0 +1,2098 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "ОИП-03-2022 Рудоподготовка дробление-измельчение.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ОИП-03-2022 Рудоподготовка дробление-измельчение.docx.md",
+   "artifact_sha256": "a1eb4d2be8e15617d53eb3329077ef56272f24d71f22f30aafe36068f335e892",
+   "okf_raw_path": "Обзоры/ОИП-03-2022 Рудоподготовка дробление-измельчение.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:ore",
+   "label": "ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:crushed-ore",
+   "label": "crushed ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:выпускнои-материал-из-вдвд",
+   "label": "Выпускной материал из ВДВД",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:руда-после-гираторнои-конуснои-дробилки",
+   "label": "Руда после гираторной конусной дробилки",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:руда",
+   "label": "Руда",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-concentrate",
+   "label": "copper concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-concentrate",
+   "label": "nickel concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:оип-03-2022-рудоподготовка-дробление-измельчение:0",
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "Industrial application – Cerro Verde",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "high‑pressure roll crusher (VDVD) on third crushing stage"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "VDVD model",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "О/Ф на 108 тыс т/сут включала четыре ВДВД 2,4/1,7 от Krupp Polysius, каждая из которых была снабжена двигателем в 5 МВт, применялась на третьей стадии дробления.",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "motor power per VDVD",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "О/Ф на 108 тыс т/сут включала четыре ВДВД 2,4/1,7 от Krupp Polysius, каждая из которых была снабжена двигателем в 5 МВт, применялась на третьей стадии дробления.",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "VDVDs were used on the third crushing stage of a 108 000 t/d plant.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "О/Ф на 108 тыс т/сут включала четыре ВДВД 2,4/1,7 от Krupp Polysius, каждая из которых была снабжена двигателем в 5 МВт, применялась на третьей стадии дробления.",
+     "locator_kind": "md_para",
+     "locator": "para:48",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "О/Ф на 108 тыс т/сут включала четыре ВДВД 2,4/1,7 от Krupp Polysius, каждая из которых была снабжена двигателем в 5 МВт, применялась на третьей стадии дробления.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2022-рудоподготовка-дробление-измельчение:1",
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "Industrial application – Escondida (Stage IV)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "combination of drum screen and vibrating screen"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:crushed-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Screening upgrade raised plant capacity.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Внедрение компанией Bechtel комбинации барабанный грохот/вибрационный грохот позволило увеличить пропускную способность фабрики с единственной линией, например, на медном руднике Escondida Этап IV.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Внедрение компанией Bechtel комбинации барабанный грохот/вибрационный грохот позволило увеличить пропускную способность фабрики с единственной линией, например, на медном руднике Escondida Этап IV.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2022-рудоподготовка-дробление-измельчение:2",
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "Industrial application – Metcalf (USA)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "high‑pressure roll crusher (HRC3000) on a 6000 t/h plant"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity of HRC3000 unit",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Одна из них на 6000 т/час установлена на О/Ф Metcalf (США) компании Freeport.",
+     "locator_kind": "md_para",
+     "locator": "para:51",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Metso’s HRC3000 can handle 6000 t/h of ore.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Одна из них на 6000 т/час установлена на О/Ф Metcalf (США) компании Freeport.",
+     "locator_kind": "md_para",
+     "locator": "para:51",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Одна из них на 6000 т/час установлена на О/Ф Metcalf (США) компании Freeport.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2022-рудоподготовка-дробление-измельчение:3",
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "Industrial application at Salobo III processing plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "installation and operation of primary‑secondary crushing, grinding and flotation circuits",
+       "duration_text": "9‑14 hours for autonomous primary crushing‑secondary grinding; 35 hours for VD‑VD chain; 140 hours for maximum plant standby"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "primary crusher capacity",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 1.29,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На новой О/Ф пропускная способность цепочки первичного и вторичного дробления по проекту составляет 1,29 проектной пропускной способности ВДВД и цепочек измельчения и флотации.",
+     "locator_kind": "md_para",
+     "locator": "para:79",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "primary crusher product size",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Продукт первичного дробления – 80% менее 152 мм выгружается на конвейер шириной 2600 мм для транспортировки на склад крупнодробленой руды.",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "primary crusher feed bin capacity",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 800.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Емкость бункера – 800 т (на два грузовика по 360 т).",
+     "locator_kind": "md_para",
+     "locator": "para:85",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "conical ore stack usable capacity",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 25400.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Конический штабель крупнодробленой руды имеет полезную емкость 25400 т (12700 м 3 ) и может обеспечить автономную работу цепочек первичного грохочения и вторичного дробления в течение 9-14 часов.",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "secondary crusher feed bin capacity",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 600.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "бункер вторичного дробления емкостью 600 т (300 м 3 ), обеспечивая буферную емкость на 10 минут.",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "VD‑VD press capacity per press",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 6600.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Полезный объем бункера 6600 т (3300 м 3 ), призванный обеспечить 2 часа работы при циркулирующей нагрузке в 100%.",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "VD‑VD press dimensions",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Каждый из трех ВДВД валковых прессов – 2,0 м в диаметре и 1,5 м шириной и с двумя моторами на 1800 кВт.",
+     "locator_kind": "md_para",
+     "locator": "para:99",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant can operate continuously for up to 140 hours on stored ore in case of prolonged upstream shutdown.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "time_duration",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Общая емкость штабеля – 220000 т, чтобы обеспечить максимум 140 часов работы фабрики в случае длительного простоя в цепочках первичного и вторичного дробления.",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Схема Salobo III очень похожа на Salobo I и II. На новой О/Ф пропускная способность цепочки первичного и вторичного дробления по проекту составляет 1,29 проектной пропускной способности ВДВД и цепочек измельчения и флотации.",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2022-рудоподготовка-дробление-измельчение:4",
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "Salobo I, II, III crushing and grinding circuit",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Industrial application at the Salobo projects"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:выпускнои-материал-из-вдвд",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Бункерная емкость",
+     "scope": "material",
+     "material_id": "mat:выпускнои-материал-из-вдвд",
+     "value": {
+      "min": null,
+      "nominal": 4700.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "каждый – полезной емкостью 4700 т (2350 м 3 )",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Циркулирующая нагрузка (VDVD)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 132.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Циркулирующая нагрузка – 132% по проекту.",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Циркулирующая нагрузка (шарные мельницы)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 300.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Циркулирующая нагрузка – 300%.",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Система способна обрабатывать материал в течение 1,3 часа участка вторичного грохочения.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "time_duration",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это достаточное количество материала для работы в течение 1,3 часа участка вторичного грохочения.",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "2 ВДВД Ø 2,0х1,5 м",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2022-рудоподготовка-дробление-измельчение:5",
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "Sossego project commissioning",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Industrial start‑up of Vale’s first copper project (open‑pit and O/F)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:руда-после-гираторнои-конуснои-дробилки",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Запланированная производительность (ТЭО)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "выйти на заявленную в ТЭО производительность (15 млн т/г) так и не удалось",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Фактическая проектная производительность (2020)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 13.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "«новая» проектная производительность в 13 млн т/г достигнута в 2010 г.",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Наращивание объёмов производства после ввода проекта в строй шло медленнее, чем планировалось.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Производительность",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "наращивание объемов производства после ввода проекта в строй шло медленнее, чем планировалось",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "проект был введен в строй в апреле 2004 г.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2022-рудоподготовка-дробление-измельчение:6",
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "Sentinel mine processing capacity",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Industrial operation of the Sentinel open‑pit copper mine (Zambia)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:руда",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Проектный объём переработки руды",
+     "scope": "material",
+     "material_id": "mat:руда",
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "объём переработки руды должны достигать 55 млн т/г",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "среднее  меди"
+     },
+     "method": null,
+     "snippet": "Среднее извлечение меди – около 90%.",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 24.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "среднее  меди в концентрате"
+     },
+     "method": null,
+     "snippet": "Среднее содержание меди в концентрате – 24%.",
+     "locator_kind": "md_para",
+     "locator": "para:118",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Первый влажный медный концентрат получен 31.12.2014 г.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Первый влажный медный концентрат Sentinel был получен 31.12.2014 г.",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Первая партия отфильтрованного концентрата – в начале января 2015 г.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2022-рудоподготовка-дробление-измельчение:7",
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "2020 production at Kevitsa mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ore beneficiation and concentrate production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:nickel-concentrate",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ore processed",
+     "scope": "material",
+     "material_id": "mat:ore",
+     "value": {
+      "min": null,
+      "nominal": 9.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2020 г на О/Ф было обогащено 9,2 млн т руды",
+     "locator_kind": "md_para",
+     "locator": "para:182",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "copper produced",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 27.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "27,4 тыс т Cu в обоих концентратах (24,3 тыс т в медном и 3,1 тыс т в никелевом концентратах)",
+     "locator_kind": "md_para",
+     "locator": "para:182",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel produced",
+     "scope": "material",
+     "material_id": "mat:nickel-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 11.1,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "11,1 тыс т Ni и 0,5 тыс т Со в никелевом концентрате",
+     "locator_kind": "md_para",
+     "locator": "para:182",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "gold recovered",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "20,6 тыс унций Au",
+     "locator_kind": "md_para",
+     "locator": "para:182",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "platinum recovered",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 45.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "45,0 тыс унц Pt",
+     "locator_kind": "md_para",
+     "locator": "para:182",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "palladium recovered",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 30.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "30,3 тыс унц Pd",
+     "locator_kind": "md_para",
+     "locator": "para:182",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Industrial scale production achieved at the design capacity of 9 Mt/yr.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "production capacity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В 2020 г на О/Ф было обогащено 9,2 млн т руды и получено...",
+     "locator_kind": "md_para",
+     "locator": "para:182",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В 2020 г на О/Ф было обогащено 9,2 млн т руды и получено: 27,4 тыс т Cu в обоих концентратах (24,3 тыс т в медном и 3,1 тыс т в никелевом концентратах); 11,1 тыс т Ni и 0,5 тыс т Со в никелевом концентрате плюс 20,6 тыс унций Au, 45,0 тыс унц Pt и 30,3 тыс унц Pd в концентратах.",
+   "locator_kind": "md_para",
+   "locator": "para:182",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2022-рудоподготовка-дробление-измельчение:8",
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "Installation of additional crushing and grinding capacity (2014‑2015)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "addition of a second cone crusher MP800 and a second 7 MW motor on the secondary grinding mill, plus primary screen modification and increased blast energy"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "grinding productivity increase",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "общая производительность измельчения увеличилась на 15% при контролируемой крупности помола для флотации",
+     "locator_kind": "md_para",
+     "locator": "para:197",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The upgrades raised the efficiency of primary AG mills and overall grinding throughput.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "15 %",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В итоге эффективность первичных AG мельниц возросла, а общая производительность измельчения увеличилась на 15% при контролируемой крупности помола для флотации.",
+     "locator_kind": "md_para",
+     "locator": "para:197",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2014 г. были установлены дополнительные дробильные и измельчающие мощности: вторая конусная дробилка MP800 и второй мотор мощностью 7МВт на мельнице вторичного помола (галечной), дополненные в 2015 г. модификацией первичного грохота (увеличением ширины отверстия верхнего яруса) и увеличением энергии взрыва. Все эти мероприятия вместе позволили усилить измельчение при буровзрывных работах и дроблении, а также сократить долю крупных кусков, поступающих на первичные мельницы AG. В итоге эффективность первичных AG мельниц возросла, а общая производительность измельчения увеличилась на 15% при ко",
+   "locator_kind": "md_para",
+   "locator": "para:197",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-03-2022-рудоподготовка-дробление-измельчение:9",
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "title": "Conversion of the secondary grinding mill from pebble to ball milling mode (practice confirmed)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "conversion of the secondary grinding mill to ball‑mill operation using steel balls"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The conversion supports the idea of increasing throughput to the full installed capacity.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "throughput potential",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Установленная (и подтвержденная на практике) возможность конвертировать мельницу доизмельчения с галечного режима на режим шарового помола послужила поддержкой идее о дополнительном увеличении пропускной способности за счет полного использования установленной мощности доизмельчения.",
+     "locator_kind": "md_para",
+     "locator": "para:198",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Установленная (и подтвержденная на практике) возможность конвертировать мельницу доизмельчения с галечного режима на режим шарового помола послужила поддержкой идее о дополнительном увеличении пропускной способности за счет полного использования установленной мощности доизмельчения.",
+   "locator_kind": "md_para",
+   "locator": "para:198",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Для крупномасштабных обогатительных фабрик доминирующим типом первичной дробилки, по-прежнему, является ираторная (конусная) дробилка, способная перерабатывать более 9000 т/час руды.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для крупномасштабных обогатительных фабрик доминирующим типом первичной дробилки, по-прежнему, является ираторная (конусная) дробилка, способная перерабатывать более 9000 т/час руды.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Установлено уже более 15-ти мельниц SAG диаметром 12,2 м и номинальной мощностью привода 28 МВт.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Установлено уже более 15-ти мельниц SAG диаметром 12,2 м и номинальной мощностью привода 28 МВт.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Шаровые мельницы достигли 8,5 м в диаметре, оснащены двигателем с безредукторным приводом мощностью 22 МВт.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Шаровые мельницы достигли 8,5 м в диаметре, оснащены двигателем с безредукторным приводом мощностью 22 МВт.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Модель конусной дробилки ‘top service’ от FLSmidth отличается от других конусных дробильных установок «своей революционной конструкцией», позволяющей безопасно выполнять операции основного обслуживания и текущего ремонта.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Конусная дробилка ‘top service’ (TS), как следует из названия, «с обслуживанием сверху», по словам FLSmidth, отличается от других конусных дробильных установок «своей революционной конструкцией», позволяющей безопасно выполнять операции основного обслуживания и текущего ремонта.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Новая конструкция Spider включает теперь сводчатое отверстие для уменьшения зависания материала.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Новая конструкция Spider включает теперь сводчатое отверстие для уменьшения зависания материала.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Предварительное дробление на конусных дробилках Raptor XL2500 (FLSmidth) применяется на медной обогатительной фабрике Copper Mountain и золотом руднике Osisko (оба в Канаде).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Так, например, предварительное дробление на конусных дробилках Raptor XL2500 (FLSmidth) применяется на медной обогатительной фабрике Copper Mountain и золотом руднике Osisko (оба в Канаде).",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Компания First Quantum установила две конусных дробилки MP2500 (Metso) на медном руднике Sentinel в Замбии – до мельницы SAG.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Компания First Quantum установила две конусных дробилки MP2500 (Metso) на медном руднике Sentinel в Замбии – до мельницы SAG.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Внедрение компанией Bechtel комбинации барабанный грохот/вибрационный грохот позволило увеличить пропускную способность фабрики с единственной линией.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Внедрение компанией Bechtel комбинации барабанный грохот/вибрационный грохот позволило увеличить пропускную способность фабрики с единственной линией, например, на медном руднике Escondida Этап IV.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "CITIC SMCC Process Technology approach has been applied to more than 200 projects since 2000.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Начиная с 2000 г., этот подход был применен для 200+ проектов.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Средняя сортность концентрата – 38% Cu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "grade",
+    "direction": "increases",
+    "factor": "average",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Средняя сортность концентрата – 38% Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "В 2014 г мощности (12 млн т/г по руде, ~100 тыс т/г Cu в концентрате) были расширены вдвое (вторая линия, идентичная Salobo I).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "doubles",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2014 г мощности (12 млн т/г по руде, ~100 тыс т/г Cu в концентрате) были расширены вдвое (вторая линия, идентичная Salobo I)",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "В 2019 г Vale приступила в Этапу III расширения мощностей с 24 млн т/г до 36 млн т/г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "1.5×",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2019 г Vale приступила в Этапу III расширения мощностей с 24 млн т/г до 36 млн т/г",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Ввод в строй Этапа III – 2022 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "commissioning date",
+    "direction": "nonmonotonic",
+    "factor": "2022",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ввод в строй Этапа III – 2022 г",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Суммарные запасы (доказанные+вероятные) по состоянию дел на 31.12.2019 оценены в 1148,4 млн т с 0,60% Cu и 0,32 г/т Au.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "tonnage",
+    "direction": "nonmonotonic",
+    "factor": "1148,4 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарные запасы (доказанные+вероятные) по состоянию дел на 31.12.2019 оценены в 1148,4 млн т с 0,60% Cu и 0,32 г/т Au",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Ресурсы (измеренные+ исчисленные) – 193,5 млн т с 0,61% Cu и 0,31 г/т Au.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "tonnage",
+    "direction": "nonmonotonic",
+    "factor": "193,5 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ресурсы (измеренные+ исчисленные) – 193,5 млн т с 0,61% Cu и 0,31 г/т Au",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "В результате, мельницы ПСИ были заменены на валковые дробилки высокого давления (ВДВД).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment selection",
+    "direction": "increases",
+    "factor": "replacement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате, мельницы ПСИ были заменены на валковые дробилки высокого давления (ВДВД)",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Оценку ВДВД в 2005-2006 гг проводила Polysius, показавшая, в частности, что для образца крепкой породы индекс измельчаемости в шаровой мельнице Бонда составил 21,4 кВт∙час/т, а абразивность руды низкая.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "grindability index",
+    "direction": "increases",
+    "factor": "21,4 кВт∙час/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оценку ВДВД в 2005-2006 гг проводила Polysius, показавшая, в частности, что для образца крепкой породы индекс измельчаемости в шаровой мельнице Бонда составил 21,4 кВт∙час/т, а абразивность руды низкая",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Каждый блок ВДВД имеет барабан 2,0 м в диметре и 1,5 м шириной.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "size",
+    "direction": "nonmonotonic",
+    "factor": "2,0 м × 1,5 м",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Каждый блок ВДВД имеет барабан 2,0 м в диметре и 1,5 м шириной",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Продукт ВДВД – 80% менее 17 мм при работе с зазором в 40 мм и при гидравлическом давлении 150 бар.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product size",
+    "direction": "decreases",
+    "factor": "80% < 17 мм",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Продукт ВДВД – 80% менее 17 мм при работе с зазором в 40 мм и при гидравлическом давлении 150 бар",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Циркулирующая нагрузка в типичном случае составляет 110% для этой цепочки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "load factor",
+    "direction": "increases",
+    "factor": "110%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Циркулирующая нагрузка в типичном случае составляет 110% для этой цепочки",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "По проекту продукт цепочки измельчения должен быть размером 80% менее 106 мкм.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product size",
+    "direction": "decreases",
+    "factor": "80% < 106 мкм",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По проекту продукт цепочки измельчения должен быть размером 80% менее 106 мкм",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Слив верхнего продукта гидроциклона поступает в цепочку основной флотации при содержании твердого 45%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "45%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Слив верхнего продукта гидроциклона поступает в цепочку основной флотации при содержании твердого 45%",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": "flotation"
+  },
+  {
+   "text": "Шаровые мельницы были спроектированы для работы с загрузкой шаров 30‑35%, шары – стальные, диаметром 76 mm; циркулирующая нагрузка – примерно 300 %.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Шаровые мельницы были спроектированы для работы с загрузкой шаров 30-35%, шары – стальные, диаметром 76 мм; циркулирующая нагрузка – примерно 300%.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "В этих условиях 15 MW – потребляемая мощность двигателей мельниц.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В этих условиях 15 МВт – потребляемая мощность двигателей мельниц.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Более высокая загрузка шаров потребовала бы установки стопортного кольца при разгрузке мельницы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ball loading",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более высокая загрузка шаров потребовала бы, по имеющимся сообщениям, установки стопортного кольца при разгрузке мельницы.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Циркулирующая нагрузка – около 200 % после корректировки загрузки шаров до 30 %.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Циркулирующая нагрузка – около 200%.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Для визуального мониторинга ключевых точек процесса будет установлена система замкнутого телевидения (CCTV).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для визуального мониторинга ключевых точек процесса будет установлена система замкнутого телевидения (CCTV).",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Система сбора пыли с рукавными фильтрами будет обслуживать вторичное дробление и грохочение, а система подавления пыли и тумана обслуживает конвейеры.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Система сбора пыли с рукавными фильтрами будет обслуживать вторичное дробление и грохочение, а система подавления пыли и тумана обслуживает конвейеры.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Главная забота в отношении эксплуатации ВДВД валков – обеспечение отсутствия в поступающем сырье не поддающегося дроблению материала, который может повредить их облицовку и сократить срок службы.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Главная забота в отношении эксплуатации ВДВД валков – в обеспечении отсутствия в поступающем сырье не поддающегося дроблению материала, который может повредить их облицовку и сократить срок службы.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Питатели будут оснащены детекторами металла.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Питатели будут оснащены детекторами металла.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Главная забота в отношении эксплуатации ВДВД валков – в обеспечении отсутствия в поступающем сырье не поддающегося дроблению материала, который может повредить их облицовку и сократить срок службы.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Главная забота в отношении эксплуатации ВДВД валков – в обеспечении отсутствия в поступающем сырье не поддающегося дроблению материала, который может повредить их облицовку и сократить срок службы.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Шары имеют максимальный диаметр 63 мм.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Шары имеют максимальный диаметр 63 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Верхний продукт циклонов (80% менее 106 мкм) поступает на флотацию.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Верхний продукт циклонов (80% менее 106 мкм) поступает на флотацию.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Как отмечали специалисты Golder Associates, проводившие в 2010 г. внешний аудит Sossego, наращивание объемов производства после ввода проекта в строй шло медленнее, чем планировалось и выйти на заявленную в ТЭО производительность (15 млн т/г) так и не удалось.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "как отмечали специалисты Golder Associates, проводившие в 2010 г. внешний аудит Sossego, наращивание объемов производства после ввода проекта в строй шло медленнее, чем планировалось и выйти на заявленную в ТЭО производительность (15 млн т/г) так и не удалось.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Среднее содержание меди в концентрате – 24%.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Среднее содержание меди в концентрате – 24%.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Суммарные (доказанные и вероятные) запасы руды – 462,3 млн т с 0,23% Cu; 0,72 г/т Ag; 0,10 г/т Au.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reserve size",
+    "direction": "increases",
+    "factor": "462,3 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарные (доказанные и вероятные) запасы руды – 462,3 млн т с 0,23% Cu; 0,72 г/т Ag; 0,10 г/т Au.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Конечный продукт – медный концентрат с 28% Cu.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper grade",
+    "direction": "increases",
+    "factor": "28% Cu",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конечный продукт – медный концентрат с 28% Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Значения Axb по историческим данным находятся в интервале 24-32, а значения индекса измельчаемости в шаровой мельнице Бонда (BWi) – 18-26 кВт∙час/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Axb, BWi",
+    "direction": "increases",
+    "factor": "24-32, 18-26 кВт∙час/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Значения Axb по историческим данным находятся в интервале 24-32, а значения индекса измельчаемости в шаровой мельнице Бонда (BWi) – 18-26 кВт∙час/т.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Среднее значение BWi в карьере Main составляет 22 кВт∙час/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "BWi",
+    "direction": "increases",
+    "factor": "22 кВт∙час/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Среднее значение BWi в карьере Main составляет 22 кВт∙час/т.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "В 2014 г мощности были расширены до 40 тыс т/сут – установлена вторичная дробилка, чтобы смягчить влияние высокой крепости руды и увеличить производительность.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "40 тыс т/сут",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2014 г мощности были расширены до 40 тыс т/сут – установлена вторичная дробилка, чтобы смягчить влияние высокой крепости руды и увеличить производительность.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "В 2021 г мощности О/Ф были в очередной раз расширены до 45 тыс т/сут за счет установки третьей шаровой мельницы, позволившей также восстановить целевой помол р 80‑150 мкм с целью максимизации извлечения при флотации.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput, target grind size",
+    "direction": "increases",
+    "factor": "45 тыс т/сут, 80‑150 мкм",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2021 г мощности О/Ф были в очередной раз расширены до 45 тыс т/сут за счет установки третьей шаровой мельницы, позволившей также восстановить целевой помол р 80‑150 мкм с целью максимизации извлечения при флотации.",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "При расширении мощностей О/Ф до 65 тыс т/сут предпочтение отдано ВДВД - альтернативе традиционным мельницам ПСИ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "grinding technology",
+    "direction": "increases",
+    "factor": "ВДВД",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Учитывая высокую крепость руды, при расширении мощностей О/Ф до 65 тыс т/сут предпочтение отдано ВДВД - альтернативе традиционным мельницам ПСИ.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Вариант 2 (ВДВД) имеет удельное потребление энергии на 20% ниже, чем в «базовом» варианте.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "20% lower",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более привлекателен вариант 2 (ВДВД), с удельным потреблением энергии на 20% ниже, чем в «базовом» варианте.",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Энергозатраты с ВДВД ниже, но затраты на плановый ремонт/обслуживание и трудозатраты выше.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy cost, maintenance cost",
+    "direction": "decreases",
+    "factor": "energy lower, maintenance higher",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Энергозатраты с ВДВД ниже, но затраты на плановый ремонт/обслуживание и трудозатраты выше.",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Суммарная установленная мощность четырех параллельно установленных шаровых мельниц составит 52,3 МВт.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "installed power",
+    "direction": "increases",
+    "factor": "52,3 МВт",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарная установленная мощность четырех параллельно установленных шаровых мельниц составит 52,3 МВт.",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "При номинальной загрузке шарами в 33% и критической скорости 78% четыре мельницы передадут 46,7 МВт на шестерню, что позволяет получить продукт 165 мкм в предположении размеров частиц сырья 4 мм и BWi 24 кВт∙час/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output power, product size",
+    "direction": "increases",
+    "factor": "46,7 МВт, 165 мкм",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При номинальной загрузке шарами в 33% и критической скорости 78% четыре мельницы передадут 46,7 МВт на шестерню, что позволяет получить продукт 165 мкм в предположении размеров частиц сырья 4 мм и BWi 24 кВт∙час/т.",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "The project and operating principles are typical for enterprises in cold climates, especially northern Finland.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Проект О/Ф и основные принципы эксплуатации – «типичны для предприятий в холодном климате и, в частности, для севера Финляндии».",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "The original ore‑preparation chain was designed for ≈5.5 Mt/yr.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Цепочка рудоподготовки исходно проектировалась на ≈5,5 млн т/г",
+   "locator_kind": "md_para",
+   "locator": "para:183",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "The capacity utilization factor is 8000 hours per year.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Коэффициент использования мощностей | Часов в год | 8000",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Specific ore density is 3.15 t/m³.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Удельная плотность руды | т/м 3 | 3,15",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "The grinding work index for ball milling is 19.2 kWh/t.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Рабочий индекс шарового измельчения | кВт·час/т | 19,2",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "The crushing work index is 22.6 kWh/t.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Рабочий индекс дробления | кВт·час/т | 22,6",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Product grind size (P80) is 75 µm.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Помол продукта | Р 80 мкм | 75",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "The ore stockpile storage capacity is 15 000 t (≈22 h).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Единый склад крупной и мелкой руды имеет полезную емкость 15000 т (22 часа).",
+   "locator_kind": "md_para",
+   "locator": "para:189",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "The pebble (gravel) storage bunker capacity is 750 t.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "бункер для хранения гальки полезной емкостью 750 т",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Two AG self‑grinding mills each have a power rating of 7 MW.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "два ленточных питателей каждый из которых питает одну из двух мельниц самоизмельчения AG на 7МВт",
+   "locator_kind": "md_para",
+   "locator": "para:191",
+   "confidence": 0.81,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "The nominal grinding/processing rate at 9 Mt/yr and 8000 h/yr is 1125 t/h.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "При пропускной способности в 9 млн т/г по руде за 8000 час/г получаем номинальную производительность измельчения/переработки в 1125 т/час.",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "При пропускной способности в 9 млн т/г по руде за 8000 час/г получаем номинальную производительность измельчения/переработки в 1125 т/час.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nominal throughput",
+    "direction": "increases",
+    "factor": "9 млн т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При пропускной способности в 9 млн т/г по руде за 8000 час/г получаем номинальную производительность измельчения/переработки в 1125 т/час.",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Головные операции схемы (первичное дробление, грохочение, складирование и транспортировка по конвейеру) по проекту рассчитаны на 10 млн т/г с прицелом на дополнительное будущее расширение.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "design capacity",
+    "direction": "increases",
+    "factor": "10 млн т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Головные операции схемы (первичное дробление, грохочение, складирование и транспортировка по конвейеру) по проекту рассчитаны на 10 млн т/г с прицелом на дополнительное будущее расширение.",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Дробленая руда с конвейера поступает непосредственно в первичный грохот шириной 2,8 м и длиной 5,5 м.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "equipment layout",
+    "direction": "increases",
+    "factor": "2,8 м ширина, 5,5 м длина",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Дробленая руда с конвейера поступает непосредственно в первичный грохот шириной 2,8 м и длиной 5,5 м.",
+   "locator_kind": "md_para",
+   "locator": "para:203",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Конус дробленой руды имеет 62 м в диаметре и 24 м в высоту, полезный объем – около 8000 м 3 , что эквивалентно 15000 т – этого достаточно примерно на 16,7 часа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "8000 м3 / 15000 т / 16,7 часа",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конус дробленой руды имеет 62 м в диаметре и 24 м в высоту, полезный объем – около 8000 м 3 , что эквивалентно 15000 т – этого достаточно примерно на 16,7 часа.",
+   "locator_kind": "md_para",
+   "locator": "para:203",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Каждая мельница имеет по одной шестереночной передаче на 7 МВт.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "motor power",
+    "direction": "increases",
+    "factor": "7 МВт",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Каждая мельница имеет по одной шестереночной передаче на 7 МВт.",
+   "locator_kind": "md_para",
+   "locator": "para:203",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Последняя работает на 75% критического значения, а мельница с регулируемой скоростью – на 65-80% критического значения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating speed",
+    "direction": "increases",
+    "factor": "75% и 65-80% критического значения",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Последняя работает на 75% критического значения, а мельница с регулируемой скоростью – на 65-80% критического значения.",
+   "locator_kind": "md_para",
+   "locator": "para:203",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Галечное измельчение ... работает на 75% критической скорости.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating speed",
+    "direction": "increases",
+    "factor": "75% критической скорости",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Галечное измельчение ... работает на 75% критической скорости.",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.45,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Дробилка установлена под землей так, что верх загрузочного бункера находится на уровне поверхности земли – за счет этого сокращается высота, на которую должны подниматься самосвалы, а, следовательно, снижается расход топлива и шум.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "fuel consumption and noise",
+    "direction": "decreases",
+    "factor": "reduced lift height",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Дробилка установлена под землей так, что верх загрузочного бункера находится на уровне поверхности земли – за счет этого сокращается высота, на которую должны подниматься самосвалы, а, следовательно, снижается расход топлива и шум.",
+   "locator_kind": "md_para",
+   "locator": "para:207",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Количество крупного материала от операции грохочения можно менять путем регулирования взрывных работ и изменением ширины отверстия верхнего яруса грохота.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "coarse material amount",
+    "direction": "increases",
+    "factor": "adjusting blasting and screen opening",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Количество крупного материала от операции грохочения можно менять путем регулирования взрывных работ и изменением ширины отверстия верхнего яруса грохота.",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Этот бункер по проекту имеет полезную емкость около 750 т по гальке для галечной мельницы и позволяет избыточную гальку дробить и возвращать назад в главную цепочку.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "около 750 т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Этот бункер по проекту имеет полезную емкость около 750 т по гальке для галечной мельницы и позволяет избыточную гальку дробить и возвращать назад в главную цепочку.",
+   "locator_kind": "md_para",
+   "locator": "para:209",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  },
+  {
+   "text": "Дробилки второй и третьей стадии дробления планировалось применять для пропускной способности 9 млн т/г. Они имеют минимальную ширину разгрузочной щели 22 мм и 12 мм, соответственно и выдают продукт 80% менее 25 мм.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product size",
+    "direction": "decreases",
+    "factor": "80% менее 25 мм",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Дробилки второй и третьей стадии дробления планировалось применять для пропускной способности 9 млн т/г. Они имеют минимальную ширину разгрузочной щели 22 мм и 12 мм, соответственно и выдают продукт 80% менее 25 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:210",
+   "confidence": 0.9,
+   "document_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:copper-concentrate",
+   "dst": "mat:ore",
+   "process": "other",
+   "kind": null,
+   "snippet": "В 2020 г на О/Ф было обогащено 9,2 млн т руды и получено: 27,4 тыс т Cu в обоих концентратах (24,3 тыс т в медном и 3,1 тыс т в никелевом концентратах); 11,1 тыс т Ni и 0,5 тыс т Со в никелевом концентрате плюс 20,6 тыс унций Au, 45,0 тыс унц Pt и 30,3 тыс унц Pd в концентратах.",
+   "doc_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение"
+  },
+  {
+   "src": "mat:nickel-concentrate",
+   "dst": "mat:ore",
+   "process": "other",
+   "kind": null,
+   "snippet": "В 2020 г на О/Ф было обогащено 9,2 млн т руды и получено: 27,4 тыс т Cu в обоих концентратах (24,3 тыс т в медном и 3,1 тыс т в никелевом концентратах); 11,1 тыс т Ni и 0,5 тыс т Со в никелевом концентрате плюс 20,6 тыс унций Au, 45,0 тыс унц Pt и 30,3 тыс унц Pd в концентратах.",
+   "doc_id": "doc:оип-03-2022-рудоподготовка-дробление-измельчение"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

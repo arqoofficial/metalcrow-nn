@@ -182,13 +182,15 @@ def _from_llm(store: Store, question: str, c: dict) -> tuple[str, dict]:
     return "search_passages", args
 
 
-def route(store: Store, question: str) -> tuple[str, dict]:
+def route(
+    store: Store, question: str, *, langfuse_headers: dict | None = None
+) -> tuple[str, dict]:
     """LLM-роутер (gpt-oss-120b) с откатом на keyword detect_intent."""
     low = question.lower()
     if _is_chitchat(low):
         return "chitchat", {}
     if _USE_LLM_INTENT:
-        c = intent_llm.classify(question)
+        c = intent_llm.classify(question, langfuse_headers=langfuse_headers)
         if c:
             return _from_llm(store, question, c)
     return detect_intent(store, question)
@@ -231,12 +233,15 @@ def _material_slot(store: Store, low: str) -> str:
     return best
 
 
-def answer(store: Store, question: str) -> dict:
+def answer(
+    store: Store, question: str, *, langfuse_headers: dict | None = None,
+    synthesize: bool = True,
+) -> dict:
     """Форма ответа chat-контура: claims + tools_used + сырой результат тула.
     chitchat — ответ без обращения к БД. Для тулов, если доступна LLM, ответ
     синтезируется естественным языком поверх фактов; structured-claims с
     цитатами идут следом как доказательства."""
-    tool, args = route(store, question)
+    tool, args = route(store, question, langfuse_headers=langfuse_headers)
 
     if tool == "chitchat":
         return {"question": question, "tools_used": ["chitchat"], "tool_args": {},
@@ -271,17 +276,16 @@ def answer(store: Store, question: str) -> dict:
                                 "citations": []}], "raw": None}
         result = TOOLS[tool]["fn"](store, **args)
 
-    # типовой evidence/profile ничего не нашёл → не отдаём пустоту, показываем
-    # релевантные пассажи с источниками (ретрив-фолбэк).
-    empty_ev = (tool == "evidence" and isinstance(result, dict)
-                and result.get("answer") == "данных нет")
-    empty_pr = (tool == "evidence_profile" and isinstance(result, dict)
-                and not result.get("n_points"))
-    if empty_ev or empty_pr:
+    claims = _claims_from(tool, result)
+
+    # Пустой результат ЛЮБОГО тула (напр. lineage без рёбер под сущность,
+    # evidence «данных нет», profile без точек, timeline/experts/compare пусто) —
+    # не отдаём «нет данных», а откатываемся на гибридный ретрив пассажей: ответ
+    # часто есть в прозе источников, даже если структурный тул его не поднял.
+    if not claims and tool != "search_passages":
         tool, args = "search_passages", {"query": question}
         result = TOOLS[tool]["fn"](store, **args)
-
-    claims = _claims_from(tool, result)
+        claims = _claims_from(tool, result)
 
     # generation: LLM синтезирует ответ из найденных пассажей (релевантность +
     # числа + честность). Только для ретрив/evidence-тулов; структурные тулы
@@ -290,7 +294,7 @@ def answer(store: Store, question: str) -> dict:
     # доказательства (провенанс/числа сохраняются).
     answer_text: str | None = None
     no_answer = False
-    if _USE_SYNTH and tool in _SYNTH_TOOLS and claims:
+    if synthesize and _USE_SYNTH and tool in _SYNTH_TOOLS and claims:
         syn = synth.synthesize(question, claims)
         if syn == synth.NO_DATA:
             no_answer = True

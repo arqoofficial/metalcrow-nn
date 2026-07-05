@@ -1,0 +1,1895 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Вдувание дисперсного сырья в ванну расплава.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Вдувание дисперсного сырья в ванну расплава.docx.md",
+   "artifact_sha256": "dfe6fbdec02831aa611424deae030bd44e3cc9454b918ca9d43a9fb68b98fedf",
+   "okf_raw_path": "Обзоры/Вдувание дисперсного сырья в ванну расплава.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:copper-concentrate",
+   "label": "copper concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-concentrate-20-s",
+   "label": "copper concentrate (20 % S)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dry-concentrate",
+   "label": "dry concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:wet-concentrate",
+   "label": "wet concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:various-bulk-materials-including-abrasive-fragil",
+   "label": "various bulk materials (including abrasive, fragile)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dry-copper-concentrate",
+   "label": "dry copper concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:tuyere",
+   "label": "tuyere",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:разные-материалы",
+   "label": "разные материалы",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сухои-концентрат",
+   "label": "сухой концентрат",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-concentrate",
+   "label": "Nickel concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coke-as-reducer-in-the-slag-de-boring-electric-f",
+   "label": "Coke (as reducer in the slag‑de‑boring electric furnace)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:liquid-rich-nickel-slag-as-sulfur-source",
+   "label": "Liquid rich‑nickel slag (as sulfur source)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfide-nickel-concentrate",
+   "label": "Sulfide nickel concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:steel-lance-tsl-type",
+   "label": "Steel lance (TSL type)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:converter-slag-acp",
+   "label": "Converter slag ACP",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:concentrate-to-increase-sulfur-content",
+   "label": "Concentrate (to increase sulfur content)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:silica-coke-other-turnings",
+   "label": "Silica, coke, other turnings",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:0",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Teniente converter injection test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "pneumatic injection of copper concentrate",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "number of injection furnaces",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В конвертере Teniente, например, в типичном случае имеется 4 задействованных инжекторных фурмы, расположенных равномерно вдоль фурменной линии.",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "injection rate per furnace",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "t/час",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При скорости вдувания ~60 т/час на каждую фурмы приходится около 15 т/час.",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "temperature difference between opposite zones can be significant, indicating non‑ideal horizontal mixing",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "increases",
+      "factor": "single‑side injection",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Отмечается, что температура расплава в зоне, противоположной зоне вдувания, может быть ниже, т.е. “горизонтальное” перемешивание не идеальное.",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В конвертере Teniente, например, в типичном случае имеется 4 задействованных инжекторных фурмы, расположенных равномерно вдоль фурменной линии.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:1",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Horne plant injection temperature study",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "pneumatic injection of copper concentrate with 20 % sulfur",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate-20-s",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "injection rate",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 45.0,
+      "max": null
+     },
+     "unit": "t/час",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при скорости вдувания концентрата с 20% серы 45-50 т/час через 4 фурмы, расположенных у одного конца, наблюдалась разница температур ~10°С",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "°С",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "difference between opposite zones"
+     },
+     "method": null,
+     "snippet": "наблюдалась разница температур ~10°С",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 25000.0,
+      "max": null
+     },
+     "unit": "нм³/час",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "air"
+     },
+     "method": null,
+     "snippet": "скорость продувки в конвертере в то время составляла 25000 нм 3 /час",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "average concentrate grade",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 29.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "среднее обогащение 29%",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "single‑side injection caused a measurable temperature gradient",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "increases",
+      "factor": "single‑side injection",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "наблюдалась разница температур ~10°С",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "при скорости вдувания концентрата с 20% серы 45-50 т/час через 4 фурмы, расположенных у одного конца, наблюдалась разница температур ~10°С",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:2",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Gaspe plant injection temperature study",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "pneumatic injection of copper concentrate (higher injection rate)",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "injection rate",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "со скоростью дутья вдвое выше",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "°С",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "difference between opposite zones"
+     },
+     "method": null,
+     "snippet": "эта разница достигала уже 40-50°С",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "higher injection rates increase temperature non‑uniformity",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "increases",
+      "factor": "higher injection rate",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "со скоростью дутья вдвое выше эта разница достигала уже 40-50°С",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "со скоростью дутья вдвое выше эта разница достигала уже 40-50°С",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:3",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Industrial application of bone‑dry concentrate feeding at Caletones plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Feeding furnace with 0.2‑0.3 % moisture concentrate (bone‑dry) using furms"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dry-concentrate",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:wet-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:dry-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 0.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "moisture"
+     },
+     "method": null,
+     "snippet": "технология питания печи “совершенно сухим концентратом” (то, что называется 'bone dry') c 0,2-0,3% влаги",
+     "locator_kind": "md_para",
+     "locator": "para:76",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 0.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "moisture"
+     },
+     "method": null,
+     "snippet": "снизить влажность концентрата с 8-9% до 0,2%",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentrate loss with off‑gas",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 1.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Потери концентрата с отходящим газами сократились до менее 1% от загрузки",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "converter productivity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Производительность конвертера увеличилась с 1600 т/сут до 2000+ т/сут",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Using bone‑dry concentrate reduces moisture‑related energy consumption and concentrate losses.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Тепло, потребляемое ранее на испарение воды из концентрата, теперь использовано для плавки сухого концентрата",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На заводе Caletones новые сушилки с кипящим слоем позволили снизить влажность концентрата с 8-9% до 0,2%.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:4",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Clyde pneumatic transport experience (industrial scale)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Dense‑phase pneumatic transport of bulk material"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:various-bulk-materials-including-abrasive-fragil",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "distance",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 1000.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "transport"
+     },
+     "method": null,
+     "snippet": "у Clyde есть опыт перемещения материала на расстояние более 1000 м",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "transport throughput",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 250.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "со скоростью более 250 т/час",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Dense‑phase transport can move large quantities over long distances with low wear.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Этот вариант транспортировки характеризуется минимальным износом труб и изгибов/колен – потребность в ремонте, соответственно, минимальна, а срок службы компонентов системы значителен",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Система пневмотранспорта для “плотной среды” включает сосуд под давлением и регулирующие (контрольные) клапаны, управляющие потоком загружаемого материала",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:5",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Industrial application at Codelco Norte (Chuquicamata copper smelter)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "Pneumatic transport and injection of copper concentrate using Rotofeed"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dry-copper-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "average transport speed to liquid bath",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 120.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "требовалось достичь средней скорости перемещения в жидкую ванну в 120 т/час (проектная – 150 т/час) с резервом.",
+     "locator_kind": "md_para",
+     "locator": "para:127",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "speed accuracy",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Для того, чтобы точность значения скорости была ±1%, каждая дозирующая емкость устанавливается на датчиках нагрузки (тензодатчиках)...",
+     "locator_kind": "md_para",
+     "locator": "para:130",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "system readiness",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "готовность системы транспортировки 99,5%;",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "daily throughput increase",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "увеличение суточной пропускной способности на 50%, благодаря стабильности процесса и др.",
+     "locator_kind": "md_para",
+     "locator": "para:126",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Replacement of the blow‑down tank with a pneumatic Rotofeed system eliminated frequent feeder changes and improved transport stability.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "При использовании выдувного резервуара вдувающие концентрат копья приходилось менять каждые 4 дня. Решение проблемы предложила Clyde, а именно: замена выдувного резервуара на пневматический процесс с использованием Rotofeed.",
+     "locator_kind": "md_para",
+     "locator": "para:127",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для того, чтобы точность значения скорости была ±1%, каждая дозирующая емкость устанавливается на датчиках нагрузки (тензодатчиках), сигнал которых, идущий по замкнутой петле, позволяет контролировать скорость питателя, что способствует компенсации вариаций в насыпной плотности материала.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:6",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Tuyere life‑extension at Teniente plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "extension of tuyere (копье) service life"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:tuyere",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "service life",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "он был продлен с 4 дней до 30 дней",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "replacement time",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "замену копья можно провести за 10 минут",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "productivity increase",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 16.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в первый год эксплуатации системы производительность плавильного завода увеличилась на 16%",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "daily output",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2200.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "среднесуточная выработка – с 2200 т/сут до 2550 т/сут",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "daily output",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2550.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "среднесуточная выработка – с 2200 т/сут до 2550 т/сут",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Industrial implementation at Teniente plant",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "В первый год эксплуатации системы производительность плавильного завода увеличилась на 16%, среднесуточная выработка – с 2200 т/сут до 2550 т/сут",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Clyde и Codelco работали без устали над проблемой продления срока службы копий и, в результате, он был продлен с 4 дней до 30 дней, при этом замену копья можно провести за 10 минут. В первый год эксплуатации системы производительность плавильного завода увеличилась на 16%, среднесуточная выработка – с 2200 т/сут до 2550 т/сут.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:7",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Schenck Process test campaign",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "material‑testing campaign for pneumatic transport and related technologies"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:разные-материалы",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "number of tests",
+     "scope": "material",
+     "material_id": "mat:разные-материалы",
+     "value": {
+      "min": null,
+      "nominal": 40000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "было проведено более 40000 тестов 10000 разных материалов",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "number of material types",
+     "scope": "material",
+     "material_id": "mat:разные-материалы",
+     "value": {
+      "min": null,
+      "nominal": 10000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "было проведено более 40000 тестов 10000 разных материалов",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Последняя имеет впечатляющие испытательные мощности, где было проведено более 40000 тестов 10000 разных материалов.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:8",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Altonorte concentrate‑drying system (2000)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "installation of a new concentrate drying system enabling dry‑concentrate injection"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:сухои-концентрат",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "daily dry‑concentrate throughput",
+     "scope": "material",
+     "material_id": "mat:сухои-концентрат",
+     "value": {
+      "min": null,
+      "nominal": 3000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Производительность завода по сухому концентрату – 3000 т/сут",
+     "locator_kind": "md_para",
+     "locator": "para:153",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "slag layer thickness",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "толщина слоя шлака – 0,5м",
+     "locator_kind": "md_para",
+     "locator": "para:153",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "matte layer thickness",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "штейна – 1,2 м",
+     "locator_kind": "md_para",
+     "locator": "para:153",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В 2000 г. была внедрена новая система сушки концентрата, сделавшая возможным вдувание его в расплав. Производительность завода по сухому концентрату – 3000 т/сут, толщина слоя шлака – 0,5м, штейна – 1,2 м, т.е. показатели близки упомянутым выше заводам Teniente.",
+   "locator_kind": "md_para",
+   "locator": "para:153",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:9",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Industrial application of DON direct‑smelting process at Harjavalta plant (Finland)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "Direct‑smelting of nickel concentrates (DON) with high‑nickel (≈65 %) and low‑iron (4‑5 % project, ≈6 % actual) slag production",
+       "temperature_text": "not specified",
+       "duration_text": "continuous plant operation (since 1995)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:coke-as-reducer-in-the-slag-de-boring-electric-f",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:coke-as-reducer-in-the-slag-de-boring-electric-f",
+     "value": {
+      "min": null,
+      "nominal": 7.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "В приведенном в патенте примере из концентрата, содержащего (%): Ni 15,7; Cu 1,0; Co 0,47; Fe 30,2; S 27,1; SiO2 7,2% был получен богатый штейн (%): Ni 70,6; Cu 5,9; Co 0,55; S 18,6% и шлак (%): Ni 7,8; S 0,2; Fe 34,1; SiO2 27,7%.",
+     "locator_kind": "md_para",
+     "locator": "para:207",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "В процессе плавки DON получаются шлаки с более высоким содержанием никеля в окисленной форме, чем, например, при “обычной” взвешенной плавке на штейн.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "increases",
+      "factor": "process type (DON vs conventional)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Очевидно, что в процессе плавки DON получаются шлаки с более высоким содержанием никеля в окисленной форме, чем, например, при “обычной” взвешенной плавке на штейн.",
+     "locator_kind": "md_para",
+     "locator": "para:206",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Процесс прямой плавки никелевых концентратов на файнштейн DON (Direct Outotec Nickel), разработанный Outotec (Outokumpu), был впервые внедрен в 1995 г. на заводе Harjavalta (Финляндия)...",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:10",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Industrial application of DON process at Fortaleza plant (Brazil)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "Direct‑smelting of nickel concentrates (DON) with slag de‑boring in electric furnace",
+       "temperature_text": "not specified",
+       "duration_text": "operation 1998‑2013 (shutdown in 2013)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:liquid-rich-nickel-slag-as-sulfur-source",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Fortaleza plant was shut down in 2013 because of an unfavorable nickel market.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Plant status",
+      "direction": "decreases",
+      "factor": "market conditions",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В 2013 г. завод Fortaleza был остановлен по причине неблагоприятной ситуации на рынке никеля",
+     "locator_kind": "md_para",
+     "locator": "para:204",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 1998 г. - на заводе Fortaleza (Бразилия).",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:11",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Industrial slag de‑boring at Harjavalta plant using a steel injection lance",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "Injection of sulfide nickel concentrate through a steel lance into the slag bath of the de‑boring electric furnace",
+       "temperature_text": "not specified",
+       "duration_text": "periodic operation of the de‑boring furnace"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfide-nickel-concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:steel-lance-tsl-type",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:coke-as-reducer-in-the-slag-de-boring-electric-f",
+     "value": {
+      "min": null,
+      "nominal": 0.3,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "В отвальном шлаке обеднительной печи 0,3% Ni, 0,2% Cu и 0,02% Co.",
+     "locator_kind": "md_para",
+     "locator": "para:208",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The lance allows correction of liquidus temperature and slag viscosity.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Process controllability",
+      "direction": "increases",
+      "factor": "use of injection lance",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это расходуемое стальное копье погружено в шлаковый слой. Таким образом возможно корректировать температуру ликвидуса и вязкость штейна.",
+     "locator_kind": "md_para",
+     "locator": "para:208",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Поскольку в плавильном шлаке DON содержание серы мало (0,2-0,3%) перед операцией выпуска продукта из электропечи осуществляют вдувание сульфидного никелевого концентрата через специальную для этого предназначенную фурму/копье.",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:вдувание-дисперсного-сырья-в-ванну-расплава-docx:12",
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "title": "Industrial operation of the Pyromet slag‑de‑boring furnace at Waterval plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Batch loading of converter slag (ACP) and concentrate into a 30 MVA (23 MW) rotary electric furnace for slag de‑boring",
+       "temperature_text": "not specified",
+       "duration_text": "continuous plant operation after 2000 s"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:converter-slag-acp",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:concentrate-to-increase-sulfur-content",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:silica-coke-other-turnings",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Furnace power rating",
+     "scope": "material",
+     "material_id": "mat:coke-as-reducer-in-the-slag-de-boring-electric-f",
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Печь Pyromet обеднения шлака мощностью 30 МВА (23 МВт) расположена поблизости от электропечей.",
+     "locator_kind": "md_para",
+     "locator": "para:201",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The furnace is a 12 m diameter circular furnace with three 1,4 m electrodes.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Это круглая печь диаметром 12 м с тремя электродами Содерберга диаметром 1,4 м.",
+     "locator_kind": "md_para",
+     "locator": "para:201",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Конвертерный шлак ACP и концентрат вместе загружаются в печь через окна в своде (без вдувания, как например, при обеднении шлаков DON – см. ниже).",
+   "locator_kind": "md_para",
+   "locator": "para:201",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "For copper concentrates, both “diluted” and “dense” phases are used; diluted phase gives lower pressure and higher air flow velocity, while dense phase gives higher pressure and lower air flow velocity, causing the material to move like a piston.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "decreases",
+    "factor": "phase type (diluted vs dense)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При транспортировке “разбавленной” фазы твердых взвешенных частиц более низкие значения давления обуславливают более высокие скорости потока воздуха. В варианте “плотной” фазы давление выше, скорость потока воздуха ниже – материал движется как поршень.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "In the diluted phase the wear and abrasion are higher because of the higher velocities.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "wear and abrasion",
+    "direction": "increases",
+    "factor": "higher velocity in diluted phase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Следует отметить, что в первом варианте износ и истирание выше, т.к. выше скорости.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "For copper concentrates in dense transport at a typical pressure of ~1500 kPa, the solid‑to‑air ratio is 120‑160 kg/kg.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "solid/air ratio",
+    "direction": "increases",
+    "factor": "pressure ~1500 kPa",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для медных концентратов, например, при “плотной” транспортировке и типичном давлении ~1500 кПа это отношение составляет 120-160 кг/кг.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Typical operating pressures and air velocities for the three transport modes are given in Table 1.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Таблица 1 - Характеристика систем пневмотранспорта и вдувания",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Experience at Horne and Gaspe plants shows a trend to minimize the need for drilling concentration furnaces, slightly reducing lining wear around them.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lining wear",
+    "direction": "decreases",
+    "factor": "reduced need for drilling furnaces",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Опыт заводов Horne и Gaspe свидетельствует о тенденции к сведению к минимуму нужды в пробивке концентрационных фурм, и износ футеровки вокруг них немного снизился.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": "injection"
+  },
+  {
+   "text": "When smelting high‑grade copper matte with oxygen blowing, a flux (inert additive) may be added to the concentrate‑air mixture to lower the temperature around the furnace.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "addition of inert flux",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При плавке ПЖВ с высоким обогащением дутья кислородом к смеси концентрата с воздухом может быть добавлен флюс – инертная добавка для понижения температуры в зоне вокруг фурмы.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Teniente process produces copper matte with 72‑75 % Cu and slag containing about 5‑10 % Cu.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "На выходе получают медный штейн в 72-75% меди и богатый шлак (~5-10%Cu).",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Teniente converters are large horizontal cylindrical furnaces 4.5‑5.5 m in diameter and 18‑26 m long, with steel jackets 75 mm thick lined with chromo‑magnesite bricks.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Вообще конвертеры Teniente (также Noranda) - это большие цилиндрические горизонтальные печи диаметром 4,5-5,5м и длиной 18-26 м. Стальной кожух толщиной 75 мм футерован хромо-магнезитовыми кирпичами.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Typical Teniente furnaces have 35‑65 tuyere nozzles of 50‑65 mm diameter and 4‑10 special injection furnaces for dry concentrate.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Имеется 35-65 фурменных рукавов диаметром 50-65 мм и 4 -10 специальных фурм/копий для подачи сухого концентрата.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Dense‑phase pneumatic transport is suitable for moving complex, abrasive or fragile materials.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Пневмотранспорт в плотной фазе пригоден для транспортировки сложных, абразивных или хрупких материалов.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Dense‑phase transport uses compressed air efficiently, resulting in low energy consumption and low operating costs.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Эффективное использование сжатого воздуха обуславливает низкое потребление энергии и низкие операционные затраты.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Medium‑pressure pneumatic transport allows continuous, precise delivery of controlled material quantities directly into the process.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Этот вариант идеален для непрерывной, точной транспортировки или вдувания контролируемого количества материала непосредственно в процесс.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Dilute‑phase pneumatic transport achieves high material velocities (15‑30 m/s) and is mainly used in food and pharmaceutical industries.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Этот вариант обеспечивает транспортировку материала с большими скоростями (15-30 м/сек). Применяется преимущественно в пищевой и фармацевтической промышленности.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Rotofeed dosing devices improve uniformity of feed rate compared with weight‑loss control in closed‑loop systems.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Проблема была решена путем замены действовавшего разгрузочного клапана и контроля за давлением на дозатор (питатель) Rotofeed",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Rotoscrew injectors can handle a wide range of materials (from coal to copper concentrates) with feed rates from 100 kg/h to 250 t/h over distances up to 150 m and back‑pressures up to 40 bar.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "способную управляться с разнообразными материалами (от угля до медных концентратов) и осуществлять вдувание в разные процессы со скоростью от 100 кг/час до 250 т/час и на расстояние до агрегата до 150 м и с противодавлением до 40 бар",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": "injection"
+  },
+  {
+   "text": "Rotoscrew can handle a wide range of materials from coal to copper concentrates and inject at rates from 100 kg/h to 250 t/h over distances up to 150 m with back‑pressure up to 40 bar.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "способную управляться с разнообразными материалами (от угля до медных концентратов) и осуществлять вдувание в разные процессы со скоростью от 100 кг/час до 250 т/час и на расстояние до агрегата до 150 м и с противодавлением до 40 бар.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Rotofeed is typically used for finer, granular and powdery materials such as coal dust or copper concentrate.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Rotofeed обычно используется для более тонкозернистых, гранулированных и порошкообразных материалов, как, например, угольная пыль или медный концентрат.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Rotoscrew works exceptionally well with chunk, abrasive, and sticky‑prone materials such as zinc powder or electronic scrap.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Rotoscrew работает исключительно хорошо с кусковыми материалами, абразивными, склонными к склеиванию (например, порошок цинка или электронный скрап).",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Feeder delivers a constant volume of material per revolution, providing injection accuracy better than ±1% of the set value.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Питатель выдает постоянный объем материала за каждый оборот. Это обеспечивает точность вдувания даже лучше, чем ±1% заданного значения.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Typical seal life is 500 000 cycles, corresponding to more than two years of operation.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В типичном случае уплотнение выдерживает 500000 рабочих циклов, что соответствует более чем двум годам работы.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Pneumatic transport offers high energy efficiency.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "высокая энергоэффективность пневматической транспортировки;",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "System readiness of pneumatic transport installations is typically 99,5%.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "готовность системы транспортировки 99,5%;",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Daily throughput can increase by about 50% due to process stability.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "50%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "увеличение суточной пропускной способности на 50%, благодаря стабильности процесса и др.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Вариант вдувания “плотной” фазы для плавки медных концентратов Teniente предпочтительнее.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Как следует из приведенной ниже таблицы, вариант вдувания “плотной” фазы для плавки медных концентратов Teniente предпочтительнее.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Печь TSL – вертикальная, диаметром 4,4-5,0 м и высотой 12-17 м, футерована хромо-магнезитовыми кирпичами в сочетании с водоохлаждаемыми медными блоками.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Печь TSL – вертикальная, диаметром 4,4-5,0 м и высотой 12-17 м, футерована хромо-магнезитовыми кирпичами в сочетании с водоохлаждаемыми медными блоками.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "При загрузке влажного сырья снижается пылевынос.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "При загрузке влажного сырья снижается пылевынос.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "В результате плавки получают штейн с ~60% Cu и отвальный шлак с ~0,7%Cu.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В результате плавки получают штейн с ~60% Cu и отвальный шлак с ~0,7%Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "В печи TSL (Ausmelt) фурма одна, но очень большая по сравнению с Teniente/Noranda: высота самой печи 12-16 м, а копье идет от свода печи на глубину 0,3 м от поверхности шлаковой ванны, вдувая воздушно-кислородную смесь.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В печи TSL (Ausmelt) фурма одна, но очень большая по сравнению с Teniente/Noranda: высота самой печи 12-16 м, а копье идет от свода печи на глубину 0,3 м от поверхности шлаковой ванны, вдувая воздушно-кислородную смесь.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "В простейшем варианте конструкция копья (Isasmelt) – это “труба в трубе”.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В простейшем варианте конструкция копья (Isasmelt) – это “труба в трубе”.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Расход кокса в типичном случае составляет 30 кг на 1 т шлака.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "coke consumption",
+    "direction": "increases",
+    "factor": "typical case",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Расход кокса в типичном случае составляет 30 кг на 1 т шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:208",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "В конвертерном шлаке 3,0‑3,5 % Ni и <15 % Fe₃O₄.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "converter operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В конвертерном шлаке 3,0-3,5% Ni и <15% Fe₃O₄.",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.81,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание SO₂ в отходящем газе превышает 7 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "process operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание SO₂ в отходящем газе превышает 7% [8,9].",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.81,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": null
+  },
+  {
+   "text": "Копье TSL обычно включает, как минимум, две концентрических трубы, но, возможно, и три трубы.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Копье TSL обычно включает, как минимум, две концентрических трубы, но, возможно, и три трубы.",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": "injection"
+  },
+  {
+   "text": "Диаметр внешней трубы копья TSL 200‑500 мм или больше.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Диаметр внешней трубы 200-500 мм или больше.",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": "injection"
+  },
+  {
+   "text": "Внутренняя труба диаметром 100‑180 мм может заканчиваться на том же уровне, что и внешняя или быть примерно на 1000 мм короче.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Внутренняя труба диаметром 100-180 мм может заканчиваться на том же уровне, что и внешняя или быть примерно на 1000 мм короче.",
+   "locator_kind": "md_para",
+   "locator": "para:194",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": "injection"
+  },
+  {
+   "text": "Внутренняя поверхность может быть оснащена винтовыми лопастями, создающими сильное завихряющее воздействие и способствующими охлаждению и перемешиванию газа с топливом.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "На внешней поверхности внутренней трубы могут располагаться винтовые лопасти ... Они (лопасти) способствуют охлаждению и обеспечивают хорошее перемешивание газа с топливом и сырьевым материалом.",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.45,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": "injection"
+  },
+  {
+   "text": "В патенте Outokumpu 5332414 от Jul.26,1994 говорится, что из‑за высокого кислородного потенциала в печи содержание никеля в шлаке высокое.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "high oxygen potential",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в результате этого процесса из-за высокого кислородного потенциала в печи содержание никеля в шлаке высокое.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9,
+   "document_id": "doc:вдувание-дисперсного-сырья-в-ванну-расплава-docx",
+   "process": "smelting"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

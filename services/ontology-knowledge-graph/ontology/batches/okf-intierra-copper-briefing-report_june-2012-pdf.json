@@ -1,0 +1,620 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "title": "Intierra-Copper Briefing Report_June 2012.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "XX",
+   "lang": "en",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Материалы конференций\\Intierra-Copper Briefing Report_June 2012.pdf.md",
+   "artifact_sha256": "7df7c9cc6eedc9e8e7c89629a07695ff1d40b1ecdddb2ddc0c5d3583623bc8b3",
+   "okf_raw_path": "Материалы конференций/Intierra-Copper Briefing Report_June 2012.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Lower prices in part reflect a strengthening US Dollar, but only in part.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price movement",
+    "direction": "decreases",
+    "factor": "US Dollar strength",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Lower prices in part reflect a strengthening US Dollar, but only in part.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The spread was over $100/t at the start of May, it is now around $30/t and falling.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "spread size",
+    "direction": "decreases",
+    "factor": "market conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Whereas the spread was over $100/t at the start of May, it is now around $30/t and falling.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Domes/g415c Chinese SHFE onemonth prices are now around 15% higher than LME Cash, compared to just over 10% at the start of May.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price gap",
+    "direction": "increases",
+    "factor": "regional price differences",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Domes/g415c Chinese SHFE onemonth prices are now around 15% higher than LME Cash, compared to just over 10% at the start of May.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The United States has seen a sharp drawdown of around 25 kt.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stock level",
+    "direction": "decreases",
+    "factor": "regional demand",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The United States has seen a sharp drawdown of around 25 kt.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Asian stocks in Korea and Singapore have seen a big increase.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stock level",
+    "direction": "increases",
+    "factor": "regional redistribution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Asian stocks in Korea and Singapore have seen a big increase.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Chinese merchant bonded copper has been released on to the LME.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stock availability",
+    "direction": "increases",
+    "factor": "backwardation and SHFE prices",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Chinese merchant bonded copper has been released on to the LME.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "In both March and April, China exported over 25 kt of refined copper.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "export volume",
+    "direction": "increases",
+    "factor": "smelter output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "In both March and April, China exported over 25 kt of refined copper.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Data include copper in copper concentrates, copper-nickel concentrates and precipitates (\"cement copper\")",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "inclusion of copper forms",
+    "direction": "increases",
+    "factor": "copper in copper concentrates, copper-nickel concentrates and precipitates",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Data include copper in copper concentrates, copper-nickel concentrates and precipitates (\"cement copper\")",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Data include copper in black copper, blister, anode and low grade electrowon needing re-refining.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "inclusion of copper forms",
+    "direction": "increases",
+    "factor": "copper in black copper, blister, anode and low grade electrowon",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Data include copper in black copper, blister, anode and low grade electrowon needing re-refining.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Purchase Team and Xiangguang Copper announced their inten/g415on to export copper over the next two months.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "intention",
+    "direction": "increases",
+    "factor": "excess stock",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Purchase Team and Xiangguang Copper announced their inten/g415on to export copper over the next two months.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Mid-month, it was reported that 100 kt in export contracts had been signed, of which 80 kt came from four large smelters.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "increases",
+    "factor": "large smelters",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Mid-month, it was reported that 100 kt in export contracts had been signed, of which 80 kt came from four large smelters.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "By moving copper out of China, the controlling interest on LME stock that underlies the backwarda/g415on should be less easy to maintain.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "controlling interest",
+    "direction": "decreases",
+    "factor": "export",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "By moving copper out of China, the controlling interest on LME stock that underlies the backwarda/g415on should be less easy to maintain.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "With excess cathode moving out of China, the Chinese physical market is looking brighter.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "market brightness",
+    "direction": "increases",
+    "factor": "excess cathode export",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "With excess cathode moving out of China, the Chinese physical market is looking brighter.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Stocks are moving from SHFE warehouses to domes/g415c consumers and spot premia are edging upwards, though s/g415ll below $50/t on imported copper.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "spot premia",
+    "direction": "increases",
+    "factor": "stock movement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Stocks are moving from SHFE warehouses to domes/g415c consumers and spot premia are edging upwards, though s/g415ll below $50/t on imported copper.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Outside Asia, upward pressure on spot premia remains, with low liquid stocks behind this.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "increases",
+    "factor": "low liquid stocks",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Outside Asia, upward pressure on spot premia remains, with low liquid stocks behind this.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "In April, despite a 3.7% drop in mine output compared to March, concentrates imports were down by 19%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "import volume",
+    "direction": "decreases",
+    "factor": "mine output drop",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "In April, despite a 3.7% drop in mine output compared to March, concentrates imports were down by 19%.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Chinese smelters are looking for spot terms of $50/dmt and 5 c/lb, but there appear to be no takers at this level.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "spot terms acceptance",
+    "direction": "decreases",
+    "factor": "high price level",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Chinese smelters are looking for spot terms of $50/dmt and 5 c/lb, but there appear to be no takers at this level.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Smelters in India and Korea are reported to be short of material. They are able to se/g425le in the $30s and 3s.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "material shortage",
+    "direction": "increases",
+    "factor": "regional demand",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Smelters in India and Korea are reported to be short of material. They are able to se/g425le in the $30s and 3s.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.81,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Global IP rose by an es/g415mated 0.2% on a month-onmonth basis in March a/g332er rising by 0.3% in February.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "month‑on‑month change",
+    "direction": "increases",
+    "factor": "0.2% in March, 0.3% in February",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Global IP rose by an es/g415mated 0.2% on a month-onmonth basis in March a/g332er rising by 0.3% in February.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "OECD produc/g415on fell by 0.2% while non-OECD output was up by 0.7%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "year‑on‑year change",
+    "direction": "decreases",
+    "factor": "0.2% decline for OECD, 0.7% increase for non‑OECD",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "OECD produc/g415on fell by 0.2% while non-OECD output was up by 0.7%.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The index fell to 48.7 in May from a final reading of 49.3 in April, stoking fears that the Chinese economy could slow sharply.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "level",
+    "direction": "decreases",
+    "factor": "48.7 in May vs 49.3 in April",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The index fell to 48.7 in May from a final reading of 49.3 in April, stoking fears that the Chinese economy could slow sharply.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Power cable figures are more posi/g415ve, with output up by 11% year-on-year in Q1 2012.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "year‑on‑year change",
+    "direction": "increases",
+    "factor": "11% up in Q1 2012",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Power cable figures are more posi/g415ve, with output up by 11% year-on-year in Q1 2012.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Demand for copper tubes remains slow as sales of air condi/g415oners is s/g415ll down on last year, although not by as much as the 8% year-on-year drop in January-February.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "trend",
+    "direction": "decreases",
+    "factor": "sales still down, less than 8% YoY drop in Jan‑Feb",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Demand for copper tubes remains slow as sales of air condi/g415oners is s/g415ll down on last year, although not by as much as the 8% year-on-year drop in January-February.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The Chinese government is looking for ways to bring forward the start up of infrastructure projects that had been originally planned to commence in 2013.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "timing",
+    "direction": "increases",
+    "factor": "bring forward start up",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The Chinese government is looking for ways to bring forward the start up of infrastructure projects that had been originally planned to commence in 2013.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "New subsidies for energy efficient consumer goods announced in May, is expected to have posi/g415ve impact on the demand for copper products.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impact on copper demand",
+    "direction": "increases",
+    "factor": "positive impact expected",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "new subsidies for energy efficient consumer goods announced in May, is expected to have posi/g415ve impact on the demand for copper products.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "weak demand from the construction industry will continue",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "demand trend",
+    "direction": "decreases",
+    "factor": "construction industry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "predicts that the weak demand from the construc/g415on industry will con/g415nue.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "German harness producer Leoni sees substantial growth, especially in the United States and the emerging geographies, offsetting a weaker market in Europe",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "growth",
+    "direction": "increases",
+    "factor": "automotive sector",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "German harness producer Leoni, sees substan/g415al growth, especially in the United States and the emerging geographies, offse/g427ng a weaker market in Europe.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "global demand for medium voltage cables for utilities and for building wire will remain stable in the next months",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "demand",
+    "direction": "no_change",
+    "factor": "medium voltage cables and building wire",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cable producer Prysmian expects global demand for medium voltage cables for u/g415li/g415es and for building wire to remain stable in the next months",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "better prospects in submarine, offshore oil and gas and renewable energy markets",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "prospects",
+    "direction": "increases",
+    "factor": "submarine, offshore oil and gas and renewable energy markets",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "with be/g425er prospects in submarine, offshore oil and gas and renewable energy markets.",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "KME suffered a 15% output decline",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "decreases",
+    "factor": "KME",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "KME, which suffered a 15% output decline for",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Increase in Total Stocks equals Production-Consumption Balance",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "total stocks increase",
+    "direction": "increases",
+    "factor": "production-consumption balance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Increase in Total Stocks equals Production-Consumption Balance",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "increase in Liquid Stocks equals Effective Market Balance",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "liquid stocks increase",
+    "direction": "increases",
+    "factor": "effective market balance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "increase in Liquid Stocks equals Effective Market Balance",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Abnormal Country Stocks are mainly non-bonded merchant stocks",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "abnormal country stocks composition",
+    "direction": "nonmonotonic",
+    "factor": "non-bonded merchant stocks",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Abnormal Country Stocks are mainly non-bonded merchant stocks",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:intierra-copper-briefing-report_june-2012-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

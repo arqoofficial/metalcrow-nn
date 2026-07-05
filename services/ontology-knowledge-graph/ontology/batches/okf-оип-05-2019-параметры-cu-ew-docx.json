@@ -1,0 +1,1397 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "title": "ОИП-05-2019 Параметры Cu EW.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ОИП-05-2019 Параметры Cu EW.docx.md",
+   "artifact_sha256": "ef2b0e749105d22fe48f335c5a04b6dabc6c67d59d21f8e65e764d5115347841",
+   "okf_raw_path": "Обзоры/ОИП-05-2019 Параметры Cu EW.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:cathode",
+   "label": "Cathodes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:оип-05-2019-параметры-cu-ew-docx:0",
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "title": "Lomas Bayas cathode production",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Cathode production",
+       "temperature_text": "45-48 °C",
+       "duration_text": "4-5 days"
+      },
+      "temperature": {
+       "min": 318.15,
+       "nominal": null,
+       "max": 321.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cathode",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Cathode output by current",
+     "scope": "material",
+     "material_id": "mat:cathode",
+     "value": {
+      "min": 90.0,
+      "nominal": null,
+      "max": 94.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Катодный выход по току, % 90-94",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Current per bath",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 22.0,
+      "max": null
+     },
+     "unit": "kA",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ток на ванну, кА макс. 22",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 44.0,
+      "nominal": null,
+      "max": 46.0
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "electrolyte cu"
+     },
+     "method": null,
+     "snippet": "Содержание Cu, г/л 44-46",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 165.0,
+      "nominal": null,
+      "max": 170.0
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "electrolyte h₂so₄"
+     },
+     "method": null,
+     "snippet": "H 2 SO 4 , г/л 165-170",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Production of 71 000 t cathodes in 2015",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "Annual cathode production",
+      "direction": "increases",
+      "factor": "71 000 t (2015)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Производство катодов (т) 71 000 (2015)",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Производство катодов (т) 71 000 (2015)",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-05-2019-параметры-cu-ew-docx:1",
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "title": "Mantos Blancos cathode production",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Cathode production",
+       "temperature_text": "48 °C",
+       "duration_text": "6 days"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 321.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cathode",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Cathode output by current",
+     "scope": "material",
+     "material_id": "mat:cathode",
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Катодный выход по току, % 90",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Current per bath",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "kA",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ток на ванну, кА 20",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 31.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "electrolyte cu"
+     },
+     "method": null,
+     "snippet": "Содержание Cu, г/л 31",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Production of 26 700 t cathodes in 2014",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "Annual cathode production",
+      "direction": "increases",
+      "factor": "26 700 t (2014)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Производство катодов (т) 26 700 (2014)",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Производство катодов (т) 26 700 (2014)",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-05-2019-параметры-cu-ew-docx:2",
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "title": "Manto Verde cathode production",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Cathode production",
+       "temperature_text": "48 °C",
+       "duration_text": "5 days"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 321.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cathode",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Cathode output by current",
+     "scope": "material",
+     "material_id": "mat:cathode",
+     "value": {
+      "min": null,
+      "nominal": 93.3,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Катодный выход по току, % 93,3",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Current per bath",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 37.0,
+      "max": null
+     },
+     "unit": "kA",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ток на ванну, кА 37",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Production of 60 000 t cathodes in 2015",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "Annual cathode production",
+      "direction": "increases",
+      "factor": "60 000 t (2015)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Производство катодов (т) 60 000 (2015)",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Производство катодов (т) 60 000 (2015)",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-05-2019-параметры-cu-ew-docx:3",
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "title": "Radomiro Tomic cathode production",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Cathode production",
+       "temperature_text": "47 °C",
+       "duration_text": "6 days"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 320.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cathode",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Cathode output by current",
+     "scope": "material",
+     "material_id": "mat:cathode",
+     "value": {
+      "min": 92.0,
+      "nominal": null,
+      "max": 94.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Катодный выход по току, % 92-94",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Current per bath",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 33.0,
+      "nominal": null,
+      "max": 35.0
+     },
+     "unit": "kA",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ток на ванну, кА 33-35",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Production of 315 747 t cathodes in 2015",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "Annual cathode production",
+      "direction": "increases",
+      "factor": "315 747 t (2015)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Производство катодов (т) 315 747 (2015)",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Производство катодов (т) 315 747 (2015)",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:оип-05-2019-параметры-cu-ew-docx:4",
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "title": "Salvador cathode production",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Cathode production",
+       "temperature_text": "46 °C",
+       "duration_text": "6-7 days"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 319.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cathode",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Cathode output by current",
+     "scope": "material",
+     "material_id": "mat:cathode",
+     "value": {
+      "min": null,
+      "nominal": 93.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Катодный выход по току, % 93",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Current per bath",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 20.0,
+      "nominal": null,
+      "max": 25.0
+     },
+     "unit": "kA",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Ток на ванну, кА 20-25",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Production of 24 399 t cathodes in 2009",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "Annual cathode production",
+      "direction": "increases",
+      "factor": "24 399 t (2009)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Производство катодов (т) 24 399 (2009)",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Производство катодов (т) 24 399 (2009)",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Проектная мощность (т/г катодов) 75 000",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Project capacity",
+    "direction": "increases",
+    "factor": "75 000",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проектная мощность (т/г катодов) 75 000",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Ток на ванну, кА макс. 22",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Maximum bath current",
+    "direction": "increases",
+    "factor": "22",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ток на ванну, кА макс. 22",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Плотность тока, А/м 2 пром. 297, макс. 366",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "297 (average), 366 (max)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность тока, А/м 2 пром. 297, макс. 366",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Напряжение на ванне, В 1,8-2,1",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Bath voltage",
+    "direction": "increases",
+    "factor": "1,8-2,1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Напряжение на ванне, В 1,8-2,1",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Общий объем электролита, м³ 4 400",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Electrolyte total volume",
+    "direction": "increases",
+    "factor": "4 400",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Общий объем, м 3 4 400",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание Cu, г/л 44-46",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "44-46",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание Cu, г/л 44-46",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "H₂SO₄, г/л 165-170",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "165-170",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "H 2 SO 4 , г/л 165-170",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Температура электролита, °С 45-48",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "45-48",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура электролита, °С 45-48",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Проектная мощность (т/г катодов) 68 400",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "projected cathode production capacity",
+    "direction": "increases",
+    "factor": "design specification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проектная мощность (т/г катодов) 68 400",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Проектная мощность (т/г катодов) 90 700",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "projected cathode production capacity",
+    "direction": "increases",
+    "factor": "design specification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проектная мощность (т/г катодов) 90 700",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Производство катодов (т) 68 038 (2016)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual cathode output",
+    "direction": "increases",
+    "factor": "operational data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "68 038 (2016)",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Производство катодов (т) 65 958 (2013)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual cathode output",
+    "direction": "increases",
+    "factor": "operational data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "65 958 (2013)",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Производство катодов (т) 209 230 (2013)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual cathode output",
+    "direction": "increases",
+    "factor": "operational data",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "209 230 (2013)",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Длительность процесса (дни) 7",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "plant operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Длительность процесса (дни) 7",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Длительность процесса (дни) 14",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "plant operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Длительность процесса (дни) 14",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Ток на ванну, кА 40-44",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current per cell",
+    "direction": "increases",
+    "factor": "operational setting",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ток на ванну, кА 40-44",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Ток на ванну, кА 35",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current per cell",
+    "direction": "decreases",
+    "factor": "operational setting",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ток на ванну, кА 35",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Плотность тока, А/м 2 250-300, макс. 360",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "operational setting",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность тока, А/м 2 250-300, макс. 360",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Плотность тока, А/м 2 194-215",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "decreases",
+    "factor": "operational setting",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность тока, А/м 2 194-215",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.45,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Катодный выход по току, % 93",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "increases",
+    "factor": "plant performance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катодный выход по току, % 93",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Катодный выход по току, % 91",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "decreases",
+    "factor": "plant performance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катодный выход по току, % 91",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Общий объем, м 3 2 410",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "electrolyte tank volume",
+    "direction": "increases",
+    "factor": "plant design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Общий объем, м 3 2 410",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Общий объем, м 3 3 590",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "electrolyte tank volume",
+    "direction": "increases",
+    "factor": "plant design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Общий объем, м 3 3 590",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.45,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание Cu, г/л 38",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "process specification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание Cu, г/л 38",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "H 2 SO 4 , г/л 170-180",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "process specification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "H 2 SO 4 , г/л 170-180",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Температура электролита, С 32",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "operational condition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура электролита, С 32",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Cu, г/л 35",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "process outcome",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cu, г/л 35",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.45,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Fe +2 , г/л 1,0-1,5",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "process outcome",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Fe +2 , г/л 1,0-1,5",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Co +2 , мг/л 15",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "process outcome",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Co +2 , мг/л 15",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": null
+  },
+  {
+   "text": "Ток на ванну, кА 18-25",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current per cell",
+    "direction": "increases",
+    "factor": "plant Sierrita",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ток на ванну, кА 18-25",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Ток на ванну, кА 30",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current per cell",
+    "direction": "increases",
+    "factor": "plant Tyrone",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ток на ванну, кА 30",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Ток на ванну, кА 34-54",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current per cell",
+    "direction": "increases",
+    "factor": "plant OMG",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ток на ванну, кА 34-54",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Плотность тока, А/м 2 107-268",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "plant Sierrita",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность тока, А/м 2 107-268",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Плотность тока, А/м 2 макс. 330",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "plant Tyrone",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность тока, А/м 2 макс. 330",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.45,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Плотность тока, А/м 2 200-320",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "plant OMG",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность тока, А/м 2 200-320",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Катодный выход по току, % 90",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "increases",
+    "factor": "plant Sierrita",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катодный выход по току, % 90",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Катодный выход по току, % 88,5",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "increases",
+    "factor": "plant Tyrone",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катодный выход по току, % 88,5",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Катодный выход по току, % >93",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "increases",
+    "factor": "plant Cobre las Cruces",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катодный выход по току, % >93",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Катодный выход по току, % >94-95",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "increases",
+    "factor": "plant OMG",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катодный выход по току, % >94-95",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Температура электролита, С 37,8",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "plant Sierrita",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура электролита, С 37,8",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Температура электролита, С 33",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "plant Tyrone",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура электролита, С 33",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Температура электролита, °С 45",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "plant OMG",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура электролита, °С 45",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Содержание Cu, г/л 50",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "plant Sierrita",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание Cu, г/л 50",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Содержание Cu, г/л 40",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "plant Tyrone",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание Cu, г/л 40",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Содержание Cu, г/л 35-38",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "plant OMG",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание Cu, г/л 35-38",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.81,
+   "document_id": "doc:оип-05-2019-параметры-cu-ew-docx",
+   "process": "electroextraction"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

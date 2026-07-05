@@ -1,0 +1,495 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "title": "1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx.md",
+   "artifact_sha256": "07b5d6d9ce8846f5846ca670cd71607603ccac873243dd1e0af21109421eccd7",
+   "okf_raw_path": "Статьи/1 Моделирование тектонических нарушений с применением связей конечной жёсткости с интеграцией в CAE Fidesys (002).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:main-part-of-the-bar",
+   "label": "Main part of the bar",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:weakened-zone",
+   "label": "Weakened zone",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:global-mine-model",
+   "label": "global mine model",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:1-моделирование-тектонических-нарушении-с-примен:0",
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "title": "Verification of the finite‑stiffness‑link method in CAE Fidesys",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "A rectangular bar with a weakened section representing a tectonic fault was modeled in two ways: (1) the weakened zone was represented as a solid body, (2) the weakened zone was represented by finite‑stiffness links (springs). The bar was fixed on one side and loaded on the opposite side by two distributed forces (q₁=100000 N/m, q₂=50000 N/m). Material properties were E₍base₎=10¹⁰ Pa for the main part and E₍weak₎=10⁸ Pa for the weakened zone.",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:main-part-of-the-bar",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:weakened-zone",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "maximum displacement in OX direction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -0.00562,
+      "max": null
+     },
+     "unit": "m",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "а) твердое тело, $\\delta_{max}=-0,00562$ м",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "maximum displacement in OX direction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -0.00519,
+      "max": null
+     },
+     "unit": "m",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "б) связи конечной жесткости, $\\delta_{max}=-0,00519$ м",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "maximum displacement in OY direction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -0.0245,
+      "max": null
+     },
+     "unit": "m",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "а) твердое тело, $\\delta_{max}=-0,0245$ м",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "maximum displacement in OY direction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -0.0224,
+      "max": null
+     },
+     "unit": "m",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "б) связи конечной жесткости, $\\delta_{max}=-0,0224$ м",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The finite‑stiffness‑link approach yields slightly smaller maximum displacements than the solid‑body representation, indicating comparable or better stiffness representation with reduced modeling effort.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "displacement comparison",
+      "direction": "increases",
+      "factor": "slightly lower values for the spring model",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Сравнение моделей выполнялось по максимальному значению перемещений по осям OX, OY, OZ.",
+     "locator_kind": "md_para",
+     "locator": "para:54",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для верификации методики был выполнен расчет бруса с ослабленным участком (эквивалент тектонического нарушения) правильной формы.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:1-моделирование-тектонических-нарушении-с-примен:1",
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "title": "Verification of the developed methodology on test tasks",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Верификационная задача"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "displacements OX, OY, OZ errors",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 7.7,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "OX: \\frac{-0,00562-(-0,00519)}{-0,00562} \\bullet 100 \\% =7,7 \\%\\nOY: \\frac{-0,0245-(-0,0224)}{-0,0245} \\bullet 100 \\% =8,6 \\%\\nOZ: \\frac{-0,0462-(-0,0447)}{-0,0462} \\bullet 100 \\% =3,6 \\%",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "корректной работе разработанной методики",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "На основании верификационной задачи можно сделать вывод о корректной работе разработанной методики.",
+     "locator_kind": "md_para",
+     "locator": "para:66",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проведённая верификация разработанного инструмента на ряде тестовых задач показала высокую точность воспроизведения напряжённо-деформированного состояния в присутствии тектонических нарушений.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:1-моделирование-тектонических-нарушении-с-примен:2",
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "title": "Application to a global numerical model of a mine with >40 tectonic faults",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "формирование и расчёт глобальной численной модели рудника"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:global-mine-model",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "method allows accurate description of stress redistribution during mining",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "применения предложенной методики ... позволяет довольно точно описывать процессы перераспределения напряжений в результате ведения добычных работ",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Таким образом, применение предложенной методики не только позволяет формировать сложные глобальные численные модели с учётом тектонических нарушений, но и позволяет довольно точно описывать процессы перераспределения напряжений в результате ведения добычных работ с их учётом.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:1-моделирование-тектонических-нарушении-с-примен:3",
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "title": "Industrial application in real engineering projects",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "опробована в реальных инженерных проектах"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "methodology proved its practical value and operability",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Методика также была успешно опробована в реальных инженерных проектах, что подтвердило её прикладную ценность и работоспособность.",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Методика также была успешно опробована в реальных инженерных проектах, что подтвердило её прикладную ценность и работоспособность.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Additional difficulties arise when it is necessary to model intersections of tectonic faults with other geological bodies, especially with mined or exploited rock masses.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "complexity",
+    "direction": "increases",
+    "factor": "additional geometric objects required",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Дополнительные сложности возникают при необходимости моделирования участков пересечения тектонических нарушений с другими геологическими телами, в частности с отрабатываемыми или разрабатываемыми горными массивами.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  },
+  {
+   "text": "The additional geometric objects must be consistent with the overall finite‑element mesh and possess physical‑mechanical properties that reflect the weakened zone.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consistency",
+    "direction": "increases",
+    "factor": "must match mesh and properties",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти объекты должны быть согласованы с общей сеткой конечных элементов и обладать соответствующими физико‑механическими свойствами, отражающими ослабленную зону.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.81,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  },
+  {
+   "text": "The new methodology allows tectonic faults to be defined implicitly, without explicit geometry construction, by using finite‑stiffness links that connect mesh nodes with prescribed stiffness in one or more directions.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "modeling effort",
+    "direction": "decreases",
+    "factor": "implicit definition via springs",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для снижения трудоёмкости моделирования тектонических нарушений была разработана новая методика, позволяющая задавать их в неявной форме, без необходимости явного построения геометрии разломов.",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  },
+  {
+   "text": "Finite‑stiffness links provide flexibility in parameter assignment; stiffness can be varied according to geological data and can account for anisotropy, heterogeneity, and different development stages of fault zones.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "flexibility",
+    "direction": "increases",
+    "factor": "ability to vary stiffness and include anisotropy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "жёсткость можно варьировать в зависимости от геологических данных, а также учитывать анизотропию, неоднородность и различные стадии развития разломных зон.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  },
+  {
+   "text": "The approach can simulate both complete loss of rock bonding along the fault plane and partial degradation of mechanical properties, making the model more realistic and adaptable to various geomechanical scenarios.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "realism",
+    "direction": "increases",
+    "factor": "ability to represent full or partial degradation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такой подход позволяет имитировать как полное разрушение сцепления пород по плоскости нарушения, так и частичную деградацию механических свойств.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  },
+  {
+   "text": "The methodology integrates efficiently into existing CAE packages (e.g., CAE Fidesys) based on the finite‑element method and demonstrates high computational efficiency while preserving result fidelity.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "integration with CAE Fidesys",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Методика эффективно интегрируется в существующие программные комплексы (например, CAE Fidesys), основанные на методе конечных элементов, и демонстрирует высокую вычислительную эффективность при сохранении достоверности результатов.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.81,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  },
+  {
+   "text": "The formulas used for equivalent stiffnesses are elements of the Bernoulli‑Euler rod stiffness matrix, corresponding to rod displacement in three directions.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "theoretical basis",
+    "direction": "nonmonotonic",
+    "factor": "derived from Bernoulli‑Euler theory",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Фактически, используемые формулы являются элементами матрицы жесткости стержня Бернулли‑Эйлера, которые соответствуют перемещению стержня по трем направлениям.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.81,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  },
+  {
+   "text": "The approach reduces the labor intensity of preparing calculation models by representing faults with finite‑stiffness links instead of explicit geometry.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Этот подход позволяет задавать ослабленные зоны, соответствующие разломам, в неявной форме, что существенно снижает трудоёмкость подготовки расчётных моделей.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  },
+  {
+   "text": "Finite‑stiffness links are implemented as springs with prescribed stiffness in a chosen direction.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Вместо явного моделирования геометрии каждого тектонического нарушения, предлагается использование специальных связей — пружин с заданной жёсткостью в определённом направлении, которые воспроизводят механическое поведение ослабленных участков массива.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  },
+  {
+   "text": "A Python external module for CAE Fidesys adds finite‑stiffness links automatically to the calculation mesh.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Надстройка выполнена в виде внешнего программного модуля на языке Python и обеспечивает возможность автоматического добавления связей конечной жёсткости в расчётную сетку.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  },
+  {
+   "text": "The methodology can be applied to geomechanical analysis for design and operation of mining and infrastructure objects in zones with many tectonic faults.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "может быть использовано в задачах геомеханического анализа при проектировании и эксплуатации горнотехнических и инфраструктурных объектов, расположенных в зонах с значительным количеством тектонических нарушений.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:1-моделирование-тектонических-нарушении-с-примен",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

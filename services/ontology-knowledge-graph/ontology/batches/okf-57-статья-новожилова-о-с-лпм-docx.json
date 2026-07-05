@@ -1,0 +1,885 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "title": "57 Статья- Новожилова О.С. (ЛПМ).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "XX",
+   "lang": "en",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\57 Статья- Новожилова О.С. (ЛПМ).docx.md",
+   "artifact_sha256": "8fe38af9a81f74af10c1788a9cfab78e365771e91e6a398dfd530d2f4bfdf2b2",
+   "okf_raw_path": "Статьи/57 Статья- Новожилова О.С. (ЛПМ).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:chromite-periclase-refractory",
+   "label": "chromite‑periclase refractory",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:high-temperature-molten-slag",
+   "label": "high‑temperature molten slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:исходные-огнеупоры-типа-хпт",
+   "label": "Исходные огнеупоры типа ХПТ",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:шихт",
+   "label": "Шихта",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:refractory-sample",
+   "label": "refractory sample",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag-melt",
+   "label": "slag melt",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:silicate-mass-in-slag",
+   "label": "silicate mass in slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:original-refractory-silicate",
+   "label": "original refractory silicate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:product-of-interaction-of-slag-silicate-and-refr",
+   "label": "product of interaction of slag silicate and refractory",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:57-статья-новожилова-о-с-лпм-docx:0",
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "title": "Laboratory test of chromite‑periclase refractory in high‑temperature molten slag",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Samples of chromite‑periclase refractory were exposed to a high‑temperature molten slag and subsequently examined by scanning electron microscopy and X‑ray microanalysis.",
+       "temperature_text": "high‑temperature (exact value not specified in the text)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chromite-periclase-refractory",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:high-temperature-molten-slag",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The main mechanisms of the refractories’ destruction include: permeation of the refractory bulk with molten slag due to the high porosity of the chromite‑periclase refractory, replacement of the refractory silicate binder with slag silicate, and direct chemical interaction of periclase granules with the slag.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "destruction mechanisms",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "The results obtained make it possible to determine the main mechanisms of the refractories’ destruction, which include: permeation of the refractory bulk with molten slag due to the high porosity of the chromite‑periclase refractory, replacement of the refractory silicate binder with slag silicate, and direct chemical interaction of periclase granules with the slag.",
+     "locator_kind": "md_para",
+     "locator": "para:10",
+     "confidence": 0.81
+    },
+    {
+     "text": "Chromites are immune to the aggressive effects of molten slag.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "chemical resistance of chromite",
+      "direction": "no_change",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "It has been revealed that chromites are immune to the aggressive effects of molten slag.",
+     "locator_kind": "md_para",
+     "locator": "para:10",
+     "confidence": 0.9
+    },
+    {
+     "text": "Products of periclase interaction with slag are refractory phases (secondary iron‑chromium spinels and magnesium‑based silicates) that can lead to formation of a secondary refractory skull layer during furnace operation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reaction products",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "It has been established that the products of periclase interaction with slag represent refractory phases (in particular, secondary iron‑chromium spinels and magnesium‑based silicates), which, as the furnace operates, can lead to the formation of a secondary refractory skull layer.",
+     "locator_kind": "md_para",
+     "locator": "para:10",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Present paper discusses the results of tests of chromite‑periclase refractories in high‑temperature molten slag.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:57-статья-новожилова-о-с-лпм-docx:1",
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "title": "Укрупненно‑лабораторные испытания стойкости огнеупоров в расплавах",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Футеровка дуговой печи огнеупорами, предварительный разогрев агрегата до 1350 °C, постепенная загрузка шихты, выдержка расплава 30 мин, тройное проведение плавки, последующее разбирание футеровки и исследование фрагментов отработанных огнеупоров",
+       "temperature_text": "1350 °C",
+       "duration_text": "30 мин"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1623.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:исходные-огнеупоры-типа-хпт",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:шихт",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Разрушение материала происходит за счёт химического взаимодействия с шлаковым расплавом и пропитки образца компонентами расплава.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "механизмы разрушения",
+      "direction": "increases",
+      "factor": "шлак",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Весь спектр процессов, приводящих к разрушению материала, можно условно разделить на две группы: 1) химическое взаимодействие материала огнеупора со шлаковым расплавом; 2) пропитка образца компонентами шлакового расплава.",
+     "locator_kind": "md_para",
+     "locator": "para:53",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Рассмотренные выше огнеупоры были подвергнуты укрупненно-лабораторным испытаниям на предмет стойкости в расплавах.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:57-статья-новожилова-о-с-лпм-docx:2",
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "title": "Laboratory impregnation of refractory sample with slag melt components",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "impregnation of the sample with components of the slag melt"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:refractory-sample",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:slag-melt",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The same spectrum of chemical interactions observed at the fire‑side edge is present throughout the depth of impregnation.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Таким образом, установлено что по всей глубине пропитки огнеупора наблюдается тот же спектр химических взаимодействий, что и в зоне непосредственного контакта футеровки с расплавом.",
+     "locator_kind": "md_para",
+     "locator": "para:80",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Пропитка образца компонентами шлакового расплава.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:57-статья-новожилова-о-с-лпм-docx:3",
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "title": "Composition analysis of silicate masses and interaction products",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Determination of elemental composition of silicate masses in slag and refractory by quantitative analysis (tables of % mass)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:silicate-mass-in-slag",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:original-refractory-silicate",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:product-of-interaction-of-slag-silicate-and-refr",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "mass percentage of elements (Na, Mg, Al, Si, K, Ca, Cr, Fe, O)",
+     "scope": "material",
+     "material_id": "mat:silicate-mass-in-slag",
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Mg 9,1 | 17,3 | 17,9 …",
+     "locator_kind": "md_para",
+     "locator": "para:82",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "impurity"
+     },
+     "method": null,
+     "snippet": "В указанных составляющих присутствуют примеси P, Ti, Ni и Cu суммарно не превышающие1,0%масс.",
+     "locator_kind": "md_para",
+     "locator": "para:94",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Химическому взаимодействию в первую очередь подвержены зерна периклаза, по периферии зерен происходит замещение магния железосиликатной составляющей шлака.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "chemical interaction mechanism",
+      "direction": "increases",
+      "factor": "periclase grains",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Химическому взаимодействию в первую очередь подвержены зерна периклаза, по периферии зерен происходит замещение магния железосиликатной составляющей шлака.",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.9
+    },
+    {
+     "text": "К физическому взаимодействию относится пропитка огнеупора компонентами шлакового расплава по двум механизмам: 1) проникновение силикатной составляющей шлака в поры между зерен огнеупора; 2) замещение силикатом шлака связующего используемого при производстве огнеупоров.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "physical interaction mechanisms",
+      "direction": "increases",
+      "factor": "slag melt components",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "К физическому взаимодействию относится пропитка огнеупора компонентами шлакового расплава по двум механизмам: 1) проникновение силикатной составляющей шлака в поры между зерен огнеупора; 2) замещение силикатом шлака связующего используемого при производстве огнеупоров.",
+     "locator_kind": "md_para",
+     "locator": "para:100",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В результате исследования методами РЭМ и РСМА определены две группы основных механизмов разрушения огнеупоров: физические и химические.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The choice of refractory materials to increase the industrial furnace linings’ operational time is among the current challenges of metallurgical plants.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operational time",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The choice of refractory materials to increase the industrial furnace linings’ operational time is among the current challenges of metallurgical plants.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "For MMC Norilsk Nickel, the characteristics of the refractory materials considered for upcoming projects are of particular interest.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "For MMC Norilsk Nickel, the characteristics of the refractory materials considered for upcoming projects are of particular interest.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Chromite‑periclase refractories are widely used for lining autogenous furnaces.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "These refractories are widely applied for lining autogenous furnaces.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Results of studies of both the original structure of HP‑T refractories and of samples worked out in industrial and laboratory scale are limited in the literature.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "literature coverage",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Results of studies of both the original structure of HP‑T refractories and of samples worked out in industrial and laboratory scale are limited in the literature.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Указанные огнеупоры широко применяются для футеровки автогенных печей.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "применимость",
+    "direction": "increases",
+    "factor": "огнеупоры",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Указанные огнеупоры широко применяются для футеровки автогенных печей.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Все образцы исходных огнеупоров представляют собой пористый спечённый материал, существенно неоднородный по составу и строению.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "структура",
+    "direction": "increases",
+    "factor": "пористость и неоднородность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установлено, что все образцы исходных огнеупоров представляют собой пористый спечённый материал, существенно неоднородный по составу и строению (рис.1.а).",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Гранулы хромовых шпинелей (магнезиохромитов) имеют размер от нескольких микрон до 750 мкм.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "размер",
+    "direction": "increases",
+    "factor": "хромовые шпинели",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "гранулы хромовых шпинелей (магнезиохромитов) крупностью от первых микрон до 750 мкм (рис.1.а-в).",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Частицы магнезиохромитов размером до 100 мкм содержат больше магния и железа и обеднены по хрому по сравнению с более крупными частицами.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "меньшая крупность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Частицы крупностью до 100мкм в отличие от более крупных содержат больше магния и железа и в тоже время обеднены по хрому;",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Многофазные частицы на основе оксида магния (периклаза) имеют размер от 20 мкм до 2,7 мм.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "размер",
+    "direction": "increases",
+    "factor": "периклазные частицы",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "многофазные частицы на основе оксида магния (периклаза) крупностью от 20 мкм до 2,7 мм (рис.а-б).",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Крупные частицы периклаза (от 500 мкм) обладают ярко выраженным зональным строением с центральными областями, однородными по составу и периферийными многофазными областями.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "структура",
+    "direction": "increases",
+    "factor": "крупность >500 мкм",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "крупные частицы (как правило, - от 500мкм) характеризуются воспроизводящимся ярко выраженным зональным строением (рис.1.б): - центральные области – однородны по составу и строению и представлены периклазом, ... - периферийные области представлены многофазными гранулами на основе периклаза с выделениями микрокристаллов вторичных хромовых шпинелей.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.45,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Частицы периклаза размером менее 500 мкм по составу и строению совпадают с периферийными областями более крупных частиц.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "структура",
+    "direction": "no_change",
+    "factor": "меньшая крупность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Что касается частиц крупностью менее 500мкм, то по составу и строению указанные структуры совпадают с периферийными областями более крупных частиц (рис.1.б).",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "В таблице 1 приведены массовые составы основных компонентов исходного огнеупора типа ХПТ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "массовый состав",
+    "direction": "no_change",
+    "factor": "компоненты огнеупора",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таблица 1 – Составы основных составляющих образцов исходного огнеупора типа ХПТ",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "После полного расплавления шихты расплав выдерживался в течение 30 минут, после чего сливался из печи.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "30 мин",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После полного расплавления шихты расплав выдерживался в течении 30 минут, после чего сливался из печи.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Плавку проводили трижды, после чего футеровка печи разбиралась и фрагменты отработанных огнеупоров направлялись на исследование.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "число плавок",
+    "direction": "increases",
+    "factor": "3",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плавку проводили трижды, после чего футеровка печи разбиралась и фрагменты отработанных огнеупоров направлялись на исследование.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Chemical “corrosion” by slag melt primarily affects periclase grains.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "susceptibility",
+    "direction": "increases",
+    "factor": "slag melt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установлено, что химическому «разъеданию» шлаковым расплавом в первую очередь подвержены зерна периклаза.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Primary chromite grains do not chemically interact with slag.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "non‑reactivity",
+    "direction": "no_change",
+    "factor": "slag",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В свою очередь зерна первичных хромовых шпинелей в химическое взаимодействие со шлаком не вступают.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Secondary periclase and secondary chromite grains are washed out into the slag layer.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "migration",
+    "direction": "increases",
+    "factor": "slag interaction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако, теряя связь с основным объемом огнеупора вследствие указанных выше процессов, оказываются «вымытыми» в шлаковый слой (рисунок 3.а).",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "A secondary slag layer forms on the fire‑side edge, concentrating magnesium‑based silicates, refractory‑derived secondary spinels and micron‑sized chromite spinels.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "composition",
+    "direction": "increases",
+    "factor": "interaction of melt with periclase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В указанном слое концентрируются продукты взаимодействия расплава с периклазом (силикаты на основе магния и тугоплавкие вторичные шпинели), а также микронные хромовые шпинели.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Accumulation of secondary refractory‑high‑melting components on the fire‑side edge leads to the formation of a garniture layer.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "layer development",
+    "direction": "increases",
+    "factor": "secondary high‑melting components",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В дальнейшем накопление на огневом крае вторичных тугоплавких компонентов приводит к формированию гарнисажного слоя.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Impregnation of the refractory by slag silicate occurs mainly by penetration of slag silicate into pores between refractory grains and, to a much lesser extent, by replacement of original silicate bridges.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Что касается пропитки огнеупора компонентами шлакового расплава, то указанные процессы реализуются за счет проникновения силикатной составляющей шлака в поры между зерен огнеупора и (в существенно меньшей степени) к замещению силикатом шлака исходных силикатных прожилок между зерен огнеупора.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Применение локальных методов исследования может быть использовано для сравнительной оценки стойкости огнеупоров различных типов в одинаковых условиях с целью определения наиболее подходящего материала.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability for comparative durability assessment",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Представленные в настоящей работе результаты показывают, что применение локальных методов исследования может быть использовано для сравнительной оценки стойкости огнеупоров различных типов в одинаковых условиях с целью определения наиболее подходящего материала.",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Хромиты химически инертны к составу шлаков Медного завода, однако совокупность химического и физического взаимодействия огнеупора со шлаком приводит к их «вымыванию».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "chemical inertness of chromites",
+    "direction": "increases",
+    "factor": "slag composition of copper plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Хромиты химически инертны к составу шлаков Медного завода, однако совокупность химического и физического взаимодействия огнеупора со шлаком приводит к их «вымыванию».",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "На поверхности огневого края огнеупора формируется высокотемпературный вторичный шлак, который в последствии формирует гарнисаж, защищающий огнеупор от дальнейшего растворения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "formation of protective garnish layer",
+    "direction": "increases",
+    "factor": "growth of secondary components (magnesium silicates, refractory spinels, chromium spinels)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На поверхности огневого края огнеупора за счет роста вторичных компонентов (силикаты на основе магния, тугоплавкие вторичные шпинели, а также микронные хромовые шпинели) формируется высокотемпературный вторичный шлак, который в последствии формирует гарнисаж, защищающий огнеупор от дальнейшего растворения.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Слой гарнисажа формирующийся на поверхности огнеупора непостоянен и может изменяться в зависимости от условий процесса, протекающего в агрегате, что неизбежно приведет к дальнейшему разрушению футеровки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stability of garnishment layer",
+    "direction": "decreases",
+    "factor": "process conditions in the unit",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В тоже время слой гарнисажа формирующийся на поверхности огнеупора непостоянен и может изменяться в зависимости от условий процесса, протекающего в агрегате, что неизбежно приведет к дальнейшему разрушению футеровки.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Проведенное исследование марки ХПТ показывает недостаточную стойкость огнеупора.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "durability of HPT refractory grade",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проведенное исследование марки ХПТ показывает недостаточную стойкость огнеупора.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Технические характеристики рассмотренных огнеупоров не дают гарантий физической и химической упорности при взаимодействии с иными типами материалов, используемых в современных высокоэффективных пирометаллургических агрегатах при переработке медного и медно-никелевого сырья.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "guarantee of physical and chemical resistance",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технические характеристики рассмотренных огнеупоров не дают гарантий физической и химической упорности при взаимодействии с иными типами материалов, используемых в современных высокоэффективных пирометаллургических агрегатах при переработке медного и медно-никелевого сырья.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Повышение стойкости огнеупоров возможно добиться заменой текущего огнеупорного материала на более упорные марки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "improving refractory durability",
+    "direction": "increases",
+    "factor": "use of more resistant refractory grades",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение стойкости огнеупоров возможно добиться заменой текущего огнеупорного материала на более упорные марки.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "В последующих работах планируется проведение работ по сравнению стойкости различных типов огнеупоров в продуктах ПАО «ГМК «Норильский Никель».",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В последующих работах коллектива авторов планируется проведение работ по сравнению стойкости различных типов огнеупоров в продуктах ПАО «ГМК «Норильский Никель».",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:57-статья-новожилова-о-с-лпм-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -88,6 +88,16 @@ def enqueue_process(resolved_path: str) -> ProcessResponse:
                 time.sleep(settings.PARSER_POLL_INTERVAL_S)
                 continue
             break
+    if resp.status_code == 409:
+        # Stage-0 OKF already on disk — skip re-enqueue; wait_until_done will
+        # return the existing path once status reports done.
+        status = get_status(resolved_path)
+        return ProcessResponse(
+            requested_path=resolved_path,
+            resolved_path=status.resolved_path,
+            enforce=settings.PARSER_ENFORCE,
+            status=status.overall_status,
+        )
     if resp.status_code >= 400:
         raise ParserError(f"process failed ({resp.status_code}): {resp.text}")
     return ProcessResponse.model_validate(resp.json())
@@ -104,6 +114,17 @@ def get_status(resolved_path: str) -> FileStatusResponse:
 
 def _stage_status(status: FileStatusResponse, stage_id: str) -> StageStatus | None:
     return next((s for s in status.stages if s.stage == stage_id), None)
+
+
+def _timeout_error(resolved_path: str, status: FileStatusResponse) -> ParserError:
+    """Build a timeout message that distinguishes queue backlog from slow parsing."""
+    if status.overall_status in (ProcessingStatus.queued, ProcessingStatus.pending):
+        return ParserError(
+            f"pipeline timed out while still {status.overall_status.value} for "
+            f"{resolved_path}; parser Docling workers may not be running "
+            f"(re-run `make up` or start with compose profile `parsing`)"
+        )
+    return ParserError(f"pipeline timed out for {resolved_path}")
 
 
 def wait_until_done(
@@ -140,5 +161,5 @@ def wait_until_done(
                     on_progress(_WAIT_PHASE_END)
                 return stage0.okf_path
         if time.monotonic() >= deadline:
-            raise ParserError(f"pipeline timed out for {resolved_path}")
+            raise _timeout_error(resolved_path, status)
         time.sleep(settings.PARSER_POLL_INTERVAL_S)

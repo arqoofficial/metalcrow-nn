@@ -1,0 +1,352 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:12_2004_cm-гипроникель-pdf",
+   "title": "12_2004_cm-гипроникель.pdf",
+   "doc_type": "article",
+   "year": 2004,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2004\\12_2004_cm-гипроникель.pdf.md",
+   "artifact_sha256": "9d26f0021696e0aa7bf75b31281ad68c790106092f5e1e0ef72d569b07cea7fb",
+   "okf_raw_path": "Журналы/Цветные металлы/2004/12_2004_cm-гипроникель.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:pyrotin-concentrate",
+   "label": "pyrotin concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:12_2004_cm-гипроникель-pdf:0",
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "title": "Industrial application of hydrometallurgical processing of pyrotin concentrate at GMП НМЗ",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "hydrometallurgical enrichment of pyrotin concentrate"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pyrotin-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual processing capacity",
+     "scope": "material",
+     "material_id": "mat:pyrotin-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в гидрометаллургическом производстве Надеждинского металлургического завода (ГМП НМЗ), введенном в эксплуатацию в 1979 г. на мощность переработки 1 млн т/год пирротинового концентрата",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "current annual throughput",
+     "scope": "material",
+     "material_id": "mat:pyrotin-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 650.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Сегодня ГМП НМЗ перерабатывает 650 тыс. т/год пирротинового концентрата",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "reduction of nickel ore load for pyrometallurgy",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 550.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "что позволяет убрать из загрузки пирометаллургии ~550 тыс. т никелевого сырья",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "reduction of SO2 emissions",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 300.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и сократить выбросы сернистого ангидрида с газами на ~300 тыс. т/год",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Технология не имеет аналогов в мировой практике",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Технология не имеет аналогов в мировой практике",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.81
+    },
+    {
+     "text": "Затраты в гидрометаллургическом переделе многократно выше, чем при использовании технологии массового вывода в отвал малоникелистого пирротина при обогащении",
+     "kind": "recommendation",
+     "effect": null,
+     "snippet": "Однако затраты в гидрометаллургическом переделе многократно выше, чем при использовании технологии массового вывода в отвал малоникелистого пирротина при обогащении",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В гидрометаллургическом производстве Надеждинского металлургического завода (ГМП НМЗ), введенном в эксплуатацию в 1979 г. на мощность переработки 1 млн т/год пирротинового концентрата, используется отечественная автоклавная технология для химического обогащения этого продукта перед взвешенной плавкой с переводом большей части серы сырья (~80 %) в товарную серу и отвальные хвосты.",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Отношение S/Cu в медном концентрате Норильска в 1,15-1,2 раза выше, чем в аналогичных зарубежных концентратах",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "S/Cu ratio",
+    "direction": "increases",
+    "factor": "1,15-1,2 times",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "отношение S/Cu в медном концентрате Норильска в 1,15-1,2 раза выше, чем в аналогичных зарубежных концентратах",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  },
+  {
+   "text": "Отношение S/Ni в никелевом концентрате (с учетом пирротинового) в 1,5-1,8 раза выше, чем в зарубежных никелевых концентратах",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "S/Ni ratio",
+    "direction": "increases",
+    "factor": "1,5-1,8 times",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по никелевому концентрату (с учетом пирротинового для металлургии) отношение S/Ni в 1,5-1,8 раза выше, чем в зарубежных никелевых концентратах",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.81,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  },
+  {
+   "text": "Норильские руды богаче канадских по содержанию цветных металлов в 1,1-1,6 раза",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "color metal content",
+    "direction": "increases",
+    "factor": "1,1-1,6 times",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добываемые сегодня норильские руды богаче канадских по содержанию цветных металлов (по сумме никеля и меди в 1,1-1,6 раза)",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  },
+  {
+   "text": "Содержание пустой породы в норильских рудах в среднем в ~1,5 раза меньше, чем в канадских рудах",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "waste rock content",
+    "direction": "decreases",
+    "factor": "~1,5 times",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "содержание пустой породы в них в среднем в ~1,5 раза меньше",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  },
+  {
+   "text": "Содержание пирротина в норильских рудах в ~1,6 раза больше, чем в канадских рудах",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "~1,6 times",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "а содержание пирротина в ~1,6 раза больше, чем в канадских рудах",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  },
+  {
+   "text": "На канадских фабриках выводится в отвал 95-98 % породообразующих минералов, в то время как в Норильске только ~90 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mineral waste removal",
+    "direction": "decreases",
+    "factor": "~90 % vs 95-98 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на канадских фабриках выводится в отвал 95-98 % породообразующих минералов, в то время как в Норильске только ~90 %",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.81,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  },
+  {
+   "text": "Количество пирротина, выводимого в отвальные продукты на канадских фабриках, сегодня колеблется от 63 до 85 %",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "количество пирротина, выводимого в отвальные продукты на канадских фабриках, сегодня колеблется от 63 до 85 %",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.81,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  },
+  {
+   "text": "Для Норильска показатель вывода пирротина в 1997 г. составлял 36 %, в 2003 г. – 57 %",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для Норильска этот показатель в 1997 г. составлял 36, в 2003 г. - 57 %",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  },
+  {
+   "text": "Суммарный выход хвостов в Норильске в 1997 г. составлял ~55 % от обогащаемой руды, в 2003 г. уже 70 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "tailings output",
+    "direction": "increases",
+    "factor": "~55 % (1997), 70 % (2003)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "суммарный выход хвостов на обогатительных фабриках в Норильске в 1997 г. составлял ~55 % от обогащаемой руды, в 2003 г. уже 70 %",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.9,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  },
+  {
+   "text": "Качество суммарного никелевого концентрата в 2003 г. 6,1 % Ni против >12,0 % на зарубежных предприятиях",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel concentrate grade",
+    "direction": "decreases",
+    "factor": "6,1 % vs >12,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2003 г. 6,1 % Ni против >12,0 % на зарубежных предприятиях",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.81,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  },
+  {
+   "text": "Качество медного концентрата в 2003 г. 26,5 % Cu против >30,0 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper concentrate grade",
+    "direction": "decreases",
+    "factor": "26,5 % vs >30,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "медного концентрата (26,5 % Cu против >30,0 %)",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.81,
+   "document_id": "doc:12_2004_cm-гипроникель-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

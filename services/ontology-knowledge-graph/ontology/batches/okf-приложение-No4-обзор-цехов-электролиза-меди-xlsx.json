@@ -1,0 +1,62 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:приложение-No4-обзор-цехов-электролиза-меди-xlsx",
+   "title": "Приложение №4 Обзор цехов электролиза меди.xlsx",
+   "doc_type": "article",
+   "year": 1999,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Приложение №4 Обзор цехов электролиза меди.xlsx.md",
+   "artifact_sha256": "62a92cc002399711ec45a5d3bab56ba82b2890782aec94c807543e46787d3855",
+   "okf_raw_path": "Обзоры/Приложение №4 Обзор цехов электролиза меди.xlsx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Capacity reduced by 20 % from 2020 to 2024",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "decreases",
+    "factor": "20 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Capacity reduced by 20 % from 2020 to 2024",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:приложение-No4-обзор-цехов-электролиза-меди-xlsx",
+   "process": null
+  },
+  {
+   "text": "до 500, на практике 350/ч",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "decreases",
+    "factor": "350/ч (practical) vs 500 (max)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "до 500, на практике 350/ч",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:приложение-No4-обзор-цехов-электролиза-меди-xlsx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

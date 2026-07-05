@@ -25,6 +25,13 @@ class Settings(BaseSettings):
     # Daily cap on paid "managed content" PDF downloads (free tier = 100/day).
     openalex_content_daily_cap: int = 100
 
+    # Cyberleninka RU-language search (returns full text inline via `ocr` — no
+    # separate PDF fetch needed). Only reachable from this box via the socks5
+    # proxy below; empty string disables the proxy (client falls back to a
+    # direct request either way on proxy failure).
+    cyberleninka_api_base: str = "https://cyberleninka.ru/api"
+    cyberleninka_proxy_url: str = "socks5h://37.16.81.138:1080"
+
     # Sci-Hub mirror fallback (tried in order, after the OpenAlex OA path).
     # Comma-separated + env-overridable (SCIHUB_MIRRORS). Default expanded from the
     # old 2-mirror list — all verified reachable (sci-hub.se is dead/NXDOMAIN and

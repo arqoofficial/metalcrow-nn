@@ -1,0 +1,901 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "title": "Электроэкстракция никеля. Влияние состава электролита.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Электроэкстракция никеля. Влияние состава электролита.docx.md",
+   "artifact_sha256": "58feae1de3807060030301032d3babf7f8e88a954299b7fc5d2d3ba022582dc1",
+   "okf_raw_path": "Обзоры/Электроэкстракция никеля. Влияние состава электролита.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:nicl2-electrolyte",
+   "label": "NiCl2 electrolyte",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:na2so4-additive",
+   "label": "Na2SO4 additive",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:impurities-mn-cr-so4",
+   "label": "Impurities (Mn, Cr, SO4)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nicl2-6h2o-solution",
+   "label": "NiCl₂·6H₂O solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:mn2-ion",
+   "label": "Mn²⁺ ion",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:niso4-electrolyte",
+   "label": "NiSO4 electrolyte",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:boric-acid",
+   "label": "Boric acid",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-sulfate",
+   "label": "Sodium sulfate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:SLS",
+   "label": "SLS",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-selenide-cuse-particles",
+   "label": "Copper selenide (CuSe) particles",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ba-pb-co-precipitated-sulfate-particles",
+   "label": "Ba/Pb co‑precipitated sulfate particles",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fe-oh-3-particles",
+   "label": "Fe(OH)₃ particles",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:электроэкстракция-никеля-влияние-состава-электро:0",
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "title": "Effect of current density, pH and impurities on brightness and surface morphology of nickel deposit",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrolysis of nickel from chloride solution",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nicl2-electrolyte",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:na2so4-additive",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:impurities-mn-cr-so4",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "hydrogen ion activity coefficient (Υ H+)",
+     "scope": "material",
+     "material_id": "mat:nicl2-electrolyte",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "измеренный коэффициент активности иона водорода Υ Н+ был больше 1 в концентрированных растворах NiCl 2 увеличивался существенно с ростом концентрации NiCl 2 , в то время как добавки Na 2 SO 4 его снижали.",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:nicl2-electrolyte",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "of nioh+ particles"
+     },
+     "method": null,
+     "snippet": "концентрация частиц NiOH + (по сложившимся представлениям – это электроактивные частицы) пренебрежимо мало до тех пор, пока концентрация NiCl 2 не станет ниже 10 -6 М. При повышении рН следует ожидать образование Ni(OH) 2тв , если концентрация NiCl 2 выше 10 -6 М.",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Increasing pH leads to Ni(OH)2 precipitation at lower pH values when NiCl2 concentration and temperature are higher.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "pH threshold for Ni(OH)2 formation",
+      "direction": "decreases",
+      "factor": "NiCl2 concentration and temperature",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Значение рН, при котором начинает образовываться Ni(OH) 2тв , снижается при увеличении концентрации NiCl 2 и температуры.",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В диссертации Jinxing Ji [2] тридцатилетней давности «Фундаментальные аспекты электролиза никеля из хлоридных электролитов» было установлено:",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:электроэкстракция-никеля-влияние-состава-электро:1",
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "title": "Effect of current density and pH on crystal morphology",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrodeposition of nickel from aqueous solution at various current densities (100, 300, 500 A/m²) and pH values (1, 2, 3)",
+       "temperature_text": "333 K",
+       "duration_text": "charge 7.2·10⁵ C/m² (implied by charge value in Table 1.3)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 606.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nicl2-6h2o-solution",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Crystal orientation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "При рН 1 предпочтительная ориентация – кристаллографическая плоскость {110}, но с увеличением ПТ развивается тенденция к переходу к неориентированной структуре без предпочтительной ориентации в конкретной плоскости.",
+     "locator_kind": "md_para",
+     "locator": "para:82",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "um",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Oxygen depth profile (rf‑GDOES)"
+     },
+     "method": null,
+     "snippet": "Толщина слоя осадка составляла ~20 мкм. Кислород был обнаружен на поверхности осадка и на межфазной границе осадок/титановая подложка.",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.57
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 300.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "surface oxygen"
+     },
+     "method": null,
+     "snippet": "Концентрация кислорода на поверхности осадка при ПТ 300 А/м² была самой высокой при рН 1 и 2 и на глубине 2 мкм от поверхности при рН 3.",
+     "locator_kind": "md_para",
+     "locator": "para:91",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Светлость поверхности снижается с ростом рН, минимум светлости при рН 3 и плотности тока 300 А/м².",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "brightness",
+      "direction": "decreases",
+      "factor": "pH",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Светлость поверхности снижается с ростом рН, минимум светлости при рН 3 и плотности тока 300 А/м².",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.81
+    },
+    {
+     "text": "Концентрация кислорода на поверхности увеличивается с ростом рН и максимальна при 300 А/м², т.е. кислород вызывает снижение светлости.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "increases",
+      "factor": "pH",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Концентрация кислорода на поверхности увеличивается с ростом рН и максимальна при 300 А/м², т.е. кислород вызывает снижение светлости.",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Размеры кристаллов многоугольной пирамидальной формы почти постоянны, независимо от ПТ. Однако с ростом ПТ наблюдаются мелкие пластинчатые кристаллы, сосредоточенные между крупными многоугольными пирамидами.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:электроэкстракция-никеля-влияние-состава-электро:2",
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "title": "Effect of Mn²⁺ impurity on nickel deposition efficiency and morphology",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrodeposition of nickel from NiCl₂·6H₂O bath containing Mn²⁺ at concentrations 1–10 g/dm³, pH 1, 2, 3, current density 300 A/m², temperature 333 K",
+       "temperature_text": "333 K",
+       "duration_text": "charge 7.2·10⁵ C/m²"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 606.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:mn2-ion",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:nicl2-6h2o-solution",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Number of ~1 µm crystals",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "шт",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Количество кристаллов размером ~1 мкм увеличилось.",
+     "locator_kind": "md_para",
+     "locator": "para:120",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Mn²⁺ does not co‑deposit with nickel (confirmed by ICP‑MS).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "co‑deposition",
+      "direction": "no_change",
+      "factor": "Mn²⁺ presence",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Масс-спектрометрия с индуктивно связанной плазмой подтвердила, что марганец не осаждается вместе с никелем.",
+     "locator_kind": "md_para",
+     "locator": "para:113",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Добавки ионов Mn²⁺ во всех растворах ведут к небольшому снижению КПД по току, независимо от рН.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:электроэкстракция-никеля-влияние-состава-электро:3",
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "title": "Effect of copper selenide particles on nickel electrodeposit morphology and efficiency",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "electroextraction",
+      "extra": {
+       "raw_process": "Nickel electrowinning from synthetic sulfate electrolyte",
+       "temperature_text": "60 °C",
+       "duration_text": "6 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:niso4-electrolyte",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:boric-acid",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:sodium-sulfate",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:SLS",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:copper-selenide-cuse-particles",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "current_efficiency",
+     "scope": "material",
+     "material_id": "mat:copper-selenide-cuse-particles",
+     "value": {
+      "min": null,
+      "nominal": 96.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Селенид меди также снижал выход по току с 96 % до 82 % и влиял на адгезию (катод легко отделялся от основы).",
+     "locator_kind": "md_para",
+     "locator": "para:246",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Even at a concentration of 0,004 g/л the influence of copper selenide is evident.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "morphology influence",
+      "direction": "increases",
+      "factor": "copper selenide",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Даже при концентрации 0,004 г/л влияние селенида меди очевидно.",
+     "locator_kind": "md_para",
+     "locator": "para:246",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Опыты проводили с синтетическим сульфатным электролитом с 80 г/л Ni (авторы из ЮАР, где электролиз из сульфатного электролита применяется на заводе Rustenburg) с добавкой борной кислоты (10 г/л), сульфата натрия (120 г/л) и SLS (8 мг/л) (это неточно!). Опыты вели в модифицированной цилиндрической вращающейся ячейке Хулла.",
+   "locator_kind": "md_para",
+   "locator": "para:237",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:электроэкстракция-никеля-влияние-состава-электро:4",
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "title": "Effect of Ba/Pb co‑precipitated sulfate particles on nickel deposit morphology",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "electroextraction",
+      "extra": {
+       "raw_process": "Nickel electrowinning from synthetic sulfate electrolyte (same composition as above)",
+       "temperature_text": "60 °C",
+       "duration_text": "6 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ba-pb-co-precipitated-sulfate-particles",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Ba/Pb sulfates have no serious influence on deposit morphology except for fine particles at sufficient concentration and high current density.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "morphology influence",
+      "direction": "increases",
+      "factor": "Ba/Pb sulfate",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Соосажденные Ba/Pb сульфаты не оказывают серьезного влияния на морфологию осадка, за исключением частиц <25 мкм при концентрации, по крайней мере, 0,5 г/л при плотности тока >250 А/м 2 . В этих условиях наблюдался питтинг.",
+     "locator_kind": "md_para",
+     "locator": "para:247",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Опыты проводили с синтетическим сульфатным электролитом с 80 г/л Ni (авторы из ЮАР, где электролиз из сульфатного электролита применяется на заводе Rustenburg) с добавкой борной кислоты (10 г/л), сульфата натрия (120 г/л) и SLS (8 мг/л) (это неточно!). Опыты вели в модифицированной цилиндрической вращающейся ячейке Хулла.",
+   "locator_kind": "md_para",
+   "locator": "para:237",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:электроэкстракция-никеля-влияние-состава-электро:5",
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "title": "Effect of iron hydroxide particles on nickel deposit morphology",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "electroextraction",
+      "extra": {
+       "raw_process": "Nickel electrowinning from synthetic sulfate electrolyte (same composition as above)",
+       "temperature_text": "60 °C",
+       "duration_text": "6 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe-oh-3-particles",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Iron hydroxide causes pitting and internal stress when concentration exceeds 0,5 g/л and particle size is below 25 µm.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "morphology influence",
+      "direction": "increases",
+      "factor": "iron hydroxide",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Гидроксид железа приводил к питтингу и внутреннему напряжению при концентрациях >0,5 г/л и размерах частиц <25 мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:248",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Опыты проводили с синтетическим сульфатным электролитом с 80 г/л Ni (авторы из ЮАР, где электролиз из сульфатного электролита применяется на заводе Rustenburg) с добавкой борной кислоты (10 г/л), сульфата натрия (120 г/л) и SLS (8 мг/л) (это неточно!). Опыты вели в модифицированной цилиндрической вращающейся ячейке Хулла.",
+   "locator_kind": "md_para",
+   "locator": "para:237",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Electrolysis of chloride solutions yields high‑purity nickel cathodes, usually >99,98 %, sometimes 99,99 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product purity",
+    "direction": "increases",
+    "factor": "effective electrolyte cleaning and hot water rinsing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате электролиза из хлоридного раствора получают никелевые катоды высокой чистоты: обычно >99,98 %, иногда 99,99 %.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": null
+  },
+  {
+   "text": "Introducing any additives into the electrolyte to improve surface morphology generally leads to a strong decrease in metal purity, which is undesirable.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "metal purity",
+    "direction": "decreases",
+    "factor": "addition of additives",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Введение каких-либо добавок в электролит с целью улучшения, например, морфологии поверхности, вообще говоря, ведет к сильному снижению чистоты металла, что нежелательно.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": null
+  },
+  {
+   "text": "Surface morphology of cathodic nickel is an important quality characteristic of the product.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "surface morphology",
+    "direction": "nonmonotonic",
+    "factor": "product quality",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Морфология поверхности катодного никеля – важная характеристика качества продукта.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": "electroextraction"
+  },
+  {
+   "text": "The Nikkelverk plant produces “the purest metallic nickel”, and the Niihama plant produces “one of the purest” nickel.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product purity",
+    "direction": "increases",
+    "factor": "plant-specific operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На этих заводах получают «самый чистый металлический никель» (Nikkelverk) и «один из самых чистых» Ni (Niihama).",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Typical cathode current density at Niihama is 233‑279 A/m², and at Nikkelverk 260 A/m².",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "plant design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катодная плотность тока, А/м2 | 233-279 | 260",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": null
+  },
+  {
+   "text": "При осаждении металлов структура становится неориентированной при увеличении перенапряжения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "crystal orientation",
+    "direction": "decreases",
+    "factor": "overpotential",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вообще говоря, при осаждении металлов структура становится неориентированной при увеличении перенапряжения.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": null
+  },
+  {
+   "text": "Светлость увеличивается со снижением шероховатости.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "brightness",
+    "direction": "increases",
+    "factor": "roughness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вообще говоря, считается, что светлость увеличивается со снижением шероховатости.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": null
+  },
+  {
+   "text": "В настоящем исследовании корреляционной связи не обнаружено.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "correlation",
+    "direction": "no_change",
+    "factor": "roughness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако в настоящем исследовании корреляционной связи не обнаружено.",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": null
+  },
+  {
+   "text": "Ni(OH)₂ подавляет рост кристаллов, а при повышенных токах количество Ni(OH)₂ растёт из‑за ускоренного выделения H₂.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crystal growth",
+    "direction": "decreases",
+    "factor": "Ni(OH)₂ presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Возможно, Ni(OH)₂ подавляет рост кристаллов. С другой стороны, с увеличением ПТ количество образующегося Ni(OH)₂ растет, благодаря росту скорости выделения водорода (реакции 4, 5).",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.81,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": null
+  },
+  {
+   "text": "При увеличении ПТ растет и скорость восстановления Ni(OH)₂ до Ni.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reduction rate of Ni(OH)₂",
+    "direction": "increases",
+    "factor": "current density",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако с увеличением ПТ растет и скорость восстановления Ni(OH)₂ до Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.81,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": null
+  },
+  {
+   "text": "Copper selenide substantially influences the morphology of the cathode surface.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "morphology",
+    "direction": "increases",
+    "factor": "copper selenide",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Селенид меди существенно влияет на морфологию поверхности катода.",
+   "locator_kind": "md_para",
+   "locator": "para:242",
+   "confidence": 0.9,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Selenide of copper reduces current efficiency from 96 % to 82 % and impairs adhesion of the deposit.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "decreases",
+    "factor": "copper selenide",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Селенид меди также снижал выход по току с 96 % до 82 % и влиял на адгезию (катод легко отделялся от основы).",
+   "locator_kind": "md_para",
+   "locator": "para:246",
+   "confidence": 0.9,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Ba/Pb co‑precipitated sulfates have no serious effect on deposit morphology except for particles smaller than 25 µm at concentrations of at least 0,5 g/л and current densities above 250 A/m², where pitting occurs.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "morphology (pitting)",
+    "direction": "increases",
+    "factor": "Ba/Pb sulfate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Соосажденные Ba/Pb сульфаты не оказывают серьезного влияния на морфологию осадка, за исключением частиц <25 мкм при концентрации, по крайней мере, 0,5 г/л при плотности тока >250 А/м 2 . В этих условиях наблюдался питтинг.",
+   "locator_kind": "md_para",
+   "locator": "para:247",
+   "confidence": 0.81,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Iron hydroxide particles cause pitting and internal stress when their concentration exceeds 0,5 g/л and particle size is below 25 µm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "morphology (pitting, internal stress)",
+    "direction": "increases",
+    "factor": "iron hydroxide",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Гидроксид железа приводил к питтингу и внутреннему напряжению при концентрациях >0,5 г/л и размерах частиц <25 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:248",
+   "confidence": 0.81,
+   "document_id": "doc:электроэкстракция-никеля-влияние-состава-электро",
+   "process": "electroextraction"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

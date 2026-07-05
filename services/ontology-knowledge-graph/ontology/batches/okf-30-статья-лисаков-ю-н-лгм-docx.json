@@ -1,0 +1,753 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "title": "30 Статья - Лисаков Ю.Н. (ЛГМ).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\30 Статья - Лисаков Ю.Н. (ЛГМ).docx.md",
+   "artifact_sha256": "44280ffc7f5ae0645f3d8efa199da7b4bfb1dbe04f0683363eaa3c0fb57d9499",
+   "okf_raw_path": "Статьи/30 Статья - Лисаков Ю.Н. (ЛГМ).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:alloy-35",
+   "label": "Alloy 35",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-2000",
+   "label": "Alloy 2000",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-22",
+   "label": "Alloy 22",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-27",
+   "label": "Alloy 27",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-хн65мв",
+   "label": "Alloy ХН65МВ",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:technical-titanium-vt1-0",
+   "label": "Technical titanium VT1‑0",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nt-47-alloy",
+   "label": "NT-47 alloy",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:30-статья-лисаков-ю-н-лгм-docx:0",
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "title": "Corrosion tests of nickel‑based alloys and titanium in a 1 L titanium autoclave",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "corrosion testing",
+       "temperature_text": "200 о С",
+       "duration_text": "2,5‑3 ч"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 473.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:alloy-35",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:alloy-2000",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:alloy-22",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:alloy-27",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:alloy-хн65мв",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:technical-titanium-vt1-0",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pressure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.5,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "oxygen partial"
+     },
+     "method": null,
+     "snippet": "парциальное давление кислорода – 0,5 МПа",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "stirring speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1200.0,
+      "max": null
+     },
+     "unit": "rpm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "скорость вращения мешалки 1200-1500 об/мин",
+     "locator_kind": "md_para",
+     "locator": "para:18",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "acid  in pulp"
+     },
+     "method": null,
+     "snippet": "H 2 SO 4 – 50",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.5,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "iron  in pulp"
+     },
+     "method": null,
+     "snippet": "Fe – 1,5",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:technical-titanium-vt1-0",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "nickel  in pulp"
+     },
+     "method": null,
+     "snippet": "Ni – 20",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "chloride  in pulp"
+     },
+     "method": null,
+     "snippet": "Cl - - 15",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "В результате исследования процесса выщелачивания такого концентрата было показано, что в раствор может быть переведено до 98 % никеля при температуре – 190-200 о С и давлении кислорода – 0,7 МПа, в течение 2,5-3 часов.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "temperature 190‑200 °C, O₂ pressure 0,7 MPa, 2.5‑3 h",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В результате исследования процесса выщелачивания такого концентрата было показано, что в раствор может быть переведено до 98 % никеля при температуре – 190-200 о С и давлении кислорода – 0,7 МПа, в течение 2,5-3 часов.",
+     "locator_kind": "md_para",
+     "locator": "para:10",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Коррозионные испытания проводили в титановом автоклаве емкостью один литр (рисунок 1). Нагрев пульпы в автоклаве осуществляется с помощью внешних термонагревателей. Конструкция автоклава обеспечивает контроль и поддержание заданной температуры и давления, возможность подачи и сброса газа. Перемешивание пульпы в автоклаве в ходе испытаний осуществлялось трехлопастной мешалкой. Выщелачивание концентрата проводили в пульпе с исходным Ж/Т – 6,0. Испытания проводились при следующих параметрах: температура – 200 о С, парциальное давление кислорода – 0,5 МПа, скорость вращения мешалки 1200-1500 об/ми",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:30-статья-лисаков-ю-н-лгм-docx:1",
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "title": "Effect of surface hardening on corrosion rate of NT-47 alloy",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "surface hardening treatment"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nt-47-alloy",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "corrosion_rate",
+     "scope": "material",
+     "material_id": "mat:nt-47-alloy",
+     "value": {
+      "min": 2.0,
+      "nominal": null,
+      "max": 3.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "упрочняющая обработка поверхности привела к снижению скорости коррозии сплава НТ-47 в два – три раза.",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "surface hardening reduces corrosion rate",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "corrosion_rate",
+      "direction": "decreases",
+      "factor": "surface hardening",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "упрочняющая обработка поверхности привела к снижению скорости коррозии сплава НТ-47 в два – три раза.",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Из данных таблицы 4 видно, что упрочняющая обработка поверхности привела к снижению скорости коррозии сплава НТ-47 в два – три раза.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:30-статья-лисаков-ю-н-лгм-docx:2",
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "title": "Thermal oxidation at 1050 °C of NT-47 alloy samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "thermal oxidation",
+       "temperature_text": "1050 0 С"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1323.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nt-47-alloy",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "thermal oxidation at 1050 °C gives the best corrosion resistance",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "corrosion resistance",
+      "direction": "increases",
+      "factor": "thermal oxidation at 1050 °C",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наибольшую коррозионную стойкость показали образцы, прошедшие упрочнение методом термического оксидирования при 1050 0 С",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Наибольшую коррозионную стойкость показали образцы, прошедшие упрочнение методом термического оксидирования при 1050 0 С, однако этот способ требует дополнительной обработки с целью удаления рыхлых оксидных осадков с поверхности.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:30-статья-лисаков-ю-н-лгм-docx:3",
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "title": "Thermal oxidation at lower temperatures (750–900 °C) of NT-47 alloy",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "thermal oxidation",
+       "temperature_text": "750 – 900 0 С"
+      },
+      "temperature": {
+       "min": 1023.15,
+       "nominal": null,
+       "max": 1173.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nt-47-alloy",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "corrosion resistance",
+     "scope": "material",
+     "material_id": "mat:nt-47-alloy",
+     "value": {
+      "min": null,
+      "nominal": 1050.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Термическое оксидирование, выполненное при более низких температурах, чуть менее эффективно, однако также позволяет достичь высокой коррозионной стойкости.",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "lower‑temperature thermal oxidation still provides high corrosion resistance",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "corrosion resistance",
+      "direction": "increases",
+      "factor": "thermal oxidation at 750–900 °C",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Термическое оксидирование, выполненное при более низких температурах, чуть менее эффективно, однако также позволяет достичь высокой коррозионной стойкости.",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Термическое оксидирование, выполненное при более низких температурах, чуть менее эффективно, однако также позволяет достичь высокой коррозионной стойкости.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:30-статья-лисаков-ю-н-лгм-docx:4",
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "title": "Effect of oxidation duration on corrosion resistance",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "thermal oxidation (duration variation)",
+       "duration_text": "varied"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nt-47-alloy",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "oxidation time does not significantly affect corrosion resistance",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "corrosion resistance",
+      "direction": "no_change",
+      "factor": "oxidation duration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Можно отметить, что увеличение продолжительности термического оксидирования не играет существенной роли.",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Можно отметить, что увеличение продолжительности термического оксидирования не играет существенной роли.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:30-статья-лисаков-ю-н-лгм-docx:5",
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "title": "Micro‑arc oxidation and laser processing of NT-47 alloy",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "micro‑arc oxidation; laser treatment"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nt-47-alloy",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "micro‑arc oxidation and laser treatment are highly effective but more complex for industrial use",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "corrosion resistance",
+      "direction": "increases",
+      "factor": "micro‑arc oxidation / laser processing",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Микродуговое оксидирование и лазерная обработка также высоко эффективны, однако эти способы представляются более сложными для промышленной реализации.",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Микродуговое оксидирование и лазерная обработка также высоко эффективны, однако эти способы представляются более сложными для промышленной реализации.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Существенная часть никеля находится в форме миллерита и пентландита, что предполагает возможность перевода основного количества никеля в раствор в относительно мягких условиях автоклавного окислительного выщелачивания – температура 140-160 oС, парциальное давление кислорода 0,5-1,0 МПа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "nickel dissolution",
+    "direction": "increases",
+    "factor": "temperature 140‑160 °C, O₂ pressure 0,5‑1,0 MPa",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Существенная часть никеля находится в форме миллерита и пентландита, что предполагает возможность перевода основного количества никеля в раствор в относительно мягких условиях автоклавного окислительного выщелачивания – температура 140-160 oС, парциальное давление кислорода 0,5-1,0 МПа.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Для достижения же высоких извлечений никеля в раствор в процессе выщелачивания необходимо обеспечить максимальное вскрытие и полидимита, виоларита и пирита, содержащего никель.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "maximal opening of polydymite, violarite, pyrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для достижения же высоких извлечений никеля в раствор в процессе выщелачивания необходимо обеспечить максимальное вскрытие и полидимита, виоларита и пирита, содержащего никель.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Эти составляющие никелевых концентратов окисляются в более жестких условиях при температуре более 170 о С.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reaction condition",
+    "direction": "increases",
+    "factor": "temperature >170 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти составляющие никелевых концентратов окисляются в более жестких условиях при температуре более 170 о С.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Серная кислота, образующаяся в процессе окисления пирита и гидролиза сульфата железа, ещё и способствует тому, что окисление сульфидов никеля частично протекает через образование элементной серы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "formation of elemental sulfur",
+    "direction": "increases",
+    "factor": "presence of H₂SO₄ from pyrite oxidation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Серная кислота, образующаяся в процессе окисления пирита и гидролиза сульфата железа, ещё и способствует тому, что окисление сульфидов никеля частично протекает через образование элементной серы.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Снижение извлечения серы в элементную форму достигается повышением температуры до 200 о С и выше.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "elemental sulfur extraction",
+    "direction": "decreases",
+    "factor": "temperature ≥200 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снижение извлечения серы в элементную форму достигается повышением температуры до 200 о С и выше.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Промышленная реализация гидрометаллургических технологий часто требует использования на операции выщелачивания воды с высоким солевым фоном, содержащей до 15 г/л иона хлора.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "up to 15 g/l Cl⁻",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "высокий солевой фон, содержащей до 15 г/л иона хлора.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.81,
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "Столь высокие температуры процесса, высокие содержания коррозионноактивных компонентов в растворе, абразивные свойства пульпы, приводят к необходимости подбора новых конструкционных материалов для изготовления корпусного оборудования, в т.ч. оборудования высокого давления, перемешивающих устройств, встроенных теплообменников, закладных деталей.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "material selection",
+    "direction": "increases",
+    "factor": "high temperature, aggressive chemistry, abrasive pulp",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Столь высокие температуры процесса, высокие содержания коррозионноактивных компонентов в растворе, абразивные свойства пульпы, приводят к необходимости подбора новых конструкционных материалов для изготовления корпусного оборудования, в т.ч. оборудования высокого давления, перемешивающих устройств, встроенных теплообменников, закладных деталей.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "For manufacturing mixing devices, heat‑exchange equipment, and embedded parts, it is advisable to use NT‑47 alloy with thermal oxidation of finished products at 750–900 °C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "temperature 750–900 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "поэтому для изготовления перемешивающих устройств, теплообменной аппаратуры, закладных деталей, можно рекомендовать применение сплава НТ-47 с использованием метода термического оксидирования готовых изделий при температурах 750 – 900 0 С.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "process": null
+  },
+  {
+   "text": "Thermal oxidation at 1050 °C requires additional cleaning to remove loose oxide deposits from the surface.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operational requirement",
+    "direction": "increases",
+    "factor": "temperature 1050 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "однако этот способ требует дополнительной обработки с целью удаления рыхлых оксидных осадков с поверхности.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:30-статья-лисаков-ю-н-лгм-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,1975 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Сверхтонкое_измельчение_2012.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Сверхтонкое_измельчение_2012.pdf.md",
+   "artifact_sha256": "d3363fef193c7358faa467f38f2c53881da5bdaf1b5e036d0e5f69160f0d5277",
+   "okf_raw_path": "Обзоры/Сверхтонкое_измельчение_2012.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:ultra-fine-concentrates",
+   "label": "ultra‑fine concentrates",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulphide-concentrate",
+   "label": "sulphide concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rich-tailings",
+   "label": "rich tailings",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:refractory-ores",
+   "label": "refractory gold ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:arsenopyrite-flotation-concentrate",
+   "label": "arsenopyrite flotation concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:low-grade-concentrate",
+   "label": "low‑grade concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:electro-filter-dust",
+   "label": "electro‑filter dust",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:boiler-dust",
+   "label": "boiler dust",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lead-zinc-ore",
+   "label": "lead‑zinc ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:isachargertm-loading-system",
+   "label": "IsaChargerTM loading system",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:IsaMill",
+   "label": "IsaMill",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:primary-concentrate",
+   "label": "primary concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:0",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Laboratory tests of Leachox",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Leachox"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ultra-fine-concentrates",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Leachox gives higher gold extraction than comparative technologies in many cases.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "extraction",
+      "direction": "increases",
+      "factor": "Leachox",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Испытаниями в лабораторном ... процесса Leachox ... показали, что во многих случаях в Leachox извлечение золота даже выше.",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Испытаниями в лабораторном и пилотном масштабе процесса Leachox в сравнении с окислительном выщелачивании в открытом чане и цианидным выщелачиванием ряда сверхтонких концентратов показали, что во многих случаях в Leachox извлечение золота даже выше.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:1",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Pilot‑scale test of Leachox on a sulphide concentrate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Leachox"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulphide-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:sulphide-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 90.1,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "в пилот -ном масштабе в процессе Leachox извлечение золота из сульфидного концентрата достигло 90,1%",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "cyanide consumption",
+     "scope": "material",
+     "material_id": "mat:sulphide-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 0.8,
+      "max": null
+     },
+     "unit": "kg/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "потребление цианида снизилось с 10 кг / т до 0,8 кг / т",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Gold extraction reached 90.1 % while cyanide consumption fell from 10 kg/t to 0.8 kg/t.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "extraction",
+      "direction": "increases",
+      "factor": "Leachox pilot test",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в пилот -ном масштабе в процессе Leachox извлечение золота из сульфидного концентрата достигло 90,1%, но потребление цианида снизилось с 10 кг / т до 0,8 кг / т",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.81
+    },
+    {
+     "text": "Oxygen and waste consumption also decreased markedly compared with alternative technologies.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reagent consumption",
+      "direction": "decreases",
+      "factor": "Leachox pilot test",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "аналогичным образом снизилось и потребление кислорода и из -вести по сравнению с опытами по переработке сверхтонкого концентрата по другой ( отличной от Leachox) технологии",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В одном опыте в пилот -ном масштабе в процессе Leachox извлечение золота из сульфидного кон -центрата достигло 90,1%, но потребление цианида снизилось с 10 кг / т до 0,8 кг / т ; аналогичным образом снизилось и потребление кислорода и из -вести по сравнению с опытами по переработке сверхтонкого концентрата по другой ( отличной от Leachox) технологии .",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:2",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Industrial application at Agnes mine (South Africa)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Leachox",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rich-tailings",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:rich-tailings",
+     "value": {
+      "min": null,
+      "nominal": 85.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Достигнуто извлечение более чем 85%",
+     "locator_kind": "md_para",
+     "locator": "para:67",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "cyanide consumption",
+     "scope": "material",
+     "material_id": "mat:rich-tailings",
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "кг / т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "сокращение расхода цианида ... до 4 кг / т",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "oxygen consumption",
+     "scope": "material",
+     "material_id": "mat:rich-tailings",
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "кг / т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "сокращение расхода ... кислорода ... до 10 кг / т",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "lime consumption",
+     "scope": "material",
+     "material_id": "mat:rich-tailings",
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "кг / т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "сокращение расхода ... извести до 10 кг / т",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:rich-tailings",
+     "value": {
+      "min": 15.0,
+      "nominal": null,
+      "max": 20.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "При прямом цианидном выщелачивании хвостов ( без Leachox) извлечение не превышало 15-20%",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Leachox успешно применён на двух золотых южноафриканских предприятиях, перерабатывающих упорные золотые руды.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "industrial success",
+      "direction": "increases",
+      "factor": "extraction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Процесс Leachox успешно применен на двух золотых Южноафриканских предприятиях, перерабатывающих упорные золотые руды.",
+     "locator_kind": "md_para",
+     "locator": "para:66",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Впервые процесс Leachox был внедрен на руднике Agnes ( ЮАР ) компании African Pioneer Mining.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:3",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Industrial application at Transvaal Gold Mining Estates (South Africa)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Hybrid Leachox system",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:refractory-ores",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Leachox is operated under contract by MMS for processing refractory gold ore at this site.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operational use",
+      "direction": "increases",
+      "factor": "processing capacity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "MMS по контракту эксплуатирует « гибридную систему » Leachox для переработки упорной золотой руды.",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "На руднике Transvaal Gold Mining Estates ( ЮАР ) компании Simmer&Jack Mines компания MMS по контракту эксплуатирует « гибридную систему » Leachox для переработки упорной золотой руды.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:4",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Industrial plant at Altyntau (Kazakhstan)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Leachox integrated with flotation, gravity and cyanidation",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:arsenopyrite-flotation-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "plant capacity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "т / час золота в сульфидном концентрате",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "минальная мощность завода - 50 т / час золота в сульфидном концентрате",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "throughput of ore chain",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "млн т / г руды",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Пропускная способность цепочки - 5 млн т / г руды",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:ultra-fine-concentrates",
+     "value": {
+      "min": null,
+      "nominal": 95.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "перерабатывается способом Leachox на 50 т / час ( ультратонкое измельчение ... до 95% -4 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant was commissioned in May 2010, representing one of the largest refractory gold ore processing facilities worldwide.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "plant commissioning",
+      "direction": "increases",
+      "factor": "scale",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Завод был введен в строй в мае 2010 г.",
+     "locator_kind": "md_para",
+     "locator": "para:71",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В январе 2009 г . MMS договорилась о предоставлении лицензии на свой процесс переработки упорных золотых руд ОАО Васильковский ГОК ( Казахстан ) -переименован в Алтынтауский ГОК (« Казцинк »).",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:5",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Pilot plant leaching tests on mixed feedstocks",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "leaching of dusts and low‑grade concentrate",
+       "temperature_text": "not specified",
+       "duration_text": "8 weeks"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:low-grade-concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:electro-filter-dust",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:boiler-dust",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 92.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "в ходе испытаний , длившихся 8 недель , было показано , что среднее извлечение меди 92% при времени пребывания 16-20 час",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "residence time",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 16.0,
+      "max": null
+     },
+     "unit": "hour",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при времени пребывания 16-20 час",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "As"
+     },
+     "method": null,
+     "snippet": "Извлечение мышьяка при выщелачивании в типичном случае составляло 6% и менее",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Leaching performance was little affected by the type of raw material.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "no_change",
+      "factor": "material type",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Поведение при выщелачив -нии мало менялось при изменении типа сырья",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "При пилотных испытаниях брали различное соотношение сырья : No 16 - 100% низкосортный концентрат , No 17 - 100% пыль электрофильтра , No 7 - 45% пыли электрофильтра , 25% пыли котла , 30% низкосортного концентрата , No 15 - 65% пыли электрофильтра , 35% пыли котла",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:6",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Industrial application of IsaMill at Mt Isa and McArthur mines (Australia)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of a 3000 L, 1.12 MW IsaMill for ultrafine grinding of lead‑zinc ore",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-zinc-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "circumferential speed of grinding media",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 21.0,
+      "max": null
+     },
+     "unit": "m / sec",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Высокая окружная скорость ( скорость конца лопатки ) 21-23 м / сек в сочетании с мелкими частицами измельчающей среды обеспечивают высокую вероятность столкновения частиц измельчающей среды с частицами измельчаемого материала",
+     "locator_kind": "md_para",
+     "locator": "para:171",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "energy intensity inside the mill",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 300.0,
+      "max": null
+     },
+     "unit": "кВт / м 3",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Когда происходит столкновение , высокая интенсивность энергии ( до 300 кВт / м 3) внутри мельницы обеспечивает то , что у частицы измельчающей среды достаточно энергии для того , чтобы разрушить частицу материала",
+     "locator_kind": "md_para",
+     "locator": "para:171",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Эффективность использования энергии высокая.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "high circumferential speed and fine grinding media",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Эффективность использования энергии высокая.",
+     "locator_kind": "md_para",
+     "locator": "para:171",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Результатом совместных разработок стала первая значительно модифицированная мельница объемом 3000 л и с мотором 1,12 МВт , установленная на руднике в 1994 г.",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:7",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "IsaChargerTM loading system trial",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "first trial of the new IsaChargerTM loading system for the grinding media"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:isachargertm-loading-system",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The system was successfully introduced into the IsaMill supply package.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "в конце 2009 г . была впервые опробована новая система загрузки измельчающей среды IsaChargerTM, которая теперь включается в комплект поставки IsaMill",
+     "locator_kind": "md_para",
+     "locator": "para:189",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в конце 2009 г . была впервые опробована новая система загрузки измельчающей среды IsaChargerTM, которая теперь включается в комплект поставки IsaMill",
+   "locator_kind": "md_para",
+   "locator": "para:189",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:8",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Installation of IsaMill for rough concentrate grinding at Miheevskiy GOK",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "use of IsaMill for secondary grinding of \"raw\" copper concentrate"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:IsaMill",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "installation date",
+     "scope": "material",
+     "material_id": "mat:IsaMill",
+     "value": {
+      "min": null,
+      "nominal": 2013.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в конце 2013 г . вводится в строй Ми -хеевский ГОК компании РМК",
+     "locator_kind": "md_para",
+     "locator": "para:190",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "IsaMill is used together with SAG mills and Outotec flotation cells for maximum copper recovery.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "мельницы SAG (Metso), мельницы IsaMill (Xstrata) для доизмельчения « чернового » медного концентрата , флотационные машины Outotec на 300 м 3",
+     "locator_kind": "md_para",
+     "locator": "para:190",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в конце 2013 г . вводится в строй Ми -хеевский ГОК компании РМК , базирующийся на крупном , но небогатом месторождении медно -порфировой руды",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:9",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Anglo Platinum implementation of IsaMill in primary circuit",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "use of IsaMill for primary ore grinding in a copper‑platinum operation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:IsaMill",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "implementation year",
+     "scope": "material",
+     "material_id": "mat:IsaMill",
+     "value": {
+      "min": null,
+      "nominal": 2006.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Принципиально новый этап в развитии технологии IsaMill отмечен в 2006 г ., когда компания Anglo Platinum ( ЮАР ), использовавшая ранее данную технологию для вторичного измельчения концентратов , внедрила IsaMill и в основном потоке",
+     "locator_kind": "md_para",
+     "locator": "para:191",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The introduction expanded the applicability of IsaMill to primary grinding streams.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "внедрила IsaMill и в основном потоке ( см . далее ), что значительно расширяет воз -можности применения мельниц IsaMill",
+     "locator_kind": "md_para",
+     "locator": "para:193",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "в 2006 г . ... внедрила IsaMill и в основном потоке ( см . далее ), что значительно расширяет воз -можности применения мельниц IsaMill",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:сверхтонкое_измельчение_2012-pdf:10",
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "title": "Laboratory re‑grinding and flotation tests",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Repeated grinding of concentrates in an IsaMill M500 with 2 mm ceramic media followed by flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:primary-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "material",
+     "material_id": "mat:primary-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "of primary concentrate"
+     },
+     "method": null,
+     "snippet": "основной концентрат Р 80 40 мкм измельчается до Р 80 18 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:213",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Finer grinding improves grade‑recovery and enhances removal of MgO and arsenic.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "при более тонком помоле ... кривая сортность концентрата / извлечение сдвигается вверх и, кроме того, в большей степени удаляется MgO, а также, при условии определенных химических условий перечистной флотации, достигается оптимальное удаление мышьяка",
+     "locator_kind": "md_para",
+     "locator": "para:213",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В лабораторных опытах концентраты подвергались повторному измельчению и флотации.",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Leachox is a low‑cost process for treating refractory gold‑bearing ore.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "process design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Leachox низкозатратный процесс переработки упорной золотосодержащей руды.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Gold extraction of more than 90 % can be achieved, comparable to bacterial leaching.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "extraction",
+    "direction": "increases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "достигается извлечение золота более 90% ( аналогично бактериальному выщелачиванию ).",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The high extraction is obtained with low capital and operating costs, justifying its use for low‑grade ores.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "economics",
+    "direction": "increases",
+    "factor": "low costs",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это достаточно высокий показатель извлечения , достигнутый при низких капитальных и операци -онных затратах , что оправдывает с экономической точки зрения его при -менение к переработке бедных руд .",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Ultrafine grinding to ≤20 µm releases gold and other mineral constituents, which can increase reagent consumption in subsequent leaching.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reagent consumption",
+    "direction": "increases",
+    "factor": "ultrafine grinding",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Измельчение упорной золотой руды до -20 мкм и тоньше способст -вует высвобождению золота , но также и других составляющих минералов , что влияет на последующую переработку .",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Further reduction of particle size below the ultrafine range can actually lower precious‑metal recovery and sharply raise reagent consumption.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery",
+    "direction": "decreases",
+    "factor": "excessive fineness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ещё более тонкое измельчение фактически приводит к снижению извлече -ния драгметаллов . Кроме того , резко возрастает потребление реагентов для процесса выщелачивания",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Aachen reactors and MMS Leach Columns greatly mitigate limited extraction and high reagent consumption.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "extraction & reagent use",
+    "direction": "increases",
+    "factor": "reactor/column design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В процессе Leachox используются реакторы Aachen Reactors и ап -параты выщелачивания колонного типа MMS Leach Columns, которые в высокой степени нивелируют оба эффекта -ограниченная степень извле -чения и высокое потребление реагентов .",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Imhoflot flotation creates fine bubbles that improve kinetics, reduce residence time, lower capital and operating costs, cut energy use and simplify maintenance.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "kinetics",
+    "direction": "increases",
+    "factor": "fine bubbles",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Главным достоинством Imhoflot является технология создания мелких пузырей , позволяющая улучшить кинетику , существенно сократить время пребывания ( а , следовательно , снизить капитальные и операционные затраты из - за значительного сокращения размеров ), сокра -тить энергопотребление , облегчить обслуживание ( нет движущихся час -тей ).",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Imhoflot vertical V‑type chambers have been installed at more than 50 plants.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "deployment",
+    "direction": "increases",
+    "factor": "adoption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Первая система Imhoflot вертикальная камера Vтипа была разрабо -тана доктором Rainer Imhof, внедрена компанией MMS в начале 90х гг . и установлена более чем на 50ти заводах .",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "G‑Cell chambers combine very fine bubbles (5‑10 µm, occasionally 2‑3 mm after coalescence) with high energy in the collection zone, making them especially suitable for flotation of ultra‑fine particles.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "increases",
+    "factor": "bubble size & energy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Камеры G-Cell, благодаря комбинации очень тонких пузырей ( в среднем 5-10 мкм , иногда до 2-3 мм в результате коалесценции ) и высокой энергии в зоне сбора , особенно хороши для флотации очень тонких частиц .",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "MMS leach columns can substantially reduce residence time for any ore compared with heap leaching, especially for refractory gold ores where leaching is very slow.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "residence time",
+    "direction": "decreases",
+    "factor": "column use",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использование этих колонн для выщелачива -ния может привести к существенному сокращению времени пребывания при переработке любой руды по сравнению с выщелачиванием в чанах , но особенно рекомендуется для выщелачивания упорных золотых руд , где выщелачивание может идти очень медленно .",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Leachox sharply accelerates leaching kinetics, reducing leaching time from 24 h in an open tank to a few hours.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "kinetics",
+    "direction": "increases",
+    "factor": "process design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Другим важным преимуществом Leachox является резкое ускорение кинетики выщелачивания -время выщелачивания сокращается с 24 час ( в открытом чане ) до нескольких часов .",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Leachox sharply accelerates leaching kinetics, reducing leaching time from 24 h in an open tank to several hours.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "leaching time",
+    "direction": "decreases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Другим важным преимуществом Leachox является резкое ускорение кинетики выщелачивания -время выщелачивания сокращается с 24 час ( в открытом чане ) до нескольких часов .",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The Leachox process can be designed for processing hard or very hard ('double refractory') ores containing both sulfide and carbonaceous components.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "ore types",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс может быть спроектирован для переработки упорной или очень упорной руды ('double refractory', т . е . содержащей как сульфид -ную , так и углеродсодержащую составляющие ).",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Leachox can also be applied to flotation and gravity concentrates of standard non‑refractory ores to save costs.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "cost savings",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Процесс можно применить и для переработки флотационных и гра‑витационных концентратов стандартных неупорных руд с целью экономии затрат .",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Conventional refractory‑ore processes (roasting, pressure oxidation, bacterial oxidation) achieve gold recoveries of more than 95 % but have high capital and operating costs.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gold recovery",
+    "direction": "increases",
+    "factor": "recovery",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При этом достигается высокая степень извлечения золота -возможно , более 95%.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Roasting is environmentally dirty and prohibited in many countries; pressure oxidation requires high skill and control; bacterial leaching is sensitive to environmental changes.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "disadvantages",
+    "direction": "increases",
+    "factor": "limitations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обжиг является экологически грязной технологией , во многих странах не разрешен ; окисление под давлением требует высокой квалификации и контроля ; бактерии для выщелачивания ... восприимчивы к изменениям окружающей среды",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Economic viability of refractory‑ore processing is limited to rich ores or very large deposits, which are rare.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "economic viability",
+    "direction": "decreases",
+    "factor": "availability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это означает , что экономически целесообразной является переработка либо богатых руд , либо очень крупных месторождений - такие не часто встречаются",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The Albion process combines ultra‑fine grinding and oxidative leaching at atmospheric pressure, overcoming surface passivation caused by low‑density precipitates.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mechanism",
+    "direction": "increases",
+    "factor": "leaching efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В процессе Albion комбинация ультратонкого измельчения в сочетании с выщелачиванием позволяет преодолеть эффект пассивации поверхности",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Passivation of sulfide mineral surfaces completes when the precipitate layer reaches a thickness of 2‑3 µm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "passivation thickness",
+    "direction": "increases",
+    "factor": "layer thickness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пассивация поверхности завершается , когда слой осадка достигает толщины 2-3 мкм .",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "There is a very narrow pH window (2.2‑2.5) in which gold and copper can exist in a supersaturated leach solution while solid gangue can be separated and later disposed.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pH window",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "оказалось , что при выщелачивании существует лишь очень узкое « окно » значений pH 2,2-2,5, когда возможно существование золота и меди в на‑сыщенном растворе выщелачивания , в то время как « отвальные » твердые примеси могут быть отделены и впоследствии захоронены",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "Increasing pH to 2.4 during neutralisation removes almost all arsenic from the solution, reducing the risk of AsH₃ formation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "arsenic removal",
+    "direction": "increases",
+    "factor": "pH to 2.4",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на стадии нейтрализации увеличение pH до 2,4 приводит к удалению почти всего мышьяка из раствора , снижая риск образования AsH3",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Xstrata commissioned a dust leaching plant at its Mt Isa copper smelter and received a prestigious Australian innovation award in 2011.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Xstrata ввела в строй завод по выщелачиванию пыли с электро -фильтров своего медеплавильного завода Mt Isa ( Австралия ), за что в 2011 г . получила престижную австралийскую премию за инновационные реше -ния в области производства металлов",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Up to 3 % of global energy consumption is spent on crushing and grinding mineral raw material, and this energy use will only increase.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по оценкам Xstrata Technology до 3% мировой энергии затрачивается на дробление и измельчение минерального сырья и расход энергии на эти операции будет только расти",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The project aims to convert arsenic oxides in the dusts to a stable Fe(III) arsenate precipitate that is sent to the tailings storage facility.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "arsenic form",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "превращение оксидов мышьяка , содержащихся в пылях , в устойчивый арсенат железа (III), этот осадок вместе с хвостами обогащения от‑правляется в хвостохранилище",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Copper extraction in a form suitable for direct return to the smelter is targeted; cathode copper or copper sulfate routes were rejected due to high capital cost and process complexity.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product form",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "извлечение меди в такой форме , что её можно непосредственно возвращать на плавку . Рассматривался и вариант получения катодной меди или сульфата , но он был отвергнут из‑за высоких капитальных затрат и сложности схемы извлечения меди",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The leaching process was developed from the late 1990s and the pilot plant tests showed that the process works for both fresh dust and previously stockpiled dust (≈130 kt).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Проектом предусматривалась как переработка свежей образованной пыли , так и посте‑пенное вовлечение в переработку складированных пылей ( порядка 130 тыс т )",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": "leaching"
+  },
+  {
+   "text": "В новом подходе по сравнению с традиционным в голове процесса энергии тратится меньше, зато на стадиях повторного измельчения (где объемы измельчаемого материала меньше) — больше.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "new approach",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В новом подходе по сравнению с традиционным в голове процесса энергии тратится меньше , зато на стадиях повторного измельчения ( где объемы измельчаемого материала меньше ) -больше .",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Снизить дополнительно расход энергии можно за счет использования новых технологий измельчения — например, IsaMill, позволяющих решить ещё одну «неотъемлемую» проблему цепочек повторного измельчения, а именно: шламообразование.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "use of IsaMill",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снизить дополнительно расход энергии можно за счет использования новых технологий из -мельчения -таких как , например , IsaMill, позволяющих решить ещё одну « неотъемлемую » проблему цепочек повторного измельчения , а именно : шламообразование .",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "IsaMill имеет энергоемкость 300‑1000 кВт/м³ и окружную скорость >15 м/сек.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy intensity",
+    "direction": "increases",
+    "factor": "IsaMill design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "IsaMill | горизонтальная | 300-1000 | >15",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "В шаровой мельнице вероятность столкновения с частицами среды ниже, чем в IsaMill.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "collision probability",
+    "direction": "decreases",
+    "factor": "ball mill vs IsaMill",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для сравнения : в шаровой мельнице , например , осуществляется механизм измельчения ударным действием и вероятность столкновения с частицами среды ниже .",
+   "locator_kind": "md_para",
+   "locator": "para:172",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Загрузка измельчающей среды в IsaMill обычно 80 %, в шаровой — <45 % (полупустая).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "media loading",
+    "direction": "increases",
+    "factor": "IsaMill operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "загрузка измельчающей среды | <45% ( полупустая ) | 80%",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Скорость вращения в IsaMill >230 об/мин, в шаровой 20 об/мин (медленно).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rotational speed",
+    "direction": "increases",
+    "factor": "IsaMill design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "скорость | 20 оборотов в минуту ( медленно ) | >230 об / мин",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Размер частиц измельчающей среды в IsaMill <3,5 мм, в шаровой >20 мм (слишком крупные для эффективного помола).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "decreases",
+    "factor": "IsaMill media",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "размер частиц измельч . среды | >20 мм ( слишком крупные для эффектив - ного помола ) | <3,5 мм",
+   "locator_kind": "md_para",
+   "locator": "para:178",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Керамические шары Keramax®‑MT1 инертны и не образуют ионов железа, что уменьшает потребление цианидов при выщелачивании.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "iron ion formation",
+    "direction": "decreases",
+    "factor": "ceramic media",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Существенным преимуществом этой измельчающей среды является то , что она инертна , а , следовательно , не образует ионов железа ( как в случае со стальными шарами ), гидроксиды железа могут обволакивать поверхность вскрытых минералов и затруднять последующую флотацию и выщелачивание",
+   "locator_kind": "md_para",
+   "locator": "para:186",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Ceramic balls are finer than steel balls, therefore energy utilization efficiency increases.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "finer size of ceramic balls",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "керамические шары : - -мельче , чем стальные , а , следовательно , эффективность использо -вания энергии повышается",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Ceramic balls are smooth like pearls, resulting in low friction losses.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "friction losses",
+    "direction": "decreases",
+    "factor": "smooth surface",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "- -они гладкие , похожи на жемчужины , т . е . потери из - за трения низ -кие",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Ceramic balls have excellent wear characteristics and are very durable.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "wear characteristics",
+    "direction": "increases",
+    "factor": "material properties",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "- -имеют отличные характеристики износа , очень прочные",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Wear rate of ceramic balls is 5‑15 g/kW, lower than steel balls which wear at 40‑50 g/kW.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "wear rate",
+    "direction": "decreases",
+    "factor": "material type (ceramic vs steel)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "- -скорость изнашивания ниже , чем у стальных шаров : 5-15 г / кВт и 40-50 г / кВт , соответственно",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "IsaMill provides effective energy use because fine grinding media have large surface area and high collision frequency, allowing grinding of coarse particles <0.5 mm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy use",
+    "direction": "increases",
+    "factor": "fine grinding media surface area and collision frequency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "эффективное использование энергии ( мелкие частицы измель -чающей среды имеют большую площадь поверхности и обеспечивают вы -сокую частоту столкновения частиц среды с частицами измельчаемого ма -териала , могут быть измельчены грубые частицы <0,5 мм )",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "IsaMill increases copper recovery in flotation/leaching due to inert grinding media providing a clean fresh surface and a steep size distribution curve.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper recovery",
+    "direction": "increases",
+    "factor": "inert grinding media and surface cleanliness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "повышение извлечения при флотации / выщелачивании ( инертная измельчающая среда , а , следовательно , « чистая » свежая поверхность час -тиц измельченного материала плюс крутая кривая распределения по раз -мерам )",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "IsaMill operates at high intensity (>300 kW/m³), resulting in smaller mill volume (≈1/10 of a comparable ball or vertical mill) and short residence time that prevents over‑grinding.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "intensity",
+    "direction": "increases",
+    "factor": "power density >300 kW/m³",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "высокая интенсивность (>300 кВт / м 3), а , следовательно , меньший размер ( измельчительный объем IsaMill составляет примерно 1/10 эквива -лентной шаровой или вертикальной мельницы ), а также короткое время пребывания в измельчительной камере , предотвращающее переизмельче -ние",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "IsaMill can be serviced or inspected in less than 8 hours, including replacement of internal liners.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "maintenance time",
+    "direction": "decreases",
+    "factor": "design allowing quick access",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "остановка на инспекцию и замена внутренних деталей , включая облицовку занимает менее 8 часов",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "IsaMill is offered in a wide power range from 75 kW to 8 MW.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "широкая линейка по мощности (75 кВт -8 МВт )",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Horizontal configuration of IsaMill simplifies maintenance and reduces sensitivity to process disturbances.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "maintenance simplicity",
+    "direction": "increases",
+    "factor": "horizontal configuration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "горизонтальная конфигурация ( проще в обслуживании , менее чув -ствительна к нарушениям в процессе )",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Installation cost of IsaMill is low.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "installation cost",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "низкая стоимость монтажа",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "IsaMill scales correctly from laboratory to pilot scale.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "scalability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "корректное масштабирование ( в лабораторном и пилотном мас -штабе )",
+   "locator_kind": "md_para",
+   "locator": "para:196",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "At Cosmos nickel mine the original flotation circuit achieved 61 % Ni recovery in the SkimAir® cell and a total of 92 % Ni recovery overall.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel recovery",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Флотационная камера SkimAir® функционировала отлично , извлекался 61% никеля в концентрат сортностью 20%... Суммарное извлечение по этой схеме достигало 92% никеля при сорт -ности концентрата 19%",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.45,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "IsaMill M500 with 2 mm ceramic grinding media occupies little space and is ideally suited for expanding existing capacities.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для повторного измельчения была выбрана мельница IsaMill M500 с керамической измельчающей средой (2 мм ), занимающая мало места и идеально подходящая для расширения действующих мощностей.",
+   "locator_kind": "md_para",
+   "locator": "para:217",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The CORe modernization project for the Clarabelle processing plant costs 200 million dollars.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Этот проект стоимостью 200 млн долларов является сокращенной версией проекта",
+   "locator_kind": "md_para",
+   "locator": "para:231",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "Implementation of the CORe project is expected to increase nickel recovery at the Clarabelle plant by 4 %.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В результате реализации проекта CORe предполагается повысить извлечение никеля на О/Ф Clarabelle на 4%",
+   "locator_kind": "md_para",
+   "locator": "para:235",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The CORe project includes installation of a new IsaMill for re‑grinding and 20 new Outotec flotation cells of 100 m³ each.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Проект включает, в частности, установку новой IsaMill для повторного измельчения, а также новых 20ти флотокамер Outotec (по 100 м³)",
+   "locator_kind": "md_para",
+   "locator": "para:217",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The EPCM contract for the CORe project was awarded to Hatch.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Контракт EPCM получила компания Hatch.",
+   "locator_kind": "md_para",
+   "locator": "para:255",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The start‑up of the new flotation cell is scheduled for July 2012, with full project completion in July 2013.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Ввод нового флотационного цеха запланирован на июль 2012 г., а завершение всего проекта CORe в целом — на июль 2013 г.",
+   "locator_kind": "md_para",
+   "locator": "para:255",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The Clarabelle plant previously produced a collective Cu/Ni flotation concentrate of approximately 11 % Cu and 9 % Ni.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "при‑мерно 11% Cu, 9% Ni по оценкам Brook Hunt",
+   "locator_kind": "md_para",
+   "locator": "para:236",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "The Voisey's Bay mine provides three types of concentrates, including a high‑grade nickel concentrate of 22‑24 % Ni and 0.5‑0.7 % Cu.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "никелевый высокого качества (22-24% Ni, 0,5-0,7% Cu) идет преимущественно на никелевый плавильный завод Thompson",
+   "locator_kind": "md_para",
+   "locator": "para:237",
+   "confidence": 0.9,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": null
+  },
+  {
+   "text": "In the new flotation scheme, sequential reagent addition prevents cyanide and copper sulfate from entering upstream sections where they could slow pentlandite kinetics.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "исследованиями было показано, что цианид и сульфат меди могут замедлить «кинетику» пентландита",
+   "locator_kind": "md_para",
+   "locator": "para:217",
+   "confidence": 0.81,
+   "document_id": "doc:сверхтонкое_измельчение_2012-pdf",
+   "process": "flotation"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

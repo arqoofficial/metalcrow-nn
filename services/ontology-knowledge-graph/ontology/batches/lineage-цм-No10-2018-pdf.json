@@ -1,0 +1,99 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No10-2018-pdf",
+   "title": "ЦМ №10-2018.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2018-все\\ЦМ №10-2018.pdf.md",
+   "artifact_sha256": "7ceb8cb74f0b6498b26cb020aebcd5e59cd46a15d6462630b4e5908c2f0e98bf",
+   "okf_raw_path": null
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:свинц",
+   "label": "свинц",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:пыли-от-обжига-никелевого-концентрата",
+   "label": "пыли от обжига никелевого концентрата",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:серная-кислота",
+   "label": "серная кислота",
+   "family": "reagent",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:гидролизные-стоки-производства-диоксида-титана",
+   "label": "гидролизные стоки производства диоксида титана",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:никель-кобальтовыи-концентрат",
+   "label": "никель‐кобальтовый концентрат",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сульфидная-руда",
+   "label": "сульфидная руда",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [],
+ "claims": [],
+ "lineage": [
+  {
+   "src": "mat:свинц",
+   "dst": "mat:пыли-от-обжига-никелевого-концентрата",
+   "process": "other",
+   "kind": null,
+   "snippet": "Извлечение свинца из пылей от обжига никелевого концентрата.",
+   "doc_id": "doc:цм-No10-2018-pdf"
+  },
+  {
+   "src": "mat:серная-кислота",
+   "dst": "mat:гидролизные-стоки-производства-диоксида-титана",
+   "process": "other",
+   "kind": null,
+   "snippet": "Извлечение серной кислоты из гидролизных стоков производства диоксида титана.",
+   "doc_id": "doc:цм-No10-2018-pdf"
+  },
+  {
+   "src": "mat:никель-кобальтовыи-концентрат",
+   "dst": "mat:сульфидная-руда",
+   "process": "получение",
+   "kind": null,
+   "snippet": "новый пирометаллургический метод получения никель‑кобальтового концентрата (29,0 % никеля; 1,0 % кобальта) из сульфидной руды месторождения Dumont (Канада)",
+   "doc_id": "doc:цм-No10-2018-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

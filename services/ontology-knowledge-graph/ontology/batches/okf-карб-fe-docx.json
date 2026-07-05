@@ -1,0 +1,1275 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:карб-fe-docx",
+   "title": "Карб Fe.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Карб Fe.docx.md",
+   "artifact_sha256": "59f5b12df1fe4adb92001ad2916ce94424c7fe22937d7e0ba6a971bb892eaa80",
+   "okf_raw_path": "Обзоры/Карб Fe.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:carbonyl-iron-powder-пкж",
+   "label": "carbonyl iron powder (ПКЖ)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sponge-iron",
+   "label": "sponge iron",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fresh-iron-powder-pkj",
+   "label": "fresh iron powder (PKJ)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-powder-carbonyled",
+   "label": "nickel powder (carbonyled)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:карб-fe-docx:0",
+   "document_id": "doc:карб-fe-docx",
+   "title": "Hydrogen reduction of carbonyl iron powder",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduction with hydrogen",
+       "temperature_text": "400-600 °C",
+       "duration_text": "1-4 hour"
+      },
+      "temperature": {
+       "min": 673.15,
+       "nominal": null,
+       "max": 873.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:carbonyl-iron-powder-пкж",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "residual carbon content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Вновь полученный порошок – механически мягкий, с отличными показателями уплотнения.",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Снижение содержания остаточного углерода",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "residual carbon",
+      "direction": "decreases",
+      "factor": "hydrogen reduction",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "ПКЖ может быть подвергнут восстановлению водородом (при 400-600 °C в течение 1-4 час) с целью снижения содержания остаточного углерода",
+     "locator_kind": "md_para",
+     "locator": "para:102",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "ПКЖ может быть подвергнут восстановлению водородом (при 400-600 °C в течение 1-4 час) с целью снижения содержания остаточного углерода",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:карб-fe-docx:1",
+   "document_id": "doc:карб-fe-docx",
+   "title": "Periodic carbonylation at Jinchuan Group",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "periodic carbonylation",
+       "temperature_text": "200-250 °C",
+       "duration_text": "≈3 суток"
+      },
+      "temperature": {
+       "min": 473.15,
+       "nominal": null,
+       "max": 523.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sponge-iron",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "production capacity",
+     "scope": "material",
+     "material_id": "mat:carbonyl-iron-powder-пкж",
+     "value": {
+      "min": null,
+      "nominal": 5000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Объём производства Jinchuan – около 5000 т/г ПКЖ.",
+     "locator_kind": "md_para",
+     "locator": "para:112",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Carbonylation performed at pressure 16,0-20,0 MPa",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "pressure",
+      "direction": "increases",
+      "factor": "process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Синтез карбонила осуществляется в периодическом режиме (∼3 суток) при давлении 16,0-20,0 Mпа и температуре 200-250°С.",
+     "locator_kind": "md_para",
+     "locator": "para:112",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Синтез карбонила осуществляется в периодическом режиме (∼3 суток) при давлении 16,0-20,0 Mпа и температуре 200-250°С.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:карб-fe-docx:2",
+   "document_id": "doc:карб-fe-docx",
+   "title": "Periodic carbonylation at Jien Nickel (supported by Chinese Academy of Sciences)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "periodic carbonylation",
+       "temperature_text": "120-250 °C",
+       "duration_text": "60 hour"
+      },
+      "temperature": {
+       "min": 393.15,
+       "nominal": null,
+       "max": 523.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sponge-iron",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:carbonyl-iron-powder-пкж",
+     "value": {
+      "min": null,
+      "nominal": 75.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "Извлечение железа достигает ∼75% после 60 часов.",
+     "locator_kind": "md_para",
+     "locator": "para:113",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Process operated at pressure 3,0-8,5 MPa",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "pressure",
+      "direction": "increases",
+      "factor": "process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Jien Nickel при поддержке Академии наук Китая ввела в строй завод по производству ПКЖ в периодическом режиме при среднем давлении 3,0-8,5 Мпа и температурах 120-250°С.",
+     "locator_kind": "md_para",
+     "locator": "para:113",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Jien Nickel при поддержке Академии наук Китая ввела в строй завод по производству ПКЖ в периодическом режиме при среднем давлении 3,0-8,5 Мпа и температурах 120-250°С.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:карб-fe-docx:3",
+   "document_id": "doc:карб-fe-docx",
+   "title": "Periodic carbonylation at Yuelong Superfine Metal (first plant)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "periodic carbonylation",
+       "temperature_text": "100-200 °C",
+       "duration_text": "≈3 суток"
+      },
+      "temperature": {
+       "min": 373.15,
+       "nominal": null,
+       "max": 473.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sponge-iron",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "production capacity",
+     "scope": "material",
+     "material_id": "mat:carbonyl-iron-powder-пкж",
+     "value": {
+      "min": null,
+      "nominal": 2000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Компания успешно внедрила периодический процесс карбонилирования (∼3 суток) при 15,0-18,0 МПА и температуре 100-200°С.",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Process pressure 15,0-18,0 MPa",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "pressure",
+      "direction": "increases",
+      "factor": "process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при 15,0-18,0 МПА и температуре 100-200°С.",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Компания успешно внедрила периодический процесс карбонилирования (∼3 суток) при 15,0-18,0 МПА и температуре 100-200°С.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:карб-fe-docx:4",
+   "document_id": "doc:карб-fe-docx",
+   "title": "Carbonylation at Jiangsu Tianyi Ultrafine Metal Powder (pilot to industrial scale)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "carbonylation",
+       "temperature_text": "140-160 °C"
+      },
+      "temperature": {
+       "min": 413.15,
+       "nominal": null,
+       "max": 433.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sponge-iron",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "production capacity",
+     "scope": "material",
+     "material_id": "mat:carbonyl-iron-powder-пкж",
+     "value": {
+      "min": null,
+      "nominal": 3000.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Объём производста ПКЖ постепенно увеличился от пилотного масштаба до 3000 т/г в 2009 г.",
+     "locator_kind": "md_para",
+     "locator": "para:115",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Process pressure below 20,0 MPa",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "pressure",
+      "direction": "decreases",
+      "factor": "process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Процесс карбонилирования осуществляется при давлении ниже 20,0 МПА и температуре 140-160°С.",
+     "locator_kind": "md_para",
+     "locator": "para:115",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Процесс карбонилирования осуществляется при давлении ниже 20,0 МПА и температуре 140-160°С.",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:карб-fe-docx:5",
+   "document_id": "doc:карб-fe-docx",
+   "title": "Carbonyling of iron powder at high temperature and pressure",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "carbonyling (carbide carburizing) of iron powder",
+       "temperature_text": ">200°C"
+      },
+      "temperature": {
+       "min": 473.15,
+       "nominal": null,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fresh-iron-powder-pkj",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:nickel-powder-carbonyled",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "residual carbon content",
+     "scope": "material",
+     "material_id": "mat:fresh-iron-powder-pkj",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 1.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "остаточного содержания углерода в свежем ПКЖ <1,0%",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "residual carbon content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 0.2
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "остаточного содержания углерода в никелевом карбонильном порошке (<0,2%)",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "At temperatures >200 °C and high pressure, CO disproportionation is activated on fresh iron surface, leading to carbon deposition and gradual slowdown of the carbonyling reaction.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reaction rate",
+      "direction": "decreases",
+      "factor": "CO disproportionation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "по ходу карбонилирования при температуре >200°С и высоком давлении может быть активизировано диспропорционирование СО на свежей поверхности железа, что ведет к осаждению углерода на нем и постепенному замедлению скорости реакции карбонилирования.",
+     "locator_kind": "md_para",
+     "locator": "para:123",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "по ходу карбонилирования при температуре >200°С и высоком давлении может быть активизировано диспропорционирование СО на свежей поверхности железа, что ведет к осаждению углерода на нем и постепенному замедлению скорости реакции карбонилирования.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Порошки карбонильного железа (ПКЖ) получают методом разложением очищенного пентакарбонила железа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production method",
+    "direction": "increases",
+    "factor": "purity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Порошки карбонильного железа (ПКЖ) получают методом разложением очищенного пентакарбонила железа.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Полученные мелкодисперсные частицы восстанавливают водородом для удаления следов кислорода и азота.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "impurity removal",
+    "direction": "decreases",
+    "factor": "oxygen and nitrogen residues",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полученные мелкодисперсные частицы восстанавливают водородом для удаления следов кислорода и азота.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "ПКЖ характеризуются высокой чистотой (примеси влияют на магнитные свойства); сферичностью частиц (форма частиц влияет на плотность и текучесть); ровной поверхностью частиц (на текучесть порошка влияет, помимо размера и формы частиц, шероховатость их поверхности); узким распределением по размерам; обладают свойствами магнито‑мягкого материала.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "purity, sphericity, surface smoothness, size distribution, magne",
+    "direction": "increases",
+    "factor": "performance in MIM and other applications",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПКЖ характеризуются: высокой чистотой (примеси влияют на магнитные свойства); сферичностью частиц (форма частиц влияет на плотность и текучесть); ровной поверхностью частиц (на текучесть порошка влияет, помимо размера и формы частиц, шероховатость их поверхности); узким распределением по размерам; обладают свойствами магнито‑мягкого материала.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Карбонильный порошок – самый дорогой, восстановленный порошок – самый дешевый.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "production method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Карбонильный порошок – самый дорогой, восстановленный порошок – самый дешевый.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "карбонильный порошок 3-8; электролитический 1-5; восстановленный 0,5-2; атомизированный 1-3 USD/фунт.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price range (USD/фунт)",
+    "direction": "increases",
+    "factor": "production method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "карбонильный порошок 3-8; электролитический 1-5; восстановленный 0,5-2; атомизированный 1-3 USD/фунт.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "ПКЖ пользуется высоким спросом в различных сферах применения технологии MIM - инжекционного формования порошковых смесей (иначе - порошкового литьевого формования), таких как изготовление деталей компьютеров, компонентов автомобилей, медицинского оборудования и т.д., а также в традиционной порошковой металлургии (ПМ).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "market demand",
+    "direction": "increases",
+    "factor": "use in MIM and PM",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПКЖ пользуется высоким спросом в различных сферах применения технологии MIM - инжекционного формования порошковых смесей (иначе - порошкового литьевого формования), таких как изготовление деталей компьютеров, компонентов автомобилей, медицинского оборудования и т.д., а также в традиционной порошковой металлургии (ПМ).",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "ПКЖ – идеальный материал для фидстока.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "increases",
+    "factor": "feedstock quality",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПКЖ – идеальный материал для фидстока.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "ПКЖ позволяет изготавливать высокоточные детали сложной формы с высоким качеством.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dimensional accuracy and quality",
+    "direction": "increases",
+    "factor": "use of PKJ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПКЖ позволяет изготавливать высокоточные детали сложной формы с высоким качеством.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "MIM – наиболее подходящий процесс для масштабного производства компонентов сложной формы, экономия затрат получается за счет эффективной утилизации материала (сырья).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "material utilization in MIM",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "MIM – наиболее подходящий процесс для масштабного производства компонентов сложной формы, экономия затрат получается за счет эффективной утилизации материала (сырья).",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Использование ПКЖ обеспечивает низкие магнитные потери, высокую температурную и временную стабильность, высокую эффективность при применении на высоких частотах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "magnetic losses; increases",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использование ПКЖ обеспечивает низкие магнитные потери, высокую температурную и временную стабильность, высокую эффективность при применении на высоких частотах.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Thermodynamically, Buduar reactions are favored by low temperatures, but reaction rate remains low up to ~450 °C at atmospheric pressure.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "thermodynamics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Термодинамически реакции Будуара благоприятствуют низкие температуры, но скорость реакции низкая вплоть до ∼450°С при атмосферном давлении.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Increasing pressure shifts equilibrium to the right and produces more residual carbon.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "increases",
+    "factor": "equilibrium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При повышении давления равновесие сдвигается вправо и образуется больше «остаточного» углерода.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Typical carbonyl iron powder particles are almost spherical, 1‑10 µm, containing ≈97 % Fe and ≤1,0 % weight residual carbon, ≤1,0 % weight nitrogen (mainly as iron nitride), and ≤0,5 % weight ammonia/oxide from passivation.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "ПКЖ из декомпозера представлен почти сферическими частицами размером 1-10 мкм. Они содержат ≈97% Fe и неметаллические примеси: остаточный углерод (≤1,0%вес), азот(≤1,0%вес) преимущественно в виде нитрида железа и небольшого количество хемосорбированного аммиака и оксида (≤0,5%вес) от стадии пассивации.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "A jet mill followed by classification in a nitrogen protective atmosphere is often used to obtain agglomerate‑free particles and to separate powder into fractions according to consumer requirements.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для получения свободных от агломератов частиц часто используют струйную мельницу, затем классификацию в защитной среде азота с целью разделения порошка на фракции в соответствии с требованиями потребителя и применимости в конкретных областях.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Soft carbonyl iron powder obtained after hydrogen reduction contains >99,5 % Fe and low levels of C, N, O, and shows excellent densification characteristics.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Вновь полученный порошок – механически мягкий, с отличными показателями уплотнения.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "BASF historically dominated the carbonyl iron powder market with a capacity of 12 000 t/yr.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В исторической ретроспективе на рынке ПКЖ доминировала компания BASF с мощностями в 12000 т/г ПКЖ.",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Most Chinese producers prefer processes at lower pressures (8,0‑20,0 MPa) compared with the original BASF technology.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pressure",
+    "direction": "decreases",
+    "factor": "regional practice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отметим, что по сравнению с исходной технологией BASF большинство китайских производителей предпочитают процессы при более низком давлении 8,0-20,0 Мпа.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Typical products include hard/soft carbonyl iron powder and carbonyl iron powder with coatings.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Типичные продукты: тверд/мягк. ПКЖ, ПКЖ с покрытием",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Reducing pressure reduces operating costs and increases iron extraction in carbonyling: 74 % for Chinese producers versus 65 % for BASF.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "lower pressure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снижение давления позволяет сократить операционные затраты, а также повысить извлечение железа в карбонил: 74% у китайцев против 65% у BASF.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "CO disproportionation at high pressure is more pronounced during iron carbonyling than nickel carbonyling because iron is a more active catalyst for the CO disproportionation reaction.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "CO disproportionation intensity",
+    "direction": "increases",
+    "factor": "high pressure with iron",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по сравнению с карбонилированием никеля влияние диспропорционирования СО при высоком давлении ярче проявляется при карбонилировании железа, т.к. железо является более активным катализатором реакции диспропорционирования СО.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "The market price of PKJ fluctuates in the range 6300‑8400 USD/t according to contract prices of Synth‑PKJ.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Цена ПКЖ определяется контрактными ценами «Синтез-ПКЖ» и колеблется в коридоре 6300-8400 USD/т.",
+   "locator_kind": "md_para",
+   "locator": "para:157",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Synth‑PKJ is the only producer of PKJ in Russia and the CIS with a capacity of 2000 t/yr.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "«Синтез‑ПКЖ» – в настоящее время единственный производитель ПКЖ мощностью 2000 т/г в России и СНГ.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "In 2023, 95 % of Synth‑PKJ’s revenue came from exports.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "До 2021 г ∼95% выручки «Синтез‑ПКЖ» приходилось на экспорт.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Export of PKJ in 2023 amounted to 282 t, including 100 t to South Korea, 86 t to India, 34 t to Dominican Republic, 29 t to Italy, and 22 t to Taiwan.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2023 г было экспортировано 282 т ПКЖ, в т.ч. 100 т в Южную Корею, 86 т в Индию, 34 т в Доминикану, 29 т в Италию, 22 т на Тайвань.",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "порошкам BASF великолепные показатели намагничивания, они часто используются в качестве материала для сердечника катушки индуктивности - в преобразователях постоянного тока при подаче электричества и в фильтровых дросселях (Filter chokes) для подавления шума.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "magnetization performance",
+    "direction": "increases",
+    "factor": "high saturation magnetization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Порошки BASF имеют следующие преимущества:\n- подходят для работы при высоких значениях тока, благодаря высокой намагниченности насыщения – заметно выше 1 Тл;\n- мягкий процесс насыщения (soft saturation) позволяет отлично контролировать производительность при высоких токах;\n- применимы при высоких частотах, благодаря стабильной (магнитной) проницаемости и низким потерям в сердечнике;\n- высокая технологичность при производстве сердечника с поверхностным монтажом (SMD типа) благодаря сферической форме частиц\n- широкий ассортимент размеров частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Твердые порошки имеют характерную «луковичную» структуру, механическую прочность и содержание железа до 97,8%.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "structure, mechanical strength, iron content",
+    "direction": "increases",
+    "factor": "solid powder production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Твердые порошки получают из продуктов первичного разложения без дальнейшей химической обработки, они имеют характерную «луковичную» структуру.\nТипичные характеристики твердых порошков:\n- луковичная структура\n- механическая прочность\n- содержание железа до 97,8%",
+   "locator_kind": "md_para",
+   "locator": "para:192",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Мягкие порошки обладают поликристаллической структурой, механической мягкостью, отличными показателями уплотнения, содержанием железа до 99,8% и низким содержанием N, C и O.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "structure, mechanical softness, density, iron content, impurity ",
+    "direction": "increases",
+    "factor": "soft powder production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мягкие порошки получают длительным отжигом твердых порошков в атмосфере водорода. Луковичная структура исчезает, содержание N, C и O снижается.\nТипичные характеристики мягких порошков:\n- поликристаллическая структура\n- механическая мягкость\n- отличные показатели уплотнения\n- содержание железа до 99,8%\n- низкое содержание N, C и O.",
+   "locator_kind": "md_para",
+   "locator": "para:202",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Размерные параметры частиц твердых и мягких порошков находятся в диапазонах D10 3,5‑4,1 мкм, D50 5,2‑9,5 мкм, D90 23,0‑26 мкм, с ситовым остатком >90 мкм ≤0,1 г/100 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "increases",
+    "factor": "laser diffraction analysis",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таблица 4.4 - Распределение частиц по размерам\n| D10 | мкм | 3,5 max | 4,1 max |\n| D50 | мкм | 5,2 max | 9,5 max |\n| D90 | мкм | 23,0 max | 26 max |\n| Ситовый анализ >90мкм | г/100г | 0,1 max | 0,1 max |",
+   "locator_kind": "md_para",
+   "locator": "para:186",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "ПКЖ и композиты BASF также демонстрируют отличные показатели демпфирования трансмиссии (передачи с подавлением) в условиях различных частотных режимов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "damping performance",
+    "direction": "increases",
+    "factor": "frequency regimes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПКЖ и композиты BASF также демонстрируют отличные показатели демпфирования трансмиссии (передачи с подавлением) в условиях различных частотных режимов.",
+   "locator_kind": "md_para",
+   "locator": "para:249",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "например, подавление шума может быть достигнуто при режиме 1-10 Ггц и для дальней зоны при 10-20 Ггц.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "frequency",
+    "direction": "increases",
+    "factor": "1-10 Ггц, 10-20 Ггц",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "например, подавление шума может быть достигнуто при режиме 1-10 Ггц и для дальней зоны при 10-20 Ггц.",
+   "locator_kind": "md_para",
+   "locator": "para:249",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Максимум защитной мощности – вблизи частоты около 2 Ггц.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "maximum",
+    "direction": "increases",
+    "factor": "≈2 Ггц",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Максимум защитной мощности – вблизи частоты около 2 Ггц.",
+   "locator_kind": "md_para",
+   "locator": "para:249",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Узкое распределение частиц по размерам и высокая сферичность частиц позволяют оптимизировать изготовление тонких, но также гибких пленок в комбинации, если это желательно, с высокой степенью заполнения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "increases",
+    "factor": "narrow distribution, high sphericity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Узкое распределение частиц по размерам и высокая сферичность частиц позволяют оптимизировать изготовление тонких, но также гибких пленок в комбинации, если это желательно, с высокой степенью заполнения.",
+   "locator_kind": "md_para",
+   "locator": "para:249",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Марки CIP OS и CIP OM используются преимущественно в этой области применения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "usage",
+    "direction": "increases",
+    "factor": "CIP OS, CIP OM",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Марки CIP OS и CIP OM используются преимущественно в этой области применения.",
+   "locator_kind": "md_para",
+   "locator": "para:252",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": "injection"
+  },
+  {
+   "text": "Порошок CIP OS дополнительно силицирован для повышения жидкотекучести сырьевого материала.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "liquidus fluidity",
+    "direction": "increases",
+    "factor": "silica addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Порошок CIP OS дополнительно силицирован для повышения жидкотекучести сырьевого материала.",
+   "locator_kind": "md_para",
+   "locator": "para:252",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "CIP СС – это восстановленный водородом механически мягкий порошок с очень низким содержание углерода и азота.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "carbon and nitrogen content",
+    "direction": "decreases",
+    "factor": "hydrogen reduction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "CIP СС – это восстановленный водородом механически мягкий порошок с очень низким содержание углерода и азота.",
+   "locator_kind": "md_para",
+   "locator": "para:253",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Специальная марка порошка CIP HQ применяется, когда надо удовлетворить самые высокие требования.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "CIP HQ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Специальная марка порошка CIP HQ применяется, когда надо удовлетворить самые высокие требования.",
+   "locator_kind": "md_para",
+   "locator": "para:257",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Чрезвычайная тонкость порошка обеспечивает высокую плотность и качество текстуры поверхности в микродеталях.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "density and surface texture quality",
+    "direction": "increases",
+    "factor": "extreme powder fineness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чрезвычайная тонкость порошка обеспечивает высокую плотность и качество текстуры поверхности в микродеталях.",
+   "locator_kind": "md_para",
+   "locator": "para:257",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Связки на основе ПКЖ превосходят связки на основе кобальта по экономическим и экологическим соображениям.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "economic and environmental performance",
+    "direction": "increases",
+    "factor": "PCJ‑based bonds",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Связки на основе ПКЖ превосходят связки на основе кобальта по экономическим и экологическим соображениям.",
+   "locator_kind": "md_para",
+   "locator": "para:259",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Тонкость и гомогенность порошков ПКЖ BASF обеспечивает великолепную уплотняемость, получается высокая плотность и прочность «всырую».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "packing density and strength",
+    "direction": "increases",
+    "factor": "thin and homogeneous PCJ powders",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тонкость и гомогенность порошков ПКЖ BASF обеспечивает великолепную уплотняемость, получается высокая плотность и прочность «всырую».",
+   "locator_kind": "md_para",
+   "locator": "para:259",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "при производстве синтетических алмазов, благодаря высокой склонности к спеканию, эти порошки позволяют понизить температуру и укоротить цикл обжига, сокращая таким образом, подверженность алмаза внешнему воздействию в ходе производства.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "high sinterability of PCJ powders",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при производстве синтетических алмазов, благодаря высокой склонности к спеканию, эти порошки позволяют понизить температуру и укоротить цикл обжига, сокращая таким образом, подверженность алмаза внешнему воздействию в ходе производства.",
+   "locator_kind": "md_para",
+   "locator": "para:260",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Марка мягкого порошка CIP CN – самая распространенная из всех других марок ПКЖ BASF для алмазного инструмента.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "market prevalence",
+    "direction": "increases",
+    "factor": "CIP CN",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Марка мягкого порошка CIP CN – самая распространенная из всех других марок ПКЖ BASF для алмазного инструмента.",
+   "locator_kind": "md_para",
+   "locator": "para:263",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "CIP CN обладает отличной уплотняемостью и спекаемостью.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "packing and sinterability",
+    "direction": "increases",
+    "factor": "CIP CN",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "CIP CN обладает отличной уплотняемостью и спекаемостью.",
+   "locator_kind": "md_para",
+   "locator": "para:263",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "у новой марка CIP CD может быть даже более высокая плотность и жесткость связи благодаря меньшему размеру частиц.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "density and rigidity",
+    "direction": "increases",
+    "factor": "smaller particle size of CIP CD",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "у новой марка CIP CD может быть даже более высокая плотность и жесткость связи благодаря меньшему размеру частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:263",
+   "confidence": 0.81,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  },
+  {
+   "text": "Порошок CIP SM – один из самых тонких мягких порошков BASF оптимален для использования в сегменте подложек для лазерной сварки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability",
+    "direction": "increases",
+    "factor": "CIP SM thin soft powder",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Порошок CIP SM – один из самых тонких мягких порошков BASF оптимален для использования в сегменте подложек для лазерной сварки.",
+   "locator_kind": "md_para",
+   "locator": "para:267",
+   "confidence": 0.9,
+   "document_id": "doc:карб-fe-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

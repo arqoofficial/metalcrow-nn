@@ -48,13 +48,14 @@ fi
 
 if [[ "${WITH_PARSER}" == true && -f "${PARSER_DIR}/docker-compose.yml" ]]; then
   stack_parser_compose_args
+  stack_parser_profile_args
   echo "→ stopping parser"
   (
     cd "${PARSER_DIR}"
     if ((${#EXTRA_ARGS[@]} > 0)); then
-      docker compose "${PARSER_COMPOSE_ARGS[@]}" down "${EXTRA_ARGS[@]}"
+      docker compose "${PARSER_PROFILE_ARGS[@]}" "${PARSER_COMPOSE_ARGS[@]}" down "${EXTRA_ARGS[@]}"
     else
-      docker compose "${PARSER_COMPOSE_ARGS[@]}" down
+      docker compose "${PARSER_PROFILE_ARGS[@]}" "${PARSER_COMPOSE_ARGS[@]}" down
     fi
   )
 fi

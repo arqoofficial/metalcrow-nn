@@ -29,11 +29,11 @@ const mainItems: Item[] = [
   { icon: LayoutDashboard, title: "Дашборд", path: "/" },
   { icon: Bot, title: "Агент", path: "/chat" },
   { icon: BookOpen, title: "Вики", path: "/wiki" },
+  { icon: Share2, title: "Граф", path: "/graph" },
 ]
 
 const inDevelopmentItems: Item[] = [
   { icon: FileText, title: "Отчёты", path: "/reports" },
-  { icon: Share2, title: "Граф", path: "/graph" },
   { icon: LayoutGrid, title: "Пробелы", path: "/gaps" },
   { icon: Search, title: "Поиск", path: "/search" },
 ]

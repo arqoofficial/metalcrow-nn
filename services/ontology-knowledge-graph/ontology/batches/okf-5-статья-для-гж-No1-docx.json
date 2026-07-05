@@ -1,0 +1,849 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:5-статья-для-гж-No1-docx",
+   "title": "5 Статья для ГЖ №1.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\5 Статья для ГЖ №1.docx.md",
+   "artifact_sha256": "325e0f692f3189c4905f43984fbd87b36868670818286bb8eb8eb7b8e2f19a4e",
+   "okf_raw_path": "Статьи/5 Статья для ГЖ №1.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:диаметр-скважин",
+   "label": "диаметр скважин",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:расстояние-между-веерами",
+   "label": "расстояние между веерами",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:расстояние-между-скважинами",
+   "label": "расстояние между скважинами",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:объе-м-взрываемого-блока-на-1-цикл",
+   "label": "объём взрываемого блока на 1 цикл",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:средняя-длина-заряда-в-скважинах",
+   "label": "средняя длина заряда в скважинах",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:средняя-масса-заряда-в-скважинах",
+   "label": "средняя масса заряда в скважинах",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:удельныи-расход-q",
+   "label": "удельный расход q",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:принятое-отклонение-для-сетки-скважин-при-бурени",
+   "label": "принятое отклонение для сетки скважин при бурении W",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rock-factor-a",
+   "label": "rock factor A",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:взрывчатое-вещество-гранулит-ас-8",
+   "label": "взрывчатое вещество гранулит АС‑8",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:granulometric-composition-of-rock-mass",
+   "label": "Granulometric composition of rock mass",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:5-статья-для-гж-No1-docx:0",
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "title": "Verification of sector‑division variants for the Kuz‑Ram method",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Four variants of dividing the cleaning chamber into sectors were considered and verified by comparison with results of underground mine studies of the granulometric composition of the rock mass."
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "verification, which was performed by comparison with the results of underground mine studies of the granulometric composition of the rock mass",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "verification method",
+      "direction": "increases",
+      "factor": "confidence in the sector‑division approach",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Верификация, которых произведена сравнением с результатами шахтных исследований гранулометрического состава горной массы.",
+     "locator_kind": "md_para",
+     "locator": "para:6",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Рассмотрены четыре варианта по разделению очистной камеры на секторы верификация, которых произведена сравнением с результатами шахтных исследований гранулометрического состава горной массы.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:5-статья-для-гж-No1-docx:1",
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "title": "Оценка гранулометрического состава взорванной очистной камеры методом фотопланометрии",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Для проверки рекомендуемой адаптации модели Kuz‑Ram для условий подземного рудника была проведена оценка гранулометрического состава взорванной очистной камеры методом фотопланометрии.",
+       "temperature_text": "не указана",
+       "duration_text": "не указана"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:диаметр-скважин",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:расстояние-между-веерами",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:расстояние-между-скважинами",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:объе-м-взрываемого-блока-на-1-цикл",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:средняя-длина-заряда-в-скважинах",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:средняя-масса-заряда-в-скважинах",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:удельныи-расход-q",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:принятое-отклонение-для-сетки-скважин-при-бурени",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:rock-factor-a",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:взрывчатое-вещество-гранулит-ас-8",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 340.0,
+      "max": null
+     },
+     "unit": "мм",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "средневзвешенный размер куска"
+     },
+     "method": null,
+     "snippet": "средневзвешенный размер куска 340 мм",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.63
+    },
+    {
+     "quantity_kind": "коэффициент однородности распределения",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.86,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "коэффициент однородности распределения 1,86",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "yield_fraction",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "негабаритной фракции"
+     },
+     "method": null,
+     "snippet": "выход негабаритной фракции (>700 мм) 4,4%",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Аппроксимируя данную кривую, получаем следующие параметры гранулометрического состава: средневзвешенный размер куска 340 мм; коэффициент однородности распределения 1,86; выход негабаритной фракции (>700 мм) 4,4%.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "гранулометрический состав",
+      "direction": "increases",
+      "factor": "photoplanimetry",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Аппроксимируя данную кривую, получаем следующие параметры гранулометрического состава: средневзвешенный размер куска 340 мм; коэффициент однородности распределения 1,86; выход негабаритной фракции (>700 мм) 4,4%.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Для проверки рекомендуемой адаптации модели Kuz‑Ram для условий подземного рудника была проведена оценка гранулометрического состава взорванной очистной камеры методом фотопланометрии.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:5-статья-для-гж-No1-docx:2",
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "title": "Industrial application at a mine (natural data comparison)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Comparison of natural data obtained at a mine with predictions from the adapted Kuz‑Ram method using the fourth variant of chamber sectorisation",
+       "temperature_text": "N/A",
+       "duration_text": "N/A"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:granulometric-composition-of-rock-mass",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The fourth variant of chamber sectorisation provides the most reliable prediction of the oversized fraction.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "absolute error of oversized fraction",
+      "direction": "decreases",
+      "factor": "more uniform energy distribution within sectors",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Вариант даёт минимальную абсолютную ошибку по выходу негабаритной фракции.",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "По результатам сравнения натурных данных, полученных на руднике, с данными, которые получаются с помощью прогнозной методики Kuz‑Ram, выбран четвёртый вариант разделения очистной камеры на сектора небольшого объёма.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Отсутствует единая и достаточно обоснованная методика расчета параметров взрывных работ на заданный гранулометрический состав при подземных горных работах.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "availability of a unified method",
+    "direction": "decreases",
+    "factor": "methodological support",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отсутствует единая и достаточно обоснованная методика расчета параметров взрывных работ на заданный гранулометрический состав при подземных горных работах.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Существует достаточно большое число методик, разработанных и откалиброванных под конкретные горно‑геологические условия ведения открытых горных работ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "number of existing methods",
+    "direction": "increases",
+    "factor": "method diversity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Существует достаточно большое число методик, разработанных и откалиброванных под конкретные горно‑геологические условия ведения открытых горных работ.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Методика Кузнецова‑Раммлера (Kuz‑Ram) адаптирована под условия ведения подземных горных работ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "adaptation of Kuz‑Ram method",
+    "direction": "increases",
+    "factor": "applicability to underground mining",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Методика Кузнецова‑Раммлера (Kuz‑Ram), которая адаптирована под условия ведения подземных горных работ.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Эмпирические формулы и зависимости, полученные различными исследователями, являются простейшими средствами при проектировании взрывных работ и позволяют получить лишь общие рекомендации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "utility of empirical formulas",
+    "direction": "increases",
+    "factor": "design guidance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате их применения можно получить лишь общие рекомендации при проектировании взрывов.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Обеспечение определенного гранулометрического состава горной массы производится методами прогнозирования с последующей калибровой оптимальной параметров буровзрывных работ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "approach to achieve target granulometry",
+    "direction": "increases",
+    "factor": "process control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обеспечение определенного гранулометрического состава горной массы производится методами прогнозирования последнего с последующей калибровой оптимальной параметров буровзрывных работ.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Модель Kuz-Ram получила широкое распространение в мировой практике и закрепилась в качестве одного из основных подходов к оценке гранулометрического состава горной массы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "popularity",
+    "direction": "increases",
+    "factor": "world practice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Модель Kuz-Ram получила широкое распространение в мировой практике и закрепилась в качестве одного из основных подходов к оценке гранулометрического состава горной массы.",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Модель Kuz-Ram характеризуется простотой в использовании, поскольку не требуют большого набора данных, а также находится в прямой связи между параметрами БВР и получаемым гранулометрическим составом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "simplicity",
+    "direction": "increases",
+    "factor": "data requirements",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данная модель характеризуется простотой в использовании, поскольку не требуют большого набора данных, а также находится в прямой связи между параметрами БВР и получаемым гранулометрическим составом.",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Кузнецов В.М. в своей работе [21] приводит следующие значения параметра «rock factor»: 7 - для пород средней крепости; 10 - для крепких, но сильно трещиноватых пород; 13 - для весьма крепких, слабо трещиноватых пород.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rock factor values",
+    "direction": "increases",
+    "factor": "rock strength and fracturing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кузнецов В.М. в своей работе [21] приводит следующие значения параметра «rock factor»: 7 - для пород средней крепости; 10 - для крепких, но сильно трещиноватых пород; 13 - для весьма крепких, слабо трещиноватых пород.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Cunningham C. V. B. [32] определил более широкий диапазон для «rock factor» от 0,8 до 22.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rock factor range",
+    "direction": "increases",
+    "factor": "model extension",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В дальнейшем Cunningham C. V. B. [32] дополнил модель Kuz-Ram выражением, с помощью которого возможно более точно определить «rock factor» и определил более широкий диапазон для него от 0,8 до 22.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Коэффициент A определяется выражением A=0,06·(RMD+RDI+HF).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "rock factor calculation",
+    "direction": "increases",
+    "factor": "RMD, RDI, HF",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данный коэффициент определяется через следующим выражением: $A=0,06 \\bullet (RMD+RDI+HF)$.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.45,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Коэффициент однородности распределения n рассчитывается по формуле n=(2,2-14·B/d_{скв})·(1-W/B)·√(0,5·(1+S/B))·(|(BCL-CCL)/L|+0,1)^{0,1}·(L/H).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "homogeneity coefficient",
+    "direction": "increases",
+    "factor": "geometric and charge parameters",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Третий компонент – уравнение Cunningham C. V. B. [33] для определения коэффициента однородности распределения: $n=\\left(2,2-14 \\bullet \\frac{B}{d_{ \\cyrs \\cyrk \\cyrv }}\\right) \\bullet (1-\\frac{W}{B})\\sqrt{(0,5 \\bullet \\left(1+\\frac{S}{B}\\right))}{\\left(|\\frac{BCL-CCL}{L}|+0,1\\right)}^{0,1} \\bullet \\left(\\frac{L}{H}\\right)$.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Эмпирические модели используют параметры буровзрывных работ в качестве основных входных данных.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "input data",
+    "direction": "increases",
+    "factor": "empirical modeling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве основных параметров используются параметры буровзрывных работ.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Физико‑механические модели используют широкий спектр сложно определяемых параметров: давление, прочность, время действия взрыва, энергия разрушения и другие.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "input data complexity",
+    "direction": "increases",
+    "factor": "physicomechanical modeling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве входных данных используется широкий спектр сложно определяемых параметров: давление, прочность, время действия взрыва, энергия разрушения и другие.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Компьютерные модели характеризуются большой сложностью, высокой вычислительной загрузкой и необходимостью качественных данных по горным породам и параметрам буровзрывных работ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "complexity and data requirements",
+    "direction": "increases",
+    "factor": "computational modeling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Данные модели характеризуются большой сложностью, высокой вычислительной загрузкой и необходимостью качественных данных по горным породам и параметрам буровзрывных работ.",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Для анализа и калибровки данного подхода были рассмотрены четыре различных варианта разделения очистной камеры на сектора.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "вариантов разделения",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для анализа и калибровки данного подхода были рассмотрены четыре различных варианта разделения очистной камеры на сектора.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Каждый сектор определялся как область массива, находящаяся между осями двух соседних скважин.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "сектор",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Каждый сектор определялся как область массива, находящаяся между осями двух соседних скважин.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Для этого варианта в качестве ЛНС принималось среднее значение между наибольшим и наименьшим расстоянием между зарядами взрывчатого вещества в этих скважинах.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ЛНС",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для этого варианта в качестве ЛНС принималось среднее значение между наибольшим и наименьшим расстоянием между зарядами взрывчатого вещества в этих скважинах.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Второй вариант разбиения очистной камеры основан на вертикальном разделении зарядов взрывных скважин на отдельные сектора.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "второй вариант",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Второй вариант разбиения очистной камеры основан на вертикальном разделении зарядов взрывных скважин на отдельные сектора.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Третий вариант рассматривает зону дробления, которую формирует каждая скважина отдельно, с радиально‑симметричным распределением энергии.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "третий вариант",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В третьем варианте разделения камеры рассматривается не зона между взрывными скважинами, а зона дробления, которую формирует каждая скважина отдельно.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Четвёртый вариант представляет собой комбинацию второго и третьего вариантов, учитывающую вертикальную и радиальную неоднородность распределения энергии взрыва.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "четвёртый вариант",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Четвёртый вариант представляет собой комбинацию второго и третьего вариантов, основанный на принципе, что каждая взрывная скважина формирует собственную зону дробления, однако внутри этой зоны распределение энергии и степени разрушения неоднородно по длине заряда.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Для выбора рационального способа разделения очистной камеры на сектора был выполнен расчёт по каждому из рассматриваемых вариантов с определением основных параметров гранулометрического состава.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "разделение очистной камеры",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для выбора рационального способа разделения очистной камеры на сектора был выполнен расчёт по каждому из рассматриваемых вариантов с определением основных параметров гранулометрического состава.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Development of methods for predicting the granulometric composition of rock mass remains an actual task.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "relevance",
+    "direction": "increases",
+    "factor": "ongoing scientific‑technical challenges",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработка методов по прогнозированию гранулометрического состава горной массы остаётся актуальной задачей.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "The classical Kuz‑Ram model, based on the assumption of uniform energy distribution within a block, gives an averaged result for the cleaning chamber that does not reflect actual blasting results.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "accuracy of predicted granulometric composition",
+    "direction": "decreases",
+    "factor": "assumption of uniform energy distribution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Классическая модель Kuz‑Ram, основанная на предположении о равномерном распределении энергии в пределах одного блока даёт усреднённый результат для очистной камеры, не отражающий фактические результаты взрывных работ.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "Variability of LNS and different RMK affect the determination of parameters x₍cyrs₎ and n, so direct substitution of calculated LNS into Kuz‑Ram formulas leads to significant errors.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "error magnitude",
+    "direction": "increases",
+    "factor": "non‑constant LNS and varying RMK",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Непостоянство ЛНС и различное РМК оказывают влияние на определение величины $x_{ \\cyrs }$ и $n$, поэтому непосредственная подстановка расчётного ЛНС в формулы Kuz‑Ram приводит к значительным ошибкам при определении гранулометрического состава горной массы.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "For adaptation of the Kuz‑Ram model to underground mining conditions, a sector‑based application is proposed, dividing the cleaning chamber into zones and further into sectors, each treated as an independent zone with its own blasting parameters.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "model applicability",
+    "direction": "increases",
+    "factor": "sector‑based division",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для адаптации модели Kuz‑Ram к условиям подземных горных работ предлагается секторное применение модели Kuz‑Ram. Очистная камера разбивается на три зоны, которые, в свою очередь делятся на секторы.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "The final granulometric distribution for the cleaning chamber is obtained by volume‑weighted averaging of the distributions from individual sectors.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "final distribution calculation method",
+    "direction": "increases",
+    "factor": "volume‑weighted averaging",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве итогового гранулометрического распределения по очистной камере используется результирующее распределение, определяемое через взвешенное усреднение по объёму разрушенного материала.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.81,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  },
+  {
+   "text": "The proposed methodology significantly improves the reliability of granulometric composition forecasts for underground mines, enabling comprehensive optimization of the technological process for the required granulometric composition.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "forecast reliability",
+    "direction": "increases",
+    "factor": "sector‑based adaptation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Предложенная методика позволяет значительно повысить достоверность прогноза гранулометрического состава на подземных рудниках, что позволяет, производить комплексную оптимизацию технологического процесса под необходимый гранулометрический состав.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:5-статья-для-гж-No1-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

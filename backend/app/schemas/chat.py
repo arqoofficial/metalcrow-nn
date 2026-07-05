@@ -7,6 +7,7 @@ from sqlmodel import Field, SQLModel
 from app.models.chat import ChatSessionPublic
 from app.schemas.common import RegimeBucket
 from app.schemas.graph import SubgraphResponse
+from app.schemas.litsearch import LiteratureRef
 
 __all__ = [
     "ChatTrigger",
@@ -38,6 +39,7 @@ class ChatMode(StrEnum):
     AUTO = "auto"
     ONTOLOGY = "ontology"
     KNOWLEDGE_GRAPH = "knowledge_graph"
+    LITERATURE = "literature"
 
 
 # gap-cell из аналитики пробелов, передаётся в chat при клике на heatmap (SPEC_V3 §8.4/D.3)
@@ -131,6 +133,7 @@ class ChatMessageResponse(SQLModel):
     summary: str
     tools_used: list[str]
     subgraph: SubgraphResponse | None = None  # TODO(SPEC_V3 §5.7 P2): opt-in mini-graph
+    literature: LiteratureRef | None = None  # opt-in slot, litsearch -> chat
     session_id: uuid.UUID
     # Какой источник знаний фактически ответил: "ontology" | "knowledge_graph" |
     # "hypothesis" (gap_click). Позволяет фронтенду явно показать пользователю,

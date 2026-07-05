@@ -1,0 +1,1209 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:переработка-cu-шлаков-2024-docx",
+   "title": "Переработка Cu шлаков (2024).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Переработка Cu шлаков (2024).docx.md",
+   "artifact_sha256": "3aaf7550d10f3fa1a95915500109fd758d06119564788baec85b9ba0337a60d6",
+   "okf_raw_path": "Обзоры/Переработка Cu шлаков (2024).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:copper-droplets",
+   "label": "copper droplets",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag",
+   "label": "slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-matte-steins",
+   "label": "copper matte (steins)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag-containing-matte-droplets",
+   "label": "slag containing matte droplets",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:carbon-coal-coke",
+   "label": "carbon (coal/coke)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfur-e-g-pyrite",
+   "label": "sulfur (e.g., pyrite)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-concentrate",
+   "label": "copper concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-matte-steine",
+   "label": "copper matte (steine)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-matte-штеи-н",
+   "label": "copper matte (штейн)",
+   "family": "matte",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-matte",
+   "label": "copper matte",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:переработка-cu-шлаков-2024-docx:0",
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "title": "Early laboratory experiments on droplet behavior",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Observation of small droplets",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-droplets",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "droplet behavior",
+     "scope": "material",
+     "material_id": "mat:copper-droplets",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 0.01
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В ранних опытах было установлено, что мелкие капли диаметром <0,01 см ведут себя как твердые сферы и скорость их оседания описывается уравнением Стокса.",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Small droplets (<0,01 cm) settle according to Stokes' law; larger droplets follow the Adamara‑Rybczynski equation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "settling behavior",
+      "direction": "increases",
+      "factor": "droplet size",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Однако значительно более крупные капли оседают со скоростью, описываемой уравнением Адамара-Рыбчинского.",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В ранних опытах было установлено, что мелкие капли диаметром <0,01 см ведут себя как твердые сферы и скорость их оседания описывается уравнением Стокса.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-cu-шлаков-2024-docx:1",
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "title": "Industrial observation at Tamano copper plant (Japan)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "Weighted (vzsvechennoj) smelting with slag decantation",
+       "temperature_text": "not specified",
+       "duration_text": "average slag settling time 4‑5 hours"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:copper-matte-steins",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.13,
+      "max": null
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "settling"
+     },
+     "method": null,
+     "snippet": "Для условий взвешенной плавки на заводе Tamano (см. выше рис. 1.3) среднее время отстаивания шлака составляет 4-5 часов. В этих временных рамках оседают частицы размером более 0,13-0,15 мм, продление периода отстаивания слабо влияет на оседание более мелких частиц.",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Extending decantation time beyond 4‑5 h has little effect on the removal of finer particles.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "decreases",
+      "factor": "decantation time",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "продление периода отстаивания слабо влияет на оседание более мелких частиц.",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для условий взвешенной плавки на заводе Tamano (см. выше рис. 1.3) среднее время отстаивания шлака составляет 4-5 часов.",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-cu-шлаков-2024-docx:2",
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "title": "Obednitel'naya furnace (debulking furnace) operation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Pyrrometallurgical debulking of copper slag in a separate electric furnace",
+       "temperature_text": "maintain slag temperature (implied for liquid slag)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:slag-containing-matte-droplets",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:carbon-coal-coke",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:sulfur-e-g-pyrite",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Obednitel'naya furnaces are used to debulk both primary and converter slags, sometimes requiring added reductant and sulfur.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Обеднение шлака пирометаллургическим способом в большинстве случаев проводят в отдельной электропечи, называемой обеднительной печью.",
+     "locator_kind": "md_para",
+     "locator": "para:170",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Обеднение шлака пирометаллургическим способом в большинстве случаев проводят в отдельной электропечи, называемой обеднительной печью.",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-cu-шлаков-2024-docx:3",
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "title": "Weighted (vzs) copper smelting in industrial furnaces",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "Weighted copper smelting (ВП) in Metso Outotec and Inco furnaces, followed by conversion in Pierce‑Smith converters"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:slag",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:copper-matte-steine",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:copper-matte-steins",
+     "value": {
+      "min": null,
+      "nominal": 54.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Штейн, Cu% 54-56 | 63 | 63 | 63,5 | 63-65 | 62",
+     "locator_kind": "md_para",
+     "locator": "para:183",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 0.5,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Шлак ВП, Cu% 0,5-0,75 | 1,5 | 0,8 | 0,7 | 1,5-2,5 | 0,86",
+     "locator_kind": "md_para",
+     "locator": "para:183",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Matte from weighted smelting is typically sent to Pierce‑Smith converters for further processing.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Полученные штейны ВП поступают на конвертирование – в большинстве случаев, в конвертерах Пирса-Смита.",
+     "locator_kind": "md_para",
+     "locator": "para:181",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В настоящее время на взвешенную плавку (ВП) приходится примерно половина выпуска медного штейна в ~44 действующих печах ВП Metso Outotec (Outokumpu) и двух печах Inco.",
+   "locator_kind": "md_para",
+   "locator": "para:181",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-cu-шлаков-2024-docx:4",
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "title": "First pilot test of the SKS (bottom‑blown smelting) process",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "SKS (bottom‑blown smelting, also called BBS)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-matte-штеи-н",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:copper-matte-steins",
+     "value": {
+      "min": null,
+      "nominal": 72.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "%Cu в штейне | 72-73",
+     "locator_kind": "md_para",
+     "locator": "para:217",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:slag",
+     "value": {
+      "min": null,
+      "nominal": 1.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "%Cu в шлаке | 1,5-2,5",
+     "locator_kind": "md_para",
+     "locator": "para:217",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Процесс SKS впервые был опробован на медеплавильном заводе ShuiKoushan (Китай) в 1990 г",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Процесс SKS впервые был опробован на медеплавильном заводе ShuiKoushan (Китай) в 1990 г – отсюда и названием процесса SKS",
+     "locator_kind": "md_para",
+     "locator": "para:213",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Процесс SKS впервые был опробован на медеплавильном заводе ShuiKoushan (Китай) в 1990 г – отсюда и названием процесса SKS",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-cu-шлаков-2024-docx:5",
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "title": "Industrial installation of the first commercial bottom‑blown furnace in China",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "Bottom‑blown smelting (BBS)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-matte",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "В Китае первая коммерческая печь с нижним дутьем была установлена компанией Fangyuan Nonferrous Metals Co в 2008 г",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "В Китае первая коммерческая печь с нижним дутьем была установлена компанией Fangyuan Nonferrous Metals Co в 2008 г.",
+     "locator_kind": "md_para",
+     "locator": "para:214",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В Китае первая коммерческая печь с нижним дутьем была установлена компанией Fangyuan Nonferrous Metals Co в 2008 г.",
+   "locator_kind": "md_para",
+   "locator": "para:214",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "В медной отрасли ежегодно образуется около 46 млн т шлаков или 2,2-3,0 т шлака на каждую тонну металла.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual generation",
+    "direction": "increases",
+    "factor": "copper industry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В медной отрасли ежегодно образуется около 46 млн т шлаков или 2,2-3,0 т шлака на каждую тонну металла.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Однако в промышленной практике широко применяют только два способа переработки шлаков: восстановительно-сульфидирующее обеднение в электропечах и флотация.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "widely used methods",
+    "direction": "increases",
+    "factor": "shlag processing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако в промышленной практике широко применяют только два способа переработки шлаков: восстановительно-сульфидирующее обеднение в электропечах и флотация.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "При пирометаллургическом обеднении медных шлаков необходимо создать условия, способствующие осаждению взвешенных в шлаке частиц штейна Cu2S в штейновый слой.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "required conditions",
+    "direction": "increases",
+    "factor": "Cu2S precipitation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При пирометаллургическом обеднении медных шлаков необходимо создать условия, способствующие осаждению взвешенных в шлаке частиц штейна Cu2S в штейновый слой.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Это достигается за счет низкой вязкости шлака, низкой турбулентности ванны, длительной выдержки и тонкого слоя шлака.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "means to achieve conditions",
+    "direction": "increases",
+    "factor": "process parameters",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это достигается за счет низкой вязкости шлака, низкой турбулентности ванны, длительной выдержки и тонкого слоя шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Создать такие условия, особенно по выдержке, в основной плавильной печи очень сложно и обеднение шлаков проводят в отдельной обеднительной печи.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "practical difficulty",
+    "direction": "decreases",
+    "factor": "main furnace",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Создать такие условия, особенно по выдержке, в основной плавильной печи очень сложно и обеднение шлаков проводят в отдельной обеднительной печи.",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "При флотационной переработке шлаков основным принципом подготовки, по мнению большинства специалистов, является медленное охлаждение, особенно в температурном интервале, в котором происходит переход из жидкого состояния в твердое, способствующем укрупнению частиц сульфидов – в несколько раз.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pre‑treatment principle",
+    "direction": "increases",
+    "factor": "slow cooling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При флотационной переработке шлаков основным принципом подготовки, по мнению большинства специалистов, является медленное охлаждение, особенно в температурном интервале, в котором происходит переход из жидкого состояния в твердое, способствующем укрупнению частиц сульфидов – в несколько раз.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "Медленное охлаждение приводит к качественным и количественным изменениям структуры шлака.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "effect of slow cooling",
+    "direction": "increases",
+    "factor": "slag structure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медленное охлаждение приводит к качественным и количественным изменениям структуры шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "Сульфидирование шлака позволяет перевести растворенную в шлаке окисленную медь в сульфидную форму, пригодную для последующей флотации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "chemical transformation",
+    "direction": "increases",
+    "factor": "copper form",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сульфидирование шлака позволяет перевести растворенную в шлаке окисленную медь в сульфидную форму, пригодную для последующей флотации.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Ориентировочно в медной отрасли при переработке сульфидных концентратов содержание меди в плавильных шлаках составляет 1-2%, в конвертерных шлах порядка 4-11%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "type of slag (melting vs converter)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ориентировочно в медной отрасли при переработке сульфидных концентратов содержание меди в плавильных шлаках составляет 1-2%, в конвертерных шлах порядка 4-11%.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "При плавке Teniente получается штейн с 72-74 % Cu, а в шлаке ~6-10 % Cu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При плавке Teniente получается штейн с 72-74 % Cu, а в шлаке ~6-10 % Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "При взвешенной плавке прямо на черновую медь (‘DB’ - direct-ro-blister) в шлаке может быть ~15-22 % Cu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При взвешенной плавке прямо на черновую медь (‘DB’ - direct-ro-blister) в шлаке может быть ~15-22 % Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Цель: снижение содержания меди в шлаке, по крайней мере, до 0,4-0,6 % и ниже методами флотации или обеднения в печах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "target copper content",
+    "direction": "decreases",
+    "factor": "method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цель: снижение содержания меди в шлаке, по крайней мере, до 0,4-0,6 % и ниже методами флотации или обеднения в печах.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "Установлено, что минимальные механические потери имеют место при ~35% SiO2.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mechanical copper loss",
+    "direction": "decreases",
+    "factor": "SiO2 content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установлено, что минимальные механические потери имеют место при ~35% SiO2.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "CaO наиболее эффективен для уменьшения растворимости меди, за ним следуют MgO и Al2O3 – порядок соответствует основности этих оксидов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "decreases",
+    "factor": "oxide type (CaO > MgO > Al2O3)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "CaO наиболее эффективен для уменьшения растворимости меди, за ним следуют MgO и Al2O3 – порядок соответствует основности этих оксидов.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Ионы кальция, магния и алюминия замещают часть ионов меди и занимают места в силикатной матрице.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper incorporation",
+    "direction": "decreases",
+    "factor": "Ca, Mg, Al ions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ионы кальция, магния и алюминия замещают часть ионов меди и занимают места в силикатной матрице.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Добавление более основных оксидов (кальция, натрия) приводит к образованию избыточных анионов О2- и, соответственно, получается основной шлак.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "slag basicity",
+    "direction": "increases",
+    "factor": "basic oxides (Ca, Na)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добавление более основных оксидов (кальция, натрия) приводит к образованию избыточных анионов О2- и, соответственно, получается основной шлак.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Кислотные оксиды (P2O5, Al2O3, Fe2O3), напротив, ведут себя аналогично SiO2 и создают очень стабильные тетраэдрические анионы с зарядом -3, т.е. комбинацию катиона и 3-4 анионов кислорода, склонных к полимеризации с образованием более крупных ионных соединений.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "anion formation",
+    "direction": "increases",
+    "factor": "acidic oxides (P2O5, Al2O3, Fe2O3)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кислотные оксиды (P2O5, Al2O3, Fe2O3), напротив, ведут себя аналогично SiO2 и создают очень стабильные тетраэдрические анионы с зарядом -3, т.е. комбинацию катиона и 3-4 анионов кислорода, склонных к полимеризации с образованием более крупных ионных соединений.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "В шлаках, не содержащих серу, медь может раствориться только после окисления; растворимость атомарной меди отсутствует.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "oxidizing conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В шлаках, не содержащих серу, медь может раствориться только после окисления; растворимость атомарной меди отсутствует.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Когда же шлак сосуществует с сульфидной фазой (штейном), может раствориться дополнительное количество меди в соответствии с ионной теорией и концепцией «оксидной» и «сульфидной» растворимости меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "presence of sulfide phase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Когда же шлак сосуществует с сульфидной фазой (штейном), может раствориться дополнительное количество меди в соответствии с ионной теорией и концепцией «оксидной» и «сульфидной» растворимости меди.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Было показано, в частности, что в последнем случае растворимость меди существенно выше, чем в опытах с бессернистыми шлаками, что было приписано наличию серы в шлаках и «сульфидному» растворению меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "sulfur presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Было показано, в частности, что в последнем случае растворимость меди существенно выше, чем в опытах с бессернистыми шлаками, что было приписано наличию серы в шлах и «сульфидному» растворению меди.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Mechanical losses can reach 65‑80 % of total copper losses.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "loss fraction",
+    "direction": "increases",
+    "factor": "mechanical losses",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Механические потери могут достигать 65-80% суммарных потерь.",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Mechanical losses depend on furnace operating mode, slag viscosity, liquid movement, residence time, SO₂ formation, presence of solid particles, and phase separation.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Механические потери зависят от режима работы печи, вязкости шлака, движения жидкости, времени пребывания, образования SO 2 в расплаве, наличия твердых частиц, которые могут захватывать капли штейна, а также от разделения штейн/шлак.",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Mechanical losses are much less controllable than soluble losses.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "controllability",
+    "direction": "decreases",
+    "factor": "mechanical vs soluble losses",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Механические потери в значительно меньшей степени поддаются контролю, чем растворимые.",
+   "locator_kind": "md_para",
+   "locator": "para:124",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "For rapid decantation, a large density difference, large droplet size, and low slag viscosity are desirable.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для быстрой декантации необходимы следующие меры (по возможности): - большая разница плотностей, - большой размер капель, - низкая вязкость шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Increasing temperature and decreasing SiO₂ content lower slag viscosity, thereby increasing settling velocity.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "settling velocity",
+    "direction": "increases",
+    "factor": "temperature, SiO₂ content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Повышение температуры и снижение содержания SiO 2 понижает вязкость шлака и, следовательно, скорость осаждения растет.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "More reducing atmosphere reduces magnetite content, lowers slag viscosity, and increases settling velocity.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "settling velocity",
+    "direction": "increases",
+    "factor": "reducing atmosphere",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Скорость осаждения увеличивается также в более восстановительной атмосфере, т.к. снижается содержание магнетита и, соответственно, вязкость шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Higher matte grade (higher density) leads to higher settling velocity.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "settling velocity",
+    "direction": "increases",
+    "factor": "matte grade",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "а также с ростом сортности штейна – у более низкосортного штейна плотность ниже и, соответственно, скорость ниже.",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Small droplets are more likely to be retained on the slag surface by surface forces, while larger droplets pass through and sink.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "мелкие капли могут плавать.",
+   "locator_kind": "md_para",
+   "locator": "para:148",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Copper loss to slag can be reduced by attaching matte/metal droplets to solid particles present in the slag phase.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "путем присоединения капель штейна/металла к твердым частицам, присутствующим в шлаковой фазе.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "All listed measures lower copper losses to slag, but they generally do not eliminate the need for slag debulking.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Все эти меры в какой-то степени снижают потери меди со шлаками, но не исключают (в большинстве случаев) необходимость обеднения шлаков.",
+   "locator_kind": "md_para",
+   "locator": "para:166",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Reducing flux additions lowers slag mass and viscosity, but increases FeO activity and copper solubility as Cu₂O in the slag.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "уменьшение добавок флюса - масса шлака и вязкость снижаются, но при этом растет активность FeO в шлаке и больше меди в виде Cu 2 O растворяется в шлаке",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Maximizing slag fluidity (avoiding excess solid magnetite and maintaining slag temperature) helps minimize copper content in the slag.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "максимизации жидкотекучести шлака (избегание избыточного количества твердого магнетита, поддержание температуры шлака)",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Carbon additions lower the amount of solid magnetite, which in turn reduces slag viscosity.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Добавки углерода также снижают количество твердого магнетита, следствием чего является снижение вязкости шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:173",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Sulfur (e.g., pyrite) is required for matte formation in debulking furnaces.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Для формирования штейна, очевидно, также нужна сера, которую можно ввести дополнительно в виде, например, пирита",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Weighted copper smelting accounts for roughly half of global copper matte production.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В настоящее время на взвешенную плавку (ВП) приходится примерно половина выпуска медного штейна",
+   "locator_kind": "md_para",
+   "locator": "para:181",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Matte from weighted smelting typically contains 54‑65 % copper, while the associated slag contains 0,5‑2,5 % copper.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Штейн, Cu% 54-56 | 63 | 63 | 63,5 | 63-65 | 62; Шлак ВП, Cu% 0,5-0,75 | 1,5 | 0,8 | 0,7 | 1,5-2,5 | 0,86",
+   "locator_kind": "md_para",
+   "locator": "para:183",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Самым распространенным способом является конвертирование в конвертерах Пирса‑Смита, на долю которых приходится >90% объемов конвертирования медных штейнов.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Самым распространенным способом является конвертирование в конвертерах Пирса-Смита, на долю которых приходится >90% объемов конвертирования медных штейнов.",
+   "locator_kind": "md_para",
+   "locator": "para:221",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "В конвертере Пирса‑Смита типичный Cu‑содержание в шлаке составляет 5,2‑6,5 % (в зависимости от завода).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "% Cu в шлаке | 5,2 | 6,5",
+   "locator_kind": "md_para",
+   "locator": "para:223",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "При плавке Isasmelt в шлак и отходящий газ переходит 91 % As, 85 % Cd, 76 % Bi, 68 % Zn, 61 % Sb, 60 % Tl, 44 % Pb, 29 % Te.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "При плавке Isasmelt в шлак и отходящий газ переходит, %: 91 As; 85 Cd; 76 Bi; 68 Zn; 61 Sb; 60 Tl; 44 Pb; 29 Te",
+   "locator_kind": "md_para",
+   "locator": "para:211",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "В процессе SKS‑BBS As распределяется 3‑6 % в штейне, 4‑12 % в шлаке и 82‑93 % в газовой фазе.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "As | 3-6 | 4-12 | 82-93",
+   "locator_kind": "md_para",
+   "locator": "para:219",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "В процессе SKS‑BBS Bi распределяется 15‑19 % в штейне, 11‑45 % в шлаке и 40‑70 % в газовой фазе.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Bi | 15-19 | 11-45 | 40-70",
+   "locator_kind": "md_para",
+   "locator": "para:219",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "В процессе SKS‑BBS Pb распределяется 15‑55 % в штейне, 20‑24 % в шлаке и 19‑65 % в газовой фазе.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Pb | 15-55 | 20-24 | 19-65",
+   "locator_kind": "md_para",
+   "locator": "para:219",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "В процессе SKS‑BBS Sb распределяется 12‑15 % в штейне, 65‑71 % в шлаке и 17‑20 % в газовой фазе.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Sb | 12-15 | 65-71 | 17-20",
+   "locator_kind": "md_para",
+   "locator": "para:219",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "В процессе SKS‑BBS Zn распределяется 18 % в штейне, 65 % в шлаке и 17 % в газовой фазе.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Zn | 18 | 65 | 17",
+   "locator_kind": "md_para",
+   "locator": "para:219",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-шлаков-2024-docx",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:slag",
+   "dst": "mat:copper-concentrate",
+   "process": "smelting",
+   "kind": null,
+   "snippet": "В настоящее время на взвешенную плавку (ВП) приходится примерно половина выпуска медного штейна в ~44 действующих печах ВП Metso Outotec (Outokumpu) и двух печах Inco.",
+   "doc_id": "doc:переработка-cu-шлаков-2024-docx"
+  },
+  {
+   "src": "mat:copper-matte-steine",
+   "dst": "mat:copper-concentrate",
+   "process": "smelting",
+   "kind": null,
+   "snippet": "В настоящее время на взвешенную плавку (ВП) приходится примерно половина выпуска медного штейна в ~44 действующих печах ВП Metso Outotec (Outokumpu) и двух печах Inco.",
+   "doc_id": "doc:переработка-cu-шлаков-2024-docx"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

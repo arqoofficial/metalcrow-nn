@@ -1,0 +1,734 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:49-моделирование-разгрузки-docx",
+   "title": "49 Моделирование разгрузки.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\49 Моделирование разгрузки.docx.md",
+   "artifact_sha256": "35a75dca327ec5fb34224fc9523e1811826ff700125f3a963e4332b21a7e6a57",
+   "okf_raw_path": "Статьи/49 Моделирование разгрузки.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:rock-mass-pillar-ore-massif",
+   "label": "Rock mass pillar (ore massif)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rock-mass-pillar-filling-mass",
+   "label": "Rock mass pillar (filling mass)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rock-mass",
+   "label": "Rock mass",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:49-моделирование-разгрузки-docx:0",
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "title": "Numerical modeling of pillar destressing with relief holes",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Numerical modeling was performed for two different mining conditions: destressing of a pillar formed skin‑to‑skin with an ore massif and destressing of a pillar formed skin‑to‑skin with the filling mass. A numerical model of the change in the calculation of the bearing capacity of the pillar with borehole destressing and without it by the method of sequential loading was also developed.",
+       "temperature_text": "N/A",
+       "duration_text": "N/A"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rock-mass-pillar-ore-massif",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:rock-mass-pillar-filling-mass",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Coefficient of reduction of the initial elastic modulus",
+     "scope": "material",
+     "material_id": "mat:rock-mass-pillar-ore-massif",
+     "value": {
+      "min": null,
+      "nominal": 0.39,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "the coefficient of reduction of the initial modulus of elasticity is in the range from 0.39 to 0.22",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Strength reduction of pillar with unloading holes",
+     "scope": "material",
+     "material_id": "mat:rock-mass-pillar-ore-massif",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "the strength of the pillar with unloading holes in comparison with the solid pillar as a whole decreased by 20%",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The numerical modeling showed a significant decrease in both stiffness and strength of pillars when relief holes are present.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Analysis of the obtained results of numerical modeling showed that the coefficient of reduction of the initial modulus of elasticity is in the range from 0.39 to 0.22; and the strength of the pillar with unloading holes in comparison with the solid pillar as a whole decreased by 20%.",
+     "locator_kind": "md_para",
+     "locator": "para:19",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "In this work an approach has been tested for determining the elastic modulus of a rock mass, upon condition to borehole destressing.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:49-моделирование-разгрузки-docx:1",
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "title": "Numerical modeling of stress‑strain state of ore bodies with three discharge borehole configurations",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Finite‑element models were built in CAE Fidesys for three cases: (1) ore body with discharge boreholes, (2) backfill body with discharge boreholes, (3) comparison of load‑bearing capacity with and without discharge boreholes using sequential loading",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rock-mass",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Number of finite elements",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1194611.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в моделях 1 и 2 количество элементов составило 1194611",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Number of finite elements",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 359338.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в модели 3 – 359338",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "diameter",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.16,
+      "max": null
+     },
+     "unit": "м",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "discharge borehole"
+     },
+     "method": null,
+     "snippet": "диаметр разгрузочных скважин составляет 0,16 м",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "Borehole spacing",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.9,
+      "max": null
+     },
+     "unit": "м",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "3 разгрузочные скважины диаметром 160 мм располагаются на расстоянии 0,9 м друг от друга",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "pressure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "initial"
+     },
+     "method": null,
+     "snippet": "в модели 3 на верхнюю грань модели задавалось начальное давление 10 МПа",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "pressure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 250.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "maximum"
+     },
+     "method": null,
+     "snippet": "до значений давлений 250 МПа",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Depth of ore bodies and excavations (models 1 and 2)",
+     "scope": "material",
+     "material_id": "mat:rock-mass",
+     "value": {
+      "min": null,
+      "nominal": 995.0,
+      "max": null
+     },
+     "unit": "м",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "задан собственный вес горных пород с учетом расположения целиков и выработок на глубине 995 м от поверхности",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Depth of ore bodies and excavations (model 3)",
+     "scope": "material",
+     "material_id": "mat:rock-mass",
+     "value": {
+      "min": null,
+      "nominal": 45.0,
+      "max": null
+     },
+     "unit": "м",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "целики и выработки размещались на глубине 45 м от верхней грани модели",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Model dimensions (X × Y × Z) – models 1 and 2",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 200.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "ширина по оси X - 200 м; - высота по оси Z - 1100 м",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Model dimensions (X × Y × Z) – model 3",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "ширина по оси X - 100 м; - высота по оси Z - 100 м",
+     "locator_kind": "md_para",
+     "locator": "para:35",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Ore body (cavity) dimensions (common to all models)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 8.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "ширина по оси X – 8 м, толщина по оси Y – 3 м, высота по оси Z – 10 м",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "В моделях 1 и 2 количество элементов составило 1194611, а в модели 3 – 359338.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element count",
+      "direction": "increases",
+      "factor": "model complexity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в моделях 1 и 2 количество элементов составило 1194611, а в модели 3 – 359338",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    },
+    {
+     "text": "Для упрощения скважинную разгрузку задают в виде свойств, соответствующих открытому пространству, что, как правило, приводит к завышенной оценке эффективности разгрузочных скважин при использовании численных методов.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "model simplification",
+      "direction": "increases",
+      "factor": "efficiency overestimation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Для упрощения их задают в виде свойств, соответствующих открытому пространству [5, 20-21], что, как правило, приводит к завышенной оценке эффективности разгрузочных скважин при использовании численных методов.",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В рамках моделирования НДС целиков решалось несколько задач: первая задача – это определение снижения модуля упругости разгруженного массива горных пород; вторая - сравнение снижения несущей способности целиков с разгрузкой и без разгрузки.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The presented approach allows determination of the elastic modulus of a rock mass under borehole destressing conditions.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "elastic modulus",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "In this work an approach has been tested for determining the elastic modulus of a rock mass, upon condition to borehole destressing.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Numerical methods commonly used for assessing relief‑hole efficiency may both overestimate and significantly underestimate destressing intensity, contradicting practical experience.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "assessment accuracy",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Often, when assessing the effectiveness of drilling based on the instrumentation of numerical methods, approaches are used that both overestimate and significantly underestimate the intensity of destressing, which contradicts the practice of carrying out this type of work.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Relief‑hole drilling is one of the most common and effective measures for preventing rockbursts in hazardous deposits.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "One of the most common and effective activities is the drilling of a line of relief holes.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Варьируя оба этих коэффициента, можно получить приближенную картину поля напряжений в массиве горных пород после разгрузки, однако требующая инструментальной оценки последнего.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stress field approximation",
+    "direction": "increases",
+    "factor": "coefficients α_i and β",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Варьируя оба этих коэффициента, можно получить приближенную картину поля напряжений в массиве горных пород после разгрузки, однако требующая инструментальной оценки последнего.",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "В работах [17-19] при численном моделировании взрывной разгрузки модуль упругости материала в разгрузочной щели уменьшался с учетом введенного коэффициента в диапазоне 0-0,1.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "elastic modulus reduction",
+    "direction": "decreases",
+    "factor": "coefficient in range 0‑0,1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В работах [17-19] при численном моделировании взрывной разгрузки модуль упругости материала в разгрузочной щели уменьшался с учетом введенного коэффициента в диапазоне 0-0,1.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Зачастую скважинную разгрузку задают в виде полости, имеющую физико‑механические свойства, отличные от свойств основного массива горных пород.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "representation of discharge borehole",
+    "direction": "increases",
+    "factor": "different mechanical properties",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Зачастую скважинную разгрузку задают в виде полости, имеющую физико‑механические свойства, отличные от свойств основного массива горных пород.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Для упрощения их задают в виде свойств, соответствующих открытому пространству, что, как правило, приводит к завышенной оценке эффективности разгрузочных скважин при использовании численных методов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "use of open‑space properties",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для упрощения их задают в виде свойств, соответствующих открытому пространству [5, 20-21], что, как правило, приводит к завышенной оценке эффективности разгрузочных скважин при использовании численных методов.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "В работе [8] слой разгрузки задан в виде материала, являющегося комбинацией из открытого пространства и материала разгружаемой породы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "discharge layer material",
+    "direction": "increases",
+    "factor": "combined material",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В работе [8] слой разгрузки задан в виде материала, являющегося комбинацией из открытого пространства и материала разгружаемой породы.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Полученные результаты численного моделирования показали крайне низкую эффективность скважинной разгрузки, что несколько противоречит практике ведения работ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "decreases",
+    "factor": "model results",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако, полученные результаты численного моделирования показали крайне низкую эффективность скважинной разгрузки, что несколько противоречит практике ведения работ.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "В плоской задаче расчета напряженно‑деформированного состояния массива горных пород вокруг поперечного сечения скважин невозможно учесть неравномерность поля напряжений при наличии горной выработки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stress field heterogeneity",
+    "direction": "decreases",
+    "factor": "planar formulation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в плоской задаче расчета напряженно‑деформированного состояния массива горных пород вокруг поперечного сечения скважин невозможно учесть неравномерность поля напряжений при наличии горной выработки",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.81,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Решение задачи в объемной упругопластической постановке позволяет учесть напряженное состояние в приконтурной части массива, однако оно требует наличия значительных вычислительных мощностей для достижения численных результатов с относительно высокой точностью.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stress state representation",
+    "direction": "increases",
+    "factor": "computational resources",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Очевидно, что решение такой задачи в объемной упругопластической постановке позволяет учесть напряженное состояние в приконтурной части массива, однако оно требует наличия значительных вычислительных мощностей для достижения численных результатов с относительно высокой точностью.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Полученные значения снижения модуля в диапазоне от 0,396 до 0,224 коррелируют с коэффициентом снижения разупрочнённой породы 0,25 в работах [33-34].",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reduction coefficient of deformation modulus",
+    "direction": "decreases",
+    "factor": "0,396–0,224",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полученные значения снижения модуля в диапазоне от 0,396 до 0,224 коррелируют с коэффициентом снижения разупрочнённой породы 0,25 в работах [33-34].",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Для оценки изменения несущей способности целика осуществлялось моделирование с последовательным нагружением с 10 МПа до 250 МПа и значением шага нагружения 10 МПа.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "bearing capacity of the block",
+    "direction": "increases",
+    "factor": "10 МПа–250 МПа, step 10 МПа",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для оценки изменения несущей способности целика осуществлялось моделирование с последовательным нагружением с 10 МПа до 250 МПа и значением шага нагружения 10 МПа.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "В качестве критерия снижения несущей способности целика в работе принята разность значений упругих деформаций, пластических деформаций или запас прочности по критериям Друкера-Прагера и Кулона-Мора [35-37].",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "criteria for capacity reduction",
+    "direction": "nonmonotonic",
+    "factor": "difference of elastic/plastic deformations or safety margin per Drücker‑Prager and Coulomb‑Mohr criteria",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве критерия снижения несущей способности целика в работе принята разность значений упругих деформаций, пластических деформаций или запас прочности по критериям Друкера-Прагера и Кулона-Мора [35-37].",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "После проделанных подготовительных операций был произведен расчет модели в упругопластической постановке с применением критерия прочности Друкера-Прагера.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "modeling approach",
+    "direction": "nonmonotonic",
+    "factor": "elastic‑plastic formulation with Drücker‑Prager strength criterion",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После проделанных подготовительных операций был произведен расчет модели в упругопластической постановке с применением критерия прочности Друкера-Прагера.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Для решения данных задач применялся пошаговый расчет.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "calculation procedure",
+    "direction": "nonmonotonic",
+    "factor": "stepwise loading",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для решения данных задач применялся пошаговый расчет.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  },
+  {
+   "text": "Всего 3 шага расчёта: на первом шаге все блоки активны, на втором шаге происходит удаление горной породы из разгрузочных скважин, имитируя их выбуривание, на третьем – удаляется объём «отрабатываемая камера», имитируя отработку камеры.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "loading steps",
+    "direction": "nonmonotonic",
+    "factor": "3 steps with specific block activation/removal",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Всего 3 шага расчёта: на первом шаге все блоки активны, на втором шаге происходит удаление горной породы из разгрузочных скважин, имитируя их выбуривание, на третьем – удаляется объём «отрабатываемая камера», имитируя отработку камеры.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:49-моделирование-разгрузки-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

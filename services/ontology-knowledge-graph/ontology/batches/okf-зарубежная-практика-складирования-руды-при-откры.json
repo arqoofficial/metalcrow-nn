@@ -1,0 +1,1382 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "title": "Зарубежная практика складирования руды при открытой добыче как метод усреднения.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Зарубежная практика складирования руды при открытой добыче как метод усреднения.pdf.md",
+   "artifact_sha256": "26dbdb95d263cdda88d40620bf6a774b34872aae21d0440abe4e86e1e2175891",
+   "okf_raw_path": "Обзоры/Зарубежная практика складирования руды при открытой добыче как метод усреднения.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:медно-цинковая-руда",
+   "label": "медно-цинковая руда",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:полиметаллическая-руда",
+   "label": "полиметаллическая руда",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:large-size-ore",
+   "label": "large‑size ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-concentrate",
+   "label": "copper concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:magnetite-concentrate",
+   "label": "magnetite concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-gold-concentrate",
+   "label": "copper‑gold concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:зарубежная-практика-складирования-руды-при-откры:0",
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "title": "Effect of ore averaging on copper and zinc extraction",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Усреднение медно-цинковой руды по содержанию металлов"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:медно-цинковая-руда",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Как видно из рис.1, усреднение медно-цинковой руды по содержанию металлов обеспечивает увеличение извлечения меди на 0,8%, цинка - на 2,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:медно-цинковая-руда",
+     "value": {
+      "min": null,
+      "nominal": 2.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Zn"
+     },
+     "method": null,
+     "snippet": "Как видно из рис.1, усреднение медно-цинковой руды по содержанию металлов обеспечивает увеличение извлечения меди на 0,8%, цинка - на 2,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Усреднение медно-цинковой руды повышает извлечение меди и цинка.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Как видно из рис.1, усреднение медно-цинковой руды по содержанию металлов обеспечивает увеличение извлечения меди на 0,8%, цинка - на 2,5%.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Как видно из рис.1, усреднение медно-цинковой руды по содержанию металлов обеспечивает увеличение извлечения меди на 0,8%, цинка - на 2,5%.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежная-практика-складирования-руды-при-откры:1",
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "title": "Industrial application of ore averaging on a polymetallic plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Аналогичное усреднение на полиметаллической фабрике"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:полиметаллическая-руда",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Аналогичное усреднение на полиметаллической фабрике позволяет повысить извлечение в одноименные концентраты меди - на 1,5%, свинца на 2,5%, а также снизить содержание свинца в медном концентрате на 1%, меди в свинцовом концентрате - на 1,5% при одновременном уменьшении расхода реагентов на 25%.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "Аналогичное усреднение на полиметаллической фабрике позволяет повысить извлечение в одноименные концентраты меди - на 1,5%, свинца на 2,5%, а также снизить содержание свинца в медном концентрате на 1%, меди в свинцовом концентрате - на 1,5% при одновременном уменьшении расхода реагентов на 25%.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "Аналогичное усреднение на полиметаллической фабрике позволяет повысить извлечение в одноименные концентраты меди - на 1,5%, свинца на 2,5%, а также снизить содержание свинца в медном концентрате на 1%, меди в свинцовом концентрате - на 1,5% при одновременном уменьшении расхода реагентов на 25%.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -1.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Аналогичное усреднение на полиметаллической фабрике позволяет повысить извлечение в одноименные концентраты меди - на 1,5%, свинца на 2,5%, а также снизить содержание свинца в медном концентрате на 1%, меди в свинцовом концентрате - на 1,5% при одновременном уменьшении расхода реагентов на 25%.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -25.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "реагентов"
+     },
+     "method": null,
+     "snippet": "Аналогичное усреднение на полиметаллической фабрике позволяет повысить извлечение в одноименные концентраты меди - на 1,5%, свинца на 2,5%, а также снизить содержание свинца в медном концентрате на 1%, меди в свинцовом концентрате - на 1,5% при одновременном уменьшении расхода реагентов на 25%.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Усреднение на полиметаллической фабрике повышает извлечение меди и свинца, снижает перекрестное содержание металлов и уменьшает расход реагентов.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Аналогичное усреднение на полиметаллической фабрике позволяет повысить извлечение ... при одновременном уменьшении расхода реагентов на 25%.",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Аналогичное усреднение на полиметаллической фабрике позволяет повысить извлечение в одноименные концентраты меди - на 1,5%, свинца на 2,5%, а также снизить содержание свинца в медном концентрате на 1%, меди в свинцовом концентрате - на 1,5% при одновременном уменьшении расхода реагентов на 25%.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежная-практика-складирования-руды-при-откры:2",
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "title": "Primary crushing and SAG mill operation at Santo Domingo plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "primary crushing in a cone crusher (600 kW, 60″×89″) followed by SAG milling in DSAG mode"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:large-size-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "working capacity of the large‑size ore stack",
+     "scope": "material",
+     "material_id": "mat:large-size-ore",
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Полезная (рабочая) емкость штабеля крупнокусковой руды эквивалентна 6-8 часам эксплуатации (13121 т).",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "final product size after ball‑mill circuit",
+     "scope": "material",
+     "material_id": "mat:large-size-ore",
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "тонкая фракция (слив верхнего продукта) - это конечный продукт измельчения Р80 180 мкм;",
+     "locator_kind": "md_para",
+     "locator": "para:110",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The decision to eliminate pebble crushing was based on the difficulty of detecting and removing foreign metal inclusions from the SAG product before a pebble crusher.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Решение исключить галечное дробление объясняется сложностью эксплуатации и технического обслуживания при организации детектирования и удаления посторонних металлических включений из выгружаемого из мельницы SAG продукта в галечную дробилку.",
+     "locator_kind": "md_para",
+     "locator": "para:110",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Now material from the SAG mill is discharged onto a screen; the oversize product from the screen returns to the SAG mill without crushing.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежная-практика-складирования-руды-при-откры:3",
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "title": "Industrial production of copper and magnetite concentrates at Santo Domingo",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation and magnetic separation producing copper concentrate (29 % Cu) and magnetite concentrate (65 % Fe)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-concentrate",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:magnetite-concentrate",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual copper concentrate production limit",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 494.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "годовой выпуск медного концентрата ограничен 494 тыс т в год",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "annual magnetite concentrate production (years 1‑6)",
+     "scope": "material",
+     "material_id": "mat:magnetite-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 4.05,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "магнетитового концентрата - 4,05 млн т/год в 1-6 годы",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "annual magnetite concentrate production (later years)",
+     "scope": "material",
+     "material_id": "mat:magnetite-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 5.4,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "а затем 5,4 млн т/год",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "average copper production in concentrate over plant life",
+     "scope": "material",
+     "material_id": "mat:copper-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 58.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "средний объем производства меди в концентрате составит около 58 тыс т в год",
+     "locator_kind": "md_para",
+     "locator": "para:116",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "During the first 5 years copper grade declines from 0,68 % to 0,42 %, then to 0,07 % in later years.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "copper grade",
+      "direction": "decreases",
+      "factor": "time",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В первые 5 лет содержание меди снижается от 0,68% до 0,42%, а в последующие годы - до 0,07%",
+     "locator_kind": "md_para",
+     "locator": "para:117",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "The final products are copper flotation concentrate with 29 % Cu and magnetite concentrate with 65 % Fe.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:зарубежная-практика-складирования-руды-при-откры:4",
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "title": "Fe‑Cu‑Au processing scheme at Hannukainen (industrial)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "crushing → grinding → flotation → magnetic separation producing magnetite concentrate (69‑70 % Fe) and copper‑gold concentrate (25 % Cu, 7,1 g/t Au)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:magnetite-concentrate",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:copper-gold-concentrate",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual ore throughput",
+     "scope": "material",
+     "material_id": "mat:large-size-ore",
+     "value": {
+      "min": null,
+      "nominal": 6.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "переработку около 6,5 млн т/г руды",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "magnetite concentrate production",
+     "scope": "material",
+     "material_id": "mat:magnetite-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Объем производства магнетитового концентрата (69-70% Fe) около 2 млн т/г (не более 2,3 млн т/г в отдельные годы)",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "copper‑gold concentrate production",
+     "scope": "material",
+     "material_id": "mat:copper-gold-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 35.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "медного (25% Cu, 7,1 г/т Au) - 35 тыс т/г (не более 50 тыс т/г в отдельные годы)",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "magnetite liberation degree after grinding to R80 70‑100 µm",
+     "scope": "material",
+     "material_id": "mat:magnetite-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 92.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в материале, измельченном до Р80 70-100 мкм, степень высвобождения магнетита составляет 92-96%.",
+     "locator_kind": "md_para",
+     "locator": "para:129",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Approximately 80 % of iron occurs as magnetite, 10 % in silicate gangue and 10 % in sulfides (mainly pyrrhotite).",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Примерно 80% железа присутствует в виде магнетита, 10% ассоциировано с силикатами пустой породы и 10% - в сульфидах, главным образом, в пирротине.",
+     "locator_kind": "md_para",
+     "locator": "para:128",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "The deposit is characterized by a relatively simple mineralogical composition, with magnetite as the only iron‑oxide mineral and chalcopyrite as the only copper mineral.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Усреднение качества экономически целесообразно в случаях, если экономический эффект от его применения превышает суммарные дополнительные затраты в сфере добычи и переработки полезных ископаемых.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "экономический эффект",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Усреднение качества экономически целесообразно в случаях, если экономический эффект от его применения превышает суммарные дополнительные затраты в сфере добычи и переработки полезных ископаемых.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "За счёт усреднения качества можно улучшить использование запасов полезных ископаемых путём рационального использования более бедных руд.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "использование запасов",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "за счёт усреднения качества можно улучшить использование запасов полезных ископаемых путём рационального использования более бедных руд.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Складирование руды — один из наиболее широко применяемых методов усреднения сырья.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Складирование руды - один из наиболее широко применяемых методов усреднения сырья.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Ёмкость, размеры склада зависят от производственной мощности перерабатывающего предприятия, стабильности свойств и качества полезных ископаемых, от числа сортов сырья, поступающего на склад, и их количественного соотношения, от требований, предъявляемых к отгружаемому со склада сырью, и характера оборудования карьерного склада.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Ёмкость, размеры склада зависят от производственной мощности перерабатывающего предприятия, стабильности свойств и качества полезных ископаемых, от числа сортов сырья, поступающего на склад, и их количественного соотношения, от требований, предъявляемых к отгружаемому со склада сырью, и характера оборудования карьерного склада.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Усреднительный склад предназначен для выравнивания состава полезных ископаемых по качеству.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "усреднительный - для выравнивания состава полезных ископаемых по качеству",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "«Сортовые» запасы обычно создаются при рудниках драгоценных и базовых металлов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "typical occurrence",
+    "direction": "increases",
+    "factor": "type of mine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "«Сортовые» запасы обычно создаются при рудниках драгоценных и базовых металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Буферные запасы сравнительно невелики - на несколько часов или дней производства.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "size",
+    "direction": "decreases",
+    "factor": "time horizon",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Буферные запасы сравнительно невелики - на несколько часов или дней производства.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Буферные запасы располагают обычно в голове цепочки измельчения с тем, чтобы гарантировать, что процесс будет продолжаться независимо от флуктуаций в поставках руды с рудника.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "location",
+    "direction": "increases",
+    "factor": "process continuity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Буферные запасы располагают обычно в голове цепочки измельчения с тем, чтобы гарантировать, что процесс будет продолжаться независимо от флуктуаций в поставках руды с рудника.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "«Аварийный» склад - это, как следует из определения, частный случай «буферного» склада.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "relationship",
+    "direction": "increases",
+    "factor": "definition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "«Аварийный» склад - это, как следует из определения, частный случай «буферного» склада.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Буферные запасы, помимо обеспечения бесперебойной работы цепочек измельчения/флотации, наряду с «сортовыми» (или усреднительными и шихтовочными) являются, по существу, также и инструментом управления качеством руды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "function",
+    "direction": "increases",
+    "factor": "quality control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Буферные запасы, помимо обеспечения бесперебойной работы цепочек измельчения/флотации, наряду с «сортовыми» (или усреднительными и шихтовочными) являются, по существу, также и инструментом управления качеством руды.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.45,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Наилучшее смешивание руды достигается при использовании штабелей вытянутой формы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "effectiveness",
+    "direction": "increases",
+    "factor": "stack shape",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наилучшее смешивание руды достигается при использовании штабелей вытянутой формы.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "У конического штабеля количество перегружаемого материала - склад текущего расхода или активный/рабочий склад составляет 20-25% от суммарной ёмкости склада, у штабеля вытянутой формы - 30-35% [3].",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "percentage of total capacity",
+    "direction": "increases",
+    "factor": "stack type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "У конического штабеля количество перегружаемого материала - склад текущего расхода или активный/рабочий склад составляет 20-25% от суммарной ёмкости склада, у штабеля вытянутой формы - 30-35% [3].",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Преимуществом круглого штабеля является отсутствие «краевого» эффекта.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "edge effect",
+    "direction": "decreases",
+    "factor": "stack geometry",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, идет непрерывный процесс и преимуществом круглого штабеля является отсутствие «краевого» эффекта.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Способ укладки «завитком» - самый популярный способ в системах хранения, не имеющих первоочередной целью усреднение.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "popularity",
+    "direction": "increases",
+    "factor": "application type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Способ укладки «завитком» - самый популярный способ в системах хранения, не имеющих первоочередной целью усреднение.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Угол наклона для такого движения должен быть равен или меньше угла естественного откоса материала",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maximum allowable tilt angle",
+    "direction": "increases",
+    "factor": "angle of natural material slope",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Угол наклона для такого движения должен быть равен или меньше угла естественного откоса материала",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Степень усреднения можно выразить как стандартное отклонение характеристики материала от среднего значения",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "degree of mixing",
+    "direction": "increases",
+    "factor": "standard deviation of material characteristic",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Степень усреднения можно выразить как стандартное отклонение характеристики материала от среднего значения",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Эффективность усреднения зависит от трех факторов: метод складирования, параметры штабеля и вариабельность на входе",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "method of stacking, stack parameters, input variability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эффективность усреднения зависит от трех факторов: - метод складирования, т.е. способ, которым укладчик помещает материал в штабель. Именно укладчик, по большей части, ответственен за усреднение, а не штабелеразборщик; - параметры штабеля, а именно: длина, ширина, число уложенных слоев, а также характеристики оборудования - укладчика и разборщика и характеристики материала; - -вариабельность на входе, т.е. частота и амплитуда колебаний характеристик материала во входящем потоке.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Авторы [4] пришли к заключению, что для целей усреднения метод укладки chevcon во многих отношениях эффективнее «завитка»",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mixing effectiveness",
+    "direction": "increases",
+    "factor": "chevcon stacking method vs. zavitka",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "авторы [4] пришли к заключению, что для целей усреднения метод укладки chevcon во многих отношениях эффективнее «завитка»",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Планируется разработка руды открытым способом на протяжении 18,5 лет",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mine life",
+    "direction": "increases",
+    "factor": "planned open‑pit operation duration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "планируется разработка руды открытым способом на протяжении 18,5 лет",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Суммарные запасы двух месторождений Santo Domingo Sur (SDS) и Iris Norte оценены в 392 млн т с 0,30% Cu; 28,2% Fe; 0,03 г/т Au",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ore reserves",
+    "direction": "increases",
+    "factor": "combined deposits SDS and Iris Norte",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарные запасы двух месторождений Santo Domingo Sur (SDS) и Iris Norte оценены в 392 млн т с 0,30% Cu; 28,2% Fe; 0,03 г/т Au",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Общее количество низкорентабельной руды оценено в 5,4 млн т, максимальный размер склада - 4,5 млн т",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "low‑grade ore volume",
+    "direction": "increases",
+    "factor": "estimated low‑grade ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Общее количество низкорентабельной руды оценено в 5,4 млн т, максимальный размер склада - 4,5 млн т",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Direct semi‑autogenous grinding (DSAG) can replace a SAG‑ball‑mill‑crushing chain when magnetite dominates the ore type.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Такая замена явилась результатом изучения варьируемости «гематитовых» и «магнетитовых» типов руды, выявивших доминирование магнетита.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Eliminating pebble crushing simplifies operation and maintenance related to detection and removal of foreign metal inclusions.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Решение исключить галечное дробление объясняется сложностью эксплуатации и технического обслуживания при организации детектирования и удаления посторонних металлических включений...",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.45,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Typical screen openings for the two‑deck screen are 1 in on the upper deck and ½ in on the lower deck.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "размер отверстий вибрационного сита 1' на верхней деке (ярусе) и 1⁄2 ' - на нижней.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "The final product of the ball‑mill circuit has a particle size of R80 180 µm.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "тонкая фракция (слив верхнего продукта) - это конечный продукт измельчения Р80 180 мкм;",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Copper concentrate grade declines over plant life, reaching about 0,07 % Cu after 18 years.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper grade",
+    "direction": "decreases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "к 18-му году максимума достигнет магнетит - около 90%. В первые 5 лет содержание меди снижается от 0,68% до 0,42%, а в последующие годы - до 0,07%.",
+   "locator_kind": "md_para",
+   "locator": "para:117",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Magnetite grains are large (>300 µm); after grinding to R80 70‑100 µm, 92‑96 % of magnetite is liberated.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Анализ GEMSCAN показал, что зерна магнетита - крупные, размером более 300 мкм. В материале, измельченном до Р80 70-100 мкм, степень высвобождения магнетита составляет 92-96%.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Less than 0,2 % of magnetite is associated with pyrite and chalcopyrite, and about 1 % with pyrrhotite.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Менее 0,2% магнетита ассоциировано с пиритом и халькопиритом, примерно 1% магнетита ассоциирован с пирротином.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Typical chalcopyrite grain size is 20‑30 µm and is mainly associated with magnetite in un‑crushed material.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Типичный размер зерен халькопирита 20-30 микрон. В не вскрытом состоянии халькопирит ассоциирован, в основном, с магнетитом.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "пропускная способность 6,5 млн т/г по руде (825 т/час номинально)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "6,5 млн т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "пропускная способность 6,5 млн т/г по руде (825 т/час номинально)",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "тонкость помола в измельчительной цепи Р80 90 мкм",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "decreases",
+    "factor": "R80 90 мкм",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "тонкость помола в измельчительной цепи Р80 90 мкм",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "сортность магнетитового концентрата >68% Fe (и менее 0,05% S)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": ">68% Fe",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сортность магнетитового концентрата >68% Fe (и менее 0,05% S)",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "сортность медного концентрата 25% Cu",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "25% Cu",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сортность медного концентрата 25% Cu",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "при переработке ≈6,5 млн т/год руды, получаем 1,9-2,2 млн т/г магнетитового концентрата в первые 13 лет",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "magnetite concentrate output",
+    "direction": "increases",
+    "factor": "1,9-2,2 млн т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при переработке ≈6,5 млн т/год руды, получаем 1,9-2,2 млн т/г магнетитового концентрата в первые 13 лет",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "выпуск магнетитового концентрата резко снизится после 2029 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "magnetite concentrate output",
+    "direction": "decreases",
+    "factor": "резко",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После 2029 г. выпуск магнетитового концентрата резко снизится",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "выпуск медного концентрата превышает пороговое значение в 50 тыс т/г концентрата лишь в нескольких случаях",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper concentrate output",
+    "direction": "increases",
+    "factor": "50 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "выпуск медного концентрата ... превышает пороговое значение в 50 тыс т/г концентрата лишь в нескольких случаях",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.81,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "в первые 10 лет содержание железа колеблется в интервале ≈32-34%, а затем медленно снижается, более резкое снижение - после 2028 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "≈32-34% then lower",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в первые 10 лет содержание железа колеблется в интервале ≈32-34%, а затем медленно снижается, более резкое снижение - после 2028 г.",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "содержание серы колеблется в интервале 2,0-2,8% в зависимости от источника добываемой руды",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "2,0-2,8%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "содержание серы колеблется в интервале 2,0-2,8% в зависимости от источника добываемой руды",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Cu и Au следуют аналогичному тренду и меняются в интервале 0,110,26% Cu и 0,3-0,27 г/т Au",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Cu and Au content",
+    "direction": "increases",
+    "factor": "0,110,26% Cu and 0,3-0,27 г/т Au",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cu и Au следуют аналогичному тренду и меняются в интервале 0,110,26% Cu и 0,3-0,27 г/т Au",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Срок эксплуатации рудника - примерно 40 лет (до 2055 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Срок эксплуатации рудника - примерно 40 лет (до 2055 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:187",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Переработку руды предполагается вести по обычной схеме, включающей дробление - измельчение - флотацию с получением «чистого» медного 25%-ного концентрата и молибденового (сульфидного) концентрата с 52% Mo.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "processing scheme",
+    "direction": "no_change",
+    "factor": "process steps",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Переработку руды предполагается вести по обычной схеме, включающей дробление - измельчение - флотацию с получением «чистого» медного 25%-ного концентрата и молибденового (сульфидного) концентрата с 52% Mo.",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Компания First Quantum намерена применить систему дробления в карьере с конвейерной откаткой ('IPCC').",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technology adoption",
+    "direction": "increases",
+    "factor": "implementation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Опираясь на технологии, разработанные для других своих проектов, компания First Quantum намерена применить систему дробления в карьере с конвейерной откаткой ('IPCC').",
+   "locator_kind": "md_para",
+   "locator": "para:197",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "NSR (Net Smelter Return) - это ожидаемый доход от поступающего на фабрику сырья с учетом извлечения в концентрат, затрат на транспортировку концентрата на плавильный завод, затрат на плавку и рафинирование (TC/RC) и прочих вычетов на плавильном заводе.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "definition",
+    "direction": "no_change",
+    "factor": "definition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "NSR (Net Smelter Return) - это ожидаемый доход от поступающего на фабрику сырья с учетом извлечения в концентрат, затрат на транспортировку концентрата на плавильный завод, затрат на плавку и рафинирование (TC/RC) и прочих вычетов на плавильном заводе.",
+   "locator_kind": "md_para",
+   "locator": "para:200",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  },
+  {
+   "text": "Другими словами, NSR - это чистый доход владельца горного предприятия, который он получает от продаж металла/металлов с рудника за вычетом транспортных затрат и затрат на плавку/рафинирование.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "interpretation",
+    "direction": "no_change",
+    "factor": "definition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Другими словами, NSR - это чистый доход владельца горного предприятия, который он получает от продаж металла/металлов с рудника за вычетом транспортных затрат и затрат на плавку/рафинирование.",
+   "locator_kind": "md_para",
+   "locator": "para:200",
+   "confidence": 0.9,
+   "document_id": "doc:зарубежная-практика-складирования-руды-при-откры",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

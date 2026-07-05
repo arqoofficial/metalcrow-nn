@@ -1,0 +1,1275 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "title": "19 Статья по хлорированию - ГОТОВО.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\19 Статья по хлорированию - ГОТОВО.docx.md",
+   "artifact_sha256": "efbce5e35b36d230a4d098998c89848e6616d69263dba2bd59792fd46f1edc8f",
+   "okf_raw_path": "Статьи/19 Статья по хлорированию - ГОТОВО.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:enriched-material",
+   "label": "enriched material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gas-chlorine-and-sodium-chlorate",
+   "label": "gas chlorine and sodium chlorate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:penny-foam-product-pп-from-nickel-powder-flotati",
+   "label": "Penny‑foam product (PП) from nickel powder flotation residue (ОХР ПНТП)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:carbon-particles-reducer",
+   "label": "carbon particles (reducer)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:hcl-solution",
+   "label": "HCl solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cl2-or-naclo3",
+   "label": "Cl2 or NaClO3",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:platinum-group-metals",
+   "label": "platinum‑group metals",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:pt-pd-concentrate-kpp",
+   "label": "Pt‑Pd concentrate (KPP)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rh-ru-concentrate-kmсп",
+   "label": "Rh‑Ru concentrate (KMСП)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:19-статья-по-хлорированию-готово-docx:0",
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "title": "Laboratory chlorination experiments",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "chlorination",
+      "extra": {
+       "raw_process": "chlorination",
+       "temperature_text": "70 °C",
+       "duration_text": "30‑60 minutes after chlorine feed"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 343.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:enriched-material",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "chlorine feed rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "g/min",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Подачу хлора осуществляли со скоростью около 1 г/мин до достижения ОВП системы ~ 1000 мВ",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "open‑circuit potential (OVP)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1000.0,
+      "max": null
+     },
+     "unit": "mV",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "до достижения ОВП системы ~ 1000 мВ (относительно хлорсеребряного электрода)",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "в широком диапазоне параметров процесса (температура, Ж:Т, кислотность) обеспечивается высокое извлечение в раствор платиновых металлов (ПМ)",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "increases",
+      "factor": "temperature, J:T, acidity",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "в широком диапазоне параметров процесса (температура, Ж:Т, кислотность) обеспечивается высокое извлечение в раствор платиновых металлов (ПМ)",
+     "locator_kind": "md_para",
+     "locator": "para:5",
+     "confidence": 0.9
+    },
+    {
+     "text": "при исходном содержании суммы ПМ 15‑30 % и проведении хлорирования в две стадии остаточное содержание платины и палладия находится на уровне 0,1‑0,2 %, что соответствует извлечению более 95‑97 %",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "residual Pt‑Pd content",
+      "direction": "decreases",
+      "factor": "two‑stage chlorination, initial PM 15‑30 %",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При исходном содержании суммы ПМ 15-30 % и проведении хлорирования в две стадии остаточное содержание платины и палладия находится на уровне 0,1-0,2 %, что соответствует извлечению более 95-97 %.",
+     "locator_kind": "md_para",
+     "locator": "para:5",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Лабораторные эксперименты по хлорированию проводились по стандартной методике в стеклянных реакторах объемом 1‑3 дм³ : навеску исходного материала распульповывали в растворе соляной кислоты для получения однородной суспензии, нагревали до 70 С и подавали в пульпу газообразный хлор по заглубленной под слой раствора стеклянной трубке.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:19-статья-по-хлорированию-готово-docx:1",
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "title": "Pilot‑scale chlorination experiments on RT‑50",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "chlorination",
+      "extra": {
+       "raw_process": "chlorination",
+       "temperature_text": "not specified (same as lab)",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gas-chlorine-and-sodium-chlorate",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Укрупненные эксперименты проводили при использовании в качестве окислителя газообразного хлора и хлората натрия и реакторе РТ-50. Методика проведения не отличалась от таковой для лабораторных опытов, однако ввиду технических особенностей установки осуществлялся периодический контроль ОВП системы.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:19-статья-по-хлорированию-готово-docx:2",
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "title": "Scaled leaching experiment in RT-50 reactor",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "chlorination",
+      "extra": {
+       "raw_process": "Chlorination using gaseous chlorine and sodium chlorate",
+       "temperature_text": "60‑70 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:penny-foam-product-pп-from-nickel-powder-flotati",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "oxidation‑reduction potential (ORP)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 1000.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "mV",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Распределение в раствор палладия, родия, рутения, иридия, селена и теллура, превышающее 96 %, наблюдается при ОВП 1000 мВ и более",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 84.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "Распределение платины в раствор не превышает 84 %",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 14.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "а золота – 14 %",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "residue metal content after first chlorination stage",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "После одной стадии хлорирования осадки содержат по 1-2% платины, палладия и золота и следовые количества МСП",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "additional platinum and palladium extraction after fresh HCl oxi",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Дополнительное окисление в свежем растворе соляной кислоты позволяет дополнительно извлечь 80-90 % платины и палладия",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "final platinum and palladium content after second oxidation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.1,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и снизить их содержание до 0,1-0,2 %",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Deep extraction of precious metals is possible in a saline‑acidic medium with a wide range of oxidizers provided the required ORP is reached.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "extraction feasibility",
+      "direction": "increases",
+      "factor": "ORP",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Эксперименты показали возможность глубокого извлечения в раствор драгоценных металлов при хлорировании в солянокислой среде в присутствие широкого спектра окислителей - газообразного хлора, хлората или гипохлорита натрия при условии достижения необходимых значений окислительно-восстановительного потенциала платинового электрода в пульпе.",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Укрупненные эксперименты проводили при использовании в качестве окислителя газообразного хлора и хлората натрия и реакторе РТ-50.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:19-статья-по-хлорированию-готово-docx:3",
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "title": "Laboratory leaching experiments (method identical to scaled tests)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "chlorination",
+      "extra": {
+       "raw_process": "Chlorination with gaseous chlorine or sodium chlorate",
+       "temperature_text": "60‑70 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:penny-foam-product-pп-from-nickel-powder-flotati",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "oxidation‑reduction potential (ORP)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 1000.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "mV",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Распределение в раствор палладия, родия, рутения, иридия, селена и теллура, превышающее 96 %, наблюдается при ОВП 1000 мВ и более",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Laboratory methodology did not differ from that used in the scaled experiments.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "methodology consistency",
+      "direction": "no_change",
+      "factor": "procedure",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Методика проведения не отличалась от таковой для лабораторных опытов",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Укрупненные эксперименты проводили при использовании в качестве окислителя газообразного хлора и хлората натрия и реакторе РТ-50. Методика проведения не отличалась от таковой для лабораторных опытов",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:19-статья-по-хлорированию-готово-docx:4",
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "title": "Assessment of gold penetration depth in carbon particles",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "visual and elemental analysis of several dozen carbon particles of different sizes under varying accelerating voltages"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:carbon-particles-reducer",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Gold (and other precious metals) are mainly located in the near‑surface layer of the carbon particles, with a decrease of gold content from the periphery to the centre for both large (>10 µm) and small (<10 µm) particles.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "distribution of gold in particles",
+      "direction": "decreases",
+      "factor": "distance from particle surface",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При этом наблюдается идентичная картина как для крупных (более 10 мкм в среднем эквивалентом диаметре) и мелких (менее 10 мкм) частиц – уменьшение содержания золота от периферии к центру.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для оценки глубины проникновения золота в частицу восстановителя было исследовано несколько десятков частиц восстановителя разного размера при различных ускоряющих напряжениях.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:19-статья-по-хлорированию-готово-docx:5",
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "title": "Laboratory chlorination experiments (L* and L series)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "chlorination",
+      "extra": {
+       "raw_process": "chlorination of pulp with varying HCl concentration, pulp density and oxidizer",
+       "duration_text": "6.0 h (L*), 5.0 h (L), 2.5 h (L), 9.4 h (U), 8.5 h (U), 3.6 h (L‑II), 5.5 h (L‑II)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:hcl-solution",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:cl2-or-naclo3",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 45.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Л* 3,0 10 6,0 Cl 2 45,4 …",
+     "locator_kind": "md_para",
+     "locator": "para:37",
+     "confidence": 0.41
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Changing the initial HCl concentration in the range 10–70 g/dm³ has little effect on chlorination performance.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "process performance",
+      "direction": "no_change",
+      "factor": "HCl concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Изменение начальной концентрации соляной кислоты растворе в пределах 10 – 70 г/дм 3 незначительно влияет на показатели процесса хлорирования",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    },
+    {
+     "text": "Changing pulp density also practically does not affect metal extraction provided the oxidation potential stabilises at ~1000 mV.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "no_change",
+      "factor": "pulp density",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Изменение плотности пульпы также практически не влияет на показатели извлечения металлов при условии достижения и стабилизации ОВП на уровне ~ 1000 мВ.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Л* 3,0 10 6,0 Cl 2 45,4 | Л 5,0 10 5,0 Cl 2 50,2 | Л 7,0 10 2,5 Cl 2 50,0 | У 6,3 34 9,4 Cl 2 45,7 | У 5 70 8,5 NaClO 3 44,1 | Л-II 6,0 30,0 3,6 NaClO3 84,95 | Л-II 6,0 60 5,5 NaClO3 86,75",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:19-статья-по-хлорированию-готово-docx:6",
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "title": "Laboratory and up‑scaled laboratory experiments on chlorination",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "chlorination",
+      "extra": {
+       "raw_process": "two‑stage chlorination",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:platinum-group-metals",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "extraction to solution",
+     "scope": "material",
+     "material_id": "mat:platinum-group-metals",
+     "value": {
+      "min": null,
+      "nominal": 99.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при двухстадийной реализации процесса обеспечивается извлечение в раствор более 99-99,5 % их суммы.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The experiments demonstrated the prospectivity of chlorination for extracting platinum‑group metals into solution.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "prospectivity",
+      "direction": "increases",
+      "factor": "chlorination",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Проведенные лабораторные и укрупнено-лабораторные эксперименты показали перспективность хлорирования для извлечения в раствор платиновых металлов",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проведенные лабораторные и укрупнено-лабораторные эксперименты показали перспективность хлорирования для извлечения в раствор платиновых металлов: при двухстадийной реализации процесса обеспечивается извлечение в раствор более 99-99,5 % их суммы.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:19-статья-по-хлорированию-готово-docx:7",
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "title": "Industrial application of chlorination technology (comparison with sulfate technology)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "chlorine leaching at plant scale",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:pt-pd-concentrate-kpp",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:rh-ru-concentrate-kmсп",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Pt+Pd content in concentrate",
+     "scope": "material",
+     "material_id": "mat:pt-pd-concentrate-kpp",
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Pt+Pd 90-85",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:pt-pd-concentrate-kpp",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 0.1
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "SiO2"
+     },
+     "method": null,
+     "snippet": "SiO 2 <0,1",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt+Pd"
+     },
+     "method": null,
+     "snippet": "Извлечение Pt и Pd , % 99-99,5",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "Residue (insoluble) output",
+     "scope": "material",
+     "material_id": "mat:penny-foam-product-pп-from-nickel-powder-flotati",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 1.0
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Выход нерастворимого остатка, % <1",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Pt+Pd+Au content in concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 40.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Pt+Pd+Au 40-50",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "HCl emissions",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.05,
+      "max": null
+     },
+     "unit": "t/yr",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "HCl, т/год 0,05",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Chlorine leaching provides higher Pt‑Pd recovery and much lower insoluble residue compared with sulfate leaching.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery and residue",
+      "direction": "increases",
+      "factor": "chlorine leaching",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Извлечение Pt и Pd , % 99-99,5 … Выход нерастворимого остатка, % <1",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Таблица 3 – Показатели получения концентратов ДМ по действующей (сульфатизация) и хлорной технологиям",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Гидрохлорирование обогащённых углеродным восстановителем материалов имеет свои особенности.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "process characteristics",
+    "direction": "nonmonotonic",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Показано, что гидрохлорирование обогащённых углеродным восстановителем материалов имеет свои особенности.",
+   "locator_kind": "md_para",
+   "locator": "para:5",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": "chlorination"
+  },
+  {
+   "text": "Поведение золота резко отличается и зависит от количества и свойств остаточного восстановителя, изменения его сорбционных свойств и полноты окисления в процессе хлорирования.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gold behavior",
+    "direction": "decreases",
+    "factor": "amount and properties of residual reducer, sorption changes, oxidation completeness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Поведение золота резко отличается и зависит от количества и свойств остаточного восстановителя, изменения его сорбционных свойств и полноты окисления в процессе хлорирования.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": "chlorination"
+  },
+  {
+   "text": "Технологическая схема включает в себя вскрытие в солянокислых средах, очистку растворов от примесей неблагородных металлов и металлов‑спутников платины (МСП), осаждение платино‑палладиевого концентрата (более 90 % Pt+Pd) из очищенного раствора, переработку осадка МСП‑примесей с получением концентрата, содержащего более 20 % Rh, Ru, Ir и плавку нерастворимых остатков с получением золотого концентрата, содержащего более 40 % Pt+Pd+Au.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product composition",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технологическая схема включает в себя ... осаждение платино‑палладиевого концентрата (более 90 % Pt+Pd) ... более 20 % Rh, Ru, Ir ... более 40 % Pt+Pd+Au.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "Режимы проведения основных технологических операций отработаны в лабораторных условиях в ООО «Институт Гипроникель» и верифицированы на укрупненных установках отдела аффинажа драгоценных металлов научно‑технического центра АО КГМК (ОА ДМ НТЦ КГМК).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "validation status",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Режимы проведения основных технологических операций отработаны в лабораторных условиях в ООО «Институт Гипроникель» и верифицированы на укрупненных установках отдела аффинажа драгоценных металлов научно‑технического центра АО КГМК (ОА ДМ НТЦ КГМК).",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.81,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "Использование горячей концентрированной серной кислоты делает технологию малочувствительной к колебаниям содержания вскрываемых в условиях сульфатизации примесей.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sensitivity to impurity content",
+    "direction": "decreases",
+    "factor": "hot concentrated H2SO4",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использование горячей концентрированной серной кислоты делает технологию малочувствительной к колебаниям содержания вскрываемых в условиях сульфатизации примесей",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "Большой расход серной кислоты, значительные выбросы SO₂ и сложность автоматизации, а также отсутствие возможности удаления невскрываемых в кислотах примесей обусловливают поиск альтернативных вариантов получения пригодных для аффинажа концентратов драгоценных металлов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "drawbacks",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако большой расход серной кислоты, значительные выбросы SO 2 и сложность автоматизации, а также отсутствие возможности удаления невскрываемых в кислотах примесей ... обусловливают поиск альтернативных вариантов получения пригодных для аффинажа концентратов драгоценных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "Разработана хлорная технология получения высокоселективных концентратов платиновых металлов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technology development",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В связи с этим была разработана хлорная технология получения высокоселективных концентратов платиновых металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": "chlorination"
+  },
+  {
+   "text": "The SiO₂/Pd ratio of the foam product is typically less than 0.6, indicating relatively stable material quality.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "SiO₂/Pd ratio",
+    "direction": "decreases",
+    "factor": "material stability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Несмотря на обилие возмущений, наблюдается относительно стабильное качество материала с соотношением SiO 2 /Pd менее 0,6",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "Typical composition ranges for low‑silica and high‑silica foam products are given in Table 1.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "composition ranges",
+    "direction": "nonmonotonic",
+    "factor": "silica content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таблица 1 Типичные составы ПП ОХР ПНТП, %",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "The coarse fraction (>10 µm) consists mainly of free silicate/alumosilicate particles, occasional sulfide inclusions up to 40 µm, and carbon reductant particles up to 1 mm or larger.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "coarse fraction composition",
+    "direction": "nonmonotonic",
+    "factor": "particle size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "«Крупная» фракция (условно более 10 мкм) представлена преимущественно свободными силикатными/алюмосиликатными частицами ... единичными включениями сульфидных частиц крупностью до 40 мкм, а также частицами восстановителя (угля), достигающими в размере 1 и более мм.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.45,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "The surface of the carbon reductant is covered by a sub‑micron layer of ultra‑pure carbon, indicating extremely low sorption activity due to the absence of metals.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sorption activity",
+    "direction": "decreases",
+    "factor": "metal absence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отсутствие металлов в его составе свидетельствует о крайне низкой сорбционной активности.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "Analysis of the samples was performed at the testing analytical centre of LLC “Institute Gipronikel”, accredited under certificate No РОСС RU.0001.510042 issued 14 September 2015.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "accreditation",
+    "direction": "nonmonotonic",
+    "factor": "certification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Анализ продуктов выполнен в испытательном аналитическом центре ООО «Институт Гипроникель» (аттестат аккредитации No РОСС RU.0001.510042 выдан 14 сентября 2015 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.81,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "The material’s solid‑phase composition is highly heterogeneous, containing precious‑metal‑rich multi‑phase conglomerates based on Pd, Pt‑Pd, Au, and chalcogenides of base and precious metals not larger than 1 µm.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "phase heterogeneity",
+    "direction": "nonmonotonic",
+    "factor": "particle size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Количественно определить состав ДМ-содержащих фаз ввиду их незначительной крупности не представляется возможным, однако качественно можно сказать, что они присутствуют в составе конгломератов металлических фаз на основе Pd, Pt – Pd и Au, халькогенидов цветных и драгоценных металлов размером не более 1 мкм",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "Low gold extraction during chlorination is caused by sorption of gold by the carbon present in the insoluble residue.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "decreases",
+    "factor": "gold sorption by carbon",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, установлено, что причиной низкого извлечения золота при хлорировании является его сорбция присутствующим в нерастворимом остатке углем",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": "chlorination"
+  },
+  {
+   "text": "High gold extraction is unlikely without reducing carbon content in the feed or achieving deep oxidation during chlorination.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "lower carbon or deeper oxidation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "можно предположить, что без снижения его количества в составе исходного сырья или глубокого окисления на стадии хлорирования высокое извлечение в раствор золота не представляется возможным",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": "chlorination"
+  },
+  {
+   "text": "Gold extraction into solution is influenced both by the carbon content of the initial froth product and by the completeness of its oxidation during chlorination.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "carbon content and oxidation completeness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "на извлечение золота в раствор оказывает влияние как содержание углерода в исходном пенном продукте, так и полнота его окисления при хлорировании",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": "chlorination"
+  },
+  {
+   "text": "The technological scheme includes a pyrometallurgical treatment of insoluble residues to obtain an alloy.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "alloy production",
+    "direction": "increases",
+    "factor": "pyrometallurgy",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "для доизвлечения из нерастворимых остатков драгоценных металлов и получения золотого концентрата в технологическую схему была введена пирометаллургическая обработка нерастворимых остатков с получением сплава",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "The concentrates obtained after the combined operations are characterized by good leachability during refining, including a low amount of insoluble residues.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "leachability",
+    "direction": "increases",
+    "factor": "process design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полученные по совокупности операций концентраты драгоценных металлов характеризуются хорошей вскрываемостью при аффинаже, в том числе незначительным количеством образующихся нерастворимых остатков.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": null
+  },
+  {
+   "text": "Chlorine leaching will ensure high product quality, efficient refining and simplify disposal of spent leaching solutions.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "chlorine leaching",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разработанная технологическая схема получения богатых концентратов драгоценных металлов на основе хлорного выщелачивания обеспечит не только высокое качество получаемых продуктов и их эффективный аффинаж, но и упростит утилизацию вывозных растворов драгметального производства.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "In the chloride leaching technology the SiO2 content in the Pt‑Pd concentrate is less than 0.1 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "SiO 2 <0,1",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.45,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "The H2SO4 emissions in the chloride leaching technology are zero.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "H2SO4 emissions",
+    "direction": "decreases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "H 2 SO 4 , т/год 0,00",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.81,
+   "document_id": "doc:19-статья-по-хлорированию-готово-docx",
+   "process": "leaching"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

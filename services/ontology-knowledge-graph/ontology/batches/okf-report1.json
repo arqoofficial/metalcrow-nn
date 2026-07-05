@@ -1,0 +1,136 @@
+{
+ "extractor": "mock_rule",
+ "documents": [
+  {
+   "doc_id": "doc:report1",
+   "title": "report1",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\claude\\C--Users-ASUS-Array------------------------2026----------------metalcrow\\e948f753-12e4-4502-a319-93ff9dc7c64f\\scratchpad\\okf_test\\report1.md",
+   "artifact_sha256": "4ed775b37c611d8c0fe2c890dca67072600cc5088a602f745ac3ac0a641cf9f9"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:концентрат",
+   "label": "концентрата",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:пульп",
+   "label": "пульпы",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:report1:0",
+   "document_id": "doc:report1",
+   "title": "Закачка минерализованных вод в глубокие горизонты применима при солесодержании д",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "закачка"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:концентрат",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:пульп",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "степень извлечения",
+     "scope": "material",
+     "material_id": "mat:концентрат",
+     "value": {
+      "min": null,
+      "nominal": 358.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "# Отчёт о выщелачивании\nПри выщелачивании концентрата при 85 °C извлечение никеля составило 94 %.",
+     "locator_kind": "md_para",
+     "locator": "para:0",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "содержание элемента",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "g/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Закачка минерализованных вод в глубокие горизонты применима при солесодержании до 5 г/л.",
+     "locator_kind": "md_para",
+     "locator": "para:3",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Повышение плотности пульпы снижает извлечение.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "степень извлечения",
+      "direction": "decreases",
+      "factor": "по тексту",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Повышение плотности пульпы снижает извлечение.",
+     "locator_kind": "md_para",
+     "locator": "para:2",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Закачка минерализованных вод в глубокие горизонты применима при солесодержании до 5 г/л.",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

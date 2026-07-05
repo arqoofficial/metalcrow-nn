@@ -1,0 +1,793 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:bcl-2011-pdf",
+   "title": "BCL 2011.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\BCL 2011.pdf.md",
+   "artifact_sha256": "8e5b076128abafce347bc3601c11fdf4cbe0466fdc8874b1c6a991a32b263288",
+   "okf_raw_path": "Обзоры/BCL 2011.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:concentrate",
+   "label": "concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:off-gas-containing-so2",
+   "label": "off‑gas containing SO₂",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:coke-pyliteugol",
+   "label": "coke (pyliteugol)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sulfatizing-air",
+   "label": "Sulfatizing air",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:bcl-2011-pdf:0",
+   "document_id": "doc:bcl-2011-pdf",
+   "title": "Industrial operation of BCL smelter (2008)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "smelting of copper‑nickel concentrate in the Outokumpu flash furnace",
+       "temperature_text": "260 °C (steam‑heated process air)",
+       "duration_text": "year 2008 (full‑year operation)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 533.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "amount of concentrate melted",
+     "scope": "material",
+     "material_id": "mat:concentrate",
+     "value": {
+      "min": null,
+      "nominal": 860.0,
+      "max": null
+     },
+     "unit": "tonnes",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2008 г было проплавлено около 860 тыс . т концен -трата со средним содержанием никель + медь 8,85%",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "nickel + copper produced in fine‑steel",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 61.5,
+      "max": null
+     },
+     "unit": "tonnes",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "произведено более 61,5 тыс . т металла ( никель + медь ) в файнштейне",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 92.0,
+      "max": null
+     },
+     "unit": "percent",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Извлечение никеля из кон -центрата в файнштейн на заводе составляет ~92%",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant’s current capacity is about 80 000 t/yr of fine‑steel.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "annual fine‑steel capacity",
+      "direction": "increases",
+      "factor": "plant upgrades",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Мощ -ность завода составляет в настоящее время около 80 тыс . т / г файнштейна",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2008 г было проплавлено около 860 тыс . т концен -трата со средним содержанием никель + медь 8,85%, произведено более 61,5 тыс . т металла ( никель + медь ) в файнштейне .",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:bcl-2011-pdf:1",
+   "document_id": "doc:bcl-2011-pdf",
+   "title": "Pilot test of sulfur recovery (planned, not executed)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduction of SO₂ in flash‑furnace off‑gas to elemental sulfur using Outokumpu technology",
+       "temperature_text": "1300 °C → 350 °C (cooling in waste‑heat boiler)",
+       "duration_text": "planned operation (no actual run reported)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1573.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:off-gas-containing-so2",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:coke-pyliteugol",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The sulfur plant was never put into operation because the product could not compete on price.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "economic viability",
+      "direction": "decreases",
+      "factor": "high production and transport cost",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Цена полученной серы вместе с транспортировкой ее потребителям не могла конкурировать с другими поставщиками серы в ЮАР",
+     "locator_kind": "md_para",
+     "locator": "para:22",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Первоначально из газов взвешенной плавки планировалось произ -водство элементарной серы по технологии Outokumpu.",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:bcl-2011-pdf:2",
+   "document_id": "doc:bcl-2011-pdf",
+   "title": "Introduction of sulfatizing air into the boiler‑utilizer",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Sulfatizing air was introduced through 4 holes in the boiler throat",
+       "temperature_text": "N/A",
+       "duration_text": "N/A"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfatizing-air",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "S"
+     },
+     "method": null,
+     "snippet": "Содержание серы в пыли котла снизилось с 3% до 2,1%.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "magnetite"
+     },
+     "method": null,
+     "snippet": "Содержание магнетита в печном шлаке уменьшилось с 4,0% в среднем до 3,1%.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.32,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "снижение степени окисления в ПВП привело к уменьшению содержания никеля в отвальном шлаке с 0,32% до 0,25%.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 86.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Извлечение никеля в файнштейн на заводе составляет ~86%.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The introduction of sulfatizing air immediately improved boiler operation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "boiler performance",
+      "direction": "increases",
+      "factor": "sulfatizing air",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это сразу улучшило работу котла.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В июне / июле 2004 г во время планового закрытия завода были выполнены подготовительные работы, и в декабре того же года сульфатизирующий воздух был введен через 4 отверстия в горловине котла.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The flash furnace (PVP) can feed 120 t/h of concentrate to four burners, giving a total furnace feed of more than 180 t/h.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "feed rate",
+    "direction": "increases",
+    "factor": "dual dryer and automated feed system",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Две параллельно работающие автоматизированные системы обес -печивают равномерную подачу в печь взвешенной плавки ( ПВП ) 120 т / час концентрата к четырем горелкам ... Общая загрузка в печь , таким образом , составляет более 180 т / час",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Oxygen is enriched to 30‑35 % in the process air and supplied at 60 t/h.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "air enrichment system",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технологический воздух обогащен кислородом до 30-35% и подог -рет паром до 260 0 С . Расход кислорода в процесс составляет 60 т / час",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Two slag‑reduction furnaces (each 9 MVA) operate sequentially, each with a working power of 1.5‑2.0 MVA.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "furnace power",
+    "direction": "increases",
+    "factor": "furnace design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рабочая мощность печей 1,5-2,0 MVA",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "The plant’s flash furnace production capacity is currently about 130 t/h of concentrate (~900 kt/yr).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "plant upgrades",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производительность ПВП в настоящее время составляет 130 т / час (~900 тыс . т / г ) концентрата",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Fine‑steel contains 30‑35 % of the sum of nickel, copper and cobalt; the two product grades have an average nickel content of 40‑44 % and a total Ni‑Cu‑Co content of about 77 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "process control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В ПВП производится штейн , содержащий 30-35% суммы никеля , меди и кобальта ... Среднее со -держание никеля в файнштейне этих двух сортов 40-44%. Содержание суммы никеля , меди и кобальта в файнштейне составляет порядка 77%",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "The plant’s original design capacity was 40 000 t/yr of fine‑steel.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "initial capacity",
+    "direction": "increases",
+    "factor": "subsequent upgrades",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощ -ность завода по начальному проекту составляла 40 тыс . т / г файнштейна",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "The plant processes concentrate from its own mine and also toll‑processes concentrates from Tati Nickel (Botswana) and Nkomati (South Africa).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "feedstock diversity",
+    "direction": "increases",
+    "factor": "toll‑processing agreements",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В последние годы завод BCL по -мимо собственного сырья перерабатывает по толлингу концентраты ком -пании Tati Nickel ( Ботсвана ) и рудника Nkomati ( ЮАР )",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Ввод воздуха/кислорода в котел‑утилизатор является обычной практикой, которая может эффективно решить описанную проблему или, по крайней мере, минимизировать риск закупорки котла.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "risk of blockage",
+    "direction": "decreases",
+    "factor": "air/oxygen injection",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После визита персонала завода на другие предприятия взвешенной плавки стало ясно, что ввод воздуха / кислорода в котел‑утилизатор является обычной практикой, которая может эффективно решить описанную проблему или, по крайней мере, минимизировать риск закупорки котла.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.81,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": "injection"
+  },
+  {
+   "text": "Эффективность смешивания на заводе в настоящее время показывает коэффициент стандартного отклонения 7‑9% для каждого ключевого компонента материала, загружаемого в ПВП.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "standard deviation of key component composition",
+    "direction": "increases",
+    "factor": "current mixing method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эффективность смешивания на заводе в настоящее время показывает коэффициент стандартного отклонения 7‑9% для каждого ключевого компонента материала, загружаемого в ПВП.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.81,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Стандартный коэффициент отклонения для смесей, загружаемых в ПВП, обычно не превышает 1%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "standard deviation of mixture composition",
+    "direction": "decreases",
+    "factor": "standard practice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стандартный коэффициент отклонения для смесей, загружаемых в ПВП, обычно не превышает 1%.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.81,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Завод BCL работает с 4 концентрационными горелками конструкции более чем 25‑летней давности.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "age of burner design",
+    "direction": "increases",
+    "factor": "existing equipment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Завод BCL работает с 4 концентрационными горелками конструкции более чем 25летней давности.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В мировой практике работы ПВП в настоящее время преимущественно используется одна горелка для концентрата, сконструированная для процесса с малым потоком газов при высокой степени обогащения дутья кислородом.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "number of burners used",
+    "direction": "decreases",
+    "factor": "modern designs",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В мировой практике работы ПВП в настоящее время преимущественно используется одна горелка для концентрата, сконструированная для процесса с малым потоком газов при высокой степени обогащения дутья кислородом.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.81,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Температура газа на входе в котел составляет 1400 °C, температуры входа и выхода в конвекционной секции составляют 1150 °C и 600 °C, соответственно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "operating conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура газа на входе в котел составляет 1400 0 С, температуры входа и выхода в конвекционной секции составляют 1150 0 С и 600 0 С, соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Такие температуры приводят к крупным термическим разрушениям конвекционной секции в области входа в нее, а также подвергают подобному риску электрофильтры при температуре входа в них, близкой к 400 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "risk of thermal damage",
+    "direction": "increases",
+    "factor": "high inlet temperatures",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такие температуры приводят к крупным термическим разрушениям конвекционной секции в области входа в нее, а также подвергают подобному риску электрофильтры при температуре входа в них, близкой к 400 0 С.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Температура газа на входе в котел составляет 1400 0 С",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "1400 0 С",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Температура газа на входе в котел составляет 1400 0 С",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "температуры входа и выхода в конвекционной секции составляют 1150 0 С и 600 0 С",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "1150 0 С and 600 0 С",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "температуры входа и выхода в конвекционной секции составляют 1150 0 С и 600 0 С",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Эти температуры приводят к крупным термическим разрушениям конвекционной секции в области входа в нее",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "thermal damage",
+    "direction": "increases",
+    "factor": "high temperatures",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти температуры приводят к крупным термическим разрушениям конвекционной секции в области входа в нее",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Электрофильтры подвергаются риску при температуре входа в них, близкой к 400 0 С",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "400 0 С",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электрофильтры подвергаются риску при температуре входа в них, близкой к 400 0 С",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.45,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Установка перегородок ... снизит температуры на входе в конвекционную секцию и, в связи с этим, снизит риск термического разрушения как в конвекционной секции, так и в электрофильтрах",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "installation of water‑cooled baffles",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это снизит температуры на входе в конвекционную секцию и , в связи с этим , снизит риск термического разрушения как в конвекционной секции , так и в электрофильтрах",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.81,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Плавильный завод компании BCL работает уже 35 лет",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plant age",
+    "direction": "increases",
+    "factor": "35 years",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плавильный завод компании BCL работает уже 35 лет",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Внесено много нововведений, которые вдвое увеличили его производительность по концентрату и выпуску продукции",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "productivity",
+    "direction": "increases",
+    "factor": "2×",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эти ново -введения касались как вводу нового сушильного и конвертерного оборудо -вания , так и вводу кислородных станций для увеличения обогащения дутья кислородом .",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "Печь устарела (4 горелки, отсутствие охлаждения и др.) и требует внесения изменений",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "boiler condition",
+    "direction": "decreases",
+    "factor": "old design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако печь устарела (4 горелки , отсутствие охлаждения и др .) и требует внесения изменений",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  },
+  {
+   "text": "В условиях повышенной производительности и высокой степени обогащения дутья кислородом использование старой конструкции может вызывать аварийные ситуации",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "safety",
+    "direction": "increases",
+    "factor": "high productivity and oxygen enrichment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В условиях повышенной производительности и высокой степени обогащения дутья кислородом использование старой конструкции может вызывать аварийные ситуации",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:bcl-2011-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

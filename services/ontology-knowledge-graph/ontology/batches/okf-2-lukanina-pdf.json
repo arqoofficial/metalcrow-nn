@@ -1,0 +1,1140 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:2-lukanina-pdf",
+   "title": "2 Lukanina.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "XX",
+   "lang": "en",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\2 Lukanina.pdf.md",
+   "artifact_sha256": "4c16adb09c15b27199b61b687e1ccc47674f6d2b2b9d36e829ec2bb6fb908df7",
+   "okf_raw_path": "Статьи/2 Lukanina.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:basalt-melt",
+   "label": "basalt melt",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:air",
+   "label": "air",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:2-lukanina-pdf:0",
+   "document_id": "doc:2-lukanina-pdf",
+   "title": "CFD simulation of feeder with constant melt flow",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "computational fluid dynamics (CFD) using FLUENT (Ansys 2022 R1) with VOF multiphase model, laminar regime",
+       "temperature_text": "1440 °C inlet melt temperature, 30 °C inlet air temperature"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1713.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:basalt-melt",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:air",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "mass"
+     },
+     "method": null,
+     "snippet": "постоянный расход 3 т/ч",
+     "locator_kind": "md_para",
+     "locator": "para:37",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": 1693.15,
+      "nominal": null,
+      "max": 1713.15
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "range on melt surface"
+     },
+     "method": null,
+     "snippet": "Поле температуры показано в рабочем диапазоне от 1420 до 1440 °C.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": null,
+      "nominal": 1688.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "minimum melt  in feeder"
+     },
+     "method": null,
+     "snippet": "минимальная температура в целом по объёму фидера не ниже 1415 °C",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "velocity magnitude near melt outlet",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": 0.0,
+      "nominal": null,
+      "max": 0.4
+     },
+     "unit": "м/с",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "шкала от 0 до 0.4 м/с",
+     "locator_kind": "md_para",
+     "locator": "para:51",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The feeder geometry provides a stable melt transfer and keeps melt temperature above 1415 °C across the volume.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Видно, что при температуре расплава на входе 1440 °C минимальная температура в целом по объёму фидера не ниже 1415 °C.",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.9
+    },
+    {
+     "text": "Zones of reduced temperature appear in the bottom region of the initial bath and in the corners of the tray.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "decreases",
+      "factor": "geometry",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наиболее обширная зона пониженных температур соответствует придонной области на начальном участке ванны и слева по ходу течения",
+     "locator_kind": "md_para",
+     "locator": "para:52",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "## Моделирование потока расплава с постоянным расходом 3 т/ч",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:2-lukanina-pdf:1",
+   "document_id": "doc:2-lukanina-pdf",
+   "title": "CFD simulation of feeder with stepwise melt flow change",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "computational fluid dynamics (CFD) using FLUENT (Ansys 2022 R1) with VOF multiphase model, laminar regime",
+       "temperature_text": "1440 °C inlet melt temperature, 30 °C inlet air temperature"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1713.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:basalt-melt",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:air",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The feeder response to a step change in melt flow was evaluated, showing that the equilibrium melt level adjusts according to the imposed productivity.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "melt level",
+      "direction": "increases",
+      "factor": "step flow change",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В ходе расчёта равновесный уровень расплава несколько менялся в зависимости от заданной производительности.",
+     "locator_kind": "md_para",
+     "locator": "para:39",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Внутреннем объёме фидера присутствуют две среды - жидкий расплав и воздух. ... - -разовое ступенчатое изменение расхода",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:2-lukanina-pdf:2",
+   "document_id": "doc:2-lukanina-pdf",
+   "title": "CFD simulation of feeder with sinusoidal melt flow variation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "computational fluid dynamics (CFD) using FLUENT (Ansys 2022 R1) with VOF multiphase model, laminar regime",
+       "temperature_text": "1440 °C inlet melt temperature, 30 °C inlet air temperature"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1713.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:basalt-melt",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:air",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": 1.0,
+      "nominal": null,
+      "max": 5.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "mass  variation"
+     },
+     "method": null,
+     "snippet": "- -синусоидальное изменение расхода с амплитудой 1-5 т/ч и периодом от 1 до 120 секунд.",
+     "locator_kind": "md_para",
+     "locator": "para:37",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The sinusoidal flow induces periodic changes in the melt surface position, but the temperature field remains within 1420–1440 °C.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "no_change",
+      "factor": "sinusoidal flow",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Поле температуры показано в рабочем диапазоне от 1420 до 1440 °C.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Внутреннем объёме фидера присутствуют две среды ... - -синусоидальное изменение расхода с амплитудой 1-5 т/ч и периодом от 1 до 120 секунд.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:2-lukanina-pdf:3",
+   "document_id": "doc:2-lukanina-pdf",
+   "title": "Rectangular pulse flow change simulation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Numerical calculation of melt flow response to a step change in inlet mass flow from 1 t/h to 5 t/h and back",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "delay of outlet flow increase after inlet step up",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "seconds",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "на графике (рис. 9а) видно, что после одномоментного увеличения расхода расплава на входе с 1 до 5 т/ч расход расплава на выходе начинает увеличиваться приблизительно через 3 секунды.",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "time required for outlet flow to stabilise after step up",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": 100.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "seconds",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Для стабилизации расхода на выходе требуется больше 100 секунд.",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "delay of outlet flow decrease after inlet step down",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": null,
+      "nominal": 2.5,
+      "max": null
+     },
+     "unit": "seconds",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при резком падении входного расхода (рис. 9б) с 5 до 1 т/ч требуется 2.5 секунды, чтобы расход на выходе начал снижаться",
+     "locator_kind": "md_para",
+     "locator": "para:79",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "time required for outlet flow to equalise after step down",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": null,
+      "nominal": 200.0,
+      "max": null
+     },
+     "unit": "seconds",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "и 200 с для выравнивания расхода на выходе.",
+     "locator_kind": "md_para",
+     "locator": "para:79",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Oscillations with period above 100‑200 seconds should be almost completely passed through the feeder, while faster changes are attenuated to some degree.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "frequency",
+      "direction": "increases",
+      "factor": "not quantified",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Исходя из изложенного, можно предположить, что колебания с периодом выше 100-200 секунд должны практически полностью пропускаться фидером, более быстрые изменения с той или иной эффективностью отфильтровываться.",
+     "locator_kind": "md_para",
+     "locator": "para:86",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для определения эффективности погашения фидером пульсаций с разной частотой дальнейшие исследования проведены с синусоидальной зависимостью расхода на входе от времени, с амплитудой от 1 до 5 т/ч и периодами 1, 9 и 120 секунд (т.е. ниже и выше ожидаемой частоты среза фидера).",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:2-lukanina-pdf:4",
+   "document_id": "doc:2-lukanina-pdf",
+   "title": "Sinusoidal pulsation simulation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Numerical simulation of inlet mass‑flow sinusoidal variation with amplitude 1‑5 t/h and periods 1 s, 9 s and 120 s; analysis of velocity fields and transmission coefficient",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "feeder transmission coefficient (period 1 s)",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": null,
+      "nominal": 0.055,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "| 1 с | 4 | 0.220 | 0.055 |",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "feeder transmission coefficient (period 9 s)",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": null,
+      "nominal": 0.0805,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "| 9 с | 4 | 0.322 | 0.0805 |",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "feeder transmission coefficient (period 120 s)",
+     "scope": "material",
+     "material_id": "mat:basalt-melt",
+     "value": {
+      "min": null,
+      "nominal": 0.53,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "| 120 с | 4 | 2.12 | 0.53 |",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "For periods of 1 s and 9 s only 5.5 % and 8.05 % of the inlet amplitude are transmitted to the outlet, respectively; for 120 s the transmission is 53 %.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "amplitude",
+      "direction": "decreases",
+      "factor": "not quantified",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Видно, что фидер эффективно сглаживает быстрые пульсации потока расплава на входе - для периодов 1 и 9 секунд передаётся на выход только 5.5 и 8.05 % от исходной амплитуды. Для периода 120 секунд эффективность сглаживания значительно ниже - 53 % от амплитуды пульсаций сохраняется на выходе.",
+     "locator_kind": "md_para",
+     "locator": "para:109",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для условий эксплуатации фильтра более характерны именно высокочастотные пульсации с периодом 1 секунда и ниже («всплески» расплава).",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "These methods allow evaluating the operation of equipment without making expensive and long experiments.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "evaluation capability",
+    "direction": "no_change",
+    "factor": "cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The practice of numerical simulations of industrial processes shows that these methods allow evaluating the operation of equipment without making expensive and long experiments.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "The base feeder design is efficient enough in decreasing of short period pulsation (about 1 sec), but this feeder fails to mitigate long period pulsations (more than 100 sec).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pulsation mitigation",
+    "direction": "decreases",
+    "factor": "short period pulsation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "We found that the base feeder design is efficient enough in decreasing of short period pulsation (about 1 sec), but this feeder fails to mitigate long period pulsations (more than 100 sec).",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "The maximum pulsation of velocity occurs in the upper part of the flow.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "velocity pulsation",
+    "direction": "increases",
+    "factor": "upper part of flow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The analysis of the melt velocity field showed that the maximum pulsation of velocity occurs in the upper part of the flow.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "The velocities in the lower part of the melt practically do not change when the melt flow rate changes.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "velocity stability",
+    "direction": "no_change",
+    "factor": "lower part of melt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The velocities in the lower part of the melt practically do not change when the melt flow rate changes.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "An increase in the size of the feeder (its height) does not significantly affect the stabilization of the output flow with rapid fluctuations in the output flow characteristic of a gas‑electric cupola (in the same amplitude range).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stabilization effect",
+    "direction": "no_change",
+    "factor": "feeder height increase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The simulation showed that an increase in the size of the feeder (its height) does not significantly affect the stabilization of the output flow with rapid fluctuations in the output flow characteristic of a gas‑electric cupola (in the same amplitude range).",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.81,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "The baffle increases the efficiency of pulsation damper both for short‑period and long‑period fluctuations.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "baffle installation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The baffle increases the efficiency of pulsation damper both for short‑period and long‑period fluctuations.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.81,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "To reduce stagnant zones and heat loss, we propose to use inclined slag melt flow into the tray, i.e. use skew brick instead of usual.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stagnant zones and heat loss",
+    "direction": "decreases",
+    "factor": "inclined flow / skew brick",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "To reduce stagnant zones and heat loss, we propose to use inclined slag melt flow into the tray, i.e. use skew brick instead of usual.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "The feeder must provide stable melt transfer, dampen melt pulsations, and maintain the required temperature.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такой узел должен обеспечивать стабильную передачу расплава от вагранки на центрифугу, гасить пульсацию расплава, поддерживать необходимую температуру.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Optimal feeder geometry can be selected using computational hydro‑gas dynamics methods, which are sufficiently reliable for pyrometallurgical processes.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "reliability",
+    "direction": "increases",
+    "factor": "computational hydro‑gas dynamics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Подбор оптимальных характеристик фидера в настоящее время целесообразно выполнить методами компьютерной вычислительной гидрогазодинамики ... достаточно достоверными для пирометаллургических процессов.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.81,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Both the melt and air phases are present inside the feeder; inlet conditions are specified by mass flow rate and temperature.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Во внутреннем объёме фидера присутствуют две среды - жидкий расплав и воздух. Входные условия для расплава - заданный массовый расход и температура.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Reynolds numbers for both melt and gas are far below the critical value, therefore laminar flow is assumed.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Reynolds number",
+    "direction": "decreases",
+    "factor": "low Re",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В ходе постановки задачи о течении расплава было определено, что число Re как в расплаве, так и в газовой фазе намного ниже критического значения. Поэтому в математической модели фидера принят ламинарный режим течения.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "The VOF (volume of fluid) multiphase model is used for the calculations.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Используемая для расчёта модель многофазности - VOF (volume of fluid).",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Physical properties of the melt: density 2900 kg/m³, thermal conductivity 1‑1.2 Вт/м·К, heat capacity 1400 Дж/м·К, viscosity 0.4‑0.6 Па·с.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "| Плотность, кг/м 3 | 2900 | ... | Коэфф. теплопроводности, Вт/м·К | 1-1.2 | ... | Коэфф. теплоёмкости, Дж/м·К | 1400 | ... | Вязкость, Па/с | 0.4-0.6 |",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.81,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Physical properties of the gas (air): density 1.225 kg/m³, thermal conductivity 0.0242 Вт/м·К, heat capacity 1006 Дж/м·К, viscosity 1.7894e‑05 Па·с.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "| Плотность, кг/м 3 | 1.225 | ... | Коэфф. теплопроводности, Вт/м·К | 0.0242 | ... | Коэфф. теплоёмкости, Дж/м·К | 1006 | ... | Вязкость, Па/с | 1.7894e-05 |",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.81,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Using brick with a cut at the feeder ends is expected to reduce melt stagnation zones and lower temperature in those areas.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "brick lining",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использование в торцах ванны кирпича со срезом, предположительно, позволит уменьшить застойную зону расплава и снижение его температуры на этих участках.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "High‑frequency pulsations with periods of 1 s and below are typical for feeder operation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "frequency",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отметим, что для условий эксплуатации фильтра более характерны именно высокочастотные пульсации с периодом 1 секунда и ниже («всплески» расплава).",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Velocity in the central part of the melt bath is generally less than 5 mm/s.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "velocity magnitude",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Можно видеть, что по центру ванны в большей части объёма скорости течения меньше 5 мм/с.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "With increasing inlet flow rate (1 t/h → 5 t/h) the magnitude of velocities grows, but the overall distribution pattern in the feeder remains unchanged.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "velocity magnitude",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С увеличением расхода значения скорости растут, но общий характер их распределения в фидере сохраняется.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "The feeder smooths fast pulsations effectively, transmitting only a small fraction of the inlet amplitude to the outlet.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "amplitude",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Видно, что фидер эффективно сглаживает быстрые пульсации потока расплава на входе",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Установлено, что при скачкообразном изменении расхода от 1 до 5 тонн и обратно поведение фидера практически то же, что для варианта без перегородки - время реакции почти не меняется.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "feeder behavior",
+    "direction": "no_change",
+    "factor": "flow rate change from 1 to 5 t/h",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установлено, что при скачкообразном изменении расхода от 1 до 5 тонн и обратно поведение фидера практически то же, что для варианта без перегородки - время реакции почти не меняется.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Видно, что перегородка оказывает заметное влияние на коэффициент пропускания колебаний с периодом ниже 1 секунды.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "transmission coefficient",
+    "direction": "increases",
+    "factor": "partition presence for periods < 1 s",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Видно, что перегородка оказывает заметное влияние на коэффициент пропускания колебаний с периодом ниже 1 секунды.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "В то же время коэффициент пропускания для колебаний с несколько меньшей частотой (период 9 секунд) фильтруются даже несколько менее эффективно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "transmission coefficient",
+    "direction": "decreases",
+    "factor": "period 9 s",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В то же время коэффициент пропускания для колебаний с несколько меньшей частотой (период 9 секунд) фильтруются даже несколько менее эффективно.",
+   "locator_kind": "md_para",
+   "locator": "para:121",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "При работе барботажных пирометаллургических агрегатов основной тип пульсации - высокочастотные пульсации с периодом колебаний порядка одной секунды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pulsation type",
+    "direction": "nonmonotonic",
+    "factor": "barbotage pyrometallurgical units",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При работе барботажных пирометаллургических агрегатов основной тип пульсации - высокочастотные пульсации с периодом колебаний порядка одной секунды.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Исходя из результатов расчётов, предложенная конструкция фидера сравнительно эффективно фильтрует быстрые пульсации расплава (период ниже 1 секунды) и с низкой эффективностью - медленные изменения расхода с периодом 100 секунд и выше.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "fast pulsations (<1 s) vs slow (>100 s)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Исходя из результатов расчётов, предложенная конструкция фидера сравнительно эффективно фильтрует быстрые пульсации расплава (период ниже 1 секунды) и с низкой эффективностью - медленные изменения расхода с периодом 100 секунд и выше.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Анализ движения расплава (поля скоростей) показывает, что основные изменения скорости движения расплава происходят в верхней части потока.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "velocity change location",
+    "direction": "increases",
+    "factor": "upper part of flow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Анализ движения расплава (поля скоростей) показывает, что основные изменения скорости движения расплава происходят в верхней части потока.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Скорости в нижней части расплава практически не меняются при изменении расхода расплава.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "velocity change",
+    "direction": "no_change",
+    "factor": "lower part of melt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Скорости в нижней части расплава практически не меняются при изменении расхода расплава.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Увеличение размеров фидера (его высоты) не окажет существенного влияния на стабилизацию выходного потока при быстрых колебаниях выходного потока, характерных для ГЭВ (в том же диапазоне амплитуд).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stabilization effect",
+    "direction": "no_change",
+    "factor": "feeder height increase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Увеличение размеров фидера (его высоты) не окажет существенного влияния на стабилизацию выходного потока при быстрых колебаниях выходного потока, характерных для ГЭВ (в том же диапазоне амплитуд).",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Установка перегородки позволяет дополнительно сгладить как высокочастотные, так и низкочастотные пульсации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pulsation smoothing",
+    "direction": "increases",
+    "factor": "partition installation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установка перегородки позволяет дополнительно сгладить как высокочастотные, так и низкочастотные пульсации.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Колебания расхода на выходе из фидера при установке перегородки составляют не более 0.33 т/час при начальных колебаниях расхода от 1 до 5 т/час.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output flow fluctuation",
+    "direction": "decreases",
+    "factor": "partition installed, input fluctuation 1‑5 t/h",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Колебания расхода на выходе из фидера при установке перегородки составляют не более 0.33 т/час при начальных колебаниях расхода от 1 до 5 т/час.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Таким образом, установка фидера и перегородки позволит исключить колебания расхода на входе в центрифугу.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "inlet flow stability",
+    "direction": "increases",
+    "factor": "feeder and partition installation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, установка фидера и перегородки позволит исключить колебания расхода на входе в центрифугу.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "При начальной температуре 1440 °C наименьшая температура в основной части ванны около 1415 °C, обширные низкотемпературные области соответствуют придонной зоне у входного лотка.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "initial temperature 1440 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При начальной температуре 1440 °C наименьшая температура в основной части ванны около 1415 °C, обширные низкотемпературные области соответствуют придонной зоне у входного лотка.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "Для уменьшения застойной зоны и компенсации охлаждения ванны целесообразно заменить прямоугольную кладку наклонным сходом расплава в основную часть ванны - т.е. на торцевых углах использовать кирпич со срезом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "vessel geometry",
+    "direction": "increases",
+    "factor": "replace rectangular lining with sloped melt flow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для уменьшения застойной зоны и компенсации охлаждения ванны целесообразно заменить прямоугольную кладку наклонным сходом расплава в основную часть ванны - т.е. на торцевых углах использовать кирпич со срезом.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  },
+  {
+   "text": "По результатам компьютерного моделирования предлагаемая конструкция фидера позволяет решить поставленную задачу - стабилизацию подачи струи расплава на центрифугу.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "feed stability",
+    "direction": "increases",
+    "factor": "proposed feeder design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По результатам компьютерного моделирования предлагаемая конструкция фидера позволяет решить поставленную задачу - стабилизацию подачи струи расплава на центрифугу.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:2-lukanina-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

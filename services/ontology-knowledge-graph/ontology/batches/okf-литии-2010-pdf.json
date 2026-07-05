@@ -1,0 +1,790 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:литии-2010-pdf",
+   "title": "Литий 2010.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Литий 2010.pdf.md",
+   "artifact_sha256": "5e06e55ec27ef85eba65807701ffaa2253080f23cca4516dae6e51354057f436",
+   "okf_raw_path": "Обзоры/Литий 2010.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:carbon-nanotubes",
+   "label": "Carbon nanotubes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:brine-rapa",
+   "label": "Brine (rapa)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:литии-2010-pdf:0",
+   "document_id": "doc:литии-2010-pdf",
+   "title": "Laboratory study of carbon nanotubes as energy source",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Research by scientists at Massachusetts Institute of Technology"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:carbon-nanotubes",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Исследования ученых Массачусетского Технологического Университета показали, что углеродные нанотрубки могут быть использованы в качестве более надежного и длительного источника энергии, чем самые лучшие Liионные батареи.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:литии-2010-pdf:1",
+   "document_id": "doc:литии-2010-pdf",
+   "title": "Lithium production from brine (evaporation ponds)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Brine is pumped from wells to surface and held in plastic‑lined ponds for evaporation.",
+       "temperature_text": "ambient (sunny climate)",
+       "duration_text": "about 1 year of evaporation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:brine-rapa",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:brine-rapa",
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "lithium  in brine after evaporation"
+     },
+     "method": null,
+     "snippet": "В результате концентрирования рапы содержание лития, в благоприятных погодных условиях (солнце, ветер, низкая влажность, мало дождей), за год достигает примерно 6%.",
+     "locator_kind": "md_para",
+     "locator": "para:138",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The concentrated solution is sent to a processing plant where, after purification and drying, lithium carbonate crystals are obtained.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "product",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Концентрированный раствор отправляют на перерабатывающий завод, где после очистки и сушки получают кристаллы карбоната лития.",
+     "locator_kind": "md_para",
+     "locator": "para:138",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Метод производства лития из рапы заключается в закачке рапы из скважин на поверхность и выдерживании её в прудах (облицованных пластиком) на солнце. Глубина прудов — около 1 м.",
+   "locator_kind": "md_para",
+   "locator": "para:138",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Литий -ионные перезаряжаемые батареи стали общепринятым компонентом портативных электронных устройств (ноутбуки, мобильные телефоны, плейеры МР 3, видеокамеры и пр.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application",
+    "direction": "increases",
+    "factor": "high‑tech market growth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Литий -ионные перезаряжаемые батареи стали об -щепринятым компонентом портативных электронных устройств ( ноутбу -ки , мобильные телефоны , плейеры МР 3, видеокамеры и пр .),",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Рудный концентрат применяется в производстве термостойкой керамики, жаропрочных стекол, фритт и глазурей, на долю которых приходится около 90% всего потребления лития в рудных концентратах.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption share",
+    "direction": "increases",
+    "factor": "product mix",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рудный концентрат применяется в производстве термостойкой ке -рамики , жаропрочных стекол , фритт и глазурей , на долю которых прихо -дится около 90% всего потребления лития в рудных концентратах .",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Из соединений лития наиболее широко используется карбонат (электролиз алюминия, производство стекла, керамики, источники тока, приготовление других соединений лития).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "usage prevalence",
+    "direction": "increases",
+    "factor": "chemical versatility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из соединений лития наиболее широко используется карбонат ( электролиз алюминия , производство стекла , керамики , источники тока , приготовление других соединений лития ).",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Кобальтат лития используется в качестве положительного электрода литий‑ионных и полимерных батарей – в последние годы потребление лития в этом секторе росло наиболее быстрыми темпами.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption growth",
+    "direction": "increases",
+    "factor": "rapid market expansion",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кобальтат лития использу -ется в качестве положительного электрода литий -ионных и полимерных батарей -в последние годы потребление лития в этом секторе росло наи -более быстрыми темпами .",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Гидроксид лития является компонентом электролита щелочных аккумуляторов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "electrolyte design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Гидроксид лития является компонентом элек -тролита щелочных аккумуляторов .",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Металлический литий может быть «катализаторного» сорта, высокой чистоты (для изготовления сплавов) и т. д.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "-металлический литий может быть « катализаторного » сорта , высо -кой чистоты ( для изготовления сплавов ) и т . д .",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "К 2016 г. в США выбросы CO2 должны составлять в среднем 250 г на 1 милю.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "К 2016 г . в США выбросы CO2 должны составлять в среднем 250 г на 1 милю .",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Обычный автомобиль на бензине выбрасывает более 400 г CO2 на милю, а имеющиеся гибридные автомобили — 294 г, в то время как выбросы проектируемых «подключенных» гибридов составят всего лишь 150 г на милю пути.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В настоящее время обычный автомобиль на бен -зине выбрасывает более 400 г CO2 на милю , а имеющиеся гибридные ав -томобили - 294 г , в то время как выбросы проектируемых « подключен -ных » гибридов составят всего лишь 150 г на милю пути .",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "В Европе на уровень выбросов CO2 130 г/км должны выйти 65% вновь зарегистрированных автомобилей в 2012 г., 75% в 2013 г., 80% в 2014 г. и 100% с 2015 г.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В Европе на уровень выбросов CO2 130 г / км должны выйти 65% вновь зарегистрированных автомобилей в 2012 г ., 75% в 2013 г ., 80% в 2014 г . и 100% с 2015 г .",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "В США в 2009 г. налоговые льготы в 10% от стоимости автомобиля, максимум до 2500 USD, при покупке автомобиля в период с февраля 2009 г. по январь 2012 г.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "по принятому в США в 2009 г . акту предусматриваются , среди прочего , налоговые льготы в 10% от стоимости автомобиля -максимум до 2500 USD при покупке автомобиля в период с февраля 2009 г . по январь 2012 г .",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2010 г. Toyota планирует удвоить выпуск гибридов.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В 2010 г . Toyota планирует удвоить выпуск гибридов .",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2012 г. выпуск гибридов Toyota достигнет 1 млн.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В 2012 г ., когда состоится дебют новой модели Prius, выпуск гибридов Toyota достигнет 1 млн .",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Китай хочет расширить мощности по производству гибридов/электромобилей и автобусов с 2100 ед в 2009 г. до 500 тысяч ед уже к концу 2011 г.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Китай хочет расширить мощности по производству гибри -дов / электромобилей и автобусов с 2100 ед в 2009 г . до 500 тысяч ед . уже к концу 2011 г .",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Liионные фосфатные батареи, которые теперь и предназначаются для использования в автомобилях, значительно более устойчивы.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Liионные фосфатные батареи , которые теперь и предназначаются для использования в автомобилях , значительно более ус -тойчивы .",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Стоимость электромобиля Saibao (седан среднего размера), планируемого к запуску в 2010 г., будет около 30 тыс USD по сравнению с обычным седаном на бензине в 14600 USD.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "стоимость электромо -биля Saibao ( седан среднего размера ), который планируется запустить осе -нью 2010 г ., будет около 30 тыс USD по сравнению с обычным седаном на бензине в 14600 USD.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "При увеличении масштабов производства цена блока батарей снизится на 30-40%.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Разумеется , при увеличении масштабов производства цена блока батарей снизится -на 30-40%.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания BYD имеет в штате 5000 инженеров-автомобилестроителей и ещё 5000 по батареям, при этом зарплата молодого инженера — менее 600 USD в месяц.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Компания BYD имеет в штате 5000 инженеров -автомобилестроителей и ещё 5000 по батареям , при этом зарплата моло -дого инженера -менее 600 USD в месяц .",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе 2010 г. владелец группы ОНЭКСИМ Михаил Прохоров хочет в партнерстве с производителем грузовиков «Яровит» создать производство «народного автомобиля» гольф-класса стоимостью 8800 €.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "в январе 2010 г . стало известно , что владе -лец группы ОНЭКСИМ Михаил Прохоров хочет в партнерстве с произво -дителем грузовиков « Яровит » создать производство « народного автомоби -ля » гольф -класса стоимостью 8800 €, причем речь идет , возможно , о гиб -риде или электрокаре .",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "удержать стоимость бюджетного автомобиля в пределах 8,8 тысяч евро возможно только в случае его массового производства",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "mass production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "удержать стоимость бюджетного автомобиля в пределах 8,8 тысяч евро возможно только в случае его массового производства",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "объёмы выпуска должны измеряться десятками, если не сотнями тысяч единиц в год",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "increases",
+    "factor": "mass market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "объёмы выпуска должны измеряться десятками, если не сотнями тысяч единиц в год",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "разработка и постановка на конвейер такой модели обойдется примерно в миллиард долларов",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "increases",
+    "factor": "new model",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "разработка и постановка на конвейер такой модели обойдется примерно в миллиард долларов",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "один лишь комплект современных батарей для гибрида будет стоить дороже стоимости автомобиля до 9 тысяч евро",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "modern battery pack",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "один лишь комплект современных батарей для гибрида будет стоить дороже",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "доступный гибридный автомобиль Honda Insight в США стоит 19 тысяч долларов (чуть больше 13 тысяч евро)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "Honda Insight",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доступный гибридный автомобиль Honda Insight в США стоит 19 тысяч долларов (чуть больше 13 тысяч евро)",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "более технологичная модель Chevrolet Volt будет стоить 30-40 тысяч долларов США (21-26 тысяч евро)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "Chevrolet Volt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "более технологичная модель Chevrolet Volt, выпуск которого начнется в конце 2010 начале 2011 года, будет стоить 30-40 тысяч долларов США (21-26 тысяч евро)",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "родстер Tesla на электротяге стоимостью более 100 тысяч USD",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "Tesla roadster",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "не говоря уж о выпускаемом в США родстере Tesla на электротяге стоимостью более 100 тысяч USD",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "дешевый серийный электромобиль S18 в 2009 г. презентовала китайская компания Chery — 14,6 тысяч USD за базовую версию",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "Chery S18",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "дешевый серийный электромобиль S18 в 2009 г. презентовала китайская компания Chery — 14,6 тысяч USD за базовую версию",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "все гибридные автомобили до настоящего времени строились в основном на NiMH батареях",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "battery type",
+    "direction": "decreases",
+    "factor": "NiMH dominance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "до настоящего времени гибридные автомобили строились, в основном, на NiMH батареях",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "магистральным направлением станут Li‑ионные батареи, обладающие лучшими эксплуатационными характеристиками",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "battery type",
+    "direction": "increases",
+    "factor": "Li‑ion superiority",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в соответствии с общепринятой точкой зрения магистральным направлением станут Li‑ионные батареи, обладающие лучшими эксплуатационными характеристиками",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "темпы роста продаж легковых автомобилей в США и Европе приняты равными 1% в год, а в странах Азии — 4% в год",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual growth rate",
+    "direction": "increases",
+    "factor": "regional sales",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "темпы роста продаж легковых автомобилей и легковых автомобилей неиндивидуального использования до 2020 г. в США и Европе приняты равными 1% в год (в соответствии с исторической тенденцией), а странах Азии — 4% в год",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Добыча лития из рапы саларов (солончаков) — самый дешевый способ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добыча лития из рапы саларов (солончаков) - самый дешевый способ.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "По самым приблизительным оценкам производственные издержки при переработке рудного сырья вдвое выше, чем при переработке рапы.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production cost",
+    "direction": "increases",
+    "factor": "2×",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По самым приблизительным оценкам производственные издержки при переработке рудного сырья вдвое выше, чем при переработке рапы.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Капитальные затраты по вводу в строй рудника значительно выше.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кроме того, капитальные затраты по вводу в строй рудника значительно выше.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Основным расходным материалом является известь, это одна из наиболее затратных позиций процесса.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "material cost",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основным расходным материалом является известь, это одна из наиболее затратных позиций процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Для получения примерно 15 тыс т/г хлорида лития LiCl потребуется около 84 тыс т/г сульфата натрия.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "raw material consumption",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для того, чтобы получать примерно 15 тыс т / г хлорида лития LiCl потребуется около 84 тыс т / г сульфата натрия.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Увеличение отношения Mg:Li на каждую единицу приводит к росту производственных затрат на 180‑200 USD/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production cost",
+    "direction": "increases",
+    "factor": "180‑200 USD per unit Mg:Li",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Увеличение отношения Mg:Li на каждую единицу приводит к росту производственных затрат на 180-200 USD/т.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "В настоящее время экономически жизнеспособны проекты переработки рапы с Mg:Li до 11:1‑12:1.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "economic viability",
+    "direction": "decreases",
+    "factor": "Mg:Li ≤ 12:1",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В настоящее время экономически жизнеспособны проекты переработки рапы с Mg:Li до 11:1-12:1.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Если отношение выше — убегайте.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operational advice",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "«Если отношение выше — убегайте», - сказал J.Hykawy.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "В рудах лития содержание обычно 0,25‑3 %, чаще 1‑3 %, и, следовательно, необходимо обогащение.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В рудах лития ещё меньше - 0,25-3%, чаще 1-3% и, следовательно, необходимо обогащение.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Для получения сподуменового концентрата обычно используются руды с LiO2 > 1 % (1,2‑1,4 %), но иногда и ниже.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ore grade",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для получения сподуменового концентрата обычно используются руды с LiO2>1% (1,2-1,4%), но иногда и ниже.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Термическое обогащение сподумена проводится при 1000‑1200 °C в течение 1‑2 часа, при размере сырья от 50‑20 мм до 0,2‑0,3 мм.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для сподуменовых руд (при отсутствии других минералов ...) используется термическое обогащение -обжиг при 1000-1200 °C в течение 1-2 час сырья крупностью от 50-20 до 0,2-0,3 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.45,
+   "document_id": "doc:литии-2010-pdf",
+   "process": null
+  },
+  {
+   "text": "Мелковкрапленные сподуменовые руды с 11,2 % Li2O обогащают флотацией (прямая, обратная, коллективная) или с помощью тяжелых суспензий.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Мелковкрапленные литиевые руды, в частности, сподуменовые с 11,2% Li2O, обогащают флотацией (в трех вариантах: прямая, обратная и коллективная) или с помощью тяжелых суспензий.",
+   "locator_kind": "md_para",
+   "locator": "para:156",
+   "confidence": 0.81,
+   "document_id": "doc:литии-2010-pdf",
+   "process": "flotation"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

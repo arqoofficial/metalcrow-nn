@@ -1,0 +1,1304 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:мировая-практика-электролитического-рафинировани",
+   "title": "Мировая практика электролитического рафинирования черновых медных анодов ред_ (с правками).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Мировая практика электролитического рафинирования черновых медных анодов ред_ (с правками).docx.md",
+   "artifact_sha256": "ca7e5d4cfacbafdb9a61bfceb0944a5136215075c1c248b46c25f16696098317",
+   "okf_raw_path": "Обзоры/Мировая практика электролитического рафинирования черновых медных анодов ред_ (с правками).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:isa-stainless-steel-cathodes",
+   "label": "ISA stainless‑steel cathodes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-base-cathodes",
+   "label": "Copper‑base cathodes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:non-consumable-stainless-steel-isa-cathodes",
+   "label": "Non‑consumable stainless‑steel (ISA) cathodes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:thiourea",
+   "label": "thiourea",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gelatin",
+   "label": "gelatin",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cathode",
+   "label": "Cathodes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:electrolyte",
+   "label": "Electrolyte",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:мировая-практика-электролитического-рафинировани:0",
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "title": "Industrial application of ISA technology at Huelva plant (Spain)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrorefining with ISA cathodes"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:isa-stainless-steel-cathodes",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "productivity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.43,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "На заводе Huelva, Испания (компания Atlantic Copper) производительность в 1998 г составляла даже 0,43 чел-час/т",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "ISA cathodes reduce labor intensity",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "labor intensity",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "сокращение трудозатрат, благодаря исключению процесса изготовления медных основ и автоматизации сдирки катодов",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Технология ISAKidd широко распространена в медной отрасли: как при ЭР, так и при электроэкстракции. По состоянию дел на конец 2021 г, по данным Glencore, ЭР мощности ISAKidd оцениваются в 9,43 млн т/г на 42 линиях (installations) плюс 77 линий электроэкстракции.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мировая-практика-электролитического-рафинировани:1",
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "title": "Comparison of cathode types on several electrorefining plants (2019)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Electrorefining with copper‑base vs. non‑consumable (ISA) cathodes"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-base-cathodes",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:non-consumable-stainless-steel-isa-cathodes",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "human‑hours per tonne of cathode",
+     "scope": "material",
+     "material_id": "mat:copper-base-cathodes",
+     "value": {
+      "min": null,
+      "nominal": 0.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Человеко-часов на 1т катода 0,8 (5)",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "human‑hours per tonne of cathode",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.6,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Человеко-часов на 1т катода 0,6 (11)",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "current_density",
+     "scope": "material",
+     "material_id": "mat:copper-base-cathodes",
+     "value": {
+      "min": null,
+      "nominal": 278.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": ", a/m²"
+     },
+     "method": null,
+     "snippet": "Плотность тока, А/м 2 278 (7)",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "current_density",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 319.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": ", a/m²"
+     },
+     "method": null,
+     "snippet": "Плотность тока, А/м 2 319 (19)",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "current_efficiency",
+     "scope": "material",
+     "material_id": "mat:copper-base-cathodes",
+     "value": {
+      "min": null,
+      "nominal": 95.3,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": ", %"
+     },
+     "method": null,
+     "snippet": "Выход по току, % 95,3 (7)",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "current_efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 96.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": ", %"
+     },
+     "method": null,
+     "snippet": "Выход по току, % 96,2 (16)",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Non‑consumable cathodes give lower labor consumption and higher current density",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "human‑hours per tonne",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Человеко-часов на 1т катода 0,8 (5) … 0,6 (11)",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.81
+    },
+    {
+     "text": "Non‑consumable cathodes provide higher current efficiency",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "current_efficiency",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Выход по току, % 95,3 (7) … 96,2 (16)",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Таблица 3.2 - Сравнение показателей заводов с разными катодами за 2019 г (в скобках – число заводов)",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мировая-практика-электролитического-рафинировани:2",
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "title": "Effect of thiourea concentration on copper grain size",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "addition of thiourea to copper electrorefining bath"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:thiourea",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "grain_size",
+     "scope": "material",
+     "material_id": "mat:thiourea",
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "удовлетворительные результаты были получены с 5 ppm, хотя ожидалось загрязнение катода серой.",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "No economic or other benefit was obtained from such high concentrations.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Однако ни экономического, ни какого-либо другого выигрыша от таких высоких концентраций не было получено.",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Величина добавки тиомочевины (и Avitone) определяется массой произведенного катода: мочевину добавляют из расчета 0,03 кг/т катода.",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мировая-практика-электролитического-рафинировани:3",
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "title": "Effect of gelatin as a leveling additive",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "addition of gelatin to copper electrorefining bath"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gelatin",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Colloidal leveling additives degrade quickly in acidic, high‑temperature baths and must be continuously added.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Однако коллоидные выравнивающие добавки быстро разлагаются из-за гидролиза в кислой среде при высоких температурах, так что требуется непрерывно их добавлять в ванну.",
+     "locator_kind": "md_para",
+     "locator": "para:140",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Выравнивающие добавки адсорбируются на позициях с самой высокой плотностью тока/электропотенциала, которые расположены на выступах, краях (кромке) и шаровидных включениях (узелках – nodules) на поверхности катода.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мировая-практика-электролитического-рафинировани:4",
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "title": "Industrial application of ISA cathodes at Brixlegg plant (Austria)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "electroextraction",
+      "extra": {
+       "raw_process": "Electrowinning with ISA steel cathodes"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cathode",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual copper production",
+     "scope": "material",
+     "material_id": "mat:copper-base-cathodes",
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 1988 г на заводе Brixlegg впервые в Европе (и No3 в мире) было внедрено ЭР с катодами ISA, производительность повысилась до 55 тыс т/г, плотность тока – до 340 А/м 2",
+     "locator_kind": "md_para",
+     "locator": "para:237",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "current_density",
+     "scope": "material",
+     "material_id": "mat:isa-stainless-steel-cathodes",
+     "value": {
+      "min": null,
+      "nominal": 340.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 1988 г на заводе Brixlegg впервые в Европе (и No3 в мире) было внедрено ЭР с катодами ISA, производительность повысилась до 55 тыс т/г, плотность тока – до 340 А/м 2",
+     "locator_kind": "md_para",
+     "locator": "para:237",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Productivity increased with ISA cathodes.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "productivity",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "производительность повысилась до 55 тыс т/г",
+     "locator_kind": "md_para",
+     "locator": "para:237",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в 1988 г на заводе Brixlegg впервые в Европе (и No3 в мире) было внедрено ЭР с катодами ISA, производительность повысилась до 55 тыс т/г, плотность тока – до 340 А/м 2",
+   "locator_kind": "md_para",
+   "locator": "para:237",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мировая-практика-электролитического-рафинировани:5",
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "title": "Industrial application of periodic reverse current (PRT) at Canadian Copper Refinery (CCR)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "electroextraction",
+      "extra": {
+       "raw_process": "Electrowinning with periodic reverse current in the third stage of electrolyte treatment"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:electrolyte",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:copper-base-cathodes",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 1.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "copper  in electrolyte"
+     },
+     "method": null,
+     "snippet": "ПРТ позволил, например, на ЭР-заводе Canadian Copper Refinery (CCR) в цехе по обработке электролита снизить содержание меди в электролите до <1 г/л при минимальной генерации арсина",
+     "locator_kind": "md_para",
+     "locator": "para:246",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "PRT enabled reduction of copper concentration while keeping arsenic generation low.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "ПРТ позволил, например, на ЭР-заводе Canadian Copper Refinery (CCR) в цехе по обработке электролита снизить содержание меди в электролите до <1 г/л при минимальной генерации арсина",
+     "locator_kind": "md_para",
+     "locator": "para:246",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "ПРТ позволил, например, на ЭР-заводе Canadian Copper Refinery (CCR) в цехе по обработке электролита снизить содержание меди в электролите до <1 г/л при минимальной генерации арсина",
+   "locator_kind": "md_para",
+   "locator": "para:246",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:мировая-практика-электролитического-рафинировани:6",
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "title": "Industrial use of PRT in third stage of electrolyte treatment at CCR (post‑1975 accident)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "electroextraction",
+      "extra": {
+       "raw_process": "Periodic reverse current applied in stage 3 of electrowinning"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:electrolyte",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:copper-base-cathodes",
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 1.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "copper"
+     },
+     "method": null,
+     "snippet": "в то же время концентрацию меди можно было снизить до <1 г/ л",
+     "locator_kind": "md_para",
+     "locator": "para:250",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "PRT delayed arsenic formation and allowed copper concentration below 1 g/L.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "arsine formation",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "применение ПРТ замедлило/отсрочило начало образования арсина",
+     "locator_kind": "md_para",
+     "locator": "para:250",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "на последней (третьей) стадии электролиза применение ПРТ замедлило/отсрочило начало образования арсина, в то же время концентрацию меди можно было снизить до <1 г/ л",
+   "locator_kind": "md_para",
+   "locator": "para:250",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "По оценкам Международной группы по меди (ICSG) мировые медные рафинировочные мощности, составлявшие 28,4 млн т в 2018 г, расширятся до 32,5 млн т в 2023 г и до 36,5 млн т в 2027 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global copper refining capacity",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам Международной группы по меди (ICSG) мировые медные рафинировочные мощности, составлявшие 28,4 млн т в 2018 г, расширятся до 32,5 млн т в 2023 г и до 36,5 млн т в 2027 г.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Доля мощностей электролитического рафинирования (ЭР) в 2018 г равнялась 80% (остальное: 17% - электроэкстракция, 3% - огневое рафинирование и пр.), в 2027 г по прогнозу доля ЭР увеличится до 81%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "percentage of total refining capacity",
+    "direction": "increases",
+    "factor": "time",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доля мощностей электролитического рафинирования (ЭР) в 2018 г равнялась 80% (остальное: 17% - электроэкстракция, 3% - огневое рафинирование и пр.), в 2027 г по прогнозу доля ЭР увеличится до 81%.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "На ЛБМ катоды Grade A должны соответствовать следующим стандартам: BS EN 1978:2022 – Cu-CATH-1, GB/T 467-2010 – Cu-CATH-1, ASTM B115-10(2021) – cathode Grade 1.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicable standards",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На ЛБМ катоды Grade A должны соответствовать следующим стандартам: BS EN 1978:2022 – Cu-CATH-1, GB/T 467-2010 – Cu-CATH-1, ASTM B115-10(2021) – cathode Grade 1.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Некоторые ведущие мировые изготовители катанки, например, просто не примут медь с S >5 ppm, а содержание свинца должно быть Pb <3 ppm (оба показателя превышают требования ЛБМ).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maximum impurity limits",
+    "direction": "decreases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Некоторые ведущие мировые изготовители катанки, например, просто не примут медь с S >5 ppm, а содержание свинца должно быть Pb <3 ppm (оба показателя превышают требования ЛБМ).",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Катоды компании Aurubis – марки NA-ESN, HK, Olen, Pirdop с мин. 99,99 % Cu: Pb, As, Sb, Sn, Zn, Co, Cr, Cd, Mn (каждого элемента) <1 ppm; Bi, Se, Te (каждого элемента) <0,5; Fe, Ni (каждого элемента) <2, Ag 10-17; S <5.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "impurity limits",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катоды компании Aurubis – марки NA-ESN, HK, Olen, Pirdop с мин. 99,99 % Cu: Pb, As, Sb, Sn, Zn, Co, Cr, Cd, Mn (каждого элемента) <1 ppm; Bi, Se, Te (каждого элемента) <0,5; Fe, Ni (каждого элемента) <2, Ag 10-17; S <5.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "В традиционный обзор «Мировой обзор электрорафинирования меди: производственные показатели электролизных цехов мира в 2019 г» Майкла Моутса 2019 года включены 27 рафинировочных заводов (в основном, перерабатывающих первичное сырье), представляющие ~30-35% мировых электрорафинировочных мощностей.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of global capacity represented",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В традиционный обзор «Мировой обзор электрорафинирования меди: производственные показатели электролизных цехов мира в 2019 г» Майкла Моутса 2019 года включены 27 рафинировочных заводов (в основном, перерабатывающих первичное сырье), представляющие ~30-35% мировых электрорафинировочных мощностей.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "В мире всего порядка 250 медных рафинировочных предприятий, на 100%-ный охват не претендует ни Mоутс, ни даже такая международная организация как ICSG.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "total number of plants",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В мире всего порядка 250 медных рафинировочных предприятий, на 100%-ный охват не претендует ни Mоутс, ни даже такая международная организация как ICSG.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Таблица 2.1 – Средний состав анодов: Cu 99,2‑99,3 %, Ag 680‑850 ppm, Au 30‑60 ppm, S 20‑30 ppm, Ni 1410‑2590 ppm, Se 340‑460 ppm, Te 100‑130 ppm, As 890‑1480 ppm, Sb 240‑450 ppm, Bi 130‑300 ppm, Pb 970‑1290 ppm, O 1450‑1630 ppm (данные за 2007‑2019 гг.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average impurity levels",
+    "direction": "nonmonotonic",
+    "factor": "year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таблица 2.1 – Средний состав анодов: | Cu, % | 99,3 | 99,3 | 99,3 | 99,3 | 99,2 | | Ag | 850 | 840 | 750 | 710 | 680 | | Au | 40 | 60 | 30 | 30 | 30 | | S | 30 | 30 | 39 | 20 | 20 | | Ni | 1410 | 1480 | 2040 | 1520 | 2590 | | Se | 340 | 390 | 400 | 410 | 460 | | Te | 100 | 130 | 110 | 100 | 120 | | As | 930 | 1010 | 890 | 1480 | 990 | | Sb | 240 | 300 | 350 | 280 | 450 | | Bi | 130 | 200 | 180 | 300 | 160 | | Pb | 1060 | 1140 | 1170 | 1290 | 970 | | O | 1630 | 1630 | 1460 | 1490 | 1450 |",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Molar ratio As/(Sb+Bi) greater than 2 is highly desirable",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "As/(Sb+Bi) ratio",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из литературных данных известно, что очень желательным является молярное соотношение As/(Sb+Bi) >2.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "In 2019, 9 of 27 plants met the As/(Sb+Bi) >2 condition, with an average ratio of 4.0",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "As/(Sb+Bi) ratio",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2019 г 9 из 27 заводов из сводки Моутса выполняли это условие (в среднем отношение равнялось 4,0).",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Approximately 70% of electrorefining plants use non‑consumable (ISA) cathodes (in 2007 they were 30‑40%)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "adoption rate of ISA cathodes",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам М. Моутса 70% ЭР -заводов применяют нерасходуемые катоды (в 2007 г их было 30-40%).",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "ISA cathodes enable current densities above 300 A/m² and current efficiencies above 96 %",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность тока, А/м 2 319 (19) … Выход по току, % 96,2 (16)",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.45,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "ISA cathodes have a service life longer than 7 years for electrolysis and longer than 15 years for electrowinning",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cathode service life",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "длительный срок службы катодов (>7 лет без ремонта для электролиза и >15 лет для электролитического рафинирования)",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "ISA technology eliminates suspension loops, reducing corrosion risk and simplifying crane handling",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "отсутствие «ушек» для подвешивания (*suspension loops)* , которые могли корродировать; их отсутствие также облегчает перегрузку с использованием кранов",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Elimination of suspension loops and smoother plates reduce short‑circuit defects and impurity capture (As, Sb, Bi)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "short‑circuit defects / impurity capture",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "повышение качества катодов, благодаря ровным пластинам исключаются КЗ, отсутствие изгибов и других дефектов поверхности снижает также вероятность захвата примесей, таких как «плавающие» As, Sb и Bi",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "ISA technology provides current efficiencies greater than 98 %",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выход по току >98 %",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.45,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "ISA cathodes reduce labor intensity by eliminating the need to fabricate copper bases",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "labor intensity",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сокращение трудозатрат, благодаря исключению процесса изготовления медных основ",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Global ISA electrorefining capacity at the end of 2021 is 9,43 million t/yr on 42 installations plus 77 electrowinning lines",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "по данным Glencore, ЭР мощности ISAKidd оцениваются в 9,43 млн т/г на 42 линиях (installations) плюс 77 линий электроэкстракции.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Thiourea reacts with copper to form CuS that adsorbs on the cathode surface and hinders further grain growth.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "обычно используется тиомочевина, которая взаимодействует с медью с образованием CuS, адсорбирующимся на поверхности катода и препятствующим дальнейшему увеличению размеров зерен.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Small urea molecules reduce Cu2+ to Cu+ forming a complex ion (Cu‑urea)+ and dithiocarbamidine.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Маленькие молекулы мочевины восстанавливают Cu 2+ до Cu + , образуя комплексный ион (Cu‑мочевина) + и дитиоформамидин.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "The complex ion hydrolyzes slowly over several days.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Комплексный ион медленно гидролизуется в течение нескольких суток.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Grain size control is crucial because it determines cathode elasticity.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Ограничение размеров зерен очень важно, т.к. оно определяет упругость (эластичность) катода.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "If grain‑refining additives are absent or too low, large grains form and the cathode becomes very elastic.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Если измельчающие зерна добавки отсутствуют или их слишком мало, процесс зародышеобразования развивается далее и получаются крупные зерна, а это делает катод очень упругим.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "If additives are excessive, nucleation stops too early, producing overly fine grains and a brittle cathode.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Если, напротив, добавки слишком много, процесс нуклеации останавливается слишком рано, получаются слишком мелкие зерна и хрупкий катод.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "One thiourea alone is an unsatisfactory additive, causing sulfur contamination of cathodes up to 10 ppm.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Одна тиомочевина сама по себе – неудовлетворительная добавка, приводящая к загрязнению серой катодов до 10 ppm.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Cl‑ (e.g., NaCl) is added to precipitate silver as AgCl (and Sb) and, when used with organic additives, increases cathode brightness.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Cl‑ в виде, например, NaCl добавляют, чтобы высадить серебро как AgCl (а также Sb), которое осаждается на дне ванны. Cl‑, при использовании совместно с ограническими добавками, способствует повышению блеска (яркости) катода.",
+   "locator_kind": "md_para",
+   "locator": "para:149",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Avitone (sodium sulfonate) acts as a surfactant, removes oily spots on electrodes and reduces sludge adhesion to the cathode.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Avitone … используется в дополнение к костяному клею и выступает в роли ПАВ, удаляя маслянистые пятна на электродах. Кроме того, Avitone ослабляет прилипание шлама к катоду.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "If Avitone dosage is too low, sludge sticks to the cathode and the lower part of the cathode becomes dark.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Если добавка Avitone слишком маленькая, шламы липнут к катоду и нижняя часть катода получается темного цвета.",
+   "locator_kind": "md_para",
+   "locator": "para:150",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "According to ASTM B115-10, total impurity content in the cathode must not exceed 65 ppm.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "По ASTM B115-10 сумма примесей должна быть максимум 65 ppm.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Typical dosage ranges for additives are given in Table 4.4 (e.g., Cl‑ 60‑90 g/t, 20‑40 ppm).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Таблица 4.4 – Характеристики добавок … | Cl- | 60-90 NaCl или HCl | 20-40 | …",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Additives in electrocrystallization perform two main functions: leveling and grain‑growth control; some act as activators.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Перечисленные в таблице добавки при электрокристаллизации выполняют две основные функции: выравнивание и контроль роста зерен; некоторые агенты являются активаторами.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Cl‑ also acts as an activator for other additives besides precipitating silver.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Cl‑, помимо высаживания серебра и смягчения негативного влияния Sb и Bi, является также активатором для других добавок.",
+   "locator_kind": "md_para",
+   "locator": "para:158",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Agents can have synergistic effects when combined.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Агенты в комбинации могут обладать синергическим эффектом.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Non‑consumable stainless‑steel cathodes and polymer‑concrete baths with service life >20 years are emerging trends in electrowinning.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "вне всякого сомнения – применение нерасходуемых катодов из нержавеющей стали; продолжающееся внедрение полимербетонных ванн (срок службы >20лет)",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.81,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Суммарное потребление энергии для ЭР оценивается в 300-400 кВт·ч/т катодной меди.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Суммарное потребление энергии для ЭР оценивается в 300-400 кВт·ч/т катодной меди.",
+   "locator_kind": "md_para",
+   "locator": "para:230",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Оптимальные условия ПРТ позволяют повысить плотность тока до 330-360 А/м 2.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оптимальные условия ПРТ позволяют повысить плотность тока до 330-360 А/м 2 .",
+   "locator_kind": "md_para",
+   "locator": "para:241",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Предпочтительное отношение тока в прямом направлении к току в обратном направлении 20-30:1 для продолжительности цикла 0,5-3 мин.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Предпочтительное отношение тока в прямом направлении к току в обратном направлении 20-30:1 для продолжительности цикла 0,5-3 мин.",
+   "locator_kind": "md_para",
+   "locator": "para:241",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Пассивирование анода приводит к высокому расходу электроэнергии, низкой производительности и плохому качеству катодов.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Известно, что пассивация анода приводит к высокому расходу электроэнергии, низкой производительности и плохому качеству катодов.",
+   "locator_kind": "md_para",
+   "locator": "para:240",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": "electroextraction"
+  },
+  {
+   "text": "Периодический реверс тока позволяет увеличить производительность (до 15 %), благодаря росту лимитирующей плотности тока, при которой наступает пассивация анода, а также селективному удалению «выступов» меди и получению гладких осадков.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "productivity",
+    "direction": "increases",
+    "factor": "up to 15 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Периодический реверс тока позволяет увеличить производительность (до 15 %), благодаря росту лимитирующей плотности тока, при которой наступает пассивация анода, а также селективному удалению «выступов» меди и получению гладких осадков.",
+   "locator_kind": "md_para",
+   "locator": "para:241",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "Главным недостатком ПРТ является рост затрат на электроэнергию, что, как пишут обозреватели, «ограничило применение этой технологии».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy cost",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Главным недостатком ПРТ является рост затрат на электроэнергию, что, как пишут обозреватели, «ограничило применение этой технологии».",
+   "locator_kind": "md_para",
+   "locator": "para:244",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "ПРТ применяется в гальванике для нанесения покрытий на объекты со сложной геометрией и в производстве печатных плат для равномерного осаждения из электролита на катод неправильной формы.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Тем не менее, ПРТ применяется, например, в гальванике – для нанесения покрытий на объекты со сложной геометрией или, например, в производстве печатных плат – для равномерного (по толщине) осаждения из электролита на катод неправильной формы.",
+   "locator_kind": "md_para",
+   "locator": "para:245",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": null
+  },
+  {
+   "text": "При ЭР осуществляется слив загрязненного электролита с целью поддержания концентрации меди на уровне 46-52 г/л.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "При ЭР осуществляется слив загрязненного электролита с целью поддержания концентрации меди на уровне 46-52 г/л.",
+   "locator_kind": "md_para",
+   "locator": "para:251",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": "electroextraction"
+  },
+  {
+   "text": "В стадии 3 электролиза используется периодический реверс тока и верхний слив электролита 0,5-1,0 г/л Cu.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "3 | ‘PB’ ванны | 18 | Период. реверс тока | 0,5-1,0 г/л Cu",
+   "locator_kind": "md_para",
+   "locator": "para:253",
+   "confidence": 0.9,
+   "document_id": "doc:мировая-практика-электролитического-рафинировани",
+   "process": "electroextraction"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

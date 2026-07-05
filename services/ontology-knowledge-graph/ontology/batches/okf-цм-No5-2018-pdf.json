@@ -1,0 +1,620 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No5-2018-pdf",
+   "title": "ЦМ №5-2018.pdf",
+   "doc_type": "article",
+   "year": 2018,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2018-все\\ЦМ №5-2018.pdf.md",
+   "artifact_sha256": "1cb6f90044dee0dacf7bf9b62d4b7d86737f9515981179d25bcbce1bbea88fc1",
+   "okf_raw_path": "Журналы/Цветные металлы/2018-все/ЦМ №5-2018.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:lead-zinc-ore-from-the-sever-mine",
+   "label": "lead‑zinc ore from the “Sever” mine",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No5-2018-pdf:0",
+   "document_id": "doc:цм-No5-2018-pdf",
+   "title": "Industrial application of KFM‑600 flotation machines at MOU‑15 “Rudmetal” AD (Rudozem, Bulgaria)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation of lead‑zinc ore"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-zinc-ore-from-the-sever-mine",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 61.23,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pb"
+     },
+     "method": null,
+     "snippet": "содержание свинца в концентрате КФМ-600 почти в два раза выше (61,23 против 35,19 %)",
+     "locator_kind": "md_para",
+     "locator": "para:186",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "lead recovery in foam product",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 82.09,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "на КФМ-600 более высокое извлечение свинца в пенный продукт (82,09 против 81,41 %)",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "flotation time",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при более чем в два раза меньшей продолжительности флотации (3,5 против 8 мин)",
+     "locator_kind": "md_para",
+     "locator": "para:187",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "overall lead extraction increase",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "повышения (по сравнению с предшествующим периодом) извлечения свинца на фабрике на 5 % (91-94 %)",
+     "locator_kind": "md_para",
+     "locator": "para:188",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "overall zinc extraction increase",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "цинка -на 10 % (до 76,8 %)",
+     "locator_kind": "md_para",
+     "locator": "para:188",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Применение пневматических флотационных аппаратов нового поколения серии КФМ позволило значительно уменьшить производственную площадь, занимаемую флотационным модулем фабрики, и снизить потребление электроэнергии при флотации.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "plant area and electricity consumption",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это позволило значительно уменьшить производственную площадь, занимаемую флотационным модулем фабрики, и сократить потребление электроэнергии при флотации.",
+     "locator_kind": "md_para",
+     "locator": "para:184",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Модульная обогатительная фабрика (МОУ-15) «Рудметал» АД (г. Рудозем, Болгария) для обогащения свинцово-цинковой руды шахты «Север» спроектирована ООО «Гормашэкспорт» (г. Новосибирск, Россия) и запущена в эксплуатацию совместно российскими и болгарскими специалистами.",
+   "locator_kind": "md_para",
+   "locator": "para:193",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "По данным ФТС РФ, экспорт никеля в 2017 г . сократился до 136,3 тыс. т (-26,6 % к 2016 г.) стоимостью 1,383 млрд долл. (-18,8 % к 2016 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "quantity",
+    "direction": "decreases",
+    "factor": "26,6 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным ФТС РФ, экспорт никеля в 2017 г . сократился до 136,3 тыс. т (-26,6 % к 2016 г.) стоимостью 1,383 млрд долл. (-18,8 % к 2016 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2017 г ., согласно оценке International Nickel Study Group (Португалия), дефицит мирового рынка никеля составил 103,4 тыс. т (42,2 тыс. т в 2016 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "size",
+    "direction": "increases",
+    "factor": "61,2 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2017 г ., согласно оценке International Nickel Study Group (Португалия), дефицит мирового рынка никеля составил 103,4 тыс. т (42,2 тыс. т в 2016 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу группы, мировое потребление никеля в 2018 г . составит 2,34 млн т (2,19 млн т в 2017 г .), производство - 2,23 млн т (2,08 млн т в 2017 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "quantity",
+    "direction": "increases",
+    "factor": "0,15 млн т (consumption), 0,15 млн т (production)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу группы, мировое потребление никеля в 2018 г . составит 2,34 млн т (2,19 млн т в 2017 г .), производство - 2,23 млн т (2,08 млн т в 2017 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В КНР в 2018 г . спрос на металл увеличится до 1,22 млн т (1,17 млн т в 2017 г .), выпуск - до 0,817 млн т (0,673 млн т в 2017 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "quantity",
+    "direction": "increases",
+    "factor": "0,05 млн т (demand), 0,144 млн т (supply)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В КНР в 2018 г . спрос на металл увеличится до 1,22 млн т (1,17 млн т в 2017 г .), выпуск - до 0,817 млн т (0,673 млн т в 2017 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По данным International Stainless Steel Forum (Бельгия), мировое производство нержавеющей стали по сравнению с предшествующим годом выросло на 5,8 % до 48,1 млн т, в том числе в КНР - на 4,7 % до 25,774 млн т, в США - на 11,0 % до 2,754 млн т, в ЕС - на 1,3 % до 7,377 млн т .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "quantity",
+    "direction": "increases",
+    "factor": "5,8 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным International Stainless Steel Forum (Бельгия), мировое производство нержавеющей стали по сравнению с предшествующим годом выросло на 5,8 % до 48,1 млн т, в том числе в КНР - на 4,7 % до 25,774 млн т, в США - на 11,0 % до 2,754 млн т, в ЕС - на 1,3 % до 7,377 млн т .",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Roskill International Services (Великобритания), среднегодовые темпы роста потребления никеля в 2017-2027 гг . составят 4,0 % за счет устойчивого спроса со стороны производителей батарей и нержавеющей стали.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual growth rate",
+    "direction": "increases",
+    "factor": "nickel consumption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Roskill International Services (Великобритания), среднегодовые темпы роста потребления никеля в 2017-2027 гг . составят 4,0 % за счет устойчивого спроса со стороны производителей батарей и нержавеющей стали.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Royal Nickel Corporation (Канада) планирует начать строительство никель-кобальтового рудника на месторождении Dumont (Канада) в 2019 г. Ввод в строй 2020 г ., срок эксплуатации - не менее 30 лет .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mine construction schedule",
+    "direction": "increases",
+    "factor": "nickel‑cobalt production capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Royal Nickel Corporation (Канада) планирует начать строительство никель-кобальтового рудника на месторождении Dumont (Канада) в 2019 г. Ввод в строй 2020 г ., срок эксплуатации - не менее 30 лет .",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Мощность 33,0 тыс. т/год никеля, увеличение до 54,0 тыс. т/год после 5 лет функционирования.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production capacity",
+    "direction": "increases",
+    "factor": "Dumont mine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность 33,0 тыс. т/год никеля, увеличение до 54,0 тыс. т/год после 5 лет функционирования.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По информации Главного управления таможен (КНР), в январе - феврале 2018 г . импорт никеля увеличился до 41,401 тыс. т (+42,64 % к январю - февралю 2017 г .).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel import volume",
+    "direction": "increases",
+    "factor": "China",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По информации Главного управления таможен (КНР), в январе - феврале 2018 г . импорт никеля увеличился до 41,401 тыс. т (+42,64 % к январю - февралю 2017 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке Shanghai Metal Market (КНР), импорт никельсодержащей руды из Индонезии в КНР в 2018 г . составит 22,5 млн т (4,1 млн т в 2017 г .).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "import volume",
+    "direction": "increases",
+    "factor": "Indonesian nickel ore to China",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно оценке Shanghai Metal Market (КНР), импорт никельсодержащей руды из Индонезии в КНР в 2018 г . составит 22,5 млн т (4,1 млн т в 2017 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Sumitomo Metal Mining (Япония), мировое потребление никеля в 2018 г . составит 2,197 млн т (2,139 млн т в 2017 г .), производство - 2,112 млн т (2,041 в 2017 г .), дефицит рынка - 0,085 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global consumption, production, deficit",
+    "direction": "increases",
+    "factor": "world nickel market",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Sumitomo Metal Mining (Япония), мировое потребление никеля в 2018 г . составит 2,197 млн т (2,139 млн т в 2017 г .), производство - 2,112 млн т (2,041 в 2017 г .), дефицит рынка - 0,085 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2017 г . Eramet (Франция) выпустила 59,183 тыс. т никеля (55,227 тыс. т в 2016 г .), продажи составили 58,488 тыс. т (56,121 тыс. т в 2016 г .).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel output and sales",
+    "direction": "increases",
+    "factor": "Eramet",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2017 г . Eramet (Франция) выпустила 59,183 тыс. т никеля (55,227 тыс. т в 2016 г .), продажи составили 58,488 тыс. т (56,121 тыс. т в 2016 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По информации ФТС РФ, экспорт рафинированной меди (83,0 %) и медной катанки (17,0 %) в январе - феврале 2018 г . по сравнению с аналогичным периодом прошлого года составил 152,6 тыс. т (+23,1 %) стоимостью 1,051 млрд долл. (+51,6 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "increases",
+    "factor": "+23,1 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по сравнению с аналогичным периодом прошлого года составил 152,6 тыс. т (+23,1 %) стоимостью 1,051 млрд долл. (+51,6 %)",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2017 г . экспорт меди в первичных формах (80,0 %) и катанки (20,0 %) вырос до 746,7 тыс. т (+9,9 % к 2016 г .) стоимостью 4,533 млрд долл. (+42,0 % к 2016 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "volume",
+    "direction": "increases",
+    "factor": "+9,9 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "вырос до 746,7 тыс. т (+9,9 % к 2016 г .) стоимостью 4,533 млрд долл. (+42,0 % к 2016 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно информации International Copper Study Group (Португалия), в 2017 г . мировое потребление меди составило 23,7 млн т (+0,7 % к 2016 г .), производство 23,5 млн т (+0,6 %), дефицит - 0,2 млн т (0,135 млн т в 2016 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption",
+    "direction": "increases",
+    "factor": "+0,7 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "мировое потребление меди составило 23,7 млн т (+0,7 % к 2016 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Antaike (КНР), потребление меди в стране в 2018 г . увеличится до 11,1 млн т (+3,3 % к 2017 г .), производство - до 8,35 млн т (+4,3 % к 2017 г .), импорт меди в концентрате - до 4,5 млн т (+3,7 % к 2017 г .), импорт рафинированной меди снизится до 3,0 млн т (3,243 млн т в 2017 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "consumption",
+    "direction": "increases",
+    "factor": "+3,3 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "потребление меди в стране в 2018 г . увеличится до 11,1 млн т (+3,3 % к 2017 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:105",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке Shanghai Metal Market (КНР), квота на импорт медного лома в страну в 2018 г. составит 337,9 тыс. т (-88,0 % к 2016 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "quota",
+    "direction": "decreases",
+    "factor": "-88,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "квота на импорт медного лома в страну в 2018 г. составит 337,9 тыс. т (-88,0 % к 2016 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "К 2020 г . после запуска новых проектов Китай полностью откажется от импорта рафинированной меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "import",
+    "direction": "decreases",
+    "factor": "full cessation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К 2020 г . после запуска новых проектов Китай полностью откажется от импорта рафинированной меди.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "С пуском в 2018 г. второй очереди мощности по производству безосновных катодов возрастут со 160,0 до 320,0 тыс. т, суммарные - до 400,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "from 160,0 до 320,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "второй очереди мощности по производству безосновных катодов возрастут со 160,0 до 320,0 тыс. т, суммарные - до 400,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Себестоимость производства меди за указанный период составила 3395,1 долл./т (2998,3 долл./т в I квартале 2017 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "unit cost",
+    "direction": "increases",
+    "factor": "3395,1 долл./т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Себестоимость производства меди за указанный период составила 3395,1 долл./т (2998,3 долл./т в I квартале 2017 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2018 г., по информации Dow Jones (США), в Демократической Республике Конго (ДРК) было произведено 73,94 тыс. т кобальта (+16,0 % к 2016 г .).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cobalt production",
+    "direction": "increases",
+    "factor": "+16,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2018 г., по информации Dow Jones (США), в Демократической Республике Конго (ДРК) было произведено 73,94 тыс. т кобальта (+16,0 % к 2016 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По прогнозу Cobalt27 (Канада), рост производства электромобилей не должен вызвать дефицит на мировом рынке кобальта.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cobalt market balance",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По прогнозу Cobalt27 (Канада), рост производства электромобилей не должен вызвать дефицит на мировом рынке кобальта.",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно оценке Eurasian Resources Group (Люксембург), к 2025 г. мировое потребление кобальта увеличится до 201,0 тыс. т, прежде всего за счет роста спроса со стороны производителей литий‑ионных батарей.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "global cobalt consumption",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно оценке Eurasian Resources Group (Люксембург), к 2025 г. мировое потребление кобальта увеличится до 201,0 тыс. т, прежде всего за счет роста спроса со стороны производителей литий‑ионных батарей.",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Применение пневматических флотационных аппаратов нового поколения серии КФМ предопределило достижение высоких общих показателей обогащения руды на МОУ-15 «Рудметал» АД.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "overall ore enrichment performance",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применение пневматических флотационных аппаратов нового поколения серии КФМ предопределило достижение высоких общих показателей обогащения руды на МОУ-15 «Рудметал» АД.",
+   "locator_kind": "md_para",
+   "locator": "para:188",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No5-2018-pdf",
+   "process": "flotation"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

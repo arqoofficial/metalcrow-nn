@@ -1,0 +1,826 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No12-2018-pdf",
+   "title": "ЦМ №12-2018.pdf",
+   "doc_type": "article",
+   "year": 2018,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2018-все\\ЦМ №12-2018.pdf.md",
+   "artifact_sha256": "eb4eb59ba00ff25fdf6e18d25b82ac919df012423534539c71a24762291430ec",
+   "okf_raw_path": "Журналы/Цветные металлы/2018-все/ЦМ №12-2018.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:литых-сплавов",
+   "label": "алюминиевые сплавы",
+   "family": "alloy",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-ad0",
+   "label": "alloy AD0",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:asbestos-tape",
+   "label": "Asbestos tape",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:produced-billets",
+   "label": "Produced billets",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No12-2018-pdf:0",
+   "document_id": "doc:цм-No12-2018-pdf",
+   "title": "Опытная эксплуатация грузовых вагонов из алюминиевых сплавов",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Эксплуатация грузовых вагонов‑хопперов и цистерн с кузовами из алюминиевых сплавов, полуфабрикаты для которых выпускаются на Самарском металлургическом заводе (АО «Арконик СМЗ»)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:литых-сплавов",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Успешно прошли опытную эксплуатацию грузовые вагоны: хопперы и цистерны с кузовами (котлами) из алюминиевых сплавов, полуфабрикаты для изготовления которых выпускаются на Самарском металлургическом заводе (АО «Арконик СМЗ»).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "успешность эксплуатации",
+      "direction": "increases",
+      "factor": "алюминиевых сплавов",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Успешно прошли опытную эксплуатацию грузовые вагоны: хопперы и цистерны с кузовами (котлами) из алюминиевых сплавов, полуфабрикаты для изготовления которых выпускаются на Самарском металлургическом заводе (АО «Арконик СМЗ»).",
+     "locator_kind": "md_para",
+     "locator": "para:13",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Успешно прошли опытную эксплуатацию грузовые вагоны: хопперы и цистерны с кузовами (котлами) из алюминиевых сплавов, полуфабрикаты для изготовления которых выпускаются на Самарском металлургическом заводе (АО «Арконик СМЗ»).",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No12-2018-pdf:1",
+   "document_id": "doc:цм-No12-2018-pdf",
+   "title": "Laboratory casting of AD0 alloy using a vertical continuous casting device with variable cross‑section and movable walls",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "casting",
+      "extra": {
+       "raw_process": "continuous vertical casting with simultaneous pressure treatment of molten aluminum alloy AD0"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:alloy-ad0",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "устройство обеспечивает полное совмещение процессов кристаллизации жидкого металла с его обработкой давлением в заданный профиль",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Это устройство обеспечивает полное совмещение процессов кристаллизации жидкого металла с его обработкой давлением в заданный профиль",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В работе изучали образцы из сплава АД0. Заготовки были получены с помощью разработанного авторами устройства, позволяющего отливать расплав методом непрерывного вертикального литья в кристаллизатор переменного сечения с подвижными стенками.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No12-2018-pdf:2",
+   "document_id": "doc:цм-No12-2018-pdf",
+   "title": "Continuous vertical casting of alloy AD0",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Induction melting of alloy AD0 in furnace УИП-100-2.4-0.6х2Г, heating to 740 °C, pouring into intermediate ladle, cooling to 710 °C, removal of slag, feeding into the crystallizer where the melt is processed by pressure of the squeezing walls",
+       "temperature_text": "740 °C (initial heating), 710 °C (after ladle cooling)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1013.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:alloy-ad0",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:asbestos-tape",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Получаемые заготовки в поперечном сечении имеют прямоугольную форму: ширина - 57; толщина - 11 мм, длина - не имеет ограничений.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "geometry",
+      "direction": "increases",
+      "factor": "process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Получаемые заготовки в поперечном сечении имеют прямоугольную форму: ширина - 57; толщина - 11 мм, длина - не имеет ограничений.",
+     "locator_kind": "md_para",
+     "locator": "para:142",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Исследуемый сплав изготовлен в индукционной плавильной печи УИП-100-2.4-0.6х2Г с графитовым тиглем. Для рафинирования алюминиевого сплава применен гексахлорэтан. Изготовленный сплав АД0 нагревали до температуры 740 °C, переливали в промежуточный ковш, где расплав остывал до температуры 710 °C.",
+   "locator_kind": "md_para",
+   "locator": "para:141",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No12-2018-pdf:3",
+   "document_id": "doc:цм-No12-2018-pdf",
+   "title": "Brinell hardness testing of produced billets",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Samples prepared according to ГОСТ 2789-73, hardness measured with ТШ2М hardness tester (ball diameter 5 mm, load 1226 N, dwell time 120 s)",
+       "temperature_text": "room temperature (implicit)",
+       "duration_text": "120 s dwell"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:produced-billets",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Результаты измерений разными приборами совпали, обеспечив точность EDX‑анализа.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "measurement consistency",
+      "direction": "increases",
+      "factor": "instrumentation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Результаты измерений разными приборами совпали, обеспечив точность EDX‑анализа.",
+     "locator_kind": "md_para",
+     "locator": "para:143",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Твердость по Бринеллю определяли на тех же образцах, на которых определены механические свойства на растяжение.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Журнал перешел во 2‑й квартиль (по итогам 2017 г.), увеличив SJR c 0,275 (2016) до 0,309 (2017).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "SJR",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Журнал перешел во 2‑й квартиль (по итогам 2017 г.), увеличив SJR c 0,275 (2016) до 0,309 (2017).",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Вклад Арконик СМЗ в создание грузовых железнодорожных вагонов нового поколения получил высокую оценку Алюминиевой ассоциации.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "оценка",
+    "direction": "increases",
+    "factor": "вклад Арконик СМЗ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вклад Арконик СМЗ в создание грузовых железнодорожных вагонов нового поколения получил высокую оценку Алюминиевой ассоциации.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По данным Федеральной службы государственной статистики РФ, в январе‑сентябре 2018 г. по сравнению с аналогичным периодом прошлого года национальный выпуск составил (в %): никель ‑ 96,0; медь ‑ 107,3; алюминий, включая силумин ‑ 112,0; цинк ‑ 104,9; свинец, включая вторичный ‑ 105,0; кобальт ‑ 90,7; титан губчатый ‑ 104,5; магний и его сплавы ‑ 102,8.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "percentage change",
+    "direction": "increases",
+    "factor": "statistical report",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По данным Федеральной службы государственной статистики РФ, в январе‑сентябре 2018 г. по сравнению с аналогичным периодом прошлого года национальный выпуск составил (в %): никель ‑ 96,0; медь ‑ 107,3; алюминий, включая силумин ‑ 112,0; цинк ‑ 104,9; свинец, включая вторичный ‑ 105,0; кобальт ‑ 90,7; титан губчатый ‑ 104,5; магний и его сплавы ‑ 102,8.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "24 октября 2018 г. Московская биржа (Россия) запустила торги фьючерсными контрактами на никель, медь, алюминий, цинк. Размер лота, т: 0,1 никель, медь; 1,0 алюминий, цинк.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "futures contract specifications",
+    "direction": "increases",
+    "factor": "exchange initiative",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "24 октября 2018 г. Московская биржа (Россия) запустила торги фьючерсными контрактами на никель, медь, алюминий, цинк. Размер лота, т: 0,1 никель, медь; 1,0 алюминий, цинк.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе‑сентябре 2018 г. ПАО «ГМК «Норильский никель» (НН) (Россия) произвело 157,262 тыс. т никеля (157,08 тыс. т*), в том числе в РФ ‑ 113,076 тыс. т (114,635 тыс. т); 349,94 тыс. т меди (290,878 тыс. т), в том числе в РФ ‑ 323,116 тыс. т (281,423 тыс. т); 2053,0 тыс. тр. унц. палладия (1989,0 тыс. тр. унц.), 505,0 тыс. тр. унц. платины (484,0 тыс. тр. унц.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volumes",
+    "direction": "increases",
+    "factor": "company output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе‑сентябре 2018 г. ПАО «ГМК «Норильский никель» (НН) (Россия) произвело 157,262 тыс. т никеля (157,08 тыс. т*), в том числе в РФ ‑ 113,076 тыс. т (114,635 тыс. т); 349,94 тыс. т меди (290,878 тыс. т), в том числе в РФ ‑ 323,116 тыс. т (281,423 тыс. т); 2053,0 тыс. тр. унц. палладия (1989,0 тыс. тр. унц.), 505,0 тыс. тр. унц. платины (484,0 тыс. тр. унц.).",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "За указанный период Norilsk Nickel Harjavalta (Финляндия) выпустила 44,186 тыс. т никеля (42,445 тыс. т), 13,534 тыс. т меди (9,455 тыс. т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volumes",
+    "direction": "increases",
+    "factor": "company output",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "За указанный период Norilsk Nickel Harjavalta (Финляндия) выпустила 44,186 тыс. т никеля (42,445 тыс. т), 13,534 тыс. т меди (9,455 тыс. т).",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Рост производства меди связан с вводом в эксплуатацию Быстринского ГОКа (Россия) и увеличением переработки медного концентрата, приобретенного у ГК «Ростех» (Россия).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production increase",
+    "direction": "increases",
+    "factor": "new GOK and concentrate purchase",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рост производства меди связан с вводом в эксплуатацию Быстринского ГОКа (Россия) и увеличением переработки медного концентрата, приобретенного у ГК «Ростех» (Россия).",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В октябре 2018 г. НН зарегистрировало на Лондонской бирже металлов новый бренд NORNICKEL для нерезаных катодов ОАО «Кольская ГМК» (Россия), произведенных по технологии электроэкстракции.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "new product brand",
+    "direction": "increases",
+    "factor": "company registration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В октябре 2018 г. НН зарегистрировало на Лондонской бирже металлов новый бренд NORNICKEL для нерезаных катодов ОАО «Кольская ГМК» (Россия), произведенных по технологии электроэкстракции.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе - сентябре 2018 г . ПАО «ГМК «Норильский никель» (НН) (Россия) произвело 157,262 тыс. т никеля (157,08 тыс. т*), в том числе в РФ - 113,076 тыс. т (114,635 тыс. т); 349,94 тыс. т меди (290,878 тыс. т), в том числе в РФ - 323,116 тыс. т (281,423 тыс. т); 2053,0 тыс. тр. унц.** палладия (1989,0 тыс. тр. унц.), 505,0 тыс. тр. унц. платины (484,0 тыс. тр. унц.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel, copper, palladium, platinum output",
+    "direction": "increases",
+    "factor": "annual period Jan‑Sep 2018",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - сентябре 2018 г . ПАО «ГМК «Норильский никель» (НН) (Россия) произвело 157,262 тыс. т никеля (157,08 тыс. т*), в том числе в РФ - 113,076 тыс. т (114,635 тыс. т); 349,94 тыс. т меди (290,878 тыс. т), в том числе в РФ - 323,116 тыс. т (281,423 тыс. т); 2053,0 тыс. тр. унц.** палладия (1989,0 тыс. тр. унц.), 505,0 тыс. тр. унц. платины (484,0 тыс. тр. унц.).",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В октябре 2018 г . НН зарегистрировало на Лондонской бирже металлов новый бренд NORNICKEL для нерезаных катодов ОАО «Кольская ГМК» (Россия), произведенных по технологии электроэкстракции.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "electro‑extraction cathodes",
+    "direction": "decreases",
+    "factor": "new brand registration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В октябре 2018 г . НН зарегистрировало на Лондонской бирже металлов новый бренд NORNICKEL для нерезаных катодов ОАО «Кольская ГМК» (Россия), произведенных по технологии электроэкстракции.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По оценке MEPS International (Великобритания), мировое производство нержавеющей стали в 2018 г. составит 51,75 млн т (+7,6 % к 2017 г .), в том числе в КНР - 27,35 млн т (+6,0 % к 2017 г.), в 2019 г. 54,2 млн т, в том числе в КНР - 28,7 млн т, в США 2,85 млн т (+2,0 % к 2017 г .).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stainless steel output",
+    "direction": "increases",
+    "factor": "annual forecast",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценке MEPS International (Великобритания), мировое производство нержавеющей стали в 2018 г. составит 51,75 млн т (+7,6 % к 2017 г .), в том числе в КНР - 27,35 млн т (+6,0 % к 2017 г.), в 2019 г. 54,2 млн т, в том числе в КНР - 28,7 млн т, в США 2,85 млн т (+2,0 % к 2017 г .).",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе - сентябре 2018 г . Glencore (Швейцария) выпустила 117,9 тыс. т первичного никеля (108,2 тыс. т в январе - сентябре 2017 г .), в том числе Nikkelverk (Норвегия) - 67,6 тыс. т (65,2 тыс. т), Murrin Murrin (Австралия) - 28,8 тыс. т (30,7 тыс. т), Koniambo (Новая Каледония) - 21,5 тыс. т (12,3 тыс. т).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "primary nickel",
+    "direction": "increases",
+    "factor": "Jan‑Sep 2018 vs 2017",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - сентябре 2018 г . Glencore (Швейцария) выпустила 117,9 тыс. т первичного никеля (108,2 тыс. т в январе - сентябре 2017 г .), в том числе Nikkelverk (Норвегия) - 67,6 тыс. т (65,2 тыс. т), Murrin Murrin (Австралия) - 28,8 тыс. т (30,7 тыс. т), Koniambo (Новая Каледония) - 21,5 тыс. т (12,3 тыс. т).",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В I квартале 2019 г . Panoramic Resources (Австралия) планирует получить никелевый концентрат остановленного на техобслуживание в мае 2016 г. рудника Savannah (Австралия). Инвестиции в восстановление - 36,0 млн австр. долл., выход на проектную мощность (10,8 тыс. т/год никеля, 6,1 тыс. т/год меди, 0,8 тыс. т/год кобальта) - конец 2019 г .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel concentrate production capacity",
+    "direction": "increases",
+    "factor": "planned investment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I квартале 2019 г . Panoramic Resources (Австралия) планирует получить никелевый концентрат остановленного на техобслуживание в мае 2016 г. рудника Savannah (Австралия). Инвестиции в восстановление - 36,0 млн австр. долл., выход на проектную мощность (10,8 тыс. т/год никеля, 6,1 тыс. т/год меди, 0,8 тыс. т/год кобальта) - конец 2019 г .",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В октябре 2018 г . Terrafame (Финляндия) приняла решение о строительстве завода по производству материалов для автомобильных аккумуляторов. Мощность предприятия - 170,0 тыс. т/год сульфата никеля (физвес) и 7,4 тыс. т/год сульфата кобальта (физвес). Стоимость проекта - 240,0 млн евро. Ввод в эксплуатацию - конец 2020 г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel sulfate production capacity",
+    "direction": "increases",
+    "factor": "new plant construction",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В октябре 2018 г . Terrafame (Финляндия) приняла решение о строительстве завода по производству материалов для автомобильных аккумуляторов. Мощность предприятия - 170,0 тыс. т/год сульфата никеля (физвес) и 7,4 тыс. т/год сульфата кобальта (физвес). Стоимость проекта - 240,0 млн евро. Ввод в эксплуатацию - конец 2020 г.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Себестоимость меди в I полугодии 2018 г . составила 1807,0 долл./т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper production cost",
+    "direction": "increases",
+    "factor": "first half 2018",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Себестоимость меди в I полугодии 2018 г . составила 1807,0 долл./т.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "В январе - сентябре 2018 г . ОК «РУСАЛ» (Россия) добыла 10,128 млн т бокситов (8,701 млн т за аналогичный период 2017 г .); выпустила 5,816 млн т глинозема (5,782 млн т); произвела 2,81 млн т алюминия (2,762 млн т); продажи составили 2,794 млн т (2,955 млн т), средняя цена продаж - 2304,0 долл./т (2051,0 долл./т), средняя премия к котировкам ЛБМ 166,0 долл./т (163,0 долл./т); себестоимость в алюминиевом сегменте - 1658,0 долл./т (1477,0 долл./т).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "aluminium output and cost",
+    "direction": "increases",
+    "factor": "Jan‑Sep 2018 vs 2017",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В январе - сентябре 2018 г . ОК «РУСАЛ» (Россия) добыла 10,128 млн т бокситов (8,701 млн т за аналогичный период 2017 г .); выпустила 5,816 млн т глинозема (5,782 млн т); произвела 2,81 млн т алюминия (2,762 млн т); продажи составили 2,794 млн т (2,955 млн т), средняя цена продаж - 2304,0 долл./т (2051,0 долл./т), средняя премия к котировкам ЛБМ 166,0 долл./т (163,0 долл./т); себестоимость в алюминиевом сегменте - 1658,0 долл./т (1477,0 долл./т).",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "По информации ФТС РФ, экспорт алюминия в январе - августе 2018 г . по сравнению с аналогичным периодом прошлого года увеличился на 12,2 % до 2,15 млн т, стоимость - на 25,2 % до 3,91 млрд долл.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "aluminium export volume and value",
+    "direction": "increases",
+    "factor": "year‑on‑year change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По информации ФТС РФ, экспорт алюминия в январе - августе 2018 г . по сравнению с аналогичным периодом прошлого года увеличился на 12,2 % до 2,15 млн т, стоимость - на 25,2 % до 3,91 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология непрерывного литья в настоящее время пока не получила массового распространения, поскольку процесс с точки зрения его осуществления требует использования дорогостоящего оборудования.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Технология непрерывного литья в настоящее время пока не получила массового распространения, поскольку процесс с точки зрения его осуществления требует использования дорогостоящего оборудования.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": "casting"
+  },
+  {
+   "text": "Авиационные предприятия не используют технологию непрерывного литья, поскольку для алюминиевых сплавов, применяемых в авиастроении, она не отработана полностью, в том числе с позиций оценки их эффективности и ожидаемой выгоды.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "авиационные предприятия не используют технологию непрерывного литья, поскольку для алюминиевых сплавов, применяемых в авиастроении, она не отработана полностью, в том числе с позиций оценки их эффективности и ожидаемой выгоды.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": "casting"
+  },
+  {
+   "text": "Мониторинг новых технологий должен позволять в промышленных условиях, в рабочем режиме получать информацию о свойствах полуфабриката на стадии передела и готового изделия в завершении.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Это значит, что мониторинг новых технологий должен позволять в промышленных условиях, в рабочем режиме получать информацию о свойствах полуфабриката на стадии передела и готового изделия в завершении.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Непрерывное литье должно обеспечить комплекс механических свойств, способ определения которых должен быть менее трудоемким, а определение комплекса механических свойств заготовок алюминиевых сплавов должно быть возможным путем измерения одного свойства – например, твердости по Бринеллю.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "непрерывное литье должно обеспечить комплекс механических свойств, способ определения которых должен быть менее трудоемким, а определение комплекса механических свойств заготовок алюминиевых сплавов должно быть возможным путем измерения одного свойства - например, твердости по Бринеллю.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": "casting"
+  },
+  {
+   "text": "Разработанный метод оценки механических свойств заготовок и расчет экономической эффективности разработанной технологии позволяют обосновать экономическую выгоду предлагаемого способа литья.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Разработанный метод оценки механических свойств заготовок и расчет экономической эффективности разработанной технологии позволяют обосновать экономическую выгоду предлагаемого способа литья.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Применение технологии непрерывного литья актуально в том случае, если качество получаемой продукции (полуфабриката или готового изделия) обеспечит увеличение срока её службы, а сам процесс будет экономически эффективным за счёт снижения материалоёмкости и улучшения контроля.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Применение технологии непрерывного литья актуально в том случае, если качество получаемой продукции (полуфабриката или готового изделия) обеспечит увеличение срока её службы, а сам процесс будет экономически эффективным за счет снижения материалоемкости и улучшения контроля.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": "casting"
+  },
+  {
+   "text": "Одним из способов достижения таких результатов в литейном производстве, как показывает практика, является совмещение литья с обработкой давлением (ОД) расплава при использовании специального приспособления – кристаллизатора непрерывного литья.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Одним из способов достижения таких результатов в литейном производстве, как показывает практика, является совмещение литья с обработкой давлением (ОД) расплава при использовании специального приспособления - кристаллизатора непрерывного литья.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": "casting"
+  },
+  {
+   "text": "Сущность рекомендуемой технологии – деформация металла в твердожидком состоянии. При таком деформировании полутвердой заготовки полностью исключено возникновение внутренних дефектов и поверхностных трещин заготовки, конечно, при соблюдении требований технологии.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Сущность рекомендуемой технологии - деформация металла в твердожидком состоянии. При таком деформировании полутвердой заготовки полностью исключено возникновение внутренних дефектов и поверхностных трещин заготовки, конечно, при соблюдении требований технологии.",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Устройство для непрерывного литья и технология обеспечивают продвижение заготовки без появления в изделии сжимающих напряжений (отсутствие проталкивания) и растягивающих (в случае тянущего механизма).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Устройство для непрерывного литья и технология обеспечивают продвижение заготовки без появления в изделии сжимающих напряжений (отсутствие проталкивания) и растягивающих (в случае тянущего механизма).",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Разработана конструкция кристаллизатора, позволяющего изготавливать изделия, обладающие повышенными механическими характеристиками и увеличенным сроком службы.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "разработана конструкция кристаллизатора, позволяющего изготавливать изделия, обладающие повышенными механическими характеристиками и увеличенным сроком службы",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Установлена корреляция между твердостью алюминиевого сплава и другими его механическими свойствами с целью упрощения мониторинга качества отливок, полученных непрерывным литьем.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "установлена корреляция между твердостью алюминиевого сплава и другими его механическими свойствами с целью упрощения мониторинга качества отливок, полученных непрерывным литьем",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Выполнена оценка экономической эффективности нового устройства.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "выполнена оценка экономической эффективности нового устройства",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Кристаллизатор изготовлен из стали 45.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "construction material",
+    "direction": "increases",
+    "factor": "design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Кристаллизатор изготовлен из стали 45.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Оценка затрат на разработку новой технологии и эффективности её промышленного освоения проведена методами оценки стоимости исключительных прав на объекты интеллектуальной собственности и нематериальных активов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cost assessment method",
+    "direction": "increases",
+    "factor": "methodology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оценка затрат на разработку новой технологии и эффективности её промышленного освоения проведена методами оценки стоимости исключительных прав на объекты интеллектуальной собственности и нематериальных активов.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Авторы претендуют на приоритет конструкции установки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "priority claim",
+    "direction": "increases",
+    "factor": "patent",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Авторы претендуют на приоритет конструкции установки.",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Патентуемый способ охлаждения спроектирован на основании результатов работ при создании прототипа устройства непрерывного литья алюминиевых сплавов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "design basis",
+    "direction": "increases",
+    "factor": "prototype results",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Патентуемый способ охлаждения спроектирован на основании результатов работ при создании прототипа устройства непрерывного литья алюминиевых сплавов.",
+   "locator_kind": "md_para",
+   "locator": "para:152",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Для практической реализации технологии непрерывного литья в промышленности авторами разработана установка, позволяющая получать заготовки с повышенными механическими свойствами.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product quality",
+    "direction": "increases",
+    "factor": "technology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для практической реализации технологии непрерывного литья в промышленности авторами разработана установка, позволяющая получать заготовки с повышенными механическими свойствами.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Контроль качества отливок можно обеспечить путем измерения наиболее легко определяемого свойства – твердости и установления её корреляции с другими механическими свойствами заготовок.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "quality monitoring method",
+    "direction": "increases",
+    "factor": "hardness measurement",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Контроль качества отливок можно обеспечить путем измерения наиболее легко определяемого свойства - твердости и установления её корреляции с другими механическими свойствами заготовок.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  },
+  {
+   "text": "Согласно результатам, приведенным в работах [12, 13], прочностные свойства и пластичность сплавов можно определять по их твердости.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "strength and plasticity estimation",
+    "direction": "increases",
+    "factor": "hardness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно результатам, приведенным в работах [12, 13], прочностные свойства и пластичность сплавов можно определять по их твердости.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No12-2018-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

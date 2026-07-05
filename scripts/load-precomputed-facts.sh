@@ -86,6 +86,6 @@ stack_metalcrow_compose run --rm \
     /shared/facts \
     /shared/vectors \
     --md-dir /shared \
-    ${EXTRA_ARGS[@]+"${EXTRA_ARGS[@]}"}
+    "${EXTRA_ARGS[@]}"
 
 echo "✓ Neo4j load finished"

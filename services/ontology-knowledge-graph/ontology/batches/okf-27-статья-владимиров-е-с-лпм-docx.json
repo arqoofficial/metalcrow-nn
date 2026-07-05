@@ -1,0 +1,552 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "title": "27 Статья - Владимиров Е.С. (ЛПМ).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\27 Статья - Владимиров Е.С. (ЛПМ).docx.md",
+   "artifact_sha256": "ac875bd30095237b26b0a0e83d8895a8c6196aa28e88247b25b06d1d752686d7",
+   "okf_raw_path": "Статьи/27 Статья - Владимиров Е.С. (ЛПМ).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:низкосортные-цинковые-концентраты",
+   "label": "низкосортные цинковые концентраты",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:zinc-concentrate",
+   "label": "Zinc concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:27-статья-владимиров-е-с-лпм-docx:0",
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "title": "Определение условий появления спеков в кипящем слое и построение регрессионного уравнения",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "обжиг низкосортных цинковых концентратов в печи кипящего слоя",
+       "temperature_text": "900-970°С"
+      },
+      "temperature": {
+       "min": 1173.15,
+       "nominal": null,
+       "max": 1243.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:низкосортные-цинковые-концентраты",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "В кипящем слое при обжиге цинковых концентратов образуются два типа спеков: пористые белесого цвета с содержанием цинка, отвечающего концентрату и серы на уровне огарка, и темные плотные, обедненные цинком, с содержанием серы до 5 %.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "тип спеков",
+      "direction": "increases",
+      "factor": "обжиг в кипящем слое",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Установлено, что в кипящем слое при обжиге цинковых концентратов образуются два типа спеков: пористые белесого цвета с содержанием цинка, отвечающего концентрату и серы на уровне огарка, и темные плотные, обедненные цинком, с содержанием серы до 5 %.",
+     "locator_kind": "md_para",
+     "locator": "para:8",
+     "confidence": 0.9
+    },
+    {
+     "text": "Пористые спеки располагаются на подине печи или в объеме слоя, а темные – на стенках печи.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "расположение спеков",
+      "direction": "increases",
+      "factor": "тип спеков",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Первые располагаются на подине печи или в объеме слоя, вторые – на стенках печи.",
+     "locator_kind": "md_para",
+     "locator": "para:8",
+     "confidence": 0.9
+    },
+    {
+     "text": "В объеме слоя при избытке подаваемого с дутьем кислорода окисление сфалерита протекает в одну стадию с образованием оксидов и сульфатов цинка.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "стадия окисления сфалерита",
+      "direction": "increases",
+      "factor": "избыток кислорода",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На объеме слоя в условиях избытка подаваемого с дутьем кислорода окисление сфалерита протекает в одну стадию с образованием оксидов и сульфатов цинка.",
+     "locator_kind": "md_para",
+     "locator": "para:8",
+     "confidence": 0.9
+    },
+    {
+     "text": "У стенок печи кислорода не хватает, и окисление протекает в две стадии через образование металлического цинка, который при температурах обжига сублимирует в газовую фазу и тем самым обедняет образующийся спек.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "стадия окисления у стенок",
+      "direction": "decreases",
+      "factor": "недостаток кислорода",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "У стенок печи кислорода не хватает, и окисление протекает в две стадии: через образование металлического цинка, который при температурах обжига сублимирует в газовую фазу и тем самым обедняет образующийся спек.",
+     "locator_kind": "md_para",
+     "locator": "para:8",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В проведенном исследовании определены условия появления спеков в кипящем слое, дан механизм их образования.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:27-статья-владимиров-е-с-лпм-docx:1",
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "title": "Regression study of gas‑blast speed for prevention of spatter in zinc‑concentrate roasting",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Roasting of zinc concentrates in a furnace with varying lead content, oxygen content in the blast, and temperature; measurement of the gas‑blast speed (W) at which spatter (sinter) formation ceases.",
+       "temperature_text": "various, 900‑950 °C (t, 0 °C)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1173.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:zinc-concentrate",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Below a gas‑blast speed of 0.32‑0.48 нм/с at temperatures lower than 930 °C (e.g., 920 °C) no spatter formation is observed.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "spatter formation",
+      "direction": "no_change",
+      "factor": "gas‑blast speed, temperature",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при температурах ниже 930 (при 920 о С) при скоростях подачи дутья 0,32-0,48 нм/с образование спеков не наблюдается.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    },
+    {
+     "text": "Higher roasting temperature promotes spatter formation at higher gas‑blast speeds.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "spatter formation",
+      "direction": "increases",
+      "factor": "temperature, gas‑blast speed",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Чем выше температура обжига, тем при более высоких скоростях подачи дутьевых газов образуются спеки.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    },
+    {
+     "text": "Oxygen content in the blast gas has a less significant effect on spatter formation when temperature is fixed.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "spatter formation",
+      "direction": "decreases",
+      "factor": "oxygen content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Содержание кислорода в дутьевых газах при соблюдении заданной температуры обжига на образование спеков в кипящем слое влияет менее значимо.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Статистический анализ полученных результатов (таблица 2) ... позволил получить следующее регрессионное уравнение для расчета скорости подачи дутьевых газов (в нм/с), выше которой образования спеков в кипящем слое при обжиге цинковых концентратов не наблюдается:",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Обжиг низкосортных цинковых концентратов в печах кипящего слоя сопровождается образованием спеков и настыли на стенках печи, что снижает производительность и ведет к аварийным остановкам печи.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "образование спеков и настыли",
+    "direction": "increases",
+    "factor": "низкосортные концентраты",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обжиг низкосортных цинковых концентратов в печах кипящего слоя сопровождается образованием спеков и настыли на стенках печи, что снижает производительность и ведет к аварийным остановкам печи.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Сульфид цинка, его оксид, сульфат, оксисульфат и силикаты не плавятся при температурах обжига, проводимого в печи КС, т.е. при 900-970°С.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "плавление указанных фаз",
+    "direction": "decreases",
+    "factor": "температура 900-970°С",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из литературных источников известно, что сульфид цинка, его оксид, сульфат, оксисульфат и силикаты не плавятся при температурах обжига, проводимого в печи КС, т.е. при 900-970°С.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Предельное содержание меди в цинковых концентратах (1,2 %) выше которого их обжиг в печи КС сопряжен с агломерацией.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "агломерация",
+    "direction": "increases",
+    "factor": "содержание меди > 1,2 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Было установлено предельное содержание меди в цинковых концентратах (1,2 %), выше которого их обжиг в печи КС сопряжен с агломерацией.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.81,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Наличие мышьяка в концентратах еще более снижает предельное содержание меди, при котором возникает агломерация.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "присутствие мышьяка",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Присутствие в концентратах мышьяка еще более снижает это значение.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "При обжиге низкосортных концентратов железо из сфалерита мигрирует к периферии частиц, образуя франклинит (ZnFe₂O₄).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "образование франклинита",
+    "direction": "increases",
+    "factor": "миграция железа",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При обжиге таких концентратов железо из минерала мигрирует к периферии частиц, образуя франклинит (ZnFe₂O₄).",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.81,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Пористые частицы ZnO+ZnFe₂O₄ образуют агломераты с выделением больших сферических масс.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "агломерация",
+    "direction": "increases",
+    "factor": "образование пористых ZnO+ZnFe₂O₄ частиц",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В [6] отмечается, что образовавшиеся пористые частицы ZnO+ZnFe₂O₄ агломерируются с выделением больших сферических масс.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.81,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Агломераты состоят из частиц огарка, сцементированных оксисульфатом и сульфатом цинка.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Агломераты состоят из частиц огарка, сцементированных оксисульфатом и сульфатом цинка.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Metallic zinc sublimates and oxidizes to ZnO in the furnace volume during roasting.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "zinc behavior",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При температурах обжига образующийся металлический цинк в значительной степени сублимирует и окисляется до оксида в объеме печи (в сепарационной зоне).",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Particles boiling near the furnace walls become depleted in zinc and enriched in iron.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle composition",
+    "direction": "increases",
+    "factor": "location (wall)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В результате частицы, кипящие у стенок печи, обеднены цинком, но обогащены железом.",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.81,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Iron oxidation (pyrite and pyrrhotite) proceeds via formation of oxy‑sulfide melts with an eutectic temperature of 908 °C.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "iron oxidation pathway",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "окисление которого (пирита и пирротина) идет через образование оксисульфидных расплавов, имеющих эвтектическую температуру, равную 908оС.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Potassium and sodium silicates do not participate in the formation of sinters on the furnace floor or walls; their content in sinters is very low.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "silicate participation",
+    "direction": "decreases",
+    "factor": "silicate presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Силикаты калия (и натрия) в образовании спеков на подине печи и, особенно, у ее стенок практически не участвуют (их содержание в спеках очень мало).",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Two types of sinters form during zinc‑concentrate roasting: porous white sinters (lead‑oxide bound) and dense black/dark‑gray sinters (enriched in Fe, Cu, Pb, depleted in Zn and SiO₂).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sinter types",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При обжиге шихты цинковых концентратов образуется два типа спеков: – пористые, белесые... – плотные, черные или темно-серые.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.81,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "The first‑type porous sinters are formed in the bulk of the layer where excess gaseous oxygen oxidizes sulfide components, producing metal oxides that agglomerate and settle.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mechanism of porous sinters",
+    "direction": "increases",
+    "factor": "excess O₂",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В объеме слоя, где присутствует явный избыток газообразного кислорода, происходит окисление сульфидных компонент концентрата... При столкновениях таких частиц образуются агломераты... что приводит к их осаждению и образованию спеков на подине печи.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.45,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "The second‑type dense sinters form near the furnace walls where gas velocity is lower, causing oxygen deficiency and a two‑step oxidation of zinc sulfide via metallic zinc.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mechanism of dense sinters",
+    "direction": "increases",
+    "factor": "low gas velocity, oxygen deficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "У стенок печи скорость газа значительно меньше... это приводит к дефициту кислорода, что приводит к тому, что окисление сульфида цинка протекает в два этапа, через образование металлического цинка.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.45,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Liquid phases appear on particle surfaces under the described conditions, facilitating the formation of sinters or crusts on the wall.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "temperature, eutectic melt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В таких условиях на поверхности частиц присутствует жидкая фаза, и они при столкновениях между собой и с более холодной стенкой печи образуют на ней спек или настыль.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Ухудшение кипения",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "boiling deterioration",
+    "direction": "nonmonotonic",
+    "factor": "temperature and gas flow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ухудшение кипения",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Образование настыли",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "crust formation",
+    "direction": "increases",
+    "factor": "temperature and gas flow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Образование настыли",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  },
+  {
+   "text": "Спеки в огарке",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "spike occurrence",
+    "direction": "increases",
+    "factor": "temperature and gas flow",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Спеки в огарке",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:27-статья-владимиров-е-с-лпм-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

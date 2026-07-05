@@ -12,7 +12,7 @@ ontology.tool_service.TOOLS["find_gaps"]["fn"](store, **args).
 """
 from __future__ import annotations
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from pydantic import BaseModel
 
 from . import query as q
@@ -120,10 +120,22 @@ def manifest() -> dict:
 
 class Ask(BaseModel):
     question: str
+    synth: bool = True   # False — вернуть только claims (для ReAct-агента: он синтезирует сам)
+
+
+def _langfuse_headers(request: Request) -> dict[str, str]:
+    """Forward any `langfuse_*` header the caller (backend) set — relayed onto
+    the intent-classification LLM call so LiteLLM attributes the Langfuse trace
+    (user id / session id)."""
+    return {
+        k: v
+        for k, v in request.headers.items()
+        if k.lower().startswith("langfuse_")
+    }
 
 
 @app.post("/api/v1/ask")
-def ask(body: Ask) -> dict:
+def ask(body: Ask, request: Request) -> dict:
     """Вопрос на естественном языке → интент → тул → structured claims с
     цитатами. Форма ответа: {question, tools_used, tool_args, claims:[{text,
     kind, confidence?, n_sources?, citations[]}]}. Пустые claims = онтология
@@ -131,7 +143,10 @@ def ask(body: Ask) -> dict:
     from .mocks.agent import answer as agent_answer   # lazy: избегаем цикла импорта
     store = Store.open()
     try:
-        result = agent_answer(store, body.question)
+        result = agent_answer(
+            store, body.question, langfuse_headers=_langfuse_headers(request),
+            synthesize=body.synth,
+        )
         result.pop("raw", None)                       # сырой результат тула не гоняем по сети
         return result
     finally:

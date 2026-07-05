@@ -1,0 +1,660 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:58-статья-электроды-docx",
+   "title": "58 Статья Электроды.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\58 Статья Электроды.docx.md",
+   "artifact_sha256": "d9d4352c5a82049591143c80e4732a8015c6a8628693cde17dc4ed68370a9e85",
+   "okf_raw_path": "Статьи/58 Статья Электроды.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:electrode-mass-electrode-mass-of-aluminum-electr",
+   "label": "Electrode mass (electrode mass of aluminum electrolyzer)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:58-статья-электроды-docx:0",
+   "document_id": "doc:58-статья-электроды-docx",
+   "title": "Industrial monitoring of bath level in electric furnace",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Measurement of the overall bath level (slag + hearth + hearth overlay) in the OEP of NMZ",
+       "temperature_text": "not specified",
+       "duration_text": "January–April 2017, measurements taken every 8 hours"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:electrode-mass-electrode-mass-of-aluminum-electr",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "overall bath level",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Измерение уровня ванны осуществляется 1 раз в 8 часов.",
+     "locator_kind": "md_para",
+     "locator": "para:54",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Fluctuations of the bath level and, partly, the hearth overlay lead to a significant change of the height of the sub‑drain space of the furnaces and, consequently, contribute to destabilization of the temperature field in the electrode body.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "temperature",
+      "direction": "decreases",
+      "factor": "bath level fluctuations",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "колебания уровня ванны и, отчасти, подовой настыли приводят к значительному изменению высоты подсводового пространства печей и, следовательно, способствуют дестабилизации температурного поля в теле электрода.",
+     "locator_kind": "md_para",
+     "locator": "para:54",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Данные, представленные в таблице 4, отражают изменение общего уровня ванны (шлак + штейн + подовый настыль) ОЭП НМЗ за период январь-апрель 2017 года.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "ОЭП НМЗ имеют круглую форму, площадь пода каждой печи более 175м 2",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "geometry",
+    "direction": "increases",
+    "factor": "area",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ОЭП НМЗ имеют круглую форму, площадь пода каждой печи более 175м 2",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Электроснабжение каждой ОЭП осуществляется от отдельного печного трехфазного трансформатора мощностью 30 МВА",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "transformer rating",
+    "direction": "increases",
+    "factor": "capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электроснабжение каждой ОЭП осуществляется от отдельного печного трехфазного трансформатора мощностью 30 МВА",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Самоспекающиеся электроды (электроды Содерберга) ОЭП НМЗ представляют собой вертикальный наращиваемый металлический кожух, снабженный внутренними теплообменными ребрами",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "structure",
+    "direction": "increases",
+    "factor": "heat exchange",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Самоспекающиеся электроды (электроды Содерберга) ОЭП НМЗ представляют собой вертикальный наращиваемый металлический кожух, снабженный внутренними теплообменными ребрами",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Диаметр кожуха составляет 1270 мм",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "diameter",
+    "direction": "increases",
+    "factor": "size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Диаметр кожуха составляет 1270 мм",
+   "locator_kind": "md_para",
+   "locator": "para:19",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Общая высота электродной колонны составляет около 22 метров",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "height",
+    "direction": "increases",
+    "factor": "size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Общая высота электродной колонны составляет около 22 метров",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Тяжелые условия эксплуатации приводят к поломке электрода, что нарушает ритмичную работу всей печи: снижается потребляемая мощность, нарушается тепловая работа агрегата и газоочистного оборудования, изменяются цикл работы печи и режим выдачи продуктов плавки",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reliability",
+    "direction": "decreases",
+    "factor": "heavy load",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Тяжелые условия эксплуатации приводят к поломке электрода, что нарушает ритмичную работу всей печи: снижается потребляемая мощность, нарушается тепловая работа агрегата и газоочистного оборудования, изменяются цикл работы печи и режим выдачи продуктов плавки",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Мягкий обрыв является более пагубным для технологии, но встречается редко",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "severity",
+    "direction": "increases",
+    "factor": "soft break",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мягкий обрыв является более пагубным для технологии, но встречается редко",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Жесткие обрывы встречаются чаще мягких, но их последствия менее пагубны",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "frequency",
+    "direction": "increases",
+    "factor": "hard break",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Жесткие обрывы встречаются чаще мягких, но их последствия менее пагубны",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Жесткие обрывы возникают, когда ломается спеченная часть электрода",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cause",
+    "direction": "increases",
+    "factor": "hard break",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Жесткие обрывы возникают, когда ломается спеченная часть электрода",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Причиной таких сколов могут являться как дефекты тела электрода, так и тепловые напряжения в электродах, неизбежные при нестабильной работе печи, остановках и изменении подсводовой температуры печи",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cause",
+    "direction": "increases",
+    "factor": "hard break",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Причиной таких сколов могут являться как дефекты тела электрода, так и тепловые напряжения в электродах, неизбежные при нестабильной работе печи, остановках и изменении подсводовой температуры печи",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Указанные сколы могут стать следствием неудовлетворительного качества электродной массы, попадания в тело электрода несмачиваемой электродной массой пыли или посторонних включений, «рваного» температурного режим спекания и эксплуатации уже сформированного электрода",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cause",
+    "direction": "increases",
+    "factor": "hard break",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Указанные сколы могут стать следствием неудовлетворительного качества электродной массы, попадания в тело электрода несмачиваемой электродной массой пыли или посторонних включений, «рваного» температурного режим спекания и эксплуатации уже сформированного электрода",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Коэффициент текучести электродных масс поставляемых Новосибирским электродным заводом находится в диапазоне 1,6‑2,8.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "flowability coefficient",
+    "direction": "increases",
+    "factor": "not specified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Коэффициент текучести (условный показатель, определяемый по конкретной методике измерений и характеризующий жидкотекучесть массы, нагреваемой по заданной температурной программе) | 1,6-2,8 (для массы, поставляемой Новосибирским электродным заводом)",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание летучих веществ в электродных массах составляет 12‑18 % масс.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Содержание летучих веществ, % масс | 12-18",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание золы в электродных массах не более 6‑8 %.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Содержание золы, %, не более | 6-8",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Удельное электрическое сопротивление электродных масс не более 70‑150 мкОм·м.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Удельное электрическое сопротивление, мкОм·м, не более | 70-150",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Предел прочности на разрыв электродных масс не более 1,4‑1,8 МПа (15‑18 кгс/см²).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Предел прочности на разрыв, МПа (кгс/см 2 ), не более | 1,4-1,8 (15-18)",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Термоантрацит составляет примерно 50 % сухой шихты и его качество определяется режимом прокалки.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Термоантрацит является основным компонентом сухой шихты (~50%). Основным параметром, определяющим качество термоантрацита, является режим его прокалки.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Недостаточно прокаленный термоантрацит не обладает необходимой термической стойкостью, электрическим сопротивлением и плотностью.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "thermal stability, electrical resistance, density",
+    "direction": "decreases",
+    "factor": "insufficient calcination",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Недостаточно прокаленный термоантрацит не обладает необходимой термической стойкостью, электрическим сопротивлением, плотностью.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Перекаленный термоантрацит усиливает селективность сгорания электродов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "combustion selectivity",
+    "direction": "increases",
+    "factor": "over‑calcination",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использование перекаленного термоантрацита также весьма вредно, так как приведет к резкому усилению селективности сгорания электродов.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Добавка до 10‑25 % графитированного кокса в шихту снижает расход электродов благодаря низкой окисляемости и высокой термостойкости.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "electrode consumption",
+    "direction": "decreases",
+    "factor": "graphitized coke addition 10‑25 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В состав шихты принято добавлять до 10-25% графитированного кокса. Такой кокс является ценным компонентом, т.к. имеет низкую окисляемость, обладает высокой термостойкостью, поэтому его добавка снижает расход электродов.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.81,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Оптимальное содержание пека в шихте определяется характеристиками пека, пористостью твердой фазы, гранулометрическим составом и режимами смешивания и обжига.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Оптимальное количество связующего может определяться следующими обстоятельствами: - характеристиками пека; - пористостью твердой фазы и величиной пор; - гранулометрическим составом твердой фазы; - режимами смешивания и обжига.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.81,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Термостатическая выдержка пека при 150‑180 °C в течение 3‑4 суток значительно улучшает его качество.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "binder quality",
+    "direction": "increases",
+    "factor": "thermal holding 150‑180 °C for 3‑4 days",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В значительной степени улучшения качества пека можно добиться в результате термостатической выдержки пека перед применением при температуре 150-180°С в течение 3-4 суток.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Избыток пека приводит к избыточной усадке, образованию трещин, прилипания массы к стенкам кожуха.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "defects",
+    "direction": "increases",
+    "factor": "excess binder",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Избыток пека может привести к избыточной усадке, образованию трещин (из-за выделения летучих), прилипания массы к стенкам кожуха.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Недостаток пека приводит к избыточной пористости, низкой прочности и плохой сопротивляемости окислению.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "porosity, strength, oxidation resistance",
+    "direction": "decreases",
+    "factor": "insufficient binder",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Недостаток пека приводит к избыточной пористости, низкой прочности, плохой сопротивляемости окислению.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Температура подсводового пространства ОЭП НМЗ изменяется в диапазоне 600-1250 0 С.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "sub‑roof space of OEP NMZ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как следует из данных таблицы 4, температура подсводового пространства ОЭП НМЗ изменяется в диапазоне 600-1250 0 С.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Максимальный темп изменения температуры может превышать 300 0 С в час.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "maximum rate",
+    "direction": "increases",
+    "factor": "sub‑roof temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При этом максимальный темп изменения температуры может превышать 300 0 С в час.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Слой шихты или высота откосов шихты на поверхности ванны шлакового расплава снижает теплопотери расплава и способствует снижению уровня подсводовых температур.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "heat loss reduction",
+    "direction": "decreases",
+    "factor": "thickness of slag layer",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Слой шихты или высота откосов шихты на поверхности ванны шлакового расплава снижает теплопотери расплава и способствует снижению уровня подсводовых температур.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Плотность и толщина слоя шихты оказывают важное влияние на разогрев электродов и температурный режим спекания электродной массы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "density and thickness of slag layer",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Соответственно, плотность и толщина слоя шихты на поверхности шлакового расплава оказывают важное влияние на разогрев электродов и температурный режим спекания электродной массы.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Высота откосов шихты ОЭП НМЗ составляет 500-1000 мм при изменении этапов обеднения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "height range",
+    "direction": "increases",
+    "factor": "slag slope in OEP NMZ",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Высота 7 откосов шихты ОЭП НМЗ составляет 500-1000 мм при изменении этапов обеднения: набор ванны – отстой – скачивание шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Доля открытой поверхности расплава может составлять до 80% от площади поверхности ванны.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "percentage of open surface",
+    "direction": "increases",
+    "factor": "stage of slagging",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Также на протяжении всего цикла обеднения изменяется доля открытой поверхности расплава, составляющая до 80% от площади поверхности ванны.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Площадь открытой поверхности расплава определяет более 90% тепловой энергии, передаваемой в подсводовую область излучением.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy fraction",
+    "direction": "increases",
+    "factor": "open melt surface area",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Площадь открытой поверхности расплава имеет существенное значение, т.к. определяет более 90% тепловой энергии передаваемой в подсводовую область излучением.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Наличие теплообменных ребер на внутренней поверхности кожуха способствует снижению градиента температуры и напряженности электрического поля по сечению электрода, снижает электросопротивление электрода, но приводит к неоднородности тела электрода.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "decreases",
+    "factor": "presence of fins",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Наличие теплообменных ребер на внутренней поверхности кожуха, с одной стороны, способствует снижению градиента температуры и напряженности электрического поля по сечению электрода, снижает электросопротивление электрода на участках неокончательно спеченной массы, а с другой стороны – приводит к неоднородности тела электрода.",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  },
+  {
+   "text": "Колебания уровня ванны и температуры подсводового пространства оказывают определяющее влияние на режимы спекания электрода и повышают вероятность появления трещин и обломов самоспекающихся электродов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "impact on sintering regime and crack risk",
+    "direction": "increases",
+    "factor": "fluctuations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Значительные колебания уровня ванны и, как следствие, температуры подсводового пространства обеднительных электропечей оказывают определяющее влияние на режимы спекания электрода, и, соответственно, повышают вероятность появления трещин и обломов самоспекающихся электродов в подсводовом пространстве печей.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:58-статья-электроды-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

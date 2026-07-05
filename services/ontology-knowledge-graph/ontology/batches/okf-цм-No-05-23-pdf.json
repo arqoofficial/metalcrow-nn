@@ -1,0 +1,1238 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-05-23-pdf",
+   "title": "ЦМ № 05-23.pdf",
+   "doc_type": "article",
+   "year": 2023,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2023\\ЦМ № 05-23.pdf.md",
+   "artifact_sha256": "f973b0399a5eca5023c42b2fd493004f4a95f7cee5ba767ddd182d07079091f8",
+   "okf_raw_path": "Журналы/Цветные металлы/2023/ЦМ № 05-23.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:low-grade-nickel-ore",
+   "label": "low‑grade nickel ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-containing-ore",
+   "label": "nickel‑containing ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-ore",
+   "label": "copper ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lithium-hydroxide",
+   "label": "lithium hydroxide",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:spodumene-concentrate",
+   "label": "spodumene concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lithium-carbonate-equivalent",
+   "label": "lithium carbonate equivalent",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:spodumene",
+   "label": "spodumene",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-No-05-23-pdf:0",
+   "document_id": "doc:цм-No-05-23-pdf",
+   "title": "HPAL plant at Harita Nickel (Indonesia)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "autoclave leaching under high pressure (HPAL) for low‑grade nickel ore to produce battery precursors"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:low-grade-nickel-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capital raised",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 672.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в ходе первичного размещения акций компании на фондовом рынке (IPO) привлекла 672,0 млн долл.",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "HPAL technology was deployed at industrial scale in Indonesia.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "перерабатывающая низкосортную никелевую руду для производства прекурсоров для аккумуляторов по технологии автоклавного выщелачивания под высоким давлением (HPAL)",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в ходе первичного размещения акций компании на фондовом рынке (IPO) привлекла 672,0 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-05-23-pdf:1",
+   "document_id": "doc:цм-No-05-23-pdf",
+   "title": "Pacific Nickel Mines (Solomon Islands) mining project",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "open‑pit mining of nickel‑containing ore at the Kolosori deposit"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nickel-containing-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "planned ore extraction",
+     "scope": "material",
+     "material_id": "mat:nickel-containing-ore",
+     "value": {
+      "min": null,
+      "nominal": 1.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2023 г. Pacific Nickel Mines (Австралия) планирует добыть 1,5 млн т никельсодержащей руды на месторождении Kolosori (Соломоновы острова).",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "project investment",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 22.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Glencore (Швейцария) инвестирует в проект 22,0 млн долл.",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The project is intended for a 3‑year operation period.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Срок эксплуатации - 3 года.",
+     "locator_kind": "md_para",
+     "locator": "para:87",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "в 2023 г. Pacific Nickel Mines (Австралия) планирует добыть 1,5 млн т никельсодержащей руды на месторождении Kolosori (Соломоновы острова).",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-05-23-pdf:2",
+   "document_id": "doc:цм-No-05-23-pdf",
+   "title": "Quebrada Blanca Phase 2 mine (Chile) commissioning",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "copper ore mining and processing at Quebrada Blanca Phase 2"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "annual copper production plan 2023",
+     "scope": "material",
+     "material_id": "mat:copper-ore",
+     "value": {
+      "min": null,
+      "nominal": 170.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "План выпуска в 2023 г. - 170,0 тыс. т меди",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "annual copper production plan 2024‑2026",
+     "scope": "material",
+     "material_id": "mat:copper-ore",
+     "value": {
+      "min": null,
+      "nominal": 285.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2024-2026 гг. - ежегодно по 285,0-315,0 тыс. т.",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "project investment",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 7.75,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Инвестиции в проект - 7,75 млрд долл.",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The mine entered commercial operation in April 2023.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "в апреле 2023 г. Teck Resources (Канада) ввела в эксплуатацию рудник Quebrada Blanca Phase 2 (Чили).",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "в апреле 2023 г. Teck Resources (Канада) ввела в эксплуатацию рудник Quebrada Blanca Phase 2 (Чили).",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-05-23-pdf:3",
+   "document_id": "doc:цм-No-05-23-pdf",
+   "title": "Albemarle commissioning of two lithium‑hydroxide lines",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "commissioning of two production lines for lithium hydroxide"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lithium-hydroxide",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "В апреле 2023 г . Albemarle (США) приступила к вводу в эксплуатацию двух линий по выпуску гидроксида лития мощностью по 25,0 тыс. т на заводе Kemerton (Австралия).",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-05-23-pdf:4",
+   "document_id": "doc:цм-No-05-23-pdf",
+   "title": "Zhejiang Huayou Cobalt start‑up at Arcadia mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "production at the Arcadia mine"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:spodumene-concentrate",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ore processed",
+     "scope": "material",
+     "material_id": "mat:spodumene-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 4.5,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Мощности обогатительной фабрики позволяют перерабатывать 4,5 млн т руды для получения 400,0 тыс. т концентрата сподумена, содержащего 6,0 % лития.",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В марте 2023 г . Zhejiang Huayou Cobalt (КНР) запустила производство на руднике Arcadia (Зимбабве).",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-05-23-pdf:5",
+   "document_id": "doc:цм-No-05-23-pdf",
+   "title": "Sigma Lithium commissioning of Grota do Cirila mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "commissioning of the first production phase at Grota do Cirila"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:spodumene-concentrate",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:lithium-carbonate-equivalent",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "first‑phase capacity",
+     "scope": "material",
+     "material_id": "mat:spodumene-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 270.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Мощность первой очереди - 270,0 тыс. т концентрата сподумена (КС), что эквивалентно 37,0 тыс. т карбоната лития (КЛ).",
+     "locator_kind": "md_para",
+     "locator": "para:137",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "planned 2024 capacity",
+     "scope": "material",
+     "material_id": "mat:spodumene-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 768.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В 2024 г . планируется увеличение производства до 768,0 тыс. т/год КС (104,0 тыс. т КЛ) и сохранение этих объемов в течение 8 лет.",
+     "locator_kind": "md_para",
+     "locator": "para:137",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В апреле 2023 г . Sigma Lithium (Канада) приступила к вводу в эксплуатацию рудника Grota do Cirila (Бразилия).",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-05-23-pdf:6",
+   "document_id": "doc:цм-No-05-23-pdf",
+   "title": "Pilbara Minerals expansion at Pilgangoora mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "increase of spodumene production capacity"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:spodumene",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "capacity increase",
+     "scope": "material",
+     "material_id": "mat:spodumene",
+     "value": {
+      "min": null,
+      "nominal": 0.68,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Pilbara Minerals (Австралия) инвестирует 375,0 млн долл. в увеличение производства сподумена с 0,68 до 1,0 млн т на руднике Pilgangoora (Австра лия).",
+     "locator_kind": "md_para",
+     "locator": "para:143",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Ввод предприятия в эксплуатацию I квартал 2025 г., выход на проектную мощность III квартал 2025 г .",
+   "locator_kind": "md_para",
+   "locator": "para:143",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-No-05-23-pdf:7",
+   "document_id": "doc:цм-No-05-23-pdf",
+   "title": "North American Lithium restart of spodumene concentrate production",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "restart of spodumene concentrate plant"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:spodumene-concentrate",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "plant capacity",
+     "scope": "material",
+     "material_id": "mat:spodumene-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 226.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Мощность предприятия 226,0 тыс. т/год.",
+     "locator_kind": "md_para",
+     "locator": "para:144",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В апреле 2023 г . СП North American Lithium (Канада) ( Piedmont Lithium (США) - 25,0 %, Sayona Mining (Австралия) - 75,0 %) перезапустило выпуск концентрата сподумена.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "К 2029 г ., по информации Министерства индустрии и инфраструктурного развития Казахстана, по сравнению с 2022 г . выпуск меди в стране увеличится в 13 раз, алюминия - в пять, свинца - в четыре.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "future production increase",
+    "direction": "increases",
+    "factor": "13 times for copper, 5 times for aluminium, 4 times for lead",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К 2029 г ., по информации Министерства индустрии и инфраструктурного развития Казахстана, по сравнению с 2022 г . выпуск меди в стране увеличится в 13 раз, алюминия - в пять, свинца - в четыре.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Правительственная программа предусматривает создание 800 промышленных проектов, суммарные инвестиции в которые составят 73,0 млрд долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "number of projects and total investment",
+    "direction": "increases",
+    "factor": "800 projects, 73,0 млрд долл.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Правительственная программа предусматривает создание 800 промышленных проектов, суммарные инвестиции в которые составят 73,0 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Kaz Minerals (Казахстан), Kazakhmys (Казахстан) и China Nonferrous Mining Corporation (КНР) планируют строительство комбината мощностью 300,0 тыс. т/год катодной меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "planned capacity",
+    "direction": "increases",
+    "factor": "300,0 тыс. т/год",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Kaz Minerals (Казахстан), Kazakhmys (Казахстан) и China Nonferrous Mining Corporation (КНР) планируют строительство комбината мощностью 300,0 тыс. т/год катодной меди.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в январе - марте 2023 г . совокупный выпуск 10 цветных металлов (никель, медь, алюминий, цинк, свинец, олово, магний, титан, ртуть, сурьма) в стране вырос по сравнению с аналогичным периодом прошлого года на 9,0 % до 18,26 млн т, в том числе алюминий - до 10,1 млн т (+5,9 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production growth",
+    "direction": "increases",
+    "factor": "9,0 % overall, aluminium +5,9 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в январе - марте 2023 г . совокупный выпуск 10 цветных металлов (никель, медь, алюминий, цинк, свинец, олово, магний, титан, ртуть, сурьма) в стране вырос по сравнению с аналогичным периодом прошлого года на 9,0 % до 18,26 млн т, в том числе алюминий - до 10,1 млн т (+5,9 %).",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Европейская комиссия утвердила список критически важных сырьевых товаров, в который вошли, в частности, никель, медь, бокситы, кобальт, литий, металлы платиновой группы (МПГ), магний, марганец, титан, ванадий, вольфрам, сурьма, фосфор, бериллий, гафний, ниобий, скандий, стронций, тантал, бор, висмут, галлий, германий, редкоземельные металлы (РЗМ).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "critical raw material list",
+    "direction": "increases",
+    "factor": "list of many metals",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Европейская комиссия утвердила список критически важных сырьевых товаров, в который вошли, в частности, никель, медь, бокситы, кобальт, литий, металлы платиновой группы (МПГ), магний, марганец, титан, ванадий, вольфрам, сурьма, фосфор, бериллий, гафний, ниобий, скандий, стронций, тантал, бор, висмут, галлий, германий, редкоземельные металлы (РЗМ).",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World nickel consumption in 2023 is forecast to reach 3,22 млн т, up 11,4 % from 2022.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "world nickel consumption",
+    "direction": "increases",
+    "factor": "11,4 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по прогнозу группы, в 2023 г. мировое потребление никеля вырастет до 3,22 млн т (+11,4 % к 2022 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World nickel production in 2023 is forecast to reach 3,39 млн т, up 11,5 % from 2022.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "world nickel production",
+    "direction": "increases",
+    "factor": "11,5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по прогнозу группы, в 2023 г. производство до 3,39 млн т (+11,5 %)",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World nickel market surplus in 2023 is projected to be 0,17 млн т (109,9 тыс. т in 2022).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "профицит рынка - до 0,17 млн т (109,9 тыс. т в 2022 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:79",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World nickel price in 2023 is forecast at 26 500,0 $/t.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в 2023 г . мировая цена на никель, согласно прогнозу Fitch Solutions (США), составит 26 500,0 долл/т",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World copper consumption in 2022 was 26,046 млн т.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в 2022 г. мировое потребление меди составило 26,046 млн т",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World copper production in 2022 was 25,67 млн т, 3,51 % higher than 2021.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "world copper production",
+    "direction": "increases",
+    "factor": "3,51 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "производство - 25,67 млн т (+3,51 % к 2021 г.)",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World copper market deficit in 2022 was 0,376 млн т.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "дефицит рынка - 0,376 млн т",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World copper price in 2023 is forecast to rise to 9 000,0 $/t.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper price",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2023 г . мировая цена на медь, по прогнозу Fitch Solutions (США), вырастет до 9000,0 долл/т",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Goldman Sachs expects a global copper market deficit of 278,0 тыс. т in 2023.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Дефицит мирового рынка меди в 2023 г., согласно ожиданиям Goldman Sachs (США), составит 278,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Zijin Mining's 2022 mine production was 0,88 млн т copper; planned 2023 production is 0,95 млн т copper.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Zijin Mining copper production",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2022 г . шахтная добыча Zijin Mining (КНР) составила 0,88 млн т меди... План шахтной добычи на 2023 г . 0,95 млн т меди",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Jindal Stainless acquired 49,0 % of New Yanking to build a 200,0 т/yr NCS plant with 14,0 % nickel content, commissioning planned for 2025.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "купила 49,0 % акций производителя НСЧ New Yanking (Индонезия) для совместного строительства завода мощностью 200,0 тыс. т НСЧ (содержание никеля - 14,0 %). Ввод предприятия в эксплуатацию намечен на 2025 г.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Glencore produced 37,8 тыс. т primary nickel in Q1 2023, down from 38,6 тыс. т in Q1 2022.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Glencore primary nickel production",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I квартале 2023 г . по сравнению с первыми тремя месяцами 2022 г. Glencore (Швейцария) произвела 37,8 тыс. т первичного никеля (38,6 тыс. т)",
+   "locator_kind": "md_para",
+   "locator": "para:89",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Norilsk Nickel received permission to increase Harjavalta nickel production from 90,0 т to 140,0 т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Harjavalta nickel capacity",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "НН получил разрешение ... на расширение производства никеля на заводе Norilsk Nickel Harjavalta (Финляндия) с 90,0 до 140,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В апреле 2023 г. Teck Resources (Канада) ввела в эксплуатацию рудник Quebrada Blanca Phase 2 (Чили).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "commissioning",
+    "direction": "increases",
+    "factor": "operational status",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В апреле 2023 г. Teck Resources (Канада) ввела в эксплуатацию рудник Quebrada Blanca Phase 2 (Чили).",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "План выпуска в 2023 г. - 170,0 тыс. т меди, в 2024-2026 гг. - ежегодно по 285,0-315,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "increases",
+    "factor": "planned volume",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "План выпуска в 2023 г. - 170,0 тыс. т меди, в 2024-2026 гг. - ежегодно по 285,0-315,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в проект - 7,75 млрд долл. (первоначально - 4,7 млрд долл.)",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital investment",
+    "direction": "increases",
+    "factor": "investment amount",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инвестиции в проект - 7,75 млрд долл. (первоначально - 4,7 млрд долл.)",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Срок эксплуатации месторождения - 28 лет.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operational lifespan",
+    "direction": "increases",
+    "factor": "duration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "срок эксплуатации месторождения - 28 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Мощность комбината - 450,0 тыс. т/год меди в концентрате.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "capacity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Мощность комбината - 450,0 тыс. т/год меди в концентрате.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "План выпуска на 2023 г. - 390,0-430,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "increases",
+    "factor": "planned volume",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "План выпуска на 2023 г. - 390,0-430,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Чистая себестоимость составила 3395,1 долл/т (3858,09 долл/т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "unit cost",
+    "direction": "decreases",
+    "factor": "cost figure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "чистая себестоимость составила 3395,1 долл/т (3858,09 долл/т).",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2024-2025 гг., в соответствии с ожиданиями Goldman Sachs (США), мировая цена на алюминий вырастет до 4500,0 и 5000,0 долл/т соответственно.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "price",
+    "direction": "increases",
+    "factor": "forecasted value",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2024-2025 гг., в соответствии с ожиданиями Goldman Sachs (США), мировая цена на алюминий вырастет до 4500,0 и 5000,0 долл/т соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В I квартале 2023 г. Rio Tinto (Австралия - Великобритания) произвела 785,0 тыс. т алюминия (+7,0 % по сравнению с аналогичным периодом 2022 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "percentage change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I квартале 2023 г. Rio Tinto (Австралия - Великобритания) произвела 785,0 тыс. т алюминия (+7,0 % по сравнению с аналогичным периодом 2022 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В I квартале 2023 г. по сравнению с I кварталом 2022 г., согласно оценке Shanghai Metals Market (КНР), производство цинка в стране составило 1,57 млн т (+6,6 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "percentage change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I квартале 2023 г. по сравнению с I кварталом 2022 г., согласно оценке Shanghai Metals Market (КНР), производство цинка в стране составило 1,57 млн т (+6,6 %).",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В I квартале 2023 г. Kazzink (Швейцария) выпустила 63,5 тыс. т цинка (71,7 тыс. т), 23,9 тыс. т свинца (27,7 тыс. т), 11,5 тыс. т меди (15,3 тыс. т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "decreases",
+    "factor": "volume change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В I квартале 2023 г. Kazzink (Швейцария) выпустила 63,5 тыс. т цинка (71,7 тыс. т), 23,9 тыс. т свинца (27,7 тыс. т), 11,5 тыс. т меди (15,3 тыс. т).",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В апреле 2023 г. Alcoa (США) приняла решение о закрытии завода Intalco (США) мощностью 0,279 млн т/год, остановленного в 2020 г. из-за падения мировых цен и роста тарифов на электроэнергию.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "facility status",
+    "direction": "decreases",
+    "factor": "closure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В апреле 2023 г. Alcoa (США) приняла решение о закрытии завода Intalco (США) мощностью 0,279 млн т/год, остановленного в 2020 г. из-за падения мировых цен и роста тарифов на электроэнергию.",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Суммарные капиталовложения - 842,0 млн долл., окупаемость - 2,6 года, себестоимость - 970,0 долл/т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment and cost",
+    "direction": "increases",
+    "factor": "financial figures",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарные капиталовложения - 842,0 млн долл., окупаемость - 2,6 года, себестоимость - 970,0 долл/т.",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "мировое потребление олова составило 360,0 тыс. т, производство - 348,9 тыс. т, дефицит рынка - 11,1 тыс. т.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2022 г., согласно оценке World Bureau of Metal Statistics (Великобритания), мировое потребление олова составило 360,0 тыс. т, производство - 348,9 тыс. т, дефицит рынка - 11,1 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "запрет коснется 10,0 % мирового рынка оловянного концентрата.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "По оценке ассоциации, запрет коснется 10,0 % мирового рынка оловянного концентрата.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "импорт металлического кобальта в КНР в январе‑феврале 2023 г. составил 690,0 т (+2,0 % к январю‑февралю 2022 г.).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Согласно данным Главного таможенного управления КНР , в январе - феврале 2023 г . импорт металлического кобальта составил 690,0 т (+2,0 % к январю - февралю 2022 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Glencore выпустила в I квартале 2023 г. 11,4 тыс. т кобальта (10,5 тыс. т в I квартале 2022 г.).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В I квартале 2023 г. по сравнению с аналогичным периодом 2022 г . Glencore (Швейцария) выпустила 11,4 тыс. т кобальта (10,5 тыс. т).",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "China Molybdenum планирует увеличить мощности комбината Tenke Fungurume на 7,3 тыс. т гидроксида кобальта и 88,5 тыс. т катодной меди.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 2023 г . China Molybdenum ( СМ ) (КНР) планирует увеличить производственные мощности комбината Tenke Fungurume ( TF ) (ДР Конго) на 7,3 тыс. т гидроксида кобальта и 88,5 тыс. т катодной меди.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасы месторождения Tenke Fungurume составляют 176,8 млн т руды, срок эксплуатации - 32 года.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Запасы месторождения составляют 176,8 млн т руды, срок эксплуатации - 32 года.",
+   "locator_kind": "md_para",
+   "locator": "para:131",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "К 2030 г. в ЕС будет потребляться 550,0 тыс. т эквивалента карбоната лития, внутреннее производство не превысит 200,0 тыс. т.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "К 2030 г., по прогнозу Benchmark Mineral Intelligence (Великобритания), ежегодно в ЕС будет потребляться 550,0 тыс. т эквивалента карбоната лития, внутреннее производство не превысит 200,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:133",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Sinomine Resources расширяет перерабатывающие мощности комбината Bikita с 1,2 до 2,0 млн т руды, ежегодный выпуск литиевого концентрата увеличится до 412,0 тыс. т.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Sinomine Resources (КНР) расширяет перерабатывающие мощности комбината Bikita (Зимбабве) с 1,2 до 2,0 млн т руды, ежегодный выпуск литиевого концентрата увеличится до 412,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Запасы месторождения Bikita составляют 54,515 млн т, что эквивалентно 1,5605 млн т карбоната лития.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Запасы месторождения составляют 54,515 млн т, что эквивалентно 1,5605 млн т карбоната лития.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в проект Sigma Lithium составляют 5,1 млрд долл.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Инвести ции в проект - 5,1 млрд долл.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  },
+  {
+   "text": "North American Lithium планирует коммерческие поставки с июля 2023 г., срок эксплуатации месторождения - 27 лет.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Начало коммерческих поставок - июль 2023 г ., срок эксплуатации месторождения - 27 лет.",
+   "locator_kind": "md_para",
+   "locator": "para:144",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-05-23-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

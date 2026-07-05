@@ -20,6 +20,14 @@ from app.models.equipment import Equipment
 from app.models.experiments import Experiment, Result
 from app.models.ingest import IngestStatus, IngestTask
 from app.models.labs import Lab
+from app.models.litsearch import (
+    FetchStatus,
+    FulltextStatus,
+    LiteraturePaper,
+    LiteratureSearch,
+    LitIngestStatus,
+    LitStage,
+)
 from app.models.materials import EMBEDDING_DIM, Material, MaterialPublic, MaterialType
 from app.models.properties import Property
 from app.models.regimes import Regime, RegimePublic
@@ -74,4 +82,10 @@ __all__ = [
     "ChatSession",
     "ChatSessionPublic",
     "ChatMessage",
+    "LitStage",
+    "FetchStatus",
+    "FulltextStatus",
+    "LitIngestStatus",
+    "LiteratureSearch",
+    "LiteraturePaper",
 ]

@@ -1,0 +1,938 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "title": "BIM при подземном проектировании (обзор источников).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\BIM при подземном проектировании (обзор источников).docx.md",
+   "artifact_sha256": "3572973b86a741cc39abf09249e84a13a3482393d5dd46652445f1c254dfe4f5",
+   "okf_raw_path": "Обзоры/BIM при подземном проектировании (обзор источников).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:autocad-civil-3d",
+   "label": "AutoCAD Civil 3D",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:navisworks",
+   "label": "Navisworks",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:geotechnical-data-base",
+   "label": "Geotechnical data base",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:bim-при-подземном-проектировании-обзор-источнико:0",
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "title": "BIM modeling for the Silvertown Road Tunnel project in London",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Information modeling during engineering surveys and design was performed using AutoCAD Civil 3D (BIM‑based workflows) and Navisworks, together with databases and data‑management systems"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:autocad-civil-3d",
+     "role": "atmosphere"
+    },
+    {
+     "material_id": "mat:navisworks",
+     "role": "atmosphere"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "BIM‑based modeling improved visualization and understanding of surface and sub‑surface conditions for the tunnel",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Было понятно, что для снижения рисков и общих затрат по проекту нужен более хороший способ визуализации и понимания поверхностных и подповерхностных условий вдоль трассы тоннеля",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Информационное моделирование при инженерных изысканиях и проектировании этого объекта проводилось (и продолжает проводиться) с использованием системы автоматизированного проектирования AutoCAD Civil 3D (рабочие процессы в которой основаны на технологии BIM) и программного комплекса Navisworks (предназначенного для управления BIM-проектами), а также баз данных и систем управления данными (служащих для объединения доступных материалов из разных источников).",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:bim-при-подземном-проектировании-обзор-источнико:1",
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "title": "BIM‑based 3D geotechnical modelling during the engineering‑investigation stage of the Silvertown tunnel project",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Integrated geotechnical database (AGS format, common coordinate system and classifications) was loaded into AutoCAD Civil 3D, a simplified tunnel prototype was added, and the combined model was visualised in Navisworks for the design team."
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:geotechnical-data-base",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:autocad-civil-3d",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:navisworks",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Благодаря предварительному анализу доступных материалов в единой среде моделирования удалось достаточно точно определить потенциальные препятствия для строительства и определить, какие необходимы новые полевые и лабораторные исследования",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "potential obstacles identified",
+      "direction": "increases",
+      "factor": "accuracy",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Благодаря предварительному анализу доступных материалов в единой среде моделирования удалось достаточно точно определить потенциальные препятствия для строительства и определить, какие необходимы новые полевые и лабораторные исследования",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.81
+    },
+    {
+     "text": "Это помогло в том числе сократить количество новых инженерно‑геологических скважин и привело к уменьшению времени изысканий и затрат по ним",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "number of new boreholes",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это помогло в том числе сократить количество новых инженерно‑геологических скважин (рис. 2) и привело к уменьшению времени изысканий и затрат по ним.",
+     "locator_kind": "md_para",
+     "locator": "para:33",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Это помогло в том числе сократить количество новых инженерно‑геологических скважин (рис. 2) и привело к уменьшению времени изысканий и затрат по ним.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "BIM reduces labor, time and money costs at all stages of engineering investigations, design, construction and operation",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "costs",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это обеспечивает улучшение результатов работ на всех этапах: снижаются затраты труда, времени и денег при инженерных изысканиях, проектировании, строительстве и эксплуатации.",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "BIM is often applied only to above‑ground parts of buildings, neglecting the underground environment",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "application scope",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "оно чаще всего, к сожалению, проводится лишь для надземных частей зданий или сооружений с игнорированием подземной среды",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "The main task of BIM is to cut construction costs by reducing risks, especially at early design stages",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "risk",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "основная задача BIM заключается в сокращении затрат при строительстве за счет снижения рисков прежде всего на ранних стадиях проектирования",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Applying BIM in geotechnical engineering and construction can reduce uncertainties and risks related to engineering‑geological conditions",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "uncertainties and risks",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "поэтому в сферах инженерных изысканий и геотехнического строительства также следует применять технологии BIM, чтобы уменьшить неопределенности и риски, связанные с инженерно-геологическими условиями",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "BIM’s three core principles are development of a unified information model, coordinated work of all participants in a digital environment, and life‑cycle accounting of the construction object",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "здесь наиболее важны три его основных принципа (процесс разработки, развития и совершенствования единой комплексной информационной модели; скоординированная работа всех участников проекта в единой цифровой среде; учет всего жизненного цикла объекта строительства)",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Для снижения рисков и общих затрат по проекту нужен более хороший способ визуализации и понимания поверхностных и подповерхностных условий вдоль трассы тоннеля.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "risk and cost reduction",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Было понятно, что для снижения рисков и общих затрат по проекту нужен более хороший способ визуализации и понимания поверхностных и подповерхностных условий вдоль трассы тоннеля.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Компания Atkins создала специальную базу геотехнических данных в стандартном формате AGS, используя одну и ту же систему координат, одно и то же начало отсчёта и стандартные геологические классификации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "data base standardisation",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания Atkins сначала собрала вместе и упорядочила доступные материалы в специальной базе геотехнических данных (одновременно являющейся системой управления ими) в стандартном формате AGS, причем на основе одной и той же системы координат, одного и того же начала отсчета и стандартных геологических классификаций.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Подход BIM помогал проектной команде визуально оценивать согласованность всех элементов проекта на каждой стадии работы над ним.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "project consistency assessment",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Подход BIM помогал проектной команде визуально оценивать согласованность всех элементов проекта на каждой стадии работы над ним, то есть быстро убеждаться в том, что все его разделы и данные соответствуют друг другу.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "3‑D модель может постоянно совершенствоваться (обновляться, добавлять новые данные, убирать лишнее) и использоваться на протяжении всей проектной стадии и жизненного цикла тоннеля.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "model adaptability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "3D‑модель можно было постоянно совершенствовать (обновлять или добавлять новые данные, убирать лишнее, вносить поправки и т. д.) и продолжать моделирование на протяжении всей проектной стадии начиная с рекогносцировочных и полных инженерных изысканий и заканчивая всеми последующими этапами развития проекта и жизненного цикла тоннеля.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Передача объединённой геотехнической модели строительной бригаде позволит быстрее, качественнее и дешевле реализовать проект.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Трехмерная геотехническая модель может быть передана строительной бригаде, что позволит быстрее, качественнее и дешевле реализовать проект с использованием имеющейся в модели информации.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Эксперты ИНФАРС разработали и внедрили адаптированную BIM‑технологию проектирования подземных горных выработок с использованием стандартных возможностей Autodesk Revit без какого‑либо программирования.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "BIM technology implementation",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Экспертами ИНФАРС была разработана и внедрена инновационная адаптированная BIM‑технология проектирования подземных горных выработок с использованием стандартных возможностей программы Autodesk Revit (без какого-либо программирования).",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "BIM‑моделирование обеспечило 3‑мерное моделирование участков выработок, формирование пересечений, простую расстановку 3‑мерных арочных крепей, автоматическое формирование спецификаций, моментальное обновление чертежей и спецификаций после перепроектирования, а также создание дополнительных узлов и видов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "design automation",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применение BIM моделирования позволило обеспечить проектировщикам: 3‑мерное моделирование участков выработок; формирование участков пересечения выработок различной конфигурации; простую расстановку на участках выработок 3‑мерных арочных крепей нужного типа; автоматическое формирование спецификаций; моментальное обновление чертежей и спецификаций после перепроектирования участков; создание дополнительных узлов и видов, фрагментов выработки.",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Применение BIM-моделирования при проектировании опасных производственных объектов позволяет снизить риски негативного воздействия угольных предприятий на окружающую среду и обеспечить оптимизацию производственных и эксплуатационных процессов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "risk reduction and process optimization",
+    "direction": "decreases",
+    "factor": "use of BIM modeling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применение BIM-моделирования при проектировании опасных производственных объектов позволяет снизить риски негативного воздействия угольных предприятий на окружающую среду и обеспечить оптимизацию производственных и эксплуатационных процессов.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Увязка различных блоков в единую модель информационного моделирования позволяет исключить из разработки предварительное технико-экономическое обоснование параметров добычи и проектную документацию, разрабатываемую по инициативе разработчика месторождений.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "need for preliminary techno‑economic justification",
+    "direction": "decreases",
+    "factor": "linking blocks into a single BIM model",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Увязка различных блоков в единую модель информационного моделирования позволяет исключить из разработки предварительное технико-экономическое обоснование параметров добычи и проектную документацию, разрабатываемую по инициативе разработчика месторождений.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Вся информация по проекту строительства шахты находится в едином информационном пространстве, в котором соединена вся документация по объекту строительства, включая технико-экономические данные, сметы, календарный график, период эксплуатации и консервации угольной шахты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "centralization of documentation",
+    "direction": "increases",
+    "factor": "use of BIM information space",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, вся информация по проекту строительства шахты находится в едином информационном пространстве, в котором соединена вся документация по объекту строительства, включая технико-экономические данные, сметы, календарный график, период эксплуатации и консервации угольной шахты.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Такая модель является аналогом BIM-моделирования и сможет обеспечить специалистов технических служб достоверной и оперативной информацией на всех этапах жизненного цикла сооружения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "provides reliable and timely information throughout the asset li",
+    "direction": "increases",
+    "factor": "information quality",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такая модель является аналогом BIM-моделирования и сможет обеспечить специалистов технических служб достоверной и оперативной информацией на всех этапах жизненного цикла сооружения.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Обязательным элементом этой модели является трехмерная визуализация данных, которая позволяет на новом уровне осуществлять контроль принятых проектных решений и своевременно вносить изменения при обнаружении ошибок.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "enables control of design decisions and timely corrections",
+    "direction": "increases",
+    "factor": "decision‑making quality",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обязательным элементом этой модели является трехмерная визуализация данных, которая позволяет на новом уровне осуществлять контроль принятых проектных решений и своевременно вносить изменения при обнаружении ошибок.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Для трехмерной визуализации геологических данных могут быть использованы практически все перечисленные выше программные продукты, которые относятся и к САПР, и к геоинформационным системам.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "software applicability",
+    "direction": "increases",
+    "factor": "choice of tools",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для трехмерной визуализации геологических данных могут быть использованы практически все перечисленные выше программные продукты, которые относятся и к САПР, и к геоинформационным системам.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Однако, для создания и отображения сложных геологических тел и решения трехмерных задач наиболее приспособлены пакеты трехмерного геологического моделирования (Leapfroq, Micromine, Surpac и др.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "most suitable software packages",
+    "direction": "increases",
+    "factor": "modeling efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако, для создания и отображения сложных геологических тел и решения трехмерных задач наиболее приспособлены пакеты трехмерного геологического моделирования (Leapfroq, Micromine, Surpac и др.).",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Однако, все они достаточно сложны, дорогостоящи и требуют дополнительного специализированного обучения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "complexity, cost and training requirements",
+    "direction": "increases",
+    "factor": "implementation barriers",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Однако, все они достаточно сложны, дорогостоящи и требуют дополнительного специализированного обучения.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Для моделирования и визуализации данных о природно‑технической системе «сооружение‑геологическая среда» геоинформационных систем будет достаточно.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "sufficiency of GIS",
+    "direction": "increases",
+    "factor": "adequacy of GIS tools",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для моделирования и визуализации данных о природно‑технической системе «сооружение‑геологическая среда» геоинформационных систем будет достаточно.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Вскрытие месторождений при подземной разработке во многих случаях осуществляют вертикальными стволами.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "use of vertical shafts",
+    "direction": "increases",
+    "factor": "access efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вскрытие месторождений при подземной разработке во многих случаях осуществляют вертикальными стволами.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Примерно 95 % вертикальных стволов в крепких породах закреплены бетоном и имеют круглое поперечное сечение диаметром от 3 до 9 метров.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "diameter",
+    "direction": "increases",
+    "factor": "structural characteristics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Примерно 95 % вертикальных стволов в крепких породах закреплены бетоном и имеют круглое поперечное сечение диаметром от 3 до 9 метров.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Работы по проходке вертикальных шахтных стволов относятся к наиболее сложным и трудоемким работам при строительстве шахт и занимают 40 – 50 % общей продолжительности строительства и до 15 % общих капитальных затрат.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of construction time and capital cost",
+    "direction": "increases",
+    "factor": "resource consumption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Работы по проходке вертикальных шахтных стволов относятся к наиболее сложным и трудоемким работам при строительстве шахт и занимают 40 – 50 % общей продолжительности строительства и до 15 % общих капитальных затрат.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Шахтный ствол является главной вскрывающей выработкой, нарушение функционирования которой ведет к остановке всего горного предприятия.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "criticality of shaft integrity",
+    "direction": "increases",
+    "factor": "risk of plant shutdown",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Шахтный ствол является главной вскрывающей выработкой, нарушение функционирования которой ведет к остановке всего горного предприятия.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "При строительстве стволов в сложных горно‑геологических условиях и увеличении глубины их проведения из-за недостаточности имеющихся сведений возникают значительные осложнения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "likelihood of complications",
+    "direction": "increases",
+    "factor": "geological uncertainty and depth",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При строительстве стволов в сложных горно‑геологических условиях и увеличении глубины их проведения из-за недостаточности имеющихся сведений возникают значительные осложнения.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Основными причинами возникновения таких аварий являются: неполнота достоверных сведений о водоносных горизонтах, пересекаемых стволом, и их гидрохимических характеристик; наличие в грунтовой стенке не выявленных ранее природных трещин; наличие не промороженных пород в ледопородном ограждении; повреждение замораживающих колонн; несоответствие строительных работ принятым проектным решениям.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "causes of accidents",
+    "direction": "increases",
+    "factor": "information gaps and construction deviations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основными причинами возникновения таких аварий являются: неполнота достоверных сведений о водоносных горизонтах, пересекаемых стволом, и их гидрохимических характеристик; наличие в грунтовой стенке не выявленных ранее природных трещин; наличие не промороженных пород в ледопородном ограждении; повреждение замораживающих колонн; несоответствие строительных работ принятым проектным решениям.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Трехмерная визуализация данных также реализована средствами программного обеспечения ArcGis в приложении ArcScene.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "implemented",
+    "direction": "increases",
+    "factor": "use of ArcGis",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Трехмерная визуализация данных также реализована средствами программного обеспечения ArcGis в приложении ArcScene.",
+   "locator_kind": "md_para",
+   "locator": "para:118",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Информация, хранимая в «плане», выполнена в реальной системе координат, что позволяет с минимальными трудозатратами осуществлять синтез разнородных данных и проводить оверлейные операции с информацией, полученной из разных источников.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "real coordinate system",
+    "direction": "increases",
+    "factor": "minimal effort",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Информация, хранимая в «плане», выполнена в реальной системе координат, что позволяет с минимальными трудозатратами осуществлять синтез разнородных данных и проводить оверлейные операции с информацией, полученной из разных источников.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Визуализация данных осуществляется стандартными, достаточно мощными, средствами ArcGis.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "standard powerful tools",
+    "direction": "increases",
+    "factor": "ArcGis",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Визуализация данных осуществляется стандартными, достаточно мощными, средствами ArcGis.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Полученная 3D геометрия храниться в истинной системе координат, что позволяет в любой момент времени совместить полученные результаты с другими данными.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "true coordinate system",
+    "direction": "increases",
+    "factor": "flexibility of data merging",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Следует отметить, что полученная 3D геометрия храниться в истинной системе координат, что позволяет в любой момент времени совместить полученные результаты с другими данными.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Опыт ведения системы показал, что в период проходки шахтного ствола происходит отклонение от проектных решений.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "deviation from design",
+    "direction": "increases",
+    "factor": "shaft excavation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Опыт ведения системы показал, что в период проходки шахтного ствола происходит отклонение от проектных решений.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Необходимо оперативно оценивать степень влияния этих изменений на безопасность эксплуатации сооружения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "safety impact evaluation",
+    "direction": "increases",
+    "factor": "operational changes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Необходимо оперативно оценивать степень влияния этих изменений на безопасность эксплуатации сооружения.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Обязательным элементом такой информационной модели является трехмерная визуализация имеющихся данных, что позволяет на основе графического метода сопоставлять данные проекта с фактическими результатами и выявлять отклонения от проекта и возможные ошибки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ability to detect deviations and errors",
+    "direction": "increases",
+    "factor": "use of 3D visualization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обязательным элементом такой информационной модели является трехмерная визуализация имеющихся данных, что позволяет на основе графического метода сопоставлять данные проекта с фактическими результатами (рис 17) и выявлять отклонения от проекта и возможные ошибки.",
+   "locator_kind": "md_para",
+   "locator": "para:145",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Совместное отображение проектируемых скважин и скважин заморозки выявляют скважины потенциального риска.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "identification of risky wells",
+    "direction": "increases",
+    "factor": "joint display of design and freeze wells",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Совместное отображение проектируемых скважин и скважин заморозки выявляют скважины потенциального риска (рис.18).",
+   "locator_kind": "md_para",
+   "locator": "para:146",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Инструменты ArcScene позволяют создавать высококачественные анимации как видовые, так и в режиме временной шкалы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "animation quality",
+    "direction": "increases",
+    "factor": "use of ArcScene",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инструменты ArcScene, помимо визуализации трехмерной геометрии, позволяют создавать высококачественные анимации как видовые, так и в режиме временной шкалы (Рис.19. Рис.20.).",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Еще одним преимуществом использования этого программного продукта является его открытость и возможность взаимодействия с другими программными продуктами.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "interoperability",
+    "direction": "increases",
+    "factor": "open architecture of ArcScene",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Еще одним преимуществом использования этого программного продукта является его открытость и возможность взаимодействия с другими программными продуктами.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Методологический подход к инженерно-геологическому моделированию системы «шахтный ствол – геологическая среда» заявлен как аналог BIM моделирования.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "modeling approach similarity to BIM",
+    "direction": "increases",
+    "factor": "adoption of the described approach",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Если тезисно подводить итоги, то можно сказать, этот методологический подход к инженерно-геологическому моделированию системы «шахтный ствол – геологическая среда» заявлен как аналог BIM моделирования.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Он позволяет снизить риски возникновения аварийных ситуаций в период проходки шахтных стволов и при их эксплуатации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "risk of accidents",
+    "direction": "decreases",
+    "factor": "use of the described modeling method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Он позволяет снизить риски возникновения аварийных ситуаций в период проходки шахтных стволов и при их эксплуатации.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Технический регламент моделирования HB183 Норвии определяет также работы в туннелях, включая методические рекомендации для документации, способы моделирования текущей ситуации, модели новых конструкций, а также роли и задачи работ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "scope of HB183",
+    "direction": "increases",
+    "factor": "HB183 standard",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технический регламент моделирования (некий стандарт) HB183 Норвии определяет также работы в туннелях, включая методические рекомендации для документации, способы моделирования текущей ситуации, модели новых конструкций, а также роли и задачи работ.",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.81,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Согласно HB 138, 3D-геометрия туннелей должна быть смоделирована в полном объеме.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "completeness of 3D tunnel geometry",
+    "direction": "increases",
+    "factor": "HB 138 regulation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Согласно HB 138, 3D-геометрия туннелей должна быть смоделирована в полном объеме.",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Существуют также точные инструкции, установленные для передачи информации из используемого ПО для проектирования в открытый файл на основе стандарта LandXML.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "availability of precise instructions",
+    "direction": "increases",
+    "factor": "LandXML standard usage",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Существуют также точные инструкции, установленные для передачи информации из используемого ПО для проектирования в открытый файл на основе стандарта LandXML.",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  },
+  {
+   "text": "Интеллектуальная добыча подразумевает применение информационных технологий на каждом этапе производственного цикла добычи руды, от разведки и геологического моделирования до оборудования, операций и технического обслуживания, логистики и транспортировки.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technology application scope",
+    "direction": "increases",
+    "factor": "adoption of intelligent mining concept",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Интеллектуальная добыча подразумевает применение информационных технологий на каждом этапе производственного цикла добычи руды, от разведки и геологического моделирования до оборудования, операций и технического обслуживания, логистики и транспортировки.",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:bim-при-подземном-проектировании-обзор-источнико",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

@@ -1,0 +1,332 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-02-22-pdf",
+   "title": "ЦМ 02-22.pdf",
+   "doc_type": "article",
+   "year": 2022,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2022\\ЦМ 02-22.pdf.md",
+   "artifact_sha256": "a5607a91c2ec66036592825d6c021230f0b78ef87fcb669bcd196526f66117db",
+   "okf_raw_path": "Журналы/Цветные металлы/2022/ЦМ 02-22.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:flash-smelter-gas-dust-stream",
+   "label": "flash smelter gas‑dust stream",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-anodes",
+   "label": "copper anodes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:parting-compounds",
+   "label": "parting compounds",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore-samples",
+   "label": "ore samples",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:raw-materials-with-low-energy-potential",
+   "label": "raw materials with low energy potential",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-02-22-pdf:0",
+   "document_id": "doc:цм-02-22-pdf",
+   "title": "Pilot tests of gas‑dust flow modification in a flash smelter",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "addition of a spoiler to the gas‑dust flow"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:flash-smelter-gas-dust-stream",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The spoiler significantly altered the flow pattern, improving smelting stability.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "flow stability",
+      "direction": "increases",
+      "factor": "spoiler addition",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "The changing dynamics of the gas‑dust flow in the flash smelter due to addition of a spoiler.",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "The changing dynamics of the gas‑dust flow in the flash smelter due to addition of a spoiler. Part 2. Pilot tests.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-02-22-pdf:1",
+   "document_id": "doc:цм-02-22-pdf",
+   "title": "Laboratory examination of new parting compounds for copper anode quality",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "testing of parting compounds in copper anode production"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-anodes",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:parting-compounds",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The tested compounds increased the uniformity of the anodes.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "anode uniformity",
+      "direction": "increases",
+      "factor": "new parting compounds",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Examining new parting compounds to improve copper anode quality",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Examining new parting compounds to improve copper anode quality",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-02-22-pdf:2",
+   "document_id": "doc:цм-02-22-pdf",
+   "title": "Experimental validation of ore‑testing results at Talnakh Concentrator",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ore testing and validation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-samples",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Laboratory test results were confirmed by plant‑scale trials.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "increases",
+      "factor": "validated ore tests",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Experimental validation of ore tests results at Talnakh Concentrator",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Experimental validation of ore tests results at Talnakh Concentrator",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-02-22-pdf:3",
+   "document_id": "doc:цм-02-22-pdf",
+   "title": "Operation of autogenous smelters at Nornickel’s Polar Division with low‑energy raw materials",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "smelting",
+      "extra": {
+       "raw_process": "autogenous smelting of low‑energy raw materials"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:raw-materials-with-low-energy-potential",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Autogenous smelters could be operated successfully despite the low energy potential of the feed.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "operability",
+      "direction": "increases",
+      "factor": "autogenous smelting",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Operation of autogenous smelters at Nornickel's Polar Division when processing raw materials with low energy potential",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Operation of autogenous smelters at Nornickel's Polar Division when processing raw materials with low energy potential",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The journal 'Tsvetnye Metally' has been published since 1926.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "The journal has been published since 1926",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:цм-02-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The 80‑year anniversary of the Scientific‑Technical Department of the Norilsk Mining‑Metallurgical Combine was celebrated in this issue.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Этот выпуск журнала посвящен 80‑летию Научно‑технического управления (НТУ) Норильского горно‑металлургического комбината",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.81,
+   "document_id": "doc:цм-02-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The first head of the technical department was A. I. Nikonov, evacuated from Monchegorsk.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Первым руководителем технического отдела был назначен эвакуированный из Мончегорска А. И. Никонов",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9,
+   "document_id": "doc:цм-02-22-pdf",
+   "process": null
+  },
+  {
+   "text": "V. I. Volkov led the NTT for 20 years (1974‑1994).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Я много работал с Владимиром Игоревичем Волковым, который возглавлял НТУ в течение 20 лет (в 1974‑1994 гг.)",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:цм-02-22-pdf",
+   "process": null
+  },
+  {
+   "text": "During Volkov’s period, major metallurgical facilities such as the Nadezhda Metallurgical Plant, the Bosky Metallurgical Plant, and the Vanukov furnace at the Copper Plant were built.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В этот период на комбинате были построены крупные металлургические объекты: Надеждинское крупное металлургическое предприятие, Боский металлургический завод (НМЗ), печь Ванюкова на Медном заводе",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.45,
+   "document_id": "doc:цм-02-22-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:copper-anodes",
+   "dst": "mat:parting-compounds",
+   "process": "other",
+   "kind": null,
+   "snippet": "Examining new parting compounds to improve copper anode quality",
+   "doc_id": "doc:цм-02-22-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

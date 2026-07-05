@@ -1,0 +1,1888 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:новые-медные-проекты-pdf",
+   "title": "Новые медные проекты.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Новые медные проекты.pdf.md",
+   "artifact_sha256": "bd8f363f5c273a681aaf92d10827fbe8be1b0b544ef0df6d221c0430847aa8a7",
+   "okf_raw_path": "Обзоры/Новые медные проекты.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:southwest-ore",
+   "label": "Southwest ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:hugo-north-ore-first-5-years-of-operation",
+   "label": "Hugo North ore (first 5 years of operation)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:hugo-north-ore-years-6-9-of-operation",
+   "label": "Hugo North ore (years 6‑9 of operation)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-ore",
+   "label": "copper ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-gold-concentrate",
+   "label": "copper‑gold concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:copper-flotation-concentrate-containing-arsenic",
+   "label": "copper flotation concentrate containing arsenic",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:arsenate-precipitate-three-valent-arsenic-compou",
+   "label": "arsenate precipitate (three‑valent arsenic compound)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore-slurry",
+   "label": "ore slurry",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:crushed-material",
+   "label": "crushed material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:новые-медные-проекты-pdf:0",
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "title": "Flotation tests on Southwest and Hugo North ores",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:southwest-ore",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:hugo-north-ore-first-5-years-of-operation",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:hugo-north-ore-years-6-9-of-operation",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:southwest-ore",
+     "value": {
+      "min": null,
+      "nominal": 23.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "copper  in concentrate"
+     },
+     "method": null,
+     "snippet": "в опытах по флотации руды Southwest были получены концен -траты со средним содержанием меди 23,4%",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "arsenic (As) in concentrate",
+     "scope": "material",
+     "material_id": "mat:southwest-ore",
+     "value": {
+      "min": null,
+      "nominal": 431.0,
+      "max": null
+     },
+     "unit": "ppm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "As 431 ppm",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "fluorine (F) in concentrate",
+     "scope": "material",
+     "material_id": "mat:southwest-ore",
+     "value": {
+      "min": null,
+      "nominal": 320.0,
+      "max": null
+     },
+     "unit": "ppm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "F 320 ppm",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 41.6,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "copper  in concentrate"
+     },
+     "method": null,
+     "snippet": "для руды Hugo North в первые 5 лет эксплуатации - 41,6% Cu",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "arsenic (As) in concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 400.0,
+      "max": null
+     },
+     "unit": "ppm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "As 400 ppm",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "fluorine (F) in concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 330.0,
+      "max": null
+     },
+     "unit": "ppm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "F 330 ppm",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 31.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "copper  in concentrate"
+     },
+     "method": null,
+     "snippet": "для руды Hugo North в 6-9 годы - Cu 31,8%",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "arsenic (As) in concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 800.0,
+      "max": null
+     },
+     "unit": "ppm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "As 800 ppm",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "fluorine (F) in concentrate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 420.0,
+      "max": null
+     },
+     "unit": "ppm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "F 420 ppm",
+     "locator_kind": "md_para",
+     "locator": "para:62",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "в опытах по флотации руды Southwest были получены концен -траты со средним содержанием меди 23,4%, As 431 ppm, F 320 ppm, для руды Hugo North в первые 5 лет эксплуатации - 41,6% Cu, As 400 ppm, F 330 ppm; для руды Hugo North в 6-9 годы - Cu 31,8%, As 800 ppm, F 420 ppm.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:новые-медные-проекты-pdf:1",
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "title": "Flotation laboratory tests",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-ore",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:copper-gold-concentrate",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:copper-ore",
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "При сортности руды 1% Cu достигается извлечение меди 90% и извлечение золота 66%.",
+     "locator_kind": "md_para",
+     "locator": "para:112",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:copper-gold-concentrate",
+     "value": {
+      "min": null,
+      "nominal": 66.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "При сортности руды 1% Cu достигается извлечение меди 90% и извлечение золота 66%.",
+     "locator_kind": "md_para",
+     "locator": "para:112",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "concentrate grade (copper)",
+     "scope": "material",
+     "material_id": "mat:copper-ore",
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Сортность концен‑трата колеблется в интервале от 30% до 50% Cu в зависимости от минералогического состава.",
+     "locator_kind": "md_para",
+     "locator": "para:112",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "More than 300 flotation tests were performed as part of the preliminary feasibility study.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Indophil выполнила более 300 опытов по флотации в рамках подготовки предварительного ТЭО.",
+     "locator_kind": "md_para",
+     "locator": "para:112",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Indophil выполнила более 300 опытов по флотации в рамках подготовки предварительного ТЭО.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:новые-медные-проекты-pdf:2",
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "title": "Alkaline‑sulphide leaching pilot test for arsenic removal",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "alkaline‑sulphide leaching"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-flotation-concentrate-containing-arsenic",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:arsenate-precipitate-three-valent-arsenic-compou",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "A dedicated alkaline‑sulphide leaching circuit was added to selectively leach arsenic from the copper concentrate as needed.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Indophil включила в схему получения концентрата цех по щелочно‑сульфидному выщелачиванию для селективного выщелачивания мышьяка из медного флотационного концентрата по мере необходимости.",
+     "locator_kind": "md_para",
+     "locator": "para:113",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Indophil включила в схему получения концентрата цех по щелочно‑сульфидному выщелачиванию для селективного выщелачивания мышьяка из медного флотационного концентрата по мере необходимости.",
+   "locator_kind": "md_para",
+   "locator": "para:113",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:новые-медные-проекты-pdf:3",
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "title": "Laboratory flotation test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation",
+       "duration_text": "12 min"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-slurry",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "additive PEX (potassium ethylxanthate)",
+     "scope": "material",
+     "material_id": "mat:ore-slurry",
+     "value": {
+      "min": null,
+      "nominal": 27.5,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "добавки : 27,5 г / т PEX (этилксантат калия)",
+     "locator_kind": "md_para",
+     "locator": "para:198",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "additive fuel oil",
+     "scope": "material",
+     "material_id": "mat:ore-slurry",
+     "value": {
+      "min": null,
+      "nominal": 12.5,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "12,5 г / т топочного мазута",
+     "locator_kind": "md_para",
+     "locator": "para:198",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Оптимальное значение pH для основной флотации равно 8,5.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "pH",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при основной флотации оптимальным значением pH является 8,5",
+     "locator_kind": "md_para",
+     "locator": "para:196",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Продолжительность основной флотации (в лабораторных условиях) 12 мин",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:новые-медные-проекты-pdf:4",
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "title": "Configuration comparison test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "grinding circuit"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:crushed-material",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "average throughput",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.6,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "средняя производительность повысилась на 6,6%",
+     "locator_kind": "md_para",
+     "locator": "para:190",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Переработка дробленого материала в шаровой мельнице повышает среднюю производительность на 6,6 %.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "throughput",
+      "direction": "increases",
+      "factor": "use of ball mill for crushed material",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "средняя производительность повысилась на 6,6%",
+     "locator_kind": "md_para",
+     "locator": "para:190",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Изучался и второй вариант конфигурации : дробленый материал перерабатывался в шаровой мельнице , при этом средняя производительность повысилась на 6,6%.",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "крупные медные проекты (300+ тыс т / г Cu в концентрате ) становятся всё большей редкостью.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "project size rarity",
+    "direction": "increases",
+    "factor": "size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "крупные медные проекты (300+ тыс т / г Cu в концентрате ) становятся всё большей редкостью.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2012 финансовом году в Olympic Dam было получено 180,3 тыс т катод -ной ( электрорафинированной ) меди и 12,3 тыс т катодной ( электролитной ) меди , а также 3,9 тыс т U3U8, 117,9 тыс унций золота и 907 тыс унций се -ребра .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output quantities",
+    "direction": "increases",
+    "factor": "year 2012",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2012 финансовом году в Olympic Dam было получено 180,3 тыс т катод -ной ( электрорафинированной ) меди и 12,3 тыс т катодной ( электролитной ) меди , а также 3,9 тыс т U3U8, 117,9 тыс унций золота и 907 тыс унций се -ребра .",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Грандиозный план расширения Olympic Dam предусматривает открытую добычу руды (75 млн т / г ) с увеличением выпуска меди втрое -до 750 тыс т / г , оксида урана -до 19 тыс т / г , золота -до 25 т / г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production targets",
+    "direction": "increases",
+    "factor": "future",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Грандиозный план расширения Olympic Dam предусматривает открытую добычу руды (75 млн т / г ) с увеличением выпуска меди втрое -до 750 тыс т / г , оксида урана -до 19 тыс т / г , золота -до 25 т / г .",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Капитальные затраты по проекту , включающему строительство новых перерабатываю -щих мощностей и соответствующе инфраструктуры , оцениваются в 30",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "nonmonotonic",
+    "factor": "project",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Капитальные затраты по проекту , включающему строительство новых перерабатываю -щих мощностей и соответствующе инфраструктуры , оцениваются в 30",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Суммарные ( доказанные и вероятные ) запасы месторождения оцениваются в 552 млн т с 1,84% Cu; 0,57 кг / т U3O8; 0,76 г / т Au; 3,41 г / т Ag",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "resource grades",
+    "direction": "nonmonotonic",
+    "factor": "deposit",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарные ( доказанные и вероятные ) запасы месторождения оцениваются в 552 млн т с 1,84% Cu; 0,57 кг / т U3O8; 0,76 г / т Au; 3,41 г / т Ag",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "В марте 201201 г . началось выполнение ТЭО по проекту , включающему ряд этапов .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "start_date",
+    "direction": "increases",
+    "factor": "project_feasibility_study",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В марте 2011 г . началось выполнение ТЭО по проекту , включающего ряд этапов .",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Утверждение проекта было запланировано на декабрь 2012 г .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "planned_date",
+    "direction": "increases",
+    "factor": "project_approval",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Утверждение проекта было запланировано на декабрь 2012 г .",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "в августе 2012 г . компания сообщила , что утвердить проект до 15.12.2012 не сможет , т . к . с целью улучшения экономических показателей будет рассматривать альтернативные , менее капиталоёмкие варианты проекта , включая новые технологии .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "delay_reason",
+    "direction": "decreases",
+    "factor": "economic_performance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в августе 2012 г . компания сообщила , что утвердить проект до 15.12.2012 не сможет , т . к . с целью улучшения экономических показателей будет рассматривать альтернативные , менее капиталоёмкие варианты проекта , включая новые технологии .",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Новое сроки рассмотрения проекта не указаны .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "new_deadline",
+    "direction": "no_change",
+    "factor": "project_management",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Новые сроки рассмотрения проекта не указаны .",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "В Cu‑Au месторождении Oyu Tolgoi 66% принадлежит компании Ivanhoe Mines, 34% правительству Монголии .",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "shareholding",
+    "direction": "no_change",
+    "factor": "ownership",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В Cu‑Au месторождении Oyu Tolgoi 66% принадлежит компании Ivanhoe Mines, 34% правительству Монголии .",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "В компании Ivanhoe Mines, которая с конца июля 2012 г . была переименована в Turquoise Hill Resources Ltd, 51% принадлежит Rio Tinto.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "shareholding",
+    "direction": "no_change",
+    "factor": "ownership",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В компании Ivanhoe Mines, которая с конца июля 2012 г . была переименована в Turquoise Hill Resources Ltd, 51% принадлежит Rio Tinto.",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Проект Oyu Tolgoi, расположенный в Южно‑Гобийском аймаке , вмещает ряд Cu‑Au‑Ag‑Mo месторождений , простирающихся на 26 км : Hugo North на севере , затем Hugo South, Southern Oyu и , наконец , Heruga на юге.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "geographic_extent",
+    "direction": "increases",
+    "factor": "project_size",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проект Oyu Tolgoi, расположенный в Южно‑Гобийском аймаке , вмещает ряд Cu‑Au‑Ag‑Mo месторождений , простирающихся на 26 км : Hugo North на севере , затем Hugo South, Southern Oyu и , наконец , Heruga на юге.",
+   "locator_kind": "md_para",
+   "locator": "para:49",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Таблица 2. Новые зарубежные медные проекты на 100+ тыс т / г Cu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production_threshold",
+    "direction": "increases",
+    "factor": "project_scale",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таблица 2. Новые зарубежные медные проекты на 100+ тыс т / г Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Oyu Tolgoi, Монголия | 540 | Turquoise Hill Res.66%, государство 34%. В Turquoise Hill 51% у Rio Tinto",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Oyu Tolgoi, Монголия | 540 | Turquoise Hill Res.66%, государство 34%. В Turquoise Hill 51% у Rio Tinto",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Resolution, США | 500 | Resolution Copper Mining (55% Rio Tinto, 45% BHP Billiton)",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Resolution, США | 500 | Resolution Copper Mining (55% Rio Tinto, 45% BHP Billiton)",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "El Pachon, Аргентина | 400 в первые 5 лет , средн ., за 30 лет - 280 | Xstrata 100%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "El Pachon, Аргентина | 400 в первые 5 лет , средн ., за 30 лет - 280 | Xstrata 100%",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Las Bambas, Перу | 400, средн . за 18 лет - 315 | Xstrata 100%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Las Bambas, Перу | 400, средн . за 18 лет - 315 | Xstrata 100%",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Tampakan, Филиппины | 450 в первые 5 лет , сред ., за 17 лет - 375 | Xstrata 62,5%/ Indophil Res.37,5%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Tampakan, Филиппины | 450 в первые 5 лет , сред ., за 17 лет - 375 | Xstrata 62,5%/ Indophil Res.37,5%",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Pebble, США | 310 | Anglo American/Northern Dynasty 50:50",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Pebble, США | 310 | Anglo American/Northern Dynasty 50:50",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "La Granja, Перу | 300 SX/EW | Rio Tinto 100%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "La Granja, Перу | 300 SX/EW | Rio Tinto 100%",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Michiquillay, Перу | исх . - 187 с расширением до 300 | Anglo American 100%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Michiquillay, Перу | исх . - 187 с расширением до 300 | Anglo American 100%",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Cobre Panama, Панама | 296 (2-16 года ) 266 ср . за весь срок производства | Inmet Mining 80%, корейцы 20%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cobre Panama, Панама | 296 (2-16 года ) 266 ср . за весь срок производства | Inmet Mining 80%, корейцы 20%",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Wafi‑Golpu, ПНГ | 290 | Harmony Gold Mining/Newcrest Mining 50:50",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Wafi‑Golpu, ПНГ | 290 | Harmony Gold Mining/Newcrest Mining 50:50",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Toromocho, Перу | 220 | Chinalco",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Toromocho, Перу | 220 | Chinalco",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Frieda River, ПНГ | 246 | Xstrata 81,8%/ Highland Pacific 18,2%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Frieda River, ПНГ | 246 | Xstrata 81,8%/ Highland Pacific 18,2%",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Minas Conga, Перу | 70-106 | Newmont Mining Corp 51,35%/ Compania de Minas Buenaventura 43,65% / International Finance Corp. 5%",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual_copper_production_range",
+    "direction": "increases",
+    "factor": "production",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Minas Conga, Перу | 70-106 | Newmont Mining Corp 51,35%/ Compania de Minas Buenaventura 43,65% / International Finance Corp. 5%",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Оценка ресурсов приведена при бортовом содержании 0,6% Cu экв .",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Оценка ресурсов приведена при бортовом содержании 0,6% Cu экв .",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Расчет Cu экв . вели в предположении следующих цен на металлы : Cu 1,35 USD/ фунт , Au 650 USD/ унц , Mo 10 USD/ фунт.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Расчет Cu экв . вели в предположении следующих цен на металлы : Cu 1,35 USD/ фунт , Au 650 USD/ унц , Mo 10 USD/ фунт",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "При оценке запасов для расчета величины NSR брали прогнозные долгосрочные цены на металлы : Cu 1,70 USD/ фунт , Au 750 USD/ унц , Ag 12,00 USD/ унц .",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "При оценке запасов для расчета величины NSR брали прогнозные долгосрочные цены на металлы : Cu 1,70 USD/ фунт , Au 750 USD/ унц , Ag 12,00 USD/ унц",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Ставка дисконта 8% в год использовалась при финансовом моделировании проекта.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "- -ставка дисконта 8% в год",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Чистая дисконтированная стоимость NPV при дисконте 8% оценена в 13783 млн USD до налогообложения.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Чистая дисконтированная стоимость NPV при дисконте 8% оценена в 13783 млн USD до налогообложения",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Внутренняя норма доходности составила 32% до налогообложения и 31% после налогообложения.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "внутренняя норма доходности , соответственно , в 32% и 31%",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Период окупаемости проекта составил 6,14 года.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "период окупаемости - 6,14 года",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Среднее содержание меди в концентрате будет около 30% Cu, золота 10,2 г/т Au и серебра 63,9 г/т Ag.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Что касается качества концентрата , то он будет содержать в среднем около 30% Cu, 10,2 г / т Au, 63,9 г / т Ag",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Штрафные вычеты за содержание As выше 0,3% составляют 2,00 $/ сух . т за каждые 0,1% превышения, а при As ≥0,5% производство отклоняется.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "за превышение этого уровня за каждые 0,1% вычет 2,00 $/ сух . т ; начиная с 0,5% As отказ",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Штрафные вычеты за содержание F выше 300 ppm составляют 2,00 $/ сух . т за каждые 100 ppm превышения.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "за превышение этого уровня за каждые 100 ppm вычет 2,00 $/ сух . т",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Главным рынком сбыта концентратов является Китай, однако китайские медеплавильные заводы всё более неохотно берут «грязные» концентраты.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Главным рынком сбыта концентратов , очевидно , является Китай . Однако и китайские медеплавильные заводы всё более неохотно берут « грязные » концентраты",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Проект планируется вводить в строй поэтапно: Этап I – ввод в 2012 г., коммерческое производство с 2013 г., полная мощность к 2018 г. (до 540 тыс т/г Cu в концентрате).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Срок ввода Этапа I - 2012 г ., коммерческое производство по Этапу I с 2013 г . После выхода на полную мощность в 2018 г . ( до 540 тыс т / г Cu в концентрате )",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Медное месторождение Resolution считается третьим по размеру среди неразработанных медных месторождений мира.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "size ranking",
+    "direction": "increases",
+    "factor": "global ranking",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медное месторождение Resolution считается третьим по размеру среди неразработанных медных месторождений мира.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Предполагаемые ресурсы оцениваются пока в 1624 млн т с 1,47% Cu [Rio Tinto. Annual Report 2011].",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource amount",
+    "direction": "increases",
+    "factor": "reported estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Предполагаемые ресурсы оцениваются пока в 1624 млн т с 1,47% Cu [Rio Tinto. Annual Report 2011].",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "По проекту предполагается получать около 500 тыс т / г Cu (в отдель‑ные периоды более 600 тыс т / г) плюс заметное количество молибдена в качестве побочной продукции.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper output",
+    "direction": "increases",
+    "factor": "project plan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По проекту предполагается получать около 500 тыс т / г Cu (в отдель‑ные периоды более 600 тыс т / г) плюс заметное количество молибдена в качестве побочной продукции.",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Глубина разработки достигнет почти 7000 футов (≈ 2,1 км) от поверхности.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "depth",
+    "direction": "increases",
+    "factor": "planned excavation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глубина разработки достигнет почти 7000 футов (≈ 2,1 км) от по‑верхности.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Ввод проекта в строй намечается на 2021 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "construction start",
+    "direction": "increases",
+    "factor": "planned date",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ввод проекта в строй намечается на 2021 г.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Капитальные затраты по проекту El Pachon оцениваются предварительно в 4,1 млрд USD.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "increases",
+    "factor": "preliminary estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Капитальные затраты по проекту El Pachon оцениваются предвари‑тельно в 4,1 млрд USD.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Выпуск меди в концентрате составит 400 тыс т / г в первые 5 лет и в среднем около 280 тыс т / г на протяжении всего срока эксплуатации рудника (30 лет).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper output",
+    "direction": "increases",
+    "factor": "project plan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выпуск меди в концентрате составит 400 тыс т / г в первые 5 лет и в среднем около 280 тыс т / г на протяжении всего срока эксплуатации рудника (30 лет).",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Проект Las Bambas на юге Перу включает строительство нового крупного ГОКа (более 300 тыс т / г Cu в концентрате) с длительным сроком эксплуатации (минимум 18 лет).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper output",
+    "direction": "increases",
+    "factor": "design specification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проект Las Bambas на юге Перу включает строительство нового крупного ГОКа ( более 300 тыс т / г Cu в концентрате ) с длительным сроком эксплуатации ( минимум 18 лет ).",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Капитальные затраты по проекту, включающему рудник и О/Ф, оценены в 4,2 млрд USD.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital cost",
+    "direction": "increases",
+    "factor": "project estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Капитальные затраты по проекту , включающему рудник и О / Ф , оце‑нены в 4,2 млрд USD.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "По проекту планируется получать 400 тыс т / г Cu в концентрате в первые годы эксплуатации, средний выпуск за все 18 лет эксплуатации -315 тыс т / г Cu.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper output",
+    "direction": "increases",
+    "factor": "project plan",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По проекту планируется получать 400 тыс т / г Cu в концентрате в первые годы эксплуатации , средний выпуск за все 18 лет эксплуатации -315 тыс т / г Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Tampakan это крупнейшее неразработанное Cu‑Au месторождение Юго‑Восточной Азии, вмещающее около 15 млн т Cu и более 17 млн ун‑ций Au.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "resource size",
+    "direction": "increases",
+    "factor": "reported estimate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Tampakan это крупнейшее неразработанное Cu‑Au месторождение Юго‑Восточной Азии , вмещающее около 15 млн т Cu и более 17 млн ун‑ций Au.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Tampakan is the largest undeveloped Cu‑Au deposit in Southeast Asia, containing about 15 Mt of Cu and more than 17 million oz of Au.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Tampakan это крупнейшее неразработанное Cu‑Au месторождение Юго‑Восточной Азии, вмещающее около 15 млн т Cu и более 17 млн ун‑ций Au.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "The project assumes open‑pit mining of approximately 66 Mt of ore per year.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "По проекту предполагается вести открытую добычу руды —примерно 66 млн т / год.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "The preliminary feasibility study (April 2009) used a resource base of 2.9 billion t and projected copper concentrate recovery of 79‑86 % and gold recovery of 60‑66 %.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Предварительное ТЭО базировалось на ресурсах в 2,9 млрд т, объём добычи — 66 млн т / г; извлечение в концентрат меди 79‑86%, золота 60‑66%.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.45,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Average annual copper production in concentrate over the 17‑year mine life is projected at 375 kt, and gold at 360 kt.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "средний за весь срок эксплуатации объём производства меди в концентрате 375 тыс т / г, золота — 360 тыс унц / год.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Capital expenditures are estimated at 5.9 billion USD, including 0.9 billion USD for a power plant.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "капитальные затраты 5,9 млрд USD, включая 900 млн USD на электростанцию.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "The initial environmental impact assessment (EIS) and social impact assessment (ESIA) were completed in April 2011 and involved 6 745 participants in public consultations.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Предварительный экологический отчет ... были завершены в апреле 2011 г. ... в которых приняло участие 6745 человек.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.45,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Pebble is one of the world’s largest undeveloped copper deposits and is owned 50 % by Northern Dynasty and 50 % by Anglo American.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "«Мега‑проект» Pebble принадлежит СП 50:50 компаний Northern Dynasty и Anglo American.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "As of July 2012, 10.8 % of Northern Dynasty was owned by its management and 18.2 % by Rio Tinto.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "По состоянию дел на июль 2012 г. в ND 10,8% принадлежало менеджменту компании, 18,2% другой крупной диверсифицированной горно‑металлургической компании Rio Tinto.",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "извлечение Cu 86,6 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper recovery",
+    "direction": "increases",
+    "factor": "86,6 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "извлечение Cu 86,6 %",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.45,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": "electroextraction"
+  },
+  {
+   "text": "извлечение Au 71,5 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "gold recovery",
+    "direction": "increases",
+    "factor": "71,5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "извлечение Au 71,5 %",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.45,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": "electroextraction"
+  },
+  {
+   "text": "IRR до налогообложения 13,4 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "internal rate of return",
+    "direction": "increases",
+    "factor": "13,4 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "IRR до налогообложения 13,4 %",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "IRR до налогообложения 14,2 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "internal rate of return",
+    "direction": "increases",
+    "factor": "14,2 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "IRR до налогообложения 14,2 %",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "IRR до налогообложения 14,5 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "internal rate of return",
+    "direction": "increases",
+    "factor": "14,5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "IRR до налогообложения 14,5 %",
+   "locator_kind": "md_para",
+   "locator": "para:174",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Ставка дисконта при оценке ежегодных потоков наличности принята равной 7 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "discount rate",
+    "direction": "increases",
+    "factor": "7 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ставка дисконта при оценке ежегодных потоков наличности принята равной 7%.",
+   "locator_kind": "md_para",
+   "locator": "para:171",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Общепринятая ставка для медных проектов и проектов по базовым металлам 8 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "discount rate",
+    "direction": "increases",
+    "factor": "8 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Общепринятая ставка для медных проектов и проектов по базовым металлам 8%.",
+   "locator_kind": "md_para",
+   "locator": "para:171",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Общепринятая ставка для проектов по золоту и другим драгоценным металлам 5 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "discount rate",
+    "direction": "increases",
+    "factor": "5 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Общепринятая ставка для проектов по золоту и другим драгоценным металлам 5%.",
+   "locator_kind": "md_para",
+   "locator": "para:154",
+   "confidence": 0.45,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "TC ( стоимость переработки ) 70 USD/ т ( сух )",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost per ton",
+    "direction": "increases",
+    "factor": "70 USD/ т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "TC ( стоимость переработки ) 70 USD/ т ( сух )",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "RC ( стоимость рафинирования ) меди 0,070 USD/ фунт",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost per pound",
+    "direction": "increases",
+    "factor": "0,070 USD/ фунт",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "RC ( стоимость рафинирования ) меди 0,070 USD/ фунт",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "RC золота 5,0 USD/ унц",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost per ounce",
+    "direction": "increases",
+    "factor": "5,0 USD/ унц",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "RC золота 5,0 USD/ унц",
+   "locator_kind": "md_para",
+   "locator": "para:170",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Исходные капитальные затраты по всем трем вариантам оценены в 4,7 млрд USD.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Исходные капитальные затраты по всем трем вариантам оценены в 4,7 млрд USD",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Капитальные затраты СП Pebble уменьшены на 1315 млн USD.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "capital cost reduction",
+    "direction": "decreases",
+    "factor": "создание СП",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "капитальные затраты СП Pebble уменьшены на 1315 млн USD",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "«Полные» капзатраты составляют 5756,7 млн USD.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "«полные» капзатраты составляют 5756,7 млн USD",
+   "locator_kind": "md_para",
+   "locator": "para:177",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Ввод мощностей MAP по Этапу I (30 млн фунтов в год молибдена или 13,6 тыс т / г) запланирован на конец 2012 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Ввод мощностей MAP по Этапу I (30 млн фунтов в год молибдена или 13,6 тыс т / г ) запланирован на конец 2012 г.",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Этап II (60 млн фунтов в год молибдена) планируется к 2015 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "по Этапу II (60 млн фунтов в год молибдена ) -на 2015 г.",
+   "locator_kind": "md_para",
+   "locator": "para:185",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Номинальная мощность О/Ф – 200 тыс т / сут.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Номинальная мощность О / Ф - 200 тыс т / сут",
+   "locator_kind": "md_para",
+   "locator": "para:191",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": "flotation"
+  },
+  {
+   "text": "Средний расход электроэнергии на 1 т в вар.1 будет немного выше, чем в вар.2 и вар.3.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "specific electricity consumption",
+    "direction": "increases",
+    "factor": "вариант 1 (Pebble West, более крепкая руда)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "средний расход электроэнергии на 1 т в вар .1 будет немного выше , чем в вар .2 и вар .3",
+   "locator_kind": "md_para",
+   "locator": "para:189",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Тарелка измельчения состоит из двух SAG мельниц (40×25 футов, 29 МВт) и четырёх шаровых мельниц (26×40 футов, 16,4 МВт) в конфигурации SABC.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Цепочка измельчения состоит из двух мельниц полусамоизмельчения SAG (40×25 футов , 29 МВт ) и 4х шаровых мельниц (26×40 футов , 16,4 МВт ) в конфигурации SABC",
+   "locator_kind": "md_para",
+   "locator": "para:190",
+   "confidence": 0.9,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Таблица 11: Средние за весь срок эксплуатации значения извлечения Cu 86,6‑88,4 %, Au 71,2‑71,5 %, Mo 84,8‑89,4 %.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Таблица 11. Средние за весь срок эксплуатации значения извлечения ... Cu % 86,6 87,9 88,4 ... Au % 71,5 71,3 71,2 ... Mo % 84,8 87,9 89,4",
+   "locator_kind": "md_para",
+   "locator": "para:199",
+   "confidence": 0.81,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "Объём производства молибдена в сульфидном концентрате за последние 5 лет колебался от 23 до 37 млн ф / год (10,4‑16,8 тыс т / г).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Объём производства молибдена в сульфидном концентрате колеб‑лется по годам ... за последние 5 лет с 23 до 37 млн ф / год (10,4-16,8 тыс т / г )",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.45,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  },
+  {
+   "text": "KUC разработала и запатентовала процесс окислительного автоклавного выщелачивания молибденитовых концентратов – MAP, который повышает извлечение молибдена по сравнению с традиционным обжигом.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "oxidative autoclave leaching",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "процесс окислительного автоклавного выщелачивания молибденитовых концентратов - 'MAP' ... позволяющий более эффективно , чем традиционный об‑жиг , перерабатывать низкосортные концентраты , повысить извлечение молибдена",
+   "locator_kind": "md_para",
+   "locator": "para:176",
+   "confidence": 0.45,
+   "document_id": "doc:новые-медные-проекты-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:copper-gold-concentrate",
+   "dst": "mat:copper-ore",
+   "process": "flotation",
+   "kind": null,
+   "snippet": "Indophil выполнила более 300 опытов по флотации в рамках подготовки предварительного ТЭО.",
+   "doc_id": "doc:новые-медные-проекты-pdf"
+  },
+  {
+   "src": "mat:arsenate-precipitate-three-valent-arsenic-compou",
+   "dst": "mat:copper-flotation-concentrate-containing-arsenic",
+   "process": "leaching",
+   "kind": null,
+   "snippet": "Indophil включила в схему получения концентрата цех по щелочно‑сульфидному выщелачиванию для селективного выщелачивания мышьяка из медного флотационного концентрата по мере необходимости.",
+   "doc_id": "doc:новые-медные-проекты-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

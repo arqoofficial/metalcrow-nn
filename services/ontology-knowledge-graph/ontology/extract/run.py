@@ -25,6 +25,7 @@ from ..batch import (
     BatchMaterial, BatchMaterialUse, BatchMeasurement, BatchSemanticEdge,
     ExtractionBatch, BatchExperiment,
 )
+from . import entities
 from .llm import Extractor
 from .normalize import map_process, normalize_unit, parse_value
 from .parse import detect_lang, parse_document
@@ -77,7 +78,8 @@ def _temp_step(process_raw: str, temp_text: str, dur_text: str) -> dict:
 
 
 def assemble_batch(doc_path: Path, chunks_out: list[tuple[list, dict]],
-                   lang: str, sha: str, extractor_name: str) -> ExtractionBatch:
+                   lang: str, sha: str, extractor_name: str,
+                   okf_raw_path: str | None = None) -> ExtractionBatch:
     """Сырые ответы LLM по чанкам → валидный ExtractionBatch одного документа."""
     slug = slugify(doc_path.stem)
     doc_id = f"doc:{slug}"
@@ -91,9 +93,11 @@ def assemble_batch(doc_path: Path, chunks_out: list[tuple[list, dict]],
             doc_type="article", lang=lang,
             country="RU" if lang == "ru" else "XX",   # XX = зарубежное, страна не установлена
             year=guess_year(first_text),
-            source_path=str(doc_path), artifact_sha256=sha)])
+            source_path=str(doc_path), artifact_sha256=sha,
+            okf_raw_path=okf_raw_path)])
 
-    mat_ids: dict[str, str] = {}
+    mat_ids: dict[str, str] = {}          # сырое имя.lower() → канонический ext_id
+    seen_mat: set[str] = set()            # канонические id, уже добавленные в батч
     exp_n = 0
     seen_claims: set[str] = set()
     for blocks, data in chunks_out:
@@ -127,10 +131,15 @@ def assemble_batch(doc_path: Path, chunks_out: list[tuple[list, dict]],
                     continue
                 key = name.lower()
                 if key not in mat_ids:
-                    mat_ids[key] = f"mat:{slug}:{slugify(name, 32)}"
+                    # Глобальный канонический id (OSN-дедуп): варианты одного
+                    # материала сходятся в один id и переиспользуют строку.
+                    mat_ids[key] = entities.material_ext_id(name)
+                cid = mat_ids[key]
+                if cid not in seen_mat:
+                    seen_mat.add(cid)
                     batch.materials.append(BatchMaterial(
-                        id=mat_ids[key], label=name, family=guess_family(name)))
-                mats.append(BatchMaterialUse(material_id=mat_ids[key],
+                        id=cid, label=name, family=guess_family(name)))
+                mats.append(BatchMaterialUse(material_id=cid,
                                              role=mu.get("role") or "sample"))
 
             def _mat_ref(name: str) -> str | None:
@@ -207,14 +216,13 @@ def assemble_batch(doc_path: Path, chunks_out: list[tuple[list, dict]],
                 for i in ins:
                     batch.lineage.append(BatchSemanticEdge(
                         src=o.material_id, dst=i.material_id,
-                        process=map_process(raw.get("process") or ""),
+                        process=entities.canonical_process(raw.get("process") or ""),
                         snippet=equote[:400], doc_id=doc_id))
     return batch
 
 
-def extract_document(ex: Extractor, path: Path, max_chunks: int = 8,
-                     workers: int = 4) -> ExtractionBatch:
-    doc = parse_document(path)
+def _extract_from_doc(ex: Extractor, doc, doc_path: Path, max_chunks: int,
+                      workers: int, okf_raw_path: str | None) -> ExtractionBatch:
     lang = detect_lang(doc.full_text)
     chunks = doc.chunks(max_chars=6000)[:max_chunks]
     with ThreadPoolExecutor(max_workers=workers) as pool:
@@ -223,8 +231,26 @@ def extract_document(ex: Extractor, path: Path, max_chunks: int = 8,
             chunks))
     name = ("nuextract_v3" if "NuExtract" in ex.model
             else "mock_rule" if ex.model.startswith("mock") else "llm_v1")
-    return assemble_batch(path, list(zip(chunks, results)), lang,
-                          doc.artifact_sha256, name)
+    return assemble_batch(doc_path, list(zip(chunks, results)), lang,
+                          doc.artifact_sha256, name, okf_raw_path)
+
+
+def extract_document(ex: Extractor, path: Path, max_chunks: int = 8,
+                     workers: int = 4,
+                     okf_raw_path: str | None = None) -> ExtractionBatch:
+    return _extract_from_doc(ex, parse_document(path), path,
+                             max_chunks, workers, okf_raw_path)
+
+
+def extract_markdown_text(ex: Extractor, text: str, source_path: str,
+                          okf_raw_path: str | None = None, max_chunks: int = 8,
+                          workers: int = 4) -> ExtractionBatch:
+    """Экстракция из markdown-текста (без файла) — для HTTP-ингеста OKF из
+    parser SHARED. source_path = сырой путь SHARED (для title/slug),
+    okf_raw_path = ключ для wiki-диплинка."""
+    from .parse import parse_markdown_text
+    return _extract_from_doc(ex, parse_markdown_text(text, source_path),
+                             Path(source_path), max_chunks, workers, okf_raw_path)
 
 
 def main() -> None:

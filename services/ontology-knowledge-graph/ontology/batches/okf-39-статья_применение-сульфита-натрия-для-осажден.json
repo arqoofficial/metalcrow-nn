@@ -1,0 +1,1355 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "title": "39 Статья_Применение сульфита натрия для осаждения Au из Pt-Pd растворов сложного состава.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\39 Статья_Применение сульфита натрия для осаждения Au из Pt-Pd растворов сложного состава.docx.md",
+   "artifact_sha256": "bcad41cf1b1080e0c44266123281577cad56f6a49bb1b2d9bed94e8dcfbf39ca",
+   "okf_raw_path": "Статьи/39 Статья_Применение сульфита натрия для осаждения Au из Pt-Pd растворов сложного состава.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:chlorination-solution-of-platinum-palladium-conc",
+   "label": "Chlorination solution of platinum‑palladium concentrates from PJSC \"Norilsk Nickel\"",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-sulfite-solution",
+   "label": "Sodium sulfite solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:раствор-хлорирования",
+   "label": "раствор хлорирования",
+   "family": "solution",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:раствор-na2so3",
+   "label": "раствор Na₂SO₃",
+   "family": "solution",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gold-concentrate-sample",
+   "label": "gold concentrate sample",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:gold-bearing-solution",
+   "label": "gold‑bearing solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:сульфит-натрия",
+   "label": "Сульфит натрия",
+   "family": "reagent",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:na2so3-раствор-250-g-дм3",
+   "label": "Na2SO3 (раствор 250 g/дм³)",
+   "family": "solution",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:39-статья_применение-сульфита-натрия-для-осажден:0",
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "title": "Laboratory precipitation of gold with sodium sulfite",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "Gold precipitation from industrial chloride‑acidic solutions containing platinum‑group metals, selenium, tellurium, copper and other base metals using sodium sulfite as reducer.",
+       "temperature_text": "50‑60 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 323.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chlorination-solution-of-platinum-palladium-conc",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:sodium-sulfite-solution",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:sodium-sulfite-solution",
+     "value": {
+      "min": null,
+      "nominal": 250.0,
+      "max": null
+     },
+     "unit": "g/дм³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "sodium sulfite"
+     },
+     "method": null,
+     "snippet": "раствора сульфита натрия концентрацией 250 г/дм 3",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Практически количественно золото переводится в золотой концентрат при минимальном соосаждении палладия, селена, платины.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "selectivity",
+      "direction": "increases",
+      "factor": "use of sodium sulfite at the crude gold stage",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Применение сульфита натрия на этапе получения чернового золота позволяет перевести практически количественно золото в золотой концентрат при минимальном соосаждении палладия, селена, платины.",
+     "locator_kind": "md_para",
+     "locator": "para:5",
+     "confidence": 0.9
+    },
+    {
+     "text": "В зависимости от условий осаждения возможно практически селективное осаждение золота, либо совместное осаждение золото‑селенового концентрата.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "selectivity",
+      "direction": "decreases",
+      "factor": "deposition conditions",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Установлено, что в зависимости от условий осаждения возможно практически селективное осаждение золота, либо совместное осаждение золото-селенового концентрата.",
+     "locator_kind": "md_para",
+     "locator": "para:5",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Эксперименты проводились в лаборатории гидрометаллургии ООО «Институт Гипроникель» на растворах хлорирования платино‑палладиевых концентратов ПАО «ГМК «Норильский никель»",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-статья_применение-сульфита-натрия-для-осажден:1",
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "title": "Опыт 24‑Au‑1",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Подача раствора сульфита натрия в стеклянный реактор при 50‑60 °C, 7 мин подачи, 0,8 г/г Au (90 % от стехиометрии), последующее выдерживание 1 ч при 50‑60 °C",
+       "temperature_text": "50‑60 °C",
+       "duration_text": "1 ч выдержка после подачи"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 323.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:раствор-хлорирования",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:раствор-na2so3",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "redox_potential",
+     "scope": "material",
+     "material_id": "mat:раствор-na2so3",
+     "value": {
+      "min": null,
+      "nominal": 0.74,
+      "max": null
+     },
+     "unit": "V",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "ОВП, мВ | 740",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Не наблюдается формирования осадка золота (извлечение Au = 0,0 %).",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "no_change",
+      "factor": "0,0",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Извлечение,% | 0,0",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "При подаче сульфита натрия в количестве, близком к стехиометрически необходимому на восстановление золота (0,96 г/г Au, Таблица 2), практически не наблюдается формирования осадка даже при достаточно продолжительной последующей выдержке и значении ОВП системы на уровне 750 мВ.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-статья_применение-сульфита-натрия-для-осажден:2",
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "title": "Опыт 25‑Au‑1",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Подача раствора Na₂SO₃ при 80‑90 °C, 6 мин подачи, 0,7 г/г Au (88 % от стехиометрии)",
+       "temperature_text": "80‑90 °C",
+       "duration_text": "не указано (подача 6 мин)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 353.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:раствор-na2so3",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "redox_potential",
+     "scope": "material",
+     "material_id": "mat:раствор-na2so3",
+     "value": {
+      "min": null,
+      "nominal": 0.747,
+      "max": null
+     },
+     "unit": "V",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "ОВП, мВ | 747",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Незначительное извлечение золота (3,9 %).",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "3,9",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Извлечение,% | 3,9",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "При подаче в раствор почти двухкратного избытка наблюдается восстановление значительной части золота. Причем количество осаждающихся примесей невелико.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-статья_применение-сульфита-натрия-для-осажден:3",
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "title": "Опыт 24‑Au‑2",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Подача Na₂SO₃ при 50‑60 °C, 15 мин подачи, 1,6 г/г Au (180 % от стехиометрии)",
+       "temperature_text": "50‑60 °C",
+       "duration_text": "15 мин подачи"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 323.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:раствор-na2so3",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "redox_potential",
+     "scope": "material",
+     "material_id": "mat:раствор-na2so3",
+     "value": {
+      "min": null,
+      "nominal": 0.725,
+      "max": null
+     },
+     "unit": "V",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "ОВП, мВ | 725",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Извлечение золота 52,6 %, без извлечения Pt, Pd, Se, Te.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "52,6",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Извлечение,% | 52,6",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "По мере увеличения расхода сульфита натрия и падения ОВП наблюдается дальнейшее выделение в осадок золота, однако начинается и активное осаждение и прочих, способных восстанавливаться в этих условиях элементов – селена, палладия, платины, теллура.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-статья_применение-сульфита-натрия-для-осажден:4",
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "title": "Опыт 25‑Au‑2",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Подача Na₂SO₃ при 80‑90 °C, 16 мин подачи, 2,0 г/г Au (176 % от стехиометрии)",
+       "temperature_text": "80‑90 °C",
+       "duration_text": "16 мин подачи"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 353.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:раствор-na2so3",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "redox_potential",
+     "scope": "material",
+     "material_id": "mat:раствор-na2so3",
+     "value": {
+      "min": null,
+      "nominal": 0.712,
+      "max": null
+     },
+     "unit": "V",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "ОВП, мВ | 712",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Извлечение золота 75,0 %, небольшие количества Pt (0,012 %), Pd (0,001 %), Se (0,096 %), Te (0,010 %).",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "75,0",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Извлечение,% | 75,0",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "При подаче в раствор почти двухкратного избытка наблюдается восстановление значительной части золота.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-статья_применение-сульфита-натрия-для-осажден:5",
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "title": "Опыт 22‑Au‑2‑1",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Подача Na₂SO₃ при 50‑60 °C, 10 мин подачи, 2,7 г/г Au (186 % от стехиометрии)",
+       "temperature_text": "50‑60 °C",
+       "duration_text": "10 мин подачи"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 323.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:раствор-na2so3",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "redox_potential",
+     "scope": "material",
+     "material_id": "mat:раствор-na2so3",
+     "value": {
+      "min": null,
+      "nominal": 0.715,
+      "max": null
+     },
+     "unit": "V",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "ОВП, мВ | 715",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Извлечение золота 96,8 %, Pd 0,294 %, Se 2,201 %, Te 0,012 %.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "96,8",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Извлечение,% | 96,8",
+     "locator_kind": "md_para",
+     "locator": "para:20",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "По мере увеличения расхода сульфита натрия и падения ОВП наблюдается дальнейшее выделение в осадок золота, однако начинается и активное осаждение и прочих, способных восстанавливаться в этих условиях элементов – селена, палладия, платины, теллура.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-статья_применение-сульфита-натрия-для-осажден:6",
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "title": "Laboratory precipitation experiments (series 22‑Au)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "reduction of gold from solution with sodium sulfite"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gold-concentrate-sample",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "OVP (mV)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 729.0,
+      "max": null
+     },
+     "unit": "mV",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "22‑Au‑1‑1 | 729 | 18 | 1,8 | 4,01 | 0,031 | 0,038 | Осн. | 0,0017 | 0,037 | Au0",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Na2SO3 addition (min)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 18.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "22‑Au‑1‑1 | 729 | 18 | 1,8 | 4,01 | 0,031 | 0,038 | Осн. | 0,0017 | 0,037 | Au0",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "22‑Au‑1‑1 | 729 | 18 | 1,8 | 4,01 | 0,031 | 0,038 | Осн. | 0,0017 | 0,037 | Au0",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.01,
+      "max": null
+     },
+     "unit": "g/dm³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "gold residual"
+     },
+     "method": null,
+     "snippet": "22‑Au‑1‑1 | 729 | 18 | 1,8 | 4,01 | 0,031 | 0,038 | Осн. | 0,0017 | 0,037 | Au0",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "В начале осаждения, при подаче сульфита натрия с двукратным избытком по сравнению с требуемым на осаждение золота количестве, основу пробы составляет металлическое золото, представленное чешуйчатыми тончайшими частицами (Рисунок 4, Рисунок 5).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "initial precipitate composition",
+      "direction": "increases",
+      "factor": "Na2SO3 excess",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В начале осаждения, при подаче сульфита натрия с двукратным избытком по сравнению с требуемым на осаждение золота количестве, основу пробы составляет металлическое золото, представленное чешуйчатыми тончайшими частицами (Рисунок 4, Рисунок 5).",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    },
+    {
+     "text": "по мере увеличения количества поданного восстановителя, помимо металлического золота в материале появляются частицы типа Pd‑Cl‑Se, состав которых четко воспроизводится по объему пробы.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "qualitative_observation",
+      "direction": "increases",
+      "factor": "Na2SO3 amount",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "по мере увеличения количества поданного восстановителя, помимо металлического золота в материале появляются частицы типа Pd‑Cl‑Se, состав которых четко воспроизводится по объему пробы.",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.81
+    },
+    {
+     "text": "Последующее повышение расхода сульфита натрия приводит сначала к обогащению их платиной и теллуром, а затем и к появлению новой составляющей Pd‑Pt‑Cl‑Se‑Te.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "formation of Pd‑Pt‑Cl‑Se‑Te",
+      "direction": "increases",
+      "factor": "Na2SO3 consumption",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Последующее повышение расхода сульфита натрия приводит сначала к обогащению их платиной и теллуром, а затем и к появлению новой составляющей Pd‑Pt‑Cl‑Se‑Te.",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Исследование вещественного состава образцов проводилось на рентгеновском дифрактометре ДРОН-8, аналитическом комплексе на базе сканирующего двулучевого электронно-ионного микроскопа TESCAN LYRA3GMH.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-статья_применение-сульфита-натрия-для-осажден:7",
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "title": "Pilot‑scale (experience‑industrial) tests at Kola GMK",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "scale‑up of laboratory precipitation using sodium sulfite on the research site of the scientific‑technical centre of JSC «Kola GMK»"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:gold-bearing-solution",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Опытно промышленные эксперименты проводили на исследовательском участке научно‑технического центра АО «Кольская ГМК» (ИУ НТЦ) командой специалистов ИГН и ООО «Институт Гипроникель»; их целью было подтверждение данных лабораторных испытаний в условиях масштабного переноса.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "validation of laboratory results",
+      "direction": "increases",
+      "factor": "scale‑up",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Опытно промышленные эксперименты проводили на исследовательском участке научно‑технического центра АО «Кольская ГМК» (ИУ НТЦ) командой специалистов ИГН и ООО «Институт Гипроникель»; их целью было подтверждение данных лабораторных испытаний в условиях масштабного переноса.",
+     "locator_kind": "md_para",
+     "locator": "para:37",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Опытно‑промышленные испытания",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:39-статья_применение-сульфита-натрия-для-осажден:8",
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "title": "Опытно‑промышленные испытания осаждения золота сульфитом натрия",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "Осаждение золота из платино‑палладиевых растворов, полученных при гидрохлорировании платино‑палладиевых концентратов ПАО «ГМК «Норильский Никель»",
+       "temperature_text": "70‑80 °C",
+       "duration_text": "общее время процесса не менее 4,5 ч; выдержка пульпы после введения восстановителя не менее 2 ч"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 343.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:сульфит-натрия",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:na2so3-раствор-250-g-дм3",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.00061,
+      "max": null
+     },
+     "unit": "г/дм³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "остаточное  золота в растворе"
+     },
+     "method": null,
+     "snippet": "Результаты опытно‑промышленных испытаний показали, что существует реальная возможность глубокого осаждения золота сульфитом натрия – до остаточного содержания в растворе 0,00061- 0,0013 г/дм³.",
+     "locator_kind": "md_para",
+     "locator": "para:54",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.88,
+      "max": null
+     },
+     "unit": "г/дм³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "остаточное  золота в растворе"
+     },
+     "method": null,
+     "snippet": "Однако этих данных не во всех экспериментах удалось ее достичь – в ряде случаев оно составляло 0,88 г/дм³.",
+     "locator_kind": "md_para",
+     "locator": "para:54",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.7,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "В оптимальных условиях обеспечивается извлечение в золотой концентрат 99,7-99,8 % Au.",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 45.0,
+      "max": null
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "остаточное  золота в растворе"
+     },
+     "method": null,
+     "snippet": "что соответствует остаточному содержанию в растворе 45 мг/дм³ и ниже",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:сульфит-натрия",
+     "value": {
+      "min": null,
+      "nominal": 1.54,
+      "max": null
+     },
+     "unit": "г/г Au",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "сульфита натрия"
+     },
+     "method": null,
+     "snippet": "Расход сульфита натрия на осаждение золота, как и в лабораторных экспериментах, составил от 1,54 12,32 г/г Au",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Для глубокого осаждения золота необходимо поддерживать ОВП системы менее 600 мВ и выдержку пульпы не менее 2 ч, а общую продолжительность процесса не менее 4,5 ч.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "ОВП и время выдержки",
+      "direction": "increases",
+      "factor": "глубина осаждения",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Время выдержки пульпы после окончания введения восстановителя должно составлять не менее двух часов, при общей продолжительности процесса не менее 4,5 часов, которая включает в себя время нагрева, корректировки рН (при необходимости) и введения восстановителя.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Опытно промышленные эксперименты проводили на исследовательском участке научно‑технического центра АО «Кольская ГМК» (ИУ НТЦ) командой специалистов ИГН и ООО «Институт Гипроникель»",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Сульфит натрия обеспечивает полноту и селективность осаждения золота из промышленных солянокислых растворов, содержащих примеси металлов платиновой группы, селена, теллура, меди и других неблагородных металлов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "completeness and selectivity",
+    "direction": "increases",
+    "factor": "use of sodium sulfite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "сульфитом натрия, обеспечивающим полноту и селективность осаждения.",
+   "locator_kind": "md_para",
+   "locator": "para:5",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Сульфит натрия промышленно реализовано на АО «Уралэлектромедь» при осаждении аффинированного золота.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "industrial use",
+    "direction": "increases",
+    "factor": "sodium sulfite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "применение пиросульфита натрия промышленно реализовано на АО «Уралэлектромедь» при осаждении аффинированного золота",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Гидразин, сернистый газ, сульфит или гидросульфит натрия, сульфат железа (II), сахар, спирт, гидрохинон, нитрит натрия, щавелевая кислота, металлы (железный порошок) применялись для осаждения как чернового, так и аффинированного золота.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reducing agents used",
+    "direction": "increases",
+    "factor": "various reducers",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в промышленной практике аффинажа драгоценных металлов для осаждения как чернового, так и аффинированного золота применялись(-ются) такие восстановители, как гидразин, сернистый газ, сульфит или гидросульфит натрия, сульфат железа (II), сахар, спирт, гидрохинон, нитрит натрия, щавелевая кислота, металлы (железный порошок)",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.81,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Полнота осаждения золота одновременно с низким соосаждением металлов платиновой группы и примесей обеспечивается применением гидрохинона, нитрита натрия, щавелевой кислоты.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "completeness and impurity co‑precipitation",
+    "direction": "increases",
+    "factor": "use of hydroquinone, sodium nitrite, or oxalic acid",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Полнота осаждения золота одновременно с низким соосаждением металлов платиновой группы и примесей обеспечивается применением гидрохинона, нитрита натрия, щавелевой кислоты",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Применение гидрохинона и нитрита натрия требует дополнительной подготовки раствора, стабилизации pH в узком диапазоне и соблюдения других параметров.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operational constraints",
+    "direction": "decreases",
+    "factor": "use of hydroquinone or sodium nitrite",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Применение гидрохинона и нитрита натрия требуют дополнительной подготовки раствора к осаждению золота, стабилизации рН в узком диапазоне и четкого соблюдения других параметров",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Щавелевая кислота может применяться в относительно кислых растворах, загрязненных металлами платиновой группы и неблагородных металлов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "use of oxalic acid",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Щавелевая кислота отличается невысокой растворимостью, но менее требовательна к условиям осаждения – ее применение возможно в относительно кислых растворах, загрязненных металлами платиновой группы и неблагородных металлов",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Значение окислительно‑восстановительного потенциала системы определяется исключительно количеством поданного восстановителя, но не скоростью его подачи.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "redox_potential",
+    "direction": "no_change",
+    "factor": "quantity_of_reductant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "значение окислительно‑восстановительного потенциала системы определяется исключительно количеством поданного восстановителя, но не скоростью его подачи",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.81,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": null
+  },
+  {
+   "text": "Глубина осаждения металлов от параметра – скорости ввода восстановителя – зависит весьма сильно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "глубина_осаждения",
+    "direction": "increases",
+    "factor": "скорость_ввода_восстановителя",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Глубина же осаждения металлов от параметра – скорости ввода восстановителя – зависит весьма сильно",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Методика эксперимента позволяла оценить влияние расхода восстановителя на полноту и последовательность осаждения, а не только кинетику осаждения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "полнота_осаждения",
+    "direction": "no_change",
+    "factor": "расход_восстановителя",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Подобная методика эксперимента позволяла оценить не столько кинетику осаждения компонентов раствора, сколько влияние расхода восстановителя на полноту и последовательность осаждения",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": null
+  },
+  {
+   "text": "При подаче сульфита натрия в количестве, близком к стехиометрически необходимому на восстановление золота (0,96 г/г Au), практически не наблюдается формирования осадка даже при ОВП ≈ 750 мВ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "образование_осадка",
+    "direction": "decreases",
+    "factor": "0,96 г/г Au",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При подаче сульфита натрия в количестве, близком к стехиометрически необходимому на восстановление золота (0,96 г/г Au, Таблица 2), практически не наблюдается формирования осадка даже при достаточно продолжительной последующей выдержке и значении ОВП системы на уровне 750 мВ",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "При почти двойном избытке сульфита натрия наблюдается восстановление значительной части золота, а количество осаждающихся примесей невелико.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "≈2 × стехиометрия",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При подаче в раствор почти двухкратного избытка наблюдается восстановление значительной части золота. Причем количество осаждающихся примесей невелико",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": null
+  },
+  {
+   "text": "С увеличением расхода сульфита натрия и падением ОВП начинается активное осаждение селена, палладия, платины и теллура.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "расход_сульфита_натрия",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по мере увеличения расхода сульфита натрия и падения ОВП наблюдается дальнейшее выделение в осадок золота, однако начинается и активное осаждение и прочих, способных восстанавливаться в этих условиях элементов – селена, палладия, платины, теллура",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.81,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Окислительно‑восстановительный потенциал системы (ОВП) определяется уравнением реакции 1, поэтому первым осаждается золото.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "порядок_осаждения",
+    "direction": "increases",
+    "factor": "ОВП",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Исходя из значений ОВП систем (уравнение реакции 1) первым должно осаждаться золото",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": null
+  },
+  {
+   "text": "Изучение взаимосвязи между извлечением компонентов в осадок и условиями осаждения дает слабое представление о химизме процесса.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "understanding of chemistry",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Изучение взаимосвязи между извлечением компонентов в осадок и условиями осаждения дает слабое представление о химизме процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Таким образом, при восстановительной обработке растворов гидрохлорирования сложного состава сульфитом натрия наблюдается последовательное восстановление золота, селена и палладия с образованием двойных солей (селенид‑хлорид палладия), а затем теллура и платины (селенотеллурид‑хлорид платины‑палладия).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sequential reduction of Au, Se, Pd, then Te and Pt",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Таким образом, при восстановительной обработке растворов гидрохлорирования сложного состава сульфитом натрия наблюдается последовательное восстановление золота, селена и палладия с образованием двойных солей (селенид‑хлорид палладия), а затем теллура и платины (селенотеллурид‑хлорид платины‑палладия).",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.81,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": null
+  },
+  {
+   "text": "Образцы золотых концентратов представлены всего тремя составляющими в различных соотношениях – элементарным золотом и двумя типами образований общей формулой PdPt k Cl L Se m Te n .",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Образцы золотых концентратов представлены всего тремя составляющими в различных соотношениях – элементарным золотом и двумя типами образований общей формулой PdPt k Cl L Se m Te n .",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.81,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": null
+  },
+  {
+   "text": "Значение ОВП системы должно быть менее 600 мВ, иначе снижается глубина осаждения золота.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ОВП системы",
+    "direction": "decreases",
+    "factor": "глубина осаждения",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "помимо ОВП системы, значение которого должно быть менее 600 мВ, определяющим фактором является продолжительность процесса",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Для снижения расхода сульфита натрия и более тонкого управления процессом необходима тщательная дегазация пульпы после окончания гидрохлорирования при кипячении 2‑3 ч.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "дегазация пульпы",
+    "direction": "increases",
+    "factor": "управляемость процесса",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для его снижения и возможности более тонкого управления процессом необходима тщательная дегазация пульпы после окончания процесса гидрохлорирования при кипячении пульпы (раствора) в течение 2-3 часов.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Расход сульфита натрия оказался выше стехиометрии (0,96 г/г Au), что приводит к соосаждению примесей.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "соосаждение примесей",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Расход сульфита натрия на осаждение золота, как и в лабораторных экспериментах, составил от 1,54 12,32 г/г Au, оказался выше стехиометрии (0,96 г/г Au), что привело к снижению содержания золота в концентрате за счет соосаждения примесей",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "При дозированной подаче небольшого избытка восстановителя в дегазированный раствор хлорирования из растворов, содержащих ≥10 г/дм³ золота, выделяется основной золотой концентрат с долями примесей в пределах долей процента.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "доза восстановителя",
+    "direction": "increases",
+    "factor": "чистота концентрата",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При работе с достаточно богатыми по золоту растворами, содержащими 10 и более г/дм³ золота, при дозированной подаче незначительного избытка восстановителя в прошедший дегазацию раствор хлорирования удается выделить основную часть золота в виде богатого концентрата, содержащего незначительные (доли процента) количества примесей.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.81,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "Увеличение расхода восстановителя до уровня, при котором ОВП системы падает до 700‑750 мВ и ниже, приводит к последовательному выделению палладия, селена, платины и теллура в виде двойных солей.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "выделение сопутствующих металлов",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При дальнейшем увеличении расхода восстановителя, сопровождающемся снижением ОВП системы до 700-750 мВ и ниже, происходит последовательное выделение из раствора палладия и селена, а также платины и теллура в виде сложных двойных солей – халькогенидов-хлоридов.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  },
+  {
+   "text": "В оптимальных условиях содержание платины в золотом концентрате составляет около 2 %, палладия – 9 %, а извлечение остальных металлов‑спутников платины менее 1 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "чистота золота",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в порядке 2 % платины, 9 % палладия и крайне незначительное извлечение металлов‑спутников платины – менее 1 %.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.81,
+   "document_id": "doc:39-статья_применение-сульфита-натрия-для-осажден",
+   "process": "precipitation"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

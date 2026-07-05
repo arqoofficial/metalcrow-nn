@@ -1,0 +1,48 @@
+---
+description: Use Pydantic BaseModel for all data definitions, not dataclasses
+globs: **/*.py
+alwaysApply: true
+---
+
+# Data definitions: Pydantic BaseModel only
+
+Use `pydantic.BaseModel` for all structured data in this project. Do **not** use `@dataclass`, `NamedTuple`, or plain dicts as typed data carriers.
+
+## Applies to
+
+- API request/response bodies (see `docs/LAYER_PRESENTATION.md`)
+- Service-layer DTOs passed between layers
+- Queue job payloads (Redis)
+- Configuration objects loaded from env/files
+- Any schema that crosses a module or process boundary
+
+## Required pattern
+
+```python
+from pydantic import BaseModel, Field
+
+class ProcessRequest(BaseModel):
+    path: str = Field(..., description="Relative path, e.g. reports/2024/q1.pdf")
+    enforce: bool = False
+```
+
+## Do not use
+
+```python
+from dataclasses import dataclass
+
+@dataclass
+class ProcessRequest:
+    path: str
+    enforce: bool = False
+```
+
+## Enums and validation
+
+- Use `enum.Enum` (or `str, Enum`) for fixed sets of values
+- Use `Field(...)` for descriptions and constraints
+- Colocate API schemas in `app/presentation/schemas.py` unless a layer-specific module is justified
+
+## Exceptions
+
+None for new code. When touching existing dataclass-based code, convert to `BaseModel` as part of the change.

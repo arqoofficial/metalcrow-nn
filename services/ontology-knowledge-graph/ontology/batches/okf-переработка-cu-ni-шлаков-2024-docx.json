@@ -1,0 +1,823 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "title": "Переработка Cu-Ni шлаков (2024).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Переработка Cu-Ni шлаков (2024).docx.md",
+   "artifact_sha256": "6cedda7af271642f6fab048a0071109dfde07c37fa709a8f1e974bb811948b77",
+   "okf_raw_path": "Обзоры/Переработка Cu-Ni шлаков (2024).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:granulated-slag-from-concentrate-smelting-in-ep",
+   "label": "Granulated slag from concentrate smelting in EP",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:granulated-slag-from-de-slagging-furnace",
+   "label": "Granulated slag from de‑slagging furnace",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:granulated-furnace-slag",
+   "label": "Granulated furnace slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:granulated-converter-slag",
+   "label": "Granulated converter slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:granulated-slag-1999-2002-batch",
+   "label": "Granulated slag (1999‑2002 batch)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:vп-slag",
+   "label": "VП slag",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:n-butylxanthogenate-of-potassium-pnbx",
+   "label": "n‑butylxanthogenate of potassium (PNBX)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:n-propylxanthogenate-of-sodium-snpx",
+   "label": "n‑propylxanthogenate of sodium (SNPX)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:methyl-ether-of-propylene-glycol-fuj-6",
+   "label": "Methyl ether of propylene glycol (FUJ 6)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:methyl-ether-of-propylene-glycol-fuj-8",
+   "label": "Methyl ether of propylene glycol (FUJ 8)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:tfb-285-presumed-higher-alcohols",
+   "label": "TFB 285 (presumed higher alcohols)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dowfroth-200",
+   "label": "Dowfroth 200",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-naphthalenesulfonate-condensate-duj-16",
+   "label": "Sodium naphthalenesulfonate condensate (DUJ 16)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:переработка-cu-ni-шлаков-2024-docx:0",
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "title": "Industrial flotation of AngloPlat slags",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "Granulated slag fed as 33% solid pulp to two 30 m³ Outotec cylindrical flotation machines with mechanical mixing; residence time ~0.8 h; reagents: SIBX sodium isobutyl xanthate collector and polyglycol ether frother",
+       "temperature_text": "not specified",
+       "duration_text": "~0,8 часа"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:granulated-slag-from-concentrate-smelting-in-ep",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:granulated-slag-from-de-slagging-furnace",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:granulated-slag-from-concentrate-smelting-in-ep",
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "PGM"
+     },
+     "method": null,
+     "snippet": "Извлечение МПГ из шлака в концентрат, % ~60% для плавильного шлака, 80+: для шлака из обеднительной ЭП",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Concentrate (foam) is thickened, filtered and sent to smelting together with primary concentrate; tails are thickened and sent to tail storage.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Сбор концентрата сгущают, фильтруют и отправляют на плавку вместе с первичным рудным концентратом. Хвосты флотации из последней камеры поступают на сгущение и далее в хвостохранилище.",
+     "locator_kind": "md_para",
+     "locator": "para:93",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Флотационное оборудование включает: две цилиндрические механические флотомашины Outotec по 30 м 3 ; семь кубических механических флотомашины по 8 м 3 , установленных последовательно. Сырье подается в виде пульпы с 33% твердого, выдержка – около 0,8 часа. В качестве собирателя используют изобутиловый ксантогенат натрия, вспенивателя – полигликолевый эфир.",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-cu-ni-шлаков-2024-docx:1",
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "title": "Lonmin granulation‑flotation line",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Two separate granulation lines for furnace and converter slags; granulated slags mixed, milled in a ball mill and floated",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:granulated-furnace-slag",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:granulated-converter-slag",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:granulated-slag-from-concentrate-smelting-in-ep",
+     "value": {
+      "min": null,
+      "nominal": 85.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "PGM"
+     },
+     "method": null,
+     "snippet": "Извлечение МПГ в концентрат – около 85%.",
+     "locator_kind": "md_para",
+     "locator": "para:94",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "У компании Lonmin есть две отдельные линии грануляции – для печного и конвертерного шлаков. Гранулированные шлаки смешивают, измельчают в шаровой мельнице и флотируют.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-cu-ni-шлаков-2024-docx:2",
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "title": "Effect of cooling rate on nickel extraction from PGM slags (Waterval plant)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Samples of granulated slag collected from scraper classifiers (fast cooling) and also from ladle and spoon (slow cooling) in 2000 and repeated in 2003; chemical analysis performed (bulk composition and SEM‑EDS)",
+       "temperature_text": "fast cooling (granulation with water) vs. slow cooling (ladle/spoon)",
+       "duration_text": "sampling years 2000 and 2003"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:granulated-slag-1999-2002-batch",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Bulk composition Ni (mass%)",
+     "scope": "material",
+     "material_id": "mat:granulated-slag-from-concentrate-smelting-in-ep",
+     "value": {
+      "min": null,
+      "nominal": 0.17,
+      "max": null
+     },
+     "unit": "mass%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "F1 1999 … Ni 0,17 … F2 1999 … Ni 0,15 … F1 2002 … Ni 0,08 … F2 2002 … Ni 0,07",
+     "locator_kind": "md_para",
+     "locator": "para:89",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "NiO in glass phase",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.2,
+      "max": null
+     },
+     "unit": "mass%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Содержание никеля в этой фазе – 0,2-0,3 масс% NiO.",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Cr2O3 in primary chromite spinel",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 68.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Содержание хрома в нем (68-70% Cr 2 O 3 ) гораздо выше, чем в хромите сырья (41-44% Cr 2 O 3 ).",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Ni in that spinel",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.1,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Содержание никеля в шпинели такого типа составляет 0,1-0,2%.",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The majority of nickel in the slag is chemically bound to the glass phase rather than to captured matte.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "nickel distribution",
+      "direction": "increases",
+      "factor": "glass phase",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "По результатам РСМА и валового химического анализа авторы сделали вывод о том, что основная масса никеля в шлаке в сущности «химически связана» с фазой стекла, а не с захваченным штейном.",
+     "locator_kind": "md_para",
+     "locator": "para:106",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В работе [2] предпринята попытка выявить влияние некоторых факторов на извлечение никеля из шлаков от плавки МПГ-руд. На упомянутом выше плавильном заводе Waterval компании Anglo Platinum шлаки, гранулируют водой, загружают в скребковые классификаторы, затем измельчают и отправляют на флотацию с целью доизвлечения МПГ и базовых металлов. Грануляция – это, можно сказать, быстрое охлаждение.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:переработка-cu-ni-шлаков-2024-docx:3",
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "title": "Laboratory flotation of VП slag",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "flotation",
+      "extra": {
+       "raw_process": "flotation",
+       "temperature_text": "not specified (ambient 18‑20 °C pulp temperature, 104 °C gas temperature in related section)",
+       "duration_text": "24 minutes flotation, concentrate collected at 2‑minute intervals"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 291.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:vп-slag",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:n-butylxanthogenate-of-potassium-pnbx",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:n-propylxanthogenate-of-sodium-snpx",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:methyl-ether-of-propylene-glycol-fuj-8",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:tfb-285-presumed-higher-alcohols",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:dowfroth-200",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:sodium-naphthalenesulfonate-condensate-duj-16",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pulp density",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 36.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Плотность пульпы 36-37% твердого, выдержка при флотации 24 минуты.",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "rotor speed",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1200.0,
+      "max": null
+     },
+     "unit": "rpm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Флотацию вели в лабораторной флотомашине Wemco на 2,2 л с ротором, установленным на 1200 об/мин.",
+     "locator_kind": "md_para",
+     "locator": "para:133",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 81.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Флотация идет быстро и легко достигается целевой показатель: сортность 3,5% Ni при извлечении 81-85% в условиях: 60 г/т CUJ 6 и FUJ 6, также 90 г/т CUJ 6 и FUJ 6.",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Ni recovery (>50% of Ni‑bearing minerals)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 50.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Несмотря на низкое содержание серы в шлаке (примерно 2,60%), в большинстве случаев было достигнуто извлечение >50% никельсодержащих минералов.",
+     "locator_kind": "md_para",
+     "locator": "para:137",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Flotation can achieve a concentrate grade of 3.5 % Ni with 81‑85 % extraction under the tested reagent dosages.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "grade and extraction",
+      "direction": "increases",
+      "factor": "reagent dosage",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Флотация идет быстро и легко достигается целевой показатель: сортность 3,5% Ni при извлечении 81-85% в условиях: 60 г/т CUJ 6 и FUJ 6, также 90 г/т CUJ 6 и FUJ 6.",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Флотация идет быстро и легко достигается целевой показатель: сортность 3,5% Ni при извлечении 81-85% в условиях: 60 г/т CUJ 6 и FUJ 6, также 90 г/т CUJ 6 и FUJ 6.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Granulated slag particles are black, glassy, rounded granules typically 200 µm to 3 mm in diameter.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Гранулированный шлак представляет собой черные, стекловидные, закругленные гранулы; обычно они имеют размер от 200 мкм до 3 мм в диаметре.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Approximately 98‑99% of the granulated slag is glassy phase, with matte plus spinels accounting for up to 1‑2% by weight.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Все пробы – на 98-99% из стекловидной фазы, на штейн плюс шпинели приходится до 1-2% от веса пробы.",
+   "locator_kind": "md_para",
+   "locator": "para:102",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Nickel in the glass phase is present at 0.2‑0.3 mass% NiO.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Содержание никеля в этой фазе – 0,2-0,3 масс% NiO.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Primary recrystallized chromite spinel in the granulated slag contains 68‑70% Cr2O3 and 0.1‑0.2% Ni.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Содержание хрома в нем (68-70% Cr 2 O 3 ) гораздо выше, чем в хромите сырья (41-44% Cr 2 O 3 ). Содержание никеля в шпинели такого типа составляет 0,1-0,2%.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Other spinel types (magnetite, partially assimilated feed, refractory chromite) contain no noticeable nickel.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Ни в одной такой шпинели не содержится заметных количеств никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Platinum‑group metal extraction is the primary interest of platinum companies, while base metals receive much less attention due to their relatively low content.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Заметим, что платиновые компании интересует, в первую очередь, извлечение МПГ из шлаков, гораздо меньше внимания уделяется базовым металлам, тем более, что их содержание сравнительно низкое.",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "The VП slag processing line at Selebi‑Phikwe (BCL, Botswana) uses a two‑electric‑furnace cascade of 2.5 MW with coal addition to reduce Ni in the slag to 0.24 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "electric furnace cascade",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Содержание никеля в шлаке ВП в результате переработки в каскаде из двух электропечей на 2,5 М Вт с добавкой кускового угля снижается до 0,24%.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Economic evaluation indicated a slight advantage of the flotation variant over the conventional pyrometallurgical route.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "flotation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оценка экономической эффективности, сделанная авторами, показала некоторое преимущество варианта с флотацией шлака ВП.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "Jet flotation with a steam‑air mixture is proposed for processing dump or furnace slags at the Norilsk Nickel plant, where about 0.85 Mt of slag per year are generated.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "steam‑air mixture",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В работе [5] предлагается применять струйную флотацию в сочетании с паровоздушной смесью для переработки вкрапленных руд или отвальных шлаков, т.е. в аппарат идеального втеснения – флотомашину колонного типа в качестве газовой смеси подают смесь воздуха с горячим водяным паром (t г =104°С, ρ г =0,12-0,15 МПа).",
+   "locator_kind": "md_para",
+   "locator": "para:142",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": "flotation"
+  },
+  {
+   "text": "Base technology for the same slags yields a collective concentrate with ~1.5 % Ni and 12.6 % Cu, extracting 46 % of Ni and 78 % of Cu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "decreases",
+    "factor": "base technology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По базовой технологии коллективный концентрат содержал ~1,5% Ni 12,6% Cu; извлечение меди в концентрат ~78%, никеля – только 46%.",
+   "locator_kind": "md_para",
+   "locator": "para:155",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "В типичном случае около 30 кг кокса расходуется на 1 т шлака.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "coke consumption",
+    "direction": "increases",
+    "factor": "coke",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В типичном случае около 30 кг кокса расходуется на 1 т шлака.",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Шлак ВП (до обеднения) содержит около 5% ценных металлов, 15% магнетита и мало серы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "composition of VП slag",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Шлак ВП (до обеднения) содержит около 5% ценных металлов, 15% магнетита и мало серы",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "в процессе DON около 77% кобальта из никелевого концентрата уходит в шлак.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cobalt distribution",
+    "direction": "increases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в процессе DON около 77% кобальта из никелевого концентрата уходит в шлак",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "при обеднении шлака примерно половина кобальта в ВП-шлаке извлекается в ЭП-штейн.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cobalt recovery",
+    "direction": "increases",
+    "factor": "depletion",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при обеднении шлака примерно половина кобальта в ВП-шлаке извлекается в ЭП-штейн",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "в зависимости от сырья конечный ЭП-штейн может содержать 50% Ni.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "raw material",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в зависимости от сырья конечный ЭП-штейн может содержать 50% Ni",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "Восстановители на основе биоуглей уже рассматривались в качестве перспективной альтернативы углю и коксу в различных восстановительных процессах, включая выплавку чугуна/стали – это то, что называется, «горячей точкой» в исследованиях.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "use of bio‑char based reducers",
+    "direction": "increases",
+    "factor": "sustainability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Восстановители на основе биоуглей уже рассматривались в качестве перспективной альтернативы углю и коксу в различных восстановительных процессах, включая выплавку чугуна/стали – это то, что называется, «горячей точкой» в исследованиях.",
+   "locator_kind": "md_para",
+   "locator": "para:205",
+   "confidence": 0.9,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  },
+  {
+   "text": "в 2016 г ~50% произведенного кобальта было израсходовано для получения химикатов для батарей",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "cobalt consumption for battery chemicals",
+    "direction": "increases",
+    "factor": "year 2016",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2016 г ~50% произведенного кобальта было израсходовано для получения химикатов для батарей",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.81,
+   "document_id": "doc:переработка-cu-ni-шлаков-2024-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

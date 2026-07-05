@@ -1,0 +1,1123 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "title": "6 Влияние различных факторов на окисление железа, часть 2 v3.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\6 Влияние различных факторов на окисление железа, часть 2 v3.docx.md",
+   "artifact_sha256": "67dd9520305a76e298aa4efc668b03ccaaff6f7466679075e055ae086b04f34a",
+   "okf_raw_path": "Статьи/6 Влияние различных факторов на окисление железа, часть 2 v3.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:Ni",
+   "label": "Ni",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Cl",
+   "label": "Cl",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:SO4",
+   "label": "SO4",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fe",
+   "label": "Fe",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:na",
+   "label": "Na",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:Cu",
+   "label": "Cu",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ni-хлорид-сульфатныи-электролит",
+   "label": "Ni‑хлорид‑сульфатный электролит",
+   "family": "solution",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nacl",
+   "label": "NaCl",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:hcl",
+   "label": "HCl",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cu-as-cucl-complexes",
+   "label": "Cu (as CuCl complexes)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fe2",
+   "label": "Fe2+",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fe3-from-fecl3-fe2-so4-3-mixture",
+   "label": "Fe3+ (from FeCl₃/Fe₂(SO₄)₃ mixture)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:6-влияние-различных-факторов-на-окисление-железа:0",
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "title": "Базовый лабораторный опыт",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Окисление Fe2+ в 1‑л стеклянном стакане при механическом перемешивании и подаче газовой смеси",
+       "temperature_text": "80 °C",
+       "duration_text": "1 ч"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 353.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:Ni",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:Cl",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:SO4",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:fe",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:na",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:Cu",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:fe",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "окисления fe2+"
+     },
+     "method": null,
+     "snippet": "зависимости доли окисленного за 1 ч Fe 2+ от его исходного количества в растворах",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "В базовом опыте использовались условия: 935 об/мин мешалки; 40 % O2 в подаваемой КВС; расход – 2 л/мин; pH = 1,6; температура 80 °C; состав раствора: 200‑220 г/дм³ Ni; 250‑260 г/дм³ Cl; 35‑40 г/дм³ SO4; 8‑10 г/дм³ Fe; 8‑10 г/дм³ Na; 0,85‑0,95 г/дм³ Cu.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "условия базового опыта",
+      "direction": "increases",
+      "factor": "none",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Условия базового (нулевого) опыта:\n- 935 об/мин мешалки; - 40% О 2 в подаваемой КВС; расход – 2 л/мин - pH раствора = 1,6; - Температура раствора - 80 о С; - Состав раствора: 200-220 г/дм 3 Ni; 250-260 г/дм 3 Cl; 35-40 г/дм 3 SO 4 ; 8-10 г/дм 3 Fe; 8-10 г/дм 3 Na; 0,85-0,95 г/дм 3 Cu.",
+     "locator_kind": "md_para",
+     "locator": "para:16",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Продолжительность опытов составляла 1 ч, каждые 10 минут отбирались пробы раствора на химический анализ, каждые 5 мин. регистрировались значения pH, ОВП.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:6-влияние-различных-факторов-на-окисление-железа:1",
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "title": "Серия опытов с различными составами растворов (разные ионные силы и соотношения Cl‑/SO4‑2)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Измерение доли окисленного Fe2+ за 1 ч при разных массовых соотношениях Cl‑/SO4‑2 и разных ионных силах",
+       "temperature_text": "80 °C (фиксировано)",
+       "duration_text": "1 ч"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 353.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ni-хлорид-сульфатныи-электролит",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "phase_fraction",
+     "scope": "material",
+     "material_id": "mat:fe",
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "зависимости доли окисленного за 1 ч Fe 2+ от его исходного количества в растворах с различным массовым соотношением концентраций Cl - и SO 4 2- (ось абсцисс) и ионной силой раствора (подписи точек, моль/дм 3 )",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Скорость окисления железа действительно находится в прямой зависимости от растворимости кислорода в растворе.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "flow_rate",
+      "direction": "increases",
+      "factor": "растворимость кислорода",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Скорость окисления железа, по-видимому, действительно находится в прямой зависимости от растворимости кислорода в растворе.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.9
+    },
+    {
+     "text": "Скорость окисления железа зависит от ионной силы раствора (или растворимости кислорода).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "flow_rate",
+      "direction": "increases",
+      "factor": "ионная сила",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "показывают зависимость скорости окисления железа от ионной силы раствора (или, как было показано на рисунке 3, растворимости кислорода).",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Была проведена серия опытов с различными составами растворов с точки зрения общей ионной силы и соотношения сульфат- и хлорид-ионов в системе.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:6-влияние-различных-факторов-на-окисление-железа:2",
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "title": "Effect of chloride ion concentration on iron oxidation rate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory experiments measuring iron oxidation speed at varying ionic strengths and chloride/sulfate ratios",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:nacl",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:hcl",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Higher chloride ion concentration enhances iron oxidation rate, while higher sulfate ion proportion suppresses it.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "iron oxidation rate",
+      "direction": "increases",
+      "factor": "Cl‑ concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при одинаковой ионной силе раствора скорость окисления железа тем выше, чем больше в нем хлорид-иона",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Из графика 5.б) ясно видно, что при одинаковой ионной силе раствора скорость окисления железа тем выше, чем больше в нем хлорид-иона (и, соответственно, меньше сульфат-иона).",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:6-влияние-различных-факторов-на-окисление-железа:3",
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "title": "Influence of copper concentration on iron oxidation rate",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory experiments varying Cu concentration from 0 to 3.5 g/dm³ and measuring iron oxidation speed",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cu-as-cucl-complexes",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "depth of iron oxidation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "первоначальная добавка меди (оранжевая линия) в раствор в количестве 0,25 г/дм³ приводит к резкому повышению глубины окисления железа практически в 4 раза",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "iron oxidation rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.25,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Дальнейший рост (синяя линия) скорости окисления линеен в диапазоне 0,25‑3,5 г/дм³",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Copper acts as a mediator, and its concentration linearly accelerates iron oxidation after an initial threshold.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "iron oxidation rate",
+      "direction": "increases",
+      "factor": "Cu concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Дальнейший рост (синяя линия) скорости окисления линеен в диапазоне 0,25‑3,5 г/дм³",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Из рисунка 6 видно, что первоначальная добавка меди (оранжевая линия) в раствор в количестве 0,25 г/дм³ приводит к резкому повышению глубины окисления железа практически в 4 раза, что уже неоднократно отмечалось исследователями ранее [12, 15].",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:6-влияние-различных-факторов-на-окисление-железа:4",
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "title": "Cu concentration series – depth of Fe2+ oxidation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidation of Fe2+ in nickel chloride‑sulfate solutions with added Cu",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:Cu",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:fe2",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "time_duration",
+     "scope": "material",
+     "material_id": "mat:Cu",
+     "value": {
+      "min": null,
+      "nominal": 107.58,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reach oxidation depth α = 50 %"
+     },
+     "method": null,
+     "snippet": "Время достижения глубины протекания реакции α = 50% = 107,58",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "time_duration",
+     "scope": "material",
+     "material_id": "mat:Cu",
+     "value": {
+      "min": null,
+      "nominal": 63.79,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reach oxidation depth α = 50 %"
+     },
+     "method": null,
+     "snippet": "Время достижения глубины протекания реакции α = 50% = 63,79",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "time_duration",
+     "scope": "material",
+     "material_id": "mat:Cu",
+     "value": {
+      "min": null,
+      "nominal": 43.66,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reach oxidation depth α = 50 %"
+     },
+     "method": null,
+     "snippet": "Время достижения глубины протекания реакции α = 50% = 43,66",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "time_duration",
+     "scope": "material",
+     "material_id": "mat:Cu",
+     "value": {
+      "min": null,
+      "nominal": 37.53,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reach oxidation depth α = 50 %"
+     },
+     "method": null,
+     "snippet": "Время достижения глубины протекания реакции α = 50% = 37,53",
+     "locator_kind": "md_para",
+     "locator": "para:69",
+     "confidence": 0.73
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Порядок реакции по меди дробный, что указывает на сложный механизм влияния меди на окисление железа, и составляет в среднем величину n = 0,4.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "reaction order with respect to Cu",
+      "direction": "increases",
+      "factor": "Cu concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Как видно из таблицы 1, порядок реакции по меди дробный, ... и составляет в среднем величину n = 0,4.",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Для серии экспериментов с ненулевым содержанием меди (рисунок 6) на рисунке 7 представлены данные о глубине протекания реакции окисления (обозначим её как α) Fe 2+ с течением времени при различной концентрации меди в растворе.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:6-влияние-различных-факторов-на-окисление-железа:5",
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "title": "pH influence series – Fe2+ oxidation fraction",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidation of Fe2+ in nickel solutions at different pH values",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe2",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "fraction of oxidized Fe2+ (%)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 47.5,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "pH 1,6 → Доля окисленного Fe 2+ , % = 47,5",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "fraction of oxidized Fe2+ (%)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 54.2,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "pH 2,0 → Доля окисленного Fe 2+ , % = 54,2",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "fraction of oxidized Fe2+ (%)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 58.3,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "pH 2,4 → Доля окисленного Fe 2+ , % = 58,3",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "fraction of oxidized Fe2+ (%)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 61.1,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "pH 2,8 → Доля окисленного Fe 2+ , % = 61,1",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Влияние pH на скорость окисления железа падает с ростом pH (R² = 0,988).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "oxidation rate",
+      "direction": "decreases",
+      "factor": "pH",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На рис. 8 видно, что влияние pH на скорость окисления железа можно представить логарифмической зависимостью с коэффициентом детерминации R 2 = 0,988, причем с ростом pH влияние этого фактора на скорость окисления железа падает",
+     "locator_kind": "md_para",
+     "locator": "para:75",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Следующий изученный в рамках данной работы фактор – влияние pH никелевого раствора на скорость окисления железа.",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:6-влияние-различных-факторов-на-окисление-железа:6",
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "title": "Equilibrium Fe3+ concentration series vs pH",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "determination of equilibrium Fe3+ concentration after 24 h at controlled pH",
+       "temperature_text": "not specified",
+       "duration_text": "24 h"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fe3-from-fecl3-fe2-so4-3-mixture",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 1.112,
+      "max": null
+     },
+     "unit": "g/dm³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "equilibrium fe3+"
+     },
+     "method": null,
+     "snippet": "pH 1,6 → Равновесная концентрация Fe 3+ в растворе, г/дм 3 = 1,112",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.109,
+      "max": null
+     },
+     "unit": "g/dm³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "equilibrium fe3+"
+     },
+     "method": null,
+     "snippet": "pH 2,0 → Равновесная концентрация Fe 3+ в растворе, г/дм 3 = 0,109",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.015,
+      "max": null
+     },
+     "unit": "g/dm³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "equilibrium fe3+"
+     },
+     "method": null,
+     "snippet": "pH 2,4 → Равновесная концентрация Fe 3+ в растворе, г/дм 3 = 0,015",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.002,
+      "max": null
+     },
+     "unit": "g/dm³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "equilibrium fe3+"
+     },
+     "method": null,
+     "snippet": "pH 2,8 → Равновесная концентрация Fe 3+ в растворе, г/дм 3 = 0,002",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "С ростом pH равновесное содержание Fe3+ в растворе понижается, что способствует протеканию реакции в прямом направлении.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "decreases",
+      "factor": "pH",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "С ростом pH равновесное содержание Fe 3+ в растворе понижается (рисунок 9), что способствует протеканию реакции в прямом направлении.",
+     "locator_kind": "md_para",
+     "locator": "para:78",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Данные о равновесном содержании Fe 3+ были получены в ходе отдельной серии экспериментов.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Рассчитана растворимость кислорода для никелевых хлорид‑сульфатных растворов; растворимость кислорода не зависит от соотношения концентраций Cl и SO4 при фиксированной концентрации катионов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "no_change",
+    "factor": "соотношение Cl‑/SO4‑2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Расчет показал, что растворимость кислорода не зависит (рисунок 2) от соотношения концентраций Cl и SO 4 в растворе при фиксированной концентрации катионов в растворе.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "Общее солесодержание (ионная сила) раствора оказывает значительное влияние на растворимость кислорода.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "ионная сила",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В отличие от типа аниона, общее солесодержание (выраженное в величине ионной силы) раствора оказывает значительное влияние на растворимость кислорода (рисунок 3).",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "Полученные закономерности справедливы для хлоридных сред в целом, а не только для никелевых растворов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "закономерности окисления железа",
+    "direction": "no_change",
+    "factor": "тип хлоридной среды",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это дает основания предполагать, что полученные закономерности справедливы для хлоридных сред в целом, а не только для никелевых растворов.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "Скорость окисления железа должна увеличиваться с разбавлением раствора, но не должна зависеть от его анионного состава (теоретическое ожидание).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "разбавление",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из приведенных выше данных должно было следовать, что скорость окисления железа должна увеличиваться с разбавлением раствора, но не должна зависеть от его анионного состава.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "The reaction order with respect to Fe²⁺ is 1 when [Fe²⁺]≫[Fe³⁺] and [Cu²⁺]≫[Cu⁺]; it becomes 2 when [Fe³⁺]≫[Fe²⁺] and the catalytic effect of Cu is limited.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Для растворов, в которых [Fe²⁺]≫[Fe³⁺]; [Cu²⁺]≫[Cu⁺], порядок реакции по Fe²⁺ равен 1. ... для систем, в которых [Fe³⁺]≫[Fe²⁺] порядок реакции по Fe²⁺ равен 2, а каталитический эффект Cu ограничен.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.45,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "Copper catalyzes the oxidation process, and its complexes with chloride are more stable than free Cu⁺ ions.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "catalytic effect",
+    "direction": "increases",
+    "factor": "Cu presence",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катализ процесса медью в таких играет значительную роль, что уже наблюдалось ранее ... Указанные комплексы с участием Cu(I) более стабильны, чем свободные ионы Cu⁺, которые могут диспропорционировать с образованием Cu²⁺ и Cu⁰.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.45,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "Increasing chloride ion concentration shifts the Cu²⁺/Cu⁺ redox potential to more positive values, raising Cu⁺ activity and improving electrochemical reversibility of the Cu²⁺/Cu⁺ pair.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "redox_potential",
+    "direction": "increases",
+    "factor": "Cl⁻ concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "увеличение ОВП с ростом концентрации хлорид-иона приводит к увеличению активности Cu⁺ в растворе ... значительно улучшается электрохимическая обратимость пары Cu²⁺/Cu⁺",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.45,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "In a solution containing 4 mol/dm³ NaCl + 0.1 mol/dm³ HCl the Cu²⁺/Cu⁺ redox potential is 413 mV; in a similar cationic composition with ~7.3 mol/dm³ Cl⁻ it is 481 mV.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "E (Cu²⁺/Cu⁺)",
+    "direction": "increases",
+    "factor": "Cl⁻ concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по данным [7] в растворе, содержащем 4 моль/дм³ NaCl + 0,1 моль/дм³ HCl значение E = 413 мВ, а в системе ... содержащей ~7,3 моль/дм³ Cl⁻, E = 481 мВ",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.45,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "The effect of chloride ions on iron oxidation is linked to complex formation of Fe(II) with dissociated or associated HCl, which is noticeable only when free acid concentration exceeds 2 mol/L.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "влияние хлорид-иона обусловлено механизмом комплексообразования Fe(II) с диссоциированной либо ассоциированной соляной кислотой. Таким образом, этот эффект должен быть заметен в хлоридных системах с присутствием значительного количества свободной кислоты (>2 моль/л)",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.81,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "In the studied system with pH = 1.6 the above Fe(II)‑HCl complex mechanism cannot explain the observed phenomenon.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в рамках данной работы изучалась система с кислотностью на уровне pH = 1,6 и, соответственно, этот механизм не может быть объяснением наблюдаемого явления.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "С разбавлением раствора скорость окисления Fe2+ растет, что обусловлено повышением растворимости кислорода со снижением ионной силы раствора.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "oxidation rate",
+    "direction": "increases",
+    "factor": "solution dilution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в результате проведенных исследований ... с разбавлением раствора скорость окисления Fe 2+ растет, что обусловлено повышением растворимости кислорода со снижением ионной силы раствора.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.81,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "Содержание хлорид‑иона в растворе существенно влияет на скорость окисления железа в присутствии меди.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxidation rate",
+    "direction": "increases",
+    "factor": "Cl‑ concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "значительное влияние на скорость окисления железа в присутствии меди влияет содержание хлорид‑иона в растворе.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.81,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "Для никелевых растворов с содержанием Cl‑ 250‑260 г/дм³, SO₄²‑ 30‑40 г/дм³ оценен порядок реакции окисления железа по механизму переноса заряда ионом‑медиатором Cu, n = 0,4.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reaction order (Cu mediator)",
+    "direction": "nonmonotonic",
+    "factor": "Cu‑mediated charge transfer",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для никелевых растворов с содержанием Cl - на уровне 250-260 г/дм 3 , SO 4 2- на уровне 30-40 г/дм 3 оценен порядок реакции окисления железа по механизму переноса заряда ионом‑медиатором Cu по меди, n = 0,4.",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.81,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "Оценено влияние pH раствора на скорость окисления Fe2+ и определены экспериментально равновесные содержания Fe3+ при pH 1,2‑2,8 лог. ед.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxidation rate / equilibrium Fe3+",
+    "direction": "increases",
+    "factor": "pH",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оценено влияние pH раствора на скорость окисления Fe 2+ , а также определены экспериментально равновесные содержания Fe 3+ в никелевом растворе при pH в диапазоне 1,2 – 2,8 лог. ед.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.9,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  },
+  {
+   "text": "Полученная информация может быть использована для подбора оптимальных параметров процесса с точки зрения скорости окисления железа в промышленности.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Полученная в ходе исследований информация может быть использована в целях подбора оптимальных параметров процесса с точки зрения скорости окисления железа в промышленности.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.81,
+   "document_id": "doc:6-влияние-различных-факторов-на-окисление-железа",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

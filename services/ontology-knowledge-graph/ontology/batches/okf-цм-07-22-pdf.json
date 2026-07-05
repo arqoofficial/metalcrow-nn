@@ -1,0 +1,288 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-07-22-pdf",
+   "title": "ЦМ 07-22.pdf",
+   "doc_type": "article",
+   "year": 2022,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2022\\ЦМ 07-22.pdf.md",
+   "artifact_sha256": "120e68b67febee6b5fb47073ee908c95c76b46810870bf626d93e638044d063e",
+   "okf_raw_path": "Журналы/Цветные металлы/2022/ЦМ 07-22.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:cast-iron",
+   "label": "cast iron",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:hydraulic-machine",
+   "label": "hydraulic machine",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:blast-furnace",
+   "label": "blast furnace",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-07-22-pdf:0",
+   "document_id": "doc:цм-07-22-pdf",
+   "title": "Cannon casting durability test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "casting",
+      "extra": {
+       "raw_process": "Casting of 1000 iron cannons at the Olonets‑Petrovsky factories",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cast-iron",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "burst rate during testing",
+     "scope": "material",
+     "material_id": "mat:cast-iron",
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "из 1000 отлитых на заводах пушек только три разрывались во время испытаний",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The new alloy composition and casting technology dramatically reduced cannon failures.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "failure rate",
+      "direction": "decreases",
+      "factor": "optimal ore composition and improved casting technology",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "из 1000 отлитых на заводах пушек только три разрывались во время испытаний",
+     "locator_kind": "md_para",
+     "locator": "para:119",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "из 1000 отлитых на заводах пушек только три разрывались во время испытаний",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-07-22-pdf:1",
+   "document_id": "doc:цм-07-22-pdf",
+   "title": "Construction and trial of a hydraulic drilling machine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Installation of a hydraulic machine for drilling cannon barrels in a vertical position at the Olonets‑Petrovsky factories",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:hydraulic-machine",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The hydraulic machine enabled new production capabilities for cannon manufacturing.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "production capability",
+      "direction": "increases",
+      "factor": "hydraulic drilling technology",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "построена гидравлическая машина для сверления пушечных стволов в вертикальном положении",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "построена гидравлическая машина для сверления пушечных стволов в вертикальном положении",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-07-22-pdf:2",
+   "document_id": "doc:цм-07-22-pdf",
+   "title": "Expansion of furnace capacity",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Incorporation of seven larger blast furnaces into the production line at the Olonets‑Petrovsky factories",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:blast-furnace",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Plant throughput was raised by adding larger furnaces.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "plant capacity",
+      "direction": "increases",
+      "factor": "seven larger blast furnaces",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "благодаря ему были повышены мощности заводов за счет включения в производственный процесс семи доменных печей увеличенного размера",
+     "locator_kind": "md_para",
+     "locator": "para:122",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "благодаря ему были повышены мощности заводов за счет включения в производственный процесс семи доменных печей увеличенного размера",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The main task of the Peter‑the‑Great factories was to supply the Baltic Fleet and the Baltic front with ammunition during the Great Northern War.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "главной задачей петровских заводов являлось снабжение Балтийского флота и прибалтийского фронта боевыми припасами во время Северной войны",
+   "locator_kind": "md_para",
+   "locator": "para:115",
+   "confidence": 0.9,
+   "document_id": "doc:цм-07-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Under V. de Gennin’s leadership, the ore composition for cannon iron was optimized and the casting technology was improved.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ore composition and casting method",
+    "direction": "increases",
+    "factor": "leadership of V. de Gennin",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "под руководством Геннина был доведен до совершенства выпуск чугунных пушек: найден наиболее оптимальный состав переплавляемой руды для получения пушечного чугуна и усовершенствована технология отливки чугунных орудий",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.81,
+   "document_id": "doc:цм-07-22-pdf",
+   "process": null
+  },
+  {
+   "text": "A mining school was created in Olonets to train specialists in furnace, cannon, anchor and other metallurgical trades.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "в Олонце В. де Г енниным была создана горнозаводская школа, в которой ученики проходили обучение доменному, пушечному, якорному и другим делам",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.81,
+   "document_id": "doc:цм-07-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The Olonets metallurgical district was the most compact and well‑organized region at the beginning of the 18th century.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "К началу XVIII в. наиболее четким и компактным был Олонецкий металлургический район",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:цм-07-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Four of G. Butenant’s factories were transferred to the state treasury in 1703, after which a new group of Peter‑the‑Great state factories was built between 1703‑1707.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В 1703 г. четыре завода Бутенанта (Фоймогубский, Кижский, Шунгский и Лижемский) были переданы в казну, а на их материально-технической базе в 1703-1707 гг . построена новая группа Олонецких Петровских казенных заводов",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:цм-07-22-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

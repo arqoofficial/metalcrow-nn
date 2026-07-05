@@ -28,6 +28,7 @@ class BatchDocument(BaseModel):
     lang: Optional[str] = None
     source_path: Optional[str] = None
     artifact_sha256: Optional[str] = None
+    okf_raw_path: Optional[str] = None     # путь к OKF raw markdown (реестр ingest-контура) → wiki
 
 
 class BatchLab(BaseModel):

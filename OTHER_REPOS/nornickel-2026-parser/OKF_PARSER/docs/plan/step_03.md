@@ -1,0 +1,90 @@
+# Step 03 - Queue and Lock Infrastructure
+
+## Goal
+
+Implement stable queue messaging and lock-file primitives.
+
+## Prerequisites
+
+- Steps 01–02 accepted.
+
+## Definitions
+
+| Item | Contract |
+|------|----------|
+| **`QueueJob`** | Pydantic model in `app/queue/job.py`; JSON via `model_dump_json()` / `model_validate_json()`. |
+| **`requested_path`** | Path exactly as received from API (logical or concrete). |
+| **`resolved_path`** | Concrete raw path relative to `SHARED/`, e.g. `UPLOAD_DATA/reports/q1__v02.pdf`. Workers use this as opaque key. |
+| **Upload lock** | `{SHARED}/{resolved_path}.upload.lock` during version allocation; suffix from config. |
+| **Worker lock** | `{SHARED}/{resolved_path}.worker.lock` while job runs; `file_key` = `resolved_path` (no stage prefix). |
+| **Stage queues** | Isolated Redis lists; names from config, defaults per spec. |
+
+### Migration note
+
+Existing `app/queue/job.py` uses `canonical_path` / `raw_absolute_path`. **Replace** with `requested_path` / `resolved_path` per `docs/LAYER_SERVICES.md`. Update all callers in same step.
+
+## Tasks
+
+1. Finalize `QueueJob` model (`app/queue/job.py`) with required fields:
+   - `job_id` (UUID string),
+   - `requested_path`,
+   - `resolved_path`,
+   - `stage` (`raw2docling_raw` \| `docling_raw2docling_clean00`),
+   - `enforce`,
+   - `enqueued_at` (UTC).
+2. Implement Redis queue helpers for both stage queues (separate push/pop; no shared list).
+3. Implement lock utilities:
+   - upload lock create/remove (exclusive create),
+   - worker lock create/remove,
+   - lock paths are **files only**, never directories.
+4. Add `clean_lock.sh` at repo root:
+   - non-interactive,
+   - removes `*.upload.lock` and `*.worker.lock` under `SHARED_ROOT`,
+   - tolerant to missing files.
+5. Add retry/backoff wrappers for Redis and lock I/O (configurable from `runtime` section).
+
+## Non-goals
+
+- No business endpoint behavior.
+- No docling pipeline logic.
+- No full worker loop (step 06).
+
+## Acceptance Criteria
+
+- Jobs serialize/deserialize robustly with new field names.
+- Stage queues are fully separated.
+- Lock operations are reusable by API and workers.
+- `clean_lock.sh` is executable and documented in `IMPLEMENTATION_NOTES.md`.
+
+## Required Tests (must be implemented and pass)
+
+1. `tests/queue/test_job_model.py::test_queue_job_roundtrip_json`
+2. `tests/queue/test_job_model.py::test_queue_job_requires_all_fields`
+3. `tests/queue/test_job_model.py::test_queue_job_uses_requested_resolved_paths`
+4. `tests/queue/test_redis_helpers.py::test_push_pop_stage0_queue`
+5. `tests/queue/test_redis_helpers.py::test_push_pop_stage1_queue`
+6. `tests/queue/test_redis_helpers.py::test_stage_queues_are_isolated`
+7. `tests/locks/test_upload_lock.py::test_upload_lock_create_remove`
+8. `tests/locks/test_worker_lock.py::test_worker_lock_create_remove`
+9. `tests/locks/test_worker_lock.py::test_worker_lock_uses_resolved_path_key`
+10. `tests/locks/test_clean_lock_script.py::test_clean_lock_removes_both_patterns`
+11. `tests/locks/test_clean_lock_script.py::test_clean_lock_tolerates_missing_files`
+
+## Verification Command
+
+- `pytest tests/queue tests/locks -q`
+
+## Integration Tests (must be implemented and pass)
+
+1. `tests/integration/test_queue_lock_runtime.py::test_enqueue_dequeue_both_stages`
+   - Push/pop jobs on both queues using Redis fixture (no workers).
+2. `tests/integration/test_queue_lock_runtime.py::test_worker_lock_visible_during_hold`
+   - Create worker lock, assert file exists, remove, assert gone.
+3. `tests/integration/test_queue_lock_runtime.py::test_clean_lock_clears_stale_runtime_locks`
+   - Creates stale locks and verifies `clean_lock.sh` removes them.
+
+**Deferred to step 06:** stage0 completion auto-enqueueing stage1 (`test_stage0_to_stage1_queue_chain`).
+
+## Integration Verification Command
+
+- `pytest tests/integration/test_queue_lock_runtime.py -q`

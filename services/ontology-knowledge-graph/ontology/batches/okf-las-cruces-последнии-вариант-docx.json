@@ -1,0 +1,1088 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:las-cruces-последнии-вариант-docx",
+   "title": "Las Cruces (последний вариант).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Las Cruces (последний вариант).docx.md",
+   "artifact_sha256": "d4c59f03a4595409bfb4b160cd33f1b8293467b4d21f3be89e54a0b9659545f2",
+   "okf_raw_path": "Обзоры/Las Cruces (последний вариант).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:copper-sulfide-ore",
+   "label": "Copper sulfide ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fe3-iron-iii-sulfate",
+   "label": "Fe³⁺ (iron(III)) sulfate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:secondary-sulfide-ore-chalcopyrite",
+   "label": "Secondary sulfide ore (chalcopyrite)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:chalcopyrite-ore",
+   "label": "chalcopyrite ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:filtered-leachate-residues",
+   "label": "filtered leachate residues",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:leached-pulp",
+   "label": "leached pulp",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:las-cruces-последнии-вариант-docx:0",
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "title": "Laboratory leaching experiments in OKTOP reactors",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Atmospheric leaching with oxygen",
+       "temperature_text": "90°C",
+       "duration_text": "≈8 hours"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 363.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-sulfide-ore",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:fe3-iron-iii-sulfate",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:copper-sulfide-ore",
+     "value": {
+      "min": 92.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "извлечение меди и экстракция железа превышали 92% и 3%, соответственно",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:fe3-iron-iii-sulfate",
+     "value": {
+      "min": null,
+      "nominal": 3.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "извлечение меди и экстракция железа превышали 92% и 3%, соответственно",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Наилучшие результаты были получены при концентрациях Fe³⁺ 20-25 г/л, температуре 90°С и продолжительности выщелачивания около 8 часов.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "optimal conditions",
+      "direction": "increases",
+      "factor": "extraction efficiency",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наилучшие результаты были получены при концентрациях Fe* *3+* *20-25 г/л, температуре 90°С и продолжительности выщелачивания около 8 часов.",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Были выполнены опыты в периодическом режиме по атмосферному выщелачиванию кислородом в реакторах OKTOP при повышенной температуре, извлечение меди и экстракция железа превышали 92% и 3%, соответственно.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:las-cruces-последнии-вариант-docx:1",
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "title": "Pilot‑scale leaching tests at Outotec facilities in Pori",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "Atmospheric leaching with iron(III) sulfate",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:copper-sulfide-ore",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Опыты были продолжены в пилотном масштабе на мощностях Outotec в Пори.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:las-cruces-последнии-вариант-docx:2",
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "title": "Industrial operation of the Las Cruces hydrometallurgical plant (2020)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "electroextraction",
+      "extra": {
+       "raw_process": "Atmospheric leaching, solvent extraction, electrowinning",
+       "temperature_text": "not specified",
+       "duration_text": "continuous 365 days/yr"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:secondary-sulfide-ore-chalcopyrite",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Ore processed",
+     "scope": "material",
+     "material_id": "mat:copper-sulfide-ore",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Проектная пропускная способность завода по руде – 1,5 млн т/г.",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:copper-sulfide-ore",
+     "value": {
+      "min": null,
+      "nominal": 93.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Извлечение меди, % 93 (2018) ; 85 (2019) ; 87 (1 кв. 2020).",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "Cathode production",
+     "scope": "material",
+     "material_id": "mat:copper-sulfide-ore",
+     "value": {
+      "min": null,
+      "nominal": 70.74,
+      "max": null
+     },
+     "unit": "kt",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Выпуск катодов, тыс т 70,74 (2018) ; 48,09 (2019) ; 15,29 (1 кв. 2020) ; 52 (план 2020).",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Project design capacity is 72 kt of cathode copper per year.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "design capacity",
+      "direction": "increases",
+      "factor": "annual output",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Проектная мощность – 72 тыс т/г катодной меди.",
+     "locator_kind": "md_para",
+     "locator": "para:37",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Проектная пропускная способность завода по руде – 1,5 млн т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:las-cruces-последнии-вариант-docx:3",
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "title": "Industrial leaching cascade at Las Cruces plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "injection",
+      "extra": {
+       "raw_process": "Leaching in a cascade of eight 350 m³ OKTOP reactors with oxygen injection",
+       "temperature_text": "90 °C",
+       "duration_text": "10‑12 h (increased from 8 h)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 363.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:chalcopyrite-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "material",
+     "material_id": "mat:copper-sulfide-ore",
+     "value": {
+      "min": null,
+      "nominal": 92.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "продолжительность выщелачивания была увеличена с 8 часов до 10-12 часов, что привело к росту извлечения с проектных 90% до 92-94%.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Average total processing time from ore receipt to cathode production is 8 days.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "throughput time",
+      "direction": "increases",
+      "factor": "8 days",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "От момента поступления на завод сырья до получения катодов проходит в среднем 8 суток.",
+     "locator_kind": "md_para",
+     "locator": "para:49",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Уникальной чертой является применение каскада из 8-ми реакторных баков (по 350 м 3 ) с перемешиванием OKTOP, где идет растворение меди в условиях высоких температур и высокой кислотности.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:las-cruces-последнии-вариант-docx:4",
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "title": "Pilot test of tailings filtration upgrade (2015)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Replacement of vacuum belt filters with press‑filters at the tailings filtration station",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:filtered-leachate-residues",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "В 2015 г. на станции фильтрования хвостов вакуумные ленточные фильтры заменены на пресс-фильтры.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:las-cruces-последнии-вариант-docx:5",
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "title": "Industrial dehydration of tailings",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Thickening of leached pulp, cooling to <38 °C, 6 h settling in a concrete‑HDPE lined basin, and recirculation of gypsum sludge",
+       "temperature_text": "<38 °C",
+       "duration_text": "≈6 h"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": null,
+       "max": 311.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:leached-pulp",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 500.0,
+      "max": null
+     },
+     "unit": "g/л",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "solid"
+     },
+     "method": null,
+     "snippet": "Содержание твердого в пульпе реакторов выщелачивания обычно около 500 г/л.",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Выщелоченная пульпа поступает в сгуститель хвостов (диаметром 25 м). Верхний слив сгустителя – это насыщенный раствор выщелачивания (PLS), его перекачивают в две градирни с целью понижения температуры до менее 38°С.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Royalty rate for Las Cruces is 1.5 % when copper price is ≥0.80 USD/lb.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "royalty rate",
+    "direction": "increases",
+    "factor": "cost",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ставка роялти, установленная для Las Cruces – 1,5% при цене меди ≥0,80 USD/фунт.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "The mine and plant are owned by First Quantum Minerals through its 100 % subsidiary Cobre Las Cruces.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "ownership structure",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "First Quantum Minerals поглотила Inmet и теперь Cobre Las Cruces – косвенная 100%-ая дочерняя компания First Quantum.",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.81,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "The open pit contains secondary sulfide ore with an average copper grade of 5‑6 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper grade",
+    "direction": "increases",
+    "factor": "ore quality",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Открытый рудник Las Cruces, с добычей вторичной сульфидной руды, считался (и считается) самым богатым медным открытым рудником с содержанием меди 5-6%.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Remaining open‑pit reserves at the end of 2019 were 1.7 million tonnes with 4.84 % Cu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "reserve size",
+    "direction": "decreases",
+    "factor": "remaining ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оставшиеся на конец 2019 г. суммарные запасы руды, подлежащие открытой добыче, 1,7 млн т с Cu 4,84%.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Surface‑stockpiled non‑primary sulfide ore amounts to about 0.8 million tonnes with 4.24 % Cu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "stockpile size",
+    "direction": "increases",
+    "factor": "available ore",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "около 0,8 млн т “не первичной” сульфидной руды с 4,24% Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "The plant operates 365 days per year, 24 hours per day.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating time",
+    "direction": "increases",
+    "factor": "throughput",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Проектом предусматривается работа завода 365 дней в год, 24 часа в сутки.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Average ore grade is 6.02 % Cu (project basis), but actual grade is now significantly lower.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "average grade",
+    "direction": "decreases",
+    "factor": "recovery",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сортность руды колеблется от в интервале 5-10% Cu, средняя сортность 6,02% Cu (по проекту, по факту теперь значительно ниже).",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "The leaching chemistry uses trivalent iron sulfate as the oxidant for copper sulfide.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxidant type",
+    "direction": "increases",
+    "factor": "reaction efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология переработки руды базируется на атмосферном выщелачивании сульфатом трехвалентного железа меди из богатой вторичной сульфидной халькоцитовой минерализации.",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "The cascade of eight OKTOP reactors provides a projected oxygen uptake efficiency of 90 %.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "90 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такой способ перемешивания призван достичь эффективности усвоения кислорода на проектном уровне в 90%.",
+   "locator_kind": "md_para",
+   "locator": "para:61",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Primary leaching tanks OKTOP count is eight, not five as originally planned in 2004.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "number of tanks",
+    "direction": "increases",
+    "factor": "8",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "баков первичного выщелачивания OKTOP установлено 8, а не 5, как предполагалось в 2004 г.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "The plant consumes 60 L/s of process water, of which 40 % is “contact water”.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Завод потребляет 60 л/сек пром.воды, 40% которой – это “контактная вода”.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.81,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Tailings are stored in three repositories: South and West for inert waste, North for plant tailings and overburden.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Имеется Южное и Западное хвостохранилища для инертных отходов (мергель, песчаник) и Северное хвостохранилище для хвостов с завода и пустой породы.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "The North tailings storage is sealed with a 1.5 m compacted mergel core, a 1.5 mm HDPE liner and a 0.5 m sand layer with geotextile.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Нижнее уплотнение – 1,5 м уплотненного мергеля, покрытого облицовкой из полиэтилена высокой плотности 1,5 мм толщиной и слоем песка 0,5 м толщиной и геотекстильного материала.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.81,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "The plant has a 1.3 million m³ water pond to supply water during dry seasons.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "при заводе имеется пруд на 1,3 млн кубометров воды.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Добавки гуара: ~150-250 г/т на тонну произведенной меди, сульфата кобальта – чтобы поддерживался уровень ~100 мг/л кобальта в растворе.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "dosage",
+    "direction": "increases",
+    "factor": "guar and cobalt sulfate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Добавки гуара: ~150-250 г/т на тонну произведенной меди, сульфата кобальта – чтобы поддерживался уровень ~100 мг/л кобальта в растворе.",
+   "locator_kind": "md_para",
+   "locator": "para:80",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Электролит из бака с циркуляцией закачивается во все электролизеры. 2-3 г/л меди уходит из раствора c самотеком бедного электролита назад – в бак циркуляции.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper loss",
+    "direction": "decreases",
+    "factor": "circulation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Электролит из бака с циркуляции закачивается во все электролизеры. 2-3 г/л меди уходит из раствора c самотеком бедного электролита назад – в бак циркуляции.",
+   "locator_kind": "md_para",
+   "locator": "para:86",
+   "confidence": 0.81,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Суммарная мощность двух водоохлаждаемых трансформаторов-выпрямителей, подающих ток в электролизер, 53 кА.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "power rating",
+    "direction": "nonmonotonic",
+    "factor": "transformers",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарная мощность двух водоохлаждаемых трансформаторов-выпрямителей, подающих ток в электролизер, 53 кА.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Они рассчитаны на номинальную нагрузку в 280 А/м 2 и эффективность тока 92%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "nonmonotonic",
+    "factor": "design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Они рассчитаны на номинальную нагрузку в 280 А/м 2 и эффективность тока 92%.",
+   "locator_kind": "md_para",
+   "locator": "para:84",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Медные катоды растят 7 дней.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "growth time",
+    "direction": "nonmonotonic",
+    "factor": "process duration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медные катоды растят 7 дней.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "После промывки катоды транспортируют к обдирочной машине на 300 катодов в час.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "deburring machine",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "После промывки катоды транспортируют к обдирочной машине на 300 катодов в час.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "В целом цех электролиза аналогичен цеху завода Коккола, введённому в 2001 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "design similarity",
+    "direction": "nonmonotonic",
+    "factor": "reference plant",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В целом цех электролиза аналогичен цеху завода Коккола, введённому в 2001 г.",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Outotec, разработавшая схему переработки и основное оборудование (OKTOP, DOP, SPIROK, OutoCompact).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "scheme and equipment design",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Outotec, разработавшая схему переработки и основное оборудование (OKTOP, DOP, SPIROK, OutoCompact).",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "First Quantum, которая приобрела предприятие в 2013 г., когда уже начиналось снижение сортности руды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "acquisition date",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "First Quantum, которая приобрела предприятие в 2013 г., когда уже начиналось снижение сортности руды.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Она предприняла адекватные меры по сохранению объема производства на проектном уровне (70-72 тыс т/г катодной меди качества ЛБМ).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "production volume",
+    "direction": "increases",
+    "factor": "70-72 тыс т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Она предприняла адекватные меры по сохранению объема производства на проектном уровне (70-72 тыс т/г катодной меди качества ЛБМ).",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "2020 г. - последний год работы завода по схеме атмосферное выщелачивание/SX‑EW, т.к. ресурсы халькоцитовой руды, для переработки которой и была разработана данная схема, практически исчерпаны.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating year",
+    "direction": "decreases",
+    "factor": "2020",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "2020 г. - последний год работы завода по схеме атмосферное выщелачивание/SX‑EW, т.к. ресурсы халькоцитовой руды, для переработки которой и была разработана данная схема, практически исчерпаны.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.81,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "план выпуска меди компанией в 2020г., тыс т: Cobre Panama -285-310; Kansanshi – 220-235; Sentinel – 230-240 (все три введены в последние годы); Las Cruces – 52; все прочие – 43.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper output",
+    "direction": "increases",
+    "factor": "52 (Las Cruces)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "план выпуска меди компанией в 2020г., тыс т: Cobre Panama -285-310; Kansanshi – 220-235; Sentinel – 230-240 (все три введены в последние годы); Las Cruces – 52; все прочие – 43.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Тех.готовность оборудования Дробление 70%",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "crushing availability",
+    "direction": "increases",
+    "factor": "70%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Дробление | 70%",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Тех.готовность оборудования Измельчение 90%",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "grinding availability",
+    "direction": "increases",
+    "factor": "90%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Измельчение | 90%",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Тех.готовность оборудования Выщелачивание/SX 90%",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "leaching/SX availability",
+    "direction": "increases",
+    "factor": "90%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выщелачивание/SX | 90%",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Тех.готовность оборудования Цех электролиза 98%",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "electrolysis shop availability",
+    "direction": "increases",
+    "factor": "98%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цех электролиза | 98%",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.81,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Производительность цеха 66000 Т/г катодов",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cathode throughput",
+    "direction": "increases",
+    "factor": "66000 Т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Производительность цеха | Т/г катодов | 66000",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Макс.производительность 70000 Т/г катодов",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "maximum cathode throughput",
+    "direction": "increases",
+    "factor": "70000 Т/г",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Макс.производительность | Т/г катодов | 70000",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Плотность тока (номинал.) 280 А/м 2",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_density",
+    "direction": "increases",
+    "factor": "280 А/м 2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотность тока (номинал.) | А/м 2 | 280",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  },
+  {
+   "text": "Эффективность тока (номинальн.) 92 %",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "current_efficiency",
+    "direction": "increases",
+    "factor": "92 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эффективность тока (номинальн.) | % | 92",
+   "locator_kind": "md_para",
+   "locator": "para:92",
+   "confidence": 0.9,
+   "document_id": "doc:las-cruces-последнии-вариант-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

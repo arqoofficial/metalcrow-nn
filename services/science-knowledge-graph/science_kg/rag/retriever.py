@@ -7,11 +7,15 @@ from science_kg.nlp.normalizer import canonical_material
 from science_kg.nlp.pipeline import detect_language, get_nlp_for_text
 
 _VECTOR_SEARCH_K = 10
-_MAX_SOURCE_TEXTS = 4  # raw chunks fed to the LLM alongside graph triples —
-# capped to keep the prompt within budget (chunks are ~20K chars each)
-_MAX_SOURCE_TEXT_CHARS = 25_000  # hard cap per raw source text; full .md files
-# loaded by load_precomputed_facts.py can be megabytes, and gpt-4o-mini rejects
-# prompts that exceed its context window.
+# Source excerpts fed to the LLM come from the UNION of three document rankings
+# (title-match + specificity-first + coverage-first, see retrieve()) so both
+# narrow-topic and multi-term questions get their answering article.
+_SOURCE_TEXTS_BY_TITLE = 2  # top documents whose TITLE matches the query
+_SOURCE_TEXTS_BY_SPECIFICITY = 3  # top focused-article slots
+_SOURCE_TEXTS_BY_COVERAGE = 3  # top whole-question-coverage slots
+_MAX_SOURCE_TEXT_CHARS = 13_000  # hard cap per raw source text; up to ~8
+# excerpts × 13K ≈ 104K chars keeps the prompt inside gpt-4o-mini's context
+# window (full .md files loaded by load_precomputed_facts.py can be megabytes).
 
 
 def _truncate_text(text: str, max_chars: int) -> str:
@@ -111,11 +115,21 @@ class GraphRetriever:
         contains_matched: set[str] = set()
         # term -> set of source docs its anchors point at, for coverage scoring
         term_docs: dict[str, set[str]] = {}
+        # (term, doc) -> the MOST specific anchor (fewest sources) that links
+        # this query term to this document. Used below for specificity-weighted
+        # document ranking; keeping the rarest anchor per (term, doc) is what
+        # lets a focused article outrank a hub document on the same term.
+        term_doc_anchor: dict[tuple[str, str], GraphNode] = {}
         for term in terms:
             for node in await self._find_nodes(term):
                 anchors[node.text] = node
                 contains_matched.add(node.text)
                 term_docs.setdefault(term, set()).update(node.sources)
+                for doc_id in node.sources:
+                    key = (term, doc_id)
+                    prev = term_doc_anchor.get(key)
+                    if prev is None or len(node.sources) < len(prev.sources):
+                        term_doc_anchor[key] = node
 
         query_embedding = await embed_text(question)
         if query_embedding is not None:
@@ -185,41 +199,88 @@ class GraphRetriever:
             if e.source in node_texts and e.target in node_texts
         ]
 
-        # Rank source documents by how many query terms they cover, then by
-        # the rarity (specificity) of the anchors that point to them. This puts
-        # the article that is actually about the whole question first.
+        # Rank source documents for prose extraction by SPECIFICITY-WEIGHTED
+        # term coverage, not a raw coverage count. A giant "hub" document — a
+        # conference proceedings that is the source of 6000+ entities — covers
+        # almost every query term incidentally, so under a plain coverage count
+        # it won the top source-text slots for *every* question. Every answer
+        # was then grounded on the same handful of journal cover pages instead
+        # of the article that actually discusses the question, and the LLM
+        # (correctly) replied "no information in the context". Now each term a
+        # document covers contributes 1/len(anchor.sources) — times an
+        # exact/lemma-match bonus — so a rare, focused entity (the one an
+        # article is really *about*) is worth far more than a generic entity
+        # that appears in hundreds of documents. Summing across covered terms
+        # still rewards the document that covers the whole question, but hub
+        # documents are suppressed because their coverage comes entirely from
+        # low-specificity anchors.
         doc_terms: dict[str, set[str]] = {}
         for term, docs in term_docs.items():
             for doc_id in docs:
                 doc_terms.setdefault(doc_id, set()).add(term)
 
-        def _doc_specificity(doc_id: str) -> int:
-            return min(
-                (len(n.sources) for n in anchors.values() if doc_id in n.sources),
-                default=0,
-            )
+        def _anchor_weight(node: GraphNode) -> float:
+            # Exact/lemma matches are weighted heavily: a rare entity whose text
+            # IS a query term (e.g. the «Мышьяк» entity that lives in essentially
+            # one document, df=2) is the single strongest "this article is about
+            # the question" signal there is, and must outweigh a document that
+            # merely accumulates many weak substring matches.
+            bonus = (3.0, 2.0, 1.0)[_anchor_priority(node)]
+            return bonus / (len(node.sources) or 1)
+
+        doc_relevance: dict[str, float] = {}
+        for (_term, doc_id), node in term_doc_anchor.items():
+            doc_relevance[doc_id] = doc_relevance.get(doc_id, 0.0) + _anchor_weight(node)
 
         ranked_doc_ids = sorted(
             doc_terms.keys(),
-            key=lambda d: (-len(doc_terms[d]), _doc_specificity(d)),
+            key=lambda d: (-doc_relevance.get(d, 0.0), -len(doc_terms[d])),
         )
 
-        # Fetch raw prose for the top few most-relevant chunks so the LLM can
-        # answer narrative questions the entity/relation triples don't capture.
-        top_doc_ids = ranked_doc_ids[:_MAX_SOURCE_TEXTS]
-        texts_by_id = await self._client.get_document_texts(top_doc_ids)
+        # "Which document answers this" has two shapes, and no single ranking
+        # wins both:
+        #   • a NARROW-topic question ("самовозгорание сульфидной пыли") is
+        #     answered by ONE focused article — surfaced by specificity
+        #     (ranked_doc_ids above);
+        #   • a MULTI-term question ("селен и теллур при электроэкстракции
+        #     меди") is answered by the article covering the WHOLE term set —
+        #     surfaced by raw coverage.
+        # So the source-text budget is fed the UNION of the two, plus a title
+        # channel: documents whose descriptive filename matches the question
+        # (some on-topic articles carry no rare distinguishing entity — every
+        # term in them is generic — yet the title is a dead giveaway). Either
+        # way the former all-slots hub document now takes at most one slot.
+        ranked_by_coverage = sorted(
+            doc_terms.keys(),
+            key=lambda d: (-len(doc_terms[d]), -doc_relevance.get(d, 0.0)),
+        )
+        title_doc_ids = await self._client.find_documents_by_title(
+            terms, limit=_SOURCE_TEXTS_BY_TITLE
+        )
+        source_doc_ids: list[str] = []
+        for doc_id in (
+            title_doc_ids
+            + ranked_doc_ids[:_SOURCE_TEXTS_BY_SPECIFICITY]
+            + ranked_by_coverage[:_SOURCE_TEXTS_BY_COVERAGE]
+        ):
+            if doc_id not in source_doc_ids:
+                source_doc_ids.append(doc_id)
+
+        # Fetch raw prose for these chunks so the LLM can answer narrative
+        # questions the entity/relation triples don't capture.
+        texts_by_id = await self._client.get_document_texts(source_doc_ids)
         source_texts = [
             _truncate_text(texts_by_id[d], _MAX_SOURCE_TEXT_CHARS)
-            for d in top_doc_ids
+            for d in source_doc_ids
             if d in texts_by_id
         ]
 
-        # Sources in RELEVANCE order (highest-coverage anchors' documents
-        # first), not alphabetical — the UI shows the top few as citation
-        # links, so the actually-answering document must lead. Leftover
-        # neighbourhood sources follow, sorted for stability.
-        ordered_sources = list(ranked_doc_ids)
-        ordered_sources += sorted(all_sources - set(ranked_doc_ids))
+        # Sources in RELEVANCE order (title matches then highest-coverage
+        # anchors' documents first), not alphabetical — the UI shows the top few
+        # as citation links, so the actually-answering document must lead.
+        # Leftover neighbourhood sources follow, sorted for stability.
+        ordered_sources = list(dict.fromkeys(title_doc_ids + ranked_doc_ids))
+        ordered_sources += sorted(all_sources - set(ordered_sources))
 
         return RetrievalContext(
             nodes=nodes,

@@ -1,0 +1,1413 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:ои-1-2016-диспергирование-pdf",
+   "title": "ОИ - 1 - 2016  Диспергирование.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\ОИ - 1 - 2016  Диспергирование.pdf.md",
+   "artifact_sha256": "81c947f2b64b8a06d783b22b0c8e9e447affe74a3201b2d8dba784455006a777",
+   "okf_raw_path": "Обзоры/ОИ - 1 - 2016  Диспергирование.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:metal",
+   "label": "metal",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:inert-gas",
+   "label": "inert gas",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:ои-1-2016-диспергирование-pdf:0",
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "title": "Yenwiset and Yenwiset (2010) water atomization with double V‑shaped jet",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "water atomization using a double V‑shaped water jet"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "double V‑shaped jet yields finer powder than conical jet at the same water pressure",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "powder fineness",
+      "direction": "increases",
+      "factor": "jet geometry (double V vs conical)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "с использованием двойной V-образной струи воды, получается более тонкий порошок, чем при использовании конусообразной струи, при том же давлении воды",
+     "locator_kind": "md_para",
+     "locator": "para:70",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "с использованием двойной V-образной струи воды, получается более тонкий порошок, чем при использовании конусообразной струи, при том же давлении воды",
+   "locator_kind": "md_para",
+   "locator": "para:70",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ои-1-2016-диспергирование-pdf:1",
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "title": "Pasupathy et al. (2011) effect of atomizer geometry on powder size and shape",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "water atomization with varied atomizer geometry"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Increasing collision angle or decreasing water‑jet length makes the powder finer and more irregular",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "particle_size",
+      "direction": "decreases",
+      "factor": "collision angle ↑ or water‑jet length ↓",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при увеличении угла соударения и/или уменьшении длины водной струи, полученный порошок становится тоньше и более неровным",
+     "locator_kind": "md_para",
+     "locator": "para:73",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "при увеличении угла соударения и/или уменьшении длины водной струи, полученный порошок становится тоньше и более неровным",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ои-1-2016-диспергирование-pdf:2",
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "title": "Vacuum (soluble gas) atomization",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Vacuum atomization of molten metal with dissolved gas",
+       "temperature_text": "120‑130 °C (overheating of melt)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 393.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:metal",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "сферическую форму и мелкодисперсную структуру порошка",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "particle shape and dispersion",
+      "direction": "increases",
+      "factor": "explosive release of dissolved gas",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Возникающий перепад давлений побуждает растворенный газ к выходу на поверхность капель расплава и «взрывает» капли изнутри, обеспечивая при этом сферическую форму и мелкодисперсную структуру порошка.",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Во время атомизации металл под действием давления в плавильной камере поступает вверх к сопловому аппарату, выходящему в распылительную камеру, где создают вакуум.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ои-1-2016-диспергирование-pdf:3",
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "title": "Centrifugal atomization",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Centrifugal atomization using a rotating disc or cup"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:metal",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "частицы обычно более 0,2 мм, если скорость вращения ниже 10000 об/мин",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "particle_size",
+      "direction": "increases",
+      "factor": "lower rotation speed",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Размеры частиц, как правило, не очень мелкие (скажем, более 0,2 мм), за исключением случаев, когда используется высокая скорость вращения более 10000 оборотов в минуту.",
+     "locator_kind": "md_para",
+     "locator": "para:125",
+     "confidence": 0.9
+    },
+    {
+     "text": "продукт имеет более узкий диапазон размеров, чем при газовой или водной атомизации",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "size distribution",
+      "direction": "decreases",
+      "factor": "centrifugal process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Важным преимуществом является то, что процесс производит продукт, гораздо более узкого диапазона размеров, чем при газовой или водной атомизации.",
+     "locator_kind": "md_para",
+     "locator": "para:125",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Размеры частиц, как правило, не очень мелкие (скажем, более 0,2 мм), за исключением случаев, когда используется высокая скорость вращения более 10000 оборотов в минуту.",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ои-1-2016-диспергирование-pdf:4",
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "title": "Centrifugal‑hydraulic pneumatic (ЦГР) atomization",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Centrifugal‑hydraulic pneumatic atomization using a centrifugal nozzle"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:metal",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:inert-gas",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "productivity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Производительность процесса ЦГР от 100 до 2000 кг порошка или гранул в час.",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Средний размер частиц порошка регулируется в пределах от 60 до 1000 мкм.",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Метод ЦГР может осуществляться в воздухе, в вакууме и в инертной газовой среде.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ои-1-2016-диспергирование-pdf:5",
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "title": "Centrifugal‑pneumatic atomization (ЦПР) laboratory/industrial trial",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "simultaneous tangential feed of melt and pressurised gas into the swirl chamber"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Этим методом можно получать порошки со средним размером частиц от 10 до 60 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "productivity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 20.0,
+      "nominal": null,
+      "max": 200.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при производительности процесса 20 - 200 кг/час",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "gas consumption",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 0.05,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "расходе газа не более 0,05 нм 3 /час",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Этим методом можно получать порошки со средним размером частиц от 10 до 60 мкм при производительности процесса 20 - 200 кг/час и расходе газа не более 0,05 нм 3 /час.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ои-1-2016-диспергирование-pdf:6",
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "title": "Industrial installation of ЦПР",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "centrifugal atomizer with rotating cooled crystallizer"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "productivity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 20.0,
+      "nominal": null,
+      "max": 500.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Установка позволяет получать 20- 500 кг порошка в час",
+     "locator_kind": "md_para",
+     "locator": "para:139",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.75,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Средний размер частиц от 0,75 до 2 мм",
+     "locator_kind": "md_para",
+     "locator": "para:139",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "particle thickness",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 8.0,
+      "nominal": null,
+      "max": 30.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "с толщиной 8-30 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:140",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Установка позволяет получать 20- 500 кг порошка в час. Средний размер частиц от 0,75 до 2 мм, с толщиной 8-30 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ои-1-2016-диспергирование-pdf:7",
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "title": "Ultrasonic thin‑layer atomization experiment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "spraying melt in a thin layer using flexural‑vibrating emitters"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "layer thickness for maximal intensity",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Интенсивность распыления в значительной мере зависит от толщины слоя расплава, она максимальна при h<<λ/2",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "layer thickness range for Al, water, oil",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 3.2
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "например, для расплава алюминия, воды и масла 0,4 ≤ h ≤ 3,2 мм",
+     "locator_kind": "md_para",
+     "locator": "para:147",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Интенсивность распыления в значительной мере зависит от толщины слоя расплава, она максимальна при h<<λ/2. Например, для расплава алюминия, воды и масла 0,4 ≤ h ≤ 3,2 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:147",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:ои-1-2016-диспергирование-pdf:8",
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "title": "Electro‑pulse atomization (ЭЙР) trial",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "pulse current through liquid metal jet"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 100.0,
+      "nominal": null,
+      "max": 500.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "of metal powders"
+     },
+     "method": null,
+     "snippet": "ЭЙР позволяет получать чистые порошки и гранулы с размерами частиц 100-500 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:159",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "particle_size",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 0.01,
+      "nominal": null,
+      "max": 30.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "of metal oxide powders"
+     },
+     "method": null,
+     "snippet": "а также порошкообразные окислы металлов с размерами частиц 0,01- 30 мкм",
+     "locator_kind": "md_para",
+     "locator": "para:159",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [],
+   "snippet": "ЭЙР позволяет получать чистые порошки и гранулы с размерами частиц 100-500 мкм, а также порошкообразные окислы металлов с размерами частиц 0,01- 30 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:159",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Диспергирование расплава -наиболее производительный, экономичный и эффективный способ получения мелких и средних порошков металлов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "method of melt dispersion",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Диспергирование расплава -наиболее производительный, экономичный и эффективный способ получения мелких и средних порошков металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "60-70 % объема всех промышленных порошков получают именно этим методом.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of industrial powder production",
+    "direction": "increases",
+    "factor": "use of melt dispersion method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "60-70 % объема всех промышленных порошков получают именно этим методом.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Более 90% всех порошков, применяемых в аддитивных технологиях, получают методами диспергирования расплава.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share of powders used in additive technologies",
+    "direction": "increases",
+    "factor": "use of melt dispersion methods",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Более 90% всех порошков, применяемых в аддитивных технологиях, получают методами диспергирования расплава.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Метод диспергирования путем распыления расплавов получил широкое распространение в мире.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "adoption level",
+    "direction": "increases",
+    "factor": "method itself",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Метод диспергирования путем распыления расплавов получил широкое распространение в мире.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Этим методом получают порошки металлов с температурой плавления от 300 до 1700 °С.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "method capability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Этим методом получают порошки металлов с температурой плавления от 300 до 1700 °С.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Распыление весьма эффективно при получении порошков многокомпонентных сплавов, обеспечивая объемную равномерность химического состава, оптимальную структуру каждой образующейся частицы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "effectiveness for multi‑component alloys",
+    "direction": "increases",
+    "factor": "use of spray atomization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Распыление весьма эффективно при получении порошков многокомпонентных сплавов, обеспечивая объемную равномерность химического состава, оптимальную структуру каждой образующейся частицы.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Перегрев расплава перед его диспергированием способствует повышению его однородности на атомарном уровне из‑за полного разрушения наследственной структуры, интенсивного перемешивания и кристаллизации дисперсных частиц в процессе высокоскоростного охлаждения - от 10³‑10⁴ и выше градусов в секунду.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "atomic‑level homogeneity of resulting particles",
+    "direction": "increases",
+    "factor": "overheating and rapid cooling (10³‑10⁴ °C/s)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это обусловлено перегревом расплава перед его диспергированием, способствующего повышению его однородности на атомарном уровне из‑за полного разрушения наследственной структуры, интенсивного перемешивания и кристаллизации дисперсных частиц в процессе высокоскоростного охлаждения - от 10³‑10⁴ и выше градусов в секунду.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Выбор метода диспергирования производится исходя из заданных характеристик порошка.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "method suitability",
+    "direction": "increases",
+    "factor": "powder characteristics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Выбор метода диспергирования производится исходя из заданных характеристик порошка.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Эффективное диспергирование металлического расплава требует поддержания его высокой температуры (обеспечения перегрева) и сохранения в допустимых пределах значений базовых физико-химических параметров на протяжении всего процесса распыления.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "high temperature (overheating) and parameter control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Эффективное диспергирование металлического расплава требует поддержания его высокой температуры (обеспечения перегрева) и сохранения в допустимых пределах значений базовых физико-химических параметров на протяжении всего процесса распыления.",
+   "locator_kind": "md_para",
+   "locator": "para:32",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Механизм диспергирования расплава водой высокого давления принципиально отличается от механизма распыления сжатым газом, так как жидкость имеет высокую плотность (примерно в 1000 раз выше плотности воздуха), происходит образование пара в зоне непосредственного контакта воды с расплавом (меняются теплофизические характеристики процесса), наблюдается более интенсивное охлаждение образовавшихся капель‑частиц.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mechanism characteristics",
+    "direction": "increases",
+    "factor": "use of high‑pressure water (density ~1000× air)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Механизм диспергирования расплава водой высокого давления принципиально отличается от механизма распыления сжатым газом, так как жидкость имеет высокую плотность (примерно в 1000 раз выше плотности воздуха), происходит образование пара в зоне непосредственного контакта воды с расплавом (меняются теплофизические характеристики процесса), наблюдается более интенсивное охлаждение образовавшихся капель‑частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "При использовании воды получают плотные порошки, неправильной формы с малой степенью окисленности.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "powder morphology and oxidation",
+    "direction": "increases",
+    "factor": "water as atomizing medium",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При использовании воды получают плотные порошки, неправильной формы с малой степенью окисленности.",
+   "locator_kind": "md_para",
+   "locator": "para:34",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Существует физический предел диспергирования металлических жидкостей, в связи с чем повышение параметров процесса диспергирования (скорости и температуры газа или температуры расплава) не приводит к получению более дисперсных порошков.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle fineness",
+    "direction": "decreases",
+    "factor": "increasing gas or melt temperature/speed beyond physical limit",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Существует физический предел диспергирования металлических жидкостей, в связи с чем повышение параметров процесса диспергирования (скорости и температуры газа или температуры расплава) не приводит к получению более дисперсных порошков.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Установлено, что величина перегрева расплава и температура газа‑энергоносителя влияют на фракционный состав порошка.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "fractional composition",
+    "direction": "increases",
+    "factor": "overheat of melt and gas‑carrier temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установлено, что величина перегрева расплава и температура газа‑энергоносителя влияют на фракционный состав порошка.",
+   "locator_kind": "md_para",
+   "locator": "para:35",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "При распылении расплава водой высокого давления размер частиц порошка зависит от её скорости и удельного расхода.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "increases",
+    "factor": "water jet speed and specific flow rate",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При распылении расплава водой высокого давления размер частиц порошка зависит от её скорости и удельного расхода.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "На форму частиц порошка большое влияние оказывают скорость, удельный расход и угол атаки струи воды‑энергоносителя, физические свойства расплава и другие факторы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle shape",
+    "direction": "increases",
+    "factor": "jet speed, specific flow, spray angle, melt properties",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На форму частиц порошка большое влияние оказывают скорость, удельный расход и угол атаки струи воды‑энергоносителя, физические свойства расплава и другие факторы.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "При взаимодействии расплава с кислородом образование первичных оксидных пленок происходит практически мгновенно.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "oxide film formation",
+    "direction": "increases",
+    "factor": "contact with oxygen",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При взаимодействии расплава с кислородом образование первичных оксидных пленок происходит практически мгновенно.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Плотные тугоплавкие оксидные пленки существенно влияют на процесс формообразования частиц, подавляя действие сил поверхностного натяжения, определяющих процесс сфероидизации капли.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle formation",
+    "direction": "decreases",
+    "factor": "dense refractory oxide films",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плотные тугоплавкие оксидные пленки существенно влияют на процесс формообразования частиц, подавляя действие сил поверхностного натяжения, определяющих процесс сфероидизации капли.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Водород в зоне распыления может образовываться в результате диссоциации паров воды при высоких температурах.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "hydrogen generation",
+    "direction": "increases",
+    "factor": "high temperature water vapor dissociation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Водород в зоне распыления может образовываться в результате диссоциации паров воды при высоких температурах.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Азот попадает в расплав практически на всех этапах технологии.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nitrogen incorporation",
+    "direction": "increases",
+    "factor": "process exposure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Азот попадает в расплав практически на всех этапах технологии.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Медь, никель, серебро, золото, вольфрам не растворяют азот и не взаимодействуют с ним.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "decreases",
+    "factor": "material type (Cu, Ni, Ag, Au, W)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медь, никель, серебро, золото, вольфрам не растворяют азот и не взаимодействуют с ним.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Для получения высококачественных, чистых по кислороду и азоту порошков жаропрочных сталей, титана, циркония и других металлов в качестве технологических сред широко используют инертные газы (аргон, гелий) и вакуум.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "powder purity (O₂, N₂)",
+    "direction": "increases",
+    "factor": "use of inert gases (argon, helium) or vacuum",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для получения высококачественных, чистых по кислороду и азоту порошков жаропрочных сталей, титана, циркония и других металлов в качестве технологических сред широко используют инертные газы (аргон, гелий) и вакуум.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Compared with crushing and grinding, atomization has the advantage of having no seriously wear‑prone parts and modest operating costs.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operating cost / wear",
+    "direction": "decreases",
+    "factor": "absence of wear parts",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По сравнению с дроблением и измельчением, атомизация имеет преимущество в отсутствие каких-либо серьезно изнашиваемых частей, а эксплуатационные затраты достаточно скромны.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "The cost of atomization is generally much lower than the cost of melting, especially when product drying is not required.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost",
+    "direction": "decreases",
+    "factor": "no drying needed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стоимость атомизации, как правило, значительно меньше, чем стоимость плавки, особенно если сушка продукта не является необходимой мерой.",
+   "locator_kind": "md_para",
+   "locator": "para:78",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "In 2008 about 80 % of iron powders worldwide (≈ 1 M t/yr) were produced by water atomization, typically using ladles of 30–110 t and atomization rates of 10–50 t/h.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "production share / capacity",
+    "direction": "increases",
+    "factor": "global industry practice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2008 г. примерно 80% железных порошков в мире, около 1 млн. т/г, получали путем водной атомизации, как правило, с использованием ковшей размером от 30 до 110 т и скоростью атомизации10-50 т/час.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Air atomization of 2 t/h metal requires a compressor rated for 2000 n.m³/h, which at 5 bar consumes over 200 kW (≈ 100 kWh energy cost).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "increases",
+    "factor": "compressor size and pressure",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "установка для воздушной атомизации 2 т/час металла потребуется компрессор, рассчитанный на 2000 n.куб м/час, что даже при 5 бар будет включать в себя компрессор свыше 200кВт (подразумевая затраты энергии 100 кВтч в).",
+   "locator_kind": "md_para",
+   "locator": "para:85",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "A disadvantage of gas atomization is slower cooling, making production of particles larger than 200–500 µm rarely worthwhile.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "decreases",
+    "factor": "cooling speed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Недостатком газовой атомизации является более медленное охлаждение. ... редко имеет смысл производство частиц более 200-500 мкм.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.45,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "VIM atomizers are most often used to obtain fine powders (d = 10–40 µm) for additive manufacturing.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "particle_size",
+    "direction": "increases",
+    "factor": "atomizer type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для получения мелких порошков (d = 10 - 40 мкм), наиболее часто применяемых в аддитивных технологиях, используют так называемые VIM-атомайзеры",
+   "locator_kind": "md_para",
+   "locator": "para:87",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "VIGA technology uses inert gas (usually argon, sometimes nitrogen) blown into a melt poured from a vacuum induction furnace to atomize the metal.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Технологию получения порошков с использование машин для вакуумного плавления называют VIGA ... расплавленный металл сливают в специальный приемник, к которому подводят инертный газ под давлением (обычно аргон, иногда азот).",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.45,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Минимальный расход металла составляет примерно 8 кг/мин или около 1,0 л/мин (по стали).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "flow_rate",
+    "direction": "increases",
+    "factor": "metal type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Минимальный расход металла составляет примерно 8 кг/мин или около 1,0 л/мин (по стали).",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Для производства порошков технически рациональной нижней границей объёма тигля считается 5,0 л (около 40 кг по стали).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "minimum crucible volume",
+    "direction": "increases",
+    "factor": "production scale",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для производства порошков технически рациональной нижней границей объёма тигля считается 5,0 л (около 40 кг по стали).",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "В этом случае время распыления составит примерно 5 мин, и длительность рабочей фазы составит около 4,5 мин.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "crucible volume 5,0 л",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В этом случае время распыления составит примерно 5 мин, и длительность рабочей фазы составит около 4,5 мин.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Атомайзеры типа VIGА применяется, в частности, для получения следующих порошков: никелевые жаропрочные сплавы (например, Inconel 718, Rene 88 и т.д.) для деталей авиационных и стационарных турбин; сплавы на основе кобальта для использования в медицине, стоматологии и производстве мишеней ионного распыления; порошки для плазменного напыления (например, NiCrAlY, CoCrAlY и т.д.) для плазменного напыления защитных покрытий на детали из жаропрочных сплавов; порошки для гранульной металлургии (например, 17-4 PH, 316L) для автомобильных деталей массового производства; композиции для спекания в порошковом слое (например, кобальтовые сплавы и драгоценные металлы) для применения в АМ‑машинах; высоколегированные стали (например, инструментальная и быстрорежущая сталь) с очень высоким содержанием карб",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicable powder types",
+    "direction": "nonmonotonic",
+    "factor": "material composition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Атомайзеры типа VIGА применяется, в частности, для получения следующих порошков: - никелевые жаропрочные сплавы (например, lnconel 718, Rene 88 и т.д.) для деталей авиационных и стационарных турбин; -сплавы на основе кобальта для использования в медицине, стоматологии и производстве мишеней ионного распыления; - -порошки для плазменного напыления (например, NiCrAlY, CoCrAlY и т.д.) для плазменного напыления защитных покрытий на детали из жаропрочных сплавов; - -порошки для гранульной металлургии (например, 17-4 PH, 316L) для автомобильных деталей массового производства; - -композиции для спека",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология EIGA (Electrode induction guide inert gas atomization индукционная плавка электрода с распылением газом) является одним из видов газовой атомизации.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "classification",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология EIGA (Electrode induction guide inert gas atomization индукционная плавка электрода с распылением газом) является одним из видов газовой атомизации.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология EIGA разработана для получения порошков реактивных металлов - Zr, Hf, V, Pt, Ir, Nb, Mo и т.д., поскольку плавка этих металлов в керамических тиглях затруднена даже в условиях вакуума.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "target materials",
+    "direction": "nonmonotonic",
+    "factor": "reactivity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология EIGA ... разработана для получения порошков реактивных металлов - Zr, Hf, V, Pt, Ir, Nb, Mo и т.д., поскольку плавка этих металлов в керамических тиглях затруднена даже в условиях вакуума.",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Машины EJGA имеют невысокую скорость распиливания - около 0,5 кг/с, однако позволяют распылять достаточно большой объём материала в течение одной плавки - от единиц до десятков килограммов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "spray speed and batch size",
+    "direction": "increases",
+    "factor": "machine design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Машины EJGA имеют невысокую скорость распиливания - около 0,5 кг/с, однако позволяют распылять достаточно большой объём материала в течение одной плавки - от единиц до десятков килограммов.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Технология Plasma Atomization позволяет получать высококачественный особо чистый порошок сплавов на основе Mo, Ti, Ni, Та и Со‑Сг в широком и управляемом диапазоне фракционного состава.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "powder quality and composition control",
+    "direction": "increases",
+    "factor": "process type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разновидностью газовой атомизации является технология Plasma Atomization, позволяющая получать высококачественный особо чистый порошок сплавов на основе Mo, Ti, Ni, Та и Со‑Сг в широком и управляемом диапазоне фракционного состава.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.81,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Недостаток технологии Plasma Atomization — необходимость наличия специального производства фидстока — прутка диаметром 1‑5 мм.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "limitation",
+    "direction": "decreases",
+    "factor": "feedstock availability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Недостаток технологии -необходимость наличия специального производства фидстока - прутка диаметром 1-5 мм.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Метод ЦГР может осуществляться в воздухе, в вакууме и в инертной газовой среде.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Метод ЦГР может осуществляться в воздухе, в вакууме и в инертной газовой среде.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "При одновременной тангенциальной подаче в камеру закручивания расплава и газа под давлением реализуется так называемый метод центробежно‑пневматического распыления (ЦПР). Этим методом можно получать порошки со средним размером частиц от 10 до 60 мкм при производительности процесса 20 - 200 кг/час и расходе газа не более 0,05 нм 3 /час.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Этим методом можно получать порошки со средним размером частиц от 10 до 60 мкм при производительности процесса 20 - 200 кг/час и расходе газа не более 0,05 нм 3 /час.",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Воздух разогревают до температуры 350-400 °С, т.е. превышающей температуру плавления олова: это позволяет исключить налипание металла на поверхность форсунки и замерзание его в сливном стаканчике.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "prevention of metal adhesion and solidification in nozzle",
+    "direction": "decreases",
+    "factor": "air temperature 350‑400 °C",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Воздух разогревают до температуры 350-400 °С, т.е. превышающей температуру плавления олова: это позволяет исключить налипание металла на поверхность форсунки и замерзание его в сливном стаканчике.",
+   "locator_kind": "md_para",
+   "locator": "para:119",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Метод ЦПР может эффективно применяться для получения быстрозакаленных порошков с аморфной структур и пудр.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Метод ЦПР может эффективно применяться для получения быстрозакаленных порошков с аморфной структур и пудр.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Ультразвуковой метод диспергирования позволяет получать высокодисперсные порошки, однородные по составу без посторонних примесей, требуемой формы и др.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product quality",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ультразвуковой метол диспергирования позволяет получать высокодисперсные порошки, однородные по составу без посторонних примесей, требуемой формы и др.",
+   "locator_kind": "md_para",
+   "locator": "para:151",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Большинство компаний не продает свои технологии, даже в качестве лицензий, акцентируя свой бизнес только на производстве порошков.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Большинство компаний не продает свои технологии, даже в качестве лицензий, акцентируя свой бизнес только на производстве порошков.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "ALD производит лабораторные атомайзеры объёмом тигля 1,0‑2,0 л и индустриальные с производительностью до 500 кг за одну плавку и более.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В производственной линейке компании -атомайзеры как лабораторного (объем тигля 1,0-2,0 л), так и индустриального назначения с производительностью до 500 кг за одну плавку и более.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  },
+  {
+   "text": "Sandwik Osprey в 80‑х гг. XX в. продала лицензию на технологии атомизации компании ALD Vacuum Technologies (Германия).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Редким исключением является шведская компания Sandwik Osprey (Швеция), которая в 80-х гг. XX в. продала лицензию на технологии атомизации компании ALD Vacuum Technologies (Германия).",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.9,
+   "document_id": "doc:ои-1-2016-диспергирование-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

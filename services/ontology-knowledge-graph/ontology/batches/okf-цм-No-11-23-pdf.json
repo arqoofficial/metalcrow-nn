@@ -1,0 +1,458 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-No-11-23-pdf",
+   "title": "ЦМ № 11-23.pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2023\\ЦМ № 11-23.pdf.md",
+   "artifact_sha256": "c5bea5052d5a3c71e179a05ae08b83da7a8afa12942a3bc94f2095ec9a03e12f",
+   "okf_raw_path": "Журналы/Цветные металлы/2023/ЦМ № 11-23.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Freeport-McMoRan ( FM ) (США) в I-III кварталах 2023 г . по сравнению с аналогичным периодом прошлого года выпустила 1,414 млн т меди (1,424 млн т); продажи составили 1,347 млн т (1,348 млн т), средняя цена продаж - 8531,9 долл/т (8553,9 долл/т), чистая себестоимость - 3637,62 долл/т (3306,93 долл/т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "average sale price",
+    "direction": "increases",
+    "factor": "8531,9 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "средняя цена продаж - 8531,9 долл/т (8553,9 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2024 г . компания может сократить на 40,0 % добычу руды в Индонезии, если не получит разрешения от властей страны на экспорт медного концентрата, запрет на который вступил в силу в июне 2023 г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "ore production",
+    "direction": "decreases",
+    "factor": "40,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "может сократить на 40,0 % добычу руды в Индонезии, если не получит разрешения от властей страны на экспорт медного концентрата",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Ввод предприятия в эксплуатацию намечен на май 2024 г., выход на проектную мощность - конец 2024 г.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "commissioning date",
+    "direction": "increases",
+    "factor": "май 2024 г.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ввод предприятия в эксплуатацию намечен на май 2024 г., выход на проектную мощность - конец 2024 г.",
+   "locator_kind": "md_para",
+   "locator": "para:97",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Glencore (Швейцария) выпустила из собственного сырья 735,8 тыс. т меди (770,5 тыс. т за первые девять месяцев 2022 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "copper production",
+    "direction": "decreases",
+    "factor": "735,8 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "выпустила из собственного сырья 735,8 тыс. т меди (770,5 тыс. т за первые девять месяцев 2022 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:98",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Antofagasta (Великобритания) план производства на 2024 г . - 670,0-710,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "planned production",
+    "direction": "increases",
+    "factor": "670,0-710,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "План производства на 2024 г . - 670,0-710,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:99",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Oroco Resource (Канада) завершила предварительное ТЭО порфирового месторождения меди Santo Tomas (Мексика), содержащего 1,1 млрд т руды (среднее содержание меди 0,340,37 %), на котором может быть получено 2,15 млн т меди в концентрате, 40,0 тыс. т молибдена, 331,9 тыс. тр. унц. золота, 26,3 млн тр. унц. серебра.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "potential copper concentrate production",
+    "direction": "increases",
+    "factor": "2,15 млн т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "может быть получено 2,15 млн т меди в концентрате",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.45,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "VR инвестирует 1,2 млрд долл. в увеличение выпуска с 50,0 тыс. до 100,0-150,0 тыс. т меди в год.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual copper output",
+    "direction": "increases",
+    "factor": "100,0-150,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "увеличение выпуска с 50,0 тыс. до 100,0-150,0 тыс. т меди в год",
+   "locator_kind": "md_para",
+   "locator": "para:103",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Codelco (Чили) премия при продаже меди в КНР составит 89,0 долл/т (140,0 долл/т в 2023 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "premium",
+    "direction": "decreases",
+    "factor": "89,0 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "премия Codelco (Чили) при продаже меди в КНР составит 89,0 долл/т (140,0 долл/т в 2023 г.)",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Alcoa (США) выпустила 1,573 млн т алюминия (1,494 млн т), средняя цена продаж - 2883,3 долл/т (3643,0 долл/т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "average sale price",
+    "direction": "decreases",
+    "factor": "2883,3 долл/т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "средняя цена продаж - 2883,3 долл/т (3643,0 долл/т)",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World Bureau of Metal Statistics (Великобритания) в январе - августе 2023 г. профицит мирового рынка цинка составил 489,0 тыс. т (156,0 тыс. т в январе - августе 2022 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "zinc market surplus",
+    "direction": "increases",
+    "factor": "489,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "профицит мирового рынка цинка составил 489,0 тыс. т (156,0 тыс. т в январе - августе 2022 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:116",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "World Bureau of Metal Statistics (Великобритания) в январе - августе 2023 г . профицит мирового рынка свинца составил 71,0 тыс. т (дефицит 141,0 тыс. т в январе - августе 2022 г .).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "lead market surplus",
+    "direction": "increases",
+    "factor": "71,0 тыс. т",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "профицит мирового рынка свинца составил 71,0 тыс. т (дефицит 141,0 тыс. т в январе - августе 2022 г .)",
+   "locator_kind": "md_para",
+   "locator": "para:120",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "ПАО «Русолово» (РФ) в январе - сентябре 2023 г . по сравнению с аналогичным периодом прошлого года произвело 2,231 тыс. т олова в концентрате (+17,0 %), 0,87 тыс. т меди в концентрате (+29,0 %).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "tin and copper output",
+    "direction": "increases",
+    "factor": "+17,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ПАО «Русолово» (РФ) в январе - сентябре 2023 г . по сравнению с аналогичным периодом прошлого года произвело 2,231 тыс. т олова в концентрате (+17,0 %), 0,87 тыс. т меди в концентрате (+29,0 %).",
+   "locator_kind": "md_para",
+   "locator": "para:122",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "По информации Shanghai Metals Market (КНР), в январе - сентябре 2023 г. импорт оловянной руды сократился до 179,0 тыс. т (-2,81 % к январю - сентябрю 2022 г.).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "tin ore import volume",
+    "direction": "decreases",
+    "factor": "-2,81 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По информации Shanghai Metals Market (КНР), в январе - сентябре 2023 г. импорт оловянной руды сократился до 179,0 тыс. т (-2,81 % к январю - сентябрю 2022 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:123",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2023 г ., согласно оценке Antaike (КНР), мировое потребление кобальта составит 193 тыс. т, в том числе в КНР - 128,0 тыс. т, шахтная добыча - 220,0230,0 тыс. т, производство - 201,0 тыс. т (+10,0 % к 2022 г .), профицит рынка - 8,0 тыс. т;",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "global consumption",
+    "direction": "increases",
+    "factor": "+10,0 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2023 г ., согласно оценке Antaike (КНР), мировое потребление кобальта составит 193 тыс. т, в том числе в КНР - 128,0 тыс. т, шахтная добыча - 220,0230,0 тыс. т, производство - 201,0 тыс. т (+10,0 % к 2022 г .), профицит рынка - 8,0 тыс. т;",
+   "locator_kind": "md_para",
+   "locator": "para:125",
+   "confidence": 0.81,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "в 2024 г . спрос вырастет до 206,0 тыс. т, в том числе в КНР - до 132,0 тыс. т, шахтная добыча - до 238,0 тыс. т, выпуск до 218,0 тыс. т, профицит рынка - до 12,0 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "future demand",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2024 г . спрос вырастет до 206,0 тыс. т, в том числе в КНР - до 132,0 тыс. т, шахтная добыча - до 238,0 тыс. т, выпуск до 218,0 тыс. т, профицит рынка - до 12,0 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:126",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Glencore (Швейцария) в 2023 г. по сравнению с 2022 г . выпустила 23,4 тыс. т кобальта (22,2 тыс. т), в том числе на заводе Nikkelverk (Норвегия) 2,5 тыс. т (2,2 тыс. т), на комбинате Murrin Murrin (Австралия) 1,7 тыс. т (2,4 тыс. т), на комбинате Mutanda Mining (ДРК) - 30,8 тыс. т в концентрате и гидроксиде (30,4 тыс. т).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "annual output",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Glencore (Швейцария) в 2023 г. по сравнению с 2022 г . выпустила 23,4 тыс. т кобальта (22,2 тыс. т), в том числе на заводе Nikkelverk (Норвегия) 2,5 тыс. т (2,2 тыс. т), на комбинате Murrin Murrin (Австралия) 1,7 тыс. т (2,4 тыс. т), на комбинате Mutanda Mining (ДРК) - 30,8 тыс. т в концентрате и гидроксиде (30,4 тыс. т).",
+   "locator_kind": "md_para",
+   "locator": "para:127",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В конце 2025 г. Eurasian Resources Group (ERG ) (Казахстан) планирует ввести в эксплуатацию комбинат Comide (ДР Конго) мощностью 7,0 тыс. т/год гидроксида кобальта и 40,0 тыс. т/год меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "plant capacity",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В конце 2025 г. Eurasian Resources Group (ERG ) (Казахстан) планирует ввести в эксплуатацию комбинат Comide (ДР Конго) мощностью 7,0 тыс. т/год гидроксида кобальта и 40,0 тыс. т/год меди.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в проект - 800,0 млн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инвестиции в проект - 800,0 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "ERG эксплуатирует в стране рудник Matalkol производительностью 20,0 тыс. т/год кобальта, 100,0 тыс. т/год меди.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mine production rate",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ERG эксплуатирует в стране рудник Matalkol производительностью 20,0 тыс. т/год кобальта, 100,0 тыс. т/год меди.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "В октябре 2023 г . компания заключила с BGRIMM Technology Group (КНР) соглашение о строительстве в ДР Конго завода по производству гидроксида кобальта высокой чистоты для прекурсоров аккумуляторного качества.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "agreement signed",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В октябре 2023 г . компания заключила с BGRIMM Technology Group (КНР) соглашение о строительстве в ДР Конго завода по производству гидроксида кобальта высокой чистоты для прекурсоров аккумуляторного качества.",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Ввод предприятия в эксплуатацию намечен на конец 2024 г .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "commissioning date",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ввод предприятия в эксплуатацию намечен на конец 2024 г .",
+   "locator_kind": "md_para",
+   "locator": "para:128",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Codelco (Чили) планирует покупку Lithium Power International (Австралия) за 385,0 млн австр. долл., владеющей месторождением Maricunga (Чили), запасы которого оцениваются в 2,9 млн т эквивалента карбоната лития.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "deal value",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Codelco (Чили) планирует покупку Lithium Power International (Австралия) за 385,0 млн австр. долл., владеющей месторождением Maricunga (Чили), запасы которого оцениваются в 2,9 млн т эквивалента карбоната лития.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Инвестиции в строительство комбината мощностью 15,2 тыс. т/год эквивалента карбоната лития составляют 626,3 млн долл.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Инвестиции в строительство комбината мощностью 15,2 тыс. т/год эквивалента карбоната лития составляют 626,3 млн долл.",
+   "locator_kind": "md_para",
+   "locator": "para:130",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  },
+  {
+   "text": "Eramet (Франция) инвестирует в 2024-2026 гг. 2,03 млрд долл. в развитие литиевых проектов в Аргентине: строительство второй очереди (30,0 тыс. т эквивалента карбоната лития) комбината Centenario (мощность 24,0 тыс. т эквивалента карбоната лития, ввод в эксплуатацию - II квартал 2024 г .), доразведку близлежащего месторождения Arizaro .",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "investment amount",
+    "direction": "increases",
+    "factor": "N/A",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Eramet (Франция) инвестирует в 2024-2026 гг. 2,03 млрд долл. в развитие литиевых проектов в Аргентине: строительство второй очереди (30,0 тыс. т эквивалента карбоната лития) комбината Centenario (мощность 24,0 тыс. т эквивалента карбоната лития, ввод в эксплуатацию - II квартал 2024 г .), доразведку близлежащего месторождения Arizaro .",
+   "locator_kind": "md_para",
+   "locator": "para:132",
+   "confidence": 0.9,
+   "document_id": "doc:цм-No-11-23-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

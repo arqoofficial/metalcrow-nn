@@ -1,0 +1,1601 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "title": "44 ИССЛЕДОВАНИЕ ПРОЦЕССА ГРАНУЛЯЦИИ МЕДНО-НИКЕЛЕВЫХ ШТЕЙНОВ.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\44 ИССЛЕДОВАНИЕ ПРОЦЕССА ГРАНУЛЯЦИИ МЕДНО-НИКЕЛЕВЫХ ШТЕЙНОВ.docx.md",
+   "artifact_sha256": "66c0e50c87f37537f92a1a213551ff5d56b58a03659a0baaab8b76121c734d5b",
+   "okf_raw_path": "Статьи/44 ИССЛЕДОВАНИЕ ПРОЦЕССА ГРАНУЛЯЦИИ МЕДНО-НИКЕЛЕВЫХ ШТЕЙНОВ.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:granulated-feedstock",
+   "label": "Granulated feedstock",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:process-water",
+   "label": "Process water",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:recirculating-water",
+   "label": "Recirculating water",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:melt-of-copper-nickel-feedstock",
+   "label": "Melt of copper‑nickel feedstock",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-melt",
+   "label": "Alloy melt",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:granulated-material",
+   "label": "Granulated material",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sample-2-1",
+   "label": "sample 2.1",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sample-2-2",
+   "label": "sample 2.2",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sample-2-3",
+   "label": "sample 2.3",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sample-2-4",
+   "label": "sample 2.4",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:granulated-concentrate-штаи-н",
+   "label": "granulated concentrate (штайн)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:naoh",
+   "label": "NaOH",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-sulfate",
+   "label": "sodium sulfate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:44-исследование-процесса-грануляции-медно-никеле:0",
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "title": "Influence of granulate composition on water pH",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory granulation of copper‑nickel alloy feedstock with varying composition; water used in the granulation circuit was sampled"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:granulated-feedstock",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:process-water",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Water becomes noticeably more acidic during granulation, likely due to soluble metal sulfates and sulfuric acid.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "pH",
+      "direction": "decreases",
+      "factor": "granulation of melt",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "По результатам проведенных исследований установлено заметное подкисление воды, пошедшей на грануляцию расплава, вероятно связанное с образованием растворимых сульфатов цветных металлов и серной кислоты.",
+     "locator_kind": "md_para",
+     "locator": "para:6",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для минимизиции риска износа оборудования предложен способ нейтрализации оборотной воды узла грануляции щелочью.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:44-исследование-процесса-грануляции-медно-никеле:1",
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "title": "Sodium sulfate solubility limit in closed water‑circulation loop",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory granulation loop with recirculating water; feedstock composition measured; accumulation of Na₂SO₄ monitored over time"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:granulated-feedstock",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:recirculating-water",
+     "role": "medium"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "A finite time exists after which sodium sulfate reaches its solubility limit in the closed water circuit.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "increases",
+      "factor": "continuous operation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На основании химического состава гранулируемых штейнов установлено время накопления сульфата натрия до предела растворимости в условиях замкнутого цикла водоснабжения установки грануляции.",
+     "locator_kind": "md_para",
+     "locator": "para:7",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для минимизиции риска износа оборудования предложен способ нейтрализации оборотной воды узла грануляции щелочью.",
+   "locator_kind": "md_para",
+   "locator": "para:6",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:44-исследование-процесса-грануляции-медно-никеле:2",
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "title": "Effect of overheating on equivalent particle diameter",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory granulation with controlled overheating above liquidus temperature; samples analyzed by DTA and TGA",
+       "temperature_text": "above liquidus (degree of overheating varied)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:granulated-feedstock",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Increasing the degree of overheating relative to the liquidus temperature reduces the equivalent particle diameter of the granulate.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "particle_size",
+      "direction": "decreases",
+      "factor": "overheating",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Данные, полученные в рамках исследования проб гранулированного штейна методами ДТА и ТГА, указывают на снижение эквивалентного диаметра частиц гранулированного штейна по мере увеличения степени перегрева относительно температуры ликвидус.",
+     "locator_kind": "md_para",
+     "locator": "para:7",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Данные, полученные в рамках исследования проб гранулированного штейна методами ДТА и ТГА, указывают на снижение эквивалентного диаметра частиц гранулированного штейна по мере увеличения степени перегрева относительно температуры ликвидус.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:44-исследование-процесса-грануляции-медно-никеле:3",
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "title": "Influence of water‑air jet pressure on melt dispersion",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory granulation where the pressure of the water‑air jet supplied to the granulation zone was varied; dispersion of the melt was evaluated"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:melt-of-copper-nickel-feedstock",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The pressure of the water‑air jet affects the degree of melt dispersion during granulation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "dispersion",
+      "direction": "increases",
+      "factor": "jet pressure",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наряду с величиной перегрева расплава установлено влияние напора подаваемой на грануляцию водно-воздушной струи на степень диспергации расплава.",
+     "locator_kind": "md_para",
+     "locator": "para:7",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Наряду с величиной перегрева расплава установлено влияние напора подаваемой на грануляцию водно-воздушной струи на степень диспергации расплава.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:44-исследование-процесса-грануляции-медно-никеле:4",
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "title": "Laboratory granulation of alloy melt",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Granulation performed on a laboratory granulator after induction furnace melting",
+       "temperature_text": "1200 °C (or 1225 °C for sample 1.4)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1473.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:alloy-melt",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pressure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.32,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "water-air jet"
+     },
+     "method": null,
+     "snippet": "Напор водовоздушной струи, МПа",
+     "locator_kind": "md_para",
+     "locator": "para:29",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "material",
+     "material_id": "mat:process-water",
+     "value": {
+      "min": null,
+      "nominal": 0.083,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "water  to granulation"
+     },
+     "method": null,
+     "snippet": "Расход воды на грануляцию, м 3",
+     "locator_kind": "md_para",
+     "locator": "para:29",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "pH of water (initial)",
+     "scope": "material",
+     "material_id": "mat:process-water",
+     "value": {
+      "min": null,
+      "nominal": 7.2,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рН, ед., начальный",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "pH of water (final)",
+     "scope": "material",
+     "material_id": "mat:process-water",
+     "value": {
+      "min": null,
+      "nominal": 2.53,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рН, ед., конечный",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Granule size distribution (+5 mm)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.49,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Содержание, % масс, +5 мм",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "Granule size distribution (-0,18 mm)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.78,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Содержание, % масс, -0,18 мм",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "При грануляции штейнов происходит заметное подкисление воды, пошедшей на грануляцию.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "water pH decrease",
+      "direction": "decreases",
+      "factor": "granulation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При грануляции штейнов происходит заметное подкисление воды, пошедшей на грануляцию.",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.81
+    },
+    {
+     "text": "При грануляции вне зависимости от состава модельной пробы штейна происходит выделение серосодержащих газов.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "gas emission",
+      "direction": "increases",
+      "factor": "granulation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при грануляции вне зависимости от состава модельной пробы штейна происходит выделение серосодержащих газов.",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.9
+    },
+    {
+     "text": "Напор струи, разбивающей расплав, имеет значительное влияние на крупность получаемых частиц гранулированного штейна.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "granule size",
+      "direction": "increases",
+      "factor": "jet pressure",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Как видно из данных таблиц 3 и 4 напор струи, разбивающей расплав, имеет значительное влияние на крупность получаемых частиц гранулированного штейна.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.9
+    },
+    {
+     "text": "Формирование крупных частиц гранулированного штейна происходит в первоначальный момент подачи расплава в приемный желоб, когда интенсивность слива еще не стабилизирована.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "large granule formation",
+      "direction": "increases",
+      "factor": "early melt feed",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Формирование крупных частиц гранулированного штейна происходит в первоначальный момент подачи расплава в приемный желоб, когда интенсивность слива еще не стабилизирована.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.9
+    },
+    {
+     "text": "После стабилизации потока расплава образование крупных частиц отсутствует.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "large granule formation",
+      "direction": "decreases",
+      "factor": "stable melt flow",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "После стабилизации потока расплава образование крупных частиц отсутствует.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "После операции усреднения полученная смесь материалов порционно переплавлялась в индукционной печи ТГИЛ 6.799 после чего гранулировалась.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:44-исследование-процесса-грануляции-медно-никеле:5",
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "title": "Drying and sieving of granulated material",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Drying at 150 °C in a SNOL 58/350 drying cabinet followed by sieving with a vibro‑sieve into size classes",
+       "temperature_text": "150 °C"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 423.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:granulated-material",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [],
+   "snippet": "Сушка проводилась при температуре 150°С в сушильном шкафу SNOL 58/350.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:44-исследование-процесса-грануляции-медно-никеле:6",
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "title": "Series No2 granulation experiment",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "granulation of copper alloys (steels) with 0.5 kg charge",
+       "temperature_text": "1200 °C",
+       "duration_text": "single batch (entire 0.5 kg charge processed at once)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1473.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sample-2-1",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:sample-2-2",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:sample-2-3",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:sample-2-4",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pressure",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 0.32,
+      "nominal": null,
+      "max": 0.34
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "water-jet"
+     },
+     "method": null,
+     "snippet": "Напор водовоздушной струи, МПа | 0,32-0,34",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.41
+    },
+    {
+     "quantity_kind": "water consumption",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.013,
+      "max": null
+     },
+     "unit": "м³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расход воды на грануляцию, м 3 | 0,013",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "pH initial",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рХ, ед. | начальный | 6,8",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "pH final (sample 2.1)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.44,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рХ, ед. | конечный | 3,44",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "pH final (sample 2.2)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.14,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рХ, ед. | конечный | 3,14",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "pH final (sample 2.3)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.95,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рХ, ед. | конечный | 2,95",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "pH final (sample 2.4)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.87,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рХ, ед. | конечный | 2,87",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:process-water",
+     "value": {
+      "min": 9.1,
+      "nominal": null,
+      "max": 10.3
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "cu  in water after granulation"
+     },
+     "method": null,
+     "snippet": "Конечная | Cu | 9,1-10,3",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:process-water",
+     "value": {
+      "min": 0.77,
+      "nominal": null,
+      "max": 0.97
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "ni  in water after granulation"
+     },
+     "method": null,
+     "snippet": "Конечная | Ni | 0,77-0,97",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:process-water",
+     "value": {
+      "min": 0.03,
+      "nominal": null,
+      "max": 0.038
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "co  in water after granulation"
+     },
+     "method": null,
+     "snippet": "Конечная | Co | 0,030-0,038",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:process-water",
+     "value": {
+      "min": 5.74,
+      "nominal": null,
+      "max": 12.0
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "fe  in water after granulation"
+     },
+     "method": null,
+     "snippet": "Конечная | Fe | 5,74-12,0",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.36
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:process-water",
+     "value": {
+      "min": 34.7,
+      "nominal": null,
+      "max": 36.8
+     },
+     "unit": "mg/l",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "s  in water after granulation"
+     },
+     "method": null,
+     "snippet": "Конечная | S | 34,7-36,8",
+     "locator_kind": "md_para",
+     "locator": "para:32",
+     "confidence": 0.36
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "В рамках 2 серии экспериментов также наблюдается изменение кислотности после грануляции.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "pH decrease",
+      "direction": "decreases",
+      "factor": "granulation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Как видно из данных таблицы 6 в рамках 2 серии экспериментов также наблюдается изменение кислотности поды после грануляции.",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    },
+    {
+     "text": "В пробе воды после грануляции происходит существенное увеличение содержания основных составляющих штейна.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "increases",
+      "factor": "granulation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Из данных таблицы 7 видно, что в пробе воды после грануляции происходит существенное увеличение содержания основных составляющих штейна.",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для более детальных исследований процесса грануляции медных штейнов была проведена серия опытов по грануляции штейнов различного состава с массой навески равной 0,5 кг (серия No2).",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:44-исследование-процесса-грануляции-медно-никеле:7",
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "title": "Series No2 granulation experiments",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "granulation of experimental batches of granulated concentrate (штайн) in a reduced-volume granulation tank",
+       "temperature_text": "70 °C (solubility data) – not a direct experimental condition",
+       "duration_text": "not specified for the granulation runs"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 343.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:granulated-concentrate-штаи-н",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "granulometric composition of granulated samples",
+     "scope": "material",
+     "material_id": "mat:granulated-concentrate-штаи-н",
+     "value": {
+      "min": null,
+      "nominal": 9.0,
+      "max": null
+     },
+     "unit": "percent mass",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в результате снижения рабочего объема грануляционного бака, постоянные условия, в которых проводились отдельно взятые эксперименты, согласно данным таблицы 9 наблюдается изменение гранулометрического состава проб гранулированных штейнов в зависимости от их состава.",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "diameter",
+     "scope": "material",
+     "material_id": "mat:granulated-concentrate-штаи-н",
+     "value": {
+      "min": null,
+      "nominal": 2.3,
+      "max": null
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "equivalent particle"
+     },
+     "method": null,
+     "snippet": "Из данный таблицы 10 следует, что при грануляции увеличение степени перегрева расплава штейна относительно его температуры ликвидус приводит к снижению эквивалентного диаметра частиц гранулированного штейна (рисунок 4).",
+     "locator_kind": "md_para",
+     "locator": "para:65",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "temperature",
+     "scope": "material",
+     "material_id": "mat:granulated-concentrate-штаи-н",
+     "value": {
+      "min": null,
+      "nominal": 1311.15,
+      "max": null
+     },
+     "unit": "K",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "liquidus"
+     },
+     "method": null,
+     "snippet": "Таблица 10 – Результаты исследования гранулированных штейнов методами ДТА и ТГА",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "granulation of richer concentrates requires lower alkali consumption than poorer ones",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "alkali consumption",
+      "direction": "decreases",
+      "factor": "higher Fe content",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Из приведенной на рисунке 3 зависимости следует, что при грануляции более бедных штейнов требуется наивысший расход щелочи необходимой для нейтрализации.",
+     "locator_kind": "md_para",
+     "locator": "para:50",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Несмотря на методику проведения экспериментов серии No2, исключающую необходимость многократного повторения цикла плавка-грануляция и образования конгломератов гранулированного штейна, в результате снижения рабочего объема грануляционного бака, постоянные условия, в которых проводились отдельно взятые эксперименты, согласно данным таблицы 9 наблюдается изменение гранулометрического состава проб гранулированных штейнов в зависимости от их состава.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:44-исследование-процесса-грануляции-медно-никеле:8",
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "title": "Calculation of sodium sulfate accumulation time",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "theoretical calculation based on assumed complete utilization of NaOH and a closed water loop of 400 m³",
+       "temperature_text": "70 °C (solubility reference)",
+       "duration_text": "time to reach solubility limit, see Table 8"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 343.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:naoh",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:sodium-sulfate",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "time_duration",
+     "scope": "material",
+     "material_id": "mat:sodium-sulfate",
+     "value": {
+      "min": null,
+      "nominal": 45.0,
+      "max": null
+     },
+     "unit": "days",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "reach na₂so₄ solubility limit"
+     },
+     "method": null,
+     "snippet": "Таблица 8 – Результаты расчетов времени накопления сульфата натрия",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "sodium sulfate may precipitate after 45‑60 days of operation",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "precipitation risk",
+      "direction": "increases",
+      "factor": "time",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Как видно из данных таблицы 8 время накопления сульфата натрия после которого возможно его выпадение в осадок при переработке рядовых штейнов ПВ МЗ состава составляет 45-60 суток.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На основании это с учетом допущения, что вся щелочь используется полезно выполнены расчеты количества времени, которое потребуется для накопления данного количества сульфата натрия.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The main goal of the continuous conversion process is to obtain conditionally acceptable crude copper with Ni content 0,5 % m/m and S content 0,05 % m/m, which does not require an oxidative stage in subsequent anodic refining.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Главной целью процесса является получение кондиционной черновой меди (содержание Ni - 0,5 % масс., S – 0,05 % масс.), не требующей при последующем анодном рафинировании проведения окислительной стадии.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "When the granule size of copper feedstock exceeds 5 mm, large pieces can jump over the slag layer, leading to non‑conforming “raw” copper despite maintaining the required blast regime.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "granule size effect",
+    "direction": "increases",
+    "factor": "size > 5 mm",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при крупности медного штейна более 5 мм возможен проскок крупных кусков штейна через слой шлакового расплава, что приводит к получение некондиционной «сырой» меди, несмотря на поддержание необходимого дутьевого режима.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "The composition of the feedstock varies widely, from 53 % to 68 % Cu, and can change by 5–6 % absolute Cu between consecutive eight‑hour shifts.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "feedstock composition variability",
+    "direction": "increases",
+    "factor": "shift‑to‑shift changes",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "колебания состава штейна довольно значительные – от 53 до 68 % Cu, при этом изменение от одной восьмичасовой смены до другой могут достигать 5-6 % абс. по Cu.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Granulation of the feedstock and installation of a stream analyzer are technical solutions adopted to minimize the risk of producing non‑conforming crude copper.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "С целью минимизации рисков получения некондиционной черновой меди проектом приняты технические решения, предусматривающие грануляцию штейна и установку потокового анализатора химического состава гранулированного штейна.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "The granulation step is implemented as part of the weighted conversion of copper feedstock, but open‑source literature (except a few works) does not adequately describe its specifics and the influence of technological parameters on the final result.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Процесс грануляции штейна реализован как составная часть процесса взвешенного конвертирования медных штейнов, однако в открытых источниках, за исключением отдельных работ, не освещены в достаточной степени особенности протекания процесса и влияние технологических параметров на конечный результат.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.81,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "A 3‑hour mixing time in a laboratory mixer (model C 50.0 “Пьяная бочка”) is used to homogenize the feedstock before granulation.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Длительность усреднения составляла 3 часа.",
+   "locator_kind": "md_para",
+   "locator": "para:16",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Induction furnace TGIL 6.799 with graphite crucibles is employed for melting to avoid oxidation of materials before granulation.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Плавка проводилась с использованием графитовых тиглей с целью предотвращения окисления материалов.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Графитовые тигли использовались с целью предотвращения окисления материалов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "oxidation prevention",
+    "direction": "decreases",
+    "factor": "graphite crucibles",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Плавка проводилась с использованием графитовых тиглей с целью предотвращения окисления материалов.",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": "smelting"
+  },
+  {
+   "text": "В гидромониторе предусмотрен канал, по которому при грануляции (дроблении) расплава водой, в струю воды возможна подача газа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "water jet velocity",
+    "direction": "increases",
+    "factor": "gas injection",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Дополнительно в конструкции гидромонитора предусмотрен канал, по которому при грануляции (дроблении) расплава водой, в струю воды возможна подача газа.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Газ используется для увеличения скорости воды и, соответственно, степени диспергирования расплава.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "water speed and dispersion degree",
+    "direction": "increases",
+    "factor": "air injection",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Газ используется для увеличения скорости воды и, соответственно, степени диспергирования расплава.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "В качестве газового агента использовался воздух, нагнетаемый компрессором.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В качестве газового агента использовался воздух, нагнетаемый компрессором.",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Расход воды, пошедшей на грануляцию контролировался с помощью водяного счетчика, давление водовоздушной струи – с помощью манометра.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Расход воды, пошедшей на грануляцию контролировался с помощью водяного счетчика, давление водовоздушной струи – с помощью манометра.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "При проведении работ также проводились замеры изменения pH воды.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "При проведении работ также проводились замеры изменения pH воды.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Гранулы рассеивали с помощью бибросита на следующие классы крупности, мм: +5; -5+3; -3+0,8; -0,8+0,45; -0,45+0,18; -0,18.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "После сушки, гранулы рассеивали с помощью бибросита на следующие классы крупности, мм: +5; -5+3; -3+0,8; -0,8+0,45; -0,45+0,18; -0,18",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "При высокой интенсивности слива расплава и ограниченном объеме грануляционного бака возможно образование конгломератов гранулированных частиц.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "conglomerate formation",
+    "direction": "increases",
+    "factor": "high melt outflow intensity + limited tank volume",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При высокой интенсивности слива расплава и ограниченном объеме грануляционного бака возможно образование конгломератов гранулированных частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.81,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Конгломераты состоят из отдельных гранул штейна и обладают низкой прочностью – разрушаются при падении на твердую поверхность и ломаются под действием человеческой силы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "conglomerate strength",
+    "direction": "decreases",
+    "factor": "intrinsic",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Конгломераты состоят из отдельных гранул штейна и обладают низкой прочностью – разрушаются при падении на твердую поверхность и ломаются под действием человеческой силы.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "При наработке модельных проб гранулированного штейна наблюдалось учащение образования конгломератов по мере заполнения грануляционного бака гранулированным материалом и снижения его полезного объёма.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "conglomerate formation rate",
+    "direction": "increases",
+    "factor": "tank fill level",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При наработке модельных проб гранулированного штейна наблюдалось учащение образования конгломератов по мере заполнения грануляционного бака гранулированным материалом и снижения его полезного объёма.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.81,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "При грануляции происходит подкисление воды, пошедшей на грануляцию.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "water pH",
+    "direction": "decreases",
+    "factor": "granulation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как упоминалось ранее при грануляции происходит подкисление воды, пошедшей на грануляцию.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Химизм изменения кислотности воды при грануляции заключается в образовании растворимых сульфатов цветных металлов и серной кислоты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "water acidity mechanism",
+    "direction": "increases",
+    "factor": "formation of soluble metal sulfates and sulfuric acid",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На основании этого можно предположить, что химизм изменения кислотности воды при грануляции заключается в образовании растворимых сульфатов цветных металлов и серной кислоты.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "При наработке опытных партий гранулированного штейна после окончания процесса, при перемешивании и охлаждении воды в грануляционном баке происходило выделение белого дыма, обладающего характерным для диоксида серы запахом.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "gas emission",
+    "direction": "increases",
+    "factor": "post‑process mixing and cooling",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при наработке опытных партий гранулированного штейна после окончания процесса, при перемешивании и охлаждении воды в грануляционном баке происходило выделение белого дыма, обладающего характерным для диоксида серы запахом.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Нельзя исключать наличие растворённого SO₂ в воде.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "observed white smoke",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "поэтому нельзя исключать наличие растворенного SO 2 в воде.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.81,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Neutralization of the granulation loop water with alkali to pH = 12,5 ед is required to prevent accelerated equipment wear in industrial implementation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pH target",
+    "direction": "increases",
+    "factor": "alkali addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В целях предотвращения ускоренного износа оборудования при промышленной реализации процесса требуется нейтрализация оборотной воды узла грануляции щелочью до pH=12,5 ед.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "NaOH is selected as the alkali for neutralization.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "alkali type",
+    "direction": "nonmonotonic",
+    "factor": "choice",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве щелочи для нейтрализации принят NaOH.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "Sodium sulfate solubility in water at 70 °C is approximately 450 g/л.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Растворимость сульфата натрия в воде при температуре 70 °С составляет ~450 г/л [8,9].",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "In a closed water loop, continuous alkali addition leads to accumulation of sodium sulfate in the loop.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "alkali dosing",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В условиях замкнутого цикла водоснабжения установки грануляции штейнов и отсутствия вывода оборотной воды из цикла водоснабжения постоянная загрузка щелочи будет приводит к накоплению сульфата натрия в цикле водооборота установки грануляции.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "To avoid negative consequences of sodium sulfate precipitation, a complete wash‑out of the granulation unit with full replacement of the circulating water volume should be performed in advance.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "precipitation prevention",
+    "direction": "decreases",
+    "factor": "wash‑out",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С целью предотвращения негативных последствий от выпадения сульфата натрия в осадка следует заблаговременно проводить промывку установки грануляции с полной сменой всего объема оборотной воды.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "The granulation process is typically fed with water from a closed recirculating loop; water is removed only by evaporation.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "water removal mode",
+    "direction": "nonmonotonic",
+    "factor": "process design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как правило, технологический процесс грануляция осуществляется за счет подачи воды к гидромонитору из замкнутого цикла оборотного водоснабжения установки грануляции.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  },
+  {
+   "text": "The volume of circulating water in the granulation unit is assumed to be 400 m³ for the accumulation calculations.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "water volume",
+    "direction": "nonmonotonic",
+    "factor": "assumption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объем оборотной воды, циркулирующей в конутре установки грануляции принят равным 400 м 3.",
+   "locator_kind": "md_para",
+   "locator": "para:55",
+   "confidence": 0.9,
+   "document_id": "doc:44-исследование-процесса-грануляции-медно-никеле",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

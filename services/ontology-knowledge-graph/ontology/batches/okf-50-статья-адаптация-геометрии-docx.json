@@ -1,0 +1,584 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:50-статья-адаптация-геометрии-docx",
+   "title": "50 Статья адаптация геометрии.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\50 Статья адаптация геометрии.docx.md",
+   "artifact_sha256": "3e0afaedbf17e4c853447cae87b627c4afe1a1bdf4167bf0f4cf9fe4c036f6b6",
+   "okf_raw_path": "Статьи/50 Статья адаптация геометрии.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:skeleton-frames-of-geological-structures",
+   "label": "skeleton frames of geological structures",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:autodesk-3ds-max",
+   "label": "Autodesk 3ds Max",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:initial-frame-models-of-geological-structures-of",
+   "label": "Initial frame models of geological structures of the project “Complex development of the Komsomolsky mine”",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:50-статья-адаптация-геометрии-docx:0",
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "title": "Application of geometry‑optimization algorithms to skeleton frames of complex geological structures",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "The algorithms for cleaning defective areas and optimizing topology with Autodesk 3ds Max were applied to a number of skeleton frames"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:skeleton-frames-of-geological-structures",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:autodesk-3ds-max",
+     "role": "output"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Optimized and cleaned skeleton frames improve mesh quality and reduce element count",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Comparing the quality of frames with and without optimization, there is an uptrend of resulting finite elements mesh quality and reduction of finite elements quantity in models, where optimized cleaned from abnormalities skeleton frames were used",
+     "locator_kind": "md_para",
+     "locator": "para:10",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "The paper presents the results of appliance of described algorithms for geometry optimization of number of skeleton frames.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:50-статья-адаптация-геометрии-docx:1",
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "title": "Optimization of geological frame models for the Komsomolsky mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Retopology of surface frames using Freeform tools and subsequent finite‑element mesh generation in CAE Fidesys"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:initial-frame-models-of-geological-structures-of",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Number of finite elements before optimization",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 11511.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Кол-во КЭ до опт.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Quality of finite elements before optimization",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.00127,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Кач-во КЭ до опт.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Number of finite elements after optimization",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10849.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Кол-во КЭ после опт.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Quality of finite elements after optimization",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.196,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Кач-во КЭ после опт.",
+     "locator_kind": "md_para",
+     "locator": "para:55",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Total number of finite elements in the final model of the mine",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 3.9,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "разбиением на 950 объемов (3,9 млн. конечных элементов)",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Number of calculation steps performed at once",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 11.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "отрабатываемые за раз 11 расчетных шагов",
+     "locator_kind": "md_para",
+     "locator": "para:60",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "После оптимизации, наблюдается существенное сокращение числа конечных элементов в модели, а также увеличение качества конечных элементов.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Reduction of element count and improvement of element quality",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Как видно из таблицы, после оптимизации, наблюдается существенное сокращение числа конечных элементов в модели, а также увеличение качества конечных элементов.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Описанный подход позволил реализовать построение численной модели и анализ напряженно-деформированного состояния при отработке всех запасов вкрапленных руд рудника «Комсомольский» с разбиением на 950 объемов (3,9 млн. конечных элементов), отрабатываемые за раз 11 расчетных шагов (рисунок 4).",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The described algorithms are especially useful when building large models because the quantity and quality of finite elements of each part strongly affect calculation time and accuracy",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Described algorithms can be especially useful in building of large models, where the quantity and quality of finite elements of each of its separate parts greatly affects the time and accuracy of the calculation.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "The optimization method provides the best ratio between topology quality of the final polygon surface and preservation of small forms of the original geometry",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "It provides the best ratio between the quality of topology for final polygon surface, and maintenance of small forms of original geometry.",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "Defects such as openings in polygon surfaces, plane intersections, degenerated polygons, and triangular polygons with one corner much larger than the other two cause impossibility of building high‑quality finite‑element meshes",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Such geometry artifacts significantly complicate the further work with skeleton frames and usually lead to impossibility of building high-quality finite element mesh",
+   "locator_kind": "md_para",
+   "locator": "para:10",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "если площадь равна 0, то плоскость считается вырожденной и удаляется",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "area",
+    "direction": "decreases",
+    "factor": "0",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "если площадь равна 0, то плоскость считается вырожденной и удаляется",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "если площадь находится в пределах от 1 м 2 до 0, то плоскость помещается в другой слой, и в дальнейшем визуально определяется степень ее пригодности",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "area",
+    "direction": "increases",
+    "factor": "от 1 м 2 до 0",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "если площадь находится в пределах от 1 м 2 до 0, то плоскость помещается в другой слой, и в дальнейшем визуально определяется степень ее пригодности",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "в случае, когда площадь >1 м 2 , итерация продолжается",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "area",
+    "direction": "increases",
+    "factor": ">1 м 2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В случае, когда площадь >1 м 2 , итерация продолжается",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.81,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "полигон с площадью менее 1 м 2 , как правило будет вызывать неэффективное сгущение конечноэлементной сетки или будет являться “ложным” концентратором напряжений",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "area",
+    "direction": "decreases",
+    "factor": "менее 1 м 2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "полигон с площадью менее 1 м 2 , как правило будет вызывать неэффективное сгущение конечноэлементной сетки или будет являться “ложным” концентратором напряжений",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "при нахождении плоскости с острым углом менее 5 градусов (величина угла принимается из практики), плоскость помещается в отдельный слой для дальнейшего визуального осмотра и исправления",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "angle",
+    "direction": "decreases",
+    "factor": "менее 5 градусов",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При нахождении плоскости с острым углом менее 5 градусов (величина угла принимается из практики), плоскость помещается в отдельный слой для дальнейшего визуального осмотра и исправления",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "при оптимизации модели инструментами Optimize или proOptimizer, выполняется уменьшение количества вершин тела, и полигонов",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "vertex count / polygon count",
+    "direction": "decreases",
+    "factor": "unspecified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При оптимизации модели инструментами Optimize или proOptimizer, выполняется уменьшение количества вершин тела, и полигонов",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "Алгоритм данного инструмента основан на учете углов между полигонами, что позволяет сохранять основные геометрические особенности каркасов, при этом существенно облегчая модель",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "geometric fidelity",
+    "direction": "no_change",
+    "factor": "unspecified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Алгоритм данного инструмента основан на учете углов между полигонами, что позволяет сохранять основные геометрические особенности каркасов, при этом существенно облегчая модель",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "возможность применения данных инструментов не только непосредственно к телу, но и к выделяемым областям полигонов, позволяет разрежать сгущения полигональной сети, не затрагивая участки с уже приемлемой геометрией",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "polygon density",
+    "direction": "decreases",
+    "factor": "unspecified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "возможность применения данных инструментов не только непосредственно к телу, но и к выделяемым областям полигонов, что позволяет разрежать сгущения полигональной сети, не затрагивая участки с уже приемлемой геометрией",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "Стоит отметить возможность сохранения геометрии краевых полигонов (Protect Borders Optimization Mod), что увеличивает точность полученной геометрии после применения инструмента ProOptimizer",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "geometric accuracy",
+    "direction": "increases",
+    "factor": "unspecified",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стоит отметить возможность сохранения геометрии краевых полигонов (Protect Borders Optimization Mod), что увеличивает точность полученной геометрии после применения инструмента ProOptimizer",
+   "locator_kind": "md_para",
+   "locator": "para:48",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "при высокой сложности геометрии, либо при большом количестве вытянутых полигонов, оптимизация геометрии при помощи стандартных инструментов невозможна",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "applicability",
+    "direction": "decreases",
+    "factor": "высокая сложность геометрии или большое количество вытянутых полигонов",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При высокой сложности геометрии, либо при большом количестве вытянутых полигонов, оптимизация геометрии при помощи стандартных инструментов невозможна",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "Для ретопологии поверхности рекомендуется вводить значение Offset от 1 до 10 см",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "distance",
+    "direction": "increases",
+    "factor": "от 1 до 10 см",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "далее в строке Offset вводится расстояние от исходной поверхности до ограничивающей псевдоповерхности, рекомендуется принимать значение от 1 до 10 см",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.81,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "Для функции Draw On: Surface рекомендуется вводить значение Offset от 1 до 10 см.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Далее в строке Offset вводится расстояние от исходной поверхности до ограничивающей псевдоповерхности, рекомендуется принимать значение от 1 до 10 см.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "Оптимизация каркасов сложных геологических структур является необходимым действием перед их дальнейшим использованием.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Оптимизация каркасов сложных геологических структур является необходимым действием перед их дальнейшим использованием.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "Алгоритмы, приведённые в работе, способны исправить дефекты геометрии каркасов, которые могут привести к невозможности их использования при численном моделировании.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Defect correction capability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использование алгоритмов, приведенных в данной работе, способно исправить дефекты геометрии каркасов сложных геологических структур, которые могут привести к невозможности их использования при численном моделировании",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "Оптимизация первоначальной топологии способна существенно сократить количество конечных элементов с низким рангом качества и точек‑концентраторов напряжений.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Number of low‑quality elements and stress concentrators",
+    "direction": "decreases",
+    "factor": "существенно",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оптимизация первоначальной топологии способна существенно сократить количество конечных элементов с низким рангом качества и точек-концентраторов напряжений.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  },
+  {
+   "text": "Большую часть однотипных задач можно автоматизировать при помощи скриптов, что существенно снижает трудоёмкость и повышает точность.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Labor intensity and accuracy",
+    "direction": "decreases",
+    "factor": "существенно",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Как показывает практика, большую часть однотипных задач можно автоматизировать при помощи скриптов. Автоматизация подобных процессов способна существенно снизить трудоемкость выполнения подобных задач и повысить точность.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.45,
+   "document_id": "doc:50-статья-адаптация-геометрии-docx",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:autodesk-3ds-max",
+   "dst": "mat:skeleton-frames-of-geological-structures",
+   "process": "other",
+   "kind": null,
+   "snippet": "The paper presents the results of appliance of described algorithms for geometry optimization of number of skeleton frames.",
+   "doc_id": "doc:50-статья-адаптация-геометрии-docx"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

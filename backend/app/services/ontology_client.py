@@ -38,15 +38,42 @@ def available() -> bool:
         return False
 
 
-def ask(question: str) -> dict[str, Any] | None:
+def manifest() -> dict[str, Any] | None:
+    """GET /manifest — самоописание тулов онтологии (JSON Schema аргументов),
+    `{name, version, tools: {name: {description, type, properties}}}`. Источник для
+    автоматической регистрации тулов агентом (не хардкодить их список)."""
+    try:
+        resp = httpx.get(
+            f"{settings.ONTOLOGY_KG_URL}/manifest", timeout=_TIMEOUT, trust_env=False
+        )
+        resp.raise_for_status()
+        data: dict[str, Any] = resp.json()
+        return data
+    except httpx.HTTPError as exc:
+        logger.warning("ontology-kg manifest failed: %s", exc)
+        return None
+
+
+def ask(
+    question: str, synth: bool = True, *,
+    langfuse_headers: dict[str, str] | None = None
+) -> dict[str, Any] | None:
     """POST /api/v1/ask — NL-вопрос → интент → тул → structured claims с
     дословными цитатами. Shape: {question, tools_used[], tool_args,
     claims:[{text, kind, confidence?, n_sources?, citations[]}]}.
-    Пустые claims = онтология не нашла данных под вопрос."""
+    Пустые claims = онтология не нашла данных под вопрос.
+
+    synth=False — пропустить LLM-синтез онтологии (только claims): для ReAct-агента,
+    который синтезирует финал сам, — экономит один вложенный LLM-вызов на вопрос.
+
+    `langfuse_headers` (langfuse_trace_user_id / langfuse_session_id) are
+    forwarded so ontology-knowledge-graph can relay them onto its
+    LiteLLM-gateway intent-classification call for Langfuse trace attribution."""
     try:
         resp = httpx.post(
             f"{settings.ONTOLOGY_KG_URL}/api/v1/ask",
-            json={"question": question},
+            json={"question": question, "synth": synth},
+            headers=langfuse_headers or None,
             timeout=_ASK_TIMEOUT,
             trust_env=False,
         )

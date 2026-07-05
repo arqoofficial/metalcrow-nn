@@ -1,0 +1,623 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cunico-resources-pdf",
+   "title": "Cunico Resources.pdf",
+   "doc_type": "article",
+   "year": 2018,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Cunico Resources.pdf.md",
+   "artifact_sha256": "d6d1532f8f97a03828b02c6fb98b6fdc3d53bb3bca494a314e90bf4691b2dd56",
+   "okf_raw_path": "Обзоры/Cunico Resources.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:лимонит",
+   "label": "лимонит",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:руда-mayaniquel",
+   "label": "руда Mayaniquel",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cunico-resources-pdf:0",
+   "document_id": "doc:cunico-resources-pdf",
+   "title": "Металлургическое опробование лимонитового сырья",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Металлургическое опробование"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:лимонит",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "phase_fraction",
+     "scope": "material",
+     "material_id": "mat:лимонит",
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "лимонитового сырья допускаемая без снижения извлечения или"
+     },
+     "method": null,
+     "snippet": "металлургическое опробование показало, что до 30% сырья для FeNi завода может быть представлено лимонитами без значимого снижения извлечения или качества продукта.",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Лимонит может составлять до 30% сырья без значимого снижения извлечения или качества продукта.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "допустимая доля лимонита",
+      "direction": "increases",
+      "factor": "30%",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "металлургическое опробование показало, что до 30% сырья для FeNi завода может быть представлено лимонитами без значимого снижения извлечения или качества продукта.",
+     "locator_kind": "md_para",
+     "locator": "para:90",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "металлургическое опробование показало, что до 30% сырья для FeNi завода может быть представлено лимонитами без значимого снижения извлечения или качества продукта.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cunico-resources-pdf:1",
+   "document_id": "doc:cunico-resources-pdf",
+   "title": "Исследование возможности обогащения руды рентгенолюминисцентным методом сортировки",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "рентгенолюминисцентный метод сортировки"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:руда-mayaniquel",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Выбран способ рентгенолюминисцентного метода сортировки для обогащения руды.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "метод обогащения",
+      "direction": "increases",
+      "factor": "рентгенолюминисцентный метод сортировки",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "были проведены исследования по возможности обогащения руды и выбран способ (рентгенолюминисцентный метод сортировки).",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "были проведены исследования по возможности обогащения руды и выбран способ (рентгенолюминисцентный метод сортировки).",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Cunico Resources N.V. занимается геологоразведкой, добычей никелевой руды и производством ферроникеля.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "activity",
+    "direction": "increases",
+    "factor": "company operations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Cunico Resources N.V. занимается геологоразведкой, добычей никелевой руды и производством ферроникеля.",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания считала себя «крупнейшим производителем ферроникеля в Европе».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "market position",
+    "direction": "increases",
+    "factor": "company claim",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания считала себя «крупнейшим производителем ферроникеля в Европе».",
+   "locator_kind": "md_para",
+   "locator": "para:9",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Завод в Kavadarchi (Македония) с момента приобретения его в 2005 г. компанией Cunico увеличил объем производства с ~5 тыс т/г до 20 тыс т/г Ni в FeNi.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "ownership change",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Завод в Kavadarchi (Македония) с момента приобретения его в 2005 г. компанией Cunico увеличил объем производства с ~5 тыс т/г до 20 тыс т/г Ni в FeNi.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2006 г. был налажен выпуск гранул (до 2006 г. выпускали только слитки).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "product type",
+    "direction": "increases",
+    "factor": "process modification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2006 г. был налажен выпуск гранул (до 2006 г. выпускали только слитки).",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "С 2013 г. в качестве заменителя части ископаемого твердого топлива (бурые угли, энергетический уголь) стали использовать биомассу (отходы производства оливкового масла).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "fuel type",
+    "direction": "increases",
+    "factor": "biomass use",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С 2013 г. в качестве заменителя части ископаемого твердого топлива (бурые угли, энергетический уголь) стали использовать биомассу (отходы производства оливкового масла).",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2013 г. были установлены новые горелки для вращающихся обжиговых печей, работающие на смеси мазут/нефтяной кокс (нефтяной кокс дешевле мазута, во всяком случае, тогда был дешевле).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "fuel cost",
+    "direction": "decreases",
+    "factor": "new burners",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2013 г. были установлены новые горелки для вращающихся обжиговых печей, работающие на смеси мазут/нефтяной кокс (нефтяной кокс дешевле мазута, во всяком случае, тогда был дешевле).",
+   "locator_kind": "md_para",
+   "locator": "para:18",
+   "confidence": 0.81,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2016 г. «из-за продолжительного кризиса» (полагаем, из-за низких цен на никель), несмотря на все предпринимаемые компанией меры, на Kavadarchi пришлось сокращать базовую зарплату и отправлять работников в отпуска. Выпуск никеля сократился вдвое - до 10 тыс т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "decreases",
+    "factor": "market crisis",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2016 г. «из-за продолжительного кризиса» (полагаем, из-за низких цен на никель), несмотря на все предпринимаемые компанией меры, на Kavadarchi пришлось сокращать базовую зарплату и отправлять работников в отпуска. Выпуск никеля сократился вдвое - до 10 тыс т.",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Оба завода выпускают ферроникель высокого качества, «один из лучших в мире ферроникелей».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "quality level",
+    "direction": "increases",
+    "factor": "process control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Оба завода выпускают ферроникель высокого качества, «один из лучших в мире ферроникелей».",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания подчеркивает «сверхнизкое» содержание углерода в FeNi.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "process control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания подчеркивает «сверхнизкое» содержание углерода в FeNi.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.81,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2006 г. был приватизирован ферроникелевый комплекс Drenas (бывш. Glogovac) в Косово, который перешел в собственность СП IMR/Alferon за 33 млн € и обязательство инвестировать в комплекс ещё 20 млн € в течение трех лет и обеспечить занятость, по крайней мере, 1000 рабочих.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "investment",
+    "direction": "increases",
+    "factor": "privatization",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2006 г. был приватизирован ферроникелевый комплекс Drenas (бывш. Glogovac) в Косово, который перешел в собственность СП IMR/Alferon за 33 млн € и обязательство инвестировать в комплекс ещё 20 млн € в течение трех лет и обеспечить занятость, по крайней мере, 1000 рабочих.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Рудники в Косово, по сообщениям в печати, содержат никеля «более чем на 2 млрд USD».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "nickel value",
+    "direction": "increases",
+    "factor": "ore reserves",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Рудники в Косово, по сообщениям в печати, содержат никеля «более чем на 2 млрд USD».",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Ежегодный объем производства косовского завода не превышал 7-8 тыс т, за исключением, пожалуй, 2015 г. - около 11,5 тыс т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "year 2015",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ежегодный объем производства косовского завода не превышал 7-8 тыс т, за исключением, пожалуй, 2015 г. - около 11,5 тыс т.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.81,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Форма выпуска: гранулы 3-40 мм (95%), остаточная влажность 0,2% макс., не радиоактивны.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "granule size",
+    "direction": "increases",
+    "factor": "specification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Форма выпуска: гранулы 3-40 мм (95%), остаточная влажность 0,2% макс., не радиоактивны.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания может поставлять до 100 тыс т/мес руды.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capacity",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания может поставлять до 100 тыс т/мес руды.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Доставка по морю до порта Салоники занимает ~25 дней.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "time_duration",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Доставка по морю до порта Салоники занимает ~25 дней.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Руда с гватемальских рудников, как считает компания, обладает необычным для сапролита cоставом: высокое содержание как никеля, так и железа.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "composition",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Руда с гватемальских рудников, как считает компания, обладает необычным для сапролита cоставом: высокое содержание как никеля, так и железа.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Такой состав, с относительно высоким железом, высоким содержанием оксида магния и кальция на фоне сравнительно низкого содержания SiO2 (т.е. высокая основность) «позволяют существенно сократить удельный расход энергии».",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "energy_consumption",
+    "direction": "decreases",
+    "factor": "high Fe, MgO, CaO, low SiO2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Такой состав, с относительно высоким железом, высоким содержанием оксида магния и кальция на фоне сравнительно низкого содержания SiO2 (т.е. высокая основность) «позволяют существенно сократить удельный расход энергии».",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2015 финансовом году выпуск Ni в FeNi на заводе ProNiCo составил 10,83 тыс. т.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2015 финансовом году выпуск Ni в FeNi на заводе ProNiCo составил 10,83 тыс. т.",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2016 г. было произведено только 8,7 тыс. т Ni в FeNi из-за аварии в августе 2016 г. (взрыв котла No3, погибли 5 человек).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "output",
+    "direction": "decreases",
+    "factor": "accident",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2016 г. было произведено только 8,7 тыс. т Ni в FeNi из-за аварии в августе 2016 г. (взрыв котла No3, погибли 5 человек).",
+   "locator_kind": "md_para",
+   "locator": "para:63",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2017 г. неисполненных финансовых обязательств было на 400 млн € трем банкам плюс ещё 20 млн € другим кредиторам.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "unfulfilled obligations",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в 2017 г. неисполненных финансовых обязательств было на 400 млн € трем банкам плюс ещё 20 млн € другим кредиторам.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "У комплекса FENI неисполненных обязательств было на 60 млн €.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "unfulfilled obligations",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "У комплекса FENI неисполненных обязательств было на 60 млн €.",
+   "locator_kind": "md_para",
+   "locator": "para:46",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "По проекту предполагалось получать ферроникель с 22,5% Ni: первые 4 года около 20 тыс т/г Ni в FeNi, с 5‑го года – 40 тыс т/г Ni.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "22,5% Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по проекту предполагалось получать ферроникель с 22,5% Ni: первые 4 года около 20 тыс т/г Ni в FeNi, с 5‑го года - 40 тыс т/г Ni.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.81,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "В среднем, по оценкам Anfield, 30% по объему – лимонит, 10% – переходная руда, 60% – сапролит.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В среднем, по оценкам Anfield, 30% по объему - лимонит, 10% - переходная руда, 60% - сапролит.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "В гватемальских месторождениях лимонита меньше, а зоны переходной руды и сапролита – толще.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в гватемальских месторождениях лимонита меньше, а зоны переходной руды и сапролита - толще.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Предпочтительный состав сырья был определён как: Ni 1,67%; Fe2O3 30,4%; SiO2 29,0%; MgO 17,6% т.е. Fe/Ni <12.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Предпочтительный состав сырья был определен как: Ni 1,67%; Fe2O3 30,4%; SiO2 29,0%, MgO 17,6% т.е. Fe/Ni <12.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Металлургическое опробование показало, что до 30% сырья для FeNi завода может быть представлено лимонитами без значимого снижения извлечения или качества продукта.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "допустимая доля лимонита в сырье",
+    "direction": "increases",
+    "factor": "30%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "металлургическое опробование показало, что до 30% сырья для FeNi завода может быть представлено лимонитами без значимого снижения извлечения или качества продукта.",
+   "locator_kind": "md_para",
+   "locator": "para:90",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  },
+  {
+   "text": "Было решено начать добычу на месторождении Sechol с участка El Inicio.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Добычу решено начать на месторождения Sechol с участка El Inicio.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:cunico-resources-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

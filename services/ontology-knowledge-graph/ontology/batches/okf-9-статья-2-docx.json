@@ -1,0 +1,745 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:9-статья-2-docx",
+   "title": "9 статья (2).docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\9 статья (2).docx.md",
+   "artifact_sha256": "ef6e99e7942b63be43224068d97d9c2611aea137e9deaaa02f94b936fe71117b",
+   "okf_raw_path": "Статьи/9 статья (2).docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:anionite",
+   "label": "anionite",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nicl2-solution",
+   "label": "NiCl2 solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lead-ii-source",
+   "label": "Lead (II) source",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:nickel-chloride-nicl2-solution",
+   "label": "Nickel chloride (NiCl₂) solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:anionite-a365",
+   "label": "Anionite A365",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:anionite-mts9841",
+   "label": "Anionite MTS9841",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sodium-sulfate-na2so4",
+   "label": "Sodium sulfate (Na₂SO₄)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:9-статья-2-docx:0",
+   "document_id": "doc:9-статья-2-docx",
+   "title": "Static sorption pH study",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Sorption in static conditions",
+       "temperature_text": "room temperature",
+       "duration_text": "60−90 h"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:anionite",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:nicl2-solution",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "distribution coefficient of lead",
+     "scope": "material",
+     "material_id": "mat:nicl2-solution",
+     "value": {
+      "min": 3.0,
+      "nominal": null,
+      "max": 3.5
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "коэффициенты распределения свинца при сорбции на большинстве анионитов при повышении рН растворов сверх 3,0–3,5 заметно уменьшаются.",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Optimal pH for lead sorption on anionites A365 and MTS9841 is not higher than 3.0–3.5 pH units.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "pH",
+      "direction": "no_change",
+      "factor": "lead sorption efficiency",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "лучшие результаты должны достигаться при поддержании рН растворов на уровне не выше 3,0–3,5 ед. рН.",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Навески анионитов по 0,2 г в пересчете на массу абсолютно сухого ионита помещали в колбы и приводили в контакт с 20 мл раствора, содержимое колб перемешивали с помощью шейкера Memmert ONE 14 в течение 60−90 ч с перерывами на ночное время.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:9-статья-2-docx:1",
+   "document_id": "doc:9-статья-2-docx",
+   "title": "Dynamic column sorption/desorption",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Sorption and desorption in dynamic conditions",
+       "temperature_text": "thermostated (Thermostat U10)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 283.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:anionite",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:nicl2-solution",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 0.26,
+      "nominal": null,
+      "max": 0.27
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Скорость пропускания растворов через колонки во всех экспериментах как при сорбции, так и при десорбции составляла 1,0 к.о./ч или ~ 0,26–0,27 см/мин.",
+     "locator_kind": "md_para",
+     "locator": "para:15",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [],
+   "snippet": "В экспериментах, проводимых в динамических условиях, использовались колонки, заполненные 26 или 27 мл того или иного анионита товарного зернения, при соотношении H:D = 10:1.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:9-статья-2-docx:2",
+   "document_id": "doc:9-статья-2-docx",
+   "title": "Effect of nickel concentration on lead distribution coefficients (pH = 3.0)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory batch sorption tests with constant lead concentration 0.49 g/l and nickel concentrations 50, 100, 150 and 200 g/l; pH adjusted to 3.0; anionites A365 and MTS9841 used; distribution coefficients calculated from equilibrium lead concentrations.",
+       "temperature_text": "ambient (not specified)",
+       "duration_text": "equilibrium (not specified)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-ii-source",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:nickel-chloride-nicl2-solution",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:anionite-a365",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:anionite-mts9841",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "distribution coefficient of lead",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Повышение концентрации хлорида никеля в растворе негативно влияет на сорбцию свинца анионитами, причем если при повышении концентрации никеля от 50 до 100 г/л коэффициенты распределения свинца снижаются незначительно, то дальнейшее повышение концентрации макрокомпонента приводит к их резкому снижению.",
+     "locator_kind": "md_para",
+     "locator": "para:26",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Nickel chloride competes with lead chloride complexes for anionite sites, reducing lead sorption especially above 100 g/l Ni.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "efficiency",
+      "direction": "decreases",
+      "factor": "nickel concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Это объясняется, прежде всего, конкуренцией хлорид-ионов с анионными формами свинца.",
+     "locator_kind": "md_para",
+     "locator": "para:26",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На рис. 2 приведены данные о влиянии концентрации макрокомпонента (никеля) на сорбцию свинца на анионитах А365 и MTS9841 при pH = 3,0.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:9-статья-2-docx:3",
+   "document_id": "doc:9-статья-2-docx",
+   "title": "Isotherms of lead sorption at high nickel concentrations",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory isotherm experiments on anionites A365 and MTS9841 using NiCl₂ solutions with nickel concentrations 118 g/l and 180 g/l; sulfate ion added to 29.3 g/l as Na₂SO₄; equilibrium pH after contact 3.0–3.6; sorption isotherms recorded.",
+       "temperature_text": "ambient (not specified)",
+       "duration_text": "equilibrium (not specified)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:lead-ii-source",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:nickel-chloride-nicl2-solution",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:sodium-sulfate-na2so4",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:anionite-a365",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:anionite-mts9841",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "lead sorption isotherm",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 3.0,
+      "nominal": null,
+      "max": 3.6
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Для более полной оценки влияния концентрации макрокомпонента – хлорида никеля, на сорбцию свинца были сняты изотермы сорбции последнего на тех же анионитах (А365 и MTS9841) из растворов NiCl₂ с концентрацией по никелю 118 и 180 г/л.",
+     "locator_kind": "md_para",
+     "locator": "para:28",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Presence of sulfate up to 29.3 g/l does not affect lead sorption on either anionite.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "lead sorption",
+      "direction": "no_change",
+      "factor": "sulfate concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Дополнительные исследования показали, что присутствие в растворах хлорида никеля сульфат-иона вплоть до указанной концентрации не оказывает влияния на сорбцию свинца на обоих анионитах.",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Во всех растворах присутствовал сульфат-ион в концентрации 29,3 г/л, введенный в виде сульфата натрия. Равновесные значения рН растворов после контакта с анионитами колебались в пределах 3,0–3,6.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "содержание свинца в подготовленном никелевом электролите не должно превышать 0,1 г/л",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "no_change",
+    "factor": "lead content",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В связи с этим содержание свинца в подготовленном никелевом электролите не должно превышать 0,1 г/л",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "в исходных растворах оно может достигать 1‑2 г/л",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "initial solution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в то время как в исходных растворах оно может достигать 1‒2 г/л",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Стандартный окислительно-восстановительный потенциал пары Pb2+/Pb равен -0,126 В, а Ni2+/Ni ‒ -0,24 В",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "redox_potential",
+    "direction": "no_change",
+    "factor": "metal pairs",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Стандартный окислительно-восстановительный потенциал пары Pb 2+ /Pb равен -0,126 В, а Ni 2+ /Ni ‒ -0,24 В",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "глубокой очистки хлоридных никелевого и кобальтового растворов с исходной концентрацией свинца 20–30 мг/л можно добиться в ходе пропускания только первых 5–7 к.о.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "depth of lead removal",
+    "direction": "decreases",
+    "factor": "column volume passed",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "глубокой очистки хлоридных никелевого и кобальтового растворов с исходной концентрацией свинца 20–30 мг/л можно добиться в ходе пропускания только первых 5–7 к.о.",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "конденсационные иониты, к числу которых относится анионит ЭДЭ-10П, выпускаются в форме гранул неправильной формы, они механически и осмотически недостаточно стойки, поэтому срок их эксплуатации невелик",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "mechanical and osmotic stability",
+    "direction": "decreases",
+    "factor": "granule shape",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "конденсационные иониты, к числу которых относится анионит ЭДЭ-10П, выпускаются в форме гранул неправильной формы, они механически и осмотически недостаточно стойки, поэтому срок их эксплуатации невелик",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "некоторые из таких анионитов проявляют повышенную избирательность к свинцу при сорбции из растворов хлоридов никеля и кобальта, правда с концентрацией по хлорид-иону 1,5–2,5 моль/л",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "selectivity for lead",
+    "direction": "increases",
+    "factor": "chloride ion concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "некоторые из таких анионитов проявляют повышенную избирательность к свинцу при сорбции из растворов хлоридов никеля и кобальта, правда с концентрацией по хлорид-иону 1,5–2,5 моль/л",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "при концентрации никеля или кобальта не более 1,25 моль/л или ~ 74 г/л",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "no_change",
+    "factor": "nickel/cobalt concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "т.е. с концентрацией никеля или кобальта не более 1,25 моль/л или ~ 74 г/л",
+   "locator_kind": "md_para",
+   "locator": "para:8",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "All anionites are macroporous according to manufacturers.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "По данным производителей, все аниониты – макропористые, хотя гранулы анионитов S985 и А365 после набухания становятся прозрачными, что, вообще говоря, присуще гелевым смолам.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Full exchange capacities of the anionites are: S984 2,8; S985 2,4; MTS981 3,4; А365 3,6; А110 1,4 g‑eq/L.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Полная обменная емкость анионитов по данным производителей составила, г-экв/л: S984 2,8; S985 2,4; MTS981 3,4; А365 3,6; А110 1,4.",
+   "locator_kind": "md_para",
+   "locator": "para:11",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "In a NiCl2 solution with nickel concentration 100 g/L and chloride concentration ~3.5 mol/L, lead(II) is predominantly present as the PbCl4²⁻ complex.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в растворе с концентраций по никелю 100 г/л, в котором концентрация хлорид-иона составляет ~3,5 моль/л, свинец(II) находится преимущественно в форме комплекса PbCl4 2-",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.81,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Increasing pH reduces the fraction of anionite exchange groups in the active protonated form, leading to lower lead distribution coefficients.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "pH effect on exchange groups",
+    "direction": "decreases",
+    "factor": "lead distribution coefficient",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "При повышении рН растворов доля анионообменных групп анионитов, находящихся в активной протонированной форме, уменьшается, что, естественно, приводит к уменьшению коэффициентов распределения свинца.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "The anionite A365 has the highest full exchange capacity among the tested sorbents.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "по способности к сорбции хлоридных комплексов свинца из опробованных сорбентов выделяется анионит А365, имеющий, кстати, наиболее высокую полную обменную емкость.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Lead in high‑chloride nickel electrolytes exists mainly as negatively charged chloride complexes such as [PbClₓ]²⁻.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lead speciation",
+    "direction": "increases",
+    "factor": "chloride concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Свинец присутствует в хлоридных в растворах с высокой концентрацией хлорид-иона в форме отрицательно заряженных хлоридных комплексов типа [PbClₓ] (2‑x).",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.81,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "At 100 g/l nickel and ~3.5 M chloride, lead(II) is predominantly present as the complex PbCl₄²⁻ and should sorb on anionites by anion‑exchange mechanism.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lead complex form",
+    "direction": "increases",
+    "factor": "nickel and chloride concentrations",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в растворе с концентраций по никелю 100 г/л, в котором концентрация хлорид-иона составляет ~3,5 моль/л, свинец(II) находится преимущественно в форме комплекса PbCl₄²⁻ и, следовательно, должен сорбироваться на анионитах по анионообменному механизму.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.81,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Anionite A365 has the highest total exchange capacity among the tested sorbents, followed by MTS9841, S984, S985, and A110.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "exchange capacity",
+    "direction": "decreases",
+    "factor": "anionite type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по способности к сорбции хлоридных комплексов свинца из опробованных сорбентов выделяется анионит А365, имеющий, кстати, наиболее высокую полную обменную емкость. Вслед за ним следуют анионит MTS9841, затем S984. Заметно уступают им аниониты S985 и А110.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Optimal pH for lead sorption from nickel chloride solutions on these anionites is not higher than 3.0–3.5.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "pH",
+    "direction": "increases",
+    "factor": "lead sorption",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "лучшие результаты должны достигаться при поддержании рН растворов на уровне не выше 3,0–3,5 ед. рН.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Real nickel chloride electrolytes may contain 150–200 g/l nickel; they can be diluted with recycle solutions (20–30 g/l sulfate, equivalent sodium) down to 100–120 g/l nickel before lead removal.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "decreases",
+    "factor": "dilution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Концентрация никеля в реальных хлоридных электролитах может колебаться в пределах 150–200 г/л. При необходимости никелевый раствор может быть разбавлен оборотными растворами (с содержанием сульфат-иона 20–30 г/л и эквивалентным содержанием иона натрия) вплоть до концентрации никеля 100–120 г/л.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Increasing chloride ion concentration leads to formation of more highly coordinated lead chloride complexes with higher charge, intensifying competition with anionite sites.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lead complex charge",
+    "direction": "increases",
+    "factor": "chloride concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при повышении концентрации хлорид-иона могут образовываться координационно более насыщенные хлоридные комплексы свинца, содержащие большее количество хлорид-ионов во внутренней координационной сфере свинца и имеющие более высокий заряд.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Chloride ions compete with anionic lead complexes for sorption on anionites; higher chloride levels increase this competition.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lead sorption",
+    "direction": "decreases",
+    "factor": "chloride concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Естественно, чем выше концентрация хлорид-иона в растворе, тем более сильную конкуренцию хлорид-ион будет составлять анионным комплексам свинца.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Recommendations to dilute nickel chloride electrolyte at least to 100–110 g/l nickel before lead cleanup are justified by the observed negative impact of nickel chloride on lead sorption.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "dilution to ≤110 g/l Ni",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "полученные данные подтверждают известный факт отрицательного влияния хлорида никеля на сорбцию свинца и справедливость рекомендаций разбавлять хлоридный никелевый электролит, по крайней мере до концентрации по никелю 100–110 г/л, перед проведением его очистки от примеси свинца.",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  },
+  {
+   "text": "Sulfate ion up to 30 g/l in nickel chloride electrolytes does not affect lead sorption on either A365 or MTS9841.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "lead sorption",
+    "direction": "no_change",
+    "factor": "sulfate concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В реальных хлоридных никелевых электролитах содержится до 30 г/л сульфат-иона. Дополнительные исследования показали, что присутствие в растворах хлорида никеля сульфат-иона вплоть до указанной концентрации не оказывает влияния на сорбцию свинца на обоих анионитах.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:9-статья-2-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

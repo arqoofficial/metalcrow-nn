@@ -1,0 +1,1676 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Закладочные комплексы 2017.pdf",
+   "doc_type": "article",
+   "year": 2017,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Закладочные комплексы 2017.pdf.md",
+   "artifact_sha256": "9e8802eee0801abd15fe9b9472e2140580cff2361fab54b443958a5fd2a6d538",
+   "okf_raw_path": "Обзоры/Закладочные комплексы 2017.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:paste-fill",
+   "label": "paste fill",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:dry-sand",
+   "label": "dry sand",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cement-binder",
+   "label": "cement (binder)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:water",
+   "label": "water",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cemented-paste",
+   "label": "cemented paste",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:volcanic-dust-tuf",
+   "label": "volcanic dust (tuf)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:unspecified",
+   "label": "unspecified",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:frozen-tailings",
+   "label": "frozen tailings",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:empty-rock",
+   "label": "empty rock",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:tailing",
+   "label": "tailings",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:solid-components-of-backfill-mixture",
+   "label": "solid components of backfill mixture",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:анигдрит-гранулированныи-шлак-щебень-и-цемент",
+   "label": "анигдрит, гранулированный шлак, щебень и цемент",
+   "family": "slag",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:хвосты-обогащения-тоф",
+   "label": "хвосты обогащения ТОФ",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:0",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Industrial application – Kidd Creek mine (Ontario, Canada)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Switch from cemented rock fill to paste fill",
+       "temperature_text": "N/A",
+       "duration_text": "cycle time shorter than cemented rock fill (no waiting for drainage or hardening)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:paste-fill",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "depth reached",
+     "scope": "material",
+     "material_id": "mat:paste-fill",
+     "value": {
+      "min": null,
+      "nominal": 2000.0,
+      "max": null
+     },
+     "unit": "m",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Рудник Kidd достиг глубины ≈2000 м, а шахта Mine D планируется до глубины 3100 м.",
+     "locator_kind": "md_para",
+     "locator": "para:23",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Paste fill meets strength requirements and reduces cost compared with cemented rock fill at great depths.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "cost",
+      "direction": "decreases",
+      "factor": "higher than cemented rock fill",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Затраты на закладку пустой породы на таких глубинах оказались выше, чем для пастовой закладки.",
+     "locator_kind": "md_para",
+     "locator": "para:26",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "С 2004 г., когда началось углубление рудника, закладу пустой породой постепенно свернули и заменили пастовой закладкой.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:1",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Industrial application – Garson mine (Ontario, Canada)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Operation of an Aran paste‑fill plant",
+       "temperature_text": "N/A",
+       "duration_text": "first two years of operation (2010‑2011)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dry-sand",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:cement-binder",
+     "role": "flux"
+    },
+    {
+     "material_id": "mat:water",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "required capacity",
+     "scope": "material",
+     "material_id": "mat:paste-fill",
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "m³/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Необходимая производительность составляла 50 м 3 /час с использованием песка, цемента (вяжущего) и воды.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "actual capacity",
+     "scope": "material",
+     "material_id": "mat:paste-fill",
+     "value": {
+      "min": null,
+      "nominal": 75.0,
+      "max": null
+     },
+     "unit": "m³/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Установка работала с производительностью до 75 м 3 /час в соответствии с требованиями «системы электроснабжения» под землей.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "volume placed",
+     "scope": "material",
+     "material_id": "mat:paste-fill",
+     "value": {
+      "min": null,
+      "nominal": 300.0,
+      "max": null
+     },
+     "unit": "m³",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "За два первых года эксплуатации (2010-2011) произведено порядка 300 тыс м 3 закладки.",
+     "locator_kind": "md_para",
+     "locator": "para:36",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant could be fed with locally sourced dry sand, producing a fluid mass suitable for paste fill.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "feedstock suitability",
+      "direction": "increases",
+      "factor": "local sand",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Установка на руднике Garson потребляет сухой песок, который загружается непосредственно в единственный бункер.",
+     "locator_kind": "md_para",
+     "locator": "para:37",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для развития добычи на руднике составным элементом шахтной крепи являлась обратная закладка старых забоев и горных выработок.",
+   "locator_kind": "md_para",
+   "locator": "para:36",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:2",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Industrial application – modular paste‑fill complexes worldwide (status 2010)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Deployment of modular paste‑fill plants",
+       "temperature_text": "N/A",
+       "duration_text": "N/A"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cemented-paste",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "number of complexes",
+     "scope": "material",
+     "material_id": "mat:paste-fill",
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "По состоянию дел на 2010 г. в мире насчитывалось более 100 комплексов пастовой закладки производительностью от 12 до 200 м3/час и ещё 30 строилось.",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "capacity range",
+     "scope": "material",
+     "material_id": "mat:paste-fill",
+     "value": {
+      "min": null,
+      "nominal": 12.0,
+      "max": null
+     },
+     "unit": "m³/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "по состоянию дел на 2010 г. в мире насчитывалось более 100 комплексов пастовой закладки производительностью от 12 до 200 м3/час",
+     "locator_kind": "md_para",
+     "locator": "para:27",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Модульные комплексы позволяют: смешивать до 400 м 3 /час уплотненного бетона, использовать различные материалы, точно дозировать ингредиенты.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:3",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Garson mine – MODUMIX II installation",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "mixing of paste backfill",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dry-sand",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "MODUMIX II was selected as the ideal mixing system for Garson.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "system suitability",
+      "direction": "increases",
+      "factor": "fit",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Идеальной системой смешивания для Garson была модульная смесительная система MODUMIX II от Aran.",
+     "locator_kind": "md_para",
+     "locator": "para:38",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Установка на руднике Garson потребляет сухой песок, который загружается непосредственно в единственный бункер.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:4",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Levack mine – mobile Aran backfill plant",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "paste backfill placement",
+       "temperature_text": "-30 °C (winter operating limit)",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 243.14999999999998,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:dry-sand",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "throughput",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 45.0,
+      "max": null
+     },
+     "unit": "m³/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Производительность - 45 м 3 /час, что соответствует 76 мм диаметру наземного и подземного трубопровода.",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "diameter",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 76.0,
+      "max": null
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "pipe"
+     },
+     "method": null,
+     "snippet": "что соответствует 76 мм диаметру наземного и подземного трубопровода.",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The modular Aran plant was ideal because of the very limited installation space.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "fit for space‑constrained sites",
+      "direction": "increases",
+      "factor": "suitability",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Места для установки было очень мало, поэтому вариант Aran - модульная установка был идеальным.",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "По состоянию дел на 2012 г. на руднике действовала мобильная (с целью возможного перемещения на другой рудник) установка Aran.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:5",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Gassowong mine – cemented backfill complex (visit 2016)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "cemented backfill placement",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:volcanic-dust-tuf",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "throughput",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 150.0,
+      "max": null
+     },
+     "unit": "m³/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Производительность комплекса - 150 м 3 /час.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:cement-binder",
+     "value": {
+      "min": null,
+      "nominal": 24.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "cement"
+     },
+     "method": null,
+     "snippet": "Рецепт смеси - до 24% цемента при осадке массы 230-260 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "settlement",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 230.0,
+      "nominal": null,
+      "max": 260.0
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при осадке массы 230-260 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The backfill mix provides sufficient strength for rapid filling of narrow stopes in a seismically active area.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "strength suitability",
+      "direction": "increases",
+      "factor": "safety",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Для безопасности и эффективности извлечения руды создают узкие очистные забои, которые затем быстро заполняют достаточно прочной цементированной массой.",
+     "locator_kind": "md_para",
+     "locator": "para:45",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 2016 г. специалисты Aran посетили рудник, отмечая 10-летие эксплуатации комплекса цементированной закладки.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:6",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Goldstrike Mine – paste backfill plant (Nevada, USA)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "paste backfill placement",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:unspecified",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "throughput",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 80.0,
+      "max": null
+     },
+     "unit": "m³/h",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в 2012 г. был введен в строй первый в Неваде комплекс пастовой закладки производительностью 80 м 3 /час при осадке 178 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "settlement",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 178.0,
+      "max": null
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "при осадке 178 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "utilization",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "С учетом средней потребности в закладке степень использования комплекса 55%.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The plant is mobile (or at least not fixed), allowing flexible deployment.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "mobility",
+      "direction": "increases",
+      "factor": "flexibility",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "О модульности информации нет, но, видимо, комплекс во всяком случае мобильный.",
+     "locator_kind": "md_para",
+     "locator": "para:56",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В штате Невада, США у золотодобывающей компании Barrick имеется подземный рудник Goldstrike.",
+   "locator_kind": "md_para",
+   "locator": "para:56",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:7",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Giant Mine paste‑backfill trial (Canada)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "paste backfill using frozen tailings containing free silica on a mobile backfill complex",
+       "temperature_text": "-25 to -52°C",
+       "duration_text": "started in October 2013 (first paste backfill obtained shortly after)"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 248.14999999999998,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:frozen-tailings",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "mobile system was used to secure access to the abandoned Giant mine by paste backfill",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "С тем, чтобы обезопасить доступ решено было использовать хвосты для пастовой закладки.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Работы были начаты в октябре 2013 г., вскоре наступила зима с температурами от -25 до -52°С.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:8",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Backfill practice at Kupol and Divnoe underground mines (Russia/Chukotka)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "filling stopes with backfill based on empty rock as mining advances (Avoca method)"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:empty-rock",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "the mines continue underground development using this backfill method",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "При этом забои очистной выемки заполняют закладкой на основе пустой породы по мере развития добычи",
+     "locator_kind": "md_para",
+     "locator": "para:72",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "На обоих рудниках добычу ведут методом отработки обратным ходом глубокими шпурами с открытым забоем (long hole longitudinal retreat sub level open stoping) - методом Avova.",
+   "locator_kind": "md_para",
+   "locator": "para:72",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:9",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Industrial application – Didipio gold mine (Philippines)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Supply and installation of a continuous paste backfill plant (MPB) for gold mining"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:tailing",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Outotec в сентябре 2016 г. получила контракт на проектирование и поставку комплекса пастовой закладки (с применением хвостов) для золотого рудника Didipio (Филиппины) компании OceanaGold.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "contract award",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Outotec в сентябре 2016 г. получила контракт на проектирование и поставку комплекса пастовой закладки (с применением хвостов) для золотого рудника Didipio (Филиппины) компании OceanaGold.",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Outotec в сентябре 2016 г. получила контракт на проектирование и поставку комплекса пастовой закладки (с применением хвостов) для золотого рудника Didipio (Филиппины) компании OceanaGold.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:10",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Industrial application – Dugald River zinc mine (Australia)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Supply of a second continuous paste backfill plant (MPB) for zinc mining"
+      }
+     }
+    ]
+   },
+   "materials": [],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Второй такой комплекс Outotec поставит на австралийский цинковый рудник Dugald River компании MMG.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "future supply",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Второй такой комплекс Outotec поставит на австралийский цинковый рудник Dugald River компании MMG.",
+     "locator_kind": "md_para",
+     "locator": "para:95",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Второй такой комплекс Outotec поставит на австралийский цинковый рудник Dugald River компании MMG.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:11",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Evaluation of delivery methods for solid components of backfill mixture to underground mobile backfill complex",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Three variants of delivery of solid components of the backfill mixture to the underground mobile backfill complex were considered, and the optimal variant was selected.",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:solid-components-of-backfill-mixture",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "выбран оптимальный вариант",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "optimal delivery method",
+      "direction": "increases",
+      "factor": "efficiency of material transport",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В работе рассмотрено три варианта доставки твердых компонентов закладочной смеси до подземного передвижного закладочного комплекса, выбран оптимальный вариант.",
+     "locator_kind": "md_para",
+     "locator": "para:104",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В работе рассмотрено три варианта доставки твердых компонентов закладочной смеси до подземного передвижного закладочного комплекса, выбран оптимальный вариант.",
+   "locator_kind": "md_para",
+   "locator": "para:104",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:закладочные-комплексы-2017-pdf:12",
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "title": "Industrial application of backfill material replacement at Komsomolsky mine",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Backfill material consisting of anhydrite, granulated slag, crushed stone and cement was replaced by anhydrite and crushed stone with enrichment tailings (TOF).",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:анигдрит-гранулированныи-шлак-щебень-и-цемент",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:хвосты-обогащения-тоф",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "закладочный материал был заменен",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "material composition",
+      "direction": "increases",
+      "factor": "use of enrichment tailings",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "на руднике Комсомольский закладочный материал, состоящий из ангидрита, гранулированного шлака, щебня и цемента, был заменен: ангидрит и щебень - на хвосты обогащения ТОФ.",
+     "locator_kind": "md_para",
+     "locator": "para:108",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "на руднике Комсомольский закладочный материал, состоящий из ангидрита, гранулированного шлака, щебня и цемента, был заменен: ангидрит и щебень - на хвосты обогащения ТОФ.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "В горной отрасли применяются три основных типа закладки, а именно (в ретроспективе): закладка пустой породой, мокрая (гидравлическая) закладка и «пастовая» закладка.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "type of backfill methods",
+    "direction": "increases",
+    "factor": "variety of backfill methods",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В горной отрасли применяются три основных типа закладки, а именно (в ретроспективе): закладка пустой породой, мокрая (гидравлическая) закладка и «пастовая» закладка.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Сравнительно недавно появился ещё один метод закладки на основе кремнезема-глинозема для угольных шахт.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "new backfill method",
+    "direction": "increases",
+    "factor": "method diversity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сравнительно недавно появился ещё один метод закладки на основе кремнезема-глинозема для угольных шахт.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.81,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "В 2012 г. были выполнены исследования по новому кремнеземноглиноземному закладочному материалу, включающему отходы угледобычи и зольную пыль.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "development of new backfill material",
+    "direction": "increases",
+    "factor": "material options",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2012 г. были выполнены исследования по новому кремнеземноглиноземному закладочному материалу , включающему отходы угледобычи и зольную пыль.",
+   "locator_kind": "md_para",
+   "locator": "para:20",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "С 1980-х годов в горной отрасли начала расти популярность пастовой закладки, поступающей в выработанное пространство по трубопроводу либо за",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "popularity of paste backfill",
+    "direction": "increases",
+    "factor": "time (since 1980‑х годов)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С 1980-х годов в горной отрасли начала расти популярность пастовой закладки , поступающей в выработанное пространство по трубопроводу либо за",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Связующее обычно добавляется в количестве 3-7% от общего веса.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "binder dosage",
+    "direction": "increases",
+    "factor": "3-7 % of total weight",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Связующее обычно добавляется в количестве 3-7% от общего веса.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Концентрация твёрдых частиц в пастообразной массе обычно >75% (70‑85%).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": ">75% (70‑85%)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Концентрация твердых частиц в пастообразной массе обычно >75% (70-85%)",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.81,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Пастовый закладочный материал — это смесь хвостов, воды и цемента.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Пастовый закладочный материал - это смесь хвостов, воды и цемента.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Связующее добавляется к массе, чтобы предотвратить риск разжижения.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Связующее добавляется к массе, чтобы предотвратить риск разжижения.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Пастовая масса при типичных скоростях потока (<5 м/с) проявляет свойства ламинарного потока, облегчая доставку без избыточных количеств воды.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "при типичных скоростях потока массы (<5 м/с) проявляет свойства ламинарного потока. Это облегчает доставку закладки без избыточных количеств воды.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.81,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Затраты на закладку могут достигать, по некоторым оценкам, 30% суммарных затрат на добычу.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Вообще говоря, затраты на закладку могут достигать, по некоторым оценкам, 30% суммарных затрат на добычу",
+   "locator_kind": "md_para",
+   "locator": "para:26",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Aran была первой компанией, разработавшей в 1978 г. полностью автономный самоустанавливающийся мобильный комплекс непрерывного смешивания на единой платформе.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Aran была первой компанией, разработавшей в 1978 г. «полностью автономный самоустанавливающийся мобильный комплекс непрерывного смешивания на единой платформе».",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Модульные комплексы Aran позволяют смешивать до 400 м³/час уплотнённого бетона, использовать различные материалы и точно дозировать ингредиенты.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Модульные комплексы позволяют: смешивать до 400 м 3 /час уплотненного бетона, использовать различные материалы, точно дозировать ингредиенты.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Транспортировка модулей осуществляется в 40‑футовых контейнерах для морских перевозок, сертифицированных ISC.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Транспортировка модулей - в 40футовых контейнерах для морских перевозок, сертифицированных ISC.",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "All Aran plant components are manufactured and inspected at the factory, which ensures fast delivery to the mine and reduces construction time.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "delivery speed / construction time",
+    "direction": "increases",
+    "factor": "efficiency",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Все компоненты установок Aran изготавливаются и проверяются на фабрике, что обеспечивает быструю поставку на рудник и сокращает время строительства.",
+   "locator_kind": "md_para",
+   "locator": "para:39",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Modular components are connected together to form a backfill system that includes a bunker with feed mechanism, a high‑performance paste mixer, a cement storage/transport system and a distribution system.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "system architecture",
+    "direction": "increases",
+    "factor": "functionality",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Модульные компоненты соединены вместе и образуют систему закладки, включающую бункер с механизмом подачи, высокопроизводительный смеситель пастообразной массы, систему хранения навалом/перемещения цемента и систему распределения.",
+   "locator_kind": "md_para",
+   "locator": "para:38",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "The Levack plant had to withstand winter temperatures of –30 °C.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "robustness",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установка должна была выдерживать зимние температуры -30°С.",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Initially the Levack project planned to use tailings from a tailings storage facility for paste backfill, but environmental legislation forced a change to local quarry sand.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "feedstock selection",
+    "direction": "decreases",
+    "factor": "environmental compliance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сначала планировали использовать имеющиеся поблизости хвосты из хвостохранилища при создании пастообразной массы, но были проблемы с экологическим законодательством и от этой идеи отказались.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Golder Associates developed innovative solid‑waste and water management solutions, one of which is the “paste” technology.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "technology development",
+    "direction": "increases",
+    "factor": "innovation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Golder Associates в свое время разработала инновационные решения для управления твердыми отходами добычи и водой, одним из этих решений явилась «пастовая» технология.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "PasteTec, a subsidiary of Golder Associates Ltd., has engineered and built more than two dozen backfill complexes since 1996.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "project experience",
+    "direction": "increases",
+    "factor": "track record",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С тех пор эта бригада специалистов провела инжиниринг и строительство более двух дюжин закладочных комплексов.",
+   "locator_kind": "md_para",
+   "locator": "para:52",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Typical backfill materials include thickened tailings and filtration cakes.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "material options",
+    "direction": "increases",
+    "factor": "flexibility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В качестве закладочных материалов используются, в том числе, сгущенные хвосты и фильтрационные кеки.",
+   "locator_kind": "md_para",
+   "locator": "para:54",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "mobile system was used to secure access to the abandoned Giant mine by paste backfill",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "С тем, чтобы обезопасить доступ решено было использовать хвосты для пастовой закладки.",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Production capacity of the modular backfill complex is 230 t/h",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Производительность комплекса 230 т/час.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "The project cost 17,4 млн USD and was planned to be commissioned in Q4 2013",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Проект, стоимостью 17,4 млн USD, предполагалось ввести в строй в 4 кв.2013 г.",
+   "locator_kind": "md_para",
+   "locator": "para:65",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Kovit specializes in hydraulic backfill, dry tailings placement, paste backfill technology, cemented (hardening) rock backfill, equipment design, and related services",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Kovit - специалисты в области гидравлической закладки, сухой укладки хвостов, технологии пастовой закладки, закладки цементированной (твердеющей) породой, проектирования оборудования и др.",
+   "locator_kind": "md_para",
+   "locator": "para:71",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "According to Kovit, cemented rock backfill is suitable at early stages of underground mine operation when abundant rock is available, but it is usually unviable in the long term, reducing profitability",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "по мнению Kovit, она хороша и действительно применяется на ранней стадии эксплуатации подземного рудника, когда имеется много породы от горноподготовительных работ, но обычно нежизнеспособна в длительной перспективе, снижая прибыльность.",
+   "locator_kind": "md_para",
+   "locator": "para:73",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Outotec presented a new mid‑range continuous paste backfill plant (MPB) in 2016, calling it a revolution in paste‑backfill plant design",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Outotec в 2016 г. представила новый продукт - комплекс непрерывной пастовой закладки среднего масштаба ('mid range continuous paste backfill plant' = MPB). По мнению компании MPB - это революция в конструкции пастового комплекса",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Новая, запатентованная во всем мире конструкция пастового закладочного комплекса MPB позволяет существенно снизить капитальные затраты - на 20-30% по сравнению с традиционными пастовыми комплексами.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital cost reduction",
+    "direction": "decreases",
+    "factor": "20-30%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Новая, запатентованная во всем мире конструкция пастового закладочного комплекса MPB позволяет существенно снизить капитальные затраты - на 20-30% по сравнению с традиционными пастовыми комплексами.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Так, например, для комплекса на 100 м 3 /час экономия может превысить 2 млн AUD.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "capital cost saving",
+    "direction": "increases",
+    "factor": "2 млн AUD",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Так, например, для комплекса на 100 м 3 /час экономия может превысить 2 млн AUD.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "MPB удобнее в эксплуатации (вращающаяся платформа, облегченный доступ при необходимости очистки от «пробки» или с целью нового бурения); имеет меньшую высоту и площадь основания; максимизирует ценность рудного тела, повышает устойчивое развитие; устанавливается быстрее, т.к. готов к сборке; имеет модульную комплектацию - дешевле и быстрее.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "operational convenience",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "MPB удобнее в эксплуатации (вращающаяся платформа, облегченный доступ при необходимости очистки от «пробки» или с целью нового бурения); имеет меньшую высоту и площадь основания; максимизирует ценность рудного тела, повышает устойчивое развитие; устанавливается быстрее, т.к. готов к сборке; имеет модульную комплектацию - дешевле и быстрее.",
+   "locator_kind": "md_para",
+   "locator": "para:76",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Главная причина остановок комплекса - необходимость очистки от цементированной пасты, которая выполняется рабочими (вручную).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "downtime cause",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Главная причина остановок комплекса - необходимость очистки от цементированной пасты, которая выполняется рабочими (вручную).",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Большинство пастовых комплексов останавливаются на 1-2 часа ежедневно для очистки от нароста пасты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "daily downtime",
+    "direction": "increases",
+    "factor": "1-2 часа",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Большинство пастовых комплексов останавливаются на 1-2 часа ежедневно для очистки от нароста пасты.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "В MPB нет бункера, а, значит, и чистка его не нужна.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cleaning requirement",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В MPB нет бункера, а, значит, и чистка его не нужна.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Чистка комплекса облегчена из-за наличия узла цилиндрического смешения/хранения, где нет «мертвых» зон.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cleaning difficulty",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Чистка комплекса облегчена из-за наличия узла цилиндрического смешения/хранения, где нет «мертвых» зон.",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.81,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "С использованием Вортекс-миксера (вихревого смесителя) для предварительного смешивания цемента и пульпы, а также единого цилиндрического узла смешения/хранения, становится возможным дистанционное управление комплексом.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "remote control capability",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "С использованием Вортекс-миксера (вихревого смесителя) для предварительного смешивания цемента и пульпы, а также единого цилиндрического узла смешения/хранения, становится возможным дистанционное управление комплексом.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Модульность MPB позволяет существенно сэкономить деньги и сократить сроки поставки.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "cost and delivery time",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Модульность MPB позволяет существенно сэкономить деньги и сократить сроки поставки.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Немецкая фирма Dobersek (учреждена в 1983 г.) уже много лет работает в России и СНГ, имеется дочка - ЗАО «Инжиниринг Доберсек ГмбХ» (учреждена в 1992 г.).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "years of operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Немецкая фирма Dobersek (учреждена в 1983 г.) уже много лет работает в России и СНГ, имеется дочка - ЗАО «Инжиниринг Доберсек ГмбХ» (учреждена в 1992 г.).",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания занимается самыми разными вопросами - от обогащения до реконструкции металлургических предприятий и, среди прочего, разработкой технологий переработки хвостохранилищ и шахтный стоков, закладочных комплексов на основе хвостов обогащения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "scope of services",
+    "direction": "increases",
+    "factor": "diversity of projects",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания занимается самыми разными вопросами - от обогащения до реконструкции металлургических предприятий и, среди прочего, разработкой технологий переработки хвостохранилищ и шахтный стоков, закладочных комплексов на основе хвостов обогащения.",
+   "locator_kind": "md_para",
+   "locator": "para:106",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Из списка выполненных/выполняемых работ складывается впечатление, что закладка, в общем, не главное направление деятельности этой фирмы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "primary activity",
+    "direction": "decreases",
+    "factor": "backfilling work share",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Из списка выполненных/выполняемых работ складывается впечатление, что закладка, в общем, не главное направление деятельности этой фирмы.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  },
+  {
+   "text": "Использовать хвосты в качестве закладочного материала предложено АК Алроса, но Алроса, насколько нам известно, плотно сотрудничает с ООО «Технологии закладки выработанного пространства».",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "use of enrichment tailings as backfill",
+    "direction": "increases",
+    "factor": "proposal by ALROSA",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Использовать хвосты в качестве закладочного материала предложено АК Алроса, но Алроса, насколько нам известно, плотно сотрудничает с ООО «Технологии закладки выработанного пространства».",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.9,
+   "document_id": "doc:закладочные-комплексы-2017-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

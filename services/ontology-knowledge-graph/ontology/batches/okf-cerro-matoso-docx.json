@@ -1,0 +1,1040 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:cerro-matoso-docx",
+   "title": "Cerro Matoso.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Cerro Matoso.docx.md",
+   "artifact_sha256": "9bc3cf6c428cc7ebc56604c3738a741fb074c92d9d5a1722e604ae2bcc5a21b5",
+   "okf_raw_path": "Обзоры/Cerro Matoso.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:ore-sample-colombia-1-pit-no-1",
+   "label": "Ore sample “Colombia‑1” (pit No 1)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ore-sample-colombia-2-pit-no-2",
+   "label": "Ore sample “Colombia‑2” (pit No 2)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:складированная-руда",
+   "label": "складированная руда",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:руда",
+   "label": "руда",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:руда-esmeralda",
+   "label": "руда Esmeralda",
+   "family": "ore",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cerro-matoso-ore",
+   "label": "Cerro Matoso ore",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:various-ore-samples-e-g-магнит-канга-желтыи-лате",
+   "label": "Various ore samples (e.g., Магнит. канга, Желтый латерит, Тахилит, Перидотит, etc.)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:cerro-matoso-docx:0",
+   "document_id": "doc:cerro-matoso-docx",
+   "title": "Semi‑quantitative chemical and mineralogical analysis of ore samples from pits No 1 and No 2",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Samples were analysed by atomic‑emission spectrometry with inductively coupled plasma (ICP‑AES) and by an electron microprobe; mineralogical composition was obtained by X‑ray diffraction with a position‑sensitive detector.",
+       "temperature_text": "Samples for loss on ignition were heated to 1100 °C in a dry‑nitrogen stream (dehydroxylation of magnesium silicates occurs above 900 °C)."
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1373.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:ore-sample-colombia-2-pit-no-2",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "value": {
+      "min": null,
+      "nominal": 0.76,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Ni | 0,76 | 2,3",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "Fe total",
+     "scope": "material",
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "value": {
+      "min": null,
+      "nominal": 7.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Fe общ | 7,4 | 12,4",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Fe²⁺",
+     "scope": "material",
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Fe 2+ | 1,0 | 2,5",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "SiO₂",
+     "scope": "material",
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "value": {
+      "min": null,
+      "nominal": 44.9,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "SiO 2 | 44,9 | 44,9",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Al₂O₃",
+     "scope": "material",
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "value": {
+      "min": null,
+      "nominal": 0.77,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Al 2 O 3 | 0,77 | 1,7",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "MgO",
+     "scope": "material",
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "value": {
+      "min": null,
+      "nominal": 26.6,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "MgO | 26,6 | 14,7",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "CaO",
+     "scope": "material",
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "value": {
+      "min": null,
+      "nominal": 0.55,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "CaO | 0,55 | 0,36",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Cr₂O₃",
+     "scope": "material",
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "value": {
+      "min": null,
+      "nominal": 0.2,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Cr 2 O 3 | 0,20 | 0,70",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Loss on ignition (PПП*)",
+     "scope": "material",
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "value": {
+      "min": null,
+      "nominal": 13.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "ППП* | 13,4 | 9,4",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "SiO₂/MgO ratio",
+     "scope": "material",
+     "material_id": "mat:ore-sample-colombia-1-pit-no-1",
+     "value": {
+      "min": null,
+      "nominal": 1.69,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "SiO 2 /MgO | 1,69 | 3,05",
+     "locator_kind": "md_para",
+     "locator": "para:34",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Гарниериты Cerro Matoso – это пимелит, в котором в разной степени Ni был замещен на Mg.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "mineral composition",
+      "direction": "increases",
+      "factor": "Ni substitution",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Гарниериты Cerro Matoso – это пимелит, в котором в разной степени Ni был замещен на Mg.",
+     "locator_kind": "md_para",
+     "locator": "para:30",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В таблицах 1.1 и 1.2 Приложения 1 приведены результаты полуколичественного анализа валовых проб из карьера No1 и No2, полученные методом атомно-эмиссионной спектрометрии с индуктивно связанной плазмой (ИСП АЭС) и электронным микрозондом, а также минералогический состав основных литологических единиц, полученный методом рентгеновской дифрактометрии с позиционно чувствительным детектором (РД ПЧД) [1].",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cerro-matoso-docx:1",
+   "document_id": "doc:cerro-matoso-docx",
+   "title": "Начало переработки складированной руды",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Переработка складированной руды"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:складированная-руда",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Переработка складированной руды началась в 2013 г.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Переработка складированной руды началась в 2013 г.",
+     "locator_kind": "md_para",
+     "locator": "para:81",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Переработка складированной руды началась в 2013 г.",
+   "locator_kind": "md_para",
+   "locator": "para:81",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cerro-matoso-docx:2",
+   "document_id": "doc:cerro-matoso-docx",
+   "title": "Проект обогащения руды (удаление части кремнезема отсеиванием крупных частиц)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Обогащение руды отсеиванием крупных частиц"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:руда",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "соотношение SiO2/MgO",
+     "scope": "material",
+     "material_id": "mat:руда",
+     "value": {
+      "min": null,
+      "nominal": 2.8,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "До ≈2013 г. в Cerro Matoso на плавку поступало сырье с Ni>2,2%, Fe≈15%, Fe/Ni 6,8, но самым высоким отношением SiO2/MgO=2,8.",
+     "locator_kind": "md_para",
+     "locator": "para:82",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Проект направлен на снижение соотношения SiO2/MgO до <1,9:1",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "SiO2/MgO",
+      "direction": "decreases",
+      "factor": "<1,9:1",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Эта руда закончилась и теперь плавят более низкосортную руду с соотношением SiO 2 :MgO на уровне <1,9:1 [7].",
+     "locator_kind": "md_para",
+     "locator": "para:82",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В [7] сообщается о проекте обогащения руды – в отношении удаления части кремнезема отсеиванием крупных частиц, что ранее уже делала BHP Billiton.",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cerro-matoso-docx:3",
+   "document_id": "doc:cerro-matoso-docx",
+   "title": "Ввод в строй проекта Esmeralda",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Эксплуатация месторождения‑спутника Esmeralda",
+       "duration_text": "с 2018 финансового года по 2020 финансовый год"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:руда-esmeralda",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "План на 2018 финансовый год – 41,6 тыс т Ni",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "План на 2018 фин.г. – 41,6 тыс т Ni.",
+     "locator_kind": "md_para",
+     "locator": "para:83",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В 3кв.2018 г. был введен в строй проект Esmeralda.",
+   "locator_kind": "md_para",
+   "locator": "para:83",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cerro-matoso-docx:4",
+   "document_id": "doc:cerro-matoso-docx",
+   "title": "Pilot heap leaching operations (2006‑2012)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "heap leaching of Cerro Matoso ore"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cerro-matoso-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "ore processed",
+     "scope": "material",
+     "material_id": "mat:cerro-matoso-ore",
+     "value": {
+      "min": null,
+      "nominal": 20.0,
+      "max": null
+     },
+     "unit": "t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "BHP Billiton выщелочила более 20 тыс т руды Cerro Matoso.",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The heap‑leaching pilot demonstrated the ability to process large ore volumes, but the capital intensity was high (US$17.01 per pound Ni for 20 000 t/yr).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "capital intensity",
+      "direction": "increases",
+      "factor": "17.01 USD/фунт никеля",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "капиталоёмкость по проекту Cerro Matoso на 20 тыс т/г Ni в 17,01 USD/фунт никеля значительно выше, чем у других аналогичных проектов.",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В период 2006-2012 гг. у BHP Billiton работали пилотные мощности по кучному выщелачиванию руды.",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cerro-matoso-docx:5",
+   "document_id": "doc:cerro-matoso-docx",
+   "title": "Feasibility study stage of heap leaching project (early 2012)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "pre‑FEED/FEED for heap leaching"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:cerro-matoso-ore",
+     "role": "input"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "The heap‑leaching project reached the feasibility‑study stage in early 2012.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "project stage",
+      "direction": "increases",
+      "factor": "feasibility study",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "проект кучного выщелачивания Cerro Matoso «подошел к стадии ТЭО», как писала BHP Billiton в годовом отечете на 2011 фин.г.",
+     "locator_kind": "md_para",
+     "locator": "para:111",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "В I п/г 2012 г. проект кучного выщелачивания Cerro Matoso «подошел к стадии ТЭО».",
+   "locator_kind": "md_para",
+   "locator": "para:111",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:cerro-matoso-docx:6",
+   "document_id": "doc:cerro-matoso-docx",
+   "title": "Laboratory chemical analysis of ore samples (Table 1)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "ICP‑AES and microprobe analysis of ore samples"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:various-ore-samples-e-g-магнит-канга-желтыи-лате",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 2.71,
+      "max": null
+     },
+     "unit": "wt %",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "SiO2"
+     },
+     "method": null,
+     "snippet": "Таблица 1. Результаты анализа проб (вес%) методом ИСП АЭС и микрозондом",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.0539,
+      "max": null
+     },
+     "unit": "wt %",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Таблица 1. Результаты анализа проб (вес%) методом ИСП АЭС и микрозондом",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The analytical results provide detailed elemental composition for a range of ore types from the Cerro Matoso deposit.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "elemental composition",
+      "direction": "increases",
+      "factor": "varies by sample",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Таблица 1. Результаты анализа проб (вес%) методом ИСП АЭС и микрозондом",
+     "locator_kind": "md_para",
+     "locator": "para:114",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Таблица 1. Результаты анализа проб (вес%) методом ИСП АЭС и микрозондом",
+   "locator_kind": "md_para",
+   "locator": "para:114",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Горно-металлургический комплекс Cerro Matoso (Колумбия) принадлежит компании Cerro Matoso S.A., в которой 99,94% - у компании South32, сформировавшейся и получившей этот актив (среди прочих горных активов) в 2015 г., в результате реорганизации BHP Billiton и выделения части её активов в самостоятельную компанию.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Горно-металлургический комплекс Cerro Matoso (Колумбия) принадлежит компании Cerro Matoso S.A., в которой 99,94% - у компании South32, сформировавшейся и получившей этот актив (среди прочих горных активов) в 2015 г., в результате реорганизации BHP Billiton и выделения части её активов в самостоятельную компанию.",
+   "locator_kind": "md_para",
+   "locator": "para:23",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "South32 – диверсифицированная компания, в структуре доходов за 2016-2017 финансовые годы (фин.год – по 30.06) доля Cerro Matoso составляет около 5%, в то время как на алюминиево-глиноземный бизнес, например, приходится более 40%, на уголь – около 27%, на марганец – 12%.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "South32 – диверсифицированная компания, в структуре доходов за 2016-2017 финансовые годы (фин.год – по 30.06) доля Cerro Matoso составляет около 5%, в то время как на алюминиево-глиноземный бизнес, например, приходится более 40%, на уголь – около 27%, на марганец – 12%.",
+   "locator_kind": "md_para",
+   "locator": "para:24",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "Комплекс Cerro Matoso включает полный цикл производства – от открытой добычи руды до производства готового никеля в виде дроби ферроникеля.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Комплекс Cerro Matoso включает полный цикл производства – от открытой добычи руды до производства готового никеля в виде дроби ферроникеля.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "Добыча руды началась в 1980 г., производство ферроникеля - в 1982 г.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Добыча руды началась в 1980 г., производство ферроникеля - в 1982 г.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "Производство ферроникеля осуществляется по хорошо известной и неоднократно описанной технологии RKEF – обжиг во вращающейся печи и плавка огарка в электропечи.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Производство ферроникеля осуществляется по хорошо известной и неоднократно описанной технологии RKEF – обжиг во вращающейся печи и плавка огарка в электропечи.",
+   "locator_kind": "md_para",
+   "locator": "para:25",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "Латеритовое месторождение Cerro Matoso расположено на северо-западе Колумбии, рядом с г. Монтелибано, в 260 км от порта Картахена.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Латеритовое месторождение Cerro Matoso расположено на северо-западе Колумбии, рядом с г.Монтелибано, в 260 км от порта Картахена.",
+   "locator_kind": "md_para",
+   "locator": "para:27",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "В обоих карьерах встречаются многочисленные минеральные силикатные жилы, ... содержание никеля в них может достигать 30-40%вес.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "содержание никеля в них может достигать 30-40%вес.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "«Валовая» геохимия большинства единиц обоих профилей имеет типичный латеритовый рисунок: по мере движения вверх MgO и SiO2 становится меньше, а FeO больше.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "geochemical trend",
+    "direction": "decreases",
+    "factor": "depth upward",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "по мере движения вверх MgO и SiO2 становится меньше, а FeO больше.",
+   "locator_kind": "md_para",
+   "locator": "para:30",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "Для плавки на ферроникель требуются параметры: Ni >1,8% (>2% в первые, скажем, пять лет для обеспечения окупаемости), Fe/Ni <12, Ni/Co >30, SiO2/MgO <1,9.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Ведь что хорошо для плавки на ферроникель: Ni >1,8% (>2% в первые, скажем, пять лет для обеспечения окупаемости), Fe/Ni <12, Ni/Co >30, SiO2/MgO <1,9 [6].",
+   "locator_kind": "md_para",
+   "locator": "para:82",
+   "confidence": 0.81,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Снижение издержек на 8% в 2017 финансовом году связано с прекращением деятельности подрядчика и повышением сортности руды и снижением объёмов переработки руды.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "издержки",
+    "direction": "decreases",
+    "factor": "8%",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Снижение издержек на 8% в 2017 фин.г. компания связывает с прекращением деятельности подрядчика, а также «с повышением сорности руды и снижением объемов переработки руды, приведших к скромному сокращению переменных затрат» [8].",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "EBIT в 2017 финансовом году увеличилась на 72 млн USD за счёт роста средней цены реализации никеля (+45 млн USD) и затратной эффективности (+32 млн USD).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "EBIT",
+    "direction": "increases",
+    "factor": "72 млн USD",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "EBIT в 2017 фин.г. увеличилась на 72 млн USD до убытков в размере 16 млн USD за счет роста средней цены реализации никеля (+45 млн USD) и затратной эффективности (+32 млн USD).",
+   "locator_kind": "md_para",
+   "locator": "para:91",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "Содержание никеля в ферроникеле в начале эксплуатации завода составляло 45‑50%, а в 2015 году уже около 30%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Ni в ферроникеле",
+    "direction": "decreases",
+    "factor": "45‑50% → ~30% к 2015 г.",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Следует отметить, что по мере снижения сортности перерабатываемой руды снижается и содержание никеля в ферроникеле, составлявшее в начале эксплуатации завода до 45-50%, а в 2015 г. – уже около 30%.",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.81,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "Cerro Matoso находится в 260 км от порта, что делает транспортные издержки чувствительными к содержанию никеля в ферроникеле.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Очевидно: чем богаче ферроникель, тем ниже транспортные издержки (Cerro Matoso находится в 260 км от порта и сравнительно далеко от потребителей).",
+   "locator_kind": "md_para",
+   "locator": "para:95",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "Электричество поставляется Национальной энергосетью по пятилетним контрактам; срок окончания очередного контракта – 2018 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Электричество поставляет Национальная энергосеть на основе контрактов, заключаемых обычно на пятилетний период. Срок окончания действия очередного контракта – 2018 г.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.81,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "Контракт на поставку местного природного газа действителен до декабря 2021 г.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Контракт на поставку местного природного газа (для сушилок и обжиговых печей) действителен по декабрь 2021 г.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "The contract for supplying local natural gas to dryers and firing furnaces is valid until December 2021.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "contract validity",
+    "direction": "increases",
+    "factor": "December 2021",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Контракт на поставку местного природного газа (для сушилок и обжиговых печей) действителен по декабрь 2021 г.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "The royalty rate for the mining concession was increased from 12 % to 13 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "royalty rate",
+    "direction": "increases",
+    "factor": "13 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ставка роялти была повышена с 12% до 13%.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "The mining concession is valid until 2029 and may be extended to 2044, conditional on a 50 % increase in ore throughput by 2022.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concession term",
+    "direction": "increases",
+    "factor": "2044",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Концессия действительна до 2029 г. и продление её до 2044 г. обусловлено увеличением пропускной способности по руде на 50% к 2022 г.",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "In the 2013 financial year, Ni production in FeNi reached a record 50.8 kt.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Ni production",
+    "direction": "increases",
+    "factor": "50.8 kt",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В 2013 фин.г. объем производства Ni в FeNi составил рекордные 50,8 тыс т.",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "BHP Billiton planned to build the world’s largest plant for NiSO₄·6H₂O with a capacity of 100 kt/yr.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "planned plant capacity",
+    "direction": "increases",
+    "factor": "100 kt/yr",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "строительство «крупнейшего в мире» завода по выпуску NiSO 4 ∙6H 2 O мощностью 100 тыс. т/г",
+   "locator_kind": "md_para",
+   "locator": "para:110",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "The Colombian Constitutional Court decision of 09‑04‑2018 required compensation for health and environmental damage at Cerro Matoso.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "legal requirement",
+    "direction": "increases",
+    "factor": "compensation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "решением Конституционного суда Колумбии от 09.04.2018 г. ... Суд требует выплаты ущерба.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.45,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  },
+  {
+   "text": "The 1981 environmental license for Cerro Matoso does not meet modern constitutional environmental standards and must be updated.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "license adequacy",
+    "direction": "decreases",
+    "factor": "non‑compliance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "лицензия, выданная в 1981 г., не отражает современные «конституционные стандарты по защите окружающей среды» и её следует обновить.",
+   "locator_kind": "md_para",
+   "locator": "para:112",
+   "confidence": 0.9,
+   "document_id": "doc:cerro-matoso-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

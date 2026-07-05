@@ -1,0 +1,1500 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "41 Оценка физико-механических свойств горных пород при применении противоуд....docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\41 Оценка физико-механических свойств горных пород при применении противоуд....docx.md",
+   "artifact_sha256": "51b22808b9dba1d60f98f18f70a51c369ae80bd07166d1b5e9677b8106f89a1b",
+   "okf_raw_path": "Статьи/41 Оценка физико-механических свойств горных пород при применении противоуд....docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:rich-sulfide-ore-samples",
+   "label": "rich sulfide ore samples",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:steel-jackets",
+   "label": "steel jackets",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:model-samples-with-holes",
+   "label": "model samples with holes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:detonating-cord",
+   "label": "detonating cord",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:epoxy-resin",
+   "label": "epoxy resin",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:ceramic-drill-bits",
+   "label": "ceramic drill bits",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:concrete-drill-bits",
+   "label": "concrete drill bits",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:детонирующии-шнур-дшэ-12",
+   "label": "детонирующий шнур ДШЭ-12",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rock-samples",
+   "label": "Rock samples",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:steel-shells",
+   "label": "Steel shells",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:epsilon-extensometers",
+   "label": "Epsilon extensometers",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:lvdt-sensors",
+   "label": "LVDT sensors",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:control-sample-45-mm",
+   "label": "Control sample 45 mm",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:sample-with-two-5-mm-holes-crack",
+   "label": "Sample with two 5 mm holes + crack",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rock-sample",
+   "label": "Rock sample",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rock-sample-with-holes",
+   "label": "Rock sample with holes",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:0",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Model mechanical tests on sulfide ore samples with drilled holes",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "drilling holes in the samples to simulate discharge wells"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rich-sulfide-ore-samples",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:steel-jackets",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Side compression of the samples by steel jackets created a three‑stage stress state with values 15, 30, 45 MPa.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "applied stress",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Боковое обжатие образцов стальными обоймами создавало напряжение в три ступени со значениями 15, 30, 45 МПа.",
+     "locator_kind": "md_para",
+     "locator": "para:7",
+     "confidence": 0.9
+    },
+    {
+     "text": "Uniaxial compression tests on a servo‑hydraulic press with control of transverse deformations were used to evaluate the samples.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Путем последующих испытаний на одноосное сжатие на сервогидравлическом прессе с контролем значений поперечных деформаций",
+     "locator_kind": "md_para",
+     "locator": "para:7",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В данной работе проведены специализированные модельные механические испытания с целью определения прочностных и деформационных характеристик на образцах богатых сульфидных руд в сложных режимах нагружения.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:1",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Explosive unloading of model samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "samples with holes and steel jackets were loaded by detonating a cord"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:model-samples-with-holes",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:steel-jackets",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:detonating-cord",
+     "role": "flux"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Explosive unloading was performed by initiating a detonating cord in the samples.",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "Для моделирования взрывной разгрузки было выполнено разупрочнение модельных образцов с отверстиями и запрессованных в стальные обоймы, инициированием детонирующего шнура.",
+     "locator_kind": "md_para",
+     "locator": "para:7",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Для моделирования взрывной разгрузки было выполнено разупрочнение модельных образцов с отверстиями и запрессованных в стальные обоймы, инициированием детонирующего шнура.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:2",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Pressing of samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Запрессовка образцов",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:epoxy-resin",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "pressing speed",
+     "scope": "material",
+     "material_id": "mat:rich-sulfide-ore-samples",
+     "value": {
+      "min": null,
+      "nominal": 1.0,
+      "max": null
+     },
+     "unit": "mm/min",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Скорость запрессовки образца во втулку составляла 1 мм/мин на начальном этапе (на глубину запрессовки 20 мм) и 5 мм/мин при последующем.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "pressing speed (second stage)",
+     "scope": "material",
+     "material_id": "mat:rich-sulfide-ore-samples",
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "mm/min",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Скорость запрессовки образца во втулку составляла 1 мм/мин на начальном этапе (на глубину запрессовки 20 мм) и 5 мм/мин при последующем.",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Эпоксидная смола использовалась для заполнения промежутков между образцом и обоймой, чтобы избежать потери целостности образцов (разлет на осколки).",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "use of epoxy resin",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Использование эпоксидной смолы вызвано необходимостью избежать потери целостности образцов (разлет на осколки) и последующей невозможностью проведения испытаний.",
+     "locator_kind": "md_para",
+     "locator": "para:43",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Запрессовка образцов осуществлялась на испытательном прессе Tinius Olsen Super L 60.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:3",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Drilling of pre‑stressed holes (modeling underground drilling)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "рассверловка отверстий в поперечном сечении предварительно напряженных отверстий образцов",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:ceramic-drill-bits",
+     "role": "reference"
+    },
+    {
+     "material_id": "mat:concrete-drill-bits",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "diameter",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "drill"
+     },
+     "method": null,
+     "snippet": "Сверление отверстий было осуществлено на сверлильном станке сверлами по керамике и сверлами по бетону диаметром 10 мм с последующим расширением сверлами по керамике диаметрами 12 и 16 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.65
+    },
+    {
+     "quantity_kind": "diameter",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 12.0,
+      "max": null
+     },
+     "unit": "mm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "final hole s"
+     },
+     "method": null,
+     "snippet": "с последующим расширением сверлами по керамике диаметрами 12 и 16 мм",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Варианты 2 (патрон через 1,5 патрона) и 3 (патрон через 1 патрон) оказались наиболее предпочтительными для физического моделирования.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "selection of charge spacing",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Для физического моделирования наиболее предпочтительными оказались варианты 2 (патрон через 1,5 патрона) и 3 (патрон через 1 патрон).",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Диаметр отверстия был выбран, исходя из рассмотрения эффекта действия взрыва рассредоточенного заряда с воздушным промежутком, что было предложено для проведения опытно‑промышленных испытаний, связанных с разгрузкой удароопасного массива горных пород в условиях рудников Талнаха в работе [38].",
+   "locator_kind": "md_para",
+   "locator": "para:44",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:4",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Explosive debonding of samples on a field polygon",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "разупрочнение образцов взрывом",
+       "temperature_text": "не указано",
+       "duration_text": "не указано"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:детонирующии-шнур-дшэ-12",
+     "role": "flux"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "number of samples prepared",
+     "scope": "material",
+     "material_id": "mat:rich-sulfide-ore-samples",
+     "value": {
+      "min": null,
+      "nominal": 12.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Таким образом, для взрывного разупрочнения было подготовлено 12 образцов по три на каждую ступень напряжения (0 МПа, 15 МПа, 30 МПа, 45 МПа).",
+     "locator_kind": "md_para",
+     "locator": "para:63",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "charge type",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": -12.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В качестве заряда взрывчатого вещества была применен детонирующий шнур типа ДШЭ-12.",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Разупрочнение проводилось в условиях полигона, что имитирует реальные горные условия.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "test environment",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Разупрочнение образцов взрывом выполнялось в условиях полигона.",
+     "locator_kind": "md_para",
+     "locator": "para:64",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Разупрочнение образцов взрывом выполнялось в условиях полигона.",
+   "locator_kind": "md_para",
+   "locator": "para:64",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:5",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Uniaxial compression test on explosively weakened rock samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Samples were extracted from steel shells, ends were flattened, and then tested in a TO Super L60 press with a maximum load of 300 kN. The press’s servo‑drive kept a constant transverse deformation rate, producing characteristic load‑displacement loops (“petli”).",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rock-samples",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:steel-shells",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Longitudinal wave speed",
+     "scope": "material",
+     "material_id": "mat:rock-samples",
+     "value": {
+      "min": null,
+      "nominal": 3542.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Измерение деформаций производилось специализированными для испытания горных пород экстензометрами тензометрического типа: поперечных - Epsilon 3544-100M-060M-HT2 и продольных - Epsilon 3542RA2-100M-600M-HT2 с базой измерения 100 мм.",
+     "locator_kind": "md_para",
+     "locator": "para:77",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The presence of radial cracks was weak after the explosion, but became more evident after sample extraction, showing both longitudinal and transverse cracks.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "crack morphology",
+      "direction": "increases",
+      "factor": "sample preparation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "На этом этапе наличие наведенной трещиноватости было выражено более явно, причем наблюдались как продольные (рис. 2г), так и поперечные трещины.",
+     "locator_kind": "md_para",
+     "locator": "para:68",
+     "confidence": 0.9
+    },
+    {
+     "text": "Poisson’s ratio and transverse wave speed could not be determined because the pronounced cracking prevented reliable measurement.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Poisson’s ratio, transverse wave speed",
+      "direction": "no_change",
+      "factor": "cracking",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Определение коэффициента Пуассона и скорости развития поперечной волны в виду явно выраженной трещиноватости не определялись, так как в этом случае нет возможности определения данных параметров.",
+     "locator_kind": "md_para",
+     "locator": "para:74",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Разрушение образцов происходило при помощи пресса TO Super L60 с максимальной нагрузкой 300 кН, который благодаря наличию сервопривода может выравнивать нагрузку в соответствии с постоянной скоростью поперечного деформирования.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:6",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Calibration of extensometer readings against LVDT measurements",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Deformation measured by Epsilon extensometers was corrected by a calibration function Δε(P)=A·P^B, where Δε is the difference between extensometer and LVDT readings at the same stress P (MPa). Calibration was performed individually for each sample over the required stress interval.",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:epsilon-extensometers",
+     "role": "medium"
+    },
+    {
+     "material_id": "mat:lvdt-sensors",
+     "role": "reference"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Calibration curves are unique for each sample because they were derived individually over the necessary stress range.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "calibration curve uniqueness",
+      "direction": "increases",
+      "factor": "individual calibration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "калибровка графика полного деформирования была проведена индивидуально для каждого образца в необходимом интервале напряжений, поэтому степенная аппроксимация графика «напряжения‑деформация» (рис. 3в) в каждом случае уникальна.",
+     "locator_kind": "md_para",
+     "locator": "para:88",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Калибровка была основана на допущении что отклонение Δε является функцией f(P), где P нагрузка на образец, МПа.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:7",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Measurement of elastic properties of control samples (45 mm) without holes",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory testing of cylindrical specimens"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:control-sample-45-mm",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Deformation modulus (Eд0)",
+     "scope": "material",
+     "material_id": "mat:control-sample-45-mm",
+     "value": {
+      "min": null,
+      "nominal": 48400.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "48400",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Elastic modulus (Eу0)",
+     "scope": "material",
+     "material_id": "mat:control-sample-45-mm",
+     "value": {
+      "min": null,
+      "nominal": 56700.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "56700",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Deformation modulus after drilling (Eд1)",
+     "scope": "material",
+     "material_id": "mat:control-sample-45-mm",
+     "value": {
+      "min": null,
+      "nominal": 48400.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "48400",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Elastic modulus after drilling (Eу1)",
+     "scope": "material",
+     "material_id": "mat:control-sample-45-mm",
+     "value": {
+      "min": null,
+      "nominal": 56700.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "56700",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Deformation modulus after explosive loosening (Eд2)",
+     "scope": "material",
+     "material_id": "mat:control-sample-45-mm",
+     "value": {
+      "min": null,
+      "nominal": 7109.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "7109",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Elastic modulus after explosive loosening (Eу2)",
+     "scope": "material",
+     "material_id": "mat:control-sample-45-mm",
+     "value": {
+      "min": null,
+      "nominal": 11219.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "11219",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Eд0/Eд2 = 6,81",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "6,81",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "text": "Eу0/Eу2 = 5,05",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "5,05",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Контрольные образцы 45 мм | 48400 | 56700 | 48400 | 56700 | 7109 | 11219 | 1,00 | 1,00 | 6,81 | 5,05 | 6,81 | 5,05",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:8",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Measurement of elastic properties of samples with two 5 mm holes and a crack",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Laboratory testing of cylindrical specimens containing two 5 mm holes and an induced crack"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sample-with-two-5-mm-holes-crack",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Deformation modulus (Eд0)",
+     "scope": "material",
+     "material_id": "mat:sample-with-two-5-mm-holes-crack",
+     "value": {
+      "min": null,
+      "nominal": 56200.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "56200",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Elastic modulus (Eу0)",
+     "scope": "material",
+     "material_id": "mat:sample-with-two-5-mm-holes-crack",
+     "value": {
+      "min": null,
+      "nominal": 64300.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "64300",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Deformation modulus after drilling (Eд1)",
+     "scope": "material",
+     "material_id": "mat:sample-with-two-5-mm-holes-crack",
+     "value": {
+      "min": null,
+      "nominal": 32200.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "32200",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Elastic modulus after drilling (Eу1)",
+     "scope": "material",
+     "material_id": "mat:sample-with-two-5-mm-holes-crack",
+     "value": {
+      "min": null,
+      "nominal": 43600.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "43600",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "Deformation modulus after explosive loosening (Eд2)",
+     "scope": "material",
+     "material_id": "mat:sample-with-two-5-mm-holes-crack",
+     "value": {
+      "min": null,
+      "nominal": 20250.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "20250",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Eд0/Eд1 = 1,75",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "1,75",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "text": "Eу0/Eу1 = 1,47",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "1,47",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    },
+    {
+     "text": "Eд0/Eд2 = 2,78",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "2,78",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Образцы с двумя отверстиями 5 мм+ трещина | 56200 | 64300 | 32200 | 43600 | 20250 | --- | 1,75 | 1,47 | 2,78 | --- | 1,59 | ---",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:9",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Explosion‑induced deconsolidation – elastic modulus measurement",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Samples were subjected to explosive deconsolidation under different pre‑tensile loads (0 MPa, 15 MPa, 30 MPa, 45 MPa) and with hole diameters of 10 mm; deformation and elastic moduli were measured before and after the explosion."
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rock-sample",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "deformation modulus",
+     "scope": "material",
+     "material_id": "mat:rock-samples",
+     "value": {
+      "min": 3.0,
+      "nominal": null,
+      "max": 5.6
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Коэффициент снижения модуля деформации, ед.",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "elastic modulus",
+     "scope": "material",
+     "material_id": "mat:rock-samples",
+     "value": {
+      "min": 1.6,
+      "nominal": null,
+      "max": 3.3
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Коэффициент снижения модуля упругости, ед.",
+     "locator_kind": "md_para",
+     "locator": "para:98",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "На образцах, разупрочненных взрывом, наблюдается четкая зависимость между коэффициентами снижения модулей деформации и упругости и влиянием бокового давления на образец.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "deformation modulus reduction > elastic modulus reduction",
+      "direction": "increases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Снижение модуля деформации значительнее, чем снижение модуля упругости (рисунок 6).",
+     "locator_kind": "md_para",
+     "locator": "para:101",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "На образцах, разупрочненных взрывом, наблюдается четкая зависимость между коэффициентами снижения модулей деформации и упругости и влиянием бокового давления на образец.",
+   "locator_kind": "md_para",
+   "locator": "para:101",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:41-оценка-физико-механических-свои-ств-горных-по:10",
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "title": "Explosion‑induced deconsolidation – compressive strength of perforated samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Samples with holes of 3–5 mm, 10 mm and pairs of 5 mm holes (with and without a transverse crack) were explosively deconsolidated and then tested in uniaxial compression."
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rock-sample-with-holes",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "compressive_strength",
+     "scope": "material",
+     "material_id": "mat:rock-samples",
+     "value": {
+      "min": null,
+      "nominal": 30.0,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Как видно из полученных результатов, наличие отверстий сказывается на снижении прочности образца до 30 %.",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "compressive_strength",
+     "scope": "material",
+     "material_id": "mat:rock-samples",
+     "value": {
+      "min": null,
+      "nominal": 1.5,
+      "max": null
+     },
+     "unit": "MPa",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Наличие поперечной трещины между отверстиями в образце сильнее всего сказалось на прочности, которая в полтора раза ниже прочности на сжатие образцов.",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Наличие отверстий сказывается на снижении прочности образца до 30 %.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "compressive_strength",
+      "direction": "decreases",
+      "factor": "≈30 %",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Как видно из полученных результатов, наличие отверстий сказывается на снижении прочности образца до 30 %.",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.9
+    },
+    {
+     "text": "Наличие поперечной трещины между отверстиями в образце сильнее всего сказалось на прочности, которая в полтора раза ниже прочности на сжатие образцов.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "compressive_strength",
+      "direction": "decreases",
+      "factor": "1.5× lower",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Наличие поперечной трещины между отверстинами в образце сильнее всего сказалось на прочности, которая в полтора раза ниже прочности на сжатие образцов.",
+     "locator_kind": "md_para",
+     "locator": "para:107",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Как видно из полученных результатов, наличие отверстий сказывается на снижении прочности образца до 30 %.",
+   "locator_kind": "md_para",
+   "locator": "para:107",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The most widespread approach to prevent rockbursts is to unload the rock mass by creating local zones of deformability.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "самым распространенным подходом предупреждения горных ударов является разгрузка массива горных пород путем создания локальных зон податливости.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Local zones of deformability are achieved by drilling a row of relief wells or by inducing artificial fracturing explosively.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Последние достигаются путем бурения строчки разгрузочных скважин или наведения техногенной трещиноватости взрывным способом.",
+   "locator_kind": "md_para",
+   "locator": "para:7",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Standard laboratory tests according to GOSTs investigate only the properties of monolithic rocks and do not adequately assess the disturbed state of the mass.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Стандартные лабораторные испытания в рамках ГОСТов направлены на исследование свойств только монолитных горных пород",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Determination of longitudinal wave velocity before and after rock mass destruction is one way to assess changes in the elastic modulus.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Одним из способов оценки изменения модуля упругости является определение скорости распространения продольных волн до и после разрушения массива горных пород",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Для расчётов напряжений у стенок скважины можно принять показатель изоэнтропии продуктов детонации γ = 1,5.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "isentropic exponent",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "установлено, что для приближенных расчетов можно принять =1,5",
+   "locator_kind": "md_para",
+   "locator": "para:50",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Среднее давление продуктов детонации после взрыва рассчитывается как Pc = (ρBB·DBB²)/8.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "P_{c}=\\frac{ \\rho_{BB}D_{BB}^{2}}{8}",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Коэффициент преломления в породу рассчитывается по формуле k_{pd}= (2·ρ·Cp)/(ρ·Cp+ρ_{BB}).",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "k_{pd}=\\frac{2 \\bullet \\rho \\bullet Cp}{ \\rho \\bullet Cp+ \\rho_{BB}}",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "При выборе диаметра отверстия в образце учитывается значение напряжений, действующих на стенки скважин при контурном взрывании.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Критерием для выбора диаметра отверстий в образце было принято значение напряжений, действующих на стенки скважин при контурном взрывании.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Эпоксидная смола минимизирует зазор между образцом и обоймой, исключая влияние среды с пониженной акустической жесткостью.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "gap minimization",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при этом зазор между обоймой и образцом был минимизирован для исключения влияния среды с пониженной акустической жесткостью.",
+   "locator_kind": "md_para",
+   "locator": "para:43",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Отверстия в крышках образцов изолируются алюминиевой фольгой, чтобы предотвратить контакт взрывчатого вещества со стальной поверхностью.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "explosive isolation",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Отверстия в крышках были изолированы алюминиевой фольгой с целью недопущения контакта взрывчатого вещества со стальной поверхностью.",
+   "locator_kind": "md_para",
+   "locator": "para:62",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Вариант 4 (патрон через 0,5 патрона) считается потенциально опасным для рудничных условий из‑за слишком высоких напряжений у стенок скважины.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "safety",
+    "direction": "decreases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В варианте 4 слишком высокие напряжения у стенок скважины. К тому же, данный вариант потенциально опасен для применения в рудничных условиях",
+   "locator_kind": "md_para",
+   "locator": "para:58",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Poisson’s ratio and transverse wave speed cannot be determined for samples with pronounced cracking.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "Poisson’s ratio, transverse wave speed",
+    "direction": "no_change",
+    "factor": "cracking",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Определение коэффициента Пуассона и скорости развития поперечной волны в виду явно выраженной трещиноватости не определялись, так как в этом случае нет возможности определения данных параметров.",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Modules of elasticity and deformation were not determined for explosively weakened samples from the loading‑unloading loops.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "elastic and deformation modules",
+    "direction": "no_change",
+    "factor": "explosive weakening",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Модули упругости и модули деформации по петлям нагружения и спада образцов разупрочненных взрывом не определялись.",
+   "locator_kind": "md_para",
+   "locator": "para:94",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "The TO Super L60 press can align load at a constant transverse deformation rate thanks to its servo‑drive.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "load control",
+    "direction": "increases",
+    "factor": "servo‑drive",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Разрушение образцов происходило при помощи пресса TO Super L60 с максимальной нагрузкой 300 кН, который благодаря наличию сервопривода может выравнивать нагрузку в соответствии с постоянной скоростью поперечного деформирования.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.9,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Calibration of the full deformation curve must be performed individually for each specimen.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "deformation curve accuracy",
+    "direction": "increases",
+    "factor": "individual calibration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Следует отметить, что калибровка графика полного деформирования была проведена индивидуально для каждого образца в необходимом интервале напряжений, поэтому степенная аппроксимация графика «напряжения‑деформация» (рис. 3в) в каждом случае уникальна.",
+   "locator_kind": "md_para",
+   "locator": "para:88",
+   "confidence": 0.81,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "The method for determining the complete stress‑strain curve follows ISRM recommendations and the section VI of the Methodological Guidelines for rock‑burst assessment.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "stress‑strain curve determination",
+    "direction": "increases",
+    "factor": "standard guidelines",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Основой для проведения испытаний такого вида послужили раздел VI «Оценка удароопасности по хрупкости пород с помощью запредельного деформирования» Методических рекомендаций ... и ISRM Suggested method for the complete stress-strain curve for intact rock in uniaxial compression [40-41].",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.45,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Формирование петель на графике «спада –нагружения» на каждом образце происходило в различной конфигурации.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Формирование петель на графике «спада –нагружения» на каждом образце происходило в различной конфигурации.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.81,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Из 6 образцов с диаметром отверстий 10 мм, данные по изменению модулей удалось получить лишь для 2 шт., что не дает возможности адекватного усреднения результатов.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Из 6 образцов с диаметром отверстий 10 мм, данные по изменению модулей удалось получить лишь для 2 шт., что не дает возможности адекватного усреднения результатов.",
+   "locator_kind": "md_para",
+   "locator": "para:100",
+   "confidence": 0.81,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  },
+  {
+   "text": "Сравнение предела прочности образцов разупрочненных взрывом производилось с пределами прочности ранее испытанных образцов богатой сульфидной руды со схожим модулем упругости и плотностью. Отметим, что данное сравнение можно считать условным.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "Сравнение предела прочности образцов разупрочненных взрывом производилось с пределами прочности ранее испытанных образцов богатой сульфидной руды со схожим модулем упругости и плотностью. Отметим, что данное сравнение можно считать условным.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:41-оценка-физико-механических-свои-ств-горных-по",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

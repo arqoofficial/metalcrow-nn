@@ -1,0 +1,224 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "title": "Металлургический комплекс Уэльва.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Металлургический комплекс Уэльва.docx.md",
+   "artifact_sha256": "2ff362d7453ae28858abb3a0b63f66918c0c82c8e4e44d637c00c9cc5d5c3488",
+   "okf_raw_path": "Обзоры/Металлургический комплекс Уэльва.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Пропускная способность медеплавильного завода по концентрату – 1,2 млн т/г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "throughput",
+    "direction": "increases",
+    "factor": "design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Пропускная способность медеплавильного завода по концентрату – 1,2 млн т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  },
+  {
+   "text": "По факту в 2018 г. было проплавлено 1 103 641 т концентратов, в 2017 г. – 1 025 155 млн т.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "actual throughput",
+    "direction": "increases",
+    "factor": "year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По факту в 2018 г. было проплавлено 1 103 641 т концентратов, в 2017 г. – 1 025 155 млн т.",
+   "locator_kind": "md_para",
+   "locator": "para:21",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  },
+  {
+   "text": "На медеплавильном заводе мощностью ~300-350 тыс т/г по анодам применяется технология взвешенной плавки по способу Outokumpu.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "technology used",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На медеплавильном заводе мощностью ~300-350 тыс т/г по анодам применяется технология взвешенной плавки по способу Outokumpu.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  },
+  {
+   "text": "Штейн (~64% Cu) поступает на конвертирование в конвертерах Пирса-Смита (два действующих конвертера, два – в резерве), где получают черновую медь 99%.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper grade",
+    "direction": "increases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Штейн (~64% Cu) поступает на конвертирование в конвертерах Пирса-Смита (два действующих конвертера, два – в резерве), где получают черновую медь 99%.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  },
+  {
+   "text": "Аноды с 99,6% Cu поступают на электрорафинирование, мощность передела – 285 тыс т/г катодной меди и 1 тыс т/г шлама, содержащего Au и Ag, МПГ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "copper grade",
+    "direction": "increases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Аноды с 99,6% Cu поступают на электрорафинирование, мощность передела – 285 тыс т/г катодной меди и 1 тыс т/г шлама, содержащего Au и Ag, МПГ.",
+   "locator_kind": "md_para",
+   "locator": "para:22",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  },
+  {
+   "text": "Катодная медь – это главный продукт металлургического комплекса.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "primary product",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Катодная медь – это главный продукт металлургического комплекса.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  },
+  {
+   "text": "Медь Уэльвы сорта Grade A соответствует спецификации CU-CATH-1 и стандарту EN 1978:1998.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "grade compliance",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медь Уэльвы сорта Grade A соответствует спецификации CU-CATH-1 и стандарту EN 1978:1998.",
+   "locator_kind": "md_para",
+   "locator": "para:28",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  },
+  {
+   "text": "Суммарный выпуск серной кислоты 98,5% – около 1 млн т/г.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "acid output",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Суммарный выпуск серной кислоты 98,5% – около 1 млн т/г.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  },
+  {
+   "text": "Вся продукция делится примерно 50:50 между внутренним и международным рынками.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "sales split",
+    "direction": "nonmonotonic",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Вся продукция делится примерно 50:50 между внутренним и международным рынками.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  },
+  {
+   "text": "На экспорт идет ~45% катодной меди (в первую очередь, в Средиземноморский бассейн, Средний Восток и Европу) и ~70% серной кислоты, а также весь анодный шлам, весь теллурид меди и 70% силиката железа.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "export share",
+    "direction": "increases",
+    "factor": "none",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На экспорт идет ~45% катодной меди (в первую очередь, в Средиземноморский бассейн, Средний Восток и Европу) и ~70% серной кислоты, а также весь анодный шлам, весь теллурид меди и 70% силиката железа.",
+   "locator_kind": "md_para",
+   "locator": "para:37",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  },
+  {
+   "text": "«Синтетический» гипс получают из растворов электролиза при обработке гидроксидом кальция. Получается 97% сульфат кальция, это чистый продукт белого цвета, зарегистрированный в системе REACH.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "purity",
+    "direction": "increases",
+    "factor": "process",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "«Синтетический» гипс получают из растворов электролиза при обработке гидроксидом кальция. Получается 97% сульфат кальция, это чистый продукт белого цвета, зарегистрированный в системе REACH.",
+   "locator_kind": "md_para",
+   "locator": "para:33",
+   "confidence": 0.9,
+   "document_id": "doc:металлургическии-комплекс-уэльва-docx",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

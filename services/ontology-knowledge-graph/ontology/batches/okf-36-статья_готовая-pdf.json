@@ -1,0 +1,1176 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:36-статья_готовая-pdf",
+   "title": "36 Статья_Готовая..pdf",
+   "doc_type": "article",
+   "year": null,
+   "country": "XX",
+   "lang": "en",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Статьи\\36 Статья_Готовая..pdf.md",
+   "artifact_sha256": "93df9582a16cd751e13da6421db664d12091654cf2a6fe5e85f933ccf224c7d5",
+   "okf_raw_path": "Статьи/36 Статья_Готовая..pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:sulfide-copper-nickel-concentrate",
+   "label": "sulfide copper‑nickel concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:concentrate",
+   "label": "concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:steel-slag-slag",
+   "label": "steel slag (slag)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:steel-slag",
+   "label": "steel (slag)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:matte-штеи-н",
+   "label": "Matte (Штейн)",
+   "family": "matte",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:slag-шлак",
+   "label": "Slag (Шлак)",
+   "family": "slag",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:matte-and-slag-samples",
+   "label": "matte and slag samples",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:36-статья_готовая-pdf:0",
+   "document_id": "doc:36-статья_готовая-pdf",
+   "title": "Oxidative melting of sulfide copper‑nickel concentrate in a simulated Vanyukov furnace",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidative melting of sulfide copper‑nickel concentrate, under conditions simulating melting in a Vanyukov furnace"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfide-copper-nickel-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "qualitative_observation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": null,
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "presence of gold in ironsilicate melt"
+     },
+     "method": null,
+     "snippet": "The data on the nature of the distribution of precious metals obtained by the results of the study of slag by the methods of SEM‑RSMA indicate the possible presence of gold in the volume of ironsilicate melt in the form of metallic solubility.",
+     "locator_kind": "md_para",
+     "locator": "para:3",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The results of the conducted studies indicate the predominant concentration of noble metals in the matte phase.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "noble metal distribution",
+      "direction": "increases",
+      "factor": "matte phase",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "The results of the conducted studies indicate the predominant concentration of noble metals in the matte phase.",
+     "locator_kind": "md_para",
+     "locator": "para:3",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "The article presents the results of a study of the behavior of noble metals during oxidative melting of sulfide copper‑nickel concentrate, under conditions simulating melting in a Vanyukov furnace.",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:36-статья_готовая-pdf:1",
+   "document_id": "doc:36-статья_готовая-pdf",
+   "title": "Laboratory induction‑furnace melting of copper‑nickel sulfide concentrate on steel slag",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidative melting of Cu‑Ni sulfide concentrate on steel slag in an induction furnace",
+       "temperature_text": "1350 о С",
+       "duration_text": "oxygen blowing time varied from 15 to 27 minutes; after blowing the melt was held for 10 minutes before slag quenching"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1623.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:concentrate",
+     "role": "input"
+    },
+    {
+     "material_id": "mat:steel-slag-slag",
+     "role": "output"
+    },
+    {
+     "material_id": "mat:steel-slag",
+     "role": "output"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "flow_rate",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 0.7,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "oxygen"
+     },
+     "method": null,
+     "snippet": "Расход кислорода в опытах составлял 0,7 л/мин.",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "initial charge mass",
+     "scope": "material",
+     "material_id": "mat:concentrate",
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в индукционную печь ... помещали алундовый тигель с исходной навеской равной 100 г.",
+     "locator_kind": "md_para",
+     "locator": "para:12",
+     "confidence": 0.45
+    },
+    {
+     "quantity_kind": "quartz flux addition",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 14.0,
+      "nominal": null,
+      "max": 15.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Для получения шлаков заданного состава по SiO2, в исходную шихтовку добавляли 14-15 грамм кварцевого флюса.",
+     "locator_kind": "md_para",
+     "locator": "para:17",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "sum of base (color) metals in steel slag",
+     "scope": "material",
+     "material_id": "mat:steel-slag-slag",
+     "value": {
+      "min": 76.0,
+      "nominal": null,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "широкий диапазон составов полученных штейнов: от бедного с суммой цветных металлов 34% масс., до файнштейна с содержанием суммы цветных металлов свыше 76% масс.",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Longer oxygen blowing (higher O₂ partial pressure) leads to lower Fe in the slag and higher enrichment of base metals.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "pressure",
+      "direction": "decreases",
+      "factor": "oxygen partial pressure",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "содержание железа в штейне снижается при увеличении парциального давления кислорода.",
+     "locator_kind": "md_para",
+     "locator": "para:21",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Методика проведения экспериментальных исследований ... изменяя напряжение на индукторе, разогревали печь до рабочей температуры 1350 о С. После проплавления концентрата ... Расход кислорода в опытах составлял 0,7 л/мин. ... в экспериментах варьировали время продувки расплава кислородом от 15 до 27 минут.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:36-статья_готовая-pdf:2",
+   "document_id": "doc:36-статья_готовая-pdf",
+   "title": "Nickel Plant 1 – RTP process",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "RTP (roasting‑to‑precipitation)",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:matte-штеи-н",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:slag-шлак",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "distribution coefficient of Pt",
+     "scope": "material",
+     "material_id": "mat:matte-штеи-н",
+     "value": {
+      "min": null,
+      "nominal": 15.8,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Штейн | РТП | 15,8 | 62 | 2,48 | 0,93 | 0,23 | 2,29 | 40 | 182 | 238 124",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "distribution coefficient of Au",
+     "scope": "material",
+     "material_id": "mat:matte-штеи-н",
+     "value": {
+      "min": null,
+      "nominal": 2.29,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Штейн | РТП | 15,8 | 62 | 2,48 | 0,93 | 0,23 | 2,29 | 40 | 182 | 238 124",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Полученные данные о коэффициентах распределения благородных металлов между продуктами плавки свидетельствуют о плавном увеличении данного показателя при снижении содержания железа в штейне с 36% масс. до 15% масс.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "distribution coefficient",
+      "direction": "increases",
+      "factor": "decrease of Fe in matte from 36% to 15%",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Полученные данные о коэффициентах распределения благородных металлов между продуктами плавки свидетельствуют о плавном увеличении данного показателя при снижении содержания железа в штейне с 36% масс. до 15% масс.",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1 | Никелевый завод 1",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:36-статья_готовая-pdf:3",
+   "document_id": "doc:36-статья_готовая-pdf",
+   "title": "Nadezhdinsky Metallurgical Plant – PVP process",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "PVP (pressure‑vacuum‑precipitation)",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:matte-штеи-н",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:slag-шлак",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "distribution coefficient of Pt",
+     "scope": "material",
+     "material_id": "mat:matte-штеи-н",
+     "value": {
+      "min": null,
+      "nominal": 18.7,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Штейн | ПВП | 18,7 | 105,9 | 2,89 | 0,95 | 0,52 | 2,35 | 67,1 | 302 | 311 | 145 | 190 | 104 | 18 | 65",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "distribution coefficient of Au",
+     "scope": "material",
+     "material_id": "mat:matte-штеи-н",
+     "value": {
+      "min": null,
+      "nominal": 2.35,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Штейн | ПВП | 18,7 | 105,9 | 2,89 | 0,95 | 0,52 | 2,35 | 67,1 | 302 | 311 | 145 | 190 | 104 | 18 | 65",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "При дальнейшем увеличении окислительного потенциала системы, и, как следствие, снижении содержания железа в штейне, следует достаточно резкое снижение коэффициента распределения благородных металлов за исключением Au и Ag.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "distribution coefficient",
+      "direction": "decreases",
+      "factor": "higher oxidation potential / lower Fe in matte",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При дальнейшем увеличении окислительного потенциала системы, и, как следствие, снижении содержания железа в штейне, следует достаточно резкое снижение коэффициента распределения благородных металлов за исключением Au и Ag.",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический завод | Надеждинский металлургический ",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:36-статья_готовая-pdf:4",
+   "document_id": "doc:36-статья_готовая-pdf",
+   "title": "Copper Plant – PV process",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "PV (pressure‑vacuum)",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:matte-штеи-н",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:slag-шлак",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "distribution coefficient of Pt",
+     "scope": "material",
+     "material_id": "mat:matte-штеи-н",
+     "value": {
+      "min": null,
+      "nominal": 8.84,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Штейн | ПВ | 8,84 | 32,6 | 0,601 | 0,163 | 0,062 | 3,68 | 83,5 | 295 | 261 | 120 | 28 | 21 | 80 | 105",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "distribution coefficient of Au",
+     "scope": "material",
+     "material_id": "mat:matte-штеи-н",
+     "value": {
+      "min": null,
+      "nominal": 3.68,
+      "max": null
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Штейн | ПВ | 8,84 | 32,6 | 0,601 | 0,163 | 0,062 | 3,68 | 83,5 | 295 | 261 | 120 | 28 | 21 | 80 | 105",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "В целом, можно отметить возрастание диапазона численных значений коэффициента распределения благородных металлов в ряду Ag→Au→Ru→Ir→Pt (Pd, Rh).",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "distribution coefficient",
+      "direction": "increases",
+      "factor": "metal type order",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В целом, можно отметить возрастание диапазона численных значений коэффициента распределения благородных металлов в ряду Ag→Au→Ru→Ir→Pt (Pd, Rh).",
+     "locator_kind": "md_para",
+     "locator": "para:41",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод | Медный завод",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:36-статья_готовая-pdf:5",
+   "document_id": "doc:36-статья_готовая-pdf",
+   "title": "Oxidative melting of sulfide copper‑nickel concentrate with varying Fe content in the matte",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "oxidative melting simulating the Vanjukov process",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:sulfide-copper-nickel-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "PGM+S"
+     },
+     "method": null,
+     "snippet": "извлечение благородных металлов в шлак во всем исследованном диапазоне составов штейнов не превышает 6%, что существенно ниже, чем у цветных металлов.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 36.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "PGM+S+Fe"
+     },
+     "method": null,
+     "snippet": "подтверждается плавный, несущественный рост потерь благородных металлов по мере снижения Fe в штейне с 36% масс. до 10-15% масс.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "It is advisable not to lower Fe content in the matte below 10‑15 % mass to reduce PGM losses in subsequent matte‑depletion operations.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "element_content",
+      "direction": "increases",
+      "factor": "PGE loss risk",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "при переработке сульфидных медно-никелевых концентратов с высоким содержанием металлов платиновой группы считаем целесообразным не понижать содержание Fe в получаемом штейне ниже 10-15% масс. с целью снижения вероятности потерь благородных металлов при последующей операции обеднения штейнов.",
+     "locator_kind": "md_para",
+     "locator": "para:47",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Данные о влиянии состава штейна на потери благородных металлов со шлаками окислительной плавки представлены на рисунках 6 и 7.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:36-статья_готовая-pdf:6",
+   "document_id": "doc:36-статья_готовая-pdf",
+   "title": "Comparison of distribution coefficients with literature data",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "laboratory oxidation melting (same as above) and literature data review",
+       "temperature_text": "not specified",
+       "duration_text": "not specified"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:matte-and-slag-samples",
+     "role": "medium"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "distribution coefficient Pt",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "коэффициент распределения Pt выше, чем у Au и Pd, и составляет примерно 10 6 .",
+     "locator_kind": "md_para",
+     "locator": "para:46",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "distribution coefficient Pd and Au",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Коэффициенты распределения Pd и Au находятся примерно на одном уровне и составляют 10 5 .",
+     "locator_kind": "md_para",
+     "locator": "para:46",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "distribution coefficient Ag",
+     "scope": "material",
+     "material_id": "mat:steel-slag-slag",
+     "value": {
+      "min": null,
+      "nominal": 100.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "для Ag авторы статьи отмечают существенный разброс значений ... приводят численное значение коэффициента распределения Ag на уровне 100-400.",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.45
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The present work shows considerably higher distribution coefficients than those reported by Finnish authors, likely due to lower mechanical losses in the present experiments.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "distribution coefficient magnitude",
+      "direction": "increases",
+      "factor": "mechanical losses",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "С нашей точки зрения, данный факт объясняется существенно более низкими механическими потерями благородных металлов в работе [22], что связано с различиями в экспериментальных методиках.",
+     "locator_kind": "md_para",
+     "locator": "para:46",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Отдельно стоит остановиться на сравнении полученных коэффициентов распределения благородных металлов в данной статье с информацией, приведенной в известных научных источниках.",
+   "locator_kind": "md_para",
+   "locator": "para:45",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "The known course of the dependence of the influence of specific oxygen consumption on the composition of the resulting matte is confirmed.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "specific oxygen consumption vs. matte composition",
+    "direction": "increases",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "The known course of the dependence of the influence of specific oxygen consumption on the composition of the resulting matte is confirmed.",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Based on the conducted research, recommendations are given on the conduct of the oxidative melting process, ensuring minimal losses of precious metals with slags.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "precious metal loss",
+    "direction": "decreases",
+    "factor": "process control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Based on the conducted research, recommendations are given on the conduct of the oxidative melting process, ensuring minimal losses of precious metals with slags.",
+   "locator_kind": "md_para",
+   "locator": "para:3",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Silver shows a much stronger dependence of its concentration in slag on process temperature than other noble metals.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "исследователи, изучающие поведение серебра при пирометаллургической переработке, отмечают сильно выраженную, по сравнению с другими благородными металлами, зависимость концентраций серебра в шлаке от температуры процесса.",
+   "locator_kind": "md_para",
+   "locator": "para:12",
+   "confidence": 0.81,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Temperature has no significant influence on the distribution of noble metals between melt products, except for silver.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "distribution of Pt, Pd, Au, etc.",
+    "direction": "no_change",
+    "factor": "temperature",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Установлено, что температура процесса не оказывает значительного влияния на распределение благородных металлов (за исключением Ag) между продуктами плавки.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "The main losses of PGMs with slag are mechanical, caused by steel droplets trapped in the slag volume.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "PGM loss mechanism",
+    "direction": "increases",
+    "factor": "mechanical entrapment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "основные потери металлов платиновой группы со шлаками связаны с корольками штейна, запутавшимися в объеме шлака, или, иначе говоря, механическими потерями.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "Dissolved losses of PGMs are extremely small.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "dissolved PGM loss fraction",
+    "direction": "decreases",
+    "factor": "dissolution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "доля растворенных потерь металлов платиновой группы крайне незначительна.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.81,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "Norilsk Nickel is considering Vanjukov‑furnace smelting of high‑PGM copper‑nickel sulfide concentrate and needs optimal processing conditions.",
+   "kind": "recommendation",
+   "effect": null,
+   "snippet": "В настоящее время в ПАО «ГМК «Норильский Никель» рассматривается вариант плавки в печи Ванюкова сульфидного медно-никелевого концентрата с высоким содержанием металлов платиновой группы, в связи с чем требуется определить оптимальные условия переработки данного вида сырья.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "No data on noble‑metal behavior in the studied process are found in domestic or foreign literature.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "literature coverage",
+    "direction": "no_change",
+    "factor": "не указан",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "в отечественной и зарубежной литературе не обнаружены данные о поведении благородных металлов в рассмотренном в данной статье процессе.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": "smelting"
+  },
+  {
+   "text": "A thermodynamic model describing PGM behavior at different slag/metal ratios was developed.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "авторами данной работы разработана термодинамическая модель, описывающая поведение платиновых металлов при различном соотношении штейн/шлак.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Для Pt, Pd и Rh характерны соизмеримые численные показатели коэффициентов распределения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "distribution coefficient",
+    "direction": "no_change",
+    "factor": "metal group Pt‑Pd‑Rh",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для Pt, Pd и Rh характерны соизмеримые численные показатели коэффициентов распределения",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.81,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Для Ru и Ir отмечаются более низкие значения коэффициента распределения.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "distribution coefficient",
+    "direction": "decreases",
+    "factor": "metal type Ru, Ir",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Для Ru и Ir отмечаются более низкие значения",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.81,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Ряд исследователей указывают на склонность Ru и Ir к окислению, что может являться причиной заниженных показателей коэффициента распределения.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "distribution coefficient",
+    "direction": "decreases",
+    "factor": "oxidation of Ru and Ir",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ряд исследователей [18-20] указывают на склонность Ru и Ir к окислению, что может являться причиной заниженных показателей коэффициента распределения",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Поведение Au в условиях пирометаллургического обеднения шлака окислительной плавки указывает на возможность нахождения Au в железосиликатной основе шлака в форме металлической растворимости.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "oxidative slag leaching",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Представленные в работе [27] сведения о поведении Au в условиях пирометаллургического обеднения шлака окислительной плавки указывают на возможность нахождения Au в железосиликатной основе шлака в форме металлической растворимости",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Это может являться причиной более низких значений коэффициентов распределения Au по сравнению с металлами платиновой группы.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "distribution coefficient",
+    "direction": "decreases",
+    "factor": "Au metallic solubility in slag",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "что, в свою очередь, может являться причиной более низких значений коэффициентов распределения Au по сравнению с металлами платиновой группы",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Ряд исследователей указывают на возможность металлической растворимости Cu в железосиликатных расплавах.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "iron‑silicate melts",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Следует отметить, что ряд исследователей указывают на возможность металлической растворимости Cu в железосиликатных расплавах",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Никелевый завод закрыт в 2016 году.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "plant operation",
+    "direction": "decreases",
+    "factor": "closure year",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "1 Никелевый завод закрыт в 2016 году",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "The distribution coefficients of PGMs increase in the order Au→Ru→Ir→Pt (Pd, Rh).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "distribution coefficient trend",
+    "direction": "increases",
+    "factor": "metal type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "повышенные коэффициенты распределения в ряду Au→Ru→Ir→Pt (Pd, Rh).",
+   "locator_kind": "md_para",
+   "locator": "para:42",
+   "confidence": 0.45,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Ru extraction to slag is higher due to partial oxidation of Ru, as supported by other scientific sources.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "increases",
+    "factor": "partial oxidation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "повышенное извлечение Ru в шлак, по-видимому, связано с частичным окислением данного металла, вероятность чего подтверждается рядом научных источников.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Au losses to slag are caused by both mechanical losses and possible metallic solubility of Au in slag.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Au loss mechanisms",
+    "direction": "increases",
+    "factor": "mechanical + solubility",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Особенность потерь Au со шлаком характеризуется не только наличием механических потерь данного металла, но и возможностью нахождения Au в шлаке в форме металлической растворимости.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.81,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "For optimal PGM recovery and minimal loss during subsequent matte‑depletion, the Fe content in the matte should not be lower than 10‑15 % mass.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "increases",
+    "factor": "PGE loss risk",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "рекомендуется вести процесс окислительной плавки с получением штейна, содержание Fe в котором не будет ниже 10-15% масс.",
+   "locator_kind": "md_para",
+   "locator": "para:53",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  },
+  {
+   "text": "Extraction of PGMs to slag never exceeds 6 % across the investigated matte composition range.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "recovery_degree",
+    "direction": "decreases",
+    "factor": "overall range",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "извлечение благородных металлов в шлак во всем исследованном диапазоне составов штейнов не превышает 6%, что существенно ниже, чем у цветных металлов.",
+   "locator_kind": "md_para",
+   "locator": "para:47",
+   "confidence": 0.9,
+   "document_id": "doc:36-статья_готовая-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [
+  {
+   "src": "mat:steel-slag-slag",
+   "dst": "mat:concentrate",
+   "process": "other",
+   "kind": null,
+   "snippet": "Методика проведения экспериментальных исследований ... изменяя напряжение на индукторе, разогревали печь до рабочей температуры 1350 о С. После проплавления концентрата ... Расход кислорода в опытах составлял 0,7 л/мин. ... в экспериментах варьировали время продувки расплава кислородом от 15 до 27 минут.",
+   "doc_id": "doc:36-статья_готовая-pdf"
+  },
+  {
+   "src": "mat:steel-slag",
+   "dst": "mat:concentrate",
+   "process": "other",
+   "kind": null,
+   "snippet": "Методика проведения экспериментальных исследований ... изменяя напряжение на индукторе, разогревали печь до рабочей температуры 1350 о С. После проплавления концентрата ... Расход кислорода в опытах составлял 0,7 л/мин. ... в экспериментах варьировали время продувки расплава кислородом от 15 до 27 минут.",
+   "doc_id": "doc:36-статья_готовая-pdf"
+  }
+ ],
+ "validated_by": [],
+ "contradicts": []
+}

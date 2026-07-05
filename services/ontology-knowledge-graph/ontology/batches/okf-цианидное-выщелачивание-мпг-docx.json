@@ -1,0 +1,1179 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "title": "Цианидное выщелачивание МПГ.docx",
+   "doc_type": "article",
+   "year": null,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Цианидное выщелачивание МПГ.docx.md",
+   "artifact_sha256": "2115481533f06b44f918413d61fac24d0cbf89d0ce9371171e7dcf6017053211",
+   "okf_raw_path": "Обзоры/Цианидное выщелачивание МПГ.docx.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:panton-flotation-concentrate",
+   "label": "Panton flotation concentrate",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:цианидныи-щелок",
+   "label": "цианидный щелок",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:обожженныи-флотационныи-концентрат",
+   "label": "обожженный флотационный концентрат",
+   "family": "concentrate",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:active-carbons",
+   "label": "activated carbon",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cyanide-leach-solution",
+   "label": "cyanide leach solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:loaded-activated-carbon",
+   "label": "loaded activated carbon",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:elution-solution",
+   "label": "elution solution",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:new-metal-organic-resin",
+   "label": "new metal‑organic resin",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:cyanide-complexes-pt-cn-4-2-co-cn-6-3-cu-cn-3-2",
+   "label": "cyanide complexes Pt(CN)4^2‑, Co(CN)6^3‑, Cu(CN)3^2‑, Fe(CN)6^3‑",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цианидное-выщелачивание-мпг-docx:0",
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "title": "Atmospheric cyanide leaching after roasting (Panton project)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "roasting followed by cyanide leaching",
+       "temperature_text": "roasting: 400-425°C; leaching: 60°C",
+       "duration_text": "roasting: 1 hour; leaching: 100 hours"
+      },
+      "temperature": {
+       "min": 673.15,
+       "nominal": null,
+       "max": 698.15
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:panton-flotation-concentrate",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 86.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pd"
+     },
+     "method": null,
+     "snippet": "Цианидным выщелачиванием при атмосферном давлении удалось извлечь 86% палладия",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "золота 99%",
+     "locator_kind": "md_para",
+     "locator": "para:40",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": null,
+      "max": 10.0
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "платины <10%",
+     "locator_kind": "md_para",
+     "locator": "para:1",
+     "confidence": 0.41
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Roasting at 400‑425 °C for 1 h in air (static or rotating furnace) followed by leaching at 60 °C, 0.2 % cyanide, pH 9.2, 10 mg/L dissolved oxygen, 50 % pulp density for 100 h gave the above extraction results.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "extraction performance",
+      "direction": "increases",
+      "factor": "combined roasting‑leaching conditions",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Условия обжига: t 400-425°C, продолжительность – 1 час, ... Условия выщелачивания: t 60°C, концентрация цианида 0,2% по весу, рН 9,2, растворенного кислорода – 10 мг/л, плотность пульпы – 50% твердого по весу, продолжительность – 100 часов.",
+     "locator_kind": "md_para",
+     "locator": "para:42",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Условия обжига: t 400-425°C, продолжительность – 1 час, ожижающий газ – воздух, печь – КС или вращающаяся обжиговая печь, т.е. с перемешиванием.\nУсловия выщелачивания: t 60°C, концентрация цианида 0,2% по весу, рН 9,2, растворенного кислорода – 10 мг/л, плотность пульпы – 50% твердого по весу, продолжительность – 100 часов.",
+   "locator_kind": "md_para",
+   "locator": "para:41",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цианидное-выщелачивание-мпг-docx:1",
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "title": "Laboratory precipitation test",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "precipitation",
+      "extra": {
+       "raw_process": "Осаждение при понижении pH цианидного щелока",
+       "temperature_text": "не указана",
+       "duration_text": "не указана"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:цианидныи-щелок",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "осаждение ПГ",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рН цианидного щелока понижают до 2-3, что вызывает осаждение ~90% МПГ и 99+% БМ.",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "осаждение базовых металлов",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 99.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "рН цианидного щелока понижают до 2-3, что вызывает осаждение ~90% МПГ и 99+% БМ.",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Метод осаждения выбран для дальнейшей работы.",
+     "kind": "recommendation",
+     "effect": {
+      "quantity_kind": "method selection",
+      "direction": "increases",
+      "factor": "success",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "При опробовании разных методов осаждения, тем не менее, были получены некоторые обещающие результаты и этот способ был выбран для дальнейшей работы.",
+     "locator_kind": "md_para",
+     "locator": "para:57",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Разработан такой способ: рН цианидного щелока понижают до 2-3, что вызывает осаждение ~90% МПГ и 99+% БМ.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цианидное-выщелачивание-мпг-docx:2",
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "title": "Pilot plant operation (South Africa)",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "leaching",
+      "extra": {
+       "raw_process": "обжиг‑цианидное выщелачивание‑осаждение",
+       "temperature_text": "не указана (сушка 60°С, калицинирование в печи)",
+       "duration_text": "600 ч непрерывного режима, 100 ч пребывания в выщелачивании"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 333.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:обожженныи-флотационныи-концентрат",
+     "role": "input"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "переработанный материал",
+     "scope": "material",
+     "material_id": "mat:обожженныи-флотационныи-концентрат",
+     "value": {
+      "min": null,
+      "nominal": 6.0,
+      "max": null
+     },
+     "unit": "т",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Завод работал в непрерывном режиме 600 часов, было переработано ~6 т обожженного флотационного концентрата.",
+     "locator_kind": "md_para",
+     "locator": "para:59",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.8,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pt"
+     },
+     "method": null,
+     "snippet": "Экстракция, % | 90,8",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 91.9,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Pd"
+     },
+     "method": null,
+     "snippet": "Экстракция, % | 91,9",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 94.4,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Au"
+     },
+     "method": null,
+     "snippet": "Экстракция, % | 94,4",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 69.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Cu"
+     },
+     "method": null,
+     "snippet": "Экстракция, % | 69",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "recovery_degree",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 32.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Экстракция, % | 32",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.73
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": 3000.0,
+      "nominal": null,
+      "max": 4000.0
+     },
+     "unit": "g/t",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "PGM"
+     },
+     "method": null,
+     "snippet": "Высушенный осадок в типичном случае содержит 3000-4000 г/т МПГ и ~50% Ni+Cu.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "element_content",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 50.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Ni"
+     },
+     "method": null,
+     "snippet": "Высушенный осадок в типичном случае содержит 3000-4000 г/т МПГ и ~50% Ni+Cu.",
+     "locator_kind": "md_para",
+     "locator": "para:58",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Суммарное извлечение Pt из огарка составило 90,5 %.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "recovery_degree",
+      "direction": "increases",
+      "factor": "process",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Суммарн.извлечение из огарка, % | 90,5",
+     "locator_kind": "md_para",
+     "locator": "para:61",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Пилотный завод по технологии обжиг-цианидное выщелачивание-осаждение был построен в ЮАР.",
+   "locator_kind": "md_para",
+   "locator": "para:59",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цианидное-выщелачивание-мпг-docx:3",
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "title": "Adsorption of PGM from cyanide leach solution on activated carbon",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "batch adsorption",
+       "temperature_text": "ambient",
+       "duration_text": "2 h and 72 h"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:active-carbons",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:cyanide-leach-solution",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "extraction  of pt"
+     },
+     "method": null,
+     "snippet": "извлечения этих металлов достигали примерно 90% по истечении 2 часов и 100%, 97,4%, 99,9%, соответственно, через 72 часа.",
+     "locator_kind": "md_para",
+     "locator": "para:205",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "extraction  of pd"
+     },
+     "method": null,
+     "snippet": "извлечения этих металлов достигали примерно 90% по истечении 2 часов и 100%, 97,4%, 99,9%, соответственно, через 72 часа.",
+     "locator_kind": "md_para",
+     "locator": "para:205",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 90.0,
+      "max": null
+     },
+     "unit": "%",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "extraction  of au"
+     },
+     "method": null,
+     "snippet": "извлечения этих металлов достигали примерно 90% по истечении 2 часов и 100%, 97,4%, 99,9%, соответственно, через 72 часа.",
+     "locator_kind": "md_para",
+     "locator": "para:205",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Для адсорбции МПГ концентрация тиоцианата не играла значительной роли, самым главным параметром была концентрация никеля.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "no_change",
+      "factor": "thiocyanate concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Для адсорбции МПГ концентрация тиоцианата не играла значительной роли, самым главным параметром была концентрация никеля.",
+     "locator_kind": "md_para",
+     "locator": "para:205",
+     "confidence": 0.9
+    },
+    {
+     "text": "Адсорбцию меди можно минимизировать, корректируя время пребывания, а адсорбция никеля идет примерно с той же скоростью, что и МПГ.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "nickel vs copper adsorption kinetics",
+      "direction": "no_change",
+      "factor": "nickel concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В то время как адсорбцию меди можно минимизировать, корректируя время пребывания, адсорбция никеля идет примерно с той же скоростью, что и МПГ и влияет на емкость и кинетику адсорбции МПГ.",
+     "locator_kind": "md_para",
+     "locator": "para:205",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Опыты по адсорбции выполняли с насыщенным щелочным раствором выщелачивания с 0,15 ppm Pt, 0,38 ppm Pd, 0,1 ppm Au, получившимся в результате цианидной экстракции в колонне.",
+   "locator_kind": "md_para",
+   "locator": "para:205",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цианидное-выщелачивание-мпг-docx:4",
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "title": "Elution of Pt, Pd and Au from loaded activated carbon",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "column elution",
+       "temperature_text": "80 °C",
+       "duration_text": "4‑5 bed volumes for Pt/Pd, up to 16 bed volumes for Au"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 353.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:loaded-activated-carbon",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:elution-solution",
+     "role": "reference"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "bed volumes",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "elution  of pt and pd"
+     },
+     "method": null,
+     "snippet": "они вымываются почти полностью в 4-5 объемах слоя при 80°С",
+     "locator_kind": "md_para",
+     "locator": "para:206",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "efficiency",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 16.0,
+      "max": null
+     },
+     "unit": "bed volumes",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "elution  of au"
+     },
+     "method": null,
+     "snippet": "элюирование золота при этой температуре идет медленно и значительные количества золота все ещё предстоит вымыть даже после 16-ти объемов.",
+     "locator_kind": "md_para",
+     "locator": "para:206",
+     "confidence": 0.72
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Более высокая концентрация цианида повышает эффективность элюирования, но есть оптимальная концентрация, выше которой эффективность снижается.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "nonmonotonic",
+      "factor": "cyanide concentration",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Более высокая концентрация цианида повышает эффективность элюирования и, видимо, есть оптимальная концентрация цианида, сверх которой эффективность процесса начинает снижаться.",
+     "locator_kind": "md_para",
+     "locator": "para:207",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Была изучена также возможность вымывания цианидных комплексов Pt и Pd с активированного угля: они вымываются почти полностью в 4-5 объемах слоя при 80°С, а элюирование золота при этой температуре идет медленно и значительные количества золота все ещё предстоит вымыть даже после 16-ти объемов.",
+   "locator_kind": "md_para",
+   "locator": "para:206",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цианидное-выщелачивание-мпг-docx:5",
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "title": "Removal of cyanide complexes by a new ion‑exchange metal‑organic resin",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "batch ion‑exchange",
+       "temperature_text": "ambient",
+       "duration_text": "30 min"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:new-metal-organic-resin",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:cyanide-complexes-pt-cn-4-2-co-cn-6-3-cu-cn-3-2",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Adsorbed Pt(CN)4^2‑ can be selectively recovered by a two‑stage elution.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "selective Pt elution",
+      "direction": "increases",
+      "factor": "two‑stage elution",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "адсорбированный Pt(CN)4 2- может быть селективно извлечен двухстадийным элюированием",
+     "locator_kind": "md_para",
+     "locator": "para:211",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Приготовлена новая ионообменная металлоорганическая смола, быстро (30 мин) и эффективно удаляющая цианидные комплексы из сточных вод Pt(CN)4 2- , Co(CN)6 3- , Cu(CN)3 2- , Fe(CN)6 3- .",
+   "locator_kind": "md_para",
+   "locator": "para:211",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Platinum Australia and Lonmin developed the “Panton process”, in which a low‑temperature roast is followed by cyanide leaching at elevated temperature, and metals are recovered from the pregnant solution by precipitation.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "process description",
+    "direction": "increases",
+    "factor": "process design",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Platinum Australia и Lonmin разработали “процесс Panton”, в соответствии с которым бедный флотационный концентрат подвергается низкотемпературному обжигу, за которым следует цианидное выщелачивание при повышенной температуре.",
+   "locator_kind": "md_para",
+   "locator": "para:29",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "The Platsol technology provided up to 95 % PGM extraction, but reagent consumption was unacceptably high.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "technology",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Технология Platsol обеспечила извлечение до 95% МПГ, но расход реагентов был неприемлемо высоким.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "Atmospheric cyanide leaching achieved 86 % palladium, 99 % gold, and less than 10 % platinum extraction.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "extraction rates",
+    "direction": "increases",
+    "factor": "leaching method",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Цианидным выщелачиванием при атмосферном давлении удалось извлечь 86% палладия, золота 99%, но платины <10%.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.81,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "The first two leaching options (autoclave cyanidation and autoclave ammoniacal leaching) gave PGM extraction of 60‑69 %.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficiency",
+    "direction": "increases",
+    "factor": "process type",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Первые два варианта дали извлечение МПГ до 60-69%.",
+   "locator_kind": "md_para",
+   "locator": "para:40",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": "leaching"
+  },
+  {
+   "text": "During roasting, about 6 mg/m³ CO₂ and a small amount of CO (~800 ppm – <20 ppm) were emitted; no significant volatilization of As, Cd, Sb, Hg, Se, Bi, and no SO₂ were detected.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "emissions",
+    "direction": "decreases",
+    "factor": "roasting conditions",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Во время обжига выделялось ~6 мг/м³ CO₂ и небольшое количество CO (~800 ppm - <20 ppm). При обжиге в отходящих газах содержалась пыль, но существенного улетучивания As, Cd, Sb, Hg, Se, Bi не наблюдалось, SO₂ не был обнаружен.",
+   "locator_kind": "md_para",
+   "locator": "para:1",
+   "confidence": 0.45,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "The Panton ore resource totals 10.08 million tonnes with grades: Pt 2.51 g/t, Pd 2.91 g/t, Au 0.40 g/t, Os 0.077 g/t, Ir 0.055 g/t, Rh 0.057 g/t, Ru 0.119 g/t, Ni 3030 ppm, Cu 909 ppm.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Суммарные ресурсы месторождения Panton во всех категориях изученности – 10,08 млн т руды, содержащей (г/т): Pt – 2,51; Pd – 2,91; Au – 0,40; Os – 0,077; Ir – 0,055; Rh – 0,057; Ru – 0,119; Ni – 3030 ppm; Cu – 909 ppm",
+   "locator_kind": "md_para",
+   "locator": "para:31",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "Осадок, как полагают авторы, пригоден для переработки на рафинировочных заводах базовых металлов.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "suitability for refining",
+    "direction": "increases",
+    "factor": "applicability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Осадок, как полагают авторы [2], пригоден для переработки на рафинировочных заводах базовых металлов",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": "precipitation"
+  },
+  {
+   "text": "Продукт сжигания смолы – для рафинировочных заводов МПГ.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "product destination",
+    "direction": "increases",
+    "factor": "applicability",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "продукт сжигания смолы – для рафинировочных заводов МПГ.",
+   "locator_kind": "md_para",
+   "locator": "para:57",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "Порядка ~60 % цианида удается вернуть на выщелачивание.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "цианидный рециклинг",
+    "direction": "increases",
+    "factor": "recovery",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Порядка ~60% цианида удается вернуть на выщелачивание.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "ТЭО продемонстрировало «техническую убедительность» проекта.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "техническая убедительность",
+    "direction": "increases",
+    "factor": "assessment",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ТЭО продемонстрировало «техническую убедительность» проекта",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "Проект был нежизнеспособен в коммерческом отношении из‑за низких цен на палладий (~200 USD/тр.унц.) и неблагоприятного курса австралийского доллара.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "жизнеспособность",
+    "direction": "decreases",
+    "factor": "экономические условия",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "проект был нежизнеспособен в коммерческом отношении из-за низких цен на палладий (на тот период ~200 USD/тр.унц.) и неблагоприятного курса австралийского доллара.",
+   "locator_kind": "md_para",
+   "locator": "para:68",
+   "confidence": 0.81,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "Обжиг или плавка PtAs₂ при температурах 450 °С и выше приводит к переходу мышьяка в газовую фазу и безвозвратным потерям Pt.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "выбросы As и потери Pt",
+    "direction": "decreases",
+    "factor": "environmental impact",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "обжиг или плавка PtAs 2 при температурах 450°С и выше ведет к переходу мышьяка в газовую фазу, а вместе с ним и платины – это безвозвратные потери Pt и проблемы с экологией из-за мышьяка.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": "smelting"
+  },
+  {
+   "text": "Ограничения по строительству новых «цианидных» заводов в мире усиливаются.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "регуляторные ограничения",
+    "direction": "decreases",
+    "factor": "доступность",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ограничения по строительству новых «цианидных» заводов в мире усиливаются.",
+   "locator_kind": "md_para",
+   "locator": "para:69",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "Активированный уголь в качестве сорбента имеет большую площадь поверхности, высокую адсорбционную емкость, пористую структуру, незначительную токсичность для окружающей среды, низкую стоимость и высокие стандарты чистоты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "advantages of activated carbon",
+    "direction": "increases",
+    "factor": "material properties",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Активированный уголь в качестве сорбента всё ещё не утратил лидерства, т.к. имеет большую площадь поверхности, высокую адсорбционую емкость, пористую структуру, незначительную токсичность для окружающей среды, низкую стоимость и высокие стандарты чистоты.",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "Извлекающая фаза на основе активированного угля обеспечивает быстрое разделение фаз, имеет сравнительно низкие капитальные и операционные затраты.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "process economics",
+    "direction": "decreases",
+    "factor": "capital and operating costs",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Обеспечивает быстрое разделение фаз, имеет сравнительно низкие капитальные и операционные затраты.",
+   "locator_kind": "md_para",
+   "locator": "para:204",
+   "confidence": 0.81,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "Для адсорбции МПГ главным параметром является концентрация никеля, а не концентрация тиоцианата.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "concentration",
+    "direction": "increases",
+    "factor": "nickel concentration",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "самым главным параметром была концентрация никеля.",
+   "locator_kind": "md_para",
+   "locator": "para:205",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "При переработке сульфидной руды/концентрата, содержащего базовые и платиновые металлы, к этапу цианидного выщелачивания должна предшествовать стадия автоклавного кислотного выщелачивания.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "process sequence",
+    "direction": "increases",
+    "factor": "pre‑leach step",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "этапу цианидного выщелачивания должна предшествовать стадия предварительной обработки материала – например, автоклавное кислотное выщелачивание.",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "Сульфиды базовых металлов окисляются до сульфатов и переходят в раствор, а МПГ остаются в железистом остатке.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "behavior of base metals vs PGM",
+    "direction": "increases",
+    "factor": "oxidation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сульфиды базовых металлов окисляются до сульфатов и переходят в раствор, а МПГ остаются в железистом остатке.",
+   "locator_kind": "md_para",
+   "locator": "para:213",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": null
+  },
+  {
+   "text": "Неселективное осаждение платиноидов и базовых металлов при снижении pH до ~2 образует осадок, содержащий МПГ и БМ, который затем селективно выщелачивают.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "precipitation condition",
+    "direction": "increases",
+    "factor": "pH ~2",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Неселективное осаждение платиноидов и базовых металлов выполняется контролируемым снижением рН насыщенного раствора до ~2.",
+   "locator_kind": "md_para",
+   "locator": "para:209",
+   "confidence": 0.9,
+   "document_id": "doc:цианидное-выщелачивание-мпг-docx",
+   "process": "precipitation"
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

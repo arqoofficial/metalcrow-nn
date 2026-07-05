@@ -1,0 +1,1055 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:цм-10-22-pdf",
+   "title": "ЦМ 10-22.pdf",
+   "doc_type": "article",
+   "year": 2022,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Журналы\\Цветные металлы\\2022\\ЦМ 10-22.pdf.md",
+   "artifact_sha256": "48a2101f36e020727bda5c508484ea9933fbf1341a67de84198d462fc12cac88",
+   "okf_raw_path": "Журналы/Цветные металлы/2022/ЦМ 10-22.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [
+  {
+   "id": "mat:alloy-e110-zr-nb-1",
+   "label": "Alloy E110 (Zr‑Nb 1 %)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-e635-zr-nb-sn-fe",
+   "label": "Alloy E635 (Zr‑Nb‑Sn‑Fe)",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:fragments-of-fuel-rod-cladding-guiding-channels",
+   "label": "Fragments of fuel‑rod cladding, guiding channels (NK), central tubes (CT) from VVER‑1000 TVS",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:phase-lavesa-particles-in-zr-nb-fe-alloy",
+   "label": "phase Lavesa particles in Zr‑Nb‑Fe alloy",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-e110",
+   "label": "alloy E110",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:alloy-e635",
+   "label": "alloy E635",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  },
+  {
+   "id": "mat:rip-particles-in-alloys-e110-e635",
+   "label": "RIP particles in alloys E110/E635",
+   "family": "other",
+   "grade": null,
+   "phase": null,
+   "composition": null
+  }
+ ],
+ "experiments": [
+  {
+   "id": "exp:цм-10-22-pdf:0",
+   "document_id": "doc:цм-10-22-pdf",
+   "title": "TEM study of reactor irradiation on E110 and E635 alloys",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Transmission electron microscopy (TEM) analysis of microstructure",
+       "temperature_text": "40‑70 °C and 290‑340 °C",
+       "duration_text": "dose range 0.8‑57 dpa (damage dose in sna) for BOR‑60 samples; 2‑19 dpa for VVER‑1000 TVS fragments; ~35 dpa for MIR samples; ~5.3 dpa for SM reactor samples"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 313.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:alloy-e110-zr-nb-1",
+     "role": "sample"
+    },
+    {
+     "material_id": "mat:alloy-e635-zr-nb-sn-fe",
+     "role": "sample"
+    }
+   ],
+   "measurements": [],
+   "conclusions": [
+    {
+     "text": "Low‑temperature irradiation (40‑70 °C) leads to amorphization of the Lavesa phase, while the γ‑Nb phase remains crystalline.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "phase transformation",
+      "direction": "increases",
+      "factor": "temperature (low)",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Отмечено, что в результате низкотемпературного облучения частицы фазы Лавеса становятся аморфными, в то время как частицы /g69‑Nb сохраняют свою кристаллическую ОЦК‑структуру.",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.81
+    },
+    {
+     "text": "Both research reactor (BOR‑60) and power reactor (VVER‑1000) irradiations produce similar element redistribution trends.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "element redistribution",
+      "direction": "no_change",
+      "factor": "reactor type",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Отмечен одинаковый характер закономерностей такого перераспределения элементов между структурными составляющими в этих сплавах цир zirconia в результате их облучения в исследовательском реакторе БОР‑60 и энергетическом реакторе ВВЭР‑1000.",
+     "locator_kind": "md_para",
+     "locator": "para:96",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "С использованием методов трансмиссионной электронной микроскопии проведены исследования влияния реакторного облучения в диапазоне температур 40‑70 и 290‑340 °C на элементный состав, кристаллическую структуру и размеры частиц вторых фаз в сплавах циркония Э110 и Э635.",
+   "locator_kind": "md_para",
+   "locator": "para:96",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-10-22-pdf:1",
+   "document_id": "doc:цм-10-22-pdf",
+   "title": "Gamma‑spectrometric determination of damage dose for VVER‑1000 TVS samples",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "Measurement of specific activity of long‑lived Nb‑94 isotope followed by calculation of damage dose",
+       "temperature_text": "operating temperature of VVER‑1000 (≈290‑340 °C)",
+       "duration_text": "damage doses 2‑19 dpa (sna) determined experimentally"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 1273.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:fragments-of-fuel-rod-cladding-guiding-channels",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "damage dose (dpa)",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 94.0,
+      "max": null
+     },
+     "unit": "sna",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Значение достигнутой повреждающей дозы для образцов, вырезанных из оболочек твэлов на уровне топливного столба, определяли экспериментально‑расчетным путем, включающим в себя измерение гамма‑спектрометрическим методом удельной активности долгоживущего изотопа ниобия‑94...",
+     "locator_kind": "md_para",
+     "locator": "para:109",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [],
+   "snippet": "Значение достигнутой повреждающей дозы для образцов, вырезанных из оболочек твэлов на уровне топливного столба, определяли экспериментально‑расчетным путем, включающим в себя измерение гамма‑спектрометрическим методом удельной активности долгоживущего изотопа ниобия‑94...",
+   "locator_kind": "md_para",
+   "locator": "para:109",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-10-22-pdf:2",
+   "document_id": "doc:цм-10-22-pdf",
+   "title": "Low‑temperature neutron irradiation at 40‑70 °C in the MIR reactor",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "neutron irradiation",
+       "temperature_text": "40‑70 °C",
+       "duration_text": "up to a damaging dose of 35 dpa"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 313.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:phase-lavesa-particles-in-zr-nb-fe-alloy",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "Fe/Nb atomic ratio",
+     "scope": "material",
+     "material_id": "mat:phase-lavesa-particles-in-zr-nb-fe-alloy",
+     "value": {
+      "min": null,
+      "nominal": 0.62,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "за время облучения до дозы 35 сна отношение Fe/Nb уменьшилось с 0,62 до 0,49",
+     "locator_kind": "md_para",
+     "locator": "para:135",
+     "confidence": 0.9
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "The main mechanism of elemental‑composition change at 40‑70 °C is radiation‑induced ballistic mixing because diffusion is slow or absent.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "mechanism",
+      "direction": "increases",
+      "factor": "ballistic mixing",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "Поскольку при температуре облучения 40-70 o C диффузионные процессы протекают медленно или вообще отсутствуют, то основным механизмом, приводящим к изменению элементного состава, является радиационно-индуцированное баллистическое перемешивание атомов.",
+     "locator_kind": "md_para",
+     "locator": "para:136",
+     "confidence": 0.81
+    }
+   ],
+   "snippet": "Облучение при температуре 40-70 o C до повреждающей дозы 35 сна приводит к нарушению кристаллической решетки и в результате - к аморфизации фазы Лавеса.",
+   "locator_kind": "md_para",
+   "locator": "para:135",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-10-22-pdf:3",
+   "document_id": "doc:цм-10-22-pdf",
+   "title": "Neutron irradiation at 290‑340 °C in the VVER‑1000 reactor",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "neutron irradiation",
+       "temperature_text": "290‑340 °C",
+       "duration_text": "up to damaging doses of 2.2 dpa, 15‑20 dpa and higher"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 563.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:phase-lavesa-particles-in-zr-nb-fe-alloy",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "element_content",
+     "scope": "material",
+     "material_id": "mat:phase-lavesa-particles-in-zr-nb-fe-alloy",
+     "value": {
+      "min": null,
+      "nominal": 15.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "Fe"
+     },
+     "method": null,
+     "snippet": "После достижения повреждающей дозы около 15-20 сна железо в фазе Лавеса независимо от размера частиц почти полностью отсутствует",
+     "locator_kind": "md_para",
+     "locator": "para:138",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "final composition after high dose",
+     "scope": "material",
+     "material_id": "mat:phase-lavesa-particles-in-zr-nb-fe-alloy",
+     "value": {
+      "min": null,
+      "nominal": 55.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "они содержат около 55 % (ат.) Zr и 45 % (ат.) Nb",
+     "locator_kind": "md_para",
+     "locator": "para:138",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "particle_size",
+     "scope": "material",
+     "material_id": "mat:phase-lavesa-particles-in-zr-nb-fe-alloy",
+     "value": {
+      "min": null,
+      "nominal": 0.345,
+      "max": null
+     },
+     "unit": "nm",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "crystal lattice transformation"
+     },
+     "method": null,
+     "snippet": "Исходная кристаллическая ГПУ-решетка трансформируется в ОЦК-решетку с параметром а = = 0,345 нм характерным для фазы /g69 -Nb после нейтронного облучения.",
+     "locator_kind": "md_para",
+     "locator": "para:140",
+     "confidence": 0.63
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "Fe atoms migrate from Lavesa particles to the surrounding matrix during high‑temperature irradiation.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "Fe migration",
+      "direction": "increases",
+      "factor": "neutron irradiation",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "атомы Fe в процессе облучения выходят из частиц фазы Лавеса в окружающую матрицу.",
+     "locator_kind": "md_para",
+     "locator": "para:138",
+     "confidence": 0.9
+    },
+    {
+     "text": "The transformation proceeds through four stages, starting with peripheral Fe depletion and lattice distortion.",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "transformation stages",
+      "direction": "increases",
+      "factor": "dose",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В этих изменениях с ростом дозы облучения можно выделить четыре основных этапа",
+     "locator_kind": "md_para",
+     "locator": "para:141",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "Облучение в температурной области 290-340 o C в реакторе ВВЭР-1000 вызывает изменение элементного состава и трансформации кристаллической решетки фазы Лавеса.",
+   "locator_kind": "md_para",
+   "locator": "para:137",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-10-22-pdf:4",
+   "document_id": "doc:цм-10-22-pdf",
+   "title": "Irradiation of alloy E110 in VVER‑1000 reactor",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "neutron irradiation",
+       "temperature_text": "290‑340 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 563.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:alloy-e110",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "formation of radiation‑induced precipitates (RIP)",
+     "scope": "material",
+     "material_id": "mat:alloy-e110",
+     "value": {
+      "min": null,
+      "nominal": 2.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В сплаве Э110 РИВ образуются уже после достижения повреждающей дозы 2 сна",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "average particle length",
+     "scope": "material",
+     "material_id": "mat:alloy-e110",
+     "value": {
+      "min": null,
+      "nominal": 7.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "В сплаве Э110 средняя длина частиц достигает 7‑8 нм",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:alloy-e110",
+     "value": {
+      "min": null,
+      "nominal": 17.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "rip  at saturation"
+     },
+     "method": null,
+     "snippet": "В сплаве Э110 она достигает 17·10 21 м -3",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.72
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:alloy-e110",
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "dose at which  saturates"
+     },
+     "method": null,
+     "snippet": "концентрация РИВ в сплавах Э110 и Э635 повышается с ростом дозы облучения и достигает значений насыщения после ~10 сна",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "RIP formation starts at lower dose in E110 than in E635",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "damage dose for onset",
+      "direction": "decreases",
+      "factor": "не указан",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "В сплаве Э110 РИВ образуются уже после достижения повреждающей дозы 2 сна, а в сплаве Э635 - 5 сна",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "В результате облучения в температурной области 290‑340 o C в сплавах Э110 и Э635 формируются мелкодисперсные радиационно‑индуцированные выделения (РИВ).",
+   "locator_kind": "md_para",
+   "locator": "para:162",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-10-22-pdf:5",
+   "document_id": "doc:цм-10-22-pdf",
+   "title": "Irradiation of alloy E635 in VVER‑1000 reactor",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "neutron irradiation",
+       "temperature_text": "290‑340 °C",
+       "duration_text": "not specified"
+      },
+      "temperature": {
+       "min": null,
+       "nominal": 563.15,
+       "max": null
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:alloy-e635",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "formation of radiation‑induced precipitates (RIP)",
+     "scope": "material",
+     "material_id": "mat:alloy-e635",
+     "value": {
+      "min": null,
+      "nominal": 5.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в сплаве Э635 - 5 сна",
+     "locator_kind": "md_para",
+     "locator": "para:162",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "average particle length",
+     "scope": "material",
+     "material_id": "mat:alloy-e635",
+     "value": {
+      "min": null,
+      "nominal": 4.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "в сплаве Э635 - 4‑5 нм",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.81
+    },
+    {
+     "quantity_kind": "concentration",
+     "scope": "material",
+     "material_id": "mat:alloy-e635",
+     "value": {
+      "min": null,
+      "nominal": 10.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {
+      "subject": "rip  at saturation"
+     },
+     "method": null,
+     "snippet": "концентрация РИВ в сплавах Э110 и Э635 повышается с ростом дозы облучения и достигает значений насыщения после ~10 сна",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.65
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "RIP concentration in E110 is ~6 times higher than in E635 at 10 sna, 310 °C",
+     "kind": "finding",
+     "effect": {
+      "quantity_kind": "concentration",
+      "direction": "increases",
+      "factor": "≈6",
+      "baseline_ref": null,
+      "optimum": null,
+      "optimum_unit": ""
+     },
+     "snippet": "концентрация данных частиц в сплаве Э110 примерно в 6 раз больше, чем в сплаве Э635",
+     "locator_kind": "md_para",
+     "locator": "para:167",
+     "confidence": 0.9
+    }
+   ],
+   "snippet": "После облучения в реакторе ВВЭР‑1000 при температуре около 310 o C до дозы 10 сна концентрация данных частиц в сплаве Э110 примерно в 6 раз больше, чем в сплаве Э635.",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.9
+  },
+  {
+   "id": "exp:цм-10-22-pdf:6",
+   "document_id": "doc:цм-10-22-pdf",
+   "title": "Transmission electron microscopy observation of RIPs",
+   "date": null,
+   "lab_id": null,
+   "equipment_id": null,
+   "site": null,
+   "tags": [],
+   "regime": {
+    "steps": [
+     {
+      "process_type": "other",
+      "extra": {
+       "raw_process": "TEM imaging under different diffraction conditions",
+       "temperature_text": "not applicable",
+       "duration_text": "not applicable"
+      }
+     }
+    ]
+   },
+   "materials": [
+    {
+     "material_id": "mat:rip-particles-in-alloys-e110-e635",
+     "role": "sample"
+    }
+   ],
+   "measurements": [
+    {
+     "quantity_kind": "row spacing of RIPs",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 60.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Расстояние между рядами составляет от 60 до 80 нм.",
+     "locator_kind": "md_para",
+     "locator": "para:166",
+     "confidence": 0.9
+    },
+    {
+     "quantity_kind": "row orientation deviation",
+     "scope": "experiment",
+     "material_id": null,
+     "value": {
+      "min": null,
+      "nominal": 45.0,
+      "max": null
+     },
+     "unit": "",
+     "scale": "none",
+     "basis": null,
+     "uncertainty": null,
+     "conditions": {},
+     "method": null,
+     "snippet": "Штрихи располагаются рядами вдоль направления <011‑0> с отклонением от этого направления до ±45 o при среднем отклонении ±20 o.",
+     "locator_kind": "md_para",
+     "locator": "para:166",
+     "confidence": 0.81
+    }
+   ],
+   "conclusions": [
+    {
+     "text": "RIPs appear as dark streaks in dark‑field images when oriented along <011‑0>",
+     "kind": "finding",
+     "effect": null,
+     "snippet": "при данных дифракционных условиях и ориентации кристалла матрицы частицы имеют вытянутую форму и на снимках выглядят как темные штрихи",
+     "locator_kind": "md_para",
+     "locator": "para:154",
+     "confidence": 0.45
+    }
+   ],
+   "snippet": "Наиболее отчетливо РИВ видны в фольге с призматической ориентацией при действующем векторе g = = [0002] вдали от экстинкционного контура, где контраст от радиационных дефектов в матрице минимален.",
+   "locator_kind": "md_para",
+   "locator": "para:165",
+   "confidence": 0.9
+  }
+ ],
+ "claims": [
+  {
+   "text": "Alloying zirconium with 1 % niobium (E110) provides sufficient reserve of mechanical, corrosion and dimensional stability for fuel‑rod cladding and spacer grids in harsh reactor irradiation conditions.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "mechanical, corrosion, dimensional stability",
+    "direction": "increases",
+    "factor": "Nb alloying 1 %",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Легирование циркония ниобием в количестве 1 % (сплав Э110) обеспечивает достаточный запас по механическим, коррозионным свойствам и по сопротивлению размерным изменениям оболочек твэлов и дистанционирующих решеток...",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Additional alloying of E110 with tin and iron (E635) significantly raises strength characteristics and radiation‑induced dimensional change resistance while keeping acceptable corrosion properties.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "strength, radiation‑induced dimensional change resistance, corro",
+    "direction": "increases",
+    "factor": "Sn and Fe addition",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Дополнительное легирование сплава Э110 оловом и железом (сплав Э635) позволило значительно повысить уровень прочностных характеристик и увеличило сопротивление радиационному формоизменению при приемлемых коррозионных свойствах.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.9,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "E110 and E635 alloys are used for structural components (angles, guiding channels, central tubes) of VVER‑1000 fuel assemblies.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "application",
+    "direction": "increases",
+    "factor": "use in VVER‑1000 TVS",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Это обусловило использование сплава в качестве материала элементов каркаса (уголки, направляющие каналы (НК) и центральные трубы (ЦТ)) тепловыделяющих сборок (ТВС) реакторов ВВЭР‑1000.",
+   "locator_kind": "md_para",
+   "locator": "para:93",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The low‑temperature range 40‑70 °C corresponds to the operating temperature of research reactors (SM and MIR).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "research reactor operation",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Низкотемпературный (40‑70 °C) является рабочей температурой исследовательских реакторов (СМ и МИР).",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The temperature range 290‑340 °C is characteristic for VVER‑type power reactors.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "temperature",
+    "direction": "increases",
+    "factor": "VVER reactors",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "температуры в области 290‑340 °C характерны для реакторов типа ВВЭР.",
+   "locator_kind": "md_para",
+   "locator": "para:108",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The elemental composition of the Lavesa phase in the initial (unirradiated) state is practically independent of particle size, with only a slight decrease of Fe at very small sizes.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "composition vs. size",
+    "direction": "decreases",
+    "factor": "particle size (small)",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "В исходном состоянии элементный состав фазы Лавеса почти не зависит от размера частиц, и лишь в области малых размеров содержание Fe незначительно снижается",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Average particles contain 36 % Zr, 32 % Nb and 32 % Fe (atomic percent), corresponding to the stoichiometric formula Zr(Nb,Fe)₂.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В среднем частицы содержат, % (ат.): 36 Zr , 32 Nb и 32 Fe, что соответствует стехиометрической формуле Zr(Nb,Fe) 2",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.9,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The phase /g69‑Nb, Lavesa phase and T‑phase can form in Zr‑Nb‑Fe alloys, and the Nb/Fe ratio determines the fraction of each phase.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В зависимости от количества Nb и Fe в сплаве могут образовываться фаза /g69 -Nb, фаза Лавеса и Т-фаза. Соотношение Nb и Fe определяет долю каждой фазы в общем количестве частиц.",
+   "locator_kind": "md_para",
+   "locator": "para:129",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The solubility of Fe in zirconium is very low (≈120 ppm), so even slight additions (>120 ppm) cause precipitation of an excess Fe‑containing phase.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "solubility",
+    "direction": "increases",
+    "factor": "Fe addition >120 ppm",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "так как растворимость Fe в цирконии очень мала (120 ppm * ), то даже незначительные добавки этого легирующего элемента (более 120 ppm) вызывают выделение избыточной железосодержащей фазы",
+   "locator_kind": "md_para",
+   "locator": "para:134",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "At 40‑70 °C irradiation, diffusion processes are slow or absent, so radiation‑induced ballistic mixing is the dominant mechanism for elemental‑composition change.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Поскольку при температуре облучения 40-70 o C диффузионные процессы протекают медленно или вообще отсутствуют, то основным механизмом, приводящим к изменению элементного состава, является радиационно-индуцированное баллистическое перемешивание атомов",
+   "locator_kind": "md_para",
+   "locator": "para:136",
+   "confidence": 0.9,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "During high‑temperature irradiation (290‑340 °C), Fe diffuses from the particle core to the periphery and then into the matrix, leaving the particle almost Fe‑free after ~15‑20 dpa.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "Fe diffusion",
+    "direction": "decreases",
+    "factor": "dose ~15‑20 dpa",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Анализ распределения Zr, Nb и Fe внутри частиц фазы Лавеса и в окружающей их матрице показал, что в процессе нейтронного облучения железо покидает частицу постепенно, диффундируя из центра на периферию, а оттуда в матрицу.",
+   "locator_kind": "md_para",
+   "locator": "para:139",
+   "confidence": 0.9,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The transformation of the Lavesa phase lattice proceeds from the original BCC lattice to an OCP lattice with a = 0,345 nm, characteristic of the /g69‑Nb phase.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Исходная кристаллическая ГПУ-решетка трансформируется в ОЦК-решетку с параметром а = = 0,345 нм характерным для фазы /g69 -Nb после нейтронного облучения.",
+   "locator_kind": "md_para",
+   "locator": "para:140",
+   "confidence": 0.9,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The newly formed blocks have an OCK lattice with a = 0.345 nm and correspond to the γ‑Nb phase in the irradiated state.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в этой области происходит образование блоков новой фазы с ОЦК‑решеткой (а = 0,345 нм).",
+   "locator_kind": "md_para",
+   "locator": "para:160",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The original Lavesa phase transforms into a polycrystal composed of γ‑Nb blocks with OCK lattice, giving a granite‑like contrast under the microscope.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "В результате трансформации исходная монокристаллическая частица с ГПУ‑решеткой становится поликристаллом, состоящим из блоков фазы /g69‑Nb с ОCK‑решеткой.",
+   "locator_kind": "md_para",
+   "locator": "para:161",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Radiation‑induced precipitates (RIP) form only in zirconium alloys containing Nb, such as alloy E110.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "данная фаза образуется только в сплавах циркония, содержащих Nb, в частности в сплаве Э110",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.9,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "T‑XRD analysis of a similar radiation‑induced phase in alloy M5 TM confirmed it as the γ‑Nb phase.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Проведенный зарубежными исследователями T‑XRD анализ кристаллической решетки такой радиационноиндуцированной фазы в сплаве М5 ТМ дал возможность утверждать, что она является фазой /g69‑Nb",
+   "locator_kind": "md_para",
+   "locator": "para:164",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "The diffusion mobility of Nb in γ‑Zr is low in the 290‑340 °C temperature range, leading to fine‑dispersion of the new phase.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "Мелкодиспернность является следствием малой диффузионной подвижности Nb в /g68‑Zr в этой области температур.",
+   "locator_kind": "md_para",
+   "locator": "para:163",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "Fe released from the Lavesa phase during early irradiation (290‑320 °C) increases matrix Fe concentration up to 0.4 % (mass).",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в начале облучения при температуре 290‑320 o C происходит выход Fe из фазы Лавеса в матрицу, и его концентрация в ней увеличивается до 0,4 % (мас.).",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "High Fe diffusion mobility suppresses RIP nucleation and growth in alloy E635.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "этот легирующий элемент из‑за своей высокой диффузионной подвижности подавляет процесс зарождения и роста частиц радиационно‑индуцированной",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.81,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  },
+  {
+   "text": "RIP concentration in alloy E110 reaches a constant level of ~15·10^21 m‑3 at a dose of about 12 sna, similar to alloy M5 TM.",
+   "kind": "finding",
+   "effect": null,
+   "snippet": "в сплаве М5 ТМ (аналог сплава Э110) концентрация РИВ также достигает постоянного уровня (15·10 21 м -3 ) при дозе около 12 сна",
+   "locator_kind": "md_para",
+   "locator": "para:167",
+   "confidence": 0.9,
+   "document_id": "doc:цм-10-22-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}

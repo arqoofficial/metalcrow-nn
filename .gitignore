@@ -230,7 +230,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-services/ontology-knowledge-graph/ontology/batches/
+# Batches онтологии: сырой выхлоп экстракции не трекаем, КРОМЕ okf-*.json —
+# это провенанс-несущие батчи (см. ingest_bridge), которые service_init
+# автозагружает на чистом деплое (восстановление базы из main).
+services/ontology-knowledge-graph/ontology/batches/*
+!services/ontology-knowledge-graph/ontology/batches/okf-*.json
+!services/ontology-knowledge-graph/ontology/batches/lineage-*.json
 
 # Neo4j GraphRAG data (bind mount, see compose.yml `neo4j` service)
 /neo4j-data/
+.superpowers/
+compose.local.yml
+.serena/
+vk

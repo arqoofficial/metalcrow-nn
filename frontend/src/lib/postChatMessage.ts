@@ -38,13 +38,23 @@ export type ChatClaim = {
   sources: ChatSource[]
 }
 
-export type ChatModeUsed = "ontology" | "knowledge_graph" | "hypothesis"
+export type ChatModeUsed =
+  | "ontology"
+  | "knowledge_graph"
+  | "hypothesis"
+  | "literature"
+
+export type ChatMessageLiteratureRef = {
+  search_id: string
+  paper_count: number
+}
 
 export type ChatMessageResponse = {
   claims: ChatClaim[]
   summary: string
   tools_used: string[]
   subgraph?: unknown | null
+  literature?: ChatMessageLiteratureRef | null
   session_id: string
   mode_used: ChatModeUsed
 }

@@ -1,0 +1,278 @@
+{
+ "extractor": "llm_v1",
+ "documents": [
+  {
+   "doc_id": "doc:медныи-купорос-pdf",
+   "title": "Медный купорос.pdf",
+   "doc_type": "article",
+   "year": 2017,
+   "country": "RU",
+   "lang": "ru",
+   "source_path": "C:\\Users\\ASUS\\Array\\Соревнования\\Норникель 2026 Научный клубок\\data_cleaned_docling_01\\Обзоры\\Медный купорос.pdf.md",
+   "artifact_sha256": "69723c2c7f25b9921becff470ccfa25b203158aaa02a3fc37dd9b5ffefbc0a11",
+   "okf_raw_path": "Обзоры/Медный купорос.pdf.md"
+  }
+ ],
+ "labs": [],
+ "equipment": [],
+ "topics": [],
+ "materials": [],
+ "experiments": [],
+ "claims": [
+  {
+   "text": "Ежегодно в мире потребляется около 250 тыс т медного купороса, причем 3⁄4 - в сельском хозяйстве, преимущественно в виде фунгицидов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual consumption",
+    "direction": "increases",
+    "factor": "agricultural use",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Ежегодно в мире потребляется около 250 тыс т медного купороса, причем 3⁄4 - в сельском хозяйстве, преимущественно в виде фунгицидов.",
+   "locator_kind": "md_para",
+   "locator": "para:13",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "почвы считаются обедненными по меди с точки зрения здоровья растений, если содержат менее 2 ppm Cu",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "plant health",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "почвы считаются обедненными по меди с точки зрения здоровья растений, если содержат менее 2 ppm Cu",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "при содержании меди менее 5 ppm симптомы дефицита меди могут уже развиваться у животных.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "element_content",
+    "direction": "decreases",
+    "factor": "deficiency symptoms",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "при содержании меди менее 5 ppm симптомы дефицита меди могут уже развиваться у животных.",
+   "locator_kind": "md_para",
+   "locator": "para:15",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "Сульфат меди используется также для борьбы с цветением воды в резервуарах и бассейнах, в медицине - для предотвращения шистосомоза (в тропиках) и грибковых заболеваний стопы (обработка полов в плавательных бассейнах).",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "application",
+    "direction": "increases",
+    "factor": "pathogen control",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Сульфат меди используется также для борьбы с цветением воды в резервуарах и бассейнах, в медицине - для предотвращения шистосомоза (в тропиках) и грибковых заболеваний стопы (обработка полов в плавательных бассейнах).",
+   "locator_kind": "md_para",
+   "locator": "para:17",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": "water_treatment"
+  },
+  {
+   "text": "Первым фунгицидом была Бордосская жидкость - раствор медного купороса CuSO4 · 5H2O в известковом молоке Ca(OH)2.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "first fungicide",
+    "direction": "nonmonotonic",
+    "factor": "copper sulfate solution",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Первым фунгицидом была Бордосская жидкость - раствор медного купороса CuSO4 · 5H2O в известковом молоке Ca(OH)2.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "К настоящему моменту уже достоверно доказана эффективность Бордосской жидкости в уничтожении возбудителей очень многих болезней культурных растений.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "efficacy",
+    "direction": "increases",
+    "factor": "Bordeaux mixture",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "К настоящему моменту уже достоверно доказана эффективность Бордосской жидкости в уничтожении возбудителей очень многих болезней культурных растений.",
+   "locator_kind": "md_para",
+   "locator": "para:14",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "Объём мирового потребления медного купороса невелик порядка 250 тыс. т/год (или ≈62,5 тыс. т Cu).",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "annual consumption",
+    "direction": "increases",
+    "factor": "worldwide demand",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Объём мирового потребления медного купороса невелик порядка 250 тыс. т/год (или ≈62,5 тыс. т Cu).",
+   "locator_kind": "md_para",
+   "locator": "para:74",
+   "confidence": 0.81,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "Примерно 3⁄4 всего медного купороса потребляется в сельском хозяйстве, преимущественно в виде фунгицидов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "share in agriculture",
+    "direction": "increases",
+    "factor": "agricultural demand",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Примерно 3⁄4 всего медного купороса потребляется в сельском хозяйстве, преимущественно в виде фунгицидов.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "На все остальные области применения приходится лишь ≈15-16 тыс. т/г меди в сульфате.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "non‑agricultural consumption",
+    "direction": "decreases",
+    "factor": "other sectors",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "На все остальные области применения приходится лишь ≈15-16 тыс. т/г меди в сульфате.",
+   "locator_kind": "md_para",
+   "locator": "para:75",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "ОАО «НЕКК» считается единственным российским производителем качественного кормового купороса, соответствующего европейским и американским стандартам.",
+   "kind": "recommendation",
+   "effect": {
+    "quantity_kind": "uniqueness",
+    "direction": "increases",
+    "factor": "standards compliance",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "ОАО «НЕКК» считается единственным российским производителем качественного кормового купороса, соответствующего европейским и американским стандартам.",
+   "locator_kind": "md_para",
+   "locator": "para:51",
+   "confidence": 0.81,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "Компания Cuprichem Ltd производит разные марки сульфата меди с очень низким содержанием тяжелых металлов (˂5 ppm Cd, As; ≈50 ppm Pb), даже ниже требований ВОЗ.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "heavy‑metal content",
+    "direction": "decreases",
+    "factor": "production purity",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Компания Cuprichem Ltd производит разные марки сульфата меди: технического сорта, сорта для с/х и свободнотекучий сульфат - все с очень низким содержанием тяжелых металлов (˂5 ppm Cd, As; ≈50 ppm Pb), даже ниже требований ВОЗ.",
+   "locator_kind": "md_para",
+   "locator": "para:60",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "Медный купорос CuSO4∙5H2O «кормового» сорта представляет из себя голубые кристаллы без запаха, хорошо растворимые в воде, а также в метаноле, глицерине и немного в этаноле.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "qualitative_observation",
+    "direction": "increases",
+    "factor": "chemical characteristics",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медный купорос CuSO4∙5H2O «кормового» сорта представляет из себя голубые кристаллы без запаха, хорошо растворимые в воде, а также в метаноле, глицерине и немного в этаноле.",
+   "locator_kind": "md_para",
+   "locator": "para:66",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "Медный купорос «пестицидного» сорта применяется также для обработки питьевой воды, воды бассейнов, прудов и т.д.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "usage scope",
+    "direction": "increases",
+    "factor": "pesticidal grade",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "Медный купорос «пестицидного» сорта применяется также для обработки питьевой воды, воды бассейнов, прудов и т.д.",
+   "locator_kind": "md_para",
+   "locator": "para:67",
+   "confidence": 0.9,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  },
+  {
+   "text": "95% этого купороса произведено на предприятиях, не имеющих международных сертификатов.",
+   "kind": "finding",
+   "effect": {
+    "quantity_kind": "certification coverage",
+    "direction": "decreases",
+    "factor": "lack of certification",
+    "baseline_ref": null,
+    "optimum": null,
+    "optimum_unit": ""
+   },
+   "snippet": "По оценкам Nutrichem Chemicals, 95% этого купороса произведено на предприятиях, не имеющих международных сертификатов.",
+   "locator_kind": "md_para",
+   "locator": "para:77",
+   "confidence": 0.81,
+   "document_id": "doc:медныи-купорос-pdf",
+   "process": null
+  }
+ ],
+ "lineage": [],
+ "validated_by": [],
+ "contradicts": []
+}
