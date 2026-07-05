@@ -1,2 +1,5 @@
 * text=auto
 *.sh text eol=lf
+
+# Ontology DB snapshots (binary pg_dump, ~85 MB with embeddings) via Git LFS.
+deploy/*.dump filter=lfs diff=lfs merge=lfs -text

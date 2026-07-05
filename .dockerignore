@@ -37,6 +37,9 @@ services/langfuse
 benchmark
 term_dictionary
 
+# Ontology DB snapshot (large pg_dump, not needed in any image)
+deploy
+
 # Docs / misc
 **/*.md
 !README.md
