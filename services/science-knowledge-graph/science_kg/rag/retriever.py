@@ -1,21 +1,35 @@
 """Graph retriever for RAG: question → relevant subgraph from Neo4j."""
 
+import re
+
 from science_kg.embeddings import embed_text
 from science_kg.graph.neo4j_client import Neo4jClient
-from science_kg.models import GraphNode, GraphEdge, RetrievalContext
-from science_kg.nlp.normalizer import canonical_material
+from science_kg.models import GraphNode, GraphEdge, RetrievalContext, RetrievalOutcome
+from science_kg.nlp.normalizer import canonical_material, is_element_symbol
 from science_kg.nlp.pipeline import detect_language, get_nlp_for_text
 
 _VECTOR_SEARCH_K = 10
-# Source excerpts fed to the LLM come from the UNION of three document rankings
-# (title-match + specificity-first + coverage-first, see retrieve()) so both
-# narrow-topic and multi-term questions get their answering article.
-_SOURCE_TEXTS_BY_TITLE = 2  # top documents whose TITLE matches the query
-_SOURCE_TEXTS_BY_SPECIFICITY = 3  # top focused-article slots
-_SOURCE_TEXTS_BY_COVERAGE = 3  # top whole-question-coverage slots
-_MAX_SOURCE_TEXT_CHARS = 13_000  # hard cap per raw source text; up to ~8
-# excerpts × 13K ≈ 104K chars keeps the prompt inside gpt-4o-mini's context
-# window (full .md files loaded by load_precomputed_facts.py can be megabytes).
+# Source excerpts fed to the LLM come from the UNION of FOUR document channels
+# (title-match + specificity-first + coverage-first + full-text prose), fused by
+# Reciprocal Rank Fusion (SPEC §B6), so both narrow-topic and multi-term
+# questions — and questions whose phrasing shares no vocabulary with the
+# answering article — all surface their document.
+_CHANNEL_DEPTH = 8  # how deep into each channel's ranking RRF looks
+_MAX_SOURCE_TEXTS = 7  # hard cap on excerpts after fusion
+# Per-channel RRF weight — a title/content hit is stronger evidence of aboutness
+# than mere graph coverage, so it counts for more at the same rank.
+_CHANNEL_WEIGHTS = {"title": 2.0, "content": 1.5, "specificity": 1.0, "coverage": 1.0}
+_RRF_K = 60  # standard RRF damping constant
+_MAX_SOURCE_TEXT_CHARS = 13_000  # hard cap per raw source text; up to 7 × 13K ≈
+# 91K chars keeps the prompt inside gpt-4o-mini's context window (full .md files
+# loaded by load_precomputed_facts.py can otherwise be megabytes).
+# Retrieval-outcome thresholds (SPEC §A1): a context whose prose covers at least
+# this fraction of the query's meaningful terms is treated as STRONG.
+_CONTEXT_RELEVANCE_MIN = 0.15
+# Share of each excerpt's budget always spent on the document's opening, so the
+# term-density window can only ADD deeper passages, never replace an opening that
+# already holds the answer (SPEC §B2 stabilisation).
+_WINDOW_PREFIX_FRACTION = 0.4
 
 
 def _truncate_text(text: str, max_chars: int) -> str:
@@ -29,6 +43,91 @@ def _truncate_text(text: str, max_chars: int) -> str:
     if cut == -1:
         cut = max_chars
     return text[:cut].rstrip() + "\n\n[truncated]"
+
+
+def _extract_relevant_window(text: str, query_terms: list[str], max_chars: int) -> str:
+    """Return a ~max_chars slice of *text*: the document's opening PLUS the
+    passages densest in the query terms (SPEC §B2, made strictly additive).
+
+    Two failure modes to avoid at once:
+    • Prefix truncation alone drops the answer when the relevant passage sits
+      deep in a large document (a journal-cover first page).
+    • A pure term-density window can pick a WORSE passage than the opening for a
+      document that already leads with its answer — this regressed the Au/Ag/PGM
+      distribution question until it was noticed.
+    So we always keep the opening (never worse than prefix truncation) and spend
+    the rest of the budget on the highest-density paragraphs from deeper in.
+    When nothing matches we fall back to a full prefix. Chemical element symbols
+    (Au, Ni…) count as terms even though they are < _MIN_TERM_LEN."""
+    if len(text) <= max_chars:
+        return text
+    paras = re.split(r"\n\s*\n", text)
+    low_terms = [
+        t.lower()
+        for t in query_terms
+        if len(t) >= _MIN_TERM_LEN or is_element_symbol(t)
+    ]
+
+    def _score(p: str) -> int:
+        pl = p.lower()
+        return sum(pl.count(t) for t in low_terms)
+
+    # No usable terms, or nothing in the document matches → plain prefix (exactly
+    # the old behaviour; the window can only *add*, never subtract).
+    if not low_terms or not any(_score(p) > 0 for p in paras):
+        return _truncate_text(text, max_chars)
+
+    selected: set[int] = set()
+    total = 0
+    # 1) Always include the opening, capped to a fraction of the budget.
+    prefix_budget = int(max_chars * _WINDOW_PREFIX_FRACTION)
+    for i, p in enumerate(paras):
+        if selected and total + len(p) + 2 > prefix_budget:
+            break
+        selected.add(i)
+        total += len(p) + 2
+
+    # 2) Spend the rest on the densest deeper paragraphs (+ a trailing one).
+    ranked = sorted(
+        ((_score(paras[i]), i) for i in range(len(paras)) if i not in selected),
+        key=lambda x: (-x[0], x[1]),
+    )
+    for s, i in ranked:
+        if s == 0 or total >= max_chars:
+            break
+        for j in (i, i + 1):
+            if 0 <= j < len(paras) and j not in selected:
+                if total + len(paras[j]) + 2 > max_chars:
+                    continue
+                selected.add(j)
+                total += len(paras[j]) + 2
+
+    # Join in document order, marking elisions between non-contiguous blocks.
+    out: list[str] = []
+    prev = -1
+    for i in sorted(selected):
+        if prev != -1 and i != prev + 1:
+            out.append("[…]")
+        out.append(paras[i])
+        prev = i
+    if selected and max(selected) < len(paras) - 1:
+        out.append("[…]")
+    return "\n\n".join(out).strip()
+
+
+def _rrf_fuse(channels: dict[str, list[str]], weights: dict[str, float]) -> list[str]:
+    """Reciprocal Rank Fusion of several ranked doc-id lists (SPEC §B6).
+
+    Each channel contributes weight/(k + rank) to every doc it ranks; a document
+    that several channels agree on, or that one channel ranks highly, floats to
+    the top. Replaces the previous fixed per-channel slot allocation with one
+    tunable score, robust to lists of different lengths."""
+    score: dict[str, float] = {}
+    for name, ranked in channels.items():
+        w = weights.get(name, 1.0)
+        for rank, doc_id in enumerate(ranked):
+            score[doc_id] = score.get(doc_id, 0.0) + w / (_RRF_K + rank)
+    return sorted(score, key=lambda d: -score[d])
 
 
 class GraphRetriever:
@@ -110,6 +209,12 @@ class GraphRetriever:
         """
         terms = _expand_search_terms(_extract_terms(question))
         exact_terms, lemma_terms = _classify_query_terms(question)
+        # Chemical element symbols (Au, Ni…) are dropped by the length filters
+        # above but are the sharpest terms for the content channel and the
+        # passage window. Kept separate: they are NOT added to the CONTAINS
+        # anchor search, where a 2-char substring matches far too much.
+        symbol_terms = _extract_element_symbols(question)
+        content_terms = terms + symbol_terms
 
         anchors: dict[str, GraphNode] = {}
         contains_matched: set[str] = set()
@@ -190,8 +295,13 @@ class GraphRetriever:
             if len(all_nodes) >= self._max_nodes:
                 break
 
-        # Trim to limit
-        nodes = list(all_nodes.values())[: self._max_nodes]
+        # Drop junk entities before trimming (SPEC §B4). Noisy extraction leaves
+        # stop-word entities in the graph ("для"/"при"/"процесс" typed as
+        # MATERIAL/PROCESS); if a hub anchor's neighbourhood is mostly these they
+        # crowd the node budget and dilute the context the LLM sees. Filter them
+        # from the surfaced nodes (not from the graph — that's an ingest fix).
+        useful = [n for n in all_nodes.values() if not _is_junk_entity(n.text)]
+        nodes = useful[: self._max_nodes]
         node_texts = {n.text for n in nodes}
         edges = [
             e
@@ -254,32 +364,64 @@ class GraphRetriever:
             doc_terms.keys(),
             key=lambda d: (-len(doc_terms[d]), -doc_relevance.get(d, 0.0)),
         )
+        # Two extra recall channels beyond the graph rankings: a TITLE match
+        # (descriptive filename shares ≥2 query terms) and a full-text PROSE
+        # match (BM25 over Document.text) — the latter catches on-topic articles
+        # whose phrasing shares no vocabulary with the question (SPEC §B1).
         title_doc_ids = await self._client.find_documents_by_title(
-            terms, limit=_SOURCE_TEXTS_BY_TITLE
+            terms, limit=_CHANNEL_DEPTH
         )
-        source_doc_ids: list[str] = []
-        for doc_id in (
-            title_doc_ids
-            + ranked_doc_ids[:_SOURCE_TEXTS_BY_SPECIFICITY]
-            + ranked_by_coverage[:_SOURCE_TEXTS_BY_COVERAGE]
-        ):
-            if doc_id not in source_doc_ids:
-                source_doc_ids.append(doc_id)
+        content_doc_ids = await self._client.find_documents_by_content(
+            content_terms, limit=_CHANNEL_DEPTH
+        )
+        # Fuse all four channels with Reciprocal Rank Fusion (SPEC §B6) — one
+        # tunable score instead of hard per-channel slot counts.
+        fused = _rrf_fuse(
+            {
+                "title": title_doc_ids,
+                "content": content_doc_ids,
+                "specificity": ranked_doc_ids[:_CHANNEL_DEPTH],
+                "coverage": ranked_by_coverage[:_CHANNEL_DEPTH],
+            },
+            _CHANNEL_WEIGHTS,
+        )
+        source_doc_ids = fused[:_MAX_SOURCE_TEXTS]
 
         # Fetch raw prose for these chunks so the LLM can answer narrative
-        # questions the entity/relation triples don't capture.
+        # questions the entity/relation triples don't capture, keeping the slice
+        # densest in query terms rather than the document's opening page.
         texts_by_id = await self._client.get_document_texts(source_doc_ids)
         source_texts = [
-            _truncate_text(texts_by_id[d], _MAX_SOURCE_TEXT_CHARS)
+            _extract_relevant_window(
+                texts_by_id[d], content_terms, _MAX_SOURCE_TEXT_CHARS
+            )
             for d in source_doc_ids
             if d in texts_by_id
         ]
 
-        # Sources in RELEVANCE order (title matches then highest-coverage
-        # anchors' documents first), not alphabetical — the UI shows the top few
-        # as citation links, so the actually-answering document must lead.
-        # Leftover neighbourhood sources follow, sorted for stability.
-        ordered_sources = list(dict.fromkeys(title_doc_ids + ranked_doc_ids))
+        # Classify the retrieval outcome (SPEC §A1) so the generator can degrade
+        # honestly: measure how many of the query's meaningful terms actually
+        # appear in the fetched prose. A strong context has an exact/lemma anchor
+        # AND covers the query; nodes with no term-overlap in prose are a weak
+        # (likely off-target) context; nothing matched at all is NO_ANCHOR.
+        meaningful = exact_terms | lemma_terms | {s.lower() for s in symbol_terms}
+        blob = "\n".join(source_texts).lower()
+        covered = sum(1 for t in meaningful if t in blob)
+        context_relevance = covered / len(meaningful) if meaningful else 0.0
+        has_exact_anchor = any(_anchor_priority(n) <= 1 for n in anchors.values())
+        if not anchors and not source_doc_ids:
+            outcome = RetrievalOutcome.NO_ANCHOR
+        elif has_exact_anchor and context_relevance >= _CONTEXT_RELEVANCE_MIN:
+            outcome = RetrievalOutcome.STRONG_CONTEXT
+        elif context_relevance >= _CONTEXT_RELEVANCE_MIN:
+            outcome = RetrievalOutcome.STRONG_CONTEXT
+        else:
+            outcome = RetrievalOutcome.WEAK_CONTEXT
+
+        # Sources in RELEVANCE order (fused best-first), not alphabetical — the
+        # UI shows the top few as citation links, so the actually-answering
+        # document must lead. Leftover neighbourhood sources follow, sorted.
+        ordered_sources = list(dict.fromkeys(fused + ranked_doc_ids))
         ordered_sources += sorted(all_sources - set(ordered_sources))
 
         return RetrievalContext(
@@ -288,12 +430,12 @@ class GraphRetriever:
             matched_entities=list(dict.fromkeys(matched_entities)),
             sources=ordered_sources,
             source_texts=source_texts,
+            context_relevance=context_relevance,
+            outcome=outcome,
         )
 
 
 # ── Term extraction ───────────────────────────────────────────────────────────
-
-import re
 
 _STOP = frozenset(
     {
@@ -378,6 +520,26 @@ _STOP = frozenset(
 )
 
 _MIN_TERM_LEN = 3
+
+
+def _is_junk_entity(text: str) -> bool:
+    """A graph entity that is really an extraction artefact — a stop word or a
+    too-short token carrying no material-science meaning (SPEC §B4). Used to keep
+    such nodes out of the context surfaced to the LLM."""
+    low = text.strip().lower()
+    return len(low) < _MIN_TERM_LEN or low in _STOP
+
+
+def _extract_element_symbols(question: str) -> list[str]:
+    """Chemical element symbols present in the question, in canonical case (Au,
+    Ag, Ni…). The main term extractor drops them for being < _MIN_TERM_LEN, but
+    they are the highest-value retrieval terms — surfaced separately for the
+    content channel and passage-window scoring. Order-preserving, deduplicated."""
+    seen: dict[str, None] = {}
+    for tok in re.findall(r"[A-Za-zА-Яа-яёЁ0-9][A-Za-zА-Яа-яёЁ0-9\-\.]*", question):
+        if is_element_symbol(tok):
+            seen[tok] = None
+    return list(seen)
 
 
 def _expand_search_terms(terms: list[str]) -> list[str]:

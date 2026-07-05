@@ -17,9 +17,11 @@ from science_kg.models import (
     PDFIngestionResult,
     RAGQuery,
     RAGResponse,
+    RetrievalOutcome,
+    AnswerStatus,
 )
 from science_kg.rag.retriever import GraphRetriever
-from science_kg.rag.generator import generate_answer
+from science_kg.rag.generator import generate_answer, gap_hint
 from science_kg.nlp.extractor import process_document
 from science_kg.nlp.pdf_extractor import extract_text_from_pdf
 from science_kg.nlp.pipeline import get_nlp_for_text, detect_language
@@ -262,9 +264,30 @@ async def rag_query(request: Request, body: RAGQuery):
         max_nodes=body.max_nodes,
     )
     context = await retriever.retrieve(body.question)
-    answer = await generate_answer(
+    result = await generate_answer(
         body.question, context, langfuse_headers=_langfuse_headers(request)
     )
+
+    # Grounding flag + honest degradation (SPEC §A2/§A3/§A5), driven by the
+    # model's self-reported status instead of a keyword heuristic (which flipped
+    # run-to-run on identical context). Only NO_DATA gets the gap hint — the
+    # model has told us it is a domain question it couldn't answer; the hint
+    # distinguishes "not in corpus" from "couldn't match the query".
+    answer = result.answer
+    gap_reason: RetrievalOutcome | None = None
+    if result.status == AnswerStatus.NO_DATA:
+        answer = answer + gap_hint(context)
+        gap_reason = (
+            RetrievalOutcome.NO_ANCHOR
+            if context.outcome == RetrievalOutcome.NO_ANCHOR
+            else RetrievalOutcome.WEAK_CONTEXT
+        )
+    grounded: bool | None = {
+        AnswerStatus.GROUNDED: True,
+        AnswerStatus.UNGROUNDED: False,
+        AnswerStatus.NO_DATA: False,
+        AnswerStatus.CASUAL: None,
+    }[result.status]
 
     return RAGResponse(
         answer=answer,
@@ -272,6 +295,8 @@ async def rag_query(request: Request, body: RAGQuery):
         context_edges=context.edges,
         sources=context.sources,
         matched_entities=context.matched_entities,
+        grounded=grounded,
+        gap_reason=gap_reason,
     )
 
 

@@ -6,6 +6,30 @@ from pathlib import Path
 
 _SYNONYM_MAP_PATH = Path(__file__).parents[1] / "data" / "synonym_map.json"
 
+# Chemical element symbols relevant to non-ferrous metallurgy, in canonical case
+# (capital first letter). These are the single most informative terms in a
+# question ("Au, Ag и МПГ", "электроэкстракция Ni") yet are 2 chars, so the
+# retriever's length filters drop them — this set lets them back in for the
+# content channel and passage-window scoring. Deliberately curated (not the full
+# periodic table) and case-SENSITIVE: matching only "As"/"In" — not the English
+# stop words "as"/"in" — and omitting ambiguous symbols like No/Os/Be that
+# collide with issue numbers or ordinary words in the corpus.
+ELEMENT_SYMBOLS = frozenset(
+    {
+        "Cu", "Ni", "Co", "Fe", "Zn", "Pb", "As", "Se", "Te", "Sb", "Bi", "Sn",
+        "Ag", "Au", "Pt", "Pd", "Rh", "Ru", "Ir", "Cr", "Mn", "Mg", "Ca", "Al",
+        "Si", "Ti", "Mo", "Cd", "Hg", "Ga", "Ge", "Re", "Tl", "Zr", "Nb", "Ta",
+        "Na", "Ca", "Mg",
+    }
+)
+
+
+def is_element_symbol(token: str) -> bool:
+    """True for a chemical element symbol written in canonical case (Au, Ni,
+    As…). Case-sensitive so English stop words 'as'/'in' don't collide with the
+    arsenic/indium symbols (SPEC §B1/§B2 — short but critical terms)."""
+    return token in ELEMENT_SYMBOLS
+
 
 def _build_synonym_lookup(label: str) -> dict[str, str]:
     """surface_form (lowercased) -> canonical, from term_dictionary's synonym_map.json

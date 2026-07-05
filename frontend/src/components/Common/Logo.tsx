@@ -9,9 +9,9 @@ interface LogoProps {
 }
 
 const TILE_SIZE = {
-  full: "size-9 text-sm",
-  icon: "size-8 text-[13px]",
-  responsive: "size-8 text-[13px]",
+  full: "size-9",
+  icon: "size-8",
+  responsive: "size-8",
 } as const
 
 const WORD_SIZE = {
@@ -21,7 +21,7 @@ const WORD_SIZE = {
 } as const
 
 /**
- * Логотип MetalCrow: плитка «MC» на teal-фоне + словесный знак.
+ * Логотип MetalCrow: плитка-знак вороны на teal-фоне + словесный знак.
  * responsive — в свёрнутом сайдбаре остаётся только плитка.
  */
 export function Logo({
@@ -31,15 +31,12 @@ export function Logo({
 }: LogoProps) {
   const content = (
     <span className={cn("flex items-center gap-2.5", className)}>
-      <span
-        className={cn(
-          "grid shrink-0 place-items-center rounded-lg bg-primary font-mono font-bold tracking-tight text-primary-foreground",
-          TILE_SIZE[variant],
-        )}
+      <img
+        src="/assets/images/metalcrow-tile.svg"
+        alt=""
         aria-hidden
-      >
-        MC
-      </span>
+        className={cn("shrink-0 rounded-lg", TILE_SIZE[variant])}
+      />
       <span
         className={cn(
           "font-bold tracking-tight text-foreground",

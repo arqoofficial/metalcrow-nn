@@ -25,6 +25,7 @@ import math
 import re
 from typing import Any, Optional
 
+from . import query_expand
 from .contracts import (
     Comparability, Evidence, GapCell, Provenance,
     _t_bucket, _unit_dim,
@@ -726,6 +727,91 @@ def _tsquery_or(text: str, max_terms: int = 14) -> str:
     return " | ".join(_content_terms(text, max_terms))
 
 
+def _resolve_query_entities(store: Store, query: str,
+                            terms: list[str]) -> dict:
+    """Распознанные сущности запроса (для чипов UI и фильтров): канонический
+    процесс, род величины, материалы. Точность важнее полноты: биграммы и полный
+    запрос матчатся через resolve_* (там допустима подстрока — алиасы длинные),
+    одиночные термы — ТОЛЬКО точным алиасом, иначе общие слова («извлечение»)
+    дают ложный процесс."""
+    terms = terms[:10]
+    bigrams = [f"{a} {b}" for a, b in zip(terms, terms[1:])][:8]
+    low = [t.lower() for t in terms]
+
+    process = None
+    for cand in bigrams:
+        process = resolve_process(store, cand)
+        if process:
+            break
+    if not process:
+        row = store.query(
+            "SELECT name FROM experiments.process_types"
+            " WHERE lower(name) = ANY(%s)"
+            "    OR EXISTS (SELECT 1 FROM unnest(aliases) a WHERE lower(a) = ANY(%s))"
+            " LIMIT 1", (low, low))
+        process = row[0]["name"] if row else None
+
+    quantity = None
+    for cand in bigrams:
+        quantity = resolve_quantity(store, cand)
+        if quantity:
+            break
+    if not quantity:
+        row = store.query(
+            "SELECT name FROM experiments.quantity_kinds"
+            " WHERE status <> 'needs_review' AND (lower(name) = ANY(%s)"
+            "    OR EXISTS (SELECT 1 FROM unnest(aliases) a WHERE lower(a) = ANY(%s)))"
+            " LIMIT 1", (low, low))
+        quantity = row[0]["name"] if row else None
+
+    mats = store.query(
+        "SELECT DISTINCT m.name FROM experiments.entity_aliases a"
+        " JOIN experiments.materials m ON m.id = a.entity_id"
+        " WHERE a.entity_type = 'material' AND lower(a.alias) = ANY(%s)"
+        " LIMIT 4", (low + [b.lower() for b in bigrams],))
+    return {"process": process, "quantity_kind": quantity,
+            "materials": [r["name"] for r in mats]}
+
+
+_DOC_EXT_RE = re.compile(r"\.(md|pdf|docx?|pptx?|txt)$", re.I)
+
+
+def _doc_key(name: str) -> str:
+    """Ключ сопоставления имён документа между таблицами: без пути, без ВСЕХ
+    служебных расширений (…pdf.md → голое имя), lowercase. В passage_index имя
+    уже очищено, в documents.filename — сырое (`X.pdf.md`)."""
+    base = re.split(r"[\\/]", name)[-1].strip()
+    while True:
+        stripped = _DOC_EXT_RE.sub("", base).strip()
+        if stripped == base or not stripped:
+            break
+        base = stripped
+    return base.lower()
+
+
+def _doc_meta(store: Store, raw_names: list[str]) -> dict[str, dict]:
+    """Имя документа → {okf_path, year, country} (диплинк /wiki?doc=… и
+    метаданные для фильтров). Таблица документов мала (сотни строк) — дешевле
+    забрать её целиком и сматчить по нормализованному ключу, чем гонять ANY
+    по вариантам имён."""
+    keys = {_doc_key(n) for n in raw_names if n}
+    if not keys:
+        return {}
+    rows = store.query(
+        "SELECT filename, okf_raw_path, year, country, lang"
+        " FROM experiments.documents")
+    by_key = {_doc_key(r["filename"]): r for r in rows}
+    out: dict[str, dict] = {}
+    for n in raw_names:
+        if not n:
+            continue
+        r = by_key.get(_doc_key(n))
+        if r:
+            out[n] = {"okf_path": r["okf_raw_path"], "year": r["year"],
+                      "country": r["country"], "lang": r["lang"]}
+    return out
+
+
 def _corpus_has_term(store: Store, term: str) -> bool:
     """Есть ли термин в индексе пассажей (факты + сырые чанки; EXISTS —
     короткое замыкание). Индекс покрывает полный текст, поэтому гейт честности
@@ -759,17 +845,21 @@ def _term_in(blob: str, t: str) -> bool:
     return t in blob or (len(t) > 5 and t[:-2] in blob)
 
 
-def _hybrid_search(store: Store, query: str, tsq: str, limit: int) -> dict:
+def _hybrid_search(store: Store, query: str, tsq: str, limit: int,
+                   terms: list[str] | None = None) -> dict:
     """Гибрид: лексика с IDF-взвешиванием (BM25-lite) + плотный pgvector-косинус,
     слитые через Reciprocal Rank Fusion.
 
     IDF решает главную проблему качества ретрива: общие слова (процесс, завод,
     производство) частотны → почти нулевой вес и не топят специфические якоря
     запроса (SAVMIN, Stillfontein). Кандидаты отбираются по ЯКОРНЫМ (редким)
-    терминам, а финальный скор — сумма IDF совпавших терминов."""
+    терминам, а финальный скор — сумма IDF совпавших терминов.
+
+    `terms` — уже расширенные синонимами/аббревиатурами лексемы (см.
+    search_passages); если не передано, берём из самого запроса."""
     from . import hybrid_index as hx
     K, CAND, CAND_LEX = 60, 40, 120
-    terms = _content_terms(query)
+    terms = terms or _content_terms(query)
     if not terms:
         return {"query": query, "n": 0, "docs": [], "passages": []}
     idf, _n = _idf_weights(store, terms)
@@ -811,6 +901,7 @@ def _hybrid_search(store: Store, query: str, tsq: str, limit: int) -> dict:
             meta.setdefault(row["id"], row)
     if not scores:
         return {"query": query, "n": 0, "docs": [], "passages": []}
+    dmeta = _doc_meta(store, [m.get("doc_name") for m in meta.values()])
     passages: list[dict] = []
     seen: set[tuple] = set()
     for pid in sorted(scores, key=lambda i: -scores[i]):
@@ -822,11 +913,15 @@ def _hybrid_search(store: Store, query: str, tsq: str, limit: int) -> dict:
         if key in seen:
             continue
         seen.add(key)
+        info = dmeta.get(row.get("doc_name") or "", {})
         passages.append({
             "kind": "measurement" if row.get("source") == "measurement"
             else (row.get("kind") or "finding"),
             "text": body, "snippet": snip, "doc": doc, "locator": None,
-            "country": None, "year": None, "value": None, "unit": None,
+            "okf_path": info.get("okf_path"),
+            "country": info.get("country"), "year": info.get("year"),
+            "lang": info.get("lang"),
+            "value": None, "unit": None,
             "rank": round(scores[pid], 4)})
         if len(passages) >= limit:
             break
@@ -845,27 +940,67 @@ def search_passages(store: Store, query: str, limit: int = 10,
     способы / технические решения», где типовой evidence не даёт одно число, но
     в корпусе есть релевантный текст. Гарантирует ссылку на источник у каждого
     пассажа."""
+    _no_entities = {"process": None, "quantity_kind": None, "materials": []}
     terms = _content_terms(query)
     if not terms:
-        return {"query": query, "n": 0, "docs": [], "passages": []}
-    # честность: если большинство значимых терминов вопроса вообще отсутствует в
-    # корпусе — вопрос про то, чего в корпусе нет. Не выдаём ложный ретрив по
-    # оставшимся общим словам, а честно сообщаем об отсутствии данных.
+        return {"query": query, "n": 0, "docs": [], "passages": [],
+                "entities": _no_entities, "expanded_terms": []}
+    # расширение синонимами/аббревиатурами: русский терм добирает англоязычные
+    # формы (обессоливание→desalination) и наоборот, аббревиатуры раскрываются
+    # (TDS→сухой остаток). Оригиналы идут первыми и сохраняют якорный вес.
+    # Короткие (2–3 буквы) токены общий токенизатор отбрасывает, но известные
+    # словарю аббревиатуры (TDS, МПГ, FCL) добавляем во вход расширения.
+    short_known = [t for t in dict.fromkeys(
+        re.findall(r"[а-яёa-z0-9]{2,3}", query.lower()))
+        if query_expand.known(t)]
+    expanded = query_expand.expand_query(terms + short_known)
+    extra_terms = [t for t in expanded if t not in set(terms)]
+    # распознанные сущности запроса — канонические имена из реестров/алиасов
+    # (для чипов UI и фильтров)
+    try:
+        entities = _resolve_query_entities(store, query, terms)
+    except Exception:
+        store.rollback()
+        entities = dict(_no_entities)
+
+    # честность: терм считаем «отсутствующим» только если НИ ОДНА его форма
+    # (сам терм + до 3 кросс-язычных синонимов, короткие/частые — первыми) не
+    # встречается в корпусе — иначе RU-вопрос про EN-only концепт ложно
+    # отсекался бы как «нет данных». Кап на формы и ранний выход по порогу
+    # ограничивают число EXISTS-проб на запрос.
+    def _present(t: str) -> bool:
+        if _corpus_has_term(store, t):
+            return True
+        forms = sorted((f for f in query_expand.present_forms(t) if f != t),
+                       key=len)[:3]
+        return any(_corpus_has_term(store, f) for f in forms)
+
     if len(terms) >= 2:
-        absent = [t for t in terms if not _corpus_has_term(store, t)]
         # большинство значимых терминов отсутствует → вопрос о том, чего в
         # корпусе нет. Порог 0.5 безопасен для реальных вопросов (их термины
         # почти все присутствуют); ниже — растут ложные «нет данных».
-        if len(absent) / len(terms) >= 0.5:
+        need = math.ceil(len(terms) * 0.5)
+        absent: list[str] = []
+        for i, t in enumerate(terms):
+            if len(absent) >= need:
+                break
+            if len(absent) + (len(terms) - i) < need:
+                break  # порог уже недостижим — дальше не пробуем
+            if not _present(t):
+                absent.append(t)
+        if len(absent) >= need:
             return {"query": query, "n": 0, "docs": [], "passages": [],
+                    "entities": entities, "expanded_terms": extra_terms,
                     "note": "в корпусе нет данных по: " + ", ".join(absent[:6])}
-    tsq = " | ".join(terms)
+    tsq = " | ".join(expanded)
     # гибрид (лексика + плотные эмбеддинги) — если индекс собран; иначе лексика.
     try:
         from . import hybrid_index as hx
         if hx.index_ready(store):
-            res = _hybrid_search(store, query, tsq, limit)
+            res = _hybrid_search(store, query, tsq, limit, terms=expanded)
             if res["n"]:
+                res["entities"] = entities
+                res["expanded_terms"] = extra_terms
                 return res
     except Exception:
         store.rollback()
@@ -882,7 +1017,7 @@ def search_passages(store: Store, query: str, limit: int = 10,
         rc = store.query(f"""
             SELECT c.text, c.kind, c.prov->>'snippet' AS snippet,
                    c.prov->>'locator' AS locator, d.filename AS doc,
-                   d.country, d.year,
+                   d.okf_raw_path AS okf_path, d.country, d.year, d.lang,
                    ts_rank(to_tsvector('russian',
                        coalesce(c.text,'') || ' ' || coalesce(c.prov->>'snippet','')),
                        to_tsquery('russian', %s)) AS rank
@@ -899,12 +1034,14 @@ def search_passages(store: Store, query: str, limit: int = 10,
             passages.append({
                 "kind": r["kind"] or "finding", "text": r["text"],
                 "snippet": (r["snippet"] or "")[:300], "doc": _clean_doc(r["doc"]),
-                "locator": r["locator"], "country": r["country"], "year": r["year"],
+                "locator": r["locator"], "okf_path": r["okf_path"],
+                "country": r["country"], "year": r["year"], "lang": r["lang"],
                 "value": None, "unit": None, "rank": round(float(r["rank"] or 0), 4)})
         rr = store.query("""
             SELECT r.quantity_kind, r.value_min, r.value_nominal, r.value_max, r.unit,
                    r.prov->>'snippet' AS snippet, r.prov->>'locator' AS locator,
-                   d.filename AS doc, d.country, d.year,
+                   d.filename AS doc, d.okf_raw_path AS okf_path, d.country, d.year,
+                   d.lang,
                    ts_rank(to_tsvector('russian', coalesce(r.prov->>'snippet','')),
                        to_tsquery('russian', %s)) AS rank
             FROM experiments.results r
@@ -920,7 +1057,8 @@ def search_passages(store: Store, query: str, limit: int = 10,
                 "kind": "measurement",
                 "text": f"{r['quantity_kind']} = {val} {r['unit'] or ''}".strip(),
                 "snippet": (r["snippet"] or "")[:300], "doc": _clean_doc(r["doc"]),
-                "locator": r["locator"], "country": r["country"], "year": r["year"],
+                "locator": r["locator"], "okf_path": r["okf_path"],
+                "country": r["country"], "year": r["year"], "lang": r["lang"],
                 "value": val, "unit": r["unit"], "rank": round(float(r["rank"] or 0), 4)})
     except Exception:
         store.rollback()
@@ -933,7 +1071,8 @@ def search_passages(store: Store, query: str, limit: int = 10,
             WHERE c.text ILIKE %s LIMIT %s""", (like, limit))
         passages = [{"kind": r["kind"] or "finding", "text": r["text"],
                      "snippet": (r["snippet"] or "")[:300], "doc": _clean_doc(r["doc"]),
-                     "locator": None, "value": None, "unit": None, "rank": 0.0}
+                     "locator": None, "okf_path": None, "country": None,
+                     "year": None, "value": None, "unit": None, "rank": 0.0}
                     for r in rc]
     # переранжирование: пассажи с числами и измерения — вверх (в них конкретные
     # значения, которые чаще всего и спрашивают); прочее — по ts_rank.
@@ -956,7 +1095,111 @@ def search_passages(store: Store, query: str, limit: int = 10,
     uniq = uniq[:limit]
     return {"query": query, "n": len(uniq),
             "docs": sorted({p["doc"] for p in uniq if p["doc"]}),
+            "entities": entities, "expanded_terms": extra_terms,
             "passages": uniq}
+
+
+# ── поиск измерений по числовому условию ────────────────────────────────
+
+# Нормализация единиц к канонической единице величины: unit(lower) → множитель.
+# Пустая единица считается канонической (контракт: SI/каноника в БД). Величины
+# вне этого реестра фильтруются без конверсии — только по совпадению единиц
+# было бы нечестно смешивать g/l с %, поэтому строки с непереводимой единицей
+# пропускаются.
+_MEAS_CANON_UNITS: dict[str, tuple[str, dict[str, float]]] = {
+    "temperature": ("K", {"k": 1.0, "": 1.0}),
+    "concentration": ("g/l", {"g/l": 1.0, "g/л": 1.0, "г/л": 1.0,
+                              "g/dm3": 1.0, "g/dm³": 1.0, "г/дм³": 1.0,
+                              "mg/l": 0.001, "мг/л": 0.001, "mg/dm3": 0.001,
+                              "мг/дм³": 0.001, "": 1.0}),
+    "recovery_degree": ("%", {"%": 1.0, "": 1.0}),
+    "element_content": ("%", {"%": 1.0, "% масс.": 1.0, "": 1.0}),
+    "current_density": ("A/m2", {"a/m2": 1.0, "a/m²": 1.0, "а/м²": 1.0, "": 1.0}),
+    "particle_size": ("µm", {"um": 1.0, "µm": 1.0, "мкм": 1.0, "": 1.0}),
+    "ph": ("", {"": 1.0}),
+}
+
+
+def search_measurements(store: Store, quantity: str,
+                        value_from: float | None = None,
+                        value_to: float | None = None,
+                        query: str | None = None,
+                        limit: int = 20) -> dict:
+    """Измерения по числовому условию: величина + диапазон значений в её
+    канонической единице (temperature — K, concentration — g/l, доли — %).
+
+    Значение строки: nominal, иначе середина min–max, иначе одна из границ.
+    Единицы приводятся по реестру _MEAS_CANON_UNITS; строки с единицей вне
+    реестра пропускаются (несопоставимы без конверсии). Непустой `query`
+    сужает выдачу по вхождению значимых термов в сниппет/документ; если
+    сужение опустошает результат, условие остаётся главным — вернём без
+    текстового сужения с пометкой в note."""
+    qk = resolve_quantity(store, quantity)
+    if qk is None:
+        return {"query": query or "", "quantity_kind": None, "n": 0,
+                "docs": [], "passages": [],
+                "note": f"величина «{quantity}» не найдена в реестре"}
+    canon_unit, conv = _MEAS_CANON_UNITS.get(qk, ("", {}))
+    rows = store.query("""
+        SELECT r.quantity_kind, r.value_min, r.value_nominal, r.value_max,
+               r.unit, r.prov->>'snippet' AS snippet,
+               r.prov->>'locator' AS locator, d.filename AS doc,
+               d.okf_raw_path AS okf_path, d.country, d.year, d.lang
+        FROM experiments.results r
+        LEFT JOIN experiments.experiments e ON e.id = r.experiment_id
+        LEFT JOIN experiments.documents d ON d.id = e.document_id
+        WHERE r.superseded_by IS NULL AND r.quantity_kind = %s
+          AND COALESCE(r.value_nominal, r.value_min, r.value_max) IS NOT NULL""",
+        (qk,))
+    hits: list[dict] = []
+    for r in rows:
+        unit = (r["unit"] or "").strip().lower()
+        factor = conv.get(unit, None) if conv else 1.0
+        if factor is None:
+            continue
+        v = r["value_nominal"]
+        if v is None:
+            lo, hi = r["value_min"], r["value_max"]
+            v = (lo + hi) / 2 if lo is not None and hi is not None else (
+                lo if lo is not None else hi)
+        v_canon = float(v) * factor
+        if value_from is not None and v_canon < value_from:
+            continue
+        if value_to is not None and v_canon > value_to:
+            continue
+        val = _fmt_value(r)
+        hits.append({
+            "kind": "measurement",
+            "text": f"{qk} = {val} {r['unit'] or canon_unit}".strip(),
+            "snippet": (r["snippet"] or "")[:300], "doc": _clean_doc(r["doc"]),
+            "locator": r["locator"], "okf_path": r["okf_path"],
+            "country": r["country"], "year": r["year"], "lang": r["lang"],
+            "value": val, "unit": r["unit"] or canon_unit,
+            "rank": 0.0, "_v": v_canon})
+    note = None
+    terms = _content_terms(query or "")
+    if terms:
+        narrowed = [h for h in hits if any(
+            _term_in(((h["snippet"] or "") + " " + (h["doc"] or "")).lower(), t)
+            for t in terms)]
+        if narrowed:
+            hits = narrowed
+        elif hits:
+            note = "текст запроса не сузил выдачу — показано всё по условию"
+    hits.sort(key=lambda h: h["_v"])
+    seen: set[tuple] = set()
+    uniq: list[dict] = []
+    for h in hits:
+        key = (h["doc"], (h["snippet"] or h["text"])[:60])
+        if key in seen:
+            continue
+        seen.add(key)
+        h.pop("_v", None)
+        uniq.append(h)
+    uniq = uniq[:limit]
+    return {"query": query or "", "quantity_kind": qk, "unit": canon_unit,
+            "n": len(uniq), "docs": sorted({h["doc"] for h in uniq if h["doc"]}),
+            "passages": uniq, "note": note}
 
 
 def coverage(store: Store) -> dict:

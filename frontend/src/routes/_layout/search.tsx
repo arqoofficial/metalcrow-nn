@@ -3,9 +3,8 @@ import { createFileRoute, Link } from "@tanstack/react-router"
 import { Loader2, Search as SearchIcon } from "lucide-react"
 import { type ReactNode, useState } from "react"
 
-import { WikiService } from "@/client"
+import { SearchService } from "@/client"
 import { PageHeader } from "@/components/Common/PageHeader"
-import { StubBanner, StubMark } from "@/components/Common/StubMark"
 import { Badge } from "@/components/ui/badge"
 import { countRu } from "@/lib/utils"
 
@@ -31,63 +30,209 @@ function highlightNumbers(text: string): ReactNode[] {
   )
 }
 
+// Тип результата → бейдж. Ключи = kind из онтологии (search_passages).
+const KIND_LABELS: Record<string, string> = {
+  measurement: "ИЗМЕРЕНИЕ",
+  finding: "ВЫВОД",
+  recommendation: "РЕКОМЕНДАЦИЯ",
+  chunk: "ФРАГМЕНТ",
+}
+
+const KIND_FILTERS: { value: string; label: string }[] = [
+  { value: "measurement", label: "Измерения" },
+  { value: "finding", label: "Выводы" },
+  { value: "recommendation", label: "Рекомендации" },
+  { value: "chunk", label: "Фрагменты текста" },
+  { value: "document", label: "Документы" },
+]
+
+// параметры числового условия: id = канонические имена величин онтологии,
+// подпись — отображаемая единица (temperature вводится в °C, бэкенд→K)
+const NUMERIC_PARAMS: { value: string; label: string }[] = [
+  { value: "temperature", label: "Температура, °C" },
+  { value: "recovery_degree", label: "Степень извлечения, %" },
+  { value: "concentration", label: "Концентрация, г/л" },
+  { value: "current_density", label: "Плотность тока, А/м²" },
+  { value: "particle_size", label: "Крупность частиц, мкм" },
+]
+
 function SearchPage() {
   const [query, setQuery] = useState("")
   const [submitted, setSubmitted] = useState("")
+  const [kinds, setKinds] = useState<string[]>([])
+  const [yearFrom, setYearFrom] = useState("")
+  const [yearTo, setYearTo] = useState("")
+  const [geoRu, setGeoRu] = useState(false)
+  const [geoEn, setGeoEn] = useState(false)
+  const [numQuantity, setNumQuantity] = useState("")
+  const [numFrom, setNumFrom] = useState("")
+  const [numTo, setNumTo] = useState("")
 
-  const { data, isFetching } = useQuery({
-    queryKey: ["doc-search", submitted],
-    queryFn: () => WikiService.search({ q: submitted }),
-    enabled: submitted.trim().length > 0,
+  // обе галки или ни одной = без фильтра географии
+  const geo = geoRu !== geoEn ? (geoRu ? "ru" : "en") : null
+  const numericActive = Boolean(numQuantity && (numFrom || numTo))
+  // поиск активен по тексту ИЛИ по числовому условию (без текста)
+  const active = submitted.trim().length > 0 || numericActive
+
+  const { data, isFetching, isError } = useQuery({
+    queryKey: [
+      "corpus-search",
+      submitted,
+      kinds,
+      yearFrom,
+      yearTo,
+      geo,
+      numQuantity,
+      numFrom,
+      numTo,
+    ],
+    queryFn: () =>
+      SearchService.corpusSearch({
+        requestBody: {
+          query: submitted,
+          limit: 20,
+          kinds: kinds.length ? kinds : null,
+          year_from: yearFrom ? Number(yearFrom) : null,
+          year_to: yearTo ? Number(yearTo) : null,
+          geo,
+          numeric: numericActive
+            ? {
+                quantity: numQuantity,
+                value_from: numFrom ? Number(numFrom) : null,
+                value_to: numTo ? Number(numTo) : null,
+              }
+            : null,
+        },
+      }),
+    enabled: active,
   })
 
-  const results = data?.results ?? []
+  const passages = data?.passages ?? []
+  const documents = data?.documents ?? []
+  const entities = data?.entities
+  const expanded = data?.expanded_terms ?? []
+  const hasEntities = Boolean(
+    entities?.process ||
+      entities?.quantity_kind ||
+      (entities?.materials?.length ?? 0) > 0,
+  )
+
+  const toggleKind = (value: string) =>
+    setKinds((prev) =>
+      prev.includes(value) ? prev.filter((k) => k !== value) : [...prev, value],
+    )
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <PageHeader title="Поиск по базе знаний" />
 
       <div className="grid min-h-0 flex-1 grid-cols-1 lg:grid-cols-[256px_1fr]">
-        {/* фильтры (заглушка) */}
+        {/* фильтры */}
         <aside className="hidden min-h-0 flex-col gap-5 overflow-y-auto border-r bg-card p-5 lg:flex">
-          <StubBanner>
-            Фильтры по типу, языку, годам и числовым условиям — макет. Активен
-            только полнотекстовый поиск справа.
-          </StubBanner>
-
-          <FilterGroup title="Тип источника">
-            {["Статьи", "Отчёты", "Патенты", "Эксперименты"].map((t) => (
-              <StubCheckbox key={t} label={t} />
+          <FilterGroup title="Тип результата">
+            {KIND_FILTERS.map(({ value, label }) => (
+              <label
+                key={value}
+                className="flex cursor-pointer items-center gap-2 text-[13px]"
+              >
+                <input
+                  type="checkbox"
+                  checked={kinds.includes(value)}
+                  onChange={() => toggleKind(value)}
+                  className="size-3.5 accent-primary"
+                />
+                {label}
+              </label>
             ))}
-          </FilterGroup>
-
-          <FilterGroup title="География / язык">
-            {["RU — отечественные", "EN — мировые"].map((t) => (
-              <StubCheckbox key={t} label={t} />
-            ))}
+            <p className="pt-1 text-[11px] text-muted-foreground">
+              Ничего не выбрано — показываются все типы.
+            </p>
           </FilterGroup>
 
           <FilterGroup title="Годы">
             <div className="flex items-center gap-2">
-              <StubNumber value="2010" />
+              <input
+                type="number"
+                value={yearFrom}
+                onChange={(e) => setYearFrom(e.target.value)}
+                placeholder="от"
+                className="w-[74px] rounded-md border bg-background px-2 py-1.5 text-[12.5px]"
+              />
               <span className="text-muted-foreground">—</span>
-              <StubNumber value="2026" />
+              <input
+                type="number"
+                value={yearTo}
+                onChange={(e) => setYearTo(e.target.value)}
+                placeholder="до"
+                className="w-[74px] rounded-md border bg-background px-2 py-1.5 text-[12.5px]"
+              />
             </div>
+            <p className="pt-1 text-[11px] text-muted-foreground">
+              Результаты без года не скрываются.
+            </p>
           </FilterGroup>
 
-          <div className="border-t pt-4">
-            <div className="flex items-center gap-1 pb-1 text-[11px] font-bold tracking-[0.07em] text-confidence-high-fg uppercase">
-              Числовые условия <StubMark />
-            </div>
-            <p className="pb-3 text-[11.5px] leading-relaxed text-muted-foreground">
-              Поиск по значениям параметров в документах и экспериментах.
+          <FilterGroup title="География / язык">
+            <label className="flex cursor-pointer items-center gap-2 text-[13px]">
+              <input
+                type="checkbox"
+                checked={geoRu}
+                onChange={() => setGeoRu((v) => !v)}
+                className="size-3.5 accent-primary"
+              />
+              RU — отечественные
+            </label>
+            <label className="flex cursor-pointer items-center gap-2 text-[13px]">
+              <input
+                type="checkbox"
+                checked={geoEn}
+                onChange={() => setGeoEn((v) => !v)}
+                className="size-3.5 accent-primary"
+              />
+              EN — мировые
+            </label>
+            <p className="pt-1 text-[11px] text-muted-foreground">
+              Источники без метаданных языка не скрываются.
             </p>
-            <div className="flex flex-col gap-3">
-              <NumericRange label="Температура, °C" from="40" to="70" />
-              <NumericRange label="Скорость потока, л/мин" from="20" to="35" />
-              <NumericRange label="Концентрация Ni²⁺, г/л" from="70" to="90" />
+          </FilterGroup>
+
+          <FilterGroup title="Числовое условие">
+            <select
+              value={numQuantity}
+              onChange={(e) => setNumQuantity(e.target.value)}
+              className="w-full rounded-md border bg-background px-2 py-1.5 text-[12.5px]"
+            >
+              <option value="">— параметр не задан —</option>
+              {NUMERIC_PARAMS.map(({ value, label }) => (
+                <option key={value} value={value}>
+                  {label}
+                </option>
+              ))}
+            </select>
+            <div className="flex items-center gap-2 pt-1">
+              <input
+                type="number"
+                value={numFrom}
+                onChange={(e) => setNumFrom(e.target.value)}
+                placeholder="от"
+                disabled={!numQuantity}
+                className="w-[74px] rounded-md border bg-background px-2 py-1.5 text-[12.5px] disabled:opacity-50"
+              />
+              <span className="text-muted-foreground">—</span>
+              <input
+                type="number"
+                value={numTo}
+                onChange={(e) => setNumTo(e.target.value)}
+                placeholder="до"
+                disabled={!numQuantity}
+                className="w-[74px] rounded-md border bg-background px-2 py-1.5 text-[12.5px] disabled:opacity-50"
+              />
             </div>
-          </div>
+            <p className="pt-1 text-[11px] text-muted-foreground">
+              Ищет измерения величины в диапазоне; текст запроса сужает выдачу.
+              Работает и без текста.
+            </p>
+          </FilterGroup>
         </aside>
 
         {/* результаты */}
@@ -104,7 +249,7 @@ function SearchPage() {
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Поиск по обработанным документам…"
+                placeholder="Поиск по выводам, измерениям и документам корпуса…"
                 className="flex-1 border-none bg-transparent text-sm outline-none placeholder:text-muted-foreground"
               />
               <kbd className="shrink-0 rounded border px-1.5 py-0.5 text-[11px] text-muted-foreground">
@@ -112,18 +257,48 @@ function SearchPage() {
               </kbd>
             </form>
 
-            <div className="flex flex-wrap items-center gap-1.5 text-[11.5px]">
-              <span className="text-muted-foreground">
-                Распознанные сущности
-              </span>
-              <StubMark />
-              <span className="text-muted-foreground">
-                — извлечение материалов/процессов/параметров из запроса ещё не
-                подключено.
-              </span>
-            </div>
+            {/* распознанные сущности — канон из реестров онтологии */}
+            {submitted.trim() && !isFetching && (
+              <div className="flex flex-wrap items-center gap-1.5 text-[11.5px]">
+                <span className="text-muted-foreground">
+                  Распознанные сущности:
+                </span>
+                {hasEntities ? (
+                  <>
+                    {entities?.process && (
+                      <Badge variant="neutral" className="text-[10.5px]">
+                        процесс · {entities.process}
+                      </Badge>
+                    )}
+                    {entities?.quantity_kind && (
+                      <Badge variant="neutral" className="text-[10.5px]">
+                        величина · {entities.quantity_kind}
+                      </Badge>
+                    )}
+                    {(entities?.materials ?? []).map((m) => (
+                      <Badge
+                        key={m}
+                        variant="neutral"
+                        className="text-[10.5px]"
+                      >
+                        материал · {m}
+                      </Badge>
+                    ))}
+                  </>
+                ) : (
+                  <span className="text-muted-foreground">
+                    не распознаны в реестрах онтологии
+                  </span>
+                )}
+                {expanded.length > 0 && (
+                  <span className="text-muted-foreground">
+                    · синонимы: {expanded.slice(0, 5).join(", ")}
+                  </span>
+                )}
+              </div>
+            )}
 
-            {submitted.trim() && (
+            {active && (
               <div className="text-[12.5px] text-muted-foreground">
                 {isFetching ? (
                   <span className="flex items-center gap-2">
@@ -133,40 +308,118 @@ function SearchPage() {
                   <>
                     Найдено{" "}
                     <b className="text-foreground">
-                      {countRu(results.length, [
+                      {countRu(passages.length, [
+                        "фрагмент",
+                        "фрагмента",
+                        "фрагментов",
+                      ])}
+                    </b>
+                    {" · "}
+                    <b className="text-foreground">
+                      {countRu(documents.length, [
                         "документ",
                         "документа",
                         "документов",
                       ])}
                     </b>
-                    {" · эксперименты "}
-                    <StubMark />
                   </>
                 )}
               </div>
             )}
 
-            {!submitted.trim() && (
+            {!active && (
               <p className="pt-6 text-center text-sm text-muted-foreground">
-                Введите запрос — полнотекстовый поиск по обработанным
-                markdown-документам корпуса.
+                Введите запрос — поиск по выводам и измерениям онтологии (с
+                источником и цитатой) и по обработанным документам корпуса. Либо
+                задайте числовое условие в панели слева.
               </p>
             )}
 
-            {submitted.trim() && !isFetching && results.length === 0 && (
+            {active && !isFetching && isError && (
               <p className="pt-6 text-center text-sm text-muted-foreground">
-                Ничего не найдено по запросу «{submitted}».
+                Поиск временно недоступен — попробуйте повторить запрос.
               </p>
             )}
 
-            {results.map((r) => (
+            {active &&
+              !isFetching &&
+              !isError &&
+              passages.length === 0 &&
+              documents.length === 0 && (
+                <p className="pt-6 text-center text-sm text-muted-foreground">
+                  {data?.note ??
+                    (submitted.trim()
+                      ? `Ничего не найдено по запросу «${submitted}».`
+                      : "Ничего не найдено по заданному условию.")}
+                </p>
+              )}
+
+            {passages.map((p, i) => (
+              <div
+                key={`${p.doc}-${i}`}
+                className="flex flex-col gap-2 rounded-xl border bg-card p-4 md:px-[18px]"
+              >
+                <div className="flex items-center gap-2">
+                  <Badge variant="neutral" className="text-[10.5px]">
+                    {KIND_LABELS[p.kind] ?? p.kind.toUpperCase()}
+                  </Badge>
+                  <span className="truncate text-sm font-semibold text-foreground">
+                    {p.doc}
+                  </span>
+                  {p.year && (
+                    <span className="shrink-0 text-[11.5px] text-muted-foreground">
+                      {p.year}
+                    </span>
+                  )}
+                  {p.country && (
+                    <span className="shrink-0 text-[11.5px] text-muted-foreground">
+                      {p.country}
+                    </span>
+                  )}
+                </div>
+                {p.kind === "measurement" && p.text && (
+                  <div className="text-[13px] font-medium">
+                    {highlightNumbers(p.text)}
+                  </div>
+                )}
+                {p.snippet && (
+                  <div className="text-[12.5px] leading-relaxed text-muted-foreground">
+                    …{highlightNumbers(p.snippet)}…
+                  </div>
+                )}
+                {p.kind !== "measurement" && !p.snippet && p.text && (
+                  <div className="text-[12.5px] leading-relaxed text-muted-foreground">
+                    {highlightNumbers(p.text)}
+                  </div>
+                )}
+                <div className="flex items-center gap-3 text-[11.5px] text-muted-foreground">
+                  {p.locator && <span className="font-mono">{p.locator}</span>}
+                  {p.okf_path && (
+                    <Link
+                      to="/wiki"
+                      search={{ doc: p.okf_path }}
+                      className="ml-auto shrink-0 font-medium text-primary hover:underline"
+                    >
+                      Открыть источник
+                    </Link>
+                  )}
+                </div>
+              </div>
+            ))}
+
+            {documents.length > 0 && (
+              <div className="pt-2 text-[11px] font-bold tracking-[0.07em] text-muted-foreground uppercase">
+                Документы корпуса
+              </div>
+            )}
+            {documents.map((r) => (
               <div
                 key={r.okf_path}
                 className="flex flex-col gap-2 rounded-xl border bg-card p-4 md:px-[18px]"
               >
                 <div className="flex items-center gap-2">
                   <Badge variant="neutral" className="text-[10.5px]">
-                    ДОКУМЕНТ <StubMark className="ml-0.5" />
+                    ДОКУМЕНТ
                   </Badge>
                   <span className="text-sm font-semibold text-foreground">
                     {r.title}
@@ -185,12 +438,6 @@ function SearchPage() {
                     className="ml-auto shrink-0 font-medium text-primary hover:underline"
                   >
                     Открыть
-                  </Link>
-                  <Link
-                    to="/graph"
-                    className="shrink-0 font-medium text-primary hover:underline"
-                  >
-                    В граф →
                   </Link>
                 </div>
               </div>
@@ -215,62 +462,6 @@ function FilterGroup({
         {title}
       </div>
       <div className="flex flex-col gap-1.5">{children}</div>
-    </div>
-  )
-}
-
-function StubCheckbox({ label }: { label: string }) {
-  return (
-    <label className="flex cursor-not-allowed items-center gap-2 text-[13px] text-muted-foreground">
-      <input type="checkbox" disabled className="size-3.5 accent-primary" />
-      {label}
-    </label>
-  )
-}
-
-function StubNumber({ value }: { value: string }) {
-  return (
-    <input
-      type="text"
-      value={value}
-      disabled
-      readOnly
-      className="w-[74px] rounded-md border bg-muted/40 px-2 py-1.5 text-[12.5px] text-muted-foreground"
-    />
-  )
-}
-
-function NumericRange({
-  label,
-  from,
-  to,
-}: {
-  label: string
-  from: string
-  to: string
-}) {
-  return (
-    <div>
-      <div className="pb-1.5 text-[12.5px] font-medium text-muted-foreground">
-        {label}
-      </div>
-      <div className="flex items-center gap-2">
-        <input
-          type="text"
-          value={from}
-          disabled
-          readOnly
-          className="w-[74px] rounded-md border border-confidence-high/30 bg-confidence-high-bg/40 px-2 py-1.5 text-[12.5px] text-muted-foreground"
-        />
-        <span className="text-muted-foreground">—</span>
-        <input
-          type="text"
-          value={to}
-          disabled
-          readOnly
-          className="w-[74px] rounded-md border border-confidence-high/30 bg-confidence-high-bg/40 px-2 py-1.5 text-[12.5px] text-muted-foreground"
-        />
-      </div>
     </div>
   )
 }

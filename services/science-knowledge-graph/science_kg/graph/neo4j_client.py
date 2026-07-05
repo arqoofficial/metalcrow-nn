@@ -1,8 +1,10 @@
 """Neo4j client — schema bootstrap, writes, and Cypher queries."""
 
 import json
+import re
 
 from neo4j import AsyncGraphDatabase, AsyncDriver
+from neo4j.exceptions import Neo4jError
 
 from science_kg.models import (
     Entity,
@@ -12,9 +14,37 @@ from science_kg.models import (
     GraphNode,
     GraphEdge,
 )
-from science_kg.nlp.normalizer import canonical_material
+from science_kg.nlp.normalizer import canonical_material, is_element_symbol
 
 _MAX_NEIGHBOURHOOD_DEPTH = 4
+
+# Full-text content channel (SPEC §B1): tokens shorter than this are too generic
+# to distinguish documents and only add noise to the BM25 query.
+_MIN_CONTENT_TERM_LEN = 4
+
+
+def _lucene_or_query(terms: list[str]) -> str:
+    """Build a Lucene OR query from query terms, sanitised for the fulltext
+    parser and biased toward specificity: reserved characters are stripped,
+    short/generic tokens dropped, and longer tokens (a proxy for rarer, more
+    on-topic vocabulary in Russian technical prose) boosted so the channel
+    ranks the article that is *about* the terms over one that merely mentions
+    the common ones. Returns "" when nothing usable remains."""
+    parts: list[str] = []
+    seen: set[str] = set()
+    for t in terms:
+        cleaned = re.sub(r"[^0-9A-Za-zА-Яа-яёЁ\- ]", " ", t).strip()
+        # Chemical element symbols (Cu, Ni, Se…) are shorter than the generic
+        # cutoff but are the sharpest content terms — keep them (SPEC §B1).
+        too_short = len(cleaned) < _MIN_CONTENT_TERM_LEN and not is_element_symbol(cleaned)
+        if too_short or cleaned.lower() in seen:
+            continue
+        seen.add(cleaned.lower())
+        token = f'"{cleaned}"' if " " in cleaned else cleaned
+        if len(cleaned) >= 7:
+            token += "^2"
+        parts.append(token)
+    return " OR ".join(parts)
 
 
 class Neo4jClient:
@@ -47,6 +77,15 @@ class Neo4jClient:
             "FOR (e:Entity) ON (e.embedding) "
             "OPTIONS {indexConfig: {`vector.dimensions`: 1536, "
             "`vector.similarity_function`: 'cosine'}}",
+            # Full-text (Lucene) index over document prose + title, for the RAG
+            # retriever's content channel (SPEC §B1): many on-topic articles
+            # carry no rare distinguishing entity and share little vocabulary
+            # with the question's phrasing (a "обогатительная фабрика" question
+            # vs a "Методы очистки шахтных вод" document), yet the answer text is
+            # literally in the body. TF-IDF over the raw text surfaces it when
+            # entity/title matching can't.
+            "CREATE FULLTEXT INDEX document_text_ft IF NOT EXISTS "
+            "FOR (d:Document) ON EACH [d.text, d.doc_id]",
         ]
         async with self._driver.session(database=self._database) as session:
             for stmt in constraints + indexes:
@@ -543,6 +582,42 @@ class Neo4jClient:
                 cypher, terms=terms, min_match=min_match, limit=limit
             )
             records = await result.data()
+        return [r["doc_id"] for r in records]
+
+    async def find_documents_by_content(
+        self, terms: list[str], limit: int = 3
+    ) -> list[str]:
+        """Return doc_ids whose PROSE best matches the query terms (Lucene BM25
+        via the `document_text_ft` full-text index) — the recall backstop of
+        SPEC §B1.
+
+        A document can answer a question without sharing a rare entity or a
+        title word with it: the relevant sentences just sit in the body
+        ("обессоливание", "сульфаты", "осмос" for a water question phrased about
+        an «обогатительная фабрика»). BM25 already down-weights terms that occur
+        in many documents (IDF), so a generic doc no longer wins purely on term
+        count. We additionally drop short/generic tokens and boost longer terms,
+        which in Russian technical prose are a decent proxy for specificity, to
+        keep the channel precise rather than flooding it with common-word hits.
+
+        Best-effort: if the index is missing (fresh DB before bootstrap) or the
+        query fails to parse, return [] and let the other channels stand."""
+        lucene = _lucene_or_query(terms)
+        if not lucene:
+            return []
+        cypher = """
+        CALL db.index.fulltext.queryNodes('document_text_ft', $q)
+        YIELD node, score
+        RETURN node.doc_id AS doc_id, score
+        ORDER BY score DESC
+        LIMIT $limit
+        """
+        try:
+            async with self._driver.session(database=self._database) as session:
+                result = await session.run(cypher, q=lucene, limit=limit)
+                records = await result.data()
+        except Neo4jError:
+            return []
         return [r["doc_id"] for r in records]
 
 
