@@ -16,7 +16,7 @@ dependencies = [
     # interstitials that curl_cffi cannot pass. Git dependency — the patched
     # Firefox binary itself is downloaded at image-build time via
     # `python -m invisible_playwright fetch` (see Dockerfile).
-    "invisible_playwright @ git+https://github.com/feder-cr/invisible_playwright.git",
+    "invisible-playwright>=0.4.9",
     # Virtual X display (Xvfb wrapper) for the headless tier. The fetcher runs as
     # a long-lived uvicorn service (NOT under xvfb-run), so it must start its own
     # X server around each stealth-Firefox launch. Needs the `Xvfb` binary present
